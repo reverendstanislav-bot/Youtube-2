@@ -31,7 +31,7 @@ V2_NEW={
  'V2-PWR':'V2_POWERTRAIN.png','V2-DIST':'V2_DISTRIBUTION.png','V2-PRED1':'V2_PREDECESSOR_EARLY.png',
  'V2-PRED2':'V2_PREDECESSOR_MIL.png','V2-STEER':'V2_STEER_FOLLOW.png','V2-TRAC':'V2_TRACTION.png',
  'V2-YUMA':'V2_YUMA_OBSERVERS.png','V2-DUNE':'V2_DUNE.png','V2-CARGO':'V2_CARGO.png','V2-LEGACY':'V2_LEGACY.png',
- 'V2-EHERO':'V2_ELECTRIC_HERO.png','V2-NUKE':'V2_NUCLEAR_CONCEPT.png'
+ 'V2-EHERO':'V2_ELECTRIC_HERO.png','V2-NUKE':'V2_NUCLEAR_CONCEPT.png','V2-INTERIOR':'V2_CONTROL_INTERIOR.png'
 }
 
 def archive_path(code):
@@ -97,7 +97,14 @@ def variant_image(code,variant='wide',page=1):
     if kind=='document' or variant=='inside':
         return grade(fit_inside(im,pad=24),kind)
     anchors={'left':(.30,.50),'right':(.70,.50),'top':(.50,.34),'bottom':(.50,.68),'wide':(.50,.50),'detail':(.50,.52),'detail_left':(.35,.52),'detail_right':(.65,.52)}
-    zoom=1.16 if variant.startswith('detail') else 1.0
+    if variant.startswith('detail'):
+        zoom=1.16
+    elif kind=='generated':
+        # Legacy generated plates contain baked collage accents near the frame edge.
+        # Crop those out instead of carrying orange blocks through the whole film.
+        zoom=1.035 if code in V2_NEW else 1.085
+    else:
+        zoom=1.0
     return grade(fit_cover(im,anchor=anchors.get(variant,(.5,.5)),zoom=zoom),kind)
 
 def ch54_composite():
@@ -170,7 +177,7 @@ CHAPTERS=[
  ('WC-D04','detail_right',6,'',1),('AR-CH54-3','detail',6,'',1),('WC-D01','right',7,'sky_payoff',1)
 ]),
 ('EPILOGUE — THE LAST CAR',1115.376,1173.420,[
- ('AR-A03','wide',7,'chapter_lastcar',1),('ST-LAST','wide',8,'',1),('WD-LC01','wide',7,'',1),('AR-A04','wide',6,'',1),
+ ('AR-A03','wide',7,'chapter_lastcar',1),('ST-LAST','wide',8,'',1),('WD-LC01','wide',7,'',1),('V2-INTERIOR','wide',6,'legacy_interior',1),
  ('WD-LC02','wide',7,'',1),('V2-LEGACY','wide',8,'legacy',1),('WD-LC03','wide',8,'',1)
 ]),
 ('ENDING / CTA',1173.420,1236.506,[
