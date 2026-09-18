@@ -70,9 +70,9 @@ def vf(mode,frames):
 concat=WORK/'concat.txt'
 with open(concat,'w') as lf:
     for i,(st,en,code,mode,note) in enumerate(shots,1):
-        frames=max(1,round((en-st)*FPS))
+        cut_end=shots[i][0] if i < len(shots) else DUR\n        frames=max(1,round((cut_end-st)*FPS))
         out=SEG/f'{i:02d}.mp4'
-        subprocess.run(['ffmpeg','-y','-loglevel','error','-loop','1','-i',str(asset(code)),
+        subprocess.run(['ffmpeg','-y','-loglevel','error','-framerate',str(FPS),'-loop','1','-i',str(asset(code)),
                         '-vf',vf(mode,frames),'-frames:v',str(frames),'-an',
                         '-c:v','libx264','-preset','veryfast','-crf','24','-pix_fmt','yuv420p',str(out)],check=True)
         lf.write(f"file '{out.resolve()}'\n")
@@ -130,15 +130,15 @@ sfx=WORK/'sfx.wav'
 fc=[f"anoisesrc=color=brown:duration={DUR}:amplitude=0.025,lowpass=f=120,highpass=f=28,volume=0.16[bed]"]
 delays=[12940,23060,36040,74980,80840]
 for j,d in enumerate(delays):
-    fc.append(f"sine=frequency={58+j*3}:duration=.34,afade=t=out:st=.08:d=.26,volume=0.16,adelay={d}|{d}[i{j}]")
-fc.append("anoisesrc=color=white:duration=.65:amplitude=.15,highpass=f=300,lowpass=f=2500,afade=t=in:d=.08,afade=t=out:st=.18:d=.47,volume=.10,adelay=80650|80650[w]")
+    fc.append(f"sine=frequency={58+j*3}:duration=0.34,afade=t=out:st=0.08:d=0.26,volume=0.16,adelay={d}|{d}[i{j}]")
+fc.append("anoisesrc=color=white:duration=0.65:amplitude=0.15,highpass=f=300,lowpass=f=2500,afade=t=in:d=0.08,afade=t=out:st=0.18:d=0.47,volume=0.10,adelay=80650|80650[w]")
 inputs='[bed]'+''.join(f'[i{j}]' for j in range(len(delays)))+'[w]'
-fc.append(f"{inputs}amix=inputs={len(delays)+2}:normalize=0,alimiter=limit=.35[sfx]")
+fc.append(f"{inputs}amix=inputs={len(delays)+2}:normalize=0,alimiter=limit=0.35[sfx]")
 subprocess.run(['ffmpeg','-y','-loglevel','error','-filter_complex',';'.join(fc),'-map','[sfx]','-t',str(DUR),str(sfx)],check=True)
 
 final=ROOT/'_V2'/'TC497_V3_COLD_OPEN_90S_PROOF.mp4'
 subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(silent),'-i',str(VO),'-i',str(sfx),
-               '-filter_complex',f"[0:v]ass={ass}[v];[1:a]atrim=0:{DUR},asetpts=PTS-STARTPTS,volume=1.0[vo];[2:a]volume=.85[s];[vo][s]amix=inputs=2:normalize=0,alimiter=limit=.94[a]",
+               '-filter_complex',f"[0:v]ass={ass}[v];[1:a]atrim=0:{DUR},asetpts=PTS-STARTPTS,volume=1.0[vo];[2:a]volume=0.85[s];[vo][s]amix=inputs=2:normalize=0,alimiter=limit=0.94[a]",
                '-map','[v]','-map','[a]','-c:v','libx264','-preset','veryfast','-crf','22','-c:a','aac','-b:a','160k',
                '-t',str(DUR),'-movflags','+faststart',str(final)],check=True)
 
