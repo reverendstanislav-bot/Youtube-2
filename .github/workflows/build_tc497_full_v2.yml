@@ -20,6 +20,7 @@ jobs:
       V2_PUBLIC: /tmp/tc497v2/public
       V2_EXTRA: /tmp/tc497v2/extra
       ASS_OUT: /tmp/tc497v2/overlay.ass
+      BUILD_REV: 1339ecabb9dc128967a429ce4cd0e445e94ed314
 
     steps:
       - uses: actions/checkout@v4
