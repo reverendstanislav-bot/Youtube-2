@@ -51,7 +51,7 @@ jobs:
               out.append(line)
           p.write_text("\n".join(out) + "\n", encoding="utf-8-sig")
 
-          d = Path("$PACKAGE_ROOT") / "09_TOOLS" / "download_media.py"
+          d = root / "09_TOOLS" / "download_media.py"
           t = d.read_text(encoding="utf-8")
           t = t.replace("ThreadPoolExecutor(max_workers=6)", "ThreadPoolExecutor(max_workers=3)")
           t = t.replace('"Mozilla/5.0 TC497-CODEX-READY/1.0"', '"Youtube-2/1.0 (contact: reverendstanislav@gmail.com)"')
