@@ -30,7 +30,8 @@ ARCHIVE_MAP={
 V2_NEW={
  'V2-PWR':'V2_POWERTRAIN.png','V2-DIST':'V2_DISTRIBUTION.png','V2-PRED1':'V2_PREDECESSOR_EARLY.png',
  'V2-PRED2':'V2_PREDECESSOR_MIL.png','V2-STEER':'V2_STEER_FOLLOW.png','V2-TRAC':'V2_TRACTION.png',
- 'V2-YUMA':'V2_YUMA_OBSERVERS.png','V2-DUNE':'V2_DUNE.png','V2-CARGO':'V2_CARGO.png','V2-LEGACY':'V2_LEGACY.png'
+ 'V2-YUMA':'V2_YUMA_OBSERVERS.png','V2-DUNE':'V2_DUNE.png','V2-CARGO':'V2_CARGO.png','V2-LEGACY':'V2_LEGACY.png',
+ 'V2-EHERO':'V2_ELECTRIC_HERO.png','V2-NUKE':'V2_NUCLEAR_CONCEPT.png'
 }
 
 def archive_path(code):
@@ -120,9 +121,9 @@ CHAPTERS=[
 ]),
 ('THE ELECTRIC WHEEL',200.699,306.965,[
  ('AR-PATENT','inside',6,'chapter_electric',1),('WA-01','wide',6,'',1),('WA-07R','wide',5,'',1),('V2-PWR','wide',7,'electric_powertrain',1),
- ('WA-02','wide',6,'',1),('ST-ELECTRIC','wide',8,'',1),('WA-08','wide',5,'',1),('V2-DIST','wide',7,'electric_distribution',1),
+ ('WA-02','wide',6,'',1),('V2-EHERO','wide',8,'electric_distribution',1),('WA-08','wide',5,'',1),('V2-DIST','wide',7,'electric_distribution',1),
  ('WA-09','wide',6,'wheel_motor',1),('V2-TRAC','wide',5,'',1),('AR-PATENT','inside',4,'patent_detail',1),('WA-10','wide',8,'',1),
- ('ST-ELECTRIC','detail_left',5,'',1),('WA-09','detail',4,'wheel_motor',1),('V2-PWR','detail_right',5,'electric_powertrain',1)
+ ('V2-EHERO','detail_left',5,'',1),('WA-09','detail',4,'wheel_motor',1),('V2-PWR','detail_right',5,'electric_powertrain',1)
 ]),
 ('BIGGER AND BIGGER',306.965,399.491,[
  ('WC-B01','wide',7,'chapter_bigger',1),('V2-PRED1','wide',7,'recon',1),('WC-B02','wide',6,'',1),('AR-SNO','wide',7,'sno_once',1),
@@ -142,8 +143,8 @@ CHAPTERS=[
  ('V2-STEER','detail_right',5,'closer_follow',1),('WA-04R','detail',5,'',1),('WA-13R','detail_left',5,'',1),('AR-OTTER2','inside',6,'otter',8),('ST-STEER','detail_left',6,'',1)
 ]),
 ('NUCLEAR — RETENTION BEAT',663.014,750.184,[
- ('V2-PWR','wide',6,'chapter_nuclear_actual',1),('WB-N01','wide',7,'nuclear_concept',1),('WB-N02','wide',8,'nuclear_concept',1),('WB-N03','wide',7,'nuclear_distribution',1),
- ('WB-N04','wide',8,'nuclear_unbuilt',1),('WB-N01','detail_left',5,'',1),('WB-N02','detail_right',6,'',1),('WB-N03','detail',5,'nuclear_distribution',1),
+ ('V2-PWR','wide',6,'chapter_nuclear_actual',1),('WB-N01','wide',7,'nuclear_concept',1),('V2-NUKE','wide',8,'nuclear_concept',1),('WB-N03','wide',7,'nuclear_distribution',1),
+ ('WB-N04','wide',8,'nuclear_unbuilt',1),('WB-N01','detail_left',5,'',1),('V2-NUKE','detail_right',6,'nuclear_concept',1),('WB-N03','detail',5,'nuclear_distribution',1),
  ('V2-PWR','detail_left',6,'actual_gas_turbines',1),('WB-N04','detail_right',7,'nuclear_unbuilt',1)
 ]),
 ('YUMA',750.184,822.857,[
