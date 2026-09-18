@@ -42,20 +42,22 @@ jobs:
           root = Path(os.environ["PACKAGE_ROOT"])
           p = root / "06_LICENSES_FACTS" / "ARCHIVE_GREEN_DOWNLOAD_MANIFEST.csv"
           s = p.read_text(encoding="utf-8-sig")
-          out = []
-          prefix = "https://commons.wikimedia.org/wiki/Special:Redirect/file/"
-          for line in s.splitlines():
-              if prefix in line:
-                  first, rest = line.split(",", 1)
-                  if "?width=" not in first:
-                      first += "?width=1600"
-                  line = first + "," + rest
-              out.append(line)
-          p.write_text("\n".join(out) + "\n", encoding="utf-8-sig")
+          replacements = {
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/Map_of_Distant_Early_Warning_(DEW)_Line.jpg": "https://upload.wikimedia.org/wikipedia/commons/6/63/Map_of_Distant_Early_Warning_%28DEW%29_Line.jpg",
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/Barter_Island_DEW_line.jpg": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Barter_Island_DEW_line.jpg",
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/Distant_Early_Warning_radar_site_1N.jpg": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Distant_Early_Warning_radar_site_1N.jpg",
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sno-Freighter.JPG": "https://upload.wikimedia.org/wikipedia/commons/3/32/Sno-Freighter.JPG",
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/CH-54_Tarhe_1960.jpg": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CH-54_Tarhe_1960.jpg",
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ch-54_Army.jpg": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch-54_Army.jpg",
+              "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sikorsky_CH-54_Tarhe.png": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sikorsky_CH-54_Tarhe.png",
+          }
+          for old, new in replacements.items():
+              s = s.replace(old, new)
+          p.write_text(s, encoding="utf-8-sig")
 
           d = root / "09_TOOLS" / "download_media.py"
           t = d.read_text(encoding="utf-8")
-          t = t.replace("ThreadPoolExecutor(max_workers=6)", "ThreadPoolExecutor(max_workers=3)")
+          t = t.replace("ThreadPoolExecutor(max_workers=6)", "ThreadPoolExecutor(max_workers=2)")
           t = t.replace('"Mozilla/5.0 TC497-CODEX-READY/1.0"', '"Youtube-2/1.0 (contact: reverendstanislav@gmail.com)"')
           d.write_text(t, encoding="utf-8")
           PY
