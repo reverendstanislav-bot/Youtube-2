@@ -75,7 +75,8 @@ jobs:
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260918_222304_c2742a87-2ed2-4669-bf66-65543095ffb6.png' -o "$V2_EXTRA/V2_LEGACY.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260918_223846_82111952-45be-4ae5-bc0c-a1dcd308dd5f.png' -o "$V2_EXTRA/V2_ELECTRIC_HERO.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260918_223846_cb411bf3-79f4-448f-907b-93f6a8e4e289.png' -o "$V2_EXTRA/V2_NUCLEAR_CONCEPT.png"
-          test "$(find "$V2_EXTRA" -type f -name '*.png' | wc -l)" -eq 12
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260918_225155_c256ee6d-b461-456e-94d1-c78edcd6de3a.png' -o "$V2_EXTRA/V2_CONTROL_INTERIOR.png"
+          test "$(find "$V2_EXTRA" -type f -name '*.png' | wc -l)" -eq 13
 
       - name: Build V2 visual rhythm and captions
         run: |
