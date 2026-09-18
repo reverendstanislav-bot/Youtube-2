@@ -56,7 +56,7 @@ def vf(mode,frames):
         return base+',crop=960:540:240:135'+grade
     if mode=='static_fade':
         st=max(0,frames/FPS-.35)
-        return base+f",crop=960:540:240:135,eq=saturation=0.82:contrast=1.03,fade=t=out:st={st:.3f}:d=.35,format=yuv420p"
+        return base+f",crop=960:540:240:135,eq=saturation=0.82:contrast=1.03,fade=t=out:st={st:.3f}:d=0.35,format=yuv420p"
     if mode=='detail_left':
         return base+',crop=960:540:70:135'+grade
     if mode=='detail_center':
