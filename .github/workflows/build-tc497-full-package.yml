@@ -1,0 +1,149 @@
+name: Build TC497 CODEX_READY Full Package
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/build-tc497-full-package.yml"
+      - "TC497/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download CODEX_READY control package
+        env:
+          SOURCE_URL: "https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/593dd9d4-d61a-4689-b5be-34a7fcb84d1e.zip"
+        run: |
+          set -euo pipefail
+          mkdir -p build/control
+          curl -fL --retry 5 --retry-delay 3 "$SOURCE_URL" -o build/control_package.zip
+          test "$(stat -c%s build/control_package.zip)" -gt 50000
+          unzip -q build/control_package.zip -d build/control
+          ROOT="$(find build/control -mindepth 1 -maxdepth 1 -type d -name 'Hidden_Industrial_America_TC497_CODEX_READY_v1' | head -n 1)"
+          test -n "$ROOT"
+          echo "PACKAGE_ROOT=$ROOT" >> "$GITHUB_ENV"
+          echo "Package root: $ROOT"
+
+      - name: Download all 62 Higgsfield + 13 GREEN archive files
+        run: |
+          set -euo pipefail
+          cd "$PACKAGE_ROOT"
+          python3 09_TOOLS/download_media.py
+
+      - name: Verify physical package
+        run: |
+          set -euo pipefail
+          GEN_DIR="$PACKAGE_ROOT/12_Генерации/FINAL_62"
+          ARC_DIR="$PACKAGE_ROOT/04_DOWNLOADS/ARCHIVE_GREEN"
+
+          GEN_COUNT="$(find "$GEN_DIR" -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')"
+          ARC_COUNT="$(find "$ARC_DIR" -maxdepth 1 -type f ! -name 'README.txt' | wc -l | tr -d ' ')"
+
+          echo "Higgsfield PNGs: $GEN_COUNT"
+          echo "GREEN archive files: $ARC_COUNT"
+
+          test "$GEN_COUNT" -eq 62
+          test "$ARC_COUNT" -eq 13
+
+          test -s "$PACKAGE_ROOT/03_TIMELINE/TC497_FINAL_VISUAL_TIMELINE_CODEX_EDIT_MAP_v2.xlsx"
+          test -s "$PACKAGE_ROOT/03_TIMELINE/CODEX_EDIT_RULES.md"
+          test -s "$PACKAGE_ROOT/05_PROMPTS/FINAL_GENERATIONS_MANIFEST.csv"
+          test -s "$PACKAGE_ROOT/05_PROMPTS/HIGGSFIELD_FINAL_62_DOWNLOAD_MANIFEST.csv"
+          test -s "$PACKAGE_ROOT/06_LICENSES_FACTS/GREEN_ARCHIVE_MANIFEST.csv"
+          test -s "$PACKAGE_ROOT/06_LICENSES_FACTS/ARCHIVE_GREEN_DOWNLOAD_MANIFEST.csv"
+          test -s "$PACKAGE_ROOT/10_ASSETS_WORK/GRAPHICS_COMPOSITES/GRAPHICS_SPECS.md"
+          test -s "$PACKAGE_ROOT/10_ASSETS_WORK/GRAPHICS_COMPOSITES/COMPOSITE_SPECS.md"
+          test -s "$PACKAGE_ROOT/_QC/FINAL_GENERATION_QC_STATUS.md"
+
+          rm -f "$GEN_DIR/README.txt" "$ARC_DIR/README.txt"
+
+          cat > "$PACKAGE_ROOT/00_START_HERE/FULL_PACKAGE_BUILD_INFO.txt" <<EOF
+          Hidden Industrial America — TC-497 — FULL PHYSICAL CODEX_READY PACKAGE
+          Built by GitHub Actions from commit: $GITHUB_SHA
+
+          Verified contents:
+          - 62 approved Higgsfield PNG files
+          - 13 GREEN archive files
+          - Visual Timeline / Codex Edit Map v2
+          - generation and archive manifests
+          - Codex edit rules
+          - graphics + composite specs
+          - final generation QC status
+
+          No external media download is required after extracting this release ZIP.
+          EOF
+
+          (
+            cd "$PACKAGE_ROOT"
+            find . -type f ! -path './_QC/FILES_SHA256.txt' -print0               | sort -z               | xargs -0 sha256sum               > _QC/FILES_SHA256.txt
+          )
+
+          echo "Physical package verification passed."
+
+      - name: Build one full ZIP
+        run: |
+          set -euo pipefail
+          ZIP_NAME="Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip"
+          ROOT_NAME="$(basename "$PACKAGE_ROOT")"
+          PARENT_DIR="$(dirname "$PACKAGE_ROOT")"
+
+          (
+            cd "$PARENT_DIR"
+            zip -9 -qr "$GITHUB_WORKSPACE/$ZIP_NAME" "$ROOT_NAME"
+          )
+
+          test -s "$ZIP_NAME"
+          FILE_SIZE="$(stat -c%s "$ZIP_NAME")"
+          test "$FILE_SIZE" -gt 1000000
+
+          sha256sum "$ZIP_NAME" > "$ZIP_NAME.sha256"
+          echo "ZIP_NAME=$ZIP_NAME" >> "$GITHUB_ENV"
+          echo "ZIP_SIZE=$FILE_SIZE" >> "$GITHUB_ENV"
+
+          echo "ZIP size bytes: $FILE_SIZE"
+          cat "$ZIP_NAME.sha256"
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: tc497-codex-ready-v1
+        run: |
+          set -euo pipefail
+
+          NOTES="Full physical TC-497 CODEX_READY handoff.
+
+Verified before publishing:
+- 62/62 approved Higgsfield PNGs physically inside the ZIP
+- 13/13 GREEN archive files physically inside the ZIP
+- Visual Timeline / Codex Edit Map v2
+- manifests, rights/fact notes, Codex rules
+- graphics/composite specs and QC status
+
+ZIP size: $ZIP_SIZE bytes.
+No downloader step is required after extraction."
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ZIP_NAME" "$ZIP_NAME.sha256" --clobber
+            gh release edit "$TAG" --title "TC-497 CODEX_READY Full Package v1" --notes "$NOTES"
+          else
+            gh release create "$TAG" "$ZIP_NAME" "$ZIP_NAME.sha256"               --title "TC-497 CODEX_READY Full Package v1"               --notes "$NOTES"
+          fi
+
+      - name: Upload workflow artifact backup
+        uses: actions/upload-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: |
+            ${{ env.ZIP_NAME }}
+            ${{ env.ZIP_NAME }}.sha256
+          if-no-files-found: error
+          retention-days: 30
