@@ -165,7 +165,7 @@ CHAPTERS=[
 ]),
 ('DEFEATED BY THE SKY',1002.057,1115.376,[
  ('AR-CH54-1','wide',7,'chapter_sky',1),('AR-CH54-2','wide',7,'',1),('WC-D02','wide',6,'',1),('ST-SKY','wide',8,'sky_shift',1),
- ('WC-D03','wide',6,'',1),('CP-D01','special',7,'ch54_composite',1),('WC-D04','wide',7,'',1),('AR-CH54-3','wide',7,'',1),
+ ('WC-D03','wide',6,'',1),('AR-CH54-3','wide',7,'',1),('WC-D04','wide',7,'',1),('WC-D05','detail_left',7,'',1),
  ('WC-D05','wide',6,'',1),('WC-D01','wide',7,'',1),('AR-CH54-2','detail',5,'',1),('ST-SKY','detail_left',5,'',1),
  ('WC-D04','detail_right',6,'',1),('AR-CH54-3','detail',6,'',1),('WC-D01','right',7,'sky_payoff',1)
 ]),
@@ -179,7 +179,7 @@ CHAPTERS=[
 ])]
 
 def make_state_image(code,variant,page,out):
-    im=ch54_composite() if code=='CP-D01' else variant_image(code,variant,page)
+    im=variant_image(code,variant,page)
     im.save(out,quality=94,subsampling=0)
 
 def render_segment(img,dur,out):
