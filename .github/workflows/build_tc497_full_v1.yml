@@ -1,4 +1,5 @@
 name: Build TC497 Full V1
+# rerun: concat-newline-fix
 
 on:
   workflow_dispatch:
