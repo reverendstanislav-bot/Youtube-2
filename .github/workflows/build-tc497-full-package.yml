@@ -33,6 +33,31 @@ jobs:
           echo "PACKAGE_ROOT=$ROOT" >> "$GITHUB_ENV"
           echo "Package root: $ROOT"
 
+      - name: Make Wikimedia archive downloads rate-safe
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("$PACKAGE_ROOT") / "06_LICENSES_FACTS" / "ARCHIVE_GREEN_DOWNLOAD_MANIFEST.csv"
+          s = p.read_text(encoding="utf-8-sig")
+          out = []
+          prefix = "https://commons.wikimedia.org/wiki/Special:Redirect/file/"
+          for line in s.splitlines():
+              if prefix in line:
+                  first, rest = line.split(",", 1)
+                  if "?width=" not in first:
+                      first += "?width=1600"
+                  line = first + "," + rest
+              out.append(line)
+          p.write_text("\n".join(out) + "\n", encoding="utf-8-sig")
+
+          d = Path("$PACKAGE_ROOT") / "09_TOOLS" / "download_media.py"
+          t = d.read_text(encoding="utf-8")
+          t = t.replace("ThreadPoolExecutor(max_workers=6)", "ThreadPoolExecutor(max_workers=3)")
+          t = t.replace('"Mozilla/5.0 TC497-CODEX-READY/1.0"', '"Youtube-2/1.0 (contact: reverendstanislav@gmail.com)"')
+          d.write_text(t, encoding="utf-8")
+          PY
+
       - name: Download all 62 Higgsfield + 13 GREEN archive files
         run: |
           set -euo pipefail
