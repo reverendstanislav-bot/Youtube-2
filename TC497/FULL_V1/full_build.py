@@ -442,7 +442,7 @@ def build_rest():
             "beat":row["VO / Visual Beat"],"instruction":row["Codex Edit Instruction"]
         })
     concat=WORK/"rest_concat.txt"
-    concat.write_text("".join("file '"+str(p.resolve())+"'\\n" for p in paths))
+    concat.write_text("".join("file '"+str(p.resolve())+"'\n" for p in paths))
     subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",str(concat),
                     "-c","copy",str(PUB/"rest_base.mp4")],check=True)
     (PUB/"timeline.json").write_text(json.dumps(decisions,ensure_ascii=False,indent=2),encoding="utf-8")
