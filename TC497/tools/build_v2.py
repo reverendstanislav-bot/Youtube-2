@@ -73,15 +73,16 @@ def mode(r):
  return 'STATIC'
 
 def vf(m,n,gen=False):
- b="scale=3840:2160:force_original_aspect_ratio=increase,crop=3840:2160"
+ grade=",eq=saturation=0.82:contrast=1.02" if gen else ",eq=saturation=0.92:contrast=1.01"
+ if m=='STATIC':
+  return f"scale=960:540:force_original_aspect_ratio=increase,crop=960:540{grade},format=yuv420p"
+ b="scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080"
  den=max(n-1,1)
- if m=='STATIC': c="scale=960:540"
- elif m=='PUSH': c=f"zoompan=z='1+0.035*on/{den}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=960x540:fps={FPS}"
+ if m=='PUSH': c=f"zoompan=z='1+0.035*on/{den}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=960x540:fps={FPS}"
  elif m=='PULL': c=f"zoompan=z='1.035-0.035*on/{den}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=960x540:fps={FPS}"
  elif m=='PAN_L': c=f"zoompan=z='1.07':x='(iw-iw/zoom)*(1-on/{den})':y='ih/2-(ih/zoom/2)':d={n}:s=960x540:fps={FPS}"
  elif m=='PAN_R': c=f"zoompan=z='1.07':x='(iw-iw/zoom)*(on/{den})':y='ih/2-(ih/zoom/2)':d={n}:s=960x540:fps={FPS}"
  else: c=f"zoompan=z='1.12':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=960x540:fps={FPS}"
- grade=",eq=saturation=0.82:contrast=1.02" if gen else ",eq=saturation=0.92:contrast=1.01"
  return f"{b},{c}{grade},format=yuv420p"
 
 def one(src,out,n,m,gen=False):
