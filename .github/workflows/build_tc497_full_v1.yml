@@ -1,0 +1,244 @@
+name: Build TC497 Full V1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-full:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
+      TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
+      FULL_WORK: /tmp/tc497full/work
+      FULL_PUBLIC: /tmp/tc497full/remotion/public
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install media and Python tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils fonts-dejavu-core unzip zip
+          python -m pip install --upgrade pip
+          pip install pillow openpyxl numpy
+
+      - name: Download package, VO and transcript
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/tc497pkg /tmp/tc497tr /tmp/tc497full
+          mkdir -p /tmp/tc497pkg /tmp/tc497tr /tmp/tc497full/remotion/src /tmp/tc497full/remotion/public /tmp/tc497full/work
+
+          curl -fL --retry 3 \
+            'https://github.com/reverendstanislav-bot/Youtube-2/releases/download/tc497-codex-ready-v1/Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' \
+            -o /tmp/tc497_package.zip
+          unzip -q /tmp/tc497_package.zip -d /tmp/tc497pkg
+
+          curl -fL --retry 3 "$VO_URL" -o /tmp/tc497full/TC497_FINAL_VO.mp3
+          curl -fL --retry 3 "$TRANSCRIPT_URL" -o /tmp/tc497_transcript.zip
+          unzip -q /tmp/tc497_transcript.zip -d /tmp/tc497tr
+
+          PKG_ROOT="$(find /tmp/tc497pkg -mindepth 1 -maxdepth 1 -type d | head -n 1)"
+          GEN_DIR="$(find "$PKG_ROOT" -type d -name FINAL_62 | head -n 1)"
+          WORD="$(find /tmp/tc497tr -type f -name TC497_VO_WORD_LEVEL.csv | head -n 1)"
+          TRANSCRIPT_DIR="$(dirname "$WORD")"
+
+          test -n "$PKG_ROOT"
+          test -n "$GEN_DIR"
+          test -n "$TRANSCRIPT_DIR"
+          test -s /tmp/tc497full/TC497_FINAL_VO.mp3
+
+          echo "PKG_ROOT=$PKG_ROOT" >> "$GITHUB_ENV"
+          echo "GEN_DIR=$GEN_DIR" >> "$GITHUB_ENV"
+          echo "TRANSCRIPT_DIR=$TRANSCRIPT_DIR" >> "$GITHUB_ENV"
+
+      - name: Prepare full visual timeline and review score
+        run: |
+          set -euo pipefail
+          python TC497/FULL_V1/full_build.py
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 \
+            /tmp/tc497full/remotion/public/rest_base.mp4
+
+      - name: Build full base picture track
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error \
+            -i TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4 \
+            -t 82.6 -an -vf "fps=30,scale=960:540,format=yuv420p" \
+            -c:v libx264 -preset veryfast -crf 19 -pix_fmt yuv420p \
+            /tmp/tc497full/v14_picture.mp4
+
+          cat > /tmp/tc497full/full_concat.txt <<EOF
+          file '/tmp/tc497full/v14_picture.mp4'
+          file '/tmp/tc497full/remotion/public/rest_base.mp4'
+          EOF
+
+          ffmpeg -y -loglevel error -f concat -safe 0 \
+            -i /tmp/tc497full/full_concat.txt -c copy \
+            /tmp/tc497full/remotion/public/full_base.mp4
+
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 \
+            /tmp/tc497full/remotion/public/full_base.mp4
+
+      - name: Build continuous full audio mix
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          ffmpeg -y -loglevel error \
+            -i TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4 \
+            -t 82.6 -vn -ac 2 -ar 48000 -c:a pcm_s16le \
+            /tmp/tc497full/v14_audio.wav
+
+          ffmpeg -y -loglevel error \
+            -i /tmp/tc497full/TC497_FINAL_VO.mp3 \
+            -i /tmp/tc497full/work/rest_score.wav \
+            -filter_complex \
+            "[0:a]atrim=start=82.6:end=1236.506,asetpts=PTS-STARTPTS,aresample=48000,pan=stereo|c0=c0|c1=c0[vo];[1:a]aresample=48000[mu];[vo][mu]amix=inputs=2:duration=first:normalize=0,alimiter=limit=.94[rest]" \
+            -map "[rest]" -ac 2 -ar 48000 -c:a pcm_s16le \
+            /tmp/tc497full/rest_mix.wav
+
+          ffmpeg -y -loglevel error \
+            -i /tmp/tc497full/v14_audio.wav \
+            -i /tmp/tc497full/rest_mix.wav \
+            -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1[a]" \
+            -map "[a]" -t 1236.506 -ac 2 -ar 48000 -c:a pcm_s16le \
+            /tmp/tc497full/remotion/public/full_mix.wav
+
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 \
+            /tmp/tc497full/remotion/public/full_mix.wav
+
+      - name: Prepare Remotion project
+        run: |
+          cp TC497/FULL_V1/index.jsx /tmp/tc497full/remotion/src/index.jsx
+          cp TC497/FULL_V1/package.json /tmp/tc497full/remotion/package.json
+          cd /tmp/tc497full/remotion
+          npm install --no-audit --no-fund
+
+      - name: Render complete 20-minute review cut
+        working-directory: /tmp/tc497full/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx TC497FullV1 out/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            --codec=h264 --crf=20 --pixel-format=yuv420p --concurrency=2
+
+      - name: Final QC and report
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/tc497full/report TC497/FULL_V1
+
+          cp /tmp/tc497full/remotion/out/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4
+
+          ffprobe -v error \
+            -show_entries stream=index,codec_name,width,height,r_frame_rate,avg_frame_rate:format=duration,size,bit_rate \
+            -of json TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            > /tmp/tc497full/report/FULL_V1_FFPROBE.json
+
+          ffmpeg -hide_banner -nostats \
+            -i TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            -af ebur128=peak=true -f null - 2> /tmp/tc497full/report/FULL_V1_EBUR128.txt || true
+
+          ffmpeg -hide_banner -nostats \
+            -i TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            -vf "blackdetect=d=0.5:pix_th=0.02" -an -f null - \
+            2> /tmp/tc497full/report/FULL_V1_BLACKDETECT.txt || true
+
+          cp /tmp/tc497full/remotion/public/timeline.json /tmp/tc497full/report/
+          cp /tmp/tc497full/remotion/public/events.json /tmp/tc497full/report/
+          cp TC497/FULL_V1/full_build.py /tmp/tc497full/report/
+          cp TC497/FULL_V1/index.jsx /tmp/tc497full/report/
+          cp TC497/FULL_V1/README.md /tmp/tc497full/report/
+
+          (cd /tmp/tc497full/report && zip -q -r \
+            "$GITHUB_WORKSPACE/TC497/FULL_V1/TC497_FULL_V1_BUILD_REPORT.zip" .)
+
+          (cd TC497/FULL_V1 && sha256sum \
+            TC497_FULL_V1_REVIEW_960x540.mp4 \
+            TC497_FULL_V1_BUILD_REPORT.zip \
+            > SHA256SUMS.txt)
+
+          cat > TC497/FULL_V1/NEW_CHAT_HANDOFF.md <<'EOF'
+          # TC497 FULL_V1 — NEW CHAT HANDOFF
+
+          Full review cut rendered from the canonical 20:36.506 VO and visual timeline.
+          Cold open 00:00–01:22.6 preserves V14.
+          Review master: TC497_FULL_V1_REVIEW_960x540.mp4
+          Build report: TC497_FULL_V1_BUILD_REPORT.zip
+
+          Key locks:
+          - GREEN archive only
+          - no AI video generation
+          - phrase captions from word-level transcript
+          - nuclear concept explicitly separated from actual gas-turbine TC-497
+          - Project OTTER used for test evidence and 12-ft dune limit
+          - real public-domain CH-54 source used for Defeated by Sky
+          - WD-E05 used for final negative-space end plate
+
+          Next action: review the full cut by chapter/timecode. Patch only weak sections before 1080p final mastering.
+          EOF
+
+          ls -lh TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            TC497/FULL_V1/TC497_FULL_V1_BUILD_REPORT.zip
+
+      - name: Publish small build records to repository
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            TC497/FULL_V1/README.md \
+            TC497/FULL_V1/NEW_CHAT_HANDOFF.md \
+            TC497/FULL_V1/SHA256SUMS.txt \
+            TC497/FULL_V1/TC497_FULL_V1_BUILD_REPORT.zip
+          if git diff --cached --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "Publish TC497 full V1 review records"
+            git push
+          fi
+
+      - name: Publish persistent GitHub release
+        env:
+          GH_TOKEN: \${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="tc497-full-v1-review"
+          gh release view "$TAG" >/dev/null 2>&1 || \
+            gh release create "$TAG" \
+              --title "TC-497 Full V1 Review Cut" \
+              --notes "20:36 full review cut. 960x540 review master; V14 cold open preserved. No AI video generation."
+          gh release upload "$TAG" \
+            TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4 \
+            TC497/FULL_V1/TC497_FULL_V1_BUILD_REPORT.zip \
+            TC497/FULL_V1/SHA256SUMS.txt \
+            --clobber
+
+      - name: Upload full review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v1-review
+          path: |
+            TC497/FULL_V1/TC497_FULL_V1_REVIEW_960x540.mp4
+            TC497/FULL_V1/TC497_FULL_V1_BUILD_REPORT.zip
+            TC497/FULL_V1/SHA256SUMS.txt
+            TC497/FULL_V1/NEW_CHAT_HANDOFF.md
+          compression-level: 0
+          retention-days: 7
