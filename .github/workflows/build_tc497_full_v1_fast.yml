@@ -94,6 +94,7 @@ jobs:
           (cd TC497/FULL_V1_FAST && sha256sum TC497_FULL_V1_FAST_REVIEW_960x540.mp4 FULL_V1_FAST_REPORT.zip > SHA256SUMS.txt)
 
       - name: Publish fast review release
+        continue-on-error: true
         env:
           GH_TOKEN: \${{ github.token }}
         run: |
@@ -108,6 +109,7 @@ jobs:
             TC497/FULL_V1_FAST/SHA256SUMS.txt --clobber
 
       - name: Upload fast review artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: tc497-full-v1-fast-review
