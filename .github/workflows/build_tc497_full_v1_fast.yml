@@ -1,0 +1,119 @@
+name: Build TC497 Full V1 Fast Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v1_fast.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-fast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
+      TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
+      FULL_WORK: /tmp/tc497fast/work
+      FULL_PUBLIC: /tmp/tc497fast/public
+      ASS_OUT: /tmp/tc497fast/overlay.ass
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils fonts-dejavu-core unzip zip
+          pip install pillow openpyxl numpy
+      - name: Download sources
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/tc497pkg /tmp/tc497tr /tmp/tc497fast
+          mkdir -p /tmp/tc497pkg /tmp/tc497tr /tmp/tc497fast/work /tmp/tc497fast/public
+          curl -fL --retry 3 'https://github.com/reverendstanislav-bot/Youtube-2/releases/download/tc497-codex-ready-v1/Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' -o /tmp/pkg.zip
+          unzip -q /tmp/pkg.zip -d /tmp/tc497pkg
+          curl -fL --retry 3 "$VO_URL" -o /tmp/tc497fast/vo.mp3
+          curl -fL --retry 3 "$TRANSCRIPT_URL" -o /tmp/tr.zip
+          unzip -q /tmp/tr.zip -d /tmp/tc497tr
+          PKG_ROOT="$(find /tmp/tc497pkg -mindepth 1 -maxdepth 1 -type d | head -n 1)"
+          GEN_DIR="$(find "$PKG_ROOT" -type d -name FINAL_62 | head -n 1)"
+          WORD="$(find /tmp/tc497tr -type f -name TC497_VO_WORD_LEVEL.csv | head -n 1)"
+          echo "PKG_ROOT=$PKG_ROOT" >> "$GITHUB_ENV"
+          echo "GEN_DIR=$GEN_DIR" >> "$GITHUB_ENV"
+          echo "TRANSCRIPT_DIR=$(dirname "$WORD")" >> "$GITHUB_ENV"
+
+      - name: Build visual states and overlays
+        run: |
+          set -euo pipefail
+          python TC497/FULL_V1/full_build.py
+          python TC497/FULL_V1/make_overlay_ass.py
+
+      - name: Build full base and audio
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4 \
+            -t 82.6 -an -vf "fps=30,scale=960:540,format=yuv420p" \
+            -c:v libx264 -preset veryfast -crf 19 -pix_fmt yuv420p /tmp/tc497fast/v14_picture.mp4
+          printf "file '/tmp/tc497fast/v14_picture.mp4'\nfile '/tmp/tc497fast/public/rest_base.mp4'\n" > /tmp/tc497fast/concat.txt
+          ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/tc497fast/concat.txt -c copy /tmp/tc497fast/full_base.mp4
+
+          ffmpeg -y -loglevel error -i TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4 \
+            -t 82.6 -vn -ac 2 -ar 48000 -c:a pcm_s16le /tmp/tc497fast/v14_audio.wav
+
+          ffmpeg -y -loglevel error -i /tmp/tc497fast/vo.mp3 -i /tmp/tc497fast/work/rest_score.wav \
+            -filter_complex "[0:a]atrim=start=82.6:end=1236.506,asetpts=PTS-STARTPTS,aresample=48000,pan=stereo|c0=c0|c1=c0[vo];[1:a]aresample=48000[mu];[vo][mu]amix=inputs=2:duration=first:normalize=0,alimiter=limit=.94[rest]" \
+            -map "[rest]" -ac 2 -ar 48000 -c:a pcm_s16le /tmp/tc497fast/rest_mix.wav
+
+          ffmpeg -y -loglevel error -i /tmp/tc497fast/v14_audio.wav -i /tmp/tc497fast/rest_mix.wav \
+            -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1[a]" -map "[a]" -t 1236.506 \
+            -ac 2 -ar 48000 -c:a pcm_s16le /tmp/tc497fast/full_mix.wav
+
+      - name: Fast final encode with ASS overlay
+        run: |
+          set -euo pipefail
+          mkdir -p TC497/FULL_V1_FAST /tmp/tc497fast/report
+          ffmpeg -y -loglevel error \
+            -i /tmp/tc497fast/full_base.mp4 -i /tmp/tc497fast/full_mix.wav \
+            -vf "ass=/tmp/tc497fast/overlay.ass" \
+            -map 0:v -map 1:a -t 1236.506 \
+            -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p \
+            -c:a aac -b:a 192k -movflags +faststart \
+            TC497/FULL_V1_FAST/TC497_FULL_V1_FAST_REVIEW_960x540.mp4
+
+          ffprobe -v error -show_entries stream=index,codec_name,width,height,r_frame_rate:format=duration,size,bit_rate \
+            -of json TC497/FULL_V1_FAST/TC497_FULL_V1_FAST_REVIEW_960x540.mp4 > /tmp/tc497fast/report/FFPROBE.json
+          ffmpeg -hide_banner -nostats -i TC497/FULL_V1_FAST/TC497_FULL_V1_FAST_REVIEW_960x540.mp4 \
+            -af ebur128=peak=true -f null - 2> /tmp/tc497fast/report/EBUR128.txt || true
+          cp /tmp/tc497fast/overlay.ass /tmp/tc497fast/report/
+          cp /tmp/tc497fast/public/timeline.json /tmp/tc497fast/report/
+          (cd /tmp/tc497fast/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FULL_V1_FAST/FULL_V1_FAST_REPORT.zip" .)
+          (cd TC497/FULL_V1_FAST && sha256sum TC497_FULL_V1_FAST_REVIEW_960x540.mp4 FULL_V1_FAST_REPORT.zip > SHA256SUMS.txt)
+
+      - name: Publish fast review release
+        env:
+          GH_TOKEN: \${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="tc497-full-v1-fast-review"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" \
+            --title "TC-497 Full V1 Fast Review" \
+            --notes "Full 20:36 review encode using the same V14-based visual cut and ASS overlays."
+          gh release upload "$TAG" \
+            TC497/FULL_V1_FAST/TC497_FULL_V1_FAST_REVIEW_960x540.mp4 \
+            TC497/FULL_V1_FAST/FULL_V1_FAST_REPORT.zip \
+            TC497/FULL_V1_FAST/SHA256SUMS.txt --clobber
+
+      - name: Upload fast review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v1-fast-review
+          path: |
+            TC497/FULL_V1_FAST/TC497_FULL_V1_FAST_REVIEW_960x540.mp4
+            TC497/FULL_V1_FAST/FULL_V1_FAST_REPORT.zip
+            TC497/FULL_V1_FAST/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
