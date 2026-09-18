@@ -38,7 +38,9 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
-          p = Path("$PACKAGE_ROOT") / "06_LICENSES_FACTS" / "ARCHIVE_GREEN_DOWNLOAD_MANIFEST.csv"
+          import os
+          root = Path(os.environ["PACKAGE_ROOT"])
+          p = root / "06_LICENSES_FACTS" / "ARCHIVE_GREEN_DOWNLOAD_MANIFEST.csv"
           s = p.read_text(encoding="utf-8-sig")
           out = []
           prefix = "https://commons.wikimedia.org/wiki/Special:Redirect/file/"
