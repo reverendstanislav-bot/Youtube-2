@@ -84,7 +84,10 @@ jobs:
 
           (
             cd "$PACKAGE_ROOT"
-            find . -type f ! -path './_QC/FILES_SHA256.txt' -print0               | sort -z               | xargs -0 sha256sum               > _QC/FILES_SHA256.txt
+            find . -type f ! -path './_QC/FILES_SHA256.txt' -print0 \
+              | sort -z \
+              | xargs -0 sha256sum \
+              > _QC/FILES_SHA256.txt
           )
 
           echo "Physical package verification passed."
@@ -118,24 +121,15 @@ jobs:
           TAG: tc497-codex-ready-v1
         run: |
           set -euo pipefail
-
-          NOTES="Full physical TC-497 CODEX_READY handoff.
-
-Verified before publishing:
-- 62/62 approved Higgsfield PNGs physically inside the ZIP
-- 13/13 GREEN archive files physically inside the ZIP
-- Visual Timeline / Codex Edit Map v2
-- manifests, rights/fact notes, Codex rules
-- graphics/composite specs and QC status
-
-ZIP size: $ZIP_SIZE bytes.
-No downloader step is required after extraction."
+          NOTES="Full physical TC-497 CODEX_READY handoff. Verified: 62/62 approved Higgsfield PNGs, 13/13 GREEN archive files, Visual Timeline v2, manifests, Codex rules, graphics/composite specs and QC status. ZIP size: $ZIP_SIZE bytes. No downloader step is required after extraction."
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" "$ZIP_NAME" "$ZIP_NAME.sha256" --clobber
             gh release edit "$TAG" --title "TC-497 CODEX_READY Full Package v1" --notes "$NOTES"
           else
-            gh release create "$TAG" "$ZIP_NAME" "$ZIP_NAME.sha256"               --title "TC-497 CODEX_READY Full Package v1"               --notes "$NOTES"
+            gh release create "$TAG" "$ZIP_NAME" "$ZIP_NAME.sha256" \
+              --title "TC-497 CODEX_READY Full Package v1" \
+              --notes "$NOTES"
           fi
 
       - name: Upload workflow artifact backup
