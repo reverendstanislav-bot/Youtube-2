@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      BUILD_REV: 1789782384506
+      BUILD_REV: 1789782547250
       VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V4_WORK: /tmp/tc497v4/work
@@ -104,6 +104,7 @@ jobs:
           set -euo pipefail
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_b479b024-1193-4e1f-b293-0611f7d8cb51.png' -o "$V4_EXTRA/V4_STEER_TRACKS.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_5c93c827-4bc5-466a-8824-fdf0b844fd28.png' -o "$V4_EXTRA/V4_STEER_JOINT.png"
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_5ec671d0-ba6c-40d8-b8b5-65c77d78daa2.png' -o "$V4_EXTRA/V4_DRIVER.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_af253b61-91da-4026-9260-99ae4cb5e4a6.png' -o "$V4_EXTRA/V4_WHEEL_ALT.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_a9c28e97-f856-431a-9517-fb0f8dda9ebf.png' -o "$V4_EXTRA/V4_ASSEMBLY_ALT.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_15664101-2fb5-4666-8e35-c0034242a207.png' -o "$V4_EXTRA/V4_CARGO_ALT.png"
@@ -113,7 +114,7 @@ jobs:
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_716056f2-ff26-4bb6-b680-2559a293dc01.png' -o "$V4_EXTRA/V4_SURVIVOR_INTERIOR.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_a47863ca-4a61-4e9e-9baf-812785b182df.png' -o "$V4_EXTRA/V4_SURVIVOR_DETAIL.png"
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_48dcb295-57ea-4d53-901d-7ce9c3492c42.png' -o "$V4_EXTRA/V4_EMPTY_END.png"
-          test "$(find "$V4_EXTRA" -type f -name '*.png' | wc -l)" -eq 38
+          test "$(find "$V4_EXTRA" -type f -name '*.png' | wc -l)" -eq 39
 
       - name: Build FULL V4 visual rhythm, evidence crops and sound design
         run: |
