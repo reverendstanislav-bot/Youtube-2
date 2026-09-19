@@ -3,7 +3,7 @@
 ## Non-negotiable fixes
 
 1. Remove WA-09 everywhere, including the V14 cold open.
-   - confirmed V14 use: 00:01:01.080–00:01:04.620;
+   - confirmed V14 use: 00:01:01.080–00:01:04.620, replaced with WB-L04 articulation imagery;
    - all post-cold-open WA-09 uses are removed from the V4 shot map as well;
    - build fails if WA-09 remains in either cold-open decisions or shots.json.
 
@@ -12,11 +12,11 @@
    - no second caption layer;
    - no black backing rectangle;
    - no blue caption words;
-   - warm-ivory phrase with the currently spoken word highlighted in orange (#D97932);
-   - active word advances at word-level timing.
+   - muted-orange phrase with the currently spoken word highlighted in brighter orange;
+   - active word advances at word-level timing; no white or blue dialogue-caption words.
 
 3. Preserve current edit corrections.
-   - V6 picture fixes;
+   - V6 picture fixes except the rejected electric-wheel cutaway breaker;
    - V9 Yuma / ground-vs-air fixes;
    - 11:57 bridge fix;
    - V8 ending identity and clean end plate;
