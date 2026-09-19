@@ -1,0 +1,160 @@
+name: Build TC497 FULL V12 Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v12.yml'
+      - 'TC497/FULL_V12/**'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-v12:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip zip fonts-dejavu-core poppler-utils
+
+      - name: Download V9 native 1080 master
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-final-v9-upload-master-1080-surgical
+          path: /tmp/v9
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35431145052
+          github-token: ${{ github.token }}
+
+      - name: Download V4 overlay source
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v4-review
+          path: /tmp/v4
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35414343740
+          github-token: ${{ github.token }}
+
+      - name: Download CODEX package
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Prepare V12 assets and patch-only captions
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/work/v4 /tmp/work/pkg /tmp/work/assets /tmp/work/report/screens TC497/FULL_V12_OUT
+
+          test -s /tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+          unzip -q /tmp/v4/FULL_V4_REPORT.zip -d /tmp/work/v4
+          test -s /tmp/work/v4/overlay_v4.ass
+
+          PKG_ZIP="$(find /tmp/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n 1)"
+          test -n "$PKG_ZIP"
+          unzip -q "$PKG_ZIP" -d /tmp/work/pkg
+
+          GEN_DIR="$(find /tmp/work/pkg -type d -name FINAL_62 | head -n 1)"
+          PATENT="$(find /tmp/work/pkg -type f -name 'AR-PATENT__US2726726_LeTourneau_Electric_Wheel_Patent.pdf' | head -n 1)"
+          ARCHIVE="$(find /tmp/work/pkg -type f -name 'AR-A01__TC497_DVIDS_historical_7602813.jpg' | head -n 1)"
+          test -n "$GEN_DIR"
+          test -s "$GEN_DIR/ST-ELECTRIC.png"
+          test -s "$GEN_DIR/WB-N04.png"
+          test -s "$PATENT"
+          test -s "$ARCHIVE"
+
+          ffmpeg -y -loglevel error -i "$GEN_DIR/ST-ELECTRIC.png"             -vf "crop=1116:499:210:365,scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/st_electric_clean.png
+
+          pdftoppm -f 1 -singlefile -png -r 120 "$PATENT" /tmp/work/assets/patent_page
+          ffmpeg -y -loglevel error -i /tmp/work/assets/patent_page.png             -vf "crop=790:790:70:330,scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/patent_wheel.png
+
+          ffmpeg -y -loglevel error -i "$ARCHIVE"             -vf "scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/archive_tc497.png
+
+          ffmpeg -y -loglevel error -i "$GEN_DIR/WB-N04.png"             -vf "crop=iw*0.70:ih*0.70:iw*0.15:ih*0.15,scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/wb_n04_clean.png
+
+          python3 TC497/FULL_V12/make_v12_patch_ass.py             --source-ass /tmp/work/v4/overlay_v4.ass             --output /tmp/work/v12_patch.ass
+
+      - name: Render FULL V12 review from V9 picture
+        run: |
+          set -euo pipefail
+          IN=/tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+          OUT=TC497/FULL_V12_OUT/TC497_FULL_V12_REVIEW_960x540.mp4
+
+          ffmpeg -y -loglevel error             -i "$IN"             -loop 1 -framerate 30 -i /tmp/work/assets/st_electric_clean.png             -loop 1 -framerate 30 -i /tmp/work/assets/patent_wheel.png             -loop 1 -framerate 30 -i /tmp/work/assets/archive_tc497.png             -loop 1 -framerate 30 -i /tmp/work/assets/wb_n04_clean.png             -filter_complex "              [0:v]scale=960:540:flags=lanczos[base];              [1:v]setpts=PTS-STARTPTS[i1];              [2:v]setpts=PTS-STARTPTS[i2];              [3:v]setpts=PTS-STARTPTS[i3];              [4:v]format=rgba,trim=duration=7.60,setpts=PTS-STARTPTS,                fade=t=in:st=0:d=0.25:alpha=1,                fade=t=out:st=6.90:d=0.70:alpha=1,                setpts=PTS+716.90/TB[i4];              [base][i1]overlay=0:0:eof_action=pass:enable='between(t,261.771,269.100)'[v1];              [v1][i2]overlay=0:0:eof_action=pass:enable='between(t,295.972,300.858)'[v2];              [v2][i3]overlay=0:0:eof_action=pass:enable='between(t,474.502,480.163)'[v3];              [v3][i4]overlay=0:0:eof_action=pass[v4];              [v4]ass=/tmp/work/v12_patch.ass,format=yuv420p[vout]"             -map "[vout]" -map 0:a:0             -t 1236.533333 -r 30             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0             -c:a copy -movflags +faststart             "$OUT"
+
+      - name: Audio identity check
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i /tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v9.aac
+          ffmpeg -y -loglevel error -i TC497/FULL_V12_OUT/TC497_FULL_V12_REVIEW_960x540.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v12.aac
+          sha256sum /tmp/work/v9.aac /tmp/work/v12.aac | tee /tmp/work/report/AUDIO_SHA256.txt
+          cmp /tmp/work/v9.aac /tmp/work/v12.aac
+
+      - name: V12 QC
+        run: |
+          set -euo pipefail
+          OUT=TC497/FULL_V12_OUT/TC497_FULL_V12_REVIEW_960x540.mp4
+
+          ffprobe -v error -count_frames             -show_entries stream=index,codec_name,width,height,r_frame_rate,duration,nb_read_frames:format=duration,size,bit_rate             -of json "$OUT" > /tmp/work/report/FFPROBE.json
+
+          ffmpeg -hide_banner -nostats -i "$OUT"             -vf "blackdetect=d=0.20:pix_th=0.02" -an -f null -             > /dev/null 2> /tmp/work/report/BLACKDETECT.txt || true
+
+          for t in 90 261.5 262.0 264.0 268.9 269.2 295.8 296.2 298.4 300.7 301.1 474.4 474.8 477.0 480.0 480.3 716.7 716.95 717.2 718.0 723.8 724.3 724.6 1228 1235; do
+            ffmpeg -y -loglevel error -ss "$t" -i "$OUT"               -frames:v 1 "/tmp/work/report/screens/frame_${t}.jpg"
+          done
+
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$OUT")" = "960"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$OUT")" = "540"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$OUT")" = "30/1"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of csv=p=0 "$OUT")"
+          test "$FRAMES" = "37096"
+
+          cat > /tmp/work/report/V12_QC.md <<'EOF'
+          # TC497 FULL_V12 — duplicate-caption repair
+
+          REVIEW ONLY. USER APPROVAL REQUIRED.
+
+          Root cause removed:
+          - FULL_V10/FULL_V11 second full-film caption burn-in is not used;
+          - no CapV10 layer;
+          - no BorderStyle=3 / Outline=45 main-caption backplate;
+          - original V9 baked captions are preserved everywhere outside replacement windows.
+
+          Re-applied picture fixes only:
+          - three FULL_V11 Electric Wheel replacements;
+          - FULL_V10 11:57 bridge repair.
+
+          On the four replacement windows only:
+          - original V4 Cap subtitles are reburned because the replacement picture covers the original baked captions;
+          - provenance labels are added using original V4 Source/Document/Tag styles.
+
+          Audio copied bit-for-bit from V9 lineage.
+          EOF
+
+          cp TC497/FULL_V12/EDIT_PLAN.md /tmp/work/report/
+          cp TC497/FULL_V12/make_v12_patch_ass.py /tmp/work/report/
+          cp /tmp/work/v12_patch.ass /tmp/work/report/
+
+          (cd /tmp/work/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FULL_V12_OUT/FULL_V12_REPORT.zip" .)
+          (cd TC497/FULL_V12_OUT && sha256sum             TC497_FULL_V12_REVIEW_960x540.mp4 FULL_V12_REPORT.zip > SHA256SUMS.txt)
+
+      - name: Upload FULL V12 review
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v12-review
+          path: |
+            TC497/FULL_V12_OUT/TC497_FULL_V12_REVIEW_960x540.mp4
+            TC497/FULL_V12_OUT/FULL_V12_REPORT.zip
+            TC497/FULL_V12_OUT/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
