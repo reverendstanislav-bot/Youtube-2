@@ -85,6 +85,7 @@ jobs:
           python -u TC497/FULL_V5/v5_staged.py visual \
             --input-video /tmp/v4artifact/TC497_FULL_V4_REVIEW_960x540.mp4 \
             --visual-patches /tmp/v5cfg/visual_patches.json \
+            --source-ass /tmp/v4report/overlay_v4.ass \
             --output /tmp/v5stage/V5_VISUAL.mp4 \
             --work-dir /tmp/v5stage/visual
           test -s /tmp/v5stage/V5_VISUAL.mp4
