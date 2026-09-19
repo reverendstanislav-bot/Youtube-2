@@ -1,4 +1,4 @@
-name: Build TC497 FINAL 1080 Fast Master
+name: Build TC497 FINAL 1080 VeryFast Master
 
 on:
   workflow_dispatch:
@@ -100,7 +100,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p TC497/FINAL_1080_FAST
-          ffmpeg -y -loglevel error             -i /tmp/v5artifact/TC497_FULL_V5_QUICKCHECK_960x540.mp4             -loop 1 -framerate 30 -i /tmp/fast/patch/electric_human.png             -loop 1 -framerate 30 -i /tmp/fast/patch/electric_wheel.png             -i /tmp/fast/final_audio.wav             -filter_complex "              [1:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p1];              [2:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p2];              [0:v][p1]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,215.356,221.464)'[v1];              [v1][p2]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,230.014,237.342)'[v2];              [v2]ass=/tmp/fast/v51_patch.ass,scale=1920:1080:flags=lanczos,unsharp=5:5:0.20:5:5:0.0,format=yuv420p[vout]"             -map "[vout]" -map 3:a -t 1236.533333             -c:v libx264 -preset fast -crf 17 -profile:v high -level 4.1 -pix_fmt yuv420p             -c:a aac -b:a 256k -movflags +faststart             TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4
+          ffmpeg -y -loglevel error             -i /tmp/v5artifact/TC497_FULL_V5_QUICKCHECK_960x540.mp4             -loop 1 -framerate 30 -i /tmp/fast/patch/electric_human.png             -loop 1 -framerate 30 -i /tmp/fast/patch/electric_wheel.png             -i /tmp/fast/final_audio.wav             -filter_complex "              [1:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p1];              [2:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p2];              [0:v][p1]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,215.356,221.464)'[v1];              [v1][p2]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,230.014,237.342)'[v2];              [v2]ass=/tmp/fast/v51_patch.ass,scale=1920:1080:flags=lanczos,unsharp=5:5:0.20:5:5:0.0,format=yuv420p[vout]"             -map "[vout]" -map 3:a -t 1236.533333             -c:v libx264 -preset veryfast -crf 16 -profile:v high -level 4.1 -pix_fmt yuv420p             -c:a aac -b:a 256k -movflags +faststart             TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4
 
       - name: Final QC
         run: |
