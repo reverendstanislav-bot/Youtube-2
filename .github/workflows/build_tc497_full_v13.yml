@@ -86,34 +86,7 @@ jobs:
       - name: Download V4 and V6 picture assets from existing manifests
         run: |
           set -euo pipefail
-          python - <<'PY'
-          import re,subprocess
-          from pathlib import Path
-
-          text=Path('.github/workflows/build_tc497_final_1080.yml').read_text()
-          pairs=re.findall(r"'(https://d8j0ntlcm91z4\.cloudfront\.net/[^']+)'\s+-o "\$V4_EXTRA/([^"]+)"",text,re.S)
-          if len(pairs)<39:
-              raise SystemExit(f'Expected >=39 V4 extras, found {len(pairs)}')
-          seen={}
-          for url,name in pairs:
-              seen[name]=url
-          for name,url in seen.items():
-              out=Path('/tmp/v13/v4extra')/name
-              subprocess.run(['curl','-fL','--retry','4','--retry-all-errors',url,'-o',str(out)],check=True)
-
-          vpairs=re.findall(r"'(https://d8j0ntlcm91z4\.cloudfront\.net/[^']+)'\s+-o /tmp/tc497master/v5patch/([^\s]+)",text,re.S)
-          for url,name in vpairs:
-              subprocess.run(['curl','-fL','--retry','4','--retry-all-errors',url,'-o',f'/tmp/v13/v5patch/{name}'],check=True)
-
-          text2=Path('.github/workflows/build_tc497_final_v9_1080_surgical.yml').read_text()
-          for name in ['electric_human_v6.png','electric_wheel_v6.png']:
-              m=re.search(r"'(https://d8j0ntlcm91z4\.cloudfront\.net/[^']+)'\s+-o /tmp/work/assets/"+re.escape(name),text2,re.S)
-              if not m:
-                  raise SystemExit('missing '+name)
-              subprocess.run(['curl','-fL','--retry','4','--retry-all-errors',m.group(1),'-o',f'/tmp/v13/patch/{name}'],check=True)
-
-          print('V4 extras',len(seen),'V5 patches',len(vpairs))
-          PY
+          python3 TC497/FULL_V13/download_assets.py
 
           for f in electric_human_v6.png electric_wheel_v6.png; do test -s "/tmp/v13/patch/$f"; done
           for f in nuclear_concept_clean.png nuclear_unbuilt_clean.png heavy_lift_logistics_clean.png ground_vs_air_clean.png survivor_detail_clean.png; do
