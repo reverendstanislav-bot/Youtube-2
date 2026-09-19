@@ -37,7 +37,7 @@ NEW_ASSETS={
  'V3-ASSEMBLY':'V3_ASSEMBLY.png','V3-COUPLING':'V3_COUPLING.png','V3-TOPDOWN':'V3_TOPDOWN.png','V3-CARGOLOAD':'V3_CARGOLOAD.png',
  'V3-CREW':'V3_CREW.png','V3-WHEEL':'V3_WHEEL_MOTION.png','V3-RANGE':'V3_RANGE.png','V3-LEGACYDETAIL':'V3_LEGACY_DETAIL.png',
  'V3-EMPTY':'V3_EMPTY_YUMA.png','V3-HELILOAD':'V3_HELI_LOAD.png',
- 'V4-STEER-TRACKS':'V4_STEER_TRACKS.png','V4-STEER-JOINT':'V4_STEER_JOINT.png',
+ 'V4-STEER-TRACKS':'V4_STEER_TRACKS.png','V4-STEER-JOINT':'V4_STEER_JOINT.png','V4-DRIVER':'V4_DRIVER.png',
  'V4-WHEEL':'V4_WHEEL_ALT.png','V4-ASSEMBLY':'V4_ASSEMBLY_ALT.png','V4-CARGO':'V4_CARGO_ALT.png',
  'V4-RANGE':'V4_RANGE_ALT.png','V4-NUKE':'V4_NUKE_TECH.png','V4-HELI':'V4_HELI_CARGO.png',
  'V4-SURVIVOR-INTERIOR':'V4_SURVIVOR_INTERIOR.png','V4-SURVIVOR-DETAIL':'V4_SURVIVOR_DETAIL.png',
@@ -206,7 +206,7 @@ CHAPTERS=[
  ('V3-PRED','wide',6,'chapter_bigger',1),('AR-SNO','wide',5,'sno_once',1),('V4-ASSEMBLY','wide',6,'human_scale',1),
  ('V3-COUPLING','detail',5,'mechanical_detail',1),('V2-PRED2','wide',6,'recon',1),('V4-WHEEL','detail',5,'mechanical_detail',1),
  ('V2-PRED1','wide',6,'recon',1),('V4-CARGO','wide',6,'operation',1),('V3-CREW','wide',5,'crew_scale',1),
- ('V4-RANGE','wide',5,'range_context',1),('V3-TOPDOWN','wide',6,'scale_geometry',1),('WB-L02','wide',6,'tc497_arrives',1),
+ ('V3-EMPTY','wide',5,'range_context',1),('V3-TOPDOWN','wide',6,'scale_geometry',1),('WB-L02','wide',6,'tc497_arrives',1),
  ('V4-ASSEMBLY','detail_left',5,'human_scale',1),('V4-CARGO','detail_right',5,'operation',1),('V4-WHEEL','detail_right',5,'mechanical_detail',1),
  ('V3-PRED','detail_left',5,'recon',1)
 ]),
@@ -214,18 +214,18 @@ CHAPTERS=[
  ('AR-A01','wide',5,'chapter_572',1),('ST-572','wide',6,'scale_572',1),('V3-TOPDOWN','detail',5,'scale_geometry',1),
  ('WB-L05','detail',5,'wheels_54',1),('V3-CREW','detail',4,'crew_scale',1),('V3-CARGOLOAD','wide',5,'cargo',1),
  ('V3-RANGE','wide',5,'range_context',1),('V3-ASSEMBLY','wide',5,'human_scale',1),('V3-WHEEL','detail',4,'mechanical_detail',1),
- ('V3-COUPLING','detail_right',4,'mechanical_detail',1),('V2-CARGO','wide',5,'cargo',1),('WA-09','detail',4,'wheel_motor',1),
+ ('V4-STEER-JOINT','detail_left',4,'mechanical_detail',1),('V2-CARGO','wide',5,'cargo',1),('WA-09','detail',4,'wheel_motor',1),
  ('V2-TRAC','wide',5,'distributed_traction',1),('WB-L02','detail_left',5,'full_machine',1),('V2-DIST','detail_right',5,'electric_distribution',1),
- ('V3-ASSEMBLY','detail_left',4,'human_scale',1),('V3-WHEEL','detail_right',4,'mechanical_detail',1),
+ ('V4-ASSEMBLY','detail_right',4,'human_scale',1),('V4-DRIVER','detail_left',4,'crew_scale',1),
  ('V3-CARGOLOAD','detail',4,'cargo',1),('V3-RANGE','detail',5,'range_context',1)
 ]),
 ('HOW DO YOU DRIVE 572 FEET?',525.453,663.014,[
  ('V4-STEER-TRACKS','wide',6,'chapter_steer',1),('AR-OTTER1','doc_mid',5,'otter',1),('V4-STEER-JOINT','detail',5,'mechanical_detail',1),
  ('V2-STEER','wide',6,'closer_follow',1),('V2-TRAC','detail_left',5,'distributed_traction',1),('V3-TOPDOWN','detail_right',5,'scale_geometry',1),
- ('V4-STEER-TRACKS','detail',5,'closer_follow',1),('AR-OTTER2','doc_upper',5,'otter',8),('V4-STEER-JOINT','detail_right',5,'mechanical_detail',1),
+ ('V4-STEER-TRACKS','detail',5,'closer_follow',1),('AR-OTTER2','doc_upper',5,'otter',8),('V4-DRIVER','wide',5,'crew_scale',1),
  ('V2-STEER','detail_left',5,'closer_follow',1),('V3-YUMA','wide',6,'yuma_test',1),('V3-WHEEL','detail_left',4,'test_mechanics',1),
  ('V3-CREW','detail_right',4,'crew_scale',1),('V3-ASSEMBLY','detail_right',4,'human_scale',1),('AR-OTTER1','doc_lower',5,'otter',1),
- ('AR-OTTER2','doc_mid',5,'evidence_crop',8),('V3-COUPLING','detail_left',4,'mechanical_detail',1),('V2-YUMA','detail_left',5,'yuma_test',1),
+ ('AR-OTTER2','doc_mid',5,'evidence_crop',8),('V3-COUPLING','detail_left',4,'mechanical_detail',1),('AR-OTTER1','doc_center',5,'evidence_crop',1),
  ('V4-RANGE','detail_right',5,'range_context',1)
 ]),
 ('NUCLEAR — RETENTION BEAT',663.014,750.184,[
@@ -237,25 +237,25 @@ CHAPTERS=[
 ('YUMA',750.184,822.857,[
  ('AR-OTTER1','doc_upper',5,'chapter_yuma',1),('V3-YUMA','detail_right',6,'yuma_test',1),('V2-YUMA','wide',6,'yuma_test',1),
  ('AR-OTTER2','doc_center',5,'otter',26),('V3-DUNE','wide',6,'dune_setup',1),('V2-DUNE','detail_right',5,'dune_setup',1),
- ('V4-RANGE','wide',5,'range_context',1),('V3-CARGOLOAD','detail_left',5,'operation',1),('V2-YUMA','detail_right',5,'yuma_test',1)
+ ('V4-RANGE','wide',5,'range_context',1),('V2-CARGO','detail_left',5,'operation',1),('V2-YUMA','detail_right',5,'yuma_test',1)
 ]),
 ('TEST RESULTS',822.857,915.853,[
  ('AR-OTTER2','doc_upper',4,'chapter_tests',26),('AR-OTTER2','doc_mid',4,'evidence_crop',26),('V3-YUMA','detail_left',5,'yuma_test',1),
- ('V4-WHEEL','detail',4,'test_mechanics',1),('AR-OTTER2','doc_mid',4,'otter_limit',47),('V3-DUNE','wide',5,'dune_limit',1),
+ ('WB-L05','detail_right',4,'test_mechanics',1),('AR-OTTER2','doc_mid',4,'otter_limit',47),('V3-DUNE','wide',5,'dune_limit',1),
  ('V2-DUNE','detail_right',4,'dune_limit',1),('V2-YUMA','wide',5,'yuma_test',1),('AR-OTTER2','doc_lower',4,'evidence_crop',26),
- ('V3-COUPLING','detail',4,'mechanical_detail',1),('V3-DUNE','detail_left',4,'dune_limit',1),('V3-YUMA','wide',5,'yuma_test',1),
+ ('V3-COUPLING','detail',4,'mechanical_detail',1),('V3-DUNE','detail_left',4,'dune_limit',1),('AR-OTTER2','doc_center',5,'evidence_crop',47),
  ('AR-OTTER2','doc_upper',4,'evidence_crop',47),('V4-STEER-JOINT','detail_left',4,'mechanical_detail',1),('V2-DUNE','wide',5,'dune_limit',1)
 ]),
 ('IT WORKED',915.853,1002.057,[
  ('V4-WHEEL','wide',5,'metric_speed',1),('V4-RANGE','wide',5,'metric_range',1),('V4-CARGO','wide',5,'metric_cargo',1),
- ('V3-CREW','wide',5,'metric_crew',1),('AR-OTTER2','doc_center',4,'evidence_crop',26),('V3-TOPDOWN','wide',5,'scale_geometry',1),
+ ('V4-DRIVER','detail_right',5,'metric_crew',1),('AR-OTTER2','doc_center',4,'evidence_crop',26),('ST-572','detail_left',5,'scale_geometry',1),
  ('V3-CARGOLOAD','detail_right',5,'cargo',1),('V3-RANGE','detail_left',5,'range_context',1),('V3-ASSEMBLY','detail_left',4,'human_scale',1),
- ('V3-WHEEL','detail_right',4,'operational_motion',1),('V2-CARGO','detail',5,'cargo',1),('V2-TRAC','detail_right',4,'distributed_traction',1)
+ ('WB-L05','detail_left',4,'operational_motion',1),('V2-CARGO','detail',5,'cargo',1),('WA-10','detail_right',4,'distributed_traction',1)
 ]),
 ('DEFEATED BY THE SKY',1002.057,1115.376,[
  ('AR-CH54-1','wide',5,'chapter_sky',1),('V4-HELI','wide',6,'heli_operation',1),('WC-D02','wide',5,'',1),
  ('ST-SKY','wide',6,'sky_shift',1),('AR-CH54-2','wide',5,'archive_heli',1),('V4-HELI','detail_left',5,'heli_operation',1),
- ('WC-D04','wide',5,'',1),('AR-CH54-3','wide',5,'archive_heli',1),('V3-RANGE','wide',5,'ground_context',1),
+ ('WC-D04','wide',5,'',1),('AR-CH54-3','wide',5,'archive_heli',1),('WC-D02','detail_left',5,'ground_context',1),
  ('WC-D01','wide',5,'',1),('AR-CH54-2','detail',4,'archive_heli',1),('WC-D04','detail_right',4,'',1),
  ('AR-CH54-3','detail',4,'archive_heli',1),('WC-D01','right',5,'sky_payoff',1)
 ]),
@@ -296,11 +296,11 @@ def visual_category(code,variant,tag):
     if code.startswith('AR-OTTER') or code=='AR-PATENT': return 'document'
     if code.startswith('AR-'): return 'archive'
     if code in {'V4-ASSEMBLY','V3-ASSEMBLY','V3-CREW'}: return 'human'
+    if code in {'V3-TOPDOWN','V4-STEER-TRACKS'}: return 'geometry'
     if code in {'V4-STEER-JOINT','V4-WHEEL','V3-COUPLING','V3-WHEEL','WB-L05','WA-09','V2-TRAC'} or str(variant).startswith('detail'): return 'mechanical_detail'
     if code in {'V4-RANGE','V4-EMPTY-END','V3-RANGE','V3-EMPTY','V3-DUNE','V2-DUNE'}: return 'environment'
     if code in {'V4-CARGO','V4-HELI','V3-CARGOLOAD','V2-CARGO'}: return 'operation'
     if code in FULL_TC497 and not str(variant).startswith('detail'): return 'full_tc497'
-    if code in {'V3-TOPDOWN','V4-STEER-TRACKS'} and variant=='wide': return 'geometry'
     if code=='V4-NUKE' or code=='V2-NUKE': return 'concept'
     return 'reconstruction'
 
@@ -475,13 +475,17 @@ def audit(shots):
     counts=Counter(x['code'] for x in shots)
     ds=[x['e']-x['s'] for x in shots]
     full_streak=0; max_full=0; cat_streak=0; max_cat=0; prev=None
+    priority={'HOW DO YOU DRIVE 572 FEET?','NUCLEAR — RETENTION BEAT','TEST RESULTS','IT WORKED','DEFEATED BY THE SKY','EPILOGUE — THE LAST CAR','ENDING / CTA'}
     for x in shots:
         if x['category']=='full_tc497': full_streak+=1
         else: full_streak=0
         max_full=max(max_full,full_streak)
-        if x['category']==prev: cat_streak+=1
-        else: cat_streak=1; prev=x['category']
-        max_cat=max(max_cat,cat_streak)
+        if x['chapter'] in priority and x['category'] not in {'archive','document'}:
+            if x['category']==prev: cat_streak+=1
+            else: cat_streak=1; prev=x['category']
+            max_cat=max(max_cat,cat_streak)
+        else:
+            cat_streak=0; prev=None
 
     orange_files=[]
     for p in IMG.glob('*.jpg'):
