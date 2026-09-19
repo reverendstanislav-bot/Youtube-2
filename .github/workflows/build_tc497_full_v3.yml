@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
+      BUILD_REV: 1789780432844
       VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V3_WORK: /tmp/tc497v3/work
