@@ -5,7 +5,7 @@
 Episode: LeTourneau TC-497 Overland Train  
 Project: Hidden Industrial America / YouTube-2
 
-Current state: **FULL_V6 IS THE CURRENT REVIEW VERSION AND HAS PASSED TARGETED TECHNICAL / EDITORIAL QC, BUT THE USER HAS NOT APPROVED THE VIDEO YET.**
+Current state: **FULL_V8 IS THE CURRENT REVIEW VERSION. IT HAS BEEN BUILT AND INSPECTED, BUT THE USER HAS NOT APPROVED THE VIDEO YET.**
 
 This distinction is critical.
 
@@ -16,85 +16,151 @@ Do **not** proceed to publishing metadata as though the edit is locked.
 ## CURRENT REVIEW VERSION
 
 Review artifact:
-- GitHub Actions run: `35424958934`
-- artifact: `tc497-full-v6-review`
-- artifact id: `10578413797`
-- size: ~288 MB
+- GitHub Actions run: `35426397417`
+- artifact: `tc497-full-v8-review`
+- artifact id: `10579345943`
+- size: ~288.3 MB
 - review resolution: 960×540
 - duration: 20:36.533
-- frames: 37,096 @ 30 fps
+- video: H.264 / 30 fps
+- audio: AAC
+- integrated loudness: -13.5 LUFS
+- LRA: 3.7 LU
+- true peak: -1.9 dBFS
 
-Reference:
-- `TC497/FULL_V6/CRITIC_QC.md`
-- `TC497/FULL_V6/v6_patch_chunk.py`
-- `TC497/FULL_V6/v6_patch_manifest.json`
-- `.github/workflows/build_tc497_full_v6.yml`
+Relevant files:
+- `TC497/FULL_V8/ENDING_DECISION.md`
+- `TC497/FULL_V8/v8_fast_render.py`
+- `.github/workflows/build_tc497_full_v8.yml`
+- `TC497/FULL_V7/generate_outro_music.py`
 
 Status:
-- targeted V6 critic/QC pass completed;
-- user approval still pending.
+- FULL_V8 review render succeeded;
+- ending frames and audio QC were inspected;
+- user approval is still pending.
 
-## WHAT WAS FOUND WHEN FULL_V5 WAS ACTUALLY INSPECTED
+## WHY V8 EXISTS
 
-FULL_V5 review artifact from run `35421885255` was downloaded and visually inspected.
+A 10-viewer editorial audit of FULL_V6 found that the remaining strongest weakness was the ending.
 
-Two build defects were found that the old V5 QC did not catch:
+The old ending used a centered channel card:
+- `HIDDEN INDUSTRIAL AMERICA`
+- `THE MACHINE WORKED. THE WORLD MOVED ON.`
 
-1. `TC497/FULL_V5/visual_patches.v5.json` declared seven visual replacements, but the V5 workflow downloaded only five. The two Electric Wheel continuity breakers were missing and the V5 script logged warnings and skipped them.
-2. `v5_fix_and_music.py` supports reburning ASS overlays, but the V5 workflow did not pass `--source-ass`. Therefore captions/source labels disappeared over the five V5 replacement intervals that did render.
+It then continued into a generic spoken/subtitled subscribe CTA.
 
-So FULL_V5's green technical status did **not** mean the intended edit was fully applied.
+The combination felt like a temporary YouTube bumper rather than the end of a premium documentary.
 
-## WHAT FULL_V6 CHANGED
+The existing V5/V6 music architecture also ended around 19:45, leaving roughly the final 51 seconds without a proper musical resolution.
 
-FULL_V6 uses FULL_V5 as the review base and changes only the identified regressions:
+## WHAT FULL_V8 CHANGED
 
-- adds the missing Electric Wheel human/control-cab breaker;
-- adds the missing Electric Wheel drive-detail breaker;
-- explicitly labels both new generated Electric Wheel stills as `RECONSTRUCTION`;
-- restores the original V4 ASS captions/source labels across all seven replacement intervals;
-- preserves all other V5 edit decisions;
-- preserves the V5 AAC audio elementary stream bit-for-bit.
+FULL_V8 keeps the approved-in-principle V6 picture/edit before the ending and changes only the tail:
 
-Verified V5/V6 AAC SHA-256:
-`d171be550180d3f03fc89489c7fd2e3c9ece25f5579cfd023df0b4a7d8103722`
+- keeps the final documentary sentence: `something that no longer needed one.`;
+- removes the old centered end slogan;
+- removes the generic spoken/subtitled subscribe CTA after ~20:25.45;
+- replaces the branded final plate with a clean Yuma/desert image;
+- uses restrained left-aligned modern editorial typography:
+  - `HIDDEN INDUSTRIAL AMERICA`
+  - `TC-497`
+  - `OVERLAND TRAIN`
+- leaves the right side visually quiet for YouTube end-screen elements;
+- adds an original copyright-independent resolving music cue from ~19:45 through the ending;
+- no zoom ping-pong;
+- no collage blocks;
+- no fake archive treatment;
+- no third-party commercial music.
 
-Verified timing:
-- V5: 1236.533333 s / 37,096 frames / 30 fps
-- V6: 1236.533333 s / 37,096 frames / 30 fps
+The final ~11 seconds are now desert / restrained identity / resolving music rather than a sales CTA.
 
-V14 remains the locked cold-open grammar and was not changed.
+## 10-VIEWER AUDIT — MAIN FINDINGS
 
-## V6 PATCH INTERVALS
+1. Casual YouTube viewer
+   - Cold open works.
+   - Middle can feel longer than its actual cut rate because similar desert/machine/reconstruction families recur.
+   - Old ending was the clearest weak point.
 
-- 215.356–221.464 — Electric Wheel human/control break + RECONSTRUCTION
-- 230.014–237.342 — Electric Wheel drive detail + RECONSTRUCTION
-- 709.241–717.165 — Nuclear concept + restored ASS
-- 730.373–736.976 — proposed/unbuilt concept + restored ASS
-- 1079.245–1087.457 — heavy-lift logistics + restored captions
-- 1107.164–1115.376 — ground-vs-air + restored RECONSTRUCTION/source grammar
-- 1209.007–1215.477 — survivor detail + restored captions
+2. Industrial-history viewer
+   - Archive documents, patents, Yuma material and survivor imagery are the strongest trust-building visuals.
+   - Reconstructions work best when documentary evidence remains dominant.
+
+3. Engineer
+   - Electric Wheel is materially clearer after V6.
+   - A few long technical holds still feel presentation-like.
+
+4. Documentary/cinema viewer
+   - Overall grade is coherent.
+   - Generated desert reconstructions share a similar beige/olive family.
+   - Old centered end card broke the cinematic resolution.
+
+5. AI-skeptical viewer
+   - ARCHIVE / DOCUMENT / RECONSTRUCTION / CONCEPT grammar is essential and generally works.
+   - Some polished reconstructions rely heavily on their source labels for trust.
+
+6. Mobile viewer
+   - Main subtitles are readable.
+   - Some provenance labels are relatively small.
+   - Removing the centered CTA reduces text competition at the end.
+
+7. Sound-sensitive viewer
+   - VO remains clear.
+   - V6 lacked a real musical resolve in the last ~51 seconds.
+   - V8 restores a restrained ending cue without materially changing overall loudness.
+
+8. Retention editor
+   - Biggest remaining fatigue risk is visual-family repetition rather than insufficient cutting.
+   - The strongest possible future micro-fixes would target repeated middle-film visual families, not add more motion for its own sake.
+
+9. Premium-documentary viewer
+   - Survivor → empty range is conceptually strong.
+   - Asymmetric, restrained branding reads materially better than the old centered slogan.
+
+10. Potential subscriber / returning viewer
+   - The film does not need a baked sales message after the emotional resolution.
+   - A clean end-screen area is more useful and more premium.
+
+## REMAINING P2 EDITORIAL NOTES
+
+FULL_V8 is not automatically approved simply because the ending is better.
+
+Potential remaining P2 issues for user review:
+- visual-family repetition in parts of the middle;
+- some provenance labels are small on mobile;
+- a few technical/reconstruction holds remain long;
+- specific middle areas worth checking if the user still feels drag include Yuma around ~12:38–12:56 and selected early reconstruction / sky holds.
+
+Do not make broad pacing changes without reviewing them against the current film. The V14 cold open remains locked.
+
+## HISTORICAL V5/V6 CORRECTIONS
+
+FULL_V5 review artifact from run `35421885255` was inspected and two build defects were found:
+1. two declared Electric Wheel replacement images were silently skipped;
+2. ASS captions/source labels were missing over rendered replacement intervals.
+
+FULL_V6 corrected those defects and preserved the V5 AAC stream bit-for-bit.
+
+V8 is downstream from that corrected V6 review base.
 
 ## 1080p STATUS
 
-Older 1080p candidates exist, including:
-- run `35421769689` — `tc497-final-upload-master-v51-fast`
-- run `35421316892` — `tc497-final-upload-master-1080`
-
-These are **historical candidate masters only** and predate the V6 corrections.
+Older 1080p candidates predate the current approved-review state and are historical candidates only.
 
 They must **not** be promoted to final.
 
-After the user explicitly approves the current review edit, build a fresh 1920×1080 master that includes the V6 corrections and run final technical QC on that new master.
+After the user explicitly approves the current review edit:
+1. build a fresh 1920×1080 master from the approved version;
+2. run final technical QC;
+3. only then call that fresh build the upload master.
 
 ## EXACT NEXT STEP
 
-1. Present / review FULL_V6 with the user.
+1. User reviews FULL_V8.
 2. Collect any remaining timecoded complaints.
-3. If the user does not approve, patch the review version again.
-4. Only after explicit user approval, build a fresh 1920×1080 master from the approved edit.
+3. If user wants further pacing/visual-family fixes, patch the review version again.
+4. Only after explicit user approval, build a fresh 1920×1080 master.
 5. Do not call any 1080p build final before that approval.
 
 ## ONE-LINE NEW CHAT COMMAND
 
-Open `TC497/CURRENT_STATUS_HANDOFF.md` in `reverendstanislav-bot/Youtube-2` and continue from there. FULL_V6 is the current review build and passed targeted QC, but it is **NOT user-approved**; review it first and do not treat any 1080p build as final until the user explicitly approves the video.
+Open `TC497/CURRENT_STATUS_HANDOFF.md` in `reverendstanislav-bot/Youtube-2` and continue from there. FULL_V8 is the current review build with the redesigned cinematic ending, but it is **NOT user-approved**; do not treat any 1080p build as final until the user explicitly approves the video.
