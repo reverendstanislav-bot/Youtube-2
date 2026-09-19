@@ -127,8 +127,10 @@ def _rust_rect_mask(im):
 
 def clean_baked_rust_blocks(im):
     arr=np.asarray(im.convert('RGB')).copy()
-    mask=_rust_rect_mask(im)
-    if mask.max():
+    for _ in range(3):
+        cur=Image.fromarray(arr)
+        mask=_rust_rect_mask(cur)
+        if not mask.max(): break
         arr=cv2.inpaint(arr,mask,7,cv2.INPAINT_TELEA)
     return Image.fromarray(arr)
 
@@ -405,16 +407,20 @@ def audit(shots):
         max_streak=max(max_streak,streak)
 
     # Re-scan all rendered state images for flat rust/orange rectangles near frame edges.
-    orange_left=0
+    orange_files=[]
     for p in IMG.glob('*.jpg'):
-        if _rust_rect_mask(Image.open(p)).max(): orange_left+=1
+        # Historical archive/documents may naturally contain stamps, rust or warm paper.
+        # The forbidden defect is baked collage geometry in reconstructions.
+        if '_AR-' in p.name: continue
+        if _rust_rect_mask(Image.open(p)).max(): orange_files.append(p.name)
+    orange_left=len(orange_files)
 
     report={
       'shot_count_after_cold_open':len(shots),
       'min_shot_sec':min(ds),'max_shot_sec':max(ds),'median_shot_sec':float(np.median(ds)),
       'AR-SNO':counts['AR-SNO'],'AR-A01_after_cold_open':counts['AR-A01'],
       'max_consecutive_full_tc497':max_streak,
-      'orange_edge_blocks_after_cleanup':orange_left,
+      'orange_edge_blocks_after_cleanup':orange_left,'orange_flagged_files':orange_files,
       'standalone_graphics':0,'generic_split_screens':0,
       'new_clean_asset_uses':sum(1 for x in shots if x['code'] in NEW_ASSETS)
     }
