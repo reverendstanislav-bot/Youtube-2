@@ -86,7 +86,7 @@ def main():
         f"afade=t=in:st=0:d=3.5,afade=t=out:st={TOTAL-1185.0-7.0:.3f}:d=7,"
         f"volume=0.42,adelay=1185000|1185000,apad=pad_dur={TOTAL:.3f},atrim=0:{TOTAL:.3f}[music];"
         f"[music][sc]sidechaincompress=threshold=0.028:ratio=9:attack=18:release=520:makeup=1[mduck];"
-        f"[base][mduck]amix=inputs=2:weights='1 1':normalize=0,alimiter=limit=0.88[aout]"
+        f"[base][mduck]amix=inputs=2:weights='1 1':normalize=0,alimiter=limit=0.794[aout]"
     )
     sh([
         "ffmpeg","-y","-loglevel","error",
