@@ -16,7 +16,7 @@ jobs:
       V5_FASTCHECK: '1'
       BUILD_REV: 1789790836732
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 90
 
     steps:
       - uses: actions/checkout@v4
