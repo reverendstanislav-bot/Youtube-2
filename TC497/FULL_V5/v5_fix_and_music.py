@@ -323,7 +323,7 @@ def reburn_patch_overlays(video,src_ass,patch_manifest,tmpdir):
     out=tmpdir/"visual_patched_text.mp4"
     sh(["ffmpeg","-y","-loglevel","error","-i",str(video),
         "-vf",f"ass={ass}","-map","0:v","-map","0:a?",
-        "-c:v","libx264","-preset","veryfast","-crf","18","-pix_fmt","yuv420p",
+        "-c:v","libx264","-preset","ultrafast","-crf","20","-pix_fmt","yuv420p",
         "-c:a","copy","-movflags","+faststart",str(out)])
     return out
 
