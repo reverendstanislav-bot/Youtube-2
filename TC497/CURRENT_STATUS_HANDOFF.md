@@ -1,52 +1,53 @@
-# TC497 — REOPENED FOR FULL_V10 REVIEW
+# TC497 — FULL_V10 CURRENT REVIEW
 
 ## STATUS
 
 Episode: LeTourneau TC-497 Overland Train
 Project: Hidden Industrial America / YouTube-2
 
-The previous FINAL V9 1920x1080 master is **superseded for review** after the user found additional blocking presentation defects.
+Current state: **FULL_V10 is the active review version. It has passed technical and targeted visual QC, but the user has not approved it yet.**
 
-Do not upload the V9 master to YouTube now.
+Do not upload the old V9 master.
+Do not build/promote a new 1080p final until explicit FULL_V10 approval.
 
-## USER-REPORTED BLOCKERS
+## CURRENT REVIEW ARTIFACT
 
-1. Subtitle and top-label readability over document-heavy/light frames is inadequate.
-2. Return to semantic word-level color emphasis for faster reading and more visual energy.
-3. Around 00:11:57 there is an abrupt reframing.
-4. Around 00:11:57.25 a different engineers/model frame flashes briefly and disappears.
+- run: `35451878433`
+- artifact: `tc497-full-v10-review`
+- artifact id: `10586712801`
+- digest: `sha256:2486d0b12e123452ea26566413101a474ec557021e236f98ce13c59997c134c1`
+- file: `TC497_FULL_V10_REVIEW_960x540.mp4`
+- duration: 20:36.533
+- 960x540 / 30 fps
 
-## FULL_V10 FIX PLAN
-
-Reference:
-- `TC497/FULL_V10/EDIT_PLAN.md`
+## V10 CHANGES
 
 Typography:
-- preserve V14 ivory + rust accent language;
-- rebuild post-cold-open captions from V4 ASS;
-- stronger dark backing under captions on difficult backgrounds;
-- larger/clearer ARCHIVE / DOCUMENT / RECONSTRUCTION / CONCEPT labels with readable backing;
-- highlight up to two semantic/technical terms per caption;
-- do not restore the removed subscribe CTA.
+- V14-style ivory captions with restrained rust keyword emphasis;
+- stronger dark caption backing on difficult light/document backgrounds;
+- larger backed provenance labels;
+- semantic highlights rather than constant karaoke coloring.
 
-11:57 transition:
-- remove the brief engineers/model flash;
-- replace the full 11:56.90–12:03.77 bridge with the approved WB-N04 actual-TC497 reconstruction;
-- crop to remove legacy collage corners;
-- controlled fade in/out instead of hard reframing;
-- preserve explicit RECONSTRUCTION provenance and ACTUAL TC-497 • GAS TURBINES clarification;
-- narration/music remain untouched.
+11:57:
+- removed the engineers/model flash;
+- removed abrupt reframing;
+- replaced the bridge with approved WB-N04 reconstruction;
+- controlled fade begins before the bad frame;
+- bridge stays over the underlying 12:04 cut and fades into the settled next shot, preventing a second flash;
+- explicit RECONSTRUCTION and ACTUAL TC-497 • GAS TURBINES remain.
 
-## LOCKED
-
+Locked:
 - V14 cold open;
 - V9 editorial structure;
+- V9 middle-film replacements;
 - V8 ending;
-- V9 middle-film visual replacements;
-- final music/VO mix.
+- final VO/music mix.
+
+Audio V9/V10 is bit-identical:
+`7954f3218e07a86ec57aa98e2744eabeab4cc4349e32233768b3df77d5ea2aff`
 
 ## NEXT STEP
 
-Build FULL_V10 as review-only.
-Audio must remain bit-identical to V9.
-No new 1080 upload master is promoted until the user explicitly approves FULL_V10.
+User reviews FULL_V10.
+If explicitly approved, build a fresh native 1920x1080 V10 upload master and run final QC.
+If not approved, patch V10 review again.
