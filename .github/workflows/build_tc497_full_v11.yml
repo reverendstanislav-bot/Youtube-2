@@ -1,0 +1,178 @@
+name: Build TC497 FULL V11 Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v11.yml'
+      - 'TC497/FULL_V11/**'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-v11:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip zip fonts-dejavu-core poppler-utils
+
+      - name: Download FULL V10 review
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v10-review
+          path: /tmp/v10
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35451878433
+          github-token: ${{ github.token }}
+
+      - name: Download CODEX package
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Prepare source material
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/work/v10report /tmp/work/pkg /tmp/work/assets /tmp/work/ass /tmp/work/seg /tmp/work/report/screens TC497/FULL_V11_OUT
+
+          test -s /tmp/v10/TC497_FULL_V10_REVIEW_960x540.mp4
+          test -s /tmp/v10/FULL_V10_REPORT.zip
+          unzip -q /tmp/v10/FULL_V10_REPORT.zip -d /tmp/work/v10report
+          test -s /tmp/work/v10report/v10_overlay.ass
+
+          PKG_ZIP="$(find /tmp/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n 1)"
+          test -n "$PKG_ZIP"
+          unzip -q "$PKG_ZIP" -d /tmp/work/pkg
+          GEN_DIR="$(find /tmp/work/pkg -type d -name FINAL_62 | head -n 1)"
+          test -n "$GEN_DIR"
+
+          ST_ELECTRIC="$GEN_DIR/ST-ELECTRIC.png"
+          PATENT="$(find /tmp/work/pkg -type f -name 'AR-PATENT__US2726726_LeTourneau_Electric_Wheel_Patent.pdf' | head -n 1)"
+          ARCHIVE="$(find /tmp/work/pkg -type f -name 'AR-A01__TC497_DVIDS_historical_7602813.jpg' | head -n 1)"
+
+          test -s "$ST_ELECTRIC"
+          test -s "$PATENT"
+          test -s "$ARCHIVE"
+
+          ffmpeg -y -loglevel error -i "$ST_ELECTRIC"             -vf "crop=1116:499:210:365,scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/st_electric_clean.png
+
+          pdftoppm -f 1 -singlefile -png -r 120 "$PATENT" /tmp/work/assets/patent_page
+          ffmpeg -y -loglevel error -i /tmp/work/assets/patent_page.png             -vf "crop=790:790:70:330,scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/patent_wheel.png
+
+          ffmpeg -y -loglevel error -i "$ARCHIVE"             -vf "scale=960:540:force_original_aspect_ratio=increase,crop=960:540"             /tmp/work/assets/archive_tc497.png
+
+          python3 TC497/FULL_V11/make_v11_patch_ass.py             --source-ass /tmp/work/v10report/v10_overlay.ass             --out-dir /tmp/work/ass
+
+      - name: Split V10 picture on existing keyframes
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error             -i /tmp/v10/TC497_FULL_V10_REVIEW_960x540.mp4             -map 0:v:0 -an -c copy -f segment             -segment_times 261.533333,269.100000,295.966667,300.866667,474.500000,480.166667             -segment_time_delta 0.0168 -reset_timestamps 1             /tmp/work/seg/base_%02d.mp4
+
+          for i in 00 01 02 03 04 05 06; do
+            test -s "/tmp/work/seg/base_$i.mp4"
+          done
+
+      - name: Render three replacement shots
+        run: |
+          set -euo pipefail
+
+          # Patch 1 preserves the final 0.238 s of the preceding shot, then replaces WA-09 exactly.
+          ffmpeg -y -loglevel error             -i /tmp/work/seg/base_01.mp4             -loop 1 -framerate 30 -i /tmp/work/assets/st_electric_clean.png             -filter_complex "              [1:v]format=rgba,setpts=PTS-STARTPTS+0.237667/TB[img];              [0:v][img]overlay=0:0:eof_action=pass:enable='gte(t,0.237667)'[v];              [v]ass=/tmp/work/ass/p1.ass,format=yuv420p[vout]"             -map "[vout]" -an -t 7.566667 -r 30             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0 -pix_fmt yuv420p             /tmp/work/seg/patch_1.mp4
+
+          ffmpeg -y -loglevel error             -loop 1 -framerate 30 -i /tmp/work/assets/patent_wheel.png             -vf "ass=/tmp/work/ass/p2.ass,format=yuv420p"             -t 4.900000 -r 30 -an             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0 -pix_fmt yuv420p             /tmp/work/seg/patch_2.mp4
+
+          ffmpeg -y -loglevel error             -loop 1 -framerate 30 -i /tmp/work/assets/archive_tc497.png             -vf "ass=/tmp/work/ass/p3.ass,format=yuv420p"             -t 5.666667 -r 30 -an             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0 -pix_fmt yuv420p             /tmp/work/seg/patch_3.mp4
+
+      - name: Assemble V11 and preserve V10 audio
+        run: |
+          set -euo pipefail
+
+          cat > /tmp/work/concat.txt <<'EOF'
+          file '/tmp/work/seg/base_00.mp4'
+          file '/tmp/work/seg/patch_1.mp4'
+          file '/tmp/work/seg/base_02.mp4'
+          file '/tmp/work/seg/patch_2.mp4'
+          file '/tmp/work/seg/base_04.mp4'
+          file '/tmp/work/seg/patch_3.mp4'
+          file '/tmp/work/seg/base_06.mp4'
+          EOF
+
+          ffmpeg -y -loglevel error             -f concat -safe 0 -i /tmp/work/concat.txt             -c copy -movflags +faststart /tmp/work/video_only.mp4
+
+          ffmpeg -y -loglevel error             -i /tmp/work/video_only.mp4             -i /tmp/v10/TC497_FULL_V10_REVIEW_960x540.mp4             -map 0:v:0 -map 1:a:0 -c copy -t 1236.533333 -movflags +faststart             TC497/FULL_V11_OUT/TC497_FULL_V11_REVIEW_960x540.mp4
+
+          ffmpeg -y -loglevel error -i /tmp/v10/TC497_FULL_V10_REVIEW_960x540.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v10.aac
+          ffmpeg -y -loglevel error -i TC497/FULL_V11_OUT/TC497_FULL_V11_REVIEW_960x540.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v11.aac
+
+          sha256sum /tmp/work/v10.aac /tmp/work/v11.aac | tee /tmp/work/report/AUDIO_SHA256.txt
+          cmp /tmp/work/v10.aac /tmp/work/v11.aac
+
+      - name: V11 QC
+        run: |
+          set -euo pipefail
+          OUT=TC497/FULL_V11_OUT/TC497_FULL_V11_REVIEW_960x540.mp4
+
+          ffprobe -v error -count_frames             -show_entries stream=index,codec_name,width,height,r_frame_rate,duration,nb_read_frames:format=duration,size,bit_rate             -of json "$OUT" > /tmp/work/report/FFPROBE.json
+
+          ffmpeg -hide_banner -nostats -i "$OUT"             -vf "blackdetect=d=0.20:pix_th=0.02" -an -f null -             > /dev/null 2> /tmp/work/report/BLACKDETECT.txt || true
+
+          for t in 260.8 261.55 261.80 263 268.9 269.2 295.7 296.2 298.3 300.7 301.1 474.3 474.7 477.2 480.0 480.3 717.3 724.2 1228 1235; do
+            ffmpeg -y -loglevel error -ss "$t" -i "$OUT"               -frames:v 1 "/tmp/work/report/screens/frame_${t}.jpg"
+          done
+
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$OUT")" = "960"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$OUT")" = "540"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$OUT")" = "30/1"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of csv=p=0 "$OUT")"
+          test "$FRAMES" = "37096"
+
+          cat > /tmp/work/report/V11_QC.md <<'EOF'
+          # TC497 FULL_V11 — review QC
+
+          REVIEW ONLY. USER APPROVAL REQUIRED.
+
+          Electric Wheel cleanup:
+          - WA-09 removed from all three known uses in the V4 shot map;
+          - 04:21.771–04:29.100 replaced with clean ST-ELECTRIC distributed-drive schematic;
+          - 04:55.972–05:00.858 replaced with the actual LeTourneau Electric Vehicle Wheel patent;
+          - 07:54.502–08:00.163 replaced with real archival TC-497 proving-ground imagery;
+          - no new photorealistic wheel cutaway was generated.
+
+          Preserved:
+          - FULL_V10 typography;
+          - FULL_V10 11:57 transition repair;
+          - V14 cold open;
+          - V8 ending;
+          - V9 middle-film changes;
+          - audio bit-for-bit from FULL_V10.
+          EOF
+
+          cp TC497/FULL_V11/EDIT_PLAN.md /tmp/work/report/
+          cp TC497/FULL_V11/make_v11_patch_ass.py /tmp/work/report/
+          cp /tmp/work/ass/*.ass /tmp/work/report/
+
+          (cd /tmp/work/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FULL_V11_OUT/FULL_V11_REPORT.zip" .)
+          (cd TC497/FULL_V11_OUT && sha256sum             TC497_FULL_V11_REVIEW_960x540.mp4 FULL_V11_REPORT.zip > SHA256SUMS.txt)
+
+      - name: Upload FULL V11 review
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v11-review
+          path: |
+            TC497/FULL_V11_OUT/TC497_FULL_V11_REVIEW_960x540.mp4
+            TC497/FULL_V11_OUT/FULL_V11_REPORT.zip
+            TC497/FULL_V11_OUT/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
