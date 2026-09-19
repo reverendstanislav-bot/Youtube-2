@@ -110,9 +110,16 @@ def _rust_rect_mask(im):
         fill=area/max(1,w*h)
         near_edge=(x<ww*.18 or y<hh*.18 or x+w>ww*.82 or y+h>hh*.82)
         not_huge=(w<ww*.42 and h<hh*.48)
-        if fill<.48 or not near_edge or not not_huge: continue
+        if fill<.76 or not near_edge or not not_huge: continue
         pix=arr[labels==i]
-        if len(pix)==0 or float(np.std(pix))>58: continue
+        if len(pix)==0 or float(np.std(pix))>36: continue
+        comp=np.uint8(labels==i)*255
+        contours,_=cv2.findContours(comp,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+        if not contours: continue
+        cnt=max(contours,key=cv2.contourArea)
+        peri=cv2.arcLength(cnt,True)
+        approx=cv2.approxPolyDP(cnt,.035*peri,True)
+        if len(approx)!=4: continue
         out[labels==i]=255
     if out.max():
         out=cv2.dilate(out,np.ones((9,9),np.uint8),iterations=1)
@@ -159,7 +166,7 @@ def variant_image(code,variant='wide',page=1):
     out=fit_cover(im,anchor=anchors.get(variant,(.5,.5)),zoom=zoom)
     # Legacy reconstructions are the source of baked orange collage blocks.
     # Clean every used legacy generated frame, then crop/grade.
-    if kind=='generated' and code not in NEW_ASSETS:
+    if kind=='generated':
         out=clean_baked_rust_blocks(out)
     return grade(out,kind)
 
