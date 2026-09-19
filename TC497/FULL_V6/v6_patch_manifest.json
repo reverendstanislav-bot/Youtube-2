@@ -1,0 +1,37 @@
+{
+  "version": "FULL_V6",
+  "base": "FULL_V5 review artifact run 35421885255",
+  "notes": "V6 preserves V5 audio and all existing V5 visuals. Only the first two intervals receive new overlay images; all seven intervals receive clipped V4 ASS events.",
+  "patches": [
+    {
+      "start": 215.356,
+      "end": 221.464,
+      "overlay_image": "electric_human_break.png"
+    },
+    {
+      "start": 230.014,
+      "end": 237.342,
+      "overlay_image": "electric_wheel_break.png"
+    },
+    {
+      "start": 709.241,
+      "end": 717.165
+    },
+    {
+      "start": 730.373,
+      "end": 736.976
+    },
+    {
+      "start": 1079.245,
+      "end": 1087.457
+    },
+    {
+      "start": 1107.164,
+      "end": 1115.376
+    },
+    {
+      "start": 1209.007,
+      "end": 1215.477
+    }
+  ]
+}
