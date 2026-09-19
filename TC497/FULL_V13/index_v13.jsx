@@ -3,7 +3,7 @@ import {registerRoot,Composition,AbsoluteFill,OffthreadVideo,Audio,staticFile,us
 import captions from '../public/captions.json';
 
 const FPS=30;
-const C={charcoal:'#171A1C',iron:'#30363A',paper:'#E6DDC8',ivory:'#F3EBDD',rust:'#A55235',blue:'#5F747D'};
+const C={charcoal:'#171A1C',iron:'#30363A',paper:'#E6DDC8',ivory:'#F3EBDD',rust:'#A55235',blue:'#5F747D',subMuted:'#B96F3D',subActive:'#F28A3A'};
 const F=(s)=>Math.round(s*FPS);
 const fade=(frame,s,e,edge=4)=>interpolate(frame,[F(s),F(s)+edge,F(e)-edge,F(e)],[0,1,1,0],{
   extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.inOut(Easing.cubic)
@@ -27,11 +27,11 @@ function Caption(){
   return <div style={{
     position:'absolute',left:66,right:66,bottom:27,textAlign:'center',
     fontFamily:'Montserrat,Arial,sans-serif',fontWeight:750,fontSize:27,lineHeight:1.18,
-    color:C.paper,textShadow:'0 2px 3px rgba(23,26,28,.98),0 0 9px rgba(23,26,28,.82)',
+    color:C.subMuted,textShadow:'0 2px 3px rgba(23,26,28,.98),0 0 8px rgba(23,26,28,.72)',
     opacity:fade(frame,p.s,p.e,2)
   }}>
     {words.map((w,i)=><React.Fragment key={i}>
-      <span style={{color:i===active?'#D97932':C.paper}}>{w.w}</span>{i<words.length-1?' ':''}
+      <span style={{color:i===active?C.subActive:C.subMuted}}>{w.w}</span>{i<words.length-1?' ':''}
     </React.Fragment>)}
   </div>;
 }
