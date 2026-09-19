@@ -1,6 +1,18 @@
 {
   "patches": [
     {
+      "start": 215.356,
+      "end": 221.464,
+      "image": "replacements/electric_human_break.png",
+      "note": "Break the long reconstruction streak with a human/control-context shot."
+    },
+    {
+      "start": 230.014,
+      "end": 237.342,
+      "image": "replacements/electric_wheel_break.png",
+      "note": "Break the reconstruction streak with a dedicated wheel/mechanical detail."
+    },
+    {
       "start": 709.241,
       "end": 717.165,
       "image": "replacements/nuclear_concept_clean.png",
