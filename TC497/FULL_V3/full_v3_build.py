@@ -267,6 +267,15 @@ CHAPTERS=[
 
 def make_state_image(code,variant,page,out):
     im=variant_image(code,variant,page)
+    # Final cleanup must happen after grading because grading/JPEG can make baked
+    # collage rectangles detectable again. Iterate on the final frame itself.
+    if not code.startswith('AR-'):
+        arr=np.asarray(im.convert('RGB')).copy()
+        for _ in range(5):
+            mask=_rust_rect_mask(Image.fromarray(arr))
+            if not mask.max(): break
+            arr=cv2.inpaint(arr,mask,9,cv2.INPAINT_TELEA)
+        im=Image.fromarray(arr)
     im.save(out,quality=94,subsampling=0)
 
 def render_segment(img,dur,out):
@@ -428,7 +437,9 @@ def audit(shots):
     if counts['AR-SNO']>1: raise RuntimeError('AR-SNO reuse exceeds V3 rule')
     if counts['AR-A01']>2: raise RuntimeError('AR-A01 reuse exceeds V3 rule')
     if max_streak>2: raise RuntimeError(f'full TC497 streak exceeds V3 rule: {max_streak}')
-    if orange_left>0: raise RuntimeError(f'baked orange/rust edge blocks remain: {orange_left}')
+    if orange_left>0:
+        print('ORANGE_FLAGGED_FILES',orange_files)
+        raise RuntimeError(f'baked orange/rust edge blocks remain: {orange_left}')
     return report
 
 if __name__=='__main__':
