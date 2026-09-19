@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 70
     env:
-      BUILD_REV: 1789791574468
+      BUILD_REV: 1789791755771
       VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V4_WORK: /tmp/tc497master/work
@@ -127,12 +127,14 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p /tmp/tc497master/v5patch
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_5ec671d0-ba6c-40d8-b8b5-65c77d78daa2.png' -o /tmp/tc497master/v5patch/electric_human_break.png
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_af253b61-91da-4026-9260-99ae4cb5e4a6.png' -o /tmp/tc497master/v5patch/electric_wheel_break.png
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_ef53745c-7d9b-40d7-9375-c3c27c19b958.png' -o /tmp/tc497master/v5patch/nuclear_concept_clean.png
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_022944_83c46c89-d5da-4679-b0b5-e7040f256687.png' -o /tmp/tc497master/v5patch/nuclear_unbuilt_clean.png
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_d5259b58-486d-4be2-a84e-06ebc8f1db72.png' -o /tmp/tc497master/v5patch/heavy_lift_logistics_clean.png
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_022944_f0ef4a51-417a-4aa3-8497-f376988c719b.png' -o /tmp/tc497master/v5patch/ground_vs_air_clean.png
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_a47863ca-4a61-4e9e-9baf-812785b182df.png' -o /tmp/tc497master/v5patch/survivor_detail_clean.png
-          test "$(find /tmp/tc497master/v5patch -type f -name '*.png' | wc -l)" -eq 5
+          test "$(find /tmp/tc497master/v5patch -type f -name '*.png' | wc -l)" -eq 7
 
       - name: Build native 1080 post-cold-open picture track
         run: |
@@ -201,10 +203,10 @@ jobs:
             -filter_complex "\
               [0:a]atrim=start=82.6:end=1236.506,asetpts=PTS-STARTPTS,aresample=48000,pan=stereo|c0=c0|c1=c0[vo0];\
               [vo0]asplit=2[vo][sc];\
-              [1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,volume=0.62,volume=0.22:enable='between(t,1032.776,1153.906)'[sfx];\
+              [1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,volume=0.42,volume=0.12:enable='between(t,1032.776,1153.906)'[sfx];\
               [2:a]atrim=start=82.6:end=1236.506,asetpts=PTS-STARTPTS,aresample=48000[music];\
               [music][sc]sidechaincompress=threshold=0.020:ratio=12:attack=15:release=480:makeup=1[duck];\
-              [vo][sfx][duck]amix=inputs=3:weights='1 0.75 1':normalize=0,alimiter=limit=0.89[rest]" \
+              [vo][sfx][duck]amix=inputs=3:weights='1 0.55 1':normalize=0,alimiter=limit=0.89[rest]" \
             -map "[rest]" -t 1153.906 -ac 2 -ar 48000 -c:a pcm_s16le \
             /tmp/tc497master/rest_audio.wav
 
@@ -221,6 +223,8 @@ jobs:
 
           ffmpeg -y -loglevel error \
             -i /tmp/tc497master/full_base_1080.mp4 \
+            -loop 1 -framerate 30 -i /tmp/tc497master/v5patch/electric_human_break.png \
+            -loop 1 -framerate 30 -i /tmp/tc497master/v5patch/electric_wheel_break.png \
             -loop 1 -framerate 30 -i /tmp/tc497master/v5patch/nuclear_concept_clean.png \
             -loop 1 -framerate 30 -i /tmp/tc497master/v5patch/nuclear_unbuilt_clean.png \
             -loop 1 -framerate 30 -i /tmp/tc497master/v5patch/heavy_lift_logistics_clean.png \
@@ -232,11 +236,15 @@ jobs:
               [3:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080[p3];\
               [4:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080[p4];\
               [5:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080[p5];\
-              [0:v][p1]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,709.241,717.165)'[v1];\
-              [v1][p2]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,730.373,736.976)'[v2];\
-              [v2][p3]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1079.245,1087.457)'[v3];\
-              [v3][p4]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1107.164,1115.376)'[v4];\
-              [v4][p5]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1209.007,1215.477)',ass=$ASS_OUT[vout]" \
+              [6:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080[p6];\
+              [7:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080[p7];\
+              [0:v][p1]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,215.356,221.464)'[v1];\
+              [v1][p2]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,230.014,237.342)'[v2];\
+              [v2][p3]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,709.241,717.165)'[v3];\
+              [v3][p4]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,730.373,736.976)'[v4];\
+              [v4][p5]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1079.245,1087.457)'[v5];\
+              [v5][p6]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1107.164,1115.376)'[v6];\
+              [v6][p7]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1209.007,1215.477)',ass=$ASS_OUT[vout]" \
             -map "[vout]" -t 1236.506 \
             -c:v libx264 -preset fast -crf 17 -profile:v high -level 4.1 -pix_fmt yuv420p \
             -movflags +faststart /tmp/tc497master/master_picture.mp4
