@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      BUILD_REV: 1789782894586
+      BUILD_REV: 1789783188416
       VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V4_WORK: /tmp/tc497v4/work
@@ -41,9 +41,16 @@ jobs:
           rm -rf /tmp/tc497pkg /tmp/tc497tr /tmp/tc497v4
           mkdir -p /tmp/tc497pkg /tmp/tc497tr /tmp/tc497v4/work /tmp/tc497v4/public /tmp/tc497v4/extra
 
-          curl -fL --retry 3 \
+          if ! curl -fL --retry 5 --retry-all-errors \
             'https://github.com/reverendstanislav-bot/Youtube-2/releases/download/tc497-codex-ready-v1/Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' \
-            -o /tmp/pkg.zip
+            -o /tmp/pkg.zip; then
+            curl -fL --retry 5 --retry-all-errors \
+              -H 'Accept: application/octet-stream' \
+              -H 'Authorization: Bearer ${{ github.token }}' \
+              'https://api.github.com/repos/reverendstanislav-bot/Youtube-2/releases/assets/573862020' \
+              -o /tmp/pkg.zip
+          fi
+          test -s /tmp/pkg.zip
           unzip -q /tmp/pkg.zip -d /tmp/tc497pkg
 
           curl -fL --retry 3 "$VO_URL" -o /tmp/tc497v4/vo.mp3
