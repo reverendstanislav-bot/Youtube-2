@@ -58,6 +58,26 @@ def build_patch_ass(src_ass, patches, chunk_start, chunk_end, out_ass):
             q[2] = sec_to_ass(b - chunk_start)
             rendered.append(",".join(q))
 
+    # Synthetic provenance labels for new V6 reconstruction stills.
+    # These are clipped to the replacement interval so they do not duplicate
+    # already-baked V5 overlays outside the patched shot.
+    for p in patches:
+        label = str(p.get("source_label", "")).strip()
+        if not label:
+            continue
+        ps = float(p["start"])
+        pe = float(p["end"])
+        label_dur = float(p.get("source_label_duration", 2.2))
+        a = max(ps, chunk_start)
+        b = min(pe, ps + label_dur, chunk_end)
+        if b <= a:
+            continue
+        rendered.append(
+            "Dialogue: 0," + sec_to_ass(a - chunk_start) + "," +
+            sec_to_ass(b - chunk_start) +
+            ",Source,,0,0,0,," + label
+        )
+
     out = Path(out_ass)
     out.write_text(
         head + "[Events]\n" +
