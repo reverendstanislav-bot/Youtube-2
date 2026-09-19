@@ -138,6 +138,109 @@ def make_music_bed(manifest,base_dir,total,tmpdir,shots_path=None):
     sh(cmd)
     return out
 
+
+def sec_to_ass(t):
+    t=max(0.0,float(t))
+    h=int(t//3600); t-=h*3600
+    m=int(t//60); t-=m*60
+    return f"{h}:{m:02d}:{t:05.2f}"
+
+def extract_patch_ass_shifted(src_ass,start,end,out_ass):
+    if not src_ass or not Path(src_ass).exists():
+        return None
+    txt=Path(src_ass).read_text(encoding="utf-8",errors="replace")
+    head,_,events=txt.partition("[Events]")
+    fmt=None; keep=[]
+    for line in events.splitlines():
+        if line.startswith("Format:"):
+            fmt=line
+            continue
+        if not line.startswith("Dialogue:"):
+            continue
+        parts=line.split(",",9)
+        if len(parts)<10: continue
+        s0=ass_time_to_sec(parts[1]); e0=ass_time_to_sec(parts[2])
+        if e0<=start or s0>=end:
+            continue
+        ns=max(start,s0)-start
+        ne=min(end,e0)-start
+        parts[1]=sec_to_ass(ns); parts[2]=sec_to_ass(ne)
+        keep.append(",".join(parts))
+    if not keep:
+        return None
+    out=Path(out_ass)
+    out.write_text(
+        head+"[Events]\n"+
+        (fmt or "Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text")+
+        "\n"+"\n".join(keep)+"\n",encoding="utf-8"
+    )
+    return out
+
+def make_visual_patch_video_concat(input_video,patch_manifest,base_dir,tmpdir,source_ass=None):
+    if not patch_manifest:
+        return Path(input_video)
+    data=load_json(patch_manifest)
+    raw=sorted(data.get("patches",[]),key=lambda x:float(x["start"]))
+    total=ffprobe_duration(input_video)
+
+    patches=[]
+    for x in raw:
+        img=(base_dir/x["image"]).resolve()
+        if not img.exists():
+            print(f"WARN: visual replacement missing, skipping: {img}",file=sys.stderr)
+            continue
+        # Align to 30 fps so concat duration stays deterministic.
+        st=round(float(x["start"])*30)/30.0
+        en=round(float(x["end"])*30)/30.0
+        if en<=st: continue
+        y=dict(x); y["_path"]=str(img); y["_start"]=st; y["_end"]=en
+        patches.append(y)
+    if not patches:
+        return Path(input_video)
+
+    out=tmpdir/"visual_patched.mp4"
+    cmd=["ffmpeg","-y","-loglevel","error","-i",str(input_video)]
+    for x in patches:
+        cmd += ["-loop","1","-framerate","30","-i",x["_path"]]
+
+    fc=[]; pieces=[]; prev=0.0; pi=0
+    for i,x in enumerate(patches, start=1):
+        st=x["_start"]; en=x["_end"]
+        if st>prev+0.001:
+            lab=f"orig{pi}"
+            fc.append(f"[0:v]trim=start={prev:.6f}:end={st:.6f},setpts=PTS-STARTPTS[{lab}]")
+            pieces.append(f"[{lab}]"); pi+=1
+
+        plab=f"patch{i}"
+        dur=en-st
+        fc.append(
+            f"[{i}:v]scale=960:540:force_original_aspect_ratio=increase,"
+            f"crop=960:540,trim=duration={dur:.6f},setpts=PTS-STARTPTS[{plab}raw]"
+        )
+        current=f"[{plab}raw]"
+        if source_ass and Path(source_ass).exists():
+            ass=extract_patch_ass_shifted(source_ass,st,en,tmpdir/f"patch_{i}.ass")
+            if ass:
+                fc.append(f"{current}ass={ass}[{plab}]")
+                current=f"[{plab}]"
+        pieces.append(current)
+        prev=en
+
+    if prev<total-0.001:
+        lab=f"orig{pi}"
+        fc.append(f"[0:v]trim=start={prev:.6f}:end={total:.6f},setpts=PTS-STARTPTS[{lab}]")
+        pieces.append(f"[{lab}]")
+
+    fc.append("".join(pieces)+f"concat=n={len(pieces)}:v=1:a=0[vout]")
+    preset="ultrafast" if os.environ.get("V5_FASTCHECK")=="1" else "veryfast"
+    crf="19" if preset=="ultrafast" else "18"
+    cmd += ["-filter_complex",";".join(fc),"-map","[vout]","-map","0:a?",
+            "-t",f"{total:.3f}",
+            "-c:v","libx264","-preset",preset,"-crf",crf,"-pix_fmt","yuv420p",
+            "-c:a","copy","-movflags","+faststart",str(out)]
+    sh(cmd)
+    return out
+
 def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir,source_ass=None):
     if not patch_manifest:
         return Path(input_video)
@@ -297,7 +400,7 @@ def main():
 
     with tempfile.TemporaryDirectory(prefix="tc497_v5_") as td:
         td=Path(td)
-        patched=make_visual_patch_video(
+        patched=make_visual_patch_video_concat(
             input_video,args.visual_patches,
             Path(args.visual_patches).resolve().parent if args.visual_patches else base_dir,td,
             args.source_ass
