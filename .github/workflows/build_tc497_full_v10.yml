@@ -1,0 +1,142 @@
+name: Build TC497 FULL V10 Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v10.yml'
+      - 'TC497/FULL_V10/**'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-v10:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip zip fonts-dejavu-core
+
+      - name: Download current V9 1080 source
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-final-v9-upload-master-1080-surgical
+          path: /tmp/v9
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35431145052
+          github-token: ${{ github.token }}
+
+      - name: Download V4 overlay source
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v4-review
+          path: /tmp/v4
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35414343740
+          github-token: ${{ github.token }}
+
+      - name: Download CODEX package
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Prepare V10
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/work/v4 /tmp/work/pkg /tmp/work/report/screens TC497/FULL_V10_OUT
+
+          test -s /tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+          unzip -q /tmp/v4/FULL_V4_REPORT.zip -d /tmp/work/v4
+          test -s /tmp/work/v4/overlay_v4.ass
+
+          PKG_ZIP="$(find /tmp/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n 1)"
+          test -n "$PKG_ZIP"
+          unzip -q "$PKG_ZIP" -d /tmp/work/pkg
+          GEN_DIR="$(find /tmp/work/pkg -type d -name FINAL_62 | head -n 1)"
+          test -s "$GEN_DIR/WB-N04.png"
+          cp "$GEN_DIR/WB-N04.png" /tmp/work/WB-N04.png
+
+          python3 TC497/FULL_V10/make_v10_overlay.py             --source-ass /tmp/work/v4/overlay_v4.ass             --output /tmp/work/v10_overlay.ass
+
+      - name: Render V10 review
+        run: |
+          set -euo pipefail
+          IN=/tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+          OUT=TC497/FULL_V10_OUT/TC497_FULL_V10_REVIEW_960x540.mp4
+
+          ffmpeg -y -loglevel error             -i "$IN"             -loop 1 -framerate 30 -i /tmp/work/WB-N04.png             -filter_complex "              [1:v]crop=iw*0.70:ih*0.70:iw*0.15:ih*0.15,              scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,              format=rgba,trim=duration=6.87,setpts=PTS-STARTPTS,              fade=t=in:st=0:d=0.25:alpha=1,              fade=t=out:st=6.37:d=0.50:alpha=1,              setpts=PTS+716.90/TB[bridge];              [0:v][bridge]overlay=0:0:eof_action=pass[vfix];              [vfix]ass=/tmp/work/v10_overlay.ass,              scale=960:540:flags=lanczos,format=yuv420p[vout]"             -map "[vout]" -map 0:a:0             -t 1236.533333 -r 30             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0             -c:a copy -movflags +faststart             "$OUT"
+
+      - name: Audio identity check
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error             -i /tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v9.aac
+          ffmpeg -y -loglevel error             -i TC497/FULL_V10_OUT/TC497_FULL_V10_REVIEW_960x540.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v10.aac
+          sha256sum /tmp/work/v9.aac /tmp/work/v10.aac | tee /tmp/work/report/AUDIO_SHA256.txt
+          cmp /tmp/work/v9.aac /tmp/work/v10.aac
+
+      - name: V10 QC
+        run: |
+          set -euo pipefail
+          OUT=TC497/FULL_V10_OUT/TC497_FULL_V10_REVIEW_960x540.mp4
+
+          ffprobe -v error -count_frames             -show_entries stream=index,codec_name,width,height,r_frame_rate,duration,nb_read_frames:format=duration,size,bit_rate             -of json "$OUT" > /tmp/work/report/FFPROBE.json
+
+          ffmpeg -hide_banner -nostats -i "$OUT"             -vf "blackdetect=d=0.20:pix_th=0.02" -an -f null -             > /dev/null 2> /tmp/work/report/BLACKDETECT.txt || true
+
+          for t in 85 200 636.9 637.5 715.8 716.8 717.1 717.3 717.7 718.2 719.8 723.5 724.0 770 817 1024 1058 1223 1228 1235; do
+            ffmpeg -y -loglevel error -ss "$t" -i "$OUT"               -frames:v 1 "/tmp/work/report/screens/frame_${t}.jpg"
+          done
+
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$OUT")" = "960"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$OUT")" = "540"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$OUT")" = "30/1"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of csv=p=0 "$OUT")"
+          test "$FRAMES" = "37096"
+
+          cat > /tmp/work/report/V10_QC.md <<'EOF'
+          # TC497 FULL_V10 — review QC
+
+          REVIEW ONLY. NOT FINAL UNTIL USER APPROVES.
+
+          V10 changes:
+          - post-cold-open subtitles rebuilt with V14-style rust keyword emphasis;
+          - dark text-sized backing added for reliable readability over documents/desert/bright imagery;
+          - top SOURCE/DOCUMENT/CONCEPT/RECONSTRUCTION labels enlarged and backed;
+          - top editor tags enlarged and backed;
+          - removed the 11:57.25 engineers/model flash;
+          - replaced 11:56.90–12:03.77 bridge with cropped approved WB-N04 reconstruction;
+          - replacement fades in before the bad frame and fades out into the next shot;
+          - audio copied bit-for-bit from approved V9 lineage;
+          - removed subscribe CTA remains removed.
+
+          The previous V9 1080 master is superseded for review because V10 changes picture typography/transition.
+          EOF
+
+          cp TC497/FULL_V10/EDIT_PLAN.md /tmp/work/report/
+          cp TC497/FULL_V10/make_v10_overlay.py /tmp/work/report/
+          cp /tmp/work/v10_overlay.ass /tmp/work/report/
+
+          (cd /tmp/work/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FULL_V10_OUT/FULL_V10_REPORT.zip" .)
+          (cd TC497/FULL_V10_OUT && sha256sum             TC497_FULL_V10_REVIEW_960x540.mp4 FULL_V10_REPORT.zip > SHA256SUMS.txt)
+
+      - name: Upload V10 review
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v10-review
+          path: |
+            TC497/FULL_V10_OUT/TC497_FULL_V10_REVIEW_960x540.mp4
+            TC497/FULL_V10_OUT/FULL_V10_REPORT.zip
+            TC497/FULL_V10_OUT/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
