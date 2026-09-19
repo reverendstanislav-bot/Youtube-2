@@ -199,7 +199,7 @@ def mix_final_from_stems(video,music_bed,vo_path,sfx_path,out,total,tmpdir):
     fc=(
         f"[0:a]atrim=0:{COLD_OPEN_END:.3f},asetpts=PTS-STARTPTS,aresample=48000[cold];"
         f"[1:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,"
-        "aresample=48000,pan=stereo|c0=c0|c1=c0[vo];"
+        "aresample=48000,pan=stereo|c0=c0|c1=c0,asplit=2[vo_mix][vo_sc];"
         f"[2:a]atrim=0:{rest:.3f},asetpts=PTS-STARTPTS,aresample=48000,"
         "pan=stereo|c0=c0|c1=c0,volume=0.62,"
         f"volume=0.22:enable='between(t,{1115.376-COLD_OPEN_END:.3f},{rest:.3f})'[sfx];"
