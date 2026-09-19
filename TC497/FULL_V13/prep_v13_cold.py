@@ -29,7 +29,7 @@ SH=[
 (48.060,"ST-COLD","safe","recon"),
 (53.880,"OTTER2_COVER","full","document"),
 (57.200,"ST-572","full","recon"),
-(61.080,"ST-ELECTRIC","safe","recon"),
+(61.080,"WB-L04","safe","recon"),
 (64.620,"WB-L03","safe","recon"),
 (68.760,"WD-T01","safe","recon"),
 (71.000,"WC-Y02","safe","recon"),
