@@ -10,6 +10,7 @@ def main():
     ap.add_argument("mode",choices=["visual","music","mix"])
     ap.add_argument("--input-video")
     ap.add_argument("--visual-patches")
+    ap.add_argument("--source-ass")
     ap.add_argument("--music-manifest")
     ap.add_argument("--shots-json")
     ap.add_argument("--music-bed")
@@ -28,6 +29,8 @@ def main():
         src=Path(args.input_video).resolve()
         pm=Path(args.visual_patches).resolve()
         built=v.make_visual_patch_video(src,str(pm),pm.parent,work)
+        if args.source_ass:
+            built=v.reburn_patch_overlays(built,args.source_ass,str(pm),work)
         if built.resolve()!=out:
             shutil.copy2(built,out)
         print("V5_STAGE_VISUAL_DONE",out,flush=True)
