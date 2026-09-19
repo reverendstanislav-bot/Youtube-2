@@ -14,7 +14,7 @@ jobs:
   build-v5:
     env:
       V5_FASTCHECK: '1'
-      BUILD_REV: 1789790836732
+      BUILD_REV: 1789792000002
     runs-on: ubuntu-latest
     timeout-minutes: 90
 
