@@ -1,0 +1,64 @@
+name: Build TC497 FULL V5 Audio Quickcheck
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v5_audioqc.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  audio-qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip zip
+          pip install numpy
+      - name: Download V4
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v4-review
+          path: /tmp/v4artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35414343740
+          github-token: ${{ github.token }}
+      - name: Prepare stems and original music
+        env:
+          VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/v4report /tmp/v5cfg/music /tmp/v5audio/report TC497/FULL_V5_AUDIOQC
+          unzip -q /tmp/v4artifact/FULL_V4_REPORT.zip -d /tmp/v4report
+          curl -fL --retry 3 "$VO_URL" -o /tmp/vo.mp3
+          python TC497/FULL_V5/generate_original_music.py --out-dir /tmp/v5cfg/music
+          cp TC497/FULL_V5/music_manifest.original.json /tmp/v5cfg/music_manifest.json
+      - name: Build music bed and stem mix
+        run: |
+          set -euo pipefail
+          python -u TC497/FULL_V5/v5_staged.py music             --input-video /tmp/v4artifact/TC497_FULL_V4_REVIEW_960x540.mp4             --music-manifest /tmp/v5cfg/music_manifest.json             --shots-json /tmp/v4report/shots.json             --output /tmp/v5audio/music.wav             --work-dir /tmp/v5audio/musicwork
+          python -u TC497/FULL_V5/v5_staged.py mix             --input-video /tmp/v4artifact/TC497_FULL_V4_REVIEW_960x540.mp4             --music-bed /tmp/v5audio/music.wav             --vo /tmp/vo.mp3             --sfx-bed /tmp/v4report/ORIGINAL_UNDERSCORE.wav             --output TC497/FULL_V5_AUDIOQC/TC497_FULL_V5_AUDIO_QC.mp4             --work-dir /tmp/v5audio/mixwork
+      - name: Analyze audio
+        run: |
+          ffmpeg -hide_banner -nostats -i TC497/FULL_V5_AUDIOQC/TC497_FULL_V5_AUDIO_QC.mp4             -af ebur128=peak=true -f null - 2> /tmp/v5audio/report/EBUR128.txt || true
+          ffprobe -v error -show_entries format=duration,size,bit_rate             -of json TC497/FULL_V5_AUDIOQC/TC497_FULL_V5_AUDIO_QC.mp4             > /tmp/v5audio/report/FFPROBE.json
+          cp /tmp/v5cfg/music_manifest.json /tmp/v5audio/report/
+          (cd /tmp/v5audio/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FULL_V5_AUDIOQC/V5_AUDIO_QC_REPORT.zip" .)
+      - name: Upload audio quickcheck
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v5-audioqc
+          path: |
+            TC497/FULL_V5_AUDIOQC/TC497_FULL_V5_AUDIO_QC.mp4
+            TC497/FULL_V5_AUDIOQC/V5_AUDIO_QC_REPORT.zip
+          compression-level: 0
+          retention-days: 7
