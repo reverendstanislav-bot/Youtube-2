@@ -1,22 +1,11 @@
-# TC-497 CODEX_READY
+# TC497 — CURRENT PROJECT STATE
 
-This folder controls the full media package build for Episode 2:
+**Current status: FINAL 1080 MASTER APPROVED FOR YOUTUBE UPLOAD**
 
-**America Built a 572-Foot Train That Needed No Tracks**
+Start here:
+`TC497/FINAL_1080/NEW_CHAT_HANDOFF.md`
 
-The canonical full package is published as a GitHub Release asset under tag `tc497-codex-ready-v1`.
+Final master QC:
+`TC497/FINAL_1080/FINAL_MASTER_QC.md`
 
-Build requirements locked:
-- 62 approved Higgsfield production PNGs
-- 13 GREEN archive source files
-- Visual Timeline / Codex Edit Map v2
-- generation/archive manifests
-- Codex edit rules
-- graphics specs
-- composite specs
-- final QC status
-
-The release workflow performs a hard count check before publishing. It will fail rather than publish an incomplete package.
-
-Source control package:
-https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/593dd9d4-d61a-4689-b5be-34a7fcb84d1e.zip
+The film is complete. Next work is YouTube packaging and upload-side verification, not another edit pass.
