@@ -48,7 +48,7 @@ jobs:
           VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
         run: |
           set -euo pipefail
-          mkdir -p /tmp/v4report /tmp/fast/music /tmp/fast/report/screens /tmp/fast/patch
+          mkdir -p /tmp/v4report /tmp/fast/music /tmp/fast/musicwork /tmp/fast/report/screens /tmp/fast/patch
           unzip -q /tmp/v4artifact/FULL_V4_REPORT.zip -d /tmp/v4report
           test -s /tmp/v4report/overlay_v4.ass
           test -s /tmp/v4report/ORIGINAL_UNDERSCORE.wav
