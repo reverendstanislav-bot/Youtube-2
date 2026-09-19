@@ -1,0 +1,185 @@
+name: Build TC497 FINAL V9 1080 Surgical Master
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_final_v9_1080_surgical.yml'
+      - 'TC497/FINAL_V9/render_surgical_chunk.py'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-surgical:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip zip fonts-dejavu-core
+
+      - name: Download native 1080 source
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-final-upload-master-1080
+          path: /tmp/native
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35421316892
+          github-token: ${{ github.token }}
+
+      - name: Download approved V9
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v9-review-fast
+          path: /tmp/v9
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35427554323
+          github-token: ${{ github.token }}
+
+      - name: Download V4 overlay report
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v4-review
+          path: /tmp/v4
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35414343740
+          github-token: ${{ github.token }}
+
+      - name: Download CODEX package
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Prepare assets
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/work/assets /tmp/work/v4 /tmp/work/pkg /tmp/work/segments /tmp/work/report/screens TC497/FINAL_V9_SURGICAL_OUT
+          unzip -q /tmp/v4/FULL_V4_REPORT.zip -d /tmp/work/v4
+          PKG_ZIP="$(find /tmp/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n 1)"
+          unzip -q "$PKG_ZIP" -d /tmp/work/pkg
+          GEN_DIR="$(find /tmp/work/pkg -type d -name FINAL_62 | head -n 1)"
+          cp "$GEN_DIR/WC-Y01.png" /tmp/work/assets/WC-Y01.png
+          cp "$GEN_DIR/WD-T03.png" /tmp/work/assets/WD-T03.png
+          cp "$GEN_DIR/WC-D03.png" /tmp/work/assets/WC-D03.png
+          cp "$GEN_DIR/WC-D05.png" /tmp/work/assets/WC-D05.png
+
+          curl -fL --retry 4 --retry-all-errors             'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_052610_5d160867-ad98-4a85-8556-525b046a6888.png'             -o /tmp/work/assets/electric_human_v6.png
+          curl -fL --retry 4 --retry-all-errors             'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_052610_01ad642b-d0d3-4821-a10c-c14448b21b7f.png'             -o /tmp/work/assets/electric_wheel_v6.png
+          curl -fL --retry 4 --retry-all-errors             'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014113_48dcb295-57ea-4d53-901d-7ce9c3492c42.png'             -o /tmp/work/assets/V4_EMPTY_END.png
+
+          for f in /tmp/work/assets/*.png; do test -s "$f"; done
+          test -s /tmp/work/v4/overlay_v4.ass
+          test -s /tmp/native/TC497_FINAL_UPLOAD_MASTER_1920x1080.mp4
+          test -s /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4
+
+      - name: Split native source on existing keyframes
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error             -i /tmp/native/TC497_FINAL_UPLOAD_MASTER_1920x1080.mp4             -map 0:v:0 -an -c copy             -f segment             -segment_times 208,245.7,757.933333,834.533333,1019.033333,1071.433333,1181.833333             -segment_time_delta 0.0168             -reset_timestamps 1             /tmp/work/segments/base_%02d.mp4
+
+          for i in 00 01 02 03 04 05 06 07; do test -s "/tmp/work/segments/base_$i.mp4"; done
+
+      - name: Render only the four changed windows
+        run: |
+          set -euo pipefail
+          BASE=/tmp/native/TC497_FINAL_UPLOAD_MASTER_1920x1080.mp4
+          ASS=/tmp/work/v4/overlay_v4.ass
+          ASSETS=/tmp/work/assets
+
+          python3 TC497/FINAL_V9/render_surgical_chunk.py             --input "$BASE" --source-ass "$ASS" --asset-dir "$ASSETS"             --start 208 --end 245.7             --output /tmp/work/segments/patch_01.mp4
+
+          python3 TC497/FINAL_V9/render_surgical_chunk.py             --input "$BASE" --source-ass "$ASS" --asset-dir "$ASSETS"             --start 757.933333 --end 834.533333             --output /tmp/work/segments/patch_03.mp4
+
+          python3 TC497/FINAL_V9/render_surgical_chunk.py             --input "$BASE" --source-ass "$ASS" --asset-dir "$ASSETS"             --start 1019.033333 --end 1071.433333             --output /tmp/work/segments/patch_05.mp4
+
+          python3 TC497/FINAL_V9/render_surgical_chunk.py             --input "$BASE" --source-ass "$ASS" --asset-dir "$ASSETS"             --start 1181.833333 --end 1236.533333             --clean-end "$ASSETS/V4_EMPTY_END.png"             --output /tmp/work/segments/patch_07.mp4
+
+      - name: Assemble fresh native 1080 picture
+        run: |
+          set -euo pipefail
+          cat > /tmp/work/concat.txt <<'EOF'
+          file '/tmp/work/segments/base_00.mp4'
+          file '/tmp/work/segments/patch_01.mp4'
+          file '/tmp/work/segments/base_02.mp4'
+          file '/tmp/work/segments/patch_03.mp4'
+          file '/tmp/work/segments/base_04.mp4'
+          file '/tmp/work/segments/patch_05.mp4'
+          file '/tmp/work/segments/base_06.mp4'
+          file '/tmp/work/segments/patch_07.mp4'
+          EOF
+
+          ffmpeg -y -loglevel error             -f concat -safe 0 -i /tmp/work/concat.txt             -c copy -movflags +faststart             /tmp/work/final_picture.mp4
+
+          ffprobe -v error -count_frames -select_streams v:0             -show_entries stream=width,height,r_frame_rate,duration,nb_read_frames             -of json /tmp/work/final_picture.mp4 > /tmp/work/report/PICTURE_FFPROBE.json
+
+      - name: Mux approved V9 audio bit for bit
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error             -i /tmp/work/final_picture.mp4             -i /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4             -map 0:v:0 -map 1:a:0 -c copy -t 1236.533333 -movflags +faststart             TC497/FINAL_V9_SURGICAL_OUT/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+
+          ffmpeg -y -loglevel error -i /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4             -map 0:a:0 -c copy -f adts /tmp/work/v9.aac
+          ffmpeg -y -loglevel error -i TC497/FINAL_V9_SURGICAL_OUT/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4             -map 0:a:0 -c copy -f adts /tmp/work/final.aac
+          sha256sum /tmp/work/v9.aac /tmp/work/final.aac | tee /tmp/work/report/AUDIO_SHA256.txt
+          cmp /tmp/work/v9.aac /tmp/work/final.aac
+
+      - name: Final QC
+        run: |
+          set -euo pipefail
+          MASTER=TC497/FINAL_V9_SURGICAL_OUT/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+
+          ffprobe -v error -count_frames             -show_entries stream=index,codec_name,profile,width,height,pix_fmt,r_frame_rate,avg_frame_rate,duration,bit_rate,nb_read_frames:format=duration,size,bit_rate             -of json "$MASTER" > /tmp/work/report/FFPROBE.json
+
+          ffmpeg -hide_banner -nostats -i "$MASTER"             -af ebur128=peak=true -f null - > /dev/null 2> /tmp/work/report/EBUR128.txt || true
+
+          ffmpeg -hide_banner -nostats -i "$MASTER"             -vf "blackdetect=d=0.25:pix_th=0.02" -an -f null -             > /dev/null 2> /tmp/work/report/BLACKDETECT.txt || true
+
+          for t in 90 207 209 218 233 245 330 757 770 817 834 840 1018 1024 1058 1071 1083 1181 1212 1223 1226 1228 1232 1235; do
+            ffmpeg -y -loglevel error -ss "$t" -i "$MASTER" -frames:v 1 "/tmp/work/report/screens/final_${t}.jpg"
+          done
+
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$MASTER")" = "1920"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$MASTER")" = "1080"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$MASTER")" = "30/1"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of csv=p=0 "$MASTER")"
+          test "$FRAMES" = "37096"
+
+          cp TC497/FULL_V9/CRITIC_QC.md /tmp/work/report/V9_CRITIC_QC.md
+          cp TC497/FULL_V9/EDIT_PLAN.md /tmp/work/report/V9_EDIT_PLAN.md
+          cp TC497/FINAL_V9/render_surgical_chunk.py /tmp/work/report/
+
+          cat > /tmp/work/report/FINAL_MASTER_STATUS.md <<'EOF'
+          # TC497 FINAL V9 1080 — surgical master
+
+          User-approved V9 edit.
+          Unchanged native-1080 sections are stream-copied from the prior native 1080 source master.
+          Only four windows are re-encoded:
+          - 208.000-245.700 (V6 Electric Wheel corrections)
+          - 757.933-834.533 (V9 Yuma corrections)
+          - 1019.033-1071.433 (V9 ground-vs-air corrections)
+          - 1181.833-end (V8 cinematic ending)
+          V9 audio is copied bit-for-bit.
+          Final assertions: 1920x1080, 30 fps, exactly 37,096 video frames.
+          EOF
+
+          (cd /tmp/work/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FINAL_V9_SURGICAL_OUT/TC497_FINAL_V9_QC.zip" .)
+          (cd TC497/FINAL_V9_SURGICAL_OUT && sha256sum             TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4 TC497_FINAL_V9_QC.zip > SHA256SUMS.txt)
+
+      - name: Upload surgical final master
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-final-v9-upload-master-1080-surgical
+          path: |
+            TC497/FINAL_V9_SURGICAL_OUT/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
+            TC497/FINAL_V9_SURGICAL_OUT/TC497_FINAL_V9_QC.zip
+            TC497/FINAL_V9_SURGICAL_OUT/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 14
