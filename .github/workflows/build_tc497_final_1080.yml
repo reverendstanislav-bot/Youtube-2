@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 70
     env:
-      BUILD_REV: 1789791755771
+      BUILD_REV: 1789792020773
       VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V4_WORK: /tmp/tc497master/work
@@ -144,7 +144,8 @@ jobs:
           src=Path('TC497/FULL_V4/full_v4_build.py').read_text()
           src=src.replace('W,H=960,540','W,H=1920,1080')
           src=src.replace("'scale=960:540,format=yuv420p'","'scale=1920:1080,format=yuv420p'")
-          src=src.replace("'-crf','19'","'-crf','16'")
+          src=src.replace("'veryfast'","'ultrafast'")
+          src=src.replace("'-crf','19'","'-crf','14'")
           Path('/tmp/tc497master/full_master_build.py').write_text(src)
           PY
           python /tmp/tc497master/full_master_build.py
