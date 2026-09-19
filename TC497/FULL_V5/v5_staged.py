@@ -28,7 +28,7 @@ def main():
     if args.mode=="visual":
         src=Path(args.input_video).resolve()
         pm=Path(args.visual_patches).resolve()
-        built=v.make_visual_patch_video(src,str(pm),pm.parent,work,args.source_ass)
+        built=v.make_visual_patch_video_concat(src,str(pm),pm.parent,work,args.source_ass)
         if built.resolve()!=out:
             shutil.copy2(built,out)
         print("V5_STAGE_VISUAL_DONE",out,flush=True)
