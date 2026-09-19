@@ -166,7 +166,7 @@ def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir):
         fc.append(f"{prev}[{scaled}]overlay=0:0:enable='between(t,{float(x['start']):.3f},{float(x['end']):.3f})'[{nxt}]")
         prev=f"[{nxt}]"
     cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?",
-            "-c:v","libx264","-preset","veryfast","-crf","18","-pix_fmt","yuv420p",
+            "-c:v","libx264","-preset","ultrafast","-crf","20","-pix_fmt","yuv420p",
             "-c:a","copy","-movflags","+faststart",str(out)]
     sh(cmd)
     return out
