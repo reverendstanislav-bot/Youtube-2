@@ -2,7 +2,7 @@
 import argparse, re, subprocess
 from pathlib import Path
 
-END_START = 1221.948
+END_START = 1222.300
 TOTAL = 1236.533333
 
 def sh(cmd):
