@@ -80,9 +80,9 @@ def main():
     af=(f"[0:a]aresample=48000,asplit=2[base][sc];"
         f"[1:a]atrim=0:{TAIL_DUR:.3f},asetpts=PTS-STARTPTS,"
         f"afade=t=in:st=0:d=3.5,afade=t=out:st={TAIL_DUR-7.0:.3f}:d=7,"
-        f"volume=0.42,adelay=1185000|1185000,apad=pad_dur={TOTAL:.3f},atrim=0:{TOTAL:.3f}[music];"
+        f"volume=0.18,adelay=1185000|1185000,apad=pad_dur={TOTAL:.3f},atrim=0:{TOTAL:.3f}[music];"
         f"[music][sc]sidechaincompress=threshold=0.028:ratio=9:attack=18:release=520:makeup=1[mduck];"
-        f"[base][mduck]amix=inputs=2:weights='1 1':normalize=0,alimiter=limit=0.794[aout]")
+        f"[base][mduck]amix=inputs=2:weights='1 1':normalize=0,alimiter=limit=0.794:level=false[aout]")
     sh(["ffmpeg","-y","-loglevel","error","-i",args.input,"-i",args.music,
         "-filter_complex",af,"-map","[aout]","-t",f"{TOTAL:.3f}",
         "-c:a","aac","-b:a","192k",str(audio)])
