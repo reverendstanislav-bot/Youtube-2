@@ -6,7 +6,7 @@ END_START = 1222.300
 CTA_CUT = 1225.450
 TOTAL = 1236.533333
 
-SYNTHETIC_SOURCE_LABELS = [
+PATCHES = [
     (215.356, 221.464, "RECONSTRUCTION"),
     (230.014, 237.342, "RECONSTRUCTION"),
     (766.838, 775.922, "RECONSTRUCTION"),
@@ -24,6 +24,12 @@ def sec_to_ass(t):
     h=int(t//3600); t-=h*3600
     m=int(t//60); t-=m*60
     return f"{h}:{m:02d}:{t:05.2f}"
+
+def clipped_dialogue(parts, a, b):
+    q=parts.copy()
+    q[1]=sec_to_ass(a)
+    q[2]=sec_to_ass(b)
+    return ",".join(q)
 
 def main():
     ap=argparse.ArgumentParser()
@@ -44,8 +50,7 @@ Style: V8Sub,DejaVu Sans,14,&H002E3234,&H002E3234,&H50F3EBDD,&H00000000,0,0,0,0,
     head=head[:idx+1]+styles+head[idx+1:]
 
     fmt="Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text"
-    out=[]
-
+    parsed=[]
     for line in events.splitlines():
         if line.startswith("Format:"):
             fmt=line
@@ -55,31 +60,32 @@ Style: V8Sub,DejaVu Sans,14,&H002E3234,&H002E3234,&H50F3EBDD,&H00000000,0,0,0,0,
         p=line.split(",",9)
         if len(p)<10:
             continue
-        s=ass_to_sec(p[1]); e=ass_to_sec(p[2])
+        parsed.append((p,ass_to_sec(p[1]),ass_to_sec(p[2])))
 
-        # Preserve the complete approved pre-ending caption/provenance grammar.
-        if s < END_START:
-            q=p.copy()
-            q[2]=sec_to_ass(min(e, END_START))
-            if ass_to_sec(q[2]) > ass_to_sec(q[1]):
-                out.append(",".join(q))
+    out=[]
 
-        # On the clean end plate, retain only the final documentary caption.
-        if p[3]=="Cap" and e>END_START and s<CTA_CUT:
-            q=p.copy()
-            q[1]=sec_to_ass(max(END_START,s))
-            q[2]=sec_to_ass(min(CTA_CUT,e))
-            if ass_to_sec(q[2]) > ass_to_sec(q[1]):
-                out.append(",".join(q))
+    # The native 1080 source already has the V4 ASS baked in.
+    # Re-burn only events hidden by the six replacement stills.
+    for p,s,e in parsed:
+        for ps,pe,_ in PATCHES:
+            a=max(s,ps); b=min(e,pe)
+            if b>a:
+                out.append(clipped_dialogue(p,a,b))
 
-    # Reproduce V6/V9 synthetic provenance labels over replacement stills.
-    for start, end, label in SYNTHETIC_SOURCE_LABELS:
-        b=min(end, start+2.2)
+    # Explicit provenance on all V6/V9 replacement stills.
+    for start,end,label in PATCHES:
         out.append(
-            f"Dialogue: 0,{sec_to_ass(start)},{sec_to_ass(b)},Source,,0,0,0,,{label}"
+            f"Dialogue: 0,{sec_to_ass(start)},{sec_to_ass(min(end,start+2.2))},Source,,0,0,0,,{label}"
         )
 
-    # Approved V8 end-screen identity.
+    # Clean V8 ending covers the previously baked end-card and CTA captions.
+    # Restore only the final documentary sentence, then the approved identity.
+    for p,s,e in parsed:
+        if p[3]=="Cap" and e>END_START and s<CTA_CUT:
+            a=max(END_START,s); b=min(CTA_CUT,e)
+            if b>a:
+                out.append(clipped_dialogue(p,a,b))
+
     out += [
         f"Dialogue: 70,{sec_to_ass(1222.30)},{sec_to_ass(TOTAL)},V8Brand,,0,0,0,,{{\\fad(600,350)}}HIDDEN INDUSTRIAL AMERICA",
         f"Dialogue: 71,{sec_to_ass(1223.00)},{sec_to_ass(TOTAL)},V8Hero,,0,0,0,,{{\\fad(750,350)}}TC-497",
@@ -90,7 +96,7 @@ Style: V8Sub,DejaVu Sans,14,&H002E3234,&H002E3234,&H50F3EBDD,&H00000000,0,0,0,0,
         head+"[Events]\n"+fmt+"\n"+"\n".join(out)+"\n",
         encoding="utf-8"
     )
-    print(f"MASTER_ASS_READY events={len(out)} output={args.output_ass}")
+    print(f"FINAL_PATCH_ASS_READY events={len(out)} output={args.output_ass}")
 
 if __name__=="__main__":
     main()
