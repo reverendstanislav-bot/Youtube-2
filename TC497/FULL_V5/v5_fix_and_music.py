@@ -138,7 +138,7 @@ def make_music_bed(manifest,base_dir,total,tmpdir,shots_path=None):
     sh(cmd)
     return out
 
-def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir):
+def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir,source_ass=None):
     if not patch_manifest:
         return Path(input_video)
     p=load_json(patch_manifest)
@@ -157,23 +157,31 @@ def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir):
     cmd=["ffmpeg","-y","-loglevel","error","-i",str(input_video)]
     for x in existing:
         cmd += ["-loop","1","-framerate","30","-i",x["_path"]]
+
     fc=[]
     prev="[0:v]"
     for i,x in enumerate(existing, start=1):
         scaled=f"img{i}"
         nxt=f"v{i}"
         fc.append(f"[{i}:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[{scaled}]")
-        fc.append(f"{prev}[{scaled}]overlay=0:0:shortest=1:enable='between(t,{float(x['start']):.3f},{float(x['end']):.3f})'[{nxt}]")
+        fc.append(f"{prev}[{scaled}]overlay=0:0:enable='between(t,{float(x['start']):.3f},{float(x['end']):.3f})'[{nxt}]")
         prev=f"[{nxt}]"
-    if os.getenv("V5_FASTCHECK")=="1":
-        venc=["-c:v","mpeg4","-q:v","5","-pix_fmt","yuv420p"]
-    else:
-        venc=["-c:v","libx264","-preset","ultrafast","-crf","20","-pix_fmt","yuv420p"]
-    cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?"] + venc + [
-            "-c:a","copy","-t",f"{ffprobe_duration(input_video):.3f}","-movflags","+faststart",str(out)]
+
+    # Preserve V4 captions/source labels over the five replacement intervals
+    # in the same encode pass. The original V4 text is already baked elsewhere.
+    if source_ass and Path(source_ass).exists():
+        ass=extract_patch_ass(source_ass,patch_manifest,tmpdir/"patch_events.ass")
+        if ass:
+            fc.append(f"{prev}ass={ass}[vout]")
+            prev="[vout]"
+
+    preset="ultrafast" if os.environ.get("V5_FASTCHECK")=="1" else "veryfast"
+    crf="19" if preset=="ultrafast" else "18"
+    cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?",
+            "-c:v","libx264","-preset",preset,"-crf",crf,"-pix_fmt","yuv420p",
+            "-c:a","copy","-movflags","+faststart",str(out)]
     sh(cmd)
     return out
-
 
 def ass_time_to_sec(x):
     h,m,ss=x.split(":")
@@ -290,10 +298,9 @@ def main():
         td=Path(td)
         patched=make_visual_patch_video(
             input_video,args.visual_patches,
-            Path(args.visual_patches).resolve().parent if args.visual_patches else base_dir,td
+            Path(args.visual_patches).resolve().parent if args.visual_patches else base_dir,td,
+            args.source_ass
         )
-        if args.visual_patches and args.source_ass:
-            patched=reburn_patch_overlays(patched,args.source_ass,args.visual_patches,td)
         bed=make_music_bed(manifest,base_dir,total,td,args.shots_json)
         if args.vo and args.sfx_bed:
             mix_final_from_stems(
