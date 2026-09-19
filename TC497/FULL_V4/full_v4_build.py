@@ -341,7 +341,9 @@ def _caption_normalize(text):
       (r'\bmulti\s*-\s*section\b', 'multi-section'),
       (r'\boff\s*-\s*road\b', 'off-road'),
       (r'\bsix\s*-\s*person\b', 'six-person'),
-      (r'\btrain\s*-\s*sized\b', 'train-sized')
+      (r'\btrain\s*-\s*sized\b', 'train-sized'),
+      (r'\brubber\s*-\s*tired\b', 'rubber-tired'),
+      (r'\bLeTourneau\s*-\s*train\b', 'LeTourneau train')
     ]
     for pat,repl in fixes:
         text=re.sub(pat,repl,text,flags=re.I if pat.startswith('\\bturn') else 0)
