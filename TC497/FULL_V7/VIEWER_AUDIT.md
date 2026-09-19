@@ -63,7 +63,7 @@ Reviewed build:
 The film is materially stronger than V5, but FULL_V6 should not be approved as final yet.
 
 P1 editorial issue:
-- redesign the final 14.558-second plate beginning at 20:21.948 / branding event at ~20:22.30.
+- redesign the final branded plate beginning at ~20:22.30.
 
 P2 issues:
 - visual-family repetition remains in parts of the middle;
@@ -72,7 +72,7 @@ P2 issues:
 
 ## FULL_V7 target
 
-- keep V6 picture and edit unchanged before 20:21.948;
+- keep V6 picture and edit unchanged before 20:22.30;
 - replace the baked centered end slogan with a clean V4 desert source;
 - preserve final narration subtitles;
 - use restrained left-aligned charcoal typography, not centered white/black slogan text;
