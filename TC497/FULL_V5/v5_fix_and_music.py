@@ -90,42 +90,51 @@ def make_music_bed(manifest,base_dir,total,tmpdir,shots_path=None):
     cues=manifest.get("cues",[])
     if not cues:
         raise SystemExit("Music manifest has no cues.")
-    cue_files=[]
-    for i,c in enumerate(cues):
-        t=manifest["tracks"][c["track"]]
-        cue_files.append(make_cue_wav(
-            t["_path"],float(c["start"]),float(c["end"]),float(c.get("gain_db",-31)),
-            float(c.get("fade_in",2)),float(c.get("fade_out",2)),total,tmpdir,i
-        ))
+
     out=tmpdir/"music_bed.wav"
     cmd=["ffmpeg","-y","-loglevel","error"]
-    for p in cue_files: cmd += ["-i",str(p)]
-    n=len(cue_files)
-    # Mix cues and apply automatic evidence ducking / epilogue restraint.
-    filters=[f"[{i}:a]" for i in range(n)]
-    fc="".join(filters)+f"amix=inputs={n}:normalize=0:dropout_transition=0[m]"
+    # One looping input per cue, but mix everything in one graph: no multi-GB
+    # per-cue PCM intermediates.
+    for c in cues:
+        t=manifest["tracks"][c["track"]]
+        cmd += ["-stream_loop","-1","-i",t["_path"]]
+
+    fc=[]
+    labels=[]
+    for i,c in enumerate(cues):
+        start=float(c["start"]); end=float(c["end"]); dur=end-start
+        gain=float(c.get("gain_db",-31))
+        fi=float(c.get("fade_in",2)); fo=float(c.get("fade_out",2))
+        fo_start=max(0,dur-fo)
+        delay=round(start*1000)
+        lab=f"q{i}"
+        fc.append(
+            f"[{i}:a]atrim=0:{dur:.3f},asetpts=PTS-STARTPTS,"
+            f"afade=t=in:st=0:d={fi:.3f},"
+            f"afade=t=out:st={fo_start:.3f}:d={fo:.3f},"
+            f"volume={gain}dB,adelay={delay}|{delay}[{lab}]"
+        )
+        labels.append(f"[{lab}]")
+    fc.append("".join(labels)+f"amix=inputs={len(labels)}:normalize=0:dropout_transition=0,apad=pad_dur={total:.3f},atrim=0:{total:.3f}[m]")
+
+    chain="[m]"; step=0
     if shots_path:
         shots=load_json(shots_path)
-        chain="[m]"
-        step=0
         for x in shots:
-            cat=x.get("category")
-            if cat not in {"document","archive"}: continue
-            s=max(COLD_OPEN_END,float(x["s"])); e=float(x["e"])
-            # Evidence should breathe. Reduce music ~8 dB during document/archive beats.
-            nxt=f"m{step}"
-            fc += f";{chain}volume=0.40:enable='between(t,{s:.3f},{e:.3f})'[{nxt}]"
+            if x.get("category") not in {"document","archive"}:
+                continue
+            a=max(COLD_OPEN_END,float(x["s"])); b=float(x["e"])
+            nxt=f"d{step}"
+            fc.append(f"{chain}volume=0.40:enable='between(t,{a:.3f},{b:.3f})'[{nxt}]")
             chain=f"[{nxt}]"; step+=1
-        # Near-silence in final 46.5 seconds.
-        nxt=f"m{step}"
-        fc += f";{chain}volume=0.25:enable='between(t,1190,{total:.3f})'[{nxt}]"
-        chain=f"[{nxt}]"
-        map_label=chain
-    else:
-        fc += ";[m]volume=0.25:enable='between(t,1190,1236.6)'[mo]"
-        map_label="[mo]"
-    cmd += ["-filter_complex",fc,"-map",map_label,"-t",f"{total:.3f}",
-            "-ac",2,"-ar",48000,"-c:a","pcm_s16le",str(out)]
+
+    nxt=f"d{step}"
+    fc.append(f"{chain}volume=0.25:enable='between(t,1190,{total:.3f})'[{nxt}]")
+    chain=f"[{nxt}]"
+
+    cmd += ["-filter_complex",";".join(fc),"-map",chain,
+            "-t",f"{total:.3f}","-ac",2,"-ar",48000,
+            "-c:a","pcm_s16le",str(out)]
     sh(cmd)
     return out
 
@@ -180,43 +189,28 @@ def mix_final(video,music_bed,out,total):
 
 def mix_final_from_stems(video,music_bed,vo_path,sfx_path,out,total,tmpdir):
     rest=max(0.1,total-COLD_OPEN_END)
-    cold=tmpdir/"cold_open.wav"
-    restwav=tmpdir/"rest_master.wav"
-    fullwav=tmpdir/"full_master.wav"
-
-    sh(["ffmpeg","-y","-loglevel","error","-i",str(video),
-        "-t",f"{COLD_OPEN_END:.3f}","-vn","-ac",2,"-ar",48000,
-        "-c:a","pcm_s16le",str(cold)])
-
-    # Rebuild post-cold-open audio from stems:
-    # VO is clean; existing V4 underscore is retained as restrained sound design;
-    # new music is ducked by VO and intentionally disappears in gaps.
+    # Input 0: patched V4 video/audio (cold-open audio source)
+    # Input 1: full VO
+    # Input 2: post-cold-open procedural sound-design bed
+    # Input 3: full-timeline music bed
     fc=(
-        f"[0:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,"
+        f"[0:a]atrim=0:{COLD_OPEN_END:.3f},asetpts=PTS-STARTPTS,aresample=48000[cold];"
+        f"[1:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,"
         "aresample=48000,pan=stereo|c0=c0|c1=c0[vo];"
-        f"[1:a]atrim=0:{rest:.3f},asetpts=PTS-STARTPTS,aresample=48000,"
+        f"[2:a]atrim=0:{rest:.3f},asetpts=PTS-STARTPTS,aresample=48000,"
         "pan=stereo|c0=c0|c1=c0,volume=0.62,"
         f"volume=0.22:enable='between(t,{1115.376-COLD_OPEN_END:.3f},{rest:.3f})'[sfx];"
-        f"[2:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,"
-        "aresample=48000[music];"
+        f"[3:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,aresample=48000[music];"
         "[music][vo]sidechaincompress=threshold=0.020:ratio=12:attack=15:release=480:makeup=1[duck];"
-        "[vo][sfx][duck]amix=inputs=3:weights='1 0.75 1':normalize=0,"
-        "alimiter=limit=0.89[rest]"
+        "[vo][sfx][duck]amix=inputs=3:weights='1 0.75 1':normalize=0,alimiter=limit=0.89[rest];"
+        "[cold][rest]concat=n=2:v=0:a=1[full];"
+        "[full]loudnorm=I=-14:TP=-2:LRA=6[outa]"
     )
-    sh(["ffmpeg","-y","-loglevel","error","-i",str(vo_path),"-i",str(sfx_path),"-i",str(music_bed),
-        "-filter_complex",fc,"-map","[rest]","-t",f"{rest:.3f}",
-        "-ac",2,"-ar",48000,"-c:a","pcm_s16le",str(restwav)])
-
-    sh(["ffmpeg","-y","-loglevel","error","-i",str(cold),"-i",str(restwav),
-        "-filter_complex","[0:a][1:a]concat=n=2:v=0:a=1[a]",
-        "-map","[a]","-t",f"{total:.3f}","-ac",2,"-ar",48000,
-        "-c:a","pcm_s16le",str(fullwav)])
-
-    sh(["ffmpeg","-y","-loglevel","error","-i",str(video),"-i",str(fullwav),
-        "-filter_complex","[1:a]loudnorm=I=-14:TP=-2:LRA=6[a]",
-        "-map","0:v","-map","[a]","-t",f"{total:.3f}",
-        "-c:v","copy","-c:a","aac","-b:a","192k","-movflags","+faststart",str(out)])
-
+    sh(["ffmpeg","-y","-loglevel","error",
+        "-i",str(video),"-i",str(vo_path),"-i",str(sfx_path),"-i",str(music_bed),
+        "-filter_complex",fc,"-map","0:v","-map","[outa]",
+        "-t",f"{total:.3f}","-c:v","copy",
+        "-c:a","aac","-b:a","192k","-movflags","+faststart",str(out)])
 
 def main():
     ap=argparse.ArgumentParser()
