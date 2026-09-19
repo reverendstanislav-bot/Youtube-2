@@ -56,7 +56,6 @@ Style: V7Sub,DejaVu Sans,14,&H002E3234,&H002E3234,&H50F3EBDD,&H00000000,0,0,0,0,
         f"Dialogue: 70,{sec_ass(brand_start)},{sec_ass(TOTAL)},V7Brand,,0,0,0,,{{\\fad(600,250)}}HIDDEN INDUSTRIAL AMERICA",
         f"Dialogue: 71,{sec_ass(1223.00)},{sec_ass(TOTAL)},V7Hero,,0,0,0,,{{\\fad(750,250)}}TC-497",
         f"Dialogue: 72,{sec_ass(1223.65)},{sec_ass(TOTAL)},V7Sub,,0,0,0,,{{\\fad(850,250)}}OVERLAND TRAIN",
-        f"Dialogue: 72,{sec_ass(1225.00)},{sec_ass(TOTAL)},V7Sub,,0,0,0,,{{\\fad(900,250)}}FORGOTTEN MACHINES  /  HIDDEN SYSTEMS  /  ENGINEERING HISTORY",
     ]
     Path(out).write_text(before+"[Events]\n"+fmt+"\n"+"\n".join(kept)+"\n", encoding="utf-8")
 
