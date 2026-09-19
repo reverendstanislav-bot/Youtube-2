@@ -12,6 +12,8 @@ permissions:
 
 jobs:
   build-v5:
+    env:
+      BUILD_REV: 1789785941168
     runs-on: ubuntu-latest
     timeout-minutes: 35
 
