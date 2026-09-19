@@ -1,0 +1,129 @@
+name: Build TC497 FINAL 1080 Fast Master
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_final_1080_fast.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-fast-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip zip
+          pip install numpy
+
+      - name: Download accepted V5 and V4 report
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v5-quickcheck
+          path: /tmp/v5artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35420435588
+          github-token: ${{ github.token }}
+
+      - name: Download V4 report artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v4-review
+          path: /tmp/v4artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35414343740
+          github-token: ${{ github.token }}
+
+      - name: Prepare sources
+        env:
+          VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/v4report /tmp/fast/music /tmp/fast/report/screens /tmp/fast/patch
+          unzip -q /tmp/v4artifact/FULL_V4_REPORT.zip -d /tmp/v4report
+          test -s /tmp/v4report/overlay_v4.ass
+          test -s /tmp/v4report/ORIGINAL_UNDERSCORE.wav
+          test -s /tmp/v4report/shots.json
+          test -s /tmp/v5artifact/TC497_FULL_V5_QUICKCHECK_960x540.mp4
+          curl -fL --retry 3 "$VO_URL" -o /tmp/fast/vo.mp3
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_5ec671d0-ba6c-40d8-b8b5-65c77d78daa2.png' -o /tmp/fast/patch/electric_human.png
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_af253b61-91da-4026-9260-99ae4cb5e4a6.png' -o /tmp/fast/patch/electric_wheel.png
+
+      - name: Generate current original music and bed
+        run: |
+          set -euo pipefail
+          python TC497/FULL_V5/generate_original_music.py --out-dir /tmp/fast/music
+          cp TC497/FULL_V5/music_manifest.original.json /tmp/fast/music_manifest.json
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0,'TC497/FULL_V5')
+          import v5_fix_and_music as v
+          mp=Path('/tmp/fast/music_manifest.json')
+          m,_=v.validate_music_manifest(mp,mp.parent)
+          v.make_music_bed(m,mp.parent,1236.533333,Path('/tmp/fast/musicwork'),'/tmp/v4report/shots.json')
+          PY
+
+      - name: Build current V5.1 audio master
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error             -i /tmp/v5artifact/TC497_FULL_V5_QUICKCHECK_960x540.mp4             -i /tmp/fast/vo.mp3             -i /tmp/v4report/ORIGINAL_UNDERSCORE.wav             -i /tmp/fast/musicwork/music_bed.wav             -filter_complex "              [0:a]atrim=0:82.6,asetpts=PTS-STARTPTS,aresample=48000[cold];              [1:a]atrim=start=82.6:end=1236.533333,asetpts=PTS-STARTPTS,aresample=48000,pan=stereo|c0=c0|c1=c0,asplit=2[vo][sc];              [2:a]atrim=0:1153.933333,asetpts=PTS-STARTPTS,aresample=48000,pan=stereo|c0=c0|c1=c0,volume=0.42,volume=0.12:enable='between(t,1032.776,1153.933)'[sfx];              [3:a]atrim=start=82.6:end=1236.533333,asetpts=PTS-STARTPTS,aresample=48000[music];              [music][sc]sidechaincompress=threshold=0.020:ratio=12:attack=15:release=480:makeup=1[duck];              [vo][sfx][duck]amix=inputs=3:weights='1 0.55 1':normalize=0,alimiter=limit=0.89[rest];              [cold][rest]concat=n=2:v=0:a=1[full];              [full]loudnorm=I=-14:TP=-2:LRA=6[outa]"             -map "[outa]" -t 1236.533333 -ac 2 -ar 48000 -c:a pcm_s16le /tmp/fast/final_audio.wav
+
+      - name: Extract caption events for V5.1 visual breaks
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import sys,json
+          from pathlib import Path
+          sys.path.insert(0,'TC497/FULL_V5')
+          import v5_fix_and_music as v
+          pm=Path('/tmp/fast/patch_manifest.json')
+          pm.write_text(json.dumps({"patches":[
+            {"start":215.356,"end":221.464,"image":"x"},
+            {"start":230.014,"end":237.342,"image":"y"}
+          ]}))
+          out=v.extract_patch_ass('/tmp/v4report/overlay_v4.ass',str(pm),Path('/tmp/fast/v51_patch.ass'))
+          assert out and Path(out).exists()
+          PY
+          grep -c '^Dialogue:' /tmp/fast/v51_patch.ass
+
+      - name: Encode final 1080 V5.1 upload master
+        run: |
+          set -euo pipefail
+          mkdir -p TC497/FINAL_1080_FAST
+          ffmpeg -y -loglevel error             -i /tmp/v5artifact/TC497_FULL_V5_QUICKCHECK_960x540.mp4             -loop 1 -framerate 30 -i /tmp/fast/patch/electric_human.png             -loop 1 -framerate 30 -i /tmp/fast/patch/electric_wheel.png             -i /tmp/fast/final_audio.wav             -filter_complex "              [1:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p1];              [2:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p2];              [0:v][p1]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,215.356,221.464)'[v1];              [v1][p2]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,230.014,237.342)'[v2];              [v2]ass=/tmp/fast/v51_patch.ass,scale=1920:1080:flags=lanczos,unsharp=5:5:0.20:5:5:0.0,format=yuv420p[vout]"             -map "[vout]" -map 3:a -t 1236.533333             -c:v libx264 -preset fast -crf 17 -profile:v high -level 4.1 -pix_fmt yuv420p             -c:a aac -b:a 256k -movflags +faststart             TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4
+
+      - name: Final QC
+        run: |
+          set -euo pipefail
+          ffprobe -v error             -show_entries stream=index,codec_name,width,height,r_frame_rate,avg_frame_rate:format=duration,size,bit_rate             -of json TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4             > /tmp/fast/report/FFPROBE.json
+          ffmpeg -hide_banner -nostats             -i TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4             -af ebur128=peak=true -f null - 2> /tmp/fast/report/EBUR128.txt || true
+          for t in 90 218 233 330 540 710 735 840 960 1083 1110 1212 1228; do
+            ffmpeg -y -loglevel error -ss "$t"               -i TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4               -frames:v 1 "/tmp/fast/report/screens/frame_$t.jpg"
+          done
+          cp TC497/FULL_V5/music_manifest.original.json /tmp/fast/report/
+          cp /tmp/fast/v51_patch.ass /tmp/fast/report/
+          (cd /tmp/fast/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FINAL_1080_FAST/FINAL_V51_QC.zip" .)
+          (cd TC497/FINAL_1080_FAST && sha256sum             TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4 FINAL_V51_QC.zip > SHA256SUMS.txt)
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4)" = "1920"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4)" = "1080"
+
+      - name: Upload fast final master
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-final-upload-master-v51-fast
+          path: |
+            TC497/FINAL_1080_FAST/TC497_FINAL_UPLOAD_MASTER_V51_1920x1080.mp4
+            TC497/FINAL_1080_FAST/FINAL_V51_QC.zip
+            TC497/FINAL_1080_FAST/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
