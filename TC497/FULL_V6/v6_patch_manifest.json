@@ -1,7 +1,7 @@
 {
   "version": "FULL_V6",
   "base": "FULL_V5 review artifact run 35421885255",
-  "notes": "V6 preserves V5 audio and all existing V5 visuals. Only the first two intervals receive new overlay images; all seven intervals receive clipped V4 ASS events. The two new Electric Wheel stills are explicitly tagged RECONSTRUCTION.",
+  "notes": "Verified against the downloaded FULL_V5 review artifact: the two intended Electric Wheel replacement intervals at 215.356-221.464 and 230.014-237.342 were not actually replaced in V5, leaving repeated reconstruction illustrations. V6 restores those two visual breakers, re-burns clipped V4 ASS events over all seven replacement intervals, tags both new Electric Wheel stills as RECONSTRUCTION, preserves V5 audio bit-for-bit, and remains review-only until explicit user approval.",
   "patches": [
     {
       "start": 215.356,
