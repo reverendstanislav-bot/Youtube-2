@@ -75,7 +75,7 @@ jobs:
           IN=/tmp/v9/TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4
           OUT=TC497/FULL_V10_OUT/TC497_FULL_V10_REVIEW_960x540.mp4
 
-          ffmpeg -y -loglevel error             -i "$IN"             -loop 1 -framerate 30 -i /tmp/work/WB-N04.png             -filter_complex "              [1:v]crop=iw*0.70:ih*0.70:iw*0.15:ih*0.15,              scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,              format=rgba,trim=duration=6.87,setpts=PTS-STARTPTS,              fade=t=in:st=0:d=0.25:alpha=1,              fade=t=out:st=6.37:d=0.50:alpha=1,              setpts=PTS+716.90/TB[bridge];              [0:v][bridge]overlay=0:0:eof_action=pass[vfix];              [vfix]ass=/tmp/work/v10_overlay.ass,              scale=960:540:flags=lanczos,format=yuv420p[vout]"             -map "[vout]" -map 0:a:0             -t 1236.533333 -r 30             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0             -c:a copy -movflags +faststart             "$OUT"
+          ffmpeg -y -loglevel error             -i "$IN"             -loop 1 -framerate 30 -i /tmp/work/WB-N04.png             -filter_complex "              [1:v]crop=iw*0.70:ih*0.70:iw*0.15:ih*0.15,              scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,              format=rgba,trim=duration=7.60,setpts=PTS-STARTPTS,              fade=t=in:st=0:d=0.25:alpha=1,              fade=t=out:st=6.90:d=0.70:alpha=1,              setpts=PTS+716.90/TB[bridge];              [0:v][bridge]overlay=0:0:eof_action=pass[vfix];              [vfix]ass=/tmp/work/v10_overlay.ass,              scale=960:540:flags=lanczos,format=yuv420p[vout]"             -map "[vout]" -map 0:a:0             -t 1236.533333 -r 30             -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0             -c:a copy -movflags +faststart             "$OUT"
 
       - name: Audio identity check
         run: |
@@ -115,8 +115,8 @@ jobs:
           - top SOURCE/DOCUMENT/CONCEPT/RECONSTRUCTION labels enlarged and backed;
           - top editor tags enlarged and backed;
           - removed the 11:57.25 engineers/model flash;
-          - replaced 11:56.90–12:03.77 bridge with cropped approved WB-N04 reconstruction;
-          - replacement fades in before the bad frame and fades out into the next shot;
+          - replaced 11:56.90–12:04.50 bridge with cropped approved WB-N04 reconstruction;
+          - replacement fades in before the bad frame and stays over the 12:04 underlying cut, then fades cleanly into the settled next shot;
           - audio copied bit-for-bit from approved V9 lineage;
           - removed subscribe CTA remains removed.
 
