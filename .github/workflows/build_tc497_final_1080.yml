@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 70
     env:
-      BUILD_REV: 1789792020773
+      BUILD_REV: 1789793552250
       VO_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/130bfd1b-7ac4-4dbf-9bc4-6a5fe00927ac.mp3
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V4_WORK: /tmp/tc497master/work
@@ -247,7 +247,7 @@ jobs:
               [v5][p6]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1107.164,1115.376)'[v6];\
               [v6][p7]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,1209.007,1215.477)',ass=$ASS_OUT[vout]" \
             -map "[vout]" -t 1236.506 \
-            -c:v libx264 -preset fast -crf 17 -profile:v high -level 4.1 -pix_fmt yuv420p \
+            -c:v libx264 -preset veryfast -crf 16 -profile:v high -level 4.1 -pix_fmt yuv420p \
             -movflags +faststart /tmp/tc497master/master_picture.mp4
 
       - name: Mux final YouTube upload master and QC
