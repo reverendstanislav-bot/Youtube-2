@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/build_tc497_final_v9_1080.yml'
+      - '.github/workflows/build_tc497_final_v9_1080_vf.yml'
       - 'TC497/FINAL_V9/**'
 
 permissions:
