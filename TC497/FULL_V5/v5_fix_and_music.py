@@ -174,6 +174,47 @@ def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir):
     sh(cmd)
     return out
 
+
+def ass_time_to_sec(x):
+    h,m,ss=x.split(":")
+    return int(h)*3600+int(m)*60+float(ss)
+
+def extract_patch_ass(src_ass,patch_manifest,out_ass):
+    if not src_ass or not Path(src_ass).exists():
+        return None
+    patches=load_json(patch_manifest).get("patches",[])
+    txt=Path(src_ass).read_text(encoding="utf-8",errors="replace")
+    head,_,events=txt.partition("[Events]")
+    keep=[]
+    lines=events.splitlines()
+    fmt=None
+    for line in lines:
+        if line.startswith("Format:"):
+            fmt=line
+        if not line.startswith("Dialogue:"):
+            continue
+        parts=line.split(",",9)
+        if len(parts)<10: continue
+        s0=ass_time_to_sec(parts[1]); e0=ass_time_to_sec(parts[2])
+        if any(e0>float(p["start"]) and s0<float(p["end"]) for p in patches):
+            keep.append(line)
+    if not keep:
+        return None
+    out=Path(out_ass)
+    out.write_text(head+"[Events]\n"+(fmt or "Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text")+"\n"+"\n".join(keep)+"\n",encoding="utf-8")
+    return out
+
+def reburn_patch_overlays(video,src_ass,patch_manifest,tmpdir):
+    ass=extract_patch_ass(src_ass,patch_manifest,tmpdir/"patch_events.ass")
+    if not ass:
+        return Path(video)
+    out=tmpdir/"visual_patched_text.mp4"
+    sh(["ffmpeg","-y","-loglevel","error","-i",str(video),
+        "-vf",f"ass={ass}","-map","0:v","-map","0:a?",
+        "-c:v","libx264","-preset","veryfast","-crf","18","-pix_fmt","yuv420p",
+        "-c:a","copy","-movflags","+faststart",str(out)])
+    return out
+
 def mix_final(video,music_bed,out,total):
     # The existing V4/V5 program audio acts as sidechain; music ducks under narration and SFX.
     fc=(
@@ -221,6 +262,7 @@ def main():
     ap.add_argument("--music-manifest",required=True)
     ap.add_argument("--shots-json")
     ap.add_argument("--visual-patches")
+    ap.add_argument("--source-ass",help="Burn back only V4 ASS events overlapped by replacement intervals")
     ap.add_argument("--output",required=True)
     ap.add_argument("--vo",help="Original full VO file; enables stem-based post-cold-open remix")
     ap.add_argument("--sfx-bed",help="Post-cold-open original sound-design/underscore WAV; enables stem-based remix")
@@ -250,6 +292,8 @@ def main():
             input_video,args.visual_patches,
             Path(args.visual_patches).resolve().parent if args.visual_patches else base_dir,td
         )
+        if args.visual_patches and args.source_ass:
+            patched=reburn_patch_overlays(patched,args.source_ass,args.visual_patches,td)
         bed=make_music_bed(manifest,base_dir,total,td,args.shots_json)
         if args.vo and args.sfx_bed:
             mix_final_from_stems(
