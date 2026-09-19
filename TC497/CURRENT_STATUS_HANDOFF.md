@@ -1,113 +1,92 @@
-# TC497 — CURRENT HANDOFF / USER REVIEW NOT COMPLETE
+# TC497 — CURRENT HANDOFF / FINAL MASTER READY
 
 ## PROJECT STATUS
 
 Episode: LeTourneau TC-497 Overland Train  
 Project: Hidden Industrial America / YouTube-2
 
-Current state: **FULL_V9 IS THE CURRENT REVIEW VERSION. IT HAS PASSED TARGETED TECHNICAL / EDITORIAL QC, BUT THE USER HAS NOT APPROVED THE VIDEO YET.**
+Current state: **FULL_V9 EDIT WAS EXPLICITLY APPROVED BY THE USER. A FRESH 1920×1080 UPLOAD MASTER HAS BEEN BUILT AND PASSED FINAL RELEASE QC.**
 
-Do **not** call the film final.  
-Do **not** promote any 1080p candidate.  
-Do **not** proceed as though the edit is locked until explicit user approval.
+Creative edit is locked unless the user explicitly reopens it.
 
-## CURRENT REVIEW VERSION
+## APPROVED EDIT
 
-Review artifact:
-- GitHub Actions run: `35427554323`
+Approved review version:
+- FULL_V9
+- review run: `35427554323`
 - artifact: `tc497-full-v9-review-fast`
 - artifact id: `10579472633`
-- resolution: 960×540
-- duration: 20:36.533
-- H.264 / 30 fps + AAC
+
+User approval instruction:
+`V9 → свежий 1920×1080 upload master → финальный QC изображения/аудио/субтитров → YouTube.`
+
+## FINAL 1080 MASTER
+
+Preferred master:
+- workflow: `Build TC497 FINAL V9 1080 Surgical Master`
+- run: `35429775249`
+- artifact: `tc497-final-v9-upload-master-1080-surgical`
+- artifact id: `10581035854`
+- artifact digest: `sha256:56518a28f53d2a908161a83bc3d26b333035ccbbfab13e118e954b830d9a719b`
+- file: `TC497_FINAL_UPLOAD_MASTER_V9_1920x1080.mp4`
+- file size: `202105388` bytes
+- duration: `1236.533333` sec / 20:36.533
+- video: 1920×1080, H.264 High, yuv420p, 30 fps
+- exact frame count: `37096`
+- audio: AAC-LC 48 kHz stereo
 
 Reference:
-- `TC497/FULL_V9/EDIT_PLAN.md`
-- `TC497/FULL_V9/v9_patch_manifest.json`
-- `TC497/FULL_V9/v9_patch_chunk.py`
-- `TC497/FULL_V9/CRITIC_QC.md`
-- `.github/workflows/build_tc497_full_v9_fast.yml`
+- `TC497/FINAL_V9/FINAL_RELEASE_QC.md`
+- `TC497/FINAL_V9/render_surgical_chunk.py`
+- `.github/workflows/build_tc497_final_v9_1080_surgical.yml`
 
-## WHAT V9 CHANGED
+## FINAL QC RESULT
 
-FULL_V9 is based on FULL_V8 and makes four surgical middle-film visual replacements only:
+PASS.
 
-- `12:46.838–12:55.922` — WC-Y01 dedicated Yuma proving-ground wide;
-- `13:35.287–13:42.857` — WD-T03 terrain-constraint composition;
-- `17:00.122–17:08.334` — WC-D03 ground-route-vs-airlift overhead composition;
-- `17:34.611–17:42.822` — WC-D05 technology-shift overhead composition.
-
-Purpose:
-- reduce repeated machine/desert visual families in Yuma;
-- reduce repeated helicopter-family imagery in the ground-vs-air transition;
-- improve visual meaning without a broad recut.
-
-All four replacement intervals:
-- use existing project-approved generated reconstructions;
-- are visibly tagged `RECONSTRUCTION`;
-- restore V4 captions/tags over the replacement image;
-- crop 12% from the raw asset edges to exclude legacy collage/corner styling.
-
-No zoom ping-pong was added.
-
-## AUDIO
-
-V9 preserves FULL_V8 AAC bit-for-bit.
-
-V8 AAC SHA-256:
+Audio is bit-for-bit inherited from approved FULL_V9:
 `7954f3218e07a86ec57aa98e2744eabeab4cc4349e32233768b3df77d5ea2aff`
 
-V9 AAC SHA-256:
-`7954f3218e07a86ec57aa98e2744eabeab4cc4349e32233768b3df77d5ea2aff`
+Measured:
+- integrated loudness: -13.5 LUFS
+- LRA: 3.7 LU
+- true peak: -1.9 dBFS
 
-Therefore the V8 cinematic ending music and mix remain unchanged.
+Picture:
+- 1920×1080 assertion passed;
+- 30 fps assertion passed;
+- 37,096-frame assertion passed;
+- full decode passed;
+- black-frame scan found no blackdetect events;
+- changed scenes and ending were visually compared with FULL_V9 and match the approved review composition.
 
-## ENDING STATUS
+Subtitles / provenance:
+- V6 Electric Wheel replacement captions restored;
+- V9 replacement captions restored;
+- all six replacement stills explicitly show RECONSTRUCTION provenance;
+- V8 ending removes the old centered slogan and CTA captions;
+- approved HIDDEN INDUSTRIAL AMERICA / TC-497 / OVERLAND TRAIN end identity is present.
 
-FULL_V8 fixed the old weak ending and V9 preserves it unchanged:
+## WHY THE SURGICAL MASTER IS PREFERRED
 
-- old centered `THE MACHINE WORKED / THE WORLD MOVED ON` card is gone;
-- generic spoken/subtitled subscribe CTA after the final documentary sentence is gone;
-- final clean Yuma/desert plate remains;
-- restrained left-aligned `HIDDEN INDUSTRIAL AMERICA / TC-497 / OVERLAND TRAIN` identity remains;
-- right side remains quiet for YouTube end-screen elements;
-- original resolving music remains from ~19:45 to the end.
+The final master does not upscale the 960×540 review.
 
-## COLD OPEN
+It starts from the prior native-1080 picture master. Unchanged native-1080 sections are stream-copied. Only four windows are re-encoded:
+- 208.000–245.700
+- 757.933–834.533
+- 1019.033–1071.433
+- 1181.833–end
 
-V14 cold-open grammar remains locked and unchanged.
+This minimizes additional H.264 generation loss while reproducing all approved V6/V8/V9 changes.
 
-## V5/V6 HISTORY
+## NEXT STEP
 
-FULL_V5 had two implementation defects:
-- two declared Electric Wheel replacements were silently skipped;
-- captions/source labels disappeared over rendered replacement intervals.
+Platform publication to YouTube.
 
-FULL_V6 corrected those issues.
+There is no direct YouTube upload connector available in the current chat toolset. If continuing inside ChatGPT, use Work mode / Cloud Browser with the final master and upload metadata, or upload the preferred master manually in YouTube Studio.
 
-FULL_V8 then redesigned the ending.
-
-FULL_V9 is the current downstream review version.
-
-## 1080p STATUS
-
-All existing 1080p encodes are historical candidates only and predate the current review edit.
-
-They are **not final**.
-
-Only after explicit user approval of the review edit:
-1. build a fresh 1920×1080 master from the approved version;
-2. run final master QC;
-3. then promote that fresh build to upload master.
-
-## EXACT NEXT STEP
-
-1. User reviews FULL_V9.
-2. Collect any remaining timecoded complaints.
-3. If user approves FULL_V9, build a fresh 1920×1080 candidate from V9 and QC it.
-4. If user does not approve, patch the review version again.
-5. Never call a 1080p build final before explicit user approval.
+Do not rebuild or revise the film before upload unless the user explicitly asks to reopen the edit.
 
 ## ONE-LINE NEW CHAT COMMAND
 
-Open `TC497/CURRENT_STATUS_HANDOFF.md` in `reverendstanislav-bot/Youtube-2` and continue from there. FULL_V9 is the current review build, but it is **NOT user-approved**; review it first and do not treat any 1080p build as final until the user explicitly approves the video.
+Open `TC497/CURRENT_STATUS_HANDOFF.md` in `reverendstanislav-bot/Youtube-2`. FULL_V9 is approved, final 1920×1080 surgical master run `35429775249` passed release QC, and the only remaining step is YouTube publication.
