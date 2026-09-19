@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - '.github/workflows/build_tc497_full_v6.yml'
+      - 'TC497/FULL_V6/v6_patch_chunk.py'
+      - 'TC497/FULL_V6/v6_patch_manifest.json'
 
 permissions:
   contents: read
@@ -195,6 +197,7 @@ jobs:
           V6 changes:
           - restores the two Electric Wheel visual breakers that V5 declared but silently skipped;
           - re-burns the original V4 ASS captions/source labels only across all seven replacement intervals;
+          - explicitly tags both new Electric Wheel stills as RECONSTRUCTION;
           - leaves every other V5 visual frame conceptually unchanged;
           - preserves the V5 AAC elementary audio stream bit-for-bit.
 
