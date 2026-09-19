@@ -204,8 +204,8 @@ def mix_final_from_stems(video,music_bed,vo_path,sfx_path,out,total,tmpdir):
         "pan=stereo|c0=c0|c1=c0,volume=0.62,"
         f"volume=0.22:enable='between(t,{1115.376-COLD_OPEN_END:.3f},{rest:.3f})'[sfx];"
         f"[3:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,aresample=48000[music];"
-        "[music][vo]sidechaincompress=threshold=0.020:ratio=12:attack=15:release=480:makeup=1[duck];"
-        "[vo][sfx][duck]amix=inputs=3:weights='1 0.75 1':normalize=0,alimiter=limit=0.89[rest];"
+        "[music][vo_sc]sidechaincompress=threshold=0.020:ratio=12:attack=15:release=480:makeup=1[duck];"
+        "[vo_mix][sfx][duck]amix=inputs=3:weights='1 0.75 1':normalize=0,alimiter=limit=0.89[rest];"
         "[cold][rest]concat=n=2:v=0:a=1[full];"
         "[full]loudnorm=I=-14:TP=-2:LRA=6[outa]"
     )
