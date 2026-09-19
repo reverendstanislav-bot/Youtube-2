@@ -295,13 +295,13 @@ BLACKLISTED_LEGACY={'WA-03','WA-04R','WA-05','ST-STEER','WB-N01','WB-N03','WB-N0
 def visual_category(code,variant,tag):
     if code.startswith('AR-OTTER') or code=='AR-PATENT': return 'document'
     if code.startswith('AR-'): return 'archive'
-    if code in {'V4-ASSEMBLY','V3-ASSEMBLY','V3-CREW'}: return 'human'
-    if code in {'V3-TOPDOWN','V4-STEER-TRACKS'}: return 'geometry'
-    if code in {'V4-STEER-JOINT','V4-WHEEL','V3-COUPLING','V3-WHEEL','WB-L05','WA-09','V2-TRAC'} or str(variant).startswith('detail'): return 'mechanical_detail'
-    if code in {'V4-RANGE','V4-EMPTY-END','V3-RANGE','V3-EMPTY','V3-DUNE','V2-DUNE'}: return 'environment'
-    if code in {'V4-CARGO','V4-HELI','V3-CARGOLOAD','V2-CARGO'}: return 'operation'
+    if code in {'V4-NUKE','V2-NUKE'}: return 'concept'
+    if code in {'V4-ASSEMBLY','V3-ASSEMBLY','V3-CREW','V4-DRIVER'}: return 'human'
+    if code in {'V3-TOPDOWN','V4-STEER-TRACKS'} or tag=='scale_geometry': return 'geometry'
+    if code in {'V4-RANGE','V4-EMPTY-END','V3-RANGE','V3-EMPTY','V3-DUNE','V2-DUNE'} or tag in {'range_context','aftermath','dune_limit','dune_setup'}: return 'environment'
+    if code in {'V4-CARGO','V4-HELI','V3-CARGOLOAD','V2-CARGO'} or tag in {'operation','cargo','heli_operation'}: return 'operation'
     if code in FULL_TC497 and not str(variant).startswith('detail'): return 'full_tc497'
-    if code=='V4-NUKE' or code=='V2-NUKE': return 'concept'
+    if code in {'V4-SURVIVOR-DETAIL','V4-STEER-JOINT','V4-WHEEL','V3-COUPLING','V3-WHEEL','WB-L05','WA-09','V2-TRAC'} or str(variant).startswith('detail'): return 'mechanical_detail'
     return 'reconstruction'
 
 def build_rest():
