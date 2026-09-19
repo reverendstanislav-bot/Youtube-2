@@ -164,7 +164,7 @@ def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir,source_as
         scaled=f"img{i}"
         nxt=f"v{i}"
         fc.append(f"[{i}:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[{scaled}]")
-        fc.append(f"{prev}[{scaled}]overlay=0:0:enable='between(t,{float(x['start']):.3f},{float(x['end']):.3f})'[{nxt}]")
+        fc.append(f"{prev}[{scaled}]overlay=0:0:shortest=1:eof_action=pass:enable='between(t,{float(x['start']):.3f},{float(x['end']):.3f})'[{nxt}]")
         prev=f"[{nxt}]"
 
     # Preserve V4 captions/source labels over the five replacement intervals
@@ -177,7 +177,8 @@ def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir,source_as
 
     preset="ultrafast" if os.environ.get("V5_FASTCHECK")=="1" else "veryfast"
     crf="19" if preset=="ultrafast" else "18"
-    cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?",
+    total=ffprobe_duration(input_video)
+    cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?","-t",f"{total:.3f}",
             "-c:v","libx264","-preset",preset,"-crf",crf,"-pix_fmt","yuv420p",
             "-c:a","copy","-movflags","+faststart",str(out)]
     sh(cmd)
