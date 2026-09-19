@@ -66,7 +66,9 @@ jobs:
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_022944_83c46c89-d5da-4679-b0b5-e7040f256687.png'             -o /tmp/v5cfg/replacements/nuclear_unbuilt_clean.png
           curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_022944_f0ef4a51-417a-4aa3-8497-f376988c719b.png'             -o /tmp/v5cfg/replacements/ground_vs_air_clean.png
 
-          test "$(find /tmp/v5cfg/replacements -type f -name '*.png' | wc -l)" -eq 5
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_5ec671d0-ba6c-40d8-b8b5-65c77d78daa2.png'             -o /tmp/v5cfg/replacements/electric_human_break.png
+          curl -fL --retry 3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260919_014105_af253b61-91da-4026-9260-99ae4cb5e4a6.png'             -o /tmp/v5cfg/replacements/electric_wheel_break.png
+          test "$(find /tmp/v5cfg/replacements -type f -name '*.png' | wc -l)" -eq 7
 
       - name: Generate original copyright-independent music
         run: |
