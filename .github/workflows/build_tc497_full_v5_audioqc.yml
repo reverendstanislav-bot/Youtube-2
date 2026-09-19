@@ -13,6 +13,8 @@ permissions:
 jobs:
   audio-qc:
     runs-on: ubuntu-latest
+    env:
+      BUILD_REV: 1789787600000
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
