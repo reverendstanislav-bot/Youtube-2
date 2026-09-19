@@ -165,8 +165,11 @@ def make_visual_patch_video(input_video,patch_manifest,base_dir,tmpdir):
         fc.append(f"[{i}:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[{scaled}]")
         fc.append(f"{prev}[{scaled}]overlay=0:0:shortest=1:enable='between(t,{float(x['start']):.3f},{float(x['end']):.3f})'[{nxt}]")
         prev=f"[{nxt}]"
-    cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?",
-            "-c:v","libx264","-preset","ultrafast","-crf","20","-pix_fmt","yuv420p",
+    if os.getenv("V5_FASTCHECK")=="1":
+        venc=["-c:v","mpeg4","-q:v","5","-pix_fmt","yuv420p"]
+    else:
+        venc=["-c:v","libx264","-preset","ultrafast","-crf","20","-pix_fmt","yuv420p"]
+    cmd += ["-filter_complex",";".join(fc),"-map",prev,"-map","0:a?"] + venc + [
             "-c:a","copy","-t",f"{ffprobe_duration(input_video):.3f}","-movflags","+faststart",str(out)]
     sh(cmd)
     return out
