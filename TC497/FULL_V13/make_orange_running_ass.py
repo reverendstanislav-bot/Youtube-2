@@ -2,8 +2,9 @@
 import argparse,csv,re
 from pathlib import Path
 
-BASE='&H00DDEBF3&'      # warm ivory
-ORANGE='&H003279D9&'    # RGB #D97932 in ASS BGR
+BASE='&H003D6FB9&'      # muted orange RGB #B96F3D
+ORANGE='&H003A8AF2&'    # bright orange RGB #F28A3A
+LABEL_BASE='&H00DDEBF3&' # warm ivory for non-dialogue labels only
 DARK='&H00171A1C&'
 
 PATCHES=[
@@ -92,8 +93,8 @@ def prov_text(text):
     t=clean_text(text)
     m=re.match(r'^(ARCHIVE|DOCUMENT|RECONSTRUCTION|CONCEPT)\b(.*)$',t,re.I)
     if m:
-        return '{\\c'+ORANGE+'}'+m.group(1).upper()+'{\\c'+BASE+'}'+esc(m.group(2))
-    return esc(t)
+        return '{\\c'+ORANGE+'}'+m.group(1).upper()+'{\\c'+LABEL_BASE+'}'+esc(m.group(2))
+    return '{\\c'+LABEL_BASE+'}'+esc(t)
 
 def main():
     ap=argparse.ArgumentParser()
@@ -142,7 +143,7 @@ def main():
         )
         if tag:
             events.append(
-                f"Dialogue: 121,{sec_ass(s+.28)},{sec_ass(min(e,s+3.0))},V13Tag,,0,0,0,,{{\\c{ORANGE}}}{esc(tag)}{{\\c{BASE}}}"
+                f"Dialogue: 121,{sec_ass(s+.28)},{sec_ass(min(e,s+3.0))},V13Tag,,0,0,0,,{{\\c{ORANGE}}}{esc(tag)}{{\\c{LABEL_BASE}}}"
             )
 
     # Restrained V8 end identity, no subscribe caption after CTA_CUT.
@@ -165,8 +166,8 @@ YCbCr Matrix: TV.709
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
 Style: Run,DejaVu Sans,29,{BASE},{ORANGE},{DARK},&H00000000,-1,0,0,0,100,100,0,0,1,2.8,1.0,2,64,64,28,1
-Style: V13Prov,DejaVu Sans,17,{BASE},{BASE},{DARK},&H00000000,-1,0,0,0,100,100,1.0,0,1,1.6,0.6,9,28,28,24,1
-Style: V13Tag,DejaVu Sans,18,{BASE},{BASE},{DARK},&H00000000,-1,0,0,0,100,100,.6,0,1,1.6,.6,7,34,34,48,1
+Style: V13Prov,DejaVu Sans,17,{LABEL_BASE},{LABEL_BASE},{DARK},&H00000000,-1,0,0,0,100,100,1.0,0,1,1.6,0.6,9,28,28,24,1
+Style: V13Tag,DejaVu Sans,18,{LABEL_BASE},{LABEL_BASE},{DARK},&H00000000,-1,0,0,0,100,100,.6,0,1,1.6,.6,7,34,34,48,1
 Style: V13Brand,DejaVu Sans,15,&H00171A1C,&H00171A1C,&H50F3EBDD,&H00000000,-1,0,0,0,100,100,1.7,0,1,.8,0,7,66,66,52,1
 Style: V13Hero,DejaVu Sans,43,&H00171A1C,&H00171A1C,&H40F3EBDD,&H00000000,-1,0,0,0,100,100,.6,0,1,1.0,0,7,66,66,84,1
 Style: V13Sub,DejaVu Sans,14,&H002E3234,&H002E3234,&H50F3EBDD,&H00000000,0,0,0,0,100,100,1.0,0,1,.6,0,7,68,68,146,1
