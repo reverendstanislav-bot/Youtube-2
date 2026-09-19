@@ -1,0 +1,37 @@
+{
+  "tracks": {
+    "ambient": {
+      "file": "music/ambient_original.wav",
+      "source": "original",
+      "title": "Hidden Industrial America — Ambient Bed V1",
+      "artist": "Hidden Industrial America",
+      "attribution_required": false,
+      "credit": ""
+    },
+    "pulse": {
+      "file": "music/engineering_pulse_original.wav",
+      "source": "original",
+      "title": "Hidden Industrial America — Engineering Pulse V1",
+      "artist": "Hidden Industrial America",
+      "attribution_required": false,
+      "credit": ""
+    },
+    "sky": {
+      "file": "music/sky_tension_original.wav",
+      "source": "original",
+      "title": "Hidden Industrial America — Sky Tension V1",
+      "artist": "Hidden Industrial America",
+      "attribution_required": false,
+      "credit": ""
+    }
+  },
+  "cues": [
+    {"track":"ambient","start":82.6,"end":198.0,"gain_db":-31.5,"fade_in":2.5,"fade_out":3.5},
+    {"track":"ambient","start":204.0,"end":301.0,"gain_db":-32.0,"fade_in":2.0,"fade_out":3.0},
+    {"track":"pulse","start":310.0,"end":658.0,"gain_db":-30.5,"fade_in":2.0,"fade_out":3.5},
+    {"track":"ambient","start":667.0,"end":744.0,"gain_db":-34.0,"fade_in":2.0,"fade_out":3.0},
+    {"track":"pulse","start":754.0,"end":995.0,"gain_db":-30.0,"fade_in":2.0,"fade_out":4.0},
+    {"track":"sky","start":1005.0,"end":1108.0,"gain_db":-29.0,"fade_in":2.5,"fade_out":4.0},
+    {"track":"ambient","start":1120.0,"end":1185.0,"gain_db":-36.0,"fade_in":3.0,"fade_out":6.0}
+  ]
+}
