@@ -2,8 +2,8 @@
 import re, argparse
 from pathlib import Path
 
-ACCENT='&H003552A5&'   # #A55235 rust, same family as V14 cold open
-BASE='&H00DDEBF3&'     # #F3EBDD ivory
+ACCENT='&H003552A5&'
+BASE='&H00DDEBF3&'
 BLUE='&H00B6A89A&'
 GOLD='&H008EC5E0&'
 RECON='&H00708ED8&'
@@ -62,8 +62,7 @@ def colorize(text):
 
 def label_text(style,text):
     t=re.sub(r'\{[^}]*\}','',text)
-    up=t.upper()
-    color=BASE
+    up=t.upper(); color=BASE
     if 'RECONSTRUCTION' in up: color=RECON
     elif 'DOCUMENT' in up: color=GOLD
     elif 'CONCEPT' in up: color=CONCEPT
@@ -82,74 +81,6 @@ def main():
     if not sep:
         raise SystemExit('ASS has no [Events] section')
 
-    lines=[]
-    for line in events.splitlines():
-        if not line.startswith('Dialogue:'):
-            continue
-        p=line.split(',',9)
-        if len(p)<10:
-            continue
-        style=p[3]
-        s,e=ass_to_sec(p[1]),ass_to_sec(p[2])
-
-        if style=='Cap':
-            if s>=1225.45:
-                continue
-            e=min(e,1225.45)
-            if e<=s:
-                continue
-            lines.append(
-                f"Dialogue: 90,{sec_to_ass(s)},{sec_to_ass(e)},CapV10,,0,0,0,,{colorize(p[9])}"
-            )
-        elif style in {'Source','Document','Concept'} and s<1222.30:
-            lines.append(
-                f"Dialogue: 110,{p[1]},{p[2]},SourceV10,,0,0,0,,{label_text(style,p[9])}"
-            )
-        elif style=='Tag' and s<1222.30:
-            lines.append(
-                f"Dialogue: 105,{p[1]},{p[2]},TagV10,,0,0,0,,{label_text(style,p[9])}"
-            )
-
-    # Reinforce provenance on corrected reconstruction intervals.
-    for s,e in [
-        (215.356,221.464),(230.014,237.342),(709.241,717.165),
-        (717.165,723.769),(730.373,736.976),(766.838,775.922),
-        (815.287,822.857),(1020.122,1028.334),(1054.611,1062.822),
-        (1107.164,1115.376)
-    ]:
-        lines.append(
-            f"Dialogue: 120,{sec_to_ass(s)},{sec_to_ass(min(e,s+2.2))},SourceV10,,0,0,0,,"
-            f"{{\\c{RECON}}}RECONSTRUCTION{{\\c{BASE}}}"
-        )
-
-    # Explicitly identify the clean replacement after the nuclear-concept beat.
-    lines.append(
-        f"Dialogue: 121,{sec_to_ass(717.24)},{sec_to_ass(720.16)},TagV10,,0,0,0,,"
-        f"{{\\c{GOLD}}}ACTUAL TC-497 • GAS TURBINES{{\\c{BASE}}}"
-    )
-
-    out=f"""[Script Info]
-ScriptType: v4.00+
-PlayResX: 1920
-PlayResY: 1080
-ScaledBorderAndShadow: yes
-YCbCr Matrix: TV.709
-
-[V4+ Styles]
-Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: CapV10,DejaVu Sans,58,{BASE},{BASE},&H00171A1C,&H10171A1C,-1,0,0,0,100,100,0,0,3,45,0,2,170,170,78,1ns,58,{BASE},{BASE},&H00171A1C,&H20171A1C,-1,0,0,0,100,100,0,0,3,18,0,2,170,170,110,1
-Style: SourceV10,DejaVu Sans,25,{BASE},{BASE},&H00171A1C,&H20171A1C,-1,0,0,0,100,100,1.4,0,3,10,0,9,52,52,38,1
-Style: TagV10,DejaVu Sans,29,{BASE},{BASE},&H00171A1C,&H28171A1C,-1,0,0,0,100,100,0.8,0,3,10,0,7,76,76,92,1
-
-[Events]
-Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
-"""+"\n".join(lines)+"\n"
-
-    Path(args.output).write_text(out,encoding='utf-8')
-    print(f'V10 overlay events: {len(lines)}')
-
-if __name__=='__main__':
-    main()    lines=[]
     parsed=[]
     for line in events.splitlines():
         if not line.startswith('Dialogue:'):
@@ -159,12 +90,10 @@ if __name__=='__main__':
             continue
         parsed.append((p,p[3],ass_to_sec(p[1]),ass_to_sec(p[2])))
 
+    lines=[]
     caps=[(p,s,e) for p,style,s,e in parsed if style=='Cap' and s<1225.45]
     caps.sort(key=lambda x:x[1])
 
-    # Legacy captions intentionally overlap by ~0.08 s. That was harmless with plain text,
-    # but opaque readability backing makes two boxes collide. End each V10 cue just before
-    # the next cue begins so only one clean caption is visible at a time.
     for i,(p,s,e) in enumerate(caps):
         e=min(e,1225.45)
         if i+1<len(caps):
@@ -187,3 +116,41 @@ if __name__=='__main__':
                 f"Dialogue: 105,{p[1]},{p[2]},TagV10,,0,0,0,,{label_text(style,p[9])}"
             )
 
+    for s,e in [
+        (215.356,221.464),(230.014,237.342),(709.241,717.165),
+        (717.165,723.769),(730.373,736.976),(766.838,775.922),
+        (815.287,822.857),(1020.122,1028.334),(1054.611,1062.822),
+        (1107.164,1115.376)
+    ]:
+        lines.append(
+            f"Dialogue: 120,{sec_to_ass(s)},{sec_to_ass(min(e,s+2.2))},SourceV10,,0,0,0,,"
+            f"{{\\c{RECON}}}RECONSTRUCTION{{\\c{BASE}}}"
+        )
+
+    lines.append(
+        f"Dialogue: 121,{sec_to_ass(717.24)},{sec_to_ass(720.16)},TagV10,,0,0,0,,"
+        f"{{\\c{GOLD}}}ACTUAL TC-497 • GAS TURBINES{{\\c{BASE}}}"
+    )
+
+    out=f"""[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: CapV10,DejaVu Sans,58,{BASE},{BASE},&H00171A1C,&H10171A1C,-1,0,0,0,100,100,0,0,3,45,0,2,170,170,78,1
+Style: SourceV10,DejaVu Sans,25,{BASE},{BASE},&H00171A1C,&H20171A1C,-1,0,0,0,100,100,1.4,0,3,10,0,9,52,52,38,1
+Style: TagV10,DejaVu Sans,29,{BASE},{BASE},&H00171A1C,&H28171A1C,-1,0,0,0,100,100,0.8,0,3,10,0,7,76,76,92,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+"""+"\n".join(lines)+"\n"
+
+    Path(args.output).write_text(out,encoding='utf-8')
+    print(f'V10 overlay events: {len(lines)}')
+
+if __name__=='__main__':
+    main()
