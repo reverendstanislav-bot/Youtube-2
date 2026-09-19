@@ -347,6 +347,7 @@ def _caption_normalize(text):
     ]
     for pat,repl in fixes:
         text=re.sub(pat,repl,text,flags=re.I if pat.startswith('\\bturn') else 0)
+    text=re.sub(r'\b([A-Za-z]+)\s*-\s*([A-Za-z]+)\b',r'\1-\2',text)
     text=re.sub(r'\s+([,.;:!?])',r'\1',text)
     text=re.sub(r'\s{2,}',' ',text).strip()
     return text
