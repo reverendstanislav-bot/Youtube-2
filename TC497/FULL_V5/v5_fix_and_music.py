@@ -177,6 +177,47 @@ def mix_final(video,music_bed,out,total):
         "-filter_complex",fc,"-map","0:v","-map","[outa]","-t",f"{total:.3f}",
         "-c:v","copy","-c:a","aac","-b:a","192k","-movflags","+faststart",str(out)])
 
+
+def mix_final_from_stems(video,music_bed,vo_path,sfx_path,out,total,tmpdir):
+    rest=max(0.1,total-COLD_OPEN_END)
+    cold=tmpdir/"cold_open.wav"
+    restwav=tmpdir/"rest_master.wav"
+    fullwav=tmpdir/"full_master.wav"
+
+    sh(["ffmpeg","-y","-loglevel","error","-i",str(video),
+        "-t",f"{COLD_OPEN_END:.3f}","-vn","-ac",2,"-ar",48000,
+        "-c:a","pcm_s16le",str(cold)])
+
+    # Rebuild post-cold-open audio from stems:
+    # VO is clean; existing V4 underscore is retained as restrained sound design;
+    # new music is ducked by VO and intentionally disappears in gaps.
+    fc=(
+        f"[0:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,"
+        "aresample=48000,pan=stereo|c0=c0|c1=c0[vo];"
+        f"[1:a]atrim=0:{rest:.3f},asetpts=PTS-STARTPTS,aresample=48000,"
+        "pan=stereo|c0=c0|c1=c0,volume=0.62,"
+        f"volume=0.22:enable='between(t,{1115.376-COLD_OPEN_END:.3f},{rest:.3f})'[sfx];"
+        f"[2:a]atrim=start={COLD_OPEN_END:.3f}:end={total:.3f},asetpts=PTS-STARTPTS,"
+        "aresample=48000[music];"
+        "[music][vo]sidechaincompress=threshold=0.020:ratio=12:attack=15:release=480:makeup=1[duck];"
+        "[vo][sfx][duck]amix=inputs=3:weights='1 0.75 1':normalize=0,"
+        "alimiter=limit=0.89[rest]"
+    )
+    sh(["ffmpeg","-y","-loglevel","error","-i",str(vo_path),"-i",str(sfx_path),"-i",str(music_bed),
+        "-filter_complex",fc,"-map","[rest]","-t",f"{rest:.3f}",
+        "-ac",2,"-ar",48000,"-c:a","pcm_s16le",str(restwav)])
+
+    sh(["ffmpeg","-y","-loglevel","error","-i",str(cold),"-i",str(restwav),
+        "-filter_complex","[0:a][1:a]concat=n=2:v=0:a=1[a]",
+        "-map","[a]","-t",f"{total:.3f}","-ac",2,"-ar",48000,
+        "-c:a","pcm_s16le",str(fullwav)])
+
+    sh(["ffmpeg","-y","-loglevel","error","-i",str(video),"-i",str(fullwav),
+        "-filter_complex","[1:a]loudnorm=I=-14:TP=-2:LRA=6[a]",
+        "-map","0:v","-map","[a]","-t",f"{total:.3f}",
+        "-c:v","copy","-c:a","aac","-b:a","192k","-movflags","+faststart",str(out)])
+
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--input-video",required=True)
@@ -184,6 +225,8 @@ def main():
     ap.add_argument("--shots-json")
     ap.add_argument("--visual-patches")
     ap.add_argument("--output",required=True)
+    ap.add_argument("--vo",help="Original full VO file; enables stem-based post-cold-open remix")
+    ap.add_argument("--sfx-bed",help="Post-cold-open original sound-design/underscore WAV; enables stem-based remix")
     ap.add_argument("--report-dir",default="V5_REPORT")
     args=ap.parse_args()
 
@@ -211,7 +254,13 @@ def main():
             Path(args.visual_patches).resolve().parent if args.visual_patches else base_dir,td
         )
         bed=make_music_bed(manifest,base_dir,total,td,args.shots_json)
-        mix_final(patched,bed,Path(args.output).resolve(),total)
+        if args.vo and args.sfx_bed:
+            mix_final_from_stems(
+                patched,bed,Path(args.vo).resolve(),Path(args.sfx_bed).resolve(),
+                Path(args.output).resolve(),total,td
+            )
+        else:
+            mix_final(patched,bed,Path(args.output).resolve(),total)
 
     # Final objective QC.
     sh(["ffprobe","-v","error","-show_entries","format=duration,size,bit_rate",
