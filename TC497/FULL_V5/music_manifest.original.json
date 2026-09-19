@@ -26,12 +26,61 @@
     }
   },
   "cues": [
-    {"track":"ambient","start":82.6,"end":198.0,"gain_db":-31.5,"fade_in":2.5,"fade_out":3.5},
-    {"track":"ambient","start":204.0,"end":301.0,"gain_db":-32.0,"fade_in":2.0,"fade_out":3.0},
-    {"track":"pulse","start":310.0,"end":658.0,"gain_db":-30.5,"fade_in":2.0,"fade_out":3.5},
-    {"track":"ambient","start":667.0,"end":744.0,"gain_db":-34.0,"fade_in":2.0,"fade_out":3.0},
-    {"track":"pulse","start":754.0,"end":995.0,"gain_db":-30.0,"fade_in":2.0,"fade_out":4.0},
-    {"track":"sky","start":1005.0,"end":1108.0,"gain_db":-29.0,"fade_in":2.5,"fade_out":4.0},
-    {"track":"ambient","start":1120.0,"end":1185.0,"gain_db":-36.0,"fade_in":3.0,"fade_out":6.0}
+    {
+      "track": "ambient",
+      "start": 82.6,
+      "end": 198,
+      "gain_db": -29.5,
+      "fade_in": 2.5,
+      "fade_out": 3.5
+    },
+    {
+      "track": "ambient",
+      "start": 204,
+      "end": 301,
+      "gain_db": -30,
+      "fade_in": 2,
+      "fade_out": 3
+    },
+    {
+      "track": "pulse",
+      "start": 310,
+      "end": 658,
+      "gain_db": -28.5,
+      "fade_in": 2,
+      "fade_out": 3.5
+    },
+    {
+      "track": "ambient",
+      "start": 667,
+      "end": 744,
+      "gain_db": -32,
+      "fade_in": 2,
+      "fade_out": 3
+    },
+    {
+      "track": "pulse",
+      "start": 754,
+      "end": 995,
+      "gain_db": -28,
+      "fade_in": 2,
+      "fade_out": 4
+    },
+    {
+      "track": "sky",
+      "start": 1005,
+      "end": 1108,
+      "gain_db": -27.5,
+      "fade_in": 2.5,
+      "fade_out": 4
+    },
+    {
+      "track": "ambient",
+      "start": 1120,
+      "end": 1185,
+      "gain_db": -35,
+      "fade_in": 3,
+      "fade_out": 6
+    }
   ]
 }
