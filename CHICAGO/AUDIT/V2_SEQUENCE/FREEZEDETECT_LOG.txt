@@ -1,0 +1,867 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/chicago_v2/Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.101
+  Duration: 00:21:30.72, start: 0.000000, bitrate: 3567 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 3313 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc63.1.101 h264_nvenc
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 247 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 wrapped_avframe
+frame=    0 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 0
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 2
+frame=  249 fps=0.0 q=-0.0 size=N/A time=00:00:09.96 bitrate=N/A speed=18.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 9.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 11.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 11.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 13.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 13.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 15.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 15.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 16.52
+frame=  487 fps=451 q=-0.0 size=N/A time=00:00:19.48 bitrate=N/A speed=  18x    frame=  666 fps=421 q=-0.0 size=N/A time=00:00:26.64 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 31.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 32.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 32.52
+frame=  862 fps=403 q=-0.0 size=N/A time=00:00:34.48 bitrate=N/A speed=16.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 35.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 35.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 37.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 37.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 41.44
+frame= 1085 fps=409 q=-0.0 size=N/A time=00:00:43.40 bitrate=N/A speed=16.4x    frame= 1250 fps=397 q=-0.0 size=N/A time=00:00:50.00 bitrate=N/A speed=15.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 52.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 54.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 54.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 55.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 55.68
+frame= 1453 fps=396 q=-0.0 size=N/A time=00:00:58.12 bitrate=N/A speed=15.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 58.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 58.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 60.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 60.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 63.44
+frame= 1659 fps=398 q=-0.0 size=N/A time=00:01:06.36 bitrate=N/A speed=15.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 70.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 74.64
+frame= 1868 fps=400 q=-0.0 size=N/A time=00:01:14.72 bitrate=N/A speed=  16x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 74.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 76.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 76.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 78.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 78.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 82.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 82.04
+frame= 2165 fps=418 q=-0.0 size=N/A time=00:01:26.60 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 12.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 94.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 94.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 97.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 97.76
+frame= 2472 fps=435 q=-0.0 size=N/A time=00:01:38.88 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 101.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 101.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 103.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 103.44
+frame= 2735 fps=439 q=-0.0 size=N/A time=00:01:49.40 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 8.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 111.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 111.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 116.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 116.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 118.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 118.8
+frame= 2997 fps=445 q=-0.0 size=N/A time=00:01:59.88 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 120.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 120.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 122.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 122.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 124.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 124.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 125.92
+frame= 3210 fps=443 q=-0.0 size=N/A time=00:02:08.40 bitrate=N/A speed=17.7x    frame= 3393 fps=438 q=-0.0 size=N/A time=00:02:15.72 bitrate=N/A speed=17.5x    frame= 3566 fps=433 q=-0.0 size=N/A time=00:02:22.64 bitrate=N/A speed=17.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 144.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 146.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 146.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 148.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 148.28
+frame= 3841 fps=438 q=-0.0 size=N/A time=00:02:33.64 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 153.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 153.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 157.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 157.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 161.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 161.08
+frame= 4142 fps=445 q=-0.0 size=N/A time=00:02:45.64 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 167.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 167.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 8.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 176.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 176.08
+frame= 4451 fps=454 q=-0.0 size=N/A time=00:02:58.04 bitrate=N/A speed=18.2x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 182.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 182.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 7.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 189.92
+frame= 4751 fps=461 q=-0.0 size=N/A time=00:03:10.04 bitrate=N/A speed=18.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 189.92
+frame= 5037 fps=466 q=-0.0 size=N/A time=00:03:21.48 bitrate=N/A speed=18.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 13.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 203.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 203.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 206.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 206.88
+frame= 5286 fps=468 q=-0.0 size=N/A time=00:03:31.44 bitrate=N/A speed=18.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 7.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 214
+frame= 5466 fps=463 q=-0.0 size=N/A time=00:03:38.64 bitrate=N/A speed=18.5x    frame= 5630 fps=458 q=-0.0 size=N/A time=00:03:45.20 bitrate=N/A speed=18.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 228.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 233.68
+frame= 5846 fps=457 q=-0.0 size=N/A time=00:03:53.84 bitrate=N/A speed=18.3x    frame= 6012 fps=452 q=-0.0 size=N/A time=00:04:00.48 bitrate=N/A speed=18.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 241.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 243.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 243.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 245.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 245.12
+frame= 6305 fps=456 q=-0.0 size=N/A time=00:04:12.16 bitrate=N/A speed=18.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 8.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 253.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 253.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 255.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 255.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 260.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 260.12
+frame= 6552 fps=456 q=-0.0 size=N/A time=00:04:22.08 bitrate=N/A speed=18.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 262.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 262.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 264.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 264.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 268.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 268.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 270.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 270.32
+frame= 6827 fps=459 q=-0.0 size=N/A time=00:04:33.04 bitrate=N/A speed=18.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 273.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 273.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 274.12
+frame= 7041 fps=458 q=-0.0 size=N/A time=00:04:41.64 bitrate=N/A speed=18.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 289.08
+frame= 7253 fps=457 q=-0.0 size=N/A time=00:04:50.12 bitrate=N/A speed=18.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 290.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 290.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 292.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 292.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 294.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 294.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 296.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 296.24
+frame= 7505 fps=457 q=-0.0 size=N/A time=00:05:00.20 bitrate=N/A speed=18.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 8.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 305.04
+frame= 7714 fps=455 q=-0.0 size=N/A time=00:05:08.52 bitrate=N/A speed=18.2x    frame= 7883 fps=452 q=-0.0 size=N/A time=00:05:15.32 bitrate=N/A speed=18.1x    frame= 8038 fps=448 q=-0.0 size=N/A time=00:05:21.52 bitrate=N/A speed=17.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 323.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 325.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 325.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 327.76
+frame= 8243 fps=447 q=-0.0 size=N/A time=00:05:29.72 bitrate=N/A speed=17.9x    frame= 8408 fps=444 q=-0.0 size=N/A time=00:05:36.28 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 341.92
+frame= 8578 fps=441 q=-0.0 size=N/A time=00:05:43.12 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 7.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 349.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 349.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 350.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 350.88
+frame= 8821 fps=441 q=-0.0 size=N/A time=00:05:52.84 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 352.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 352.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 359.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 359.48
+frame= 9036 fps=440 q=-0.0 size=N/A time=00:06:01.44 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 362.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 362.88
+frame= 9252 fps=440 q=-0.0 size=N/A time=00:06:10.08 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 14.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 377.36
+frame= 9470 fps=440 q=-0.0 size=N/A time=00:06:18.80 bitrate=N/A speed=17.6x    frame= 9667 fps=439 q=-0.0 size=N/A time=00:06:26.68 bitrate=N/A speed=17.6x    frame= 9851 fps=437 q=-0.0 size=N/A time=00:06:34.04 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 394.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 397.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 397.48
+frame=10069 fps=437 q=-0.0 size=N/A time=00:06:42.76 bitrate=N/A speed=17.5x    frame=10290 fps=437 q=-0.0 size=N/A time=00:06:51.60 bitrate=N/A speed=17.5x    frame=10480 fps=436 q=-0.0 size=N/A time=00:06:59.20 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 21.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 419.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 419.24
+frame=10734 fps=437 q=-0.0 size=N/A time=00:07:09.36 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 18.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 437.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 437.28
+frame=10988 fps=438 q=-0.0 size=N/A time=00:07:19.52 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 440.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 440.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 441.28
+frame=11221 fps=439 q=-0.0 size=N/A time=00:07:28.84 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 451.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 452.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 452.64
+frame=11465 fps=440 q=-0.0 size=N/A time=00:07:38.60 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 9.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 462.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 462.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 468.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 468.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 469.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 469.56
+frame=11766 fps=443 q=-0.0 size=N/A time=00:07:50.64 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 471.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 471.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 472.76
+frame=12018 fps=444 q=-0.0 size=N/A time=00:08:00.72 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 488.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 490.04
+frame=12256 fps=444 q=-0.0 size=N/A time=00:08:10.24 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 490.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 492.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 492.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 494
+frame=12510 fps=445 q=-0.0 size=N/A time=00:08:20.36 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 502.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 504.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 504.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 506.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 506.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 508.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 508.56
+frame=12747 fps=446 q=-0.0 size=N/A time=00:08:29.88 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 509.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 509.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 510.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 510.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 512.12
+frame=12952 fps=445 q=-0.0 size=N/A time=00:08:38.08 bitrate=N/A speed=17.8x    frame=13150 fps=444 q=-0.0 size=N/A time=00:08:45.96 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 531.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 533.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 533.4
+frame=13366 fps=443 q=-0.0 size=N/A time=00:08:54.64 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 535.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 535.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 540.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 540.6
+frame=13652 fps=445 q=-0.0 size=N/A time=00:09:06.08 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 546.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 546.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 547.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 547.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 549.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 549.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 550.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 550.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 552.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 552.96
+frame=13945 fps=447 q=-0.0 size=N/A time=00:09:17.80 bitrate=N/A speed=17.9x    frame=14222 fps=449 q=-0.0 size=N/A time=00:09:28.92 bitrate=N/A speed=  18x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 16.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 569.28
+frame=14407 fps=448 q=-0.0 size=N/A time=00:09:36.28 bitrate=N/A speed=17.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 575.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 577.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 577.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 578.72
+frame=14585 fps=446 q=-0.0 size=N/A time=00:09:43.36 bitrate=N/A speed=17.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 586.4
+frame=14759 fps=445 q=-0.0 size=N/A time=00:09:50.36 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 590.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 590.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 592.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 592.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 595.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 595.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 597.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 597.68
+frame=14991 fps=445 q=-0.0 size=N/A time=00:09:59.64 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 600.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 600.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 602.84
+frame=15183 fps=444 q=-0.0 size=N/A time=00:10:07.36 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 608
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 610
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 610
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 613.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 613.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 615.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 615.2
+frame=15406 fps=444 q=-0.0 size=N/A time=00:10:16.24 bitrate=N/A speed=17.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 617.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 617.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 619.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 619.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 621.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 621.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 622.6
+frame=15634 fps=444 q=-0.0 size=N/A time=00:10:25.36 bitrate=N/A speed=17.8x    frame=15826 fps=443 q=-0.0 size=N/A time=00:10:33.00 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 635.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 0.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 636.56
+frame=16013 fps=442 q=-0.0 size=N/A time=00:10:40.52 bitrate=N/A speed=17.7x    frame=16172 fps=441 q=-0.0 size=N/A time=00:10:46.84 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 649.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 651.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 651.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 653.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 653.84
+frame=16386 fps=440 q=-0.0 size=N/A time=00:10:55.44 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 657.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 657.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 659.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 659.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 661.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 662
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 664
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 664
+frame=16649 fps=441 q=-0.0 size=N/A time=00:11:05.96 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 666.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 666.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 668.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 668.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 673.56
+frame=16888 fps=441 q=-0.0 size=N/A time=00:11:15.52 bitrate=N/A speed=17.6x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 679.2
+frame=17130 fps=442 q=-0.0 size=N/A time=00:11:25.16 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 10.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 690.08
+frame=17351 fps=441 q=-0.0 size=N/A time=00:11:34.04 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 695.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 697.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 697.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 699.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 699.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 701.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 701.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 702.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 702.48
+frame=17609 fps=442 q=-0.0 size=N/A time=00:11:44.36 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 704.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 711.44
+frame=17807 fps=442 q=-0.0 size=N/A time=00:11:52.28 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 714.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 714.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 716.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 717.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 719.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 719.16
+frame=18028 fps=441 q=-0.0 size=N/A time=00:12:01.12 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 723.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 723.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 725.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 725.52
+frame=18269 fps=442 q=-0.0 size=N/A time=00:12:10.76 bitrate=N/A speed=17.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 730.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 730.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 732.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 732.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 735.6
+frame=18473 fps=441 q=-0.0 size=N/A time=00:12:18.92 bitrate=N/A speed=17.7x    frame=18633 fps=440 q=-0.0 size=N/A time=00:12:25.32 bitrate=N/A speed=17.6x    frame=18790 fps=438 q=-0.0 size=N/A time=00:12:31.56 bitrate=N/A speed=17.5x    frame=18937 fps=437 q=-0.0 size=N/A time=00:12:37.48 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 765.44
+frame=19174 fps=437 q=-0.0 size=N/A time=00:12:46.96 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 767.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 768.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 770.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 770.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 772.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 772.32
+frame=19408 fps=437 q=-0.0 size=N/A time=00:12:56.28 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 779.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 779.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 781.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 781.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 783.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 783.44
+frame=19630 fps=437 q=-0.0 size=N/A time=00:13:05.20 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 785.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 785.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 787.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 787.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 789.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 789.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 791.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 792
+frame=19849 fps=437 q=-0.0 size=N/A time=00:13:13.96 bitrate=N/A speed=17.5x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 794
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 794
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 796.92
+frame=20022 fps=435 q=-0.0 size=N/A time=00:13:20.88 bitrate=N/A speed=17.4x    frame=20190 fps=434 q=-0.0 size=N/A time=00:13:27.60 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 810
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 812
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 812
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 814.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 814.56
+frame=20408 fps=434 q=-0.0 size=N/A time=00:13:36.32 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 818.24
+frame=20617 fps=434 q=-0.0 size=N/A time=00:13:44.68 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 824.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 828.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 828.12
+frame=20832 fps=434 q=-0.0 size=N/A time=00:13:53.28 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 833.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 833.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 835.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 835.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 837.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 837.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 839.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 839.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 841.6
+frame=21058 fps=434 q=-0.0 size=N/A time=00:14:02.32 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 841.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 843.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 844.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 846.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 846.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 848.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 848.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 850.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 850.32
+frame=21304 fps=435 q=-0.0 size=N/A time=00:14:12.16 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 852.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 852.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 854.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 854.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 857.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 857.6
+frame=21489 fps=434 q=-0.0 size=N/A time=00:14:19.56 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 859.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 860.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 862.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 862.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 864.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 864.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 866.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 867.36
+frame=21705 fps=434 q=-0.0 size=N/A time=00:14:28.20 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 869.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 869.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 871.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 871.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 873.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 873.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 875.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 875.12
+frame=21927 fps=434 q=-0.0 size=N/A time=00:14:37.08 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 877.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 877.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 880.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 880.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 881.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 881.6
+frame=22185 fps=435 q=-0.0 size=N/A time=00:14:47.40 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 887.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 887.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 889.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 889.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 891.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 891.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 893.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 893.32
+frame=22389 fps=434 q=-0.0 size=N/A time=00:14:55.56 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 898.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 898.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 900.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 900.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 902.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 902.8
+frame=22619 fps=434 q=-0.0 size=N/A time=00:15:04.76 bitrate=N/A speed=17.4x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 904.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 904.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 906.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 906.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 908.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 908.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 911
+frame=22825 fps=434 q=-0.0 size=N/A time=00:15:12.96 bitrate=N/A speed=17.3x    frame=22978 fps=432 q=-0.0 size=N/A time=00:15:19.08 bitrate=N/A speed=17.3x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 923.12
+frame=23127 fps=431 q=-0.0 size=N/A time=00:15:25.08 bitrate=N/A speed=17.2x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 925.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 925.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 927.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 927.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 931.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 931.52
+frame=23331 fps=431 q=-0.0 size=N/A time=00:15:33.24 bitrate=N/A speed=17.2x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 933.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 933.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 938
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 938
+frame=23499 fps=430 q=-0.0 size=N/A time=00:15:39.96 bitrate=N/A speed=17.2x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 940
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 940
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 943.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 943.24
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 947.4
+frame=23711 fps=430 q=-0.0 size=N/A time=00:15:48.40 bitrate=N/A speed=17.2x    frame=23860 fps=428 q=-0.0 size=N/A time=00:15:54.36 bitrate=N/A speed=17.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 956.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 958.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 958.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 960.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 960.88
+frame=24071 fps=428 q=-0.0 size=N/A time=00:16:02.84 bitrate=N/A speed=17.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 962.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 962.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 964.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 964.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 966.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 966.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 968.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 968.6
+frame=24326 fps=429 q=-0.0 size=N/A time=00:16:13.04 bitrate=N/A speed=17.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 975.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 975.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 977.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 977.36
+frame=24533 fps=428 q=-0.0 size=N/A time=00:16:21.32 bitrate=N/A speed=17.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 8.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 986.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 986.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 988.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 988.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 0.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 988.96
+frame=24740 fps=428 q=-0.0 size=N/A time=00:16:29.60 bitrate=N/A speed=17.1x    frame=24873 fps=427 q=-0.0 size=N/A time=00:16:34.92 bitrate=N/A speed=17.1x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 995.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 0.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 996.44
+frame=25030 fps=426 q=-0.0 size=N/A time=00:16:41.20 bitrate=N/A speed=  17x    frame=25160 fps=424 q=-0.0 size=N/A time=00:16:46.40 bitrate=N/A speed=  17x    frame=25289 fps=423 q=-0.0 size=N/A time=00:16:51.56 bitrate=N/A speed=16.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1016.16
+frame=25453 fps=422 q=-0.0 size=N/A time=00:16:58.12 bitrate=N/A speed=16.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1018.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1018.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1020.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1020.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1022.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1022.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1024.68
+frame=25660 fps=422 q=-0.0 size=N/A time=00:17:06.36 bitrate=N/A speed=16.9x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1029.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1031.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1031.92
+frame=25822 fps=421 q=-0.0 size=N/A time=00:17:12.84 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 0.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1032.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1032.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1034.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1034.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1036.92
+frame=26011 fps=420 q=-0.0 size=N/A time=00:17:20.44 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1044.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1046.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1046.08
+frame=26186 fps=420 q=-0.0 size=N/A time=00:17:27.44 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1050.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1050.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1052.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1052.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1054.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1054.36
+frame=26408 fps=419 q=-0.0 size=N/A time=00:17:36.32 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 7.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1061.84
+frame=26600 fps=419 q=-0.0 size=N/A time=00:17:44.00 bitrate=N/A speed=16.8x    frame=26745 fps=418 q=-0.0 size=N/A time=00:17:49.80 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1069.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1071.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1071.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1076.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1076.4
+frame=26959 fps=418 q=-0.0 size=N/A time=00:17:58.36 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1078.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1078.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 8.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1086.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1086.92
+frame=27201 fps=419 q=-0.0 size=N/A time=00:18:08.04 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1088.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1088.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 4.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1093.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1093.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1095.44
+frame=27395 fps=418 q=-0.0 size=N/A time=00:18:15.80 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1095.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1097.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1097.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1101.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1101.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1103.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1103.32
+frame=27654 fps=419 q=-0.0 size=N/A time=00:18:26.16 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1107.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1107.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1109.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1109.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 5.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1114.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1114.56
+frame=27909 fps=420 q=-0.0 size=N/A time=00:18:36.36 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1116.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1116.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1118.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1118.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1120.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1120.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1121.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1121.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1123.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1123.4
+frame=28134 fps=420 q=-0.0 size=N/A time=00:18:45.36 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1129.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1129.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1131.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1131.96
+frame=28348 fps=420 q=-0.0 size=N/A time=00:18:53.92 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1138.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1138.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1140.16
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1140.16
+frame=28560 fps=420 q=-0.0 size=N/A time=00:19:02.40 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1142.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1142.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1144.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1145.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1147.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1147.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1153.2
+frame=28831 fps=420 q=-0.0 size=N/A time=00:19:13.24 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1153.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1155.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1155.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 3.08
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1158.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1158.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1160.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1160.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1161.84
+frame=29063 fps=421 q=-0.0 size=N/A time=00:19:22.52 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1161.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.8
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1163.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1163.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1165.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1165.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1167.68
+frame=29271 fps=421 q=-0.0 size=N/A time=00:19:30.80 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1173.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1175.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1175.88
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1177.52
+frame=29443 fps=420 q=-0.0 size=N/A time=00:19:37.72 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1177.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1180.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1180.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1182.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1183.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1185.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1185.52
+frame=29687 fps=421 q=-0.0 size=N/A time=00:19:47.48 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1187.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1187.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1188.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1188.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1190.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1190.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1192.44
+frame=29894 fps=420 q=-0.0 size=N/A time=00:19:55.72 bitrate=N/A speed=16.8x    frame=30031 fps=419 q=-0.0 size=N/A time=00:20:01.24 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1204.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1206.6
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1206.6
+frame=30220 fps=419 q=-0.0 size=N/A time=00:20:08.80 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1209.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1209.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1211.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1211.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1213.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1213.28
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.92
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1215.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1215.2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.44
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1216.64
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1216.64
+frame=30460 fps=419 q=-0.0 size=N/A time=00:20:18.36 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.76
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1218.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1218.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1220.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1220.4
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.56
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1222.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1222.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1224.96
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1224.96
+frame=30681 fps=420 q=-0.0 size=N/A time=00:20:27.24 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 9.52
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1234.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1234.48
+frame=30911 fps=420 q=-0.0 size=N/A time=00:20:36.44 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1236.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1236.48
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 1.84
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1238.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1238.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1240.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1240.32
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.68
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1243
+frame=31124 fps=419 q=-0.0 size=N/A time=00:20:44.96 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1249.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1251.04
+frame=31293 fps=419 q=-0.0 size=N/A time=00:20:51.72 bitrate=N/A speed=16.8x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1251.04
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2.12
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1253.16
+frame=31434 fps=418 q=-0.0 size=N/A time=00:20:57.32 bitrate=N/A speed=16.7x    frame=31595 fps=417 q=-0.0 size=N/A time=00:21:03.80 bitrate=N/A speed=16.7x    frame=31739 fps=416 q=-0.0 size=N/A time=00:21:09.52 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1270.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 2
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1272.36
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1272.72
+frame=32010 fps=417 q=-0.0 size=N/A time=00:21:20.48 bitrate=N/A speed=16.7x    [freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_duration: 9
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_end: 1281.72
+[freezedetect @ 0x55ca35c988c0] lavfi.freezedetect.freeze_start: 1281.72
+[out#0/null @ 0x55ca35bb6400] video:15126kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=32268 fps=418 q=-0.0 Lsize=N/A time=00:21:30.68 bitrate=N/A speed=16.7x    
