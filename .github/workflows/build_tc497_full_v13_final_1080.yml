@@ -197,10 +197,13 @@ jobs:
           (cd /tmp/v13final/remotion && npm install --no-audit --no-fund)
           (cd /tmp/v13final/remotion && npx remotion render src/index.jsx TC497V14 out.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p)
 
-          ffmpeg -y -loglevel error -i /tmp/v13final/remotion/out.mp4 -t 82.6 -an             -c:v libx264 -preset veryfast -crf 16 -profile:v high -level 4.1 -pix_fmt yuv420p             /tmp/v13final/cold_picture_1080.mp4
+          ffmpeg -y -loglevel error -i /tmp/v13final/remotion/out.mp4 -t 82.6 -an -c:v copy /tmp/v13final/cold_picture_1080.mp4
 
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 /tmp/v13final/cold_picture_1080.mp4)" = "1920"
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 /tmp/v13final/cold_picture_1080.mp4)" = "1080"
+          CW="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 /tmp/v13final/cold_picture_1080.mp4)"
+          CH="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 /tmp/v13final/cold_picture_1080.mp4)"
+          echo "cold_picture_dimensions=$CW x $CH"
+          test "$CW" = "1920"
+          test "$CH" = "1080"
 
       - name: Build native 1080 post-cold-open picture with V13 shot map
         run: |
