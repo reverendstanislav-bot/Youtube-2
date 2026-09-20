@@ -5,10 +5,10 @@
 Episode: LeTourneau TC-497 Overland Train
 Project: Hidden Industrial America / YouTube-2
 
-Current state: **FULL_V13 is the active review version. It passed technical/visual QC, but the user has not approved it yet.**
+Current state: **USER APPROVED FULL_V13 FOR FINALIZATION on 2026-09-20. Fresh native 1920x1080 final build is in progress in GitHub Actions run 35512151140.**
 
 Do not use V10/V11/V12 as publication candidates.
-Do not promote a new 1080p final until explicit FULL_V13 approval.
+Explicit FULL_V13 approval has now been received. Promote only the fresh native 1920x1080 build from run 35512151140 after its final QC succeeds.
 
 For a new chat, also read:
 - `TC497/FULL_V13/NEW_CHAT_HANDOFF.md`
@@ -100,3 +100,8 @@ If the user explicitly approves FULL_V13:
 1. build a fresh native 1920x1080 FULL_V13 master;
 2. run final picture/audio/subtitle QC;
 3. only then promote it to upload master.
+
+
+## FINALIZATION APPROVAL
+
+User explicitly said `Финалим` on 2026-09-20. Fresh native 1920x1080 build started as GitHub Actions run `35512151140`. Do not treat any earlier test 1080 run as the post-approval final source of truth unless the new run fails and the user explicitly chooses otherwise.
