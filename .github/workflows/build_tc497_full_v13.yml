@@ -14,7 +14,7 @@ permissions:
 jobs:
   build-v13:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     env:
       TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
       V4_WORK: /tmp/v13/v4work
