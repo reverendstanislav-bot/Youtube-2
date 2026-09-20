@@ -1,0 +1,8 @@
+{
+  "cues": 338,
+  "mapped_tokens": 2735,
+  "total_tokens": 2772,
+  "ratio": 0.9866522366522367,
+  "events": 2721,
+  "end_top_from": 1270.0
+}
