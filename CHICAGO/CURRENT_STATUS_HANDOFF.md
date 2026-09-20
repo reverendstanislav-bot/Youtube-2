@@ -66,3 +66,26 @@ Chicago is Episode 1. TC-497 is Episode 2. Branding must stay universal for **Hi
 - full file inventory: `CHICAGO/AUDIT/SOURCE_INVENTORY.json`
 - human-readable audit: `CHICAGO/AUDIT/SOURCE_AUDIT.md`
 - text/subtitle/build audit: `CHICAGO/AUDIT/TEXT_SOURCE_AUDIT.md`
+
+
+## Independent media/subtitle audit result
+
+GitHub Actions audit `Audit Chicago Media and Subtitle Sync` independently re-extracted the actual V1/V2 finals from the canonical RAR and checked them against word-level narration timing.
+
+### Media
+- V1 `_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4`: 1920x1080, 25 fps, 1290.720 s, full decode **PASS**.
+- V2 `_V2/final/HIA_CHICAGO_V2.mp4`: 1920x1080, 25 fps, 1290.720 s, full decode **PASS**.
+- V1 and V2 AAC elementary streams are bit-identical:
+  `a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed`.
+
+### Subtitle timing
+- `03_TIMELINE/subtitles_en.srt`: **REJECTED / DO NOT USE**.
+  Independent whole-film alignment found progressive/variable timing errors: P05/P95 offset about -9.726 / +4.996 s and ~9.6 s modeled drift across runtime.
+- `_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt`: independent alignment **PASS**; median start offset 0.000 s.
+- `_V2/final/HIA_CHICAGO_V2.srt`: independent alignment **PASS**; median start offset 0.000 s.
+- V2 also contains actual mixed-audio spot checks at opening/middle/end that are mostly within about ±0.16 s; one isolated cue near 08:37 was handled separately in the source QC.
+
+### Repair source rule
+The legacy timeline SRT is now positively identified as the bad timing source and must never be used in another Chicago render.
+
+The preferred technical candidate for the next review is the V2 picture/audio with captions rebuilt from the V2 final SRT / word-level timing source. This is still **not** a publication-master decision until the resulting visible captions are reviewed by the user.
