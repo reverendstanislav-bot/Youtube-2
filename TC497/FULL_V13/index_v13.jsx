@@ -3,7 +3,7 @@ import {registerRoot,Composition,AbsoluteFill,OffthreadVideo,Audio,staticFile,us
 import captions from '../public/captions.json';
 
 const FPS=30;
-const C={charcoal:'#171A1C',iron:'#30363A',paper:'#E6DDC8',ivory:'#F3EBDD',rust:'#A55235',blue:'#5F747D',subMuted:'#B96F3D',subActive:'#F28A3A'};
+const C={charcoal:'#171A1C',iron:'#30363A',paper:'#E6DDC8',ivory:'#F3EBDD',rust:'#A55235',blue:'#5F747D',subMuted:'#F5F5F5',subActive:'#F28A3A'};
 const F=(s)=>Math.round(s*FPS);
 const fade=(frame,s,e,edge=4)=>interpolate(frame,[F(s),F(s)+edge,F(e)-edge,F(e)],[0,1,1,0],{
   extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.inOut(Easing.cubic)
