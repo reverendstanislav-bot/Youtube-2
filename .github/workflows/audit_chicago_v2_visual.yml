@@ -1,0 +1,72 @@
+name: Audit Chicago V2 Visual Captions
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/audit_chicago_v2_visual.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit-v2-visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg
+
+      - name: Download and reassemble source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_src
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 \
+            --repo reverendstanislav-bot/Youtube-2 \
+            --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 \
+              Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 \
+              Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 \
+              > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract V2 final
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_v2 CHICAGO/AUDIT/V2_VISUAL_CAPTIONS
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar \
+            -o/tmp/chicago_v2 \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.srt"
+          find /tmp/chicago_v2 -type f -printf '%p %s bytes\n'
+          V2="$(find /tmp/chicago_v2 -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          test -s "$V2"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+
+      - name: Extract visual QC frames
+        run: |
+          set -euo pipefail
+          OUT=CHICAGO/AUDIT/V2_VISUAL_CAPTIONS
+          for t in 5 130 322 517 645 968 1158 1282; do
+            ffmpeg -y -loglevel error -ss "$t" -i "$V2" -frames:v 1 "$OUT/frame_${t}s.jpg"
+            ffmpeg -y -loglevel error -ss "$t" -i "$V2" -vf "crop=1920:520:0:560" -frames:v 1 "$OUT/lower_${t}s.jpg"
+          done
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of json "$V2" > "$OUT/V2_FFPROBE.json"
+
+      - name: Commit visual QC samples
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/AUDIT/V2_VISUAL_CAPTIONS
+          git commit -m "Add Chicago V2 visual caption QC samples"
+          git push
