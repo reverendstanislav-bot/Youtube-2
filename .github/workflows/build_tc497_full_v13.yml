@@ -121,7 +121,7 @@ jobs:
           ! grep -q 'CapV10' /tmp/v13/v13.ass
           ! grep -q 'BorderStyle=3' /tmp/v13/v13.ass
           grep -q '&H003A8AF2&' /tmp/v13/v13.ass
-          grep -q '&H003D6FB9&' /tmp/v13/v13.ass
+          grep -q '&H00F5F5F5&' /tmp/v13/v13.ass
 
       - name: Render post-cold-open with orange captions and no rejected wheel cutaway
         run: |
