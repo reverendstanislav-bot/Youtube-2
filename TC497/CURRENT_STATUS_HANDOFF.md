@@ -5,10 +5,10 @@
 Episode: LeTourneau TC-497 Overland Train
 Project: Hidden Industrial America / YouTube-2
 
-Current state: **USER APPROVED FULL_V13 FOR FINALIZATION on 2026-09-20. Fresh native 1920x1080 final build is in progress in GitHub Actions run 35512151140.**
+Current state: **FULL_V13 FINAL 1080 MASTER BUILT AND QC-PASSED after explicit user approval.**
 
 Do not use V10/V11/V12 as publication candidates.
-Explicit FULL_V13 approval has now been received. Promote only the fresh native 1920x1080 build from run 35512151140 after its final QC succeeds.
+Explicit FULL_V13 approval was received. The fresh native 1920x1080 post-approval build completed successfully and is the publication source of truth.
 
 For a new chat, also read:
 - `TC497/FULL_V13/NEW_CHAT_HANDOFF.md`
@@ -105,3 +105,33 @@ If the user explicitly approves FULL_V13:
 ## FINALIZATION APPROVAL
 
 User explicitly said `Финалим` on 2026-09-20. Fresh native 1920x1080 build started as GitHub Actions run `35512151140`. Do not treat any earlier test 1080 run as the post-approval final source of truth unless the new run fails and the user explicitly chooses otherwise.
+
+
+## FINAL PUBLICATION MASTER
+
+- GitHub Actions run: `35512151140`
+- conclusion: `success`
+- artifact: `tc497-full-v13-final-upload-master-1080`
+- artifact id: `10606201351`
+- artifact digest: `sha256:67ea7cd5ba4b9add4d3f4916ef9e5381c6b043269766ddb1b0e0b5c7236efc57`
+- file: `TC497_FINAL_UPLOAD_MASTER_FULL_V13_1920x1080.mp4`
+- file SHA-256: `574b14548f70798a1aae0ef5e86845368de5297ba16a4cdc77c2fd199cea9b9a`
+- direct release URL: `https://github.com/reverendstanislav-bot/Youtube-2/releases/download/tc497-full-v13-final-1080-20260920/TC497_FINAL_UPLOAD_MASTER_FULL_V13_1920x1080.mp4`
+- release page: `https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/tc497-full-v13-final-1080-20260920`
+
+Final QC:
+- native 1920x1080, 30 fps;
+- 37,096 frames;
+- duration 20:36.533;
+- one clean subtitle layer;
+- base dialogue white #FFFFFF;
+- active spoken word orange #F28A3A;
+- no muted-orange base dialogue, no blue dialogue, no CapV10, no BorderStyle 3, no giant black caption rectangle;
+- WA-09 absent;
+- rejected wheel/turbine/hub cutaway family remains absent;
+- 01:01-01:04 uses WB-L04 articulation imagery;
+- V6 human/control correction, V9 Yuma/ground-vs-air fixes, 11:57 repair and V8 ending retained;
+- V9 audio bit-identical: `7954f3218e07a86ec57aa98e2744eabeab4cc4349e32233768b3df77d5ea2aff`;
+- integrated loudness -13.5 LUFS;
+- true peak -1.9 dBFS;
+- blackdetect found no configured-threshold black event.
