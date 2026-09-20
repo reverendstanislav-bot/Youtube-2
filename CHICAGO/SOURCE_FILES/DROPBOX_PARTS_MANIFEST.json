@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "episode": "CHICAGO",
+  "recorded_at": "2026-09-20",
+  "purpose": "Recoverable legacy split payload from Dropbox. Reassemble in numeric order, validate per-part Dropbox content hashes, then inspect result before treating it as media.",
+  "total_bytes": 1299535967,
+  "standalone_stub": {
+    "name": "HIA_CHICAGO_FINAL_UPLOAD.mp4",
+    "size_bytes": 31053,
+    "status": "invalid_or_incomplete_stub_do_not_use_as_master"
+  },
+  "parts": [
+    {
+      "name": "HIA_DBX_00.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "d1c8e42dc84ae2296889976be48c61988b111b701f625605454d98cbc317d58f"
+    },
+    {
+      "name": "HIA_DBX_01.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "52f2a0f7b7ab566facd30201072017a5ad0c9e8d292a70b5e9ee6fe146f5bbc0"
+    },
+    {
+      "name": "HIA_DBX_02.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "375b1cd23fe41c0065cc6fefb630ed140904ca892458200912cf4fc786491cf9"
+    },
+    {
+      "name": "HIA_DBX_03.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "40ac4b7181deaa64818ca477ee9a1ddd7e46a63d8e9da2bd173f8048fc8d2ea5"
+    },
+    {
+      "name": "HIA_DBX_04.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "4947c94dc7304fe0128ecf4a2879a609439153ab61ebb624c8ccb5b09a448593"
+    },
+    {
+      "name": "HIA_DBX_05.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "b79d648bae1658bd92d1cfc83ae522a85b520161e141beb3d102dcf83620d880"
+    },
+    {
+      "name": "HIA_DBX_06.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "b2496a58e0fa8b70e7d32657797bb47d866d39c52d4ffdc23a4ada58f456d142"
+    },
+    {
+      "name": "HIA_DBX_07.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "17531b10aa61bdf6a3dfef5f164d044b89bdcc87d65e479dbca14d401be6afde"
+    },
+    {
+      "name": "HIA_DBX_08.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "f1b463d4e6d5c1acca9c2e8ab5f66376281f888d94867b480522968aed53218e"
+    },
+    {
+      "name": "HIA_DBX_09.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "b6474e35d3d69e0c52c86242d7bdd7230559d4d47ca76afc9ab1e02fbe5c1325"
+    },
+    {
+      "name": "HIA_DBX_10.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "5f24f99a64f08a961d658120bb95b1009f315c5745ccd3456e218f0ec29fd2ce"
+    },
+    {
+      "name": "HIA_DBX_11.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "55eb502742d8232b48e1709144fc6bf410940c24f085e1c0137f5fd1ceae93f7"
+    },
+    {
+      "name": "HIA_DBX_12.part",
+      "size_bytes": 99614720,
+      "dropbox_content_hash": "8b5fe16fb2b5b8a982d808fe1ff53b2d8109686e6bb4ff84c57bbb7890507774"
+    },
+    {
+      "name": "HIA_DBX_13.part",
+      "size_bytes": 4544607,
+      "dropbox_content_hash": "e5ce6016c34014829feb583e9a1a438f818ba75addb9a2d10783a68d4fd10d36"
+    }
+  ]
+}
