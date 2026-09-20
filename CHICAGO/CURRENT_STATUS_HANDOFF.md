@@ -111,3 +111,29 @@ Therefore:
 No picture/audio re-edit is currently indicated by QC.
 
 See `CHICAGO/QC/V2_FINAL_QC.md`.
+
+
+## V2 full sequence/composition audit
+
+The visible-caption review exposed systemic composition/pacing problems. Current visible-caption review is **REJECTED** and must not be promoted to publication master.
+
+Confirmed:
+- all six explainer systems conflict with the normal lower caption zone;
+- affected explainer runtime: ~174.6 s;
+- transfer problem range: 04:01.52–04:33.08;
+- basement problem range: 09:06.12–09:46.40;
+- V2 is 67% static-shot runtime;
+- 72 detected near-static intervals last >=3 s;
+- major map-heavy repetitive block: ~05:49–07:17;
+- repeated State Street archive bouncing: ~01:10–02:34;
+- 23 source returns within six shots;
+- coal explainer contains 1.04 s and 1.16 s consecutive cuts around 08:30;
+- late-film reconstruction sequence ~19:05–20:18 requires consolidation.
+
+The problem is now classified as **picture sequencing + caption-safe composition**, not subtitle timing.
+
+Audio must remain untouched. V2 remains the base source.
+
+See:
+- `CHICAGO/QC/V2_FULL_SEQUENCE_AUDIT.md`
+- `CHICAGO/AUDIT/V2_SEQUENCE/`
