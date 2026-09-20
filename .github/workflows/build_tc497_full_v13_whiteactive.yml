@@ -2,10 +2,6 @@ name: Build TC497 FULL V13 White-Active Review
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/build_tc497_full_v13_whiteactive.yml'
-      - 'TC497/FULL_V13/**'
 
 permissions:
   contents: read
