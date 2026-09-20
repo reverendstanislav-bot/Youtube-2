@@ -222,7 +222,7 @@ jobs:
               [v11][p12]overlay=0:0:eof_action=pass:enable='between(t,1222.300,1236.533)'[v12]; \
               [v12]ass=/tmp/v13/v13.ass,format=yuv420p[vout]" \
             -map "[vout]" -an -t 1236.533333 -r 30 \
-            -c:v libx264 -preset fast -crf 18 -profile:v high -level 4.0 -pix_fmt yuv420p \
+            -c:v libx264 -preset ultrafast -crf 19 -profile:v high -level 4.0 -pix_fmt yuv420p \
             /tmp/v13/v13_video.mp4
 
           ffmpeg -y -loglevel error \
