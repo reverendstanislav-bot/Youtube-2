@@ -1,0 +1,221 @@
+name: Audit Chicago Media and Subtitle Sync
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/audit_chicago_media_sync.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit-media-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg jq
+
+      - name: Download and reassemble canonical archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_src
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 \
+            --repo reverendstanislav-bot/Youtube-2 \
+            --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+
+          echo 'ab58661d982a8789df49f6d431e1e0e9678af7de02d60e8db468988603cc5a79  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00' | sha256sum -c -
+          echo 'a4525cd68439b0ff143326eb44e168fa516361ae132ebe268f9d423c29ea3297  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01' | sha256sum -c -
+          echo '620c8e160026a8917ea9a8779b620301a514a283a1aad91926c8012ac1ba9899  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02' | sha256sum -c -
+
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 \
+              Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 \
+              Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 \
+              > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+          rm Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 \
+             Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 \
+             Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02
+
+      - name: Extract V1, V2, subtitles and QC evidence
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_extract CHICAGO/AUDIT/MEDIA_SYNC CHICAGO/AUDIT/SELECTED_SOURCE
+          cd /tmp/chicago_src
+
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar \
+            -o/tmp/chicago_extract \
+            "-ir!*/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4" \
+            "-ir!*/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt" \
+            "-ir!*/_FINAL/EDIT_REPORT.md" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.srt" \
+            "-ir!*/_V2/final/V2_QC_REPORT.md" \
+            "-ir!*/03_TIMELINE/subtitles_en.srt" \
+            "-ir!*/_QC/voice_words.json" \
+            "-ir!*/_QC/alignment_report.json" \
+            "-ir!*/_QC/final_qc.json" \
+            "-ir!*/_QC/subtitle_sync_samples.json" \
+            "-ir!*/_QC/subtitle_sync_verified.json" \
+            "-ir!*/_V2/qc/final_qc.json" \
+            "-ir!*/_V2/qc/delivered_srt_validation.json" \
+            "-ir!*/_V2/qc/subtitle_audio_verification.json" \
+            "-ir!*/_V2/qc/subtitle_boundary_resolution.json" \
+            "-ir!*/_V2/qc/subtitle_report.json" \
+            "-ir!*/_V2/work/captions.json" \
+            "-ir!*/_V2/work/hia_v2.py" \
+            "-ir!*/_V2/work/hia_v2_finish.py"
+
+          find /tmp/chicago_extract -type f -printf '%p %s bytes\n' | sort > "$GITHUB_WORKSPACE/CHICAGO/AUDIT/MEDIA_SYNC/EXTRACTED_FILES.txt"
+
+      - name: Resolve extracted paths
+        run: |
+          set -euo pipefail
+          ROOT=/tmp/chicago_extract
+          V1="$(find "$ROOT" -type f -path '*/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4' | head -n1)"
+          V1SRT="$(find "$ROOT" -type f -path '*/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt' | head -n1)"
+          V2="$(find "$ROOT" -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          V2SRT="$(find "$ROOT" -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          TL="$(find "$ROOT" -type f -path '*/03_TIMELINE/subtitles_en.srt' | head -n1)"
+          WORDS="$(find "$ROOT" -type f -path '*/_QC/voice_words.json' | head -n1)"
+          test -s "$V1"; test -s "$V1SRT"; test -s "$V2"; test -s "$V2SRT"; test -s "$TL"; test -s "$WORDS"
+          {
+            echo "V1=$V1"
+            echo "V1SRT=$V1SRT"
+            echo "V2=$V2"
+            echo "V2SRT=$V2SRT"
+            echo "TL=$TL"
+            echo "WORDS=$WORDS"
+          } >> "$GITHUB_ENV"
+
+      - name: Independent subtitle to VO alignment
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/analyze_subtitle_alignment.py \
+            --words "$WORDS" \
+            --srt "$TL" \
+            --srt "$V1SRT" \
+            --srt "$V2SRT" \
+            --out-json CHICAGO/AUDIT/MEDIA_SYNC/SUBTITLE_ALIGNMENT.json \
+            --out-md CHICAGO/AUDIT/MEDIA_SYNC/SUBTITLE_ALIGNMENT.md
+
+      - name: Probe and fully decode V1 and V2
+        run: |
+          set -euo pipefail
+          ffprobe -v error -show_streams -show_format -of json "$V1" > CHICAGO/AUDIT/MEDIA_SYNC/V1_FFPROBE.json
+          ffprobe -v error -show_streams -show_format -of json "$V2" > CHICAGO/AUDIT/MEDIA_SYNC/V2_FFPROBE.json
+
+          if ffmpeg -v error -xerror -i "$V1" -map 0:v:0 -map 0:a:0? -f null - 2> CHICAGO/AUDIT/MEDIA_SYNC/V1_DECODE_ERRORS.txt; then
+            echo "V1_FULL_DECODE=PASS" > CHICAGO/AUDIT/MEDIA_SYNC/DECODE_STATUS.txt
+          else
+            echo "V1_FULL_DECODE=FAIL" > CHICAGO/AUDIT/MEDIA_SYNC/DECODE_STATUS.txt
+            exit 1
+          fi
+
+          if ffmpeg -v error -xerror -i "$V2" -map 0:v:0 -map 0:a:0? -f null - 2> CHICAGO/AUDIT/MEDIA_SYNC/V2_DECODE_ERRORS.txt; then
+            echo "V2_FULL_DECODE=PASS" >> CHICAGO/AUDIT/MEDIA_SYNC/DECODE_STATUS.txt
+          else
+            echo "V2_FULL_DECODE=FAIL" >> CHICAGO/AUDIT/MEDIA_SYNC/DECODE_STATUS.txt
+            exit 1
+          fi
+
+      - name: Compare encoded audio streams
+        run: |
+          set -euo pipefail
+          ffmpeg -y -v error -i "$V1" -map 0:a:0 -c copy -f adts /tmp/v1_audio.aac
+          ffmpeg -y -v error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/v2_audio.aac
+          sha256sum /tmp/v1_audio.aac /tmp/v2_audio.aac > CHICAGO/AUDIT/MEDIA_SYNC/AUDIO_SHA256.txt
+          if cmp -s /tmp/v1_audio.aac /tmp/v2_audio.aac; then
+            echo "V1_V2_AUDIO_BIT_IDENTICAL=YES" >> CHICAGO/AUDIT/MEDIA_SYNC/AUDIO_SHA256.txt
+          else
+            echo "V1_V2_AUDIO_BIT_IDENTICAL=NO" >> CHICAGO/AUDIT/MEDIA_SYNC/AUDIO_SHA256.txt
+          fi
+
+      - name: Preserve selected QC text evidence
+        run: |
+          set -euo pipefail
+          ROOT=/tmp/chicago_extract
+          copy_one() {
+            pattern="$1"; dest="$2"
+            p="$(find "$ROOT" -type f -path "$pattern" | head -n1 || true)"
+            if [ -n "$p" ] && [ -s "$p" ]; then cp "$p" "CHICAGO/AUDIT/SELECTED_SOURCE/$dest"; fi
+          }
+          copy_one '*/_FINAL/EDIT_REPORT.md' 'V1_EDIT_REPORT.md'
+          copy_one '*/_V2/final/V2_QC_REPORT.md' 'V2_QC_REPORT.md'
+          copy_one '*/_QC/alignment_report.json' 'V1_alignment_report.json'
+          copy_one '*/_QC/final_qc.json' 'V1_final_qc.json'
+          copy_one '*/_QC/subtitle_sync_samples.json' 'V1_subtitle_sync_samples.json'
+          copy_one '*/_QC/subtitle_sync_verified.json' 'V1_subtitle_sync_verified.json'
+          copy_one '*/_V2/qc/final_qc.json' 'V2_final_qc.json'
+          copy_one '*/_V2/qc/delivered_srt_validation.json' 'V2_delivered_srt_validation.json'
+          copy_one '*/_V2/qc/subtitle_audio_verification.json' 'V2_subtitle_audio_verification.json'
+          copy_one '*/_V2/qc/subtitle_boundary_resolution.json' 'V2_subtitle_boundary_resolution.json'
+          copy_one '*/_V2/qc/subtitle_report.json' 'V2_subtitle_report.json'
+          copy_one '*/_V2/work/hia_v2_finish.py' 'hia_v2_finish.py'
+
+      - name: Build plan audit summary
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib
+          p=pathlib.Path("CHICAGO/AUDIT/MEDIA_SYNC")
+          v1=json.loads((p/"V1_FFPROBE.json").read_text())
+          v2=json.loads((p/"V2_FFPROBE.json").read_text())
+          al=json.loads((p/"SUBTITLE_ALIGNMENT.json").read_text())
+          ah=(p/"AUDIO_SHA256.txt").read_text().strip()
+          def brief(x):
+              vs=next(s for s in x["streams"] if s["codec_type"]=="video")
+              aus=next((s for s in x["streams"] if s["codec_type"]=="audio"),{})
+              return {
+                "duration":float(x["format"]["duration"]),
+                "size":int(x["format"]["size"]),
+                "video_codec":vs.get("codec_name"),
+                "width":vs.get("width"),"height":vs.get("height"),
+                "fps":vs.get("avg_frame_rate"),
+                "audio_codec":aus.get("codec_name"),
+                "audio_rate":aus.get("sample_rate")
+              }
+          b1,b2=brief(v1),brief(v2)
+          lines=["# Chicago — plan audit after source recovery","",
+                 "## 1. Source recovery / archive integrity","",
+                 "- Canonical RAR: **PASS** (verified before this run; RAR5 integrity test also PASS).","",
+                 "## 2. Media integrity","",
+                 f"- V1 final: {b1['width']}x{b1['height']}, fps {b1['fps']}, duration {b1['duration']:.3f}s, {b1['video_codec']} + {b1['audio_codec']}.",
+                 f"- V2 final: {b2['width']}x{b2['height']}, fps {b2['fps']}, duration {b2['duration']:.3f}s, {b2['video_codec']} + {b2['audio_codec']}.",
+                 "- Full decode: see DECODE_STATUS.txt.","",
+                 "## 3. Independent subtitle ↔ VO timing",""]
+          for d in al:
+              o=d["start_offset_sec"]
+              lines += [f"- **{pathlib.Path(d['srt']).name}** — {d['verdict']}; median {o['median']:.3f}s; P05/P95 {o['p05']:.3f}/{o['p95']:.3f}s; runtime change {d['estimated_offset_change_over_runtime_sec']:.3f}s."]
+          lines += ["","## 4. V1/V2 audio identity","",ah,"",
+                    "## 5. Repair rule","",
+                    "Do not trust old PASS labels by themselves. The independent word-timing audit is the authority for subtitle timing. Preserve picture/audio only after identifying which visual version the user wants as the base; rebuild captions from the best-aligned timing source and verify opening/middle/end against VO before promotion."]
+          (p/"PLAN_AUDIT.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
+          PY
+
+      - name: Commit audit reports
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/AUDIT/MEDIA_SYNC CHICAGO/AUDIT/SELECTED_SOURCE
+          git commit -m "Audit Chicago final media and subtitle sync"
+          git push
+
+      - name: Upload audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-media-sync-audit
+          path: |
+            CHICAGO/AUDIT/MEDIA_SYNC
+            CHICAGO/AUDIT/SELECTED_SOURCE
+          retention-days: 14
