@@ -107,7 +107,7 @@ def make_shot(a,b,asset,scene,kind='reconstruction',motion='static',text='',chap
 def patch_plan(orig, assets, gen):
     shots=[dict(s) for s in orig]
     for s in shots:
-        name=Path(s['asset']).name
+        name=s['asset'].replace('\\\\','/').split('/')[-1]
         if name not in assets:
             raise RuntimeError(f'Missing work asset {name}')
         s['asset']=str(assets[name])
