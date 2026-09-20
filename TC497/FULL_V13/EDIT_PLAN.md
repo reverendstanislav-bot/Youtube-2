@@ -1,4 +1,4 @@
-# TC497 FULL_V13 — full cutaway purge + orange-only running subtitles
+# TC497 FULL_V13 — full cutaway purge + white-base running subtitles
 
 ## Non-negotiable fixes
 
@@ -13,11 +13,11 @@
 - no old burned captions underneath;
 - no second caption layer;
 - no black backing rectangle;
-- all dialogue subtitle words are orange;
-- phrase text uses muted orange #B96F3D;
-- the currently spoken word uses brighter orange #F28A3A;
+- base dialogue phrase text is white #FFFFFF;
+- the currently spoken word is highlighted orange #F28A3A;
 - word-level timing drives the running highlight;
-- no white or blue dialogue-caption words.
+- no blue dialogue-caption words;
+- no muted-orange #B96F3D base dialogue text.
 
 3. Preserve current edit corrections.
 - V6 human/control break;
@@ -26,12 +26,15 @@
 - V8 ending identity and clean end plate;
 - V9 audio lineage bit-for-bit.
 
-## Current source of truth
+## Review lineage
 
-Use the successful optimized V13 review build:
-- GitHub Actions run: `35481027927`
-- workflow: `Build TC497 FULL V13 Optimized Review`
-- artifact: `tc497-full-v13-review-optimized`
-- artifact id: `10596370068`
+This correction stays on the canonical FULL_V13 optimized architecture:
+- previous reviewed build: GitHub Actions run `35481027927`;
+- previous artifact: `tc497-full-v13-review-optimized`;
+- previous artifact id: `10596370068`.
 
-FULL_V13 is review-only until explicit user approval.
+The only intended subtitle design change is:
+- phrase/base text: white;
+- active spoken word: orange #F28A3A.
+
+FULL_V13 remains review-only until explicit user approval.

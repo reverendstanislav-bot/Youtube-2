@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/build_tc497_full_v13_optimized.yml'
       - 'TC497/FULL_V13/**'
+      - '!TC497/FULL_V13/*.md'
 
 permissions:
   contents: read
@@ -162,7 +163,7 @@ jobs:
 
           for f in /tmp/v13/patch/*.png; do test -s "$f"; done
 
-      - name: Build one global orange-running subtitle layer
+      - name: Build one global white-base running subtitle layer
         run: |
           set -euo pipefail
           python3 TC497/FULL_V13/make_orange_running_ass.py             --words "$WORD_CSV"             --source-ass /tmp/v13/overlay_v4.ass             --output /tmp/v13/v13.ass
@@ -170,7 +171,8 @@ jobs:
           ! grep -q 'CapV10' /tmp/v13/v13.ass
           ! grep -q 'BorderStyle=3' /tmp/v13/v13.ass
           grep -q '&H003A8AF2&' /tmp/v13/v13.ass
-          grep -q '&H003D6FB9&' /tmp/v13/v13.ass
+          grep -q '&H00FFFFFF&' /tmp/v13/v13.ass
+          ! grep -q '&H003D6FB9&' /tmp/v13/v13.ass
 
       - name: Render FULL V13 review
         run: |
@@ -270,8 +272,8 @@ jobs:
           - WA-09 purged from cold open and post-cold-open shot map.
           - Cold-open 61.08–64.62 now uses WB-L04 articulation imagery instead of WA-09.
           - Entire film captions are rebuilt from clean picture sources.
-          - Running subtitle rule: muted orange phrase, currently spoken word brighter orange.
-          - No white or blue dialogue-caption words.
+          - Running subtitle rule: white phrase, currently spoken word bright orange.
+          - No blue dialogue-caption words; white is the intended base text.
           - No second burned caption layer.
           - No black caption rectangle / BorderStyle 3.
           - V6 human-break, V9, 11:57 and V8 ending picture corrections retained; rejected V6 wheel-cutaway breaker removed.

@@ -2,7 +2,7 @@
 import argparse,csv,re
 from pathlib import Path
 
-BASE='&H003D6FB9&'      # muted orange RGB #B96F3D
+BASE='&H00FFFFFF&'      # white RGB #FFFFFF
 ORANGE='&H003A8AF2&'    # bright orange RGB #F28A3A
 LABEL_BASE='&H00DDEBF3&' # warm ivory for non-dialogue labels only
 DARK='&H00171A1C&'
