@@ -54,8 +54,8 @@ jobs:
           test -s "$V2"; test -s "$SRT"; test -s "$PY"
           echo "V2=$V2" >> "$GITHUB_ENV"
           echo "SRT=$SRT" >> "$GITHUB_ENV"
-          mkdir -p CHICAGO/AUDIT/V2_FINAL_QC
-          cp "$PY" CHICAGO/AUDIT/V2_FINAL_QC/hia_v2.py
+          mkdir -p "$GITHUB_WORKSPACE/CHICAGO/AUDIT/V2_FINAL_QC"
+          cp "$PY" "$GITHUB_WORKSPACE/CHICAGO/AUDIT/V2_FINAL_QC/hia_v2.py"
 
       - name: Generate cue-centered visual caption samples
         run: |
