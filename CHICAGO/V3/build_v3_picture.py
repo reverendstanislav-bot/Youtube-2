@@ -124,11 +124,11 @@ def patch_plan(orig, assets, gen):
     a13d=crop_variant(a13,gen/'street_1903_detail.jpg','detail')
     a15d=crop_variant(a15,gen/'wabash_detail.jpg','detail')
     street=[
-      make_shot(70.32,82.04,a14,'V3_STREET_1','archive','static'),
+      make_shot(70.32,82.04,a14,'V3_STREET_1','archive','pan'),
       make_shot(82.04,94.32,a14d,'V3_STREET_2','archive','static','STREET-LEVEL CONGESTION'),
-      make_shot(94.32,108.00,a13,'V3_STREET_3','archive','static'),
+      make_shot(94.32,108.00,a13,'V3_STREET_3','archive','pan'),
       make_shot(108.00,122.16,a13d,'V3_STREET_4','archive','static'),
-      make_shot(122.16,137.00,a15,'V3_STREET_5','archive','static'),
+      make_shot(122.16,137.00,a15,'V3_STREET_5','archive','pan'),
       make_shot(137.00,153.68,a15d,'V3_STREET_6','archive','static'),
     ]
 
@@ -140,10 +140,10 @@ def patch_plan(orig, assets, gen):
     a02o=crop_variant(a02,gen/'map1910_overview.jpg','map_overview')
     mapseq=[
       make_shot(349.20,363.00,a02,'V3_MAP_1','map','static'),
-      make_shot(363.00,377.36,a02d,'V3_MAP_2','map','static','NETWORK DETAIL'),
+      make_shot(363.00,377.36,a02d,'V3_MAP_2','map','push','NETWORK DETAIL'),
       make_shot(377.36,394.08,a03,'V3_MAP_3','archive','pan'),
-      make_shot(394.08,419.24,a02o,'V3_MAP_4','map','static','~60 MILES'),
-      make_shot(419.24,437.28,a12,'V3_MAP_5','map','static'),
+      make_shot(394.08,419.24,a02o,'V3_MAP_4','map','pan','~60 MILES'),
+      make_shot(419.24,437.28,a12,'V3_MAP_5','map','pull'),
     ]
 
     # Coal: remove 1.04s + 1.16s flash pair by using one phase-2 visual.
@@ -163,7 +163,7 @@ def patch_plan(orig, assets, gen):
     s219=Path(next(s for s in shots if s['scene']=='S219')['asset'])
     s222=Path(next(s for s in shots if s['scene']=='S222')['asset'])
     late=[
-      make_shot(1145.20,1158.28,s205,'V3_LATE_1','reconstruction','static'),
+      make_shot(1145.20,1158.28,s205,'V3_LATE_1','reconstruction','pull'),
       make_shot(1158.28,1167.68,s207,'V3_LATE_2','reconstruction','static'),
       make_shot(1167.68,1177.52,s210,'V3_LATE_3','reconstruction','push'),
       make_shot(1177.52,1181.52,a16,'V3_LATE_4','archive','static'),
