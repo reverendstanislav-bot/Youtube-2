@@ -82,6 +82,9 @@ def active_line(words,idx):
         parts.append(token)
     return ' '.join(parts)
 
+def white_line(words):
+    return '{\\c'+BASE+'}'+' '.join(esc(w['w']) for w in words)
+
 def overlaps_any(s,e):
     for a,b,_,_ in PATCHES:
         if min(e,b)>max(s,a):
@@ -109,14 +112,22 @@ def main():
     for pi,ph in enumerate(phrases):
         next_phrase_s = phrases[pi+1][0]['s'] if pi+1 < len(phrases) else CTA_CUT
         phrase_end = min(CTA_CUT, ph[-1]['e'] + .04, next_phrase_s - .02)
+        cursor=max(ph[0]['s'],CAP_START)
         for i,w in enumerate(ph):
             s=max(w['s'],CAP_START)
-            raw_e = ph[i+1]['s'] if i+1<len(ph) else phrase_end
-            e=min(raw_e, phrase_end, CTA_CUT)
-            if e<=s:
-                continue
+            e=min(w['e'],phrase_end,CTA_CUT)
+            if s>cursor+.005:
+                events.append(
+                    f"Dialogue: 90,{sec_ass(cursor)},{sec_ass(s)},Run,,0,0,0,,{white_line(ph)}"
+                )
+            if e>s:
+                events.append(
+                    f"Dialogue: 90,{sec_ass(s)},{sec_ass(e)},Run,,0,0,0,,{active_line(ph,i)}"
+                )
+                cursor=max(cursor,e)
+        if phrase_end>cursor+.005:
             events.append(
-                f"Dialogue: 90,{sec_ass(s)},{sec_ass(e)},Run,,0,0,0,,{active_line(ph,i)}"
+                f"Dialogue: 90,{sec_ass(cursor)},{sec_ass(phrase_end)},Run,,0,0,0,,{white_line(ph)}"
             )
 
     # Preserve provenance/editorial labels from the V4 overlay, but never its old captions.
