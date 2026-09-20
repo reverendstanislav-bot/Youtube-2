@@ -106,12 +106,15 @@ def main():
     phrases=make_phrases(words)
 
     events=[]
-    for ph in phrases:
+    for pi,ph in enumerate(phrases):
+        next_phrase_s = phrases[pi+1][0]['s'] if pi+1 < len(phrases) else CTA_CUT
+        phrase_end = min(CTA_CUT, ph[-1]['e'] + .04, next_phrase_s - .02)
         for i,w in enumerate(ph):
             s=max(w['s'],CAP_START)
-            e=(ph[i+1]['s'] if i+1<len(ph) else ph[-1]['e']+.08)
-            e=min(e,CTA_CUT)
-            if e<=s: continue
+            raw_e = ph[i+1]['s'] if i+1<len(ph) else phrase_end
+            e=min(raw_e, phrase_end, CTA_CUT)
+            if e<=s:
+                continue
             events.append(
                 f"Dialogue: 90,{sec_ass(s)},{sec_ass(e)},Run,,0,0,0,,{active_line(ph,i)}"
             )
