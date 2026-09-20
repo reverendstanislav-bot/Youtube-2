@@ -1,0 +1,90 @@
+[
+  {
+    "start": 21.7,
+    "end": 26.06,
+    "text": "narrow tunnels beneath the Loop. The tracks connected with railroad freight",
+    "mid": 23.88,
+    "fraction": 0.02,
+    "image": "sample_01_23.88s.jpg",
+    "ocr_text": ". . “OA. a Pd OS ee 7\n: — en, ” ling > Ee\na a ae Le 5\nsoe - vv 7” eee ne gin at\naust ew ea et, et a\n] oe 5S oye 7 LS wate aN Soe\n. - * 0) p@_eE oe ~\na a. » J” Pan oe i .\nte - oT a ee a . .\n. —e* a ie  -. ‘ :\nag\nSe ed «Ze eS ij\nA Ree Or , .\nat b . . eet ee\n“ aan pa. retire Li\n~ Peres? COS\ni So SRE\nu 5 RR ei\nAl reconstruction - ue Pt ‘ = ae, .\n. . es ed .",
+    "similarity": 0.1686046511627907,
+    "expected_word_overlap": 0.0
+  },
+  {
+    "start": 125.9,
+    "end": 129.9,
+    "text": "That made the space beneath the streets valuable for a reason that",
+    "mid": 127.9,
+    "fraction": 0.1,
+    "image": "sample_02_127.90s.jpg",
+    "ocr_text": "s 2.) 7 oe aTTy i\n| 125 ped ae Sey) | z |\nA oe, ee eT . _ & mi\nred ae 2 SSS oe\n_ > “®... Se pS\n— | \" deN\\S SE =\na ! au ewe ie FS || ok aes. — =\nae ‘lly. ii ms hee oy sg . at SS\nfa if weyhe ARs SS\nae eS “t ee na + EN N : =\na\" ” hp | KY i = ia aaa Tae —— Re, ~\n‘ i Roce NN\nHISTORICAL SOURCE",
+    "similarity": 0.15492957746478872,
+    "expected_word_overlap": 0.1
+  },
+  {
+    "start": 320.7,
+    "end": 323.48,
+    "text": "downtown to justify that complexity.",
+    "mid": 322.09000000000003,
+    "fraction": 0.25,
+    "image": "sample_03_322.09s.jpg",
+    "ocr_text": "Mga eee | ee et\n. | a |= 38,\\ ne a. _\na . re x\n. : ee 4 . 7 - * ~ . in ~ .\n7 7\n—itizoetsiuction - : ; :",
+    "similarity": 0.18947368421052632,
+    "expected_word_overlap": 0.0
+  },
+  {
+    "start": 515.48,
+    "end": 519.26,
+    "text": "of a repetitive, heavy, dirty logistics problem.",
+    "mid": 517.37,
+    "fraction": 0.4,
+    "image": "sample_04_517.37s.jpg",
+    "ocr_text": "OT ees\n—— ‘ SF ages) Bee\n. —o a . _i\n\noo : L “4 7\na \"> .\n01 02 03 :\nCOAL TO BOILERS , FUEL IS CONSUMED > ASH REMOVAL i\n\nAl truction ~ : : - eS =\n7 recons' ruction ue a“ an ve - . . 7 : . ot \\e —",
+    "similarity": 0.16129032258064516,
+    "expected_word_overlap": 0.14285714285714285
+  },
+  {
+    "start": 644.1,
+    "end": 647.26,
+    "text": "street problem by becoming physically committed to",
+    "mid": 645.6800000000001,
+    "fraction": 0.5,
+    "image": "sample_05_645.68s.jpg",
+    "ocr_text": "7 Soca thay Somos = ESE Se ko eS RA a Gea\nHee. TL eS re. a pe Tip)\nBe a ' z ‘ ‘ ve é pea tk ut 1) , ert\n\n= So ae , og Ay cade ph =: My.\n| | ey \" pet pa eae i Whos ae a. ;\nTA BO ia: 73\n\nwire A EE ‘ Se: 1 RL fi Qo. . <= ee\n\n- uke oS” De nye 4 oe eg BS:\n\nSo Ye igh = re WS\n\na, — = [SS> C— SS ee\n\nAl reconstruction a —— = \" g SS ee Sie. .",
+    "similarity": 0.1607717041800643,
+    "expected_word_overlap": 0.0
+  },
+  {
+    "start": 966.6,
+    "end": 971.72,
+    "text": "The U.S. Geological Survey later reported that utility services were lost in",
+    "mid": 969.1600000000001,
+    "fraction": 0.75,
+    "image": "sample_06_969.16s.jpg",
+    "ocr_text": "; os el oy ee\nbs one a pr + Beste -_ oo\nae a f YY]: Bea\n\nce ae : Fees aS\n§ ee on ae - Sa eee\n\"OS ieee * eee. of ecs oe eee\nvo eens Re 0 Lee er\nSe PP ee ret\n: Re. . Ee a :\n\nge a oN eg als . << e Tee 3\n\na a Se Set Be\nos wo ee Sao ~\n\n: ve . . . Laas es\n\nLo, te . Pa Ree Oy efas “Ee.\nee : ee Ae oT = wes\n\n. _ Al,fgconstruction cote. ee Oe. =\n\nwe ee “ee awa oe EE\nx . ea SEAS oe Sta -e.",
+    "similarity": 0.18134715025906736,
+    "expected_word_overlap": 0.0
+  },
+  {
+    "start": 1161.86,
+    "end": 1162.91,
+    "text": "It operated.",
+    "mid": 1162.385,
+    "fraction": 0.9,
+    "image": "sample_07_1162.38s.jpg",
+    "ocr_text": ". 4 a . woe Pane. Se ee\n_ . an) - - Mr ek.\n“ 3 ore ae = By\n—_ 7 o. ee ne\noo toe cr a . a\n: . - = EX ee Be\n. ate bi, ; Se\n. a | e\na oa 2nd . ~*~\nse te <a x bg Aan\nwe Ry Lote oat .. aS % *\nig EE SS . . - o ABee se Ne.\n. etfca SURO ; Rie Se %\ncan 2 TORN Sal : . 3, gn\n. . sage ORT Mg Bt te : RE ow wT\n7 Beh ON Saeed = le : ° RRS Fo com\na er Tal Whos 2 = Te, 7 os STARR ae :\nNN 3 nag ON ode . . oh eee ~\n. Je ww” SEE Bee a oe? ?\n1 a Ee : Sr ea ae\n. ‘ eee as, Co wne WERRERS ' ;\n1g SETS Re. , - . a : LT eet SE\nite patos , et oe ee A NAS\nPS knee o> - ‘ arte a ee ~ oa . x oe — a Bt . i .\nAl reconstruction ee * Mare BEF wee atin So - : ooo ea SY es Ae\nge Zz crit Toe SS BS ea oe ke wee PE te gee\naah 7 Dy + REI RE My OP ae Ne UR ore, OC Art USF",
+    "similarity": 0.029950083194675542,
+    "expected_word_overlap": 0.0
+  },
+  {
+    "start": 1270.36,
+    "end": 1274.18,
+    "text": "And beneath parts of that modern city are remnants of an older",
+    "mid": 1272.27,
+    "fraction": 0.985,
+    "image": "sample_08_1272.27s.jpg",
+    "ocr_text": "OOS ge Oe 7 a A OS My yee Ee : an\n. tet hea” aN 5 fp on = ey ; at i ar to. i\nre cca No UPSAE oe ke a a ‘\nwoop le tp Te eer ree é Lo 4 ?\nwo FS =. * ot a ;\nae iit Ter 2: > . i : oe\noa ~ mt Ty ; RF\nom ma, 7 “ : z\niw eee: ¢ oe . eye ores ie\n; . : . wae gs “gee\n~ ep gag\noe ie MEE colt Ye\n. 2 Se wen Kennel 4 ete \\ Ses of , .\n- ee ee ; ae oe oe\n. eye me Mees in tagger ‘\nMo ; . gir cee RE ee ,\nAl reconstruction : } 7 pres nee | noe : Nn id “eg : 2 , .\n‘ woo. a a “ y sence \" vr ae ” . _ - .\n- Soot et . _ a a re le ge eee Fe ee",
+    "similarity": 0.1574468085106383,
+    "expected_word_overlap": 0.18181818181818182
+  }
+]
