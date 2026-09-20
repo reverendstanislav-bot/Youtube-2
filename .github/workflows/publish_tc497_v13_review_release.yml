@@ -1,0 +1,44 @@
+name: Publish TC497 V13 Review MP4
+
+on:
+  push:
+    paths:
+      - '.github/workflows/publish_tc497_v13_review_release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download canonical white-base V13 review artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v13-review-optimized
+          path: /tmp/v13
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35485738354
+          github-token: ${{ github.token }}
+
+      - name: Verify review MP4
+        run: |
+          set -euo pipefail
+          test -s /tmp/v13/TC497_FULL_V13_REVIEW_960x540.mp4
+          echo "bcdf2ef30abec4ef9d4927416a57285a713a42b665b0fcebd70c90fd0085812a  /tmp/v13/TC497_FULL_V13_REVIEW_960x540.mp4" | sha256sum -c -
+
+      - name: Publish review release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: tc497-v13-whitebase-review-20260920
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" /tmp/v13/TC497_FULL_V13_REVIEW_960x540.mp4 --clobber
+          else
+            gh release create "$TAG" /tmp/v13/TC497_FULL_V13_REVIEW_960x540.mp4               --target main               --title "TC497 FULL_V13 White-Base Review"               --notes "REVIEW ONLY — not final. White subtitle base with orange active-word highlight. Source workflow run 35485738354."
+          fi
