@@ -14,12 +14,10 @@ function Caption(){
   const p=captions.find(x=>t>=x.s&&t<=x.e);
   if(!p)return null;
   const words=p.words||[];
-  let active=0;
+  let active=-1;
   const timed=words.length&&words.every(w=>typeof w.s==='number'&&typeof w.e==='number');
   if(timed){
-    const hit=words.findIndex(w=>t>=w.s&&t<=w.e);
-    active=hit>=0?hit:Math.max(0,words.findIndex(w=>t<w.s)-1);
-    if(active<0)active=words.length-1;
+    active=words.findIndex(w=>t>=w.s&&t<=w.e);
   }else if(words.length){
     const prog=Math.max(0,Math.min(.999,(t-p.s)/Math.max(.08,p.e-p.s)));
     active=Math.min(words.length-1,Math.floor(prog*words.length));
