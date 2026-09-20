@@ -1,35 +1,44 @@
 # Chicago subtitle repair plan
 
-## Blocking defect
+## Root cause confirmed
 
-The old Chicago upload candidate still has subtitles that drift / move out of sync. This is the last explicitly reported user defect and must be treated as unresolved.
+The canonical source archive has now been independently audited.
 
-## Repair principles
+**Bad timing source — never use again:**
+- `03_TIMELINE/subtitles_en.srt`
+- 293 cues
+- independent whole-film word alignment shows large variable/progressive errors;
+- modeled runtime drift ~9.6 s;
+- P05/P95 start-offset range approximately -9.726 s to +4.996 s.
 
-- Work from the cleanest recoverable picture/audio source.
-- Do not stack a new burned subtitle layer over an old burned layer.
-- Identify whether drift is:
-  - constant offset;
-  - progressive timebase drift;
-  - frame-rate mismatch;
-  - transcript/VO alignment error;
-  - concat/edit boundary error.
-- Measure timing at the beginning, middle, and end before choosing a fix.
-- If progressive drift exists, do not fix it with a single global offset.
-- Preserve accepted picture/audio unless the timing source itself requires remux/re-encode.
+**Good timing sources:**
+- `_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt` — 320 cues; independent timing alignment PASS.
+- `_V2/final/HIA_CHICAGO_V2.srt` — 338 cues; independent timing alignment PASS.
+- `_QC/voice_words.json` — word-level narration timing authority used for independent verification.
 
-## Minimum QC gates
+## Media facts
 
-Before calling a new review ready:
-1. inspect opening captions;
-2. inspect at least three middle checkpoints;
-3. inspect the final 20% of the film;
-4. compare spoken word vs caption onset/exit;
-5. verify no duplicate caption layer;
-6. verify no text crosses safe margins;
-7. verify final duration/audio sync;
-8. export objective media metadata and screenshots.
+- V1 final: 1920x1080, 25 fps, 1290.720 s; full decode PASS.
+- V2 final: 1920x1080, 25 fps, 1290.720 s; full decode PASS.
+- V1/V2 AAC is bit-identical, SHA-256:
+  `a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed`.
 
-## Approval
+## Next repair
 
-A corrected Chicago review still requires explicit user approval before any file is called publication/upload master.
+1. Use V2 as the preferred technical picture candidate because it is the later revision and preserves V1 audio bit-for-bit.
+2. Do **not** use `03_TIMELINE/subtitles_en.srt`.
+3. Build the visible subtitle layer from `_V2/final/HIA_CHICAGO_V2.srt` / word-level timing.
+4. Do not stack captions on top of an existing visible/burned layer. Confirm the picture base is clean before burn-in.
+5. Preserve V2 picture and the exact existing AAC unless a concrete picture defect is found.
+6. Render a review build first.
+7. Inspect visible caption onset at opening, quarter, middle, three-quarter and ending, plus several transitions around 08:37.
+8. User approval is mandatory before a new upload master is promoted.
+
+## Evidence
+
+- `CHICAGO/AUDIT/MEDIA_SYNC/PLAN_AUDIT.md`
+- `CHICAGO/AUDIT/MEDIA_SYNC/SUBTITLE_ALIGNMENT.md`
+- `CHICAGO/AUDIT/MEDIA_SYNC/SUBTITLE_ALIGNMENT.json`
+- `CHICAGO/AUDIT/MEDIA_SYNC/DECODE_STATUS.txt`
+- `CHICAGO/AUDIT/MEDIA_SYNC/AUDIO_SHA256.txt`
+- `CHICAGO/AUDIT/SELECTED_SOURCE/`
