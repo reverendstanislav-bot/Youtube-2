@@ -1,0 +1,12 @@
+{
+  "cues": 338,
+  "max_line_length": 42,
+  "under_1s": [
+    {
+      "start": 509.9,
+      "text": "Coal in."
+    }
+  ],
+  "over_20cps": [],
+  "words_preserved": true
+}

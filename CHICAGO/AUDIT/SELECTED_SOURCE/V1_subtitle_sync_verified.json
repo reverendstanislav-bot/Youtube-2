@@ -1,0 +1,32 @@
+[
+  {
+    "time": 0,
+    "matched_words": 38,
+    "median_abs_seconds": 0.0,
+    "max_abs_seconds": 0.66
+  },
+  {
+    "time": 315,
+    "matched_words": 43,
+    "median_abs_seconds": 0.0,
+    "max_abs_seconds": 0.28
+  },
+  {
+    "time": 638,
+    "matched_words": 49,
+    "median_abs_seconds": 0.0,
+    "max_abs_seconds": 0.14
+  },
+  {
+    "time": 960,
+    "matched_words": 43,
+    "median_abs_seconds": 0.0,
+    "max_abs_seconds": 0.56
+  },
+  {
+    "time": 1265,
+    "matched_words": 44,
+    "median_abs_seconds": 0.0,
+    "max_abs_seconds": 0.92
+  }
+]

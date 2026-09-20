@@ -1,0 +1,151 @@
+[
+  {
+    "sample": 0,
+    "cue_onsets": [
+      {
+        "cue": "you that another transportation network once",
+        "srt_start": 5.08,
+        "audio_start": 5.08,
+        "delta": 0.0
+      }
+    ]
+  },
+  {
+    "sample": 303,
+    "cue_onsets": [
+      {
+        "cue": "Every transfer added handling. Every elevator",
+        "srt_start": 305.02,
+        "audio_start": 305.1,
+        "delta": -0.08
+      },
+      {
+        "cue": "and customer connection added fixed infrastructure.",
+        "srt_start": 307.98,
+        "audio_start": 307.96,
+        "delta": 0.02
+      },
+      {
+        "cue": "The tunnel railroad therefore had to earn its place not by being",
+        "srt_start": 311.56,
+        "audio_start": 311.62,
+        "delta": -0.06
+      }
+    ]
+  },
+  {
+    "sample": 515,
+    "cue_onsets": [
+      {
+        "cue": "dirty logistics problem.",
+        "srt_start": 517.24,
+        "audio_start": 518.04,
+        "delta": -0.8
+      },
+      {
+        "cue": "The railroad also carried merchandise, packages,",
+        "srt_start": 520.0,
+        "audio_start": 519.92,
+        "delta": 0.08
+      },
+      {
+        "cue": "building materials, and other general freight.",
+        "srt_start": 523.7,
+        "audio_start": 523.64,
+        "delta": 0.06
+      }
+    ]
+  },
+  {
+    "sample": 635,
+    "cue_onsets": [
+      {
+        "cue": "But fixed infrastructure becomes much less forgiving when those conditions move.",
+        "srt_start": 636.56,
+        "audio_start": 636.62,
+        "delta": -0.06
+      },
+      {
+        "cue": "The system had solved Chicago\u2019s",
+        "srt_start": 642.3,
+        "audio_start": 642.34,
+        "delta": -0.04
+      },
+      {
+        "cue": "street problem by becoming physically committed to",
+        "srt_start": 644.1,
+        "audio_start": 644.1,
+        "delta": 0.0
+      }
+    ]
+  },
+  {
+    "sample": 955,
+    "cue_onsets": [
+      {
+        "cue": "Water spread through the old tunnels and into connected downtown structures.",
+        "srt_start": 956.48,
+        "audio_start": 956.42,
+        "delta": 0.06
+      },
+      {
+        "cue": "Utilities were disrupted.",
+        "srt_start": 964.42,
+        "audio_start": 964.58,
+        "delta": -0.16
+      }
+    ]
+  },
+  {
+    "sample": 1188,
+    "cue_onsets": [
+      {
+        "cue": "Each change weakened the logic of infrastructure",
+        "srt_start": 1192.44,
+        "audio_start": 1192.48,
+        "delta": -0.04
+      },
+      {
+        "cue": "built around fixed tracks, fixed",
+        "srt_start": 1195.44,
+        "audio_start": 1195.42,
+        "delta": 0.02
+      },
+      {
+        "cue": "terminals, fixed building connections, and a particular pattern of downtown commerce.",
+        "srt_start": 1198.34,
+        "audio_start": 1198.38,
+        "delta": -0.04
+      }
+    ]
+  },
+  {
+    "sample": 1276,
+    "cue_onsets": [
+      {
+        "cue": "The railroad vanished.",
+        "srt_start": 1277.04,
+        "audio_start": 1277.18,
+        "delta": -0.14
+      },
+      {
+        "cue": "The infrastructure did not.",
+        "srt_start": 1279.16,
+        "audio_start": 1279.22,
+        "delta": -0.06
+      },
+      {
+        "cue": "Infrastructure can outlive the economy that created it.",
+        "srt_start": 1281.98,
+        "audio_start": 1281.98,
+        "delta": 0.0
+      },
+      {
+        "cue": "Sometimes by decades.",
+        "srt_start": 1285.7,
+        "audio_start": 1285.78,
+        "delta": -0.08
+      }
+    ]
+  }
+]

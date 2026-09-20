@@ -1,0 +1,9 @@
+{
+  "reason": "Original SRT has varying errors around 3-4 seconds at quarter/middle/three-quarter samples.",
+  "matched_words": 2733,
+  "script_words": 2771,
+  "match_ratio": 0.9862865391555395,
+  "cues": 327,
+  "method": "Offline Whisper word times matched to canonical script; unmatched spans interpolated.",
+  "voice_unchanged": true
+}

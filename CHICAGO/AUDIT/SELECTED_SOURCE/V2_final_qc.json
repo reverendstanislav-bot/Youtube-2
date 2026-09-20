@@ -1,0 +1,70 @@
+{
+  "duration": 1290.72,
+  "width": 1920,
+  "height": 1080,
+  "frames": 32268,
+  "fps": "25/1",
+  "decode_exit": 0,
+  "black_intervals": [],
+  "integrated_lufs": -14.05,
+  "true_peak_dbtp": -4.48,
+  "audio_bitstream_identical_to_v1": true,
+  "subtitle_errors": [],
+  "cues": 338,
+  "minimum_shot_seconds": 1.04,
+  "motion_samples": [
+    {
+      "mode": "push",
+      "time": 23.02,
+      "pairs": 49,
+      "near_static": 5,
+      "median_change": 0.07538580149412155,
+      "max_change": 0.9136496782302856
+    },
+    {
+      "mode": "pull",
+      "time": 280.62,
+      "pairs": 49,
+      "near_static": 1,
+      "median_change": 0.18797068297863007,
+      "max_change": 1.0980709791183472
+    },
+    {
+      "mode": "pan",
+      "time": 134.2,
+      "pairs": 49,
+      "near_static": 0,
+      "median_change": 1.4272993803024292,
+      "max_change": 1.8233565092086792
+    }
+  ],
+  "visual_review": "Sampled compositions, source details, process steps, labels and ending reviewed. Motion measured frame by frame; UI playback unavailable.",
+  "playback_ui": "Unavailable: no browsers connected; no claim of real-time visual playback/listening.",
+  "technical_pass": true,
+  "motion_pass": true,
+  "initial_brightness_metric_pass": false,
+  "motion_diagnostic_note": "Brightness MAD spikes follow lossy H.264 compression. Matching uncompressed slow push/pull are uniform with no held frames. Off-center output samples test consecutive holds instead of counting isolated small changes at the zoom center.",
+  "offcenter_motion_samples": [
+    {
+      "mode": "push",
+      "near_static": 1,
+      "longest_near_static_run": 1,
+      "median": 0.4186342656612396,
+      "max": 1.0514583587646484
+    },
+    {
+      "mode": "pull",
+      "near_static": 1,
+      "longest_near_static_run": 1,
+      "median": 0.39175155758857727,
+      "max": 0.990424394607544
+    },
+    {
+      "mode": "pan",
+      "near_static": 0,
+      "longest_near_static_run": 0,
+      "median": 1.4656866788864136,
+      "max": 1.813209891319275
+    }
+  ]
+}
