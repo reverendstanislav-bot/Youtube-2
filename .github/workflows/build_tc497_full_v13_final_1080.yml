@@ -199,8 +199,8 @@ jobs:
 
           ffmpeg -y -loglevel error -i /tmp/v13final/remotion/out.mp4 -t 82.6 -an -c:v copy /tmp/v13final/cold_picture_1080.mp4
 
-          CW="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 /tmp/v13final/cold_picture_1080.mp4)"
-          CH="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 /tmp/v13final/cold_picture_1080.mp4)"
+          CW="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 /tmp/v13final/cold_picture_1080.mp4)"
+          CH="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 /tmp/v13final/cold_picture_1080.mp4)"
           echo "cold_picture_dimensions=$CW x $CH"
           test "$CW" = "1920"
           test "$CH" = "1080"
@@ -226,8 +226,8 @@ jobs:
           ! grep -q '"code": "WA-09"' /tmp/v13final/v4public/shots.json
           test -s /tmp/v13final/v4public/rest_base.mp4
           test -s /tmp/v13final/overlay_v4.ass
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 /tmp/v13final/v4public/rest_base.mp4)" = "1920"
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 /tmp/v13final/v4public/rest_base.mp4)" = "1080"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 /tmp/v13final/v4public/rest_base.mp4)" = "1920"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 /tmp/v13final/v4public/rest_base.mp4)" = "1080"
 
       - name: Assemble clean native 1080 picture base
         run: |
@@ -289,10 +289,10 @@ jobs:
 
           ffprobe -v error -count_frames             -show_entries stream=index,codec_name,profile,width,height,pix_fmt,r_frame_rate,avg_frame_rate,duration,bit_rate,nb_read_frames:format=duration,size,bit_rate             -of json "$MASTER" > /tmp/v13final/report/FFPROBE.json
 
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$MASTER")" = "1920"
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$MASTER")" = "1080"
-          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$MASTER")" = "30/1"
-          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of csv=p=0 "$MASTER")"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 "$MASTER")" = "1920"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 "$MASTER")" = "1080"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$MASTER")" = "30/1"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$MASTER")"
           test "$FRAMES" = "37096"
 
           ! grep -q 'WA-09' /tmp/v13final/coldwork/V14_EDIT_DECISIONS.csv
