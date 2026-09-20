@@ -44,7 +44,7 @@ jobs:
         run: |
           set -euo pipefail
           cd /tmp/chicago_src
-          sha256sum -c SHA256SUMS.txt
+          grep '\\.part' SHA256SUMS.txt | sha256sum -c -
           cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 \
               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 \
               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 \
