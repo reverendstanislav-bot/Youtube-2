@@ -361,3 +361,5 @@ jobs:
           else
             gh release create "$RELEASE_TAG" "$MASTER" TC497/FULL_V13_FINAL_OUT/TC497_FULL_V13_FINAL_QC.zip TC497/FULL_V13_FINAL_OUT/SHA256SUMS.txt               --target main               --title "TC497 FULL_V13 FINAL 1080 Upload Master"               --notes "User-approved FULL_V13 final upload master. Native 1920x1080, white subtitle base with orange active-word highlight, V9 audio preserved bit-for-bit."
           fi
+
+# User approved finalization: 2026-09-20
