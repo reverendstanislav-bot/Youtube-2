@@ -5,12 +5,15 @@
 Episode: LeTourneau TC-497 Overland Train
 Project: Hidden Industrial America / YouTube-2
 
-Current state: **FULL_V13 is the active review version. It has passed targeted technical and visual QC, but the user has not approved it yet.**
+Current state: **FULL_V13 is the active review version. It passed technical/visual QC, but the user has not approved it yet.**
 
 Do not use V10/V11/V12 as publication candidates.
 Do not promote a new 1080p final until explicit FULL_V13 approval.
 
-## CURRENT REVIEW
+For a new chat, also read:
+- `TC497/FULL_V13/NEW_CHAT_HANDOFF.md`
+
+## CANONICAL CURRENT REVIEW
 
 - GitHub Actions run: `35481027927`
 - workflow: `Build TC497 FULL V13 Optimized Review`
@@ -22,6 +25,9 @@ Do not promote a new 1080p final until explicit FULL_V13 approval.
 - duration: 20:36.533
 - 960x540 / 30 fps / 37,096 frames
 
+GitHub artifact URL:
+`https://github.com/reverendstanislav-bot/Youtube-2/actions/runs/35481027927/artifacts/10596370068`
+
 ## V13 FIXES
 
 Cutaway purge:
@@ -29,20 +35,22 @@ Cutaway purge:
 - the ugly wheel/turbine cutaway at ~01:01–01:04 is gone;
 - that cold-open interval now uses WB-L04 articulation imagery;
 - rejected V6 wheel-cutaway breaker remains removed;
-- no new photoreal wheel/turbine/hub cutaway generated.
+- no new photoreal wheel/turbine/hub cutaway should be generated.
 
 Subtitle system:
-- one global running subtitle layer rebuilt from clean picture sources;
-- dialogue subtitles use muted orange with the current spoken word in brighter orange;
-- no white/blue dialogue caption words;
+- clean picture rebuild;
+- one global running subtitle layer;
+- phrase text = muted orange `#B96F3D`;
+- current spoken word = brighter orange `#F28A3A`;
+- no white/blue dialogue-caption words;
 - no duplicate burned layer;
 - no CapV10;
 - no BorderStyle 3;
 - no giant black rectangle.
 
 Preserved:
-- V6 human-break correction;
-- V9 middle-film fixes;
+- V6 human/control break;
+- V9 Yuma / ground-vs-air fixes;
 - 11:57 bridge repair;
 - V8 ending;
 - V9 audio.
@@ -50,8 +58,45 @@ Preserved:
 Audio V9/V13 is bit-identical:
 `7954f3218e07a86ec57aa98e2744eabeab4cc4349e32233768b3df77d5ea2aff`
 
+## IMPORTANT SOURCE-OF-TRUTH NOTE
+
+A later experimental white-active subtitle branch temporarily changed the repo script after the successful optimized artifact.
+
+The canonical successful artifact is the optimized orange-only V13 above.
+
+Before this handoff, the source was restored to orange-only logic:
+- `TC497/FULL_V13/make_orange_running_ass.py`
+- restore commit: `355b975056a54aa7b899abfac87f01ebee97cc47`
+
+The V13 edit plan was normalized to the optimized artifact:
+- commit: `002c0299d7ac3f69e458c8a3a2de1c118439f436`
+
+The experimental workflow:
+- `.github/workflows/build_tc497_full_v13_whiteactive.yml`
+
+is **not** the source of truth.
+
+## RELEVANT FILES
+
+- `TC497/FULL_V13/NEW_CHAT_HANDOFF.md`
+- `TC497/FULL_V13/EDIT_PLAN.md`
+- `TC497/FULL_V13/REVIEW_QC.md`
+- `TC497/FULL_V13/make_orange_running_ass.py`
+- `TC497/FULL_V13/prep_v13_cold.py`
+- `TC497/FULL_V13/index_v13.jsx`
+- `TC497/FULL_V13/download_assets.py`
+- `.github/workflows/build_tc497_full_v13_optimized.yml`
+
 ## NEXT STEP
 
 User reviews FULL_V13.
-If explicitly approved, build a fresh native 1920x1080 FULL_V13 master and run final QC.
-If not approved, patch FULL_V13 review again.
+
+If the user reports a defect:
+- patch FULL_V13 review only;
+- do not regress to V10/V11/V12;
+- do not reintroduce the wheel/turbine cutaway family or mixed white/blue captions.
+
+If the user explicitly approves FULL_V13:
+1. build a fresh native 1920x1080 FULL_V13 master;
+2. run final picture/audio/subtitle QC;
+3. only then promote it to upload master.
