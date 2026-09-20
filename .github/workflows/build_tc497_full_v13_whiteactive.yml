@@ -1,0 +1,250 @@
+name: Build TC497 FULL V13 White-Active Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_full_v13_whiteactive.yml'
+      - 'TC497/FULL_V13/**'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-v13-whiteactive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
+      V4_WORK: /tmp/v13/v4work
+      V4_PUBLIC: /tmp/v13/v4public
+      V4_EXTRA: /tmp/v13/v4extra
+      ASS_OUT: /tmp/v13/overlay_v4.ass
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils unzip zip fonts-dejavu-core
+          pip install pillow numpy opencv-python-headless
+
+      - name: Download CODEX package
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Download approved V9 audio source
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v9-review-fast
+          path: /tmp/v9
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35427554323
+          github-token: ${{ github.token }}
+
+      - name: Prepare package transcript and workspaces
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/v13 /tmp/pkg
+          mkdir -p /tmp/v13/{v4work,v4public,v4extra,v5patch,patch,remotion/src,remotion/public,coldwork,report/screens} /tmp/pkg TC497/FULL_V13_WHITEACTIVE_OUT
+
+          PKG_ZIP="$(find /tmp/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n 1)"
+          test -n "$PKG_ZIP"
+          unzip -q "$PKG_ZIP" -d /tmp/pkg
+
+          PKG_ROOT="$(find /tmp/pkg -mindepth 1 -maxdepth 1 -type d | head -n 1)"
+          GEN_DIR="$(find "$PKG_ROOT" -type d -name FINAL_62 | head -n 1)"
+          test -n "$PKG_ROOT"
+          test -n "$GEN_DIR"
+          echo "PKG_ROOT=$PKG_ROOT" >> "$GITHUB_ENV"
+          echo "GEN_DIR=$GEN_DIR" >> "$GITHUB_ENV"
+
+          curl -fL --retry 4 --retry-all-errors "$TRANSCRIPT_URL" -o /tmp/v13/transcript.zip
+          unzip -q /tmp/v13/transcript.zip -d /tmp/v13/transcript
+          WORD="$(find /tmp/v13/transcript -type f -name TC497_VO_WORD_LEVEL.csv | head -n 1)"
+          test -n "$WORD"
+          echo "TRANSCRIPT_DIR=$(dirname "$WORD")" >> "$GITHUB_ENV"
+          echo "WORD_CSV=$WORD" >> "$GITHUB_ENV"
+
+          test -s /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4
+
+      - name: Download retained picture assets
+        run: |
+          set -euo pipefail
+          python3 TC497/FULL_V13/download_assets.py
+
+          test -s /tmp/v13/patch/electric_human_v6.png
+          for f in nuclear_concept_clean.png nuclear_unbuilt_clean.png heavy_lift_logistics_clean.png ground_vs_air_clean.png survivor_detail_clean.png; do
+            test -s "/tmp/v13/v5patch/$f"
+          done
+
+      - name: Build clean cold open without WA-09
+        run: |
+          set -euo pipefail
+          export V14_EXTRA=/tmp/v13/v4extra
+          export V14_PUBLIC=/tmp/v13/remotion/public
+          export V14_WORK=/tmp/v13/coldwork
+
+          cp TC497/V14/assets/INTRO_DETAIL.png "$V14_EXTRA/INTRO_DETAIL.png"
+          cp TC497/V14/assets/INTRO_OBSERVERS.png "$V14_EXTRA/INTRO_OBSERVERS.png"
+          cp TC497/V14/assets/INTRO_REVEAL.png "$V14_EXTRA/INTRO_REVEAL.png"
+
+          unzip -p TC497/V14/TC497_V14_REMOTION_REPORT.zip captions.json > /tmp/v13/remotion/public/captions.json
+          ffmpeg -y -loglevel error             -i TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4             -vn -ac 2 -ar 48000 -c:a pcm_s16le             /tmp/v13/remotion/public/mix.wav
+
+          python3 TC497/FULL_V13/prep_v13_cold.py
+          ! grep -q 'WA-09' /tmp/v13/coldwork/V14_EDIT_DECISIONS.csv
+          grep -q 'WB-L04' /tmp/v13/coldwork/V14_EDIT_DECISIONS.csv
+
+          cp TC497/FULL_V13/index_v13.jsx /tmp/v13/remotion/src/index.jsx
+          cp TC497/V14/package.json /tmp/v13/remotion/package.json
+          (cd /tmp/v13/remotion && npm install --no-audit --no-fund)
+          (cd /tmp/v13/remotion && npx remotion render src/index.jsx TC497V14 out.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p)
+
+          ffmpeg -y -loglevel error             -i /tmp/v13/remotion/out.mp4 -t 82.6 -an             -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p             /tmp/v13/cold_picture.mp4
+
+      - name: Build clean post-cold-open picture with WA-09 purged
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          src=Path('TC497/FULL_V4/full_v4_build.py').read_text()
+          src=src.replace("('WA-09','wide',6,'wheel_motor',1)","('ST-ELECTRIC','wide',6,'electric_distribution',1)")
+          src=src.replace("('WA-09','detail',4,'wheel_motor',1)","('AR-PATENT','doc_mid',4,'patent_detail',1)",1)
+          src=src.replace("('WA-09','detail',4,'wheel_motor',1)","('WB-L04','wide',4,'tc497_articulation',1)",1)
+          src=src.replace("BLACKLISTED_LEGACY={","BLACKLISTED_LEGACY={'WA-09',")
+          Path('/tmp/v13/full_v13_build.py').write_text(src)
+          PY
+
+          python /tmp/v13/full_v13_build.py
+          python TC497/FULL_V4/make_overlay_v4_ass.py
+
+          ! grep -q '"code": "WA-09"' /tmp/v13/v4public/shots.json
+          test -s /tmp/v13/v4public/rest_base.mp4
+          test -s /tmp/v13/overlay_v4.ass
+
+      - name: Build clean full picture base
+        run: |
+          set -euo pipefail
+          printf "file '/tmp/v13/cold_picture.mp4'\nfile '/tmp/v13/v4public/rest_base.mp4'\n" > /tmp/v13/full_concat.txt
+          ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/v13/full_concat.txt -c copy /tmp/v13/full_clean_base.mp4
+          test -s /tmp/v13/full_clean_base.mp4
+
+      - name: Prepare retained correction assets
+        run: |
+          set -euo pipefail
+          cp "$GEN_DIR/WC-Y01.png" /tmp/v13/patch/WC-Y01.png
+          cp "$GEN_DIR/WD-T03.png" /tmp/v13/patch/WD-T03.png
+          cp "$GEN_DIR/WC-D03.png" /tmp/v13/patch/WC-D03.png
+          cp "$GEN_DIR/WC-D05.png" /tmp/v13/patch/WC-D05.png
+          cp "$GEN_DIR/WB-N04.png" /tmp/v13/patch/WB-N04.png
+          cp "$V4_EXTRA/V4_EMPTY_END.png" /tmp/v13/patch/V4_EMPTY_END.png
+
+          cp /tmp/v13/v5patch/nuclear_concept_clean.png /tmp/v13/patch/
+          cp /tmp/v13/v5patch/nuclear_unbuilt_clean.png /tmp/v13/patch/
+          cp /tmp/v13/v5patch/heavy_lift_logistics_clean.png /tmp/v13/patch/
+          cp /tmp/v13/v5patch/ground_vs_air_clean.png /tmp/v13/patch/
+          cp /tmp/v13/v5patch/survivor_detail_clean.png /tmp/v13/patch/
+
+          for f in /tmp/v13/patch/*.png; do test -s "$f"; done
+
+      - name: Build white-to-orange running subtitle layer
+        run: |
+          set -euo pipefail
+          python3 TC497/FULL_V13/make_orange_running_ass.py             --words "$WORD_CSV"             --source-ass /tmp/v13/overlay_v4.ass             --output /tmp/v13/v13.ass
+
+          ! grep -q 'CapV10' /tmp/v13/v13.ass
+          ! grep -q 'BorderStyle=3' /tmp/v13/v13.ass
+          grep -q '&H00F5F5F5&' /tmp/v13/v13.ass
+          grep -q '&H003A8AF2&' /tmp/v13/v13.ass
+
+      - name: Render FULL V13 white-active review
+        run: |
+          set -euo pipefail
+          B=/tmp/v13/full_clean_base.mp4
+          P=/tmp/v13/patch
+          OUT=TC497/FULL_V13_WHITEACTIVE_OUT/TC497_FULL_V13_WHITEACTIVE_REVIEW_960x540.mp4
+
+          ffmpeg -y -loglevel error             -i "$B"             -loop 1 -framerate 30 -i "$P/electric_human_v6.png"             -loop 1 -framerate 30 -i "$P/nuclear_concept_clean.png"             -loop 1 -framerate 30 -i "$P/nuclear_unbuilt_clean.png"             -loop 1 -framerate 30 -i "$P/WC-Y01.png"             -loop 1 -framerate 30 -i "$P/WD-T03.png"             -loop 1 -framerate 30 -i "$P/WC-D03.png"             -loop 1 -framerate 30 -i "$P/WC-D05.png"             -loop 1 -framerate 30 -i "$P/heavy_lift_logistics_clean.png"             -loop 1 -framerate 30 -i "$P/ground_vs_air_clean.png"             -loop 1 -framerate 30 -i "$P/survivor_detail_clean.png"             -loop 1 -framerate 30 -i "$P/WB-N04.png"             -loop 1 -framerate 30 -i "$P/V4_EMPTY_END.png"             -filter_complex "              [0:v]tpad=stop_mode=clone:stop_duration=0.08[base];              [1:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p1];              [2:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p2];              [3:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p3];              [4:v]crop=iw*0.76:ih*0.76:iw*0.12:ih*0.12,scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p4];              [5:v]crop=iw*0.76:ih*0.76:iw*0.12:ih*0.12,scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p5];              [6:v]crop=iw*0.76:ih*0.76:iw*0.12:ih*0.12,scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p6];              [7:v]crop=iw*0.76:ih*0.76:iw*0.12:ih*0.12,scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p7];              [8:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p8];              [9:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p9];              [10:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540[p10];              [11:v]crop=iw*0.70:ih*0.70:iw*0.15:ih*0.15,scale=960:540:force_original_aspect_ratio=increase,crop=960:540,format=rgba,                trim=duration=7.60,setpts=PTS-STARTPTS,fade=t=in:st=0:d=0.25:alpha=1,fade=t=out:st=6.90:d=0.70:alpha=1,setpts=PTS+716.90/TB[p11];              [12:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540,eq=brightness=0.015:contrast=1.025:saturation=0.92[p12];              [base][p1]overlay=0:0:eof_action=pass:enable='between(t,215.356,221.464)'[v1];              [v1][p2]overlay=0:0:eof_action=pass:enable='between(t,709.241,717.165)'[v2];              [v2][p3]overlay=0:0:eof_action=pass:enable='between(t,730.373,736.976)'[v3];              [v3][p4]overlay=0:0:eof_action=pass:enable='between(t,766.838,775.922)'[v4];              [v4][p5]overlay=0:0:eof_action=pass:enable='between(t,815.287,822.857)'[v5];              [v5][p6]overlay=0:0:eof_action=pass:enable='between(t,1020.122,1028.334)'[v6];              [v6][p7]overlay=0:0:eof_action=pass:enable='between(t,1054.611,1062.822)'[v7];              [v7][p8]overlay=0:0:eof_action=pass:enable='between(t,1079.245,1087.457)'[v8];              [v8][p9]overlay=0:0:eof_action=pass:enable='between(t,1107.164,1115.376)'[v9];              [v9][p10]overlay=0:0:eof_action=pass:enable='between(t,1209.007,1215.477)'[v10];              [v10][p11]overlay=0:0:eof_action=pass[v11];              [v11][p12]overlay=0:0:eof_action=pass:enable='between(t,1222.300,1236.533)'[v12];              [v12]ass=/tmp/v13/v13.ass,format=yuv420p[vout]"             -map "[vout]" -an -t 1236.533333 -r 30             -c:v libx264 -preset ultrafast -crf 19 -profile:v high -level 4.0 -pix_fmt yuv420p             /tmp/v13/v13_video.mp4
+
+          ffmpeg -y -loglevel error             -i /tmp/v13/v13_video.mp4             -i /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4             -map 0:v:0 -map 1:a:0 -c copy -t 1236.533333 -movflags +faststart             "$OUT"
+
+      - name: Audio identity and V13 QC
+        run: |
+          set -euo pipefail
+          OUT=TC497/FULL_V13_WHITEACTIVE_OUT/TC497_FULL_V13_WHITEACTIVE_REVIEW_960x540.mp4
+
+          ffmpeg -y -loglevel error -i /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4 -map 0:a:0 -c copy -f adts /tmp/v13/v9.aac
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts /tmp/v13/v13.aac
+          sha256sum /tmp/v13/v9.aac /tmp/v13/v13.aac | tee /tmp/v13/report/AUDIO_SHA256.txt
+          cmp /tmp/v13/v9.aac /tmp/v13/v13.aac
+
+          ffprobe -v error -count_frames             -show_entries stream=index,codec_name,width,height,r_frame_rate,duration,nb_read_frames:format=duration,size,bit_rate             -of json "$OUT" > /tmp/v13/report/FFPROBE.json
+
+          ffmpeg -hide_banner -nostats -i "$OUT" -vf "blackdetect=d=.20:pix_th=.02" -an -f null -             > /dev/null 2> /tmp/v13/report/BLACKDETECT.txt || true
+
+          for t in 60 61 62 63 64 65 90 92 200 218 230 233 236 238 262 298 475 717 724 770 817 1024 1058 1083 1110 1212 1228 1235; do
+            ffmpeg -y -loglevel error -ss "$t" -i "$OUT" -frames:v 1 "/tmp/v13/report/screens/frame_${t}.jpg"
+          done
+
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$OUT")" = "960"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$OUT")" = "540"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$OUT")" = "30/1"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of csv=p=0 "$OUT")"
+          test "$FRAMES" = "37096"
+
+          ! grep -q 'WA-09' /tmp/v13/coldwork/V14_EDIT_DECISIONS.csv
+          ! grep -q '"code": "WA-09"' /tmp/v13/v4public/shots.json
+
+          cat > /tmp/v13/report/V13_WHITEACTIVE_QC.md <<'EOF'
+          # TC497 FULL_V13 — WHITE / ORANGE ACTIVE WORD REVIEW
+
+          REVIEW ONLY. USER APPROVAL REQUIRED.
+
+          - inactive dialogue subtitle words are white (#F5F5F5);
+          - only the currently spoken word is orange (#F28A3A);
+          - the word returns to white when the active word advances;
+          - no blue dialogue-caption words;
+          - no black subtitle rectangle;
+          - no second full-film subtitle burn-in;
+          - WA-09 is absent from the cold open and post-cold-open shot map;
+          - rejected V6 electric-wheel cutaway at 230.014–237.342 is NOT overlaid;
+          - cold-open 61.08–64.62 uses WB-L04;
+          - 11:57 repair, V9 middle fixes and V8 ending retained;
+          - V9 audio preserved bit-for-bit.
+          EOF
+
+          cp TC497/FULL_V13/EDIT_PLAN.md /tmp/v13/report/
+          cp TC497/FULL_V13/make_orange_running_ass.py /tmp/v13/report/
+          cp /tmp/v13/v13.ass /tmp/v13/report/
+          cp /tmp/v13/coldwork/V14_EDIT_DECISIONS.csv /tmp/v13/report/
+          cp /tmp/v13/v4public/shots.json /tmp/v13/report/
+
+          (cd /tmp/v13/report && zip -q -r "$GITHUB_WORKSPACE/TC497/FULL_V13_WHITEACTIVE_OUT/FULL_V13_REPORT.zip" .)
+          (cd TC497/FULL_V13_WHITEACTIVE_OUT && sha256sum             TC497_FULL_V13_WHITEACTIVE_REVIEW_960x540.mp4 FULL_V13_REPORT.zip > SHA256SUMS.txt)
+
+      - name: Upload V13 white-active review
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-full-v13-whiteactive-review
+          path: |
+            TC497/FULL_V13_WHITEACTIVE_OUT/TC497_FULL_V13_WHITEACTIVE_REVIEW_960x540.mp4
+            TC497/FULL_V13_WHITEACTIVE_OUT/FULL_V13_REPORT.zip
+            TC497/FULL_V13_WHITEACTIVE_OUT/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
