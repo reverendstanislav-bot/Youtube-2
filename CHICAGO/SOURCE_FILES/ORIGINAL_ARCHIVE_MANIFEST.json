@@ -1,0 +1,31 @@
+﻿{
+    "schema_version":  1,
+    "archive_role":  "Canonical original source package for CHICAGO â€” Episode 1 of Hidden Industrial America; not a YouTube publication master.",
+    "original_filename":  "Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar",
+    "original_size_bytes":  4741988746,
+    "original_sha256":  "2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb",
+    "split_method":  "Raw binary split with no compression or transformation; ordered chunks of at most 1,900,000,000 bytes.",
+    "part_size_limit_bytes":  1900000000,
+    "parts":  [
+                  {
+                      "filename":  "Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00",
+                      "size_bytes":  1900000000,
+                      "sha256":  "ab58661d982a8789df49f6d431e1e0e9678af7de02d60e8db468988603cc5a79"
+                  },
+                  {
+                      "filename":  "Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01",
+                      "size_bytes":  1900000000,
+                      "sha256":  "a4525cd68439b0ff143326eb44e168fa516361ae132ebe268f9d423c29ea3297"
+                  },
+                  {
+                      "filename":  "Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02",
+                      "size_bytes":  941988746,
+                      "sha256":  "620c8e160026a8917ea9a8779b620301a514a283a1aad91926c8012ac1ba9899"
+                  }
+              ],
+    "reconstruction_instructions":  {
+                                        "windows":  "Place all parts beside CHICAGO_REASSEMBLE_WINDOWS.ps1 and run: powershell -ExecutionPolicy Bypass -File .\\CHICAGO_REASSEMBLE_WINDOWS.ps1",
+                                        "linux_macos":  "Place all parts beside CHICAGO_REASSEMBLE_LINUX_MAC.sh and run: chmod +x CHICAGO_REASSEMBLE_LINUX_MAC.sh \u0026\u0026 ./CHICAGO_REASSEMBLE_LINUX_MAC.sh",
+                                        "verification":  "The reconstructed file must be exactly 4741988746 bytes and have SHA-256 2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb. Both scripts fail on mismatch."
+                                    }
+}

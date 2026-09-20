@@ -24,6 +24,19 @@ Do not call the old `HIA_CHICAGO_FINAL_UPLOAD.mp4` final merely because of its f
 
 ## Connected-storage state (2026-09-20)
 
+### Canonical source archive recovered
+
+- source archive recovered: **yes**
+- exact original filename: `Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar`
+- original size: `4,741,988,746` bytes (`4.416319304 GiB`)
+- SHA-256: `2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb`
+- release tag: `chicago-source-archive-v1`
+- release URL: <https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/chicago-source-archive-v1>
+- binary parts: `3`
+- verification: **PASS** — local split/reassembly, GitHub API asset sizes and server-side SHA-256 digests, downloaded-part SHA-256 checks, and full download/reassembly SHA-256 all match
+
+This archive is the canonical **source package**. It is not a final YouTube master. The unresolved subtitle-drift status below is unchanged.
+
 Dropbox contains:
 - `HIA_DBX_00.part` … `HIA_DBX_13.part`
 - total bytes: `1,299,535,967`
