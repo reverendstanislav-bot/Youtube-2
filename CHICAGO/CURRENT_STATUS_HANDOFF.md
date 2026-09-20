@@ -58,3 +58,11 @@ Those original attachments are not currently accessible from the connected GitHu
 ## Channel context
 
 Chicago is Episode 1. TC-497 is Episode 2. Branding must stay universal for **Hidden Industrial America**, not tied to tunnels, Chicago, or a single industrial category.
+
+## Automated source-archive audit
+
+- archive SHA-256 verified: PASS
+- RAR integrity test: PASS
+- full file inventory: `CHICAGO/AUDIT/SOURCE_INVENTORY.json`
+- human-readable audit: `CHICAGO/AUDIT/SOURCE_AUDIT.md`
+- text/subtitle/build audit: `CHICAGO/AUDIT/TEXT_SOURCE_AUDIT.md`

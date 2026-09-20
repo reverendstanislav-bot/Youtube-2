@@ -1,0 +1,4922 @@
+{
+  "total_entries": 2292,
+  "file_count": 2292,
+  "directory_count": 0,
+  "unpacked_total_bytes": 5359479427,
+  "extensions": {
+    ".mp4": 924,
+    ".done": 445,
+    ".png": 380,
+    ".jpg": 261,
+    ".txt": 105,
+    ".json": 47,
+    "<none>": 39,
+    ".csv": 15,
+    ".wav": 15,
+    ".py": 13,
+    ".mp3": 10,
+    ".log": 10,
+    ".pdf": 9,
+    ".pyc": 7,
+    ".md": 6,
+    ".srt": 3,
+    ".ttf": 3
+  },
+  "video_files": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4",
+      "size_bytes": 849581598,
+      "is_dir": false,
+      "packed_size": "839727180"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.mp4",
+      "size_bytes": 575515224,
+      "is_dir": false,
+      "packed_size": "463401246"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/HIA_CHICAGO_PROXY.mp4",
+      "size_bytes": 228937557,
+      "is_dir": false,
+      "packed_size": "223307736"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/HIA_CHICAGO_V2_PROXY.mp4",
+      "size_bytes": 172613755,
+      "is_dir": false,
+      "packed_size": "144598865"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/163_d8b9cb6ee3b0f2.mp4",
+      "size_bytes": 19212697,
+      "is_dir": false,
+      "packed_size": "19212697"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/021_c00dee504ef912.mp4",
+      "size_bytes": 15242341,
+      "is_dir": false,
+      "packed_size": "15242341"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/060.mp4",
+      "size_bytes": 13258138,
+      "is_dir": false,
+      "packed_size": "13258138"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/145.mp4",
+      "size_bytes": 12692353,
+      "is_dir": false,
+      "packed_size": "12692353"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/161.mp4",
+      "size_bytes": 12689872,
+      "is_dir": false,
+      "packed_size": "12689872"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/064.mp4",
+      "size_bytes": 12461679,
+      "is_dir": false,
+      "packed_size": "12461679"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/054_c86e02f5a64144.mp4",
+      "size_bytes": 11042265,
+      "is_dir": false,
+      "packed_size": "1975997"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/200_13553b781ba590.mp4",
+      "size_bytes": 10820847,
+      "is_dir": false,
+      "packed_size": "10820847"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/068.mp4",
+      "size_bytes": 10494378,
+      "is_dir": false,
+      "packed_size": "10494378"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/029.mp4",
+      "size_bytes": 10385743,
+      "is_dir": false,
+      "packed_size": "10385743"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/177.mp4",
+      "size_bytes": 10316076,
+      "is_dir": false,
+      "packed_size": "10316076"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/213_6b04504437f6bb.mp4",
+      "size_bytes": 9831443,
+      "is_dir": false,
+      "packed_size": "9831443"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/180.mp4",
+      "size_bytes": 9774458,
+      "is_dir": false,
+      "packed_size": "9774458"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/233.mp4",
+      "size_bytes": 9134819,
+      "is_dir": false,
+      "packed_size": "9134819"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/024.mp4",
+      "size_bytes": 9087576,
+      "is_dir": false,
+      "packed_size": "9087576"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/003_17c83c1aeeccf8.mp4",
+      "size_bytes": 8981380,
+      "is_dir": false,
+      "packed_size": "8981380"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/009.mp4",
+      "size_bytes": 8713004,
+      "is_dir": false,
+      "packed_size": "8713004"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/096.mp4",
+      "size_bytes": 8206993,
+      "is_dir": false,
+      "packed_size": "8206993"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/053_dd10b8a9e20aed.mp4",
+      "size_bytes": 8173462,
+      "is_dir": false,
+      "packed_size": "8173462"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/173.mp4",
+      "size_bytes": 8168054,
+      "is_dir": false,
+      "packed_size": "8168054"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/172.mp4",
+      "size_bytes": 7966813,
+      "is_dir": false,
+      "packed_size": "7966813"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/061.mp4",
+      "size_bytes": 7733010,
+      "is_dir": false,
+      "packed_size": "7733010"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/041_cf796a9c2b00f3.mp4",
+      "size_bytes": 7676636,
+      "is_dir": false,
+      "packed_size": "7676636"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/168.mp4",
+      "size_bytes": 7673600,
+      "is_dir": false,
+      "packed_size": "7673600"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/000.mp4",
+      "size_bytes": 7628804,
+      "is_dir": false,
+      "packed_size": "7628804"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/052_36eb5cf915bcae.mp4",
+      "size_bytes": 7533329,
+      "is_dir": false,
+      "packed_size": "1975734"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/045_0fddf961128b75.mp4",
+      "size_bytes": 7477123,
+      "is_dir": false,
+      "packed_size": "7477123"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/065.mp4",
+      "size_bytes": 7380041,
+      "is_dir": false,
+      "packed_size": "7380041"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/049.mp4",
+      "size_bytes": 6869134,
+      "is_dir": false,
+      "packed_size": "6869134"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/006_52912caa245243.mp4",
+      "size_bytes": 6839302,
+      "is_dir": false,
+      "packed_size": "6839302"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/174_cc45885325fa93.mp4",
+      "size_bytes": 6824068,
+      "is_dir": false,
+      "packed_size": "6824068"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/232.mp4",
+      "size_bytes": 6630223,
+      "is_dir": false,
+      "packed_size": "6630223"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/155_1cd0aa7617db87.mp4",
+      "size_bytes": 6535153,
+      "is_dir": false,
+      "packed_size": "6535153"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/067.mp4",
+      "size_bytes": 6418225,
+      "is_dir": false,
+      "packed_size": "6047559"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/192.mp4",
+      "size_bytes": 6418176,
+      "is_dir": false,
+      "packed_size": "6418176"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/037.mp4",
+      "size_bytes": 6399945,
+      "is_dir": false,
+      "packed_size": "6399945"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/005.mp4",
+      "size_bytes": 6183525,
+      "is_dir": false,
+      "packed_size": "6183525"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/171.mp4",
+      "size_bytes": 6162297,
+      "is_dir": false,
+      "packed_size": "6162297"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/088_a475a79427875a.mp4",
+      "size_bytes": 6028569,
+      "is_dir": false,
+      "packed_size": "6028569"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/181.mp4",
+      "size_bytes": 6028513,
+      "is_dir": false,
+      "packed_size": "6028513"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/070_9504292e22b8a0.mp4",
+      "size_bytes": 5893622,
+      "is_dir": false,
+      "packed_size": "5893622"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/123_11909102cf2721.mp4",
+      "size_bytes": 5880391,
+      "is_dir": false,
+      "packed_size": "5880391"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/129.mp4",
+      "size_bytes": 5867936,
+      "is_dir": false,
+      "packed_size": "5867936"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/109_7f2bf0b5e8c790.mp4",
+      "size_bytes": 5829580,
+      "is_dir": false,
+      "packed_size": "5829580"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/025.mp4",
+      "size_bytes": 5829412,
+      "is_dir": false,
+      "packed_size": "5829412"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/210_9d3d5b813e390d.mp4",
+      "size_bytes": 5803616,
+      "is_dir": false,
+      "packed_size": "5803616"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/020.mp4",
+      "size_bytes": 5777823,
+      "is_dir": false,
+      "packed_size": "5777823"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/150_0ac4c38d3cdeb2.mp4",
+      "size_bytes": 5772907,
+      "is_dir": false,
+      "packed_size": "5772907"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/062_a46a1f267eecfd.mp4",
+      "size_bytes": 5766036,
+      "is_dir": false,
+      "packed_size": "5765304"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/184.mp4",
+      "size_bytes": 5725082,
+      "is_dir": false,
+      "packed_size": "5725082"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/193_dde18104a63be6.mp4",
+      "size_bytes": 5704057,
+      "is_dir": false,
+      "packed_size": "5704057"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/189.mp4",
+      "size_bytes": 5637103,
+      "is_dir": false,
+      "packed_size": "5637103"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/057_0bab82a44e7c9d.mp4",
+      "size_bytes": 5629142,
+      "is_dir": false,
+      "packed_size": "5629142"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/141.mp4",
+      "size_bytes": 5512888,
+      "is_dir": false,
+      "packed_size": "5512888"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/090_de5e5272c27339.mp4",
+      "size_bytes": 5469110,
+      "is_dir": false,
+      "packed_size": "5469110"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/047_bfe33becb62103.mp4",
+      "size_bytes": 5443205,
+      "is_dir": false,
+      "packed_size": "5443205"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/162_084708e12fafa6.mp4",
+      "size_bytes": 5441930,
+      "is_dir": false,
+      "packed_size": "5441930"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/013.mp4",
+      "size_bytes": 5435593,
+      "is_dir": false,
+      "packed_size": "5435593"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/032_f6878675697272.mp4",
+      "size_bytes": 5426552,
+      "is_dir": false,
+      "packed_size": "5426552"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/229.mp4",
+      "size_bytes": 5405889,
+      "is_dir": false,
+      "packed_size": "5405889"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/055_7c3cdc5517dff3.mp4",
+      "size_bytes": 5284061,
+      "is_dir": false,
+      "packed_size": "878271"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/169_519730000fd14a.mp4",
+      "size_bytes": 5282353,
+      "is_dir": false,
+      "packed_size": "5282353"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_pull.mp4",
+      "size_bytes": 5269365,
+      "is_dir": false,
+      "packed_size": "5269365"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/140.mp4",
+      "size_bytes": 5221523,
+      "is_dir": false,
+      "packed_size": "5221523"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/104.mp4",
+      "size_bytes": 5195355,
+      "is_dir": false,
+      "packed_size": "5195355"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/128.mp4",
+      "size_bytes": 5190886,
+      "is_dir": false,
+      "packed_size": "5190886"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/101.mp4",
+      "size_bytes": 5172723,
+      "is_dir": false,
+      "packed_size": "5172723"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/188.mp4",
+      "size_bytes": 5162376,
+      "is_dir": false,
+      "packed_size": "5162376"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/176.mp4",
+      "size_bytes": 5142784,
+      "is_dir": false,
+      "packed_size": "5142784"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/079_22543341c42e06.mp4",
+      "size_bytes": 5117970,
+      "is_dir": false,
+      "packed_size": "5117970"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/066.mp4",
+      "size_bytes": 5107465,
+      "is_dir": false,
+      "packed_size": "4799932"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/212.mp4",
+      "size_bytes": 5076590,
+      "is_dir": false,
+      "packed_size": "5076590"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/116.mp4",
+      "size_bytes": 5068653,
+      "is_dir": false,
+      "packed_size": "5068653"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/193.mp4",
+      "size_bytes": 5020959,
+      "is_dir": false,
+      "packed_size": "5020959"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/160_13ea8f955cf5fc.mp4",
+      "size_bytes": 4978199,
+      "is_dir": false,
+      "packed_size": "2280736"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/164.mp4",
+      "size_bytes": 4960942,
+      "is_dir": false,
+      "packed_size": "4960942"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/072.mp4",
+      "size_bytes": 4948571,
+      "is_dir": false,
+      "packed_size": "4948571"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/134.mp4",
+      "size_bytes": 4922730,
+      "is_dir": false,
+      "packed_size": "4747079"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/092.mp4",
+      "size_bytes": 4866676,
+      "is_dir": false,
+      "packed_size": "4866676"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/212_0d6263d12d6efa.mp4",
+      "size_bytes": 4832243,
+      "is_dir": false,
+      "packed_size": "4832243"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/235.mp4",
+      "size_bytes": 4804003,
+      "is_dir": false,
+      "packed_size": "892272"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/034_b92cc2a7281db8.mp4",
+      "size_bytes": 4779221,
+      "is_dir": false,
+      "packed_size": "4779221"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/084.mp4",
+      "size_bytes": 4755249,
+      "is_dir": false,
+      "packed_size": "4755249"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/230.mp4",
+      "size_bytes": 4678512,
+      "is_dir": false,
+      "packed_size": "4678512"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/227.mp4",
+      "size_bytes": 4647819,
+      "is_dir": false,
+      "packed_size": "4646852"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/059.mp4",
+      "size_bytes": 4631188,
+      "is_dir": false,
+      "packed_size": "4631188"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/017.mp4",
+      "size_bytes": 4589298,
+      "is_dir": false,
+      "packed_size": "4589298"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/111_e6c6a8d94dc993.mp4",
+      "size_bytes": 4583898,
+      "is_dir": false,
+      "packed_size": "4583898"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/085.mp4",
+      "size_bytes": 4568349,
+      "is_dir": false,
+      "packed_size": "4568349"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/010_4ea6db927a795e.mp4",
+      "size_bytes": 4548073,
+      "is_dir": false,
+      "packed_size": "4548073"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/048.mp4",
+      "size_bytes": 4487827,
+      "is_dir": false,
+      "packed_size": "4487827"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/179.mp4",
+      "size_bytes": 4471035,
+      "is_dir": false,
+      "packed_size": "4471035"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_push.mp4",
+      "size_bytes": 4421125,
+      "is_dir": false,
+      "packed_size": "4421125"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/187.mp4",
+      "size_bytes": 4362785,
+      "is_dir": false,
+      "packed_size": "4362785"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/proxy_clips/163_39c0c6000dcb1a.mp4",
+      "size_bytes": 4286181,
+      "is_dir": false,
+      "packed_size": "4283975"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/041.mp4",
+      "size_bytes": 4255589,
+      "is_dir": false,
+      "packed_size": "4255589"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/045.mp4",
+      "size_bytes": 4253323,
+      "is_dir": false,
+      "packed_size": "4253323"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/080.mp4",
+      "size_bytes": 4251910,
+      "is_dir": false,
+      "packed_size": "4251910"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/036.mp4",
+      "size_bytes": 4238919,
+      "is_dir": false,
+      "packed_size": "4238919"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/124.mp4",
+      "size_bytes": 4228850,
+      "is_dir": false,
+      "packed_size": "4228850"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/093.mp4",
+      "size_bytes": 4227908,
+      "is_dir": false,
+      "packed_size": "4227908"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/204.mp4",
+      "size_bytes": 4215497,
+      "is_dir": false,
+      "packed_size": "4215497"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/127.mp4",
+      "size_bytes": 4182157,
+      "is_dir": false,
+      "packed_size": "4179789"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/228.mp4",
+      "size_bytes": 4178721,
+      "is_dir": false,
+      "packed_size": "4178721"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/217.mp4",
+      "size_bytes": 4169022,
+      "is_dir": false,
+      "packed_size": "4169022"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/151_be1a02522a2a0b.mp4",
+      "size_bytes": 4131292,
+      "is_dir": false,
+      "packed_size": "2327443"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/152.mp4",
+      "size_bytes": 4126403,
+      "is_dir": false,
+      "packed_size": "4126403"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/207_0b8fb6ffe75ee0.mp4",
+      "size_bytes": 4119918,
+      "is_dir": false,
+      "packed_size": "1164352"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/048_9d23fb96ca9078.mp4",
+      "size_bytes": 4101026,
+      "is_dir": false,
+      "packed_size": "4101026"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/054.mp4",
+      "size_bytes": 4078637,
+      "is_dir": false,
+      "packed_size": "4078637"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/191.mp4",
+      "size_bytes": 4055106,
+      "is_dir": false,
+      "packed_size": "3902030"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/044_05947f03b3231d.mp4",
+      "size_bytes": 4036825,
+      "is_dir": false,
+      "packed_size": "4036825"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/170.mp4",
+      "size_bytes": 4033572,
+      "is_dir": false,
+      "packed_size": "4033572"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/091.mp4",
+      "size_bytes": 4023551,
+      "is_dir": false,
+      "packed_size": "4023551"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/127_27938f43ac63be.mp4",
+      "size_bytes": 4020385,
+      "is_dir": false,
+      "packed_size": "1975268"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/004.mp4",
+      "size_bytes": 4010665,
+      "is_dir": false,
+      "packed_size": "4010665"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/117.mp4",
+      "size_bytes": 4010629,
+      "is_dir": false,
+      "packed_size": "4010629"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/194.mp4",
+      "size_bytes": 4007735,
+      "is_dir": false,
+      "packed_size": "4005531"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/012.mp4",
+      "size_bytes": 3987593,
+      "is_dir": false,
+      "packed_size": "3987593"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/110_8ce52dae4639e4.mp4",
+      "size_bytes": 3982468,
+      "is_dir": false,
+      "packed_size": "3982468"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/122_3d0ee9f3f73f1f.mp4",
+      "size_bytes": 3973639,
+      "is_dir": false,
+      "packed_size": "3973639"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/203.mp4",
+      "size_bytes": 3921184,
+      "is_dir": false,
+      "packed_size": "3921184"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/197.mp4",
+      "size_bytes": 3893601,
+      "is_dir": false,
+      "packed_size": "3893601"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/125.mp4",
+      "size_bytes": 3866230,
+      "is_dir": false,
+      "packed_size": "3866230"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/202.mp4",
+      "size_bytes": 3860516,
+      "is_dir": false,
+      "packed_size": "3860516"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/076_425a8044c583a7.mp4",
+      "size_bytes": 3836420,
+      "is_dir": false,
+      "packed_size": "614603"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/100.mp4",
+      "size_bytes": 3833590,
+      "is_dir": false,
+      "packed_size": "3833590"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/052.mp4",
+      "size_bytes": 3814665,
+      "is_dir": false,
+      "packed_size": "3814665"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/163.mp4",
+      "size_bytes": 3803371,
+      "is_dir": false,
+      "packed_size": "3803371"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/220.mp4",
+      "size_bytes": 3794561,
+      "is_dir": false,
+      "packed_size": "3794561"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/166_cab75e40e8244a.mp4",
+      "size_bytes": 3789757,
+      "is_dir": false,
+      "packed_size": "3789757"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/069_57efc8363290b2.mp4",
+      "size_bytes": 3784789,
+      "is_dir": false,
+      "packed_size": "3784789"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/proxy_clips/021_4a9f55128df957.mp4",
+      "size_bytes": 3762558,
+      "is_dir": false,
+      "packed_size": "3759618"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/003.mp4",
+      "size_bytes": 3749736,
+      "is_dir": false,
+      "packed_size": "3748709"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/043_d59ab9ca520f31.mp4",
+      "size_bytes": 3734025,
+      "is_dir": false,
+      "packed_size": "1044878"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/219.mp4",
+      "size_bytes": 3709445,
+      "is_dir": false,
+      "packed_size": "3709445"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/051.mp4",
+      "size_bytes": 3647526,
+      "is_dir": false,
+      "packed_size": "3647526"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/016.mp4",
+      "size_bytes": 3628838,
+      "is_dir": false,
+      "packed_size": "3626108"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/103_8d7ff939648e31.mp4",
+      "size_bytes": 3619502,
+      "is_dir": false,
+      "packed_size": "3619502"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/136.mp4",
+      "size_bytes": 3588905,
+      "is_dir": false,
+      "packed_size": "3588905"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/149_dc867fb9393796.mp4",
+      "size_bytes": 3575130,
+      "is_dir": false,
+      "packed_size": "3575130"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/176_f05dd48092d192.mp4",
+      "size_bytes": 3569275,
+      "is_dir": false,
+      "packed_size": "1006369"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/095.mp4",
+      "size_bytes": 3556641,
+      "is_dir": false,
+      "packed_size": "3556641"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/051_cfb79f910ce159.mp4",
+      "size_bytes": 3551209,
+      "is_dir": false,
+      "packed_size": "1999054"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/107.mp4",
+      "size_bytes": 3519494,
+      "is_dir": false,
+      "packed_size": "3519494"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/016_9d3d5400a1e8fa.mp4",
+      "size_bytes": 3510883,
+      "is_dir": false,
+      "packed_size": "1000762"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/039.mp4",
+      "size_bytes": 3482719,
+      "is_dir": false,
+      "packed_size": "3482689"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/185.mp4",
+      "size_bytes": 3445366,
+      "is_dir": false,
+      "packed_size": "3445366"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/184_6330e6eec49e0a.mp4",
+      "size_bytes": 3417746,
+      "is_dir": false,
+      "packed_size": "1175267"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/208.mp4",
+      "size_bytes": 3412337,
+      "is_dir": false,
+      "packed_size": "3412337"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/031_276a93501df6c4.mp4",
+      "size_bytes": 3380074,
+      "is_dir": false,
+      "packed_size": "3380074"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/152_3bbdf0de508e39.mp4",
+      "size_bytes": 3373534,
+      "is_dir": false,
+      "packed_size": "2449782"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/077_3bdf13130574bc.mp4",
+      "size_bytes": 3305568,
+      "is_dir": false,
+      "packed_size": "3305568"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/185_75d36d89235081.mp4",
+      "size_bytes": 3284617,
+      "is_dir": false,
+      "packed_size": "1130572"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/105.mp4",
+      "size_bytes": 3256431,
+      "is_dir": false,
+      "packed_size": "3256431"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/099_7efcfb0aecd4c0.mp4",
+      "size_bytes": 3256067,
+      "is_dir": false,
+      "packed_size": "3256067"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/097_d8be4a20e62153.mp4",
+      "size_bytes": 3251757,
+      "is_dir": false,
+      "packed_size": "3251757"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/057.mp4",
+      "size_bytes": 3204772,
+      "is_dir": false,
+      "packed_size": "3204772"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/182.mp4",
+      "size_bytes": 3169372,
+      "is_dir": false,
+      "packed_size": "3169372"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/097.mp4",
+      "size_bytes": 3148621,
+      "is_dir": false,
+      "packed_size": "3148621"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/173_dfa30c22f13d4d.mp4",
+      "size_bytes": 3139483,
+      "is_dir": false,
+      "packed_size": "1969626"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/081.mp4",
+      "size_bytes": 3133146,
+      "is_dir": false,
+      "packed_size": "3133146"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/151.mp4",
+      "size_bytes": 3121367,
+      "is_dir": false,
+      "packed_size": "3121367"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/139.mp4",
+      "size_bytes": 3118077,
+      "is_dir": false,
+      "packed_size": "3118077"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/047.mp4",
+      "size_bytes": 3095136,
+      "is_dir": false,
+      "packed_size": "3095136"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/113.mp4",
+      "size_bytes": 3095003,
+      "is_dir": false,
+      "packed_size": "3095003"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/033.mp4",
+      "size_bytes": 3067237,
+      "is_dir": false,
+      "packed_size": "3067237"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/053.mp4",
+      "size_bytes": 3064570,
+      "is_dir": false,
+      "packed_size": "3064570"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/166.mp4",
+      "size_bytes": 3055911,
+      "is_dir": false,
+      "packed_size": "3055911"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/000_012cf41a43f0f8.mp4",
+      "size_bytes": 3051313,
+      "is_dir": false,
+      "packed_size": "1364096"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/154.mp4",
+      "size_bytes": 3044748,
+      "is_dir": false,
+      "packed_size": "3044748"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/063.mp4",
+      "size_bytes": 3044532,
+      "is_dir": false,
+      "packed_size": "3044532"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/proxy_clips/060.mp4",
+      "size_bytes": 3009086,
+      "is_dir": false,
+      "packed_size": "3009086"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/126.mp4",
+      "size_bytes": 3005192,
+      "is_dir": false,
+      "packed_size": "3005192"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/029_41f25194147132.mp4",
+      "size_bytes": 2975832,
+      "is_dir": false,
+      "packed_size": "718219"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/121.mp4",
+      "size_bytes": 2934896,
+      "is_dir": false,
+      "packed_size": "2934896"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/196.mp4",
+      "size_bytes": 2926910,
+      "is_dir": false,
+      "packed_size": "2926910"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/221.mp4",
+      "size_bytes": 2917179,
+      "is_dir": false,
+      "packed_size": "2917179"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/084_42f25205c2e80f.mp4",
+      "size_bytes": 2914894,
+      "is_dir": false,
+      "packed_size": "2914894"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/165.mp4",
+      "size_bytes": 2911625,
+      "is_dir": false,
+      "packed_size": "2911625"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/226.mp4",
+      "size_bytes": 2906236,
+      "is_dir": false,
+      "packed_size": "2906236"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/proxy_clips/145.mp4",
+      "size_bytes": 2896794,
+      "is_dir": false,
+      "packed_size": "2896794"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/145_366f0fc840bb5e.mp4",
+      "size_bytes": 2890543,
+      "is_dir": false,
+      "packed_size": "1278484"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/055.mp4",
+      "size_bytes": 2885448,
+      "is_dir": false,
+      "packed_size": "2885448"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/149.mp4",
+      "size_bytes": 2864734,
+      "is_dir": false,
+      "packed_size": "2864734"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/035.mp4",
+      "size_bytes": 2863750,
+      "is_dir": false,
+      "packed_size": "2856548"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/174.mp4",
+      "size_bytes": 2861049,
+      "is_dir": false,
+      "packed_size": "2861049"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/200.mp4",
+      "size_bytes": 2844940,
+      "is_dir": false,
+      "packed_size": "2844940"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/205.mp4",
+      "size_bytes": 2839442,
+      "is_dir": false,
+      "packed_size": "2839442"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/071.mp4",
+      "size_bytes": 2824974,
+      "is_dir": false,
+      "packed_size": "2824974"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/137.mp4",
+      "size_bytes": 2822614,
+      "is_dir": false,
+      "packed_size": "2822614"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/030_d880929ab640ba.mp4",
+      "size_bytes": 2818007,
+      "is_dir": false,
+      "packed_size": "1240944"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/050.mp4",
+      "size_bytes": 2808387,
+      "is_dir": false,
+      "packed_size": "2808387"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/175_81c62927bd65a8.mp4",
+      "size_bytes": 2768912,
+      "is_dir": false,
+      "packed_size": "1215032"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/088.mp4",
+      "size_bytes": 2760582,
+      "is_dir": false,
+      "packed_size": "2760582"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/089_079621458016b6.mp4",
+      "size_bytes": 2747292,
+      "is_dir": false,
+      "packed_size": "2747292"
+    }
+  ],
+  "audio_files": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/audio_master.wav",
+      "size_bytes": 371727462,
+      "is_dir": false,
+      "packed_size": "174244985"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/mix_pre.wav",
+      "size_bytes": 185863782,
+      "is_dir": false,
+      "packed_size": "138241112"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/01_AUDIO/voice.wav",
+      "size_bytes": 113841582,
+      "is_dir": false,
+      "packed_size": "69039073"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M07_Peace_of_Mind_Kevin_MacLeod.mp3",
+      "size_bytes": 86315915,
+      "is_dir": false,
+      "packed_size": "78082707"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M02_Ambiment_Kevin_MacLeod.mp3",
+      "size_bytes": 54918708,
+      "is_dir": false,
+      "packed_size": "50161145"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M05_Long_Note_Two_Kevin_MacLeod.mp3",
+      "size_bytes": 18641758,
+      "is_dir": false,
+      "packed_size": "15142884"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M06_Lightless_Dawn_Kevin_MacLeod.mp3",
+      "size_bytes": 15197957,
+      "is_dir": false,
+      "packed_size": "13472343"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M04_Mesmerize_Kevin_MacLeod.mp3",
+      "size_bytes": 13572535,
+      "is_dir": false,
+      "packed_size": "13083878"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M01_Aftermath_Kevin_MacLeod.mp3",
+      "size_bytes": 7806546,
+      "is_dir": false,
+      "packed_size": "6961759"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M03_Floating_Cities_Kevin_MacLeod.mp3",
+      "size_bytes": 5892113,
+      "is_dir": false,
+      "packed_size": "5748893"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/sfx/SFX03_train_station.mp3",
+      "size_bytes": 2692448,
+      "is_dir": false,
+      "packed_size": "2673534"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/sfx/SFX01_industrial_room.mp3",
+      "size_bytes": 2186048,
+      "is_dir": false,
+      "packed_size": "2115283"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/sfx/SFX02_train_pass.mp3",
+      "size_bytes": 837248,
+      "is_dir": false,
+      "packed_size": "822897"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/sync_0.wav",
+      "size_bytes": 768078,
+      "is_dir": false,
+      "packed_size": "510860"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/sync_1265.wav",
+      "size_bytes": 768078,
+      "is_dir": false,
+      "packed_size": "491038"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/sync_315.wav",
+      "size_bytes": 768078,
+      "is_dir": false,
+      "packed_size": "515555"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/sync_638.wav",
+      "size_bytes": 768078,
+      "is_dir": false,
+      "packed_size": "510411"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/sync_960.wav",
+      "size_bytes": 768078,
+      "is_dir": false,
+      "packed_size": "525207"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_0.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "292659"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_1188.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "315156"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_1276.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "288686"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_303.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "321693"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_515.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "298036"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_635.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "299915"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_955.wav",
+      "size_bytes": 448078,
+      "is_dir": false,
+      "packed_size": "301219"
+    }
+  ],
+  "subtitle_files": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.srt",
+      "size_bytes": 31161,
+      "is_dir": false,
+      "packed_size": "10826"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt",
+      "size_bytes": 30435,
+      "is_dir": false,
+      "packed_size": "10516"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/subtitles_en.srt",
+      "size_bytes": 28007,
+      "is_dir": false,
+      "packed_size": "9862"
+    }
+  ],
+  "project_text_files": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/05_PROMPTS/prompt_index.csv",
+      "size_bytes": 338970,
+      "is_dir": false,
+      "packed_size": "14263"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/edit_scenes.json",
+      "size_bytes": 232918,
+      "is_dir": false,
+      "packed_size": "18061"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/timeline.csv",
+      "size_bytes": 189009,
+      "is_dir": false,
+      "packed_size": "18459"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/resolved_scenes.json",
+      "size_bytes": 165939,
+      "is_dir": false,
+      "packed_size": "14929"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/shots.json",
+      "size_bytes": 157242,
+      "is_dir": false,
+      "packed_size": "6138"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/voice_words.json",
+      "size_bytes": 145152,
+      "is_dir": false,
+      "packed_size": "25336"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/render_shots.json",
+      "size_bytes": 84844,
+      "is_dir": false,
+      "packed_size": "4243"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/captions.json",
+      "size_bytes": 79716,
+      "is_dir": false,
+      "packed_size": "14186"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/MEDIA_VALIDATION.json",
+      "size_bytes": 75509,
+      "is_dir": false,
+      "packed_size": "6926"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/inventory_raw.json",
+      "size_bytes": 66305,
+      "is_dir": false,
+      "packed_size": "4004"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/scene_map.csv",
+      "size_bytes": 65698,
+      "is_dir": false,
+      "packed_size": "12769"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_SOURCE_AUDIT.json",
+      "size_bytes": 62197,
+      "is_dir": false,
+      "packed_size": "4865"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/master_assets.json",
+      "size_bytes": 60389,
+      "is_dir": false,
+      "packed_size": "2827"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_concat.txt",
+      "size_bytes": 39058,
+      "is_dir": false,
+      "packed_size": "2775"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/proxy_concat.txt",
+      "size_bytes": 39058,
+      "is_dir": false,
+      "packed_size": "2756"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/subtitle_sync_samples.json",
+      "size_bytes": 33708,
+      "is_dir": false,
+      "packed_size": "4082"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2.py",
+      "size_bytes": 30087,
+      "is_dir": false,
+      "packed_size": "11713"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/asset_manifest.csv",
+      "size_bytes": 28980,
+      "is_dir": false,
+      "packed_size": "4909"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/hia_edit_local.py",
+      "size_bytes": 25777,
+      "is_dir": false,
+      "packed_size": "9535"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/work_queue.csv",
+      "size_bytes": 25557,
+      "is_dir": false,
+      "packed_size": "2396"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/master_assets.csv",
+      "size_bytes": 25227,
+      "is_dir": false,
+      "packed_size": "2570"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/VALIDATION_READY.txt",
+      "size_bytes": 21936,
+      "is_dir": false,
+      "packed_size": "913"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/actual_mix_spotchecks.json",
+      "size_bytes": 19550,
+      "is_dir": false,
+      "packed_size": "2428"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/02_SCRIPT/voiceover_en.txt",
+      "size_bytes": 18095,
+      "is_dir": false,
+      "packed_size": "6431"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/license_manifest.csv",
+      "size_bytes": 9623,
+      "is_dir": false,
+      "packed_size": "1640"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/script_segments.csv",
+      "size_bytes": 8102,
+      "is_dir": false,
+      "packed_size": "1706"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/ARCHIVE_DOWNLOAD_REPORT.txt",
+      "size_bytes": 7806,
+      "is_dir": false,
+      "packed_size": "760"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/all_download_links.md",
+      "size_bytes": 7123,
+      "is_dir": false,
+      "packed_size": "1553"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/archive_downloads.csv",
+      "size_bytes": 6547,
+      "is_dir": false,
+      "packed_size": "1505"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/LINK_CHECK_REPORT.txt",
+      "size_bytes": 6368,
+      "is_dir": false,
+      "packed_size": "715"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/fact_map.csv",
+      "size_bytes": 5701,
+      "is_dir": false,
+      "packed_size": "1880"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/validate_project.py",
+      "size_bytes": 4717,
+      "is_dir": false,
+      "packed_size": "2080"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/07_SHORTS_REELS/reels_plan.csv",
+      "size_bytes": 4289,
+      "is_dir": false,
+      "packed_size": "2247"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/music_downloads.csv",
+      "size_bytes": 4217,
+      "is_dir": false,
+      "packed_size": "877"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/final_ffprobe.json",
+      "size_bytes": 3871,
+      "is_dir": false,
+      "packed_size": "1178"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_metadata.json",
+      "size_bytes": 3865,
+      "is_dir": false,
+      "packed_size": "1168"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_metadata.json",
+      "size_bytes": 3865,
+      "is_dir": false,
+      "packed_size": "1174"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/proxy_ffprobe.json",
+      "size_bytes": 3859,
+      "is_dir": false,
+      "packed_size": "1171"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/concat.txt",
+      "size_bytes": 3774,
+      "is_dir": false,
+      "packed_size": "154"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/proxy_clips/concat.txt",
+      "size_bytes": 3774,
+      "is_dir": false,
+      "packed_size": "154"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/SHA256.csv",
+      "size_bytes": 3704,
+      "is_dir": false,
+      "packed_size": "2185"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_audio_verification.json",
+      "size_bytes": 3654,
+      "is_dir": false,
+      "packed_size": "925"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_compression_diagnosis.json",
+      "size_bytes": 3357,
+      "is_dir": false,
+      "packed_size": "1324"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/V2_QC_REPORT.md",
+      "size_bytes": 3335,
+      "is_dir": false,
+      "packed_size": "1808"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/edit_plan.md",
+      "size_bytes": 2628,
+      "is_dir": false,
+      "packed_size": "1480"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_qc.json",
+      "size_bytes": 2099,
+      "is_dir": false,
+      "packed_size": "909"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_qc.json",
+      "size_bytes": 2097,
+      "is_dir": false,
+      "packed_size": "913"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_finish.py",
+      "size_bytes": 1897,
+      "is_dir": false,
+      "packed_size": "1062"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_motion_roi.py",
+      "size_bytes": 1725,
+      "is_dir": false,
+      "packed_size": "933"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/insert_tests.json",
+      "size_bytes": 1686,
+      "is_dir": false,
+      "packed_size": "267"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/08_YOUTUBE/youtube_upload_pack.txt",
+      "size_bytes": 1447,
+      "is_dir": false,
+      "packed_size": "937"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/codex_edit_state.json",
+      "size_bytes": 1340,
+      "is_dir": false,
+      "packed_size": "530"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/check_links.py",
+      "size_bytes": 1326,
+      "is_dir": false,
+      "packed_size": "762"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/PROJECT_MEMORY.md",
+      "size_bytes": 1307,
+      "is_dir": false,
+      "packed_size": "840"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_RECOVERY.json",
+      "size_bytes": 1301,
+      "is_dir": false,
+      "packed_size": "329"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/README_CODEX.md",
+      "size_bytes": 1146,
+      "is_dir": false,
+      "packed_size": "664"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/sfx_downloads.csv",
+      "size_bytes": 1140,
+      "is_dir": false,
+      "packed_size": "389"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/music_attribution.txt",
+      "size_bytes": 1074,
+      "is_dir": false,
+      "packed_size": "207"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/v1_snapshot.json",
+      "size_bytes": 1015,
+      "is_dir": false,
+      "packed_size": "301"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/MUSIC_DOWNLOAD_REPORT.txt",
+      "size_bytes": 1014,
+      "is_dir": false,
+      "packed_size": "295"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/same_source_cuts.json",
+      "size_bytes": 983,
+      "is_dir": false,
+      "packed_size": "209"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_raw_motion.py",
+      "size_bytes": 964,
+      "is_dir": false,
+      "packed_size": "610"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_REPORT.json",
+      "size_bytes": 956,
+      "is_dir": false,
+      "packed_size": "550"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_delivery_check.py",
+      "size_bytes": 933,
+      "is_dir": false,
+      "packed_size": "536"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/DELIVERY_MANIFEST.json",
+      "size_bytes": 891,
+      "is_dir": false,
+      "packed_size": "358"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/FINAL_AUDIT.txt",
+      "size_bytes": 813,
+      "is_dir": false,
+      "packed_size": "540"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/EDIT_REPORT.md",
+      "size_bytes": 802,
+      "is_dir": false,
+      "packed_size": "562"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/timeline_schema.json",
+      "size_bytes": 801,
+      "is_dir": false,
+      "packed_size": "389"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_test_metrics.json",
+      "size_bytes": 782,
+      "is_dir": false,
+      "packed_size": "255"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_motion_diagnose.py",
+      "size_bytes": 757,
+      "is_dir": false,
+      "packed_size": "489"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/download_archives.py",
+      "size_bytes": 742,
+      "is_dir": false,
+      "packed_size": "474"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/download_music.py",
+      "size_bytes": 738,
+      "is_dir": false,
+      "packed_size": "474"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/download_sfx.py",
+      "size_bytes": 736,
+      "is_dir": false,
+      "packed_size": "474"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/_download_common.py",
+      "size_bytes": 690,
+      "is_dir": false,
+      "packed_size": "439"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/subtitle_sync_verified.json",
+      "size_bytes": 582,
+      "is_dir": false,
+      "packed_size": "145"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_motion.json",
+      "size_bytes": 524,
+      "is_dir": false,
+      "packed_size": "221"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_motion.json",
+      "size_bytes": 523,
+      "is_dir": false,
+      "packed_size": "225"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/project_config.json",
+      "size_bytes": 494,
+      "is_dir": false,
+      "packed_size": "329"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_offcenter_motion.json",
+      "size_bytes": 469,
+      "is_dir": false,
+      "packed_size": "205"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_offcenter_motion.json",
+      "size_bytes": 469,
+      "is_dir": false,
+      "packed_size": "202"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/final_qc.json",
+      "size_bytes": 445,
+      "is_dir": false,
+      "packed_size": "288"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/proxy_qc.json",
+      "size_bytes": 444,
+      "is_dir": false,
+      "packed_size": "288"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/state.json",
+      "size_bytes": 437,
+      "is_dir": false,
+      "packed_size": "240"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/SFX_DOWNLOAD_REPORT.txt",
+      "size_bytes": 364,
+      "is_dir": false,
+      "packed_size": "166"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/uncompressed_motion_diagnosis.json",
+      "size_bytes": 352,
+      "is_dir": false,
+      "packed_size": "189"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/alignment_report.json",
+      "size_bytes": 346,
+      "is_dir": false,
+      "packed_size": "251"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/plan_summary.json",
+      "size_bytes": 337,
+      "is_dir": false,
+      "packed_size": "229"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/README_TIMELINE.txt",
+      "size_bytes": 326,
+      "is_dir": false,
+      "packed_size": "257"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/mix_loudness_input.json",
+      "size_bytes": 273,
+      "is_dir": false,
+      "packed_size": "153"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_boundary_resolution.json",
+      "size_bytes": 247,
+      "is_dir": false,
+      "packed_size": "187"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/VALIDATION_STRUCTURE.txt",
+      "size_bytes": 244,
+      "is_dir": false,
+      "packed_size": "157"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_report.json",
+      "size_bytes": 180,
+      "is_dir": false,
+      "packed_size": "144"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/delivered_srt_validation.json",
+      "size_bytes": 127,
+      "is_dir": false,
+      "packed_size": "117"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_pts_validation.json",
+      "size_bytes": 105,
+      "is_dir": false,
+      "packed_size": "86"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_source_hash.json",
+      "size_bytes": 89,
+      "is_dir": false,
+      "packed_size": "89"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_FAILURES.csv",
+      "size_bytes": 77,
+      "is_dir": false,
+      "packed_size": "75"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_35.txt",
+      "size_bytes": 30,
+      "is_dir": false,
+      "packed_size": "30"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_35.txt",
+      "size_bytes": 30,
+      "is_dir": false,
+      "packed_size": "30"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_30_final.txt",
+      "size_bytes": 30,
+      "is_dir": false,
+      "packed_size": "30"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_30_proxy.txt",
+      "size_bytes": 30,
+      "is_dir": false,
+      "packed_size": "30"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_169.txt",
+      "size_bytes": 25,
+      "is_dir": false,
+      "packed_size": "25"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_7.txt",
+      "size_bytes": 25,
+      "is_dir": false,
+      "packed_size": "25"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_169.txt",
+      "size_bytes": 25,
+      "is_dir": false,
+      "packed_size": "25"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_7.txt",
+      "size_bytes": 25,
+      "is_dir": false,
+      "packed_size": "25"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_151_final.txt",
+      "size_bytes": 25,
+      "is_dir": false,
+      "packed_size": "25"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_151_proxy.txt",
+      "size_bytes": 25,
+      "is_dir": false,
+      "packed_size": "25"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_109.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_56.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_109.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_56.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_13_final.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_13_proxy.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_92_final.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_92_proxy.txt",
+      "size_bytes": 23,
+      "is_dir": false,
+      "packed_size": "23"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_28.txt",
+      "size_bytes": 22,
+      "is_dir": false,
+      "packed_size": "22"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_28.txt",
+      "size_bytes": 22,
+      "is_dir": false,
+      "packed_size": "22"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_24_final.txt",
+      "size_bytes": 22,
+      "is_dir": false,
+      "packed_size": "22"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_24_proxy.txt",
+      "size_bytes": 22,
+      "is_dir": false,
+      "packed_size": "22"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_25_final.txt",
+      "size_bytes": 21,
+      "is_dir": false,
+      "packed_size": "21"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_25_proxy.txt",
+      "size_bytes": 21,
+      "is_dir": false,
+      "packed_size": "21"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_170.txt",
+      "size_bytes": 14,
+      "is_dir": false,
+      "packed_size": "14"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_170.txt",
+      "size_bytes": 14,
+      "is_dir": false,
+      "packed_size": "14"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_0.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_211.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_39.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_70.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_71.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_0.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_211.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_39.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_70.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_71.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_34_final.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_34_proxy.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_57_final.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_57_proxy.txt",
+      "size_bytes": 12,
+      "is_dir": false,
+      "packed_size": "12"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_194.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_197.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_199.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_194.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_197.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_199.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_181_final.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_181_proxy.txt",
+      "size_bytes": 11,
+      "is_dir": false,
+      "packed_size": "11"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_142.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_145.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_152.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_221.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_6.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_60.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_61.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_64.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_65.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_8.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_9.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_91.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_142.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_145.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_152.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_221.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_6.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_60.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_61.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_64.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_65.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_8.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_9.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_91.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_124_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_124_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_127_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_127_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_134_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_134_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_201_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_201_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_52_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_52_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_54_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_54_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_5_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_5_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_6_final.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_6_proxy.txt",
+      "size_bytes": 9,
+      "is_dir": false,
+      "packed_size": "9"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_0_final.txt",
+      "size_bytes": 7,
+      "is_dir": false,
+      "packed_size": "7"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_0_proxy.txt",
+      "size_bytes": 7,
+      "is_dir": false,
+      "packed_size": "7"
+    }
+  ],
+  "nested_archives": [],
+  "interesting_name_matches": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4",
+      "size_bytes": 849581598,
+      "is_dir": false,
+      "packed_size": "839727180"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.mp4",
+      "size_bytes": 575515224,
+      "is_dir": false,
+      "packed_size": "463401246"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/audio_master.wav",
+      "size_bytes": 371727462,
+      "is_dir": false,
+      "packed_size": "174244985"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/01_AUDIO/voice.wav",
+      "size_bytes": 113841582,
+      "is_dir": false,
+      "packed_size": "69039073"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/163_d8b9cb6ee3b0f2.mp4",
+      "size_bytes": 19212697,
+      "is_dir": false,
+      "packed_size": "19212697"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/021_c00dee504ef912.mp4",
+      "size_bytes": 15242341,
+      "is_dir": false,
+      "packed_size": "15242341"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/060.mp4",
+      "size_bytes": 13258138,
+      "is_dir": false,
+      "packed_size": "13258138"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/145.mp4",
+      "size_bytes": 12692353,
+      "is_dir": false,
+      "packed_size": "12692353"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/161.mp4",
+      "size_bytes": 12689872,
+      "is_dir": false,
+      "packed_size": "12689872"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/064.mp4",
+      "size_bytes": 12461679,
+      "is_dir": false,
+      "packed_size": "12461679"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/054_c86e02f5a64144.mp4",
+      "size_bytes": 11042265,
+      "is_dir": false,
+      "packed_size": "1975997"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/200_13553b781ba590.mp4",
+      "size_bytes": 10820847,
+      "is_dir": false,
+      "packed_size": "10820847"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/068.mp4",
+      "size_bytes": 10494378,
+      "is_dir": false,
+      "packed_size": "10494378"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/029.mp4",
+      "size_bytes": 10385743,
+      "is_dir": false,
+      "packed_size": "10385743"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/177.mp4",
+      "size_bytes": 10316076,
+      "is_dir": false,
+      "packed_size": "10316076"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/213_6b04504437f6bb.mp4",
+      "size_bytes": 9831443,
+      "is_dir": false,
+      "packed_size": "9831443"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/180.mp4",
+      "size_bytes": 9774458,
+      "is_dir": false,
+      "packed_size": "9774458"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/233.mp4",
+      "size_bytes": 9134819,
+      "is_dir": false,
+      "packed_size": "9134819"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/024.mp4",
+      "size_bytes": 9087576,
+      "is_dir": false,
+      "packed_size": "9087576"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/003_17c83c1aeeccf8.mp4",
+      "size_bytes": 8981380,
+      "is_dir": false,
+      "packed_size": "8981380"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/009.mp4",
+      "size_bytes": 8713004,
+      "is_dir": false,
+      "packed_size": "8713004"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/096.mp4",
+      "size_bytes": 8206993,
+      "is_dir": false,
+      "packed_size": "8206993"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/053_dd10b8a9e20aed.mp4",
+      "size_bytes": 8173462,
+      "is_dir": false,
+      "packed_size": "8173462"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/173.mp4",
+      "size_bytes": 8168054,
+      "is_dir": false,
+      "packed_size": "8168054"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/172.mp4",
+      "size_bytes": 7966813,
+      "is_dir": false,
+      "packed_size": "7966813"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/061.mp4",
+      "size_bytes": 7733010,
+      "is_dir": false,
+      "packed_size": "7733010"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/041_cf796a9c2b00f3.mp4",
+      "size_bytes": 7676636,
+      "is_dir": false,
+      "packed_size": "7676636"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/168.mp4",
+      "size_bytes": 7673600,
+      "is_dir": false,
+      "packed_size": "7673600"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/000.mp4",
+      "size_bytes": 7628804,
+      "is_dir": false,
+      "packed_size": "7628804"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/052_36eb5cf915bcae.mp4",
+      "size_bytes": 7533329,
+      "is_dir": false,
+      "packed_size": "1975734"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/045_0fddf961128b75.mp4",
+      "size_bytes": 7477123,
+      "is_dir": false,
+      "packed_size": "7477123"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/065.mp4",
+      "size_bytes": 7380041,
+      "is_dir": false,
+      "packed_size": "7380041"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/049.mp4",
+      "size_bytes": 6869134,
+      "is_dir": false,
+      "packed_size": "6869134"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/006_52912caa245243.mp4",
+      "size_bytes": 6839302,
+      "is_dir": false,
+      "packed_size": "6839302"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/174_cc45885325fa93.mp4",
+      "size_bytes": 6824068,
+      "is_dir": false,
+      "packed_size": "6824068"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/232.mp4",
+      "size_bytes": 6630223,
+      "is_dir": false,
+      "packed_size": "6630223"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/155_1cd0aa7617db87.mp4",
+      "size_bytes": 6535153,
+      "is_dir": false,
+      "packed_size": "6535153"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/067.mp4",
+      "size_bytes": 6418225,
+      "is_dir": false,
+      "packed_size": "6047559"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/192.mp4",
+      "size_bytes": 6418176,
+      "is_dir": false,
+      "packed_size": "6418176"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/037.mp4",
+      "size_bytes": 6399945,
+      "is_dir": false,
+      "packed_size": "6399945"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/005.mp4",
+      "size_bytes": 6183525,
+      "is_dir": false,
+      "packed_size": "6183525"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/171.mp4",
+      "size_bytes": 6162297,
+      "is_dir": false,
+      "packed_size": "6162297"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/088_a475a79427875a.mp4",
+      "size_bytes": 6028569,
+      "is_dir": false,
+      "packed_size": "6028569"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/181.mp4",
+      "size_bytes": 6028513,
+      "is_dir": false,
+      "packed_size": "6028513"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/070_9504292e22b8a0.mp4",
+      "size_bytes": 5893622,
+      "is_dir": false,
+      "packed_size": "5893622"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/123_11909102cf2721.mp4",
+      "size_bytes": 5880391,
+      "is_dir": false,
+      "packed_size": "5880391"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/129.mp4",
+      "size_bytes": 5867936,
+      "is_dir": false,
+      "packed_size": "5867936"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/109_7f2bf0b5e8c790.mp4",
+      "size_bytes": 5829580,
+      "is_dir": false,
+      "packed_size": "5829580"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/025.mp4",
+      "size_bytes": 5829412,
+      "is_dir": false,
+      "packed_size": "5829412"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/210_9d3d5b813e390d.mp4",
+      "size_bytes": 5803616,
+      "is_dir": false,
+      "packed_size": "5803616"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/020.mp4",
+      "size_bytes": 5777823,
+      "is_dir": false,
+      "packed_size": "5777823"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/150_0ac4c38d3cdeb2.mp4",
+      "size_bytes": 5772907,
+      "is_dir": false,
+      "packed_size": "5772907"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/062_a46a1f267eecfd.mp4",
+      "size_bytes": 5766036,
+      "is_dir": false,
+      "packed_size": "5765304"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/184.mp4",
+      "size_bytes": 5725082,
+      "is_dir": false,
+      "packed_size": "5725082"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/193_dde18104a63be6.mp4",
+      "size_bytes": 5704057,
+      "is_dir": false,
+      "packed_size": "5704057"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/189.mp4",
+      "size_bytes": 5637103,
+      "is_dir": false,
+      "packed_size": "5637103"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/057_0bab82a44e7c9d.mp4",
+      "size_bytes": 5629142,
+      "is_dir": false,
+      "packed_size": "5629142"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/141.mp4",
+      "size_bytes": 5512888,
+      "is_dir": false,
+      "packed_size": "5512888"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/090_de5e5272c27339.mp4",
+      "size_bytes": 5469110,
+      "is_dir": false,
+      "packed_size": "5469110"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/047_bfe33becb62103.mp4",
+      "size_bytes": 5443205,
+      "is_dir": false,
+      "packed_size": "5443205"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/162_084708e12fafa6.mp4",
+      "size_bytes": 5441930,
+      "is_dir": false,
+      "packed_size": "5441930"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/013.mp4",
+      "size_bytes": 5435593,
+      "is_dir": false,
+      "packed_size": "5435593"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/032_f6878675697272.mp4",
+      "size_bytes": 5426552,
+      "is_dir": false,
+      "packed_size": "5426552"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/229.mp4",
+      "size_bytes": 5405889,
+      "is_dir": false,
+      "packed_size": "5405889"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/055_7c3cdc5517dff3.mp4",
+      "size_bytes": 5284061,
+      "is_dir": false,
+      "packed_size": "878271"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/169_519730000fd14a.mp4",
+      "size_bytes": 5282353,
+      "is_dir": false,
+      "packed_size": "5282353"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/140.mp4",
+      "size_bytes": 5221523,
+      "is_dir": false,
+      "packed_size": "5221523"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/104.mp4",
+      "size_bytes": 5195355,
+      "is_dir": false,
+      "packed_size": "5195355"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/128.mp4",
+      "size_bytes": 5190886,
+      "is_dir": false,
+      "packed_size": "5190886"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/101.mp4",
+      "size_bytes": 5172723,
+      "is_dir": false,
+      "packed_size": "5172723"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/188.mp4",
+      "size_bytes": 5162376,
+      "is_dir": false,
+      "packed_size": "5162376"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/176.mp4",
+      "size_bytes": 5142784,
+      "is_dir": false,
+      "packed_size": "5142784"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/079_22543341c42e06.mp4",
+      "size_bytes": 5117970,
+      "is_dir": false,
+      "packed_size": "5117970"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/066.mp4",
+      "size_bytes": 5107465,
+      "is_dir": false,
+      "packed_size": "4799932"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/212.mp4",
+      "size_bytes": 5076590,
+      "is_dir": false,
+      "packed_size": "5076590"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/116.mp4",
+      "size_bytes": 5068653,
+      "is_dir": false,
+      "packed_size": "5068653"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/193.mp4",
+      "size_bytes": 5020959,
+      "is_dir": false,
+      "packed_size": "5020959"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/160_13ea8f955cf5fc.mp4",
+      "size_bytes": 4978199,
+      "is_dir": false,
+      "packed_size": "2280736"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/164.mp4",
+      "size_bytes": 4960942,
+      "is_dir": false,
+      "packed_size": "4960942"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/072.mp4",
+      "size_bytes": 4948571,
+      "is_dir": false,
+      "packed_size": "4948571"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/134.mp4",
+      "size_bytes": 4922730,
+      "is_dir": false,
+      "packed_size": "4747079"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/092.mp4",
+      "size_bytes": 4866676,
+      "is_dir": false,
+      "packed_size": "4866676"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/212_0d6263d12d6efa.mp4",
+      "size_bytes": 4832243,
+      "is_dir": false,
+      "packed_size": "4832243"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/235.mp4",
+      "size_bytes": 4804003,
+      "is_dir": false,
+      "packed_size": "892272"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/034_b92cc2a7281db8.mp4",
+      "size_bytes": 4779221,
+      "is_dir": false,
+      "packed_size": "4779221"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/084.mp4",
+      "size_bytes": 4755249,
+      "is_dir": false,
+      "packed_size": "4755249"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/230.mp4",
+      "size_bytes": 4678512,
+      "is_dir": false,
+      "packed_size": "4678512"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/227.mp4",
+      "size_bytes": 4647819,
+      "is_dir": false,
+      "packed_size": "4646852"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/059.mp4",
+      "size_bytes": 4631188,
+      "is_dir": false,
+      "packed_size": "4631188"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/017.mp4",
+      "size_bytes": 4589298,
+      "is_dir": false,
+      "packed_size": "4589298"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/111_e6c6a8d94dc993.mp4",
+      "size_bytes": 4583898,
+      "is_dir": false,
+      "packed_size": "4583898"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/085.mp4",
+      "size_bytes": 4568349,
+      "is_dir": false,
+      "packed_size": "4568349"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/010_4ea6db927a795e.mp4",
+      "size_bytes": 4548073,
+      "is_dir": false,
+      "packed_size": "4548073"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/048.mp4",
+      "size_bytes": 4487827,
+      "is_dir": false,
+      "packed_size": "4487827"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/179.mp4",
+      "size_bytes": 4471035,
+      "is_dir": false,
+      "packed_size": "4471035"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/187.mp4",
+      "size_bytes": 4362785,
+      "is_dir": false,
+      "packed_size": "4362785"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/041.mp4",
+      "size_bytes": 4255589,
+      "is_dir": false,
+      "packed_size": "4255589"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/045.mp4",
+      "size_bytes": 4253323,
+      "is_dir": false,
+      "packed_size": "4253323"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/080.mp4",
+      "size_bytes": 4251910,
+      "is_dir": false,
+      "packed_size": "4251910"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/036.mp4",
+      "size_bytes": 4238919,
+      "is_dir": false,
+      "packed_size": "4238919"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/124.mp4",
+      "size_bytes": 4228850,
+      "is_dir": false,
+      "packed_size": "4228850"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/093.mp4",
+      "size_bytes": 4227908,
+      "is_dir": false,
+      "packed_size": "4227908"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/204.mp4",
+      "size_bytes": 4215497,
+      "is_dir": false,
+      "packed_size": "4215497"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/127.mp4",
+      "size_bytes": 4182157,
+      "is_dir": false,
+      "packed_size": "4179789"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/228.mp4",
+      "size_bytes": 4178721,
+      "is_dir": false,
+      "packed_size": "4178721"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/217.mp4",
+      "size_bytes": 4169022,
+      "is_dir": false,
+      "packed_size": "4169022"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/151_be1a02522a2a0b.mp4",
+      "size_bytes": 4131292,
+      "is_dir": false,
+      "packed_size": "2327443"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/152.mp4",
+      "size_bytes": 4126403,
+      "is_dir": false,
+      "packed_size": "4126403"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/207_0b8fb6ffe75ee0.mp4",
+      "size_bytes": 4119918,
+      "is_dir": false,
+      "packed_size": "1164352"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/048_9d23fb96ca9078.mp4",
+      "size_bytes": 4101026,
+      "is_dir": false,
+      "packed_size": "4101026"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/054.mp4",
+      "size_bytes": 4078637,
+      "is_dir": false,
+      "packed_size": "4078637"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/191.mp4",
+      "size_bytes": 4055106,
+      "is_dir": false,
+      "packed_size": "3902030"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/044_05947f03b3231d.mp4",
+      "size_bytes": 4036825,
+      "is_dir": false,
+      "packed_size": "4036825"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/170.mp4",
+      "size_bytes": 4033572,
+      "is_dir": false,
+      "packed_size": "4033572"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/091.mp4",
+      "size_bytes": 4023551,
+      "is_dir": false,
+      "packed_size": "4023551"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/127_27938f43ac63be.mp4",
+      "size_bytes": 4020385,
+      "is_dir": false,
+      "packed_size": "1975268"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/004.mp4",
+      "size_bytes": 4010665,
+      "is_dir": false,
+      "packed_size": "4010665"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/117.mp4",
+      "size_bytes": 4010629,
+      "is_dir": false,
+      "packed_size": "4010629"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/194.mp4",
+      "size_bytes": 4007735,
+      "is_dir": false,
+      "packed_size": "4005531"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/012.mp4",
+      "size_bytes": 3987593,
+      "is_dir": false,
+      "packed_size": "3987593"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/110_8ce52dae4639e4.mp4",
+      "size_bytes": 3982468,
+      "is_dir": false,
+      "packed_size": "3982468"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/122_3d0ee9f3f73f1f.mp4",
+      "size_bytes": 3973639,
+      "is_dir": false,
+      "packed_size": "3973639"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/203.mp4",
+      "size_bytes": 3921184,
+      "is_dir": false,
+      "packed_size": "3921184"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/197.mp4",
+      "size_bytes": 3893601,
+      "is_dir": false,
+      "packed_size": "3893601"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/125.mp4",
+      "size_bytes": 3866230,
+      "is_dir": false,
+      "packed_size": "3866230"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/202.mp4",
+      "size_bytes": 3860516,
+      "is_dir": false,
+      "packed_size": "3860516"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/076_425a8044c583a7.mp4",
+      "size_bytes": 3836420,
+      "is_dir": false,
+      "packed_size": "614603"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/100.mp4",
+      "size_bytes": 3833590,
+      "is_dir": false,
+      "packed_size": "3833590"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/052.mp4",
+      "size_bytes": 3814665,
+      "is_dir": false,
+      "packed_size": "3814665"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/163.mp4",
+      "size_bytes": 3803371,
+      "is_dir": false,
+      "packed_size": "3803371"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/220.mp4",
+      "size_bytes": 3794561,
+      "is_dir": false,
+      "packed_size": "3794561"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/166_cab75e40e8244a.mp4",
+      "size_bytes": 3789757,
+      "is_dir": false,
+      "packed_size": "3789757"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/069_57efc8363290b2.mp4",
+      "size_bytes": 3784789,
+      "is_dir": false,
+      "packed_size": "3784789"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/003.mp4",
+      "size_bytes": 3749736,
+      "is_dir": false,
+      "packed_size": "3748709"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/043_d59ab9ca520f31.mp4",
+      "size_bytes": 3734025,
+      "is_dir": false,
+      "packed_size": "1044878"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/219.mp4",
+      "size_bytes": 3709445,
+      "is_dir": false,
+      "packed_size": "3709445"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/051.mp4",
+      "size_bytes": 3647526,
+      "is_dir": false,
+      "packed_size": "3647526"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/016.mp4",
+      "size_bytes": 3628838,
+      "is_dir": false,
+      "packed_size": "3626108"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/103_8d7ff939648e31.mp4",
+      "size_bytes": 3619502,
+      "is_dir": false,
+      "packed_size": "3619502"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/136.mp4",
+      "size_bytes": 3588905,
+      "is_dir": false,
+      "packed_size": "3588905"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/149_dc867fb9393796.mp4",
+      "size_bytes": 3575130,
+      "is_dir": false,
+      "packed_size": "3575130"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/176_f05dd48092d192.mp4",
+      "size_bytes": 3569275,
+      "is_dir": false,
+      "packed_size": "1006369"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/095.mp4",
+      "size_bytes": 3556641,
+      "is_dir": false,
+      "packed_size": "3556641"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/051_cfb79f910ce159.mp4",
+      "size_bytes": 3551209,
+      "is_dir": false,
+      "packed_size": "1999054"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/107.mp4",
+      "size_bytes": 3519494,
+      "is_dir": false,
+      "packed_size": "3519494"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/016_9d3d5400a1e8fa.mp4",
+      "size_bytes": 3510883,
+      "is_dir": false,
+      "packed_size": "1000762"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/039.mp4",
+      "size_bytes": 3482719,
+      "is_dir": false,
+      "packed_size": "3482689"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/185.mp4",
+      "size_bytes": 3445366,
+      "is_dir": false,
+      "packed_size": "3445366"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/184_6330e6eec49e0a.mp4",
+      "size_bytes": 3417746,
+      "is_dir": false,
+      "packed_size": "1175267"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/208.mp4",
+      "size_bytes": 3412337,
+      "is_dir": false,
+      "packed_size": "3412337"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/031_276a93501df6c4.mp4",
+      "size_bytes": 3380074,
+      "is_dir": false,
+      "packed_size": "3380074"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/152_3bbdf0de508e39.mp4",
+      "size_bytes": 3373534,
+      "is_dir": false,
+      "packed_size": "2449782"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/077_3bdf13130574bc.mp4",
+      "size_bytes": 3305568,
+      "is_dir": false,
+      "packed_size": "3305568"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/185_75d36d89235081.mp4",
+      "size_bytes": 3284617,
+      "is_dir": false,
+      "packed_size": "1130572"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/105.mp4",
+      "size_bytes": 3256431,
+      "is_dir": false,
+      "packed_size": "3256431"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/099_7efcfb0aecd4c0.mp4",
+      "size_bytes": 3256067,
+      "is_dir": false,
+      "packed_size": "3256067"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/097_d8be4a20e62153.mp4",
+      "size_bytes": 3251757,
+      "is_dir": false,
+      "packed_size": "3251757"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/057.mp4",
+      "size_bytes": 3204772,
+      "is_dir": false,
+      "packed_size": "3204772"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/182.mp4",
+      "size_bytes": 3169372,
+      "is_dir": false,
+      "packed_size": "3169372"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/097.mp4",
+      "size_bytes": 3148621,
+      "is_dir": false,
+      "packed_size": "3148621"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/173_dfa30c22f13d4d.mp4",
+      "size_bytes": 3139483,
+      "is_dir": false,
+      "packed_size": "1969626"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/081.mp4",
+      "size_bytes": 3133146,
+      "is_dir": false,
+      "packed_size": "3133146"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/151.mp4",
+      "size_bytes": 3121367,
+      "is_dir": false,
+      "packed_size": "3121367"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/139.mp4",
+      "size_bytes": 3118077,
+      "is_dir": false,
+      "packed_size": "3118077"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/047.mp4",
+      "size_bytes": 3095136,
+      "is_dir": false,
+      "packed_size": "3095136"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/113.mp4",
+      "size_bytes": 3095003,
+      "is_dir": false,
+      "packed_size": "3095003"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/033.mp4",
+      "size_bytes": 3067237,
+      "is_dir": false,
+      "packed_size": "3067237"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/053.mp4",
+      "size_bytes": 3064570,
+      "is_dir": false,
+      "packed_size": "3064570"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/166.mp4",
+      "size_bytes": 3055911,
+      "is_dir": false,
+      "packed_size": "3055911"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/000_012cf41a43f0f8.mp4",
+      "size_bytes": 3051313,
+      "is_dir": false,
+      "packed_size": "1364096"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/154.mp4",
+      "size_bytes": 3044748,
+      "is_dir": false,
+      "packed_size": "3044748"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/063.mp4",
+      "size_bytes": 3044532,
+      "is_dir": false,
+      "packed_size": "3044532"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/126.mp4",
+      "size_bytes": 3005192,
+      "is_dir": false,
+      "packed_size": "3005192"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/029_41f25194147132.mp4",
+      "size_bytes": 2975832,
+      "is_dir": false,
+      "packed_size": "718219"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/121.mp4",
+      "size_bytes": 2934896,
+      "is_dir": false,
+      "packed_size": "2934896"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/196.mp4",
+      "size_bytes": 2926910,
+      "is_dir": false,
+      "packed_size": "2926910"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/221.mp4",
+      "size_bytes": 2917179,
+      "is_dir": false,
+      "packed_size": "2917179"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/084_42f25205c2e80f.mp4",
+      "size_bytes": 2914894,
+      "is_dir": false,
+      "packed_size": "2914894"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/165.mp4",
+      "size_bytes": 2911625,
+      "is_dir": false,
+      "packed_size": "2911625"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/226.mp4",
+      "size_bytes": 2906236,
+      "is_dir": false,
+      "packed_size": "2906236"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/145_366f0fc840bb5e.mp4",
+      "size_bytes": 2890543,
+      "is_dir": false,
+      "packed_size": "1278484"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/055.mp4",
+      "size_bytes": 2885448,
+      "is_dir": false,
+      "packed_size": "2885448"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/149.mp4",
+      "size_bytes": 2864734,
+      "is_dir": false,
+      "packed_size": "2864734"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/035.mp4",
+      "size_bytes": 2863750,
+      "is_dir": false,
+      "packed_size": "2856548"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/174.mp4",
+      "size_bytes": 2861049,
+      "is_dir": false,
+      "packed_size": "2861049"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/200.mp4",
+      "size_bytes": 2844940,
+      "is_dir": false,
+      "packed_size": "2844940"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/205.mp4",
+      "size_bytes": 2839442,
+      "is_dir": false,
+      "packed_size": "2839442"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/071.mp4",
+      "size_bytes": 2824974,
+      "is_dir": false,
+      "packed_size": "2824974"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/137.mp4",
+      "size_bytes": 2822614,
+      "is_dir": false,
+      "packed_size": "2822614"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/030_d880929ab640ba.mp4",
+      "size_bytes": 2818007,
+      "is_dir": false,
+      "packed_size": "1240944"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/050.mp4",
+      "size_bytes": 2808387,
+      "is_dir": false,
+      "packed_size": "2808387"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/175_81c62927bd65a8.mp4",
+      "size_bytes": 2768912,
+      "is_dir": false,
+      "packed_size": "1215032"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/088.mp4",
+      "size_bytes": 2760582,
+      "is_dir": false,
+      "packed_size": "2760582"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/089_079621458016b6.mp4",
+      "size_bytes": 2747292,
+      "is_dir": false,
+      "packed_size": "2747292"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/076.mp4",
+      "size_bytes": 2744232,
+      "is_dir": false,
+      "packed_size": "2742460"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/167.mp4",
+      "size_bytes": 2738693,
+      "is_dir": false,
+      "packed_size": "2738693"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/133.mp4",
+      "size_bytes": 2714259,
+      "is_dir": false,
+      "packed_size": "2714259"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/195.mp4",
+      "size_bytes": 2704356,
+      "is_dir": false,
+      "packed_size": "2703801"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/213.mp4",
+      "size_bytes": 2702192,
+      "is_dir": false,
+      "packed_size": "2702192"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/042.mp4",
+      "size_bytes": 2682861,
+      "is_dir": false,
+      "packed_size": "2682861"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/031.mp4",
+      "size_bytes": 2667746,
+      "is_dir": false,
+      "packed_size": "2667746"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/186.mp4",
+      "size_bytes": 2657845,
+      "is_dir": false,
+      "packed_size": "2657845"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/199.mp4",
+      "size_bytes": 2652951,
+      "is_dir": false,
+      "packed_size": "2652299"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/064_7982cdf59c9d6d.mp4",
+      "size_bytes": 2645530,
+      "is_dir": false,
+      "packed_size": "2645530"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/231.mp4",
+      "size_bytes": 2568326,
+      "is_dir": false,
+      "packed_size": "2568326"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/159.mp4",
+      "size_bytes": 2567271,
+      "is_dir": false,
+      "packed_size": "2567271"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/044.mp4",
+      "size_bytes": 2566693,
+      "is_dir": false,
+      "packed_size": "2566693"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/040.mp4",
+      "size_bytes": 2537171,
+      "is_dir": false,
+      "packed_size": "2537171"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/013_89cb5c1517f26c.mp4",
+      "size_bytes": 2507250,
+      "is_dir": false,
+      "packed_size": "799314"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/112_4195d91432022d.mp4",
+      "size_bytes": 2442022,
+      "is_dir": false,
+      "packed_size": "2020498"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/159_32d2c129616ed3.mp4",
+      "size_bytes": 2426844,
+      "is_dir": false,
+      "packed_size": "813613"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/177_bc8c17bba37eca.mp4",
+      "size_bytes": 2388718,
+      "is_dir": false,
+      "packed_size": "1043692"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/032.mp4",
+      "size_bytes": 2370917,
+      "is_dir": false,
+      "packed_size": "2370917"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/153_7b2afac582d398.mp4",
+      "size_bytes": 2361336,
+      "is_dir": false,
+      "packed_size": "2354745"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/034.mp4",
+      "size_bytes": 2349625,
+      "is_dir": false,
+      "packed_size": "2349625"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/043.mp4",
+      "size_bytes": 2327046,
+      "is_dir": false,
+      "packed_size": "2327046"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/108.mp4",
+      "size_bytes": 2325966,
+      "is_dir": false,
+      "packed_size": "2325966"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/207.mp4",
+      "size_bytes": 2321529,
+      "is_dir": false,
+      "packed_size": "2321529"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/175.mp4",
+      "size_bytes": 2321455,
+      "is_dir": false,
+      "packed_size": "2321455"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/085_bed662351a45d7.mp4",
+      "size_bytes": 2297603,
+      "is_dir": false,
+      "packed_size": "2292814"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/121_d2f415604d49cc.mp4",
+      "size_bytes": 2296606,
+      "is_dir": false,
+      "packed_size": "2290446"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/106_f5cb9558a236fb.mp4",
+      "size_bytes": 2280168,
+      "is_dir": false,
+      "packed_size": "995898"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/183.mp4",
+      "size_bytes": 2279912,
+      "is_dir": false,
+      "packed_size": "2279912"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/080_f57b7b645ed006.mp4",
+      "size_bytes": 2259126,
+      "is_dir": false,
+      "packed_size": "1969177"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/046.mp4",
+      "size_bytes": 2248575,
+      "is_dir": false,
+      "packed_size": "2244853"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/019.mp4",
+      "size_bytes": 2242522,
+      "is_dir": false,
+      "packed_size": "2232452"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/015.mp4",
+      "size_bytes": 2237315,
+      "is_dir": false,
+      "packed_size": "2225543"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/086.mp4",
+      "size_bytes": 2236446,
+      "is_dir": false,
+      "packed_size": "2236446"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/156.mp4",
+      "size_bytes": 2229893,
+      "is_dir": false,
+      "packed_size": "2229893"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/153.mp4",
+      "size_bytes": 2229082,
+      "is_dir": false,
+      "packed_size": "2229082"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/058_c5a5729916eea8.mp4",
+      "size_bytes": 2225170,
+      "is_dir": false,
+      "packed_size": "780568"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/062.mp4",
+      "size_bytes": 2222636,
+      "is_dir": false,
+      "packed_size": "2218596"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/181_d6d76452875ab6.mp4",
+      "size_bytes": 2197789,
+      "is_dir": false,
+      "packed_size": "1536007"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/201.mp4",
+      "size_bytes": 2187079,
+      "is_dir": false,
+      "packed_size": "2187079"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/112.mp4",
+      "size_bytes": 2181920,
+      "is_dir": false,
+      "packed_size": "2181920"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/148_25cece28e0f7a0.mp4",
+      "size_bytes": 2168324,
+      "is_dir": false,
+      "packed_size": "2163923"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/157.mp4",
+      "size_bytes": 2155248,
+      "is_dir": false,
+      "packed_size": "2155248"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/154_6606b86b417959.mp4",
+      "size_bytes": 2134156,
+      "is_dir": false,
+      "packed_size": "1892763"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/198.mp4",
+      "size_bytes": 2128997,
+      "is_dir": false,
+      "packed_size": "2128997"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/114.mp4",
+      "size_bytes": 2128705,
+      "is_dir": false,
+      "packed_size": "2127924"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/098.mp4",
+      "size_bytes": 2117073,
+      "is_dir": false,
+      "packed_size": "2117073"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/037_916076564a1784.mp4",
+      "size_bytes": 2114313,
+      "is_dir": false,
+      "packed_size": "948597"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/162.mp4",
+      "size_bytes": 2104242,
+      "is_dir": false,
+      "packed_size": "2104242"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/146.mp4",
+      "size_bytes": 2096397,
+      "is_dir": false,
+      "packed_size": "2096397"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/170_a83c9ff76532ab.mp4",
+      "size_bytes": 2088002,
+      "is_dir": false,
+      "packed_size": "2080087"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/126_87e701d3e93e52.mp4",
+      "size_bytes": 2081945,
+      "is_dir": false,
+      "packed_size": "2081945"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/164_ee26bf20526662.mp4",
+      "size_bytes": 2058402,
+      "is_dir": false,
+      "packed_size": "1259128"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/102.mp4",
+      "size_bytes": 2040738,
+      "is_dir": false,
+      "packed_size": "2040738"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/216_1db5d20597ed82.mp4",
+      "size_bytes": 2013955,
+      "is_dir": false,
+      "packed_size": "711482"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/116_f1774245710154.mp4",
+      "size_bytes": 2008473,
+      "is_dir": false,
+      "packed_size": "877743"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/143_987baf3a9dbd0e.mp4",
+      "size_bytes": 2006972,
+      "is_dir": false,
+      "packed_size": "877743"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/215.mp4",
+      "size_bytes": 2006472,
+      "is_dir": false,
+      "packed_size": "2006472"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/144.mp4",
+      "size_bytes": 1998693,
+      "is_dir": false,
+      "packed_size": "1998286"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/132.mp4",
+      "size_bytes": 1940555,
+      "is_dir": false,
+      "packed_size": "1940555"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/010.mp4",
+      "size_bytes": 1922510,
+      "is_dir": false,
+      "packed_size": "1922510"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/103.mp4",
+      "size_bytes": 1919107,
+      "is_dir": false,
+      "packed_size": "1919107"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/005_750f308552dfe8.mp4",
+      "size_bytes": 1908892,
+      "is_dir": false,
+      "packed_size": "1858384"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/023.mp4",
+      "size_bytes": 1898591,
+      "is_dir": false,
+      "packed_size": "1898591"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/150.mp4",
+      "size_bytes": 1895365,
+      "is_dir": false,
+      "packed_size": "1895365"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/222.mp4",
+      "size_bytes": 1891115,
+      "is_dir": false,
+      "packed_size": "1891115"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/096_08261f2655bd14.mp4",
+      "size_bytes": 1889599,
+      "is_dir": false,
+      "packed_size": "818183"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/006.mp4",
+      "size_bytes": 1886622,
+      "is_dir": false,
+      "packed_size": "1886622"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/077.mp4",
+      "size_bytes": 1880630,
+      "is_dir": false,
+      "packed_size": "1879149"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/025_23294cfd2ce8d5.mp4",
+      "size_bytes": 1867444,
+      "is_dir": false,
+      "packed_size": "1040677"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/178.mp4",
+      "size_bytes": 1865652,
+      "is_dir": false,
+      "packed_size": "1865652"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/098_97187279944ced.mp4",
+      "size_bytes": 1863028,
+      "is_dir": false,
+      "packed_size": "537057"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/107_7d9b69c3e0749d.mp4",
+      "size_bytes": 1862875,
+      "is_dir": false,
+      "packed_size": "807517"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/134_0a29ebb3d930b5.mp4",
+      "size_bytes": 1860791,
+      "is_dir": false,
+      "packed_size": "1308259"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/038.mp4",
+      "size_bytes": 1854860,
+      "is_dir": false,
+      "packed_size": "1854860"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/168_8a968f868cec88.mp4",
+      "size_bytes": 1850109,
+      "is_dir": false,
+      "packed_size": "1127507"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/115.mp4",
+      "size_bytes": 1818206,
+      "is_dir": false,
+      "packed_size": "1818206"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/026.mp4",
+      "size_bytes": 1811607,
+      "is_dir": false,
+      "packed_size": "1811607"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/158.mp4",
+      "size_bytes": 1783162,
+      "is_dir": false,
+      "packed_size": "1783162"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/138.mp4",
+      "size_bytes": 1773609,
+      "is_dir": false,
+      "packed_size": "1773609"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/009_d85e394c9cecf8.mp4",
+      "size_bytes": 1763290,
+      "is_dir": false,
+      "packed_size": "1098456"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/073.mp4",
+      "size_bytes": 1758492,
+      "is_dir": false,
+      "packed_size": "1758310"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/108_2cc1546f30753d.mp4",
+      "size_bytes": 1757883,
+      "is_dir": false,
+      "packed_size": "1067128"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/106.mp4",
+      "size_bytes": 1748756,
+      "is_dir": false,
+      "packed_size": "1748054"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/049_8089e54b6cf9eb.mp4",
+      "size_bytes": 1744267,
+      "is_dir": false,
+      "packed_size": "780471"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/136_d45be62a7f20f6.mp4",
+      "size_bytes": 1742528,
+      "is_dir": false,
+      "packed_size": "1058760"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/189_470bb6e16372ee.mp4",
+      "size_bytes": 1740908,
+      "is_dir": false,
+      "packed_size": "1061567"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/146_cb33b88d2ad36b.mp4",
+      "size_bytes": 1726504,
+      "is_dir": false,
+      "packed_size": "1050565"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/215_4859a6d9fc1955.mp4",
+      "size_bytes": 1726042,
+      "is_dir": false,
+      "packed_size": "599253"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/209_d133f5d2ff44b1.mp4",
+      "size_bytes": 1723551,
+      "is_dir": false,
+      "packed_size": "1050334"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/082_c1ec1d65b759c5.mp4",
+      "size_bytes": 1706555,
+      "is_dir": false,
+      "packed_size": "1040292"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/142.mp4",
+      "size_bytes": 1703045,
+      "is_dir": false,
+      "packed_size": "1703045"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/234.mp4",
+      "size_bytes": 1693360,
+      "is_dir": false,
+      "packed_size": "1693360"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/186_88e8a54f63f23c.mp4",
+      "size_bytes": 1692810,
+      "is_dir": false,
+      "packed_size": "1034907"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/123.mp4",
+      "size_bytes": 1688815,
+      "is_dir": false,
+      "packed_size": "1688815"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/119.mp4",
+      "size_bytes": 1681550,
+      "is_dir": false,
+      "packed_size": "1681550"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/120.mp4",
+      "size_bytes": 1669976,
+      "is_dir": false,
+      "packed_size": "1669976"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/042_3b0561f1787a10.mp4",
+      "size_bytes": 1652747,
+      "is_dir": false,
+      "packed_size": "1028078"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/148.mp4",
+      "size_bytes": 1631808,
+      "is_dir": false,
+      "packed_size": "1631808"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/070.mp4",
+      "size_bytes": 1630374,
+      "is_dir": false,
+      "packed_size": "1627474"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/021.mp4",
+      "size_bytes": 1628549,
+      "is_dir": false,
+      "packed_size": "1628549"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/209.mp4",
+      "size_bytes": 1627174,
+      "is_dir": false,
+      "packed_size": "1627174"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/089.mp4",
+      "size_bytes": 1607972,
+      "is_dir": false,
+      "packed_size": "1607972"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/069.mp4",
+      "size_bytes": 1605421,
+      "is_dir": false,
+      "packed_size": "1605421"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/156_4c7f4948fe2c87.mp4",
+      "size_bytes": 1605044,
+      "is_dir": false,
+      "packed_size": "979696"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/206_1f36b84372b2a1.mp4",
+      "size_bytes": 1599742,
+      "is_dir": false,
+      "packed_size": "969451"
+    }
+  ],
+  "largest_files": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4",
+      "size_bytes": 849581598,
+      "is_dir": false,
+      "packed_size": "839727180"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.mp4",
+      "size_bytes": 575515224,
+      "is_dir": false,
+      "packed_size": "463401246"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/audio_master.wav",
+      "size_bytes": 371727462,
+      "is_dir": false,
+      "packed_size": "174244985"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/HIA_CHICAGO_PROXY.mp4",
+      "size_bytes": 228937557,
+      "is_dir": false,
+      "packed_size": "223307736"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/mix_pre.wav",
+      "size_bytes": 185863782,
+      "is_dir": false,
+      "packed_size": "138241112"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/HIA_CHICAGO_V2_PROXY.mp4",
+      "size_bytes": 172613755,
+      "is_dir": false,
+      "packed_size": "144598865"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/01_AUDIO/voice.wav",
+      "size_bytes": 113841582,
+      "is_dir": false,
+      "packed_size": "69039073"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M07_Peace_of_Mind_Kevin_MacLeod.mp3",
+      "size_bytes": 86315915,
+      "is_dir": false,
+      "packed_size": "78082707"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M02_Ambiment_Kevin_MacLeod.mp3",
+      "size_bytes": 54918708,
+      "is_dir": false,
+      "packed_size": "50161145"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/11_ Оформление/Hidden_Industrial_America_7_Brand_Assets/Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf",
+      "size_bytes": 32010750,
+      "is_dir": false,
+      "packed_size": "26297791"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/163_d8b9cb6ee3b0f2.mp4",
+      "size_bytes": 19212697,
+      "is_dir": false,
+      "packed_size": "19212697"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M05_Long_Note_Two_Kevin_MacLeod.mp3",
+      "size_bytes": 18641758,
+      "is_dir": false,
+      "packed_size": "15142884"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/021_c00dee504ef912.mp4",
+      "size_bytes": 15242341,
+      "is_dir": false,
+      "packed_size": "15242341"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M06_Lightless_Dawn_Kevin_MacLeod.mp3",
+      "size_bytes": 15197957,
+      "is_dir": false,
+      "packed_size": "13472343"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M04_Mesmerize_Kevin_MacLeod.mp3",
+      "size_bytes": 13572535,
+      "is_dir": false,
+      "packed_size": "13083878"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/060.mp4",
+      "size_bytes": 13258138,
+      "is_dir": false,
+      "packed_size": "13258138"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/145.mp4",
+      "size_bytes": 12692353,
+      "is_dir": false,
+      "packed_size": "12692353"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/161.mp4",
+      "size_bytes": 12689872,
+      "is_dir": false,
+      "packed_size": "12689872"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/064.mp4",
+      "size_bytes": 12461679,
+      "is_dir": false,
+      "packed_size": "12461679"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/054_c86e02f5a64144.mp4",
+      "size_bytes": 11042265,
+      "is_dir": false,
+      "packed_size": "1975997"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/200_13553b781ba590.mp4",
+      "size_bytes": 10820847,
+      "is_dir": false,
+      "packed_size": "10820847"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/068.mp4",
+      "size_bytes": 10494378,
+      "is_dir": false,
+      "packed_size": "10494378"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/029.mp4",
+      "size_bytes": 10385743,
+      "is_dir": false,
+      "packed_size": "10385743"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/177.mp4",
+      "size_bytes": 10316076,
+      "is_dir": false,
+      "packed_size": "10316076"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/213_6b04504437f6bb.mp4",
+      "size_bytes": 9831443,
+      "is_dir": false,
+      "packed_size": "9831443"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/180.mp4",
+      "size_bytes": 9774458,
+      "is_dir": false,
+      "packed_size": "9774458"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/233.mp4",
+      "size_bytes": 9134819,
+      "is_dir": false,
+      "packed_size": "9134819"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/024.mp4",
+      "size_bytes": 9087576,
+      "is_dir": false,
+      "packed_size": "9087576"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/003_17c83c1aeeccf8.mp4",
+      "size_bytes": 8981380,
+      "is_dir": false,
+      "packed_size": "8981380"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/009.mp4",
+      "size_bytes": 8713004,
+      "is_dir": false,
+      "packed_size": "8713004"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/096.mp4",
+      "size_bytes": 8206993,
+      "is_dir": false,
+      "packed_size": "8206993"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/053_dd10b8a9e20aed.mp4",
+      "size_bytes": 8173462,
+      "is_dir": false,
+      "packed_size": "8173462"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/173.mp4",
+      "size_bytes": 8168054,
+      "is_dir": false,
+      "packed_size": "8168054"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/172.mp4",
+      "size_bytes": 7966813,
+      "is_dir": false,
+      "packed_size": "7966813"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M01_Aftermath_Kevin_MacLeod.mp3",
+      "size_bytes": 7806546,
+      "is_dir": false,
+      "packed_size": "6961759"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/061.mp4",
+      "size_bytes": 7733010,
+      "is_dir": false,
+      "packed_size": "7733010"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/041_cf796a9c2b00f3.mp4",
+      "size_bytes": 7676636,
+      "is_dir": false,
+      "packed_size": "7676636"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/168.mp4",
+      "size_bytes": 7673600,
+      "is_dir": false,
+      "packed_size": "7673600"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/000.mp4",
+      "size_bytes": 7628804,
+      "is_dir": false,
+      "packed_size": "7628804"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/052_36eb5cf915bcae.mp4",
+      "size_bytes": 7533329,
+      "is_dir": false,
+      "packed_size": "1975734"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/045_0fddf961128b75.mp4",
+      "size_bytes": 7477123,
+      "is_dir": false,
+      "packed_size": "7477123"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/065.mp4",
+      "size_bytes": 7380041,
+      "is_dir": false,
+      "packed_size": "7380041"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/049.mp4",
+      "size_bytes": 6869134,
+      "is_dir": false,
+      "packed_size": "6869134"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/006_52912caa245243.mp4",
+      "size_bytes": 6839302,
+      "is_dir": false,
+      "packed_size": "6839302"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/174_cc45885325fa93.mp4",
+      "size_bytes": 6824068,
+      "is_dir": false,
+      "packed_size": "6824068"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/232.mp4",
+      "size_bytes": 6630223,
+      "is_dir": false,
+      "packed_size": "6630223"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/155_1cd0aa7617db87.mp4",
+      "size_bytes": 6535153,
+      "is_dir": false,
+      "packed_size": "6535153"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/067.mp4",
+      "size_bytes": 6418225,
+      "is_dir": false,
+      "packed_size": "6047559"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/192.mp4",
+      "size_bytes": 6418176,
+      "is_dir": false,
+      "packed_size": "6418176"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/037.mp4",
+      "size_bytes": 6399945,
+      "is_dir": false,
+      "packed_size": "6399945"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/005.mp4",
+      "size_bytes": 6183525,
+      "is_dir": false,
+      "packed_size": "6183525"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/171.mp4",
+      "size_bytes": 6162297,
+      "is_dir": false,
+      "packed_size": "6162297"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/088_a475a79427875a.mp4",
+      "size_bytes": 6028569,
+      "is_dir": false,
+      "packed_size": "6028569"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/181.mp4",
+      "size_bytes": 6028513,
+      "is_dir": false,
+      "packed_size": "6028513"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/070_9504292e22b8a0.mp4",
+      "size_bytes": 5893622,
+      "is_dir": false,
+      "packed_size": "5893622"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/10_ASSETS_WORK/music/M03_Floating_Cities_Kevin_MacLeod.mp3",
+      "size_bytes": 5892113,
+      "is_dir": false,
+      "packed_size": "5748893"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/123_11909102cf2721.mp4",
+      "size_bytes": 5880391,
+      "is_dir": false,
+      "packed_size": "5880391"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/129.mp4",
+      "size_bytes": 5867936,
+      "is_dir": false,
+      "packed_size": "5867936"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/109_7f2bf0b5e8c790.mp4",
+      "size_bytes": 5829580,
+      "is_dir": false,
+      "packed_size": "5829580"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/025.mp4",
+      "size_bytes": 5829412,
+      "is_dir": false,
+      "packed_size": "5829412"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/210_9d3d5b813e390d.mp4",
+      "size_bytes": 5803616,
+      "is_dir": false,
+      "packed_size": "5803616"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/020.mp4",
+      "size_bytes": 5777823,
+      "is_dir": false,
+      "packed_size": "5777823"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/150_0ac4c38d3cdeb2.mp4",
+      "size_bytes": 5772907,
+      "is_dir": false,
+      "packed_size": "5772907"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/062_a46a1f267eecfd.mp4",
+      "size_bytes": 5766036,
+      "is_dir": false,
+      "packed_size": "5765304"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/184.mp4",
+      "size_bytes": 5725082,
+      "is_dir": false,
+      "packed_size": "5725082"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/193_dde18104a63be6.mp4",
+      "size_bytes": 5704057,
+      "is_dir": false,
+      "packed_size": "5704057"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/189.mp4",
+      "size_bytes": 5637103,
+      "is_dir": false,
+      "packed_size": "5637103"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/057_0bab82a44e7c9d.mp4",
+      "size_bytes": 5629142,
+      "is_dir": false,
+      "packed_size": "5629142"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/141.mp4",
+      "size_bytes": 5512888,
+      "is_dir": false,
+      "packed_size": "5512888"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/090_de5e5272c27339.mp4",
+      "size_bytes": 5469110,
+      "is_dir": false,
+      "packed_size": "5469110"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/047_bfe33becb62103.mp4",
+      "size_bytes": 5443205,
+      "is_dir": false,
+      "packed_size": "5443205"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/162_084708e12fafa6.mp4",
+      "size_bytes": 5441930,
+      "is_dir": false,
+      "packed_size": "5441930"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/013.mp4",
+      "size_bytes": 5435593,
+      "is_dir": false,
+      "packed_size": "5435593"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/032_f6878675697272.mp4",
+      "size_bytes": 5426552,
+      "is_dir": false,
+      "packed_size": "5426552"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/229.mp4",
+      "size_bytes": 5405889,
+      "is_dir": false,
+      "packed_size": "5405889"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/055_7c3cdc5517dff3.mp4",
+      "size_bytes": 5284061,
+      "is_dir": false,
+      "packed_size": "878271"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/169_519730000fd14a.mp4",
+      "size_bytes": 5282353,
+      "is_dir": false,
+      "packed_size": "5282353"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_pull.mp4",
+      "size_bytes": 5269365,
+      "is_dir": false,
+      "packed_size": "5269365"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/140.mp4",
+      "size_bytes": 5221523,
+      "is_dir": false,
+      "packed_size": "5221523"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/104.mp4",
+      "size_bytes": 5195355,
+      "is_dir": false,
+      "packed_size": "5195355"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/128.mp4",
+      "size_bytes": 5190886,
+      "is_dir": false,
+      "packed_size": "5190886"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/101.mp4",
+      "size_bytes": 5172723,
+      "is_dir": false,
+      "packed_size": "5172723"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/188.mp4",
+      "size_bytes": 5162376,
+      "is_dir": false,
+      "packed_size": "5162376"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/176.mp4",
+      "size_bytes": 5142784,
+      "is_dir": false,
+      "packed_size": "5142784"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/079_22543341c42e06.mp4",
+      "size_bytes": 5117970,
+      "is_dir": false,
+      "packed_size": "5117970"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/066.mp4",
+      "size_bytes": 5107465,
+      "is_dir": false,
+      "packed_size": "4799932"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/212.mp4",
+      "size_bytes": 5076590,
+      "is_dir": false,
+      "packed_size": "5076590"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/116.mp4",
+      "size_bytes": 5068653,
+      "is_dir": false,
+      "packed_size": "5068653"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/193.mp4",
+      "size_bytes": 5020959,
+      "is_dir": false,
+      "packed_size": "5020959"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/160_13ea8f955cf5fc.mp4",
+      "size_bytes": 4978199,
+      "is_dir": false,
+      "packed_size": "2280736"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/164.mp4",
+      "size_bytes": 4960942,
+      "is_dir": false,
+      "packed_size": "4960942"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/072.mp4",
+      "size_bytes": 4948571,
+      "is_dir": false,
+      "packed_size": "4948571"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/134.mp4",
+      "size_bytes": 4922730,
+      "is_dir": false,
+      "packed_size": "4747079"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/092.mp4",
+      "size_bytes": 4866676,
+      "is_dir": false,
+      "packed_size": "4866676"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/212_0d6263d12d6efa.mp4",
+      "size_bytes": 4832243,
+      "is_dir": false,
+      "packed_size": "4832243"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/235.mp4",
+      "size_bytes": 4804003,
+      "is_dir": false,
+      "packed_size": "892272"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_clips/034_b92cc2a7281db8.mp4",
+      "size_bytes": 4779221,
+      "is_dir": false,
+      "packed_size": "4779221"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/084.mp4",
+      "size_bytes": 4755249,
+      "is_dir": false,
+      "packed_size": "4755249"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/230.mp4",
+      "size_bytes": 4678512,
+      "is_dir": false,
+      "packed_size": "4678512"
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/227.mp4",
+      "size_bytes": 4647819,
+      "is_dir": false,
+      "packed_size": "4646852"
+    }
+  ]
+}

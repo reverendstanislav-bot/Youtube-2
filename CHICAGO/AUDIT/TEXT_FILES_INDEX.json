@@ -1,0 +1,3129 @@
+{
+  "files": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/FINAL_AUDIT.txt",
+      "size_bytes": 813
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/PROJECT_MEMORY.md",
+      "size_bytes": 1307
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/README_CODEX.md",
+      "size_bytes": 1146
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/SHA256.csv",
+      "size_bytes": 3704
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/master_assets.csv",
+      "size_bytes": 25227
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/master_assets.json",
+      "size_bytes": 60389
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/project_config.json",
+      "size_bytes": 494
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/work_queue.csv",
+      "size_bytes": 25557
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/02_SCRIPT/voiceover_en.txt",
+      "size_bytes": 18095
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/README_TIMELINE.txt",
+      "size_bytes": 326
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/scene_map.csv",
+      "size_bytes": 65698
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/subtitles_en.srt",
+      "size_bytes": 28007
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/timeline.csv",
+      "size_bytes": 189009
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/timeline_schema.json",
+      "size_bytes": 801
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/all_download_links.md",
+      "size_bytes": 7123
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/archive_downloads.csv",
+      "size_bytes": 6547
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/music_downloads.csv",
+      "size_bytes": 4217
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/sfx_downloads.csv",
+      "size_bytes": 1140
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/05_PROMPTS/prompt_index.csv",
+      "size_bytes": 338970
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/fact_map.csv",
+      "size_bytes": 5701
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/license_manifest.csv",
+      "size_bytes": 9623
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/music_attribution.txt",
+      "size_bytes": 1074
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/07_SHORTS_REELS/reels_plan.csv",
+      "size_bytes": 4289
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/08_YOUTUBE/youtube_upload_pack.txt",
+      "size_bytes": 1447
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/_download_common.py",
+      "size_bytes": 690
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/check_links.py",
+      "size_bytes": 1326
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/download_archives.py",
+      "size_bytes": 742
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/download_music.py",
+      "size_bytes": 738
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/download_sfx.py",
+      "size_bytes": 736
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/validate_project.py",
+      "size_bytes": 4717
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/ARCHIVE_DOWNLOAD_REPORT.txt",
+      "size_bytes": 7806
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_FAILURES.csv",
+      "size_bytes": 77
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_RECOVERY.json",
+      "size_bytes": 1301
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_REPORT.json",
+      "size_bytes": 956
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_SOURCE_AUDIT.json",
+      "size_bytes": 62197
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/LINK_CHECK_REPORT.txt",
+      "size_bytes": 6368
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/MEDIA_VALIDATION.json",
+      "size_bytes": 75509
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/MUSIC_DOWNLOAD_REPORT.txt",
+      "size_bytes": 1014
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/SFX_DOWNLOAD_REPORT.txt",
+      "size_bytes": 364
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/VALIDATION_READY.txt",
+      "size_bytes": 21936
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/VALIDATION_STRUCTURE.txt",
+      "size_bytes": 244
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/asset_manifest.csv",
+      "size_bytes": 28980
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/codex_edit_state.json",
+      "size_bytes": 1340
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/edit_plan.md",
+      "size_bytes": 2628
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/edit_scenes.json",
+      "size_bytes": 232918
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/final_clips/concat.txt",
+      "size_bytes": 3774
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/hia_edit_local.py",
+      "size_bytes": 25777
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/inventory_raw.json",
+      "size_bytes": 66305
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/proxy_clips/concat.txt",
+      "size_bytes": 3774
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/render_shots.json",
+      "size_bytes": 84844
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/resolved_scenes.json",
+      "size_bytes": 165939
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/script_segments.csv",
+      "size_bytes": 8102
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_0.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_109.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_142.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_145.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_152.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_169.txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_170.txt",
+      "size_bytes": 14
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_194.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_197.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_199.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_211.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_221.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_28.txt",
+      "size_bytes": 22
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_35.txt",
+      "size_bytes": 30
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_39.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_56.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_6.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_60.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_61.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_64.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_65.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_7.txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_70.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_71.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_8.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_9.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_final_91.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_0.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_109.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_142.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_145.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_152.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_169.txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_170.txt",
+      "size_bytes": 14
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_194.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_197.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_199.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_211.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_221.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_28.txt",
+      "size_bytes": 22
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_35.txt",
+      "size_bytes": 30
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_39.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_56.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_6.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_60.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_61.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_64.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_65.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_7.txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_70.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_71.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_8.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_9.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/title_proxy_91.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/EDIT_REPORT.md",
+      "size_bytes": 802
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt",
+      "size_bytes": 30435
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/alignment_report.json",
+      "size_bytes": 346
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/final_ffprobe.json",
+      "size_bytes": 3871
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/final_qc.json",
+      "size_bytes": 445
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/mix_loudness_input.json",
+      "size_bytes": 273
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/proxy_ffprobe.json",
+      "size_bytes": 3859
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/proxy_qc.json",
+      "size_bytes": 444
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/subtitle_sync_samples.json",
+      "size_bytes": 33708
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/subtitle_sync_verified.json",
+      "size_bytes": 582
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/voice_words.json",
+      "size_bytes": 145152
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/DELIVERY_MANIFEST.json",
+      "size_bytes": 891
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.srt",
+      "size_bytes": 31161
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/V2_QC_REPORT.md",
+      "size_bytes": 3335
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/actual_mix_spotchecks.json",
+      "size_bytes": 19550
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/audio_source_hash.json",
+      "size_bytes": 89
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/delivered_srt_validation.json",
+      "size_bytes": 127
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_metadata.json",
+      "size_bytes": 3865
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_motion.json",
+      "size_bytes": 524
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_offcenter_motion.json",
+      "size_bytes": 469
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_pts_validation.json",
+      "size_bytes": 105
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_qc.json",
+      "size_bytes": 2099
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/insert_tests.json",
+      "size_bytes": 1686
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_compression_diagnosis.json",
+      "size_bytes": 3357
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_test_metrics.json",
+      "size_bytes": 782
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_metadata.json",
+      "size_bytes": 3865
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_motion.json",
+      "size_bytes": 523
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_offcenter_motion.json",
+      "size_bytes": 469
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_qc.json",
+      "size_bytes": 2097
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/same_source_cuts.json",
+      "size_bytes": 983
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_audio_verification.json",
+      "size_bytes": 3654
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_boundary_resolution.json",
+      "size_bytes": 247
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_report.json",
+      "size_bytes": 180
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/uncompressed_motion_diagnosis.json",
+      "size_bytes": 352
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/captions.json",
+      "size_bytes": 79716
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/final_concat.txt",
+      "size_bytes": 39058
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2.py",
+      "size_bytes": 30087
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_delivery_check.py",
+      "size_bytes": 933
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_finish.py",
+      "size_bytes": 1897
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_motion_diagnose.py",
+      "size_bytes": 757
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_motion_roi.py",
+      "size_bytes": 1725
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_raw_motion.py",
+      "size_bytes": 964
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/plan_summary.json",
+      "size_bytes": 337
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/proxy_concat.txt",
+      "size_bytes": 39058
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/shots.json",
+      "size_bytes": 157242
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/state.json",
+      "size_bytes": 437
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_0_final.txt",
+      "size_bytes": 7
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_0_proxy.txt",
+      "size_bytes": 7
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_124_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_124_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_127_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_127_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_134_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_134_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_13_final.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_13_proxy.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_151_final.txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_151_proxy.txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_181_final.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_181_proxy.txt",
+      "size_bytes": 11
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_201_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_201_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_24_final.txt",
+      "size_bytes": 22
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_24_proxy.txt",
+      "size_bytes": 22
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_25_final.txt",
+      "size_bytes": 21
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_25_proxy.txt",
+      "size_bytes": 21
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_30_final.txt",
+      "size_bytes": 30
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_30_proxy.txt",
+      "size_bytes": 30
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_34_final.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_34_proxy.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_52_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_52_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_54_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_54_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_57_final.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_57_proxy.txt",
+      "size_bytes": 12
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_5_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_5_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_6_final.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_6_proxy.txt",
+      "size_bytes": 9
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_92_final.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/text_92_proxy.txt",
+      "size_bytes": 23
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/v1_snapshot.json",
+      "size_bytes": 1015
+    }
+  ],
+  "keyword_matches": [
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/FINAL_AUDIT.txt",
+      "size_bytes": 813,
+      "keywords": [
+        "subtitle",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 10,
+          "text": "Subtitle rows: 293"
+        },
+        {
+          "line": 12,
+          "text": "Archive unique assets: 13"
+        },
+        {
+          "line": 13,
+          "text": "Music assets: 7"
+        },
+        {
+          "line": 14,
+          "text": "SFX assets: 3"
+        },
+        {
+          "line": 15,
+          "text": "Structure validator: PASS"
+        },
+        {
+          "line": 16,
+          "text": "Ready validator: expected FAIL until DOWNLOAD and GENERATE assets are populated."
+        },
+        {
+          "line": 19,
+          "text": "Fact text overlays moved to V4 so V5 subtitle rows never conflict with another simultaneous V5 element."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/PROJECT_MEMORY.md",
+      "size_bytes": 1307,
+      "keywords": [
+        "ass",
+        "master"
+      ],
+      "excerpts": [
+        {
+          "line": 12,
+          "text": "Every scene asset is either DOWNLOAD or GENERATE. DOWNLOAD files go to `10_ASSETS_WORK/archive`, `music`, or `sfx`; generated frames go to `10_ASSETS_WORK/generated` using `05_PROMPTS/visual_prompts.pdf`. Do not begin final automated edit until `python 09_TOOLS/validate_project.py --ready` returns PASS."
+        },
+        {
+          "line": 18,
+          "text": "Long-form is primary. Shorts/Reels are extracted only after the long-form master is complete."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/README_CODEX.md",
+      "size_bytes": 1146,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "3. Download archive assets:"
+        },
+        {
+          "line": 17,
+          "text": "8. Verify all required edit assets:"
+        },
+        {
+          "line": 19,
+          "text": "9. Only after READY PASS, feed `03_TIMELINE/timeline.csv` to the editing agent."
+        },
+        {
+          "line": 24,
+          "text": "- exact header: scene;start;end;track;type;asset;text;z;source_in;source_out;preset;params;transition_in;transition_out;mode;notes"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/SHA256.csv",
+      "size_bytes": 3704,
+      "keywords": [
+        "subtitle",
+        "srt",
+        "ass",
+        "master",
+        "voiceover"
+      ],
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "00_START_HERE/master_assets.csv;c23cb212fd7b263b9ef1d9f0921e4fb8cdac12f000f9fb3adba33915bf424935;25227"
+        },
+        {
+          "line": 6,
+          "text": "00_START_HERE/master_assets.json;b0a1b5d70e6b5fd7339b5f68aa5eb2a4e356dd6991b524accd1b844beb2e77e8;60389"
+        },
+        {
+          "line": 11,
+          "text": "02_SCRIPT/voiceover_en.txt;f6da0d2056a226468e190c10c7a3b0eb6a2bb738658685412b4fba7af87a55ab;18095"
+        },
+        {
+          "line": 14,
+          "text": "03_TIMELINE/subtitles_en.srt;6880c067763db4f674ca2646e9ebf2057a0d64e88b748ed467520678c6ce685a;28007"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/master_assets.csv",
+      "size_bytes": 25227,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "asset_id;mode;kind;destination;download_url;source_page;license;prompt_id;status"
+        },
+        {
+          "line": 2,
+          "text": "A01;DOWNLOAD;archive;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelIntersectionCloser.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelIntersectionCloser.jpg;Public domain in the United States;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 3,
+          "text": "A02;DOWNLOAD;archive;10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelMap1910.png;https://commons.wikimedia.org/wiki/File:IllinoisTunnelMap1910.png;Public domain in the United States;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 4,
+          "text": "A14;DOWNLOAD;archive;10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg;https://cdn.loc.gov/service/pnp/det/4a10000/4a12000/4a12800/4a12894r.jpg;https://www.loc.gov/item/2016805496/;Library of Congress: No known restrictions on publication;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 5,
+          "text": "A13;DOWNLOAD;archive;10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg;https://cdn.loc.gov/service/pnp/stereo/1s10000/1s12000/1s12700/1s12706v.jpg;https://www.loc.gov/item/2014650313/;Library of Congress: No known restrictions on publication;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 6,
+          "text": "A15;DOWNLOAD;archive;10_ASSETS_WORK/archive/A15_LOC_Wabash_Avenue_c1900.jpg;https://cdn.loc.gov/service/pnp/det/4a00000/4a08000/4a08100/4a08136v.jpg;https://www.loc.gov/item/2016799520/;Library of Congress: No known restrictions on publication;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 7,
+          "text": "A08;DOWNLOAD;archive;10_ASSETS_WORK/archive/A08_IllinoisTelephoneAndTelegraphAd.png;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTelephoneAndTelegraphAd.png;https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png;Public domain in the United States;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 8,
+          "text": "A05;DOWNLOAD;archive;10_ASSETS_WORK/archive/A05_IllinoisTunnelConstruction.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelConstruction.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelConstruction.jpg;\"Public domain; Commons Public Domain Mark / life+70 note\";;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 9,
+          "text": "A07;DOWNLOAD;archive;10_ASSETS_WORK/archive/A07_IllinoisTunnelTestTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelTestTrain.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelTestTrain.jpg;Public domain in the United States;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 10,
+          "text": "A06;DOWNLOAD;archive;10_ASSETS_WORK/archive/A06_IllinoisTunnelFirstTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelFirstTrain.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelFirstTrain.jpg;Public domain in the United States;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 11,
+          "text": "A16;DOWNLOAD;archive;10_ASSETS_WORK/archive/A16_LOC_Illinois_Central_freight_1942.jpg;https://cdn.loc.gov/service/pnp/fsa/8d23000/8d23200/8d23299v.jpg;https://www.loc.gov/item/2017839483/;FSA/OWI collection: public domain / no known restrictions;;MISSING_UNTIL_DOWNLOADED"
+        },
+        {
+          "line": 12,
+          "text": "A03;DOWNLOAD;archive;10_ASSETS_WORK/archive/A03_ChicagoTunnelFieldsTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/ChicagoTunnelFieldsTrain.jpg;https://commons.wikimedia.org/wiki/File:ChicagoTunnelFieldsTrain.jpg;Public domain in the United States;;MISSING_UNTIL_DOWNLOADED"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/master_assets.json",
+      "size_bytes": 60389,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "\"asset_id\": \"A01\","
+        },
+        {
+          "line": 6,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 14,
+          "text": "\"asset_id\": \"A02\","
+        },
+        {
+          "line": 17,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png\","
+        },
+        {
+          "line": 25,
+          "text": "\"asset_id\": \"A14\","
+        },
+        {
+          "line": 28,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg\","
+        },
+        {
+          "line": 36,
+          "text": "\"asset_id\": \"A13\","
+        },
+        {
+          "line": 39,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg\","
+        },
+        {
+          "line": 47,
+          "text": "\"asset_id\": \"A15\","
+        },
+        {
+          "line": 50,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A15_LOC_Wabash_Avenue_c1900.jpg\","
+        },
+        {
+          "line": 58,
+          "text": "\"asset_id\": \"A08\","
+        },
+        {
+          "line": 61,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A08_IllinoisTelephoneAndTelegraphAd.png\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/project_config.json",
+      "size_bytes": 494,
+      "keywords": [
+        "ass",
+        "master"
+      ],
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "\"audio_master\": \"01_AUDIO/voice.wav\","
+        },
+        {
+          "line": 13,
+          "text": "\"generated_assets\": 175,"
+        },
+        {
+          "line": 14,
+          "text": "\"archive_assets_unique\": 13,"
+        },
+        {
+          "line": 15,
+          "text": "\"music_assets\": 7,"
+        },
+        {
+          "line": 16,
+          "text": "\"sfx_assets\": 3"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/00_START_HERE/work_queue.csv",
+      "size_bytes": 25557,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "asset_id;action;kind;destination;source_or_prompt;status;notes"
+        },
+        {
+          "line": 2,
+          "text": "A01;DOWNLOAD;archive;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelIntersectionCloser.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 3,
+          "text": "A02;DOWNLOAD;archive;10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelMap1910.png;TODO;Run downloader"
+        },
+        {
+          "line": 4,
+          "text": "A14;DOWNLOAD;archive;10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg;https://cdn.loc.gov/service/pnp/det/4a10000/4a12000/4a12800/4a12894r.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 5,
+          "text": "A13;DOWNLOAD;archive;10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg;https://cdn.loc.gov/service/pnp/stereo/1s10000/1s12000/1s12700/1s12706v.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 6,
+          "text": "A15;DOWNLOAD;archive;10_ASSETS_WORK/archive/A15_LOC_Wabash_Avenue_c1900.jpg;https://cdn.loc.gov/service/pnp/det/4a00000/4a08000/4a08100/4a08136v.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 7,
+          "text": "A08;DOWNLOAD;archive;10_ASSETS_WORK/archive/A08_IllinoisTelephoneAndTelegraphAd.png;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTelephoneAndTelegraphAd.png;TODO;Run downloader"
+        },
+        {
+          "line": 8,
+          "text": "A05;DOWNLOAD;archive;10_ASSETS_WORK/archive/A05_IllinoisTunnelConstruction.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelConstruction.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 9,
+          "text": "A07;DOWNLOAD;archive;10_ASSETS_WORK/archive/A07_IllinoisTunnelTestTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelTestTrain.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 10,
+          "text": "A06;DOWNLOAD;archive;10_ASSETS_WORK/archive/A06_IllinoisTunnelFirstTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelFirstTrain.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 11,
+          "text": "A16;DOWNLOAD;archive;10_ASSETS_WORK/archive/A16_LOC_Illinois_Central_freight_1942.jpg;https://cdn.loc.gov/service/pnp/fsa/8d23000/8d23200/8d23299v.jpg;TODO;Run downloader"
+        },
+        {
+          "line": 12,
+          "text": "A03;DOWNLOAD;archive;10_ASSETS_WORK/archive/A03_ChicagoTunnelFieldsTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/ChicagoTunnelFieldsTrain.jpg;TODO;Run downloader"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/02_SCRIPT/voiceover_en.txt",
+      "size_bytes": 18095,
+      "keywords": [
+        "ass",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 31,
+          "text": "Stores needed merchandise. Buildings needed supplies. Boiler rooms needed coal. And once that coal was burned, the ash had to be removed."
+        },
+        {
+          "line": 41,
+          "text": "That made the space beneath the streets valuable for a reason that had nothing to do with passengers. If some of the city’s repetitive freight movements could be pushed underground, the same downtown could keep functioning without asking every wagon and delivery to fight for the same curb."
+        },
+        {
+          "line": 65,
+          "text": "A project associated with underground communications infrastructure had evolved into an urban freight system."
+        },
+        {
+          "line": 69,
+          "text": "Chicago’s mainline railroads used normal freight cars. The tunnel railroad used tiny cars running through confined underground passages."
+        },
+        {
+          "line": 107,
+          "text": "The easiest way to underestimate Chicago’s freight tunnels is to picture one long underground passage."
+        },
+        {
+          "line": 155,
+          "text": "Then, after the coal was burned, the waste had to leave."
+        },
+        {
+          "line": 169,
+          "text": "The system was not trying to be a glamorous replacement for passenger rail."
+        },
+        {
+          "line": 247,
+          "text": "Chicago’s passenger subway arrived while the freight tunnels were still operating."
+        },
+        {
+          "line": 335,
+          "text": "The breach occurred where the tunnel network passed beneath the river near the Kinzie Street area."
+        },
+        {
+          "line": 377,
+          "text": "It still had passages."
+        },
+        {
+          "line": 379,
+          "text": "And where those passages remained connected, they could still transmit consequences from one part of downtown to another."
+        },
+        {
+          "line": 387,
+          "text": "In 1996, construction associated with Lake Shore Drive exposed the equipment."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/README_TIMELINE.txt",
+      "size_bytes": 326,
+      "keywords": [
+        "subtitle",
+        "srt"
+      ],
+      "excerpts": [
+        {
+          "line": 8,
+          "text": "Subtitles are also represented as individual timeline rows and additionally provided as subtitles_en.srt."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/scene_map.csv",
+      "size_bytes": 65698,
+      "keywords": [
+        "ass",
+        "narration",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "scene;start;end;section;mode;source_id;asset;narration;visual;text_overlay"
+        },
+        {
+          "line": 2,
+          "text": "S001;00:00:00.000;00:00:11.520;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P001;10_ASSETS_WORK/generated/S001_P001.png;Walk through downtown Chicago today, and almost nothing at street level tells you that another transportation network once existed roughly forty feet below the traffic.;\"Modern downtown Chicago street-level establishing shot, recognizable Loop architecture and everyday traffic; visual should imply hidden depth below without showing the tunnel yet; leave composition ready for a later "
+        },
+        {
+          "line": 3,
+          "text": "S002;00:00:11.520;00:00:13.080;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P002;10_ASSETS_WORK/generated/S002_P002.png;Not a subway.;Cutaway - generated reconstruction/diagram matched to narration.;"
+        },
+        {
+          "line": 4,
+          "text": "S003;00:00:13.080;00:00:16.590;ANOTHER CHICAGO BELOW CHICAGO;DOWNLOAD;A01;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;A freight railroad.;Use selected free/public-domain source with slow crop, pan, parallax, or map animation as appropriate.;"
+        },
+        {
+          "line": 5,
+          "text": "S004;00:00:16.590;00:00:29.860;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P003;10_ASSETS_WORK/generated/S004_P003.png;Small electric locomotives hauled coal, merchandise, supplies, and ash through narrow tunnels beneath the Loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement-level facilities.;Cutaway - generated reconstruction/diagram matched to narration.;"
+        },
+        {
+          "line": 6,
+          "text": "S005;00:00:29.860;00:00:34.280;ANOTHER CHICAGO BELOW CHICAGO;DOWNLOAD;A02;10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png;And this was not one tunnel linking two points.;Use selected free/public-domain source with slow crop, pan, parallax, or map animation as appropriate.;"
+        },
+        {
+          "line": 7,
+          "text": "S006;00:00:34.280;00:00:39.810;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P004;10_ASSETS_WORK/generated/S006_P004.png;At its height, the network stretched roughly sixty miles beneath downtown Chicago.;\"Modern or timeless Chicago downtown skyline / simplified city-scale establishing frame that can transition into an underground network overlay; emphasize the scale of the city, not tourism postcard aesthetics.\";~60 MILES"
+        },
+        {
+          "line": 8,
+          "text": "S007;00:00:39.810;00:00:50.010;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P005;10_ASSETS_WORK/generated/S007_P005.png;For decades, freight moved through an underground grid while the city continued above it. Then, in July 1959, the trains stopped.;Empty Tunnel - generated reconstruction/diagram matched to narration.;JULY 1959"
+        },
+        {
+          "line": 9,
+          "text": "S008;00:00:50.010;00:00:53.940;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P006;10_ASSETS_WORK/generated/S008_P006.png;The railroad disappeared as a working system.;Cutaway - generated reconstruction/diagram matched to narration.;"
+        },
+        {
+          "line": 10,
+          "text": "S009;00:00:53.940;00:00:55.620;ANOTHER CHICAGO BELOW CHICAGO;DOWNLOAD;A01;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;The tunnels did not.;Use selected free/public-domain source with slow crop, pan, parallax, or map animation as appropriate.;"
+        },
+        {
+          "line": 11,
+          "text": "S010;00:00:55.620;00:01:01.590;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P007;10_ASSETS_WORK/generated/S010_P007.png;So why did Chicago need an entire freight railroad beneath its streets?;Network Overlay - generated reconstruction/diagram matched to narration.;"
+        },
+        {
+          "line": 12,
+          "text": "S011;00:01:01.590;00:01:07.450;ANOTHER CHICAGO BELOW CHICAGO;GENERATE;P008;10_ASSETS_WORK/generated/S011_P008.png;And how could infrastructure this extensive become obsolete while much of its physical footprint remained?;Final - generated reconstruction/diagram matched to narration.;"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/subtitles_en.srt",
+      "size_bytes": 28007,
+      "keywords": [
+        "ass",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 95,
+          "text": "And once that coal was burned, the ash had to be removed."
+        },
+        {
+          "line": 115,
+          "text": "That made the space beneath the streets valuable for a reason that had nothing to do with passengers."
+        },
+        {
+          "line": 183,
+          "text": "A project associated with underground communications infrastructure had evolved into an urban freight"
+        },
+        {
+          "line": 199,
+          "text": "The tunnel railroad used tiny cars running through confined underground passages."
+        },
+        {
+          "line": 299,
+          "text": "The easiest way to underestimate Chicago’s freight tunnels is to picture one long underground passage."
+        },
+        {
+          "line": 435,
+          "text": "Then, after the coal was burned, the waste had to leave."
+        },
+        {
+          "line": 463,
+          "text": "The system was not trying to be a glamorous replacement for passenger rail."
+        },
+        {
+          "line": 651,
+          "text": "Chicago’s passenger subway arrived while the freight tunnels were still operating."
+        },
+        {
+          "line": 843,
+          "text": "The breach occurred where the tunnel network passed beneath the river near the Kinzie Street area."
+        },
+        {
+          "line": 951,
+          "text": "It still had passages."
+        },
+        {
+          "line": 955,
+          "text": "And where those passages remained connected, they could still transmit consequences from one part of"
+        },
+        {
+          "line": 983,
+          "text": "In 1996, construction associated with Lake Shore Drive exposed the equipment."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/timeline.csv",
+      "size_bytes": 189009,
+      "keywords": [
+        "subtitle",
+        "ass",
+        "narration",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "scene;start;end;track;type;asset;text;z;source_in;source_out;preset;params;transition_in;transition_out;mode;notes"
+        },
+        {
+          "line": 2,
+          "text": "S001;00:00:00.000;00:00:11.520;V1;image;10_ASSETS_WORK/generated/S001_P001.png;;0;;;slow_push_in+cool_grade;scale_from=1.00|scale_to=1.08|contrast=1.05|saturation=0.88;crossfade;crossfade;EXACT;\"Сгенерировать вручную по P001 в 05_PROMPTS/visual_prompts.pdf. Modern downtown Chicago street-level establishing shot, recognizable Loop architecture and everyday traffic; visual should imply hidden depth below without showing the tunnel yet; leave composition ready for a later downward transition/cutawa"
+        },
+        {
+          "line": 3,
+          "text": "SUB001;00:00:00.000;00:00:06.224;V5;subtitle;;Walk through downtown Chicago today, and almost nothing at street level tells you that another;50;;;lower_third;font=Montserrat SemiBold|size=46|color=#FFFFFF|position=bottom|safe_margin=0.07|stroke=#000000|stroke_width=3;cut;cut;EXACT;\"English subtitle. Keep within title-safe; max 2 lines.\""
+        },
+        {
+          "line": 5,
+          "text": "M01;00:00:00.000;00:02:33.030;A2;music;10_ASSETS_WORK/music/M01_Aftermath_Kevin_MacLeod.mp3;;0;00:00:00.000;;;gain_db=-27|ducking_db=-8|fade_in=1.0|fade_out=1.5|loop=true;fade;crossfade;EXACT;\"dark subtle mystery, opening; музыка всегда ниже речи.\""
+        },
+        {
+          "line": 7,
+          "text": "SUB002;00:00:06.224;00:00:11.057;V5;subtitle;;transportation network once existed roughly forty feet below the traffic.;50;;;lower_third;font=Montserrat SemiBold|size=46|color=#FFFFFF|position=bottom|safe_margin=0.07|stroke=#000000|stroke_width=3;cut;cut;EXACT;\"English subtitle. Keep within title-safe; max 2 lines.\""
+        },
+        {
+          "line": 8,
+          "text": "SUB003;00:00:11.057;00:00:13.080;V5;subtitle;;Not a subway.;50;;;lower_third;font=Montserrat SemiBold|size=46|color=#FFFFFF|position=bottom|safe_margin=0.07|stroke=#000000|stroke_width=3;cut;cut;EXACT;\"English subtitle. Keep within title-safe; max 2 lines.\""
+        },
+        {
+          "line": 9,
+          "text": "S002;00:00:11.520;00:00:13.080;V1;image;10_ASSETS_WORK/generated/S002_P002.png;;0;;;slow_push_in+documentary_photo;scale_from=1.00|scale_to=1.06|easing=ease_out;crossfade;crossfade;EXACT;Сгенерировать вручную по P002 в 05_PROMPTS/visual_prompts.pdf. Cutaway - generated reconstruction/diagram matched to narration."
+        },
+        {
+          "line": 10,
+          "text": "S003;00:00:13.080;00:00:16.590;V1;image;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;;0;;;ken_burns+documentary_photo+film_grain;scale_from=1.00|scale_to=1.08|easing=ease_in_out|grain=0.10;crossfade;crossfade;EXACT;Архивный кадр A01. Use selected free/public-domain source with slow crop, pan, parallax, or map animation as appropriate. Акцент narration: A freight railroad."
+        },
+        {
+          "line": 11,
+          "text": "SUB004;00:00:13.269;00:00:16.586;V5;subtitle;;A freight railroad.;50;;;lower_third;font=Montserrat SemiBold|size=46|color=#FFFFFF|position=bottom|safe_margin=0.07|stroke=#000000|stroke_width=3;cut;cut;EXACT;\"English subtitle. Keep within title-safe; max 2 lines.\""
+        },
+        {
+          "line": 12,
+          "text": "S003;00:00:13.269;00:00:17.000;A3;sfx;10_ASSETS_WORK/sfx/SFX02_train_pass.mp3;;0;00:00:00.000;00:00:03.731;;gain_db=-18|fade_in=0.15|fade_out=0.6;cut;fade;EXACT;\"Очень тихий железнодорожный проход на первом reveal; не маскировать голос.\""
+        },
+        {
+          "line": 13,
+          "text": "SUB005;00:00:16.586;00:00:22.566;V5;subtitle;;Small electric locomotives hauled coal, merchandise, supplies, and ash through narrow tunnels beneath the;50;;;lower_third;font=Montserrat SemiBold|size=46|color=#FFFFFF|position=bottom|safe_margin=0.07|stroke=#000000|stroke_width=3;cut;cut;EXACT;\"English subtitle. Keep within title-safe; max 2 lines.\""
+        },
+        {
+          "line": 14,
+          "text": "S004;00:00:16.590;00:00:29.860;V1;image;10_ASSETS_WORK/generated/S004_P003.png;;0;;;slow_push_in+documentary_photo;scale_from=1.00|scale_to=1.06|easing=ease_out;crossfade;crossfade;EXACT;Сгенерировать вручную по P003 в 05_PROMPTS/visual_prompts.pdf. Cutaway - generated reconstruction/diagram matched to narration."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/03_TIMELINE/timeline_schema.json",
+      "size_bytes": 801,
+      "keywords": [
+        "subtitle",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 10,
+          "text": "\"asset\","
+        },
+        {
+          "line": 28,
+          "text": "\"V5\": \"subtitles/titles\","
+        },
+        {
+          "line": 44,
+          "text": "\"subtitle\""
+        },
+        {
+          "line": 48,
+          "text": "\"ASSISTED\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/all_download_links.md",
+      "size_bytes": 7123,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 7,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg`"
+        },
+        {
+          "line": 11,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png`"
+        },
+        {
+          "line": 15,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg`"
+        },
+        {
+          "line": 19,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg`"
+        },
+        {
+          "line": 23,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A15_LOC_Wabash_Avenue_c1900.jpg`"
+        },
+        {
+          "line": 27,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A08_IllinoisTelephoneAndTelegraphAd.png`"
+        },
+        {
+          "line": 31,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A05_IllinoisTunnelConstruction.jpg`"
+        },
+        {
+          "line": 35,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A07_IllinoisTunnelTestTrain.jpg`"
+        },
+        {
+          "line": 39,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A06_IllinoisTunnelFirstTrain.jpg`"
+        },
+        {
+          "line": 43,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A16_LOC_Illinois_Central_freight_1942.jpg`"
+        },
+        {
+          "line": 47,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A03_ChicagoTunnelFieldsTrain.jpg`"
+        },
+        {
+          "line": 51,
+          "text": "- Destination: `10_ASSETS_WORK/archive/A12_1937_Chicago_Tunnel_Terminal_Company.jpg`"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/archive_downloads.csv",
+      "size_bytes": 6547,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 2,
+          "text": "A01;A01_IllinoisTunnelIntersectionCloser.jpg;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;Перекресток тоннелей Illinois Tunnel Company;Anonymous work for hire, probably Illinois Tunnel Company;1905;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelIntersectionCloser.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelIntersectionCloser.jpg;Public domain in the United States;YELLOW;\"Не требуется в США; credit источника рекомендуется\";https://commons.w"
+        },
+        {
+          "line": 3,
+          "text": "A02;A02_IllinoisTunnelMap1910.png;10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png;Карта Illinois Tunnel Company;Illinois Tunnel Company;1910;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelMap1910.png;https://commons.wikimedia.org/wiki/File:IllinoisTunnelMap1910.png;Public domain in the United States;YELLOW;\"Не требуется в США; credit рекомендуется\";https://commons.wikimedia.org/wiki/File:IllinoisTunnelMap1910.png"
+        },
+        {
+          "line": 4,
+          "text": "A14;A14_LOC_State_Street_1905.jpg;10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg;State Street, Chicago;Detroit Publishing Co.;c.1905;https://cdn.loc.gov/service/pnp/det/4a10000/4a12000/4a12800/4a12894r.jpg;https://www.loc.gov/item/2016805496/;Library of Congress: No known restrictions on publication;GREEN;Credit Library of Congress, Detroit Publishing Company Collection;https://www.loc.gov/item/2016805496/"
+        },
+        {
+          "line": 5,
+          "text": "A13;A13_LOC_State_Street_1903.jpg;10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg;State Street noonday crowds;Underwood & Underwood;1903;https://cdn.loc.gov/service/pnp/stereo/1s10000/1s12000/1s12700/1s12706v.jpg;https://www.loc.gov/item/2014650313/;Library of Congress: No known restrictions on publication;GREEN;Credit Library of Congress / Underwood & Underwood рекомендуется;https://www.loc.gov/item/2014650313/"
+        },
+        {
+          "line": 6,
+          "text": "A15;A15_LOC_Wabash_Avenue_c1900.jpg;10_ASSETS_WORK/archive/A15_LOC_Wabash_Avenue_c1900.jpg;Wabash Ave., north from Adams St.;Detroit Publishing Co.;c.1900;https://cdn.loc.gov/service/pnp/det/4a00000/4a08000/4a08100/4a08136v.jpg;https://www.loc.gov/item/2016799520/;Library of Congress: No known restrictions on publication;GREEN;Credit Library of Congress, Detroit Publishing Company Collection;https://www.loc.gov/item/2016799520/"
+        },
+        {
+          "line": 7,
+          "text": "A08;A08_IllinoisTelephoneAndTelegraphAd.png;10_ASSETS_WORK/archive/A08_IllinoisTelephoneAndTelegraphAd.png;Illinois Telephone & Telegraph advertisement;Unknown;1912;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTelephoneAndTelegraphAd.png;https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png;Public domain in the United States;YELLOW;\"Не требуется в США; credit рекомендуется\";https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png"
+        },
+        {
+          "line": 8,
+          "text": "A05;A05_IllinoisTunnelConstruction.jpg;10_ASSETS_WORK/archive/A05_IllinoisTunnelConstruction.jpg;Строительство бокового conduit/tunnel;George W. Jackson (d. 1922);1902;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelConstruction.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelConstruction.jpg;\"Public domain; Commons Public Domain Mark / life+70 note\";GREEN;\"Не требуется; credit рекомендуется\";https://commons.wikimedia.org/wiki/File:IllinoisTunnelConstruction.jpg"
+        },
+        {
+          "line": 9,
+          "text": "A07;A07_IllinoisTunnelTestTrain.jpg;10_ASSETS_WORK/archive/A07_IllinoisTunnelTestTrain.jpg;Loaded test train in tunnel;Not credited;1904;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelTestTrain.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelTestTrain.jpg;Public domain in the United States;YELLOW;\"Не требуется в США; credit рекомендуется\";https://commons.wikimedia.org/wiki/File:IllinoisTunnelTestTrain.jpg"
+        },
+        {
+          "line": 10,
+          "text": "A06;A06_IllinoisTunnelFirstTrain.jpg;10_ASSETS_WORK/archive/A06_IllinoisTunnelFirstTrain.jpg;Первый freight train / elevator;Anonymous work for hire;1905 (published 1910);https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelFirstTrain.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelFirstTrain.jpg;Public domain in the United States;YELLOW;\"Не требуется в США; credit рекомендуется\";https://commons.wikimedia.org/wiki/File:IllinoisTunnelFirstTrain.jpg"
+        },
+        {
+          "line": 11,
+          "text": "A16;A16_LOC_Illinois_Central_freight_1942.jpg;10_ASSETS_WORK/archive/A16_LOC_Illinois_Central_freight_1942.jpg;Southbound freight train leaving Illinois Central yard;Jack Delano, FSA/OWI;1942;https://cdn.loc.gov/service/pnp/fsa/8d23000/8d23200/8d23299v.jpg;https://www.loc.gov/item/2017839483/;FSA/OWI collection: public domain / no known restrictions;GREEN;Credit Library of Congress / Jack Delano recommended;https://www.loc.gov/item/2017839483/"
+        },
+        {
+          "line": 12,
+          "text": "A03;A03_ChicagoTunnelFieldsTrain.jpg;10_ASSETS_WORK/archive/A03_ChicagoTunnelFieldsTrain.jpg;Freight train leaving Marshall Field basement;Not credited;1912;https://commons.wikimedia.org/wiki/Special:Redirect/file/ChicagoTunnelFieldsTrain.jpg;https://commons.wikimedia.org/wiki/File:ChicagoTunnelFieldsTrain.jpg;Public domain in the United States;YELLOW;\"Не требуется в США; credit рекомендуется\";https://commons.wikimedia.org/wiki/File:ChicagoTunnelFieldsTrain.jpg"
+        },
+        {
+          "line": 13,
+          "text": "A12;A12_1937_Chicago_Tunnel_Terminal_Company.jpg;10_ASSETS_WORK/archive/A12_1937_Chicago_Tunnel_Terminal_Company.jpg;Chicago Tunnel map, 1925/1929 update;Unknown;1925, updated 1929;https://commons.wikimedia.org/wiki/Special:Redirect/file/1937_Chicago_Tunnel_Terminal_Company.jpg;https://commons.wikimedia.org/wiki/File:1937_Chicago_Tunnel_Terminal_Company.jpg;Public domain in the United States (no copyright notice per Commons);YELLOW;Credit рекомендуется;https://commons.wikimedia.org/wiki/File:193"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/music_downloads.csv",
+      "size_bytes": 4217,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 2,
+          "text": "M01;Aftermath;Kevin MacLeod;00:00:00.000;00:02:33.030;M01_Aftermath_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M01_Aftermath_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Aftermath.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100575;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;dark subtle mystery, opening;\"\"\"Aftermath\"\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attributio"
+        },
+        {
+          "line": 3,
+          "text": "M02;Ambiment;Kevin MacLeod;00:02:33.030;00:05:38.390;M02_Ambiment_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M02_Ambiment_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ambiment.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100630;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;calm investigative bed, origin and mechanics;\"\"\"Ambiment\"\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By"
+        },
+        {
+          "line": 4,
+          "text": "M03;Floating Cities;Kevin MacLeod;00:05:38.390;00:09:15.510;M03_Floating_Cities_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M03_Floating_Cities_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Floating%20Cities.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1600018;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;restrained scale and systems bed;\"\"\"Floating Cities\"\" Kevin MacLeod (incompetech.com) - Licensed u"
+        },
+        {
+          "line": 5,
+          "text": "M04;Mesmerize;Kevin MacLeod;00:09:15.510;00:13:34.260;M04_Mesmerize_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M04_Mesmerize_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Mesmerize.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1500005;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;subtle analytical tension, economics and decline;\"\"\"Mesmerize\"\" Kevin MacLeod (incompetech.com) - Licensed under Creative Co"
+        },
+        {
+          "line": 6,
+          "text": "M05;Long Note Two;Kevin MacLeod;00:13:34.260;00:15:26.090;M05_Long_Note_Two_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M05_Long_Note_Two_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20Two.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100420;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;minimal dark bed, shutdown and empty infrastructure;\"\"\"Long Note Two\"\" Kevin MacLeod (incompetech.com) -"
+        },
+        {
+          "line": 7,
+          "text": "M06;Lightless Dawn;Kevin MacLeod;00:15:26.090;00:17:55.870;M06_Lightless_Dawn_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M06_Lightless_Dawn_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lightless%20Dawn.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100655;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;controlled tension for 1992 flood;\"\"\"Lightless Dawn\"\" Kevin MacLeod (incompetech.com) - Licensed under"
+        },
+        {
+          "line": 8,
+          "text": "M07;Peace of Mind;Kevin MacLeod;00:17:55.870;00:21:30.720;M07_Peace_of_Mind_Kevin_MacLeod.mp3;10_ASSETS_WORK/music/M07_Peace_of_Mind_Kevin_MacLeod.mp3;https://incompetech.com/music/royalty-free/mp3-royaltyfree/Peace%20of%20Mind.mp3;https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200099;Creative Commons Attribution 4.0;https://creativecommons.org/licenses/by/4.0/;quiet reflective resolution and legacy;\"\"\"Peace of Mind\"\" Kevin MacLeod (incompetech.com) - Licensed und"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/04_DOWNLOADS/sfx_downloads.csv",
+      "size_bytes": 1140,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 2,
+          "text": "SFX01;Technical room of an industry;SFX01_industrial_room.mp3;10_ASSETS_WORK/sfx/SFX01_industrial_room.mp3;https://bigsoundbank.com/UPLOAD/mp3/0504.mp3;https://bigsoundbank.com/technical-room-of-an-industry-s0504.html;CC0 / public-domain equivalent;https://bigsoundbank.com/technical-room-of-an-industry-s0504.html;\"Not required; credit Joseph SARDIN / BigSoundBank appreciated\""
+        },
+        {
+          "line": 3,
+          "text": "SFX02;Passage of a train #1;SFX02_train_pass.mp3;10_ASSETS_WORK/sfx/SFX02_train_pass.mp3;https://bigsoundbank.com/UPLOAD/mp3/0900.mp3;https://bigsoundbank.com/train-passes-s0900.html;CC0 / public-domain equivalent;https://bigsoundbank.com/train-passes-s0900.html;\"Not required; credit Joseph SARDIN / BigSoundBank appreciated\""
+        },
+        {
+          "line": 4,
+          "text": "SFX03;Train in Station #1;SFX03_train_station.mp3;10_ASSETS_WORK/sfx/SFX03_train_station.mp3;https://bigsoundbank.com/UPLOAD/mp3/2723.mp3;https://bigsoundbank.com/train-in-station-1-s2723.html;CC0 / public-domain equivalent;https://bigsoundbank.com/train-in-station-1-s2723.html;\"Not required; credit Joseph SARDIN / BigSoundBank appreciated\""
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/05_PROMPTS/prompt_index.csv",
+      "size_bytes": 338970,
+      "keywords": [
+        "subtitle",
+        "caption",
+        "ass",
+        "narration",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "prompt_id;scene;start;end;asset;section;narration;visual;prompt;negative_prompt"
+        },
+        {
+          "line": 2,
+          "text": "P001;S001;00:00:00.000;00:00:11.520;10_ASSETS_WORK/generated/S001_P001.png;ANOTHER CHICAGO BELOW CHICAGO;Walk through downtown Chicago today, and almost nothing at street level tells you that another transportation network once existed roughly forty feet below the traffic.;\"Modern downtown Chicago street-level establishing shot, recognizable Loop architecture and everyday traffic; visual should imply hidden depth below without showing the tunnel yet; leave composition ready for a later downward "
+        },
+        {
+          "line": 3,
+          "text": "P002;S002;00:00:11.520;00:00:13.080;10_ASSETS_WORK/generated/S002_P002.png;ANOTHER CHICAGO BELOW CHICAGO;Not a subway.;Cutaway - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S002 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: modern Chicago with historical underground reconstruction. Scene objective: Visualize this specific narration idea as one immediately readable documentary frame: Not "
+        },
+        {
+          "line": 4,
+          "text": "P003;S004;00:00:16.590;00:00:29.860;10_ASSETS_WORK/generated/S004_P003.png;ANOTHER CHICAGO BELOW CHICAGO;Small electric locomotives hauled coal, merchandise, supplies, and ash through narrow tunnels beneath the Loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement-level facilities.;Cutaway - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S004 in a premium faceless YouTube documentary about Chicago's forgo"
+        },
+        {
+          "line": 5,
+          "text": "P004;S006;00:00:34.280;00:00:39.810;10_ASSETS_WORK/generated/S006_P004.png;ANOTHER CHICAGO BELOW CHICAGO;At its height, the network stretched roughly sixty miles beneath downtown Chicago.;\"Modern or timeless Chicago downtown skyline / simplified city-scale establishing frame that can transition into an underground network overlay; emphasize the scale of the city, not tourism postcard aesthetics.\";\"Create a 16:9 visual for S006 in a premium faceless YouTube documentary about Chicago's forgotten u"
+        },
+        {
+          "line": 6,
+          "text": "P005;S007;00:00:39.810;00:00:50.010;10_ASSETS_WORK/generated/S007_P005.png;ANOTHER CHICAGO BELOW CHICAGO;For decades, freight moved through an underground grid while the city continued above it. Then, in July 1959, the trains stopped.;Empty Tunnel - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S007 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: modern Chicago with historical underground re"
+        },
+        {
+          "line": 7,
+          "text": "P006;S008;00:00:50.010;00:00:53.940;10_ASSETS_WORK/generated/S008_P006.png;ANOTHER CHICAGO BELOW CHICAGO;The railroad disappeared as a working system.;Cutaway - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S008 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: modern Chicago with historical underground reconstruction. Scene objective: Visualize this specific narration idea as one immediately "
+        },
+        {
+          "line": 8,
+          "text": "P007;S010;00:00:55.620;00:01:01.590;10_ASSETS_WORK/generated/S010_P007.png;ANOTHER CHICAGO BELOW CHICAGO;So why did Chicago need an entire freight railroad beneath its streets?;Network Overlay - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S010 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: modern Chicago with historical underground reconstruction. Scene objective: Visualize this specific "
+        },
+        {
+          "line": 9,
+          "text": "P008;S011;00:01:01.590;00:01:07.450;10_ASSETS_WORK/generated/S011_P008.png;ANOTHER CHICAGO BELOW CHICAGO;And how could infrastructure this extensive become obsolete while much of its physical footprint remained?;Final - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S011 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: modern Chicago with historical underground reconstruction. Scene objective:"
+        },
+        {
+          "line": 10,
+          "text": "P009;S020;00:01:58.640;00:02:01.900;10_ASSETS_WORK/generated/S020_P009.png;THE PROBLEM ABOVE GROUND;The surface was carrying too many different jobs at once.;Cutaway - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S020 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: Chicago Loop around 1900-1910. Scene objective: Visualize this specific narration idea as one immediately readable documentary "
+        },
+        {
+          "line": 11,
+          "text": "P010;S022;00:02:24.230;00:02:28.020;10_ASSETS_WORK/generated/S022_P010.png;THE PROBLEM ABOVE GROUND;The idea was practical because the problem was physical.;Cutaway - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S022 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: Chicago Loop around 1900-1910. Scene objective: Visualize this specific narration idea as one immediately readable documentary f"
+        },
+        {
+          "line": 12,
+          "text": "P011;S030;00:03:09.480;00:03:12.710;10_ASSETS_WORK/generated/S030_P011.png;IT DIDN’T START AS A RAILROAD;What is clear is the transformation.;Gauge - generated reconstruction/diagram matched to narration.;\"Create a 16:9 visual for S030 in a premium faceless YouTube documentary about Chicago's forgotten underground freight railroad. Time period/context: Chicago 1899-1906, early tunnel construction and telephone infrastructure. Scene objective: Visualize this specific narration idea as one immedia"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/fact_map.csv",
+      "size_bytes": 5701,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 17,
+          "text": "S125;12:22;Passenger subway construction around 1939 cut important parts of freight network;UChicago;https://www.lib.uchicago.edu/collex/exhibits/under-your-feet/chicagos-freight-tunnels/;High;UChicago states subway tunnels constructed in 1939 at the same level cut off important parts of the network.;LOCKED"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/06_LICENSES_FACTS/license_manifest.csv",
+      "size_bytes": 9623,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "type;id;asset;source_page;download_url;license;license_url;attribution;risk"
+        },
+        {
+          "line": 2,
+          "text": "archive;A01;10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelIntersectionCloser.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelIntersectionCloser.jpg;Public domain in the United States;https://commons.wikimedia.org/wiki/File:IllinoisTunnelIntersectionCloser.jpg;\"Не требуется в США; credit источника рекомендуется\";YELLOW"
+        },
+        {
+          "line": 3,
+          "text": "archive;A02;10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png;https://commons.wikimedia.org/wiki/File:IllinoisTunnelMap1910.png;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelMap1910.png;Public domain in the United States;https://commons.wikimedia.org/wiki/File:IllinoisTunnelMap1910.png;\"Не требуется в США; credit рекомендуется\";YELLOW"
+        },
+        {
+          "line": 4,
+          "text": "archive;A14;10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg;https://www.loc.gov/item/2016805496/;https://cdn.loc.gov/service/pnp/det/4a10000/4a12000/4a12800/4a12894r.jpg;Library of Congress: No known restrictions on publication;https://www.loc.gov/item/2016805496/;Credit Library of Congress, Detroit Publishing Company Collection;GREEN"
+        },
+        {
+          "line": 5,
+          "text": "archive;A13;10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg;https://www.loc.gov/item/2014650313/;https://cdn.loc.gov/service/pnp/stereo/1s10000/1s12000/1s12700/1s12706v.jpg;Library of Congress: No known restrictions on publication;https://www.loc.gov/item/2014650313/;Credit Library of Congress / Underwood & Underwood рекомендуется;GREEN"
+        },
+        {
+          "line": 6,
+          "text": "archive;A15;10_ASSETS_WORK/archive/A15_LOC_Wabash_Avenue_c1900.jpg;https://www.loc.gov/item/2016799520/;https://cdn.loc.gov/service/pnp/det/4a00000/4a08000/4a08100/4a08136v.jpg;Library of Congress: No known restrictions on publication;https://www.loc.gov/item/2016799520/;Credit Library of Congress, Detroit Publishing Company Collection;GREEN"
+        },
+        {
+          "line": 7,
+          "text": "archive;A08;10_ASSETS_WORK/archive/A08_IllinoisTelephoneAndTelegraphAd.png;https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTelephoneAndTelegraphAd.png;Public domain in the United States;https://commons.wikimedia.org/wiki/File:IllinoisTelephoneAndTelegraphAd.png;\"Не требуется в США; credit рекомендуется\";YELLOW"
+        },
+        {
+          "line": 8,
+          "text": "archive;A05;10_ASSETS_WORK/archive/A05_IllinoisTunnelConstruction.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelConstruction.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelConstruction.jpg;\"Public domain; Commons Public Domain Mark / life+70 note\";https://commons.wikimedia.org/wiki/File:IllinoisTunnelConstruction.jpg;\"Не требуется; credit рекомендуется\";GREEN"
+        },
+        {
+          "line": 9,
+          "text": "archive;A07;10_ASSETS_WORK/archive/A07_IllinoisTunnelTestTrain.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelTestTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelTestTrain.jpg;Public domain in the United States;https://commons.wikimedia.org/wiki/File:IllinoisTunnelTestTrain.jpg;\"Не требуется в США; credit рекомендуется\";YELLOW"
+        },
+        {
+          "line": 10,
+          "text": "archive;A06;10_ASSETS_WORK/archive/A06_IllinoisTunnelFirstTrain.jpg;https://commons.wikimedia.org/wiki/File:IllinoisTunnelFirstTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/IllinoisTunnelFirstTrain.jpg;Public domain in the United States;https://commons.wikimedia.org/wiki/File:IllinoisTunnelFirstTrain.jpg;\"Не требуется в США; credit рекомендуется\";YELLOW"
+        },
+        {
+          "line": 11,
+          "text": "archive;A16;10_ASSETS_WORK/archive/A16_LOC_Illinois_Central_freight_1942.jpg;https://www.loc.gov/item/2017839483/;https://cdn.loc.gov/service/pnp/fsa/8d23000/8d23200/8d23299v.jpg;FSA/OWI collection: public domain / no known restrictions;https://www.loc.gov/item/2017839483/;Credit Library of Congress / Jack Delano recommended;GREEN"
+        },
+        {
+          "line": 12,
+          "text": "archive;A03;10_ASSETS_WORK/archive/A03_ChicagoTunnelFieldsTrain.jpg;https://commons.wikimedia.org/wiki/File:ChicagoTunnelFieldsTrain.jpg;https://commons.wikimedia.org/wiki/Special:Redirect/file/ChicagoTunnelFieldsTrain.jpg;Public domain in the United States;https://commons.wikimedia.org/wiki/File:ChicagoTunnelFieldsTrain.jpg;\"Не требуется в США; credit рекомендуется\";YELLOW"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/07_SHORTS_REELS/reels_plan.csv",
+      "size_bytes": 4289,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "8,Chicago’s Subway Cut Through an Older Railroad,Infrastructure generation conflict.,Chicago’s passenger subway arrived while the freight tunnels were still operating.,New passenger subway construction severed parts of the older freight network.,45-60s,9.4,Strong contradiction and highly visual diagram.,POST-LONG-FORM #8,12:15,12:34,18.6"
+        },
+        {
+          "line": 13,
+          "text": "12,Why Good Infrastructure Becomes Obsolete,Big idea / channel thesis.,Chicago’s tunnel railroad did not disappear because one invention suddenly made it useless.,Infrastructure can lose the economy that justified it without mechanically failing.,60-80s,9.0,Strong intellectual shareability; narrower mass-market hook.,POST-LONG-FORM #12,19:33,21:26,112.1"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/_download_common.py",
+      "size_bytes": 690,
+      "keywords": [
+        "resolve"
+      ],
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "ROOT=Path(__file__).resolve().parents[1]"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/check_links.py",
+      "size_bytes": 1326,
+      "keywords": [
+        "ass",
+        "resolve"
+      ],
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "ROOT=Path(__file__).resolve().parents[1]"
+        },
+        {
+          "line": 27,
+          "text": "print('\\nLINK CHECK: PASS')"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/09_TOOLS/validate_project.py",
+      "size_bytes": 4717,
+      "keywords": [
+        "subtitle",
+        "ass",
+        "master",
+        "resolve",
+        "narration"
+      ],
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "ROOT=Path(__file__).resolve().parents[1]"
+        },
+        {
+          "line": 21,
+          "text": "expected=['scene','start','end','track','type','asset','text','z','source_in','source_out','preset','params','transition_in','transition_out','mode','notes']"
+        },
+        {
+          "line": 24,
+          "text": "tracks={'V1','V2','V3','V4','V5','A1','A2','A3','A4'}; types={'video','image','text','overlay','shape','voice','music','sfx','ambience','subtitle'}; modes={'EXACT','ASSISTED','AUTO'}"
+        },
+        {
+          "line": 46,
+          "text": "# subtitles compare count + end"
+        },
+        {
+          "line": 47,
+          "text": "subs=[r for r in rows if r['type']=='subtitle']"
+        },
+        {
+          "line": 48,
+          "text": "if len(subs)!=293: err(f'subtitle rows {len(subs)} !=293')"
+        },
+        {
+          "line": 49,
+          "text": "if subs and max(ms(r['end']) for r in subs)!=1290720: err('subtitle end != audio end')"
+        },
+        {
+          "line": 51,
+          "text": "master=read_csv(ROOT/'00_START_HERE/master_assets.csv'); bydest={r['destination']:r for r in master}"
+        },
+        {
+          "line": 53,
+          "text": "if r['asset'] not in bydest: err(f'{r[\"scene\"]} asset not in master: {r[\"asset\"]}')"
+        },
+        {
+          "line": 55,
+          "text": "prompts=read_csv(ROOT/'05_PROMPTS/prompt_index.csv'); passets={r['asset'] for r in prompts}"
+        },
+        {
+          "line": 56,
+          "text": "gen={r['destination'] for r in master if r['mode']=='GENERATE'}"
+        },
+        {
+          "line": 57,
+          "text": "if passets!=gen: err(f'prompt asset mismatch prompt={len(passets)} gen={len(gen)}')"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_FAILURES.csv",
+      "size_bytes": 77,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "asset_id;expected_filename;source_page;failed_url;reason;recommended_action"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_REPORT.json",
+      "size_bytes": 956,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 16,
+          "text": "\"media_validation\": \"PASS\","
+        },
+        {
+          "line": 25,
+          "text": "\"Six Wikimedia images use official 1280px versions of the identical source assets. See DOWNLOAD_RECOVERY.json.\""
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/DOWNLOAD_SOURCE_AUDIT.json",
+      "size_bytes": 62197,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "\"wgWMEPageLength\\\":1000,\\\"wbUserPreferredContentLanguages\\\":[\\\"en\\\"],\\\"wbUserSpecifiedLanguages\\\":[\\\"en\\\"],\\\"wbCopyright\\\":{\\\"version\\\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irr\","
+        },
+        {
+          "line": 10,
+          "text": "\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://cre\","
+        },
+        {
+          "line": 11,
+          "text": "\"\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://creativecommons.org/publicdomain/zero/1.0/\\\\\\\"\\\\u003ECrea\","
+        },
+        {
+          "line": 32,
+          "text": "\"wgWMEPageLength\\\":1000,\\\"wbUserPreferredContentLanguages\\\":[\\\"en\\\"],\\\"wbUserSpecifiedLanguages\\\":[\\\"en\\\"],\\\"wbCopyright\\\":{\\\"version\\\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irr\","
+        },
+        {
+          "line": 33,
+          "text": "\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://cre\","
+        },
+        {
+          "line": 34,
+          "text": "\"\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://creativecommons.org/publicdomain/zero/1.0/\\\\\\\"\\\\u003ECrea\","
+        },
+        {
+          "line": 77,
+          "text": "\"wgWMEPageLength\\\":2000,\\\"wbUserPreferredContentLanguages\\\":[\\\"en\\\"],\\\"wbUserSpecifiedLanguages\\\":[\\\"en\\\"],\\\"wbCopyright\\\":{\\\"version\\\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irr\","
+        },
+        {
+          "line": 78,
+          "text": "\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://cre\","
+        },
+        {
+          "line": 79,
+          "text": "\"\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://creativecommons.org/publicdomain/zero/1.0/\\\\\\\"\\\\u003ECrea\","
+        },
+        {
+          "line": 100,
+          "text": "\"wgWMEPageLength\\\":1000,\\\"wbUserPreferredContentLanguages\\\":[\\\"en\\\"],\\\"wbUserSpecifiedLanguages\\\":[\\\"en\\\"],\\\"wbCopyright\\\":{\\\"version\\\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irr\","
+        },
+        {
+          "line": 101,
+          "text": "\":\\\"wikibase-1\\\",\\\"messageHtml\\\":\\\"By clicking \\\\\\\"publish\\\\\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://cre\","
+        },
+        {
+          "line": 102,
+          "text": "\"\\\", you agree to the \\\\u003Ca href=\\\\\\\"/wiki/Commons:Copyrights\\\\\\\" class=\\\\\\\"mw-redirect\\\\\\\" title=\\\\\\\"Commons:Copyrights\\\\\\\"\\\\u003Eterms of use\\\\u003C/a\\\\u003E, and you irrevocably agree to release your contribution under the \\\\u003Ca rel=\\\\\\\"nofollow\\\\\\\" class=\\\\\\\"external text\\\\\\\" href=\\\\\\\"https://creativecommons.org/publicdomain/zero/1.0/\\\\\\\"\\\\u003ECrea\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/MEDIA_VALIDATION.json",
+      "size_bytes": 75509,
+      "keywords": [
+        "caption",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 63,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 73,
+          "text": "\"filename\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 92,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png\","
+        },
+        {
+          "line": 146,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 156,
+          "text": "\"filename\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A02_IllinoisTunnelMap1910.png\","
+        },
+        {
+          "line": 172,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A14_LOC_State_Street_1905.jpg\","
+        },
+        {
+          "line": 230,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 240,
+          "text": "\"filename\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A14_LOC_State_Street_1905.jpg\","
+        },
+        {
+          "line": 259,
+          "text": "\"destination\": \"10_ASSETS_WORK/archive/A13_LOC_State_Street_1903.jpg\","
+        },
+        {
+          "line": 318,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 328,
+          "text": "\"filename\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A13_LOC_State_Street_1903.jpg\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/asset_manifest.csv",
+      "size_bytes": 28980,
+      "keywords": [
+        "subtitle",
+        "srt",
+        "ass",
+        "master",
+        "voiceover"
+      ],
+      "excerpts": [
+        {
+          "line": 16,
+          "text": "00_START_HERE/master_assets.csv,master_assets.csv,OTHER,,,/Date(1789274127000)/,25227,normal,"
+        },
+        {
+          "line": 17,
+          "text": "00_START_HERE/master_assets.json,master_assets.json,OTHER,,,/Date(1789274127000)/,60389,normal,"
+        },
+        {
+          "line": 23,
+          "text": "01_AUDIO/voice.wav,voice.wav,VOICEOVER,1290.720000,,/Date(1789263721000)/,113841582,high,"
+        },
+        {
+          "line": 25,
+          "text": "02_SCRIPT/voiceover_en.txt,voiceover_en.txt,SCRIPT,,,/Date(1789270647000)/,18095,high,"
+        },
+        {
+          "line": 28,
+          "text": "03_TIMELINE/subtitles_en.srt,subtitles_en.srt,SUBTITLES,,,/Date(1789266817000)/,28007,high,"
+        },
+        {
+          "line": 59,
+          "text": "10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg,A01_IllinoisTunnelIntersectionCloser.jpg,PHOTO,,1582x1195,/Date(1789275469833)/,334154,normal,"
+        },
+        {
+          "line": 60,
+          "text": "10_ASSETS_WORK/archive/A02_IllinoisTunnelMap1910.png,A02_IllinoisTunnelMap1910.png,MAP,,1948x2596,/Date(1789275471058)/,2546087,normal,"
+        },
+        {
+          "line": 61,
+          "text": "10_ASSETS_WORK/archive/A03_ChicagoTunnelFieldsTrain.jpg,A03_ChicagoTunnelFieldsTrain.jpg,PHOTO,,1280x925,/Date(1789275633830)/,201001,normal,"
+        },
+        {
+          "line": 62,
+          "text": "10_ASSETS_WORK/archive/A04_TunnelCoalDelivery.jpg,A04_TunnelCoalDelivery.jpg,PHOTO,,1280x857,/Date(1789275646570)/,136956,normal,"
+        },
+        {
+          "line": 63,
+          "text": "10_ASSETS_WORK/archive/A05_IllinoisTunnelConstruction.jpg,A05_IllinoisTunnelConstruction.jpg,PHOTO,,1280x1806,/Date(1789275615883)/,330096,normal,"
+        },
+        {
+          "line": 64,
+          "text": "10_ASSETS_WORK/archive/A06_IllinoisTunnelFirstTrain.jpg,A06_IllinoisTunnelFirstTrain.jpg,PHOTO,,1280x818,/Date(1789275627833)/,225119,normal,"
+        },
+        {
+          "line": 65,
+          "text": "10_ASSETS_WORK/archive/A07_IllinoisTunnelTestTrain.jpg,A07_IllinoisTunnelTestTrain.jpg,PHOTO,,1280x756,/Date(1789275621857)/,186294,normal,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/codex_edit_state.json",
+      "size_bytes": 1340,
+      "keywords": [
+        "subtitle",
+        "ass",
+        "master",
+        "voiceover"
+      ],
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "\"canonical_script\": \"02_SCRIPT/voiceover_en.txt\","
+        },
+        {
+          "line": 7,
+          "text": "\"canonical_voiceover\": \"01_AUDIO/voice.wav\","
+        },
+        {
+          "line": 14,
+          "text": "\"corrected_assets\": {"
+        },
+        {
+          "line": 33,
+          "text": "\"audio_master_completed\": true,"
+        },
+        {
+          "line": 34,
+          "text": "\"subtitle_alignment_completed\": true"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/edit_plan.md",
+      "size_bytes": 2628,
+      "keywords": [
+        "srt",
+        "ass",
+        "master"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "Voice is the unchanged 1290.720-second master. 1080p / 25 fps; full 720p proxy before final."
+        },
+        {
+          "line": 5,
+          "text": "Five major chapter cards, a brief post-hook brand moment, final 18-second end screen. Seven music states follow existing chapter boundaries, with voice-driven ducking. English SRT delivered separately."
+        },
+        {
+          "line": 7,
+          "text": "Corrections: replace 17 misleading technical/map or baked-editorial-text assets with existing relevant library sources."
+        },
+        {
+          "line": 13,
+          "text": "00:05:38.390 — THIS WASN’T ONE TUNNEL: The easiest way to underestimate Chicago’s freight tunnels is to picture one long underground passage."
+        },
+        {
+          "line": 17,
+          "text": "00:12:15.410 — THE CITY CHANGED AROUND THE RAILROAD: Chicago’s passenger subway arrived while the freight tunnels were still operating."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/edit_scenes.json",
+      "size_bytes": 232918,
+      "keywords": [
+        "ass",
+        "resolve",
+        "narration",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "\"asset\": \"10_ASSETS_WORK/generated/S001_P001.png\","
+        },
+        {
+          "line": 10,
+          "text": "\"narration\": \"Walk through downtown Chicago today, and almost nothing at street level tells you that another transportation network once existed roughly forty feet below the traffic.\","
+        },
+        {
+          "line": 13,
+          "text": "\"resolved_asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\12_\\u0413\\u0435\\u043d\\u0435\\u0440\\u0430\\u0446\\u0438\\u0438\\\\S001_P001.png\","
+        },
+        {
+          "line": 26,
+          "text": "\"asset\": \"10_ASSETS_WORK/generated/S002_P002.png\","
+        },
+        {
+          "line": 27,
+          "text": "\"narration\": \"Not a subway.\","
+        },
+        {
+          "line": 28,
+          "text": "\"visual\": \"Cutaway - generated reconstruction/diagram matched to narration.\","
+        },
+        {
+          "line": 30,
+          "text": "\"resolved_asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\12_\\u0413\\u0435\\u043d\\u0435\\u0440\\u0430\\u0446\\u0438\\u0438\\\\S002_P002.png\","
+        },
+        {
+          "line": 43,
+          "text": "\"asset\": \"10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 44,
+          "text": "\"narration\": \"A freight railroad.\","
+        },
+        {
+          "line": 47,
+          "text": "\"resolved_asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 60,
+          "text": "\"asset\": \"10_ASSETS_WORK/generated/S004_P003.png\","
+        },
+        {
+          "line": 61,
+          "text": "\"narration\": \"Small electric locomotives hauled coal, merchandise, supplies, and ash through narrow tunnels beneath the Loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement-level facilities.\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/hia_edit_local.py",
+      "size_bytes": 25777,
+      "keywords": [
+        "subtitle",
+        "caption",
+        "srt",
+        "ass",
+        "final_upload",
+        "master",
+        "ffmpeg",
+        "resolve",
+        "voiceover",
+        "narration",
+        "timing",
+        "sync"
+      ],
+      "excerpts": [
+        {
+          "line": 22,
+          "text": "meta=json.loads(run(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(p)]));dur=meta['format']['duration'];typ='VOICEOVER' if ex=='.wav' else 'MUSIC' if '/music/' in rel else 'SFX'"
+        },
+        {
+          "line": 23,
+          "text": "elif ex=='.srt':typ='SUBTITLES'"
+        },
+        {
+          "line": 26,
+          "text": "rows.append(dict(path=rel,filename=p.name,type=typ,duration=dur,resolution=res,modified=a['LastWriteTimeUtc'],size=a['Length'],priority='high' if typ in ('VOICEOVER','SCRIPT','SUBTITLES') else 'normal',notes=''))"
+        },
+        {
+          "line": 27,
+          "text": "with (W/'asset_manifest.csv').open('w',newline='',encoding='utf-8') as f:"
+        },
+        {
+          "line": 31,
+          "text": "p=R/s['asset']"
+        },
+        {
+          "line": 32,
+          "text": "if not p.exists():p=lookup.get(Path(s['asset']).name,p)"
+        },
+        {
+          "line": 33,
+          "text": "s['resolved_asset']=str(p)"
+        },
+        {
+          "line": 35,
+          "text": "(W/'resolved_scenes.json').write_text(json.dumps(scenes,indent=2),encoding='utf-8')"
+        },
+        {
+          "line": 41,
+          "text": "sheet.save(Q/f'assets_{part+1:02d}.jpg',quality=85)"
+        },
+        {
+          "line": 42,
+          "text": "state(canonical_script='02_SCRIPT/voiceover_en.txt',canonical_voiceover='01_AUDIO/voice.wav',manifest_completed=True)"
+        },
+        {
+          "line": 43,
+          "text": "print(json.dumps({'assets':len(rows),'pictures':len(pictures),'scenes':len(scenes),'missing':missing,'sheets':math.ceil(len(pictures)/40)}))"
+        },
+        {
+          "line": 44,
+          "text": "def sync_check():"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/inventory_raw.json",
+      "size_bytes": 66305,
+      "keywords": [
+        "subtitle",
+        "srt",
+        "ass",
+        "master",
+        "voiceover"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "﻿[{\"FullName\":\"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\ARCHIVE_DOWNLOAD_REPORT.txt\",\"Length\":7806,\"LastWriteTimeUtc\":\"\\/Date(1789275477817)\\/\"},{\"FullName\":\"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\channel_branding_prompts.pdf\",\"Length\":59331,\"LastWriteTimeUtc\":\"\\/Date(1789279788961)\\/\"},{\"FullName\":\"C:\\\\Users"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/resolved_scenes.json",
+      "size_bytes": 165939,
+      "keywords": [
+        "ass",
+        "resolve",
+        "narration",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "\"asset\": \"10_ASSETS_WORK/generated/S001_P001.png\","
+        },
+        {
+          "line": 10,
+          "text": "\"narration\": \"Walk through downtown Chicago today, and almost nothing at street level tells you that another transportation network once existed roughly forty feet below the traffic.\","
+        },
+        {
+          "line": 13,
+          "text": "\"resolved_asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\12_\\u0413\\u0435\\u043d\\u0435\\u0440\\u0430\\u0446\\u0438\\u0438\\\\S001_P001.png\""
+        },
+        {
+          "line": 22,
+          "text": "\"asset\": \"10_ASSETS_WORK/generated/S002_P002.png\","
+        },
+        {
+          "line": 23,
+          "text": "\"narration\": \"Not a subway.\","
+        },
+        {
+          "line": 24,
+          "text": "\"visual\": \"Cutaway - generated reconstruction/diagram matched to narration.\","
+        },
+        {
+          "line": 26,
+          "text": "\"resolved_asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\12_\\u0413\\u0435\\u043d\\u0435\\u0440\\u0430\\u0446\\u0438\\u0438\\\\S002_P002.png\""
+        },
+        {
+          "line": 35,
+          "text": "\"asset\": \"10_ASSETS_WORK/archive/A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 36,
+          "text": "\"narration\": \"A freight railroad.\","
+        },
+        {
+          "line": 39,
+          "text": "\"resolved_asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A01_IllinoisTunnelIntersectionCloser.jpg\""
+        },
+        {
+          "line": 48,
+          "text": "\"asset\": \"10_ASSETS_WORK/generated/S004_P003.png\","
+        },
+        {
+          "line": 49,
+          "text": "\"narration\": \"Small electric locomotives hauled coal, merchandise, supplies, and ash through narrow tunnels beneath the Loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement-level facilities.\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_EDIT_WORK/script_segments.csv",
+      "size_bytes": 8102,
+      "keywords": [
+        "ass",
+        "narration"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "start,end,narration_summary,purpose,visual_type,primary_asset,secondary_asset,graphics,music_state"
+        },
+        {
+          "line": 3,
+          "text": "70.32,153.68,THE PROBLEM ABOVE GROUND,The reason begins with a problem Chicago could see every day.,archive / reconstruction / explanatory detail,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\10_ASSETS_WORK\\archive\\A14_LOC_State_Street_1905.jpg,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\10_ASSETS_WORK\\archive\\A14_LOC_State_Street_1"
+        },
+        {
+          "line": 4,
+          "text": "153.68,233.67,IT DIDN’T START AS A RAILROAD,Chicago’s underground freight railroad did not actually begin as a railroad.,archive / reconstruction / explanatory detail,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\10_ASSETS_WORK\\archive\\A08_IllinoisTelephoneAndTelegraphAd.png,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\10_ASSETS_WORK"
+        },
+        {
+          "line": 6,
+          "text": "341.92,471.44,THIS WASN’T ONE TUNNEL,The easiest way to underestimate Chicago’s freight tunnels is to picture one long underground passage.,archive / reconstruction / explanatory detail,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\10_ASSETS_WORK\\archive\\A01_IllinoisTunnelIntersectionCloser.jpg,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_REA"
+        },
+        {
+          "line": 7,
+          "text": "471.44,560.26,COAL IN. ASH OUT.,Coal explains why the tunnel railroad could make economic sense.,archive / reconstruction / explanatory detail,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\10_ASSETS_WORK\\archive\\A04_TunnelCoalDelivery.jpg,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\12_Генерации\\S090_P042.png,restrained titles and re"
+        },
+        {
+          "line": 10,
+          "text": "730.78,809.98,THE CITY CHANGED AROUND THE RAILROAD,Chicago’s passenger subway arrived while the freight tunnels were still operating.,archive / reconstruction / explanatory detail,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\12_Генерации\\S124_P072.png,C:\\Users\\KK\\Desktop\\Youtube 2\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\12_Генерации\\S139_P084.png,restrained"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/EDIT_REPORT.md",
+      "size_bytes": 802,
+      "keywords": [
+        "subtitle",
+        "srt",
+        "ass",
+        "narration",
+        "timing"
+      ],
+      "excerpts": [
+        {
+          "line": 6,
+          "text": "Subtitle status: PASS; English sidecar SRT, 320 cues, maximum two lines; retimed to unchanged narration and checked at five points."
+        },
+        {
+          "line": 7,
+          "text": "Brand assets used: 03 Documentary Title Card; 06 End Screen (last 18 seconds)."
+        },
+        {
+          "line": 8,
+          "text": "Critical corrections made: repaired original 3–4-second variable subtitle drift; aligned scene timing; remapped generated-media paths; replaced 17 misleading technical/map or baked-editorial-text images using existing library sources; labeled reconstructions."
+        },
+        {
+          "line": 9,
+          "text": "QC result: PASS. Full decode successful, no detected black intervals, no missing timeline media, audio within target; sampled visuals and end screen verified."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt",
+      "size_bytes": 30435,
+      "keywords": [
+        "ass",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 117,
+          "text": "And once that coal was burned,"
+        },
+        {
+          "line": 146,
+          "text": "had nothing to do with passengers."
+        },
+        {
+          "line": 226,
+          "text": "A project associated with underground"
+        },
+        {
+          "line": 246,
+          "text": "confined underground passages."
+        },
+        {
+          "line": 390,
+          "text": "long underground passage."
+        },
+        {
+          "line": 562,
+          "text": "burned, the waste had to leave."
+        },
+        {
+          "line": 602,
+          "text": "glamorous replacement for passenger rail."
+        },
+        {
+          "line": 830,
+          "text": "Chicago’s passenger subway arrived while"
+        },
+        {
+          "line": 1067,
+          "text": "network passed beneath the river near"
+        },
+        {
+          "line": 1210,
+          "text": "It still had passages."
+        },
+        {
+          "line": 1214,
+          "text": "And where those passages remained"
+        },
+        {
+          "line": 1252,
+          "text": "In 1996, construction associated with"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/alignment_report.json",
+      "size_bytes": 346,
+      "keywords": [
+        "srt"
+      ],
+      "excerpts": [
+        {
+          "line": 2,
+          "text": "\"reason\": \"Original SRT has varying errors around 3-4 seconds at quarter/middle/three-quarter samples.\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/final_ffprobe.json",
+      "size_bytes": 3871,
+      "keywords": [
+        "caption",
+        "final_upload"
+      ],
+      "excerpts": [
+        {
+          "line": 53,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 106,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 120,
+          "text": "\"filename\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_FINAL\\\\HIA_CHICAGO_FINAL_UPLOAD.mp4\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/final_qc.json",
+      "size_bytes": 445,
+      "keywords": [
+        "subtitle",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 12,
+          "text": "\"subtitle_cues\": 320,"
+        },
+        {
+          "line": 13,
+          "text": "\"subtitle_errors\": [],"
+        },
+        {
+          "line": 14,
+          "text": "\"visual_review\": \"PASS: opening, quarter, half, three-quarter, ending and five chapter cards inspected.\","
+        },
+        {
+          "line": 15,
+          "text": "\"automated_pass\": true"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/proxy_ffprobe.json",
+      "size_bytes": 3859,
+      "keywords": [
+        "caption"
+      ],
+      "excerpts": [
+        {
+          "line": 53,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 106,
+          "text": "\"captions\": 0,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/proxy_qc.json",
+      "size_bytes": 444,
+      "keywords": [
+        "subtitle",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 12,
+          "text": "\"subtitle_cues\": 320,"
+        },
+        {
+          "line": 13,
+          "text": "\"subtitle_errors\": [],"
+        },
+        {
+          "line": 14,
+          "text": "\"visual_review\": \"PASS: opening, quarter, half, three-quarter, ending and five chapter cards inspected.\","
+        },
+        {
+          "line": 15,
+          "text": "\"automated_pass\": true"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_QC/voice_words.json",
+      "size_bytes": 145152,
+      "keywords": [
+        "ass",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "[{\"start\": 0.0, \"end\": 0.26, \"word\": \" Walk\"}, {\"start\": 0.26, \"end\": 0.54, \"word\": \" through\"}, {\"start\": 0.54, \"end\": 1.02, \"word\": \" downtown\"}, {\"start\": 1.02, \"end\": 1.58, \"word\": \" Chicago\"}, {\"start\": 1.58, \"end\": 2.1, \"word\": \" today\"}, {\"start\": 2.1, \"end\": 2.98, \"word\": \" and\"}, {\"start\": 2.98, \"end\": 3.28, \"word\": \" almost\"}, {\"start\": 3.28, \"end\": 3.68, \"word\": \" nothing\"}, {\"start\": 3.68, \"end\": 3.86, \"word\": \" at\"}, {\"start\": 3.86, \"end\": 4.16, \"word\": \" street\"}, {\"start\": 4.16, \""
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/DELIVERY_MANIFEST.json",
+      "size_bytes": 891,
+      "keywords": [
+        "srt"
+      ],
+      "excerpts": [
+        {
+          "line": 8,
+          "text": "\"path\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\final\\\\HIA_CHICAGO_V2.srt\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/HIA_CHICAGO_V2.srt",
+      "size_bytes": 31161,
+      "keywords": [
+        "ass",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 132,
+          "text": "And once that coal was burned,"
+        },
+        {
+          "line": 162,
+          "text": "had nothing to do with passengers."
+        },
+        {
+          "line": 250,
+          "text": "A project associated with underground"
+        },
+        {
+          "line": 270,
+          "text": "confined underground passages."
+        },
+        {
+          "line": 421,
+          "text": "long underground passage."
+        },
+        {
+          "line": 601,
+          "text": "Then, after the coal was burned,"
+        },
+        {
+          "line": 645,
+          "text": "glamorous replacement for passenger rail."
+        },
+        {
+          "line": 893,
+          "text": "Chicago’s passenger subway arrived while"
+        },
+        {
+          "line": 1148,
+          "text": "network passed beneath the river near"
+        },
+        {
+          "line": 1292,
+          "text": "It still had passages."
+        },
+        {
+          "line": 1296,
+          "text": "And where those passages remained"
+        },
+        {
+          "line": 1334,
+          "text": "In 1996, construction associated with Lake"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/final/V2_QC_REPORT.md",
+      "size_bytes": 3335,
+      "keywords": [
+        "subtitle",
+        "srt",
+        "ass",
+        "transcript",
+        "resolve"
+      ],
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "Technical QC: PASS. Full decode; no detected black intervals; subtitle sequence valid; audio bitstream SHA-256 identical to V1. Loudness -14.05 LUFS, true peak -4.48 dBTP."
+        },
+        {
+          "line": 7,
+          "text": "Motion QC: PASS in three isolated 1080p tests and three samples of the finished video. The old stop/2-pixel-step pattern is absent in measured samples. Subpixel perspective interpolation replaces zoompan; motion is selected by content. Static holds are intentional."
+        },
+        {
+          "line": 13,
+          "text": "Subtitles: 338 English sidecar cues; maximum 42 characters per line / two lines. Orphan tails regrouped, no >20 cps cues in the final reflow. One sub-second emphasis remains: \"Coal in.\". Source wording preserved. Seven short fresh checks of the actual mixed audio support key cue onsets; the ambiguous zero-duration ASR token near 08:37 was resolved by grouping the whole phrase. No full re-transcription."
+        },
+        {
+          "line": 21,
+          "text": "Final timestamps: 32,268 distinct presentation timestamps; every interval is 0.040 seconds. The delivered SRT was parsed independently: 338 cues, unchanged source words, no overlap, maximum 42 characters per line, maximum 19.92 characters/second. V1 size and modification timestamps were verified unchanged."
+        },
+        {
+          "line": 23,
+          "text": "Evidence is retained in ../qc/: final_qc.json, final_offcenter_motion.json, uncompressed_motion_diagnosis.json, final_pts_validation.json, delivered_srt_validation.json, final_review.jpg. Small diagnostic tests reused final-render clips where possible; no additional full proxy or full final render was required."
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/delivered_srt_validation.json",
+      "size_bytes": 127,
+      "keywords": [
+        "srt"
+      ],
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "\"actual_srt_matches_plan\": true,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_metadata.json",
+      "size_bytes": 3865,
+      "keywords": [
+        "caption"
+      ],
+      "excerpts": [
+        {
+          "line": 53,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 106,
+          "text": "\"captions\": 0,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/final_qc.json",
+      "size_bytes": 2099,
+      "keywords": [
+        "subtitle",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 12,
+          "text": "\"subtitle_errors\": [],"
+        },
+        {
+          "line": 43,
+          "text": "\"technical_pass\": true,"
+        },
+        {
+          "line": 44,
+          "text": "\"motion_pass\": true,"
+        },
+        {
+          "line": 45,
+          "text": "\"initial_brightness_metric_pass\": false,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/motion_test_metrics.json",
+      "size_bytes": 782,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 11,
+          "text": "\"pass\": true"
+        },
+        {
+          "line": 22,
+          "text": "\"pass\": true"
+        },
+        {
+          "line": 33,
+          "text": "\"pass\": true"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_metadata.json",
+      "size_bytes": 3865,
+      "keywords": [
+        "caption"
+      ],
+      "excerpts": [
+        {
+          "line": 53,
+          "text": "\"captions\": 0,"
+        },
+        {
+          "line": 106,
+          "text": "\"captions\": 0,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/proxy_qc.json",
+      "size_bytes": 2097,
+      "keywords": [
+        "subtitle",
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 12,
+          "text": "\"subtitle_errors\": [],"
+        },
+        {
+          "line": 43,
+          "text": "\"technical_pass\": true,"
+        },
+        {
+          "line": 44,
+          "text": "\"motion_pass\": true,"
+        },
+        {
+          "line": 45,
+          "text": "\"initial_brightness_metric_pass\": false,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/subtitle_audio_verification.json",
+      "size_bytes": 3654,
+      "keywords": [
+        "srt"
+      ],
+      "excerpts": [
+        {
+          "line": 7,
+          "text": "\"srt_start\": 5.08,"
+        },
+        {
+          "line": 18,
+          "text": "\"srt_start\": 305.02,"
+        },
+        {
+          "line": 24,
+          "text": "\"srt_start\": 307.98,"
+        },
+        {
+          "line": 30,
+          "text": "\"srt_start\": 311.56,"
+        },
+        {
+          "line": 41,
+          "text": "\"srt_start\": 517.24,"
+        },
+        {
+          "line": 47,
+          "text": "\"srt_start\": 520.0,"
+        },
+        {
+          "line": 53,
+          "text": "\"srt_start\": 523.7,"
+        },
+        {
+          "line": 64,
+          "text": "\"srt_start\": 636.56,"
+        },
+        {
+          "line": 70,
+          "text": "\"srt_start\": 642.3,"
+        },
+        {
+          "line": 76,
+          "text": "\"srt_start\": 644.1,"
+        },
+        {
+          "line": 87,
+          "text": "\"srt_start\": 956.48,"
+        },
+        {
+          "line": 93,
+          "text": "\"srt_start\": 964.42,"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/qc/uncompressed_motion_diagnosis.json",
+      "size_bytes": 352,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 8,
+          "text": "\"pass\": true"
+        },
+        {
+          "line": 16,
+          "text": "\"pass\": true"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/captions.json",
+      "size_bytes": 79716,
+      "keywords": [
+        "ass",
+        "burn"
+      ],
+      "excerpts": [
+        {
+          "line": 269,
+          "text": "\"text\": \"And once that coal was burned, the ash had to be removed.\","
+        },
+        {
+          "line": 272,
+          "text": "\"And once that coal was burned,\","
+        },
+        {
+          "line": 329,
+          "text": "\"text\": \"had nothing to do with passengers. If some of the city\\u2019s repetitive\","
+        },
+        {
+          "line": 332,
+          "text": "\"had nothing to do with passengers.\","
+        },
+        {
+          "line": 507,
+          "text": "\"text\": \"A project associated with underground communications infrastructure had evolved\","
+        },
+        {
+          "line": 510,
+          "text": "\"A project associated with underground\","
+        },
+        {
+          "line": 546,
+          "text": "\"text\": \"tiny cars running through confined underground passages.\","
+        },
+        {
+          "line": 550,
+          "text": "\"confined underground passages.\""
+        },
+        {
+          "line": 858,
+          "text": "\"text\": \"long underground passage.\","
+        },
+        {
+          "line": 861,
+          "text": "\"long underground passage.\""
+        },
+        {
+          "line": 1228,
+          "text": "\"text\": \"Then, after the coal was burned, the waste had to leave.\","
+        },
+        {
+          "line": 1231,
+          "text": "\"Then, after the coal was burned,\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2.py",
+      "size_bytes": 30087,
+      "keywords": [
+        "subtitle",
+        "caption",
+        "srt",
+        "ass",
+        "transcript",
+        "final_upload",
+        "ffmpeg",
+        "resolve"
+      ],
+      "excerpts": [
+        {
+          "line": 8,
+          "text": "BASE=R/'_V2';W=BASE/'work';Q=BASE/'qc';F=BASE/'final';OLD=R/'_FINAL/HIA_CHICAGO_FINAL_UPLOAD.mp4'"
+        },
+        {
+          "line": 18,
+          "text": "for p in [W,Q,F,W/'assets',W/'overlays']:p.mkdir(parents=True,exist_ok=True)"
+        },
+        {
+          "line": 19,
+          "text": "if not (W/'state.json').exists():save(W/'state.json',{'revision':'V2','source_v1':str(OLD),'motion_tests_pass':False,'plan_complete':False,'proxy_complete':False,'proxy_qc_pass':False,'final_complete':False,'final_qc_pass':False})"
+        },
+        {
+          "line": 21,
+          "text": "keep=[OLD,R/'_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt',R/'_FINAL/EDIT_REPORT.md',R/'_EDIT_WORK/codex_edit_state.json'];save(W/'v1_snapshot.json',[{'path':str(p),'bytes':p.stat().st_size,'mtime_ns':p.stat().st_mtime_ns} for p in keep])"
+        },
+        {
+          "line": 35,
+          "text": "im=ImageOps.fit(Image.open(s['resolved_asset']).convert('RGB'),(1920,1080));src=Q/f'test_{mode}.png';im.save(src)"
+        },
+        {
+          "line": 38,
+          "text": "start=time.time();run(['ffmpeg','-v','error','-y','-loop','1','-framerate','25','-i',str(src),'-vf',vf,'-filter_threads','2','-frames:v',str(n),'-an','-c:v','h264_nvenc','-preset','p4','-cq','19','-b:v','0',str(out)])"
+        },
+        {
+          "line": 39,
+          "text": "raw=run(['ffmpeg','-v','error','-ss','2','-i',str(out),'-t','2.8','-vf','crop=640:360:640:320,format=gray','-f','rawvideo','-']);a=np.frombuffer(raw,np.uint8).reshape(-1,360,640).astype(np.float32);mad=np.mean(np.abs(np.diff(a,axis=0)),axis=(1,2));steady=mad<.05"
+        },
+        {
+          "line": 42,
+          "text": "rec={'mode':mode,'duration':8,'seconds_to_render':round(time.time()-start,2),'comparisons':len(mad),'near_static':int(sum(steady)),'longest_near_static_run':maxrun,'mad_median':float(np.median(mad)),'mad_max':float(max(mad)),'pass':maxrun<=1};report.append(rec);print(json.dumps(rec),flush=True)"
+        },
+        {
+          "line": 44,
+          "text": "if not all(r['pass'] for r in report):raise RuntimeError('Motion test failed')"
+        },
+        {
+          "line": 45,
+          "text": "update(motion_tests_pass=True)"
+        },
+        {
+          "line": 47,
+          "text": "init();sc=load(R/'_EDIT_WORK/edit_scenes.json');assets={};shots=[];font=ImageFont.truetype(str(W/'font.ttf'),28)"
+        },
+        {
+          "line": 49,
+          "text": "p=Path(s['resolved_asset']);n=int(s['scene'][1:]);kind='reconstruction' if s['reconstruction'] else 'archive';variant='full'"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_delivery_check.py",
+      "size_bytes": 933,
+      "keywords": [
+        "caption",
+        "srt",
+        "ass",
+        "final_upload"
+      ],
+      "excerpts": [
+        {
+          "line": 2,
+          "text": "cs=m.load(m.W/'captions.json')"
+        },
+        {
+          "line": 3,
+          "text": "bs=(m.F/'HIA_CHICAGO_V2.srt').read_text(encoding='utf-8').strip().split('\\n\\n')"
+        },
+        {
+          "line": 4,
+          "text": "assert len(bs)==len(cs)"
+        },
+        {
+          "line": 12,
+          "text": "assert abs(a-c['start'])<.0011 and abs(z-c['end'])<.0011 and l[2:]==c['lines']"
+        },
+        {
+          "line": 13,
+          "text": "assert a>=previous-.001 and z>a and len(l[2:])<=2 and max(map(len,l[2:]))<=42"
+        },
+        {
+          "line": 17,
+          "text": "old=(m.R/'_FINAL/HIA_CHICAGO_FINAL_UPLOAD.srt').read_text(encoding='utf-8').strip().split('\\n\\n')"
+        },
+        {
+          "line": 19,
+          "text": "assert texts==source"
+        },
+        {
+          "line": 20,
+          "text": "report={'cues':len(bs),'max_cps':max(cps),'actual_srt_matches_plan':True,'all_source_words_preserved':True}"
+        },
+        {
+          "line": 21,
+          "text": "m.save(m.Q/'delivered_srt_validation.json',report)"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_finish.py",
+      "size_bytes": 1897,
+      "keywords": [
+        "srt"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "Final timestamps: 32,268 distinct presentation timestamps; every interval is 0.040 seconds. The delivered SRT was parsed independently: 338 cues, unchanged source words, no overlap, maximum 42 characters per line, maximum 19.92 characters/second. V1 size and modification timestamps were verified unchanged."
+        },
+        {
+          "line": 11,
+          "text": "Evidence is retained in ../qc/: final_qc.json, final_offcenter_motion.json, uncompressed_motion_diagnosis.json, final_pts_validation.json, delivered_srt_validation.json, final_review.jpg. Small diagnostic tests reused final-render clips where possible; no additional full proxy or full final render was required."
+        },
+        {
+          "line": 16,
+          "text": "for p in [m.F/'HIA_CHICAGO_V2.mp4',m.F/'HIA_CHICAGO_V2.srt',report]:"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_motion_diagnose.py",
+      "size_bytes": 757,
+      "keywords": [
+        "ffmpeg"
+      ],
+      "excerpts": [
+        {
+          "line": 8,
+          "text": "raw=m.run(['ffmpeg','-v','error','-ss',str(t),'-i',str(p),'-t','2','-vf','crop=480:270:720:405,format=gray','-f','rawvideo','-'])"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_motion_roi.py",
+      "size_bytes": 1725,
+      "keywords": [
+        "ass",
+        "ffmpeg"
+      ],
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "raw=m.run(['ffmpeg','-v','error','-ss',str(t),'-i',str(target),'-t','2','-vf',f\"crop=480:270:{int(v['width']*.12)}:{int(v['height']*.18)},format=gray\",'-f','rawvideo','-'])"
+        },
+        {
+          "line": 19,
+          "text": "report['initial_brightness_metric_pass']=report['motion_pass']"
+        },
+        {
+          "line": 22,
+          "text": "report['motion_pass']=all(x['pass'] for x in raw_checks) and all(x['longest_near_static_run']<=2 for x in results)"
+        },
+        {
+          "line": 24,
+          "text": "print('Reviewed motion gate:',report['motion_pass'])"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/hia_v2_raw_motion.py",
+      "size_bytes": 964,
+      "keywords": [
+        "ass",
+        "ffmpeg"
+      ],
+      "excerpts": [
+        {
+          "line": 8,
+          "text": "raw=m.run(['ffmpeg','-v','error','-threads','1','-framerate','25','-i',s['asset'],'-vf',vf,'-frames:v','50','-fps_mode','passthrough','-f','rawvideo','-'])"
+        },
+        {
+          "line": 11,
+          "text": "r={'mode':mode,'near_static':int(sum(d<.05)),'median':float(m.np.median(d)),'max':float(max(d)),'min':float(min(d)),'pass':bool(min(d)>.05 and max(d)<m.np.median(d)*2)}"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/shots.json",
+      "size_bytes": 157242,
+      "keywords": [
+        "ass"
+      ],
+      "excerpts": [
+        {
+          "line": 6,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\opening_street.png\","
+        },
+        {
+          "line": 22,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\S002_P002_full_reconstruction.png\","
+        },
+        {
+          "line": 37,
+          "text": "\"source\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 38,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\A01_IllinoisTunnelIntersectionCloser_full_archive.png\","
+        },
+        {
+          "line": 54,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\S004_P003_detail_reconstruction.png\","
+        },
+        {
+          "line": 69,
+          "text": "\"source\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A02_IllinoisTunnelMap1910.png\","
+        },
+        {
+          "line": 70,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\A02_IllinoisTunnelMap1910_full_map.png\","
+        },
+        {
+          "line": 86,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\S006_P004_full_reconstruction.png\","
+        },
+        {
+          "line": 102,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\S007_P005_detail_reconstruction.png\","
+        },
+        {
+          "line": 118,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\S008_P006_full_reconstruction.png\","
+        },
+        {
+          "line": 133,
+          "text": "\"source\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\10_ASSETS_WORK\\\\archive\\\\A01_IllinoisTunnelIntersectionCloser.jpg\","
+        },
+        {
+          "line": 134,
+          "text": "\"asset\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_V2\\\\work\\\\assets\\\\A01_IllinoisTunnelIntersectionCloser_full_archive.png\","
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/state.json",
+      "size_bytes": 437,
+      "keywords": [
+        "caption",
+        "ass",
+        "final_upload"
+      ],
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "\"source_v1\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_FINAL\\\\HIA_CHICAGO_FINAL_UPLOAD.mp4\","
+        },
+        {
+          "line": 4,
+          "text": "\"motion_tests_pass\": true,"
+        },
+        {
+          "line": 7,
+          "text": "\"proxy_qc_pass\": true,"
+        },
+        {
+          "line": 9,
+          "text": "\"final_qc_pass\": true,"
+        },
+        {
+          "line": 10,
+          "text": "\"captions_complete\": true,"
+        },
+        {
+          "line": 11,
+          "text": "\"insert_tests_pass\": true"
+        }
+      ]
+    },
+    {
+      "path": "Hidden_Industrial_America_Chicago_CODEX_READY_v7/_V2/work/v1_snapshot.json",
+      "size_bytes": 1015,
+      "keywords": [
+        "srt",
+        "final_upload"
+      ],
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "\"path\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_FINAL\\\\HIA_CHICAGO_FINAL_UPLOAD.mp4\","
+        },
+        {
+          "line": 8,
+          "text": "\"path\": \"C:\\\\Users\\\\KK\\\\Desktop\\\\Youtube 2\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\Hidden_Industrial_America_Chicago_CODEX_READY_v7\\\\_FINAL\\\\HIA_CHICAGO_FINAL_UPLOAD.srt\","
+        }
+      ]
+    }
+  ]
+}
