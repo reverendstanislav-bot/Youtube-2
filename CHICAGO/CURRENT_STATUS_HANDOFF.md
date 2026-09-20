@@ -89,3 +89,25 @@ GitHub Actions audit `Audit Chicago Media and Subtitle Sync` independently re-ex
 The legacy timeline SRT is now positively identified as the bad timing source and must never be used in another Chicago render.
 
 The preferred technical candidate for the next review is the V2 picture/audio with captions rebuilt from the V2 final SRT / word-level timing source. This is still **not** a publication-master decision until the resulting visible captions are reviewed by the user.
+
+
+## Final V2 QC status
+
+V2 has now completed an additional final technical + visible-caption QC.
+
+- `HIA_CHICAGO_V2.mp4`: technical upload candidate **PASS**.
+- Full decode: PASS.
+- 1920x1080 / 25 fps / 21:30.720.
+- SHA-256: `f05d600780111e7ebdc2ac6aac29fcf1cb76704e13b4a14d355cbfc713c896e2`.
+- V2 SRT timing: PASS against word-level VO timing.
+- The encoded V2 MP4 contains **no burned narration subtitle layer**.
+- `HIA_CHICAGO_V2.srt` is a sidecar caption file.
+- Eight cue-centered encoded-frame samples found expected V2 subtitle text in 0/8 frames, consistent with the V2 build code, which generates sidecar captions rather than burning them into video.
+
+Therefore:
+- for YouTube delivery with optional CC: V2 + V2 SRT is technically ready;
+- for a channel standard requiring always-visible/running subtitles: one final subtitle-burn render is still required.
+
+No picture/audio re-edit is currently indicated by QC.
+
+See `CHICAGO/QC/V2_FINAL_QC.md`.
