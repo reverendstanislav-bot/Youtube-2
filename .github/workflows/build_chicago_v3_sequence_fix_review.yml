@@ -250,3 +250,5 @@ jobs:
             /tmp/chicago_v3/HIA_CHICAGO_V3_SEQUENCE_FIX_REVIEW_960x540.mp4
             /tmp/chicago_v3/qc
           retention-days: 14
+
+# rerun after Windows path normalization
