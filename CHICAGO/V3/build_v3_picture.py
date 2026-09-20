@@ -107,7 +107,7 @@ def make_shot(a,b,asset,scene,kind='reconstruction',motion='static',text='',chap
 def patch_plan(orig, assets, gen):
     shots=[dict(s) for s in orig]
     for s in shots:
-        name=s['asset'].replace('\\\\','/').split('/')[-1]
+        name=s['asset'].replace(chr(92),'/').split('/')[-1]
         if name not in assets:
             raise RuntimeError(f'Missing work asset {name}')
         s['asset']=str(assets[name])
@@ -151,28 +151,43 @@ def patch_plan(orig, assets, gen):
     s081=next(s for s in shots if s['scene']=='S081')
     coal_merge=make_shot(509.92,512.12,Path(s081['asset']),'V3_COAL_MERGE','reconstruction','static','', '', 'coal',2)
 
-    # Late-film slideshow consolidation.
+    # Late-film cleanup: preserve semantic cuts confirmed by scene analysis.
+    # Only remove the literal S205 return and merge the two ultra-short proof shots.
     s205=Path(next(s for s in shots if s['scene']=='S205')['asset'])
+    s206=Path(next(s for s in shots if s['scene']=='S206')['asset'])
     s207=Path(next(s for s in shots if s['scene']=='S207')['asset'])
     s210=Path(next(s for s in shots if s['scene']=='S210')['asset'])
+    s211=Path(next(s for s in shots if s['scene']=='S211')['asset'])
     a16=assets['A16_LOC_Illinois_Central_freight_1942_full_archive.png']
+    s213=Path(next(s for s in shots if s['scene']=='S213')['asset'])
     a04=assets['A04_TunnelCoalDelivery_full_archive.png']
+    s215=Path(next(s for s in shots if s['scene']=='S215')['asset'])
     s216=Path(next(s for s in shots if s['scene']=='S216')['asset'])
     s217=Path(next(s for s in shots if s['scene']=='S217')['asset'])
     s218=Path(next(s for s in shots if s['scene']=='S218')['asset'])
     s219=Path(next(s for s in shots if s['scene']=='S219')['asset'])
+    s220=Path(next(s for s in shots if s['scene']=='S220')['asset'])
+    s221=Path(next(s for s in shots if s['scene']=='S221')['asset'])
     s222=Path(next(s for s in shots if s['scene']=='S222')['asset'])
+    s205d=crop_variant(s205,gen/'survivor_locomotive_detail.jpg','detail')
     late=[
-      make_shot(1145.20,1158.28,s205,'V3_LATE_1','reconstruction','pull'),
-      make_shot(1158.28,1167.68,s207,'V3_LATE_2','reconstruction','static'),
-      make_shot(1167.68,1177.52,s210,'V3_LATE_3','reconstruction','push'),
-      make_shot(1177.52,1181.52,a16,'V3_LATE_4','archive','static'),
-      make_shot(1181.52,1185.52,a04,'V3_LATE_5','archive','static'),
-      make_shot(1185.52,1192.44,s216,'V3_LATE_6','reconstruction','static'),
-      make_shot(1192.44,1204.60,s217,'V3_LATE_7','reconstruction','pull'),
-      make_shot(1204.60,1209.44,s218,'V3_LATE_8','reconstruction','static','JULY 1959'),
-      make_shot(1209.44,1213.28,s219,'V3_LATE_9','reconstruction','static'),
-      make_shot(1213.28,1218.40,s222,'V3_LATE_10','reconstruction','static'),
+      make_shot(1145.20,1153.20,s205,'V3_LATE_1','reconstruction','static'),
+      make_shot(1153.20,1158.28,s206,'V3_LATE_2','reconstruction','static'),
+      make_shot(1158.28,1163.64,s207,'V3_LATE_3','reconstruction','static'),
+      make_shot(1163.64,1167.68,s205d,'V3_LATE_4','reconstruction','static'),
+      make_shot(1167.68,1173.88,s210,'V3_LATE_5','reconstruction','push'),
+      make_shot(1173.88,1177.52,s211,'V3_LATE_6','reconstruction','static'),
+      make_shot(1177.52,1180.48,a16,'V3_LATE_7','archive','static'),
+      make_shot(1180.48,1183.04,s213,'V3_LATE_8','reconstruction','static'),
+      make_shot(1183.04,1185.52,a04,'V3_LATE_9','archive','static'),
+      make_shot(1185.52,1188.96,s215,'V3_LATE_10','reconstruction','static'),
+      make_shot(1188.96,1192.44,s216,'V3_LATE_11','reconstruction','static'),
+      make_shot(1192.44,1204.60,s217,'V3_LATE_12','reconstruction','pull'),
+      make_shot(1204.60,1209.44,s218,'V3_LATE_13','reconstruction','static','JULY 1959'),
+      make_shot(1209.44,1213.28,s219,'V3_LATE_14','reconstruction','static'),
+      make_shot(1213.28,1215.20,s220,'V3_LATE_15','reconstruction','static'),
+      make_shot(1215.20,1216.64,s221,'V3_LATE_16','reconstruction','static'),
+      make_shot(1216.64,1218.40,s222,'V3_LATE_17','reconstruction','static'),
     ]
 
     out=[]
