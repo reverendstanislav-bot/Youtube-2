@@ -2,7 +2,7 @@
 import argparse,csv,re
 from pathlib import Path
 
-BASE='&H00F5F5F5&'      # white RGB #F5F5F5
+BASE='&H003D6FB9&'      # muted orange RGB #B96F3D
 ORANGE='&H003A8AF2&'    # bright orange RGB #F28A3A
 LABEL_BASE='&H00DDEBF3&' # warm ivory for non-dialogue labels only
 DARK='&H00171A1C&'
@@ -109,25 +109,14 @@ def main():
     phrases=make_phrases(words)
 
     events=[]
-    for pi,ph in enumerate(phrases):
-        next_phrase_s = phrases[pi+1][0]['s'] if pi+1 < len(phrases) else CTA_CUT
-        phrase_end = min(CTA_CUT, ph[-1]['e'] + .04, next_phrase_s - .02)
-        cursor=max(ph[0]['s'],CAP_START)
+    for ph in phrases:
         for i,w in enumerate(ph):
             s=max(w['s'],CAP_START)
-            e=min(w['e'],phrase_end,CTA_CUT)
-            if s>cursor+.005:
-                events.append(
-                    f"Dialogue: 90,{sec_ass(cursor)},{sec_ass(s)},Run,,0,0,0,,{white_line(ph)}"
-                )
-            if e>s:
-                events.append(
-                    f"Dialogue: 90,{sec_ass(s)},{sec_ass(e)},Run,,0,0,0,,{active_line(ph,i)}"
-                )
-                cursor=max(cursor,e)
-        if phrase_end>cursor+.005:
+            e=(ph[i+1]['s'] if i+1<len(ph) else ph[-1]['e']+.08)
+            e=min(e,CTA_CUT)
+            if e<=s: continue
             events.append(
-                f"Dialogue: 90,{sec_ass(cursor)},{sec_ass(phrase_end)},Run,,0,0,0,,{white_line(ph)}"
+                f"Dialogue: 90,{sec_ass(s)},{sec_ass(e)},Run,,0,0,0,,{active_line(ph,i)}"
             )
 
     # Preserve provenance/editorial labels from the V4 overlay, but never its old captions.
