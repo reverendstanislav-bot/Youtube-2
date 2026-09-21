@@ -1,0 +1,87 @@
+name: Inspect All HIA Brand Assets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/inspect_all_hia_brand_assets.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y unzip python3-pil
+
+      - name: Download extracted brand package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/hia_brand_all
+          mkdir -p /tmp/hia_brand_all
+          cd /tmp/hia_brand_all
+          gh release download chicago-channel-brand-assets-extracted-20260920             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          find extracted -type f -printf '%p\n' | sort | tee FILES.txt
+
+      - name: Build image inventory contact sheets
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from PIL import Image,ImageOps,ImageDraw
+          from pathlib import Path
+          import json
+          root=Path('/tmp/hia_brand_all/extracted')
+          out=Path('/tmp/hia_brand_all/output');out.mkdir()
+          items=[]
+          for p in sorted(root.rglob('*')):
+              if not p.is_file(): continue
+              try:
+                  im=Image.open(p)
+                  items.append((p,im.size))
+              except: pass
+          meta=[]
+          thumbs=[]
+          for p,size in items:
+              im=Image.open(p).convert('RGB')
+              thumb=ImageOps.contain(im,(480,270))
+              canvas=Image.new('RGB',(500,330),(18,18,18))
+              x=(500-thumb.width)//2
+              y=25+(270-thumb.height)//2
+              canvas.paste(thumb,(x,y))
+              d=ImageDraw.Draw(canvas)
+              name=str(p.relative_to(root))
+              d.text((10,8),name[:72],fill='white')
+              d.text((10,305),f'{size[0]}x{size[1]}',fill=(210,210,210))
+              thumbs.append(canvas)
+              meta.append({'path':name,'size':list(size)})
+          cols=3; per=12
+          for page in range((len(thumbs)+per-1)//per):
+              part=thumbs[page*per:(page+1)*per]
+              rows=(len(part)+cols-1)//cols
+              sheet=Image.new('RGB',(cols*500,rows*330),(0,0,0))
+              for i,im in enumerate(part):
+                  sheet.paste(im,((i%cols)*500,(i//cols)*330))
+              sheet.save(out/f'BRAND_ASSETS_{page+1:02d}.jpg',quality=88)
+          (out/'IMAGE_INVENTORY.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf-8')
+          print('images',len(items),'pages',(len(thumbs)+per-1)//per)
+          PY
+
+      - name: Upload inspection artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-brand-assets-inspection
+          path: |
+            /tmp/hia_brand_all/output
+            /tmp/hia_brand_all/FILES.txt
+          retention-days: 14
