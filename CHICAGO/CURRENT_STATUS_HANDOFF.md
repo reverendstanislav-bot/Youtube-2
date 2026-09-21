@@ -176,3 +176,32 @@ Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
 
 See `CHICAGO/V3/REVIEW_QC/`.
+
+
+## V4 Remotion review
+
+V4 supersedes V3 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V4 Remotion Review`
+- run `35550663818`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V4_REMOTION_REVIEW_960x540.mp4`
+- SHA-256 `8df567038ece5af9b5650eb88cc32bb7eeff6f3ccd701de98e60e0f55170032a`
+- release tag `chicago-v4-remotion-review-20260920`
+
+Key differences from V3:
+- legacy PIL/FFmpeg explainer cards removed entirely;
+- explainer inserts are now Remotion motion graphics only;
+- no opaque cards/panels;
+- motion language uses line reveal + spring/fade/slide + phase progress rail;
+- one Remotion subtitle layer, white base + orange active word;
+- end-screen captions use top-safe placement;
+- original V1/V2 AAC preserved bit-for-bit;
+- full decode PASS;
+- sequence remains the cleaned 207-shot V3/V4 plan.
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
