@@ -1,0 +1,235 @@
+name: Exhaustive Chicago V9 Prepublication QC
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/exhaustive_chicago_v9_prepublication_qc.yml'
+      - 'CHICAGO/tools/final_prepublication_qc.py'
+
+permissions:
+  contents: write
+
+jobs:
+  qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install QC dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y             ffmpeg p7zip-full unzip zip jq             python3-numpy python3-opencv python3-pil
+
+      - name: Download V9 review and its QC package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_v9_final_qc
+          mkdir -p /tmp/chicago_v9_final_qc/review /tmp/chicago_v9_final_qc/qcpack /tmp/chicago_v9_final_qc/source /tmp/chicago_v9_final_qc/out
+
+          cd /tmp/chicago_v9_final_qc/review
+          gh release download chicago-v9-first-episode-end-screen-review-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4'             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip'
+
+          sha256sum HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4 | tee /tmp/chicago_v9_final_qc/out/V9_VIDEO_SHA256.txt
+          echo 'c436ccb1894efe750ecd6d23369f2062b6a2354f8f8ec9e84758520602281e50  HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4' | sha256sum -c -
+
+          unzip -q HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip -d /tmp/chicago_v9_final_qc/qcpack
+          test -s /tmp/chicago_v9_final_qc/qcpack/qc/V9_SHOTS.json
+
+          echo "VIDEO=/tmp/chicago_v9_final_qc/review/HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4" >> "$GITHUB_ENV"
+          echo "SHOTS=/tmp/chicago_v9_final_qc/qcpack/qc/V9_SHOTS.json" >> "$GITHUB_ENV"
+
+      - name: Download canonical source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_v9_final_qc/source
+          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract only script / timing / evidence files
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_v9_final_qc/source
+          mkdir -p extracted
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar             -o/tmp/chicago_v9_final_qc/source/extracted             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/03_TIMELINE/scene_map.csv"             "-ir!*/03_TIMELINE/timeline.csv"             "-ir!*/06_LICENSES_FACTS/fact_map.csv"             "-ir!*/06_LICENSES_FACTS/license_manifest.csv"             "-ir!*/06_LICENSES_FACTS/music_attribution.txt"             "-ir!*/_V2/final/HIA_CHICAGO_V2.srt"             "-ir!*/_QC/voice_words.json"
+
+          ROOT="$(find /tmp/chicago_v9_final_qc/source/extracted -type f -path '*/02_SCRIPT/voiceover_en.txt' -printf '%h/..\n' | head -n1)"
+          ROOT="$(readlink -f "$ROOT")"
+          test -n "$ROOT"
+          echo "SRCROOT=$ROOT" >> "$GITHUB_ENV"
+
+      - name: Rebuild exact V9 caption/overlay data for audit
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_v9_final_qc/data
+
+          python3 CHICAGO/V9/prepare_remotion_data.py             --srt "$SRCROOT/_V2/final/HIA_CHICAGO_V2.srt"             --words "$SRCROOT/_QC/voice_words.json"             --plan "$SHOTS"             --captions-out /tmp/chicago_v9_final_qc/data/captions.json             --overlays-out /tmp/chicago_v9_final_qc/data/overlays.json             --report /tmp/chicago_v9_final_qc/out/REMOTION_DATA_REPORT.json
+
+          ! grep -q 'AI RECONSTRUCTION' /tmp/chicago_v9_final_qc/data/overlays.json
+
+      - name: Verify audio elementary stream identity
+        run: |
+          set -euo pipefail
+          ffmpeg -y -v error -i "$VIDEO" -map 0:a:0 -c copy -f adts /tmp/chicago_v9_final_qc/out/v9.aac
+          H="$(sha256sum /tmp/chicago_v9_final_qc/out/v9.aac | awk '{print $1}')"
+          echo "$H  v9.aac" | tee /tmp/chicago_v9_final_qc/out/AUDIO_SHA256.txt
+          test "$H" = "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
+
+      - name: Independent FFmpeg black / freeze / silence / interlace diagnostics
+        run: |
+          set -euo pipefail
+
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -vf "blackdetect=d=0.04:pix_th=0.10"             -an -f null - 2> /tmp/chicago_v9_final_qc/out/BLACKDETECT.log || true
+
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -vf "freezedetect=n=-50dB:d=3"             -an -f null - 2> /tmp/chicago_v9_final_qc/out/FREEZEDETECT.log || true
+
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -af "silencedetect=noise=-60dB:d=0.5"             -vn -f null - 2> /tmp/chicago_v9_final_qc/out/SILENCEDETECT.log || true
+
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -vf "idet" -frames:v 32268             -an -f null - 2> /tmp/chicago_v9_final_qc/out/IDET.log || true
+
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -af "volumedetect" -vn -f null -             2> /tmp/chicago_v9_final_qc/out/VOLUMEDETECT.log || true
+
+      - name: Independent subtitle timing audit
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/analyze_subtitle_alignment.py             --words "$SRCROOT/_QC/voice_words.json"             --srt "$SRCROOT/_V2/final/HIA_CHICAGO_V2.srt"             --out-json /tmp/chicago_v9_final_qc/out/SUBTITLE_ALIGNMENT.json             --out-md /tmp/chicago_v9_final_qc/out/SUBTITLE_ALIGNMENT.md
+
+      - name: Exhaustive frame / audio / script / layout audit
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/final_prepublication_qc.py             --video "$VIDEO"             --shots "$SHOTS"             --captions /tmp/chicago_v9_final_qc/data/captions.json             --overlays /tmp/chicago_v9_final_qc/data/overlays.json             --scene-map "$SRCROOT/03_TIMELINE/scene_map.csv"             --script "$SRCROOT/02_SCRIPT/voiceover_en.txt"             --voice-words "$SRCROOT/_QC/voice_words.json"             --srt "$SRCROOT/_V2/final/HIA_CHICAGO_V2.srt"             --fact-map "$SRCROOT/06_LICENSES_FACTS/fact_map.csv"             --timeline "$SRCROOT/03_TIMELINE/timeline.csv"             --outdir /tmp/chicago_v9_final_qc/out             | tee /tmp/chicago_v9_final_qc/out/COMPACT_VERDICT.json
+
+      - name: Summarize independent diagnostic logs
+        run: |
+          set -euo pipefail
+          {
+            echo '# Independent FFmpeg diagnostics'
+            echo
+            echo '## Blackdetect'
+            grep -E 'black_start|black_end|black_duration' /tmp/chicago_v9_final_qc/out/BLACKDETECT.log || echo 'No black intervals reported.'
+            echo
+            echo '## Freezedetect'
+            grep -E 'freeze_start|freeze_end|freeze_duration' /tmp/chicago_v9_final_qc/out/FREEZEDETECT.log || echo 'No >=3s freeze events reported at -50 dB threshold.'
+            echo
+            echo '## Silencedetect'
+            grep -E 'silence_start|silence_end|silence_duration' /tmp/chicago_v9_final_qc/out/SILENCEDETECT.log || echo 'No >=0.5s silence below -60 dB reported.'
+            echo
+            echo '## Interlace detector'
+            grep -E 'Single frame detection|Multi frame detection|TFF|BFF|Progressive|Undetermined' /tmp/chicago_v9_final_qc/out/IDET.log | tail -n 12 || true
+            echo
+            echo '## Volume detect'
+            grep -E 'mean_volume|max_volume|histogram' /tmp/chicago_v9_final_qc/out/VOLUMEDETECT.log | tail -n 30 || true
+          } > /tmp/chicago_v9_final_qc/out/INDEPENDENT_FFMPEG_DIAGNOSTICS.md
+
+      - name: Build final gate summary
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          q=Path('/tmp/chicago_v9_final_qc/out')
+          d=json.loads((q/'EXHAUSTIVE_QC.json').read_text())
+          sub=json.loads((q/'SUBTITLE_ALIGNMENT.json').read_text())[0]
+
+          ffblack=(q/'BLACKDETECT.log').read_text(errors='ignore')
+          ids=(q/'IDET.log').read_text(errors='ignore')
+          black_events=len(re.findall(r'black_start:',ffblack))
+
+          # idet final summary
+          prog=0; tff=bff=0
+          for line in ids.splitlines():
+              if 'Multi frame detection:' in line:
+                  mt=re.search(r'TFF:\s*(\d+).*BFF:\s*(\d+).*Progressive:\s*(\d+)',line)
+                  if mt:
+                      tff,bff,prog=map(int,mt.groups())
+
+          issues=list(d['automatic_gate']['issues'])
+          if sub.get('verdict')!='PASS':
+              issues.append('Independent subtitle alignment did not PASS: '+sub.get('verdict',''))
+          if black_events:
+              issues.append(f'FFmpeg blackdetect reported {black_events} black interval(s).')
+          if tff+bff > max(5,prog*0.001):
+              issues.append(f'Interlace detector found material field-order counts TFF={tff}, BFF={bff}.')
+
+          verdict='PASS_FOR_1080_FINAL_RENDER' if not issues else 'HOLD_FOR_REVIEW'
+          summary={
+            'verdict':verdict,
+            'blocking_or_review_issues':issues,
+            'automatic_gate':d['automatic_gate']['verdict'],
+            'subtitle_alignment_verdict':sub.get('verdict'),
+            'ffmpeg_black_events':black_events,
+            'idet':{'tff':tff,'bff':bff,'progressive':prog},
+            'video_sha256':'c436ccb1894efe750ecd6d23369f2062b6a2354f8f8ec9e84758520602281e50',
+            'audio_sha256':'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          }
+          (q/'FINAL_GATE.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
+
+          md=['# Chicago V9 — final pre-publication gate','',
+              f"## **{verdict}**",'',
+              f"- Automatic exhaustive gate: **{d['automatic_gate']['verdict']}**",
+              f"- Independent subtitle alignment: **{sub.get('verdict')}**",
+              f"- FFmpeg black intervals: **{black_events}**",
+              f"- idet: TFF {tff} / BFF {bff} / Progressive {prog}",'']
+          if issues:
+              md+=['## Issues requiring review']+[f'- {x}' for x in issues]
+          else:
+              md+=['No automatic blocking defects were detected in the V9 review master.',
+                   'Human editorial review of any non-blocking semantic candidates is still required before calling the episode publication-approved.']
+          (q/'FINAL_GATE.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+
+      - name: Package exhaustive QC
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_v9_final_qc
+          zip -q -r HIA_CHICAGO_V9_EXHAUSTIVE_PREPUBLICATION_QC.zip out
+          sha256sum HIA_CHICAGO_V9_EXHAUSTIVE_PREPUBLICATION_QC.zip > out/QC_ZIP_SHA256.txt
+
+      - name: Publish exhaustive QC release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=chicago-v9-exhaustive-prepublication-qc-20260921
+          BODY='Exhaustive non-generative pre-publication QC for Chicago V9. Includes every-frame 25fps analysis, full decode, PTS/packet timing, black/freeze/flash/blur/cut checks, continuous/sample-level audio analysis, loudness, subtitle-word timing, script-scene-shot alignment, overlay geometry, fact-map/timeline checks, contact sheets, and final gate.'
+
+          if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
+            gh release upload "$TAG"               /tmp/chicago_v9_final_qc/HIA_CHICAGO_V9_EXHAUSTIVE_PREPUBLICATION_QC.zip               /tmp/chicago_v9_final_qc/out/EXHAUSTIVE_QC.md               /tmp/chicago_v9_final_qc/out/EXHAUSTIVE_QC.json               /tmp/chicago_v9_final_qc/out/FINAL_GATE.md               /tmp/chicago_v9_final_qc/out/FINAL_GATE.json               /tmp/chicago_v9_final_qc/out/INDEPENDENT_FFMPEG_DIAGNOSTICS.md               /tmp/chicago_v9_final_qc/out/SUBTITLE_ALIGNMENT.md               --clobber --repo reverendstanislav-bot/Youtube-2
+          else
+            gh release create "$TAG"               /tmp/chicago_v9_final_qc/HIA_CHICAGO_V9_EXHAUSTIVE_PREPUBLICATION_QC.zip               /tmp/chicago_v9_final_qc/out/EXHAUSTIVE_QC.md               /tmp/chicago_v9_final_qc/out/EXHAUSTIVE_QC.json               /tmp/chicago_v9_final_qc/out/FINAL_GATE.md               /tmp/chicago_v9_final_qc/out/FINAL_GATE.json               /tmp/chicago_v9_final_qc/out/INDEPENDENT_FFMPEG_DIAGNOSTICS.md               /tmp/chicago_v9_final_qc/out/SUBTITLE_ALIGNMENT.md               --title 'Chicago V9 Exhaustive Prepublication QC'               --notes "$BODY"               --repo reverendstanislav-bot/Youtube-2
+          fi
+
+      - name: Record compact QC reports in Git
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/V9/EXHAUSTIVE_QC
+          cp /tmp/chicago_v9_final_qc/out/EXHAUSTIVE_QC.md CHICAGO/V9/EXHAUSTIVE_QC/
+          cp /tmp/chicago_v9_final_qc/out/FINAL_GATE.md CHICAGO/V9/EXHAUSTIVE_QC/
+          cp /tmp/chicago_v9_final_qc/out/FINAL_GATE.json CHICAGO/V9/EXHAUSTIVE_QC/
+          cp /tmp/chicago_v9_final_qc/out/COMPACT_VERDICT.json CHICAGO/V9/EXHAUSTIVE_QC/
+          cp /tmp/chicago_v9_final_qc/out/SUBTITLE_ALIGNMENT.md CHICAGO/V9/EXHAUSTIVE_QC/
+          cp /tmp/chicago_v9_final_qc/out/INDEPENDENT_FFMPEG_DIAGNOSTICS.md CHICAGO/V9/EXHAUSTIVE_QC/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/V9/EXHAUSTIVE_QC
+          git commit -m "Record Chicago V9 exhaustive prepublication QC"
+          git push
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-v9-exhaustive-prepublication-qc
+          path: /tmp/chicago_v9_final_qc/out
+          retention-days: 30
