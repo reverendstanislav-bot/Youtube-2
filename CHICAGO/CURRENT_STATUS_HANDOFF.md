@@ -137,3 +137,42 @@ Audio must remain untouched. V2 remains the base source.
 See:
 - `CHICAGO/QC/V2_FULL_SEQUENCE_AUDIT.md`
 - `CHICAGO/AUDIT/V2_SEQUENCE/`
+
+
+## V3 sequence-fix review
+
+V3 supersedes the rejected V2 visible-caption review as the current review candidate.
+
+Workflow:
+- `Build Chicago V3 Sequence Fix Review`
+- run `35544915218`
+- conclusion: SUCCESS
+
+Review file:
+- `HIA_CHICAGO_V3_SEQUENCE_FIX_REVIEW_960x540.mp4`
+- SHA-256 `4a88e004a416775ee98eaa385cf1067d41b55df4d1d2cc5ec4fc1c66cac21f07`
+- release tag `chicago-v3-sequence-fix-review-20260920`
+
+Key changes:
+- rebuilt from clean V2 work-assets;
+- old lower three-card explainers removed;
+- compact upper-left process rail used instead;
+- provenance labels moved upper-right;
+- State Street A/B/A bouncing reduced;
+- 05:49–07:17 map progression rebuilt;
+- coal 1.04s + 1.16s flash pair merged;
+- late reconstruction sequence semantically consolidated;
+- one white-base / orange-active running caption layer;
+- end-screen captions use top-safe placement;
+- original AAC preserved bit-for-bit.
+
+Sequence metrics vs V2:
+- shots 217 → 207
+- shots <1.5s 4 → 2
+- A→B→A returns 5 → 3
+- source returns within six shots 23 → 10
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+See `CHICAGO/V3/REVIEW_QC/`.
