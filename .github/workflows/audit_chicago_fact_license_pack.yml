@@ -50,9 +50,15 @@ jobs:
           set -euo pipefail
           python3 CHICAGO/tools/audit_fact_license_pack.py             --fact-map "$SRCROOT/06_LICENSES_FACTS/fact_map.csv"             --license-manifest "$SRCROOT/06_LICENSES_FACTS/license_manifest.csv"             --music-downloads "$SRCROOT/04_DOWNLOADS/music_downloads.csv"             --sfx-downloads "$SRCROOT/04_DOWNLOADS/sfx_downloads.csv"             --music-attribution "$SRCROOT/06_LICENSES_FACTS/music_attribution.txt"             --out-json /tmp/chicago_fact_audit/out/FACT_LICENSE_AUDIT.json             --out-md /tmp/chicago_fact_audit/out/FACT_LICENSE_AUDIT.md
 
+      - name: Show audit details
+        run: |
+          cat /tmp/chicago_fact_audit/out/FACT_LICENSE_AUDIT.md
+          cat /tmp/chicago_fact_audit/out/FACT_LICENSE_AUDIT.json
+
       - name: Record audit in Git
         run: |
           set -euo pipefail
+          git pull --rebase origin main
           mkdir -p CHICAGO/V9/EXHAUSTIVE_QC/FACT_LICENSE
           cp /tmp/chicago_fact_audit/out/* CHICAGO/V9/EXHAUSTIVE_QC/FACT_LICENSE/
 
