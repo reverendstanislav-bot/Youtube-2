@@ -283,3 +283,33 @@ QC:
 
 Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+
+## V7 readability + provenance review
+
+V7 supersedes V6 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V7 Readability Provenance Review`
+- run `35565115646`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V7_READABILITY_PROVENANCE_REVIEW_960x540.mp4`
+- SHA-256 `a29a629f6a4e5c99ab4f1457170ce37d7166706cc8984e1a809fd92b30904445`
+- release tag `chicago-v7-readability-provenance-review-20260920`
+
+V7 changes:
+- `AI RECONSTRUCTION` removed completely;
+- provenance label is `HISTORICAL SOURCE` only;
+- no black / gradient overlay backgrounds;
+- main title gets thin dark glyph stroke + compact shadow for light-background readability;
+- kicker / subline / step use lighter glyph stroke + shadow;
+- no panel/background introduced;
+- V6 typography scale and upper-frame placement preserved;
+- bottom subtitle-safe zone remains clear;
+- original AAC preserved bit-for-bit;
+- full decode PASS.
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
