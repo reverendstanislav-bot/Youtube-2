@@ -82,7 +82,7 @@ def main():
     ap.add_argument("--plan",required=True); ap.add_argument("--captions-out",required=True)
     ap.add_argument("--overlays-out",required=True); ap.add_argument("--report",required=True)
     a=ap.parse_args()
-    cues,ratio=captions(a.srt,a.words)
+    cues,ratio=captions(a.srt,load_voice(a.words))
     plan=json.loads(Path(a.plan).read_text(encoding="utf-8"))
     ov=build_overlays(plan)
     Path(a.captions_out).write_text(json.dumps(cues,ensure_ascii=False),encoding="utf-8")
