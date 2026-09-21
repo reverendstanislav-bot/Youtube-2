@@ -81,6 +81,8 @@ data={
     "confidence_counts":dict(Counter(conf_vals)),
     "rows_with_source_url":sum(bool(x) for x in source_urls),
     "rows_without_source_url":[i+1 for i,x in enumerate(source_urls) if not x],
+    "rows_missing_status":[{"row":i+1,**r} for i,(r,st) in enumerate(zip(facts,status_vals)) if not st],
+    "rows_missing_confidence":[{"row":i+1,**r} for i,(r,cf) in enumerate(zip(facts,conf_vals)) if not cf],
   },
   "license_manifest":{
     "headers":lic_headers,"rows":len(lic),
@@ -105,7 +107,13 @@ lines=["# Chicago — fact / licensing / music / SFX pack audit","",
        f"- Status counts: **{dict(Counter(status_vals))}**",
        f"- Confidence counts: **{dict(Counter(conf_vals))}**",
        f"- Rows with source URL: **{sum(bool(x) for x in source_urls)}/{len(facts)}**",
-       f"- Rows without source URL: **{[i+1 for i,x in enumerate(source_urls) if not x]}**","",
+       f"- Rows without source URL: **{[i+1 for i,x in enumerate(source_urls) if not x]}**",
+       f"- Rows missing status: **{[i+1 for i,x in enumerate(status_vals) if not x]}**",
+       f"- Rows missing confidence: **{[i+1 for i,x in enumerate(conf_vals) if not x]}**","",
+       "### Missing status rows"]+
+       [f"- row {x['row']}: {x}" for x in data["fact_map"]["rows_missing_status"]]+
+       ["","### Missing confidence rows"]+
+       [f"- row {x['row']}: {x}" for x in data["fact_map"]["rows_missing_confidence"]]+["",
        "## License manifest",
        f"- Rows: **{len(lic)}**",
        f"- Risk counts: **{dict(Counter(license_risk))}**",
