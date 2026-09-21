@@ -37,14 +37,14 @@ status_vals=[]
 conf_vals=[]
 source_urls=[]
 for r in facts:
-    st=pick(r,"status","lock","state","fact_status","verification","verified")
+    st=pick(r,"status","lock","state","fact_status","verification","verified","статус_озвучки")
     if not st and r:
         vals=[(v or "").strip() for v in r.values()]
         for v in reversed(vals):
             if v.upper() in {"LOCKED","PASS","VERIFIED","APPROVED","OPEN","REVIEW"}:
                 st=v; break
     status_vals.append(st)
-    cf=pick(r,"confidence","quality","strength")
+    cf=pick(r,"confidence","quality","strength","уверенность")
     if not cf:
         for v in r.values():
             if (v or "").strip().lower() in {"high","medium","low"}:
