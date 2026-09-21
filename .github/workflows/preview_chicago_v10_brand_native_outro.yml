@@ -34,7 +34,7 @@ jobs:
           gh release download chicago-channel-brand-assets-extracted-20260920             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
           unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
 
-          BASE="$(find extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          BASE="$(find /tmp/hia_v10_brand/extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
           test -s "$BASE"
           echo "BASE=$BASE" >> "$GITHUB_ENV"
 
