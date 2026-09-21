@@ -1,0 +1,22 @@
+Title:           untitled
+Subject:         unspecified
+Keywords:        
+Author:          anonymous
+Creator:         anonymous
+Producer:        ReportLab PDF Library - (opensource)
+CreationDate:    Sun Sep 13 08:01:35 2026 UTC
+ModDate:         Sun Sep 13 08:01:35 2026 UTC
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       841.89 x 595.276 pts (A4)
+Page rot:        0
+File size:       32010750 bytes
+Optimized:       no
+PDF version:     1.4
