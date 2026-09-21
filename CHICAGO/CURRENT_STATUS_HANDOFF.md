@@ -313,3 +313,35 @@ V7 changes:
 
 Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+
+## V8 end-screen review
+
+V8 supersedes V7 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V8 End Screen Review`
+- run `35568412111`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V8_END_SCREEN_REVIEW_960x540.mp4`
+- SHA-256 `d2443e1c3ed6bfd859cb76411baece3e2cac80ac69f7eaaa9a72c94eb3e41530`
+- release tag `chicago-v8-end-screen-review-20260920`
+
+V8 changes:
+- all V7 content before 21:12.72 preserved;
+- old baked end-card fully covered from 21:12.72;
+- fake recommendation rectangle removed;
+- fake subscribe circle removed;
+- end-screen background taken from a clean film frame at 21:08;
+- brand moved upper-left;
+- final captions moved left-bottom;
+- right side reserved cleanly for actual YouTube end-screen elements;
+- AI RECONSTRUCTION remains absent;
+- HISTORICAL SOURCE remains the only provenance label;
+- original AAC preserved bit-for-bit;
+- full decode PASS.
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
