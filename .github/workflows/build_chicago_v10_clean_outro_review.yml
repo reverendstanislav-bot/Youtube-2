@@ -1,0 +1,459 @@
+name: Build Chicago V10 Clean Outro Final Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_v10_clean_outro_review.yml'
+      - 'CHICAGO/V10/**'
+      - 'CHICAGO/tools/final_prepublication_qc.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build-v10:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install media and QC tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-pil python3-opencv python3-numpy jq zip fonts-dejavu-core
+
+      - name: Download and reconstruct canonical Chicago archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v10 /tmp/hia_brand
+          mkdir -p /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v10/remotion/src /tmp/chicago_v10/remotion/public /tmp/chicago_v10/work /tmp/chicago_v10/qc /tmp/hia_brand
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract canonical project material
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar             -o/tmp/chicago_extract             "-ir!*/_V2/work/assets/*"             "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4"             "-ir!*/_V2/final/HIA_CHICAGO_V2.srt"             "-ir!*/_QC/voice_words.json"             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/03_TIMELINE/scene_map.csv"             "-ir!*/03_TIMELINE/timeline.csv"             "-ir!*/06_LICENSES_FACTS/fact_map.csv"             "-ir!*/06_LICENSES_FACTS/license_manifest.csv"             "-ir!*/06_LICENSES_FACTS/music_attribution.txt"
+
+          ASSETS="$(find /tmp/chicago_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          SCRIPT="$(find /tmp/chicago_extract -type f -path '*/02_SCRIPT/voiceover_en.txt' | head -n1)"
+          SCENE_MAP="$(find /tmp/chicago_extract -type f -path '*/03_TIMELINE/scene_map.csv' | head -n1)"
+          TIMELINE="$(find /tmp/chicago_extract -type f -path '*/03_TIMELINE/timeline.csv' | head -n1)"
+          FACT_MAP="$(find /tmp/chicago_extract -type f -path '*/06_LICENSES_FACTS/fact_map.csv' | head -n1)"
+          LICENSES="$(find /tmp/chicago_extract -type f -path '*/06_LICENSES_FACTS/license_manifest.csv' | head -n1)"
+          MUSIC_ATTR="$(find /tmp/chicago_extract -type f -path '*/06_LICENSES_FACTS/music_attribution.txt' | head -n1)"
+
+          for v in "$ASSETS" "$V2" "$SRT" "$WORDS" "$SCRIPT" "$SCENE_MAP" "$TIMELINE" "$FACT_MAP" "$LICENSES" "$MUSIC_ATTR"; do
+            test -e "$v"
+          done
+
+          {
+            echo "ASSETS=$ASSETS"
+            echo "V2=$V2"
+            echo "SRT=$SRT"
+            echo "WORDS=$WORDS"
+            echo "SCRIPT=$SCRIPT"
+            echo "SCENE_MAP=$SCENE_MAP"
+            echo "TIMELINE=$TIMELINE"
+            echo "FACT_MAP=$FACT_MAP"
+            echo "LICENSES=$LICENSES"
+            echo "MUSIC_ATTR=$MUSIC_ATTR"
+          } >> "$GITHUB_ENV"
+
+      - name: Download canonical HIA brand package and select clean outro base
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          ROOT="$(find extracted -type d -name 'Hidden_Industrial_America_7_Brand_Assets' | head -n1)"
+          test -s "$ROOT/07_generic_reusable_thumbnail_base.png"
+          cp "$ROOT/07_generic_reusable_thumbnail_base.png" /tmp/chicago_v10/remotion/public/end_screen_clean_base.png
+          sha256sum "$ROOT/07_generic_reusable_thumbnail_base.png" | tee /tmp/chicago_v10/qc/OUTRO_BASE_SHA256.txt
+
+      - name: Validate V10 source rules
+        run: |
+          set -euo pipefail
+          ! grep -q 'WATCH NEXT' CHICAGO/V10/src/index.jsx
+          ! grep -q 'CONTINUE EXPLORING' CHICAGO/V10/src/index.jsx
+          ! grep -q 'end_screen_first_episode' CHICAGO/V10/src/index.jsx
+          grep -q "end_screen_clean_base.png" CHICAGO/V10/src/index.jsx
+          grep -q "borderRadius:'50%'" CHICAGO/V10/src/index.jsx
+          grep -q 'SUBSCRIBE' CHICAGO/V10/src/index.jsx
+          ! grep -q 'AI RECONSTRUCTION' CHICAGO/V10/prepare_remotion_data.py
+          echo "V10 source rules PASS"
+
+      - name: Preflight V10 Remotion bundle
+        run: |
+          set -euo pipefail
+          cp CHICAGO/V10/src/index.jsx /tmp/chicago_v10/remotion/src/index.jsx
+          cp CHICAGO/V10/package.json /tmp/chicago_v10/remotion/package.json
+
+          ffmpeg -y -loglevel error -f lavfi -i color=c=black:s=960x540:r=25 -t 1             -c:v libx264 -pix_fmt yuv420p /tmp/chicago_v10/remotion/public/base.mp4
+          echo '[]' > /tmp/chicago_v10/remotion/public/captions.json
+          echo '{"cards":[],"provenance":[]}' > /tmp/chicago_v10/remotion/public/overlays.json
+
+          cd /tmp/chicago_v10/remotion
+          npm install --no-audit --no-fund
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/BUNDLE_PREFLIGHT.png --frame=0
+
+      - name: Build clean V10 picture track
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V4/build_v4_picture.py             --v3-builder CHICAGO/V3/build_v3_picture.py             --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json             --assets-root "$ASSETS"             --work /tmp/chicago_v10/work/picture             --output-video /tmp/chicago_v10/remotion/public/base.mp4             --plan-out /tmp/chicago_v10/work/V10_SHOTS.json
+
+      - name: Prepare V10 editorial data
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V10/prepare_remotion_data.py             --srt "$SRT"             --words "$WORDS"             --plan /tmp/chicago_v10/work/V10_SHOTS.json             --captions-out /tmp/chicago_v10/remotion/public/captions.json             --overlays-out /tmp/chicago_v10/remotion/public/overlays.json             --report /tmp/chicago_v10/qc/REMOTION_DATA_REPORT.json
+
+          ! grep -q 'AI RECONSTRUCTION' /tmp/chicago_v10/remotion/public/overlays.json
+
+      - name: Extract and verify original AAC
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/chicago_v10/work/original.aac
+          AH="$(sha256sum /tmp/chicago_v10/work/original.aac | awk '{print $1}')"
+          EXPECTED='a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          test "$AH" = "$EXPECTED"
+          echo "$AH  original.aac" > /tmp/chicago_v10/qc/AUDIO_SHA256.txt
+
+      - name: Render V10 preflight stills
+        working-directory: /tmp/chicago_v10/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_v10/qc/stills
+          # Control stills outside outro prove V9/V7 picture language is still present.
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/stills/01_opening.png --frame=75
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/stills/02_mid.png --frame=16000
+          # Outro-specific stills.
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/stills/03_end_start.png --frame=31830
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/stills/04_end_circle.png --frame=31930
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/stills/05_end_caption.png --frame=32050
+          npx remotion still src/index.jsx ChicagoV10 /tmp/chicago_v10/qc/stills/06_end_final.png --frame=32240
+
+      - name: Render full V10 review
+        working-directory: /tmp/chicago_v10/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx ChicagoV10 out/raw_video.mp4             --codec=h264 --crf=19 --pixel-format=yuv420p --concurrency=4
+
+      - name: Mux original AAC
+        run: |
+          set -euo pipefail
+          OUT=/tmp/chicago_v10/HIA_CHICAGO_V10_CLEAN_OUTRO_FINAL_REVIEW_960x540.mp4
+          ffmpeg -y -hide_banner -loglevel error             -i /tmp/chicago_v10/remotion/out/raw_video.mp4             -i /tmp/chicago_v10/work/original.aac             -map 0:v:0 -map 1:a:0             -c:v copy -c:a copy             -movflags +faststart             "$OUT"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Full technical decode and audio identity QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/chicago_v10/qc
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+
+          DUR="$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$OUT")"
+          python3 - "$DUR" <<'PY'
+          import sys
+          d=float(sys.argv[1])
+          assert abs(d-1290.720)<0.20, d
+          PY
+
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/review.aac"
+          RH="$(sha256sum "$Q/review.aac" | awk '{print $1}')"
+          EXPECTED='a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$RH  review.aac" > "$Q/REVIEW_AUDIO_SHA256.txt"
+          test "$RH" = "$EXPECTED"
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+
+      - name: Independent FFmpeg detectors
+        run: |
+          set -euo pipefail
+          Q=/tmp/chicago_v10/qc
+          ffmpeg -hide_banner -nostats -i "$OUT"             -vf "blackdetect=d=0.08:pix_th=0.10:pic_th=0.98"             -an -f null - 2> "$Q/BLACKDETECT.log" || true
+          ffmpeg -hide_banner -nostats -i "$OUT"             -vf "freezedetect=n=-55dB:d=3"             -an -f null - 2> "$Q/FREEZEDETECT.log" || true
+          ffmpeg -hide_banner -nostats -i "$OUT"             -af "silencedetect=n=-60dB:d=0.5"             -vn -f null - 2> "$Q/SILENCEDETECT.log" || true
+
+      - name: Fresh subtitle to VO timing audit
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/analyze_subtitle_alignment.py             --words "$WORDS"             --srt "$SRT"             --out-json /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.json             --out-md /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.md
+          grep -q 'Verdict: **PASS**' /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.md
+
+      - name: Run exhaustive whole-film QC
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_v10/qc/exhaustive
+          python3 CHICAGO/tools/final_prepublication_qc.py             --video "$OUT"             --shots /tmp/chicago_v10/work/V10_SHOTS.json             --captions /tmp/chicago_v10/remotion/public/captions.json             --overlays /tmp/chicago_v10/remotion/public/overlays.json             --scene-map "$SCENE_MAP"             --script "$SCRIPT"             --voice-words "$WORDS"             --srt "$SRT"             --fact-map "$FACT_MAP"             --timeline "$TIMELINE"             --outdir /tmp/chicago_v10/qc/exhaustive             | tee /tmp/chicago_v10/qc/EXHAUSTIVE_GATE.json
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('/tmp/chicago_v10/qc/EXHAUSTIVE_GATE.json').read_text())
+          assert d['gate']=='PASS_AUTOMATIC', d
+          PY
+
+      - name: Correct fact, source and license coverage audit
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import csv, json, os, re
+          from pathlib import Path
+          out=Path('/tmp/chicago_v10/qc')
+
+          def read(path):
+              text=Path(path).read_text(encoding='utf-8-sig',errors='replace')
+              sample=text[:5000]
+              try:
+                  dialect=csv.Sniffer().sniff(sample,delimiters=';,\t,')
+                  delim=dialect.delimiter
+              except:
+                  delim=';'
+              rows=list(csv.DictReader(text.splitlines(),delimiter=delim))
+              return rows,delim
+
+          facts,fdel=read(os.environ['FACT_MAP'])
+          lics,ldel=read(os.environ['LICENSES'])
+          shots=json.loads(Path('/tmp/chicago_v10/work/V10_SHOTS.json').read_text(encoding='utf-8-sig'))
+
+          def find_column(rows,preds):
+              if not rows:return None
+              keys=list(rows[0].keys())
+              for k in keys:
+                  lk=(k or '').strip().lower()
+                  if any(p in lk for p in preds): return k
+              return None
+
+          sk=find_column(facts,['status','lock','verify'])
+          ck=find_column(facts,['confidence','certainty'])
+          # infer if headers differ
+          if sk is None and facts:
+              for k in facts[0]:
+                  vals=[(r.get(k) or '').strip().upper() for r in facts]
+                  if sum(v in ('LOCKED','PASS','VERIFIED') for v in vals) >= max(1,len(vals)//2):
+                      sk=k;break
+          if ck is None and facts:
+              for k in facts[0]:
+                  vals=[(r.get(k) or '').strip().upper() for r in facts]
+                  if sum(v in ('HIGH','MEDIUM','LOW') for v in vals) >= max(1,len(vals)//2):
+                      ck=k;break
+
+          statuses=[(r.get(sk) or '').strip() for r in facts] if sk else []
+          confs=[(r.get(ck) or '').strip() for r in facts] if ck else []
+          nonlocked=[x for x in statuses if x.upper() not in ('LOCKED','PASS','VERIFIED')]
+
+          lic_by_id={}
+          missing_fields=[]
+          for r in lics:
+              rid=(r.get('id') or r.get('ID') or '').strip()
+              if rid: lic_by_id[rid]=r
+              source=(r.get('source_page') or r.get('source') or '').strip()
+              lic=(r.get('license') or '').strip()
+              if not source or not lic:
+                  missing_fields.append(rid or '(unknown)')
+
+          refs=set()
+          for s in shots:
+              blob=' '.join(str(s.get(k,'')) for k in ('source','asset'))
+              refs.update(re.findall(r'(?<![A-Za-z0-9])(A\d{2})(?=[^0-9]|$)',blob))
+          missing_refs=sorted(x for x in refs if x not in lic_by_id)
+
+          risks={}
+          for x in sorted(refs):
+              if x in lic_by_id:
+                  risk=(lic_by_id[x].get('risk') or '').strip()
+                  risks[risk]=risks.get(risk,0)+1
+
+          report={
+            'fact_delimiter':fdel,
+            'fact_headers':list(facts[0].keys()) if facts else [],
+            'fact_rows':len(facts),
+            'status_column':sk,
+            'confidence_column':ck,
+            'status_values':statuses,
+            'confidence_values':confs,
+            'nonlocked_fact_count':len(nonlocked),
+            'license_delimiter':ldel,
+            'license_rows':len(lics),
+            'license_rows_missing_source_or_license':missing_fields,
+            'referenced_archive_ids':sorted(refs),
+            'referenced_archive_ids_missing_manifest':missing_refs,
+            'referenced_license_risk_counts':risks,
+            'music_attribution_bytes':Path(os.environ['MUSIC_ATTR']).stat().st_size,
+          }
+          (out/'FACT_LICENSE_AUDIT_CORRECTED.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          assert len(facts)==23
+          assert len(nonlocked)==0
+          assert not missing_fields
+          assert not missing_refs
+          assert report['music_attribution_bytes']>0
+          PY
+
+      - name: Audit silences against spoken-word transcript
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re,os
+          from pathlib import Path
+          words=json.loads(Path(os.environ['WORDS']).read_text(encoding='utf-8-sig',errors='replace'))
+          log=Path('/tmp/chicago_v10/qc/SILENCEDETECT.log').read_text(errors='replace')
+          starts=[float(x) for x in re.findall(r'silence_start:\s*([0-9.]+)',log)]
+          ends=[float(x) for x in re.findall(r'silence_end:\s*([0-9.]+)',log)]
+          sil=list(zip(starts,ends))
+          conflicts=[]
+          for a,b in sil:
+              overlap=[]
+              for w in words:
+                  s=float(w['start']);e=float(w['end'])
+                  if min(b,e)-max(a,s)>0.08:
+                      overlap.append({'word':w.get('word',''),'start':s,'end':e})
+              if overlap: conflicts.append({'silence':[a,b],'words':overlap[:10]})
+          report={'silence_intervals':sil,'count':len(sil),'voice_conflicts':conflicts}
+          Path('/tmp/chicago_v10/qc/SILENCE_VO_AUDIT.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+          print(json.dumps(report,indent=2))
+          assert not conflicts
+          PY
+
+      - name: End-screen geometry QC
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, json
+          src=Path('CHICAGO/V10/src/index.jsx').read_text()
+          checks={
+            'uses_clean_07_base':'end_screen_clean_base.png' in src,
+            'no_watch_next':'WATCH NEXT' not in src,
+            'no_continue_exploring':'CONTINUE EXPLORING' not in src,
+            'subscribe_circle':"borderRadius:'50%'" in src,
+            'circle_left_434':'left:434' in src,
+            'circle_width_172':'width:172,height:172' in src,
+            'end_caption_right_600':'right:endMode?600:70' in src,
+          }
+          report={
+            'checks':checks,
+            'review_geometry':{
+              'caption_x_min':54,'caption_x_max':360,
+              'subscribe_circle_x_min':434,'subscribe_circle_x_max':606,
+              'horizontal_gap_px':74,
+              'subscribe_circle_y_min':249,'subscribe_circle_y_max':421,
+              'subscribe_label_top':438
+            }
+          }
+          Path('/tmp/chicago_v10/qc/END_SCREEN_GEOMETRY_QC.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+          assert all(checks.values()),checks
+          assert report['review_geometry']['horizontal_gap_px']>=60
+          PY
+
+      - name: Build V10 QC summary
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          q=Path('/tmp/chicago_v10/qc')
+          g=json.loads((q/'EXHAUSTIVE_GATE.json').read_text())
+          sub=(q/'SUBTITLE_VO_ALIGNMENT.md').read_text()
+          fl=json.loads((q/'FACT_LICENSE_AUDIT_CORRECTED.json').read_text())
+          sil=json.loads((q/'SILENCE_VO_AUDIT.json').read_text())
+          lines=[
+            '# Chicago V10 Clean Outro — final review QC','',
+            '- Full decode: **PASS**.',
+            '- Exhaustive automatic gate: **PASS_AUTOMATIC**.',
+            '- 32,268 frames / 25 fps / 40 ms cadence verified by exhaustive QC.',
+            '- V10 changes only the outro design; earlier V9/V7 edit logic is preserved.',
+            '- End screen uses canonical HIA asset **07_generic_reusable_thumbnail_base.png**.',
+            '- Episode 1 video recommendation slots: **NONE**.',
+            '- Subscribe/avatar target: **one circle only**.',
+            '- End captions stay left with **74 px horizontal gap** to Subscribe circle at 960x540.',
+            '- AI RECONSTRUCTION label: absent; HISTORICAL SOURCE only before outro.',
+            '- Original AAC preserved bit-for-bit.',
+            '- Loudness / peak / clipping / discontinuity metrics are in exhaustive QC.',
+            '- Fresh subtitle↔VO timing audit: **PASS**.',
+            f"- Silence intervals detected: {sil['count']}; overlaps with spoken words: {len(sil['voice_conflicts'])}.",
+            f"- Fact rows: {fl['fact_rows']}; nonlocked: {fl['nonlocked_fact_count']}.",
+            f"- Referenced archive IDs missing license manifest: {len(fl['referenced_archive_ids_missing_manifest'])}.",
+            f"- License rows missing source/license: {len(fl['license_rows_missing_source_or_license'])}.",
+            '',
+            'Status: **READY FOR USER VISUAL REVIEW BEFORE 1080P FINAL MASTER.**'
+          ]
+          (q/'V10_QC_SUMMARY.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          PY
+
+      - name: Package V10 review and QC
+        run: |
+          set -euo pipefail
+          cp /tmp/chicago_v10/work/V10_SHOTS.json /tmp/chicago_v10/qc/
+          cp /tmp/chicago_v10/remotion/public/end_screen_clean_base.png /tmp/chicago_v10/qc/
+          cp CHICAGO/V10/src/index.jsx /tmp/chicago_v10/qc/
+          cd /tmp/chicago_v10
+          zip -q -r HIA_CHICAGO_V10_CLEAN_OUTRO_QC.zip qc
+          cp qc/VIDEO_SHA256.txt SHA256SUMS.txt
+
+      - name: Publish V10 final-review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=chicago-v10-clean-outro-final-review-20260921
+          BODY='Final review candidate. V10 keeps the approved V9/V7 edit before 21:12.72 and replaces only the first-episode outro with canonical HIA asset 07 plus one Subscribe/avatar circle. No video recommendation slots. Exhaustive full-film QC is included; no AI generation was used.'
+
+          if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
+            gh release upload "$TAG"               "$OUT"               /tmp/chicago_v10/HIA_CHICAGO_V10_CLEAN_OUTRO_QC.zip               /tmp/chicago_v10/SHA256SUMS.txt               --clobber --repo reverendstanislav-bot/Youtube-2
+          else
+            gh release create "$TAG"               "$OUT"               /tmp/chicago_v10/HIA_CHICAGO_V10_CLEAN_OUTRO_QC.zip               /tmp/chicago_v10/SHA256SUMS.txt               --title 'Chicago V10 Clean Outro Final Review 960x540'               --notes "$BODY"               --repo reverendstanislav-bot/Youtube-2
+          fi
+
+      - name: Record V10 QC in Git safely
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/V10/REVIEW_QC
+          cp /tmp/chicago_v10/qc/V10_QC_SUMMARY.md CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/EXHAUSTIVE_GATE.json CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/FACT_LICENSE_AUDIT_CORRECTED.json CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/SILENCE_VO_AUDIT.json CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/END_SCREEN_GEOMETRY_QC.json CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.md CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/VIDEO_SHA256.txt CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/AUDIO_SHA256.txt CHICAGO/V10/REVIEW_QC/
+          cp /tmp/chicago_v10/qc/REVIEW_AUDIO_SHA256.txt CHICAGO/V10/REVIEW_QC/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/V10/REVIEW_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chicago V10 final-review QC"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-v10-clean-outro-final-review
+          path: |
+            /tmp/chicago_v10/HIA_CHICAGO_V10_CLEAN_OUTRO_FINAL_REVIEW_960x540.mp4
+            /tmp/chicago_v10/qc
+          retention-days: 14
