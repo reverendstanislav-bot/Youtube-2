@@ -62,3 +62,12 @@
 ### Blocking / review issues
 - 4 one-frame blur-collapse candidates require review.
 - Current V9 shot plan references unknown scene IDs.
+
+## Independent FFmpeg detector cross-check
+
+- blackdetect events: **0**
+- freezedetect starts: **10**
+- silencedetect starts: **16**
+- scene detector metadata events: **152**
+
+Machine detectors are cross-checks; still-photo freeze events are not automatically defects.
