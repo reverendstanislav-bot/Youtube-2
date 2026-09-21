@@ -111,7 +111,7 @@ function InfoBeat(){
       fontSize:chapter?34:22,
       lineHeight:1.02,
       fontWeight:chapter?800:760,
-      letterSpacing:chapter?.7:1.0
+      letterSpacing:chapter ? .7 : 1.0
     }}>{x.text}</div>
   </div>;
 }
@@ -199,7 +199,7 @@ function Process(){
         return <React.Fragment key={lab}>
           <div style={{
             display:'flex',alignItems:'center',gap:7,
-            opacity:current?1:done?.60:.36,
+            opacity:current ? 1 : (done ? .60 : .36),
             color:current?C.ivory:C.muted
           }}>
             <div style={{
