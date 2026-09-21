@@ -205,3 +205,40 @@ Key differences from V3:
 
 Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+
+## V5 editorial Remotion review
+
+V5 supersedes V4 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V5 Editorial Review`
+- run `35556163548`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V5_EDITORIAL_REVIEW_960x540.mp4`
+- SHA-256 `032155221bcb33035eb72f7e28521a81134accf1049fc7f2797700d2fe4956ca`
+- release tag `chicago-v5-editorial-review-20260920`
+
+Visual system:
+- large off-white serif headline;
+- orange kicker / subline;
+- compact step marker;
+- animated Remotion reveal / hold / fade;
+- no gray process-rail UI;
+- no opaque cards;
+- all editorial cards stay in upper 75% of frame;
+- bottom subtitle-safe zone remains clear;
+- one white-base / orange-active running subtitle layer;
+- original AAC preserved bit-for-bit.
+
+Technical QC:
+- full decode PASS;
+- 338 caption cues;
+- 98.665% word-level mapping;
+- 207-shot cleaned sequence;
+- 33 editorial cards.
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
