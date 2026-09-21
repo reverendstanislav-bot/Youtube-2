@@ -1,0 +1,57 @@
+name: Check Chicago Careful Wording Scenes
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/check_chicago_careful_wording.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install archive tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+
+      - name: Download canonical archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/careful/src /tmp/careful/extracted
+          cd /tmp/careful/src
+          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > source.rar
+          7z x -y source.rar -o/tmp/careful/extracted             "-ir!*/03_TIMELINE/scene_map.csv"             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/06_LICENSES_FACTS/fact_map.csv"
+
+      - name: Show careful wording rows
+        run: |
+          python3 - <<'PY'
+          import csv
+          from pathlib import Path
+          root=next(Path('/tmp/careful/extracted').glob('*'))
+          with open(root/'03_TIMELINE/scene_map.csv',encoding='utf-8-sig',newline='') as f:
+              scenes=list(csv.DictReader(f,delimiter=';'))
+          by={r['scene']:r for r in scenes}
+          with open(root/'06_LICENSES_FACTS/fact_map.csv',encoding='utf-8-sig',newline='') as f:
+              facts=list(csv.DictReader(f,delimiter=';'))
+          for sid in ['S062','S063','S100']:
+              print('\n===',sid,'===')
+              print('NARRATION:',by[sid]['narration'])
+              print('VISUAL:',by[sid].get('visual',''))
+              print('TEXT_OVERLAY:',by[sid].get('text_overlay',''))
+              for r in facts:
+                  if r.get('ID_кадра')==sid:
+                      print('FACT:',r.get('Утверждение'))
+                      print('CONF:',r.get('Уверенность'))
+                      print('STATUS:',r.get('Статус_озвучки'))
+                      print('SOURCE:',r.get('Источник'),r.get('URL'))
+          PY
