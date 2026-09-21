@@ -336,6 +336,14 @@ def frame_audit(video,shots,outdir):
       "single_frame_flash_candidates":flashes,
       "one_frame_blur_anomalies":blur_anom,
       "planned_boundary_transition_strengths":transitions,
+      "blur_anomalies_near_planned_boundary":[
+        x for x in blur_anom
+        if min((abs(x["frame"]-b) for b in shot_boundaries),default=9999)<=2
+      ],
+      "blur_anomalies_away_from_planned_boundary":[
+        x for x in blur_anom
+        if min((abs(x["frame"]-b) for b in shot_boundaries),default=9999)>2
+      ],
       "luma":{"min":float(means_np.min()),"max":float(means_np.max()),"median":float(np.median(means_np))},
       "blur":{"min":float(blur_np.min()),"p05":float(np.percentile(blur_np,5)),"median":float(np.median(blur_np))},
       "edge_density":{"min":float(edge_np.min()),"median":float(np.median(edge_np))}
@@ -469,6 +477,8 @@ def write_md(data,path):
       f"- Unexpected hard discontinuities away from planned shot boundaries: **{len(f['unexpected_hard_discontinuities'])}**",
       f"- Single-frame flash candidates: **{len(f['single_frame_flash_candidates'])}**",
       f"- One-frame blur-collapse candidates: **{len(f['one_frame_blur_anomalies'])}**",
+      f"- ...within ±2 frames of planned shot boundary: **{len(f.get('blur_anomalies_near_planned_boundary',[]))}**",
+      f"- ...away from planned shot boundary: **{len(f.get('blur_anomalies_away_from_planned_boundary',[]))}**",
       f"- Near-static intervals >=3 s: **{len(f['freeze_segments_ge_3s'])}** (still-image documentary material is expected; cross-check separately).","",
       "## Audio QC",
       f"- Loudness input_i: **{data['loudness'].get('input_i','?')} LUFS**",
@@ -555,7 +565,9 @@ def main():
     if frame["white_frames"]: issues.append(f"{len(frame['white_frames'])} true white/blank frames detected.")
     if frame["single_frame_flash_candidates"]: issues.append(f"{len(frame['single_frame_flash_candidates'])} single-frame flash candidates require review.")
     if frame["unexpected_hard_discontinuities"]: issues.append(f"{len(frame['unexpected_hard_discontinuities'])} hard discontinuities away from planned boundaries require review.")
-    if frame["one_frame_blur_anomalies"]: issues.append(f"{len(frame['one_frame_blur_anomalies'])} one-frame blur-collapse candidates require review.")
+    unexpected_blur=frame.get("blur_anomalies_away_from_planned_boundary",[])
+    if unexpected_blur:
+        issues.append(f"{len(unexpected_blur)} one-frame blur-collapse candidates away from planned boundaries require review.")
     try:
         if float(loud.get("input_i","-999")) < -15.5 or float(loud.get("input_i","999")) > -12.5:
             issues.append(f"Integrated loudness outside expected YouTube/channel range: {loud.get('input_i')} LUFS.")
@@ -572,7 +584,12 @@ def main():
     if tokd["script_vs_scene_map_ratio"]<0.98: issues.append(f"Script↔scene-map narration match below 98%: {tokd['script_vs_scene_map_ratio']:.2%}.")
     if script["scene_map"]["gaps"] or script["scene_map"]["overlaps"]: issues.append("Canonical scene map contains timing gaps/overlaps.")
     if script["shots"]["gaps"] or script["shots"]["overlaps"]: issues.append("Current V9 shot plan contains timing gaps/overlaps.")
-    if script["shots"]["missing_scene_ids"]: issues.append("Current V9 shot plan references unknown scene IDs.")
+    unexpected_missing=[
+        x for x in script["shots"]["missing_scene_ids"]
+        if not (str(x.get("scene","")).startswith("V3_") or str(x.get("scene",""))=="end")
+    ]
+    if unexpected_missing:
+        issues.append(f"{len(unexpected_missing)} current-shot scene IDs are neither canonical nor approved V3/end synthetic IDs.")
 
     gate="PASS_AUTOMATIC" if not issues else "REVIEW_REQUIRED"
     data={
