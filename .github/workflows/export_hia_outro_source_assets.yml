@@ -1,0 +1,43 @@
+name: Export HIA Outro Source Assets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/export_hia_outro_source_assets.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download canonical brand package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/hia_outro_assets
+          mkdir -p /tmp/hia_outro_assets
+          cd /tmp/hia_outro_assets
+          gh release download chicago-channel-brand-assets-extracted-20260920             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+
+          ROOT="$(find extracted -type d -name 'Hidden_Industrial_America_7_Brand_Assets' | head -n1)"
+          cp "$ROOT/01_avatar_logo.png" .
+          cp "$ROOT/06_end_screen_background.png" .
+          cp "$ROOT/07_generic_reusable_thumbnail_base.png" .
+
+      - name: Upload exact source assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-outro-source-assets
+          path: |
+            /tmp/hia_outro_assets/01_avatar_logo.png
+            /tmp/hia_outro_assets/06_end_screen_background.png
+            /tmp/hia_outro_assets/07_generic_reusable_thumbnail_base.png
+          retention-days: 14
