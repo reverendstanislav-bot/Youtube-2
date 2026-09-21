@@ -345,3 +345,34 @@ V8 changes:
 
 Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+
+## V9 first-episode end-screen review
+
+V9 supersedes V8 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V9 First Episode End Screen Review`
+- run `35572453850`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4`
+- SHA-256 `c436ccb1894efe750ecd6d23369f2062b6a2354f8f8ec9e84758520602281e50`
+- release tag `chicago-v9-first-episode-end-screen-review-20260921`
+
+V9 end-screen rules:
+- canonical HIA `06 End Screen` used as the source;
+- recommendation/video rectangle removed because Chicago is Episode 1;
+- Subscribe/avatar circle preserved from the canonical asset;
+- rectangle cleanup is deterministic, with subscribe-circle pixels preserved bit-for-bit;
+- WATCH NEXT / CONTINUE EXPLORING removed;
+- SUBSCRIBE / HIDDEN INDUSTRIAL AMERICA label retained near the subscribe circle;
+- actual clickable Subscribe element should be placed over the circle in YouTube Studio;
+- final captions remain clear of the subscribe circle;
+- no new generated assets;
+- original AAC preserved bit-for-bit;
+- full decode PASS.
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
