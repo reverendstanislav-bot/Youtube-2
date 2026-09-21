@@ -1,0 +1,305 @@
+name: Build Chicago V7 Readability Provenance Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_v7_readability_provenance_review.yml'
+      - 'CHICAGO/V7/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-v7:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install media tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-pil jq zip fonts-dejavu-core
+
+      - name: Download and reconstruct canonical Chicago archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v7
+          mkdir -p /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v7/remotion/src /tmp/chicago_v7/remotion/public /tmp/chicago_v7/work /tmp/chicago_v7/qc
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 \
+            --repo reverendstanislav-bot/Youtube-2 \
+            --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 \
+              Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 \
+              Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 \
+              > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract V2 work assets and canonical timing/audio
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar \
+            -o/tmp/chicago_extract \
+            "-ir!*/_V2/work/assets/*" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.srt" \
+            "-ir!*/_QC/voice_words.json"
+
+          ASSETS="$(find /tmp/chicago_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          test -d "$ASSETS"; test -s "$V2"; test -s "$SRT"; test -s "$WORDS"
+
+          echo "ASSETS=$ASSETS" >> "$GITHUB_ENV"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+          echo "SRT=$SRT" >> "$GITHUB_ENV"
+          echo "WORDS=$WORDS" >> "$GITHUB_ENV"
+
+      - name: Validate V7 source rules
+        run: |
+          set -euo pipefail
+          ! grep -q "linear-gradient" CHICAGO/V7/src/index.jsx
+          ! grep -q "spring(" CHICAGO/V7/src/index.jsx
+          grep -q "WebkitTextStroke" CHICAGO/V7/src/index.jsx
+          grep -q "NO background / gradient / panel" CHICAGO/V7/src/index.jsx
+          ! grep -q "AI RECONSTRUCTION" CHICAGO/V7/prepare_remotion_data.py
+          grep -q '"label":"HISTORICAL SOURCE"' CHICAGO/V7/prepare_remotion_data.py
+          echo "V7 source rules PASS"
+
+      - name: Preflight V7 Remotion bundle
+        run: |
+          set -euo pipefail
+          cp CHICAGO/V7/src/index.jsx /tmp/chicago_v7/remotion/src/index.jsx
+          cp CHICAGO/V7/package.json /tmp/chicago_v7/remotion/package.json
+
+          ffmpeg -y -loglevel error -f lavfi -i color=c=white:s=960x540:r=25 -t 1 \
+            -c:v libx264 -pix_fmt yuv420p /tmp/chicago_v7/remotion/public/base.mp4
+          echo '[]' > /tmp/chicago_v7/remotion/public/captions.json
+          echo '{"cards":[],"provenance":[]}' > /tmp/chicago_v7/remotion/public/overlays.json
+
+          cd /tmp/chicago_v7/remotion
+          npm install --no-audit --no-fund
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/BUNDLE_PREFLIGHT_WHITE.png --frame=0
+
+      - name: Build clean V7 picture track
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V4/build_v4_picture.py \
+            --v3-builder CHICAGO/V3/build_v3_picture.py \
+            --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json \
+            --assets-root "$ASSETS" \
+            --work /tmp/chicago_v7/work/picture \
+            --output-video /tmp/chicago_v7/remotion/public/base.mp4 \
+            --plan-out /tmp/chicago_v7/work/V7_SHOTS.json
+
+      - name: Prepare V7 editorial data
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V7/prepare_remotion_data.py \
+            --srt "$SRT" \
+            --words "$WORDS" \
+            --plan /tmp/chicago_v7/work/V7_SHOTS.json \
+            --captions-out /tmp/chicago_v7/remotion/public/captions.json \
+            --overlays-out /tmp/chicago_v7/remotion/public/overlays.json \
+            --report /tmp/chicago_v7/qc/REMOTION_DATA_REPORT.json
+
+          cp CHICAGO/V7/src/index.jsx /tmp/chicago_v7/remotion/src/index.jsx
+          cp CHICAGO/V7/package.json /tmp/chicago_v7/remotion/package.json
+
+          ! grep -q "AI RECONSTRUCTION" /tmp/chicago_v7/remotion/public/overlays.json
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/chicago_v7/remotion/public/overlays.json')
+          d=json.loads(p.read_text())
+          labels={x['label'] for x in d.get('provenance',[])}
+          assert labels <= {'HISTORICAL SOURCE'}, labels
+          assert 'AI RECONSTRUCTION' not in p.read_text()
+          print('provenance labels:',labels)
+          PY
+
+      - name: Extract original AAC
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/chicago_v7/work/original.aac
+          AH="$(sha256sum /tmp/chicago_v7/work/original.aac | awk '{print $1}')"
+          test "$AH" = "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
+          echo "$AH  original.aac" > /tmp/chicago_v7/qc/AUDIO_SHA256.txt
+
+      - name: Render V7 readability preflight stills
+        working-directory: /tmp/chicago_v7/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_v7/qc/stills
+          # Problematic light chapter frame plus dark/mixed-background controls.
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/stills/01_opening.png --frame=75
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/stills/02_telephone_origins_LIGHT.png --frame=4000
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/stills/03_surface.png --frame=6075
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/stills/04_transfer.png --frame=6375
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/stills/05_building_connection.png --frame=13850
+          npx remotion still src/index.jsx ChicagoV7 /tmp/chicago_v7/qc/stills/06_end.png --frame=32050
+
+      - name: Render full V7 through Remotion
+        working-directory: /tmp/chicago_v7/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx ChicagoV7 out/raw_video.mp4 \
+            --codec=h264 --crf=19 --pixel-format=yuv420p --concurrency=4
+
+      - name: Mux original AAC
+        run: |
+          set -euo pipefail
+          OUT=/tmp/chicago_v7/HIA_CHICAGO_V7_READABILITY_PROVENANCE_REVIEW_960x540.mp4
+
+          ffmpeg -y -hide_banner -loglevel error \
+            -i /tmp/chicago_v7/remotion/out/raw_video.mp4 \
+            -i /tmp/chicago_v7/work/original.aac \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy -c:a copy \
+            -movflags +faststart \
+            "$OUT"
+
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Technical QC
+        run: |
+          set -euo pipefail
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > /tmp/chicago_v7/qc/FFPROBE.json
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> /tmp/chicago_v7/qc/DECODE_ERRORS.txt
+          test ! -s /tmp/chicago_v7/qc/DECODE_ERRORS.txt
+
+          DUR="$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$OUT")"
+          python3 - "$DUR" <<'PY'
+          import sys
+          d=float(sys.argv[1])
+          assert abs(d-1290.720)<0.20, d
+          PY
+
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts /tmp/chicago_v7/qc/review.aac
+          RH="$(sha256sum /tmp/chicago_v7/qc/review.aac | awk '{print $1}')"
+          EXPECTED="a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
+          {
+            echo "$EXPECTED  expected_original.aac"
+            echo "$RH  review.aac"
+          } | tee /tmp/chicago_v7/qc/REVIEW_AUDIO_SHA256.txt
+          test "$RH" = "$EXPECTED"
+
+          sha256sum "$OUT" > /tmp/chicago_v7/qc/VIDEO_SHA256.txt
+
+      - name: Sequence QC
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/audit_v2_sequence.py \
+            --shots /tmp/chicago_v7/work/V7_SHOTS.json \
+            --out-json /tmp/chicago_v7/qc/V7_SEQUENCE_AUDIT.json \
+            --out-md /tmp/chicago_v7/qc/V7_SEQUENCE_AUDIT.md
+
+      - name: Build V7 QC summary
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          q=Path('/tmp/chicago_v7/qc')
+          seq=json.loads((q/'V7_SEQUENCE_AUDIT.json').read_text())
+          data=json.loads((q/'REMOTION_DATA_REPORT.json').read_text())
+          lines=[
+            '# Chicago V7 Readability + Provenance review QC','',
+            '- AI RECONSTRUCTION label: **REMOVED COMPLETELY**.',
+            '- Provenance label set: **HISTORICAL SOURCE only**.',
+            '- Black/gradient overlay backgrounds: **NONE**.',
+            '- Main title readability: 1.15px dark stroke + compact dark shadow.',
+            '- Kicker/subline/step readability: thin dark stroke + compact shadow.',
+            '- Stroke is attached to glyphs only; no panel/background is introduced.',
+            '- V6 typography size/placement preserved.',
+            '- Overlay composition remains above y=300.',
+            '- Bottom subtitle zone remains clear.',
+            '- Subtitles: one running layer, white base + orange active word.',
+            '- Original AAC preserved bit-for-bit.',
+            '- Full decode: PASS.',
+            f"- Caption cues: {data['caption_cues']}.",
+            f"- Caption token match: {data['token_match_ratio']:.3%}.",
+            f"- Editorial cards: {data['editorial_cards']}.",
+            f"- Sequence shots: {seq['shot_count']}.",
+            f"- A→B→A returns: {len(seq['aba_returns'])}.",
+            f"- Source returns within six shots: {len(seq['quick_source_returns_within_6_shots'])}.",
+          ]
+          (q/'V7_QC_SUMMARY.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          PY
+
+      - name: Package QC
+        run: |
+          set -euo pipefail
+          cp /tmp/chicago_v7/work/V7_SHOTS.json /tmp/chicago_v7/qc/
+          cp /tmp/chicago_v7/remotion/public/overlays.json /tmp/chicago_v7/qc/
+          cp CHICAGO/V7/src/index.jsx /tmp/chicago_v7/qc/
+          cp CHICAGO/V7/package.json /tmp/chicago_v7/qc/
+          cd /tmp/chicago_v7
+          zip -q -r HIA_CHICAGO_V7_READABILITY_PROVENANCE_QC.zip qc
+          cp qc/VIDEO_SHA256.txt SHA256SUMS.txt
+
+      - name: Publish V7 review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=chicago-v7-readability-provenance-review-20260920
+          BODY='Review only. V7 removes AI RECONSTRUCTION labels, keeps HISTORICAL SOURCE only, and adds glyph-level dark stroke/shadow for readability on bright frames without any black card or gradient background. Original AAC preserved bit-for-bit.'
+
+          if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
+            gh release upload "$TAG" \
+              "$OUT" \
+              /tmp/chicago_v7/HIA_CHICAGO_V7_READABILITY_PROVENANCE_QC.zip \
+              /tmp/chicago_v7/SHA256SUMS.txt \
+              --clobber --repo reverendstanislav-bot/Youtube-2
+          else
+            gh release create "$TAG" \
+              "$OUT" \
+              /tmp/chicago_v7/HIA_CHICAGO_V7_READABILITY_PROVENANCE_QC.zip \
+              /tmp/chicago_v7/SHA256SUMS.txt \
+              --title 'Chicago V7 Readability Provenance Review 960x540' \
+              --notes "$BODY" \
+              --repo reverendstanislav-bot/Youtube-2
+          fi
+
+      - name: Record V7 review in Git
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/V7/REVIEW_QC
+          cp /tmp/chicago_v7/qc/V7_QC_SUMMARY.md CHICAGO/V7/REVIEW_QC/
+          cp /tmp/chicago_v7/qc/V7_SEQUENCE_AUDIT.md CHICAGO/V7/REVIEW_QC/
+          cp /tmp/chicago_v7/qc/REMOTION_DATA_REPORT.json CHICAGO/V7/REVIEW_QC/
+          cp /tmp/chicago_v7/qc/VIDEO_SHA256.txt CHICAGO/V7/REVIEW_QC/
+          cp /tmp/chicago_v7/qc/AUDIO_SHA256.txt CHICAGO/V7/REVIEW_QC/
+          cp /tmp/chicago_v7/qc/REVIEW_AUDIO_SHA256.txt CHICAGO/V7/REVIEW_QC/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/V7/REVIEW_QC
+          git commit -m "Record Chicago V7 readability provenance review QC"
+          git push
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-v7-readability-provenance-review
+          path: |
+            /tmp/chicago_v7/HIA_CHICAGO_V7_READABILITY_PROVENANCE_REVIEW_960x540.mp4
+            /tmp/chicago_v7/qc
+          retention-days: 14
