@@ -1,0 +1,17 @@
+{
+  "verdict": "HOLD_FOR_REVIEW",
+  "blocking_or_review_issues": [
+    "4 one-frame blur-collapse candidates require review.",
+    "Current V9 shot plan references unknown scene IDs."
+  ],
+  "automatic_gate": "REVIEW_REQUIRED",
+  "subtitle_alignment_verdict": "PASS",
+  "ffmpeg_black_events": 0,
+  "idet": {
+    "tff": 0,
+    "bff": 0,
+    "progressive": 31974
+  },
+  "video_sha256": "c436ccb1894efe750ecd6d23369f2062b6a2354f8f8ec9e84758520602281e50",
+  "audio_sha256": "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
+}
