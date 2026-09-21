@@ -157,7 +157,7 @@ jobs:
             -i /tmp/chicago_v4/work/original.aac \
             -map 0:v:0 -map 1:a:0 \
             -c:v copy -c:a copy \
-            -movflags +faststart -shortest \
+            -movflags +faststart \
             "$OUT"
 
           echo "OUT=$OUT" >> "$GITHUB_ENV"
@@ -179,8 +179,15 @@ jobs:
 
           ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts /tmp/chicago_v4/qc/review.aac
           RH="$(sha256sum /tmp/chicago_v4/qc/review.aac | awk '{print $1}')"
-          test "$RH" = "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
-          echo "$RH  review.aac" > /tmp/chicago_v4/qc/REVIEW_AUDIO_SHA256.txt
+          EXPECTED="a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
+          {
+            echo "$EXPECTED  expected_original.aac"
+            echo "$RH  review.aac"
+          } | tee /tmp/chicago_v4/qc/REVIEW_AUDIO_SHA256.txt
+          if [ "$RH" != "$EXPECTED" ]; then
+            echo "ERROR: review AAC is not bit-identical to V2 source AAC" >&2
+            exit 1
+          fi
 
           sha256sum "$OUT" > /tmp/chicago_v4/qc/VIDEO_SHA256.txt
 
