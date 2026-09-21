@@ -242,3 +242,44 @@ Technical QC:
 
 Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+
+## V5 editorial review
+
+V5 supersedes V4 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V5 Editorial Review`
+- run `35556163548`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V5_EDITORIAL_REVIEW_960x540.mp4`
+- SHA-256 `032155221bcb33035eb72f7e28521a81134accf1049fc7f2797700d2fe4956ca`
+- release tag `chicago-v5-editorial-review-20260920`
+
+Editorial overlay language:
+- large off-white serif headline;
+- orange kicker / orange subline;
+- compact step marker;
+- no gray process rail UI;
+- no opaque cards;
+- editorial cards restricted to upper 75% of the frame;
+- bottom subtitle-safe zone remains clear;
+- cards appear briefly at narrative beats instead of persisting across a whole explainer sequence.
+
+Audio:
+- original V1/V2 AAC preserved bit-for-bit;
+- AAC SHA-256 `a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed`.
+
+QC:
+- full decode PASS;
+- 338 subtitle cues;
+- word-level caption token match 98.665%;
+- 33 editorial cards;
+- 207-shot cleaned sequence;
+- A→B→A returns: 3;
+- source returns within six shots: 10.
+
+Status:
+**READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
