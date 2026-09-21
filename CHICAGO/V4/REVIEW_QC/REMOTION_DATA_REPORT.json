@@ -1,0 +1,13 @@
+{
+  "caption_cues": 338,
+  "token_match_ratio": 0.9866522366522367,
+  "info_overlays": 18,
+  "provenance_overlays": 207,
+  "processes": [
+    "transfer",
+    "coal",
+    "basement",
+    "water",
+    "survivor"
+  ]
+}
