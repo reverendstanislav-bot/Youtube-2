@@ -2,6 +2,9 @@ name: Extract Chicago Channel Brand Assets
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/extract_chicago_channel_brand_assets.yml'
 
 permissions:
   contents: write
