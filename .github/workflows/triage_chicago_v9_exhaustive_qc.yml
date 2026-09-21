@@ -1,0 +1,59 @@
+name: Triage Chicago V9 Exhaustive QC Candidates
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/triage_chicago_v9_exhaustive_qc.yml'
+      - 'CHICAGO/tools/triage_v9_qc.py'
+
+permissions:
+  contents: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip python3-opencv python3-numpy
+
+      - name: Download inputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/v9triage
+          mkdir -p /tmp/v9triage
+          cd /tmp/v9triage
+
+          gh release download chicago-v9-first-episode-end-screen-review-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4'             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip'
+          unzip -q HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip
+
+          gh release download chicago-v9-exhaustive-prepublication-qc-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'EXHAUSTIVE_QC.json'             --pattern 'INDEPENDENT_FFMPEG_DIAGNOSTICS.md'
+
+      - name: Triage candidates
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/triage_v9_qc.py --root /tmp/v9triage
+
+      - name: Commit triage evidence
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/V9/EXHAUSTIVE_QC/TRIAGE
+          cp /tmp/v9triage/TRIAGE.md CHICAGO/V9/EXHAUSTIVE_QC/TRIAGE/
+          cp /tmp/v9triage/TRIAGE.json CHICAGO/V9/EXHAUSTIVE_QC/TRIAGE/
+          if [ -s /tmp/v9triage/BLUR_CANDIDATES_TRIPTYCH.jpg ]; then
+            cp /tmp/v9triage/BLUR_CANDIDATES_TRIPTYCH.jpg CHICAGO/V9/EXHAUSTIVE_QC/TRIAGE/
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/V9/EXHAUSTIVE_QC/TRIAGE
+          git commit -m "Triage Chicago V9 exhaustive QC candidates"
+          git push
