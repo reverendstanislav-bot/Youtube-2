@@ -69,6 +69,24 @@ jobs:
           echo "SRT=$SRT" >> "$GITHUB_ENV"
           echo "WORDS=$WORDS" >> "$GITHUB_ENV"
 
+      - name: Preflight Remotion bundle before expensive picture build
+        run: |
+          set -euo pipefail
+          cp CHICAGO/V4/src/index.jsx /tmp/chicago_v4/remotion/src/index.jsx
+          cp CHICAGO/V4/package.json /tmp/chicago_v4/remotion/package.json
+
+          # Minimal placeholders only for compile/bundle validation.
+          ffmpeg -y -loglevel error -f lavfi -i color=c=black:s=960x540:r=25 -t 1 \
+            -c:v libx264 -pix_fmt yuv420p /tmp/chicago_v4/remotion/public/base.mp4
+          echo '[]' > /tmp/chicago_v4/remotion/public/captions.json
+          cat > /tmp/chicago_v4/remotion/public/overlays.json <<'JSON'
+          {"info":[],"provenance":[],"gauge":{"s":9999,"e":10000},"processes":[]}
+          JSON
+
+          cd /tmp/chicago_v4/remotion
+          npm install --no-audit --no-fund
+          npx remotion still src/index.jsx ChicagoV4 /tmp/chicago_v4/qc/BUNDLE_PREFLIGHT.png --frame=0
+
       - name: Build clean V4 picture track
         run: |
           set -euo pipefail
@@ -104,9 +122,9 @@ jobs:
           test "$AH" = "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
           echo "$AH  original.aac" > /tmp/chicago_v4/qc/AUDIO_SHA256.txt
 
-      - name: Install Remotion
+      - name: Confirm Remotion install
         working-directory: /tmp/chicago_v4/remotion
-        run: npm install --no-audit --no-fund
+        run: test -d node_modules/remotion && test -x node_modules/.bin/remotion
 
       - name: Remotion preflight stills
         working-directory: /tmp/chicago_v4/remotion
