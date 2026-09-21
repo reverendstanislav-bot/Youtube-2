@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Pillow
+        run: sudo apt-get update && sudo apt-get install -y python3-pil
+
       - name: Make compact preview
         run: |
           set -euo pipefail
