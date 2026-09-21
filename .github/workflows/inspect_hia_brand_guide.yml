@@ -1,0 +1,106 @@
+name: Inspect HIA Brand Guide
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/inspect_hia_brand_guide.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  inspect-brand-guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install PDF tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils python3-pil
+
+      - name: Download extracted brand assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/hia_brand
+          mkdir -p /tmp/hia_brand
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920             --repo reverendstanislav-bot/Youtube-2             --pattern '06_end_screen_background.png'             --pattern 'Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf'
+
+          test -s 06_end_screen_background.png
+          test -s Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf
+
+      - name: Inspect PDF and render pages
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/hia_brand/rendered
+          pdfinfo /tmp/hia_brand/Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf             > /tmp/hia_brand/pdfinfo.txt
+          pdftotext -layout /tmp/hia_brand/Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf             /tmp/hia_brand/Quick_Usage_Guide_text.txt
+          pdftoppm -jpeg -r 100             /tmp/hia_brand/Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf             /tmp/hia_brand/rendered/page
+
+          python3 - <<'PY'
+          from PIL import Image, ImageOps, ImageDraw
+          from pathlib import Path
+          files=sorted(Path('/tmp/hia_brand/rendered').glob('page-*.jpg'))
+          assert files
+          thumbs=[]
+          target_w=640
+          for i,p in enumerate(files,1):
+              im=Image.open(p).convert('RGB')
+              ratio=target_w/im.width
+              im=im.resize((target_w,int(im.height*ratio)))
+              canvas=Image.new('RGB',(target_w,im.height+36),'white')
+              canvas.paste(im,(0,36))
+              d=ImageDraw.Draw(canvas)
+              d.text((10,10),f'PAGE {i}',fill='black')
+              thumbs.append(canvas)
+          cols=2
+          gap=18
+          rows=(len(thumbs)+cols-1)//cols
+          row_heights=[]
+          for r in range(rows):
+              row_heights.append(max(x.height for x in thumbs[r*cols:(r+1)*cols]))
+          W=cols*target_w+(cols-1)*gap
+          H=sum(row_heights)+(rows-1)*gap
+          sheet=Image.new('RGB',(W,H),(220,220,220))
+          y=0
+          for r in range(rows):
+              x=0
+              for c in range(cols):
+                  idx=r*cols+c
+                  if idx>=len(thumbs): break
+                  sheet.paste(thumbs[idx],(x,y))
+                  x+=target_w+gap
+              y+=row_heights[r]+gap
+          sheet.save('/tmp/hia_brand/Quick_Usage_Guide_contact_sheet.jpg',quality=88)
+          print('pages',len(files))
+          PY
+
+      - name: Record brand references in Git
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/BRANDING/reference
+          cp /tmp/hia_brand/06_end_screen_background.png CHICAGO/BRANDING/reference/
+          cp /tmp/hia_brand/pdfinfo.txt CHICAGO/BRANDING/reference/Quick_Usage_Guide_pdfinfo.txt
+          cp /tmp/hia_brand/Quick_Usage_Guide_text.txt CHICAGO/BRANDING/reference/
+          cp /tmp/hia_brand/Quick_Usage_Guide_contact_sheet.jpg CHICAGO/BRANDING/reference/
+
+          {
+            echo '# HIA canonical channel branding references'
+            echo
+            echo '- Source: canonical Chicago source archive -> 11_ Оформление / Hidden_Industrial_America_7_Brand_Assets'
+            echo '- 06 End Screen: exact extracted original asset'
+            echo '- Quick Usage Guide: exact extracted original PDF; text + visual contact sheet recorded for review'
+            echo '- No regeneration or redesign was performed'
+          } > CHICAGO/BRANDING/reference/README.md
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/BRANDING/reference
+          git commit -m "Record canonical HIA end screen and brand guide references"
+          git push
