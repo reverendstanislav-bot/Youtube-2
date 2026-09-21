@@ -1,0 +1,57 @@
+{
+  "fact_map": {
+    "headers": [
+      "ID_кадра",
+      "Таймкод",
+      "Утверждение",
+      "Источник",
+      "URL",
+      "Уверенность",
+      "Подтверждение",
+      "Статус_озвучки"
+    ],
+    "rows": 23,
+    "status_counts": {
+      "LOCKED": 20,
+      "": 3
+    },
+    "confidence_counts": {
+      "High": 18,
+      "": 5
+    },
+    "rows_with_source_url": 23,
+    "rows_without_source_url": []
+  },
+  "license_manifest": {
+    "headers": [
+      "type",
+      "id",
+      "asset",
+      "source_page",
+      "download_url",
+      "license",
+      "license_url",
+      "attribution",
+      "risk"
+    ],
+    "rows": 23,
+    "risk_counts": {
+      "YELLOW": 8,
+      "GREEN": 8,
+      "GREEN if attribution included": 7
+    },
+    "missing_license_rows": [],
+    "unique_license_count": 7,
+    "rows_with_url": 23
+  },
+  "music": {
+    "rows": 7,
+    "rows_with_url": 7,
+    "attribution_text_present": true,
+    "attribution_chars": 1074
+  },
+  "sfx": {
+    "rows": 3,
+    "rows_with_url": 3
+  }
+}
