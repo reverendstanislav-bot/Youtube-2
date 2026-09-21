@@ -100,30 +100,34 @@ data={
 }
 Path(a.out_json).write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
 
-lines=["# Chicago — fact / licensing / music / SFX pack audit","",
-       "## Fact map",
-       f"- Rows: **{len(facts)}**",
-       f"- Headers: {fact_headers}",
-       f"- Status counts: **{dict(Counter(status_vals))}**",
-       f"- Confidence counts: **{dict(Counter(conf_vals))}**",
-       f"- Rows with source URL: **{sum(bool(x) for x in source_urls)}/{len(facts)}**",
-       f"- Rows without source URL: **{[i+1 for i,x in enumerate(source_urls) if not x]}**",
-       f"- Rows missing status: **{[i+1 for i,x in enumerate(status_vals) if not x]}**",
-       f"- Rows missing confidence: **{[i+1 for i,x in enumerate(conf_vals) if not x]}**","",
-       "### Missing status rows"]+
-       [f"- row {x['row']}: {x}" for x in data["fact_map"]["rows_missing_status"]]+
-       ["","### Missing confidence rows"]+
-       [f"- row {x['row']}: {x}" for x in data["fact_map"]["rows_missing_confidence"]]+["",
-       "## License manifest",
-       f"- Rows: **{len(lic)}**",
-       f"- Risk counts: **{dict(Counter(license_risk))}**",
-       f"- Missing license rows: **{missing_license}**",
-       f"- Rows with source/download URL: **{url_count(lic)}/{len(lic)}**","",
-       "## Music",
-       f"- Download rows: **{len(music)}**",
-       f"- Rows with URL: **{url_count(music)}/{len(music)}**",
-       f"- Attribution file present: **{bool(attr.strip())}** ({len(attr.strip())} chars)","",
-       "## SFX",
-       f"- Download rows: **{len(sfx)}**",
-       f"- Rows with URL: **{url_count(sfx)}/{len(sfx)}**"]
+lines=[
+  "# Chicago — fact / licensing / music / SFX pack audit","",
+  "## Fact map",
+  f"- Rows: **{len(facts)}**",
+  f"- Headers: {fact_headers}",
+  f"- Status counts: **{dict(Counter(status_vals))}**",
+  f"- Confidence counts: **{dict(Counter(conf_vals))}**",
+  f"- Rows with source URL: **{sum(bool(x) for x in source_urls)}/{len(facts)}**",
+  f"- Rows without source URL: **{[i+1 for i,x in enumerate(source_urls) if not x]}**",
+  f"- Rows missing status: **{[i+1 for i,x in enumerate(status_vals) if not x]}**",
+  f"- Rows missing confidence: **{[i+1 for i,x in enumerate(conf_vals) if not x]}**","",
+  "### Missing status rows"
+]
+lines += [f"- row {x['row']}: {x}" for x in data["fact_map"]["rows_missing_status"]]
+lines += ["","### Missing confidence rows"]
+lines += [f"- row {x['row']}: {x}" for x in data["fact_map"]["rows_missing_confidence"]]
+lines += [
+  "","## License manifest",
+  f"- Rows: **{len(lic)}**",
+  f"- Risk counts: **{dict(Counter(license_risk))}**",
+  f"- Missing license rows: **{missing_license}**",
+  f"- Rows with source/download URL: **{url_count(lic)}/{len(lic)}**","",
+  "## Music",
+  f"- Download rows: **{len(music)}**",
+  f"- Rows with URL: **{url_count(music)}/{len(music)}**",
+  f"- Attribution file present: **{bool(attr.strip())}** ({len(attr.strip())} chars)","",
+  "## SFX",
+  f"- Download rows: **{len(sfx)}**",
+  f"- Rows with URL: **{url_count(sfx)}/{len(sfx)}**"
+]
 Path(a.out_md).write_text("\n".join(lines)+"\n",encoding="utf-8")
