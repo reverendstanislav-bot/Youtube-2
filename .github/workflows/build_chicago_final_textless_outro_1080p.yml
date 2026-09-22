@@ -271,9 +271,9 @@ jobs:
           BODY='Final 1920x1080 upload master with a completely textless YouTube end screen. Native source-asset rebuild at 25 fps, HISTORICAL SOURCE provenance only, exactly one previous-video rectangle and one avatar circle, zero end-screen text/labels, no running captions after 21:08, and original AAC preserved bit-for-bit. Full decode/QC passed.'
 
           if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
-            gh release upload "$TAG" "$OUT" HIA_CHICAGO_FINAL_UPLOAD_MASTER_QC.zip --clobber --repo reverendstanislav-bot/Youtube-2
+            gh release upload "$TAG" "$OUT" HIA_CHICAGO_FINAL_UPLOAD_MASTER_TEXTLESS_QC.zip --clobber --repo reverendstanislav-bot/Youtube-2
           else
-            gh release create "$TAG" "$OUT" HIA_CHICAGO_FINAL_UPLOAD_MASTER_QC.zip --title 'HIA Chicago Final Upload Master 1920x1080 - Textless Outro' --notes "$BODY" --repo reverendstanislav-bot/Youtube-2
+            gh release create "$TAG" "$OUT" HIA_CHICAGO_FINAL_UPLOAD_MASTER_TEXTLESS_QC.zip --title 'HIA Chicago Final Upload Master 1920x1080 - Textless Outro' --notes "$BODY" --repo reverendstanislav-bot/Youtube-2
           fi
 
       - name: Record final status in Git
