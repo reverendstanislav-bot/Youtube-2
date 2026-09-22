@@ -1,0 +1,304 @@
+name: Build Chicago Final Textless Outro Upload Master 1080p
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_final_textless_outro_1080p.yml'
+      - 'CHICAGO/V12/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install media tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-pil jq zip fonts-dejavu-core
+
+      - name: Download canonical Chicago source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v12 /tmp/hia_brand
+          mkdir -p /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v12/remotion/src /tmp/chicago_v12/remotion/public /tmp/chicago_v12/work /tmp/chicago_v12/qc /tmp/hia_brand
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract source assets and canonical audio/timing
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar -o/tmp/chicago_extract "-ir!*/_V2/work/assets/*" "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4" "-ir!*/_V2/final/HIA_CHICAGO_V2.srt" "-ir!*/_QC/voice_words.json"
+
+          ASSETS="$(find /tmp/chicago_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+
+          test -d "$ASSETS"
+          test -s "$V2"
+          test -s "$SRT"
+          test -s "$WORDS"
+
+          echo "ASSETS=$ASSETS" >> "$GITHUB_ENV"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+          echo "SRT=$SRT" >> "$GITHUB_ENV"
+          echo "WORDS=$WORDS" >> "$GITHUB_ENV"
+
+      - name: Download canonical HIA brand package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920 --repo reverendstanislav-bot/Youtube-2 --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          BASE="$(find /tmp/hia_brand/extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          test -s "$BASE"
+          echo "BRAND_BASE=$BASE" >> "$GITHUB_ENV"
+
+      - name: Build textless HIA end screen 1920x1080
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          import os
+          from pathlib import Path
+
+          src=Image.open(os.environ['BRAND_BASE']).convert('RGB')
+          assert src.size==(1920,1080), src.size
+          im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
+          d=ImageDraw.Draw(im)
+
+          PAPER=(230,221,200)
+          RUST=(165,82,53)
+
+          # Exactly one previous-video target. No text anywhere on the end screen.
+          rx1,ry1,rx2,ry2=185,350,1015,817
+          d.rounded_rectangle([rx1,ry1,rx2,ry2],radius=6,
+                              fill=(22,25,27),outline=PAPER,width=5)
+          d.line([rx1,ry1,rx1+155,ry1],fill=RUST,width=7)
+
+          # Exactly one avatar target. No text anywhere on the end screen.
+          cx,cy,r=1425,590,145
+          d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
+          d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],
+                start=208,end=325,fill=RUST,width=6)
+
+          out=Path('/tmp/chicago_v12/remotion/public/end_screen_1920x1080.png')
+          im.save(out,compress_level=6)
+          PY
+          cp /tmp/chicago_v12/remotion/public/end_screen_1920x1080.png /tmp/chicago_v12/remotion/public/end_screen_1080.png
+
+      - name: Validate V12 source rules
+        run: |
+          set -euo pipefail
+          ! grep -q 'YOUTUBE END SCREEN' CHICAGO/V12/src/index.jsx
+          ! grep -q 'AI RECONSTRUCTION' CHICAGO/V12/prepare_remotion_data.py
+          grep -q 'HISTORICAL SOURCE' CHICAGO/V12/prepare_remotion_data.py
+          grep -q 'width={1920}' CHICAGO/V12/src/index.jsx
+          grep -q 'height={1080}' CHICAGO/V12/src/index.jsx
+          grep -q 'END_START=1268.0' CHICAGO/V12/src/index.jsx
+          grep -q 'base_1080.mp4' CHICAGO/V12/src/index.jsx
+          grep -q 'end_screen_1080.png' CHICAGO/V12/src/index.jsx
+          echo "V12 source rules PASS"
+
+      - name: Build native 1080p picture track
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V12/build_picture_1080.py --v3-builder CHICAGO/V3/build_v3_picture.py --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json --assets-root "$ASSETS" --work /tmp/chicago_v12/work/picture --output-video /tmp/chicago_v12/remotion/public/base.mp4 --plan-out /tmp/chicago_v12/work/V12_SHOTS.json
+
+          cp /tmp/chicago_v12/remotion/public/base.mp4 /tmp/chicago_v12/remotion/public/base_1080.mp4
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of default=nw=1 /tmp/chicago_v12/remotion/public/base_1080.mp4 | tee /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
+          grep -q 'width=1920' /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
+          grep -q 'height=1080' /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
+          grep -q 'r_frame_rate=25/1' /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
+
+      - name: Prepare captions and overlays
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V12/prepare_remotion_data.py --srt "$SRT" --words "$WORDS" --plan /tmp/chicago_v12/work/V12_SHOTS.json --captions-out /tmp/chicago_v12/remotion/public/captions.json --overlays-out /tmp/chicago_v12/remotion/public/overlays.json --report /tmp/chicago_v12/qc/REMOTION_DATA_REPORT.json
+          cp CHICAGO/V12/src/index.jsx /tmp/chicago_v12/remotion/src/index.jsx
+          cp CHICAGO/V12/package.json /tmp/chicago_v12/remotion/package.json
+          ! grep -q 'AI RECONSTRUCTION' /tmp/chicago_v12/remotion/public/overlays.json
+
+      - name: Extract and lock original AAC
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/chicago_v12/work/original.aac
+          AH="$(sha256sum /tmp/chicago_v12/work/original.aac | awk '{print $1}')"
+          EXPECTED='a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          test "$AH" = "$EXPECTED"
+          echo "$AH  original.aac" > /tmp/chicago_v12/qc/AUDIO_SHA256.txt
+
+      - name: Install Remotion
+        working-directory: /tmp/chicago_v12/remotion
+        run: |
+          set -euo pipefail
+          npm install --no-audit --no-fund
+
+      - name: Render 1080p preflight stills
+        working-directory: /tmp/chicago_v12/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/chicago_v12/qc/stills
+          npx remotion still src/index.jsx ChicagoV12 /tmp/chicago_v12/qc/stills/01_opening.png --frame=75
+          npx remotion still src/index.jsx ChicagoV12 /tmp/chicago_v12/qc/stills/02_title_light.png --frame=4000
+          npx remotion still src/index.jsx ChicagoV12 /tmp/chicago_v12/qc/stills/03_mid.png --frame=16000
+          npx remotion still src/index.jsx ChicagoV12 /tmp/chicago_v12/qc/stills/04_outro_start.png --frame=31710
+          npx remotion still src/index.jsx ChicagoV12 /tmp/chicago_v12/qc/stills/05_outro_middle.png --frame=31950
+          npx remotion still src/index.jsx ChicagoV12 /tmp/chicago_v12/qc/stills/06_outro_end.png --frame=32240
+
+      - name: Render full native 1080p master
+        working-directory: /tmp/chicago_v12/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx ChicagoV12 out/raw_video.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p --concurrency=4
+
+      - name: Mux original AAC
+        run: |
+          set -euo pipefail
+          OUT=/tmp/chicago_v12/HIA_CHICAGO_FINAL_UPLOAD_MASTER_TEXTLESS_1920x1080.mp4
+          ffmpeg -y -hide_banner -loglevel error -i /tmp/chicago_v12/remotion/out/raw_video.mp4 -i /tmp/chicago_v12/work/original.aac -map 0:v:0 -map 1:a:0 -c:v copy -c:a copy -movflags +faststart "$OUT"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Final master QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/chicago_v12/qc
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+
+          W="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 "$OUT")"
+          H="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 "$OUT")"
+          FPS="$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$OUT")"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
+          DUR="$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$OUT")"
+
+          {
+            echo "width=$W"
+            echo "height=$H"
+            echo "fps=$FPS"
+            echo "frames=$FRAMES"
+            echo "duration=$DUR"
+          } | tee "$Q/MASTER_MEDIA_QC.txt"
+
+          test "$W" = "1920"
+          test "$H" = "1080"
+          test "$FPS" = "25/1"
+
+          python3 - "$FRAMES" "$DUR" <<'PY'
+          import sys
+          f=int(sys.argv[1]); d=float(sys.argv[2])
+          assert f==32268, f
+          assert abs(d-1290.720)<0.20, d
+          PY
+
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/final.aac"
+          FH="$(sha256sum "$Q/final.aac" | awk '{print $1}')"
+          EXPECTED='a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          test "$FH" = "$EXPECTED"
+          echo "$FH  final.aac" > "$Q/FINAL_AUDIO_SHA256.txt"
+
+          ffmpeg -hide_banner -nostats -i "$OUT" -map 0:a:0 -af "loudnorm=I=-14:TP=-1:LRA=11:print_format=json" -f null - 2> "$Q/LOUDNORM.log" || true
+          ffmpeg -hide_banner -nostats -i "$OUT" -vf "blackdetect=d=0.08:pix_th=0.10:pic_th=0.98" -an -f null - 2> "$Q/BLACKDETECT.log" || true
+
+          grep -q 'if(t>=END_START)return null' CHICAGO/V12/src/index.jsx
+          ! grep -R -q 'YOUTUBE END SCREEN' CHICAGO/V12 /tmp/chicago_v12/remotion/public
+          ! grep -q "d.text(" .github/workflows/build_chicago_final_textless_outro_1080p.yml
+          ! grep -q "ImageFont" .github/workflows/build_chicago_final_textless_outro_1080p.yml
+
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+
+      - name: Build final QC summary
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          q=Path('/tmp/chicago_v12/qc')
+          media=(q/'MASTER_MEDIA_QC.txt').read_text().strip()
+          ah=(q/'FINAL_AUDIO_SHA256.txt').read_text().split()[0]
+          vh=(q/'VIDEO_SHA256.txt').read_text().split()[0]
+          black=(q/'BLACKDETECT.log').read_text(errors='replace').count('black_start:')
+          lines=[
+            '# HIA Chicago Final Upload Master QC','',
+            '- Resolution: 1920x1080 native source-asset rebuild.',
+            '- Frame rate: 25 fps.',
+            '- Frame count: 32,268.',
+            '- Full decode: PASS.',
+            '- Outro starts at 21:08.000.',
+            '- Outro running captions: disabled.',
+            '- Previous-video target: 1, textless.',
+            '- Avatar target: 1, textless.',
+            '- End-screen text/labels: NONE.',
+            '- Provenance: HISTORICAL SOURCE only.',
+            '- Audio elementary stream: bit-identical to approved source AAC.',
+            f'- blackdetect events: {black}.',
+            f'- Video SHA-256: {vh}.',
+            f'- Audio SHA-256: {ah}.','',
+            media,'',
+            'Status: FINAL UPLOAD MASTER - QC PASS.'
+          ]
+          (q/'FINAL_UPLOAD_MASTER_QC.md').write_text('\\n'.join(lines)+'\\n',encoding='utf-8')
+          PY
+
+      - name: Publish final master
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_v12
+          zip -q -r HIA_CHICAGO_FINAL_UPLOAD_MASTER_TEXTLESS_QC.zip qc
+          TAG=chicago-final-upload-master-textless-1080p-20260922
+          BODY='Final 1920x1080 upload master with a completely textless YouTube end screen. Native source-asset rebuild at 25 fps, HISTORICAL SOURCE provenance only, exactly one previous-video rectangle and one avatar circle, zero end-screen text/labels, no running captions after 21:08, and original AAC preserved bit-for-bit. Full decode/QC passed.'
+
+          if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
+            gh release upload "$TAG" "$OUT" HIA_CHICAGO_FINAL_UPLOAD_MASTER_QC.zip --clobber --repo reverendstanislav-bot/Youtube-2
+          else
+            gh release create "$TAG" "$OUT" HIA_CHICAGO_FINAL_UPLOAD_MASTER_QC.zip --title 'HIA Chicago Final Upload Master 1920x1080 - Textless Outro' --notes "$BODY" --repo reverendstanislav-bot/Youtube-2
+          fi
+
+      - name: Record final status in Git
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/V12/FINAL_QC
+          cp /tmp/chicago_v12/qc/FINAL_UPLOAD_MASTER_QC.md CHICAGO/V12/FINAL_QC/
+          cp /tmp/chicago_v12/qc/VIDEO_SHA256.txt CHICAGO/V12/FINAL_QC/
+          cp /tmp/chicago_v12/qc/FINAL_AUDIO_SHA256.txt CHICAGO/V12/FINAL_QC/
+          cp /tmp/chicago_v12/qc/MASTER_MEDIA_QC.txt CHICAGO/V12/FINAL_QC/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/V12/FINAL_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chicago final 1080p upload master QC"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-chicago-final-upload-master-textless-1080p
+          path: |
+            /tmp/chicago_v12/HIA_CHICAGO_FINAL_UPLOAD_MASTER_TEXTLESS_1920x1080.mp4
+            /tmp/chicago_v12/qc
+          retention-days: 14
