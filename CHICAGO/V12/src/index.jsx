@@ -41,17 +41,16 @@ function Caption(){
   const cue=captions.find(x=>t>=x.s&&t<=x.e);
   if(!cue)return null;
   const active=activeWord(cue,t);
-  const endMode=t>=1272.72;
   return <div style={{
     position:'absolute',
-    left:endMode?54:70,
-    right:endMode?620:70,
+    left:70,
+    right:70,
     top:undefined,
-    bottom:endMode?36:26,
-    textAlign:endMode?'left':'center',
+    bottom:26,
+    textAlign:'center',
     fontFamily:'Arial,Helvetica,sans-serif',
     fontWeight:760,
-    fontSize:endMode?22:29,
+    fontSize:29,
     lineHeight:1.16,
     color:C.paper,
     textShadow:'0 2px 3px rgba(15,16,17,.96),0 0 9px rgba(15,16,17,.72)',
@@ -236,25 +235,16 @@ function EndScreen(){
   const frame=useCurrentFrame();
   const t=frame/FPS;
   if(t<END_START)return null;
-  const a=tween(frame,F(END_START),10);
-
-  return <AbsoluteFill style={{
-    zIndex:30,
-    overflow:'hidden',
-    background:C.charcoal,
-    opacity:a
-  }}>
-    {/* Exact accepted brand-native Episode 1 proof, rendered deterministically
-        from canonical HIA asset 07. No recommendation/video slots. */}
+  const a=interpolate(
+    frame,
+    [F(END_START),F(END_START)+8],
+    [0,1],
+    {...CLAMP,easing:Easing.inOut(Easing.cubic)}
+  );
+  return <AbsoluteFill style={{zIndex:30,overflow:'hidden',background:C.charcoal,opacity:a}}>
     <Img
-      src={staticFile('end_screen_final_1920.png')}
-      style={{
-        position:'absolute',
-        inset:0,
-        width:'100%',
-        height:'100%',
-        objectFit:'cover'
-      }}
+      src={staticFile('end_screen_1080.png')}
+      style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover'}}
     />
   </AbsoluteFill>;
 }
@@ -263,10 +253,13 @@ function Film(){
   const frame=useCurrentFrame();
   const t=frame/FPS;
   return <AbsoluteFill style={{background:C.charcoal}}>
-    <OffthreadVideo src={staticFile('base.mp4')} style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+    <OffthreadVideo
+      src={staticFile('base_1080.mp4')}
+      style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover'}}
+    />
     {t<END_START && <div style={{
       position:'absolute',left:0,top:0,width:960,height:540,
-      transform:'scale(2)',transformOrigin:'top left'
+      transform:'scale(2)',transformOrigin:'0 0'
     }}>
       <Provenance/>
       <Cards/>
