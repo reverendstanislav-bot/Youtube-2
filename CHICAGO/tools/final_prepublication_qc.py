@@ -330,6 +330,11 @@ def frame_audit(video,shots,outdir):
                 sheet[y:y+180,x:x+320]=im
             cv2.imwrite(str(thumbs_dir/f"GLOBAL_AND_ANOMALIES_{page+1:02d}.jpg"),sheet,[cv2.IMWRITE_JPEG_QUALITY,82])
 
+    blur_boundary=[
+        x for x in blur_anom
+        if min((abs(int(x["frame"])-b) for b in shot_boundaries),default=9999)<=2
+    ]
+
     metrics_csv=Path(outdir)/"frame_metrics.csv"
     with metrics_csv.open("w",encoding="utf-8",newline="") as f:
         w=csv.writer(f); w.writerow(["frame","time","luma_mean","luma_std","blur_laplacian","edge_density","diff_prev"])
