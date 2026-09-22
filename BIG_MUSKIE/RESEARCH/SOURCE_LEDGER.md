@@ -57,3 +57,27 @@ Status: **re-audited 2026-09-22**. Confidence applies only to the specific claim
 - **WOSU oral history:** excellent human source; recollections require attribution.
 - **Caterpillar history:** strong corporate historical overview, but its 330-ft boom conflicts with several Ohio/ODNR sources.
 - **MPL Bucyrus scans:** excellent research evidence; visual publication rights are not automatically granted.
+
+
+## Gap-closure sources added 2026-09-22
+
+| ID | Claim / use | Source | Publisher / archive | Type | Confidence | URL / note |
+|---|---|---|---|---|---|---|
+| S26 | Original design/construction purpose of BECO 4250-W; 1966 Central Ohio Coal/Bucyrus-Erie contract; 220 yd³ design; sizing based on annual coal requirement, overburden depth and terrain | Melvin W. Kraschnewski, **Worlds Largest Dragline** | SME / AIME, 1969 | contemporary engineering paper | **Very high**; full text commercially gated, abstract verified | https://www.onemine.org/documents/worlds-largest-dragline |
+| S27 | Kraschnewski was a Bucyrus-Erie inventor; twin independently driven hoist drums and load-sharing cable arrangement for very large draglines | US3531088A, Hoist mechanism for bucket, filed Mar 4 1968 | USPTO / Google Patents | primary patent | **Very high** for engineering lineage; not a literal 4250-W blueprint | https://patents.google.com/patent/US3531088A/en |
+| S28 | Hydraulic stepping/walking mechanism design lineage: central tub, opposite shoes, hydraulic lift/push cylinders | US3375892A, Stepping-type propulsion means for excavators, filed Nov 3 1965 | USPTO / Google Patents | primary Bucyrus-Erie-assigned patent | **Very high** for design lineage; do not label as exact 4250-W drawing | https://patents.google.com/patent/US3375892A/en |
+| S29 | $41m Muskingum mine expansion; 1968 Unit 5 raised plant coal requirement 2.6m→4.4m tons/year; expansion used world's largest dragline + electric railroad | Paul D. Martinka, **Central Ohio Coal Company's Mine Expansion Program** | AIME / OneMine, 1969 | contemporary mine-system engineering paper | **Very high** | https://www.onemine.org/documents/central-ohio-coal-company-apos-s-mine-expansion-program |
+| S30 | Contemporary 1969 trade-paper description: 220 yd³ bites, designed for >100 ft overburden; whole mine/material-handling system; reclamation-cost rationale | **Big Muskie: King of the Giants**, Coal Age 74(12):50–61 | Coal Age; abstract preserved in EPA bibliography | contemporary trade engineering article | **High**; full article acquisition optional | https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9101K7JW.TXT |
+| S31 | Actual Muskingum/BE4250-W study data: measured 75.25 s mean cycle around ~120° swing; actual-study-month 35% availability; 1,949,200 yd³/month dragline removal | Ramani, Phelps & Manula, **Application of a Total System Surface Mine Simulator to Coal Stripping, Vol. VI**, 1977 | Penn State for U.S. Bureau of Mines | government-sponsored field/technical report | **Very high when scoped to the study month** | https://stacks.cdc.gov/view/cdc/234409/cdc_234409_DS1.pdf |
+| S32 | 222-ft height, 310-ft boom, 13,500-ton historical figure, $24m cost | **Coal Mining in Ohio, Then and Now** | Ohio Geological Survey / ODNR | government geological publication | **High**; use 222 ft as production height, not visitor-page 240-ft rounding | https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/geology/2001_CoalMiningThenNow_Crowell.pdf |
+| S33 | Detailed technical-stat convention: 222 ft 6 in height; 310-ft boom; 487 ft 6 in boom-down length; 151 ft 6 in width; 13.8-kV trailing cable | cable-jointing specialist Big Muskie technical article | Thorne & Derrick / cable industry | specialist secondary | **Medium-high**, consistent with OGS/industry tables | https://www.cablejoints.co.uk/blog/article/jointing-vulcanizing-mining-cables |
+
+### Production closure for prior conflicts
+
+| Topic | Production decision | Why |
+|---|---|---|
+| Exact manual unavailable online | **NOT A BLOCKER** | S26/S29/S30/S31 plus Bucyrus patents give direct contemporary engineering coverage |
+| Height 222 vs 240 | **Use ~222 ft / ~22 stories** | OGS + detailed technical tables; 240 treated as rounded visitor/exhibit wording |
+| Build hours 200k vs 300k | **Use >200,000 / hundreds of thousands** | manufacturer-successor/industry histories support 200k; current exhibit 300k likely different scope; avoid unsupported reconciliation |
+| Power 13,000 vs 13,800 V | **Use about 13.8 kV technical; about 13 kV narration** | 13,800 is detailed technical value; ODNR 13,000 is compatible rounding |
+| Boom 310 vs 330 | **Use 310 ft** | Ohio geological + ODNR + technical tables converge; 330 remains isolated Caterpillar outlier |

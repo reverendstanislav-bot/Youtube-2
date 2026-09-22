@@ -50,3 +50,19 @@ Future history entries must record:
 - No generation performed. No credits spent.
 
 - Added a final Clean Air Act timing guardrail: EPA Title IV Phase I compliance began in 1995, after the January 1991 Big Muskie shutdown; narration must distinguish regulatory/market expectations from immediate legal noncompliance.
+
+
+## 2026-09-22 — Targeted research-gap closure
+
+- Identified the 1969 SME/AIME design paper **Worlds Largest Dragline** by Melvin W. Kraschnewski, specifically covering BECO model 4250-W.
+- Verified Kraschnewski's Bucyrus-Erie engineering lineage through U.S. Patent 3,531,088 (filed 1968).
+- Identified Paul D. Martinka's 1969 AIME **Central Ohio Coal Company's Mine Expansion Program**, documenting the $41m mine/power-system expansion behind the machine.
+- Identified the 1969 Coal Age article **Big Muskie: King of the Giants** through EPA/government bibliographic preservation.
+- Added 1977 U.S. Bureau of Mines-sponsored Penn State field data for BE4250-W: 75.25-s measured mean cycle, 35% actual-study-month availability, 1,949,200 yd³/month dragline overburden in the actual-data row.
+- Closed height for narration at about 222 ft / roughly 22 stories.
+- Closed construction labor at safe wording: more than 200,000 / hundreds of thousands of labor-hours; 300k ODNR exhibit figure remains documented but does not block narration.
+- Closed electrical wording: 13.8 kV technical / about 13 kV narration.
+- Closed boom at 310 ft.
+- Original manual/full paid engineering paper reclassified from blocking research gap to optional archive-enhancement target.
+- Research blockers for Stage 5: **0**.
+- No image/video generation and no credits spent.

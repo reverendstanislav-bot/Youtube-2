@@ -105,3 +105,37 @@ The central documentary concept survives the audit:
 **Big Muskie was not a pointless giant. It was a highly specialized stripping machine built because the geology, scale, mine plan and power-economy of Central Ohio made extreme size economically rational for a period. Its disappearance is best explained by the collapse of that specific operating logic — changing mining technology, high-sulfur-coal economics, reclamation obligations and preservation constraints — not by a single sensational cause.**
 
 This is strong enough to proceed to Stage 5, provided all final narration numbers follow the canonical wording in this audit.
+
+
+## Research-gap closure addendum
+
+The items previously listed as script-blocking gaps are now resolved to production-safe wording.
+
+### 1. Original engineering source
+A 1969 SME/AIME paper titled **Worlds Largest Dragline** by Melvin W. Kraschnewski was identified. Its abstract explicitly states that Central Ohio Coal and Bucyrus-Erie contracted in 1966 for the 220-yd³ machine, that application studies of coal output, overburden and terrain set its size, and that the paper covers design/construction of BECO model 4250-W.
+
+Kraschnewski is independently identified on U.S. Patent 3,531,088, filed in 1968, as an inventor/assignor to Bucyrus-Erie Company. This makes the paper a direct contemporary engineering-lineage source, not a modern internet retelling.
+
+### 2. Height
+For production, **222 ft / roughly 22 stories** is locked. Ohio Geological Survey gives 222 ft; detailed technical tables give 222 ft 6 in. A current visitor-oriented ODNR description gives 240 ft. We treat 240 ft as a rounded/display measurement, not the narration spec.
+
+### 3. Construction labor
+The historical record has differing accounting totals:
+- ~200,000 man-hours in Caterpillar/Bucyrus-derived history;
+- 300,000 hours on a current ODNR exhibit.
+
+Rather than inventing an accounting explanation, narration is locked to **"more than 200,000 labor-hours"** or **"hundreds of thousands of labor-hours."** This is no longer a research blocker.
+
+### 4. Electrical feed
+Detailed technical sources give **13.8 kV**; ODNR exhibit language says **13,000 V**. These are treated as exact-vs-rounded expressions. Technical graphic: 13.8 kV. Narration: about 13 kV.
+
+### 5. Operating reality
+The 1977 U.S. Bureau of Mines-sponsored study materially improves the film:
+- measured mean cycle: **75.25 s** for approximately 120° swing;
+- actual-study-month BE4250-W availability: **35%**;
+- dragline overburden removal in that actual-data row: **1,949,200 yd³/month**.
+
+These numbers are locked only with the scope phrase **"in the month studied / in the 1977 field study"**. They must never be promoted to lifetime averages.
+
+### Conclusion
+There are **no remaining research gaps that block Stage 5 script development**. Original Bucyrus manuals/full paid SME paper remain desirable archive acquisitions for diagram fidelity and provenance, but are enhancement targets, not factual prerequisites.

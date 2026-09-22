@@ -190,12 +190,23 @@ The episode should not flatten this into a hero/villain frame. The stronger hist
 - **Guinness lifetime-volume figure** — REJECTED as numerically self-inconsistent with stronger AEP/ODNR evidence.
 - **"four rotating crews"** — word "rotating" is not currently sourced; say four crews unless a shift document is found.
 
-## 16. Priority gaps before script lock
+## 16. Research gaps — CLOSED FOR PRODUCTION
 
-1. Original Bucyrus 4250-W specification/manual/drawing to settle boom/height/weight terminology and electrical architecture.
-2. Central Ohio Coal/AEP operating records for shift structure, job roles, maintenance/downtime, and duty cycle.
-3. Original project accounting/build records to settle $24m vs ~$25m and 200k vs 300k construction hours.
-4. Original lifetime-production record if available, although >483m yd³ is already strong enough for cautious narration.
-5. Rights-cleared high-resolution archive and film.
-6. HCEA archive inquiry for manufacturer drawings, film, photographs, and surviving components.
-7. Publication permission from Milwaukee Public Library/copyright holders before using Bucyrus publication scans as visual footage rather than research documents.
+The script is no longer blocked on a missing 4250-W manual.
+
+Newly identified high-value sources:
+- 1969 SME/AIME: **Melvin W. Kraschnewski, `Worlds Largest Dragline`** — design/construction paper specifically about BECO model 4250-W.
+- 1969 AIME: **Paul D. Martinka, `Central Ohio Coal Company's Mine Expansion Program`** — contemporary Muskingum mine/power-system expansion paper.
+- 1969 `Coal Age`: **`Big Muskie: King of the Giants`, v.74 no.12 pp.50–61** — contemporary trade article repeatedly cited by government/Ohio geological sources.
+- 1977 U.S. Bureau of Mines-sponsored Penn State report — actual Muskingum/BE4250-W field and simulation data.
+- 1968 Bucyrus-Erie-assigned U.S. hoist patent by Kraschnewski and 1965/1968 Bucyrus walking/hoist patents — useful to explain the large-dragline engineering family without pretending a patent sheet is a literal 4250-W blueprint.
+
+Production resolutions:
+- height: about **222 ft / ~22 stories**; do not use the rounded 240-ft visitor copy in narration;
+- build labor: **more than 200,000 labor-hours / hundreds of thousands**, avoiding false precision between source accounting scopes;
+- power: **about 13.8 kV** technical value; "about 13 kV" acceptable narration rounding;
+- boom: **310 ft**;
+- dimensions: **487 ft 6 in boom-down length; 151 ft 6 in width**;
+- exact original manual is now an **archive-enhancement target**, not a factual blocker.
+
+Any future acquisition of the full 1969 SME paper or original Bucyrus manual can enrich diagrams/provenance, but Stage 5 does not need to wait for it.
