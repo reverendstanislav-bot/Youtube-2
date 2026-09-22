@@ -1,0 +1,140 @@
+name: Audit Chicago Careful Wording Facts
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/audit_chicago_careful_wording_facts.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install archive tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+
+      - name: Download canonical archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_fact_audit
+          mkdir -p /tmp/chicago_fact_audit/src /tmp/chicago_fact_audit/extract
+          cd /tmp/chicago_fact_audit/src
+          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > source.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  source.rar' | sha256sum -c -
+
+      - name: Extract facts, script and scene map
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_fact_audit/src
+          7z x -y source.rar -o/tmp/chicago_fact_audit/extract             "-ir!*/06_LICENSES_FACTS/fact_map.csv"             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/03_TIMELINE/scene_map.csv"
+          FACT="$(find /tmp/chicago_fact_audit/extract -type f -path '*/06_LICENSES_FACTS/fact_map.csv' | head -n1)"
+          SCRIPT="$(find /tmp/chicago_fact_audit/extract -type f -path '*/02_SCRIPT/voiceover_en.txt' | head -n1)"
+          SCENE="$(find /tmp/chicago_fact_audit/extract -type f -path '*/03_TIMELINE/scene_map.csv' | head -n1)"
+          test -s "$FACT"; test -s "$SCRIPT"; test -s "$SCENE"
+          echo "FACT=$FACT" >> "$GITHUB_ENV"
+          echo "SCRIPT=$SCRIPT" >> "$GITHUB_ENV"
+          echo "SCENE=$SCENE" >> "$GITHUB_ENV"
+
+      - name: Build careful-wording audit
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import csv, os
+          from pathlib import Path
+
+          def read_csv(path):
+              text=Path(path).read_text(encoding='utf-8-sig',errors='replace')
+              sample=text[:5000]
+              dialect=csv.Sniffer().sniff(sample,delimiters=';,\t,')
+              return list(csv.DictReader(text.splitlines(),delimiter=dialect.delimiter))
+
+          facts=read_csv(os.environ['FACT'])
+          scenes=read_csv(os.environ['SCENE'])
+          script=Path(os.environ['SCRIPT']).read_text(encoding='utf-8-sig',errors='replace')
+
+          def parse_tc(s):
+              s=(s or '').strip().replace(',','.')
+              if not s:return None
+              parts=s.split(':')
+              try:
+                  if len(parts)==3:return int(parts[0])*3600+int(parts[1])*60+float(parts[2])
+                  if len(parts)==2:return int(parts[0])*60+float(parts[1])
+                  return float(parts[0])
+              except:return None
+
+          flagged=[]
+          for r in facts:
+              st=(r.get('Статус_озвучки') or '').strip()
+              if st!='LOCKED':
+                  t=parse_tc(r.get('Таймкод',''))
+                  active=[]
+                  if t is not None:
+                      for s in scenes:
+                          a=parse_tc(s.get('start','')); b=parse_tc(s.get('end',''))
+                          if a is not None and b is not None and a<=t<=b:
+                              active.append(s)
+                  flagged.append({'fact':r,'time_sec':t,'active_scenes':active})
+
+          lines=[
+            '# Chicago — careful wording fact audit','',
+            f'Flagged fact rows: **{len(flagged)}**','',
+            'These rows are not rejected facts. Their canonical status is USE_WITH_ATTRIBUTION/CAREFUL_WORDING, so the publication check is whether final narration preserves attribution/qualification.',
+            ''
+          ]
+
+          for i,item in enumerate(flagged,1):
+              r=item['fact']
+              lines += [
+                f'## Fact {i}',
+                f"- Frame/ID: {r.get('ID_кадра','')}",
+                f"- Timecode: {r.get('Таймкод','')}",
+                f"- Confidence: {r.get('Уверенность','')}",
+                f"- Status: {r.get('Статус_озвучки','')}",
+                f"- Claim: {r.get('Утверждение','')}",
+                f"- Evidence note: {r.get('Подтверждение','')}",
+                f"- Source: {r.get('Источник','')}",
+                f"- URL: {r.get('URL','')}",
+                ''
+              ]
+              if item['active_scenes']:
+                  lines.append('### Narration at this time')
+                  for s in item['active_scenes']:
+                      lines.append(f"- {s.get('scene','')} {s.get('start','')}–{s.get('end','')}: {s.get('narration','')}")
+                  lines.append('')
+
+          lines += [
+            '## Full canonical voiceover',
+            '',
+            script,
+            ''
+          ]
+
+          out=Path('CHICAGO/QC/CAREFUL_WORDING_FACT_AUDIT.md')
+          out.parent.mkdir(parents=True,exist_ok=True)
+          out.write_text('\n'.join(lines),encoding='utf-8')
+          print('\n'.join(lines[:180]))
+          PY
+
+      - name: Commit audit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/QC/CAREFUL_WORDING_FACT_AUDIT.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit Chicago careful-wording fact rows against narration"
+            git pull --rebase origin main
+            git push origin main
+          fi
