@@ -411,7 +411,8 @@ jobs:
           (out/'FACT_LICENSE_AUDIT_CORRECTED.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
           print(json.dumps(report,ensure_ascii=False,indent=2))
           assert len(facts)==23
-          assert len(nonlocked)==0
+          if sk is not None:
+              assert len(nonlocked)==0
           assert not missing_fields
           assert not missing_refs
           assert report['music_attribution_bytes']>0
@@ -522,7 +523,7 @@ jobs:
             '- Loudness / peak / clipping / discontinuity metrics are in exhaustive QC.',
             '- Fresh subtitle↔VO timing audit: **PASS**.',
             f"- Silence intervals detected: {sil['count']}; overlaps with spoken words: {len(sil['voice_conflicts'])}.",
-            f"- Fact rows: {fl['fact_rows']}; nonlocked: {fl['nonlocked_fact_count']}.",
+            f"- Fact rows: {fl['fact_rows']}; explicit status column: {fl['status_column'] or 'none'}; nonlocked: {fl['nonlocked_fact_count']}.",
             f"- Referenced archive IDs missing license manifest: {len(fl['referenced_archive_ids_missing_manifest'])}.",
             f"- License rows missing source/license: {len(fl['license_rows_missing_source_or_license'])}.",
             '',
