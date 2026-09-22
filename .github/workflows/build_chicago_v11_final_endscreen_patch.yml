@@ -1,0 +1,253 @@
+
+name: Build Chicago V11 Final Endscreen Patch
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_v11_final_endscreen_patch.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip python3-pil jq
+
+      - name: Download V9 base and HIA brand package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/v11
+          mkdir -p /tmp/v11/brand /tmp/v11/qc
+
+          cd /tmp/v11
+          gh release download chicago-v9-first-episode-end-screen-review-20260921 \
+            --repo reverendstanislav-bot/Youtube-2 \
+            --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4'
+
+          echo 'c436ccb1894efe750ecd6d23369f2062b6a2354f8f8ec9e84758520602281e50  HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4' | sha256sum -c -
+
+          cd /tmp/v11/brand
+          gh release download chicago-channel-brand-assets-extracted-20260920 \
+            --repo reverendstanislav-bot/Youtube-2 \
+            --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip
+          BASE="$(find . -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          AVATAR="$(find . -type f -name '01_avatar_logo.png' | head -n1)"
+          test -s "$BASE"
+          test -s "$AVATAR"
+          echo "BASE=$(readlink -f "$BASE")" >> "$GITHUB_ENV"
+          echo "AVATAR=$(readlink -f "$AVATAR")" >> "$GITHUB_ENV"
+
+      - name: Build one-slot HIA end screen
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw,ImageFont
+          import os
+          from pathlib import Path
+
+          src=Image.open(os.environ['BASE']).convert('RGB')
+          assert src.size==(1920,1080), src.size
+          im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
+          d=ImageDraw.Draw(im)
+
+          PAPER=(230,221,200)
+          IVORY=(243,235,221)
+          RUST=(165,82,53)
+          INK=(18,20,21)
+          BLUE=(95,116,125)
+
+          reg='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+          bold='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+          f_title=ImageFont.truetype(bold,54)
+          f_tag=ImageFont.truetype(reg,29)
+          f_label=ImageFont.truetype(bold,27)
+          f_small=ImageFont.truetype(reg,21)
+
+          x=105;y=88
+          d.rectangle([x,y,x+70,y+6],fill=RUST)
+          d.text((x+92,y-28),'HIDDEN INDUSTRIAL AMERICA',
+                 font=f_title,fill=IVORY,stroke_width=2,stroke_fill=INK)
+          d.text((x+92,y+58),'THE INFRASTRUCTURE REMAINS',
+                 font=f_tag,fill=PAPER,stroke_width=1,stroke_fill=INK)
+
+          # Exactly one Previous Story slot.
+          rx1,ry1,rx2,ry2=185,350,1015,817
+          d.rounded_rectangle([rx1,ry1,rx2,ry2],radius=6,
+                              fill=(22,25,27),outline=PAPER,width=5)
+          d.line([rx1,ry1,rx1+155,ry1],fill=RUST,width=7)
+          d.text((rx1,ry1-58),'PREVIOUS STORY',font=f_label,fill=RUST,
+                 stroke_width=1,stroke_fill=INK)
+          d.text((rx1,ry2+24),'CONTINUE EXPLORING HIDDEN INDUSTRIAL AMERICA',
+                 font=f_small,fill=PAPER,stroke_width=1,stroke_fill=INK)
+
+          # Exactly one Subscribe/avatar target.
+          cx,cy,r=1425,590,145
+          d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
+          d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],
+                start=208,end=325,fill=RUST,width=6)
+
+          label='SUBSCRIBE'
+          bb=d.textbbox((0,0),label,font=f_label); tw=bb[2]-bb[0]
+          d.text((cx-tw/2,cy+r+38),label,font=f_label,fill=RUST,
+                 stroke_width=1,stroke_fill=INK)
+
+          label2='HIDDEN INDUSTRIAL AMERICA'
+          bb=d.textbbox((0,0),label2,font=f_small); tw=bb[2]-bb[0]
+          d.text((cx-tw/2,cy+r+82),label2,font=f_small,fill=PAPER,
+                 stroke_width=1,stroke_fill=INK)
+
+          d.text((1315,920),'YOUTUBE END SCREEN',
+                 font=f_small,fill=BLUE,stroke_width=1,stroke_fill=INK)
+
+          out=im.resize((960,540),Image.Resampling.LANCZOS)
+          out.save('/tmp/v11/END_SCREEN_960x540.png',compress_level=6)
+
+          sim=im.copy()
+          av=Image.open(os.environ['AVATAR']).convert('RGB')
+          av=av.resize((2*r-18,2*r-18),Image.Resampling.LANCZOS)
+          mask=Image.new('L',av.size,0)
+          md=ImageDraw.Draw(mask)
+          md.ellipse([0,0,av.width-1,av.height-1],fill=255)
+          sim.paste(av,(cx-r+9,cy-r+9),mask)
+          sim.resize((960,540),Image.Resampling.LANCZOS).save('/tmp/v11/qc/END_SCREEN_WITH_AVATAR_SIMULATION.jpg',quality=92)
+          out.convert('RGB').save('/tmp/v11/qc/END_SCREEN_CLEAN.jpg',quality=92)
+          PY
+
+      - name: Patch only final 22.72 seconds
+        run: |
+          set -euo pipefail
+          cd /tmp/v11
+          SRC=HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4
+
+          ffmpeg -y -loglevel error -i "$SRC" -map 0:a:0 -c copy -f adts original.aac
+          AH="$(sha256sum original.aac | awk '{print $1}')"
+          test "$AH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$AH  original.aac" > qc/AUDIO_SHA256.txt
+
+          ffmpeg -y -hide_banner -loglevel error \
+            -i "$SRC" -map 0:v:0 -an -t 1268.000 \
+            -c:v copy -bsf:v h264_mp4toannexb -f mpegts first.ts
+
+          ffmpeg -y -hide_banner -loglevel error \
+            -loop 1 -framerate 25 -i END_SCREEN_960x540.png \
+            -t 22.720 \
+            -vf "fade=t=in:st=0:d=0.32,fade=t=out:st=22.20:d=0.50" \
+            -an -c:v libx264 -preset medium -crf 19 \
+            -pix_fmt yuv420p -r 25 -g 250 -keyint_min 25 -sc_threshold 0 \
+            -profile:v high -level:v 3.1 -f mpegts tail.ts
+
+          ffmpeg -y -hide_banner -loglevel error \
+            -i "concat:first.ts|tail.ts" \
+            -map 0:v:0 -an -c:v copy combined_video.mp4
+
+          OUT=/tmp/v11/HIA_CHICAGO_V11_FINAL_REVIEW_960x540.mp4
+          ffmpeg -y -hide_banner -loglevel error \
+            -i combined_video.mp4 -i original.aac \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy -c:a copy -movflags +faststart "$OUT"
+
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Final QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/v11/qc
+
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
+          FPS="$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$OUT")"
+          DUR="$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$OUT")"
+
+          echo "frames=$FRAMES" > "$Q/BASIC_QC.txt"
+          echo "fps=$FPS" >> "$Q/BASIC_QC.txt"
+          echo "duration=$DUR" >> "$Q/BASIC_QC.txt"
+
+          test "$FPS" = "25/1"
+
+          python3 - "$FRAMES" "$DUR" <<'PY'
+          import sys
+          f=int(sys.argv[1]); d=float(sys.argv[2])
+          assert abs(f-32268) <= 3, f
+          assert abs(d-1290.720) < 0.20, d
+          PY
+
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/final.aac"
+          FH="$(sha256sum "$Q/final.aac" | awk '{print $1}')"
+          test "$FH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$FH  final.aac" > "$Q/FINAL_AUDIO_SHA256.txt"
+
+          ffmpeg -hide_banner -nostats -i "$OUT" \
+            -vf "blackdetect=d=0.08:pix_th=0.10:pic_th=0.98" \
+            -an -f null - 2> "$Q/BLACKDETECT.log" || true
+
+          ffmpeg -y -hide_banner -loglevel error -ss 1268 -i "$OUT" -frames:v 1 "$Q/OUTRO_START.jpg"
+          ffmpeg -y -hide_banner -loglevel error -ss 1275 -i "$OUT" -frames:v 1 "$Q/OUTRO_MIDDLE.jpg"
+          ffmpeg -y -hide_banner -loglevel error -ss 1288 -i "$OUT" -frames:v 1 "$Q/OUTRO_END.jpg"
+
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+
+          python3 - <<'PY'
+          from pathlib import Path
+          q=Path('/tmp/v11/qc')
+          basic=(q/'BASIC_QC.txt').read_text()
+          black=(q/'BLACKDETECT.log').read_text(errors='replace').count('black_start:')
+          text='\n'.join([
+            '# Chicago V11 — final review QC','',
+            '- Base before 21:08.000: V9 video stream copied without re-encoding.',
+            '- Outro after 21:08.000: clean HIA image-only video tail.',
+            '- Running captions in outro: NONE by construction.',
+            '- Previous Story slots: exactly 1.',
+            '- Subscribe/avatar circles: exactly 1.',
+            '- Original AAC: bit-identical.',
+            '- Full decode: PASS.',
+            f'- blackdetect events: {black}.','',
+            basic.strip(),'',
+            'Status: READY FOR FINAL VISUAL CHECK.'
+          ])
+          (q/'V11_FINAL_QC.md').write_text(text+'\n',encoding='utf-8')
+          PY
+
+      - name: Publish V11
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/v11
+          zip -q -r HIA_CHICAGO_V11_FINAL_QC.zip qc
+          TAG=chicago-v11-final-review-20260922
+          BODY='Final review candidate. Video before 21:08 is copied from V9 without re-encoding. Final 22.72 seconds are a clean HIA end screen with exactly one Previous Story slot and one Subscribe/avatar circle. Outro contains no caption renderer, eliminating the duplicated-caption defect. Original AAC preserved bit-for-bit.'
+
+          if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
+            gh release upload "$TAG" "$OUT" HIA_CHICAGO_V11_FINAL_QC.zip --clobber --repo reverendstanislav-bot/Youtube-2
+          else
+            gh release create "$TAG" "$OUT" HIA_CHICAGO_V11_FINAL_QC.zip \
+              --title 'Chicago V11 Final Review' --notes "$BODY" \
+              --repo reverendstanislav-bot/Youtube-2
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-v11-final-review
+          path: |
+            /tmp/v11/HIA_CHICAGO_V11_FINAL_REVIEW_960x540.mp4
+            /tmp/v11/qc
+          retention-days: 14
