@@ -104,10 +104,10 @@ Detailed fact audit: `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`.
 - documentary angle: **Scale with a reason**;
 - working title: **America Built a 27-Million-Pound Machine. Then Scrapped It.**
 - thumbnail direction: authentic EPA/NARA public-domain Big Muskie hero frame; compact optional text **27 MILLION LB**;
-- runtime target: **~19–22 min**;
+- narration draft: **3,128 spoken words**, estimated **~19.5–21.5 min** with documentary pacing;
 - chapter architecture: 9 narrative sections including cold open;
 - claim→source map completed;
-- sourced narration draft V1 completed;
+- sourced narration draft V1 completed and expanded to the actual runtime target;
 - five Shorts have exact extraction markers in the long-form draft.
 
 Canonical Stage 5 files:
