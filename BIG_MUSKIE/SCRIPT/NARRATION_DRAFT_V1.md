@@ -69,6 +69,24 @@ The job came first.
 
 The record was a consequence.
 
+That distinction changes the way the machine should be viewed.
+
+A dragline was attractive because it could reach across a wide cut, pull material toward itself, then swing and dump that material without carrying it away in trucks one bucket at a time. On a mine where the overburden could be more than one hundred feet deep, reach mattered almost as much as bucket size.
+
+And Central Ohio Coal was not choosing between "a normal machine" and "a ridiculous machine." The company was comparing mining systems.
+
+The 1969 engineering literature says the machine's size came out of an application study. Annual coal requirement mattered. Overburden depth mattered. Terrain mattered.
+
+So did reclamation.
+
+A large dragline could move spoil into positions that supported the next stages of the mining sequence and later land reshaping.
+
+That is the first important idea of the story:
+
+Big Muskie was enormous because the mine had been turned into a geometry problem — how much material had to move, how far it had to move, and how quickly the coal beneath it had to be exposed.
+
+The record came from solving that problem at unprecedented scale.
+
 <!-- SOURCES: S08 S26 S29 S30 -->
 
 ---
@@ -119,6 +137,24 @@ That was the point of everything around it.
 
 Every ton of steel, every motor, every cable, every foot of boom existed to move that bucket through the overburden again and again.
 
+And unlike a factory machine, Big Muskie had to do this outdoors, on ground that was constantly changing because the mine itself was constantly changing.
+
+That helps explain why so much of the machine was not simply "digging hardware."
+
+The rotating house had to carry the machinery and control systems.
+
+The tub had to distribute the load.
+
+The boom had to reach far enough to make the stripping geometry work.
+
+The electrical system had to deliver power to a machine that was not connected to a fixed building.
+
+And the walking system had to relocate a structure weighing more than twenty-seven million pounds from one working position to the next.
+
+The machine was therefore both excavator and temporary piece of infrastructure.
+
+Wherever it worked, the mine had to provide the conditions that made it possible for Big Muskie to exist there.
+
 <!-- SOURCES: S01 S04 S06 S10 S26 S32 S33 -->
 
 ---
@@ -163,6 +199,16 @@ The point is not the count by itself.
 
 It is what the count reveals.
 
+The hoist had to raise a loaded bucket whose payload could reach hundreds of tons.
+
+The drag system had to pull that bucket through broken rock and soil.
+
+The swing system then had to rotate an upper structure carrying massive machinery, stop it in the right position, and send it back for the next cycle.
+
+These systems did not do the same job.
+
+They had to work together, cycle after cycle, without turning every start, stop and reversal into destructive shock loads.
+
 Big Muskie was less like one engine and more like a coordinated electric factory built around a bucket.
 
 [[SHORT-03 END]]
@@ -198,6 +244,14 @@ The grade had to stay below roughly five percent.
 And the surface had to be flat and stable enough to carry the enormous tub.
 
 For a machine this large, even the road became part of the machine.
+
+It could not simply wander across the mine.
+
+Before a move, the route had to make sense for the tub, the shoes, the grade and the trailing power cable.
+
+The machine could walk, but the landscape had to be prepared for every step.
+
+That is the strange contradiction of Big Muskie: it was mobile, but its mobility required infrastructure on a scale almost as unusual as the machine itself.
 
 [[SHORT-02 END]]
 
@@ -240,6 +294,22 @@ The 1969 mine-expansion paper makes that connection even clearer.
 This was a mine being redesigned around higher coal demand.
 
 The electric railroad, the handling system, the dragline and the generating station all belonged to the same industrial equation.
+
+That equation also explains why the story cannot be reduced to the dragline's purchase price.
+
+Big Muskie cost roughly twenty-five million dollars, but the mine-expansion program described in 1969 was much larger — about forty-one million dollars.
+
+The dragline was a major capital decision inside an even larger capital decision.
+
+If the power plant needed more coal, the mine needed more exposed coal.
+
+If the mine needed more exposed coal, more overburden had to be removed.
+
+And if the overburden was deep enough, the economics could point toward one enormous stripping machine instead of a larger collection of smaller equipment.
+
+That was the logic in the late 1960s.
+
+The dangerous assumption was that the same logic would remain true for decades.
 
 Even movement between cuts had to be planned.
 
@@ -296,6 +366,12 @@ Thirty-five percent in the actual study month.
 And in that same actual-data row, the dragline removed about 1.95 million cubic yards of overburden during the month.
 
 Those numbers belong together.
+
+The study does not tell us that Big Muskie spent its entire career at thirty-five percent availability.
+
+It tells us something more useful: in a real operating dataset, the mine had to deal with the difference between what the machine could do during a productive cycle and how often the machine was mechanically available during that period.
+
+That gap is where maintenance, repairs and operating reality live.
 
 A machine can be extraordinarily productive when it is running and still impose an enormous maintenance burden on the system around it.
 
@@ -429,7 +505,13 @@ The machine disappeared, but the scale of the decision that created it is still 
 
 The landscape tells the rest of the story.
 
-Former mining land moved through reclamation and the ReCreation Land legacy into new public and conservation uses.
+Reclamation had been part of the mining conversation while Big Muskie was still operating, and it became unavoidable once the machine's working life ended.
+
+Former mining land moved through the ReCreation Land legacy into new public and conservation uses.
+
+That does not erase the industrial history of the site. It makes the later landscape another chapter of it.
+
+The same land that once had to support a walking dragline, haulage systems and active surface mining was gradually assigned new purposes after mining ended.
 
 So Big Muskie left behind two very different artifacts.
 
