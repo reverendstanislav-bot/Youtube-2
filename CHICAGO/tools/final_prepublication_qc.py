@@ -610,11 +610,21 @@ def main():
     if unexpected_missing:
         issues.append(f"{len(unexpected_missing)} current-shot scene IDs are neither canonical nor approved V3/end synthetic IDs.")
 
+    # Stable aliases used by the machine-readable review classification.
+    unknown_noneditorial=unexpected_missing
+    blur_off_boundary=unexpected_blur
+
     gate="PASS_AUTOMATIC" if not issues else "REVIEW_REQUIRED"
     data={
       "technical":technical,"frame":frame,"audio":audio,"loudness":loud,
       "script":script,"layout":layout,
-      "automatic_gate":{"verdict":gate,"issues":issues},
+      "automatic_gate":{
+        "verdict":gate,
+        "issues":issues,
+        "blur_candidates_total":len(frame["one_frame_blur_anomalies"]),
+        "blur_candidates_off_planned_boundaries":blur_off_boundary,
+        "unknown_noneditorial_scene_ids":unknown_noneditorial
+      },
       "review_classification":{
         "known_editorial_scene_ids":[x for x in script["shots"]["missing_scene_ids"] if str(x.get("scene","")).startswith("V3_") or str(x.get("scene",""))=="end"],
         "unknown_noneditorial_scene_ids":unknown_noneditorial,
