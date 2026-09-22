@@ -209,21 +209,29 @@ jobs:
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import json
+          import json,re
           from pathlib import Path
-          s=Path('CHICAGO/V10/src/index.jsx').read_text()
+          src=Path('CHICAGO/V10/src/index.jsx').read_text()
+          builder=Path('CHICAGO/V10/build_brand_native_outro.py').read_text()
+          prep=Path('CHICAGO/V10/prepare_remotion_data.py').read_text()
+
+          m=re.search(r'cx,cy,r=(\\d+),(\\d+),(\\d+)',builder)
+          geometry=tuple(map(int,m.groups())) if m else None
+
           checks={
-            'no_watch_next':'WATCH NEXT' not in s,
-            'no_continue_exploring':'CONTINUE EXPLORING' not in s,
-            'one_subscribe_circle':s.count("borderRadius:'50%'")==1,
-            'subscribe_present':'SUBSCRIBE' in s,
-            'no_ai_reconstruction':'AI RECONSTRUCTION' not in Path('CHICAGO/V10/prepare_remotion_data.py').read_text(),
-            'historical_source_present':'HISTORICAL SOURCE' in Path('CHICAGO/V10/prepare_remotion_data.py').read_text(),
-            'end_caption_right_600':'right:endMode?600:70' in s,
+            'uses_accepted_outro_asset':'end_screen_first_episode.png' in src,
+            'no_watch_next':'WATCH NEXT' not in src and 'WATCH NEXT' not in builder,
+            'no_continue_exploring':'CONTINUE EXPLORING' not in src and 'CONTINUE EXPLORING' not in builder,
+            'subscribe_present':'SUBSCRIBE' in builder,
+            'canonical_subscribe_circle_geometry':geometry==(957,704,138),
+            'no_ai_reconstruction':'AI RECONSTRUCTION' not in prep,
+            'historical_source_present':'HISTORICAL SOURCE' in prep,
+            'end_caption_right_620':'right:endMode?620:70' in src,
           }
-          Path('/tmp/v10recover/qc/END_SCREEN_RULES.json').write_text(json.dumps(checks,indent=2))
-          print(checks)
-          assert all(checks.values())
+          report={'checks':checks,'subscribe_circle_geometry_1080p':geometry}
+          Path('/tmp/v10recover/qc/END_SCREEN_RULES.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          assert all(checks.values()),checks
           PY
 
       - name: Build final QC verdict
