@@ -121,6 +121,7 @@ jobs:
           out=Path('/tmp/chicago_v12/remotion/public/end_screen_1920x1080.png')
           im.save(out,compress_level=6)
           PY
+          cp /tmp/chicago_v12/remotion/public/end_screen_1920x1080.png /tmp/chicago_v12/remotion/public/end_screen_1080.png
 
       - name: Validate V12 source rules
         run: |
@@ -131,6 +132,8 @@ jobs:
           grep -q 'width={1920}' CHICAGO/V12/src/index.jsx
           grep -q 'height={1080}' CHICAGO/V12/src/index.jsx
           grep -q 'END_START=1268.0' CHICAGO/V12/src/index.jsx
+          grep -q 'base_1080.mp4' CHICAGO/V12/src/index.jsx
+          grep -q 'end_screen_1080.png' CHICAGO/V12/src/index.jsx
           echo "V12 source rules PASS"
 
       - name: Build native 1080p picture track
@@ -138,7 +141,8 @@ jobs:
           set -euo pipefail
           python3 CHICAGO/V12/build_picture_1080.py --v3-builder CHICAGO/V3/build_v3_picture.py --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json --assets-root "$ASSETS" --work /tmp/chicago_v12/work/picture --output-video /tmp/chicago_v12/remotion/public/base.mp4 --plan-out /tmp/chicago_v12/work/V12_SHOTS.json
 
-          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of default=nw=1 /tmp/chicago_v12/remotion/public/base.mp4 | tee /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
+          cp /tmp/chicago_v12/remotion/public/base.mp4 /tmp/chicago_v12/remotion/public/base_1080.mp4
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of default=nw=1 /tmp/chicago_v12/remotion/public/base_1080.mp4 | tee /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
           grep -q 'width=1920' /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
           grep -q 'height=1080' /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
           grep -q 'r_frame_rate=25/1' /tmp/chicago_v12/qc/PICTURE_TRACK_PROBE.txt
@@ -183,7 +187,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p out
-          npx remotion render src/index.jsx ChicagoV12 out/raw_video.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4
+          npx remotion render src/index.jsx ChicagoV12 out/raw_video.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p --concurrency=4
 
       - name: Mux original AAC
         run: |
@@ -234,7 +238,7 @@ jobs:
           ffmpeg -hide_banner -nostats -i "$OUT" -map 0:a:0 -af "loudnorm=I=-14:TP=-1:LRA=11:print_format=json" -f null - 2> "$Q/LOUDNORM.log" || true
           ffmpeg -hide_banner -nostats -i "$OUT" -vf "blackdetect=d=0.08:pix_th=0.10:pic_th=0.98" -an -f null - 2> "$Q/BLACKDETECT.log" || true
 
-          grep -q 'if(t>=1268.0)return null' CHICAGO/V12/src/index.jsx
+          grep -q 'if(t>=END_START)return null' CHICAGO/V12/src/index.jsx
           ! grep -R -q 'YOUTUBE END SCREEN' CHICAGO/V12 /tmp/chicago_v12/remotion/public
 
           sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
