@@ -235,79 +235,26 @@ function EndScreen(){
   const frame=useCurrentFrame();
   const t=frame/FPS;
   if(t<END_START)return null;
+  const a=tween(frame,F(END_START),10);
 
-  const brand=tween(frame,F(END_START)+4,10);
-  const subscribe=tween(frame,F(END_START)+16,10);
-
-  return <AbsoluteFill style={{zIndex:30,overflow:'hidden',background:C.charcoal}}>
-    {/* Canonical channel asset 07: clean reusable industrial background.
-        Episode 1 has NO video recommendation slots. */}
+  return <AbsoluteFill style={{
+    zIndex:30,
+    overflow:'hidden',
+    background:C.charcoal,
+    opacity:a
+  }}>
+    {/* Exact accepted brand-native Episode 1 proof, rendered deterministically
+        from canonical HIA asset 07. No recommendation/video slots. */}
     <Img
-      src={staticFile('end_screen_clean_base.png')}
+      src={staticFile('end_screen_first_episode.png')}
       style={{
-        position:'absolute',inset:0,width:'100%',height:'100%',
+        position:'absolute',
+        inset:0,
+        width:'100%',
+        height:'100%',
         objectFit:'cover'
       }}
     />
-
-    {/* Channel identity, matching the established HIA language. */}
-    <div style={{
-      position:'absolute',left:54,top:46,
-      opacity:brand,
-      transform:`translateY(${(1-brand)*7}px)`,
-      color:C.ivory,
-      fontFamily:'Arial,Helvetica,sans-serif',
-      textShadow:'0 2px 6px rgba(0,0,0,.72)'
-    }}>
-      <div style={{display:'flex',alignItems:'center',gap:12}}>
-        <div style={{width:34,height:3,background:C.orange}}/>
-        <div style={{fontSize:18,fontWeight:800,letterSpacing:1.8}}>
-          HIDDEN INDUSTRIAL AMERICA
-        </div>
-      </div>
-      <div style={{
-        marginTop:10,fontSize:12,fontWeight:600,
-        letterSpacing:2.2,color:C.paper
-      }}>
-        THE INFRASTRUCTURE REMAINS
-      </div>
-    </div>
-
-    {/* Empty Subscribe target. YouTube Studio's clickable Subscribe element
-        will sit over this circle and display the channel avatar automatically. */}
-    <div style={{
-      position:'absolute',
-      left:434,top:249,
-      width:172,height:172,
-      borderRadius:'50%',
-      border:'3px solid #E6DDC8',
-      background:'rgba(10,12,13,.62)',
-      boxShadow:'0 2px 9px rgba(0,0,0,.50)',
-      opacity:subscribe,
-      transform:`scale(${interpolate(subscribe,[0,1],[.97,1])})`
-    }}/>
-
-    <div style={{
-      position:'absolute',
-      left:414,top:438,width:212,
-      opacity:subscribe,
-      textAlign:'center',
-      fontFamily:'Arial,Helvetica,sans-serif',
-      textShadow:'0 2px 6px rgba(0,0,0,.72)'
-    }}>
-      <div style={{
-        fontSize:11,fontWeight:800,letterSpacing:2.6,
-        color:C.orange
-      }}>
-        SUBSCRIBE
-      </div>
-      <div style={{
-        marginTop:6,fontSize:12,fontWeight:700,
-        letterSpacing:1.25,color:C.ivory
-      }}>
-        HIDDEN INDUSTRIAL AMERICA
-      </div>
-    </div>
   </AbsoluteFill>;
 }
 
