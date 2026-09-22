@@ -14,6 +14,8 @@ Status: **RECONNAISSANCE ONLY. No asset below is automatically cleared for publi
 | V08 | HMDB photographs of ODNR/AEP markers | marker text / current memorial | HMDB contributors | NOT CLEARED | prefer reproducing verified facts, not their photographs, unless license/permission established |
 | V09 | U.S. Congressional Record pages | environmental/policy document beat | U.S. GPO | federal document generally strong rights candidate; inspect embedded third-party material | capture exact page only after page/claim lock |
 | V10 | Miners' Memorial Park / bucket today | surviving-object cold open/end image | current location | create later from rights-cleared source or licensed stock; no generation now | prioritize Commons/state/AEP-cleared photography |
+| V11 | Big Muskie images + preserved cable/power-cord sections and bucket tooth | authentic technical details, hardware closeups, equipment context | Historical Construction Equipment Association | NOT YET CLEARED | contact HCEA archives; request available Big Muskie stills/film/manuals and publication terms |
+| V12 | Bucyrus-era Big Muskie film/archive leads | authentic motion footage and original manufacturer context | HCEA / Bucyrus archive lineage | NOT YET CLEARED | highest-priority archive inquiry; license authentic footage instead of generating fake historical motion |
 
 ## Visual categories needed later
 

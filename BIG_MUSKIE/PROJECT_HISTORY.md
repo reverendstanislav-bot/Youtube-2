@@ -21,3 +21,12 @@ Future history entries must record:
 - generation-budget approvals;
 - review/RC/QC transitions;
 - final release/action identifiers and hashes.
+
+## 2026-09-22 — Stage 0–4 evidence refinement
+
+- Corrected a critical terminology issue: **325 tons is earth moved in one bite, not the empty bucket mass**.
+- Added the current ODNR marker evidence for a seven-member operating crew and approximately 13,000-volt electrical feed.
+- Preserved new conflicts: 200,000 vs 300,000 construction labor-hours and ~230 vs ~240 ton empty-bucket mass.
+- Added Historical Construction Equipment Association as a priority archive/physical-artifact lead.
+- Stage 0–4 closed as ready for user review.
+- No generation credits spent.

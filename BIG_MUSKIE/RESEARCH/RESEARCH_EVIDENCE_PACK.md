@@ -167,3 +167,4 @@ Incomplete. Preservation attempts existed; AEP cited reclamation obligations, fu
 5. Original construction records to settle 200,000 vs 300,000 labor-hours.
 6. Rights-cleared high-resolution archive stills/technical drawings.
 7. Exact provenance/license terms for Milwaukee Public Library Bucyrus scans and Ohio Geological Survey photography.
+8. Historical Construction Equipment Association archive inquiry for Big Muskie photographs, original Bucyrus film footage, manuals/drawings, and surviving machine components.

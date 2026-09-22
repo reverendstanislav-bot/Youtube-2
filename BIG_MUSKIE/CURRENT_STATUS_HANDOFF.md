@@ -7,7 +7,7 @@ Updated: 2026-09-22
 Episode: **3 — Big Muskie**
 Machine: **Bucyrus-Erie 4250-W walking dragline**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 0–4 — research/preproduction package bootstrapped; evidence and angle development in progress**
+State: **STAGE 0–4 COMPLETE — research/evidence/visual survey/angle package ready for user review**
 Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
 
 ## Completed in this stage
@@ -68,7 +68,7 @@ Strongest working direction: **scale with a reason** — why the geology and eco
 
 This is a development hypothesis, not yet user-approved packaging.
 
-## Next stage after approval
+## Approval gate / next stage
 
 STAGE 5:
 - close the priority evidence gaps;

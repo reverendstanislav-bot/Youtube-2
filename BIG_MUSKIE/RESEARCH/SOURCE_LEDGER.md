@@ -23,6 +23,7 @@ Status: initial factual ledger. Confidence refers to the claim as supported by t
 | S17 | Current visitor/memorial context | Big Muskie Bucket | Noble County tourism | local official tourism | Medium | https://www.visitnoblecountyohio.com/bmb |
 | S18 | Current/recent photographs; per-file licenses must be inspected | Category: Big Muskie | Wikimedia Commons | user-contributed licensed media | Rights depend on individual file | https://commons.wikimedia.org/wiki/Category:Big_Muskie |
 | S19 | 1970 private photographs/slides of Big Muskie; potentially strong human-scale archive | Big Muskie Flickr album | private photographer/uploader | private archive | Factual use medium; rights NOT CLEARED | https://www.flickr.com/photos/bcgreeneiv/albums/72157627364447495/ |
+| S20 | Big Muskie identification/history; museum holds Big Muskie cable/power-cord sections and bucket tooth; archive inquiry route | Big Muskie / museum equipment pages | Historical Construction Equipment Association | specialist nonprofit museum/archive | High as collection lead; reuse rights NOT CLEARED | https://www.hcea.net/page-1547734 ; https://www.hcea.net/Museum-Equipment-list |
 
 ## Conflict register
 
