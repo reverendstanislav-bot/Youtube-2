@@ -37,7 +37,8 @@ const activeWord=(cue,t)=>{
 
 function Caption(){
   const frame=useCurrentFrame(),t=frame/FPS;
-  if(t>=1268.0)return null;\n  const cue=captions.find(x=>t>=x.s&&t<=x.e);
+  if(t>=1268.0)return null;
+  const cue=captions.find(x=>t>=x.s&&t<=x.e);
   if(!cue)return null;
   const active=activeWord(cue,t);
   const endMode=t>=1272.72;
