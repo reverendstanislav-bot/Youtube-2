@@ -1,0 +1,5 @@
+width=1920
+height=1080
+fps=25/1
+frames=32268
+duration=1290.752000
