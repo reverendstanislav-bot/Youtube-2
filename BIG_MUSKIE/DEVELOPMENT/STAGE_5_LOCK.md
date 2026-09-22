@@ -69,7 +69,7 @@ By the end, the viewer understands:
 
 ## Runtime target
 
-Narration target: **~19–22 minutes** before final timing lock.
+Narration V1: **3,128 spoken words**. Estimated **~19.5–21.5 minutes** with documentary pacing before exact TTS timing lock.
 
 Pacing target:
 - 145–160 spoken words/minute depending on technical density;
