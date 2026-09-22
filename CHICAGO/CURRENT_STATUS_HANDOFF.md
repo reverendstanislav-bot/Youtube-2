@@ -376,3 +376,41 @@ V9 end-screen rules:
 
 Status:
 **READY FOR USER REVIEW. NOT FINAL / NOT PUBLICATION MASTER until explicit approval.**
+
+
+## V10 final review
+
+V10 supersedes V9 as the current Chicago review candidate.
+
+Workflow:
+- `Build Chicago V10 Fast Final Review`
+- run `35701839112`
+- conclusion: SUCCESS
+
+Review:
+- `HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4`
+- SHA-256 `05c7e097c5a7071797a7c7b84bf4929acf4af08bae45c8f97e45cb8a505a561c`
+- release tag `chicago-v10-final-review-20260922`
+
+QC:
+- Full decode PASS
+- 32,268 frames @ 25 fps / 21:30.720
+- every frame checked at 40 ms cadence
+- black frames: 0
+- white/blank frames: 0
+- single-frame flashes: 0
+- unexpected hard discontinuities: 0
+- AAC bit-identical to canonical audio
+- script ↔ SRT: 100%
+- script ↔ word transcript: 98.94%
+- script ↔ scene map: 100%
+- loudness: -14.04 LUFS
+- true peak: -4.48 dBTP
+- 338 running caption cues / word-level timing inherited from verified V9 data
+- outro uses canonical HIA brand asset 07 + one Subscribe/avatar circle
+- video recommendation slots: none for Episode 1
+- AI RECONSTRUCTION absent
+- HISTORICAL SOURCE only
+
+Status:
+**READY FOR FINAL VISUAL CHECK AND 1080P MASTER.**
