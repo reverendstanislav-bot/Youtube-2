@@ -30,7 +30,7 @@ jobs:
 
       - name: Download canonical Chicago source
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           rm -rf /tmp/chicago_src /tmp/chicago_extract /tmp/chicago_v12 /tmp/hia_brand
@@ -63,7 +63,7 @@ jobs:
 
       - name: Download canonical HIA brand package
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           cd /tmp/hia_brand
@@ -273,7 +273,7 @@ jobs:
 
       - name: Publish final master
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           cd /tmp/chicago_v12
