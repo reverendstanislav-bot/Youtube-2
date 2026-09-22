@@ -44,7 +44,7 @@ function Caption(){
   return <div style={{
     position:'absolute',
     left:endMode?54:70,
-    right:endMode?600:70,
+    right:endMode?620:70,
     top:undefined,
     bottom:endMode?36:26,
     textAlign:endMode?'left':'center',
