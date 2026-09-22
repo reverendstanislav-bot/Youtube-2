@@ -79,3 +79,6 @@ Future history entries must record:
 - Embedded exact START/END markers for five Shorts inside the long-form narration.
 - Added separate Shorts extraction map.
 - No TTS, image generation, video generation or credit spend.
+
+- Runtime-control pass expanded the sourced narration from 2,392 to **3,128 spoken words**, aligning the actual draft with the ~19–22 minute target.
+- Recounted all embedded Shorts windows: 99 / 162 / 162 / 128 / 121 words.
