@@ -199,7 +199,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 CHICAGO/tools/analyze_subtitle_alignment.py             --words "$WORDS"             --srt "$SRT"             --out-json /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.json             --out-md /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.md
-          grep -q 'Verdict: **PASS**' /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.md
+          grep -Fq 'Verdict: **PASS**' /tmp/chicago_v10/qc/SUBTITLE_VO_ALIGNMENT.md
 
       - name: Run exhaustive whole-film QC
         run: |
