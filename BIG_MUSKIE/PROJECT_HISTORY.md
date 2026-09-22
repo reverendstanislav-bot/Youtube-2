@@ -66,3 +66,16 @@ Future history entries must record:
 - Original manual/full paid engineering paper reclassified from blocking research gap to optional archive-enhancement target.
 - Research blockers for Stage 5: **0**.
 - No image/video generation and no credits spent.
+
+
+## 2026-09-22 — Stage 5
+
+- Locked documentary angle: **Scale with a reason**.
+- Locked working title: **America Built a 27-Million-Pound Machine. Then Scrapped It.**
+- Locked thumbnail direction around authentic EPA/NARA public-domain archive rather than generated historical imagery.
+- Built detailed 9-section retention outline targeting ~19–22 min.
+- Built claim→source map with 39 production claims and source IDs.
+- Wrote first full sourced English narration draft.
+- Embedded exact START/END markers for five Shorts inside the long-form narration.
+- Added separate Shorts extraction map.
+- No TTS, image generation, video generation or credit spend.

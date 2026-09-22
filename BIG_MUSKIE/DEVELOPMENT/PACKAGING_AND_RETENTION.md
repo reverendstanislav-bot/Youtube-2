@@ -1,8 +1,14 @@
 # BIG MUSKIE — WORKING PACKAGING + RETENTION ARCHITECTURE
 
-Status: **hypothesis for approval, not locked packaging**
+Status: **STAGE 5 PRODUCTION LOCK — publication packaging can still be A/B tested later**
 
-## Working title candidates
+## Locked working title
+
+**America Built a 27-Million-Pound Machine. Then Scrapped It.**
+
+Backup A/B title: **Why Big Muskie Had to Be This Big**
+
+## Archived title candidates
 
 1. **America Built a 27-Million-Pound Machine. Then Scrapped It.**
 2. **Why America Built the Largest Walking Dragline Ever**

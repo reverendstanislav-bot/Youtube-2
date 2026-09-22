@@ -1,6 +1,6 @@
 # BIG MUSKIE — SHORTS CANDIDATES
 
-Status: pre-script extraction design. Exact script start/end markers will be added while writing the long-form.
+Status: **STAGE 5 — exact markers are now embedded in SCRIPT/NARRATION_DRAFT_V1.md. See SCRIPT/SHORTS_EXTRACTION_MAP_V1.md.**
 
 ## SHORT 01 — The bucket that survived
 

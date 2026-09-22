@@ -17,9 +17,17 @@
 
 ## Development
 
+- DEVELOPMENT/STAGE_5_LOCK.md — locked production angle, working title, thumbnail direction and story promise
 - DEVELOPMENT/DOCUMENTARY_ANGLES.md — five candidate story angles
 - DEVELOPMENT/PACKAGING_AND_RETENTION.md — working title, thumbnail, cold open, story promise, chapters/retention
 - DEVELOPMENT/SHORTS_CANDIDATES.md — Shorts designed alongside the long-form
+
+## Script
+
+- SCRIPT/RETENTION_OUTLINE_V1.md — time/retention architecture
+- SCRIPT/CLAIM_SOURCE_MAP_V1.md — claim-to-source safety map
+- SCRIPT/NARRATION_DRAFT_V1.md — first full sourced English narration draft
+- SCRIPT/SHORTS_EXTRACTION_MAP_V1.md — exact Shorts extraction windows/markers
 
 ## Production placeholders
 

@@ -7,7 +7,7 @@ Updated: 2026-09-22
 Episode: **3 — Big Muskie**
 Machine: **Bucyrus-Erie 4250-W walking dragline**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 0–4 COMPLETE + RESEARCH GAPS CLOSED FOR PRODUCTION — ready for Stage 5**
+State: **STAGE 5 COMPLETE — angle/package/retention/evidence map/narration draft V1 locked for review**
 Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
 
 ## Completed in this stage
@@ -99,18 +99,37 @@ The 220-yd³ bucket is the major public surviving artifact at Miners' Memorial P
 Detailed closure note: `RESEARCH/RESEARCH_GAPS_CLOSED_2026-09-22.md`.
 Detailed fact audit: `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`.
 
-## Current candidate narrative direction
+## Stage 5 production lock
 
-Strongest working direction: **scale with a reason** — why the geology and economics of one Ohio coal system justified a 27-million-pound machine, how that machine actually worked, and why the logic that created it disappeared.
+- documentary angle: **Scale with a reason**;
+- working title: **America Built a 27-Million-Pound Machine. Then Scrapped It.**
+- thumbnail direction: authentic EPA/NARA public-domain Big Muskie hero frame; compact optional text **27 MILLION LB**;
+- runtime target: **~19–22 min**;
+- chapter architecture: 9 narrative sections including cold open;
+- claim→source map completed;
+- sourced narration draft V1 completed;
+- five Shorts have exact extraction markers in the long-form draft.
 
-This is a development hypothesis, not yet user-approved packaging.
+Canonical Stage 5 files:
+- `DEVELOPMENT/STAGE_5_LOCK.md`
+- `SCRIPT/RETENTION_OUTLINE_V1.md`
+- `SCRIPT/CLAIM_SOURCE_MAP_V1.md`
+- `SCRIPT/NARRATION_DRAFT_V1.md`
+- `SCRIPT/SHORTS_EXTRACTION_MAP_V1.md`
 
-## Approval gate / next stage
+No TTS, generated images, video generation or credit spend has occurred.
 
-STAGE 5:
-- close the priority evidence gaps;
-- lock documentary angle + title/thumbnail hypothesis;
-- build detailed retention outline and claim-by-claim chapter evidence;
-- write the first sourced narration draft with SHORT-CANDIDATE markers.
+ative sections including cold open;
+- claim→source map completed;
+- sourced narration draft V1 completed;
+- five Shorts have exact extraction markers in the long-form draft.
 
-No generation before later generation-budget approval.
+Canonical Stage 5 files:
+- `DEVELOPMENT/STAGE_5_LOCK.md`
+- `SCRIPT/RETENTION_OUTLINE_V1.md`
+- `SCRIPT/CLAIM_SOURCE_MAP_V1.md`
+- `SCRIPT/NARRATION_DRAFT_V1.md`
+- `SCRIPT/SHORTS_EXTRACTION_MAP_V1.md`
+
+No TTS, generated images, video generation or credit spend has occurred.
+
