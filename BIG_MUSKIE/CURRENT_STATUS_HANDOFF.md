@@ -1,0 +1,75 @@
+# BIG MUSKIE — CURRENT STATUS / HANDOFF
+
+Updated: 2026-09-22
+
+## Canonical status
+
+Episode: **3 — Big Muskie**
+Machine: **Bucyrus-Erie 4250-W walking dragline**
+Project: **Hidden Industrial America / YouTube-2**
+State: **STAGE 0–4 — research/preproduction package bootstrapped; evidence and angle development in progress**
+Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
+
+## Completed in this stage
+
+- created a clean Episode 3 production tree based on CHANNEL/PROJECT_STRUCTURE.md rather than copying the V1–V13 iteration sprawl;
+- reviewed current CHANNEL, CHICAGO, and TC497 canonical status/QC lineage;
+- established Big Muskie research scope;
+- built initial research/evidence pack;
+- built factual source ledger;
+- built visual-source survey with rights status;
+- documented material conflicts instead of silently choosing values;
+- developed five documentary angles;
+- created a working packaging/retention hypothesis;
+- created initial Shorts candidates.
+
+## Inherited non-negotiable production rules
+
+- GitHub is project memory and source of truth.
+- Chicago and TC497 are reference only unless the user explicitly asks to modify them.
+- no video generation;
+- no image-generation spend before script + beat map + complete prompt pack + exact budget approval;
+- source provenance and rights must be recorded;
+- reconstruction/generated imagery cannot be presented as authentic archive;
+- final captions: white base #FFFFFF, active spoken word #F28A3A, word-level sync, one clean renderer;
+- review/candidate/final labels follow CHANNEL approval semantics;
+- proof → user review → RC → exhaustive QC → native upload master.
+
+## High-confidence story spine
+
+1. The surviving 220-cubic-yard bucket is the physical mystery object.
+2. Central Ohio Coal faced deep overburden across a very large, hilly surface-mining property.
+3. Bucyrus-Erie built a one-off 4250-W onsite after shipping major components by rail and truck.
+4. Big Muskie became the primary stripping machine: it removed overburden rather than mining coal directly.
+5. Its scale solved a specific 1960s mine-and-power economics problem, but imposed unusual terrain, maintenance, electrical, and operating constraints.
+6. It stopped in January 1991 amid a combination of more efficient mining technology and reduced demand for high-sulfur Ohio coal after the 1990 Clean Air Act Amendments.
+7. Preservation efforts failed; AEP dismantled it in 1999 while preserving the bucket.
+8. The bucket became the anchor of Miners' Memorial Park, while large portions of the former mining landscape moved into reclamation/conservation use.
+
+## Important unresolved conflicts
+
+Do not collapse these into a single number until primary documentation resolves them:
+
+- boom length: Ohio/ODNR/AEP material commonly gives **310 ft**; Caterpillar history gives **330 ft**;
+- cost: Ohio geological material gives **$24 million**; Caterpillar/Guinness commonly give **about $25 million**;
+- weight: common official/history figure is **over 27 million lb / about 13,500 short tons**; a Bucyrus company newsletter later states **14,500 tons**;
+- lifetime material moved: AEP/ODNR material supports **over 483 million cubic yards**; **608 million** is widely repeated secondarily and is not currently canonical;
+- coal exposed/mined: an ODNR/AEP marker gives **nearly 18 million tons**; higher secondary figures remain unverified;
+- crew: four rotating crews is documented; exact normal operating crew headcount is not locked;
+- supply voltage: 13.8 kV is widely repeated but requires a stronger primary technical source before narration lock.
+
+## Current candidate narrative direction
+
+Strongest working direction: **scale with a reason** — why the geology and economics of one Ohio coal system justified a 27-million-pound machine, how that machine actually worked, and why the logic that created it disappeared.
+
+This is a development hypothesis, not yet user-approved packaging.
+
+## Next stage after approval
+
+STAGE 5:
+- close the priority evidence gaps;
+- lock documentary angle + title/thumbnail hypothesis;
+- build detailed retention outline and claim-by-claim chapter evidence;
+- write the first sourced narration draft with SHORT-CANDIDATE markers.
+
+No generation before later generation-budget approval.
