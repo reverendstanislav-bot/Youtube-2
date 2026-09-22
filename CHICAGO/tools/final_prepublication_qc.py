@@ -96,6 +96,7 @@ def script_alignment(script_path,srt_path,words_path,scene_map_path,shots_path,f
     shots=json.loads(Path(shots_path).read_text(encoding="utf-8-sig",errors="replace"))
     shot_rows=[]
     missing_scene=[]
+    service_scene=[]
     shot_gaps=[]; shot_overlaps=[]
     last_b=None
     for i,s in enumerate(shots):
@@ -163,6 +164,7 @@ def script_alignment(script_path,srt_path,words_path,scene_map_path,shots_path,f
         "shots":{"count":len(shots),"start":shot_rows[0]["s"] if shot_rows else None,
                  "end":shot_rows[-1]["e"] if shot_rows else None,
                  "gaps":shot_gaps,"overlaps":shot_overlaps,"missing_scene_ids":missing_scene,
+                 "service_edit_scene_ids":service_scene,
                  "under_1_5s":[x for x in shot_rows if x["dur"]<1.5],
                  "under_2s":[x for x in shot_rows if x["dur"]<2.0]},
         "semantic_reference_checks":{
@@ -345,6 +347,7 @@ def frame_audit(video,shots,outdir):
       "unexpected_hard_discontinuities":unexpected,
       "single_frame_flash_candidates":flashes,
       "one_frame_blur_anomalies":blur_anom,
+      "one_frame_blur_at_planned_boundaries":blur_boundary,
       "planned_boundary_transition_strengths":transitions,
       "blur_anomalies_near_planned_boundary":[
         x for x in blur_anom
@@ -504,7 +507,8 @@ def write_md(data,path):
       f"- V2 SRT ↔ word transcript ratio: **{tokd['srt_vs_voice_ratio']:.4%}**",
       f"- Scene-map gaps: **{len(s['scene_map']['gaps'])}**, overlaps: **{len(s['scene_map']['overlaps'])}**",
       f"- Current-shot gaps: **{len(s['shots']['gaps'])}**, overlaps: **{len(s['shots']['overlaps'])}**",
-      f"- Current shots with unknown scene IDs: **{len(s['shots']['missing_scene_ids'])}**",
+      f"- Current shots with truly unknown scene IDs: **{len(s['shots']['missing_scene_ids'])}**",
+      f"- Service edit IDs (V3_* / end): **{len(s['shots'].get('service_edit_scene_ids',[]))}**.",
       f"- Low referenced-scene text-similarity candidates (<0.25): **{len(s['semantic_reference_checks']['low_similarity_under_0_25'])}** (manual editorial review list, not automatic failure).","",
       "## Overlay / subtitle layout",
       f"- Running caption cues: **{l['caption_cues']}**",
