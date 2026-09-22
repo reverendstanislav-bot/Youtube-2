@@ -27,14 +27,15 @@ Caterpillar's historical account says the project began in 1966 in Bucyrus-Erie 
 - about 200,000 man-hours;
 - production beginning in 1969.
 
-The Ohio/ODNR historical-marker account describes roughly two years of fabrication plus two years of onsite construction and a May 1969 production start.
+The current Ohio/ODNR historical-marker account describes roughly two years of fabrication plus two years of onsite construction and a May 1969 production start. It gives **300,000 hours** for onsite construction, which conflicts with Caterpillar's approximately **200,000 man-hours**. Keep the labor-hour total unresolved until original Bucyrus project records are found.
 
 ## 4. Core specifications — use with conflict notes
 
 High-confidence/common core:
 - model: Bucyrus-Erie 4250-W;
-- bucket: 220 cubic yards;
-- bucket weight: approximately 325 tons in Ohio/ODNR marker material;
+- bucket capacity: 220 cubic yards;
+- earth moved in one bite: up to about 325 tons in current ODNR marker material;
+- empty bucket mass: **conflicted** — AEP gives about 240 tons; Guinness gives about 230 tons;
 - machine width: about 151 ft;
 - revolving house/tub: about 105 ft diameter;
 - machine weight: over 27 million lb / roughly 13,500 short tons in multiple histories;
@@ -53,7 +54,7 @@ A Bucyrus company GlobalNewsLetter retrospective gives a useful motor breakdown:
 
 This is valuable because it turns the machine from a scale statistic into an understandable electromechanical system.
 
-Widely repeated 13.8 kV supply claims are not yet primary-source locked and should remain out of final narration until confirmed by an original manual, AEP technical document, or equivalent.
+The current ODNR historical marker states that electricity reached the machine through an approximately **13,000-volt** supply cable ("extension cord"). Use 13,000 V as the current development figure; do not silently substitute the commonly repeated 13.8 kV figure without stronger primary technical documentation.
 
 ## 6. How it worked
 
@@ -83,9 +84,11 @@ The often-repeated **608 million cubic yards** figure is not adopted until a str
 
 ## 8. Crew and maintenance
 
-The ODNR/AEP marker documents **four rotating crews**.
+Two current ODNR marker texts complement each other:
+- one says **four crews** worked together to run the machine;
+- another states Big Muskie was staffed by a **seven-member crew**.
 
-Exact normal headcount per operating crew is still unresolved. Secondary articles sometimes give seven people per crew, but that number needs a stronger source before narration lock.
+For development, describe this as four crews supporting continuous operation, with a seven-person operating crew documented by ODNR. Do not infer shift schedules or job titles until payroll/manual/oral-history records are found.
 
 A 2025 WOSU interview with former supervisor Eddie Lindimore describes near-continuous use when the machine was available and frequent breakdowns. This supports a human/maintenance thread, but recollection-based details should be clearly attributed.
 
@@ -157,9 +160,10 @@ Incomplete. Preservation attempts existed; AEP cited reclamation obligations, fu
 
 ## 15. Priority evidence gaps before script lock
 
-1. Original Bucyrus 4250-W specification/manual/drawing to resolve boom, weight, electrical supply, motor system, and working dimensions.
-2. Primary Central Ohio Coal/AEP operating documentation for crew complement, duty cycle, downtime, and production.
+1. Original Bucyrus 4250-W specification/manual/drawing to resolve boom, nominal/working weight, electrical architecture, and working dimensions.
+2. Primary Central Ohio Coal/AEP operating documentation for shift structure, job roles, duty cycle, downtime, and production.
 3. Stronger primary record for exact capital cost and whether quoted figures are nominal/original/final installed cost.
 4. Primary lifetime material/coal totals to settle 483m vs 608m and ~18m vs >20m.
-5. Rights-cleared high-resolution archive stills/technical drawings.
-6. Exact provenance/license terms for Milwaukee Public Library Bucyrus scans and Ohio Geological Survey photography.
+5. Original construction records to settle 200,000 vs 300,000 labor-hours.
+6. Rights-cleared high-resolution archive stills/technical drawings.
+7. Exact provenance/license terms for Milwaukee Public Library Bucyrus scans and Ohio Geological Survey photography.

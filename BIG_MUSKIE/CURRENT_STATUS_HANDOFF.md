@@ -52,11 +52,15 @@ Do not collapse these into a single number until primary documentation resolves 
 
 - boom length: Ohio/ODNR/AEP material commonly gives **310 ft**; Caterpillar history gives **330 ft**;
 - cost: Ohio geological material gives **$24 million**; Caterpillar/Guinness commonly give **about $25 million**;
-- weight: common official/history figure is **over 27 million lb / about 13,500 short tons**; a Bucyrus company newsletter later states **14,500 tons**;
+- weight: the current ODNR marker gives **27 million lb** and elsewhere **14,000-ton working weight**; a Bucyrus company retrospective says **14,500 tons**. Treat the difference as nominal/working/retrospective conflict until original specifications are found;
+- construction labor: Caterpillar history reports **about 200,000 man-hours**; the current ODNR marker reports **300,000 hours** to build onsite. Do not lock an exact labor-hour number yet;
+- empty bucket mass: AEP describes the preserved bucket as about **240 tons**; Guinness gives **230 tons**. The **325-ton** figure is the amount of earth it could move in one bite, not the empty bucket weight;
 - lifetime material moved: AEP/ODNR material supports **over 483 million cubic yards**; **608 million** is widely repeated secondarily and is not currently canonical;
-- coal exposed/mined: an ODNR/AEP marker gives **nearly 18 million tons**; higher secondary figures remain unverified;
-- crew: four rotating crews is documented; exact normal operating crew headcount is not locked;
-- supply voltage: 13.8 kV is widely repeated but requires a stronger primary technical source before narration lock.
+- coal exposed/mined: a current ODNR marker gives **nearly 18 million tons**; higher secondary figures remain unverified.
+
+Resolved enough for development:
+- ODNR markers document **four crews** and a **seven-member operating crew**;
+- the current ODNR marker gives an electrical feed of approximately **13,000 volts**. Do not substitute the common 13.8 kV secondary figure unless a primary technical document supports it.
 
 ## Current candidate narrative direction
 
