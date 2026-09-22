@@ -71,7 +71,7 @@ Use these as the current narration-development rules:
 - **Lifetime material moved:** use **more than 483 million cubic yards**. Do NOT use 608 million. One 2001 AEP release says "483 million tons"; this conflicts with AEP's own 1999 release and current ODNR wording and is treated as an internal source error/inconsistency.
 - **Coal exposed:** current ODNR marker supports nearly 18 million tons over the operating life.
 - **Crews:** ODNR says four crews worked to run the machine; another current marker says a seven-member crew. Do not invent a precise rotating-shift pattern unless sourced.
-- **Shutdown:** multi-factor — more efficient mining technologies + reduced demand for high-sulfur coal in the changed post-1990 Clean Air Act market. Do not say "the EPA killed Big Muskie."
+- **Shutdown:** multi-factor — more efficient mining technologies + reduced demand for high-sulfur coal in the changed post-1990 Clean Air Act market. EPA's Title IV Phase I compliance began in 1995, so do **not** imply Big Muskie became legally noncompliant in January 1991 or that "the EPA killed Big Muskie."
 - **Dismantling:** AEP's 1999 announcement explicitly cites reclamation permit requirements plus insufficient time/funds and long-term liability problems for whole-machine preservation.
 - **Surviving material:** the bucket is the major public surviving artifact at Miners' Memorial Park; do not say it is literally the only surviving component because HCEA preserves cable/power-cord sections, chain segments, and a bucket tooth.
 

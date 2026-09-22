@@ -9,6 +9,7 @@
 
 ## Research
 
+- RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md — independent claim-by-claim re-audit and canonical wording locks
 - RESEARCH/RESEARCH_EVIDENCE_PACK.md — sourced story/evidence synthesis
 - RESEARCH/SOURCE_LEDGER.md — factual claim ledger
 - RESEARCH/VISUAL_SOURCE_LEDGER.md — archive/visual reconnaissance and rights status

@@ -52,7 +52,7 @@ Where sources conflict, the audit does **not** average them or select the larger
 | Seven-member crew | PASS | current ODNR marker |
 | Exact rotating-shift pattern | NOT PROVEN | do not assert yet |
 | Frequent breakdowns | ORAL-HISTORY ONLY | attribute to Eddie Lindimore |
-| Clean Air Act role | PASS WITH CAUSAL CAUTION | one part of changing high-sulfur-coal economics |
+| Clean Air Act role | PASS WITH CAUSAL CAUTION | one part of changing high-sulfur-coal economics; Title IV Phase I compliance began in 1995, after Big Muskie was idled |
 | "EPA killed Big Muskie" | REJECTED | multi-factor end |
 | 1999 reclamation obligation | PASS | AEP primary |
 | Preservation time/funding/liability | PASS | AEP primary |
@@ -76,6 +76,9 @@ Useful for current visitor context, not for resolving engineering specs. Several
 
 ### WOSU
 Excellent recent human/oral-history reporting. Statements about day-to-day operation/breakdowns are attributed recollections, not independently measured availability data.
+
+### Clean Air Act timing
+EPA says the 1990 amendments established the Title IV sulfur-dioxide allowance system, but Phase I compliance began January 1, 1995. Big Muskie was idled in January 1991. Therefore the safe causal language is market/regulatory expectations plus more efficient mining technology — not immediate statutory noncompliance in 1991.
 
 ## Visual-rights audit
 

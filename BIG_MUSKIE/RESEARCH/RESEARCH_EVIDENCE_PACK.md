@@ -135,10 +135,10 @@ The strongest local official explanation is multi-factor:
 - demand for the mine's **high-sulfur coal** declined after the Clean Air Act Amendments of 1990 changed utility sulfur-emissions economics;
 - Big Muskie was idled in January 1991.
 
-EPA's own description of Title IV confirms that the 1990 amendments created major sulfur-dioxide reduction requirements and an allowance system for electric utilities.
+EPA's own description of Title IV confirms that the 1990 amendments created major sulfur-dioxide reduction requirements and an allowance system for electric utilities. **Phase I compliance began January 1, 1995**, several years after Big Muskie was idled. That timing matters: the 1990 law could affect expectations and the market for high-sulfur coal, but the machine was not shut in January 1991 because it had already failed a 1995 emissions deadline.
 
 Narration rule:
-**do not say "the EPA killed Big Muskie" or imply a one-law/one-day causal switch.**
+**do not say "the EPA killed Big Muskie," do not imply immediate 1991 statutory noncompliance, and do not reduce the shutdown to one law.**
 
 ## 11. Dismantling in 1999
 

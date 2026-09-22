@@ -48,3 +48,5 @@ Future history entries must record:
 - Identified explicit CC license status for a 1999 whole-machine side view and a preserved-bucket photograph.
 - Locked Milwaukee Public Library Bucyrus scans as research-only until publication permission/copyright clearance is obtained.
 - No generation performed. No credits spent.
+
+- Added a final Clean Air Act timing guardrail: EPA Title IV Phase I compliance began in 1995, after the January 1991 Big Muskie shutdown; narration must distinguish regulatory/market expectations from immediate legal noncompliance.
