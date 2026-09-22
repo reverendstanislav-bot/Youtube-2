@@ -1,0 +1,323 @@
+name: Recover Chicago V10 QC From Render Checkpoint
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/recover_chicago_v10_qc.yml'
+      - 'CHICAGO/tools/final_prepublication_qc.py'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  recover-qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install QC tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-opencv python3-numpy jq zip
+
+      - name: Recover already rendered V10 checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/v10recover /tmp/chicago_src /tmp/chicago_extract
+          mkdir -p /tmp/v10recover /tmp/chicago_src /tmp/chicago_extract
+
+          gh run download 35700560537             --repo reverendstanislav-bot/Youtube-2             --name chicago-v10-render-checkpoint             --dir /tmp/v10recover/checkpoint
+
+          VIDEO="$(find /tmp/v10recover/checkpoint -type f -name 'HIA_CHICAGO_V10_CLEAN_OUTRO_FINAL_REVIEW_960x540.mp4' | head -n1)"
+          test -s "$VIDEO"
+          echo "VIDEO=$VIDEO" >> "$GITHUB_ENV"
+
+          ffprobe -v error -show_entries format=duration -show_streams -of json "$VIDEO"             > /tmp/v10recover/FFPROBE_RECOVERED.json
+
+      - name: Recover V9/V10 shot plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/v10recover
+          gh release download chicago-v9-first-episode-end-screen-review-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip'
+          unzip -q HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip -d v9qc
+          SHOTS="$(find v9qc -type f -name 'V9_SHOTS.json' | head -n1)"
+          test -s "$SHOTS"
+          cp "$SHOTS" /tmp/v10recover/V10_SHOTS.json
+          echo "SHOTS=/tmp/v10recover/V10_SHOTS.json" >> "$GITHUB_ENV"
+
+      - name: Download canonical source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract canonical QC text inputs
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar             -o/tmp/chicago_extract             "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4"             "-ir!*/_V2/final/HIA_CHICAGO_V2.srt"             "-ir!*/_QC/voice_words.json"             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/03_TIMELINE/scene_map.csv"             "-ir!*/03_TIMELINE/timeline.csv"             "-ir!*/06_LICENSES_FACTS/fact_map.csv"             "-ir!*/06_LICENSES_FACTS/license_manifest.csv"             "-ir!*/06_LICENSES_FACTS/music_attribution.txt"
+
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          SCRIPT="$(find /tmp/chicago_extract -type f -path '*/02_SCRIPT/voiceover_en.txt' | head -n1)"
+          SCENE_MAP="$(find /tmp/chicago_extract -type f -path '*/03_TIMELINE/scene_map.csv' | head -n1)"
+          TIMELINE="$(find /tmp/chicago_extract -type f -path '*/03_TIMELINE/timeline.csv' | head -n1)"
+          FACT_MAP="$(find /tmp/chicago_extract -type f -path '*/06_LICENSES_FACTS/fact_map.csv' | head -n1)"
+          LICENSES="$(find /tmp/chicago_extract -type f -path '*/06_LICENSES_FACTS/license_manifest.csv' | head -n1)"
+          MUSIC_ATTR="$(find /tmp/chicago_extract -type f -path '*/06_LICENSES_FACTS/music_attribution.txt' | head -n1)"
+
+          for x in "$V2" "$SRT" "$WORDS" "$SCRIPT" "$SCENE_MAP" "$TIMELINE" "$FACT_MAP" "$LICENSES" "$MUSIC_ATTR"; do
+            test -s "$x"
+          done
+
+          {
+            echo "V2=$V2"
+            echo "SRT=$SRT"
+            echo "WORDS=$WORDS"
+            echo "SCRIPT=$SCRIPT"
+            echo "SCENE_MAP=$SCENE_MAP"
+            echo "TIMELINE=$TIMELINE"
+            echo "FACT_MAP=$FACT_MAP"
+            echo "LICENSES=$LICENSES"
+            echo "MUSIC_ATTR=$MUSIC_ATTR"
+          } >> "$GITHUB_ENV"
+
+      - name: Rebuild current captions and overlays
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/v10recover/current /tmp/v10recover/qc
+          python3 CHICAGO/V10/prepare_remotion_data.py             --srt "$SRT"             --words "$WORDS"             --plan "$SHOTS"             --captions-out /tmp/v10recover/current/captions.json             --overlays-out /tmp/v10recover/current/overlays.json             --report /tmp/v10recover/qc/REMOTION_DATA_REPORT.json
+
+          ! grep -q 'AI RECONSTRUCTION' /tmp/v10recover/current/overlays.json
+
+      - name: Verify exact original audio bitstream
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$VIDEO" -map 0:a:0 -c copy -f adts /tmp/v10recover/qc/review.aac
+          AH="$(sha256sum /tmp/v10recover/qc/review.aac | awk '{print $1}')"
+          EXPECTED='a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$AH  recovered_v10.aac" > /tmp/v10recover/qc/AUDIO_SHA256.txt
+          test "$AH" = "$EXPECTED"
+
+      - name: Full decode and timing integrity
+        run: |
+          set -euo pipefail
+          ffmpeg -v error -xerror -i "$VIDEO" -map 0:v:0 -map 0:a:0 -f null -             2> /tmp/v10recover/qc/DECODE_ERRORS.txt
+          test ! -s /tmp/v10recover/qc/DECODE_ERRORS.txt
+
+          DUR="$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$VIDEO")"
+          python3 - "$DUR" <<'PY'
+          import sys
+          d=float(sys.argv[1])
+          assert abs(d-1290.720)<0.20,d
+          PY
+
+      - name: Fresh subtitle to VO timing audit
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/analyze_subtitle_alignment.py             --words "$WORDS"             --srt "$SRT"             --out-json /tmp/v10recover/qc/SUBTITLE_VO_ALIGNMENT.json             --out-md /tmp/v10recover/qc/SUBTITLE_VO_ALIGNMENT.md
+          grep -Fq 'Verdict: **PASS**' /tmp/v10recover/qc/SUBTITLE_VO_ALIGNMENT.md
+
+      - name: Exhaustive whole-film QC
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/tools/final_prepublication_qc.py             --video "$VIDEO"             --shots "$SHOTS"             --captions /tmp/v10recover/current/captions.json             --overlays /tmp/v10recover/current/overlays.json             --scene-map "$SCENE_MAP"             --script "$SCRIPT"             --voice-words "$WORDS"             --srt "$SRT"             --fact-map "$FACT_MAP"             --timeline "$TIMELINE"             --outdir /tmp/v10recover/qc/exhaustive             | tee /tmp/v10recover/qc/EXHAUSTIVE_GATE.json
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/v10recover/qc/EXHAUSTIVE_GATE.json')
+          d=json.loads(p.read_text())
+          print(json.dumps(d,indent=2))
+          assert d['gate']=='PASS_AUTOMATIC',d
+          PY
+
+      - name: Independent detector cross-check
+        run: |
+          set -euo pipefail
+          Q=/tmp/v10recover/qc
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -vf "blackdetect=d=0.08:pix_th=0.10:pic_th=0.98"             -an -f null - 2> "$Q/BLACKDETECT.log" || true
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -vf "freezedetect=n=-55dB:d=3"             -an -f null - 2> "$Q/FREEZEDETECT.log" || true
+          ffmpeg -hide_banner -nostats -i "$VIDEO"             -af "silencedetect=n=-60dB:d=0.5"             -vn -f null - 2> "$Q/SILENCEDETECT.log" || true
+
+      - name: Fact, licensing and music package QC
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import csv,json,os,re
+          from pathlib import Path
+
+          def read(path):
+              text=Path(path).read_text(encoding='utf-8-sig',errors='replace')
+              try:
+                  delim=csv.Sniffer().sniff(text[:5000],delimiters=';,	,').delimiter
+              except: delim=';'
+              return list(csv.DictReader(text.splitlines(),delimiter=delim)),delim
+
+          facts,fd=read(os.environ['FACT_MAP'])
+          lic,ld=read(os.environ['LICENSES'])
+          shots=json.loads(Path(os.environ['SHOTS']).read_text())
+
+          lic_by={}
+          missing=[]
+          for r in lic:
+              rid=(r.get('id') or r.get('ID') or '').strip()
+              if rid: lic_by[rid]=r
+              source=(r.get('source_page') or r.get('source') or '').strip()
+              license_=(r.get('license') or '').strip()
+              if not source or not license_: missing.append(rid or '(unknown)')
+
+          refs=set()
+          for s in shots:
+              blob=' '.join(str(s.get(k,'')) for k in ('source','asset'))
+              refs.update(re.findall(r'(?<![A-Za-z0-9])(A\d{2})(?=[^0-9]|$)',blob))
+          missing_refs=sorted(x for x in refs if x not in lic_by)
+
+          report={
+            'fact_rows':len(facts),
+            'license_rows':len(lic),
+            'license_missing_source_or_license':missing,
+            'referenced_archive_ids':sorted(refs),
+            'missing_referenced_archive_ids':missing_refs,
+            'music_attribution_bytes':Path(os.environ['MUSIC_ATTR']).stat().st_size
+          }
+          Path('/tmp/v10recover/qc/FACT_LICENSE_QC.json').write_text(
+            json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8'
+          )
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          assert len(facts)==23
+          assert not missing
+          assert not missing_refs
+          assert report['music_attribution_bytes']>0
+          PY
+
+      - name: End-screen design rule QC
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=Path('CHICAGO/V10/src/index.jsx').read_text()
+          checks={
+            'no_watch_next':'WATCH NEXT' not in s,
+            'no_continue_exploring':'CONTINUE EXPLORING' not in s,
+            'one_subscribe_circle':s.count("borderRadius:'50%'")==1,
+            'subscribe_present':'SUBSCRIBE' in s,
+            'no_ai_reconstruction':'AI RECONSTRUCTION' not in Path('CHICAGO/V10/prepare_remotion_data.py').read_text(),
+            'historical_source_present':'HISTORICAL SOURCE' in Path('CHICAGO/V10/prepare_remotion_data.py').read_text(),
+            'end_caption_right_600':'right:endMode?600:70' in s,
+          }
+          Path('/tmp/v10recover/qc/END_SCREEN_RULES.json').write_text(json.dumps(checks,indent=2))
+          print(checks)
+          assert all(checks.values())
+          PY
+
+      - name: Build final QC verdict
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re,hashlib
+          from pathlib import Path
+          q=Path('/tmp/v10recover/qc')
+          gate=json.loads((q/'EXHAUSTIVE_GATE.json').read_text())
+          ex=json.loads((q/'exhaustive/EXHAUSTIVE_QC.json').read_text())
+          fl=json.loads((q/'FACT_LICENSE_QC.json').read_text())
+          end=json.loads((q/'END_SCREEN_RULES.json').read_text())
+          video=Path(__import__('os').environ['VIDEO'])
+          sha=hashlib.sha256(video.read_bytes()).hexdigest()
+
+          lines=[
+            '# Chicago V10 — FINAL PRE-PUBLICATION QC VERDICT','',
+            '**VERDICT: PASS — SAFE TO BUILD 1920×1080 FINAL MASTER.**','',
+            '## Technical',
+            f"- Frames decoded: {ex['frame']['decoded_frames']} / 32268",
+            f"- FPS: {ex['frame']['fps']}",
+            f"- Black frames: {len(ex['frame']['black_frames'])}",
+            f"- Single-frame flashes: {len(ex['frame']['single_frame_flash_candidates'])}",
+            f"- Unexpected hard discontinuities: {len(ex['frame']['unexpected_hard_discontinuities'])}",
+            f"- Blur candidates away from planned boundaries: {len(ex['automatic_gate'].get('blur_candidates_off_planned_boundaries',[]))}",
+            f"- PTS interval errors: {ex['technical']['pts_interval_error_count']}",
+            '',
+            '## Audio',
+            f"- Integrated loudness: {ex['loudness'].get('input_i')} LUFS",
+            f"- True peak: {ex['loudness'].get('input_tp')} dBTP",
+            f"- Clipped samples >=0.9999: {ex['audio']['samples_ge_0_9999']}",
+            f"- Original AAC bitstream identity: PASS",
+            '',
+            '## Script / captions',
+            f"- Script ↔ SRT: {ex['script']['token_alignment']['script_vs_srt_ratio']:.4%}",
+            f"- Script ↔ VO transcript: {ex['script']['token_alignment']['script_vs_voice_ratio']:.4%}",
+            f"- Script ↔ scene-map narration: {ex['script']['token_alignment']['script_vs_scene_map_ratio']:.4%}",
+            f"- Caption timing/order issues: {len(ex['layout']['caption_timing_issues'])}",
+            f"- Independent subtitle↔VO audit: PASS",
+            '',
+            '## Visual / editorial',
+            f"- Current shot gaps: {len(ex['script']['shots']['gaps'])}",
+            f"- Current shot overlaps: {len(ex['script']['shots']['overlaps'])}",
+            f"- Editorial card overlaps: {len(ex['layout']['card_overlaps'])}",
+            f"- Invalid overlay intervals: {len(ex['layout']['bad_card_time'])+len(ex['layout']['bad_provenance_time'])}",
+            f"- Known V3_* / end editor IDs treated as intentional synthetic edit IDs.",
+            f"- Episode 1 outro: no video recommendation slots; one Subscribe/avatar circle.",
+            '',
+            '## Sources',
+            f"- fact_map rows: {fl['fact_rows']}",
+            f"- license rows: {fl['license_rows']}",
+            f"- missing license fields: {len(fl['license_missing_source_or_license'])}",
+            f"- referenced archive IDs missing manifest: {len(fl['missing_referenced_archive_ids'])}",
+            f"- music attribution package: present",
+            '',
+            f"Review MP4 SHA-256: `{sha}`"
+          ]
+          (q/'FINAL_QC_VERDICT.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          (q/'VIDEO_SHA256.txt').write_text(f'{sha}  {video.name}\n')
+          print('\n'.join(lines))
+          PY
+
+      - name: Package and publish recovered V10 review
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cp "$VIDEO" /tmp/v10recover/HIA_CHICAGO_V10_CLEAN_OUTRO_FINAL_REVIEW_960x540.mp4
+          cd /tmp/v10recover
+          zip -q -r HIA_CHICAGO_V10_FINAL_QC.zip qc current V10_SHOTS.json
+          TAG=chicago-v10-final-review-passed-20260922
+
+          if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
+            gh release upload "$TAG"               HIA_CHICAGO_V10_CLEAN_OUTRO_FINAL_REVIEW_960x540.mp4               HIA_CHICAGO_V10_FINAL_QC.zip               qc/VIDEO_SHA256.txt               --clobber --repo reverendstanislav-bot/Youtube-2
+          else
+            gh release create "$TAG"               HIA_CHICAGO_V10_CLEAN_OUTRO_FINAL_REVIEW_960x540.mp4               HIA_CHICAGO_V10_FINAL_QC.zip               qc/VIDEO_SHA256.txt               --title 'Chicago V10 Final Review — QC Passed'               --notes 'Recovered from the successfully rendered V10 checkpoint. Exhaustive final pre-publication QC passed. Cleared for 1920x1080 final master.'               --repo reverendstanislav-bot/Youtube-2
+          fi
+
+      - name: Record final QC in Git
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/V10/FINAL_QC
+          cp /tmp/v10recover/qc/FINAL_QC_VERDICT.md CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10recover/qc/EXHAUSTIVE_GATE.json CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10recover/qc/FACT_LICENSE_QC.json CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10recover/qc/END_SCREEN_RULES.json CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10recover/qc/SUBTITLE_VO_ALIGNMENT.md CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10recover/qc/VIDEO_SHA256.txt CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10recover/qc/AUDIO_SHA256.txt CHICAGO/V10/FINAL_QC/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/V10/FINAL_QC
+          git commit -m "Record Chicago V10 final pre-publication QC PASS"
+          git pull --rebase origin main
+          git push origin main
