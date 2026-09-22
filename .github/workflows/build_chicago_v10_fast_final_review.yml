@@ -68,7 +68,7 @@ jobs:
           BASE="$(find /tmp/brand/extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
           test -s "$BASE"
 
-          python3 CHICAGO/V10/build_brand_native_outro.py             --base "$BASE"             --output /tmp/v10fast/end_screen_first_episode.png
+          python3 "$GITHUB_WORKSPACE/CHICAGO/V10/build_brand_native_outro.py"             --base "$BASE"             --output /tmp/v10fast/end_screen_first_episode.png
 
           ffmpeg -y -loglevel error -i /tmp/v10fast/end_screen_first_episode.png             -vf scale=960:540 /tmp/v10fast/end_960.png
 
