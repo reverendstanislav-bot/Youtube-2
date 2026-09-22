@@ -37,7 +37,7 @@ const activeWord=(cue,t)=>{
 
 function Caption(){
   const frame=useCurrentFrame(),t=frame/FPS;
-  if(t>=1268.0)return null;
+  if(t>=END_START)return null;
   const cue=captions.find(x=>t>=x.s&&t<=x.e);
   if(!cue)return null;
   const active=activeWord(cue,t);
@@ -236,11 +236,25 @@ function EndScreen(){
   const frame=useCurrentFrame();
   const t=frame/FPS;
   if(t<END_START)return null;
-  const a=tween(frame,F(END_START),8);
-  return <AbsoluteFill style={{zIndex:30,overflow:'hidden',background:C.charcoal,opacity:a}}>
+  const a=tween(frame,F(END_START),10);
+
+  return <AbsoluteFill style={{
+    zIndex:30,
+    overflow:'hidden',
+    background:C.charcoal,
+    opacity:a
+  }}>
+    {/* Exact accepted brand-native Episode 1 proof, rendered deterministically
+        from canonical HIA asset 07. No recommendation/video slots. */}
     <Img
-      src={staticFile('end_screen_1920x1080.png')}
-      style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover'}}
+      src={staticFile('end_screen_final_1920.png')}
+      style={{
+        position:'absolute',
+        inset:0,
+        width:'100%',
+        height:'100%',
+        objectFit:'cover'
+      }}
     />
   </AbsoluteFill>;
 }
@@ -252,7 +266,7 @@ function Film(){
     <OffthreadVideo src={staticFile('base.mp4')} style={{width:'100%',height:'100%',objectFit:'cover'}}/>
     {t<END_START && <div style={{
       position:'absolute',left:0,top:0,width:960,height:540,
-      transform:'scale(2)',transformOrigin:'top left',zIndex:10
+      transform:'scale(2)',transformOrigin:'top left'
     }}>
       <Provenance/>
       <Cards/>
