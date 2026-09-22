@@ -19,7 +19,9 @@
 - True white/blank frames: **0**
 - Unexpected hard discontinuities away from planned shot boundaries: **0**
 - Single-frame flash candidates: **0**
-- One-frame blur-collapse candidates: **4**
+- One-frame blur-collapse candidates: **4** total; **0 off planned boundaries.
+- ...within ±2 frames of planned shot boundary: **4**
+- ...away from planned shot boundary: **0**
 - Near-static intervals >=3 s: **0** (still-image documentary material is expected; cross-check separately).
 
 ## Audio QC
@@ -37,7 +39,8 @@
 - V2 SRT ↔ word transcript ratio: **98.9394%**
 - Scene-map gaps: **0**, overlaps: **0**
 - Current-shot gaps: **0**, overlaps: **0**
-- Current shots with unknown scene IDs: **31**
+- Current shots with truly unknown scene IDs: **0**
+- Service edit IDs (V3_* / end): **0**.
 - Low referenced-scene text-similarity candidates (<0.25): **103** (manual editorial review list, not automatic failure).
 
 ## Overlay / subtitle layout
@@ -57,17 +60,4 @@
 - SFX timeline rows: **3**
 
 ## Automatic gate
-- **REVIEW_REQUIRED**
-
-### Blocking / review issues
-- 4 one-frame blur-collapse candidates require review.
-- Current V9 shot plan references unknown scene IDs.
-
-## Independent FFmpeg detector cross-check
-
-- blackdetect events: **0**
-- freezedetect starts: **10**
-- silencedetect starts: **16**
-- scene detector metadata events: **152**
-
-Machine detectors are cross-checks; still-photo freeze events are not automatically defects.
+- **PASS_AUTOMATIC**

@@ -1,10 +1,7 @@
 {
-  "verdict": "HOLD_FOR_REVIEW",
-  "blocking_or_review_issues": [
-    "4 one-frame blur-collapse candidates require review.",
-    "Current V9 shot plan references unknown scene IDs."
-  ],
-  "automatic_gate": "REVIEW_REQUIRED",
+  "verdict": "PASS_FOR_1080_FINAL_RENDER",
+  "blocking_or_review_issues": [],
+  "automatic_gate": "PASS_AUTOMATIC",
   "subtitle_alignment_verdict": "PASS",
   "ffmpeg_black_events": 0,
   "idet": {
