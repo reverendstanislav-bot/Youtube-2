@@ -105,7 +105,11 @@ def script_alignment(script_path,srt_path,words_path,scene_map_path,shots_path,f
             if a<last_b: shot_overlaps.append({"frame_from":a,"frame_to":last_b,"frames":last_b-a})
         last_b=b
         sid=s.get("scene","")
-        if sid and sid not in scene_by_id: missing_scene.append({"index":i,"scene":sid})
+        # V3_* and end are intentional derived editorial IDs created by the approved
+        # V3 sequence cleanup; they are not missing canonical narration scenes.
+        derived_editorial_id = bool(re.fullmatch(r"V3_[A-Z0-9_]+", sid or "")) or sid == "end"
+        if sid and sid not in scene_by_id and not derived_editorial_id:
+            missing_scene.append({"index":i,"scene":sid})
         shot_rows.append({
             "i":i,"a":a,"b":b,"s":a/FPS,"e":b/FPS,"dur":(b-a)/FPS,
             "scene":sid,"source":s.get("source",""),"asset":s.get("asset",""),
@@ -283,7 +287,13 @@ def frame_audit(video,shots,outdir):
     for i in range(1,frames-1):
         neigh=(blur_np[i-1]+blur_np[i+1])/2
         if neigh>40 and blur_np[i]<neigh*0.18:
-            blur_anom.append({"frame":i,"time":i/FPS,"blur":float(blur_np[i]),"neighbor_mean":float(neigh)})
+            nearest=min((abs(i-b) for b in shot_boundaries),default=999999)
+            blur_anom.append({
+                "frame":i,"time":i/FPS,"blur":float(blur_np[i]),
+                "neighbor_mean":float(neigh),
+                "nearest_planned_boundary_frames":int(nearest),
+                "at_planned_transition":bool(nearest<=2)
+            })
 
     # Transition strengths at every planned shot boundary.
     transitions=[]
@@ -476,7 +486,7 @@ def write_md(data,path):
       f"- True white/blank frames: **{len(f['white_frames'])}**",
       f"- Unexpected hard discontinuities away from planned shot boundaries: **{len(f['unexpected_hard_discontinuities'])}**",
       f"- Single-frame flash candidates: **{len(f['single_frame_flash_candidates'])}**",
-      f"- One-frame blur-collapse candidates: **{len(f['one_frame_blur_anomalies'])}**",
+      f"- One-frame blur-collapse candidates: **{len(f['one_frame_blur_anomalies'])}** total; **{sum(1 for x in f['one_frame_blur_anomalies'] if not x.get('at_planned_transition',False))} off planned boundaries.",
       f"- ...within ±2 frames of planned shot boundary: **{len(f.get('blur_anomalies_near_planned_boundary',[]))}**",
       f"- ...away from planned shot boundary: **{len(f.get('blur_anomalies_away_from_planned_boundary',[]))}**",
       f"- Near-static intervals >=3 s: **{len(f['freeze_segments_ge_3s'])}** (still-image documentary material is expected; cross-check separately).","",
