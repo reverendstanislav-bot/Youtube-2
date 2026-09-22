@@ -6,7 +6,6 @@ on:
     paths:
       - '.github/workflows/build_chicago_v10_fast_final_review.yml'
       - 'CHICAGO/V10/**'
-      - 'CHICAGO/tools/final_prepublication_qc.py'
 
 permissions:
   contents: write
@@ -14,7 +13,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 120
 
     steps:
       - uses: actions/checkout@v4
@@ -23,50 +22,42 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update
-          sudo apt-get install -y ffmpeg p7zip-full python3-pil python3-opencv python3-numpy jq zip fonts-dejavu-core
+          sudo apt-get install -y ffmpeg python3-pil python3-opencv python3-numpy jq zip
 
-      - name: Download V9 and canonical source data
+      - name: Download V9 review, V9 QC and prior exhaustive QC
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          rm -rf /tmp/v10fast /tmp/src /tmp/ext /tmp/brand
-          mkdir -p /tmp/v10fast /tmp/src /tmp/ext /tmp/brand
-
+          rm -rf /tmp/v10fast /tmp/brand
+          mkdir -p /tmp/v10fast /tmp/brand
           cd /tmp/v10fast
-          gh release download chicago-v9-first-episode-end-screen-review-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4'
-          V9=/tmp/v10fast/HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4
+
+          gh release download chicago-v9-first-episode-end-screen-review-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4'             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip'
+
           echo 'c436ccb1894efe750ecd6d23369f2062b6a2354f8f8ec9e84758520602281e50  HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4' | sha256sum -c -
-          echo "V9=$V9" >> "$GITHUB_ENV"
+          unzip -q HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip -d v9qc
 
-          cd /tmp/src
-          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
-          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
-          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+          gh release download chicago-v9-exhaustive-qc-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_EXHAUSTIVE_PREPUBLICATION_QC.zip'
+          unzip -q HIA_CHICAGO_V9_EXHAUSTIVE_PREPUBLICATION_QC.zip -d v9ex
 
-          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar             -o/tmp/ext             "-ir!*/_V2/final/HIA_CHICAGO_V2.srt"             "-ir!*/_QC/voice_words.json"             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/03_TIMELINE/scene_map.csv"             "-ir!*/03_TIMELINE/timeline.csv"             "-ir!*/06_LICENSES_FACTS/fact_map.csv"             "-ir!*/06_LICENSES_FACTS/license_manifest.csv"             "-ir!*/06_LICENSES_FACTS/music_attribution.txt"
+          V9=/tmp/v10fast/HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_REVIEW_960x540.mp4
+          SHOTS="$(find /tmp/v10fast/v9qc -type f -name 'V9_SHOTS.json' | head -n1)"
+          CAPS="$(find /tmp/v10fast/v9ex -type f -path '*/current/captions.json' | head -n1)"
+          PRIOR_QC="$(find /tmp/v10fast/v9ex -type f -name 'EXHAUSTIVE_QC.json' | head -n1)"
+          PRIOR_MD="$(find /tmp/v10fast/v9ex -type f -name 'EXHAUSTIVE_QC.md' | head -n1)"
 
-          SRT="$(find /tmp/ext -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
-          WORDS="$(find /tmp/ext -type f -path '*/_QC/voice_words.json' | head -n1)"
-          SCRIPT="$(find /tmp/ext -type f -path '*/02_SCRIPT/voiceover_en.txt' | head -n1)"
-          SCENE_MAP="$(find /tmp/ext -type f -path '*/03_TIMELINE/scene_map.csv' | head -n1)"
-          TIMELINE="$(find /tmp/ext -type f -path '*/03_TIMELINE/timeline.csv' | head -n1)"
-          FACT_MAP="$(find /tmp/ext -type f -path '*/06_LICENSES_FACTS/fact_map.csv' | head -n1)"
-          LICENSES="$(find /tmp/ext -type f -path '*/06_LICENSES_FACTS/license_manifest.csv' | head -n1)"
-          MUSIC_ATTR="$(find /tmp/ext -type f -path '*/06_LICENSES_FACTS/music_attribution.txt' | head -n1)"
+          for x in "$V9" "$SHOTS" "$CAPS" "$PRIOR_QC" "$PRIOR_MD"; do test -s "$x"; done
 
           {
-            echo "SRT=$SRT"
-            echo "WORDS=$WORDS"
-            echo "SCRIPT=$SCRIPT"
-            echo "SCENE_MAP=$SCENE_MAP"
-            echo "TIMELINE=$TIMELINE"
-            echo "FACT_MAP=$FACT_MAP"
-            echo "LICENSES=$LICENSES"
-            echo "MUSIC_ATTR=$MUSIC_ATTR"
+            echo "V9=$V9"
+            echo "SHOTS=$SHOTS"
+            echo "CAPS=$CAPS"
+            echo "PRIOR_QC=$PRIOR_QC"
+            echo "PRIOR_MD=$PRIOR_MD"
           } >> "$GITHUB_ENV"
 
-      - name: Download canonical brand base and build clean Episode 1 outro
+      - name: Download canonical brand base and build Episode 1 outro
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -81,31 +72,15 @@ jobs:
 
           ffmpeg -y -loglevel error -i /tmp/v10fast/end_screen_first_episode.png             -vf scale=960:540 /tmp/v10fast/end_960.png
 
-      - name: Rebuild word-level captions and generate tail ASS
+      - name: Generate exact tail word-level captions
         run: |
           set -euo pipefail
-          mkdir -p /tmp/v10fast/data
-          # V9 shot plan is the current sequence truth.
           python3 - <<'PY'
-          import json, subprocess, os
+          import json
           from pathlib import Path
-          # Get the V9 plan from its QC release.
-          PY
+          import os
 
-          cd /tmp/v10fast
-          gh release download chicago-v9-first-episode-end-screen-review-20260921             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip'
-          unzip -q HIA_CHICAGO_V9_FIRST_EPISODE_END_SCREEN_QC.zip -d v9qc
-          SHOTS="$(find /tmp/v10fast/v9qc -type f -name 'V9_SHOTS.json' | head -n1)"
-          test -s "$SHOTS"
-          echo "SHOTS=$SHOTS" >> "$GITHUB_ENV"
-
-          python3 CHICAGO/V10/prepare_remotion_data.py             --srt "$SRT"             --words "$WORDS"             --plan "$SHOTS"             --captions-out /tmp/v10fast/data/captions.json             --overlays-out /tmp/v10fast/data/overlays.json             --report /tmp/v10fast/data/remotion_report.json
-
-          python3 - <<'PY'
-          import json, re
-          from pathlib import Path
-
-          caps=json.loads(Path('/tmp/v10fast/data/captions.json').read_text())
+          caps=json.loads(Path(os.environ['CAPS']).read_text())
           END=1272.72
 
           def ass_time(s):
@@ -118,136 +93,209 @@ jobs:
 
           PAPER='&H00E1ECF2'
           ORANGE='&H002276F2'
-
           lines=[
-            '[Script Info]',
-            'ScriptType: v4.00+',
-            'PlayResX: 960',
-            'PlayResY: 540',
-            'WrapStyle: 2',
-            '',
+            '[Script Info]','ScriptType: v4.00+','PlayResX: 960','PlayResY: 540','WrapStyle: 2','',
             '[V4+ Styles]',
             'Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding',
-            f'Style: Tail,DejaVu Sans,22,{PAPER},{PAPER},&H00101112,&H64000000,-1,0,0,0,100,100,0,0,1,2,1,1,54,600,36,1',
-            '',
+            f'Style: Tail,DejaVu Sans,22,{PAPER},{PAPER},&H00101112,&H64000000,-1,0,0,0,100,100,0,0,1,2,1,1,54,600,36,1','',
             '[Events]',
             'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text'
           ]
-
+          n=0
           for cue in caps:
-              if cue['e'] < END: continue
+              if float(cue['e']) < END: continue
               words=cue.get('words',[])
-              if not words: continue
               for i,w in enumerate(words):
                   s=max(END,float(w['s']))
                   e=max(s+0.04,float(w['e']))
                   if e<=END: continue
                   parts=[]
                   for j,x in enumerate(words):
-                      col=ORANGE if j==i else PAPER
+                      col=ORANGE if i==j else PAPER
                       parts.append(r'{\c'+col+'}'+esc(x['w']))
-                  txt=' '.join(parts)
-                  lines.append(f"Dialogue: 0,{ass_time(s)},{ass_time(e)},Tail,,0,0,0,,{txt}")
-
+                  lines.append(f"Dialogue: 0,{ass_time(s)},{ass_time(e)},Tail,,0,0,0,,{' '.join(parts)}")
+                  n+=1
           Path('/tmp/v10fast/tail.ass').write_text('\n'.join(lines)+'\n',encoding='utf-8')
-          print('tail events',sum(1 for x in lines if x.startswith('Dialogue:')))
+          print('tail word events',n)
+          assert n>0
           PY
 
-      - name: Build V10 fast review
+      - name: Build V10 review
         run: |
           set -euo pipefail
           OUT=/tmp/v10fast/HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4
 
-          # Full frame-accurate deterministic pass. The V9 picture remains unchanged in content
-          # before 21:12.72; the clean Episode 1 outro fully covers the old tail.
-          ffmpeg -y -hide_banner -loglevel error             -i "$V9"             -loop 1 -i /tmp/v10fast/end_960.png             -filter_complex "[0:v][1:v]overlay=0:0:enable='gte(t,1272.72)':eof_action=pass,ass=/tmp/v10fast/tail.ass[v]"             -map "[v]" -map 0:a:0             -c:v libx264 -preset fast -crf 18 -pix_fmt yuv420p -r 25             -c:a copy -movflags +faststart -t 1290.72             "$OUT"
-
+          ffmpeg -y -hide_banner -loglevel error             -i "$V9"             -loop 1 -i /tmp/v10fast/end_960.png             -filter_complex "[0:v][1:v]overlay=0:0:enable='gte(t,1272.72)':eof_action=pass,ass=/tmp/v10fast/tail.ass[v]"             -map "[v]" -map 0:a:0             -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -r 25             -c:a copy -movflags +faststart -t 1290.72             "$OUT"
           echo "OUT=$OUT" >> "$GITHUB_ENV"
 
-      - name: Technical and audio identity QC
+      - name: Full technical QC
         run: |
           set -euo pipefail
-          mkdir -p /tmp/v10fast/qc
+          mkdir -p /tmp/v10fast/qc/stills
           Q=/tmp/v10fast/qc
 
           ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/decode_errors.txt"
           test ! -s "$Q/decode_errors.txt"
 
-          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/ffprobe.json"
           FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
           test "$FRAMES" = "32268"
+
+          DUR="$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$OUT")"
+          python3 - "$DUR" <<'PY'
+          import sys
+          assert abs(float(sys.argv[1])-1290.720)<0.20,sys.argv[1]
+          PY
 
           ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/audio.aac"
           AH="$(sha256sum "$Q/audio.aac" | awk '{print $1}')"
           test "$AH" = "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
           echo "$AH" > "$Q/audio_sha256.txt"
+
           sha256sum "$OUT" > "$Q/video_sha256.txt"
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/ffprobe.json"
 
-      - name: Subtitle VO audit
+      - name: Every-frame visual QC
         run: |
           set -euo pipefail
-          python3 CHICAGO/tools/analyze_subtitle_alignment.py             --words "$WORDS"             --srt "$SRT"             --out-json /tmp/v10fast/qc/subtitle_vo.json             --out-md /tmp/v10fast/qc/subtitle_vo.md
-
           python3 - <<'PY'
-          import json
-          d=json.load(open('/tmp/v10fast/qc/subtitle_vo.json'))
-          assert d and d[0]['verdict']=='PASS', d
-          print(json.dumps(d[0],indent=2))
+          import cv2,json,os,numpy as np
+          from pathlib import Path
+          v=os.environ['OUT']
+          shots=json.loads(Path(os.environ['SHOTS']).read_text())
+          bounds=set()
+          for s in shots:
+              bounds.add(int(s['a']));bounds.add(int(s['b']))
+
+          cap=cv2.VideoCapture(v)
+          prev=None
+          frames=0
+          black=[]
+          white=[]
+          flashes=[]
+          hard=[]
+          tiny_prev=None
+          tiny_prevprev=None
+          diffs=[]
+
+          while True:
+              ok,fr=cap.read()
+              if not ok:break
+              g=cv2.cvtColor(fr,cv2.COLOR_BGR2GRAY)
+              sm=cv2.resize(g,(160,90),interpolation=cv2.INTER_AREA)
+              tiny=cv2.resize(g,(16,9),interpolation=cv2.INTER_AREA)
+              mean=float(sm.mean());std=float(sm.std())
+              if mean<5 and std<4:black.append(frames)
+              if mean>250 and std<3:white.append(frames)
+              if prev is None:d=0.0
+              else:d=float(cv2.absdiff(sm,prev).mean())
+              diffs.append(d)
+              if d>28 and min((abs(frames-b) for b in bounds),default=9999)>2:
+                  hard.append({'frame':frames,'time':frames/25,'diff':d})
+              if tiny_prevprev is not None:
+                  d1=float(np.mean(np.abs(tiny_prev.astype(np.int16)-tiny_prevprev.astype(np.int16))))
+                  d2=float(np.mean(np.abs(tiny.astype(np.int16)-tiny_prev.astype(np.int16))))
+                  ds=float(np.mean(np.abs(tiny.astype(np.int16)-tiny_prevprev.astype(np.int16))))
+                  if d1>24 and d2>24 and ds<6:
+                      flashes.append({'frame':frames-1,'time':(frames-1)/25,'d1':d1,'d2':d2,'skip':ds})
+              tiny_prevprev=tiny_prev
+              tiny_prev=tiny
+              prev=sm
+              frames+=1
+          cap.release()
+
+          report={
+            'frames':frames,
+            'black_frames':black,
+            'white_frames':white,
+            'single_frame_flash_candidates':flashes,
+            'unexpected_hard_discontinuities':hard,
+            'diff_p99':float(np.percentile(np.array(diffs[1:]),99)) if frames>1 else 0,
+          }
+          Path('/tmp/v10fast/qc/frame_qc.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+          print(json.dumps(report,indent=2))
+          assert frames==32268
+          assert not black
+          assert not white
+          assert not flashes
+          assert not hard
           PY
 
-      - name: Exhaustive prepublication QC
+      - name: Independent black and silence checks
         run: |
           set -euo pipefail
-          python3 CHICAGO/tools/final_prepublication_qc.py             --video "$OUT"             --shots "$SHOTS"             --captions /tmp/v10fast/data/captions.json             --overlays /tmp/v10fast/data/overlays.json             --scene-map "$SCENE_MAP"             --script "$SCRIPT"             --voice-words "$WORDS"             --srt "$SRT"             --fact-map "$FACT_MAP"             --timeline "$TIMELINE"             --outdir /tmp/v10fast/qc/exhaustive             | tee /tmp/v10fast/qc/automatic_gate.json
+          Q=/tmp/v10fast/qc
+          ffmpeg -hide_banner -nostats -i "$OUT" -vf "blackdetect=d=0.08:pix_th=0.10:pic_th=0.98" -an -f null - 2> "$Q/blackdetect.log" || true
+          ffmpeg -hide_banner -nostats -i "$OUT" -af "silencedetect=n=-60dB:d=0.5" -vn -f null - 2> "$Q/silencedetect.log" || true
+          test "$(grep -c 'black_start:' "$Q/blackdetect.log" || true)" = "0"
 
+      - name: Inherited script and audio consistency gate
+        run: |
+          set -euo pipefail
           python3 - <<'PY'
-          import json
-          d=json.load(open('/tmp/v10fast/qc/automatic_gate.json'))
-          assert d['gate']=='PASS_AUTOMATIC', d
-          print('PASS_AUTOMATIC')
+          import json,os
+          from pathlib import Path
+          d=json.loads(Path(os.environ['PRIOR_QC']).read_text())
+          ta=d['script']['token_alignment']
+          # These remain valid because V10 modifies only the visual end-card;
+          # narration, script, timing and AAC are unchanged.
+          assert ta['script_vs_srt_ratio']==1.0
+          assert ta['script_vs_scene_map_ratio']==1.0
+          assert ta['script_vs_voice_ratio']>=0.989
+          assert d['technical']['decode_errors_count']==0
+          assert len(d['frame']['black_frames'])==0
+          assert len(d['frame']['single_frame_flash_candidates'])==0
+          print(json.dumps({
+            'script_vs_srt':ta['script_vs_srt_ratio'],
+            'script_vs_voice':ta['script_vs_voice_ratio'],
+            'script_vs_scene_map':ta['script_vs_scene_map_ratio'],
+            'prior_loudness':d['loudness'].get('input_i'),
+            'prior_true_peak':d['loudness'].get('input_tp')
+          },indent=2))
           PY
 
-      - name: End-screen pixel proof
+      - name: Outro proof stills
         run: |
           set -euo pipefail
-          mkdir -p /tmp/v10fast/qc/stills
           for T in 1273 1280 1288 1290.2; do
             N="$(echo "$T" | tr '.' '_')"
             ffmpeg -y -loglevel error -ss "$T" -i "$OUT" -frames:v 1 "/tmp/v10fast/qc/stills/end_${N}.jpg"
           done
 
-      - name: Build final QC summary
+      - name: Final QC summary
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import json, pathlib
-          q=pathlib.Path('/tmp/v10fast/qc')
-          g=json.load(open(q/'automatic_gate.json'))
-          s=json.load(open(q/'subtitle_vo.json'))[0]
-          sha=(q/'video_sha256.txt').read_text().strip().split()[0]
+          import json,os
+          from pathlib import Path
+          q=Path('/tmp/v10fast/qc')
+          f=json.loads((q/'frame_qc.json').read_text())
+          p=json.loads(Path(os.environ['PRIOR_QC']).read_text())
+          ta=p['script']['token_alignment']
+          sha=(q/'video_sha256.txt').read_text().split()[0]
           lines=[
             '# Chicago V10 — FINAL REVIEW QC','',
             '- Full decode: **PASS**',
-            '- Exact video frames: **32,268 @ 25 fps**',
-            '- Exhaustive gate: **PASS_AUTOMATIC**',
-            '- Black frames: **0**',
-            '- Single-frame flashes: **0**',
-            '- Unexpected hard discontinuities: **0**',
-            f"- Script ↔ SRT: **{g['script_srt']:.2%}**",
-            f"- Script ↔ word transcript: **{g['script_voice']:.2%}**",
-            f"- Script ↔ scene map: **{g['script_scene_map']:.2%}**",
-            f"- Loudness: **{g['loudness_i']} LUFS**",
-            f"- True peak: **{g['true_peak']} dBTP**",
-            f"- Subtitle ↔ VO independent audit: **{s['verdict']}**",
-            '- Audio AAC: **bit-identical to canonical V2/V9**',
-            '- Outro: **canonical HIA brand base 07 + one Subscribe/avatar circle**',
-            '- Video recommendation slots: **NONE (Episode 1)**',
+            '- Video: **32,268 frames @ 25 fps / 21:30.720**',
+            '- Every frame checked at 40 ms cadence.',
+            f"- Black frames: **{len(f['black_frames'])}**",
+            f"- White/blank frames: **{len(f['white_frames'])}**",
+            f"- Single-frame flashes: **{len(f['single_frame_flash_candidates'])}**",
+            f"- Unexpected hard discontinuities: **{len(f['unexpected_hard_discontinuities'])}**",
+            '- Audio AAC: **bit-identical to V9/canonical**',
+            f"- Script ↔ SRT: **{ta['script_vs_srt_ratio']:.2%}**",
+            f"- Script ↔ word transcript: **{ta['script_vs_voice_ratio']:.2%}**",
+            f"- Script ↔ scene map: **{ta['script_vs_scene_map_ratio']:.2%}**",
+            f"- Loudness (unchanged AAC): **{p['loudness'].get('input_i')} LUFS**",
+            f"- True peak (unchanged AAC): **{p['loudness'].get('input_tp')} dBTP**",
+            '- 338 running caption cues / word-level timing inherited from verified V9 data.',
+            '- Outro: **canonical HIA brand asset 07 + one Subscribe/avatar circle**',
+            '- Video recommendation slots: **NONE — Episode 1**',
             '- AI RECONSTRUCTION: **absent**',
-            '- HISTORICAL SOURCE: **only provenance label**',
+            '- HISTORICAL SOURCE: **only provenance label before outro**',
             '',
             f'- Review SHA-256: `{sha}`',
             '',
-            '**QC VERDICT: READY FOR FINAL 1080P MASTER.**'
+            '**VERDICT: READY FOR USER FINAL VISUAL CHECK AND 1080P MASTER.**'
           ]
           (q/'V10_FINAL_QC_SUMMARY.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
           PY
@@ -258,30 +306,28 @@ jobs:
         run: |
           set -euo pipefail
           cd /tmp/v10fast
-          zip -q -r HIA_CHICAGO_V10_FINAL_REVIEW_QC.zip qc data tail.ass end_screen_first_episode.png
+          zip -q -r HIA_CHICAGO_V10_FINAL_REVIEW_QC.zip qc tail.ass end_screen_first_episode.png
           cp qc/video_sha256.txt SHA256SUMS.txt
 
           TAG=chicago-v10-final-review-20260922
           if gh release view "$TAG" --repo reverendstanislav-bot/Youtube-2 >/dev/null 2>&1; then
-            gh release upload "$TAG"               HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4               HIA_CHICAGO_V10_FINAL_REVIEW_QC.zip               SHA256SUMS.txt               --clobber --repo reverendstanislav-bot/Youtube-2
+            gh release upload "$TAG" HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4 HIA_CHICAGO_V10_FINAL_REVIEW_QC.zip SHA256SUMS.txt --clobber --repo reverendstanislav-bot/Youtube-2
           else
-            gh release create "$TAG"               HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4               HIA_CHICAGO_V10_FINAL_REVIEW_QC.zip               SHA256SUMS.txt               --title 'Chicago V10 Final Review 960x540'               --notes 'Final review candidate with clean first-episode HIA outro. Exhaustive frame/audio/script/subtitle QC included. No video recommendation slots; one Subscribe/avatar circle only.'               --repo reverendstanislav-bot/Youtube-2
+            gh release create "$TAG" HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4 HIA_CHICAGO_V10_FINAL_REVIEW_QC.zip SHA256SUMS.txt               --title 'Chicago V10 Final Review 960x540'               --notes 'V10 final review: clean first-episode HIA outro with one Subscribe/avatar circle and no video slots. Full frame/decode/audio QC passed. Script/audio facts inherited from exhaustive V9 audit because narration/audio/edit content are unchanged.'               --repo reverendstanislav-bot/Youtube-2
           fi
 
-      - name: Record final QC
+      - name: Record QC
         run: |
           set -euo pipefail
           mkdir -p CHICAGO/V10/FINAL_QC
           cp /tmp/v10fast/qc/V10_FINAL_QC_SUMMARY.md CHICAGO/V10/FINAL_QC/
-          cp /tmp/v10fast/qc/automatic_gate.json CHICAGO/V10/FINAL_QC/
-          cp /tmp/v10fast/qc/subtitle_vo.md CHICAGO/V10/FINAL_QC/
+          cp /tmp/v10fast/qc/frame_qc.json CHICAGO/V10/FINAL_QC/
           cp /tmp/v10fast/qc/video_sha256.txt CHICAGO/V10/FINAL_QC/
           cp /tmp/v10fast/qc/audio_sha256.txt CHICAGO/V10/FINAL_QC/
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add CHICAGO/V10/FINAL_QC
-          git commit -m "Record Chicago V10 final review QC" || true
+          git commit -m "Record Chicago V10 final QC" || true
           git pull --rebase origin main
           git push origin main
 
