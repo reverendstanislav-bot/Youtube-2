@@ -125,7 +125,7 @@ jobs:
           set -euo pipefail
           OUT=/tmp/v10fast/HIA_CHICAGO_V10_FINAL_REVIEW_960x540.mp4
 
-          ffmpeg -y -hide_banner -loglevel error             -i "$V9"             -loop 1 -i /tmp/v10fast/end_960.png             -filter_complex "[0:v][1:v]overlay=0:0:enable='gte(t,1272.72)':eof_action=pass,ass=/tmp/v10fast/tail.ass[v]"             -map "[v]" -map 0:a:0             -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -r 25             -c:a copy -movflags +faststart -t 1290.72             "$OUT"
+          ffmpeg -y -hide_banner -loglevel error             -i "$V9"             -loop 1 -i /tmp/v10fast/end_960.png             -filter_complex "[0:v][1:v]overlay=0:0:enable='gte(t,1272.72)':eof_action=pass,ass=/tmp/v10fast/tail.ass[v]"             -map "[v]" -map 0:a:0             -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -r 25             -c:a copy -movflags +faststart             "$OUT"
           echo "OUT=$OUT" >> "$GITHUB_ENV"
 
       - name: Full technical QC
@@ -148,6 +148,7 @@ jobs:
 
           ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/audio.aac"
           AH="$(sha256sum "$Q/audio.aac" | awk '{print $1}')"
+          echo "frames=$FRAMES duration=$DUR audio_hash=$AH"
           test "$AH" = "a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed"
           echo "$AH" > "$Q/audio_sha256.txt"
 
