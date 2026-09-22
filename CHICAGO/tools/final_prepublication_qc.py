@@ -609,7 +609,13 @@ def main():
     data={
       "technical":technical,"frame":frame,"audio":audio,"loudness":loud,
       "script":script,"layout":layout,
-      "automatic_gate":{"verdict":gate,"issues":issues}
+      "automatic_gate":{"verdict":gate,"issues":issues},
+      "review_classification":{
+        "known_editorial_scene_ids":[x for x in script["shots"]["missing_scene_ids"] if str(x.get("scene","")).startswith("V3_") or str(x.get("scene",""))=="end"],
+        "unknown_noneditorial_scene_ids":unknown_noneditorial,
+        "blur_candidates_on_or_adjacent_to_planned_boundary":[x for x in frame["one_frame_blur_anomalies"] if x not in blur_off_boundary],
+        "blur_candidates_off_planned_boundaries":blur_off_boundary
+      }
     }
     Path(out/"EXHAUSTIVE_QC.json").write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
     write_md(data,out/"EXHAUSTIVE_QC.md")
