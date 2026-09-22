@@ -30,3 +30,21 @@ Future history entries must record:
 - Added Historical Construction Equipment Association as a priority archive/physical-artifact lead.
 - Stage 0–4 closed as ready for user review.
 - No generation credits spent.
+
+
+## 2026-09-22 — Independent full fact-check audit
+
+- Rechecked all major Stage 0–4 claims against ODNR, AEP, contemporary Bucyrus material, Caterpillar, EPA/NARA, HCEA and secondary oral-history reporting.
+- Added `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`.
+- Preferred 310-ft boom over Caterpillar's 330-ft outlier.
+- Removed exact-height lock: 222 ft and 240 ft both exist in credible Ohio sources.
+- Locked lifetime material wording to **more than 483 million cubic yards**; rejected 608m and flagged AEP 2001's "483 million tons" as an internal unit inconsistency.
+- Kept >27 million lb as safe machine-mass wording instead of forcing a single exact tonnage.
+- Removed unsourced "rotating" from crew language.
+- Changed power-feed wording to about 13 kV / ODNR's 13,000 V.
+- Clarified 28 motors means the documented hoist/drag/swing banks, not every motor in the machine.
+- Rejected the absolute claim that the bucket is the only surviving component; HCEA preserves smaller parts.
+- Identified two EPA/NARA DOCUMERICA historical photographs as public-domain production candidates.
+- Identified explicit CC license status for a 1999 whole-machine side view and a preserved-bucket photograph.
+- Locked Milwaukee Public Library Bucyrus scans as research-only until publication permission/copyright clearance is obtained.
+- No generation performed. No credits spent.

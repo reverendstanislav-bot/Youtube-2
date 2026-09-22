@@ -31,7 +31,7 @@ No thumbnail image generation at this stage.
 
 ## Cold open — sourced working draft
 
-Today, almost nothing is left — just one enormous steel bucket in southeastern Ohio.
+Today, almost the entire machine is gone. Its largest surviving public piece is an enormous steel bucket in southeastern Ohio.
 
 That bucket belonged to a machine that weighed more than twenty-seven million pounds. Its job was not to mine coal directly. It had to remove the earth above the coal, hundreds of tons at a time, so an entire mining and power system could reach the seam below.
 
@@ -59,8 +59,8 @@ By the end of the film, the viewer should understand:
 
 ## Retention architecture / chapter spine
 
-### 0 — The thing that survived
-Present-day bucket. Do not show the entire answer immediately. Question: what machine needed this?
+### 0 — The major piece that survived
+Present-day bucket. Do not imply literally no other components survive; HCEA preserves smaller pieces. Question: what machine needed a bucket this large?
 
 ### 1 — The problem beneath Ohio
 Deep overburden, coal seam, hilly mine property, growing power demand. Establish why ordinary stripping capacity was not enough.

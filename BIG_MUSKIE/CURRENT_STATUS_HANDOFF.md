@@ -7,7 +7,7 @@ Updated: 2026-09-22
 Episode: **3 — Big Muskie**
 Machine: **Bucyrus-Erie 4250-W walking dragline**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 0–4 COMPLETE — research/evidence/visual survey/angle package ready for user review**
+State: **STAGE 0–4 COMPLETE + INDEPENDENT FACT-CHECK AUDIT PASSED WITH CORRECTIONS — ready for user review**
 Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
 
 ## Completed in this stage
@@ -46,21 +46,36 @@ Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
 7. Preservation efforts failed; AEP dismantled it in 1999 while preserving the bucket.
 8. The bucket became the anchor of Miners' Memorial Park, while large portions of the former mining landscape moved into reclamation/conservation use.
 
-## Important unresolved conflicts
+## Fact-check lock after re-audit
 
-Do not collapse these into a single number until primary documentation resolves them:
+Use these as the current narration-development rules:
 
-- boom length: Ohio/ODNR/AEP material commonly gives **310 ft**; Caterpillar history gives **330 ft**;
-- cost: Ohio geological material gives **$24 million**; Caterpillar/Guinness commonly give **about $25 million**;
-- weight: the current ODNR marker gives **27 million lb** and elsewhere **14,000-ton working weight**; a Bucyrus company retrospective says **14,500 tons**. Treat the difference as nominal/working/retrospective conflict until original specifications are found;
-- construction labor: Caterpillar history reports **about 200,000 man-hours**; the current ODNR marker reports **300,000 hours** to build onsite. Do not lock an exact labor-hour number yet;
-- empty bucket mass: AEP describes the preserved bucket as about **240 tons**; Guinness gives **230 tons**. The **325-ton** figure is the amount of earth it could move in one bite, not the empty bucket weight;
-- lifetime material moved: AEP/ODNR material supports **over 483 million cubic yards**; **608 million** is widely repeated secondarily and is not currently canonical;
-- coal exposed/mined: a current ODNR marker gives **nearly 18 million tons**; higher secondary figures remain unverified.
+- **Machine identity:** Bucyrus-Erie 4250-W, one-off walking dragline — PASS.
+- **Role:** primary stripping tool removing overburden to expose coal; do not say it directly mined/loaded the coal — PASS.
+- **Operating period:** production in 1969; idled January 1991; dismantled in 1999 — PASS.
+- **Record category:** largest walking dragline / largest dragline excavator ever built is supportable. Avoid the broader unqualified claim "largest machine on Earth."
+- **Bucket capacity:** 220 cubic yards — PASS.
+- **Single-bite earth payload:** up to about 325 tons — PASS. This is NOT the empty bucket mass.
+- **Empty bucket mass:** AEP gives about 240 tons; Guinness gives 230 tons. Prefer "roughly 240 tons" if the empty mass is needed.
+- **Machine mass:** use **more than 27 million pounds**. Do not convert it to one supposedly exact tonnage because sources variously report 13,000, 14,000 working, and 14,500 tons.
+- **Boom:** **310 ft is the preferred working figure** because current ODNR and Ohio geological material support it; Caterpillar's 330-ft value is retained as an outlier/conflict.
+- **Height:** NOT LOCKED. Older Ohio geological material gives ~222 ft; a current ODNR marker gives 240 ft; Caterpillar says nearly 22 stories. Prefer "nearly 22 stories" or omit exact feet until original Bucyrus specification is found.
+- **Width / tub / overall length:** 151 ft width, 105-ft-diameter tub, 487 ft back-of-house to boom tip are supported by the current ODNR marker.
+- **Walking shoes:** four hydraulically driven 20×65-ft shoes — supported by current ODNR marker.
+- **Power feed:** say **about 13 kV**; current ODNR marker gives 13,000 V. Do not use 13.8 kV as locked fact yet.
+- **Motion motors:** Bucyrus retrospective documents 10×1000 hp hoist + 8×1000 hp drag + 10×625 hp swing. Phrase this as 28 documented hoist/drag/swing motors, not "every motor on the machine."
+- **Cost:** safest wording is **about $25 million**; an older Ohio geological source gives $24 million.
+- **Transport:** 340 rail cars + 260 trucks — well supported.
+- **Construction labor:** unresolved 200,000 vs 300,000 hours; omit exact labor-hours in narration until original build records resolve scope.
+- **Peak/operating output:** contemporary Bucyrus source supports >8,000 yd³ of overburden per operating hour.
+- **Lifetime material moved:** use **more than 483 million cubic yards**. Do NOT use 608 million. One 2001 AEP release says "483 million tons"; this conflicts with AEP's own 1999 release and current ODNR wording and is treated as an internal source error/inconsistency.
+- **Coal exposed:** current ODNR marker supports nearly 18 million tons over the operating life.
+- **Crews:** ODNR says four crews worked to run the machine; another current marker says a seven-member crew. Do not invent a precise rotating-shift pattern unless sourced.
+- **Shutdown:** multi-factor — more efficient mining technologies + reduced demand for high-sulfur coal in the changed post-1990 Clean Air Act market. Do not say "the EPA killed Big Muskie."
+- **Dismantling:** AEP's 1999 announcement explicitly cites reclamation permit requirements plus insufficient time/funds and long-term liability problems for whole-machine preservation.
+- **Surviving material:** the bucket is the major public surviving artifact at Miners' Memorial Park; do not say it is literally the only surviving component because HCEA preserves cable/power-cord sections, chain segments, and a bucket tooth.
 
-Resolved enough for development:
-- ODNR markers document **four crews** and a **seven-member operating crew**;
-- the current ODNR marker gives an electrical feed of approximately **13,000 volts**. Do not substitute the common 13.8 kV secondary figure unless a primary technical document supports it.
+Detailed audit: `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`.
 
 ## Current candidate narrative direction
 

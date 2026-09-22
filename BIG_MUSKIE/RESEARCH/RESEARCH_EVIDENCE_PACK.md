@@ -1,170 +1,201 @@
 # BIG MUSKIE — RESEARCH & EVIDENCE PACK — STAGE 0–4
 
-Status: **working evidence base, not narration copy**
+Status: **re-audited working evidence base, not narration copy**
+
+Read together with `FACT_CHECK_AUDIT_2026-09-22.md` and `SOURCE_LEDGER.md`.
 
 ## 1. What Big Muskie was
 
-Big Muskie was the one-off Bucyrus-Erie model 4250-W walking dragline built for Central Ohio Coal Company, an Ohio Power/AEP-related coal operation, at the Muskingum Mine in southeastern Ohio. Its purpose was **stripping overburden** so the mine could reach coal seams beneath it. It did not function as the mine's primary coal-loading shovel.
+Big Muskie was the one-off **Bucyrus-Erie 4250-W walking dragline** used by Central Ohio Coal Company at the Muskingum Mine in southeastern Ohio.
 
-The machine entered production in 1969 and stopped operating in January 1991. It was dismantled in 1999; the bucket was preserved.
+Its defining job was **stripping overburden** — moving the soil and rock above the coal seam so other mining equipment could reach the coal. A contemporary Bucyrus-Erie publication explicitly calls Big Muskie the mine's **primary stripping tool**. Do not simplify this to "Big Muskie mined the coal."
+
+The machine entered production in 1969, was idled in **January 1991**, and was dismantled in 1999.
 
 ## 2. Why a machine this large existed
 
-The strongest available explanation is system-specific, not spectacle:
+The strongest evidence supports a systems explanation rather than spectacle:
 
-- Central Ohio Coal controlled a very large hilly property.
-- Some coal lay beneath unusually deep overburden.
-- A large dragline could remove that material economically across the mine plan while supporting reclamation sequencing.
-- The Muskingum mining system supplied steam coal to regional electric generation, including the nearby Muskingum River plant.
+- Central Ohio Coal controlled more than 110,000 acres of hilly mine property according to Caterpillar's Bucyrus history.
+- A contemporary Bucyrus publication says average overburden depth in the area worked by Big Muskie was about **97 ft**, with the deepest cited coal uncovered at **182 ft**.
+- Caterpillar's history says a dragline was considered more profitable than a shovel at the relevant depths and fit reclamation plans.
+- The mine supplied steam coal into the regional electricity system, including the nearby Muskingum River generating plant.
 
-This creates the core documentary logic: **the machine's size was a response to geology + mine layout + energy demand**, not an isolated engineering stunt.
+The documentary thesis therefore remains: **Big Muskie's scale was an engineering/economic response to geology, mine layout, and power demand.**
 
-## 3. Construction and assembly
+## 3. Construction and onsite assembly
 
-Caterpillar's historical account says the project began in 1966 in Bucyrus-Erie factories. Major components were shipped to Ohio and assembled at the mine. It reports roughly:
-- 340 rail cars;
-- 260 trucks;
-- about 200,000 man-hours;
-- production beginning in 1969.
+Well-supported:
+- engineering/project work began in 1966 in Bucyrus-Erie factories;
+- the machine had to be erected at the mine;
+- **340 rail cars and 260 trucks** carried components;
+- production began in 1969.
 
-The current Ohio/ODNR historical-marker account describes roughly two years of fabrication plus two years of onsite construction and a May 1969 production start. It gives **300,000 hours** for onsite construction, which conflicts with Caterpillar's approximately **200,000 man-hours**. Keep the labor-hour total unresolved until original Bucyrus project records are found.
+Not locked:
+- Caterpillar says roughly **200,000 man-hours** to construct;
+- the current ODNR marker says **300,000 hours** and nearly two years onsite.
 
-## 4. Core specifications — use with conflict notes
+These may reflect different scopes. Do not use an exact construction-hour number in narration without original Bucyrus project records.
 
-High-confidence/common core:
-- model: Bucyrus-Erie 4250-W;
-- bucket capacity: 220 cubic yards;
-- earth moved in one bite: up to about 325 tons in current ODNR marker material;
-- empty bucket mass: **conflicted** — AEP gives about 240 tons; Guinness gives about 230 tons;
-- machine width: about 151 ft;
-- revolving house/tub: about 105 ft diameter;
-- machine weight: over 27 million lb / roughly 13,500 short tons in multiple histories;
-- height: Ohio geological material gives about 222 ft;
-- boom: **conflicted** — 310 ft in Ohio/ODNR/AEP material, 330 ft in Caterpillar history;
-- cost: **conflicted** — $24m in Ohio geological material, about $25m in Caterpillar/Guinness-era summaries.
+## 4. Core specifications — corrected after audit
 
-Narration should say "about" for cost/weight and preserve the boom conflict until original Bucyrus drawings/manuals are located.
+Use:
+- model: **Bucyrus-Erie 4250-W**;
+- bucket capacity: **220 cubic yards**;
+- earth per bite: **up to about 325 tons**;
+- empty bucket: **roughly 240 tons** if needed (AEP primary; Guinness says 230);
+- machine mass: **more than 27 million pounds**;
+- width: **151 ft**;
+- revolving tub: **105 ft diameter**;
+- back of housing to boom tip: **487 ft**;
+- boom: **310 ft preferred**;
+- cost: **about $25 million**;
+- four hydraulically driven walking shoes, each about **20×65 ft**.
+
+Do not lock:
+- exact height in feet: older Ohio geology gives ~222 ft, current ODNR marker gives 240 ft, Caterpillar says nearly 22 stories;
+- a single exact tonnage converted from the 27-million-pound figure;
+- Caterpillar's 330-ft boom as canonical; it is an outlier against stronger Ohio/ODNR evidence.
 
 ## 5. Electrical and mechanical system
 
-A Bucyrus company GlobalNewsLetter retrospective gives a useful motor breakdown:
-- hoist: ten 1,000 hp DC motors driving twin 11-ft hoist drums;
-- drag: eight 1,000 hp DC motors using similar machinery;
-- swing: ten 625 hp motors.
+Current ODNR marker:
+- electricity delivered through an approximately **13,000-volt** cable;
+- use narration language such as "about 13 kilovolts", not a falsely precise 13.8 kV.
 
-This is valuable because it turns the machine from a scale statistic into an understandable electromechanical system.
+Bucyrus retrospective:
+- hoist: **10 × 1,000 hp DC motors** driving twin 11-ft hoist drums;
+- drag: **8 × 1,000 hp DC motors**;
+- swing: **10 × 625 hp motors**.
 
-The current ODNR historical marker states that electricity reached the machine through an approximately **13,000-volt** supply cable ("extension cord"). Use 13,000 V as the current development figure; do not silently substitute the commonly repeated 13.8 kV figure without stronger primary technical documentation.
+This supports saying **28 documented hoist/drag/swing motors**. It does not prove that 28 was the total count of every electric motor anywhere on the machine.
 
 ## 6. How it worked
 
-The dragline cycle:
-1. lower/position the bucket;
+A dragline cycle:
+1. lower and position the bucket;
 2. drag it through overburden;
 3. hoist the loaded bucket;
-4. swing the house;
-5. dump the spoil away from the coal seam;
+4. swing the rotating house;
+5. dump spoil away from the exposed seam;
 6. repeat.
 
-The machine revolved on a huge tub. Its walking mechanism allowed relocation rather than continuous crawler travel. ODNR/AEP marker material says the mechanism lifted the tub during a step, but the scale imposed unusual mobility requirements:
-- roads/paths had to be extraordinarily wide;
-- grades had to stay below about 5%;
-- the walking surface had to be flat and stable;
-- broken/cast-blasted ground could create disadvantages.
+Current ODNR marker adds:
+- swing/dig cycle approximately one minute;
+- travel path wider than an eight-lane highway;
+- grade kept below roughly 5%;
+- flat, stable surface required by the enormous tub;
+- unique walking mechanism lifted the tub;
+- cast-blasted ground created a disadvantage.
 
-This is one of the strongest explanatory visual sequences available for the episode.
+These are ideal for explanatory graphics because they connect scale to operating constraints.
 
 ## 7. Operating role and output
 
-A contemporary Bucyrus publication says Big Muskie served as the primary stripping tool at the Muskingum Mine and, by the mid-1970s, could move more than 8,000 cubic yards of overburden per operating hour under cited conditions.
+A contemporary Bucyrus-Erie source from the mid-1970s reports:
+- Big Muskie as the mine's primary stripping tool;
+- average overburden about 97 ft;
+- deepest cited coal uncovered about 182 ft;
+- **more than 8,000 cubic yards per operating hour** under then-current conditions.
 
-AEP/ODNR sources support a lifetime figure of **more than 483 million cubic yards of rock and earth moved**. That is the current canonical lifetime-volume figure for development.
+For lifetime volume, the strongest cross-source number is:
+- **more than 483 million cubic yards of rock and earth moved**, supported by AEP and current ODNR material.
 
-The often-repeated **608 million cubic yards** figure is not adopted until a stronger primary source is found.
+Do not use the widely repeated 608-million figure.
+
+A 2001 AEP dedication release says "483 million tons" while AEP's earlier release and current ODNR say 483 million **cubic yards**. Treat the 2001 unit as an internal inconsistency/likely wording error, not a second canonical measure.
 
 ## 8. Crew and maintenance
 
-Two current ODNR marker texts complement each other:
-- one says **four crews** worked together to run the machine;
-- another states Big Muskie was staffed by a **seven-member crew**.
+Current ODNR material provides two complementary facts:
+- **four crews** worked to run the machine;
+- Big Muskie was staffed by a **seven-member crew**.
 
-For development, describe this as four crews supporting continuous operation, with a seven-person operating crew documented by ODNR. Do not infer shift schedules or job titles until payroll/manual/oral-history records are found.
+Do not turn those statements into an unsourced exact shift schedule.
 
-A 2025 WOSU interview with former supervisor Eddie Lindimore describes near-continuous use when the machine was available and frequent breakdowns. This supports a human/maintenance thread, but recollection-based details should be clearly attributed.
+A 2025 WOSU interview with former supervisor Eddie Lindimore says the machine worked whenever it was not broken down and recalls frequent breakdowns and near-continuous operation. This is valuable human testimony, but must be explicitly attributed as oral recollection rather than presented as an engineering availability statistic.
 
 ## 9. The surrounding industrial system
 
-Big Muskie makes the most sense when shown as one component in a larger system:
+Big Muskie should be shown as one piece of a system:
 - overburden stripping;
-- coal extraction after exposure;
-- material handling/rail/conveyor infrastructure;
-- regional steam-coal demand;
-- nearby power generation.
+- exposed coal;
+- separate coal-loading/mining equipment;
+- coal transport/handling;
+- Muskingum River power generation;
+- reclamation.
 
-This system-level framing avoids making the episode a list of "biggest machine" facts.
+The contemporary Bucyrus article is especially valuable because it explicitly ties Big Muskie's stripping work to steam coal production and the nearby power plant.
 
-## 10. Economics and the end of operation
+## 10. Why it stopped
 
-Do not reduce the shutdown to one cause.
+The strongest local official explanation is multi-factor:
 
-The strongest current formulation from ODNR/AEP marker material:
-- by the early 1990s, more efficient mining technologies had changed the economics;
-- demand for Ohio high-sulfur coal fell as the 1990 Clean Air Act Amendments changed the market/environmental compliance landscape;
+- more efficient mining technologies reduced the need for a machine of this scale;
+- demand for the mine's **high-sulfur coal** declined after the Clean Air Act Amendments of 1990 changed utility sulfur-emissions economics;
 - Big Muskie was idled in January 1991.
 
-Secondary sources also emphasize operating cost and maintenance, but the final script should separate documented causes from reasonable economic interpretation.
+EPA's own description of Title IV confirms that the 1990 amendments created major sulfur-dioxide reduction requirements and an allowance system for electric utilities.
+
+Narration rule:
+**do not say "the EPA killed Big Muskie" or imply a one-law/one-day causal switch.**
 
 ## 11. Dismantling in 1999
 
-AEP's 1999 statement says the machine would be dismantled and the site reclaimed to meet state and federal mining-permit requirements.
+AEP's May 20, 1999 primary announcement states:
+- Big Muskie was being dismantled and the site reclaimed to satisfy state/federal mining permit requirements;
+- preservation efforts existed;
+- insufficient time/funding and AEP's long-term legal liability to the land and machine prevented whole-machine preservation.
 
-Preservation ideas did not succeed. AEP cited the limited time/funding available for a preservation plan and the company's long-term liability if the giant machine were retained.
+This is stronger than the simplistic claim that "nobody wanted it."
 
-The bucket was preserved.
+## 12. What actually survives
 
-## 12. What remains today
+The **220-cubic-yard bucket** is the major public surviving artifact and centerpiece of Miners' Memorial Park. AEP's 1999 memorial announcement describes it as about **240 tons empty**.
 
-The 220-cubic-yard bucket became the centerpiece of Miners' Memorial Park. AEP dedicated the park in 2001 to honor miners and mining history.
+However, do not say the bucket is literally the only surviving component:
+the Historical Construction Equipment Association lists preserved **cable and power-cord sections, lift-chain segments, and a bucket tooth** from Big Muskie.
 
-AEP's later reclamation history connects large areas of former mine land with the ReCreation Land legacy and transfers/conservation uses associated with Ohio public lands.
+Safer narration:
+**"Almost the entire machine was scrapped. Its enormous bucket became the public monument, while a handful of smaller components survive in collections."**
 
-This gives the episode a strong ending image: **the machine disappeared; the bucket and transformed landscape remain.**
+## 13. Memorial and reclaimed landscape
 
-## 13. Environmental context
+AEP formally dedicated Miners' Memorial Park on **May 31, 2001**.
 
-Environmental conflict around large-scale strip mining was contemporary, not invented after the fact. Congressional-era material from the early 1970s discussed Big Muskie in the broader strip-mining debate.
+AEP's more recent land history says former ReCreation Land has transitioned to ODNR management across a very large reclaimed landscape, with current state-park/wildlife-area designations. Because acreage and administrative labels changed over time, attach a date whenever using exact current acreage.
 
-The film should avoid a simplistic hero/villain frame. The stronger documentary contrast is:
-- postwar electricity/coal demand;
-- engineering response at unprecedented scale;
-- land disturbance and reclamation;
-- later fuel-market/regulatory/technology changes;
-- reuse of the mined landscape.
+## 14. Environmental context
 
-## 14. Myths / claims requiring caution
+Environmental debate over large-scale strip mining existed while Big Muskie was operating; early-1970s Congressional material discussed the machine in that broader debate.
 
-### "Largest machine on Earth"
-Too broad. Prefer the sourced category: largest dragline excavator / largest walking dragline ever built, with attribution where needed.
+The episode should not flatten this into a hero/villain frame. The stronger historical structure is:
+- electricity and coal demand;
+- unprecedented engineering response;
+- landscape disturbance;
+- reclamation and environmental debate;
+- later technology/regulatory/market changes;
+- preservation and reuse of the landscape.
 
-### "EPA killed Big Muskie"
-Over-simplified. Current evidence supports a multi-factor end: mining technology + demand for high-sulfur coal + changing compliance economics.
+## 15. Claims explicitly rejected after re-audit
 
-### "608 million cubic yards moved"
-Commonly repeated, but current stronger AEP/ODNR material supports >483 million cubic yards. Keep 608m out of locked narration until resolved.
+- **"325-ton bucket"** when meaning empty bucket mass — WRONG. 325 tons is earth payload per bite.
+- **"608 million cubic yards lifetime"** — NOT ACCEPTED.
+- **"Big Muskie directly mined/loaded the coal"** — MISLEADING; its defining function was stripping.
+- **"EPA killed Big Muskie"** — OVER-SIMPLIFIED.
+- **"330-ft boom" as canonical** — NOT ACCEPTED; retain as Caterpillar outlier.
+- **"222 ft" or "240 ft" as unquestioned exact height** — NOT LOCKED.
+- **"13.8 kV" exact supply voltage** — NOT LOCKED; current ODNR supports ~13 kV.
+- **"the bucket is literally the only surviving component"** — TOO ABSOLUTE.
+- **Guinness lifetime-volume figure** — REJECTED as numerically self-inconsistent with stronger AEP/ODNR evidence.
+- **"four rotating crews"** — word "rotating" is not currently sourced; say four crews unless a shift document is found.
 
-### "It mined the coal"
-Misleading. Its defining role was stripping overburden to expose coal.
+## 16. Priority gaps before script lock
 
-### "It was scrapped because nobody wanted it"
-Incomplete. Preservation attempts existed; AEP cited reclamation obligations, funding/time constraints, and long-term liability.
-
-## 15. Priority evidence gaps before script lock
-
-1. Original Bucyrus 4250-W specification/manual/drawing to resolve boom, nominal/working weight, electrical architecture, and working dimensions.
-2. Primary Central Ohio Coal/AEP operating documentation for shift structure, job roles, duty cycle, downtime, and production.
-3. Stronger primary record for exact capital cost and whether quoted figures are nominal/original/final installed cost.
-4. Primary lifetime material/coal totals to settle 483m vs 608m and ~18m vs >20m.
-5. Original construction records to settle 200,000 vs 300,000 labor-hours.
-6. Rights-cleared high-resolution archive stills/technical drawings.
-7. Exact provenance/license terms for Milwaukee Public Library Bucyrus scans and Ohio Geological Survey photography.
-8. Historical Construction Equipment Association archive inquiry for Big Muskie photographs, original Bucyrus film footage, manuals/drawings, and surviving machine components.
+1. Original Bucyrus 4250-W specification/manual/drawing to settle boom/height/weight terminology and electrical architecture.
+2. Central Ohio Coal/AEP operating records for shift structure, job roles, maintenance/downtime, and duty cycle.
+3. Original project accounting/build records to settle $24m vs ~$25m and 200k vs 300k construction hours.
+4. Original lifetime-production record if available, although >483m yd³ is already strong enough for cautious narration.
+5. Rights-cleared high-resolution archive and film.
+6. HCEA archive inquiry for manufacturer drawings, film, photographs, and surviving components.
+7. Publication permission from Milwaukee Public Library/copyright holders before using Bucyrus publication scans as visual footage rather than research documents.

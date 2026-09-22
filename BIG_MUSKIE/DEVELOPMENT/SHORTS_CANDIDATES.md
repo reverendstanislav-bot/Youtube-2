@@ -7,13 +7,13 @@ Status: pre-script extraction design. Exact script start/end markers will be add
 Target: 35–50 s
 
 Hook:
-"Almost the entire 27-million-pound machine was scrapped. This is the part they kept."
+"Almost the entire 27-million-pound machine was scrapped. Its biggest surviving public piece is this bucket."
 
 Setup:
 220-cubic-yard bucket; scale against people/vehicles.
 
 Payoff:
-The bucket survived the 1999 dismantling and anchors Miners' Memorial Park.
+The bucket survived the 1999 dismantling and anchors Miners' Memorial Park; smaller components also survive in specialist collections.
 
 Long-form placement:
 Chapter 0 or Chapter 7/8 callback.
@@ -34,18 +34,18 @@ The walker lifted/repositioned the machine, while its scale forced extremely wid
 Long-form placement:
 Chapter 3.
 
-## SHORT 03 — What 28 giant electric motors did
+## SHORT 03 — The 28 documented hoist/drag/swing motors
 
 Target: 45–60 s
 
 Hook:
-"Big Muskie didn't have one giant engine. Its major motions were split across banks of huge electric motors."
+"Three of Big Muskie's main motions were driven by 28 documented electric motors: hoist, drag and swing."
 
 Setup:
 Hoist / drag / swing motor groups from Bucyrus retrospective.
 
 Payoff:
-The machine becomes understandable as three enormous coordinated motion systems rather than one mystery mechanism.
+The machine becomes understandable as three coordinated motion systems; do not claim 28 was the count of every motor on the machine.
 
 Long-form placement:
 Chapter 3.
