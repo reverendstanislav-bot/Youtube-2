@@ -1,6 +1,5 @@
 {
-  "name":"hia-chicago-v12-final-upload-master",
+  "name":"hia-chicago-v12-final-1080p",
   "private":true,
-  "scripts":{"render":"remotion render src/index.jsx ChicagoV12 out/raw.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4"},
   "dependencies":{"@remotion/cli":"4.0.344","remotion":"4.0.344","react":"18.3.1","react-dom":"18.3.1"}
 }
