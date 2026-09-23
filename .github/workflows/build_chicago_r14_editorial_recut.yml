@@ -102,13 +102,21 @@ jobs:
           assert src.size==(1920,1080)
           im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
           d=ImageDraw.Draw(im); PAPER=(230,221,200); RUST=(165,82,53)
-          rx1,ry1,rx2,ry2=185,350,1015,817
-          d.rounded_rectangle([rx1,ry1,rx2,ry2],radius=6,fill=(22,25,27),outline=PAPER,width=5)
-          d.line([rx1,ry1,rx1+155,ry1],fill=RUST,width=7)
-          cx,cy,r=1425,590,145
+          # Chicago is Episode 1: there is no previous video. End screen must have
+          # exactly one subscribe/avatar target and ZERO video-slot rectangles.
+          cx,cy,r=960,590,145
           d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
           d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],start=208,end=325,fill=RUST,width=6)
           im.save('/tmp/chicago_r14/remotion/public/end_screen_1080.png')
+          import json
+          with open('/tmp/chicago_r14/qc/END_SCREEN_LAYOUT.json','w',encoding='utf-8') as f:
+              json.dump({
+                  'episode':1,
+                  'video_slots':0,
+                  'subscribe_avatar_slots':1,
+                  'text_labels':0,
+                  'rule':'Episode 1 has no previous-video or next-video slot.'
+              },f,indent=2)
           PY
 
       - name: Lock approved audio
@@ -182,6 +190,7 @@ jobs:
 
           jq -e '.status=="PASS" and .beatsOver7_05SecBeforeOutro==0 and .wordSnapRatio>=0.95' "$Q/EDITORIAL_PROVENANCE_AUDIT.json"
           jq -e '.status=="PASS" and .wordCoverageRatio==1 and .exactWordSequence==true' "$Q/CAPTION_CARD_AUDIT.json"
+          jq -e '.episode==1 and .video_slots==0 and .subscribe_avatar_slots==1 and .text_labels==0' "$Q/END_SCREEN_LAYOUT.json"
 
       - name: Publish R14 review release
         env:
@@ -192,7 +201,7 @@ jobs:
           zip -q -r HIA_CHICAGO_R14_REVIEW_QC.zip qc
           TAG=chicago-r14-editorial-recut-review-20260923
           gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
-          gh release create "$TAG" "$OUT" HIA_CHICAGO_R14_REVIEW_QC.zip             --title 'Chicago R14 Editorial Recut — REVIEW'             --notes 'REVIEW ONLY. Phrase-driven Remotion recut using existing approved assets only. Long static beats split at narration word boundaries; maps/archive use controlled reframing rather than constant Ken Burns; provenance is truthful and readable; captions derive directly from the word-level transcript at 100% sequence coverage; original approved AAC is preserved bit-for-bit; end screen remains textless.'             --repo reverendstanislav-bot/Youtube-2
+          gh release create "$TAG" "$OUT" HIA_CHICAGO_R14_REVIEW_QC.zip             --title 'Chicago R14 Editorial Recut — REVIEW'             --notes 'REVIEW ONLY. Phrase-driven Remotion recut using existing approved assets only. Long static beats split at narration word boundaries; maps/archive use controlled reframing rather than constant Ken Burns; provenance is truthful and readable; captions derive directly from the word-level transcript at 100% sequence coverage; original approved AAC is preserved bit-for-bit. Episode 1 end screen is textless and contains only the subscribe/avatar target: ZERO previous-video or next-video rectangles.'             --repo reverendstanislav-bot/Youtube-2
 
       - name: Record R14 review status
         run: |
@@ -214,7 +223,7 @@ jobs:
           - Captions come directly from the word-level transcript with exact sequence coverage.
           - Original approved AAC preserved bit-for-bit.
           - Output normalized to limited-range yuv420p.
-          - Textless YouTube end screen retained.
+          - Episode 1 end screen: subscribe/avatar circle only; ZERO previous/next-video rectangles; no text.
           EOF
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
