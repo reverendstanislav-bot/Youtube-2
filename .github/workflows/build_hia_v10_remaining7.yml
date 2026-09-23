@@ -158,7 +158,7 @@ jobs:
           set -euo pipefail
           M=TC497/FULL_V13/asset_urls.json
           v4=(
-            V3_ASSEMBLY.png V3_RANGE.png V4_RANGE_ALT.png V4_CARGO_ALT.png V2_DUNE.png V3_DUNE_LIMIT.png
+            V3_ASSEMBLY.png V3_TOPDOWN.png V3_RANGE.png V4_RANGE_ALT.png V4_CARGO_ALT.png V2_DUNE.png V3_DUNE_LIMIT.png
             V4_STEER_TRACKS.png V4_STEER_JOINT.png V3_YUMA_TEST.png V4_NUKE_TECH.png V2_NUCLEAR_CONCEPT.png
             V2_DISTRIBUTION.png V2_POWERTRAIN.png V4_HELI_CARGO.png V3_HELI_LOAD.png V3_LEGACY.png
           )
