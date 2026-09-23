@@ -85,7 +85,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Cap,DejaVu Sans,74,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.8,1.6,2,74,74,165,1
+Style: Cap,DejaVu Sans,72,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.8,1.6,2,72,72,120,1
 Style: Hook,DejaVu Sans,46,&H00F3EBDD,&H00F3EBDD,&H00101416,&H70000000,-1,0,0,0,100,100,1.0,0,1,3.4,1.0,8,70,70,82,1
 
 [Events]
@@ -126,29 +126,22 @@ def provenance_label(beat):
     return ""
 
 def visual_filter(beat, beat_index=0, beat_dur=4.0):
-    # V4 vertical system: one source plane filling almost the entire 9:16 frame.
-    # No stacked panels, no duplicated blur copy, no half-screen picture.
+    # V5: TRUE full-bleed 9:16. One source plane fills 1080x1920.
+    # No stacked panel, no black half-screen, no duplicated background copy.
     desc=(str(beat.get("visual",""))+" "+str(beat.get("action",""))+" "+str(beat.get("provenance",""))).lower()
-
     wide=bool(re.search(
-        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|aircraft|helicopter|city|tunnel map|street",
+        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|aircraft|helicopter|city|street",
         desc
     ))
 
-    # 620 px crop -> ~1881 px tall in the 1080x1920 output.
-    # 700 px crop -> ~1666 px tall for very wide evidence, still >86% of the canvas.
-    cw=700 if wide else 620
-    out_h=1666 if wide else 1881
+    # 608x1080 is essentially the exact 9:16 crop from a 1920x1080 source.
+    cw=608
 
-    # Wide evidence gets a slow horizontal scan so the viewer can read the full machine/map
-    # over the beat without ever showing a second copy of the frame.
     if wide:
-        if beat_index % 2 == 0:
-            xexpr=f"(iw-{cw})*min(1,max(0,t/{max(0.2,beat_dur):.3f}))"
-        else:
-            xexpr=f"(iw-{cw})*(1-min(1,max(0,t/{max(0.2,beat_dur):.3f})))"
+        # Wide material scans across the source during the beat instead of shrinking into a small panel.
+        prog=f"min(1,max(0,t/{max(0.2,beat_dur):.3f}))"
+        xexpr=f"(iw-{cw})*({prog})" if beat_index % 2 == 0 else f"(iw-{cw})*(1-({prog}))"
     else:
-        # Alternate center-left / center / center-right to keep consecutive vertical crops varied.
         pos=beat_index % 3
         if pos==0:
             xexpr=f"(iw-{cw})*0.38"
@@ -157,19 +150,13 @@ def visual_filter(beat, beat_index=0, beat_dur=4.0):
         else:
             xexpr=f"(iw-{cw})*0.62"
 
-    # Fill the screen from the top with one crisp crop. The small remaining lower strip is
-    # reserved for captions; a bottom gradient/solid cover hides the original long-form caption.
-    picture=(
-        f"crop={cw}:1080:x='{xexpr}':y=0,"
-        f"scale=1080:{out_h}:flags=lanczos,"
-        f"pad=1080:1920:0:0:color=0x171A1C"
-    )
-
     return (
-        picture
-        +",drawbox=x=0:y=1320:w=1080:h=600:color=0x171A1C@0.22:t=fill"
-        +",drawbox=x=0:y=1500:w=1080:h=420:color=0x171A1C@0.90:t=fill"
-        +f",drawbox=x=54:y=1494:w=972:h=5:color={ORANGE}:t=fill"
+        f"crop={cw}:1080:x='{xexpr}':y=0,"
+        "scale=1080:1920:flags=lanczos,"
+        # Hide the baked long-form caption area while retaining full-screen picture underneath.
+        "drawbox=x=0:y=1460:w=1080:h=460:color=0x171A1C@0.84:t=fill,"
+        "drawbox=x=0:y=1660:w=1080:h=260:color=0x171A1C@0.96:t=fill,"
+        f"drawbox=x=54:y=1454:w=972:h=5:color={ORANGE}:t=fill"
     )
 
 def build_short(short,source,outdir,qcdir):
