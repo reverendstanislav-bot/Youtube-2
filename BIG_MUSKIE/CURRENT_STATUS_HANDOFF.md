@@ -7,7 +7,7 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GFX 55/55 GENERATED — FULL QC COMPLETE — 17 PASS / 25 HOLD / 13 REJECT**  
+State: **38-GFX REPAIR QC COMPLETE — 26 PASS / 4 HOLD / 8 REGENERATE**  
 Publication status: **PREPRODUCTION — GFX STYLE LOCKED; FACTUAL/EDITORIAL REPAIR PASS REQUIRED BEFORE EDIT LOCK**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,27 +336,33 @@ Final captions:
 
 ## Immediate next action
 
-**GFX REPAIR PASS — NO BULK REGENERATION**
+**REGENERATE THE FINAL 8 GFX — THEN FINAL 38/38 QC**
 
-Physical GFX status:
-- 55/55 final unique PNGs exist;
-- all are 1672×941;
-- approved HIA visual style is consistent;
-- bottom 12–15% subtitle-safe composition generally passes.
+Current repair QC:
+- PASS: **26**
+- HOLD: **4** — editorial text/mask cleanup only
+- REGENERATE: **8**
 
-QC:
-- PASS: **17**
-- HOLD: **25**
-- REJECT: **13**
+The eight required new GFX are:
+1. preservation attempts;
+2. 13.8-kV power feed;
+3. drag vs swing;
+4. second distinct dragline-cycle composition;
+5. hoist force path;
+6. inertia / shock-control;
+7. second distinct overburden-depth composition;
+8. productivity paradox.
 
-Primary failure mode is generated factual/text hallucination, not visual style.
+Mandatory for all eight:
+- same locked HIA GFX style;
+- one image per file;
+- no invented quotes or unsupported numbers;
+- no crawler/tracked Big Muskie geometry;
+- lower 12–15% clear for captions.
 
-Next:
-1. keep all PASS assets;
-2. repair HOLD assets with text/source correction, masks and neutral vector linework;
-3. rebuild REJECT assets from verified facts as editor-native GFX first;
-4. do not spend credits on replacement imagery unless a specific repaired GFX cannot be built editorially;
-5. final source/fact QC;
-6. then lock all 55 for Stage 9/edit.
+After these eight exist:
+1. perform final QC of all 38 repaired GFX;
+2. clean the four HOLD text layers;
+3. lock the complete 55-GFX production package.
 
-See `BIG_MUSKIE/GFX/GFX_55_QC_V1.md`.
+No unrelated GFX should be generated.
