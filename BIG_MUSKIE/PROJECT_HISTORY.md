@@ -131,3 +131,21 @@ Future history entries must record:
 - Next: free word-level alignment + continuity/pronunciation QC, then Stage 7 visual beat map.
 - No additional paid generation is authorized.
 
+## 2026-09-23 — Word timing / join QC / Stage 7 visual map
+
+- No paid generation performed in this stage.
+- Forced-aligned the exact V3 canonical words against the four existing Arthur/ElevenLabs TTS chunks.
+- Direct acoustic word matches: 93.58% / 92.61% / 92.49% / 96.56%; unmatched canonical tokens were forced/interpolated only between neighboring acoustic anchors.
+- Preserved canonical V3 spelling instead of accepting ASR spellings for names/numbers.
+- Join QC found raw speech gaps of approximately 0.13 s / 0.02 s / 0.70 s.
+- Locked editorial join normalization: +0.52 s after chunk 1, +0.28 s after chunk 2, none after chunk 3.
+- Final chunk starts: 0.000 / 375.000 / 749.440 / 1119.920 s.
+- Canonical editorial runtime locked at **1426.400 s = 23:46.400**.
+- The earlier 23:45.722 MP3 packet-concat timing is superseded for editorial/caption timing.
+- Pronunciation QC completed. Big Muskie, Muskingum, AIME, AEP and 4250-W pass; Bucyrus-Erie appears compatible with Ohio local pronunciation; Kraschnewski remains WATCH; January 1991 requires one final human-ear spot check because one secondary ASR pass misheard 1990.
+- Built complete Stage 7 visual map: **116 beats / 3019 words**, using exact narration and final VO timestamps.
+- Every beat includes narrative function, visual objective, main asset class, specific asset requirement, provenance rule, motion/editing rule, GFX need, Shorts relation and risk/QC note.
+- Stage 7 backup ZIP SHA-256: `6f250053a363f9ac0a505f00edccd9108ca7ce13dc214b20820077d4eafeeda4`.
+- No images or video were generated.
+- Next: asset inventory + archive sourcing + genuine-gap analysis + full prompt pack + exact cost preflight + explicit approval.
+

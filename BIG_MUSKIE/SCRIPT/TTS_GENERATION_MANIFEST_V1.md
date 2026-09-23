@@ -53,8 +53,10 @@ Decoded PCM 48 kHz / 24-bit mono master SHA-256:
 `722d0e4f9e353e665534ee22e758d1e9bd7eadb5817412681e26d0ca8e2e1db4`
 
 Runtime:
-- MP3 container: 1425.763265 s
-- canonical decoded PCM timeline: **1425.722458 s = 23:45.722**
+- provider four-chunk decoded sum: **1425.600 s = 23:45.600**
+- earlier MP3 packet-concat measurement: 1425.722458 s — superseded for editorial timing
+- canonical join-normalized editorial timeline: **1426.400 s = 23:46.400**
+- final chunk starts: **0.000 / 375.000 / 749.440 / 1119.920 s**
 
 Decode check: **PASS**
 
@@ -72,11 +74,10 @@ The earlier Alexey batch remains:
 
 Do not reuse its job IDs, URLs, timings or audio in Big Muskie.
 
-## Next free production step
+## Post-generation timing status
 
-1. create word-level alignment/transcript against this exact Arthur master;
-2. verify pronunciation/content continuity;
-3. lock exact word timestamps and runtime;
-4. build Stage 7 full visual beat map from real VO timestamps.
+Word-level alignment, pronunciation/join QC and Stage 7 are complete.
 
-No additional paid generation is authorized by this manifest.
+Canonical editorial timing is **23:46.400** after deterministic silence normalization at chunk joins. See `BIG_MUSKIE/STAGE_7/`.
+
+Next: asset inventory / gap analysis / prompt package. No additional paid generation is authorized by this manifest.

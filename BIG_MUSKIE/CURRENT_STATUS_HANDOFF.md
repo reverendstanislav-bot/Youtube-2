@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **ARTHUR TTS GENERATED — TECHNICAL QC PASS — WORD-LEVEL ALIGNMENT / STAGE 7 PREP NEXT**  
-Publication status: **PREPRODUCTION — CANONICAL ARTHUR VO GENERATED; NO EDIT, RC, OR PUBLICATION CANDIDATE YET**
+State: **STAGE 7 COMPLETE — ARTHUR VO LOCKED, WORD TIMING LOCKED, 116-BEAT VISUAL MAP COMPLETE**  
+Publication status: **PREPRODUCTION — VO/TIMING/VISUAL MAP LOCKED; ASSET SOURCING AND PROMPT PACKAGE NEXT**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -209,7 +209,7 @@ Correct spoken-only V3:
 
 User explicitly approved **56.25 credits** for the four Arthur chunks. The four jobs were generated successfully and no additional paid jobs were submitted.
 
-Canonical decoded VO runtime: **23:45.722**.
+Raw decoded four-chunk runtime: **23:45.600**. Canonical join-normalized editorial runtime: **23:46.400**.
 
 See: `SCRIPT/TTS_GENERATION_MANIFEST_V1.md`.
 
@@ -336,23 +336,39 @@ Final captions:
 
 ## Immediate next action
 
-**WORD-LEVEL ALIGNMENT / CONTINUITY QC — FREE PROCESSING ONLY**
+**STAGE 8 — ASSET INVENTORY / GAP ANALYSIS — NO PAID GENERATION**
 
-Canonical Arthur TTS is generated.
+Stage 7 is complete:
+- canonical Arthur VO generated;
+- raw decoded four-chunk runtime: **23:45.600**;
+- join-normalized editorial runtime: **23:46.400**;
+- final chunk start offsets: **0.000 / 375.000 / 749.440 / 1119.920 s**;
+- word-level timing files committed;
+- pronunciation QC committed;
+- full **116-beat** visual map committed.
 
 Next:
-1. align the exact V3 text against the exact Arthur VO master;
-2. generate word-level timestamps/transcript;
-3. verify pronunciation and continuity at all chunk joins;
-4. lock exact runtime and transcript hashes;
-5. build Stage 7 visual beat map against real VO timestamps.
+1. map every beat against already-cleared archive/current/document assets;
+2. source additional authentic archive where rights are obtainable;
+3. identify only genuine visual gaps;
+4. mark those gaps as GFX / TECH_DRAWING / GENERATE / EDITORIAL_ONLY;
+5. write the complete prompt pack for every GENERATE beat;
+6. run prompt/QC audit;
+7. calculate exact image count and exact credit cost;
+8. stop and request explicit approval before any paid generation.
 
-No additional paid generation is authorized. Any future paid operation requires a new exact cost preflight and explicit user approval.
+No additional paid generation is authorized.
+
+Pronunciation watch items before picture lock:
+- Bucyrus-Erie: output appears compatible with Ohio local pronunciation; final human-ear spot check;
+- Kraschnewski: no authoritative pronunciation reference in repo; WATCH;
+- Lindimore: final human-ear spot check;
+- January 1991: canonical prompt + tiny ASR = 1991; one small ASR pass misheard 1990; human spot check before final picture lock.
 
 After each major stage record:
 - what was completed;
 - what was checked;
 - commit SHA;
-- actual approved credits;
+- any approved credits actually spent;
 - exact runtime;
 - next concrete step.

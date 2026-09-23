@@ -46,3 +46,16 @@
 ## Large binaries
 
 None are canonical for Episode 3 yet. Future large assets belong in Releases/Actions with hashes and stable identifiers recorded in Git.
+
+## Stage 7 — VO timing / visual beat map
+
+- STAGE_7/README.md — package summary.
+- STAGE_7/ALIGNMENT_QC_V1.md — forced-alignment method, join normalization and canonical 23:46.400 runtime.
+- STAGE_7/PRONUNCIATION_QC_V1.md — pronunciation review/watch list.
+- STAGE_7/WORD_TIMING_V1_CHUNK_01.csv — canonical word-level timing, chunk 1.
+- STAGE_7/WORD_TIMING_V1_CHUNK_02.csv — canonical word-level timing, chunk 2 with final timeline shift.
+- STAGE_7/WORD_TIMING_V1_CHUNK_03.csv — canonical word-level timing, chunk 3 with final timeline shift.
+- STAGE_7/WORD_TIMING_V1_CHUNK_04.csv — canonical word-level timing, chunk 4 with final timeline shift.
+- STAGE_7/STAGE_7_VISUAL_BEAT_MAP_V1_INDEX.md — full-map index / 116-beat lock.
+- STAGE_7/STAGE_7_VISUAL_BEAT_MAP_V1_PART_01.md … PART_06.md — complete 116-beat map.
+
