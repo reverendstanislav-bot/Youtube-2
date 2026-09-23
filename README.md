@@ -32,3 +32,8 @@ Never infer "final" from a filename. An episode becomes a publication/upload mas
 5. canonical status update.
 
 Large media belongs in GitHub Releases/Actions rather than the Git tree. The Git tree should keep only the current production code, essential recovery dependencies, manifests, source/QC records, and canonical status.
+
+## Shorts
+
+Canonical Shorts rules: `CHANNEL/SHORTS_PRODUCTION_CANON.md`.
+Episode extraction maps currently exist for Chicago and TC497 under each episode's `SHORTS/` directory. Shorts remain extraction-first and are rendered only after long-form approval.
