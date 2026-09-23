@@ -23,3 +23,8 @@ The active tree intentionally keeps only the dependency builds R14 still needs:
 - `R14_REEDIT/`
 
 Older V1–V12 build trees and stale final-status folders were removed from the current branch and remain available through Git history.
+
+## Shorts package
+
+Locked extraction-first Shorts plan: `TC497/SHORTS/`.
+Five Shorts have exact source IN/OUT, exact narration extraction, word timing and 9:16 montage instructions. State: `VERTICAL_PLAN_LOCKED`; render remains blocked until the TC497 long-form is explicitly approved.
