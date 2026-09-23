@@ -1,0 +1,282 @@
+name: Build Remaining 7 Shorts — V10 Canon Review
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build_hia_v10_remaining7.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: hia-v10-remaining7
+  cancel-in-progress: true
+
+jobs:
+  chicago_batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg p7zip-full python3 python3-pil fonts-dejavu-core jq
+          python3 -m py_compile SHORTS_RENDER/build_v10_batch.py
+          mkdir -p /tmp/chi/{assets,out,qc}
+
+      - name: Download Chicago source archive once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chi
+          : > source.rar
+          for part in 00 01 02; do
+            name="Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part${part}"
+            gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern "$name"
+            cat "$name" >> source.rar
+            rm -f "$name"
+          done
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  source.rar' | sha256sum -c -
+
+      - name: Extract clean Chicago assets for S02-S05
+        run: |
+          set -euo pipefail
+          cd /tmp/chi
+          names=(
+            A07_IllinoisTunnelTestTrain.jpg
+            A08_IllinoisTelephoneAndTelegraphAd.png
+            A14_LOC_State_Street_1905.jpg
+            A05_IllinoisTunnelConstruction.jpg
+            A01_IllinoisTunnelIntersectionCloser.jpg
+            A02_IllinoisTunnelMap1910.png
+            S007_P005.png S008_P006.png S010_P007.png S011_P008.png
+            S164_P105.png S165_P106.png S166_P107.png S167_P108.png S168_P109.png S171_P112.png
+            S178_P119.png S180_P121.png S181_P122.png S182_P123.png S183_P124.png S184_P125.png S185_P126.png
+          )
+          args=()
+          for n in "${names[@]}"; do args+=("-ir!*${n}"); done
+          7z x -y source.rar -oextract "${args[@]}"
+          for n in "${names[@]}"; do
+            src="$(find extract -type f -name "$n" | head -n1)"
+            test -s "$src" || { echo "MISSING CHICAGO ASSET $n" >&2; exit 1; }
+            cp "$src" "assets/$n"
+          done
+          rm -rf source.rar extract
+          test "$(find assets -type f | wc -l)" -ge 20
+
+      - name: Download Chicago locked audio source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chi
+          gh release download chicago-r14-editorial-recut-review-20260923             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_R14_EDITORIAL_RECUT_REVIEW_1920x1080.mp4'
+          mv HIA_CHICAGO_R14_EDITORIAL_RECUT_REVIEW_1920x1080.mp4 audio_source.mp4
+
+      - name: Render Chicago S02-S05
+        run: |
+          set -euo pipefail
+          for id in CHI-S02 CHI-S03 CHI-S04 CHI-S05; do
+            python3 SHORTS_RENDER/build_v10_batch.py               --plan "CHICAGO/SHORTS/${id}_V10.json"               --map CHICAGO/SHORTS/shorts_extraction_map.json               --asset-dir /tmp/chi/assets               --audio-source /tmp/chi/audio_source.mp4               --out "/tmp/chi/out/${id}_V10_REVIEW.mp4"               --qc /tmp/chi/qc
+          done
+
+      - name: Chicago batch QC
+        run: |
+          set -euo pipefail
+          MAP=CHICAGO/SHORTS/shorts_extraction_map.json ROOT=/tmp/chi FPS=25 IDS='CHI-S02 CHI-S03 CHI-S04 CHI-S05' python3 - <<'PY'
+          import json,os,subprocess,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageFont
+          root=Path(os.environ['ROOT']); q=root/'qc'; out=root/'out'; fps=int(os.environ['FPS'])
+          mapping=json.loads(Path(os.environ['MAP']).read_text()); byid={x['id']:x for x in mapping['shorts']}
+          report={'episode':'CHICAGO','status':'PASS','shorts':[]}
+          font=ImageFont.load_default()
+          for sid in os.environ['IDS'].split():
+              sh=byid[sid]; p=out/f'{sid}_V10_REVIEW.mp4'
+              info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
+              v=next(x for x in info['streams'] if x['codec_type']=='video'); a=next(x for x in info['streams'] if x['codec_type']=='audio')
+              dur=float(info['format']['duration']); dec=q/f'{sid}_decode.txt'
+              with dec.open('w') as fh: rc=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],stderr=fh).returncode
+              ok=v['width']==1080 and v['height']==1920 and v['r_frame_rate']==f'{fps}/1' and a['sample_rate']=='48000' and int(a['channels'])==2 and abs(dur-sh['duration_sec'])<.35 and rc==0 and dec.stat().st_size==0
+              frames=[]; times=[dur*x for x in [.02,.10,.20,.30,.40,.50,.60,.70,.80,.90,.98]]
+              for i,t in enumerate(times):
+                  jpg=q/f'{sid}_{i+1:02d}.jpg'
+                  subprocess.run(['ffmpeg','-y','-loglevel','error','-ss',f'{t:.3f}','-i',str(p),'-frames:v','1','-q:v','2',str(jpg)],check=True)
+                  frames.append((t,Image.open(jpg).convert('RGB').copy()))
+              canvas=Image.new('RGB',(1080*4,1920*3),(16,16,16)); d=ImageDraw.Draw(canvas)
+              for i,(t,im) in enumerate(frames):
+                  x=(i%4)*1080; y=(i//4)*1920; canvas.paste(im,(x,y))
+                  d.rectangle((x,y,x+280,y+42),fill=(10,10,10)); d.text((x+8,y+12),f'{sid} {t:.1f}s',fill=(245,245,245),font=font)
+              canvas.thumbnail((2160,2880)); canvas.save(q/f'{sid}_CONTACT.jpg',quality=92)
+              row={'id':sid,'duration':dur,'technical_pass':bool(ok),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+              report['shorts'].append(row)
+              if not ok: report['status']='FAIL'
+          (q/'BATCH_QC.json').write_text(json.dumps(report,indent=2))
+          if report['status']!='PASS': raise SystemExit(report)
+          PY
+          ! grep -R -n '100,100)}' /tmp/chi/qc
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-v10-chicago-s02-s05-review
+          path: |
+            /tmp/chi/out
+            /tmp/chi/qc
+          compression-level: 0
+          retention-days: 7
+
+  tc497_batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg unzip poppler-utils python3 python3-pil fonts-dejavu-core jq
+          python3 -m py_compile SHORTS_RENDER/build_v10_batch.py
+          mkdir -p /tmp/tc/{assets,out,qc,pkg}
+
+      - name: Download clean generated/concept assets
+        run: |
+          set -euo pipefail
+          M=TC497/FULL_V13/asset_urls.json
+          v4=(
+            V3_ASSEMBLY.png V3_RANGE.png V4_RANGE_ALT.png V4_CARGO_ALT.png V2_DUNE.png V3_DUNE_LIMIT.png
+            V4_STEER_TRACKS.png V4_STEER_JOINT.png V3_YUMA_TEST.png V4_NUKE_TECH.png V2_NUCLEAR_CONCEPT.png
+            V2_DISTRIBUTION.png V2_POWERTRAIN.png V4_HELI_CARGO.png V3_HELI_LOAD.png V3_LEGACY.png
+          )
+          for n in "${v4[@]}"; do
+            url="$(jq -r --arg n "$n" '.v4_extra[$n] // empty' "$M")"
+            test -n "$url" || { echo "NO V4 URL $n" >&2; exit 1; }
+            curl -fL --retry 4 --retry-all-errors "$url" -o "/tmp/tc/assets/$n"
+          done
+          for n in nuclear_concept_clean.png nuclear_unbuilt_clean.png heavy_lift_logistics_clean.png ground_vs_air_clean.png; do
+            url="$(jq -r --arg n "$n" '.v5_patch[$n] // empty' "$M")"
+            test -n "$url" || { echo "NO V5 URL $n" >&2; exit 1; }
+            curl -fL --retry 4 --retry-all-errors "$url" -o "/tmp/tc/assets/$n"
+          done
+          url="$(jq -r '.v6_patch["electric_wheel_v6.png"]' "$M")"
+          curl -fL --retry 4 --retry-all-errors "$url" -o /tmp/tc/assets/electric_wheel_v6.png
+
+      - name: Download original TC497 package for verified CH-54 archive
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/tc/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Extract CH-54 archive images
+        run: |
+          set -euo pipefail
+          ZIP="$(find /tmp/tc/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n1)"
+          test -s "$ZIP"
+          unzip -q "$ZIP" -d /tmp/tc/pkg
+          for pair in 'AR-CH54-1:AR_CH54_1.png' 'AR-CH54-2:AR_CH54_2.png'; do
+            code="${pair%%:*}"; out="${pair##*:}"
+            src="$(find /tmp/tc/pkg -type f -name "${code}__*" | head -n1)"
+            test -s "$src" || { echo "MISSING $code" >&2; exit 1; }
+            SRC="$src" OUT="/tmp/tc/assets/$out" python3 - <<'PY'
+          import os
+          from PIL import Image
+          Image.open(os.environ['SRC']).convert('RGB').save(os.environ['OUT'])
+          PY
+          done
+          rm -rf /tmp/tc/pkg /tmp/tc/pkg_artifact
+
+      - name: Download TC497 locked audio source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/tc
+          gh release download tc497-r14-remotion-reedit-review-20260923             --repo reverendstanislav-bot/Youtube-2             --pattern 'TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4'
+          mv TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4 audio_source.mp4
+
+      - name: Render TC497 S03-S05
+        run: |
+          set -euo pipefail
+          for id in TC497-S03 TC497-S04 TC497-S05; do
+            python3 SHORTS_RENDER/build_v10_batch.py               --plan "TC497/SHORTS/${id}_V10.json"               --map TC497/SHORTS/shorts_extraction_map.json               --asset-dir /tmp/tc/assets               --audio-source /tmp/tc/audio_source.mp4               --out "/tmp/tc/out/${id}_V10_REVIEW.mp4"               --qc /tmp/tc/qc
+          done
+
+      - name: TC497 batch QC
+        run: |
+          set -euo pipefail
+          MAP=TC497/SHORTS/shorts_extraction_map.json ROOT=/tmp/tc FPS=30 IDS='TC497-S03 TC497-S04 TC497-S05' python3 - <<'PY'
+          import json,os,subprocess,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageFont
+          root=Path(os.environ['ROOT']); q=root/'qc'; out=root/'out'; fps=int(os.environ['FPS'])
+          mapping=json.loads(Path(os.environ['MAP']).read_text()); byid={x['id']:x for x in mapping['shorts']}
+          report={'episode':'TC497','status':'PASS','shorts':[]}; font=ImageFont.load_default()
+          for sid in os.environ['IDS'].split():
+              sh=byid[sid]; p=out/f'{sid}_V10_REVIEW.mp4'
+              info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
+              v=next(x for x in info['streams'] if x['codec_type']=='video'); a=next(x for x in info['streams'] if x['codec_type']=='audio')
+              dur=float(info['format']['duration']); dec=q/f'{sid}_decode.txt'
+              with dec.open('w') as fh: rc=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],stderr=fh).returncode
+              ok=v['width']==1080 and v['height']==1920 and v['r_frame_rate']==f'{fps}/1' and a['sample_rate']=='48000' and int(a['channels'])==2 and abs(dur-sh['duration_sec'])<.35 and rc==0 and dec.stat().st_size==0
+              frames=[]; times=[dur*x for x in [.02,.10,.20,.30,.40,.50,.60,.70,.80,.90,.98]]
+              for i,t in enumerate(times):
+                  jpg=q/f'{sid}_{i+1:02d}.jpg'
+                  subprocess.run(['ffmpeg','-y','-loglevel','error','-ss',f'{t:.3f}','-i',str(p),'-frames:v','1','-q:v','2',str(jpg)],check=True)
+                  frames.append((t,Image.open(jpg).convert('RGB').copy()))
+              canvas=Image.new('RGB',(1080*4,1920*3),(16,16,16)); d=ImageDraw.Draw(canvas)
+              for i,(t,im) in enumerate(frames):
+                  x=(i%4)*1080; y=(i//4)*1920; canvas.paste(im,(x,y))
+                  d.rectangle((x,y,x+300,y+42),fill=(10,10,10)); d.text((x+8,y+12),f'{sid} {t:.1f}s',fill=(245,245,245),font=font)
+              canvas.thumbnail((2160,2880)); canvas.save(q/f'{sid}_CONTACT.jpg',quality=92)
+              row={'id':sid,'duration':dur,'technical_pass':bool(ok),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+              report['shorts'].append(row)
+              if not ok: report['status']='FAIL'
+          (q/'BATCH_QC.json').write_text(json.dumps(report,indent=2))
+          if report['status']!='PASS': raise SystemExit(report)
+          PY
+          ! grep -R -n '100,100)}' /tmp/tc/qc
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-v10-tc497-s03-s05-review
+          path: |
+            /tmp/tc/out
+            /tmp/tc/qc
+          compression-level: 0
+          retention-days: 7
+
+  package:
+    needs: [chicago_batch,tc497_batch]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: hia-v10-chicago-s02-s05-review
+          path: /tmp/all/CHICAGO
+      - uses: actions/download-artifact@v4
+        with:
+          name: hia-v10-tc497-s03-s05-review
+          path: /tmp/all/TC497
+      - name: Package seven reviews
+        run: |
+          set -euo pipefail
+          cd /tmp/all
+          zip -q -r -0 HIA_V10_REMAINING_7_REVIEW.zip CHICAGO TC497
+          sha256sum HIA_V10_REMAINING_7_REVIEW.zip > SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-v10-remaining-7-review
+          path: |
+            /tmp/all/HIA_V10_REMAINING_7_REVIEW.zip
+            /tmp/all/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
