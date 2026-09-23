@@ -55,3 +55,12 @@ A Short may be:
 - `PUBLISHED` — platform publish confirmed.
 
 Never mark a Short APPROVED based only on technical QC.
+
+## Vertical composition hard rules
+
+- Never show the same source frame twice in two simultaneous visible panels.
+- One moment in narration = one primary crisp visual plane. Decorative duplicated/blurred copies are not allowed as visible content panels.
+- Wide maps/documents may be letterboxed inside the 9:16 frame; reconstruction/archive may receive a controlled crop, but must not be duplicated to fill space.
+- Do not stack a "full" view and a second "detail" copy of the same image at the same time.
+- Preserve the source long-form provenance label when it is visible; do not add a second provenance label over the same frame.
+- The rejected two-panel Shorts package from 2026-09-23 is superseded by the V3 single-panel system.
