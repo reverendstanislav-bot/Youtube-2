@@ -27,13 +27,29 @@ def phrases(words):
         if buf and float(w["short_s"])-float(buf[-1]["short_e"])>.42:
             flush()
         next_chars=sum(len(str(x["w"]))+1 for x in buf)+len(str(w["w"]))+1
-        if buf and (len(buf)>=5 or next_chars>28):
+        if buf and (len(buf)>=7 or next_chars>40):
             flush()
         buf.append(w)
         if re.search(r"[.!?,;:]$",str(w["w"])) and len(buf)>=3:
             flush()
     flush()
     return out
+
+def hook_text(short):
+    title=str(short.get("title","")).strip().upper()
+    if not title:
+        return ""
+    words=title.split()
+    if len(words)<=4:
+        return ass_escape(title)
+    best=(10**9,None)
+    for i in range(2,len(words)):
+        a=" ".join(words[:i]); b=" ".join(words[i:])
+        score=abs(len(a)-len(b))
+        if score<best[0]:
+            best=(score,i)
+    i=best[1] or max(1,len(words)//2)
+    return ass_escape(" ".join(words[:i]))+r"\N"+ass_escape(" ".join(words[i:]))
 
 def active_text(group,active):
     raw=[str(w["w"]) for w in group]
@@ -69,12 +85,16 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Cap,DejaVu Sans,68,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,78,78,285,1
+Style: Cap,DejaVu Sans,74,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.8,1.6,2,74,74,270,1
+Style: Hook,DejaVu Sans,46,&H00F3EBDD,&H00F3EBDD,&H00101416,&H70000000,-1,0,0,0,100,100,1.0,0,1,3.4,1.0,8,70,70,82,1
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 """
     ev=[]
+    hook=hook_text(short)
+    if hook:
+        ev.append(f"Dialogue: 1,{ass_time(0)},{ass_time(min(2.4,float(short['duration_sec'])))},Hook,,0,0,0,,{hook}")
     for group in phrases(short["source_words"]):
         ps=float(group[0]["short_s"])
         pe=float(group[-1]["short_e"])+.08
@@ -106,39 +126,37 @@ def provenance_label(beat):
     return ""
 
 def visual_filter(beat):
-    # V2 vertical design: ONE crisp source image only.
-    # The previous layout duplicated the same landscape frame into two visible panels.
-    # That is explicitly forbidden now.
+    # V3 vertical design: one source visual, never two copies.
+    # Wide evidence stays readable; cinematic shots receive only a controlled center crop.
     desc=(str(beat.get("visual",""))+" "+str(beat.get("action",""))+" "+str(beat.get("provenance",""))).lower()
     keep_full=bool(re.search(
-        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|archive|historical source",
+        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|aircraft|helicopter|archive",
         desc
     ))
 
-    # Always remove the burned-in long-form caption strip.
-    # Evidence/maps keep nearly the full width. Other shots get a mild centered crop.
     if keep_full:
+        # Preserve the whole source width for maps/docs/long machines.
         picture=(
             "crop=iw:ih-180:0:0,"
             "scale=1040:-2:flags=lanczos,"
-            "pad=1080:620:20:(620-ih)/2:color=0x171A1C,"
-            "pad=1080:1920:0:276:color=0x171A1C"
+            "pad=1080:660:20:(660-ih)/2:color=0x171A1C,"
+            "pad=1080:1920:0:245:color=0x171A1C"
         )
-        y=276; panel_h=620
+        y=245; panel_h=660
     else:
+        # Mild 4:3-ish crop: visibly larger in 9:16 without destroying context.
         picture=(
-            "crop=1560:900:180:0,"
-            "scale=1080:623:flags=lanczos,"
-            "pad=1080:1920:0:268:color=0x171A1C"
+            "crop=1200:900:360:0,"
+            "scale=1080:810:flags=lanczos,"
+            "pad=1080:1920:0:170:color=0x171A1C"
         )
-        y=268; panel_h=623
+        y=170; panel_h=810
 
-    # Neutral industrial background. No blurred/second copy of the source.
     return (
         picture
-        +f",drawbox=x=20:y={y}:w=1040:h={panel_h}:color=0xF3EBDD@0.28:t=2"
-        +f",drawbox=x=54:y=1018:w=972:h=5:color={ORANGE}:t=fill"
-        +f",drawbox=x=0:y=1023:w=1080:h=897:color={CHARCOAL}@0.98:t=fill"
+        +f",drawbox=x=20:y={y}:w=1040:h={panel_h}:color=0xF3EBDD@0.30:t=2"
+        +f",drawbox=x=54:y=1050:w=972:h=5:color={ORANGE}:t=fill"
+        +f",drawbox=x=0:y=1055:w=1080:h=865:color={CHARCOAL}@0.985:t=fill"
     )
 
 def build_short(short,source,outdir,qcdir):
