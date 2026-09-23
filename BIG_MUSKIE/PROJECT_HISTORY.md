@@ -267,3 +267,16 @@ Future history entries must record:
 - Outputs are generated reconstructions and must be labelled `AI RECONSTRUCTION`, never `HISTORICAL SOURCE`.
 - Batch is technically complete but not yet visually accepted; full GEN01–GEN22 QC is next.
 
+## 2026-09-23 — GEN01–GEN22 visual QC
+
+- Completed visual QC of all 22 generated reconstruction stills.
+- Result: **4 PASS / 3 HOLD / 15 REJECT**.
+- PASS: GEN01, GEN03, GEN04, GEN11.
+- HOLD: GEN02, GEN15, GEN17.
+- REJECT: GEN05–GEN10, GEN12–GEN14, GEN16, GEN18–GEN22.
+- Subtitle-safe lower 12–15% instruction generally worked and was not the major failure.
+- Dominant defect: the model repeatedly rendered a conventional crawler/tracked dragline instead of Big Muskie's circular tub / walking-shoe architecture.
+- Operating-cycle, power-feed, tub, walking, shutdown and dismantling shots are therefore not production-safe despite technical generation success.
+- No replacement jobs were submitted during QC.
+- Additional paid spend during QC: **0.00 credits**.
+

@@ -1,6 +1,6 @@
 # BIG MUSKIE — GEN01–GEN22 HIGGSFIELD GENERATION MANIFEST V1
 
-Status: **22/22 GENERATED — TECHNICAL COMPLETION PASS — VISUAL QC NOT YET APPROVED**
+Status: **22/22 GENERATED — VISUAL QC COMPLETE — 4 PASS / 3 HOLD / 15 REJECT**
 
 Generation:
 - provider workflow: Higgsfield
@@ -60,6 +60,12 @@ None may be labelled **HISTORICAL SOURCE**.
 
 ## QC state
 
-This manifest records successful generation only.
-It does **not** mean all 22 frames are visually accepted.
-Next required step: full visual QC for machine geometry, scene accuracy, subtitle-safe lower band, repeated composition, impossible machinery, people/hands, cables, bucket/boom/tub relationships, and fit to assigned beat.
+Full QC completed in `GEN01_GEN22_QC_V1.md`.
+
+- PASS: 4
+- HOLD: 3
+- REJECT: 15
+- dominant failure: generic crawler-dragline geometry instead of Big Muskie circular tub / walking-shoe architecture;
+- subtitle-safe lower band generally passed.
+
+No replacement generation is authorized or submitted.

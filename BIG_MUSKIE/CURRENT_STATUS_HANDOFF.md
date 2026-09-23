@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GEN01–GEN22 GENERATED — 22/22 COMPLETE — VISUAL QC NEXT**  
-Publication status: **PREPRODUCTION — 22 RECONSTRUCTION STILLS GENERATED; NOT YET VISUALLY APPROVED**
+State: **GEN01–GEN22 QC COMPLETE — 4 PASS / 3 HOLD / 15 REJECT — REPLACEMENT PLAN NEXT**  
+Publication status: **PREPRODUCTION — RECONSTRUCTION BATCH FAILED QC AT SCALE; NO REPLACEMENTS GENERATED YET**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,25 +336,23 @@ Final captions:
 
 ## Immediate next action
 
-**GEN01–GEN22 VISUAL QC — NO RETRIES OR NEW SPEND WITHOUT APPROVAL**
+**SALVAGE HOLD FRAMES → REPLACEMENT PROMPT REWRITE → COST PREFLIGHT → STOP**
 
-Generation batch:
-- 22/22 completed;
-- GPT Image 2 / 1K Low / 16:9;
-- 0.50 credit each;
-- exact spend: **11.00 credits**;
-- retries: 0;
-- failures: 0;
-- archive SHA-256: `7903cf14982544325a41a90b61dc676370e9df63627f73b196bb0522c1b250b8`.
+QC totals:
+- PASS: **4** — GEN01, GEN03, GEN04, GEN11
+- HOLD: **3** — GEN02, GEN15, GEN17
+- REJECT: **15**
+- no additional generation submitted.
 
-Next:
-1. visually inspect every GEN01–GEN22 one by one;
-2. classify PASS / HOLD / REJECT;
-3. check 4250-W geometry, scene accuracy, cable/boom/bucket/tub logic and absence of wheels/tracks;
-4. check bottom 12–15% subtitle-safe zone;
-5. check sequence diversity;
-6. identify any replacement prompts;
-7. calculate replacement cost;
-8. stop before any replacement generation until separately approved.
+Root cause:
+the image model repeatedly generalized Big Muskie into a conventional tracked/crawler dragline instead of preserving the circular tub + walking-shoe architecture.
 
-No additional paid generation is authorized.
+Next zero-cost steps:
+1. test editorial salvage of GEN02 / GEN15 / GEN17;
+2. determine final replacement count;
+3. rewrite rejected prompts with explicit geometry locks and stronger reference strategy;
+4. for walking/tub beats use engineering source geometry in addition to exterior photos;
+5. run exact read-only cost preflight;
+6. stop for explicit approval before any replacement generation.
+
+No paid replacement generation is currently authorized.
