@@ -1,0 +1,107 @@
+{
+  "id": "CHI-S01",
+  "fps": 25,
+  "title_lines": [
+    "CHICAGO HAD A 60-MILE",
+    "RAILROAD UNDER DOWNTOWN"
+  ],
+  "version": "V10_CANON_PROOF",
+  "rules": {
+    "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
+    "captions": "V10 safe two-line white/orange",
+    "source": "clean original episode assets, not long-form picture",
+    "provenance": "verified per asset"
+  },
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 2.66,
+      "asset": "S002_P002.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "NOT A SUBWAY",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 2.66,
+      "out_end": 5.6,
+      "asset": "A01_IllinoisTunnelIntersectionCloser.jpg",
+      "x": 0.48,
+      "motion": "static",
+      "metric": "A FREIGHT RAILROAD",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 5.6,
+      "out_end": 9.2,
+      "asset": "S004_P003.png",
+      "x": 0.47,
+      "motion": "static",
+      "metric": "ELECTRIC LOCOMOTIVES",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 9.2,
+      "out_end": 12.38,
+      "asset": "S006_P004.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "BENEATH THE LOOP",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 12.38,
+      "out_end": 16,
+      "asset": "S004_P003.png",
+      "x": 0.58,
+      "motion": "static",
+      "metric": "FREIGHT HOUSES",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 16,
+      "out_end": 20.72,
+      "asset": "S002_P002.png",
+      "x": 0.4,
+      "motion": "static",
+      "metric": "DIRECT TO BASEMENTS",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 20.72,
+      "out_end": 24,
+      "asset": "A02_IllinoisTunnelMap1910.png",
+      "x": 0.46,
+      "motion": "static",
+      "metric": "NOT ONE TUNNEL",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 24,
+      "out_end": 28.62,
+      "asset": "A02_IllinoisTunnelMap1910.png",
+      "x": 0.58,
+      "motion": "static",
+      "metric": "~60 MILES",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 28.62,
+      "out_end": 31.8,
+      "asset": "S006_P004.png",
+      "x": 0.45,
+      "motion": "static",
+      "metric": "AN UNDERGROUND GRID",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 31.8,
+      "out_end": 34.88,
+      "asset": "S001_P001.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "THE CITY CONTINUED ABOVE",
+      "provenance": "AI RECONSTRUCTION"
+    }
+  ]
+}
