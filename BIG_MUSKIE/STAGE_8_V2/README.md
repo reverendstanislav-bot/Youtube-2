@@ -25,3 +25,22 @@ Thus:
 Current paid-generation authorization: **0**.
 
 The old Stage 8 V1 prompt pack and cost preflight are superseded and must not be used.
+
+
+## VISUAL DIVERSITY OVERRIDE
+
+Stage 8 V2 established factual/source coverage, but it did not sufficiently penalize repeated archive use.
+
+The later `VISUAL_DIVERSITY_PASS` is authoritative for production shot count and anti-repeat planning.
+
+Current production baseline:
+- 116/116 beats assigned a concrete composition;
+- 20 REAL;
+- 11 REAL_CONTEXT;
+- 8 DOC;
+- 55 GFX_GAP;
+- 22 GEN_GAP;
+- visible R/C/D asset reuse maximum: 2;
+- reuse violations: 0.
+
+The former 9-generated-image estimate is superseded.

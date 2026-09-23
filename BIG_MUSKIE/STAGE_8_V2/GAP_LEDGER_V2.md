@@ -1,6 +1,6 @@
 # BIG MUSKIE — STAGE 8 V2 GENUINE GAP LEDGER
 
-Status: **9 UNIQUE RECONSTRUCTION STILLS REQUIRED AFTER V2 CLEAN REMAP**
+Status: **SUPERSEDED BY VISUAL DIVERSITY PASS — DO NOT USE FOR PRODUCTION COUNT**
 
 No paid generation has been submitted.
 
@@ -31,3 +31,19 @@ The **number of unique reconstruction stills remains 9**, but the reasoning is d
 - reconstruction is retained only where no physical V2 asset or primary-source diagram can honestly show the requested action/human event.
 
 The old P01–P09 prompt pack and old 2.25-credit preflight remain superseded until a new V2-grounded prompt pack is written and costed.
+
+
+## Superseded
+
+This 9-image count was a source-coverage result, not a visual-diversity result.
+
+The later 116-beat anti-repeat pass hard-caps every visible R/C/D asset at two appearances and assigns one concrete composition per beat.
+
+Working production baseline is now:
+- **22 unique reconstruction stills**
+- **55 unique Remotion/GFX compositions**
+- **20 REAL + 11 REAL_CONTEXT + 8 DOC source beats**
+- visible R/C/D reuse cap = **2**
+- violations = **0**
+
+See `BIG_MUSKIE/VISUAL_DIVERSITY_PASS/`.

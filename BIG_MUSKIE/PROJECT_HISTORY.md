@@ -229,3 +229,23 @@ Future history entries must record:
 - Old Stage 8 V1 prompt/cost preflight remains superseded.
 - Credits spent in this remap: **0.00**.
 
+## 2026-09-23 — 116-beat visual diversity pass
+
+- Reworked the 116-beat plan from source-coverage logic into concrete visual-composition logic.
+- Assigned exactly one concrete shot/composition to every beat.
+- Introduced hard visible-source reuse cap: every R/C/D asset may appear on screen **no more than twice**.
+- A different crop of the same source still counts as reuse.
+- Source data used invisibly for custom GFX does not count as another visible source appearance.
+- Final existing-source allocation:
+  - **20 REAL**
+  - **11 REAL_CONTEXT**
+  - **8 DOC**
+- Final missing-production allocation:
+  - **55 unique GFX compositions**
+  - **22 unique reconstruction stills**
+- Maximum observed visible R/C/D reuse: **2**.
+- Reuse violations: **0**.
+- The old 9-image Stage 8 V2 gap count is superseded.
+- No credits were spent.
+- No image or video generation was submitted.
+

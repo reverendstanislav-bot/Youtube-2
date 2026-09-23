@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 8 V2 REMAP COMPLETE — 116/116 RE-AUDITED AGAINST CLEAN PHYSICAL ARCHIVE**  
-Publication status: **PREPRODUCTION — V2 SOURCE ARCHIVE / 116-BEAT REMAP LOCKED; SOURCE-CAPTURE + NEW PROMPT/COST PREFLIGHT NEXT**
+State: **VISUAL DIVERSITY PASS COMPLETE — 116/116 SHOTS LOCKED; 22 GEN + 55 GFX GAPS; R/C/D REUSE MAX 2**  
+Publication status: **PREPRODUCTION — SOURCE ARCHIVE + STAGE 7 + STAGE 8 V2 + VISUAL DIVERSITY BASELINE LOCKED; NO PAID GENERATION AUTHORIZED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,32 +336,35 @@ Final captions:
 
 ## Immediate next action
 
-**STAGE 8 V2B — SOURCE CAPTURE + NEW PROMPT/COST PREFLIGHT — NO PAID GENERATION**
+**STOP BEFORE PAID GENERATION**
 
-V2 remap result:
-- physical V2 archive closes **85/116 beats**;
-- **18/116 beats** need external source capture + Remotion GFX, but no AI still;
-- **13/116 beats** need reconstruction coverage;
-- those 13 reconstruction beats require **9 unique stills + 4 reuse beats**;
-- paid image jobs submitted: **0**;
-- currently approved image spend: **0.00 credits**.
+The 116-beat visual diversity pass is complete.
 
-The 9 unique genuine gaps are:
-1. G01 onsite assembly / machine born at mine;
-2. G02 human scale during assembly;
-3. G03 operating cycle — bucket down / drag start;
-4. G04 operating cycle — loaded bucket hoist;
-5. G05 operating cycle — swing;
-6. G06 actual walking step;
-7. G07 ground crew / prepared route / trailing cable;
-8. G08 maintenance / human-scale workplace;
-9. G09 1999 dismantling climax.
+Authoritative production baseline:
+- **20 REAL** source beats;
+- **11 REAL_CONTEXT** source beats;
+- **8 DOC** source beats;
+- **55 GFX_GAP** beats / 55 unique Remotion compositions;
+- **22 GEN_GAP** beats / 22 unique reconstruction stills;
+- every visible R/C/D asset is capped at **2** on-screen uses;
+- actual maximum R/C/D reuse = **2**;
+- reuse violations = **0**.
 
-Before any image generation:
-1. physically capture the remaining 18 external text/source records into the source pack;
-2. write a new V2-grounded prompt pack for G01–G09;
-3. audit every prompt against R01/R02/R03/R05/D03/D04/D05;
-4. run exact read-only cost preflight;
-5. stop and request a new exact user approval.
+The prior 9-image Stage 8 estimate is superseded.
 
-The old Stage 8 V1 prompt pack and 2.25-credit preflight are **superseded and non-actionable**.
+Canonical files:
+- `VISUAL_DIVERSITY_PASS/README.md`
+- `VISUAL_DIVERSITY_PASS/VISUAL_DIVERSITY_PASS_V1.md`
+- `VISUAL_DIVERSITY_PASS/SOURCE_REUSE_LEDGER_V1.md`
+- `VISUAL_DIVERSITY_PASS/GAP_LEDGER_V1.md`
+
+Next paid-image workflow, only when requested:
+1. write source-grounded prompts for GEN01–GEN22;
+2. audit all 22 prompts against the real reference package;
+3. run read-only exact cost preflight;
+4. stop and show exact budget;
+5. only an immediate explicit approval of that exact amount permits generation.
+
+GFX production is a separate zero-paid-image task and can be built before any image-generation spend.
+
+No paid generation is currently authorized.
