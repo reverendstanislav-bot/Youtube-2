@@ -79,19 +79,19 @@
     {
       "out_start": 30.2,
       "out_end": 34.72,
-      "asset": "AR_PATENT.png",
-      "x": 0.62,
+      "asset": "V4_WHEEL_ALT.png",
+      "x": 0.5,
       "motion": "static",
       "metric": "MOTOR INSIDE THE WHEEL",
-      "provenance": "DOCUMENT"
+      "provenance": "AI RECONSTRUCTION"
     },
     {
       "out_start": 34.72,
       "out_end": 38.62,
-      "asset": "V4_WHEEL_ALT.png",
-      "x": 0.5,
+      "asset": "V3_WHEEL_MOTION.png",
+      "x": 0.52,
       "motion": "static",
-      "metric": "SIMPLE IN A DIAGRAM",
+      "metric": "SIMPLE IDEA",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -115,7 +115,7 @@
     {
       "out_start": 46.16,
       "out_end": 50.8,
-      "asset": "V2_PREDECESSOR_MIL.png",
+      "asset": "V3_PREDECESSOR.png",
       "x": 0.5,
       "motion": "static",
       "metric": "YEARS OF EXPERIMENTS",
