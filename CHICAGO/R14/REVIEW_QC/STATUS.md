@@ -9,4 +9,4 @@ Status: REVIEW ONLY — NOT YET PUBLICATION-APPROVED.
 - Captions come directly from the word-level transcript with exact sequence coverage.
 - Original approved AAC preserved bit-for-bit.
 - Output normalized to limited-range yuv420p.
-- Textless YouTube end screen retained.
+- Episode 1 end screen: subscribe/avatar circle only; ZERO previous/next-video rectangles; no text.
