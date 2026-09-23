@@ -8,62 +8,99 @@
   "segments": [
     {
       "out_start": 0,
-      "out_end": 6.2,
+      "out_end": 4.8,
       "asset": "V3_TOPDOWN.png",
-      "motion": "scan_lr",
+      "x": 0.42,
       "label": "TC-497 OVERLAND TRAIN",
       "metric": "572 FEET LONG"
     },
     {
-      "out_start": 6.2,
-      "out_end": 13.6,
+      "out_start": 4.8,
+      "out_end": 9.8,
       "asset": "V3_ASSEMBLY.png",
-      "motion": "scan_lr",
+      "x": 0.5,
+      "label": "A MACHINE, NOT A TRUCK",
+      "metric": "ONE CONNECTED SYSTEM"
+    },
+    {
+      "out_start": 9.8,
+      "out_end": 13,
+      "asset": "V3_COUPLING.png",
+      "x": 0.52,
+      "label": "CONNECTED SECTIONS",
+      "metric": "POWER THROUGH THE TRAIN"
+    },
+    {
+      "out_start": 13,
+      "out_end": 16,
+      "asset": "V3_TOPDOWN.png",
+      "x": 0.58,
       "label": "SCALE",
+      "metric": "572 FEET LONG"
+    },
+    {
+      "out_start": 16,
+      "out_end": 19.4,
+      "asset": "V3_ASSEMBLY.png",
+      "x": 0.44,
+      "label": "LAYOUT",
       "metric": "13 CONNECTED UNITS"
     },
     {
-      "out_start": 13.6,
-      "out_end": 21.8,
+      "out_start": 19.4,
+      "out_end": 23.8,
       "asset": "V3_WHEEL_MOTION.png",
       "x": 0.5,
-      "motion": "static",
       "label": "DRIVE SYSTEM",
       "metric": "54 DRIVEN WHEELS"
     },
     {
-      "out_start": 21.8,
-      "out_end": 30.8,
+      "out_start": 23.8,
+      "out_end": 29,
+      "asset": "V4_WHEEL_ALT.png",
+      "x": 0.48,
+      "label": "DISTRIBUTED TRACTION",
+      "metric": "ELECTRIC DRIVE AT THE WHEELS"
+    },
+    {
+      "out_start": 29,
+      "out_end": 34,
       "asset": "V3_CARGOLOAD.png",
       "x": 0.5,
-      "motion": "static",
       "label": "PAYLOAD",
       "metric": "~150 TONS OF CARGO"
     },
     {
-      "out_start": 30.8,
-      "out_end": 39.4,
+      "out_start": 34,
+      "out_end": 39,
       "asset": "V3_CREW.png",
-      "x": 0.5,
-      "motion": "static",
+      "x": 0.48,
       "label": "CREW",
       "metric": "6 PEOPLE"
     },
     {
-      "out_start": 39.4,
-      "out_end": 47.2,
+      "out_start": 39,
+      "out_end": 43.5,
       "asset": "V3_RANGE.png",
-      "motion": "scan_rl",
+      "x": 0.42,
       "label": "MISSION",
       "metric": "NO RAILROAD REQUIRED"
     },
     {
-      "out_start": 47.2,
+      "out_start": 43.5,
+      "out_end": 48,
+      "asset": "V4_RANGE_ALT.png",
+      "x": 0.58,
+      "label": "ROADLESS TERRAIN",
+      "metric": "WHERE INFRASTRUCTURE ENDED"
+    },
+    {
+      "out_start": 48,
       "out_end": 53.88,
       "asset": "V4_ASSEMBLY_ALT.png",
-      "motion": "scan_lr",
-      "label": "TC-497",
-      "metric": "BUILT FOR ROADLESS TERRAIN"
+      "x": 0.5,
+      "label": "LETOURNEAU TC-497",
+      "metric": "OVERLAND TRAIN MARK II"
     }
   ]
 }
