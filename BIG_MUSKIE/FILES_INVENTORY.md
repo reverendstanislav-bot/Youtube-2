@@ -68,3 +68,11 @@ None are canonical for Episode 3 yet. Future large assets belong in Releases/Act
 - STAGE_8/GENERATE_PROMPT_PACK_V1.md — audited production prompts P01–P09.
 - STAGE_8/COST_PREFLIGHT_V1.md — nine separate read-only cost estimates; exact total **2.25 credits**; no jobs submitted.
 
+## Generated reconstruction stills — V1
+
+- GENERATED/RECONSTRUCTION_STYLE_CANON_V1.md — locked reconstruction style + subtitle-safe rule.
+- GENERATED/GEN01_GEN22_MANIFEST_V1.md — 22 job IDs, result URLs, exact spend and archive integrity.
+- External batch archive: `BIG_MUSKIE_GEN01_GEN22_HIGGSFIELD_V1.zip`.
+- Archive SHA-256: `7903cf14982544325a41a90b61dc676370e9df63627f73b196bb0522c1b250b8`.
+- 22/22 technical completion; visual QC pending.
+

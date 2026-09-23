@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **VISUAL DIVERSITY PASS COMPLETE — 116/116 SHOTS LOCKED; 22 GEN + 55 GFX GAPS; R/C/D REUSE MAX 2**  
-Publication status: **PREPRODUCTION — SOURCE ARCHIVE + STAGE 7 + STAGE 8 V2 + VISUAL DIVERSITY BASELINE LOCKED; NO PAID GENERATION AUTHORIZED**
+State: **GEN01–GEN22 GENERATED — 22/22 COMPLETE — VISUAL QC NEXT**  
+Publication status: **PREPRODUCTION — 22 RECONSTRUCTION STILLS GENERATED; NOT YET VISUALLY APPROVED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,35 +336,25 @@ Final captions:
 
 ## Immediate next action
 
-**STOP BEFORE PAID GENERATION**
+**GEN01–GEN22 VISUAL QC — NO RETRIES OR NEW SPEND WITHOUT APPROVAL**
 
-The 116-beat visual diversity pass is complete.
+Generation batch:
+- 22/22 completed;
+- GPT Image 2 / 1K Low / 16:9;
+- 0.50 credit each;
+- exact spend: **11.00 credits**;
+- retries: 0;
+- failures: 0;
+- archive SHA-256: `7903cf14982544325a41a90b61dc676370e9df63627f73b196bb0522c1b250b8`.
 
-Authoritative production baseline:
-- **20 REAL** source beats;
-- **11 REAL_CONTEXT** source beats;
-- **8 DOC** source beats;
-- **55 GFX_GAP** beats / 55 unique Remotion compositions;
-- **22 GEN_GAP** beats / 22 unique reconstruction stills;
-- every visible R/C/D asset is capped at **2** on-screen uses;
-- actual maximum R/C/D reuse = **2**;
-- reuse violations = **0**.
+Next:
+1. visually inspect every GEN01–GEN22 one by one;
+2. classify PASS / HOLD / REJECT;
+3. check 4250-W geometry, scene accuracy, cable/boom/bucket/tub logic and absence of wheels/tracks;
+4. check bottom 12–15% subtitle-safe zone;
+5. check sequence diversity;
+6. identify any replacement prompts;
+7. calculate replacement cost;
+8. stop before any replacement generation until separately approved.
 
-The prior 9-image Stage 8 estimate is superseded.
-
-Canonical files:
-- `VISUAL_DIVERSITY_PASS/README.md`
-- `VISUAL_DIVERSITY_PASS/VISUAL_DIVERSITY_PASS_V1.md`
-- `VISUAL_DIVERSITY_PASS/SOURCE_REUSE_LEDGER_V1.md`
-- `VISUAL_DIVERSITY_PASS/GAP_LEDGER_V1.md`
-
-Next paid-image workflow, only when requested:
-1. write source-grounded prompts for GEN01–GEN22;
-2. audit all 22 prompts against the real reference package;
-3. run read-only exact cost preflight;
-4. stop and show exact budget;
-5. only an immediate explicit approval of that exact amount permits generation.
-
-GFX production is a separate zero-paid-image task and can be built before any image-generation spend.
-
-No paid generation is currently authorized.
+No additional paid generation is authorized.

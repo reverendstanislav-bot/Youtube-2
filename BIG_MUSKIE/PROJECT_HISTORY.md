@@ -249,3 +249,21 @@ Future history entries must record:
 - No credits were spent.
 - No image or video generation was submitted.
 
+## 2026-09-23 — GEN01–GEN22 reconstruction batch generated
+
+- User approved all 22 reconstruction stills at **0.50 credit per image**.
+- Final backend preflight was run on all 22 prompts with the actual R01/R02/R03/R05 reference-media assignments.
+- Every prompt returned exactly **0.50 credit**, no errors and no cost adjustments.
+- Exact batch total: **11.00 credits**.
+- Submitted exactly **22** GPT Image 2 jobs at 1K Low / 16:9.
+- 22/22 completed.
+- Submission failures: 0.
+- Terminal failures: 0.
+- Retries: 0.
+- All outputs: 1344×752 PNG.
+- Batch archive: `BIG_MUSKIE_GEN01_GEN22_HIGGSFIELD_V1.zip`.
+- Archive SHA-256: `7903cf14982544325a41a90b61dc676370e9df63627f73b196bb0522c1b250b8`.
+- Style canon includes mandatory bottom 12–15% subtitle-safe low-detail band.
+- Outputs are generated reconstructions and must be labelled `AI RECONSTRUCTION`, never `HISTORICAL SOURCE`.
+- Batch is technically complete but not yet visually accepted; full GEN01–GEN22 QC is next.
+
