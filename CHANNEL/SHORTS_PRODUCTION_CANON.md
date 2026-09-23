@@ -76,3 +76,11 @@ The rejected V3/V4/V5 Shorts proved that mechanically cropping the finished 16:9
 - Full-bleed 9:16 is allowed only when the clean asset supports a meaningful portrait crop.
 - Wide machines, maps and documents require a curated pan/reframe or a purpose-built editorial composition; never a blind center crop.
 - Scale from one proof Short first. Do not batch-render all episode Shorts until the proof visual language passes human visual review.
+
+## Motion discipline
+
+- No aggressive horizontal scan / left-right sweep on still images.
+- Default motion for Shorts is static framing + hard cut between semantic beats.
+- If motion is used later, it must be a very subtle push/reframe (roughly <=2% scale change over the shot), never a full-frame side-to-side traverse.
+- More energy should come from stronger shot selection and narration-driven cuts, not from artificial camera movement.
+- Captions must remain inside the 9:16 safe area and may use at most two balanced lines; no single-line overflow beyond the frame.
