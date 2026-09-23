@@ -1,3 +1,0 @@
-rectangle_border_edge_mean_before=16.357486
-rectangle_border_edge_mean_after=6.111484
-subscribe_circle_region_bit_identical=True
