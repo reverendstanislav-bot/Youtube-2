@@ -18,7 +18,7 @@
       "asset": "V2_DUNE.png",
       "x": 0.48,
       "motion": "static",
-      "metric": "RIVERS",
+      "metric": "",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -27,7 +27,7 @@
       "asset": "V3_DUNE_LIMIT.png",
       "x": 0.52,
       "motion": "static",
-      "metric": "RIDGES",
+      "metric": "",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -36,7 +36,7 @@
       "asset": "V3_YUMA_TEST.png",
       "x": 0.46,
       "motion": "static",
-      "metric": "SOFT GROUND",
+      "metric": "",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -45,7 +45,7 @@
       "asset": "V4_RANGE_ALT.png",
       "x": 0.54,
       "motion": "static",
-      "metric": "DUNES",
+      "metric": "",
       "provenance": "AI RECONSTRUCTION"
     },
     {
