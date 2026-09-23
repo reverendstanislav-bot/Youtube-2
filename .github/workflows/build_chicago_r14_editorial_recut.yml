@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: chicago-r14-editorial
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
