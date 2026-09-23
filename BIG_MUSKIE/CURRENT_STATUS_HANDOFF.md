@@ -1,115 +1,162 @@
 # BIG MUSKIE — CURRENT STATUS / HANDOFF
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 ## Canonical status
 
-Episode: **3 — Big Muskie**
-Machine: **Bucyrus-Erie 4250-W walking dragline**
-Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 — V2 DIRECTION APPROVED; ENGLISH V3 + FACT CHECK + TTS PACKAGE READY FOR USER REVIEW**
-Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
+Episode: **3 — Big Muskie**  
+Machine: **Bucyrus-Erie 4250-W walking dragline**  
+Project: **Hidden Industrial America / YouTube-2**  
+State: **STAGE 6 LOCKED — ENGLISH V3 FACT-CHECKED; USER AUTHORIZED TTS PIPELINE; TTS PREFLIGHT NEXT**  
+Publication status: **SCRIPT / PREPRODUCTION ONLY — NO AUDIO MASTER, EDIT, RC, OR PUBLICATION CANDIDATE YET**
 
-## Completed in this stage
+Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
+The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
 
-- created a clean Episode 3 production tree based on CHANNEL/PROJECT_STRUCTURE.md rather than copying the V1–V13 iteration sprawl;
-- reviewed current CHANNEL, CHICAGO, and TC497 canonical status/QC lineage;
-- established Big Muskie research scope;
-- built initial research/evidence pack;
-- built factual source ledger;
-- built visual-source survey with rights status;
-- documented material conflicts instead of silently choosing values;
-- developed five documentary angles;
-- created a working packaging/retention hypothesis;
-- created initial Shorts candidates.
+## Current user direction
+
+The user has explicitly moved Episode 3 forward from English V3 review into the production chain:
+
+**TTS → word-level transcript → exact runtime → Stage 7 full visual beat map**
+
+Therefore the previous gate saying "wait for separate user approval of English V3" is obsolete.
+
+Current required order:
+1. rebuild/validate spoken-only V3 text;
+2. TTS preflight and chunking;
+3. generate Alexey TTS with identical settings across chunks;
+4. continuity QC and audio master assembly;
+5. exact runtime + word-level alignment/transcript;
+6. commit audio/timing manifests and hashes;
+7. build the full Stage 7 visual beat map from real VO timestamps;
+8. do **not** generate images until Stage 7, the full prompt pack, exact image count, and credit budget are reviewed and explicitly approved.
 
 ## Inherited non-negotiable production rules
 
 - GitHub is project memory and source of truth.
 - Chicago and TC497 are reference only unless the user explicitly asks to modify them.
+- no force-push;
+- never overwrite newer `main`; re-read HEAD before every write;
 - no video generation;
 - no image-generation spend before script + beat map + complete prompt pack + exact budget approval;
 - source provenance and rights must be recorded;
-- reconstruction/generated imagery cannot be presented as authentic archive;
-- final captions: white base #FFFFFF, active spoken word #F28A3A, word-level sync, one clean renderer;
+- verified historical visuals may carry `HISTORICAL SOURCE` only while the authentic historical source is actually on screen;
+- generated/reconstructed imagery must never be presented as authentic archive and must use the channel's reconstruction labeling;
+- final captions: white base `#FFFFFF`, active spoken word `#F28A3A`, word-level sync, one clean renderer, no black subtitle block;
 - review/candidate/final labels follow CHANNEL approval semantics;
 - proof → user review → RC → exhaustive QC → native upload master.
 
-## High-confidence story spine
+## Documentary lock
 
-1. The surviving 220-cubic-yard bucket is the physical mystery object.
-2. Central Ohio Coal faced deep overburden across a very large, hilly surface-mining property.
-3. Bucyrus-Erie built a one-off 4250-W onsite after shipping major components by rail and truck.
-4. Big Muskie became the primary stripping machine: it removed overburden rather than mining coal directly.
-5. Its scale solved a specific 1960s mine-and-power economics problem, but imposed unusual terrain, maintenance, electrical, and operating constraints.
-6. It stopped in January 1991 amid a combination of more efficient mining technology and reduced demand for high-sulfur Ohio coal after the 1990 Clean Air Act Amendments.
-7. Preservation efforts failed; AEP dismantled it in 1999 while preserving the bucket.
-8. The bucket became the anchor of Miners' Memorial Park, while large portions of the former mining landscape moved into reclamation/conservation use.
+Working title: **America Built a 27-Million-Pound Machine. Then Scrapped It.**
 
-## Production research lock after gap-closure pass
+Documentary angle: **Scale with a reason.**
 
-The previously open technical questions are now **closed for production wording**. They no longer block the script.
+Central question:
 
-- **Primary engineering lineage found:** 1969 SME/AIME paper `Worlds Largest Dragline` by Melvin W. Kraschnewski covers the design/construction of the BECO 4250-W. Kraschnewski is independently documented in a 1968 U.S. patent as an inventor assigning dragline-hoist technology to Bucyrus-Erie Company. The complete SME paper is commercially gated, but its bibliographic identity and abstract are verified.
-- **Contemporary mine-system source found:** Paul D. Martinka's 1969 AIME paper `Central Ohio Coal Company's Mine Expansion Program` documents the $41m Muskingum expansion, Unit 5 power demand, and the role of the world's largest dragline plus electric railroad.
-- **Actual operating study found:** 1977 U.S. Bureau of Mines-sponsored Penn State study uses Muskingum Mine / BE4250-W field data. For the measured/actual study month it records a 75.25-second mean cycle, 35% dragline availability and 1,949,200 yd³/month dragline overburden removal. These are **period-study values, not lifetime averages**.
+> What problem could make a 27-million-pound machine economically rational — and what changed so completely that the machine was eventually scrapped?
 
-### Dimensions and electrical data — production wording
+This is not a "look how huge it was" film. The story explains why geology, deep overburden, electric-power demand, mine geometry, coal economics and the available mining technology made Big Muskie a rational answer for a particular industrial system — and why that equation later stopped working.
 
-- **Height:** use **about 222 ft / roughly 22 stories**. Ohio Geological Survey gives 222 ft; technical specification tables commonly give 222 ft 6 in. A current ODNR visitor/exhibit description rounds to 240 ft; that is treated as a presentation/measurement-rounding discrepancy, not a reason to keep the script blocked.
-- **Boom:** use **310 ft**. Ohio Geological Survey and current ODNR material agree; Caterpillar's 330-ft statement is kept as a documented outlier and not used for narration.
-- **Overall length:** **487 ft 6 in with boom down** (or about 487 ft in narration).
-- **Width:** **151 ft 6 in** (or about 151 ft in narration).
-- **Machine mass:** **more than 27 million lb**. Do not force an exact converted tonnage.
-- **Power feed:** technical sources give **13.8 kV**; current ODNR exhibit rounds it to 13,000 V. Production wording: **"about 13.8 kilovolts"** in technical graphics or **"about 13 kilovolts"** in narration.
-- **Main motion drives:** 18 × 1,000-hp DC motors across hoist/drag plus 10 × 625-hp swing motors, based on Bucyrus retrospective documentation.
+## Dramatic architecture lock
 
-### Construction-hours conflict — production resolution
+V1 is preserved as the sourced first-draft baseline and must not be overwritten.
 
-There is no need to leave `200k vs 300k` as an open research blocker.
+V2 directorial direction was approved by the user and is the dramatic basis for V3:
 
-- Caterpillar's Bucyrus history: **200,000 man-hours to construct**.
-- Multiple industry histories derived from Bucyrus material repeat roughly **200,000 man-hours**.
-- A current 2025 ODNR exhibit says **300,000 hours to build on-site**.
+- **Act I — Mystery:** the surviving bucket is the physical mystery; Big Muskie worked, so why was it stopped and dismantled?
+- **Act II — Engineering spectacle:** first explain the mine/power problem, then reveal the machine; stage one full dragline cycle as action; explain hoist/drag/swing only after the audience sees the cycle.
+- **Walking mechanism:** begins as engineering wonder, ends as an infrastructure constraint.
+- **Human scale:** crews, power, prepared ground, mine flow and maintenance enter before the midpoint.
+- **Midpoint reversal:** prove productivity first, then reveal the scoped 1977 field-study month with **35% mechanical availability**; never convert that to lifetime availability.
+- **Act III — System collapse:** mining technology, high-sulfur-coal economics and the changing emissions environment alter the equation; no single villain.
+- **Climax:** 1999 dismantling is a full industrial/preservation problem, not a footnote.
+- **Ending:** return to the same bucket; opening meaning = scale curiosity, ending meaning = evidence of a vanished industrial equation.
 
-Because the sources do not define identical accounting scope, the exact number is not used. **Locked narration wording: "more than 200,000 labor-hours"** or **"hundreds of thousands of labor-hours."** The 300,000 figure remains in the ledger as an exhibit figure, not a competing script number.
+## Production research lock
 
-### Bucket / payload
+Research blockers: **0**.
 
-- capacity: **220 yd³**;
-- empty bucket: **roughly 240 tons** when needed;
-- material per bite: **up to about 325 tons**;
-- never call it a "325-ton empty bucket."
+### Core identity / chronology
+- Bucyrus-Erie **4250-W**.
+- Central Ohio Coal Company / Muskingum Mine.
+- project began in **1966**.
+- production began in **1969**.
+- stopped in **January 1991**.
+- dismantled in **1999**.
 
-### Lifetime / production
+### Scale / dimensions
+- machine mass: **more than 27 million lb**; do not force one exact converted tonnage.
+- height: production wording **about 222 ft / roughly 22 stories**.
+- boom: **310 ft**; Caterpillar's 330-ft statement remains a documented outlier and is not used in narration.
+- overall boom-down length: about **487 ft**.
+- width: about **151 ft**.
+- tub: about **105 ft diameter**.
+- bucket capacity: **220 yd³**.
+- empty bucket: **roughly 240 tons**.
+- material per bite: **up to about 325 tons**; never describe 325 tons as empty-bucket mass.
 
-- lifetime earth and rock: **more than 483 million cubic yards**;
-- do not use 608 million;
-- contemporary Bucyrus: **>8,000 yd³ per operating hour** in the cited 1976 context;
-- USBM 1977 study: actual-study-month mean cycle **75.25 s**, availability **35%**, dragline removal **1,949,200 yd³/month**. Scope must be stated.
+### Construction / logistics
+- components arrived in roughly **340 rail cars + 260 trucks**.
+- narration construction wording: **hundreds of thousands of labor-hours** / **more than 200,000 labor-hours**.
+- do not invent a reconciliation between the 200k and 300k source figures.
+
+### Electrical / motion systems
+- narration power feed: **about 13 kV**.
+- technical graphics may use **13.8 kV**.
+- documented main-motion banks:
+  - 10 × 1,000 hp hoist;
+  - 8 × 1,000 hp drag;
+  - 10 × 625 hp swing.
+- this means **28 documented motors for the three main-motion systems**, not 28 total motors in the entire machine.
+
+### Walking / terrain
+- four walking shoes, approximately **20 × 65 ft**.
+- grade requirement approximately **under 5%**.
+- mobility must be framed as requiring prepared infrastructure, not as unrestricted movement.
+
+### Production / lifetime
+- contemporary Bucyrus context: **more than 8,000 yd³ per operating hour**.
+- lifetime earth/rock moved: **more than 483 million cubic yards**.
+- do **not** use 608 million.
+- nearly **18 million tons of coal exposed** in current ODNR wording.
+
+### 1977 USBM/Penn State field-study snapshot
+- mean cycle approximately **75.25 sec** at about a 120° swing;
+- **35% mechanical availability** only for the actual study month;
+- about **1,949,200 yd³/month** in the same actual-data row.
+- these values must remain explicitly scoped to the measured study period and must never be promoted to lifetime averages.
 
 ### Shutdown
+Use a multi-factor explanation:
+- changing / more efficient mining technology;
+- weakening economics and demand for Ohio high-sulfur coal;
+- changed post-1990 emissions environment.
 
-Use a multi-factor explanation: improved mining technology + deterioration in the economics/demand for high-sulfur Ohio coal in the post-1990 Clean Air Act environment. EPA Title IV Phase I compliance began in 1995, so do not claim Big Muskie was shut down in January 1991 for immediate statutory noncompliance.
+Do **not** say `EPA killed Big Muskie`.  
+EPA Title IV Phase I compliance began in **1995**, after Big Muskie stopped in January 1991.
 
-### What survives
+### Preservation / surviving material
+- preservation attempts existed;
+- AEP 1999 documents reclamation obligations, time/funding issues and long-term liability;
+- the bucket is the major public surviving artifact;
+- HCEA holds smaller components, so never say the bucket is literally the only surviving piece.
 
-The 220-yd³ bucket is the major public surviving artifact at Miners' Memorial Park. HCEA holds smaller Big Muskie components, so narration must not claim the bucket is literally the only surviving component.
+Detailed research controls:
+- `RESEARCH/SOURCE_LEDGER.md`
+- `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`
+- `RESEARCH/RESEARCH_GAPS_CLOSED_2026-09-22.md`
 
-Detailed closure note: `RESEARCH/RESEARCH_GAPS_CLOSED_2026-09-22.md`.
-Detailed fact audit: `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`.
-
-## Stage 5 production lock
+## Stage 5 lock
 
 - documentary angle: **Scale with a reason**;
-- working title: **America Built a 27-Million-Pound Machine. Then Scrapped It.**
+- working title locked as above;
 - thumbnail direction: authentic EPA/NARA public-domain Big Muskie hero frame; compact optional text **27 MILLION LB**;
-- narration draft: **3,128 spoken words**, estimated **~19.5–21.5 min** with documentary pacing;
-- chapter architecture: 9 narrative sections including cold open;
+- 9-section retention architecture including cold open;
 - claim→source map completed;
-- sourced narration draft V1 completed and preserved;
-- Russian V2 directorial rewrite completed for user story/drama review;
-- five Shorts have exact extraction markers in the long-form draft.
+- sourced English V1 completed and preserved;
+- Russian V2 directorial rewrite completed and approved as direction;
+- five Shorts designed inside the long-form structure.
 
 Canonical Stage 5 files:
 - `DEVELOPMENT/STAGE_5_LOCK.md`
@@ -120,27 +167,7 @@ Canonical Stage 5 files:
 - `SCRIPT/V2_DIRECTORIAL_REWRITE_NOTES.md`
 - `SCRIPT/SHORTS_EXTRACTION_MAP_V1.md`
 
-No TTS, generated images, video generation or credit spend has occurred.
-
-ative sections including cold open;
-- claim→source map completed;
-- sourced narration draft V1 completed;
-- five Shorts have exact extraction markers in the long-form draft.
-
-Canonical Stage 5 files:
-- `DEVELOPMENT/STAGE_5_LOCK.md`
-- `SCRIPT/RETENTION_OUTLINE_V1.md`
-- `SCRIPT/CLAIM_SOURCE_MAP_V1.md`
-- `SCRIPT/NARRATION_DRAFT_V1.md`
-- `SCRIPT/SHORTS_EXTRACTION_MAP_V1.md`
-
-No TTS, generated images, video generation or credit spend has occurred.
-
-
-
-## Stage 6 status — 2026-09-23
-
-User approved continuing from the V2 directorial direction.
+## Stage 6 lock
 
 Completed:
 - native English V3 adaptation, not literal translation;
@@ -148,8 +175,7 @@ Completed:
 - line-by-line factual verification completed;
 - factual blockers: **0**;
 - V3-aligned Shorts map completed;
-- clean TTS text and TTS direction package prepared;
-- **audio not generated** pending explicit approval of English V3.
+- TTS direction/pronunciation package prepared.
 
 Canonical Stage 6 files:
 - `SCRIPT/NARRATION_V3_EN_REVIEW.md`
@@ -158,5 +184,179 @@ Canonical Stage 6 files:
 - `SCRIPT/SHORTS_EXTRACTION_MAP_V2.md`
 - `SCRIPT/TTS_PACKAGE_V1.md`
 
-Next gate:
-**user approval of English V3 → TTS generation → word-level transcript/timing → Stage 7 visual beat map.**
+Important preflight finding:
+- the current `NARRATION_V3_EN_TTS_CLEAN.txt` is **not yet clean enough for production**;
+- it still contains the Stage 6 status/header text at the beginning and the non-spoken end-screen instruction at the end;
+- rebuild it from V3 as spoken narration only before generating audio.
+
+## TTS lock / current next stage
+
+Canonical voice: **Alexey**.
+
+Known preset:
+- `voice_id = 7c2133e5-68ab-511f-9aed-9a67664382b1`
+- `voice_type = preset`
+- planned model: `text2speech_v2`
+- planned variant: `elevenlabs`
+
+Voice direction:
+- restrained documentary confidence;
+- not a trailer announcer;
+- engineering wonder without worship;
+- cold open deliberate;
+- Chapter 3 rhythmic/action cadence;
+- slow before and after the 35% figure;
+- Clean Air Act section neutral and precise;
+- dismantling chapter heavier and less technical;
+- final 60–90 seconds reflective, not sentimental.
+
+Pronunciation:
+- Big Muskie → **Big MUS-key**
+- Muskingum → **mus-KING-um**
+- AEP → **A-E-P**
+- AIME → **A-I-M-E** if needed
+- dragline → **DRAG-line**
+- Bucyrus-Erie → run a short pronunciation check before the full batch if Alexey renders it unnaturally.
+
+### TTS technical constraint
+
+The full narration cannot be submitted as one ElevenLabs/Higgsfield job because the backend prompt limit is **5,000 characters**.
+
+Required chunking rules:
+- rebuild spoken-only V3 first;
+- split into natural semantic chunks **under 5,000 characters**;
+- prefer chapter/paragraph boundaries;
+- never split a sentence;
+- use identical Alexey preset/settings across all chunks;
+- cost-preflight the entire batch before generation;
+- preserve a chunk manifest;
+- after generation check loudness, pace, tone, joins, pauses and pronunciation consistency.
+
+No Big Muskie TTS audio master has yet been generated.  
+No Big Muskie image/video generation credits have been spent.
+
+## Shorts lock
+
+V3-aligned candidates:
+- SHORT-01 — bucket / surviving artifact.
+- SHORT-02 — walking system.
+- SHORT-03 — 28 documented hoist/drag/swing motors.
+- SHORT-04 — why one environmental law did **not** simply kill Big Muskie.
+- SHORT-05 — why the machine was dismantled.
+
+Initial cuts use exact long-form wording. After real VO timing, subordinate clauses may be trimmed for duration, but no new factual claim may be added without source-map review.
+
+## Stage 7 gate after VO
+
+Only after final VO timing exists, build the complete visual beat map against **real audio timestamps**, not approximate script timing.
+
+Each beat must contain:
+- Beat ID;
+- start/end time;
+- exact narration segment;
+- narrative function;
+- visual objective;
+- one main asset class;
+- specific asset requirement;
+- provenance/source requirement;
+- motion/editing instruction;
+- GFX requirement;
+- authenticity label;
+- Shorts relation;
+- risk/QC note.
+
+Main asset classes:
+- `ARCHIVE_PHOTO`
+- `ARCHIVE_FILM`
+- `DOCUMENT`
+- `MAP`
+- `TECH_DRAWING`
+- `PHOTO_CURRENT`
+- `GFX`
+- `CHART`
+- `GENERATE`
+- `EDITORIAL_ONLY`
+
+After the entire beat map:
+1. inventory real archive/source assets;
+2. identify visual gaps;
+3. mark only genuine gaps as `GENERATE`;
+4. write the complete prompt pack;
+5. prompt audit;
+6. exact image count;
+7. exact credit budget;
+8. explicit user approval;
+9. only then image generation.
+
+**Video generation remains prohibited.**
+
+## Visual / provenance / caption lock
+
+Channel visual palette:
+- Charcoal `#171A1C`
+- Iron `#30363A`
+- Warm Paper `#E6DDC8`
+- Ivory `#F3EBDD`
+- Faded Rust `#A55235`
+- Blueprint Gray-Blue `#5F747D`
+
+Typography:
+- IBM Plex Sans Condensed Bold
+- IBM Plex Sans
+- IBM Plex Mono
+
+Do not use:
+- orange collage blocks;
+- cheap orange rectangles;
+- giant info cards;
+- generic presentation UI;
+- random zooms;
+- shakes;
+- slideshow cadence;
+- three similar hero shots in a row;
+- fake archival AI;
+- impossible machinery;
+- text over faces/important mechanics;
+- black subtitle blocks;
+- generic neon/horror look.
+
+Sequence rule: no more than two highly similar main objects consecutively; each next beat must change scale, viewpoint, information, subject, medium or function.
+
+High-value archive rights status already identified:
+- EPA DOCUMERICA / NARA 554830 — public domain.
+- EPA DOCUMERICA / NARA 555644 — public domain.
+- 1999 whole-machine side view — CC BY-SA 3.0.
+- preserved bucket photo — CC BY-SA 4.0.
+- Milwaukee Public Library Bucyrus scans — research source only until publication permission/copyright clearance.
+- Google/search thumbnails are never treated as licensed assets.
+
+Final captions:
+- base words **WHITE #FFFFFF**;
+- active spoken word **ORANGE #F28A3A**;
+- word-level sync;
+- one renderer/layer;
+- safe margins;
+- no `100,100)}`;
+- no random blue words;
+- no duplicate caption layer;
+- no black subtitle rectangle.
+
+## Immediate next action
+
+**STEP B — TTS PREFLIGHT**
+
+1. rebuild `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt` as spoken-only narration;
+2. verify exact word/character count;
+3. split into natural <5000-character chunks;
+4. verify Alexey preset and settings;
+5. run full-batch cost preflight;
+6. record the manifest and total estimated cost;
+7. only then generate TTS.
+
+After each major stage record in GitHub:
+- what was completed;
+- what was checked;
+- commit SHA;
+- actual credits spent;
+- exact runtime once available;
+- the next concrete step.
