@@ -1,0 +1,15 @@
+{
+  "shots": 164,
+  "snappedCutsToWordEnds": 129,
+  "provenanceCounts": {
+    "HISTORICAL SOURCE": 16,
+    "AI RECONSTRUCTION": 127,
+    "DOCUMENT": 17,
+    "CONCEPT": 4
+  },
+  "overrideCount": 11,
+  "historicalOnGenerated": 0,
+  "archiveAsReconstruction": 0,
+  "captions": 442,
+  "status": "PASS"
+}
