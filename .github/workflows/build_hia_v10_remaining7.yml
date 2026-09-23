@@ -4,6 +4,14 @@ on:
   push:
     paths:
       - '.github/workflows/build_hia_v10_remaining7.yml'
+      - 'SHORTS_RENDER/build_v10_batch.py'
+      - 'CHICAGO/SHORTS/CHI-S02_V10.json'
+      - 'CHICAGO/SHORTS/CHI-S03_V10.json'
+      - 'CHICAGO/SHORTS/CHI-S04_V10.json'
+      - 'CHICAGO/SHORTS/CHI-S05_V10.json'
+      - 'TC497/SHORTS/TC497-S03_V10.json'
+      - 'TC497/SHORTS/TC497-S04_V10.json'
+      - 'TC497/SHORTS/TC497-S05_V10.json'
   workflow_dispatch:
 
 permissions:
