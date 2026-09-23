@@ -1,57 +1,52 @@
 # BIG MUSKIE — TTS PACKAGE V1
 
-Status: **PREPARED, NOT AUTHORIZED TO GENERATE AUDIO**
+Status: **AUTHORIZED — PREFLIGHT COMPLETE; READY TO GENERATE AUDIO**
 
-Canonical review text:
-`SCRIPT/NARRATION_V3_EN_REVIEW.md`
+Canonical narration: `SCRIPT/NARRATION_V3_EN_REVIEW.md`  
+Spoken-only text: `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`  
+Chunk manifest: `SCRIPT/TTS_CHUNK_MANIFEST_V1.md`
 
-Clean spoken text:
-`SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`
+## Engine / voice lock
+- voice: **Alexey**
+- voice_id: `7c2133e5-68ab-511f-9aed-9a67664382b1`
+- voice_type: `preset`
+- model: `text2speech_v2`
+- variant: `elevenlabs`
+- same settings on every chunk
+- full narration must not be sent as one job; backend limit is 5000 characters
 
 ## Delivery
-
 - restrained documentary confidence;
 - no trailer-announcer exaggeration;
 - engineering wonder without worship;
-- emotional weight increases gradually after Chapter 5.
-
-### Pacing
-
-- cold open: deliberate; pause after "It worked" and before the central question;
-- Chapter 1: slightly faster explanatory cadence;
-- Chapter 2 reveal: leave air around scale numbers;
-- Chapter 3: rhythmic/action cadence;
-- Chapter 5: slow before and after "thirty-five percent mechanical availability";
-- Chapter 6: neutral/careful on Clean Air Act causality;
-- Chapter 7: slower, less technical;
-- final 90 seconds: reflective, not sentimental.
+- emotional weight grows after Chapter 5;
+- cold open deliberate;
+- Chapter 3 rhythmic/action cadence;
+- slow around the 35% study-month figure;
+- Clean Air Act causality neutral and precise;
+- dismantling slower and heavier;
+- final 60–90 seconds reflective, not sentimental.
 
 ## Pronunciation
+- Big Muskie: Big MUS-key
+- Muskingum: mus-KING-um
+- AEP: A-E-P
+- AIME: A-I-M-E if needed
+- dragline: DRAG-line
+- Bucyrus-Erie: check output during continuity QC
 
-- Big Muskie: "Big MUS-key"
-- Muskingum: "mus-KING-um"
-- AIME: use "A-I-M-E" if acronym pronunciation sounds unnatural
-- AEP: "A-E-P"
-- dragline: "DRAG-line"
-- Bucyrus-Erie: verify one voice test before final batch
-
-## TTS normalization
-
+## Normalization
 - chapter headings not spoken;
+- status/header text not spoken;
 - source comments not spoken;
 - SHORT markers not spoken;
-- use standard American English number reading.
+- end-screen production instruction not spoken.
 
-## Deliverables after authorization
+## Preflight
+- spoken-only characters: **18944**
+- chunks: **4**
+- chunk lengths: **4797 / 4839 / 4816 / 4486**
+- estimated total cost: **57.00 credits**
+- preflight spend: **0.00 credits**
 
-- final audio master;
-- word-level transcript;
-- exact duration;
-- chapter timecodes;
-- Shorts start/end timecodes;
-- text hash;
-- audio hash.
-
-## Gate
-
-Do not generate TTS until the user explicitly approves English V3.
+The user has explicitly authorized the TTS pipeline. Proceed to generation without another V3 approval gate.

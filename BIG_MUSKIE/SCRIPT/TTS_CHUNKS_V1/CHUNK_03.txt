@@ -1,0 +1,167 @@
+Then came transport.
+
+Then the power station.
+
+The machine was one organ in a much larger industrial body.
+
+If the power plant needed more coal, the mine had to expose more coal.
+
+If the mine had to expose more coal, Big Muskie had to move more earth.
+
+And if Big Muskie had to move more earth, the entire system around it had to keep the machine working.
+
+In the late 1960s, that logic was convincing.
+
+But it contained a vulnerability.
+
+The more a system depends on one unique machine, the more expensive it becomes when that machine is unavailable.
+
+## 5 — WHEN THE GIANT STOPS LOOKING INVINCIBLE
+
+And yet, the idea worked.
+
+Under the operating conditions described by Bucyrus in the mid-1970s, Big Muskie could move more than eight thousand cubic yards of overburden per operating hour.
+
+Across its working life, AEP and Ohio historical sources credit the machine with moving more than four hundred eighty-three million cubic yards of rock and earth.
+
+A current Ohio marker says that work exposed nearly eighteen million tons of coal.
+
+This was not a machine that became too large to be useful.
+
+It was useful.
+
+That is why the next document matters so much.
+
+In 1977, a study sponsored by the U.S. Bureau of Mines examined the real stripping system at the Muskingum Mine.
+
+Not a promotional brochure.
+
+Not a memorial plaque.
+
+Operating data.
+
+In one measured condition, at a swing of roughly one hundred twenty degrees, Big Muskie averaged a cycle of about seventy-five seconds.
+
+Think about what that means after the last scene.
+
+The bucket.
+
+Hundreds of tons.
+
+Hoist.
+
+Swing.
+
+Dump.
+
+Return.
+
+A little more than a minute.
+
+Then the same study gives us a very different number.
+
+In the actual month represented by that dataset, Big Muskie was recorded at thirty-five percent mechanical availability.
+
+That sentence has to be handled carefully.
+
+It is not a lifetime average.
+
+It does not mean Big Muskie spent its entire career available only thirty-five percent of the time.
+
+It is a documented snapshot of one real operating period in which the largest machine in the mine was mechanically available for roughly a third of the measured time.
+
+And in that same actual-data row, the dragline still moved about 1.95 million cubic yards of overburden during the month.
+
+Those numbers belong together.
+
+They show the real paradox of Big Muskie.
+
+Extraordinary productivity when operating.
+
+Extraordinary demands on the system required to keep it operating.
+
+Scale concentrated capability.
+
+It also concentrated risk.
+
+If one machine in a fleet goes down, the rest of the fleet may still move.
+
+There was no second Big Muskie waiting beside the first.
+
+No identical spare.
+
+A serious outage was not simply a problem with one component.
+
+It could become a problem for the stripping system itself.
+
+Former supervisor Eddie Lindimore later recalled that when Big Muskie was available, the goal was to keep it working — and that breakdowns were a familiar part of life around the machine.
+
+That is human recollection, not a lifetime reliability statistic.
+
+But now it sits inside a much more interesting context.
+
+Big Muskie could be a brilliant answer to a very specific problem.
+
+And very specific answers become vulnerable when the problem itself begins to change.
+
+## 6 — THE EQUATION STARTS TO BREAK
+
+By the 1980s, the important question was no longer:
+
+Can Big Muskie move enormous amounts of earth?
+
+It could.
+
+The question was:
+
+Does the mine still need to move earth this way?
+
+When the machine was designed, several conditions pointed in the same direction.
+
+Strong coal demand.
+
+Deep overburden.
+
+A particular mine geometry.
+
+The economics of a particular stripping system.
+
+The technology available at the time.
+
+Then those conditions began to move.
+
+More efficient mining technologies changed the alternatives.
+
+At the same time, the economics of Ohio high-sulfur coal were weakening.
+
+The Clean Air Act Amendments of 1990 changed the future economics of sulfur emissions for electric utilities.
+
+But this is where the simple version of the story fails.
+
+The easy version says one environmental law killed Big Muskie.
+
+The documents do not support that story.
+
+Title IV did create a new system for reducing sulfur-dioxide emissions.
+
+But Phase I compliance did not begin until 1995.
+
+Big Muskie was idled in January 1991.
+
+The machine did not suddenly become illegal on the day it stopped.
+
+Market expectations were changing.
+
+The economics of high-sulfur coal were changing.
+
+Mining technology was changing too.
+
+Big Muskie stopped because the system that had once made it rational no longer came together in the same way.
+
+That is the real engineering ending.
+
+In 1966, the application study pointed toward the 4250-W.
+
+The giant machine was the answer.
+
+A quarter-century later, the inputs had changed.
