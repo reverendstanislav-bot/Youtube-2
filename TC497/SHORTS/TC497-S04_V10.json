@@ -1,0 +1,97 @@
+{
+  "id": "TC497-S04",
+  "fps": 30,
+  "title_lines": [
+    "THE ARMY CONSIDERED A",
+    "NUCLEAR OVERLAND TRAIN"
+  ],
+  "version": "V10_CANON",
+  "rules": {
+    "motion": "STATIC + THREE SUBTLE PUSHES ONLY",
+    "source": "clean TC497 assets",
+    "provenance": "CONCEPT on unbuilt nuclear visuals"
+  },
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 5,
+      "asset": "V3_YUMA_TEST.png",
+      "x": 0.48,
+      "motion": "push",
+      "metric": "THE CONVENTIONAL TC-497",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 5,
+      "out_end": 9.58,
+      "asset": "V4_NUKE_TECH.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "THE ARMY WENT FURTHER",
+      "provenance": "CONCEPT"
+    },
+    {
+      "out_start": 9.58,
+      "out_end": 15.5,
+      "asset": "V2_NUCLEAR_CONCEPT.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "1961",
+      "provenance": "CONCEPT"
+    },
+    {
+      "out_start": 15.5,
+      "out_end": 21.26,
+      "asset": "nuclear_concept_clean.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "COMPACT NUCLEAR POWER?",
+      "provenance": "CONCEPT"
+    },
+    {
+      "out_start": 21.26,
+      "out_end": 26.58,
+      "asset": "V2_DISTRIBUTION.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "ELECTRICAL ARCHITECTURE",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 26.58,
+      "out_end": 31.5,
+      "asset": "V2_POWERTRAIN.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "NO SHAFT THROUGH THE TRAIN",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 31.5,
+      "out_end": 37.24,
+      "asset": "electric_wheel_v6.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "ELECTRIC TRACTION AT THE WHEELS",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 37.24,
+      "out_end": 42,
+      "asset": "V4_NUKE_TECH.png",
+      "x": 0.6,
+      "motion": "static",
+      "metric": "ANOTHER SOURCE COULD GENERATE POWER",
+      "provenance": "CONCEPT"
+    },
+    {
+      "out_start": 42,
+      "out_end": 45.58,
+      "asset": "nuclear_unbuilt_clean.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "UNBUILT CONCEPT",
+      "provenance": "CONCEPT"
+    }
+  ]
+}
