@@ -116,31 +116,29 @@ def visual_filter(beat):
     ))
 
     # Always remove the burned-in long-form caption strip.
-    # Wide evidence shots preserve the full horizontal source.
-    # Other shots get only a mild centered crop, never a second copy.
+    # Evidence/maps keep nearly the full width. Other shots get a mild centered crop.
     if keep_full:
         picture=(
             "crop=iw:ih-180:0:0,"
             "scale=1040:-2:flags=lanczos,"
-            "pad=1080:620:20:(620-ih)/2:color=0x171A1C"
+            "pad=1080:620:20:(620-ih)/2:color=0x171A1C,"
+            "pad=1080:1920:0:276:color=0x171A1C"
         )
+        y=276; panel_h=620
     else:
         picture=(
             "crop=1560:900:180:0,"
-            "scale=1080:623:flags=lanczos"
+            "scale=1080:623:flags=lanczos,"
+            "pad=1080:1920:0:268:color=0x171A1C"
         )
+        y=268; panel_h=623
 
-    # Neutral industrial background; no blurred duplicate of the source.
-    # One warm-paper outline and one rust rule are the only framing devices.
-    y=276 if keep_full else 268
-    panel_h=620 if keep_full else 623
+    # Neutral industrial background. No blurred/second copy of the source.
     return (
-        f"color=c={CHARCOAL}:s=1080x1920:r=30[bg];"
-        f"[in]{picture}[pic];"
-        f"[bg][pic]overlay=0:{y},"
-        f"drawbox=x=20:y={y}:w=1040:h={panel_h}:color=0xF3EBDD@0.28:t=2,"
-        f"drawbox=x=54:y=1018:w=972:h=5:color={ORANGE}:t=fill,"
-        f"drawbox=x=0:y=1023:w=1080:h=897:color={CHARCOAL}@0.98:t=fill"
+        picture
+        +f",drawbox=x=20:y={y}:w=1040:h={panel_h}:color=0xF3EBDD@0.28:t=2"
+        +f",drawbox=x=54:y=1018:w=972:h=5:color={ORANGE}:t=fill"
+        +f",drawbox=x=0:y=1023:w=1080:h=897:color={CHARCOAL}@0.98:t=fill"
     )
 
 def build_short(short,source,outdir,qcdir):
@@ -164,7 +162,7 @@ def build_short(short,source,outdir,qcdir):
     fc=[]; labels=[]
     for i,b in enumerate(beats):
         vf=visual_filter(b)
-        fc.append(f"[{i}:v]null[in];{vf},fps={fps},setsar=1[v{i}]")
+        fc.append(f"[{i}:v]{vf},fps={fps},setsar=1[v{i}]")
         labels.append(f"[v{i}]")
     fc.append("".join(labels)+f"concat=n={len(beats)}:v=1:a=0[vc]")
     fc.append(f"[vc]ass='{ass.as_posix()}'[vout]")
