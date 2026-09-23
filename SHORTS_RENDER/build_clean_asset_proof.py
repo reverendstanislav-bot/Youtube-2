@@ -148,34 +148,41 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
         focal = float(segment.get("x", 0.5))
         x_expr = f"(iw-ow)*{focal:.3f}"
 
-        vf = (
+        motion = str(segment.get("motion", "static")).lower()
+        base_picture = (
             f"crop=ih*9/16:ih:x='{x_expr}':y=0,"
-            "scale=1080:1920:flags=lanczos,"
-            "drawbox=x=0:y=1380:w=1080:h=540:color=0x171A1C@0.52:t=fill,"
-            "drawbox=x=0:y=1680:w=1080:h=240:color=0x171A1C@0.90:t=fill,"
-            f"drawbox=x=54:y=1374:w=972:h=4:color={ORANGE}:t=fill"
+            "scale=1080:1920:flags=lanczos"
+        )
+        if motion == "push":
+            # ~1.2% total push across the segment. No x/y travel.
+            frames = max(1, round(segment_duration * fps))
+            step = 0.012 / frames
+            base_picture += (
+                f",zoompan=z='min(zoom+{step:.8f},1.012)':"
+                "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+                f"d=1:s=1080x1920:fps={fps}"
+            )
+
+        vf = (
+            base_picture
+            + ",drawbox=x=0:y=1380:w=1080:h=540:color=0x171A1C@0.48:t=fill"
+            + ",drawbox=x=0:y=1680:w=1080:h=240:color=0x171A1C@0.88:t=fill"
+            + f",drawbox=x=54:y=1374:w=972:h=4:color={ORANGE}:t=fill"
         )
 
         # All assets in this proof are generated reconstructions; label them truthfully.
         vf += (
             ",drawtext=font='DejaVu Sans':text='AI RECONSTRUCTION':"
-            "x=w-text_w-42:y=52:fontsize=22:fontcolor=0xF3EBDD:"
+            "x=w-text_w-42:y=46:fontsize=19:fontcolor=0xF3EBDD:"
             "borderw=2:bordercolor=black@0.72"
         )
 
-        label = draw_escape(segment.get("label", ""))
         metric = draw_escape(segment.get("metric", ""))
 
-        if label:
-            vf += (
-                f",drawtext=font='DejaVu Sans':text='{label}':"
-                f"x=54:y=1262:fontsize=24:fontcolor={BLUE}:"
-                "borderw=2:bordercolor=black@0.65"
-            )
         if metric:
             vf += (
                 f",drawtext=font='DejaVu Sans':text='{metric}':"
-                f"x=54:y=1300:fontsize=44:fontcolor={PAPER}:"
+                f"x=54:y=1286:fontsize=42:fontcolor={PAPER}:"
                 "borderw=3:bordercolor=black@0.82"
             )
 
