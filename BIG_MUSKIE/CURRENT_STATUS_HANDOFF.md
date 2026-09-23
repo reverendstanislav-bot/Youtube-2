@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GEN01–GEN22 QC COMPLETE — 4 PASS / 3 HOLD / 15 REJECT — REPLACEMENT PLAN NEXT**  
-Publication status: **PREPRODUCTION — RECONSTRUCTION BATCH FAILED QC AT SCALE; NO REPLACEMENTS GENERATED YET**
+State: **GFX 55/55 GENERATED — FULL QC COMPLETE — 17 PASS / 25 HOLD / 13 REJECT**  
+Publication status: **PREPRODUCTION — GFX STYLE LOCKED; FACTUAL/EDITORIAL REPAIR PASS REQUIRED BEFORE EDIT LOCK**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,23 +336,27 @@ Final captions:
 
 ## Immediate next action
 
-**SALVAGE HOLD FRAMES → REPLACEMENT PROMPT REWRITE → COST PREFLIGHT → STOP**
+**GFX REPAIR PASS — NO BULK REGENERATION**
 
-QC totals:
-- PASS: **4** — GEN01, GEN03, GEN04, GEN11
-- HOLD: **3** — GEN02, GEN15, GEN17
-- REJECT: **15**
-- no additional generation submitted.
+Physical GFX status:
+- 55/55 final unique PNGs exist;
+- all are 1672×941;
+- approved HIA visual style is consistent;
+- bottom 12–15% subtitle-safe composition generally passes.
 
-Root cause:
-the image model repeatedly generalized Big Muskie into a conventional tracked/crawler dragline instead of preserving the circular tub + walking-shoe architecture.
+QC:
+- PASS: **17**
+- HOLD: **25**
+- REJECT: **13**
 
-Next zero-cost steps:
-1. test editorial salvage of GEN02 / GEN15 / GEN17;
-2. determine final replacement count;
-3. rewrite rejected prompts with explicit geometry locks and stronger reference strategy;
-4. for walking/tub beats use engineering source geometry in addition to exterior photos;
-5. run exact read-only cost preflight;
-6. stop for explicit approval before any replacement generation.
+Primary failure mode is generated factual/text hallucination, not visual style.
 
-No paid replacement generation is currently authorized.
+Next:
+1. keep all PASS assets;
+2. repair HOLD assets with text/source correction, masks and neutral vector linework;
+3. rebuild REJECT assets from verified facts as editor-native GFX first;
+4. do not spend credits on replacement imagery unless a specific repaired GFX cannot be built editorially;
+5. final source/fact QC;
+6. then lock all 55 for Stage 9/edit.
+
+See `BIG_MUSKIE/GFX/GFX_55_QC_V1.md`.

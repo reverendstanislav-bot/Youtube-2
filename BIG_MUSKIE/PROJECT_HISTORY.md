@@ -280,3 +280,15 @@ Future history entries must record:
 - No replacement jobs were submitted during QC.
 - Additional paid spend during QC: **0.00 credits**.
 
+## 2026-09-23 — GFX 55 full QC
+
+- Confirmed **55/55** intended final GFX exist physically as unique **1672×941 PNGs**.
+- Excluded one test/contact collage and one exact duplicate `imagegen.png`.
+- Visual style: approved HIA GFX language retained.
+- Subtitle-safe lower 12–15% zone: generally passes across the set.
+- Final production QC: **17 PASS / 25 HOLD / 13 REJECT**.
+- Dominant defect is generated text/factual hallucination, not the visual style.
+- Major fatal examples: fabricated AEP quote, invented cycle sub-times, false 40,000-ton machine weight, invented 2005–2014 preservation chronology, unsupported daily availability calendar, unsupported 12.4M-ton production figure.
+- Repair strategy is editor-first: text fixes, masking, neutral schematic replacements and source-safe relabeling before any paid regeneration.
+- No new paid generation was performed during QC.
+
