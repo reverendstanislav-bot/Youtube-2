@@ -186,3 +186,19 @@ Future history entries must record:
 - Credits spent: **0.00**.
 - No images or video were generated while building this archive.
 
+## 2026-09-23 — Source archive V2 cleanup / Ohio-context pruning
+
+- Reviewed the V1 Ohio-context strategy and rejected the broad “Ohio strip mining” collection approach as too noisy for the film.
+- Reduced the production Ohio-context folder from **21** files to **7** directly useful frames.
+- Kept only C01, C02, C07, C09, C10, C12 and C19.
+- Removed 14 broad/redundant/off-story context files from production use.
+- Added `OHIO_CONTEXT_AUDIT.md` inside the new archive with keep/remove rationale.
+- New archive: `BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip`.
+- Size: ~55 MB.
+- Visual files: **22**.
+- Production Ohio-context files: **7**.
+- Total package files: **32**.
+- SHA-256: `7e453f165e72ad608324fd285195211d8b3eb20d45844b15850ab17ad510c979`.
+- V1 Stage 8 beat mapping and 2.25-credit preflight are now marked stale; a fresh 116-beat remap is required.
+- Credits spent: **0.00**.
+

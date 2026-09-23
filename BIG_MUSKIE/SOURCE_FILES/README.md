@@ -1,17 +1,19 @@
 # BIG MUSKIE — SOURCE FILES
 
-Status: **FULL SOURCE ARCHIVE V1 PHYSICALLY ASSEMBLED**
+Status: **FULL SOURCE ARCHIVE V2 CLEAN PHYSICALLY ASSEMBLED**
 
 Archive:
-- filename: `BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V1.zip`
-- size: approximately **68 MB**
-- SHA-256: `576bcc9b2152a049886b97ed46497af6b60be61ac718bcb4fc5c0d9a86a7f7af`
-- physical visual files: **36**
-- unique visual scenes: **34** (R01 and R02 also include high-resolution TIFF masters)
-- total files in package: **45**
+- filename: `BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip`
+- size: approximately **55 MB**
+- SHA-256: `7e453f165e72ad608324fd285195211d8b3eb20d45844b15850ab17ad510c979`
+- physical visual files: **22**
+- production Ohio-context images: **7**
+- total files in package: **32**
 
 Permanent source-package URL recorded at build time:
-https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/18fa8dfc-8ee3-4bd3-bbe4-5ac4bbbc7145.zip
+https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/a629faa2-037a-4a84-9044-4d929500d0ca.zip
+
+V1 has been superseded for production use because its Ohio context was over-collected.
 
 ## Package structure
 
@@ -30,14 +32,16 @@ Includes:
 ### 01_PRODUCTION_CLEARED/02_OHIO_CONTEXT
 Physically downloaded EPA/NARA DOCUMERICA southeastern-Ohio mining/reclamation context.
 
-Contains **21** context visual files covering:
-- Ohio Power / Chandlersville land;
-- strip-mined land and recontouring;
-- mining trucks / haul roads;
-- test drilling;
-- seeding/reclamation;
-- water / reclaimed-land conditions;
-- regional mine landscape.
+Contains **7** intentionally selected context visual files:
+- C01 NARA 555648 — Ohio Power farmland near Chandlersville / strip-mined background;
+- C02 NARA 555638 — regional coal-loading/truck system;
+- C07 NARA 555634 — test drilling before strip mining;
+- C09 NARA 555647 — Ohio Power land purchase / road closure near Chandlersville;
+- C10 NARA 555637 — strip-mined Ohio Power land in Muskingum County near Chandlersville;
+- C12 NARA 555641 — Ohio Power recontouring/reseeding near Chandlersville;
+- C19 NARA 554809 — mining trucks / working farm / Ohio Power stripping system.
+
+Fourteen broad, redundant or off-story Ohio images were removed from the production package. See `OHIO_CONTEXT_AUDIT.md` inside V2.
 
 Hard rule: regional context is not Big Muskie unless the source explicitly depicts Big Muskie.
 
