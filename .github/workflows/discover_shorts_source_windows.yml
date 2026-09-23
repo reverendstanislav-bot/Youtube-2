@@ -35,7 +35,7 @@ jobs:
           cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > source.rar
           echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  source.rar' | sha256sum -c -
           7z x -y source.rar -oextract "-ir!*/_QC/voice_words.json"
-          find extract -type f -name voice_words.json -print -quit > /tmp/chicago_words_path.txt
+          find /tmp/shorts_chicago/extract -type f -name voice_words.json -print -quit > /tmp/chicago_words_path.txt
           test -s "$(cat /tmp/chicago_words_path.txt)"
 
       - name: Download TC497 word transcript
