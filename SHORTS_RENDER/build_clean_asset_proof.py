@@ -80,7 +80,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Cap,DejaVu Sans,68,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.6,1.5,2,96,96,135,1
+Style: Cap,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.6,1.5,2,104,104,315,1
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
@@ -105,7 +105,10 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
                 rendered = " ".join(parts)
 
             start = float(active_word["short_s"])
-            end = max(float(active_word["short_e"]), start + 0.055)
+            if active_index + 1 < len(group):
+                end = max(float(group[active_index + 1]["short_s"]), start + 0.055)
+            else:
+                end = max(float(active_word["short_e"]) + 0.08, start + 0.055)
             events.append(
                 f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Cap,,0,0,0,,{rendered}"
             )
@@ -148,9 +151,16 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
         vf = (
             f"crop=ih*9/16:ih:x='{x_expr}':y=0,"
             "scale=1080:1920:flags=lanczos,"
-            "drawbox=x=0:y=1460:w=1080:h=460:color=0x171A1C@0.74:t=fill,"
-            "drawbox=x=0:y=1680:w=1080:h=240:color=0x171A1C@0.94:t=fill,"
-            f"drawbox=x=54:y=1454:w=972:h=5:color={ORANGE}:t=fill"
+            "drawbox=x=0:y=1380:w=1080:h=540:color=0x171A1C@0.52:t=fill,"
+            "drawbox=x=0:y=1680:w=1080:h=240:color=0x171A1C@0.90:t=fill,"
+            f"drawbox=x=54:y=1374:w=972:h=4:color={ORANGE}:t=fill"
+        )
+
+        # All assets in this proof are generated reconstructions; label them truthfully.
+        vf += (
+            ",drawtext=font='DejaVu Sans':text='AI RECONSTRUCTION':"
+            "x=w-text_w-42:y=52:fontsize=22:fontcolor=0xF3EBDD:"
+            "borderw=2:bordercolor=black@0.72"
         )
 
         label = draw_escape(segment.get("label", ""))
@@ -159,13 +169,13 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
         if label:
             vf += (
                 f",drawtext=font='DejaVu Sans':text='{label}':"
-                f"x=54:y=1320:fontsize=25:fontcolor={BLUE}:"
+                f"x=54:y=1262:fontsize=24:fontcolor={BLUE}:"
                 "borderw=2:bordercolor=black@0.65"
             )
         if metric:
             vf += (
                 f",drawtext=font='DejaVu Sans':text='{metric}':"
-                f"x=54:y=1360:fontsize=47:fontcolor={PAPER}:"
+                f"x=54:y=1300:fontsize=44:fontcolor={PAPER}:"
                 "borderw=3:bordercolor=black@0.82"
             )
 
@@ -174,10 +184,10 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
             title_2 = draw_escape(plan["title_lines"][1])
             vf += (
                 f",drawtext=font='DejaVu Sans':text='{title_1}':"
-                f"x=(w-text_w)/2:y=60:fontsize=46:fontcolor={PAPER}:"
+                f"x=(w-text_w)/2:y=150:fontsize=44:fontcolor={PAPER}:"
                 "borderw=4:bordercolor=black@0.90:enable='between(t,0,2.6)',"
                 f"drawtext=font='DejaVu Sans':text='{title_2}':"
-                f"x=(w-text_w)/2:y=114:fontsize=46:fontcolor={PAPER}:"
+                f"x=(w-text_w)/2:y=202:fontsize=44:fontcolor={PAPER}:"
                 "borderw=4:bordercolor=black@0.90:enable='between(t,0,2.6)'"
             )
 
