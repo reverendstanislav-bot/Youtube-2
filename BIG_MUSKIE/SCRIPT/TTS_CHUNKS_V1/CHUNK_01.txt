@@ -42,8 +42,6 @@ What had to be happening in American coal mining and electric power for a twenty
 
 And what had to change for that answer to become obsolete?
 
-## 1 — BEFORE THE MACHINE, THERE WAS A PROBLEM
-
 To understand Big Muskie, take the machine out of the picture.
 
 Start with the ground.
@@ -146,8 +144,6 @@ Big Muskie was an attempt to turn all of those variables into one machine.
 
 And if the calculation was right, one machine of almost absurd size could be less absurd than the alternatives.
 
-## 2 — BUILDING A MACHINE TOO LARGE TO DELIVER
-
 The moment Central Ohio Coal chose that scale, a new problem appeared.
 
 Where do you build a machine that cannot be delivered as a machine?
@@ -173,3 +169,5 @@ Assembly required hundreds of thousands of labor-hours.
 Historical sources do not define that accounting in exactly the same way, so false precision does not help us.
 
 The point is the scale of the effort.
+
+People spent years assembling a machine that, once complete, could not simply be loaded onto something else and taken away.

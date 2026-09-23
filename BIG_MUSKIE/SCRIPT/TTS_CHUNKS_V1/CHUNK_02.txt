@@ -1,5 +1,3 @@
-People spent years assembling a machine that, once complete, could not simply be loaded onto something else and taken away.
-
 By 1969, Big Muskie was ready.
 
 Only now do the dimensions become useful.
@@ -43,8 +41,6 @@ Repeat.
 Big Muskie was not one enormous mechanism.
 
 It was a collection of enormous systems, each built to make one part of that cycle possible.
-
-## 3 — ONE CYCLE
 
 Imagine one operating cycle.
 
@@ -142,8 +138,6 @@ But the moment you solve stability, another problem appears.
 
 How do you move it?
 
-## 4 — THE MACHINE THAT WALKED
-
 Big Muskie really did walk.
 
 Not on tracks.
@@ -213,3 +207,11 @@ And Big Muskie's job stopped before the coal left the ground.
 It stripped the overburden.
 
 Other equipment handled the exposed coal.
+
+Then came transport.
+
+Then the power station.
+
+The machine was one organ in a much larger industrial body.
+
+If the power plant needed more coal, the mine had to expose more coal.

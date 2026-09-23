@@ -7,7 +7,7 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 6 LOCKED — ENGLISH V3 FACT-CHECKED; USER AUTHORIZED TTS PIPELINE; TTS PREFLIGHT NEXT**  
+State: **STAGE 6 LOCKED — CORRECT ARTHUR TTS PREFLIGHT COMPLETE; AWAITING EXPLICIT CREDIT APPROVAL**  
 Publication status: **SCRIPT / PREPRODUCTION ONLY — NO AUDIO MASTER, EDIT, RC, OR PUBLICATION CANDIDATE YET**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -19,17 +19,18 @@ The user has explicitly moved Episode 3 forward from English V3 review into the 
 
 **TTS → word-level transcript → exact runtime → Stage 7 full visual beat map**
 
-Therefore the previous gate saying "wait for separate user approval of English V3" is obsolete.
+English V3 may proceed through preflight, but **paid generation still requires a separate explicit credit-spend approval after the exact cost is shown**.
 
 Current required order:
 1. rebuild/validate spoken-only V3 text;
 2. TTS preflight and chunking;
-3. generate Alexey TTS with identical settings across chunks;
-4. continuity QC and audio master assembly;
-5. exact runtime + word-level alignment/transcript;
-6. commit audio/timing manifests and hashes;
-7. build the full Stage 7 visual beat map from real VO timestamps;
-8. do **not** generate images until Stage 7, the full prompt pack, exact image count, and credit budget are reviewed and explicitly approved.
+3. show exact Arthur TTS cost and wait for explicit user approval;
+4. only after approval, generate Arthur TTS with identical settings across chunks;
+5. continuity QC and audio master assembly;
+6. exact runtime + word-level alignment/transcript;
+7. commit audio/timing manifests and hashes;
+8. build the full Stage 7 visual beat map from real VO timestamps;
+9. do **not** generate images until Stage 7, the full prompt pack, exact image count, and credit budget are reviewed and explicitly approved.
 
 ## Inherited non-negotiable production rules
 
@@ -38,6 +39,7 @@ Current required order:
 - no force-push;
 - never overwrite newer `main`; re-read HEAD before every write;
 - no video generation;
+- **no paid generation of any kind without explicit user approval after exact cost preflight**;
 - no image-generation spend before script + beat map + complete prompt pack + exact budget approval;
 - source provenance and rights must be recorded;
 - verified historical visuals may carry `HISTORICAL SOURCE` only while the authentic historical source is actually on screen;
@@ -191,49 +193,41 @@ Important preflight finding:
 
 ## TTS lock / current next stage
 
-Canonical voice: **Alexey**.
+Canonical Hidden Industrial America / YouTube-2 voice: **Arthur**.
 
-Known preset:
-- `voice_id = 7c2133e5-68ab-511f-9aed-9a67664382b1`
+Verified preset:
+- `voice_id = 30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
 - `voice_type = preset`
-- planned model: `text2speech_v2`
-- planned variant: `elevenlabs`
+- model: `text2speech_v2`
+- variant: `elevenlabs`
 
-Voice direction:
-- restrained documentary confidence;
-- not a trailer announcer;
-- engineering wonder without worship;
-- cold open deliberate;
-- Chapter 3 rhythmic/action cadence;
-- slow before and after the 35% figure;
-- Clean Air Act section neutral and precise;
-- dismantling chapter heavier and less technical;
-- final 60–90 seconds reflective, not sentimental.
+Verification:
+- Chicago canonical voice master duration is 1290.720 s; four historical Arthur/ElevenLabs jobs total exactly 1290.720 s.
+- TC-497 historical narration jobs use the same Arthur preset and ElevenLabs engine.
+- Alexey was incorrectly introduced into Big Muskie metadata on 2026-09-23 and is rejected for YouTube-2.
 
-Pronunciation:
-- Big Muskie → **Big MUS-key**
-- Muskingum → **mus-KING-um**
-- AEP → **A-E-P**
-- AIME → **A-I-M-E** if needed
-- dragline → **DRAG-line**
-- Bucyrus-Erie → run a short pronunciation check before the full batch if Alexey renders it unnaturally.
+Correct spoken-only V3 preflight:
+- characters: **18657**
+- chunks: **4826 / 4844 / 4827 / 4154**
+- all chunks <5000 characters;
+- no chapter headings or production notes;
+- Arthur estimated cost: **56.25 credits**;
+- current approved spend for this corrected batch: **0.00 credits**.
 
-### TTS technical constraint
+### Mandatory spend gate
 
-The full narration cannot be submitted as one ElevenLabs/Higgsfield job because the backend prompt limit is **5,000 characters**.
+Preflight first → show exact total → wait for explicit user approval → only then generate.
 
-Required chunking rules:
-- rebuild spoken-only V3 first;
-- split into natural semantic chunks **under 5,000 characters**;
-- prefer chapter/paragraph boundaries;
-- never split a sentence;
-- use identical Alexey preset/settings across all chunks;
-- cost-preflight the entire batch before generation;
-- preserve a chunk manifest;
-- after generation check loudness, pace, tone, joins, pauses and pronunciation consistency.
+A general instruction to continue production is not permission to spend credits.
 
-No Big Muskie TTS audio master has yet been generated.  
-No Big Muskie image/video generation credits have been spent.
+### Rejected unauthorized batch
+
+An incorrect Alexey batch was submitted without explicit spend approval:
+- spent: **57.00 credits**;
+- 4 jobs completed;
+- wrong channel voice;
+- chapter headings were also accidentally spoken;
+- status: **REJECTED / NON-CANONICAL / DO NOT USE**.
 
 ## Shorts lock
 
@@ -343,20 +337,25 @@ Final captions:
 
 ## Immediate next action
 
-**STEP B — TTS PREFLIGHT**
+**STOP AT CREDIT APPROVAL GATE**
 
-1. rebuild `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt` as spoken-only narration;
-2. verify exact word/character count;
-3. split into natural <5000-character chunks;
-4. verify Alexey preset and settings;
-5. run full-batch cost preflight;
-6. record the manifest and total estimated cost;
-7. only then generate TTS.
+Correct Arthur/ElevenLabs preflight is complete: **56.25 credits estimated**.
 
-After each major stage record in GitHub:
+Do not submit any TTS generation until the user explicitly approves this spend.
+
+After explicit approval:
+1. submit the four locked Arthur chunks;
+2. capture job IDs, results and actual spend;
+3. continuity/pronunciation QC;
+4. assemble canonical audio master;
+5. exact runtime + word-level timing;
+6. commit audio/timing manifest;
+7. Stage 7 visual beat map.
+
+After each major stage record:
 - what was completed;
 - what was checked;
 - commit SHA;
 - actual credits spent;
 - exact runtime once available;
-- the next concrete step.
+- next concrete step.

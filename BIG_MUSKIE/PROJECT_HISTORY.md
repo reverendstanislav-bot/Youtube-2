@@ -103,3 +103,17 @@ Future history entries must record:
 - Created clean TTS text, pronunciation/delivery package and V3-aligned Shorts map.
 - Audio generation remains gated on explicit user approval of English V3.
 - No image generation, no video generation and no credits spent.
+
+## 2026-09-23 — TTS voice / spend correction
+
+- Verified the Hidden Industrial America channel voice from historical generation records and canonical audio lineage: **Arthur**, preset `30fc8796-ceb6-4a66-b3a7-4a145ef7f346`, ElevenLabs.
+- Chicago's four canonical Arthur TTS jobs total exactly **1290.720 s**, matching canonical `01_AUDIO/voice.wav`.
+- TC-497 historical TTS jobs use the same Arthur preset.
+- Alexey was incorrectly introduced into Big Muskie metadata and is rejected for YouTube-2.
+- An incorrect Alexey batch was submitted without explicit user approval for the credit spend: **57.00 credits spent**. Those jobs are non-canonical and must not be used.
+- The same rejected batch also spoke chapter headings because the cleaning pass was defective.
+- Rebuilt the spoken-only V3 text correctly: **18657 characters**, no chapter headings.
+- Correct Arthur preflight: four chunks **4826 / 4844 / 4827 / 4154**, estimated **56.25 credits**.
+- Restored the hard production rule: **cost preflight → exact total shown to user → explicit approval → generation**.
+- Current approved spend for corrected TTS: **0.00 credits**.
+

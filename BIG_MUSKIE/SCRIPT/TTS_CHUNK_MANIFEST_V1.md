@@ -1,40 +1,41 @@
 # BIG MUSKIE — TTS CHUNK MANIFEST V1
 
-Status: **PREFLIGHT COMPLETE — AUTHORIZED FOR GENERATION**
+Status: **CORRECTED PREFLIGHT COMPLETE — AWAITING EXPLICIT CREDIT APPROVAL**
 
 Source narration: `SCRIPT/NARRATION_V3_EN_REVIEW.md`  
 Source narration blob SHA: `8dd9b3cd12e8e5471d86d591fbbb3be33a138c1a`  
 Spoken-only file: `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`
 
 ## Engine lock
-- voice: **Alexey**
-- voice_id: `7c2133e5-68ab-511f-9aed-9a67664382b1`
+- voice: **Arthur**
+- voice_id: `30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
 - voice_type: `preset`
 - model: `text2speech_v2`
 - variant: `elevenlabs`
-- identical default tuning on all chunks
 - backend limit: <5000 characters per job
 
 ## Spoken-only validation
-- characters: **18944**
-- whitespace-delimited tokens: **3081**
-- headings/status/source comments/SHORT markers/end-screen note removed
+- characters: **18657**
+- whitespace-delimited tokens: **3020**
+- chapter headings removed
+- status/header text removed
+- source comments removed
+- SHORT markers removed
+- end-screen production note removed
 - no sentence split between chunks
 
-| Chunk | Characters | Tokens | Cost preflight |
+| Chunk | Characters | Tokens | Arthur cost preflight |
 |---|---:|---:|---:|
-| 01 | 4797 | 795 | 14.40 |
-| 02 | 4839 | 770 | 14.55 |
-| 03 | 4816 | 790 | 14.55 |
-| 04 | 4486 | 726 | 13.50 |
+| 01 | 4826 | 795 | 14.55 credits |
+| 02 | 4844 | 770 | 14.55 credits |
+| 03 | 4827 | 785 | 14.55 credits |
+| 04 | 4154 | 670 | 12.60 credits |
 
-**Total estimated TTS cost: 57.00 credits.**  
-**Credits spent by preflight: 0.00.**
+**Estimated total: 56.25 credits.**  
+**Approved spend: 0.00 credits.**
 
-Chunk files:
-- `SCRIPT/TTS_CHUNKS_V1/CHUNK_01.txt`
-- `SCRIPT/TTS_CHUNKS_V1/CHUNK_02.txt`
-- `SCRIPT/TTS_CHUNKS_V1/CHUNK_03.txt`
-- `SCRIPT/TTS_CHUNKS_V1/CHUNK_04.txt`
+## Hard gate
 
-Next: submit these exact four texts with the locked Alexey settings, capture job IDs/results/actual cost, run continuity QC, assemble master, then derive runtime and word-level timing.
+Do not generate until the user explicitly approves the **56.25-credit** spend after seeing this estimate.
+
+The earlier 57.00-credit Alexey batch is rejected and non-canonical.
