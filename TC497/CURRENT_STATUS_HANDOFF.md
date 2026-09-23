@@ -1,39 +1,27 @@
-# TC497 — CANONICAL FINAL HANDOFF
+# TC497 — CURRENT STATUS / HANDOFF
 
-Episode: LeTourneau TC-497 Overland Train
-Project: Hidden Industrial America / YouTube-2
+## CRITICAL EDITORIAL CORRECTION — 2026-09-23
 
-Current state: **FINAL 1080 TEXTLESS-OUTRO UPLOAD MASTER BUILT AND QC-PASSED.**
+**The previously rendered textless 1080 V13 master is WITHDRAWN FROM PUBLICATION. DO NOT UPLOAD IT.**
 
-## Canonical publication master
+The underlying approved story, voice, audio mix, accepted replacement assets, cold-open direction, caption colors, and rejected-asset blacklist remain valid.
 
-- GitHub Actions run: 
-- release tag: 
-- file: 
-- video SHA-256: 
-- audio elementary-stream SHA-256: 
-- resolution: 1920x1080
-- frame rate: 30 fps
-- frame count: 37,096
-- duration: 20:36.533
-- release: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/tc497-full-v13-textless-final-1080-20260922
-- direct MP4: https://github.com/reverendstanislav-bot/Youtube-2/releases/download/tc497-full-v13-textless-final-1080-20260922/TC497_FINAL_UPLOAD_MASTER_FULL_V13_TEXTLESS_1920x1080.mp4
+The publication master is reopened because the post-cold-open picture edit was primarily assembled by Python/FFmpeg weighted still segments and only overlaid afterward. The replacement build must:
+- use Remotion as the primary picture-timeline renderer;
+- snap post-cold-open cuts to narration word/phrase boundaries where practical;
+- keep archive/document/reconstruction/concept provenance tied to the actual current visual;
+- use `HISTORICAL SOURCE` only for verified archival visuals;
+- use `DOCUMENT` for Project OTTER / patent pages;
+- use `AI RECONSTRUCTION` for generated reconstruction;
+- use `CONCEPT` for the nuclear/unbuilt concept;
+- preserve V9 audio bit-for-bit;
+- preserve the accepted V13 content corrections and blacklist;
+- keep the textless HIA end screen;
+- pass a new editorial + technical review before publication.
 
-## Locked visual/audio rules
+The old V13 textless release is retained only as a superseded technical artifact.
 
-- one clean subtitle layer before outro;
-- base dialogue white #FFFFFF;
-- active spoken word orange #F28A3A;
-- no blue dialogue, CapV10, BorderStyle 3, or giant black caption rectangle;
-- WA-09 absent;
-- rejected wheel/turbine/hub cutaway family remains absent;
-- V6 human/control correction, V9 Yuma/ground-vs-air fixes, 11:57 repair and V8 ending retained;
-- V9 audio copied bit-for-bit;
-- canonical YouTube outro begins at 20:22.300;
-- no running captions/source labels in outro;
-- exactly one previous-video rectangle;
-- exactly one avatar/Subscribe circle;
-- zero rendered text/labels in the end screen;
-- full decode/QC PASS.
+## Next canonical target
 
-This file supersedes older candidate-status documents.
+`TC497/R14_REEDIT/` — Remotion-led re-edit review build.
+
