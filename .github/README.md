@@ -1,13 +1,12 @@
 # GitHub Actions — active set
 
-The current branch intentionally contains only the active production/rebuild workflows:
+The active workflow directory intentionally contains only the two long-form episode workflows:
 
 - `workflows/build_chicago_r14_editorial_recut.yml`
 - `workflows/build_tc497_r14_remotion_reedit.yml`
-- `workflows/build_hia_shorts_final.yml` — manual-only rebuild of the 10 Shorts master pack
 
-Temporary Shorts review/repackage workflows were removed after the corrected 10-master release was produced.
+The Shorts V10 review package has already been rendered and released. Temporary proof, batch, packaging, and the obsolete pre-V10 Shorts final workflow were removed from the active workflow directory. Git history preserves them.
 
-Do not restore old V1–V13 build/review workflows into the active workflow directory merely for reference. Git history preserves them.
+Do not restore legacy Shorts workflows that crop the completed 16:9 master as the primary picture source. The current Shorts canon requires clean-source semantic vertical rebuilds.
 
-Reason: legacy or temporary workflow files create noisy duplicate runs, stale publication paths, and accidental regressions into superseded editing/provenance logic.
+A new final-master Shorts workflow should be created only after explicit user approval of the V10 review package.
