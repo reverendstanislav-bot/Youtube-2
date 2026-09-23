@@ -6,19 +6,22 @@ Episode 1 of **Hidden Industrial America**.
 
 **NOT PUBLICATION-APPROVED.**
 
-The earlier Chicago textless 1080 master is withdrawn because provenance labeling was wrong on generated reconstruction and because Remotion was not the primary picture-edit timeline.
+R13 fixed the false HISTORICAL SOURCE labeling and moved the picture timeline into Remotion, but a deep QC on the rendered file rejected it for editorial pacing: too many 8–25 second static beats, especially maps/archive, tiny provenance text, and captions aligned at 98.665% rather than directly from the word-level transcript.
 
 Current active target:
-- `CHICAGO/R13/`
-- full Remotion-led picture timeline;
-- `HISTORICAL SOURCE` only on verified archive/map visuals;
-- `AI RECONSTRUCTION` on generated reconstruction;
-- original approved AAC preserved;
-- textless YouTube end screen;
-- editorial + technical review required before publication.
+- `CHICAGO/R14/`
+- phrase/word-boundary-driven Remotion recut;
+- no visual beat longer than 7.05 s before the end screen;
+- long archive/maps broken into controlled reframing beats without constant Ken Burns;
+- long reconstructions use restrained alternate framing and only occasional subtle push;
+- `HISTORICAL SOURCE` only on verified archive/map;
+- `AI RECONSTRUCTION` only on generated reconstruction;
+- provenance enlarged for 1080p readability;
+- captions derived directly from the word-level transcript at exact sequence coverage;
+- original approved AAC preserved bit-for-bit;
+- output normalized to limited-range `yuv420p`;
+- textless YouTube end screen retained.
+
+R13 remains a rejected review artifact and must not be uploaded.
 
 Read `CURRENT_STATUS_HANDOFF.md` before editing.
-
-## Current-tree policy
-
-Only files required by R13, source recovery, QC, branding, and current status remain in the active Chicago tree. Older V4–V10 review trees were removed from the current branch and remain recoverable from Git history.
