@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - '.github/workflows/build_hia_shorts_fast_review.yml'
+      - 'SHORTS_RENDER/build_ffmpeg.py'
+      - 'CHICAGO/SHORTS/**'
+      - 'TC497/SHORTS/**'
   workflow_dispatch:
 
 permissions:
