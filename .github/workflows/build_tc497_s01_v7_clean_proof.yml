@@ -1,4 +1,4 @@
-name: Build TC497 S01 V9 Semantic Static Proof
+name: Build TC497 S01 V10 Style Bible Proof
 
 on:
   push:
@@ -15,7 +15,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: tc497-s01-v9-proof
+  group: tc497-s01-v10-proof
   cancel-in-progress: true
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           MAN=TC497/FULL_V13/asset_urls.json
-          for name in V3_YUMA_TEST.png V3_ASSEMBLY.png V2_POWERTRAIN.png V3_TOPDOWN.png V2_YUMA_OBSERVERS.png V3_WHEEL_MOTION.png V2_TRACTION.png V3_CARGOLOAD.png V3_CREW.png V2_DUNE.png V3_DUNE_LIMIT.png; do
+          for name in V4_ASSEMBLY_ALT.png V3_YUMA_TEST.png V3_ASSEMBLY.png V2_POWERTRAIN.png V3_TOPDOWN.png V2_YUMA_OBSERVERS.png V3_WHEEL_MOTION.png V2_TRACTION.png V3_CARGOLOAD.png V3_CREW.png V2_DUNE.png V3_DUNE_LIMIT.png; do
             url="$(jq -r --arg n "$name" '.v4_extra[$n] // empty' "$MAN")"
             test -n "$url" || { echo "missing url for $name" >&2; exit 1; }
             curl -fL --retry 4 --retry-all-errors "$url" -o "/tmp/proof/assets/$name"
@@ -54,22 +54,22 @@ jobs:
           gh release download tc497-r14-remotion-reedit-review-20260923             --repo reverendstanislav-bot/Youtube-2             --pattern 'TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4'
           mv TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4 source.mp4
 
-      - name: Render V9 semantic static proof
+      - name: Render V10 style-bible proof
         run: |
           set -euo pipefail
-          python3 SHORTS_RENDER/build_clean_asset_proof.py             --plan TC497/SHORTS/TC497-S01_V7_CLEAN_ASSET_PROOF.json             --map TC497/SHORTS/shorts_extraction_map.json             --asset-dir /tmp/proof/assets             --audio-source /tmp/proof/source.mp4             --out /tmp/proof/TC497-S01_V9_SEMANTIC_STATIC_PROOF.mp4             --qc /tmp/proof/qc
+          python3 SHORTS_RENDER/build_clean_asset_proof.py             --plan TC497/SHORTS/TC497-S01_V7_CLEAN_ASSET_PROOF.json             --map TC497/SHORTS/shorts_extraction_map.json             --asset-dir /tmp/proof/assets             --audio-source /tmp/proof/source.mp4             --out /tmp/proof/TC497-S01_V10_STYLE_BIBLE_PROOF.mp4             --qc /tmp/proof/qc
 
       - name: Technical QC and contact sheet
         run: |
           set -euo pipefail
-          P=/tmp/proof/TC497-S01_V9_SEMANTIC_STATIC_PROOF.mp4
+          P=/tmp/proof/TC497-S01_V10_STYLE_BIBLE_PROOF.mp4
           ffmpeg -v error -xerror -i "$P" -f null - 2>/tmp/proof/qc/decode.txt
           test ! -s /tmp/proof/qc/decode.txt
           python3 - <<'PY'
           import subprocess,json
           from pathlib import Path
           from PIL import Image,ImageDraw,ImageFont
-          p=Path('/tmp/proof/TC497-S01_V9_SEMANTIC_STATIC_PROOF.mp4'); q=Path('/tmp/proof/qc')
+          p=Path('/tmp/proof/TC497-S01_V10_STYLE_BIBLE_PROOF.mp4'); q=Path('/tmp/proof/qc')
           dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)]))
           times=[dur*x for x in [.02,.08,.16,.24,.32,.40,.50,.60,.70,.80,.90,.98]]
           frames=[]; font=ImageFont.load_default()
@@ -88,9 +88,9 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: tc497-s01-v9-semantic-static-proof
+          name: tc497-s01-v10-style-bible-proof
           path: |
-            /tmp/proof/TC497-S01_V9_SEMANTIC_STATIC_PROOF.mp4
+            /tmp/proof/TC497-S01_V10_STYLE_BIBLE_PROOF.mp4
             /tmp/proof/qc
           compression-level: 0
           retention-days: 7
