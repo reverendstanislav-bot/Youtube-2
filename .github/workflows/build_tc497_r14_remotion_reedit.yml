@@ -168,7 +168,7 @@ jobs:
 
           cp /tmp/tc497_r14/cold_index.jsx /tmp/tc497_r14/remotion/src/cold_index.jsx
           cp TC497/V14/package.json /tmp/tc497_r14/remotion/cold_package.json
-          cp /tmp/tc497_r14/coldwork/base.mp4 /tmp/tc497_r14/remotion/public/base.mp4
+          test -s /tmp/tc497_r14/remotion/public/base.mp4
           cd /tmp/tc497_r14/remotion
           cp cold_package.json package.json
           npm install --no-audit --no-fund
