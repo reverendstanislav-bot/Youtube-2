@@ -1,0 +1,17 @@
+{
+  "baseBeats": 207,
+  "editorialBeats": 294,
+  "newInternalCuts": 87,
+  "wordSnappedInternalCuts": 87,
+  "wordSnapRatio": 1.0,
+  "maxBeatSecBeforeOutro": 6.76,
+  "beatsOver7_05SecBeforeOutro": 0,
+  "provenanceCounts": {
+    "AI RECONSTRUCTION": 197,
+    "HISTORICAL SOURCE": 97
+  },
+  "historicalOnNonHistorical": 0,
+  "reconstructionWithoutAIReconstruction": 0,
+  "archiveMapMotionNonStatic": 0,
+  "status": "PASS"
+}
