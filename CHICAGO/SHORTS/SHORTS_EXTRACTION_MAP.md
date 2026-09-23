@@ -12,7 +12,7 @@ Source policy: exact long-form audio only; no rewritten VO; no new TTS; no image
 **Hook:** Not a subway, a freight railroad.  
 **Narration (exact extraction):**
 
-> Not a subway, a freight railroad. Small electric locomotives hauled coal, merchandise, supplies and ash through narrow tunnels beneath the loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement -level facilities. And this was not one tunnel linking two points. At its height, the network stretched roughly 60 miles beneath downtown Chicago. For decades, freight moved through an underground grid while the city continued above it.
+> Not a subway, a freight railroad. Small electric locomotives hauled coal, merchandise, supplies and ash through narrow tunnels beneath the loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement-level facilities. And this was not one tunnel linking two points. At its height, the network stretched roughly 60 miles beneath downtown Chicago. For decades, freight moved through an underground grid while the city continued above it.
 
 ### 9:16 montage
 
@@ -32,7 +32,7 @@ Source policy: exact long-form audio only; no rewritten VO; no new TTS; no image
 **Hook:** Chicago's underground freight railroad did not actually begin as a railroad.  
 **Narration (exact extraction):**
 
-> Chicago's underground freight railroad did not actually begin as a railroad. In 1899, an independent telephone company received a franchise connected to putting telephone infrastructure underground. Tunnel construction began around 1900. Those tunnels were large enough to become something more than simple cable conduits. Exactly when the freight railway idea became the real objective is not completely clear. The surviving evidence does not justify the neat story that a railroad had secretly been the plan from the first day. What is clear is the transformation. Track was installed on a two -foot gauge.
+> Chicago's underground freight railroad did not actually begin as a railroad. In 1899, an independent telephone company received a franchise connected to putting telephone infrastructure underground. Tunnel construction began around 1900. Those tunnels were large enough to become something more than simple cable conduits. Exactly when the freight railway idea became the real objective is not completely clear. The surviving evidence does not justify the neat story that a railroad had secretly been the plan from the first day. What is clear is the transformation. Track was installed on a two-foot gauge.
 
 ### 9:16 montage
 
