@@ -71,31 +71,40 @@
       "out_start": 20.72,
       "out_end": 24,
       "asset": "A02_IllinoisTunnelMap1910.png",
-      "x": 0.46,
+      "x": 0.44,
       "motion": "static",
       "metric": "NOT ONE TUNNEL",
       "provenance": "HISTORICAL SOURCE"
     },
     {
       "out_start": 24,
-      "out_end": 28.62,
+      "out_end": 26.45,
+      "asset": "S006_P004.png",
+      "x": 0.54,
+      "motion": "static",
+      "metric": "AT ITS HEIGHT",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 26.45,
+      "out_end": 29.2,
       "asset": "A02_IllinoisTunnelMap1910.png",
-      "x": 0.58,
+      "x": 0.6,
       "motion": "static",
       "metric": "~60 MILES",
       "provenance": "HISTORICAL SOURCE"
     },
     {
-      "out_start": 28.62,
-      "out_end": 31.8,
-      "asset": "S006_P004.png",
-      "x": 0.45,
+      "out_start": 29.2,
+      "out_end": 32.2,
+      "asset": "S004_P003.png",
+      "x": 0.42,
       "motion": "static",
       "metric": "AN UNDERGROUND GRID",
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 31.8,
+      "out_start": 32.2,
       "out_end": 34.88,
       "asset": "S001_P001.png",
       "x": 0.5,
