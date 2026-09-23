@@ -15,7 +15,7 @@
     {
       "out_start": 0,
       "out_end": 5.62,
-      "asset": "V3_ASSEMBLY.png",
+      "asset": "V3_TOPDOWN.png",
       "x": 0.5,
       "motion": "push",
       "metric": "ONE CONNECTED MACHINE",
@@ -24,8 +24,8 @@
     {
       "out_start": 5.62,
       "out_end": 10.5,
-      "asset": "V3_RANGE.png",
-      "x": 0.48,
+      "asset": "V3_YUMA_TEST.png",
+      "x": 0.5,
       "motion": "static",
       "metric": "~20 MPH",
       "provenance": "AI RECONSTRUCTION"
@@ -33,8 +33,8 @@
     {
       "out_start": 10.5,
       "out_end": 16.38,
-      "asset": "V4_RANGE_ALT.png",
-      "x": 0.52,
+      "asset": "V3_RANGE.png",
+      "x": 0.5,
       "motion": "push",
       "metric": "~400 MILE RANGE",
       "provenance": "AI RECONSTRUCTION"
