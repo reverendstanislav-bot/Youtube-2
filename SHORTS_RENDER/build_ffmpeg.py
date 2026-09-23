@@ -85,7 +85,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Cap,DejaVu Sans,74,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.8,1.6,2,74,74,270,1
+Style: Cap,DejaVu Sans,74,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.8,1.6,2,74,74,165,1
 Style: Hook,DejaVu Sans,46,&H00F3EBDD,&H00F3EBDD,&H00101416,&H70000000,-1,0,0,0,100,100,1.0,0,1,3.4,1.0,8,70,70,82,1
 
 [Events]
@@ -125,38 +125,51 @@ def provenance_label(beat):
             return label
     return ""
 
-def visual_filter(beat):
-    # V3 vertical design: one source visual, never two copies.
-    # Wide evidence stays readable; cinematic shots receive only a controlled center crop.
+def visual_filter(beat, beat_index=0, beat_dur=4.0):
+    # V4 vertical system: one source plane filling almost the entire 9:16 frame.
+    # No stacked panels, no duplicated blur copy, no half-screen picture.
     desc=(str(beat.get("visual",""))+" "+str(beat.get("action",""))+" "+str(beat.get("provenance",""))).lower()
-    keep_full=bool(re.search(
-        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|aircraft|helicopter|archive",
+
+    wide=bool(re.search(
+        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|aircraft|helicopter|city|tunnel map|street",
         desc
     ))
 
-    if keep_full:
-        # Preserve the whole source width for maps/docs/long machines.
-        picture=(
-            "crop=iw:ih-180:0:0,"
-            "scale=1040:-2:flags=lanczos,"
-            "pad=1080:660:20:(660-ih)/2:color=0x171A1C,"
-            "pad=1080:1920:0:245:color=0x171A1C"
-        )
-        y=245; panel_h=660
+    # 620 px crop -> ~1881 px tall in the 1080x1920 output.
+    # 700 px crop -> ~1666 px tall for very wide evidence, still >86% of the canvas.
+    cw=700 if wide else 620
+    out_h=1666 if wide else 1881
+
+    # Wide evidence gets a slow horizontal scan so the viewer can read the full machine/map
+    # over the beat without ever showing a second copy of the frame.
+    if wide:
+        if beat_index % 2 == 0:
+            xexpr=f"(iw-{cw})*min(1,max(0,t/{max(0.2,beat_dur):.3f}))"
+        else:
+            xexpr=f"(iw-{cw})*(1-min(1,max(0,t/{max(0.2,beat_dur):.3f})))"
     else:
-        # Mild 4:3-ish crop: visibly larger in 9:16 without destroying context.
-        picture=(
-            "crop=1200:900:360:0,"
-            "scale=1080:810:flags=lanczos,"
-            "pad=1080:1920:0:170:color=0x171A1C"
-        )
-        y=170; panel_h=810
+        # Alternate center-left / center / center-right to keep consecutive vertical crops varied.
+        pos=beat_index % 3
+        if pos==0:
+            xexpr=f"(iw-{cw})*0.38"
+        elif pos==1:
+            xexpr=f"(iw-{cw})*0.50"
+        else:
+            xexpr=f"(iw-{cw})*0.62"
+
+    # Fill the screen from the top with one crisp crop. The small remaining lower strip is
+    # reserved for captions; a bottom gradient/solid cover hides the original long-form caption.
+    picture=(
+        f"crop={cw}:1080:x='{xexpr}':y=0,"
+        f"scale=1080:{out_h}:flags=lanczos,"
+        f"pad=1080:1920:0:0:color=0x171A1C"
+    )
 
     return (
         picture
-        +f",drawbox=x=20:y={y}:w=1040:h={panel_h}:color=0xF3EBDD@0.30:t=2"
-        +f",drawbox=x=54:y=1050:w=972:h=5:color={ORANGE}:t=fill"
-        +f",drawbox=x=0:y=1055:w=1080:h=865:color={CHARCOAL}@0.985:t=fill"
+        +",drawbox=x=0:y=1320:w=1080:h=600:color=0x171A1C@0.22:t=fill"
+        +",drawbox=x=0:y=1500:w=1080:h=420:color=0x171A1C@0.90:t=fill"
+        +f",drawbox=x=54:y=1494:w=972:h=5:color={ORANGE}:t=fill"
     )
 
 def build_short(short,source,outdir,qcdir):
@@ -179,7 +192,8 @@ def build_short(short,source,outdir,qcdir):
 
     fc=[]; labels=[]
     for i,b in enumerate(beats):
-        vf=visual_filter(b)
+        beat_dur=max(0.2, min(short["duration_sec"], b.get("_next_source", short["source_out_sec"])) - b["source_in"])
+        vf=visual_filter(b, i, beat_dur)
         fc.append(f"[{i}:v]{vf},fps={fps},setsar=1[v{i}]")
         labels.append(f"[v{i}]")
     fc.append("".join(labels)+f"concat=n={len(beats)}:v=1:a=0[vc]")
