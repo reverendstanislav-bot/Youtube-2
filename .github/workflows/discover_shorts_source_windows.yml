@@ -103,6 +103,111 @@ jobs:
                   })
               return res
 
+          def anchor_word_index(words,anchor):
+              toks=[]; token_to_word=[]
+              for i,x in enumerate(words):
+                  for t in norm(x['w']).split():
+                      toks.append(t); token_to_word.append(i)
+              a=norm(anchor).split()
+              for i in range(0,max(0,len(toks)-len(a)+1)):
+                  if toks[i:i+len(a)]==a:
+                      return token_to_word[i]
+              for i,t in enumerate(toks):
+                  if a and a[0] in t:
+                      return token_to_word[i]
+              return None
+
+          def sentence_spans(words):
+              spans=[]; start=0
+              for i,w in enumerate(words):
+                  if re.search(r'[.!?][\"\']?
+          chi=chicago(os.environ['CHI_WORDS'])
+          t=tc(os.environ['TC_WORDS'])
+          chi_anchors=['60 miles','telephone','coal','1992','flood','july 1959','abandoned','freight elevators','river']
+          tc_anchors=['572 feet','54 driven wheels','electric','nuclear','yuma','400 mile','150 tons','helicopter','airlift','sky']
+          Path('CHICAGO/SHORTS_WORK/DISCOVERY.json').write_text(json.dumps({
+              'runtime':round(chi[-1]['e'],3),'word_count':len(chi),'windows':windows(chi,chi_anchors)
+          },indent=2,ensure_ascii=False),encoding='utf-8')
+          Path('TC497/SHORTS_WORK/DISCOVERY.json').write_text(json.dumps({
+              'runtime':round(t[-1]['e'],3),'word_count':len(t),'windows':windows(t,tc_anchors)
+          },indent=2,ensure_ascii=False),encoding='utf-8')
+
+          chi_final=['60 miles','telephone','july 1959','1992','flood']
+          tc_final=['572 feet','electric','400 mile','nuclear','helicopter']
+          Path('CHICAGO/SHORTS_WORK/CANDIDATES.json').write_text(json.dumps({
+              'runtime':round(chi[-1]['e'],3),
+              'candidates':[sentence_candidate(chi,a) for a in chi_final]
+          },indent=2,ensure_ascii=False),encoding='utf-8')
+          Path('TC497/SHORTS_WORK/CANDIDATES.json').write_text(json.dumps({
+              'runtime':round(t[-1]['e'],3),
+              'candidates':[sentence_candidate(t,a) for a in tc_final]
+          },indent=2,ensure_ascii=False),encoding='utf-8')
+          PY
+
+      - name: Commit discovery
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/SHORTS_WORK/DISCOVERY.json CHICAGO/SHORTS_WORK/CANDIDATES.json TC497/SHORTS_WORK/DISCOVERY.json TC497/SHORTS_WORK/CANDIDATES.json
+          git commit -m "Extract Chicago and TC497 Shorts source windows"
+          git pull --rebase origin main
+          git push origin main
+,w['w']):
+                      spans.append((start,i)); start=i+1
+              if start<len(words): spans.append((start,len(words)-1))
+              return spans
+
+          def sentence_candidate(words,anchor,target_min=30,target_max=55):
+              idx=anchor_word_index(words,anchor)
+              if idx is None:
+                  return {'anchor':anchor,'found':False}
+              spans=sentence_spans(words)
+              si=next((k for k,(a,b) in enumerate(spans) if a<=idx<=b),None)
+              if si is None:
+                  return {'anchor':anchor,'found':False}
+              lo=hi=si
+              def dur():
+                  return words[spans[hi][1]]['e']-words[spans[lo][0]]['s']
+              # Grow around anchor using whole sentences, preferring forward context.
+              toggle=0
+              while dur()<target_min:
+                  can_f=hi+1<len(spans)
+                  can_b=lo>0
+                  options=[]
+                  if can_f:
+                      d=words[spans[hi+1][1]]['e']-words[spans[lo][0]]['s']
+                      if d<=target_max: options.append(('f',d))
+                  if can_b:
+                      d=words[spans[hi][1]]['e']-words[spans[lo-1][0]]['s']
+                      if d<=target_max: options.append(('b',d))
+                  if not options: break
+                  # forward first; alternate when both are viable
+                  choice=options[0]
+                  if len(options)>1 and toggle%2==1: choice=options[1]
+                  if choice[0]=='f': hi+=1
+                  else: lo-=1
+                  toggle+=1
+              # If still very short, add whichever side fits best.
+              while dur()<target_min:
+                  grown=False
+                  if hi+1<len(spans):
+                      nd=words[spans[hi+1][1]]['e']-words[spans[lo][0]]['s']
+                      if nd<=target_max: hi+=1; grown=True
+                  if not grown and lo>0:
+                      nd=words[spans[hi][1]]['e']-words[spans[lo-1][0]]['s']
+                      if nd<=target_max: lo-=1; grown=True
+                  if not grown: break
+              a,b=spans[lo][0],spans[hi][1]
+              seg=words[a:b+1]
+              return {
+                  'anchor':anchor,'found':True,'anchor_time':round(words[idx]['s'],3),
+                  'start':round(seg[0]['s'],3),'end':round(seg[-1]['e'],3),
+                  'duration':round(seg[-1]['e']-seg[0]['s'],3),
+                  'text':' '.join(x['w'] for x in seg),
+                  'words':[{'w':x['w'],'s':round(x['s'],3),'e':round(x['e'],3)} for x in seg]
+              }
+
           chi=chicago(os.environ['CHI_WORDS'])
           t=tc(os.environ['TC_WORDS'])
           chi_anchors=['60 miles','telephone','coal','1992','flood','july 1959','abandoned','freight elevators','river']
