@@ -170,3 +170,19 @@ Future history entries must record:
 - No image jobs and no video jobs were submitted.
 - Hard stop: await a new explicit user approval of exactly **2.25 credits** before any image generation.
 
+## 2026-09-23 — Full physical source archive V1
+
+- Replaced the earlier Stage 8 link-only/source-mapping assumption with a physically downloaded archive package.
+- Physically downloaded **36 visual files / 34 unique visual scenes**.
+- Core includes all Wikimedia Commons Big Muskie category material used by the audit, high-resolution NARA TIFF masters for the two primary historical Big Muskie frames, DOE historical Big Muskie, current licensed bucket/chain material, and the 1999 pre-demolition side view.
+- Expanded Ohio regional context to **21** EPA/NARA DOCUMERICA visual files.
+- Physically downloaded the 1977 Bureau of Mines/Penn State Muskingum Mine study and both primary Bucyrus engineering patents used by the episode.
+- Created separate `PRODUCTION_CLEARED`, `RIGHTS_REVIEW`, `SOURCE_DOCUMENTS`, and `RESEARCH_ONLY` layers.
+- Added unified per-file SHA-256 / dimensions / rights manifests.
+- Final archive: `BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V1.zip`.
+- Size: ~68 MB.
+- SHA-256: `576bcc9b2152a049886b97ed46497af6b60be61ac718bcb4fc5c0d9a86a7f7af`.
+- Total files in ZIP: **45**.
+- Credits spent: **0.00**.
+- No images or video were generated while building this archive.
+
