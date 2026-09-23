@@ -23,16 +23,6 @@ function framing(beat){
   return 'cover';
 }
 
-function BackgroundVideo({src,startFrom}){
-  return <OffthreadVideo
-    src={staticFile(src)} startFrom={startFrom} muted
-    style={{
-      position:'absolute',inset:-90,width:'calc(100% + 180px)',height:'calc(100% + 180px)',
-      objectFit:'cover',filter:'blur(34px) brightness(.34) saturate(.72)',transform:'scale(1.08)'
-    }}
-  />;
-}
-
 function VisualBeat({short,beat,index,nextStart}){
   const fps=short.source_fps;
   const frame=useCurrentFrame();
@@ -44,7 +34,7 @@ function VisualBeat({short,beat,index,nextStart}){
   const tinyScale=1+0.008*p;
 
   return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden'}}>
-    <BackgroundVideo src={short.source_file} startFrom={startFrom}/>
+    <div style={{position:'absolute',inset:0,background:'linear-gradient(180deg,#171A1C 0%,#20272B 48%,#171A1C 100%)'}}/>
 
     {mode==='contain' ? <>
       <div style={{
