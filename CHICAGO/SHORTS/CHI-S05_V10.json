@@ -45,7 +45,7 @@
       "asset": "S182_P123.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "ALLEGATION ≠ FINAL FINDING",
+      "metric": "ALLEGATION IS NOT A FINAL FINDING",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -90,7 +90,7 @@
       "asset": "S178_P119.png",
       "x": 0.6,
       "motion": "static",
-      "metric": "THE FLOOD DIDN'T BRING IT BACK",
+      "metric": "THE FLOOD DID NOT BRING IT BACK",
       "provenance": "AI RECONSTRUCTION"
     },
     {
