@@ -27,6 +27,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq python3-pil zip fonts-dejavu-core
           mkdir -p /tmp/chi/{out,qc}
+          grep -q 'for i,b in enumerate(beats):' SHORTS_RENDER/build_ffmpeg.py
 
       - name: Download corrected Chicago R14 source
         env:
@@ -137,6 +138,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq python3-pil zip fonts-dejavu-core
           mkdir -p /tmp/tc/{out,qc}
+          grep -q 'for i,b in enumerate(beats):' SHORTS_RENDER/build_ffmpeg.py
 
       - name: Download TC497 R14 source
         env:
