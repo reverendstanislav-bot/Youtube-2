@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 8 PREFLIGHT COMPLETE — 116/116 ASSET-MAPPED; 9 UNIQUE RECONSTRUCTION GAPS; AWAITING EXPLICIT IMAGE-CREDIT APPROVAL**  
-Publication status: **PREPRODUCTION — VO/TIMING/STAGE 7 LOCKED; STAGE 8 ASSET/PROMPT/COST PREFLIGHT LOCKED; NO STAGE 8 IMAGES GENERATED**
+State: **STAGE 8 V2 REMAP COMPLETE — 116/116 RE-AUDITED AGAINST CLEAN PHYSICAL ARCHIVE**  
+Publication status: **PREPRODUCTION — V2 SOURCE ARCHIVE / 116-BEAT REMAP LOCKED; SOURCE-CAPTURE + NEW PROMPT/COST PREFLIGHT NEXT**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,36 +336,32 @@ Final captions:
 
 ## Immediate next action
 
-**HARD STOP — AWAIT EXPLICIT USER APPROVAL FOR THE EXACT STAGE 8 IMAGE BATCH**
+**STAGE 8 V2B — SOURCE CAPTURE + NEW PROMPT/COST PREFLIGHT — NO PAID GENERATION**
 
-Stage 8 is complete:
-- all **116/116** beats mapped to real archive/current/context, document/data, source-grounded GFX, or genuine reconstruction gaps;
-- coverage: **31 REAL / 7 REAL_CONTEXT / 12 DOCUMENT / 55 GFX / 9 GENERATE_GAP / 2 GENERATE_REUSE**;
-- **9 unique reconstruction prompts** locked;
-- P06 is reused at BM-B051;
-- P07 is reused at BM-B077;
-- no video generation;
-- no Stage 8 paid image jobs submitted.
+V2 remap result:
+- physical V2 archive closes **85/116 beats**;
+- **18/116 beats** need external source capture + Remotion GFX, but no AI still;
+- **13/116 beats** need reconstruction coverage;
+- those 13 reconstruction beats require **9 unique stills + 4 reuse beats**;
+- paid image jobs submitted: **0**;
+- currently approved image spend: **0.00 credits**.
 
-Image backend preflight:
-- model: `gpt_image_2_5`;
-- variant: `flare`;
-- quality: `low`;
-- resolution: `1k`;
-- aspect ratio: `16:9`;
-- each final prompt was estimated separately;
-- P01–P09: **0.25 credits each**;
-- exact total: **2.25 credits**;
-- currently approved Stage 8 image spend: **0.00 credits**.
+The 9 unique genuine gaps are:
+1. G01 onsite assembly / machine born at mine;
+2. G02 human scale during assembly;
+3. G03 operating cycle — bucket down / drag start;
+4. G04 operating cycle — loaded bucket hoist;
+5. G05 operating cycle — swing;
+6. G06 actual walking step;
+7. G07 ground crew / prepared route / trailing cable;
+8. G08 maintenance / human-scale workplace;
+9. G09 1999 dismantling climax.
 
-Do not submit P01–P09 unless the user explicitly approves the exact **2.25-credit** batch.
+Before any image generation:
+1. physically capture the remaining 18 external text/source records into the source pack;
+2. write a new V2-grounded prompt pack for G01–G09;
+3. audit every prompt against R01/R02/R03/R05/D03/D04/D05;
+4. run exact read-only cost preflight;
+5. stop and request a new exact user approval.
 
-Canonical Stage 8 files:
-- `STAGE_8/README.md`
-- `STAGE_8/REAL_ASSET_CATALOG_V1.md`
-- `STAGE_8/BEAT_ASSET_MATRIX_V1.md`
-- `STAGE_8/GAP_LEDGER_V1.md`
-- `STAGE_8/GENERATE_PROMPT_PACK_V1.md`
-- `STAGE_8/COST_PREFLIGHT_V1.md`
-
-After approval, submit exactly the 9 unique image jobs and no extras. Any retry/reject replacement that would spend additional credits requires a new explicit cost approval.
+The old Stage 8 V1 prompt pack and 2.25-credit preflight are **superseded and non-actionable**.

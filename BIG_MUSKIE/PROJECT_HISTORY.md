@@ -202,3 +202,30 @@ Future history entries must record:
 - V1 Stage 8 beat mapping and 2.25-credit preflight are now marked stale; a fresh 116-beat remap is required.
 - Credits spent: **0.00**.
 
+## 2026-09-23 — Stage 8 V2 116-beat remap
+
+- Re-audited **116/116** Stage 7 beats against the physical `BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip`.
+- Used the cleaned 7-image Ohio-context set rather than the over-collected V1 context pool.
+- Visually/source-audited the core Big Muskie sources and the 1977 Bureau of Mines/Penn State report.
+- The 1977 report materially improved real-source coverage because it contains:
+  - Figure 1 overburden section;
+  - Figure 2 BE4250-W pit layout;
+  - Figure 3 aerial mining-area photograph marking BE4250 DL;
+  - Figure 4 materials-handling-system flow;
+  - page 24 availability discussion;
+  - Table 8 actual-month 75.25-second cycle / 35% availability / 1,949,200 yd³.
+- Final V2 coverage:
+  - **38 V2_REAL_DIRECT**
+  - **32 V2_DOCUMENT_DIRECT**
+  - **7 V2_REAL_CONTEXT**
+  - **8 V2_GFX_SUPPORTED**
+  - **18 SOURCE_CAPTURE_GFX**
+  - **9 GENERATE_UNIQUE**
+  - **4 GENERATE_REUSE**
+- Physical V2 closes **85/116** beats with no new external capture or AI still.
+- Another **18** beats require source capture + GFX, not generated imagery.
+- Reconstruction coverage is required for **13** beats, using **9 unique stills**.
+- The nine unique gaps are assembly ×2, operating cycle ×3, walking ×1, ground crew ×1, maintenance/workplace ×1, dismantling ×1.
+- Old Stage 8 V1 prompt/cost preflight remains superseded.
+- Credits spent in this remap: **0.00**.
+
