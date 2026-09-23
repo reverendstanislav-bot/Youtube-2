@@ -60,3 +60,12 @@ Each documentary shot must exist as an explicit Remotion timeline beat with:
 - No caption/provenance/editorial overlays in the YouTube end-screen zone.
 
 This file overrides any earlier episode note that says `HISTORICAL SOURCE only` or that suppresses reconstruction provenance.
+
+## End-screen episode logic
+
+End-screen layout must reflect the actual publication order, not a generic reusable template.
+
+- Episode 1: **zero video recommendation slots**; optionally one subscribe/avatar target only.
+- Later episodes: video slots may be used only when there is an actual published video to link.
+- Never render a placeholder rectangle for a nonexistent previous/next video.
+- End screens remain textless unless the user explicitly approves text.
