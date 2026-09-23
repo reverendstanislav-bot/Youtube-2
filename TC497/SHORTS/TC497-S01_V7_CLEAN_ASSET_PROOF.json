@@ -5,20 +5,21 @@
     "THE ARMY BUILT A 572-FOOT",
     "TRAIN WITH NO TRACKS"
   ],
-  "version": "V9_SEMANTIC_STATIC",
+  "version": "V10_STYLE_BIBLE_PROOF",
   "rules": {
-    "motion": "STATIC_ONLY",
-    "caption_safe": "raised 180px; max two balanced lines",
+    "motion": "STATIC + THREE HERO PUSHES ONLY; ~1.2% MAX; NO HORIZONTAL TRAVEL",
+    "caption_safe": "two balanced lines; mobile-safe",
     "provenance": "AI RECONSTRUCTION on generated visuals",
-    "repeated_visuals_first_20s": false
+    "helper_text": "metric only; labels removed",
+    "hero_frames": "strong full-machine opening + scale beat + full-machine ending"
   },
   "segments": [
     {
       "out_start": 0,
       "out_end": 4.6,
-      "asset": "V3_YUMA_TEST.png",
-      "x": 0.46,
-      "label": "LETOURNEAU TC-497",
+      "asset": "V4_ASSEMBLY_ALT.png",
+      "x": 0.5,
+      "motion": "push",
       "metric": "572 FEET LONG"
     },
     {
@@ -26,39 +27,39 @@
       "out_end": 9,
       "asset": "V3_ASSEMBLY.png",
       "x": 0.5,
-      "label": "ONE CONNECTED MACHINE",
-      "metric": "13 POWERED UNITS"
+      "motion": "static",
+      "metric": "13 CONNECTED UNITS"
     },
     {
       "out_start": 9,
       "out_end": 13,
       "asset": "V2_POWERTRAIN.png",
       "x": 0.5,
-      "label": "CONNECTED POWERTRAIN",
-      "metric": "POWER DISTRIBUTED THROUGH THE TRAIN"
+      "motion": "static",
+      "metric": ""
     },
     {
       "out_start": 13,
       "out_end": 16.2,
       "asset": "V3_TOPDOWN.png",
       "x": 0.46,
-      "label": "SCALE",
-      "metric": "572 FEET — LONGER THAN A FOOTBALL FIELD"
+      "motion": "push",
+      "metric": "LONGER THAN A FOOTBALL FIELD"
     },
     {
       "out_start": 16.2,
       "out_end": 19.6,
       "asset": "V2_YUMA_OBSERVERS.png",
       "x": 0.52,
-      "label": "HUMAN SCALE",
-      "metric": "13 CONNECTED UNITS"
+      "motion": "static",
+      "metric": ""
     },
     {
       "out_start": 19.6,
       "out_end": 23.8,
       "asset": "V3_WHEEL_MOTION.png",
       "x": 0.5,
-      "label": "DRIVE SYSTEM",
+      "motion": "static",
       "metric": "54 DRIVEN WHEELS"
     },
     {
@@ -66,15 +67,15 @@
       "out_end": 29,
       "asset": "V2_TRACTION.png",
       "x": 0.5,
-      "label": "DISTRIBUTED TRACTION",
-      "metric": "ELECTRIC DRIVE AT THE WHEELS"
+      "motion": "static",
+      "metric": ""
     },
     {
       "out_start": 29,
       "out_end": 34,
       "asset": "V3_CARGOLOAD.png",
       "x": 0.5,
-      "label": "PAYLOAD",
+      "motion": "static",
       "metric": "~150 TONS OF CARGO"
     },
     {
@@ -82,32 +83,32 @@
       "out_end": 39,
       "asset": "V3_CREW.png",
       "x": 0.48,
-      "label": "CREW",
-      "metric": "6 PEOPLE"
+      "motion": "static",
+      "metric": "6-PERSON CREW"
     },
     {
       "out_start": 39,
       "out_end": 43.5,
       "asset": "V2_DUNE.png",
       "x": 0.48,
-      "label": "ROADLESS TERRAIN",
-      "metric": "THE MACHINE STAYED IN FRAME"
+      "motion": "static",
+      "metric": ""
     },
     {
       "out_start": 43.5,
       "out_end": 48,
       "asset": "V3_DUNE_LIMIT.png",
       "x": 0.5,
-      "label": "WHERE ROADS ENDED",
-      "metric": "THE TC-497 KEPT MOVING"
+      "motion": "static",
+      "metric": "WHERE ROADS ENDED"
     },
     {
       "out_start": 48,
       "out_end": 53.88,
-      "asset": "V3_TOPDOWN.png",
-      "x": 0.4,
-      "label": "LETOURNEAU TC-497",
-      "metric": "OVERLAND TRAIN MARK II"
+      "asset": "V3_YUMA_TEST.png",
+      "x": 0.46,
+      "motion": "push",
+      "metric": "TC-497 OVERLAND TRAIN MARK II"
     }
   ]
 }
