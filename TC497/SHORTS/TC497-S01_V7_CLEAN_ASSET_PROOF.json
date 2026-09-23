@@ -11,14 +11,14 @@
     "caption_safe": "two balanced lines; mobile-safe",
     "provenance": "AI RECONSTRUCTION on generated visuals",
     "helper_text": "metric only; labels removed",
-    "hero_frames": "strong full-machine opening + scale beat + full-machine ending"
+    "hero_frames": "opening = long-machine Yuma view; scale = top-down; ending = distinct legacy full-machine hero"
   },
   "segments": [
     {
       "out_start": 0,
       "out_end": 4.6,
-      "asset": "V4_ASSEMBLY_ALT.png",
-      "x": 0.5,
+      "asset": "V3_YUMA_TEST.png",
+      "x": 0.46,
       "motion": "push",
       "metric": "572 FEET LONG"
     },
@@ -105,8 +105,8 @@
     {
       "out_start": 48,
       "out_end": 53.88,
-      "asset": "V3_YUMA_TEST.png",
-      "x": 0.46,
+      "asset": "V3_LEGACY.png",
+      "x": 0.5,
       "motion": "push",
       "metric": "TC-497 OVERLAND TRAIN MARK II"
     }
