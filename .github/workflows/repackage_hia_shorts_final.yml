@@ -1,0 +1,96 @@
+name: Repackage 10 Shorts Final Masters
+
+on:
+  push:
+    paths:
+      - '.github/workflows/repackage_hia_shorts_final.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  repackage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download approved final-render artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: hia-shorts-final-*
+          path: /tmp/final
+          merge-multiple: false
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35894243970
+          github-token: ${{ github.token }}
+
+      - name: Build corrected archive with both episode maps
+        run: |
+          set -euo pipefail
+          ROOT=/tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS
+          mkdir -p "$ROOT"/{CHICAGO,TC497,QC/CHICAGO,QC/TC497,MAPS/CHICAGO,MAPS/TC497}
+          cp /tmp/final/hia-shorts-final-chicago/out/*_FINAL_MASTER.mp4 "$ROOT/CHICAGO/"
+          cp /tmp/final/hia-shorts-final-tc497/out/*_FINAL_MASTER.mp4 "$ROOT/TC497/"
+          cp -r /tmp/final/hia-shorts-final-chicago/qc/. "$ROOT/QC/CHICAGO/"
+          cp -r /tmp/final/hia-shorts-final-tc497/qc/. "$ROOT/QC/TC497/"
+          cp CHICAGO/SHORTS/SHORTS_EXTRACTION_MAP.md CHICAGO/SHORTS/shorts_extraction_map.json "$ROOT/MAPS/CHICAGO/"
+          cp TC497/SHORTS/SHORTS_EXTRACTION_MAP.md TC497/SHORTS/shorts_extraction_map.json "$ROOT/MAPS/TC497/"
+          cat > "$ROOT/STATUS.txt" <<'EOF'
+          HIDDEN INDUSTRIAL AMERICA — 10 SHORTS FINAL MASTER CANDIDATES
+          5 Chicago + 5 TC-497
+          1080x1920 H.264 / yuv420p / BT.709 / AAC 48k stereo
+          Technical QC: PASS on all 10 masters.
+          Visual QC: reviewed across six checkpoints per Short after vertical-layout fixes.
+          Captions: white base + orange active word; 9:16 safe.
+          Provenance: per-beat binding bug fixed before this render; explicit labels appear only where the map is unambiguous.
+          No new image/video generation was used.
+          Publication status: AWAITING USER VISUAL APPROVAL.
+          EOF
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('/tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS')
+          out={'package':'HIA_SHORTS_10_FINAL_MASTERS','publication_status':'AWAITING_USER_VISUAL_APPROVAL','shorts':[]}
+          for ep in ('CHICAGO','TC497'):
+              m=json.loads((root/'MAPS'/ep/'shorts_extraction_map.json').read_text())
+              for s in m['shorts']:
+                  f=root/ep/f"{s['id']}_FINAL_MASTER.mp4"
+                  out['shorts'].append({
+                    'episode':ep,'id':s['id'],'title':s['title'],
+                    'duration_sec':s['duration_sec'],'file':str(f.relative_to(root))
+                  })
+          (root/'MANIFEST.json').write_text(json.dumps(out,indent=2,ensure_ascii=False))
+          assert len(out['shorts'])==10
+          PY
+          cd "$ROOT"
+          find CHICAGO TC497 -type f -name '*.mp4' -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+          test "$(find CHICAGO -name '*_FINAL_MASTER.mp4' | wc -l)" = "5"
+          test "$(find TC497 -name '*_FINAL_MASTER.mp4' | wc -l)" = "5"
+          test -s MAPS/CHICAGO/shorts_extraction_map.json
+          test -s MAPS/TC497/shorts_extraction_map.json
+          cd /tmp/pkg
+          zip -q -r -0 HIA_SHORTS_10_FINAL_MASTERS.zip HIA_SHORTS_10_FINAL_MASTERS
+          sha256sum HIA_SHORTS_10_FINAL_MASTERS.zip > HIA_SHORTS_10_FINAL_MASTERS.zip.sha256
+          ls -lh HIA_SHORTS_10_FINAL_MASTERS.zip
+
+      - name: Replace release with corrected package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/pkg
+          TAG=hia-shorts-10-final-masters-20260923
+          gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
+          gh release create "$TAG" HIA_SHORTS_10_FINAL_MASTERS.zip HIA_SHORTS_10_FINAL_MASTERS.zip.sha256             --title 'HIA — 10 Shorts Final Masters'             --notes 'Corrected final-master package: 5 Chicago + 5 TC-497 vertical 1080x1920 masters; technical QC passed on all 10; both episode extraction maps included separately; per-beat provenance binding fixed. Awaiting user visual approval before publication.'             --repo reverendstanislav-bot/Youtube-2
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-shorts-10-final-masters-corrected-package
+          path: |
+            /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS.zip
+            /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS.zip.sha256
+          compression-level: 0
+          retention-days: 30
