@@ -7,7 +7,7 @@ Updated: 2026-09-22
 Episode: **3 — Big Muskie**
 Machine: **Bucyrus-Erie 4250-W walking dragline**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 5 COMPLETE — angle/package/retention/evidence map/narration draft V1 locked for review**
+State: **STAGE 5 — V2 DIRECTORIAL REWRITE READY FOR USER REVIEW; V1 preserved; no narration approved yet**
 Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
 
 ## Completed in this stage
@@ -107,7 +107,8 @@ Detailed fact audit: `RESEARCH/FACT_CHECK_AUDIT_2026-09-22.md`.
 - narration draft: **3,128 spoken words**, estimated **~19.5–21.5 min** with documentary pacing;
 - chapter architecture: 9 narrative sections including cold open;
 - claim→source map completed;
-- sourced narration draft V1 completed and expanded to the actual runtime target;
+- sourced narration draft V1 completed and preserved;
+- Russian V2 directorial rewrite completed for user story/drama review;
 - five Shorts have exact extraction markers in the long-form draft.
 
 Canonical Stage 5 files:
@@ -115,6 +116,8 @@ Canonical Stage 5 files:
 - `SCRIPT/RETENTION_OUTLINE_V1.md`
 - `SCRIPT/CLAIM_SOURCE_MAP_V1.md`
 - `SCRIPT/NARRATION_DRAFT_V1.md`
+- `SCRIPT/NARRATION_DRAFT_V2_RU_REVIEW.md`
+- `SCRIPT/V2_DIRECTORIAL_REWRITE_NOTES.md`
 - `SCRIPT/SHORTS_EXTRACTION_MAP_V1.md`
 
 No TTS, generated images, video generation or credit spend has occurred.

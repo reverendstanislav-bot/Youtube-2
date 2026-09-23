@@ -26,7 +26,9 @@
 
 - SCRIPT/RETENTION_OUTLINE_V1.md — time/retention architecture
 - SCRIPT/CLAIM_SOURCE_MAP_V1.md — claim-to-source safety map
-- SCRIPT/NARRATION_DRAFT_V1.md — first full sourced English narration draft
+- SCRIPT/NARRATION_DRAFT_V1.md — first full sourced English narration draft, preserved baseline
+- SCRIPT/NARRATION_DRAFT_V2_RU_REVIEW.md — full Russian directorial rewrite for user review
+- SCRIPT/V2_DIRECTORIAL_REWRITE_NOTES.md — dramatic architecture and rewrite rationale
 - SCRIPT/SHORTS_EXTRACTION_MAP_V1.md — exact Shorts extraction windows/markers
 
 ## Production placeholders

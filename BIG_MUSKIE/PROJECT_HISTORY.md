@@ -82,3 +82,13 @@ Future history entries must record:
 
 - Runtime-control pass expanded the sourced narration from 2,392 to **3,128 spoken words**, aligning the actual draft with the ~19–22 minute target.
 - Recounted all embedded Shorts windows: 99 / 162 / 162 / 128 / 121 words.
+
+
+## 2026-09-23 — V2 directorial rewrite
+
+- User requested a true directorial rewrite rather than a polish pass.
+- Preserved V1 unchanged as research-first baseline.
+- Created Russian V2 review script with stronger mystery architecture, staged engineering action, earlier human/infrastructure scale, a defined midpoint reversal around the scoped 1977 field-study availability figure, a stronger dismantling climax, and a transformed bucket callback ending.
+- Added V2 directorial-intent notes explaining all structural changes.
+- V2 is NOT approved narration and is NOT TTS-ready.
+- No image/video generation and no credits spent.
