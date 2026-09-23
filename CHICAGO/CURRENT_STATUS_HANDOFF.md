@@ -1,5 +1,23 @@
 # CHICAGO — CURRENT STATUS / HANDOFF
 
+## CRITICAL EDITORIAL CORRECTION — 2026-09-23
+
+**The previously rendered textless 1080 master is WITHDRAWN FROM PUBLICATION. DO NOT UPLOAD IT.**
+
+Reason:
+- V12 provenance logic incorrectly grouped `reconstruction` together with `archive/map` and rendered `HISTORICAL SOURCE` on AI-generated reconstruction shots.
+- The picture layer was still primarily pre-cut by Python/FFmpeg and Remotion was used mainly as an overlay renderer, which does not meet the channel editing canon.
+
+Required replacement:
+- strict per-shot provenance from the actual current visual;
+- `HISTORICAL SOURCE` only on verified archive/map assets;
+- `AI RECONSTRUCTION` on generated reconstruction;
+- primary picture timeline rendered in Remotion;
+- clean phrase-driven documentary cuts and restrained motion;
+- full editorial + technical review before any upload.
+
+The old release remains only as a superseded technical artifact.
+
 ## Canonical status
 
 **Episode 1 — Chicago is reopened for repair. It is NOT an approved publication master.**
