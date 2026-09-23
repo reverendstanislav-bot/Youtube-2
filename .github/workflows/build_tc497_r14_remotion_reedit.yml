@@ -266,7 +266,9 @@ jobs:
           cp TC497/R14_REEDIT/src/index.jsx /tmp/tc497_r14/remotion/src/index.jsx
           cp TC497/R14_REEDIT/package.json /tmp/tc497_r14/remotion/package.json
           grep -q 'HISTORICAL SOURCE' TC497/R14_REEDIT/prepare_remotion_timeline.py
-          grep -q 'AI RECONSTRUCTION' TC497/R14_REEDIT/src/index.jsx
+          grep -q 'AI RECONSTRUCTION' TC497/R14_REEDIT/prepare_remotion_timeline.py
+          jq -e '[.shots[].provenance] | index("AI RECONSTRUCTION") != null' /tmp/tc497_r14/remotion/public/timeline.json
+          jq -e '[.shots[].provenance] | index("HISTORICAL SOURCE") != null' /tmp/tc497_r14/remotion/public/timeline.json
           cd /tmp/tc497_r14/remotion
           npm install --no-audit --no-fund
 
