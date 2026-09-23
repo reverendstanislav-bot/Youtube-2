@@ -92,3 +92,14 @@ Future history entries must record:
 - Added V2 directorial-intent notes explaining all structural changes.
 - V2 is NOT approved narration and is NOT TTS-ready.
 - No image/video generation and no credits spent.
+
+
+## 2026-09-23 — Stage 6 English adaptation + fact lock
+
+- User approved continuing from Russian V2 directorial direction.
+- Created native English V3 rather than literal translation.
+- Preserved the V2 dramatic architecture and stronger 1999 climax.
+- Completed V3 line-by-line fact audit: factual blockers **0**.
+- Created clean TTS text, pronunciation/delivery package and V3-aligned Shorts map.
+- Audio generation remains gated on explicit user approval of English V3.
+- No image generation, no video generation and no credits spent.

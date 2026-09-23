@@ -7,7 +7,7 @@ Updated: 2026-09-22
 Episode: **3 — Big Muskie**
 Machine: **Bucyrus-Erie 4250-W walking dragline**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 5 — V2 DIRECTORIAL REWRITE READY FOR USER REVIEW; V1 preserved; no narration approved yet**
+State: **STAGE 6 — V2 DIRECTION APPROVED; ENGLISH V3 + FACT CHECK + TTS PACKAGE READY FOR USER REVIEW**
 Publication status: **NOT A SCRIPT / NOT AN EDIT / NOT A PUBLICATION CANDIDATE**
 
 ## Completed in this stage
@@ -136,3 +136,27 @@ Canonical Stage 5 files:
 
 No TTS, generated images, video generation or credit spend has occurred.
 
+
+
+## Stage 6 status — 2026-09-23
+
+User approved continuing from the V2 directorial direction.
+
+Completed:
+- native English V3 adaptation, not literal translation;
+- V2 mystery → spectacle → midpoint reversal → system collapse → dismantling climax → bucket callback retained;
+- line-by-line factual verification completed;
+- factual blockers: **0**;
+- V3-aligned Shorts map completed;
+- clean TTS text and TTS direction package prepared;
+- **audio not generated** pending explicit approval of English V3.
+
+Canonical Stage 6 files:
+- `SCRIPT/NARRATION_V3_EN_REVIEW.md`
+- `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`
+- `SCRIPT/V3_FACT_CHECK.md`
+- `SCRIPT/SHORTS_EXTRACTION_MAP_V2.md`
+- `SCRIPT/TTS_PACKAGE_V1.md`
+
+Next gate:
+**user approval of English V3 → TTS generation → word-level transcript/timing → Stage 7 visual beat map.**
