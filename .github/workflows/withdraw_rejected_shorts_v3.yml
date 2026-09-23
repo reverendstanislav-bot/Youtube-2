@@ -1,0 +1,20 @@
+name: Withdraw Rejected Shorts V3 Release
+
+on:
+  push:
+    paths:
+      - '.github/workflows/withdraw_rejected_shorts_v3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  withdraw:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete rejected V3 final release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh release delete hia-shorts-10-final-masters-20260923             --repo reverendstanislav-bot/Youtube-2 -y || true
