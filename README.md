@@ -4,22 +4,31 @@ Production repository for **Hidden Industrial America**.
 
 ## Episodes
 
-- CHICAGO/ — Episode 1. Chicago underground freight system. Historical/reference production tree; always read its canonical status before touching it.
-- TC497/ — Episode 2. LeTourneau TC-497 Overland Train. User-approved FULL_V13 publication master and QC are tracked in that directory.
-- BIG_MUSKIE/ — Episode 3. Big Muskie / Bucyrus-Erie 4250-W. Current status: research and preproduction.
+- `CHICAGO/` — Episode 1. Current active build: **R13 Remotion provenance re-edit review**. The earlier textless 1080 master is withdrawn and must not be uploaded.
+- `TC497/` — Episode 2. Current active build: **R14 Remotion re-edit review**. The earlier V13 textless 1080 master is withdrawn and must not be uploaded.
+- `BIG_MUSKIE/` — Episode 3. Big Muskie / Bucyrus-Erie 4250-W. Research/preproduction continues separately.
 - Episode 4 — Satsop Nuclear Plant.
 - Episode 5 — Lake Peigneur.
 
+## Active production workflows
+
+Only two episode render workflows are active:
+- `.github/workflows/build_chicago_r13_remotion_reedit.yml`
+- `.github/workflows/build_tc497_r14_remotion_reedit.yml`
+
+Legacy build/review workflows were removed from the current tree. They remain available through Git history if ever needed for forensic recovery.
+
 ## Channel
 
-Channel-level rules, scalable production structure, and approval conventions live under CHANNEL/.
+Channel-level rules, scalable production structure, provenance rules, and approval conventions live under `CHANNEL/`.
 
 ## Source-of-truth rule
 
 Never infer "final" from a filename. An episode becomes a publication/upload master only after:
 1. explicit user approval;
-2. technical QC;
-3. subtitle/picture/audio QC;
-4. the canonical status file is updated.
+2. editorial visual review;
+3. technical QC;
+4. subtitle/picture/audio QC;
+5. canonical status update.
 
-Large media may live in GitHub Releases/Actions rather than the Git tree. The Git tree must contain manifests, hashes, provenance/state notes, rebuild/recovery tooling, and links/IDs needed to reproduce the current state.
+Large media belongs in GitHub Releases/Actions rather than the Git tree. The Git tree should keep only the current production code, essential recovery dependencies, manifests, source/QC records, and canonical status.
