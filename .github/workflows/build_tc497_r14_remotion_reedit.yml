@@ -34,6 +34,26 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Repository dependency preflight
+        run: |
+          set -euo pipefail
+          for f in             TC497/FULL_V13/download_assets.py             TC497/FULL_V13/asset_urls.json             TC497/FULL_V13/prep_v13_cold.py             TC497/FULL_V13/index_v13.jsx             TC497/FULL_V4/full_v4_build.py             TC497/V14/package.json             TC497/V14/TC497_V14_REMOTION_REPORT.zip             TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4             TC497/V14/assets/INTRO_DETAIL.png             TC497/V14/assets/INTRO_OBSERVERS.png             TC497/V14/assets/INTRO_REVEAL.png             TC497/R14_REEDIT/prepare_remotion_timeline.py             TC497/R14_REEDIT/src/index.jsx             TC497/R14_REEDIT/package.json; do
+              test -s "$f" || { echo "MISSING REQUIRED FILE: $f" >&2; exit 1; }
+          done
+          python3 -m py_compile TC497/FULL_V13/download_assets.py TC497/FULL_V13/prep_v13_cold.py TC497/R14_REEDIT/prepare_remotion_timeline.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('TC497/FULL_V13/asset_urls.json')
+          d=json.loads(p.read_text())
+          assert len(d['v4_extra']) == 39, len(d['v4_extra'])
+          assert len(d['v5_patch']) == 7, len(d['v5_patch'])
+          assert set(d['v6_patch']) == {'electric_human_v6.png','electric_wheel_v6.png'}
+          src=Path('TC497/FULL_V13/download_assets.py').read_text()
+          assert '.github/workflows/' not in src
+          print('R14_REPOSITORY_PREFLIGHT_PASS')
+          PY
+
       - name: Install media tools
         run: |
           set -euo pipefail
@@ -88,11 +108,12 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           src=Path('TC497/FULL_V13/download_assets.py').read_text()
-          src=src.replace("Path('/tmp/v13/v4extra')","Path('/tmp/tc497_r14/v4extra')")
-          src=src.replace("Path('/tmp/v13/v5patch')","Path('/tmp/tc497_r14/v5patch')")
-          src=src.replace("Path('/tmp/v13/patch')","Path('/tmp/tc497_r14/patch')")
+          src=src.replace('"/tmp/v13/v4extra"','"/tmp/tc497_r14/v4extra"')
+          src=src.replace('"/tmp/v13/v5patch"','"/tmp/tc497_r14/v5patch"')
+          src=src.replace('"/tmp/v13/patch"','"/tmp/tc497_r14/patch"')
           Path('/tmp/tc497_r14/download_assets.py').write_text(src)
           PY
+          cp TC497/FULL_V13/asset_urls.json /tmp/tc497_r14/asset_urls.json
           python3 /tmp/tc497_r14/download_assets.py
           test -s /tmp/tc497_r14/patch/electric_human_v6.png
           for f in nuclear_concept_clean.png nuclear_unbuilt_clean.png heavy_lift_logistics_clean.png ground_vs_air_clean.png survivor_detail_clean.png; do
