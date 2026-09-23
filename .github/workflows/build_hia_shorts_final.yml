@@ -2,6 +2,9 @@ name: Build 10 Shorts Final Masters
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_hia_shorts_final.yml'
 
 permissions:
   contents: write
@@ -266,7 +269,7 @@ jobs:
           5 Chicago + 5 TC-497
           1080x1920 H.264 / yuv420p / BT.709 / AAC 48k stereo
           Technical QC: required PASS before package release.
-          Visual QC: two-panel vertical layout, caption-safe framing, white captions + orange active word.
+          Visual QC: V3 single-panel vertical layout; ZERO duplicated source panels; larger primary visual; caption-safe framing; white captions + orange active word.
           Provenance: explicit only when unambiguous; ambiguous beats defer to the visible source frame.
           Publication status: AWAITING USER VISUAL APPROVAL. Files are not marked PUBLISHED/APPROVED by automation.
           EOF
@@ -289,7 +292,7 @@ jobs:
           cd /tmp/pkg
           TAG=hia-shorts-10-final-masters-20260923
           gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
-          gh release create "$TAG"             HIA_SHORTS_10_FINAL_MASTERS.zip             HIA_SHORTS_10_FINAL_MASTERS.zip.sha256             --title 'HIA — 10 Shorts Final Masters'             --notes '10 vertical 1080x1920 master candidates: 5 Chicago + 5 TC-497. Technical QC passed before packaging. Source-locked long-form narration, white/orange word captions, vertical safe layout, no new AI generation. Awaiting user visual approval before publication.'             --repo reverendstanislav-bot/Youtube-2
+          gh release create "$TAG"             HIA_SHORTS_10_FINAL_MASTERS.zip             HIA_SHORTS_10_FINAL_MASTERS.zip.sha256             --title 'HIA — 10 Shorts Final Masters'             --notes 'V3 corrected 10-master pack: 5 Chicago + 5 TC-497, 1080x1920. The rejected doubled two-panel layout is removed: each frame contains ONE source visual only. Larger primary framing, hook title at open, white/orange word captions, source-locked narration, technical QC required on all 10. Awaiting user visual approval before publication.'             --repo reverendstanislav-bot/Youtube-2
 
       - uses: actions/upload-artifact@v4
         with:
