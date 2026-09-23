@@ -1,0 +1,6 @@
+{
+  "name":"hia-chicago-r14-editorial-recut",
+  "private":true,
+  "scripts":{"render":"remotion render src/index.jsx ChicagoR14 out/remotion.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p --concurrency=4"},
+  "dependencies":{"@remotion/cli":"4.0.344","remotion":"4.0.344","react":"18.3.1","react-dom":"18.3.1"}
+}
