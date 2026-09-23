@@ -1,0 +1,106 @@
+{
+  "id": "CHI-S04",
+  "fps": 25,
+  "title_lines": [
+    "HOW A FORGOTTEN RAILROAD",
+    "HELPED FLOOD CHICAGO"
+  ],
+  "version": "V10_CANON",
+  "rules": {
+    "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
+    "source": "clean episode assets",
+    "provenance": "map historical; recon labeled AI"
+  },
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 4.32,
+      "asset": "S165_P106.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "A PATHWAY STILL EXISTED",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 4.32,
+      "out_end": 8,
+      "asset": "S166_P107.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "33 YEARS AFTER THE LAST TRAIN",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 8,
+      "out_end": 12.14,
+      "asset": "S164_P105.png",
+      "x": 0.48,
+      "motion": "static",
+      "metric": "THE NETWORK REMAINED",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 12.14,
+      "out_end": 16,
+      "asset": "S167_P108.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "APRIL 13, 1992",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 16,
+      "out_end": 20.54,
+      "asset": "S168_P109.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "RIVER WATER ENTERED",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 20.54,
+      "out_end": 25.96,
+      "asset": "A02_IllinoisTunnelMap1910.png",
+      "x": 0.52,
+      "motion": "static",
+      "metric": "NEAR KINZIE STREET",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 25.96,
+      "out_end": 31,
+      "asset": "S168_P109.png",
+      "x": 0.62,
+      "motion": "static",
+      "metric": "WATER FOUND THE OLD TUNNELS",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 31,
+      "out_end": 36.4,
+      "asset": "A02_IllinoisTunnelMap1910.png",
+      "x": 0.4,
+      "motion": "static",
+      "metric": "A CONNECTED DOWNTOWN NETWORK",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 36.4,
+      "out_end": 40.4,
+      "asset": "S171_P112.png",
+      "x": 0.48,
+      "motion": "static",
+      "metric": "FREIGHT CONNECTIVITY",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 40.4,
+      "out_end": 44.38,
+      "asset": "S171_P112.png",
+      "x": 0.6,
+      "motion": "push",
+      "metric": "BECAME FLOOD CONNECTIVITY",
+      "provenance": "AI RECONSTRUCTION"
+    }
+  ]
+}
