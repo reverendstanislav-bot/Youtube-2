@@ -6,8 +6,8 @@ The channel is designed to scale across American industry, infrastructure, engin
 
 ## Current episodes
 
-1. **Chicago** — Episode 1. Reference production tree; consult its canonical handoff before any work.
-2. **LeTourneau TC-497 Overland Train** — Episode 2. User-approved FULL_V13 publication master.
+1. **Chicago** — Episode 1. Earlier textless master withdrawn; active target is R13 Remotion provenance re-edit review.
+2. **LeTourneau TC-497 Overland Train** — Episode 2. V13 publication master withdrawn; active target is R14 Remotion re-edit review.
 3. **Big Muskie / Bucyrus-Erie 4250-W** — Episode 3. Research and preproduction.
 4. **Satsop Nuclear Plant** — planned Episode 4.
 5. **Lake Peigneur** — planned Episode 5.
@@ -43,4 +43,4 @@ For new production, unless a later explicit approval changes it:
 - one caption renderer/layer only;
 - no blue dialogue words, opaque caption slabs, duplicated subtitles, or caption renderer in the YouTube end-screen zone.
 
-The TC497 top-level canonical handoff and post-approval master QC are the precedent for this rule; stale intermediate V5/V13 review notes do not override them.
+The active R13/R14 builds and the channel provenance/editing canon are the current precedent; stale V5–V13 review notes do not override them.
