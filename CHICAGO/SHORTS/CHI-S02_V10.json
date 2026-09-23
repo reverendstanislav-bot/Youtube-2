@@ -1,0 +1,97 @@
+{
+  "id": "CHI-S02",
+  "fps": 25,
+  "title_lines": [
+    "IT STARTED AS A",
+    "TELEPHONE TUNNEL"
+  ],
+  "version": "V10_CANON",
+  "rules": {
+    "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
+    "source": "clean verified archive",
+    "provenance": "HISTORICAL SOURCE"
+  },
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 4.14,
+      "asset": "A07_IllinoisTunnelTestTrain.jpg",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "IT DIDN'T START AS A RAILROAD",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 4.14,
+      "out_end": 8.4,
+      "asset": "A08_IllinoisTelephoneAndTelegraphAd.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "1899 TELEPHONE FRANCHISE",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 8.4,
+      "out_end": 12.6,
+      "asset": "A14_LOC_State_Street_1905.jpg",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "INFRASTRUCTURE UNDERGROUND",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 12.6,
+      "out_end": 17.5,
+      "asset": "A05_IllinoisTunnelConstruction.jpg",
+      "x": 0.44,
+      "motion": "static",
+      "metric": "TUNNEL CONSTRUCTION — c.1900",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 17.5,
+      "out_end": 22.4,
+      "asset": "A01_IllinoisTunnelIntersectionCloser.jpg",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "BIGGER THAN CABLE CONDUITS",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 22.4,
+      "out_end": 27,
+      "asset": "A08_IllinoisTelephoneAndTelegraphAd.png",
+      "x": 0.62,
+      "motion": "static",
+      "metric": "THE EXACT TURNING POINT IS UNCLEAR",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 27,
+      "out_end": 31.5,
+      "asset": "A05_IllinoisTunnelConstruction.jpg",
+      "x": 0.58,
+      "motion": "static",
+      "metric": "NO SECRET DAY-ONE RAIL PLAN",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 31.5,
+      "out_end": 36.24,
+      "asset": "A01_IllinoisTunnelIntersectionCloser.jpg",
+      "x": 0.42,
+      "motion": "static",
+      "metric": "WHAT IS CLEAR: THE TRANSFORMATION",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 36.24,
+      "out_end": 41.98,
+      "asset": "A07_IllinoisTunnelTestTrain.jpg",
+      "x": 0.56,
+      "motion": "push",
+      "metric": "TWO-FOOT GAUGE",
+      "provenance": "HISTORICAL SOURCE"
+    }
+  ]
+}
