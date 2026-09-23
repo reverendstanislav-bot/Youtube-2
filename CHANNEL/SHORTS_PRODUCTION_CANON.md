@@ -63,7 +63,7 @@ Never mark a Short APPROVED based only on technical QC.
 - Wide maps/documents may be letterboxed inside the 9:16 frame; reconstruction/archive may receive a controlled crop, but must not be duplicated to fill space.
 - Do not stack a "full" view and a second "detail" copy of the same image at the same time.
 - Preserve the source long-form provenance label when it is visible; do not add a second provenance label over the same frame.
-- The rejected two-panel Shorts package from 2026-09-23 is superseded by the V3 single-panel system.
+- Rejected V3/V4/V5 mechanical vertical systems are superseded by the V10 clean-source semantic system.
 
 ## Clean-source vertical rebuild rule
 
@@ -84,3 +84,16 @@ The rejected V3/V4/V5 Shorts proved that mechanically cropping the finished 16:9
 - If motion is used later, it must be a very subtle push/reframe (roughly <=2% scale change over the shot), never a full-frame side-to-side traverse.
 - More energy should come from stronger shot selection and narration-driven cuts, not from artificial camera movement.
 - Captions must remain inside the 9:16 safe area and may use at most two balanced lines; no single-line overflow beyond the frame.
+
+## Current V10 review lock
+
+The current review package is **V10**.
+
+- 10 Shorts exist: 5 Chicago + 5 TC-497.
+- TC497-S01 is the original V10 style-bible proof.
+- CHI-S01 and TC497-S02 were used as cross-episode V10 gate proofs.
+- The remaining seven were rendered only after those gate proofs passed visual review.
+- V10 uses clean underlying assets, semantic visual beats, one visual plane, restrained push-ins only, mobile-safe white/orange captions, and truthful per-asset provenance.
+- Release tag: `hia-shorts-v10-review-20260923`.
+- Publication state remains `RENDER_REVIEW` until explicit user visual approval.
+- Do not run or restore the obsolete pre-V10 final-master workflow; it used rejected master-crop logic.
