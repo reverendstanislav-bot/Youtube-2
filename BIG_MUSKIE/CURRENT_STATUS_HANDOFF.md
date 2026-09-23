@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 7 COMPLETE — ARTHUR VO LOCKED, WORD TIMING LOCKED, 116-BEAT VISUAL MAP COMPLETE**  
-Publication status: **PREPRODUCTION — VO/TIMING/VISUAL MAP LOCKED; ASSET SOURCING AND PROMPT PACKAGE NEXT**
+State: **STAGE 8 PREFLIGHT COMPLETE — 116/116 ASSET-MAPPED; 9 UNIQUE RECONSTRUCTION GAPS; AWAITING EXPLICIT IMAGE-CREDIT APPROVAL**  
+Publication status: **PREPRODUCTION — VO/TIMING/STAGE 7 LOCKED; STAGE 8 ASSET/PROMPT/COST PREFLIGHT LOCKED; NO STAGE 8 IMAGES GENERATED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,39 +336,36 @@ Final captions:
 
 ## Immediate next action
 
-**STAGE 8 — ASSET INVENTORY / GAP ANALYSIS — NO PAID GENERATION**
+**HARD STOP — AWAIT EXPLICIT USER APPROVAL FOR THE EXACT STAGE 8 IMAGE BATCH**
 
-Stage 7 is complete:
-- canonical Arthur VO generated;
-- raw decoded four-chunk runtime: **23:45.600**;
-- join-normalized editorial runtime: **23:46.400**;
-- final chunk start offsets: **0.000 / 375.000 / 749.440 / 1119.920 s**;
-- word-level timing files committed;
-- pronunciation QC committed;
-- full **116-beat** visual map committed.
+Stage 8 is complete:
+- all **116/116** beats mapped to real archive/current/context, document/data, source-grounded GFX, or genuine reconstruction gaps;
+- coverage: **31 REAL / 7 REAL_CONTEXT / 12 DOCUMENT / 55 GFX / 9 GENERATE_GAP / 2 GENERATE_REUSE**;
+- **9 unique reconstruction prompts** locked;
+- P06 is reused at BM-B051;
+- P07 is reused at BM-B077;
+- no video generation;
+- no Stage 8 paid image jobs submitted.
 
-Next:
-1. map every beat against already-cleared archive/current/document assets;
-2. source additional authentic archive where rights are obtainable;
-3. identify only genuine visual gaps;
-4. mark those gaps as GFX / TECH_DRAWING / GENERATE / EDITORIAL_ONLY;
-5. write the complete prompt pack for every GENERATE beat;
-6. run prompt/QC audit;
-7. calculate exact image count and exact credit cost;
-8. stop and request explicit approval before any paid generation.
+Image backend preflight:
+- model: `gpt_image_2_5`;
+- variant: `flare`;
+- quality: `low`;
+- resolution: `1k`;
+- aspect ratio: `16:9`;
+- each final prompt was estimated separately;
+- P01–P09: **0.25 credits each**;
+- exact total: **2.25 credits**;
+- currently approved Stage 8 image spend: **0.00 credits**.
 
-No additional paid generation is authorized.
+Do not submit P01–P09 unless the user explicitly approves the exact **2.25-credit** batch.
 
-Pronunciation watch items before picture lock:
-- Bucyrus-Erie: output appears compatible with Ohio local pronunciation; final human-ear spot check;
-- Kraschnewski: no authoritative pronunciation reference in repo; WATCH;
-- Lindimore: final human-ear spot check;
-- January 1991: canonical prompt + tiny ASR = 1991; one small ASR pass misheard 1990; human spot check before final picture lock.
+Canonical Stage 8 files:
+- `STAGE_8/README.md`
+- `STAGE_8/REAL_ASSET_CATALOG_V1.md`
+- `STAGE_8/BEAT_ASSET_MATRIX_V1.md`
+- `STAGE_8/GAP_LEDGER_V1.md`
+- `STAGE_8/GENERATE_PROMPT_PACK_V1.md`
+- `STAGE_8/COST_PREFLIGHT_V1.md`
 
-After each major stage record:
-- what was completed;
-- what was checked;
-- commit SHA;
-- any approved credits actually spent;
-- exact runtime;
-- next concrete step.
+After approval, submit exactly the 9 unique image jobs and no extras. Any retry/reject replacement that would spend additional credits requires a new explicit cost approval.

@@ -59,3 +59,12 @@ None are canonical for Episode 3 yet. Future large assets belong in Releases/Act
 - STAGE_7/STAGE_7_VISUAL_BEAT_MAP_V1_INDEX.md — full-map index / 116-beat lock.
 - STAGE_7/STAGE_7_VISUAL_BEAT_MAP_V1_PART_01.md … PART_06.md — complete 116-beat map.
 
+## Stage 8 — asset inventory / gap analysis / prompt preflight
+
+- STAGE_8/README.md — Stage 8 lock and hard approval gate.
+- STAGE_8/REAL_ASSET_CATALOG_V1.md — real Big Muskie, current, regional-context, document and GFX catalog.
+- STAGE_8/BEAT_ASSET_MATRIX_V1.md — **116/116** beat-to-asset mapping.
+- STAGE_8/GAP_LEDGER_V1.md — 9 unique reconstruction gaps + 2 reuse beats.
+- STAGE_8/GENERATE_PROMPT_PACK_V1.md — audited production prompts P01–P09.
+- STAGE_8/COST_PREFLIGHT_V1.md — nine separate read-only cost estimates; exact total **2.25 credits**; no jobs submitted.
+

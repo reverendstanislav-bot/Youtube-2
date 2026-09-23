@@ -149,3 +149,24 @@ Future history entries must record:
 - No images or video were generated.
 - Next: asset inventory + archive sourcing + genuine-gap analysis + full prompt pack + exact cost preflight + explicit approval.
 
+## 2026-09-23 — Stage 8 asset/gap/prompt preflight
+
+- Re-read current GitHub `main` and all 116 Stage 7 beats before Stage 8 classification.
+- Audited the visual-source ledger and expanded authentic/publication-usable source coverage.
+- Added a third specific public-domain Big Muskie historical source: U.S. Department of Energy HD.11B.110.
+- Added CML/DPLA authentic Big Muskie as a fallback with **No Known Copyright** caveat, not as unconditional public domain.
+- Added verified current CC bucket/chain assets and Toni Leland's CC BY-SA 4.0 reclaimed-land image.
+- Added public-domain EPA/NARA southeastern-Ohio mining/reclamation context, explicitly classified as context rather than Big Muskie.
+- Completed beat-to-asset mapping for **116/116 beats**.
+- Coverage lock: **31 REAL / 7 REAL_CONTEXT / 12 DOCUMENT / 55 GFX / 9 GENERATE_GAP / 2 GENERATE_REUSE**.
+- Rejected fake-archive generation where authentic archive, current photography, documents or source-grounded GFX can do the job.
+- Locked **9 unique reconstruction gaps**: assembly ×2, operating cycle ×3, walking ×1, maintenance/workplace ×2, dismantling ×1.
+- P06 is reused once and P07 is reused once; reuse creates no additional paid job.
+- Completed the full 9-prompt production pack and prompt audit.
+- Ran the read-only backend image-cost estimator separately for every final prompt using GPT Image 2.5 / flare / low / 1k / 16:9.
+- Every prompt returned **0.25 exact credits**, no errors and no adjustments.
+- Exact Stage 8 image batch: **9 jobs = 2.25 credits**.
+- Stage 8 credits spent: **0.00**.
+- No image jobs and no video jobs were submitted.
+- Hard stop: await a new explicit user approval of exactly **2.25 credits** before any image generation.
+

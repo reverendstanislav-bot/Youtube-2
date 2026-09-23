@@ -1,6 +1,6 @@
 # BIG MUSKIE — VISUAL SOURCE LEDGER / SURVEY
 
-Status: **re-audited rights reconnaissance. No paid/generated asset production has begun.**
+Status: **Stage 8 rights/source audit complete. No Stage 8 paid image generation has begun.**
 
 | V-ID | Visual lead | Likely use | Provenance | Rights status | Action |
 |---|---|---|---|---|---|
@@ -69,3 +69,35 @@ Every asset must be tagged:
 **verified historical source / archive photograph / document / technical drawing / map / reconstruction / generated explanatory visual / chart / diagram / motion graphic.**
 
 A reconstruction/generated visual must never be presented as an authentic archive photograph.
+
+## Stage 8 additions — verified / production-classified
+
+| V-ID | Visual lead | Likely use | Provenance | Rights status | Stage 8 action |
+|---|---|---|---|---|---|
+| V16 | DOE HD.11B.110 / ENERGY.GOV — Big Muskie, c.1969 | third authentic historical Big Muskie angle | U.S. Department of Energy | **PUBLIC DOMAIN — U.S. federal official work** | usable; R03 |
+| V17 | Columbus Metropolitan Library / DPLA Cumberland00004 / DPLA 9b8ec7e882a637446cc36d70e54f5c5f | authentic historical Big Muskie | CML / DPLA | **No Known Copyright — rights-statement caveat** | fallback only; preserve rights notice; R04 |
+| V18 | Big Muskie Bucket (Looking Northeast), Eric Gunderson, 2013 | alternate current bucket | Wikimedia Commons | **CC BY-SA 3.0** | usable with attribution/share-alike; R07 |
+| V19 | Big Muskie's Bucket, Charles Barilleaux, 2012 | current bucket / scale | Wikimedia Commons / Flickr | **CC BY 2.0** | usable with attribution; R09 |
+| V20 | Big Muskie's Chain, Charles Barilleaux, 2012 | current memorial chain detail | Wikimedia Commons / Flickr | **CC BY 2.0** | usable with attribution; R10 |
+| V21 | Reclamation Land Ohio, Toni Leland, 2001 | reclaimed southeastern-Ohio mining landscape | Wikimedia Commons | **CC BY-SA 4.0** | usable with attribution/share-alike; R11 |
+| V22 | NARA 555648 — Ohio Power farmland near Chandlersville with strip-mined land behind | regional mine/land context | EPA / NARA, Erik Calonius | **PUBLIC DOMAIN — U.S. EPA official work** | usable only as regional context; C01 |
+| V23 | NARA 555638 — strip-mine equipment loading trucks west of Barnesville | coal-handling / trucks context | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C02 |
+| V24 | NARA 555565 — coal-hauling truck | transport context | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C03 |
+| V25 | NARA 555594 — recontoured strip-mined land | reclamation | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C04 |
+| V26 | NARA 555616 — reseeded post-strip-mining landscape | reclamation / ending | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C05 |
+| V27 | NARA 555597 — reclaimed strip-mined land in southeastern Ohio | reclamation | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C06 |
+| V28 | NARA 555634 — test drilling before strip mining | geology / planning | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C07 |
+| V29 | NARA 555619 — seeding/reclamation operation | reclamation process | EPA / NARA | **PUBLIC DOMAIN — U.S. EPA official work** | context only; C08 |
+
+### Stage 8 production conclusion
+
+The full 116-beat map was audited against real assets, document/data sources and source-grounded Remotion GFX.
+
+Residual generation requirement:
+- **9 unique reconstruction images**;
+- 2 later beats reuse P06/P07;
+- all generated historical scenes must carry **AI RECONSTRUCTION**;
+- no generated frame can carry **HISTORICAL SOURCE**.
+
+The Stage 8 matrix/prompt/cost package is under `BIG_MUSKIE/STAGE_8/`.
+
