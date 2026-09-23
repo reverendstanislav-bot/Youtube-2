@@ -1,0 +1,236 @@
+name: Build Chicago R14 Editorial Recut Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_r14_editorial_recut.yml'
+      - 'CHICAGO/R14/**'
+      - 'CHANNEL/PROVENANCE_AND_EDITING_CANON.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-pil jq zip fonts-dejavu-core
+
+      - name: Repository preflight
+        run: |
+          set -euo pipefail
+          for f in             CHICAGO/R14/prepare_timeline.py             CHICAGO/R14/prepare_data.py             CHICAGO/R14/src/index.jsx             CHICAGO/R14/package.json             CHICAGO/V3/build_v3_picture.py             CHICAGO/V12/prepare_remotion_data.py             CHICAGO/AUDIT/V2_SEQUENCE/shots.json; do
+              test -s "$f" || { echo "MISSING: $f" >&2; exit 1; }
+          done
+          python3 -m py_compile CHICAGO/R14/prepare_timeline.py CHICAGO/R14/prepare_data.py
+          grep -q 'AI RECONSTRUCTION' CHICAGO/R14/src/index.jsx
+          grep -q 'HISTORICAL SOURCE' CHICAGO/R14/prepare_timeline.py
+
+      - name: Download canonical Chicago source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_r14 /tmp/chicago_src /tmp/chicago_extract /tmp/hia_brand
+          mkdir -p /tmp/chicago_r14/{remotion/src,remotion/public,work,qc/stills} /tmp/chicago_src /tmp/chicago_extract /tmp/hia_brand
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract source assets timing and audio
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar -o/tmp/chicago_extract             "-ir!*/_V2/work/assets/*"             "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4"             "-ir!*/_V2/final/HIA_CHICAGO_V2.srt"             "-ir!*/_QC/voice_words.json"
+          ASSETS="$(find /tmp/chicago_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          test -d "$ASSETS"; test -s "$V2"; test -s "$SRT"; test -s "$WORDS"
+          echo "ASSETS=$ASSETS" >> "$GITHUB_ENV"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+          echo "SRT=$SRT" >> "$GITHUB_ENV"
+          echo "WORDS=$WORDS" >> "$GITHUB_ENV"
+
+      - name: Build phrase-driven R14 editorial timeline
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/R14/prepare_timeline.py             --v3-builder CHICAGO/V3/build_v3_picture.py             --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json             --assets-root "$ASSETS"             --words "$WORDS"             --work /tmp/chicago_r14/work             --public-dir /tmp/chicago_r14/remotion/public             --manifest /tmp/chicago_r14/remotion/public/timeline.json             --plan-out /tmp/chicago_r14/work/base_plan.json             --report /tmp/chicago_r14/qc/EDITORIAL_PROVENANCE_AUDIT.json
+          jq -e '
+            .status=="PASS" and
+            .historicalOnNonHistorical==0 and
+            .reconstructionWithoutAIReconstruction==0 and
+            .archiveMapMotionNonStatic==0 and
+            .beatsOver7_05SecBeforeOutro==0 and
+            .maxBeatSecBeforeOutro<=7.05 and
+            .wordSnapRatio>=0.95
+          ' /tmp/chicago_r14/qc/EDITORIAL_PROVENANCE_AUDIT.json
+
+      - name: Build exact word-level captions and restrained cards
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/R14/prepare_data.py             --words "$WORDS"             --base-plan /tmp/chicago_r14/work/base_plan.json             --v12-script CHICAGO/V12/prepare_remotion_data.py             --captions-out /tmp/chicago_r14/remotion/public/captions.json             --overlays-out /tmp/chicago_r14/remotion/public/overlays.json             --report /tmp/chicago_r14/qc/CAPTION_CARD_AUDIT.json
+          jq -e '.status=="PASS" and .wordCoverageRatio==1 and .exactWordSequence==true' /tmp/chicago_r14/qc/CAPTION_CARD_AUDIT.json
+
+      - name: Build canonical textless end screen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920 --repo reverendstanislav-bot/Youtube-2 --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          BASE="$(find extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          test -s "$BASE"
+          BRAND_BASE="$BASE" python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          import os
+          src=Image.open(os.environ['BRAND_BASE']).convert('RGB')
+          assert src.size==(1920,1080)
+          im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
+          d=ImageDraw.Draw(im); PAPER=(230,221,200); RUST=(165,82,53)
+          rx1,ry1,rx2,ry2=185,350,1015,817
+          d.rounded_rectangle([rx1,ry1,rx2,ry2],radius=6,fill=(22,25,27),outline=PAPER,width=5)
+          d.line([rx1,ry1,rx1+155,ry1],fill=RUST,width=7)
+          cx,cy,r=1425,590,145
+          d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
+          d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],start=208,end=325,fill=RUST,width=6)
+          im.save('/tmp/chicago_r14/remotion/public/end_screen_1080.png')
+          PY
+
+      - name: Lock approved audio
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/chicago_r14/work/original.aac
+          AH="$(sha256sum /tmp/chicago_r14/work/original.aac | awk '{print $1}')"
+          test "$AH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$AH  original.aac" > /tmp/chicago_r14/qc/AUDIO_SHA256.txt
+
+      - name: Prepare Remotion project
+        run: |
+          set -euo pipefail
+          cp CHICAGO/R14/src/index.jsx /tmp/chicago_r14/remotion/src/index.jsx
+          cp CHICAGO/R14/package.json /tmp/chicago_r14/remotion/package.json
+          cd /tmp/chicago_r14/remotion
+          npm install --no-audit --no-fund
+
+      - name: Render targeted R14 proof stills
+        working-directory: /tmp/chicago_r14/remotion
+        run: |
+          set -euo pipefail
+          for spec in             "001:125"             "002:500"             "003:9000"             "004:9875"             "005:10475"             "006:12000"             "007:13900"             "008:25000"             "009:28100"             "010:31725"; do
+              name="${spec%%:*}"; frame="${spec##*:}"
+              npx remotion still src/index.jsx ChicagoR14 "/tmp/chicago_r14/qc/stills/${name}.png" --frame="$frame"
+          done
+
+      - name: Render full Remotion-led 1080 review
+        working-directory: /tmp/chicago_r14/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx ChicagoR14 out/remotion.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p --concurrency=4
+
+      - name: Normalize upload-grade picture to limited-range yuv420p
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error             -i /tmp/chicago_r14/remotion/out/remotion.mp4 -an             -c:v libx264 -preset medium -crf 14             -pix_fmt yuv420p -color_range tv             -color_primaries bt709 -color_trc bt709 -colorspace bt709             -movflags +faststart /tmp/chicago_r14/work/picture_master.mp4
+          PIX="$(ffprobe -v error -select_streams v:0 -show_entries stream=pix_fmt -of default=nw=1:nk=1 /tmp/chicago_r14/work/picture_master.mp4)"
+          test "$PIX" = "yuv420p"
+
+      - name: Mux original AAC bit-for-bit
+        run: |
+          set -euo pipefail
+          OUT=/tmp/chicago_r14/HIA_CHICAGO_R14_EDITORIAL_RECUT_REVIEW_1920x1080.mp4
+          ffmpeg -y -loglevel error             -i /tmp/chicago_r14/work/picture_master.mp4             -i /tmp/chicago_r14/work/original.aac             -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart "$OUT"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Full technical editorial and audio QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/chicago_r14/qc
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+
+          W="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 "$OUT")"
+          H="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 "$OUT")"
+          FPS="$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$OUT")"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
+          PIX="$(ffprobe -v error -select_streams v:0 -show_entries stream=pix_fmt -of default=nw=1:nk=1 "$OUT")"
+          test "$W" = "1920"; test "$H" = "1080"; test "$FPS" = "25/1"; test "$FRAMES" = "32268"; test "$PIX" = "yuv420p"
+
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/final.aac"
+          FH="$(sha256sum "$Q/final.aac" | awk '{print $1}')"
+          test "$FH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+          ffmpeg -hide_banner -nostats -i "$OUT" -vf "blackdetect=d=0.20:pix_th=0.02" -an -f null - > /dev/null 2> "$Q/BLACKDETECT.txt" || true
+          ffmpeg -hide_banner -nostats -i "$OUT" -af "ebur128=peak=true" -vn -f null - > /dev/null 2> "$Q/EBUR128.txt" || true
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+
+          jq -e '.status=="PASS" and .beatsOver7_05SecBeforeOutro==0 and .wordSnapRatio>=0.95' "$Q/EDITORIAL_PROVENANCE_AUDIT.json"
+          jq -e '.status=="PASS" and .wordCoverageRatio==1 and .exactWordSequence==true' "$Q/CAPTION_CARD_AUDIT.json"
+
+      - name: Publish R14 review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_r14
+          zip -q -r HIA_CHICAGO_R14_REVIEW_QC.zip qc
+          TAG=chicago-r14-editorial-recut-review-20260923
+          gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
+          gh release create "$TAG" "$OUT" HIA_CHICAGO_R14_REVIEW_QC.zip             --title 'Chicago R14 Editorial Recut — REVIEW'             --notes 'REVIEW ONLY. Phrase-driven Remotion recut using existing approved assets only. Long static beats split at narration word boundaries; maps/archive use controlled reframing rather than constant Ken Burns; provenance is truthful and readable; captions derive directly from the word-level transcript at 100% sequence coverage; original approved AAC is preserved bit-for-bit; end screen remains textless.'             --repo reverendstanislav-bot/Youtube-2
+
+      - name: Record R14 review status
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/R14/REVIEW_QC
+          cp /tmp/chicago_r14/qc/EDITORIAL_PROVENANCE_AUDIT.json CHICAGO/R14/REVIEW_QC/
+          cp /tmp/chicago_r14/qc/CAPTION_CARD_AUDIT.json CHICAGO/R14/REVIEW_QC/
+          cp /tmp/chicago_r14/qc/VIDEO_SHA256.txt CHICAGO/R14/REVIEW_QC/
+          cp /tmp/chicago_r14/qc/AUDIO_SHA256.txt CHICAGO/R14/REVIEW_QC/
+          cat > CHICAGO/R14/REVIEW_QC/STATUS.md <<'EOF'
+          # Chicago R14 review status
+          Status: REVIEW ONLY — NOT YET PUBLICATION-APPROVED.
+          - Primary picture timeline: Remotion.
+          - Long beats recut to <= 7.05 s before outro.
+          - New internal cuts are narration-word-boundary driven.
+          - HISTORICAL SOURCE: verified archive/map only.
+          - AI RECONSTRUCTION: generated reconstruction only.
+          - Provenance display increased for 1080p readability.
+          - Captions come directly from the word-level transcript with exact sequence coverage.
+          - Original approved AAC preserved bit-for-bit.
+          - Output normalized to limited-range yuv420p.
+          - Textless YouTube end screen retained.
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/R14/REVIEW_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chicago R14 editorial recut QC"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload R14 review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-r14-editorial-recut-review-1080
+          path: |
+            /tmp/chicago_r14/HIA_CHICAGO_R14_EDITORIAL_RECUT_REVIEW_1920x1080.mp4
+            /tmp/chicago_r14/qc
+          compression-level: 0
+          retention-days: 14
