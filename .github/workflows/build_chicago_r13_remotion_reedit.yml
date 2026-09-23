@@ -1,0 +1,223 @@
+name: Build Chicago R13 Remotion Provenance Re-edit Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_r13_remotion_reedit.yml'
+      - 'CHICAGO/R13/**'
+      - 'CHANNEL/PROVENANCE_AND_EDITING_CANON.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-pil jq zip fonts-dejavu-core
+
+      - name: Download canonical Chicago source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_r13 /tmp/chicago_src /tmp/chicago_extract /tmp/hia_brand
+          mkdir -p /tmp/chicago_r13/{remotion/src,remotion/public,work,qc/stills} /tmp/chicago_src /tmp/chicago_extract /tmp/hia_brand
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract source assets, timing and audio
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar -o/tmp/chicago_extract "-ir!*/_V2/work/assets/*" "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4" "-ir!*/_V2/final/HIA_CHICAGO_V2.srt" "-ir!*/_QC/voice_words.json"
+          ASSETS="$(find /tmp/chicago_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          test -d "$ASSETS"; test -s "$V2"; test -s "$SRT"; test -s "$WORDS"
+          echo "ASSETS=$ASSETS" >> "$GITHUB_ENV"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+          echo "SRT=$SRT" >> "$GITHUB_ENV"
+          echo "WORDS=$WORDS" >> "$GITHUB_ENV"
+
+      - name: Build strict visual timeline and copy assets
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/R13/prepare_timeline.py \
+            --v3-builder CHICAGO/V3/build_v3_picture.py \
+            --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json \
+            --assets-root "$ASSETS" \
+            --work /tmp/chicago_r13/work \
+            --public-dir /tmp/chicago_r13/remotion/public \
+            --manifest /tmp/chicago_r13/remotion/public/timeline.json \
+            --plan-out /tmp/chicago_r13/work/plan.json \
+            --report /tmp/chicago_r13/qc/PROVENANCE_EDIT_AUDIT.json
+          jq -e '.historicalOnNonHistorical==0 and .reconstructionWithoutAIReconstruction==0 and .archiveMotionNonStatic==0 and .status=="PASS"' /tmp/chicago_r13/qc/PROVENANCE_EDIT_AUDIT.json
+
+      - name: Prepare word captions and editorial cards
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/V12/prepare_remotion_data.py \
+            --srt "$SRT" --words "$WORDS" --plan /tmp/chicago_r13/work/plan.json \
+            --captions-out /tmp/chicago_r13/remotion/public/captions.json \
+            --overlays-out /tmp/chicago_r13/remotion/public/overlays.json \
+            --report /tmp/chicago_r13/qc/CAPTION_CARD_REPORT.json
+          # V12 provenance is intentionally discarded. R13 derives provenance only from current visual assets.
+          jq '.provenance=[]' /tmp/chicago_r13/remotion/public/overlays.json > /tmp/chicago_r13/remotion/public/overlays.safe.json
+          mv /tmp/chicago_r13/remotion/public/overlays.safe.json /tmp/chicago_r13/remotion/public/overlays.json
+          test "$(jq '.provenance|length' /tmp/chicago_r13/remotion/public/overlays.json)" = "0"
+
+      - name: Build canonical textless HIA end screen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920 --repo reverendstanislav-bot/Youtube-2 --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          BASE="$(find extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          test -s "$BASE"
+          BRAND_BASE="$BASE" python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          import os
+          from pathlib import Path
+          src=Image.open(os.environ['BRAND_BASE']).convert('RGB')
+          assert src.size==(1920,1080)
+          im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
+          d=ImageDraw.Draw(im)
+          PAPER=(230,221,200); RUST=(165,82,53)
+          rx1,ry1,rx2,ry2=185,350,1015,817
+          d.rounded_rectangle([rx1,ry1,rx2,ry2],radius=6,fill=(22,25,27),outline=PAPER,width=5)
+          d.line([rx1,ry1,rx1+155,ry1],fill=RUST,width=7)
+          cx,cy,r=1425,590,145
+          d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
+          d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],start=208,end=325,fill=RUST,width=6)
+          im.save('/tmp/chicago_r13/remotion/public/end_screen_1080.png')
+          PY
+
+      - name: Lock approved audio
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/chicago_r13/work/original.aac
+          AH="$(sha256sum /tmp/chicago_r13/work/original.aac | awk '{print $1}')"
+          test "$AH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$AH  original.aac" > /tmp/chicago_r13/qc/AUDIO_SHA256.txt
+
+      - name: Prepare Remotion project
+        run: |
+          set -euo pipefail
+          cp CHICAGO/R13/src/index.jsx /tmp/chicago_r13/remotion/src/index.jsx
+          cp CHICAGO/R13/package.json /tmp/chicago_r13/remotion/package.json
+          grep -q "AI RECONSTRUCTION" CHICAGO/R13/src/index.jsx
+          grep -q "HISTORICAL SOURCE" CHICAGO/R13/prepare_timeline.py
+          ! grep -q "overlays.provenance" CHICAGO/R13/src/index.jsx
+          cd /tmp/chicago_r13/remotion
+          npm install --no-audit --no-fund
+
+      - name: Render provenance and pacing proof stills
+        working-directory: /tmp/chicago_r13/remotion
+        run: |
+          set -euo pipefail
+          # reconstruction, archive, map, late reconstruction, end screen
+          npx remotion still src/index.jsx ChicagoR13 /tmp/chicago_r13/qc/stills/01_reconstruction.png --frame=100
+          npx remotion still src/index.jsx ChicagoR13 /tmp/chicago_r13/qc/stills/02_archive.png --frame=345
+          npx remotion still src/index.jsx ChicagoR13 /tmp/chicago_r13/qc/stills/03_map.png --frame=820
+          npx remotion still src/index.jsx ChicagoR13 /tmp/chicago_r13/qc/stills/04_late_reconstruction.png --frame=29600
+          npx remotion still src/index.jsx ChicagoR13 /tmp/chicago_r13/qc/stills/05_outro.png --frame=31900
+
+      - name: Render full Remotion-led 1080 review
+        working-directory: /tmp/chicago_r13/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx ChicagoR13 out/picture.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p --concurrency=4
+
+      - name: Mux original AAC bit-for-bit
+        run: |
+          set -euo pipefail
+          OUT=/tmp/chicago_r13/HIA_CHICAGO_R13_REMOTION_PROVENANCE_REEDIT_REVIEW_1920x1080.mp4
+          ffmpeg -y -loglevel error -i /tmp/chicago_r13/remotion/out/picture.mp4 -i /tmp/chicago_r13/work/original.aac \
+            -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart "$OUT"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Full technical and provenance QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/chicago_r13/qc
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+          W="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 "$OUT")"
+          H="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 "$OUT")"
+          FPS="$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$OUT")"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
+          test "$W" = "1920"; test "$H" = "1080"; test "$FPS" = "25/1"; test "$FRAMES" = "32268"
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/final.aac"
+          FH="$(sha256sum "$Q/final.aac" | awk '{print $1}')"
+          test "$FH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+          jq -e '.historicalOnNonHistorical==0 and .reconstructionWithoutAIReconstruction==0 and .status=="PASS"' "$Q/PROVENANCE_EDIT_AUDIT.json"
+
+      - name: Publish R13 review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_r13
+          zip -q -r HIA_CHICAGO_R13_REVIEW_QC.zip qc
+          TAG=chicago-r13-remotion-provenance-reedit-review-20260923
+          gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
+          gh release create "$TAG" "$OUT" HIA_CHICAGO_R13_REVIEW_QC.zip \
+            --title 'Chicago R13 Remotion Provenance Re-edit — REVIEW' \
+            --notes 'REVIEW ONLY, NOT PUBLICATION MASTER. Remotion is the primary picture timeline. HISTORICAL SOURCE is restricted to verified archive/map visuals; AI-generated reconstruction is labeled AI RECONSTRUCTION. Original approved AAC preserved bit-for-bit.' \
+            --repo reverendstanislav-bot/Youtube-2
+
+      - name: Record review status
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/R13/REVIEW_QC
+          cp /tmp/chicago_r13/qc/PROVENANCE_EDIT_AUDIT.json CHICAGO/R13/REVIEW_QC/
+          cp /tmp/chicago_r13/qc/CAPTION_CARD_REPORT.json CHICAGO/R13/REVIEW_QC/
+          cp /tmp/chicago_r13/qc/VIDEO_SHA256.txt CHICAGO/R13/REVIEW_QC/
+          cat > CHICAGO/R13/REVIEW_QC/STATUS.md <<'EOF'
+          # Chicago R13 review status
+          Status: REVIEW ONLY — NOT APPROVED FOR PUBLICATION.
+          - Primary picture timeline: Remotion.
+          - Provenance audit: strict per current visual.
+          - HISTORICAL SOURCE: archive/map only.
+          - AI RECONSTRUCTION: generated reconstruction only.
+          - Textless end screen retained.
+          - User visual review required before promotion.
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/R13/REVIEW_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chicago R13 provenance re-edit review QC"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-r13-remotion-provenance-reedit-review-1080
+          path: |
+            /tmp/chicago_r13/HIA_CHICAGO_R13_REMOTION_PROVENANCE_REEDIT_REVIEW_1920x1080.mp4
+            /tmp/chicago_r13/qc
+          retention-days: 14
