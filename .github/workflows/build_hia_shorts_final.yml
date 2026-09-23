@@ -2,9 +2,6 @@ name: Build 10 Shorts Final Masters
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/build_hia_shorts_final.yml'
 
 permissions:
   contents: write
