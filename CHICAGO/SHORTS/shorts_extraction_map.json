@@ -1,0 +1,3404 @@
+{
+  "schema_version": 1,
+  "episode": "CHICAGO",
+  "source_longform": "Chicago R14 / canonical approved audio timing",
+  "source_fps": 25,
+  "source_runtime_sec": 1290.72,
+  "production_rule": "Extraction-first. Render only after the corresponding long-form is explicitly approved.",
+  "shared": {
+    "format": "9:16 1080x1920",
+    "captions": "single layer; white base #FFFFFF; current word orange #F28A3A; large 9:16-safe typography",
+    "audio": "exact long-form audio excerpt; no new TTS",
+    "transitions": "clean hard cuts; restrained motion only",
+    "generation": "NO new image/video generation for the extraction render unless explicitly approved"
+  },
+  "shorts": [
+    {
+      "id": "CHI-S01",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "Chicago Had a 60-Mile Railroad Under Downtown",
+      "hook": "Not a subway, a freight railroad.",
+      "source_in_sec": 11.8,
+      "source_out_sec": 46.68,
+      "duration_sec": 34.88,
+      "source_in_tc": "00:00:11.800",
+      "source_out_tc": "00:00:46.680",
+      "narration_text": "Not a subway, a freight railroad. Small electric locomotives hauled coal, merchandise, supplies and ash through narrow tunnels beneath the loop. The tracks connected with railroad freight houses. In some buildings, they reached directly into basement -level facilities. And this was not one tunnel linking two points. At its height, the network stretched roughly 60 miles beneath downtown Chicago. For decades, freight moved through an underground grid while the city continued above it.",
+      "source_words": [
+        {
+          "w": "Not",
+          "source_s": 11.8,
+          "source_e": 12.1,
+          "short_s": 0,
+          "short_e": 0.3
+        },
+        {
+          "w": "a",
+          "source_s": 12.1,
+          "source_e": 12.24,
+          "short_s": 0.3,
+          "short_e": 0.44
+        },
+        {
+          "w": "subway,",
+          "source_s": 12.24,
+          "source_e": 12.62,
+          "short_s": 0.44,
+          "short_e": 0.82
+        },
+        {
+          "w": "a",
+          "source_s": 13.4,
+          "source_e": 13.52,
+          "short_s": 1.6,
+          "short_e": 1.72
+        },
+        {
+          "w": "freight",
+          "source_s": 13.52,
+          "source_e": 13.82,
+          "short_s": 1.72,
+          "short_e": 2.02
+        },
+        {
+          "w": "railroad.",
+          "source_s": 13.82,
+          "source_e": 14.46,
+          "short_s": 2.02,
+          "short_e": 2.66
+        },
+        {
+          "w": "Small",
+          "source_s": 15.54,
+          "source_e": 15.9,
+          "short_s": 3.74,
+          "short_e": 4.1
+        },
+        {
+          "w": "electric",
+          "source_s": 15.9,
+          "source_e": 16.34,
+          "short_s": 4.1,
+          "short_e": 4.54
+        },
+        {
+          "w": "locomotives",
+          "source_s": 16.34,
+          "source_e": 17.06,
+          "short_s": 4.54,
+          "short_e": 5.26
+        },
+        {
+          "w": "hauled",
+          "source_s": 17.06,
+          "source_e": 17.34,
+          "short_s": 5.26,
+          "short_e": 5.54
+        },
+        {
+          "w": "coal,",
+          "source_s": 17.34,
+          "source_e": 17.82,
+          "short_s": 5.54,
+          "short_e": 6.02
+        },
+        {
+          "w": "merchandise,",
+          "source_s": 18.3,
+          "source_e": 18.78,
+          "short_s": 6.5,
+          "short_e": 6.98
+        },
+        {
+          "w": "supplies",
+          "source_s": 19.32,
+          "source_e": 19.74,
+          "short_s": 7.52,
+          "short_e": 7.94
+        },
+        {
+          "w": "and",
+          "source_s": 19.74,
+          "source_e": 20.6,
+          "short_s": 7.94,
+          "short_e": 8.8
+        },
+        {
+          "w": "ash",
+          "source_s": 20.6,
+          "source_e": 21.08,
+          "short_s": 8.8,
+          "short_e": 9.28
+        },
+        {
+          "w": "through",
+          "source_s": 21.08,
+          "source_e": 21.7,
+          "short_s": 9.28,
+          "short_e": 9.9
+        },
+        {
+          "w": "narrow",
+          "source_s": 21.7,
+          "source_e": 22.02,
+          "short_s": 9.9,
+          "short_e": 10.22
+        },
+        {
+          "w": "tunnels",
+          "source_s": 22.02,
+          "source_e": 22.56,
+          "short_s": 10.22,
+          "short_e": 10.76
+        },
+        {
+          "w": "beneath",
+          "source_s": 22.56,
+          "source_e": 22.88,
+          "short_s": 10.76,
+          "short_e": 11.08
+        },
+        {
+          "w": "the",
+          "source_s": 22.88,
+          "source_e": 23.12,
+          "short_s": 11.08,
+          "short_e": 11.32
+        },
+        {
+          "w": "loop.",
+          "source_s": 23.12,
+          "source_e": 23.34,
+          "short_s": 11.32,
+          "short_e": 11.54
+        },
+        {
+          "w": "The",
+          "source_s": 24.18,
+          "source_e": 24.38,
+          "short_s": 12.38,
+          "short_e": 12.58
+        },
+        {
+          "w": "tracks",
+          "source_s": 24.38,
+          "source_e": 24.64,
+          "short_s": 12.58,
+          "short_e": 12.84
+        },
+        {
+          "w": "connected",
+          "source_s": 24.64,
+          "source_e": 25.12,
+          "short_s": 12.84,
+          "short_e": 13.32
+        },
+        {
+          "w": "with",
+          "source_s": 25.12,
+          "source_e": 25.38,
+          "short_s": 13.32,
+          "short_e": 13.58
+        },
+        {
+          "w": "railroad",
+          "source_s": 25.38,
+          "source_e": 25.78,
+          "short_s": 13.58,
+          "short_e": 13.98
+        },
+        {
+          "w": "freight",
+          "source_s": 25.78,
+          "source_e": 26.1,
+          "short_s": 13.98,
+          "short_e": 14.3
+        },
+        {
+          "w": "houses.",
+          "source_s": 26.1,
+          "source_e": 26.56,
+          "short_s": 14.3,
+          "short_e": 14.76
+        },
+        {
+          "w": "In",
+          "source_s": 27.2,
+          "source_e": 27.6,
+          "short_s": 15.4,
+          "short_e": 15.8
+        },
+        {
+          "w": "some",
+          "source_s": 27.6,
+          "source_e": 27.84,
+          "short_s": 15.8,
+          "short_e": 16.04
+        },
+        {
+          "w": "buildings,",
+          "source_s": 27.84,
+          "source_e": 28.26,
+          "short_s": 16.04,
+          "short_e": 16.46
+        },
+        {
+          "w": "they",
+          "source_s": 28.78,
+          "source_e": 28.8,
+          "short_s": 16.98,
+          "short_e": 17
+        },
+        {
+          "w": "reached",
+          "source_s": 28.8,
+          "source_e": 29.08,
+          "short_s": 17,
+          "short_e": 17.28
+        },
+        {
+          "w": "directly",
+          "source_s": 29.08,
+          "source_e": 29.7,
+          "short_s": 17.28,
+          "short_e": 17.9
+        },
+        {
+          "w": "into",
+          "source_s": 29.7,
+          "source_e": 30.12,
+          "short_s": 17.9,
+          "short_e": 18.32
+        },
+        {
+          "w": "basement",
+          "source_s": 30.12,
+          "source_e": 30.46,
+          "short_s": 18.32,
+          "short_e": 18.66
+        },
+        {
+          "w": "-level",
+          "source_s": 30.46,
+          "source_e": 30.86,
+          "short_s": 18.66,
+          "short_e": 19.06
+        },
+        {
+          "w": "facilities.",
+          "source_s": 30.86,
+          "source_e": 31.58,
+          "short_s": 19.06,
+          "short_e": 19.78
+        },
+        {
+          "w": "And",
+          "source_s": 32.52,
+          "source_e": 32.66,
+          "short_s": 20.72,
+          "short_e": 20.86
+        },
+        {
+          "w": "this",
+          "source_s": 32.66,
+          "source_e": 32.8,
+          "short_s": 20.86,
+          "short_e": 21
+        },
+        {
+          "w": "was",
+          "source_s": 32.8,
+          "source_e": 32.96,
+          "short_s": 21,
+          "short_e": 21.16
+        },
+        {
+          "w": "not",
+          "source_s": 32.96,
+          "source_e": 33.18,
+          "short_s": 21.16,
+          "short_e": 21.38
+        },
+        {
+          "w": "one",
+          "source_s": 33.18,
+          "source_e": 33.54,
+          "short_s": 21.38,
+          "short_e": 21.74
+        },
+        {
+          "w": "tunnel",
+          "source_s": 33.54,
+          "source_e": 33.94,
+          "short_s": 21.74,
+          "short_e": 22.14
+        },
+        {
+          "w": "linking",
+          "source_s": 33.94,
+          "source_e": 34.28,
+          "short_s": 22.14,
+          "short_e": 22.48
+        },
+        {
+          "w": "two",
+          "source_s": 34.28,
+          "source_e": 34.64,
+          "short_s": 22.48,
+          "short_e": 22.84
+        },
+        {
+          "w": "points.",
+          "source_s": 34.64,
+          "source_e": 35.06,
+          "short_s": 22.84,
+          "short_e": 23.26
+        },
+        {
+          "w": "At",
+          "source_s": 35.8,
+          "source_e": 35.96,
+          "short_s": 24,
+          "short_e": 24.16
+        },
+        {
+          "w": "its",
+          "source_s": 35.96,
+          "source_e": 36.12,
+          "short_s": 24.16,
+          "short_e": 24.32
+        },
+        {
+          "w": "height,",
+          "source_s": 36.12,
+          "source_e": 36.42,
+          "short_s": 24.32,
+          "short_e": 24.62
+        },
+        {
+          "w": "the",
+          "source_s": 36.72,
+          "source_e": 36.86,
+          "short_s": 24.92,
+          "short_e": 25.06
+        },
+        {
+          "w": "network",
+          "source_s": 36.86,
+          "source_e": 37.18,
+          "short_s": 25.06,
+          "short_e": 25.38
+        },
+        {
+          "w": "stretched",
+          "source_s": 37.18,
+          "source_e": 37.62,
+          "short_s": 25.38,
+          "short_e": 25.82
+        },
+        {
+          "w": "roughly",
+          "source_s": 37.62,
+          "source_e": 38.14,
+          "short_s": 25.82,
+          "short_e": 26.34
+        },
+        {
+          "w": "60",
+          "source_s": 38.14,
+          "source_e": 38.56,
+          "short_s": 26.34,
+          "short_e": 26.76
+        },
+        {
+          "w": "miles",
+          "source_s": 38.56,
+          "source_e": 38.96,
+          "short_s": 26.76,
+          "short_e": 27.16
+        },
+        {
+          "w": "beneath",
+          "source_s": 38.96,
+          "source_e": 39.34,
+          "short_s": 27.16,
+          "short_e": 27.54
+        },
+        {
+          "w": "downtown",
+          "source_s": 39.34,
+          "source_e": 39.86,
+          "short_s": 27.54,
+          "short_e": 28.06
+        },
+        {
+          "w": "Chicago.",
+          "source_s": 39.86,
+          "source_e": 40.42,
+          "short_s": 28.06,
+          "short_e": 28.62
+        },
+        {
+          "w": "For",
+          "source_s": 41.46,
+          "source_e": 41.62,
+          "short_s": 29.66,
+          "short_e": 29.82
+        },
+        {
+          "w": "decades,",
+          "source_s": 41.62,
+          "source_e": 42.22,
+          "short_s": 29.82,
+          "short_e": 30.42
+        },
+        {
+          "w": "freight",
+          "source_s": 42.64,
+          "source_e": 42.68,
+          "short_s": 30.84,
+          "short_e": 30.88
+        },
+        {
+          "w": "moved",
+          "source_s": 42.68,
+          "source_e": 43.08,
+          "short_s": 30.88,
+          "short_e": 31.28
+        },
+        {
+          "w": "through",
+          "source_s": 43.08,
+          "source_e": 43.4,
+          "short_s": 31.28,
+          "short_e": 31.6
+        },
+        {
+          "w": "an",
+          "source_s": 43.4,
+          "source_e": 43.54,
+          "short_s": 31.6,
+          "short_e": 31.74
+        },
+        {
+          "w": "underground",
+          "source_s": 43.54,
+          "source_e": 44.02,
+          "short_s": 31.74,
+          "short_e": 32.22
+        },
+        {
+          "w": "grid",
+          "source_s": 44.02,
+          "source_e": 44.5,
+          "short_s": 32.22,
+          "short_e": 32.7
+        },
+        {
+          "w": "while",
+          "source_s": 44.5,
+          "source_e": 45.04,
+          "short_s": 32.7,
+          "short_e": 33.24
+        },
+        {
+          "w": "the",
+          "source_s": 45.04,
+          "source_e": 45.2,
+          "short_s": 33.24,
+          "short_e": 33.4
+        },
+        {
+          "w": "city",
+          "source_s": 45.2,
+          "source_e": 45.44,
+          "short_s": 33.4,
+          "short_e": 33.64
+        },
+        {
+          "w": "continued",
+          "source_s": 45.44,
+          "source_e": 45.98,
+          "short_s": 33.64,
+          "short_e": 34.18
+        },
+        {
+          "w": "above",
+          "source_s": 45.98,
+          "source_e": 46.3,
+          "short_s": 34.18,
+          "short_e": 34.5
+        },
+        {
+          "w": "it.",
+          "source_s": 46.3,
+          "source_e": 46.68,
+          "short_s": 34.5,
+          "short_e": 34.88
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 2.66,
+          "source_in": 11.8,
+          "source_out": 14.46,
+          "visual": "surface Chicago → immediate tunnel reveal",
+          "action": "open on surface traffic for <1s, then hard cut below ground",
+          "provenance": "AI RECONSTRUCTION / verified archive as actually used"
+        },
+        {
+          "short_in": 3.74,
+          "short_out": 11.54,
+          "source_in": 15.54,
+          "source_out": 23.34,
+          "visual": "electric locomotive + freight cargo",
+          "action": "vertical center crop on locomotive/cargo; cut on listed cargo nouns",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 12.38,
+          "short_out": 19.78,
+          "source_in": 24.18,
+          "source_out": 31.58,
+          "visual": "freight houses + basement connection",
+          "action": "use building/tunnel connection visual; preserve architectural context",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 20.72,
+          "short_out": 28.62,
+          "source_in": 32.52,
+          "source_out": 40.42,
+          "visual": "network scale + Chicago tunnel map",
+          "action": "wide-to-detail map reframes around Loop; emphasize ~60 miles with existing GFX only",
+          "provenance": "HISTORICAL SOURCE on verified map"
+        },
+        {
+          "short_in": 29.66,
+          "short_out": 34.88,
+          "source_in": 41.46,
+          "source_out": 46.68,
+          "visual": "city above / underground system contrast",
+          "action": "finish on strongest split-level or tunnel-under-city image; no CTA card",
+          "provenance": "AI RECONSTRUCTION if generated"
+        }
+      ]
+    },
+    {
+      "id": "CHI-S02",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "Chicago's Freight Railroad Started as a Telephone Tunnel",
+      "hook": "Chicago's underground freight railroad did not actually begin as a railroad.",
+      "source_in_sec": 153.68,
+      "source_out_sec": 195.66,
+      "duration_sec": 41.98,
+      "source_in_tc": "00:02:33.680",
+      "source_out_tc": "00:03:15.660",
+      "narration_text": "Chicago's underground freight railroad did not actually begin as a railroad. In 1899, an independent telephone company received a franchise connected to putting telephone infrastructure underground. Tunnel construction began around 1900. Those tunnels were large enough to become something more than simple cable conduits. Exactly when the freight railway idea became the real objective is not completely clear. The surviving evidence does not justify the neat story that a railroad had secretly been the plan from the first day. What is clear is the transformation. Track was installed on a two -foot gauge.",
+      "source_words": [
+        {
+          "w": "Chicago's",
+          "source_s": 153.68,
+          "source_e": 154,
+          "short_s": 0,
+          "short_e": 0.32
+        },
+        {
+          "w": "underground",
+          "source_s": 154,
+          "source_e": 154.54,
+          "short_s": 0.32,
+          "short_e": 0.86
+        },
+        {
+          "w": "freight",
+          "source_s": 154.54,
+          "source_e": 154.88,
+          "short_s": 0.86,
+          "short_e": 1.2
+        },
+        {
+          "w": "railroad",
+          "source_s": 154.88,
+          "source_e": 155.38,
+          "short_s": 1.2,
+          "short_e": 1.7
+        },
+        {
+          "w": "did",
+          "source_s": 155.38,
+          "source_e": 155.92,
+          "short_s": 1.7,
+          "short_e": 2.24
+        },
+        {
+          "w": "not",
+          "source_s": 155.92,
+          "source_e": 156.1,
+          "short_s": 2.24,
+          "short_e": 2.42
+        },
+        {
+          "w": "actually",
+          "source_s": 156.1,
+          "source_e": 156.48,
+          "short_s": 2.42,
+          "short_e": 2.8
+        },
+        {
+          "w": "begin",
+          "source_s": 156.48,
+          "source_e": 156.88,
+          "short_s": 2.8,
+          "short_e": 3.2
+        },
+        {
+          "w": "as",
+          "source_s": 156.88,
+          "source_e": 157.32,
+          "short_s": 3.2,
+          "short_e": 3.64
+        },
+        {
+          "w": "a",
+          "source_s": 157.32,
+          "source_e": 157.44,
+          "short_s": 3.64,
+          "short_e": 3.76
+        },
+        {
+          "w": "railroad.",
+          "source_s": 157.44,
+          "source_e": 157.82,
+          "short_s": 3.76,
+          "short_e": 4.14
+        },
+        {
+          "w": "In",
+          "source_s": 158.4,
+          "source_e": 158.84,
+          "short_s": 4.72,
+          "short_e": 5.16
+        },
+        {
+          "w": "1899,",
+          "source_s": 158.84,
+          "source_e": 159.5,
+          "short_s": 5.16,
+          "short_e": 5.82
+        },
+        {
+          "w": "an",
+          "source_s": 160.24,
+          "source_e": 160.42,
+          "short_s": 6.56,
+          "short_e": 6.74
+        },
+        {
+          "w": "independent",
+          "source_s": 160.42,
+          "source_e": 160.9,
+          "short_s": 6.74,
+          "short_e": 7.22
+        },
+        {
+          "w": "telephone",
+          "source_s": 160.9,
+          "source_e": 161.4,
+          "short_s": 7.22,
+          "short_e": 7.72
+        },
+        {
+          "w": "company",
+          "source_s": 161.4,
+          "source_e": 161.86,
+          "short_s": 7.72,
+          "short_e": 8.18
+        },
+        {
+          "w": "received",
+          "source_s": 161.86,
+          "source_e": 162.24,
+          "short_s": 8.18,
+          "short_e": 8.56
+        },
+        {
+          "w": "a",
+          "source_s": 162.24,
+          "source_e": 162.44,
+          "short_s": 8.56,
+          "short_e": 8.76
+        },
+        {
+          "w": "franchise",
+          "source_s": 162.44,
+          "source_e": 163,
+          "short_s": 8.76,
+          "short_e": 9.32
+        },
+        {
+          "w": "connected",
+          "source_s": 163,
+          "source_e": 163.74,
+          "short_s": 9.32,
+          "short_e": 10.06
+        },
+        {
+          "w": "to",
+          "source_s": 163.74,
+          "source_e": 164.08,
+          "short_s": 10.06,
+          "short_e": 10.4
+        },
+        {
+          "w": "putting",
+          "source_s": 164.08,
+          "source_e": 164.34,
+          "short_s": 10.4,
+          "short_e": 10.66
+        },
+        {
+          "w": "telephone",
+          "source_s": 164.34,
+          "source_e": 164.78,
+          "short_s": 10.66,
+          "short_e": 11.1
+        },
+        {
+          "w": "infrastructure",
+          "source_s": 164.78,
+          "source_e": 165.52,
+          "short_s": 11.1,
+          "short_e": 11.84
+        },
+        {
+          "w": "underground.",
+          "source_s": 165.52,
+          "source_e": 166.28,
+          "short_s": 11.84,
+          "short_e": 12.6
+        },
+        {
+          "w": "Tunnel",
+          "source_s": 167.46,
+          "source_e": 167.46,
+          "short_s": 13.78,
+          "short_e": 13.78
+        },
+        {
+          "w": "construction",
+          "source_s": 167.46,
+          "source_e": 167.94,
+          "short_s": 13.78,
+          "short_e": 14.26
+        },
+        {
+          "w": "began",
+          "source_s": 167.94,
+          "source_e": 168.46,
+          "short_s": 14.26,
+          "short_e": 14.78
+        },
+        {
+          "w": "around",
+          "source_s": 168.46,
+          "source_e": 169.18,
+          "short_s": 14.78,
+          "short_e": 15.5
+        },
+        {
+          "w": "1900.",
+          "source_s": 169.18,
+          "source_e": 169.86,
+          "short_s": 15.5,
+          "short_e": 16.18
+        },
+        {
+          "w": "Those",
+          "source_s": 170.66,
+          "source_e": 170.88,
+          "short_s": 16.98,
+          "short_e": 17.2
+        },
+        {
+          "w": "tunnels",
+          "source_s": 170.88,
+          "source_e": 171.18,
+          "short_s": 17.2,
+          "short_e": 17.5
+        },
+        {
+          "w": "were",
+          "source_s": 171.18,
+          "source_e": 171.42,
+          "short_s": 17.5,
+          "short_e": 17.74
+        },
+        {
+          "w": "large",
+          "source_s": 171.42,
+          "source_e": 171.66,
+          "short_s": 17.74,
+          "short_e": 17.98
+        },
+        {
+          "w": "enough",
+          "source_s": 171.66,
+          "source_e": 171.94,
+          "short_s": 17.98,
+          "short_e": 18.26
+        },
+        {
+          "w": "to",
+          "source_s": 171.94,
+          "source_e": 172.4,
+          "short_s": 18.26,
+          "short_e": 18.72
+        },
+        {
+          "w": "become",
+          "source_s": 172.4,
+          "source_e": 172.7,
+          "short_s": 18.72,
+          "short_e": 19.02
+        },
+        {
+          "w": "something",
+          "source_s": 172.7,
+          "source_e": 173.06,
+          "short_s": 19.02,
+          "short_e": 19.38
+        },
+        {
+          "w": "more",
+          "source_s": 173.06,
+          "source_e": 173.44,
+          "short_s": 19.38,
+          "short_e": 19.76
+        },
+        {
+          "w": "than",
+          "source_s": 173.44,
+          "source_e": 173.62,
+          "short_s": 19.76,
+          "short_e": 19.94
+        },
+        {
+          "w": "simple",
+          "source_s": 173.62,
+          "source_e": 174.06,
+          "short_s": 19.94,
+          "short_e": 20.38
+        },
+        {
+          "w": "cable",
+          "source_s": 174.06,
+          "source_e": 174.48,
+          "short_s": 20.38,
+          "short_e": 20.8
+        },
+        {
+          "w": "conduits.",
+          "source_s": 174.48,
+          "source_e": 175.18,
+          "short_s": 20.8,
+          "short_e": 21.5
+        },
+        {
+          "w": "Exactly",
+          "source_s": 176.08,
+          "source_e": 176.42,
+          "short_s": 22.4,
+          "short_e": 22.74
+        },
+        {
+          "w": "when",
+          "source_s": 176.42,
+          "source_e": 176.72,
+          "short_s": 22.74,
+          "short_e": 23.04
+        },
+        {
+          "w": "the",
+          "source_s": 176.72,
+          "source_e": 176.9,
+          "short_s": 23.04,
+          "short_e": 23.22
+        },
+        {
+          "w": "freight",
+          "source_s": 176.9,
+          "source_e": 177.12,
+          "short_s": 23.22,
+          "short_e": 23.44
+        },
+        {
+          "w": "railway",
+          "source_s": 177.12,
+          "source_e": 177.58,
+          "short_s": 23.44,
+          "short_e": 23.9
+        },
+        {
+          "w": "idea",
+          "source_s": 177.58,
+          "source_e": 178.06,
+          "short_s": 23.9,
+          "short_e": 24.38
+        },
+        {
+          "w": "became",
+          "source_s": 178.06,
+          "source_e": 178.74,
+          "short_s": 24.38,
+          "short_e": 25.06
+        },
+        {
+          "w": "the",
+          "source_s": 178.74,
+          "source_e": 178.94,
+          "short_s": 25.06,
+          "short_e": 25.26
+        },
+        {
+          "w": "real",
+          "source_s": 178.94,
+          "source_e": 179.14,
+          "short_s": 25.26,
+          "short_e": 25.46
+        },
+        {
+          "w": "objective",
+          "source_s": 179.14,
+          "source_e": 179.66,
+          "short_s": 25.46,
+          "short_e": 25.98
+        },
+        {
+          "w": "is",
+          "source_s": 179.66,
+          "source_e": 180.3,
+          "short_s": 25.98,
+          "short_e": 26.62
+        },
+        {
+          "w": "not",
+          "source_s": 180.3,
+          "source_e": 180.56,
+          "short_s": 26.62,
+          "short_e": 26.88
+        },
+        {
+          "w": "completely",
+          "source_s": 180.56,
+          "source_e": 181.04,
+          "short_s": 26.88,
+          "short_e": 27.36
+        },
+        {
+          "w": "clear.",
+          "source_s": 181.04,
+          "source_e": 181.48,
+          "short_s": 27.36,
+          "short_e": 27.8
+        },
+        {
+          "w": "The",
+          "source_s": 182.3,
+          "source_e": 182.52,
+          "short_s": 28.62,
+          "short_e": 28.84
+        },
+        {
+          "w": "surviving",
+          "source_s": 182.52,
+          "source_e": 182.92,
+          "short_s": 28.84,
+          "short_e": 29.24
+        },
+        {
+          "w": "evidence",
+          "source_s": 182.92,
+          "source_e": 183.36,
+          "short_s": 29.24,
+          "short_e": 29.68
+        },
+        {
+          "w": "does",
+          "source_s": 183.36,
+          "source_e": 183.66,
+          "short_s": 29.68,
+          "short_e": 29.98
+        },
+        {
+          "w": "not",
+          "source_s": 183.66,
+          "source_e": 183.84,
+          "short_s": 29.98,
+          "short_e": 30.16
+        },
+        {
+          "w": "justify",
+          "source_s": 183.84,
+          "source_e": 184.36,
+          "short_s": 30.16,
+          "short_e": 30.68
+        },
+        {
+          "w": "the",
+          "source_s": 184.36,
+          "source_e": 184.6,
+          "short_s": 30.68,
+          "short_e": 30.92
+        },
+        {
+          "w": "neat",
+          "source_s": 184.6,
+          "source_e": 184.8,
+          "short_s": 30.92,
+          "short_e": 31.12
+        },
+        {
+          "w": "story",
+          "source_s": 184.8,
+          "source_e": 185.26,
+          "short_s": 31.12,
+          "short_e": 31.58
+        },
+        {
+          "w": "that",
+          "source_s": 185.26,
+          "source_e": 185.92,
+          "short_s": 31.58,
+          "short_e": 32.24
+        },
+        {
+          "w": "a",
+          "source_s": 185.92,
+          "source_e": 186.06,
+          "short_s": 32.24,
+          "short_e": 32.38
+        },
+        {
+          "w": "railroad",
+          "source_s": 186.06,
+          "source_e": 186.44,
+          "short_s": 32.38,
+          "short_e": 32.76
+        },
+        {
+          "w": "had",
+          "source_s": 186.44,
+          "source_e": 186.74,
+          "short_s": 32.76,
+          "short_e": 33.06
+        },
+        {
+          "w": "secretly",
+          "source_s": 186.74,
+          "source_e": 187.12,
+          "short_s": 33.06,
+          "short_e": 33.44
+        },
+        {
+          "w": "been",
+          "source_s": 187.12,
+          "source_e": 187.4,
+          "short_s": 33.44,
+          "short_e": 33.72
+        },
+        {
+          "w": "the",
+          "source_s": 187.4,
+          "source_e": 187.6,
+          "short_s": 33.72,
+          "short_e": 33.92
+        },
+        {
+          "w": "plan",
+          "source_s": 187.6,
+          "source_e": 187.86,
+          "short_s": 33.92,
+          "short_e": 34.18
+        },
+        {
+          "w": "from",
+          "source_s": 187.86,
+          "source_e": 188.12,
+          "short_s": 34.18,
+          "short_e": 34.44
+        },
+        {
+          "w": "the",
+          "source_s": 188.12,
+          "source_e": 188.28,
+          "short_s": 34.44,
+          "short_e": 34.6
+        },
+        {
+          "w": "first",
+          "source_s": 188.28,
+          "source_e": 188.5,
+          "short_s": 34.6,
+          "short_e": 34.82
+        },
+        {
+          "w": "day.",
+          "source_s": 188.5,
+          "source_e": 189,
+          "short_s": 34.82,
+          "short_e": 35.32
+        },
+        {
+          "w": "What",
+          "source_s": 189.92,
+          "source_e": 190.04,
+          "short_s": 36.24,
+          "short_e": 36.36
+        },
+        {
+          "w": "is",
+          "source_s": 190.04,
+          "source_e": 190.24,
+          "short_s": 36.36,
+          "short_e": 36.56
+        },
+        {
+          "w": "clear",
+          "source_s": 190.24,
+          "source_e": 190.6,
+          "short_s": 36.56,
+          "short_e": 36.92
+        },
+        {
+          "w": "is",
+          "source_s": 190.6,
+          "source_e": 191.26,
+          "short_s": 36.92,
+          "short_e": 37.58
+        },
+        {
+          "w": "the",
+          "source_s": 191.26,
+          "source_e": 191.42,
+          "short_s": 37.58,
+          "short_e": 37.74
+        },
+        {
+          "w": "transformation.",
+          "source_s": 191.42,
+          "source_e": 192.08,
+          "short_s": 37.74,
+          "short_e": 38.4
+        },
+        {
+          "w": "Track",
+          "source_s": 193.26,
+          "source_e": 193.26,
+          "short_s": 39.58,
+          "short_e": 39.58
+        },
+        {
+          "w": "was",
+          "source_s": 193.26,
+          "source_e": 193.44,
+          "short_s": 39.58,
+          "short_e": 39.76
+        },
+        {
+          "w": "installed",
+          "source_s": 193.44,
+          "source_e": 193.96,
+          "short_s": 39.76,
+          "short_e": 40.28
+        },
+        {
+          "w": "on",
+          "source_s": 193.96,
+          "source_e": 194.56,
+          "short_s": 40.28,
+          "short_e": 40.88
+        },
+        {
+          "w": "a",
+          "source_s": 194.56,
+          "source_e": 194.7,
+          "short_s": 40.88,
+          "short_e": 41.02
+        },
+        {
+          "w": "two",
+          "source_s": 194.7,
+          "source_e": 194.92,
+          "short_s": 41.02,
+          "short_e": 41.24
+        },
+        {
+          "w": "-foot",
+          "source_s": 194.92,
+          "source_e": 195.12,
+          "short_s": 41.24,
+          "short_e": 41.44
+        },
+        {
+          "w": "gauge.",
+          "source_s": 195.12,
+          "source_e": 195.66,
+          "short_s": 41.44,
+          "short_e": 41.98
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 4.14,
+          "source_in": 153.68,
+          "source_out": 157.82,
+          "visual": "origin reveal",
+          "action": "hard hook on tunnel/rail image; title-safe upper area",
+          "provenance": "AI RECONSTRUCTION or verified source per asset"
+        },
+        {
+          "short_in": 4.72,
+          "short_out": 12.6,
+          "source_in": 158.4,
+          "source_out": 166.28,
+          "visual": "1899 telephone franchise",
+          "action": "use period document/street evidence; readable vertical crop",
+          "provenance": "DOCUMENT/HISTORICAL SOURCE only if verified"
+        },
+        {
+          "short_in": 13.78,
+          "short_out": 21.5,
+          "source_in": 167.46,
+          "source_out": 175.18,
+          "visual": "tunnel construction → cable conduits",
+          "action": "construction/tunnel cross-section progression; no fake archival label",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 22.4,
+          "short_out": 35.32,
+          "source_in": 176.08,
+          "source_out": 189,
+          "visual": "historical uncertainty / evidence caution",
+          "action": "prefer document + restrained archive detail; avoid dramatized certainty",
+          "provenance": "DOCUMENT/HISTORICAL SOURCE"
+        },
+        {
+          "short_in": 36.24,
+          "short_out": 41.98,
+          "source_in": 189.92,
+          "source_out": 195.66,
+          "visual": "transformation → two-foot gauge",
+          "action": "rail/gauge technical detail; clean payoff cut",
+          "provenance": "match source visual"
+        }
+      ]
+    },
+    {
+      "id": "CHI-S03",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "The Trains Stopped in 1959. The Tunnels Stayed.",
+      "hook": "Then in July 1959, the trains stopped.",
+      "source_in_sec": 47.36,
+      "source_out_sec": 73.78,
+      "duration_sec": 26.42,
+      "source_in_tc": "00:00:47.360",
+      "source_out_tc": "00:01:13.780",
+      "narration_text": "Then in July 1959, the trains stopped. The railroad disappeared as a working system. The tunnels did not. So why did Chicago need an entire freight railroad beneath its streets? And how could infrastructure this extensive become obsolete? While much of its physical footprint remained, the reason begins with a problem Chicago could see every day.",
+      "source_words": [
+        {
+          "w": "Then",
+          "source_s": 47.36,
+          "source_e": 47.7,
+          "short_s": 0,
+          "short_e": 0.34
+        },
+        {
+          "w": "in",
+          "source_s": 47.7,
+          "source_e": 48.14,
+          "short_s": 0.34,
+          "short_e": 0.78
+        },
+        {
+          "w": "July",
+          "source_s": 48.14,
+          "source_e": 48.5,
+          "short_s": 0.78,
+          "short_e": 1.14
+        },
+        {
+          "w": "1959,",
+          "source_s": 48.5,
+          "source_e": 49.36,
+          "short_s": 1.14,
+          "short_e": 2
+        },
+        {
+          "w": "the",
+          "source_s": 50.18,
+          "source_e": 50.32,
+          "short_s": 2.82,
+          "short_e": 2.96
+        },
+        {
+          "w": "trains",
+          "source_s": 50.32,
+          "source_e": 50.68,
+          "short_s": 2.96,
+          "short_e": 3.32
+        },
+        {
+          "w": "stopped.",
+          "source_s": 50.68,
+          "source_e": 51.38,
+          "short_s": 3.32,
+          "short_e": 4.02
+        },
+        {
+          "w": "The",
+          "source_s": 52.32,
+          "source_e": 52.56,
+          "short_s": 4.96,
+          "short_e": 5.2
+        },
+        {
+          "w": "railroad",
+          "source_s": 52.56,
+          "source_e": 52.9,
+          "short_s": 5.2,
+          "short_e": 5.54
+        },
+        {
+          "w": "disappeared",
+          "source_s": 52.9,
+          "source_e": 53.54,
+          "short_s": 5.54,
+          "short_e": 6.18
+        },
+        {
+          "w": "as",
+          "source_s": 53.54,
+          "source_e": 54.16,
+          "short_s": 6.18,
+          "short_e": 6.8
+        },
+        {
+          "w": "a",
+          "source_s": 54.16,
+          "source_e": 54.3,
+          "short_s": 6.8,
+          "short_e": 6.94
+        },
+        {
+          "w": "working",
+          "source_s": 54.3,
+          "source_e": 54.56,
+          "short_s": 6.94,
+          "short_e": 7.2
+        },
+        {
+          "w": "system.",
+          "source_s": 54.56,
+          "source_e": 55.12,
+          "short_s": 7.2,
+          "short_e": 7.76
+        },
+        {
+          "w": "The",
+          "source_s": 55.7,
+          "source_e": 56.06,
+          "short_s": 8.34,
+          "short_e": 8.7
+        },
+        {
+          "w": "tunnels",
+          "source_s": 56.06,
+          "source_e": 56.42,
+          "short_s": 8.7,
+          "short_e": 9.06
+        },
+        {
+          "w": "did",
+          "source_s": 56.42,
+          "source_e": 56.78,
+          "short_s": 9.06,
+          "short_e": 9.42
+        },
+        {
+          "w": "not.",
+          "source_s": 56.78,
+          "source_e": 57.1,
+          "short_s": 9.42,
+          "short_e": 9.74
+        },
+        {
+          "w": "So",
+          "source_s": 58.16,
+          "source_e": 58.18,
+          "short_s": 10.8,
+          "short_e": 10.82
+        },
+        {
+          "w": "why",
+          "source_s": 58.18,
+          "source_e": 58.48,
+          "short_s": 10.82,
+          "short_e": 11.12
+        },
+        {
+          "w": "did",
+          "source_s": 58.48,
+          "source_e": 58.68,
+          "short_s": 11.12,
+          "short_e": 11.32
+        },
+        {
+          "w": "Chicago",
+          "source_s": 58.68,
+          "source_e": 59.08,
+          "short_s": 11.32,
+          "short_e": 11.72
+        },
+        {
+          "w": "need",
+          "source_s": 59.08,
+          "source_e": 59.54,
+          "short_s": 11.72,
+          "short_e": 12.18
+        },
+        {
+          "w": "an",
+          "source_s": 59.54,
+          "source_e": 59.94,
+          "short_s": 12.18,
+          "short_e": 12.58
+        },
+        {
+          "w": "entire",
+          "source_s": 59.94,
+          "source_e": 60.4,
+          "short_s": 12.58,
+          "short_e": 13.04
+        },
+        {
+          "w": "freight",
+          "source_s": 60.4,
+          "source_e": 60.76,
+          "short_s": 13.04,
+          "short_e": 13.4
+        },
+        {
+          "w": "railroad",
+          "source_s": 60.76,
+          "source_e": 61.3,
+          "short_s": 13.4,
+          "short_e": 13.94
+        },
+        {
+          "w": "beneath",
+          "source_s": 61.3,
+          "source_e": 61.86,
+          "short_s": 13.94,
+          "short_e": 14.5
+        },
+        {
+          "w": "its",
+          "source_s": 61.86,
+          "source_e": 62.16,
+          "short_s": 14.5,
+          "short_e": 14.8
+        },
+        {
+          "w": "streets?",
+          "source_s": 62.16,
+          "source_e": 62.5,
+          "short_s": 14.8,
+          "short_e": 15.14
+        },
+        {
+          "w": "And",
+          "source_s": 63.42,
+          "source_e": 63.56,
+          "short_s": 16.06,
+          "short_e": 16.2
+        },
+        {
+          "w": "how",
+          "source_s": 63.56,
+          "source_e": 63.78,
+          "short_s": 16.2,
+          "short_e": 16.42
+        },
+        {
+          "w": "could",
+          "source_s": 63.78,
+          "source_e": 63.96,
+          "short_s": 16.42,
+          "short_e": 16.6
+        },
+        {
+          "w": "infrastructure",
+          "source_s": 63.96,
+          "source_e": 64.56,
+          "short_s": 16.6,
+          "short_e": 17.2
+        },
+        {
+          "w": "this",
+          "source_s": 64.56,
+          "source_e": 64.94,
+          "short_s": 17.2,
+          "short_e": 17.58
+        },
+        {
+          "w": "extensive",
+          "source_s": 64.94,
+          "source_e": 65.56,
+          "short_s": 17.58,
+          "short_e": 18.2
+        },
+        {
+          "w": "become",
+          "source_s": 65.56,
+          "source_e": 66.3,
+          "short_s": 18.2,
+          "short_e": 18.94
+        },
+        {
+          "w": "obsolete?",
+          "source_s": 66.3,
+          "source_e": 66.94,
+          "short_s": 18.94,
+          "short_e": 19.58
+        },
+        {
+          "w": "While",
+          "source_s": 67.68,
+          "source_e": 67.9,
+          "short_s": 20.32,
+          "short_e": 20.54
+        },
+        {
+          "w": "much",
+          "source_s": 67.9,
+          "source_e": 68.12,
+          "short_s": 20.54,
+          "short_e": 20.76
+        },
+        {
+          "w": "of",
+          "source_s": 68.12,
+          "source_e": 68.28,
+          "short_s": 20.76,
+          "short_e": 20.92
+        },
+        {
+          "w": "its",
+          "source_s": 68.28,
+          "source_e": 68.44,
+          "short_s": 20.92,
+          "short_e": 21.08
+        },
+        {
+          "w": "physical",
+          "source_s": 68.44,
+          "source_e": 68.82,
+          "short_s": 21.08,
+          "short_e": 21.46
+        },
+        {
+          "w": "footprint",
+          "source_s": 68.82,
+          "source_e": 69.26,
+          "short_s": 21.46,
+          "short_e": 21.9
+        },
+        {
+          "w": "remained,",
+          "source_s": 69.26,
+          "source_e": 69.82,
+          "short_s": 21.9,
+          "short_e": 22.46
+        },
+        {
+          "w": "the",
+          "source_s": 70.32,
+          "source_e": 70.58,
+          "short_s": 22.96,
+          "short_e": 23.22
+        },
+        {
+          "w": "reason",
+          "source_s": 70.58,
+          "source_e": 70.9,
+          "short_s": 23.22,
+          "short_e": 23.54
+        },
+        {
+          "w": "begins",
+          "source_s": 70.9,
+          "source_e": 71.28,
+          "short_s": 23.54,
+          "short_e": 23.92
+        },
+        {
+          "w": "with",
+          "source_s": 71.28,
+          "source_e": 71.48,
+          "short_s": 23.92,
+          "short_e": 24.12
+        },
+        {
+          "w": "a",
+          "source_s": 71.48,
+          "source_e": 71.62,
+          "short_s": 24.12,
+          "short_e": 24.26
+        },
+        {
+          "w": "problem",
+          "source_s": 71.62,
+          "source_e": 71.92,
+          "short_s": 24.26,
+          "short_e": 24.56
+        },
+        {
+          "w": "Chicago",
+          "source_s": 71.92,
+          "source_e": 72.34,
+          "short_s": 24.56,
+          "short_e": 24.98
+        },
+        {
+          "w": "could",
+          "source_s": 72.34,
+          "source_e": 72.7,
+          "short_s": 24.98,
+          "short_e": 25.34
+        },
+        {
+          "w": "see",
+          "source_s": 72.7,
+          "source_e": 73.02,
+          "short_s": 25.34,
+          "short_e": 25.66
+        },
+        {
+          "w": "every",
+          "source_s": 73.02,
+          "source_e": 73.38,
+          "short_s": 25.66,
+          "short_e": 26.02
+        },
+        {
+          "w": "day.",
+          "source_s": 73.38,
+          "source_e": 73.78,
+          "short_s": 26.02,
+          "short_e": 26.42
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 4.02,
+          "source_in": 47.36,
+          "source_out": 51.38,
+          "visual": "1959 shutdown",
+          "action": "open on final-train / empty-tunnel visual; date can appear as existing fact GFX",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 4.96,
+          "short_out": 9.74,
+          "source_in": 52.32,
+          "source_out": 57.1,
+          "visual": "railroad disappears, tunnels remain",
+          "action": "contrast working railroad with empty surviving tunnel",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 10.8,
+          "short_out": 15.14,
+          "source_in": 58.16,
+          "source_out": 62.5,
+          "visual": "why did Chicago need it?",
+          "action": "switch to street congestion / freight problem",
+          "provenance": "HISTORICAL SOURCE on verified street archive"
+        },
+        {
+          "short_in": 16.06,
+          "short_out": 19.58,
+          "source_in": 63.42,
+          "source_out": 66.94,
+          "visual": "how did it become obsolete?",
+          "action": "modernizing surface transport contrast; keep text minimal",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 20.32,
+          "short_out": 26.42,
+          "source_in": 67.68,
+          "source_out": 73.78,
+          "visual": "set up the physical problem above ground",
+          "action": "end on dense street-level congestion, not a generic CTA",
+          "provenance": "HISTORICAL SOURCE if verified"
+        }
+      ]
+    },
+    {
+      "id": "CHI-S04",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "How a Forgotten Railroad Helped Flood Downtown Chicago",
+      "hook": "If a pathway still exists, something can still move through it.",
+      "source_in_sec": 911,
+      "source_out_sec": 955.38,
+      "duration_sec": 44.38,
+      "source_in_tc": "00:15:11.000",
+      "source_out_tc": "00:15:55.380",
+      "narration_text": "If a pathway still exists, something can still move through it. More than three decades after the last freight train ran, Chicago would get a dramatic demonstration of that fact. On April 13, 1992, water from the Chicago River began pouring into the old freight tunnel system. The breach occurred where the tunnel network passed beneath the river near the Kinsey Street area. Once the water entered, it found the legacy of the freight railroad waiting for it. A connected underground pathway through downtown. The same basic quality that had made the system valuable for freight now made it consequential for an entirely different reason.",
+      "source_words": [
+        {
+          "w": "If",
+          "source_s": 911,
+          "source_e": 911.22,
+          "short_s": 0,
+          "short_e": 0.22
+        },
+        {
+          "w": "a",
+          "source_s": 911.22,
+          "source_e": 911.38,
+          "short_s": 0.22,
+          "short_e": 0.38
+        },
+        {
+          "w": "pathway",
+          "source_s": 911.38,
+          "source_e": 911.78,
+          "short_s": 0.38,
+          "short_e": 0.78
+        },
+        {
+          "w": "still",
+          "source_s": 911.78,
+          "source_e": 912.18,
+          "short_s": 0.78,
+          "short_e": 1.18
+        },
+        {
+          "w": "exists,",
+          "source_s": 912.18,
+          "source_e": 912.8,
+          "short_s": 1.18,
+          "short_e": 1.8
+        },
+        {
+          "w": "something",
+          "source_s": 913.34,
+          "source_e": 913.52,
+          "short_s": 2.34,
+          "short_e": 2.52
+        },
+        {
+          "w": "can",
+          "source_s": 913.52,
+          "source_e": 913.88,
+          "short_s": 2.52,
+          "short_e": 2.88
+        },
+        {
+          "w": "still",
+          "source_s": 913.88,
+          "source_e": 914.22,
+          "short_s": 2.88,
+          "short_e": 3.22
+        },
+        {
+          "w": "move",
+          "source_s": 914.22,
+          "source_e": 914.52,
+          "short_s": 3.22,
+          "short_e": 3.52
+        },
+        {
+          "w": "through",
+          "source_s": 914.52,
+          "source_e": 914.82,
+          "short_s": 3.52,
+          "short_e": 3.82
+        },
+        {
+          "w": "it.",
+          "source_s": 914.82,
+          "source_e": 915.32,
+          "short_s": 3.82,
+          "short_e": 4.32
+        },
+        {
+          "w": "More",
+          "source_s": 916.02,
+          "source_e": 916.28,
+          "short_s": 5.02,
+          "short_e": 5.28
+        },
+        {
+          "w": "than",
+          "source_s": 916.28,
+          "source_e": 916.44,
+          "short_s": 5.28,
+          "short_e": 5.44
+        },
+        {
+          "w": "three",
+          "source_s": 916.44,
+          "source_e": 916.68,
+          "short_s": 5.44,
+          "short_e": 5.68
+        },
+        {
+          "w": "decades",
+          "source_s": 916.68,
+          "source_e": 917.1,
+          "short_s": 5.68,
+          "short_e": 6.1
+        },
+        {
+          "w": "after",
+          "source_s": 917.1,
+          "source_e": 917.54,
+          "short_s": 6.1,
+          "short_e": 6.54
+        },
+        {
+          "w": "the",
+          "source_s": 917.54,
+          "source_e": 917.7,
+          "short_s": 6.54,
+          "short_e": 6.7
+        },
+        {
+          "w": "last",
+          "source_s": 917.7,
+          "source_e": 918,
+          "short_s": 6.7,
+          "short_e": 7
+        },
+        {
+          "w": "freight",
+          "source_s": 918,
+          "source_e": 918.22,
+          "short_s": 7,
+          "short_e": 7.22
+        },
+        {
+          "w": "train",
+          "source_s": 918.22,
+          "source_e": 918.52,
+          "short_s": 7.22,
+          "short_e": 7.52
+        },
+        {
+          "w": "ran,",
+          "source_s": 918.52,
+          "source_e": 918.96,
+          "short_s": 7.52,
+          "short_e": 7.96
+        },
+        {
+          "w": "Chicago",
+          "source_s": 919.8,
+          "source_e": 919.88,
+          "short_s": 8.8,
+          "short_e": 8.88
+        },
+        {
+          "w": "would",
+          "source_s": 919.88,
+          "source_e": 920.16,
+          "short_s": 8.88,
+          "short_e": 9.16
+        },
+        {
+          "w": "get",
+          "source_s": 920.16,
+          "source_e": 920.34,
+          "short_s": 9.16,
+          "short_e": 9.34
+        },
+        {
+          "w": "a",
+          "source_s": 920.34,
+          "source_e": 920.5,
+          "short_s": 9.34,
+          "short_e": 9.5
+        },
+        {
+          "w": "dramatic",
+          "source_s": 920.5,
+          "source_e": 920.84,
+          "short_s": 9.5,
+          "short_e": 9.84
+        },
+        {
+          "w": "demonstration",
+          "source_s": 920.84,
+          "source_e": 921.52,
+          "short_s": 9.84,
+          "short_e": 10.52
+        },
+        {
+          "w": "of",
+          "source_s": 921.52,
+          "source_e": 921.84,
+          "short_s": 10.52,
+          "short_e": 10.84
+        },
+        {
+          "w": "that",
+          "source_s": 921.84,
+          "source_e": 922.04,
+          "short_s": 10.84,
+          "short_e": 11.04
+        },
+        {
+          "w": "fact.",
+          "source_s": 922.04,
+          "source_e": 922.38,
+          "short_s": 11.04,
+          "short_e": 11.38
+        },
+        {
+          "w": "On",
+          "source_s": 923.14,
+          "source_e": 923.34,
+          "short_s": 12.14,
+          "short_e": 12.34
+        },
+        {
+          "w": "April",
+          "source_s": 923.34,
+          "source_e": 923.62,
+          "short_s": 12.34,
+          "short_e": 12.62
+        },
+        {
+          "w": "13,",
+          "source_s": 923.62,
+          "source_e": 924.16,
+          "short_s": 12.62,
+          "short_e": 13.16
+        },
+        {
+          "w": "1992,",
+          "source_s": 924.68,
+          "source_e": 925.38,
+          "short_s": 13.68,
+          "short_e": 14.38
+        },
+        {
+          "w": "water",
+          "source_s": 926.46,
+          "source_e": 926.58,
+          "short_s": 15.46,
+          "short_e": 15.58
+        },
+        {
+          "w": "from",
+          "source_s": 926.58,
+          "source_e": 926.88,
+          "short_s": 15.58,
+          "short_e": 15.88
+        },
+        {
+          "w": "the",
+          "source_s": 926.88,
+          "source_e": 927,
+          "short_s": 15.88,
+          "short_e": 16
+        },
+        {
+          "w": "Chicago",
+          "source_s": 927,
+          "source_e": 927.42,
+          "short_s": 16,
+          "short_e": 16.42
+        },
+        {
+          "w": "River",
+          "source_s": 927.42,
+          "source_e": 927.76,
+          "short_s": 16.42,
+          "short_e": 16.76
+        },
+        {
+          "w": "began",
+          "source_s": 927.76,
+          "source_e": 928.52,
+          "short_s": 16.76,
+          "short_e": 17.52
+        },
+        {
+          "w": "pouring",
+          "source_s": 928.52,
+          "source_e": 928.94,
+          "short_s": 17.52,
+          "short_e": 17.94
+        },
+        {
+          "w": "into",
+          "source_s": 928.94,
+          "source_e": 929.24,
+          "short_s": 17.94,
+          "short_e": 18.24
+        },
+        {
+          "w": "the",
+          "source_s": 929.24,
+          "source_e": 929.4,
+          "short_s": 18.24,
+          "short_e": 18.4
+        },
+        {
+          "w": "old",
+          "source_s": 929.4,
+          "source_e": 929.76,
+          "short_s": 18.4,
+          "short_e": 18.76
+        },
+        {
+          "w": "freight",
+          "source_s": 929.76,
+          "source_e": 930.06,
+          "short_s": 18.76,
+          "short_e": 19.06
+        },
+        {
+          "w": "tunnel",
+          "source_s": 930.06,
+          "source_e": 930.38,
+          "short_s": 19.06,
+          "short_e": 19.38
+        },
+        {
+          "w": "system.",
+          "source_s": 930.38,
+          "source_e": 930.88,
+          "short_s": 19.38,
+          "short_e": 19.88
+        },
+        {
+          "w": "The",
+          "source_s": 931.54,
+          "source_e": 931.9,
+          "short_s": 20.54,
+          "short_e": 20.9
+        },
+        {
+          "w": "breach",
+          "source_s": 931.9,
+          "source_e": 932.18,
+          "short_s": 20.9,
+          "short_e": 21.18
+        },
+        {
+          "w": "occurred",
+          "source_s": 932.18,
+          "source_e": 932.6,
+          "short_s": 21.18,
+          "short_e": 21.6
+        },
+        {
+          "w": "where",
+          "source_s": 932.6,
+          "source_e": 933.16,
+          "short_s": 21.6,
+          "short_e": 22.16
+        },
+        {
+          "w": "the",
+          "source_s": 933.16,
+          "source_e": 933.34,
+          "short_s": 22.16,
+          "short_e": 22.34
+        },
+        {
+          "w": "tunnel",
+          "source_s": 933.34,
+          "source_e": 933.56,
+          "short_s": 22.34,
+          "short_e": 22.56
+        },
+        {
+          "w": "network",
+          "source_s": 933.56,
+          "source_e": 934.02,
+          "short_s": 22.56,
+          "short_e": 23.02
+        },
+        {
+          "w": "passed",
+          "source_s": 934.02,
+          "source_e": 934.44,
+          "short_s": 23.02,
+          "short_e": 23.44
+        },
+        {
+          "w": "beneath",
+          "source_s": 934.44,
+          "source_e": 934.74,
+          "short_s": 23.44,
+          "short_e": 23.74
+        },
+        {
+          "w": "the",
+          "source_s": 934.74,
+          "source_e": 934.96,
+          "short_s": 23.74,
+          "short_e": 23.96
+        },
+        {
+          "w": "river",
+          "source_s": 934.96,
+          "source_e": 935.22,
+          "short_s": 23.96,
+          "short_e": 24.22
+        },
+        {
+          "w": "near",
+          "source_s": 935.22,
+          "source_e": 935.64,
+          "short_s": 24.22,
+          "short_e": 24.64
+        },
+        {
+          "w": "the",
+          "source_s": 935.64,
+          "source_e": 935.84,
+          "short_s": 24.64,
+          "short_e": 24.84
+        },
+        {
+          "w": "Kinsey",
+          "source_s": 935.84,
+          "source_e": 936.18,
+          "short_s": 24.84,
+          "short_e": 25.18
+        },
+        {
+          "w": "Street",
+          "source_s": 936.18,
+          "source_e": 936.48,
+          "short_s": 25.18,
+          "short_e": 25.48
+        },
+        {
+          "w": "area.",
+          "source_s": 936.48,
+          "source_e": 936.96,
+          "short_s": 25.48,
+          "short_e": 25.96
+        },
+        {
+          "w": "Once",
+          "source_s": 938.02,
+          "source_e": 938.3,
+          "short_s": 27.02,
+          "short_e": 27.3
+        },
+        {
+          "w": "the",
+          "source_s": 938.3,
+          "source_e": 938.5,
+          "short_s": 27.3,
+          "short_e": 27.5
+        },
+        {
+          "w": "water",
+          "source_s": 938.5,
+          "source_e": 938.74,
+          "short_s": 27.5,
+          "short_e": 27.74
+        },
+        {
+          "w": "entered,",
+          "source_s": 938.74,
+          "source_e": 939.18,
+          "short_s": 27.74,
+          "short_e": 28.18
+        },
+        {
+          "w": "it",
+          "source_s": 939.56,
+          "source_e": 939.8,
+          "short_s": 28.56,
+          "short_e": 28.8
+        },
+        {
+          "w": "found",
+          "source_s": 939.8,
+          "source_e": 940.06,
+          "short_s": 28.8,
+          "short_e": 29.06
+        },
+        {
+          "w": "the",
+          "source_s": 940.06,
+          "source_e": 940.26,
+          "short_s": 29.06,
+          "short_e": 29.26
+        },
+        {
+          "w": "legacy",
+          "source_s": 940.26,
+          "source_e": 940.58,
+          "short_s": 29.26,
+          "short_e": 29.58
+        },
+        {
+          "w": "of",
+          "source_s": 940.58,
+          "source_e": 940.84,
+          "short_s": 29.58,
+          "short_e": 29.84
+        },
+        {
+          "w": "the",
+          "source_s": 940.84,
+          "source_e": 941.04,
+          "short_s": 29.84,
+          "short_e": 30.04
+        },
+        {
+          "w": "freight",
+          "source_s": 941.04,
+          "source_e": 941.18,
+          "short_s": 30.04,
+          "short_e": 30.18
+        },
+        {
+          "w": "railroad",
+          "source_s": 941.18,
+          "source_e": 941.68,
+          "short_s": 30.18,
+          "short_e": 30.68
+        },
+        {
+          "w": "waiting",
+          "source_s": 941.68,
+          "source_e": 942.08,
+          "short_s": 30.68,
+          "short_e": 31.08
+        },
+        {
+          "w": "for",
+          "source_s": 942.08,
+          "source_e": 942.38,
+          "short_s": 31.08,
+          "short_e": 31.38
+        },
+        {
+          "w": "it.",
+          "source_s": 942.38,
+          "source_e": 942.78,
+          "short_s": 31.38,
+          "short_e": 31.78
+        },
+        {
+          "w": "A",
+          "source_s": 943.24,
+          "source_e": 943.5,
+          "short_s": 32.24,
+          "short_e": 32.5
+        },
+        {
+          "w": "connected",
+          "source_s": 943.5,
+          "source_e": 943.92,
+          "short_s": 32.5,
+          "short_e": 32.92
+        },
+        {
+          "w": "underground",
+          "source_s": 943.92,
+          "source_e": 944.5,
+          "short_s": 32.92,
+          "short_e": 33.5
+        },
+        {
+          "w": "pathway",
+          "source_s": 944.5,
+          "source_e": 945.14,
+          "short_s": 33.5,
+          "short_e": 34.14
+        },
+        {
+          "w": "through",
+          "source_s": 945.14,
+          "source_e": 945.78,
+          "short_s": 34.14,
+          "short_e": 34.78
+        },
+        {
+          "w": "downtown.",
+          "source_s": 945.78,
+          "source_e": 946.26,
+          "short_s": 34.78,
+          "short_e": 35.26
+        },
+        {
+          "w": "The",
+          "source_s": 947.4,
+          "source_e": 947.64,
+          "short_s": 36.4,
+          "short_e": 36.64
+        },
+        {
+          "w": "same",
+          "source_s": 947.64,
+          "source_e": 947.92,
+          "short_s": 36.64,
+          "short_e": 36.92
+        },
+        {
+          "w": "basic",
+          "source_s": 947.92,
+          "source_e": 948.34,
+          "short_s": 36.92,
+          "short_e": 37.34
+        },
+        {
+          "w": "quality",
+          "source_s": 948.34,
+          "source_e": 948.88,
+          "short_s": 37.34,
+          "short_e": 37.88
+        },
+        {
+          "w": "that",
+          "source_s": 948.88,
+          "source_e": 949.38,
+          "short_s": 37.88,
+          "short_e": 38.38
+        },
+        {
+          "w": "had",
+          "source_s": 949.38,
+          "source_e": 949.52,
+          "short_s": 38.38,
+          "short_e": 38.52
+        },
+        {
+          "w": "made",
+          "source_s": 949.52,
+          "source_e": 949.7,
+          "short_s": 38.52,
+          "short_e": 38.7
+        },
+        {
+          "w": "the",
+          "source_s": 949.7,
+          "source_e": 949.88,
+          "short_s": 38.7,
+          "short_e": 38.88
+        },
+        {
+          "w": "system",
+          "source_s": 949.88,
+          "source_e": 950.24,
+          "short_s": 38.88,
+          "short_e": 39.24
+        },
+        {
+          "w": "valuable",
+          "source_s": 950.24,
+          "source_e": 950.66,
+          "short_s": 39.24,
+          "short_e": 39.66
+        },
+        {
+          "w": "for",
+          "source_s": 950.66,
+          "source_e": 951,
+          "short_s": 39.66,
+          "short_e": 40
+        },
+        {
+          "w": "freight",
+          "source_s": 951,
+          "source_e": 951.36,
+          "short_s": 40,
+          "short_e": 40.36
+        },
+        {
+          "w": "now",
+          "source_s": 951.36,
+          "source_e": 952.1,
+          "short_s": 40.36,
+          "short_e": 41.1
+        },
+        {
+          "w": "made",
+          "source_s": 952.1,
+          "source_e": 952.32,
+          "short_s": 41.1,
+          "short_e": 41.32
+        },
+        {
+          "w": "it",
+          "source_s": 952.32,
+          "source_e": 952.5,
+          "short_s": 41.32,
+          "short_e": 41.5
+        },
+        {
+          "w": "consequential",
+          "source_s": 952.5,
+          "source_e": 953,
+          "short_s": 41.5,
+          "short_e": 42
+        },
+        {
+          "w": "for",
+          "source_s": 953,
+          "source_e": 953.84,
+          "short_s": 42,
+          "short_e": 42.84
+        },
+        {
+          "w": "an",
+          "source_s": 953.84,
+          "source_e": 953.96,
+          "short_s": 42.84,
+          "short_e": 42.96
+        },
+        {
+          "w": "entirely",
+          "source_s": 953.96,
+          "source_e": 954.44,
+          "short_s": 42.96,
+          "short_e": 43.44
+        },
+        {
+          "w": "different",
+          "source_s": 954.44,
+          "source_e": 954.84,
+          "short_s": 43.44,
+          "short_e": 43.84
+        },
+        {
+          "w": "reason.",
+          "source_s": 954.84,
+          "source_e": 955.38,
+          "short_s": 43.84,
+          "short_e": 44.38
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 4.32,
+          "source_in": 911,
+          "source_out": 915.32,
+          "visual": "physical pathway thesis",
+          "action": "tight tunnel network image; immediate causal setup",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 5.02,
+          "short_out": 11.38,
+          "source_in": 916.02,
+          "source_out": 922.38,
+          "visual": "three decades after last train",
+          "action": "empty/legacy tunnel visual; no horror treatment",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 12.14,
+          "short_out": 19.88,
+          "source_in": 923.14,
+          "source_out": 930.88,
+          "visual": "April 13, 1992 — river water enters",
+          "action": "river + tunnel location map / diagram",
+          "provenance": "HISTORICAL SOURCE on verified map; otherwise explanatory visual"
+        },
+        {
+          "short_in": 20.54,
+          "short_out": 25.96,
+          "source_in": 931.54,
+          "source_out": 936.96,
+          "visual": "Kinzie Street breach location",
+          "action": "map detail centered for 9:16; label only existing verified location",
+          "provenance": "HISTORICAL SOURCE on verified map"
+        },
+        {
+          "short_in": 27.02,
+          "short_out": 35.26,
+          "source_in": 938.02,
+          "source_out": 946.26,
+          "visual": "water finds connected freight network",
+          "action": "network pathway visual / tunnel connection progression",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 36.4,
+          "short_out": 44.38,
+          "source_in": 947.4,
+          "source_out": 955.38,
+          "visual": "freight connectivity becomes flood connectivity",
+          "action": "finish on network-wide consequence; no blame claim",
+          "provenance": "match source visual"
+        }
+      ]
+    },
+    {
+      "id": "CHI-S05",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "The Railroad Was Closed for 33 Years. It Still Mattered.",
+      "hook": "A network built to distribute freight was still physically connected enough to distribute water.",
+      "source_in_sec": 988.94,
+      "source_out_sec": 1036.06,
+      "duration_sec": 47.12,
+      "source_in_tc": "00:16:28.940",
+      "source_out_tc": "00:17:16.060",
+      "narration_text": "A network built to distribute freight was still physically connected enough to distribute water. Pile driving work near the Kinsey Street bridge had taken place before the failure. And later legal claims alleged that this work had damaged or weakened the tunnel. But the legal history does not support simplifying that into a claim that a contractor was definitively found responsible for the flood. The larger point is more important to this story anyway. The freight railroad had been closed for 33 years. Its physical connectivity could still shape what happened in downtown Chicago. The flood did not bring the railroad back. It exposed something more useful for understanding cities.",
+      "source_words": [
+        {
+          "w": "A",
+          "source_s": 988.94,
+          "source_e": 989.3,
+          "short_s": 0,
+          "short_e": 0.36
+        },
+        {
+          "w": "network",
+          "source_s": 989.3,
+          "source_e": 989.74,
+          "short_s": 0.36,
+          "short_e": 0.8
+        },
+        {
+          "w": "built",
+          "source_s": 989.74,
+          "source_e": 990.08,
+          "short_s": 0.8,
+          "short_e": 1.14
+        },
+        {
+          "w": "to",
+          "source_s": 990.08,
+          "source_e": 990.34,
+          "short_s": 1.14,
+          "short_e": 1.4
+        },
+        {
+          "w": "distribute",
+          "source_s": 990.34,
+          "source_e": 990.8,
+          "short_s": 1.4,
+          "short_e": 1.86
+        },
+        {
+          "w": "freight",
+          "source_s": 990.8,
+          "source_e": 991.16,
+          "short_s": 1.86,
+          "short_e": 2.22
+        },
+        {
+          "w": "was",
+          "source_s": 991.16,
+          "source_e": 991.8,
+          "short_s": 2.22,
+          "short_e": 2.86
+        },
+        {
+          "w": "still",
+          "source_s": 991.8,
+          "source_e": 992.1,
+          "short_s": 2.86,
+          "short_e": 3.16
+        },
+        {
+          "w": "physically",
+          "source_s": 992.1,
+          "source_e": 992.6,
+          "short_s": 3.16,
+          "short_e": 3.66
+        },
+        {
+          "w": "connected",
+          "source_s": 992.6,
+          "source_e": 993.04,
+          "short_s": 3.66,
+          "short_e": 4.1
+        },
+        {
+          "w": "enough",
+          "source_s": 993.04,
+          "source_e": 993.46,
+          "short_s": 4.1,
+          "short_e": 4.52
+        },
+        {
+          "w": "to",
+          "source_s": 993.46,
+          "source_e": 994.02,
+          "short_s": 4.52,
+          "short_e": 5.08
+        },
+        {
+          "w": "distribute",
+          "source_s": 994.02,
+          "source_e": 994.56,
+          "short_s": 5.08,
+          "short_e": 5.62
+        },
+        {
+          "w": "water.",
+          "source_s": 994.56,
+          "source_e": 995.12,
+          "short_s": 5.62,
+          "short_e": 6.18
+        },
+        {
+          "w": "Pile",
+          "source_s": 996.18,
+          "source_e": 996.34,
+          "short_s": 7.24,
+          "short_e": 7.4
+        },
+        {
+          "w": "driving",
+          "source_s": 996.34,
+          "source_e": 996.68,
+          "short_s": 7.4,
+          "short_e": 7.74
+        },
+        {
+          "w": "work",
+          "source_s": 996.68,
+          "source_e": 997.06,
+          "short_s": 7.74,
+          "short_e": 8.12
+        },
+        {
+          "w": "near",
+          "source_s": 997.06,
+          "source_e": 997.32,
+          "short_s": 8.12,
+          "short_e": 8.38
+        },
+        {
+          "w": "the",
+          "source_s": 997.32,
+          "source_e": 997.52,
+          "short_s": 8.38,
+          "short_e": 8.58
+        },
+        {
+          "w": "Kinsey",
+          "source_s": 997.52,
+          "source_e": 997.84,
+          "short_s": 8.58,
+          "short_e": 8.9
+        },
+        {
+          "w": "Street",
+          "source_s": 997.84,
+          "source_e": 998.12,
+          "short_s": 8.9,
+          "short_e": 9.18
+        },
+        {
+          "w": "bridge",
+          "source_s": 998.12,
+          "source_e": 998.5,
+          "short_s": 9.18,
+          "short_e": 9.56
+        },
+        {
+          "w": "had",
+          "source_s": 998.5,
+          "source_e": 999,
+          "short_s": 9.56,
+          "short_e": 10.06
+        },
+        {
+          "w": "taken",
+          "source_s": 999,
+          "source_e": 999.26,
+          "short_s": 10.06,
+          "short_e": 10.32
+        },
+        {
+          "w": "place",
+          "source_s": 999.26,
+          "source_e": 999.56,
+          "short_s": 10.32,
+          "short_e": 10.62
+        },
+        {
+          "w": "before",
+          "source_s": 999.56,
+          "source_e": 999.9,
+          "short_s": 10.62,
+          "short_e": 10.96
+        },
+        {
+          "w": "the",
+          "source_s": 999.9,
+          "source_e": 1000.1,
+          "short_s": 10.96,
+          "short_e": 11.16
+        },
+        {
+          "w": "failure.",
+          "source_s": 1000.1,
+          "source_e": 1000.54,
+          "short_s": 11.16,
+          "short_e": 11.6
+        },
+        {
+          "w": "And",
+          "source_s": 1001.42,
+          "source_e": 1001.58,
+          "short_s": 12.48,
+          "short_e": 12.64
+        },
+        {
+          "w": "later",
+          "source_s": 1001.58,
+          "source_e": 1001.88,
+          "short_s": 12.64,
+          "short_e": 12.94
+        },
+        {
+          "w": "legal",
+          "source_s": 1001.88,
+          "source_e": 1002.16,
+          "short_s": 12.94,
+          "short_e": 13.22
+        },
+        {
+          "w": "claims",
+          "source_s": 1002.16,
+          "source_e": 1002.74,
+          "short_s": 13.22,
+          "short_e": 13.8
+        },
+        {
+          "w": "alleged",
+          "source_s": 1002.74,
+          "source_e": 1003.44,
+          "short_s": 13.8,
+          "short_e": 14.5
+        },
+        {
+          "w": "that",
+          "source_s": 1003.44,
+          "source_e": 1004.06,
+          "short_s": 14.5,
+          "short_e": 15.12
+        },
+        {
+          "w": "this",
+          "source_s": 1004.06,
+          "source_e": 1004.24,
+          "short_s": 15.12,
+          "short_e": 15.3
+        },
+        {
+          "w": "work",
+          "source_s": 1004.24,
+          "source_e": 1004.54,
+          "short_s": 15.3,
+          "short_e": 15.6
+        },
+        {
+          "w": "had",
+          "source_s": 1004.54,
+          "source_e": 1004.74,
+          "short_s": 15.6,
+          "short_e": 15.8
+        },
+        {
+          "w": "damaged",
+          "source_s": 1004.74,
+          "source_e": 1005.2,
+          "short_s": 15.8,
+          "short_e": 16.26
+        },
+        {
+          "w": "or",
+          "source_s": 1005.2,
+          "source_e": 1005.64,
+          "short_s": 16.26,
+          "short_e": 16.7
+        },
+        {
+          "w": "weakened",
+          "source_s": 1005.64,
+          "source_e": 1005.96,
+          "short_s": 16.7,
+          "short_e": 17.02
+        },
+        {
+          "w": "the",
+          "source_s": 1005.96,
+          "source_e": 1006.26,
+          "short_s": 17.02,
+          "short_e": 17.32
+        },
+        {
+          "w": "tunnel.",
+          "source_s": 1006.26,
+          "source_e": 1006.56,
+          "short_s": 17.32,
+          "short_e": 17.62
+        },
+        {
+          "w": "But",
+          "source_s": 1007.42,
+          "source_e": 1007.66,
+          "short_s": 18.48,
+          "short_e": 18.72
+        },
+        {
+          "w": "the",
+          "source_s": 1007.66,
+          "source_e": 1007.78,
+          "short_s": 18.72,
+          "short_e": 18.84
+        },
+        {
+          "w": "legal",
+          "source_s": 1007.78,
+          "source_e": 1008.08,
+          "short_s": 18.84,
+          "short_e": 19.14
+        },
+        {
+          "w": "history",
+          "source_s": 1008.08,
+          "source_e": 1008.56,
+          "short_s": 19.14,
+          "short_e": 19.62
+        },
+        {
+          "w": "does",
+          "source_s": 1008.56,
+          "source_e": 1009.1,
+          "short_s": 19.62,
+          "short_e": 20.16
+        },
+        {
+          "w": "not",
+          "source_s": 1009.1,
+          "source_e": 1009.28,
+          "short_s": 20.16,
+          "short_e": 20.34
+        },
+        {
+          "w": "support",
+          "source_s": 1009.28,
+          "source_e": 1009.7,
+          "short_s": 20.34,
+          "short_e": 20.76
+        },
+        {
+          "w": "simplifying",
+          "source_s": 1009.7,
+          "source_e": 1010.42,
+          "short_s": 20.76,
+          "short_e": 21.48
+        },
+        {
+          "w": "that",
+          "source_s": 1010.42,
+          "source_e": 1010.78,
+          "short_s": 21.48,
+          "short_e": 21.84
+        },
+        {
+          "w": "into",
+          "source_s": 1010.78,
+          "source_e": 1011.32,
+          "short_s": 21.84,
+          "short_e": 22.38
+        },
+        {
+          "w": "a",
+          "source_s": 1011.32,
+          "source_e": 1011.5,
+          "short_s": 22.38,
+          "short_e": 22.56
+        },
+        {
+          "w": "claim",
+          "source_s": 1011.5,
+          "source_e": 1011.8,
+          "short_s": 22.56,
+          "short_e": 22.86
+        },
+        {
+          "w": "that",
+          "source_s": 1011.8,
+          "source_e": 1012.32,
+          "short_s": 22.86,
+          "short_e": 23.38
+        },
+        {
+          "w": "a",
+          "source_s": 1012.32,
+          "source_e": 1012.48,
+          "short_s": 23.38,
+          "short_e": 23.54
+        },
+        {
+          "w": "contractor",
+          "source_s": 1012.48,
+          "source_e": 1012.9,
+          "short_s": 23.54,
+          "short_e": 23.96
+        },
+        {
+          "w": "was",
+          "source_s": 1012.9,
+          "source_e": 1013.22,
+          "short_s": 23.96,
+          "short_e": 24.28
+        },
+        {
+          "w": "definitively",
+          "source_s": 1013.22,
+          "source_e": 1013.7,
+          "short_s": 24.28,
+          "short_e": 24.76
+        },
+        {
+          "w": "found",
+          "source_s": 1013.7,
+          "source_e": 1014.32,
+          "short_s": 24.76,
+          "short_e": 25.38
+        },
+        {
+          "w": "responsible",
+          "source_s": 1014.32,
+          "source_e": 1014.84,
+          "short_s": 25.38,
+          "short_e": 25.9
+        },
+        {
+          "w": "for",
+          "source_s": 1014.84,
+          "source_e": 1015.16,
+          "short_s": 25.9,
+          "short_e": 26.22
+        },
+        {
+          "w": "the",
+          "source_s": 1015.16,
+          "source_e": 1015.32,
+          "short_s": 26.22,
+          "short_e": 26.38
+        },
+        {
+          "w": "flood.",
+          "source_s": 1015.32,
+          "source_e": 1015.58,
+          "short_s": 26.38,
+          "short_e": 26.64
+        },
+        {
+          "w": "The",
+          "source_s": 1016.16,
+          "source_e": 1016.54,
+          "short_s": 27.22,
+          "short_e": 27.6
+        },
+        {
+          "w": "larger",
+          "source_s": 1016.54,
+          "source_e": 1016.84,
+          "short_s": 27.6,
+          "short_e": 27.9
+        },
+        {
+          "w": "point",
+          "source_s": 1016.84,
+          "source_e": 1017.24,
+          "short_s": 27.9,
+          "short_e": 28.3
+        },
+        {
+          "w": "is",
+          "source_s": 1017.24,
+          "source_e": 1017.82,
+          "short_s": 28.3,
+          "short_e": 28.88
+        },
+        {
+          "w": "more",
+          "source_s": 1017.82,
+          "source_e": 1018.04,
+          "short_s": 28.88,
+          "short_e": 29.1
+        },
+        {
+          "w": "important",
+          "source_s": 1018.04,
+          "source_e": 1018.52,
+          "short_s": 29.1,
+          "short_e": 29.58
+        },
+        {
+          "w": "to",
+          "source_s": 1018.52,
+          "source_e": 1018.7,
+          "short_s": 29.58,
+          "short_e": 29.76
+        },
+        {
+          "w": "this",
+          "source_s": 1018.7,
+          "source_e": 1018.86,
+          "short_s": 29.76,
+          "short_e": 29.92
+        },
+        {
+          "w": "story",
+          "source_s": 1018.86,
+          "source_e": 1019.24,
+          "short_s": 29.92,
+          "short_e": 30.3
+        },
+        {
+          "w": "anyway.",
+          "source_s": 1019.24,
+          "source_e": 1019.72,
+          "short_s": 30.3,
+          "short_e": 30.78
+        },
+        {
+          "w": "The",
+          "source_s": 1020.7,
+          "source_e": 1020.86,
+          "short_s": 31.76,
+          "short_e": 31.92
+        },
+        {
+          "w": "freight",
+          "source_s": 1020.86,
+          "source_e": 1021.08,
+          "short_s": 31.92,
+          "short_e": 32.14
+        },
+        {
+          "w": "railroad",
+          "source_s": 1021.08,
+          "source_e": 1021.52,
+          "short_s": 32.14,
+          "short_e": 32.58
+        },
+        {
+          "w": "had",
+          "source_s": 1021.52,
+          "source_e": 1021.7,
+          "short_s": 32.58,
+          "short_e": 32.76
+        },
+        {
+          "w": "been",
+          "source_s": 1021.7,
+          "source_e": 1021.88,
+          "short_s": 32.76,
+          "short_e": 32.94
+        },
+        {
+          "w": "closed",
+          "source_s": 1021.88,
+          "source_e": 1022.24,
+          "short_s": 32.94,
+          "short_e": 33.3
+        },
+        {
+          "w": "for",
+          "source_s": 1022.24,
+          "source_e": 1022.8,
+          "short_s": 33.3,
+          "short_e": 33.86
+        },
+        {
+          "w": "33",
+          "source_s": 1022.8,
+          "source_e": 1023.18,
+          "short_s": 33.86,
+          "short_e": 34.24
+        },
+        {
+          "w": "years.",
+          "source_s": 1023.18,
+          "source_e": 1023.9,
+          "short_s": 34.24,
+          "short_e": 34.96
+        },
+        {
+          "w": "Its",
+          "source_s": 1024.68,
+          "source_e": 1024.86,
+          "short_s": 35.74,
+          "short_e": 35.92
+        },
+        {
+          "w": "physical",
+          "source_s": 1024.86,
+          "source_e": 1025.28,
+          "short_s": 35.92,
+          "short_e": 36.34
+        },
+        {
+          "w": "connectivity",
+          "source_s": 1025.28,
+          "source_e": 1025.82,
+          "short_s": 36.34,
+          "short_e": 36.88
+        },
+        {
+          "w": "could",
+          "source_s": 1025.82,
+          "source_e": 1026.2,
+          "short_s": 36.88,
+          "short_e": 37.26
+        },
+        {
+          "w": "still",
+          "source_s": 1026.2,
+          "source_e": 1026.46,
+          "short_s": 37.26,
+          "short_e": 37.52
+        },
+        {
+          "w": "shape",
+          "source_s": 1026.46,
+          "source_e": 1026.8,
+          "short_s": 37.52,
+          "short_e": 37.86
+        },
+        {
+          "w": "what",
+          "source_s": 1026.8,
+          "source_e": 1027.28,
+          "short_s": 37.86,
+          "short_e": 38.34
+        },
+        {
+          "w": "happened",
+          "source_s": 1027.28,
+          "source_e": 1027.64,
+          "short_s": 38.34,
+          "short_e": 38.7
+        },
+        {
+          "w": "in",
+          "source_s": 1027.64,
+          "source_e": 1028.04,
+          "short_s": 38.7,
+          "short_e": 39.1
+        },
+        {
+          "w": "downtown",
+          "source_s": 1028.04,
+          "source_e": 1028.46,
+          "short_s": 39.1,
+          "short_e": 39.52
+        },
+        {
+          "w": "Chicago.",
+          "source_s": 1028.46,
+          "source_e": 1029,
+          "short_s": 39.52,
+          "short_e": 40.06
+        },
+        {
+          "w": "The",
+          "source_s": 1029.9,
+          "source_e": 1030.18,
+          "short_s": 40.96,
+          "short_e": 41.24
+        },
+        {
+          "w": "flood",
+          "source_s": 1030.18,
+          "source_e": 1030.48,
+          "short_s": 41.24,
+          "short_e": 41.54
+        },
+        {
+          "w": "did",
+          "source_s": 1030.48,
+          "source_e": 1030.9,
+          "short_s": 41.54,
+          "short_e": 41.96
+        },
+        {
+          "w": "not",
+          "source_s": 1030.9,
+          "source_e": 1031.1,
+          "short_s": 41.96,
+          "short_e": 42.16
+        },
+        {
+          "w": "bring",
+          "source_s": 1031.1,
+          "source_e": 1031.34,
+          "short_s": 42.16,
+          "short_e": 42.4
+        },
+        {
+          "w": "the",
+          "source_s": 1031.34,
+          "source_e": 1031.52,
+          "short_s": 42.4,
+          "short_e": 42.58
+        },
+        {
+          "w": "railroad",
+          "source_s": 1031.52,
+          "source_e": 1031.88,
+          "short_s": 42.58,
+          "short_e": 42.94
+        },
+        {
+          "w": "back.",
+          "source_s": 1031.88,
+          "source_e": 1032.32,
+          "short_s": 42.94,
+          "short_e": 43.38
+        },
+        {
+          "w": "It",
+          "source_s": 1032.88,
+          "source_e": 1033.14,
+          "short_s": 43.94,
+          "short_e": 44.2
+        },
+        {
+          "w": "exposed",
+          "source_s": 1033.14,
+          "source_e": 1033.58,
+          "short_s": 44.2,
+          "short_e": 44.64
+        },
+        {
+          "w": "something",
+          "source_s": 1033.58,
+          "source_e": 1034.04,
+          "short_s": 44.64,
+          "short_e": 45.1
+        },
+        {
+          "w": "more",
+          "source_s": 1034.04,
+          "source_e": 1034.34,
+          "short_s": 45.1,
+          "short_e": 45.4
+        },
+        {
+          "w": "useful",
+          "source_s": 1034.34,
+          "source_e": 1034.66,
+          "short_s": 45.4,
+          "short_e": 45.72
+        },
+        {
+          "w": "for",
+          "source_s": 1034.66,
+          "source_e": 1034.98,
+          "short_s": 45.72,
+          "short_e": 46.04
+        },
+        {
+          "w": "understanding",
+          "source_s": 1034.98,
+          "source_e": 1035.56,
+          "short_s": 46.04,
+          "short_e": 46.62
+        },
+        {
+          "w": "cities.",
+          "source_s": 1035.56,
+          "source_e": 1036.06,
+          "short_s": 46.62,
+          "short_e": 47.12
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 6.18,
+          "source_in": 988.94,
+          "source_out": 995.12,
+          "visual": "freight network distributes water",
+          "action": "open on map/network logic rather than disaster spectacle",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 7.24,
+          "short_out": 17.62,
+          "source_in": 996.18,
+          "source_out": 1006.56,
+          "visual": "pile driving + later legal claims",
+          "action": "use location/document evidence; clearly separate allegation from fact",
+          "provenance": "DOCUMENT/HISTORICAL SOURCE where verified"
+        },
+        {
+          "short_in": 18.48,
+          "short_out": 26.64,
+          "source_in": 1007.42,
+          "source_out": 1015.58,
+          "visual": "legal-history correction",
+          "action": "hold on document/evidence; no contractor blame visual",
+          "provenance": "DOCUMENT"
+        },
+        {
+          "short_in": 27.22,
+          "short_out": 34.96,
+          "source_in": 1016.16,
+          "source_out": 1023.9,
+          "visual": "larger point + 33 years closed",
+          "action": "empty tunnel / timeline contrast",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 35.74,
+          "short_out": 40.06,
+          "source_in": 1024.68,
+          "source_out": 1029,
+          "visual": "physical connectivity still matters",
+          "action": "network map/detail",
+          "provenance": "HISTORICAL SOURCE on verified map"
+        },
+        {
+          "short_in": 40.96,
+          "short_out": 47.12,
+          "source_in": 1029.9,
+          "source_out": 1036.06,
+          "visual": "city-infrastructure lesson",
+          "action": "finish on quiet tunnel/city contrast; no CTA card",
+          "provenance": "match source visual"
+        }
+      ]
+    }
+  ]
+}
