@@ -1,0 +1,79 @@
+{
+  "id": "CHI-S03",
+  "fps": 25,
+  "title_lines": [
+    "THE TRAINS STOPPED.",
+    "THE TUNNELS STAYED."
+  ],
+  "version": "V10_CANON",
+  "rules": {
+    "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
+    "source": "clean episode assets",
+    "provenance": "truthful per asset"
+  },
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 4.02,
+      "asset": "S007_P005.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "JULY 1959",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 4.02,
+      "out_end": 7.2,
+      "asset": "S008_P006.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "THE TRAINS STOPPED",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 7.2,
+      "out_end": 10.8,
+      "asset": "A01_IllinoisTunnelIntersectionCloser.jpg",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "THE TUNNELS DID NOT",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 10.8,
+      "out_end": 15.14,
+      "asset": "S010_P007.png",
+      "x": 0.48,
+      "motion": "static",
+      "metric": "WHY BUILD IT UNDER CHICAGO?",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 15.14,
+      "out_end": 19.58,
+      "asset": "S011_P008.png",
+      "x": 0.52,
+      "motion": "static",
+      "metric": "HOW DID IT BECOME OBSOLETE?",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 19.58,
+      "out_end": 22.8,
+      "asset": "A14_LOC_State_Street_1905.jpg",
+      "x": 0.42,
+      "motion": "static",
+      "metric": "THE PROBLEM WAS ABOVE GROUND",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 22.8,
+      "out_end": 26.42,
+      "asset": "A14_LOC_State_Street_1905.jpg",
+      "x": 0.62,
+      "motion": "static",
+      "metric": "CHICAGO COULD SEE IT EVERY DAY",
+      "provenance": "HISTORICAL SOURCE"
+    }
+  ]
+}
