@@ -33,7 +33,7 @@ Source policy: exact long-form audio only; no rewritten VO; no new TTS; no image
 **Hook:** A trailer no longer had to be nothing more than dead weight behind one tractor.  
 **Narration (exact extraction):**
 
-> A trailer no longer had to be nothing more than dead weight behind one tractor. Additional sections could contribute traction of their own. Another section could be added, then another. And power could be distributed through the train instead of asking one tractor at the front to drag everything behind it. The turn -o had been developing electric wheel technology long before the TC497. Patents filed in the early 1950s described vehicle wheels incorporating electric traction motors directly into the wheel assembly. The basic idea was simple enough to explain in a diagram. Its consequences were enormous. The TC497 was not the first land train. It was the result of years of increasingly ambitious experiments.
+> A trailer no longer had to be nothing more than dead weight behind one tractor. Additional sections could contribute traction of their own. Another section could be added, then another. And power could be distributed through the train instead of asking one tractor at the front to drag everything behind it. LeTourneau had been developing electric wheel technology long before the TC497. Patents filed in the early 1950s described vehicle wheels incorporating electric traction motors directly into the wheel assembly. The basic idea was simple enough to explain in a diagram. Its consequences were enormous. The TC497 was not the first land train. It was the result of years of increasingly ambitious experiments.
 
 ### 9:16 montage
 
@@ -94,7 +94,7 @@ Source policy: exact long-form audio only; no rewritten VO; no new TTS; no image
 **Hook:** A ground vehicle still had to negotiate the terrain in front of it.  
 **Narration (exact extraction):**
 
-> A ground vehicle still had to negotiate the terrain in front of it. Rivers mattered. Steep ridges mattered. Soft ground mattered. Large dunes mattered. A heavy -lift helicopter could bypass many of those terrain obstacles entirely. Aircrafts such as Sikorsky's S -64 Sky Crane and the Army's CH -54 Tarhe represented a fundamentally different solution to the logistics problem. Instead of carrying a supply system slowly across difficult terrain, vertical lift could move heavy loads directly between points without following the landscape between them. Army historical accounts are unusually clear about what happened next. Heavy -lift helicopter technology made the Overland train increasingly obsolete before the concept could become an operational fleet.
+> A ground vehicle still had to negotiate the terrain in front of it. Rivers mattered. Steep ridges mattered. Soft ground mattered. Large dunes mattered. A heavy-lift helicopter could bypass many of those terrain obstacles entirely. Aircrafts such as Sikorsky's S -64 Sky Crane and the Army's CH -54 Tarhe represented a fundamentally different solution to the logistics problem. Instead of carrying a supply system slowly across difficult terrain, vertical lift could move heavy loads directly between points without following the landscape between them. Army historical accounts are unusually clear about what happened next. Heavy -lift helicopter technology made the Overland train increasingly obsolete before the concept could become an operational fleet.
 
 ### 9:16 montage
 
