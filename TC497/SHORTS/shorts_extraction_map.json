@@ -1,0 +1,3964 @@
+{
+  "schema_version": 1,
+  "episode": "TC497",
+  "source_longform": "TC497 R14 / approved V9 audio timing",
+  "source_fps": 30,
+  "source_runtime_sec": 1236.533333,
+  "production_rule": "Extraction-first. Render only after the corresponding long-form is explicitly approved.",
+  "shared": {
+    "format": "9:16 1080x1920",
+    "captions": "single layer; white base #FFFFFF; current word orange #F28A3A; large 9:16-safe typography",
+    "audio": "exact long-form audio excerpt; no new TTS",
+    "transitions": "clean hard cuts; restrained motion only",
+    "generation": "NO new image/video generation for the extraction render unless explicitly approved"
+  },
+  "shorts": [
+    {
+      "id": "TC497-S01",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "The Army Built a 572-Foot Train With No Tracks",
+      "hook": "In the Arizona desert, the United States Army once tested a vehicle that looked less like a truck...",
+      "source_in_sec": 0,
+      "source_out_sec": 53.88,
+      "duration_sec": 53.88,
+      "source_in_tc": "00:00:00.000",
+      "source_out_tc": "00:00:53.880",
+      "narration_text": "In the Arizona desert, the United States Army once tested a vehicle that looked less like a truck, and more like an entire transportation system moving under its own power. It was 572 feet long, 13 units in all, a towering control car followed by cargo and power sections. 54 wheels could drive the machine forward. It carried a crew of six, and could haul roughly 150 tons of cargo. And despite being called an overland train, it needed no railroad, no rails, no prepared highway. It was designed to keep moving when conventional transportation infrastructure simply ended. This was the LeTourneau TC 497 Overland Train Mark II.",
+      "source_words": [
+        {
+          "w": "In",
+          "source_s": 0,
+          "source_e": 0.18,
+          "short_s": 0,
+          "short_e": 0.18
+        },
+        {
+          "w": "the",
+          "source_s": 0.18,
+          "source_e": 0.28,
+          "short_s": 0.18,
+          "short_e": 0.28
+        },
+        {
+          "w": "Arizona",
+          "source_s": 0.28,
+          "source_e": 0.8,
+          "short_s": 0.28,
+          "short_e": 0.8
+        },
+        {
+          "w": "desert,",
+          "source_s": 0.8,
+          "source_e": 1.26,
+          "short_s": 0.8,
+          "short_e": 1.26
+        },
+        {
+          "w": "the",
+          "source_s": 1.86,
+          "source_e": 1.88,
+          "short_s": 1.86,
+          "short_e": 1.88
+        },
+        {
+          "w": "United",
+          "source_s": 1.88,
+          "source_e": 2.12,
+          "short_s": 1.88,
+          "short_e": 2.12
+        },
+        {
+          "w": "States",
+          "source_s": 2.12,
+          "source_e": 2.58,
+          "short_s": 2.12,
+          "short_e": 2.58
+        },
+        {
+          "w": "Army",
+          "source_s": 2.58,
+          "source_e": 2.92,
+          "short_s": 2.58,
+          "short_e": 2.92
+        },
+        {
+          "w": "once",
+          "source_s": 2.92,
+          "source_e": 3.26,
+          "short_s": 2.92,
+          "short_e": 3.26
+        },
+        {
+          "w": "tested",
+          "source_s": 3.26,
+          "source_e": 3.72,
+          "short_s": 3.26,
+          "short_e": 3.72
+        },
+        {
+          "w": "a",
+          "source_s": 3.72,
+          "source_e": 3.9,
+          "short_s": 3.72,
+          "short_e": 3.9
+        },
+        {
+          "w": "vehicle",
+          "source_s": 3.9,
+          "source_e": 4.28,
+          "short_s": 3.9,
+          "short_e": 4.28
+        },
+        {
+          "w": "that",
+          "source_s": 4.28,
+          "source_e": 4.92,
+          "short_s": 4.28,
+          "short_e": 4.92
+        },
+        {
+          "w": "looked",
+          "source_s": 4.92,
+          "source_e": 5.22,
+          "short_s": 4.92,
+          "short_e": 5.22
+        },
+        {
+          "w": "less",
+          "source_s": 5.22,
+          "source_e": 5.58,
+          "short_s": 5.22,
+          "short_e": 5.58
+        },
+        {
+          "w": "like",
+          "source_s": 5.58,
+          "source_e": 5.84,
+          "short_s": 5.58,
+          "short_e": 5.84
+        },
+        {
+          "w": "a",
+          "source_s": 5.84,
+          "source_e": 6.04,
+          "short_s": 5.84,
+          "short_e": 6.04
+        },
+        {
+          "w": "truck,",
+          "source_s": 6.04,
+          "source_e": 6.34,
+          "short_s": 6.04,
+          "short_e": 6.34
+        },
+        {
+          "w": "and",
+          "source_s": 6.9,
+          "source_e": 7.28,
+          "short_s": 6.9,
+          "short_e": 7.28
+        },
+        {
+          "w": "more",
+          "source_s": 7.28,
+          "source_e": 7.52,
+          "short_s": 7.28,
+          "short_e": 7.52
+        },
+        {
+          "w": "like",
+          "source_s": 7.52,
+          "source_e": 7.8,
+          "short_s": 7.52,
+          "short_e": 7.8
+        },
+        {
+          "w": "an",
+          "source_s": 7.8,
+          "source_e": 8.24,
+          "short_s": 7.8,
+          "short_e": 8.24
+        },
+        {
+          "w": "entire",
+          "source_s": 8.24,
+          "source_e": 8.76,
+          "short_s": 8.24,
+          "short_e": 8.76
+        },
+        {
+          "w": "transportation",
+          "source_s": 8.76,
+          "source_e": 9.44,
+          "short_s": 8.76,
+          "short_e": 9.44
+        },
+        {
+          "w": "system",
+          "source_s": 9.44,
+          "source_e": 10.04,
+          "short_s": 9.44,
+          "short_e": 10.04
+        },
+        {
+          "w": "moving",
+          "source_s": 10.04,
+          "source_e": 10.64,
+          "short_s": 10.04,
+          "short_e": 10.64
+        },
+        {
+          "w": "under",
+          "source_s": 10.64,
+          "source_e": 11.26,
+          "short_s": 10.64,
+          "short_e": 11.26
+        },
+        {
+          "w": "its",
+          "source_s": 11.26,
+          "source_e": 11.46,
+          "short_s": 11.26,
+          "short_e": 11.46
+        },
+        {
+          "w": "own",
+          "source_s": 11.46,
+          "source_e": 11.7,
+          "short_s": 11.46,
+          "short_e": 11.7
+        },
+        {
+          "w": "power.",
+          "source_s": 11.7,
+          "source_e": 12.2,
+          "short_s": 11.7,
+          "short_e": 12.2
+        },
+        {
+          "w": "It",
+          "source_s": 12.94,
+          "source_e": 13.16,
+          "short_s": 12.94,
+          "short_e": 13.16
+        },
+        {
+          "w": "was",
+          "source_s": 13.16,
+          "source_e": 13.34,
+          "short_s": 13.16,
+          "short_e": 13.34
+        },
+        {
+          "w": "572",
+          "source_s": 13.34,
+          "source_e": 14.7,
+          "short_s": 13.34,
+          "short_e": 14.7
+        },
+        {
+          "w": "feet",
+          "source_s": 14.7,
+          "source_e": 14.96,
+          "short_s": 14.7,
+          "short_e": 14.96
+        },
+        {
+          "w": "long,",
+          "source_s": 14.96,
+          "source_e": 15.34,
+          "short_s": 14.96,
+          "short_e": 15.34
+        },
+        {
+          "w": "13",
+          "source_s": 16,
+          "source_e": 16.36,
+          "short_s": 16,
+          "short_e": 16.36
+        },
+        {
+          "w": "units",
+          "source_s": 16.36,
+          "source_e": 16.82,
+          "short_s": 16.36,
+          "short_e": 16.82
+        },
+        {
+          "w": "in",
+          "source_s": 16.82,
+          "source_e": 17.06,
+          "short_s": 16.82,
+          "short_e": 17.06
+        },
+        {
+          "w": "all,",
+          "source_s": 17.06,
+          "source_e": 17.36,
+          "short_s": 17.06,
+          "short_e": 17.36
+        },
+        {
+          "w": "a",
+          "source_s": 17.84,
+          "source_e": 18.06,
+          "short_s": 17.84,
+          "short_e": 18.06
+        },
+        {
+          "w": "towering",
+          "source_s": 18.06,
+          "source_e": 18.48,
+          "short_s": 18.06,
+          "short_e": 18.48
+        },
+        {
+          "w": "control",
+          "source_s": 18.48,
+          "source_e": 19,
+          "short_s": 18.48,
+          "short_e": 19
+        },
+        {
+          "w": "car",
+          "source_s": 19,
+          "source_e": 19.46,
+          "short_s": 19,
+          "short_e": 19.46
+        },
+        {
+          "w": "followed",
+          "source_s": 19.46,
+          "source_e": 20,
+          "short_s": 19.46,
+          "short_e": 20
+        },
+        {
+          "w": "by",
+          "source_s": 20,
+          "source_e": 20.3,
+          "short_s": 20,
+          "short_e": 20.3
+        },
+        {
+          "w": "cargo",
+          "source_s": 20.3,
+          "source_e": 20.74,
+          "short_s": 20.3,
+          "short_e": 20.74
+        },
+        {
+          "w": "and",
+          "source_s": 20.74,
+          "source_e": 21.26,
+          "short_s": 20.74,
+          "short_e": 21.26
+        },
+        {
+          "w": "power",
+          "source_s": 21.26,
+          "source_e": 21.54,
+          "short_s": 21.26,
+          "short_e": 21.54
+        },
+        {
+          "w": "sections.",
+          "source_s": 21.54,
+          "source_e": 22.14,
+          "short_s": 21.54,
+          "short_e": 22.14
+        },
+        {
+          "w": "54",
+          "source_s": 23.06,
+          "source_e": 23.34,
+          "short_s": 23.06,
+          "short_e": 23.34
+        },
+        {
+          "w": "wheels",
+          "source_s": 23.34,
+          "source_e": 24.06,
+          "short_s": 23.34,
+          "short_e": 24.06
+        },
+        {
+          "w": "could",
+          "source_s": 24.06,
+          "source_e": 24.54,
+          "short_s": 24.06,
+          "short_e": 24.54
+        },
+        {
+          "w": "drive",
+          "source_s": 24.54,
+          "source_e": 24.8,
+          "short_s": 24.54,
+          "short_e": 24.8
+        },
+        {
+          "w": "the",
+          "source_s": 24.8,
+          "source_e": 25,
+          "short_s": 24.8,
+          "short_e": 25
+        },
+        {
+          "w": "machine",
+          "source_s": 25,
+          "source_e": 25.36,
+          "short_s": 25,
+          "short_e": 25.36
+        },
+        {
+          "w": "forward.",
+          "source_s": 25.36,
+          "source_e": 25.86,
+          "short_s": 25.36,
+          "short_e": 25.86
+        },
+        {
+          "w": "It",
+          "source_s": 26.46,
+          "source_e": 26.68,
+          "short_s": 26.46,
+          "short_e": 26.68
+        },
+        {
+          "w": "carried",
+          "source_s": 26.68,
+          "source_e": 26.96,
+          "short_s": 26.68,
+          "short_e": 26.96
+        },
+        {
+          "w": "a",
+          "source_s": 26.96,
+          "source_e": 27.16,
+          "short_s": 26.96,
+          "short_e": 27.16
+        },
+        {
+          "w": "crew",
+          "source_s": 27.16,
+          "source_e": 27.32,
+          "short_s": 27.16,
+          "short_e": 27.32
+        },
+        {
+          "w": "of",
+          "source_s": 27.32,
+          "source_e": 27.48,
+          "short_s": 27.32,
+          "short_e": 27.48
+        },
+        {
+          "w": "six,",
+          "source_s": 27.48,
+          "source_e": 27.78,
+          "short_s": 27.48,
+          "short_e": 27.78
+        },
+        {
+          "w": "and",
+          "source_s": 28.14,
+          "source_e": 28.58,
+          "short_s": 28.14,
+          "short_e": 28.58
+        },
+        {
+          "w": "could",
+          "source_s": 28.58,
+          "source_e": 28.74,
+          "short_s": 28.58,
+          "short_e": 28.74
+        },
+        {
+          "w": "haul",
+          "source_s": 28.74,
+          "source_e": 29.04,
+          "short_s": 28.74,
+          "short_e": 29.04
+        },
+        {
+          "w": "roughly",
+          "source_s": 29.04,
+          "source_e": 29.54,
+          "short_s": 29.04,
+          "short_e": 29.54
+        },
+        {
+          "w": "150",
+          "source_s": 29.54,
+          "source_e": 30.76,
+          "short_s": 29.54,
+          "short_e": 30.76
+        },
+        {
+          "w": "tons",
+          "source_s": 30.76,
+          "source_e": 31.2,
+          "short_s": 30.76,
+          "short_e": 31.2
+        },
+        {
+          "w": "of",
+          "source_s": 31.2,
+          "source_e": 31.58,
+          "short_s": 31.2,
+          "short_e": 31.58
+        },
+        {
+          "w": "cargo.",
+          "source_s": 31.58,
+          "source_e": 32,
+          "short_s": 31.58,
+          "short_e": 32
+        },
+        {
+          "w": "And",
+          "source_s": 33.04,
+          "source_e": 33.08,
+          "short_s": 33.04,
+          "short_e": 33.08
+        },
+        {
+          "w": "despite",
+          "source_s": 33.08,
+          "source_e": 33.38,
+          "short_s": 33.08,
+          "short_e": 33.38
+        },
+        {
+          "w": "being",
+          "source_s": 33.38,
+          "source_e": 33.64,
+          "short_s": 33.38,
+          "short_e": 33.64
+        },
+        {
+          "w": "called",
+          "source_s": 33.64,
+          "source_e": 34.04,
+          "short_s": 33.64,
+          "short_e": 34.04
+        },
+        {
+          "w": "an",
+          "source_s": 34.04,
+          "source_e": 34.48,
+          "short_s": 34.04,
+          "short_e": 34.48
+        },
+        {
+          "w": "overland",
+          "source_s": 34.48,
+          "source_e": 35.16,
+          "short_s": 34.48,
+          "short_e": 35.16
+        },
+        {
+          "w": "train,",
+          "source_s": 35.16,
+          "source_e": 35.68,
+          "short_s": 35.16,
+          "short_e": 35.68
+        },
+        {
+          "w": "it",
+          "source_s": 36.04,
+          "source_e": 36.26,
+          "short_s": 36.04,
+          "short_e": 36.26
+        },
+        {
+          "w": "needed",
+          "source_s": 36.26,
+          "source_e": 36.6,
+          "short_s": 36.26,
+          "short_e": 36.6
+        },
+        {
+          "w": "no",
+          "source_s": 36.6,
+          "source_e": 36.86,
+          "short_s": 36.6,
+          "short_e": 36.86
+        },
+        {
+          "w": "railroad,",
+          "source_s": 36.86,
+          "source_e": 37.3,
+          "short_s": 36.86,
+          "short_e": 37.3
+        },
+        {
+          "w": "no",
+          "source_s": 38.08,
+          "source_e": 38.28,
+          "short_s": 38.08,
+          "short_e": 38.28
+        },
+        {
+          "w": "rails,",
+          "source_s": 38.28,
+          "source_e": 38.78,
+          "short_s": 38.28,
+          "short_e": 38.78
+        },
+        {
+          "w": "no",
+          "source_s": 39.42,
+          "source_e": 39.62,
+          "short_s": 39.42,
+          "short_e": 39.62
+        },
+        {
+          "w": "prepared",
+          "source_s": 39.62,
+          "source_e": 40.02,
+          "short_s": 39.62,
+          "short_e": 40.02
+        },
+        {
+          "w": "highway.",
+          "source_s": 40.02,
+          "source_e": 40.5,
+          "short_s": 40.02,
+          "short_e": 40.5
+        },
+        {
+          "w": "It",
+          "source_s": 41.3,
+          "source_e": 41.56,
+          "short_s": 41.3,
+          "short_e": 41.56
+        },
+        {
+          "w": "was",
+          "source_s": 41.56,
+          "source_e": 41.7,
+          "short_s": 41.56,
+          "short_e": 41.7
+        },
+        {
+          "w": "designed",
+          "source_s": 41.7,
+          "source_e": 42.16,
+          "short_s": 41.7,
+          "short_e": 42.16
+        },
+        {
+          "w": "to",
+          "source_s": 42.16,
+          "source_e": 42.5,
+          "short_s": 42.16,
+          "short_e": 42.5
+        },
+        {
+          "w": "keep",
+          "source_s": 42.5,
+          "source_e": 42.7,
+          "short_s": 42.5,
+          "short_e": 42.7
+        },
+        {
+          "w": "moving",
+          "source_s": 42.7,
+          "source_e": 43.2,
+          "short_s": 42.7,
+          "short_e": 43.2
+        },
+        {
+          "w": "when",
+          "source_s": 43.2,
+          "source_e": 43.82,
+          "short_s": 43.2,
+          "short_e": 43.82
+        },
+        {
+          "w": "conventional",
+          "source_s": 43.82,
+          "source_e": 44.42,
+          "short_s": 43.82,
+          "short_e": 44.42
+        },
+        {
+          "w": "transportation",
+          "source_s": 44.42,
+          "source_e": 45.18,
+          "short_s": 44.42,
+          "short_e": 45.18
+        },
+        {
+          "w": "infrastructure",
+          "source_s": 45.18,
+          "source_e": 46.04,
+          "short_s": 45.18,
+          "short_e": 46.04
+        },
+        {
+          "w": "simply",
+          "source_s": 46.04,
+          "source_e": 46.74,
+          "short_s": 46.04,
+          "short_e": 46.74
+        },
+        {
+          "w": "ended.",
+          "source_s": 46.74,
+          "source_e": 47.3,
+          "short_s": 46.74,
+          "short_e": 47.3
+        },
+        {
+          "w": "This",
+          "source_s": 48.06,
+          "source_e": 48.38,
+          "short_s": 48.06,
+          "short_e": 48.38
+        },
+        {
+          "w": "was",
+          "source_s": 48.38,
+          "source_e": 48.6,
+          "short_s": 48.38,
+          "short_e": 48.6
+        },
+        {
+          "w": "the",
+          "source_s": 48.6,
+          "source_e": 48.86,
+          "short_s": 48.6,
+          "short_e": 48.86
+        },
+        {
+          "w": "LeTourneau",
+          "source_s": 48.86,
+          "source_e": 49.8,
+          "short_s": 48.86,
+          "short_e": 49.8
+        },
+        {
+          "w": "TC",
+          "source_s": 49.8,
+          "source_e": 50.3,
+          "short_s": 49.8,
+          "short_e": 50.3
+        },
+        {
+          "w": "497",
+          "source_s": 50.3,
+          "source_e": 51.7,
+          "short_s": 50.3,
+          "short_e": 51.7
+        },
+        {
+          "w": "Overland",
+          "source_s": 51.7,
+          "source_e": 52.38,
+          "short_s": 51.7,
+          "short_e": 52.38
+        },
+        {
+          "w": "Train",
+          "source_s": 52.38,
+          "source_e": 52.78,
+          "short_s": 52.38,
+          "short_e": 52.78
+        },
+        {
+          "w": "Mark",
+          "source_s": 52.78,
+          "source_e": 53.42,
+          "short_s": 52.78,
+          "short_e": 53.42
+        },
+        {
+          "w": "II.",
+          "source_s": 53.42,
+          "source_e": 53.88,
+          "short_s": 53.42,
+          "short_e": 53.88
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 12.2,
+          "source_in": 0,
+          "source_out": 12.2,
+          "visual": "Arizona desert cold open / machine reveal",
+          "action": "start with scale mystery, then reveal more of the machine; keep captions clear",
+          "provenance": "AI RECONSTRUCTION or verified source per current picture"
+        },
+        {
+          "short_in": 12.94,
+          "short_out": 22.14,
+          "source_in": 12.94,
+          "source_out": 22.14,
+          "visual": "572 ft / 13 units",
+          "action": "vertical composition that shows length via top-down/long profile + existing measurement GFX",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 23.06,
+          "short_out": 32,
+          "source_in": 23.06,
+          "source_out": 32,
+          "visual": "54 driven wheels + six crew + ~150 tons",
+          "action": "fast technical detail sequence: wheel → human scale → cargo",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 33.04,
+          "short_out": 40.5,
+          "source_in": 33.04,
+          "source_out": 40.5,
+          "visual": "no railroad / rails / prepared highway",
+          "action": "terrain and machine contrast; hard cuts on each negation",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 41.3,
+          "short_out": 47.3,
+          "source_in": 41.3,
+          "source_out": 47.3,
+          "visual": "infrastructure ends",
+          "action": "road-end / desert isolation payoff",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 48.06,
+          "short_out": 53.88,
+          "source_in": 48.06,
+          "source_out": 53.88,
+          "visual": "name reveal",
+          "action": "strong full-machine hero frame; TC-497 name only if already present in long-form GFX",
+          "provenance": "match source visual"
+        }
+      ]
+    },
+    {
+      "id": "TC497-S02",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "Why the TC-497 Put Electric Motors in Its Wheels",
+      "hook": "A trailer no longer had to be nothing more than dead weight behind one tractor.",
+      "source_in_sec": 265,
+      "source_out_sec": 315.8,
+      "duration_sec": 50.8,
+      "source_in_tc": "00:04:25.000",
+      "source_out_tc": "00:05:15.800",
+      "narration_text": "A trailer no longer had to be nothing more than dead weight behind one tractor. Additional sections could contribute traction of their own. Another section could be added, then another. And power could be distributed through the train instead of asking one tractor at the front to drag everything behind it. The turn -o had been developing electric wheel technology long before the TC497. Patents filed in the early 1950s described vehicle wheels incorporating electric traction motors directly into the wheel assembly. The basic idea was simple enough to explain in a diagram. Its consequences were enormous. The TC497 was not the first land train. It was the result of years of increasingly ambitious experiments.",
+      "source_words": [
+        {
+          "w": "A",
+          "source_s": 265,
+          "source_e": 265.2,
+          "short_s": 0,
+          "short_e": 0.2
+        },
+        {
+          "w": "trailer",
+          "source_s": 265.2,
+          "source_e": 265.52,
+          "short_s": 0.2,
+          "short_e": 0.52
+        },
+        {
+          "w": "no",
+          "source_s": 265.52,
+          "source_e": 265.82,
+          "short_s": 0.52,
+          "short_e": 0.82
+        },
+        {
+          "w": "longer",
+          "source_s": 265.82,
+          "source_e": 266.02,
+          "short_s": 0.82,
+          "short_e": 1.02
+        },
+        {
+          "w": "had",
+          "source_s": 266.02,
+          "source_e": 266.26,
+          "short_s": 1.02,
+          "short_e": 1.26
+        },
+        {
+          "w": "to",
+          "source_s": 266.26,
+          "source_e": 266.38,
+          "short_s": 1.26,
+          "short_e": 1.38
+        },
+        {
+          "w": "be",
+          "source_s": 266.38,
+          "source_e": 266.5,
+          "short_s": 1.38,
+          "short_e": 1.5
+        },
+        {
+          "w": "nothing",
+          "source_s": 266.5,
+          "source_e": 266.68,
+          "short_s": 1.5,
+          "short_e": 1.68
+        },
+        {
+          "w": "more",
+          "source_s": 266.68,
+          "source_e": 267.02,
+          "short_s": 1.68,
+          "short_e": 2.02
+        },
+        {
+          "w": "than",
+          "source_s": 267.02,
+          "source_e": 267.24,
+          "short_s": 2.02,
+          "short_e": 2.24
+        },
+        {
+          "w": "dead",
+          "source_s": 267.24,
+          "source_e": 267.46,
+          "short_s": 2.24,
+          "short_e": 2.46
+        },
+        {
+          "w": "weight",
+          "source_s": 267.46,
+          "source_e": 267.76,
+          "short_s": 2.46,
+          "short_e": 2.76
+        },
+        {
+          "w": "behind",
+          "source_s": 267.76,
+          "source_e": 268.16,
+          "short_s": 2.76,
+          "short_e": 3.16
+        },
+        {
+          "w": "one",
+          "source_s": 268.16,
+          "source_e": 268.48,
+          "short_s": 3.16,
+          "short_e": 3.48
+        },
+        {
+          "w": "tractor.",
+          "source_s": 268.48,
+          "source_e": 268.88,
+          "short_s": 3.48,
+          "short_e": 3.88
+        },
+        {
+          "w": "Additional",
+          "source_s": 270.08,
+          "source_e": 270.08,
+          "short_s": 5.08,
+          "short_e": 5.08
+        },
+        {
+          "w": "sections",
+          "source_s": 270.08,
+          "source_e": 270.56,
+          "short_s": 5.08,
+          "short_e": 5.56
+        },
+        {
+          "w": "could",
+          "source_s": 270.56,
+          "source_e": 271.08,
+          "short_s": 5.56,
+          "short_e": 6.08
+        },
+        {
+          "w": "contribute",
+          "source_s": 271.08,
+          "source_e": 271.6,
+          "short_s": 6.08,
+          "short_e": 6.6
+        },
+        {
+          "w": "traction",
+          "source_s": 271.6,
+          "source_e": 272.1,
+          "short_s": 6.6,
+          "short_e": 7.1
+        },
+        {
+          "w": "of",
+          "source_s": 272.1,
+          "source_e": 272.44,
+          "short_s": 7.1,
+          "short_e": 7.44
+        },
+        {
+          "w": "their",
+          "source_s": 272.44,
+          "source_e": 272.62,
+          "short_s": 7.44,
+          "short_e": 7.62
+        },
+        {
+          "w": "own.",
+          "source_s": 272.62,
+          "source_e": 273.02,
+          "short_s": 7.62,
+          "short_e": 8.02
+        },
+        {
+          "w": "Another",
+          "source_s": 273.9,
+          "source_e": 274.2,
+          "short_s": 8.9,
+          "short_e": 9.2
+        },
+        {
+          "w": "section",
+          "source_s": 274.2,
+          "source_e": 274.58,
+          "short_s": 9.2,
+          "short_e": 9.58
+        },
+        {
+          "w": "could",
+          "source_s": 274.58,
+          "source_e": 274.84,
+          "short_s": 9.58,
+          "short_e": 9.84
+        },
+        {
+          "w": "be",
+          "source_s": 274.84,
+          "source_e": 274.98,
+          "short_s": 9.84,
+          "short_e": 9.98
+        },
+        {
+          "w": "added,",
+          "source_s": 274.98,
+          "source_e": 275.4,
+          "short_s": 9.98,
+          "short_e": 10.4
+        },
+        {
+          "w": "then",
+          "source_s": 275.94,
+          "source_e": 276.22,
+          "short_s": 10.94,
+          "short_e": 11.22
+        },
+        {
+          "w": "another.",
+          "source_s": 276.22,
+          "source_e": 276.62,
+          "short_s": 11.22,
+          "short_e": 11.62
+        },
+        {
+          "w": "And",
+          "source_s": 277.28,
+          "source_e": 277.5,
+          "short_s": 12.28,
+          "short_e": 12.5
+        },
+        {
+          "w": "power",
+          "source_s": 277.5,
+          "source_e": 277.74,
+          "short_s": 12.5,
+          "short_e": 12.74
+        },
+        {
+          "w": "could",
+          "source_s": 277.74,
+          "source_e": 277.98,
+          "short_s": 12.74,
+          "short_e": 12.98
+        },
+        {
+          "w": "be",
+          "source_s": 277.98,
+          "source_e": 278.12,
+          "short_s": 12.98,
+          "short_e": 13.12
+        },
+        {
+          "w": "distributed",
+          "source_s": 278.12,
+          "source_e": 278.58,
+          "short_s": 13.12,
+          "short_e": 13.58
+        },
+        {
+          "w": "through",
+          "source_s": 278.58,
+          "source_e": 278.92,
+          "short_s": 13.58,
+          "short_e": 13.92
+        },
+        {
+          "w": "the",
+          "source_s": 278.92,
+          "source_e": 279.12,
+          "short_s": 13.92,
+          "short_e": 14.12
+        },
+        {
+          "w": "train",
+          "source_s": 279.12,
+          "source_e": 279.5,
+          "short_s": 14.12,
+          "short_e": 14.5
+        },
+        {
+          "w": "instead",
+          "source_s": 280.08,
+          "source_e": 280.46,
+          "short_s": 15.08,
+          "short_e": 15.46
+        },
+        {
+          "w": "of",
+          "source_s": 280.46,
+          "source_e": 280.6,
+          "short_s": 15.46,
+          "short_e": 15.6
+        },
+        {
+          "w": "asking",
+          "source_s": 280.6,
+          "source_e": 280.92,
+          "short_s": 15.6,
+          "short_e": 15.92
+        },
+        {
+          "w": "one",
+          "source_s": 280.92,
+          "source_e": 281.22,
+          "short_s": 15.92,
+          "short_e": 16.22
+        },
+        {
+          "w": "tractor",
+          "source_s": 281.22,
+          "source_e": 281.54,
+          "short_s": 16.22,
+          "short_e": 16.54
+        },
+        {
+          "w": "at",
+          "source_s": 281.54,
+          "source_e": 281.74,
+          "short_s": 16.54,
+          "short_e": 16.74
+        },
+        {
+          "w": "the",
+          "source_s": 281.74,
+          "source_e": 281.86,
+          "short_s": 16.74,
+          "short_e": 16.86
+        },
+        {
+          "w": "front",
+          "source_s": 281.86,
+          "source_e": 282.1,
+          "short_s": 16.86,
+          "short_e": 17.1
+        },
+        {
+          "w": "to",
+          "source_s": 282.1,
+          "source_e": 282.68,
+          "short_s": 17.1,
+          "short_e": 17.68
+        },
+        {
+          "w": "drag",
+          "source_s": 282.68,
+          "source_e": 282.98,
+          "short_s": 17.68,
+          "short_e": 17.98
+        },
+        {
+          "w": "everything",
+          "source_s": 282.98,
+          "source_e": 283.44,
+          "short_s": 17.98,
+          "short_e": 18.44
+        },
+        {
+          "w": "behind",
+          "source_s": 283.44,
+          "source_e": 283.82,
+          "short_s": 18.44,
+          "short_e": 18.82
+        },
+        {
+          "w": "it.",
+          "source_s": 283.82,
+          "source_e": 284.42,
+          "short_s": 18.82,
+          "short_e": 19.42
+        },
+        {
+          "w": "The",
+          "source_s": 285,
+          "source_e": 285.1,
+          "short_s": 20,
+          "short_e": 20.1
+        },
+        {
+          "w": "turn",
+          "source_s": 285.1,
+          "source_e": 285.3,
+          "short_s": 20.1,
+          "short_e": 20.3
+        },
+        {
+          "w": "-o",
+          "source_s": 285.3,
+          "source_e": 285.48,
+          "short_s": 20.3,
+          "short_e": 20.48
+        },
+        {
+          "w": "had",
+          "source_s": 285.48,
+          "source_e": 285.66,
+          "short_s": 20.48,
+          "short_e": 20.66
+        },
+        {
+          "w": "been",
+          "source_s": 285.66,
+          "source_e": 285.8,
+          "short_s": 20.66,
+          "short_e": 20.8
+        },
+        {
+          "w": "developing",
+          "source_s": 285.8,
+          "source_e": 286.28,
+          "short_s": 20.8,
+          "short_e": 21.28
+        },
+        {
+          "w": "electric",
+          "source_s": 286.28,
+          "source_e": 286.68,
+          "short_s": 21.28,
+          "short_e": 21.68
+        },
+        {
+          "w": "wheel",
+          "source_s": 286.68,
+          "source_e": 286.92,
+          "short_s": 21.68,
+          "short_e": 21.92
+        },
+        {
+          "w": "technology",
+          "source_s": 286.92,
+          "source_e": 287.58,
+          "short_s": 21.92,
+          "short_e": 22.58
+        },
+        {
+          "w": "long",
+          "source_s": 287.58,
+          "source_e": 288.14,
+          "short_s": 22.58,
+          "short_e": 23.14
+        },
+        {
+          "w": "before",
+          "source_s": 288.14,
+          "source_e": 288.54,
+          "short_s": 23.14,
+          "short_e": 23.54
+        },
+        {
+          "w": "the",
+          "source_s": 288.54,
+          "source_e": 288.72,
+          "short_s": 23.54,
+          "short_e": 23.72
+        },
+        {
+          "w": "TC497.",
+          "source_s": 288.72,
+          "source_e": 289.7,
+          "short_s": 23.72,
+          "short_e": 24.7
+        },
+        {
+          "w": "Patents",
+          "source_s": 291.2,
+          "source_e": 291.48,
+          "short_s": 26.2,
+          "short_e": 26.48
+        },
+        {
+          "w": "filed",
+          "source_s": 291.48,
+          "source_e": 291.78,
+          "short_s": 26.48,
+          "short_e": 26.78
+        },
+        {
+          "w": "in",
+          "source_s": 291.78,
+          "source_e": 292,
+          "short_s": 26.78,
+          "short_e": 27
+        },
+        {
+          "w": "the",
+          "source_s": 292,
+          "source_e": 292.1,
+          "short_s": 27,
+          "short_e": 27.1
+        },
+        {
+          "w": "early",
+          "source_s": 292.1,
+          "source_e": 292.36,
+          "short_s": 27.1,
+          "short_e": 27.36
+        },
+        {
+          "w": "1950s",
+          "source_s": 292.36,
+          "source_e": 293.32,
+          "short_s": 27.36,
+          "short_e": 28.32
+        },
+        {
+          "w": "described",
+          "source_s": 293.32,
+          "source_e": 294.02,
+          "short_s": 28.32,
+          "short_e": 29.02
+        },
+        {
+          "w": "vehicle",
+          "source_s": 294.02,
+          "source_e": 294.4,
+          "short_s": 29.02,
+          "short_e": 29.4
+        },
+        {
+          "w": "wheels",
+          "source_s": 294.4,
+          "source_e": 294.98,
+          "short_s": 29.4,
+          "short_e": 29.98
+        },
+        {
+          "w": "incorporating",
+          "source_s": 294.98,
+          "source_e": 295.86,
+          "short_s": 29.98,
+          "short_e": 30.86
+        },
+        {
+          "w": "electric",
+          "source_s": 295.86,
+          "source_e": 296.42,
+          "short_s": 30.86,
+          "short_e": 31.42
+        },
+        {
+          "w": "traction",
+          "source_s": 296.42,
+          "source_e": 296.9,
+          "short_s": 31.42,
+          "short_e": 31.9
+        },
+        {
+          "w": "motors",
+          "source_s": 296.9,
+          "source_e": 297.38,
+          "short_s": 31.9,
+          "short_e": 32.38
+        },
+        {
+          "w": "directly",
+          "source_s": 297.38,
+          "source_e": 298,
+          "short_s": 32.38,
+          "short_e": 33
+        },
+        {
+          "w": "into",
+          "source_s": 298,
+          "source_e": 298.8,
+          "short_s": 33,
+          "short_e": 33.8
+        },
+        {
+          "w": "the",
+          "source_s": 298.8,
+          "source_e": 298.98,
+          "short_s": 33.8,
+          "short_e": 33.98
+        },
+        {
+          "w": "wheel",
+          "source_s": 298.98,
+          "source_e": 299.2,
+          "short_s": 33.98,
+          "short_e": 34.2
+        },
+        {
+          "w": "assembly.",
+          "source_s": 299.2,
+          "source_e": 299.72,
+          "short_s": 34.2,
+          "short_e": 34.72
+        },
+        {
+          "w": "The",
+          "source_s": 300.38,
+          "source_e": 300.62,
+          "short_s": 35.38,
+          "short_e": 35.62
+        },
+        {
+          "w": "basic",
+          "source_s": 300.62,
+          "source_e": 300.9,
+          "short_s": 35.62,
+          "short_e": 35.9
+        },
+        {
+          "w": "idea",
+          "source_s": 300.9,
+          "source_e": 301.3,
+          "short_s": 35.9,
+          "short_e": 36.3
+        },
+        {
+          "w": "was",
+          "source_s": 301.3,
+          "source_e": 301.56,
+          "short_s": 36.3,
+          "short_e": 36.56
+        },
+        {
+          "w": "simple",
+          "source_s": 301.56,
+          "source_e": 301.8,
+          "short_s": 36.56,
+          "short_e": 36.8
+        },
+        {
+          "w": "enough",
+          "source_s": 301.8,
+          "source_e": 302.06,
+          "short_s": 36.8,
+          "short_e": 37.06
+        },
+        {
+          "w": "to",
+          "source_s": 302.06,
+          "source_e": 302.26,
+          "short_s": 37.06,
+          "short_e": 37.26
+        },
+        {
+          "w": "explain",
+          "source_s": 302.26,
+          "source_e": 302.68,
+          "short_s": 37.26,
+          "short_e": 37.68
+        },
+        {
+          "w": "in",
+          "source_s": 302.68,
+          "source_e": 303,
+          "short_s": 37.68,
+          "short_e": 38
+        },
+        {
+          "w": "a",
+          "source_s": 303,
+          "source_e": 303.14,
+          "short_s": 38,
+          "short_e": 38.14
+        },
+        {
+          "w": "diagram.",
+          "source_s": 303.14,
+          "source_e": 303.62,
+          "short_s": 38.14,
+          "short_e": 38.62
+        },
+        {
+          "w": "Its",
+          "source_s": 304.4,
+          "source_e": 304.54,
+          "short_s": 39.4,
+          "short_e": 39.54
+        },
+        {
+          "w": "consequences",
+          "source_s": 304.54,
+          "source_e": 305.14,
+          "short_s": 39.54,
+          "short_e": 40.14
+        },
+        {
+          "w": "were",
+          "source_s": 305.14,
+          "source_e": 306.2,
+          "short_s": 40.14,
+          "short_e": 41.2
+        },
+        {
+          "w": "enormous.",
+          "source_s": 306.2,
+          "source_e": 306.7,
+          "short_s": 41.2,
+          "short_e": 41.7
+        },
+        {
+          "w": "The",
+          "source_s": 306.7,
+          "source_e": 307.14,
+          "short_s": 41.7,
+          "short_e": 42.14
+        },
+        {
+          "w": "TC497",
+          "source_s": 307.14,
+          "source_e": 308.18,
+          "short_s": 42.14,
+          "short_e": 43.18
+        },
+        {
+          "w": "was",
+          "source_s": 308.18,
+          "source_e": 309.4,
+          "short_s": 43.18,
+          "short_e": 44.4
+        },
+        {
+          "w": "not",
+          "source_s": 309.4,
+          "source_e": 309.64,
+          "short_s": 44.4,
+          "short_e": 44.64
+        },
+        {
+          "w": "the",
+          "source_s": 309.64,
+          "source_e": 309.84,
+          "short_s": 44.64,
+          "short_e": 44.84
+        },
+        {
+          "w": "first",
+          "source_s": 309.84,
+          "source_e": 310.3,
+          "short_s": 44.84,
+          "short_e": 45.3
+        },
+        {
+          "w": "land",
+          "source_s": 310.3,
+          "source_e": 310.74,
+          "short_s": 45.3,
+          "short_e": 45.74
+        },
+        {
+          "w": "train.",
+          "source_s": 310.74,
+          "source_e": 311.16,
+          "short_s": 45.74,
+          "short_e": 46.16
+        },
+        {
+          "w": "It",
+          "source_s": 312.1,
+          "source_e": 312.34,
+          "short_s": 47.1,
+          "short_e": 47.34
+        },
+        {
+          "w": "was",
+          "source_s": 312.34,
+          "source_e": 312.5,
+          "short_s": 47.34,
+          "short_e": 47.5
+        },
+        {
+          "w": "the",
+          "source_s": 312.5,
+          "source_e": 312.66,
+          "short_s": 47.5,
+          "short_e": 47.66
+        },
+        {
+          "w": "result",
+          "source_s": 312.66,
+          "source_e": 312.98,
+          "short_s": 47.66,
+          "short_e": 47.98
+        },
+        {
+          "w": "of",
+          "source_s": 312.98,
+          "source_e": 313.24,
+          "short_s": 47.98,
+          "short_e": 48.24
+        },
+        {
+          "w": "years",
+          "source_s": 313.24,
+          "source_e": 313.56,
+          "short_s": 48.24,
+          "short_e": 48.56
+        },
+        {
+          "w": "of",
+          "source_s": 313.56,
+          "source_e": 313.8,
+          "short_s": 48.56,
+          "short_e": 48.8
+        },
+        {
+          "w": "increasingly",
+          "source_s": 313.8,
+          "source_e": 314.38,
+          "short_s": 48.8,
+          "short_e": 49.38
+        },
+        {
+          "w": "ambitious",
+          "source_s": 314.38,
+          "source_e": 315.06,
+          "short_s": 49.38,
+          "short_e": 50.06
+        },
+        {
+          "w": "experiments.",
+          "source_s": 315.06,
+          "source_e": 315.8,
+          "short_s": 50.06,
+          "short_e": 50.8
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 11.62,
+          "source_in": 265,
+          "source_out": 276.62,
+          "visual": "trailers become powered sections",
+          "action": "articulation + multiple powered units; alternating wide/detail",
+          "provenance": "AI RECONSTRUCTION unless verified source"
+        },
+        {
+          "short_in": 12.28,
+          "short_out": 19.42,
+          "source_in": 277.28,
+          "source_out": 284.42,
+          "visual": "distributed electrical power",
+          "action": "existing power-distribution explainer; vertical stack, not tiny horizontal diagram",
+          "provenance": "AI RECONSTRUCTION / GFX"
+        },
+        {
+          "short_in": 20,
+          "short_out": 24.7,
+          "source_in": 285,
+          "source_out": 289.7,
+          "visual": "LeTourneau electric-wheel development",
+          "action": "wheel/motor close detail",
+          "provenance": "AI RECONSTRUCTION or source evidence as used"
+        },
+        {
+          "short_in": 26.2,
+          "short_out": 34.72,
+          "source_in": 291.2,
+          "source_out": 299.72,
+          "visual": "early-1950s patents",
+          "action": "vertical patent crop on wheel motor; keep page readable",
+          "provenance": "DOCUMENT"
+        },
+        {
+          "short_in": 35.38,
+          "short_out": 41.7,
+          "source_in": 300.38,
+          "source_out": 306.7,
+          "visual": "simple idea, enormous consequences",
+          "action": "diagram → full machine hard cut",
+          "provenance": "DOCUMENT → AI RECONSTRUCTION"
+        },
+        {
+          "short_in": 41.7,
+          "short_out": 50.8,
+          "source_in": 306.7,
+          "source_out": 315.8,
+          "visual": "years of land-train experiments",
+          "action": "predecessor progression; no more than two similar machine views consecutively",
+          "provenance": "match source visual"
+        }
+      ]
+    },
+    {
+      "id": "TC497-S03",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "400 Miles With No Road—But How Do You Turn 572 Feet?",
+      "hook": "LeTourneau had effectively turned something resembling a convoy into one connected machine.",
+      "source_in_sec": 494.74,
+      "source_out_sec": 532.76,
+      "duration_sec": 38.02,
+      "source_in_tc": "00:08:14.740",
+      "source_out_tc": "00:08:52.760",
+      "narration_text": "The LeTourneau had effectively turned something resembling a convoy into one connected machine. Army historical accounts place its maximum speed at roughly 20 miles per hour, and its operating range at around 400 miles. Those figures would be unimpressive for an ordinary highway truck. But the TC497 was not built for an ordinary highway. Its entire purpose was to go where the highway did not exist. But building a machine this long created a problem that had nothing to do with horsepower. How do you make it turn?",
+      "source_words": [
+        {
+          "w": "The",
+          "source_s": 494.74,
+          "source_e": 494.88,
+          "short_s": 0,
+          "short_e": 0.14
+        },
+        {
+          "w": "LeTourneau",
+          "source_s": 494.88,
+          "source_e": 495.26,
+          "short_s": 0.14,
+          "short_e": 0.52
+        },
+        {
+          "w": "had",
+          "source_s": 495.26,
+          "source_e": 495.46,
+          "short_s": 0.52,
+          "short_e": 0.72
+        },
+        {
+          "w": "effectively",
+          "source_s": 495.46,
+          "source_e": 495.94,
+          "short_s": 0.72,
+          "short_e": 1.2
+        },
+        {
+          "w": "turned",
+          "source_s": 495.94,
+          "source_e": 496.32,
+          "short_s": 1.2,
+          "short_e": 1.58
+        },
+        {
+          "w": "something",
+          "source_s": 496.32,
+          "source_e": 496.78,
+          "short_s": 1.58,
+          "short_e": 2.04
+        },
+        {
+          "w": "resembling",
+          "source_s": 496.78,
+          "source_e": 497.26,
+          "short_s": 2.04,
+          "short_e": 2.52
+        },
+        {
+          "w": "a",
+          "source_s": 497.26,
+          "source_e": 497.52,
+          "short_s": 2.52,
+          "short_e": 2.78
+        },
+        {
+          "w": "convoy",
+          "source_s": 497.52,
+          "source_e": 498.02,
+          "short_s": 2.78,
+          "short_e": 3.28
+        },
+        {
+          "w": "into",
+          "source_s": 498.02,
+          "source_e": 498.92,
+          "short_s": 3.28,
+          "short_e": 4.18
+        },
+        {
+          "w": "one",
+          "source_s": 498.92,
+          "source_e": 499.28,
+          "short_s": 4.18,
+          "short_e": 4.54
+        },
+        {
+          "w": "connected",
+          "source_s": 499.28,
+          "source_e": 499.76,
+          "short_s": 4.54,
+          "short_e": 5.02
+        },
+        {
+          "w": "machine.",
+          "source_s": 499.76,
+          "source_e": 500.36,
+          "short_s": 5.02,
+          "short_e": 5.62
+        },
+        {
+          "w": "Army",
+          "source_s": 501.58,
+          "source_e": 501.72,
+          "short_s": 6.84,
+          "short_e": 6.98
+        },
+        {
+          "w": "historical",
+          "source_s": 501.72,
+          "source_e": 502.16,
+          "short_s": 6.98,
+          "short_e": 7.42
+        },
+        {
+          "w": "accounts",
+          "source_s": 502.16,
+          "source_e": 502.88,
+          "short_s": 7.42,
+          "short_e": 8.14
+        },
+        {
+          "w": "place",
+          "source_s": 502.88,
+          "source_e": 503.5,
+          "short_s": 8.14,
+          "short_e": 8.76
+        },
+        {
+          "w": "its",
+          "source_s": 503.5,
+          "source_e": 503.76,
+          "short_s": 8.76,
+          "short_e": 9.02
+        },
+        {
+          "w": "maximum",
+          "source_s": 503.76,
+          "source_e": 504.26,
+          "short_s": 9.02,
+          "short_e": 9.52
+        },
+        {
+          "w": "speed",
+          "source_s": 504.26,
+          "source_e": 504.82,
+          "short_s": 9.52,
+          "short_e": 10.08
+        },
+        {
+          "w": "at",
+          "source_s": 504.82,
+          "source_e": 505.34,
+          "short_s": 10.08,
+          "short_e": 10.6
+        },
+        {
+          "w": "roughly",
+          "source_s": 505.34,
+          "source_e": 505.68,
+          "short_s": 10.6,
+          "short_e": 10.94
+        },
+        {
+          "w": "20",
+          "source_s": 505.68,
+          "source_e": 506.16,
+          "short_s": 10.94,
+          "short_e": 11.42
+        },
+        {
+          "w": "miles",
+          "source_s": 506.16,
+          "source_e": 506.42,
+          "short_s": 11.42,
+          "short_e": 11.68
+        },
+        {
+          "w": "per",
+          "source_s": 506.42,
+          "source_e": 506.76,
+          "short_s": 11.68,
+          "short_e": 12.02
+        },
+        {
+          "w": "hour,",
+          "source_s": 506.76,
+          "source_e": 507.14,
+          "short_s": 12.02,
+          "short_e": 12.4
+        },
+        {
+          "w": "and",
+          "source_s": 507.86,
+          "source_e": 508.02,
+          "short_s": 13.12,
+          "short_e": 13.28
+        },
+        {
+          "w": "its",
+          "source_s": 508.02,
+          "source_e": 508.16,
+          "short_s": 13.28,
+          "short_e": 13.42
+        },
+        {
+          "w": "operating",
+          "source_s": 508.16,
+          "source_e": 508.58,
+          "short_s": 13.42,
+          "short_e": 13.84
+        },
+        {
+          "w": "range",
+          "source_s": 508.58,
+          "source_e": 509.18,
+          "short_s": 13.84,
+          "short_e": 14.44
+        },
+        {
+          "w": "at",
+          "source_s": 509.18,
+          "source_e": 509.58,
+          "short_s": 14.44,
+          "short_e": 14.84
+        },
+        {
+          "w": "around",
+          "source_s": 509.58,
+          "source_e": 509.96,
+          "short_s": 14.84,
+          "short_e": 15.22
+        },
+        {
+          "w": "400",
+          "source_s": 509.96,
+          "source_e": 510.46,
+          "short_s": 15.22,
+          "short_e": 15.72
+        },
+        {
+          "w": "miles.",
+          "source_s": 510.46,
+          "source_e": 511.12,
+          "short_s": 15.72,
+          "short_e": 16.38
+        },
+        {
+          "w": "Those",
+          "source_s": 512.04,
+          "source_e": 512.28,
+          "short_s": 17.3,
+          "short_e": 17.54
+        },
+        {
+          "w": "figures",
+          "source_s": 512.28,
+          "source_e": 512.56,
+          "short_s": 17.54,
+          "short_e": 17.82
+        },
+        {
+          "w": "would",
+          "source_s": 512.56,
+          "source_e": 512.86,
+          "short_s": 17.82,
+          "short_e": 18.12
+        },
+        {
+          "w": "be",
+          "source_s": 512.86,
+          "source_e": 513,
+          "short_s": 18.12,
+          "short_e": 18.26
+        },
+        {
+          "w": "unimpressive",
+          "source_s": 513,
+          "source_e": 513.66,
+          "short_s": 18.26,
+          "short_e": 18.92
+        },
+        {
+          "w": "for",
+          "source_s": 513.66,
+          "source_e": 513.9,
+          "short_s": 18.92,
+          "short_e": 19.16
+        },
+        {
+          "w": "an",
+          "source_s": 513.9,
+          "source_e": 514.04,
+          "short_s": 19.16,
+          "short_e": 19.3
+        },
+        {
+          "w": "ordinary",
+          "source_s": 514.04,
+          "source_e": 514.44,
+          "short_s": 19.3,
+          "short_e": 19.7
+        },
+        {
+          "w": "highway",
+          "source_s": 514.44,
+          "source_e": 514.86,
+          "short_s": 19.7,
+          "short_e": 20.12
+        },
+        {
+          "w": "truck.",
+          "source_s": 514.86,
+          "source_e": 515.3,
+          "short_s": 20.12,
+          "short_e": 20.56
+        },
+        {
+          "w": "But",
+          "source_s": 515.98,
+          "source_e": 516.2,
+          "short_s": 21.24,
+          "short_e": 21.46
+        },
+        {
+          "w": "the",
+          "source_s": 516.2,
+          "source_e": 516.34,
+          "short_s": 21.46,
+          "short_e": 21.6
+        },
+        {
+          "w": "TC497",
+          "source_s": 516.34,
+          "source_e": 517.34,
+          "short_s": 21.6,
+          "short_e": 22.6
+        },
+        {
+          "w": "was",
+          "source_s": 517.34,
+          "source_e": 518.36,
+          "short_s": 22.6,
+          "short_e": 23.62
+        },
+        {
+          "w": "not",
+          "source_s": 518.36,
+          "source_e": 518.6,
+          "short_s": 23.62,
+          "short_e": 23.86
+        },
+        {
+          "w": "built",
+          "source_s": 518.6,
+          "source_e": 518.84,
+          "short_s": 23.86,
+          "short_e": 24.1
+        },
+        {
+          "w": "for",
+          "source_s": 518.84,
+          "source_e": 519.12,
+          "short_s": 24.1,
+          "short_e": 24.38
+        },
+        {
+          "w": "an",
+          "source_s": 519.12,
+          "source_e": 519.24,
+          "short_s": 24.38,
+          "short_e": 24.5
+        },
+        {
+          "w": "ordinary",
+          "source_s": 519.24,
+          "source_e": 519.68,
+          "short_s": 24.5,
+          "short_e": 24.94
+        },
+        {
+          "w": "highway.",
+          "source_s": 519.68,
+          "source_e": 520.14,
+          "short_s": 24.94,
+          "short_e": 25.4
+        },
+        {
+          "w": "Its",
+          "source_s": 521.16,
+          "source_e": 521.34,
+          "short_s": 26.42,
+          "short_e": 26.6
+        },
+        {
+          "w": "entire",
+          "source_s": 521.34,
+          "source_e": 521.78,
+          "short_s": 26.6,
+          "short_e": 27.04
+        },
+        {
+          "w": "purpose",
+          "source_s": 521.78,
+          "source_e": 522.26,
+          "short_s": 27.04,
+          "short_e": 27.52
+        },
+        {
+          "w": "was",
+          "source_s": 522.26,
+          "source_e": 523.1,
+          "short_s": 27.52,
+          "short_e": 28.36
+        },
+        {
+          "w": "to",
+          "source_s": 523.1,
+          "source_e": 523.26,
+          "short_s": 28.36,
+          "short_e": 28.52
+        },
+        {
+          "w": "go",
+          "source_s": 523.26,
+          "source_e": 523.46,
+          "short_s": 28.52,
+          "short_e": 28.72
+        },
+        {
+          "w": "where",
+          "source_s": 523.46,
+          "source_e": 523.68,
+          "short_s": 28.72,
+          "short_e": 28.94
+        },
+        {
+          "w": "the",
+          "source_s": 523.68,
+          "source_e": 523.82,
+          "short_s": 28.94,
+          "short_e": 29.08
+        },
+        {
+          "w": "highway",
+          "source_s": 523.82,
+          "source_e": 524.24,
+          "short_s": 29.08,
+          "short_e": 29.5
+        },
+        {
+          "w": "did",
+          "source_s": 524.24,
+          "source_e": 524.56,
+          "short_s": 29.5,
+          "short_e": 29.82
+        },
+        {
+          "w": "not",
+          "source_s": 524.56,
+          "source_e": 524.78,
+          "short_s": 29.82,
+          "short_e": 30.04
+        },
+        {
+          "w": "exist.",
+          "source_s": 524.78,
+          "source_e": 525.22,
+          "short_s": 30.04,
+          "short_e": 30.48
+        },
+        {
+          "w": "But",
+          "source_s": 525.5,
+          "source_e": 525.66,
+          "short_s": 30.76,
+          "short_e": 30.92
+        },
+        {
+          "w": "building",
+          "source_s": 525.66,
+          "source_e": 526,
+          "short_s": 30.92,
+          "short_e": 31.26
+        },
+        {
+          "w": "a",
+          "source_s": 526,
+          "source_e": 526.16,
+          "short_s": 31.26,
+          "short_e": 31.42
+        },
+        {
+          "w": "machine",
+          "source_s": 526.16,
+          "source_e": 526.5,
+          "short_s": 31.42,
+          "short_e": 31.76
+        },
+        {
+          "w": "this",
+          "source_s": 526.5,
+          "source_e": 526.8,
+          "short_s": 31.76,
+          "short_e": 32.06
+        },
+        {
+          "w": "long",
+          "source_s": 526.8,
+          "source_e": 527.3,
+          "short_s": 32.06,
+          "short_e": 32.56
+        },
+        {
+          "w": "created",
+          "source_s": 527.3,
+          "source_e": 528,
+          "short_s": 32.56,
+          "short_e": 33.26
+        },
+        {
+          "w": "a",
+          "source_s": 528,
+          "source_e": 528.3,
+          "short_s": 33.26,
+          "short_e": 33.56
+        },
+        {
+          "w": "problem",
+          "source_s": 528.3,
+          "source_e": 528.64,
+          "short_s": 33.56,
+          "short_e": 33.9
+        },
+        {
+          "w": "that",
+          "source_s": 528.64,
+          "source_e": 529.1,
+          "short_s": 33.9,
+          "short_e": 34.36
+        },
+        {
+          "w": "had",
+          "source_s": 529.1,
+          "source_e": 529.28,
+          "short_s": 34.36,
+          "short_e": 34.54
+        },
+        {
+          "w": "nothing",
+          "source_s": 529.28,
+          "source_e": 529.52,
+          "short_s": 34.54,
+          "short_e": 34.78
+        },
+        {
+          "w": "to",
+          "source_s": 529.52,
+          "source_e": 529.74,
+          "short_s": 34.78,
+          "short_e": 35
+        },
+        {
+          "w": "do",
+          "source_s": 529.74,
+          "source_e": 529.92,
+          "short_s": 35,
+          "short_e": 35.18
+        },
+        {
+          "w": "with",
+          "source_s": 529.92,
+          "source_e": 530.1,
+          "short_s": 35.18,
+          "short_e": 35.36
+        },
+        {
+          "w": "horsepower.",
+          "source_s": 530.1,
+          "source_e": 530.6,
+          "short_s": 35.36,
+          "short_e": 35.86
+        },
+        {
+          "w": "How",
+          "source_s": 531.58,
+          "source_e": 531.82,
+          "short_s": 36.84,
+          "short_e": 37.08
+        },
+        {
+          "w": "do",
+          "source_s": 531.82,
+          "source_e": 531.92,
+          "short_s": 37.08,
+          "short_e": 37.18
+        },
+        {
+          "w": "you",
+          "source_s": 531.92,
+          "source_e": 532.04,
+          "short_s": 37.18,
+          "short_e": 37.3
+        },
+        {
+          "w": "make",
+          "source_s": 532.04,
+          "source_e": 532.18,
+          "short_s": 37.3,
+          "short_e": 37.44
+        },
+        {
+          "w": "it",
+          "source_s": 532.18,
+          "source_e": 532.4,
+          "short_s": 37.44,
+          "short_e": 37.66
+        },
+        {
+          "w": "turn?",
+          "source_s": 532.4,
+          "source_e": 532.76,
+          "short_s": 37.66,
+          "short_e": 38.02
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 5.62,
+          "source_in": 494.74,
+          "source_out": 500.36,
+          "visual": "convoy becomes one machine",
+          "action": "long-profile machine / coupling geometry",
+          "provenance": "AI RECONSTRUCTION"
+        },
+        {
+          "short_in": 6.84,
+          "short_out": 16.38,
+          "source_in": 501.58,
+          "source_out": 511.12,
+          "visual": "~20 mph / ~400-mile range",
+          "action": "existing metrics GFX over terrain; keep numbers large in 9:16",
+          "provenance": "GFX / match source"
+        },
+        {
+          "short_in": 17.3,
+          "short_out": 25.4,
+          "source_in": 512.04,
+          "source_out": 520.14,
+          "visual": "ordinary-truck comparison",
+          "action": "brief truck/road contrast, then back to TC-497",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 26.42,
+          "short_out": 30.48,
+          "source_in": 521.16,
+          "source_out": 525.22,
+          "visual": "go where highway does not exist",
+          "action": "desert/roadless terrain hero",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 30.76,
+          "short_out": 38.02,
+          "source_in": 525.5,
+          "source_out": 532.76,
+          "visual": "turning problem + question",
+          "action": "steering tracks/joint visual; end exactly on the question",
+          "provenance": "AI RECONSTRUCTION / DOCUMENT if source report shown"
+        }
+      ]
+    },
+    {
+      "id": "TC497-S04",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "The Army Considered a Nuclear Overland Train",
+      "hook": "The Army briefly considered taking the concept much further.",
+      "source_in_sec": 663.08,
+      "source_out_sec": 708.66,
+      "duration_sec": 45.58,
+      "source_in_tc": "00:11:03.080",
+      "source_out_tc": "00:11:48.660",
+      "narration_text": "And while the conventional TC497 was already an extraordinary machine, the Army briefly considered taking the concept much further. In 1961, an Army research publication discussed using a compact nuclear power plant as a possible source of energy for an overland train. The idea followed naturally from the vehicle's electrical architecture. If the wheels were driven electrically, then the traction system did not fundamentally require a conventional mechanical connection between the power plant and the wheels. Electricity generated by another source could, at least in principle, feed the same kind of distributed drive system.",
+      "source_words": [
+        {
+          "w": "And",
+          "source_s": 663.08,
+          "source_e": 663.16,
+          "short_s": 0,
+          "short_e": 0.08
+        },
+        {
+          "w": "while",
+          "source_s": 663.16,
+          "source_e": 663.36,
+          "short_s": 0.08,
+          "short_e": 0.28
+        },
+        {
+          "w": "the",
+          "source_s": 663.36,
+          "source_e": 663.52,
+          "short_s": 0.28,
+          "short_e": 0.44
+        },
+        {
+          "w": "conventional",
+          "source_s": 663.52,
+          "source_e": 664.04,
+          "short_s": 0.44,
+          "short_e": 0.96
+        },
+        {
+          "w": "TC497",
+          "source_s": 664.04,
+          "source_e": 665.14,
+          "short_s": 0.96,
+          "short_e": 2.06
+        },
+        {
+          "w": "was",
+          "source_s": 665.88,
+          "source_e": 666.32,
+          "short_s": 2.8,
+          "short_e": 3.24
+        },
+        {
+          "w": "already",
+          "source_s": 666.32,
+          "source_e": 666.7,
+          "short_s": 3.24,
+          "short_e": 3.62
+        },
+        {
+          "w": "an",
+          "source_s": 666.7,
+          "source_e": 666.94,
+          "short_s": 3.62,
+          "short_e": 3.86
+        },
+        {
+          "w": "extraordinary",
+          "source_s": 666.94,
+          "source_e": 667.5,
+          "short_s": 3.86,
+          "short_e": 4.42
+        },
+        {
+          "w": "machine,",
+          "source_s": 667.5,
+          "source_e": 668.18,
+          "short_s": 4.42,
+          "short_e": 5.1
+        },
+        {
+          "w": "the",
+          "source_s": 669.02,
+          "source_e": 669.32,
+          "short_s": 5.94,
+          "short_e": 6.24
+        },
+        {
+          "w": "Army",
+          "source_s": 669.32,
+          "source_e": 669.64,
+          "short_s": 6.24,
+          "short_e": 6.56
+        },
+        {
+          "w": "briefly",
+          "source_s": 669.64,
+          "source_e": 670.08,
+          "short_s": 6.56,
+          "short_e": 7
+        },
+        {
+          "w": "considered",
+          "source_s": 670.08,
+          "source_e": 670.64,
+          "short_s": 7,
+          "short_e": 7.56
+        },
+        {
+          "w": "taking",
+          "source_s": 670.64,
+          "source_e": 670.98,
+          "short_s": 7.56,
+          "short_e": 7.9
+        },
+        {
+          "w": "the",
+          "source_s": 670.98,
+          "source_e": 671.24,
+          "short_s": 7.9,
+          "short_e": 8.16
+        },
+        {
+          "w": "concept",
+          "source_s": 671.24,
+          "source_e": 671.66,
+          "short_s": 8.16,
+          "short_e": 8.58
+        },
+        {
+          "w": "much",
+          "source_s": 671.66,
+          "source_e": 672.2,
+          "short_s": 8.58,
+          "short_e": 9.12
+        },
+        {
+          "w": "further.",
+          "source_s": 672.2,
+          "source_e": 672.66,
+          "short_s": 9.12,
+          "short_e": 9.58
+        },
+        {
+          "w": "In",
+          "source_s": 673.6,
+          "source_e": 674.02,
+          "short_s": 10.52,
+          "short_e": 10.94
+        },
+        {
+          "w": "1961,",
+          "source_s": 674.02,
+          "source_e": 675,
+          "short_s": 10.94,
+          "short_e": 11.92
+        },
+        {
+          "w": "an",
+          "source_s": 675.58,
+          "source_e": 675.8,
+          "short_s": 12.5,
+          "short_e": 12.72
+        },
+        {
+          "w": "Army",
+          "source_s": 675.8,
+          "source_e": 676.18,
+          "short_s": 12.72,
+          "short_e": 13.1
+        },
+        {
+          "w": "research",
+          "source_s": 676.18,
+          "source_e": 676.6,
+          "short_s": 13.1,
+          "short_e": 13.52
+        },
+        {
+          "w": "publication",
+          "source_s": 676.6,
+          "source_e": 677.32,
+          "short_s": 13.52,
+          "short_e": 14.24
+        },
+        {
+          "w": "discussed",
+          "source_s": 677.32,
+          "source_e": 678.16,
+          "short_s": 14.24,
+          "short_e": 15.08
+        },
+        {
+          "w": "using",
+          "source_s": 678.16,
+          "source_e": 678.72,
+          "short_s": 15.08,
+          "short_e": 15.64
+        },
+        {
+          "w": "a",
+          "source_s": 678.72,
+          "source_e": 678.98,
+          "short_s": 15.64,
+          "short_e": 15.9
+        },
+        {
+          "w": "compact",
+          "source_s": 678.98,
+          "source_e": 679.5,
+          "short_s": 15.9,
+          "short_e": 16.42
+        },
+        {
+          "w": "nuclear",
+          "source_s": 679.5,
+          "source_e": 680,
+          "short_s": 16.42,
+          "short_e": 16.92
+        },
+        {
+          "w": "power",
+          "source_s": 680,
+          "source_e": 680.38,
+          "short_s": 16.92,
+          "short_e": 17.3
+        },
+        {
+          "w": "plant",
+          "source_s": 680.38,
+          "source_e": 680.74,
+          "short_s": 17.3,
+          "short_e": 17.66
+        },
+        {
+          "w": "as",
+          "source_s": 680.74,
+          "source_e": 681.34,
+          "short_s": 17.66,
+          "short_e": 18.26
+        },
+        {
+          "w": "a",
+          "source_s": 681.34,
+          "source_e": 681.46,
+          "short_s": 18.26,
+          "short_e": 18.38
+        },
+        {
+          "w": "possible",
+          "source_s": 681.46,
+          "source_e": 681.78,
+          "short_s": 18.38,
+          "short_e": 18.7
+        },
+        {
+          "w": "source",
+          "source_s": 681.78,
+          "source_e": 682.08,
+          "short_s": 18.7,
+          "short_e": 19
+        },
+        {
+          "w": "of",
+          "source_s": 682.08,
+          "source_e": 682.32,
+          "short_s": 19,
+          "short_e": 19.24
+        },
+        {
+          "w": "energy",
+          "source_s": 682.32,
+          "source_e": 682.74,
+          "short_s": 19.24,
+          "short_e": 19.66
+        },
+        {
+          "w": "for",
+          "source_s": 682.74,
+          "source_e": 683.18,
+          "short_s": 19.66,
+          "short_e": 20.1
+        },
+        {
+          "w": "an",
+          "source_s": 683.18,
+          "source_e": 683.32,
+          "short_s": 20.1,
+          "short_e": 20.24
+        },
+        {
+          "w": "overland",
+          "source_s": 683.32,
+          "source_e": 683.88,
+          "short_s": 20.24,
+          "short_e": 20.8
+        },
+        {
+          "w": "train.",
+          "source_s": 683.88,
+          "source_e": 684.34,
+          "short_s": 20.8,
+          "short_e": 21.26
+        },
+        {
+          "w": "The",
+          "source_s": 685.66,
+          "source_e": 685.84,
+          "short_s": 22.58,
+          "short_e": 22.76
+        },
+        {
+          "w": "idea",
+          "source_s": 685.84,
+          "source_e": 686.2,
+          "short_s": 22.76,
+          "short_e": 23.12
+        },
+        {
+          "w": "followed",
+          "source_s": 686.2,
+          "source_e": 686.58,
+          "short_s": 23.12,
+          "short_e": 23.5
+        },
+        {
+          "w": "naturally",
+          "source_s": 686.58,
+          "source_e": 687.16,
+          "short_s": 23.5,
+          "short_e": 24.08
+        },
+        {
+          "w": "from",
+          "source_s": 687.16,
+          "source_e": 687.64,
+          "short_s": 24.08,
+          "short_e": 24.56
+        },
+        {
+          "w": "the",
+          "source_s": 687.64,
+          "source_e": 687.8,
+          "short_s": 24.56,
+          "short_e": 24.72
+        },
+        {
+          "w": "vehicle's",
+          "source_s": 687.8,
+          "source_e": 688.3,
+          "short_s": 24.72,
+          "short_e": 25.22
+        },
+        {
+          "w": "electrical",
+          "source_s": 688.3,
+          "source_e": 688.84,
+          "short_s": 25.22,
+          "short_e": 25.76
+        },
+        {
+          "w": "architecture.",
+          "source_s": 688.84,
+          "source_e": 689.66,
+          "short_s": 25.76,
+          "short_e": 26.58
+        },
+        {
+          "w": "If",
+          "source_s": 690.74,
+          "source_e": 690.98,
+          "short_s": 27.66,
+          "short_e": 27.9
+        },
+        {
+          "w": "the",
+          "source_s": 690.98,
+          "source_e": 691.14,
+          "short_s": 27.9,
+          "short_e": 28.06
+        },
+        {
+          "w": "wheels",
+          "source_s": 691.14,
+          "source_e": 691.4,
+          "short_s": 28.06,
+          "short_e": 28.32
+        },
+        {
+          "w": "were",
+          "source_s": 691.4,
+          "source_e": 691.66,
+          "short_s": 28.32,
+          "short_e": 28.58
+        },
+        {
+          "w": "driven",
+          "source_s": 691.66,
+          "source_e": 691.94,
+          "short_s": 28.58,
+          "short_e": 28.86
+        },
+        {
+          "w": "electrically,",
+          "source_s": 691.94,
+          "source_e": 692.7,
+          "short_s": 28.86,
+          "short_e": 29.62
+        },
+        {
+          "w": "then",
+          "source_s": 693.12,
+          "source_e": 693.3,
+          "short_s": 30.04,
+          "short_e": 30.22
+        },
+        {
+          "w": "the",
+          "source_s": 693.3,
+          "source_e": 693.44,
+          "short_s": 30.22,
+          "short_e": 30.36
+        },
+        {
+          "w": "traction",
+          "source_s": 693.44,
+          "source_e": 693.74,
+          "short_s": 30.36,
+          "short_e": 30.66
+        },
+        {
+          "w": "system",
+          "source_s": 693.74,
+          "source_e": 694.2,
+          "short_s": 30.66,
+          "short_e": 31.12
+        },
+        {
+          "w": "did",
+          "source_s": 694.2,
+          "source_e": 694.4,
+          "short_s": 31.12,
+          "short_e": 31.32
+        },
+        {
+          "w": "not",
+          "source_s": 694.4,
+          "source_e": 694.62,
+          "short_s": 31.32,
+          "short_e": 31.54
+        },
+        {
+          "w": "fundamentally",
+          "source_s": 694.62,
+          "source_e": 695.12,
+          "short_s": 31.54,
+          "short_e": 32.04
+        },
+        {
+          "w": "require",
+          "source_s": 695.12,
+          "source_e": 695.72,
+          "short_s": 32.04,
+          "short_e": 32.64
+        },
+        {
+          "w": "a",
+          "source_s": 695.72,
+          "source_e": 696.2,
+          "short_s": 32.64,
+          "short_e": 33.12
+        },
+        {
+          "w": "conventional",
+          "source_s": 696.2,
+          "source_e": 696.72,
+          "short_s": 33.12,
+          "short_e": 33.64
+        },
+        {
+          "w": "mechanical",
+          "source_s": 696.72,
+          "source_e": 697.32,
+          "short_s": 33.64,
+          "short_e": 34.24
+        },
+        {
+          "w": "connection",
+          "source_s": 697.32,
+          "source_e": 698,
+          "short_s": 34.24,
+          "short_e": 34.92
+        },
+        {
+          "w": "between",
+          "source_s": 698,
+          "source_e": 698.64,
+          "short_s": 34.92,
+          "short_e": 35.56
+        },
+        {
+          "w": "the",
+          "source_s": 698.64,
+          "source_e": 698.86,
+          "short_s": 35.56,
+          "short_e": 35.78
+        },
+        {
+          "w": "power",
+          "source_s": 698.86,
+          "source_e": 699.12,
+          "short_s": 35.78,
+          "short_e": 36.04
+        },
+        {
+          "w": "plant",
+          "source_s": 699.12,
+          "source_e": 699.44,
+          "short_s": 36.04,
+          "short_e": 36.36
+        },
+        {
+          "w": "and",
+          "source_s": 699.44,
+          "source_e": 699.74,
+          "short_s": 36.36,
+          "short_e": 36.66
+        },
+        {
+          "w": "the",
+          "source_s": 699.74,
+          "source_e": 699.86,
+          "short_s": 36.66,
+          "short_e": 36.78
+        },
+        {
+          "w": "wheels.",
+          "source_s": 699.86,
+          "source_e": 700.32,
+          "short_s": 36.78,
+          "short_e": 37.24
+        },
+        {
+          "w": "Electricity",
+          "source_s": 701.32,
+          "source_e": 701.74,
+          "short_s": 38.24,
+          "short_e": 38.66
+        },
+        {
+          "w": "generated",
+          "source_s": 701.74,
+          "source_e": 702.52,
+          "short_s": 38.66,
+          "short_e": 39.44
+        },
+        {
+          "w": "by",
+          "source_s": 702.52,
+          "source_e": 702.84,
+          "short_s": 39.44,
+          "short_e": 39.76
+        },
+        {
+          "w": "another",
+          "source_s": 702.84,
+          "source_e": 703.14,
+          "short_s": 39.76,
+          "short_e": 40.06
+        },
+        {
+          "w": "source",
+          "source_s": 703.14,
+          "source_e": 703.62,
+          "short_s": 40.06,
+          "short_e": 40.54
+        },
+        {
+          "w": "could,",
+          "source_s": 703.62,
+          "source_e": 704.08,
+          "short_s": 40.54,
+          "short_e": 41
+        },
+        {
+          "w": "at",
+          "source_s": 704.34,
+          "source_e": 704.48,
+          "short_s": 41.26,
+          "short_e": 41.4
+        },
+        {
+          "w": "least",
+          "source_s": 704.48,
+          "source_e": 704.64,
+          "short_s": 41.4,
+          "short_e": 41.56
+        },
+        {
+          "w": "in",
+          "source_s": 704.64,
+          "source_e": 704.92,
+          "short_s": 41.56,
+          "short_e": 41.84
+        },
+        {
+          "w": "principle,",
+          "source_s": 704.92,
+          "source_e": 705.28,
+          "short_s": 41.84,
+          "short_e": 42.2
+        },
+        {
+          "w": "feed",
+          "source_s": 705.88,
+          "source_e": 706.08,
+          "short_s": 42.8,
+          "short_e": 43
+        },
+        {
+          "w": "the",
+          "source_s": 706.08,
+          "source_e": 706.3,
+          "short_s": 43,
+          "short_e": 43.22
+        },
+        {
+          "w": "same",
+          "source_s": 706.3,
+          "source_e": 706.58,
+          "short_s": 43.22,
+          "short_e": 43.5
+        },
+        {
+          "w": "kind",
+          "source_s": 706.58,
+          "source_e": 706.94,
+          "short_s": 43.5,
+          "short_e": 43.86
+        },
+        {
+          "w": "of",
+          "source_s": 706.94,
+          "source_e": 707.24,
+          "short_s": 43.86,
+          "short_e": 44.16
+        },
+        {
+          "w": "distributed",
+          "source_s": 707.24,
+          "source_e": 707.7,
+          "short_s": 44.16,
+          "short_e": 44.62
+        },
+        {
+          "w": "drive",
+          "source_s": 707.7,
+          "source_e": 708.14,
+          "short_s": 44.62,
+          "short_e": 45.06
+        },
+        {
+          "w": "system.",
+          "source_s": 708.14,
+          "source_e": 708.66,
+          "short_s": 45.06,
+          "short_e": 45.58
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 9.58,
+          "source_in": 663.08,
+          "source_out": 672.66,
+          "visual": "concept escalation",
+          "action": "begin with actual gas-turbine TC-497, then visually separate the hypothetical concept",
+          "provenance": "AI RECONSTRUCTION"
+        },
+        {
+          "short_in": 10.52,
+          "short_out": 21.26,
+          "source_in": 673.6,
+          "source_out": 684.34,
+          "visual": "1961 compact nuclear power idea",
+          "action": "show verified Army research publication first",
+          "provenance": "DOCUMENT"
+        },
+        {
+          "short_in": 22.58,
+          "short_out": 26.58,
+          "source_in": 685.66,
+          "source_out": 689.66,
+          "visual": "why electrical architecture made it conceivable",
+          "action": "power-distribution diagram",
+          "provenance": "GFX / AI RECONSTRUCTION"
+        },
+        {
+          "short_in": 27.66,
+          "short_out": 37.24,
+          "source_in": 690.74,
+          "source_out": 700.32,
+          "visual": "no mechanical link required",
+          "action": "wheel motor + electrical path, not reactor spectacle",
+          "provenance": "AI RECONSTRUCTION / GFX"
+        },
+        {
+          "short_in": 38.24,
+          "short_out": 45.58,
+          "source_in": 701.32,
+          "source_out": 708.66,
+          "visual": "another electrical source could feed drive system",
+          "action": "finish on clearly labeled unbuilt concept",
+          "provenance": "CONCEPT"
+        }
+      ]
+    },
+    {
+      "id": "TC497-S05",
+      "state": "VERTICAL_PLAN_LOCKED",
+      "render_gate": "BLOCKED_UNTIL_LONGFORM_APPROVED",
+      "title": "The Helicopter That Made the 572-Foot Train Obsolete",
+      "hook": "A ground vehicle still had to negotiate the terrain in front of it.",
+      "source_in_sec": 1018.6,
+      "source_out_sec": 1072.46,
+      "duration_sec": 53.86,
+      "source_in_tc": "00:16:58.600",
+      "source_out_tc": "00:17:52.460",
+      "narration_text": "A ground vehicle still had to negotiate the terrain in front of it. Rivers mattered. Steep ridges mattered. Soft ground mattered. Large dunes mattered. A heavy -lift helicopter could bypass many of those terrain obstacles entirely. Aircrafts such as Sikorsky's S -64 Sky Crane and the Army's CH -54 Tarhe represented a fundamentally different solution to the logistics problem. Instead of carrying a supply system slowly across difficult terrain, vertical lift could move heavy loads directly between points without following the landscape between them. Army historical accounts are unusually clear about what happened next. Heavy -lift helicopter technology made the Overland train increasingly obsolete before the concept could become an operational fleet.",
+      "source_words": [
+        {
+          "w": "A",
+          "source_s": 1018.6,
+          "source_e": 1018.88,
+          "short_s": 0,
+          "short_e": 0.28
+        },
+        {
+          "w": "ground",
+          "source_s": 1018.88,
+          "source_e": 1019.18,
+          "short_s": 0.28,
+          "short_e": 0.58
+        },
+        {
+          "w": "vehicle",
+          "source_s": 1019.18,
+          "source_e": 1019.54,
+          "short_s": 0.58,
+          "short_e": 0.94
+        },
+        {
+          "w": "still",
+          "source_s": 1019.54,
+          "source_e": 1019.88,
+          "short_s": 0.94,
+          "short_e": 1.28
+        },
+        {
+          "w": "had",
+          "source_s": 1019.88,
+          "source_e": 1020.1,
+          "short_s": 1.28,
+          "short_e": 1.5
+        },
+        {
+          "w": "to",
+          "source_s": 1020.1,
+          "source_e": 1020.26,
+          "short_s": 1.5,
+          "short_e": 1.66
+        },
+        {
+          "w": "negotiate",
+          "source_s": 1020.26,
+          "source_e": 1020.7,
+          "short_s": 1.66,
+          "short_e": 2.1
+        },
+        {
+          "w": "the",
+          "source_s": 1020.7,
+          "source_e": 1020.96,
+          "short_s": 2.1,
+          "short_e": 2.36
+        },
+        {
+          "w": "terrain",
+          "source_s": 1020.96,
+          "source_e": 1021.34,
+          "short_s": 2.36,
+          "short_e": 2.74
+        },
+        {
+          "w": "in",
+          "source_s": 1021.34,
+          "source_e": 1021.58,
+          "short_s": 2.74,
+          "short_e": 2.98
+        },
+        {
+          "w": "front",
+          "source_s": 1021.58,
+          "source_e": 1021.76,
+          "short_s": 2.98,
+          "short_e": 3.16
+        },
+        {
+          "w": "of",
+          "source_s": 1021.76,
+          "source_e": 1021.94,
+          "short_s": 3.16,
+          "short_e": 3.34
+        },
+        {
+          "w": "it.",
+          "source_s": 1021.94,
+          "source_e": 1022.2,
+          "short_s": 3.34,
+          "short_e": 3.6
+        },
+        {
+          "w": "Rivers",
+          "source_s": 1022.88,
+          "source_e": 1022.88,
+          "short_s": 4.28,
+          "short_e": 4.28
+        },
+        {
+          "w": "mattered.",
+          "source_s": 1022.88,
+          "source_e": 1023.28,
+          "short_s": 4.28,
+          "short_e": 4.68
+        },
+        {
+          "w": "Steep",
+          "source_s": 1024.22,
+          "source_e": 1024.36,
+          "short_s": 5.62,
+          "short_e": 5.76
+        },
+        {
+          "w": "ridges",
+          "source_s": 1024.36,
+          "source_e": 1024.84,
+          "short_s": 5.76,
+          "short_e": 6.24
+        },
+        {
+          "w": "mattered.",
+          "source_s": 1024.84,
+          "source_e": 1025.26,
+          "short_s": 6.24,
+          "short_e": 6.66
+        },
+        {
+          "w": "Soft",
+          "source_s": 1025.26,
+          "source_e": 1026.26,
+          "short_s": 6.66,
+          "short_e": 7.66
+        },
+        {
+          "w": "ground",
+          "source_s": 1026.26,
+          "source_e": 1026.74,
+          "short_s": 7.66,
+          "short_e": 8.14
+        },
+        {
+          "w": "mattered.",
+          "source_s": 1026.74,
+          "source_e": 1027.2,
+          "short_s": 8.14,
+          "short_e": 8.6
+        },
+        {
+          "w": "Large",
+          "source_s": 1028.02,
+          "source_e": 1028.24,
+          "short_s": 9.42,
+          "short_e": 9.64
+        },
+        {
+          "w": "dunes",
+          "source_s": 1028.24,
+          "source_e": 1028.84,
+          "short_s": 9.64,
+          "short_e": 10.24
+        },
+        {
+          "w": "mattered.",
+          "source_s": 1028.84,
+          "source_e": 1029.36,
+          "short_s": 10.24,
+          "short_e": 10.76
+        },
+        {
+          "w": "A",
+          "source_s": 1030.24,
+          "source_e": 1030.34,
+          "short_s": 11.64,
+          "short_e": 11.74
+        },
+        {
+          "w": "heavy",
+          "source_s": 1030.34,
+          "source_e": 1030.58,
+          "short_s": 11.74,
+          "short_e": 11.98
+        },
+        {
+          "w": "-lift",
+          "source_s": 1030.58,
+          "source_e": 1030.78,
+          "short_s": 11.98,
+          "short_e": 12.18
+        },
+        {
+          "w": "helicopter",
+          "source_s": 1030.78,
+          "source_e": 1031.28,
+          "short_s": 12.18,
+          "short_e": 12.68
+        },
+        {
+          "w": "could",
+          "source_s": 1031.28,
+          "source_e": 1031.6,
+          "short_s": 12.68,
+          "short_e": 13
+        },
+        {
+          "w": "bypass",
+          "source_s": 1031.6,
+          "source_e": 1032.06,
+          "short_s": 13,
+          "short_e": 13.46
+        },
+        {
+          "w": "many",
+          "source_s": 1032.06,
+          "source_e": 1032.4,
+          "short_s": 13.46,
+          "short_e": 13.8
+        },
+        {
+          "w": "of",
+          "source_s": 1032.4,
+          "source_e": 1032.56,
+          "short_s": 13.8,
+          "short_e": 13.96
+        },
+        {
+          "w": "those",
+          "source_s": 1032.56,
+          "source_e": 1032.92,
+          "short_s": 13.96,
+          "short_e": 14.32
+        },
+        {
+          "w": "terrain",
+          "source_s": 1032.92,
+          "source_e": 1033.54,
+          "short_s": 14.32,
+          "short_e": 14.94
+        },
+        {
+          "w": "obstacles",
+          "source_s": 1033.54,
+          "source_e": 1034.2,
+          "short_s": 14.94,
+          "short_e": 15.6
+        },
+        {
+          "w": "entirely.",
+          "source_s": 1034.2,
+          "source_e": 1035.02,
+          "short_s": 15.6,
+          "short_e": 16.42
+        },
+        {
+          "w": "Aircrafts",
+          "source_s": 1036.12,
+          "source_e": 1036.34,
+          "short_s": 17.52,
+          "short_e": 17.74
+        },
+        {
+          "w": "such",
+          "source_s": 1036.34,
+          "source_e": 1036.42,
+          "short_s": 17.74,
+          "short_e": 17.82
+        },
+        {
+          "w": "as",
+          "source_s": 1036.42,
+          "source_e": 1036.62,
+          "short_s": 17.82,
+          "short_e": 18.02
+        },
+        {
+          "w": "Sikorsky's",
+          "source_s": 1036.62,
+          "source_e": 1037.3,
+          "short_s": 18.02,
+          "short_e": 18.7
+        },
+        {
+          "w": "S",
+          "source_s": 1037.3,
+          "source_e": 1037.78,
+          "short_s": 18.7,
+          "short_e": 19.18
+        },
+        {
+          "w": "-64",
+          "source_s": 1037.78,
+          "source_e": 1038.42,
+          "short_s": 19.18,
+          "short_e": 19.82
+        },
+        {
+          "w": "Sky",
+          "source_s": 1038.42,
+          "source_e": 1038.84,
+          "short_s": 19.82,
+          "short_e": 20.24
+        },
+        {
+          "w": "Crane",
+          "source_s": 1038.84,
+          "source_e": 1039.16,
+          "short_s": 20.24,
+          "short_e": 20.56
+        },
+        {
+          "w": "and",
+          "source_s": 1039.16,
+          "source_e": 1039.96,
+          "short_s": 20.56,
+          "short_e": 21.36
+        },
+        {
+          "w": "the",
+          "source_s": 1039.96,
+          "source_e": 1040.1,
+          "short_s": 21.36,
+          "short_e": 21.5
+        },
+        {
+          "w": "Army's",
+          "source_s": 1040.1,
+          "source_e": 1040.6,
+          "short_s": 21.5,
+          "short_e": 22
+        },
+        {
+          "w": "CH",
+          "source_s": 1040.6,
+          "source_e": 1041.28,
+          "short_s": 22,
+          "short_e": 22.68
+        },
+        {
+          "w": "-54",
+          "source_s": 1041.28,
+          "source_e": 1041.98,
+          "short_s": 22.68,
+          "short_e": 23.38
+        },
+        {
+          "w": "Tarhe",
+          "source_s": 1041.98,
+          "source_e": 1042.68,
+          "short_s": 23.38,
+          "short_e": 24.08
+        },
+        {
+          "w": "represented",
+          "source_s": 1042.68,
+          "source_e": 1043.8,
+          "short_s": 24.08,
+          "short_e": 25.2
+        },
+        {
+          "w": "a",
+          "source_s": 1043.8,
+          "source_e": 1044.1,
+          "short_s": 25.2,
+          "short_e": 25.5
+        },
+        {
+          "w": "fundamentally",
+          "source_s": 1044.1,
+          "source_e": 1044.5,
+          "short_s": 25.5,
+          "short_e": 25.9
+        },
+        {
+          "w": "different",
+          "source_s": 1044.5,
+          "source_e": 1045.02,
+          "short_s": 25.9,
+          "short_e": 26.42
+        },
+        {
+          "w": "solution",
+          "source_s": 1045.02,
+          "source_e": 1045.62,
+          "short_s": 26.42,
+          "short_e": 27.02
+        },
+        {
+          "w": "to",
+          "source_s": 1045.62,
+          "source_e": 1046.3,
+          "short_s": 27.02,
+          "short_e": 27.7
+        },
+        {
+          "w": "the",
+          "source_s": 1046.3,
+          "source_e": 1046.46,
+          "short_s": 27.7,
+          "short_e": 27.86
+        },
+        {
+          "w": "logistics",
+          "source_s": 1046.46,
+          "source_e": 1046.86,
+          "short_s": 27.86,
+          "short_e": 28.26
+        },
+        {
+          "w": "problem.",
+          "source_s": 1046.86,
+          "source_e": 1047.42,
+          "short_s": 28.26,
+          "short_e": 28.82
+        },
+        {
+          "w": "Instead",
+          "source_s": 1048.08,
+          "source_e": 1048.36,
+          "short_s": 29.48,
+          "short_e": 29.76
+        },
+        {
+          "w": "of",
+          "source_s": 1048.36,
+          "source_e": 1048.54,
+          "short_s": 29.76,
+          "short_e": 29.94
+        },
+        {
+          "w": "carrying",
+          "source_s": 1048.54,
+          "source_e": 1048.82,
+          "short_s": 29.94,
+          "short_e": 30.22
+        },
+        {
+          "w": "a",
+          "source_s": 1048.82,
+          "source_e": 1049.02,
+          "short_s": 30.22,
+          "short_e": 30.42
+        },
+        {
+          "w": "supply",
+          "source_s": 1049.02,
+          "source_e": 1049.34,
+          "short_s": 30.42,
+          "short_e": 30.74
+        },
+        {
+          "w": "system",
+          "source_s": 1049.34,
+          "source_e": 1049.82,
+          "short_s": 30.74,
+          "short_e": 31.22
+        },
+        {
+          "w": "slowly",
+          "source_s": 1049.82,
+          "source_e": 1050.46,
+          "short_s": 31.22,
+          "short_e": 31.86
+        },
+        {
+          "w": "across",
+          "source_s": 1050.46,
+          "source_e": 1050.92,
+          "short_s": 31.86,
+          "short_e": 32.32
+        },
+        {
+          "w": "difficult",
+          "source_s": 1050.92,
+          "source_e": 1051.4,
+          "short_s": 32.32,
+          "short_e": 32.8
+        },
+        {
+          "w": "terrain,",
+          "source_s": 1051.4,
+          "source_e": 1052,
+          "short_s": 32.8,
+          "short_e": 33.4
+        },
+        {
+          "w": "vertical",
+          "source_s": 1052.52,
+          "source_e": 1053.04,
+          "short_s": 33.92,
+          "short_e": 34.44
+        },
+        {
+          "w": "lift",
+          "source_s": 1053.04,
+          "source_e": 1053.52,
+          "short_s": 34.44,
+          "short_e": 34.92
+        },
+        {
+          "w": "could",
+          "source_s": 1053.52,
+          "source_e": 1054.06,
+          "short_s": 34.92,
+          "short_e": 35.46
+        },
+        {
+          "w": "move",
+          "source_s": 1054.06,
+          "source_e": 1054.36,
+          "short_s": 35.46,
+          "short_e": 35.76
+        },
+        {
+          "w": "heavy",
+          "source_s": 1054.36,
+          "source_e": 1054.64,
+          "short_s": 35.76,
+          "short_e": 36.04
+        },
+        {
+          "w": "loads",
+          "source_s": 1054.64,
+          "source_e": 1055.02,
+          "short_s": 36.04,
+          "short_e": 36.42
+        },
+        {
+          "w": "directly",
+          "source_s": 1055.02,
+          "source_e": 1055.42,
+          "short_s": 36.42,
+          "short_e": 36.82
+        },
+        {
+          "w": "between",
+          "source_s": 1055.42,
+          "source_e": 1055.94,
+          "short_s": 36.82,
+          "short_e": 37.34
+        },
+        {
+          "w": "points",
+          "source_s": 1055.94,
+          "source_e": 1056.52,
+          "short_s": 37.34,
+          "short_e": 37.92
+        },
+        {
+          "w": "without",
+          "source_s": 1056.52,
+          "source_e": 1057.32,
+          "short_s": 37.92,
+          "short_e": 38.72
+        },
+        {
+          "w": "following",
+          "source_s": 1057.32,
+          "source_e": 1057.84,
+          "short_s": 38.72,
+          "short_e": 39.24
+        },
+        {
+          "w": "the",
+          "source_s": 1057.84,
+          "source_e": 1058.04,
+          "short_s": 39.24,
+          "short_e": 39.44
+        },
+        {
+          "w": "landscape",
+          "source_s": 1058.04,
+          "source_e": 1058.56,
+          "short_s": 39.44,
+          "short_e": 39.96
+        },
+        {
+          "w": "between",
+          "source_s": 1058.56,
+          "source_e": 1058.98,
+          "short_s": 39.96,
+          "short_e": 40.38
+        },
+        {
+          "w": "them.",
+          "source_s": 1058.98,
+          "source_e": 1059.62,
+          "short_s": 40.38,
+          "short_e": 41.02
+        },
+        {
+          "w": "Army",
+          "source_s": 1060.4,
+          "source_e": 1060.4,
+          "short_s": 41.8,
+          "short_e": 41.8
+        },
+        {
+          "w": "historical",
+          "source_s": 1060.4,
+          "source_e": 1060.8,
+          "short_s": 41.8,
+          "short_e": 42.2
+        },
+        {
+          "w": "accounts",
+          "source_s": 1060.8,
+          "source_e": 1061.46,
+          "short_s": 42.2,
+          "short_e": 42.86
+        },
+        {
+          "w": "are",
+          "source_s": 1061.46,
+          "source_e": 1061.76,
+          "short_s": 42.86,
+          "short_e": 43.16
+        },
+        {
+          "w": "unusually",
+          "source_s": 1061.76,
+          "source_e": 1062.1,
+          "short_s": 43.16,
+          "short_e": 43.5
+        },
+        {
+          "w": "clear",
+          "source_s": 1062.1,
+          "source_e": 1062.62,
+          "short_s": 43.5,
+          "short_e": 44.02
+        },
+        {
+          "w": "about",
+          "source_s": 1062.62,
+          "source_e": 1062.92,
+          "short_s": 44.02,
+          "short_e": 44.32
+        },
+        {
+          "w": "what",
+          "source_s": 1062.92,
+          "source_e": 1063.16,
+          "short_s": 44.32,
+          "short_e": 44.56
+        },
+        {
+          "w": "happened",
+          "source_s": 1063.16,
+          "source_e": 1063.42,
+          "short_s": 44.56,
+          "short_e": 44.82
+        },
+        {
+          "w": "next.",
+          "source_s": 1063.42,
+          "source_e": 1064,
+          "short_s": 44.82,
+          "short_e": 45.4
+        },
+        {
+          "w": "Heavy",
+          "source_s": 1064.7,
+          "source_e": 1064.86,
+          "short_s": 46.1,
+          "short_e": 46.26
+        },
+        {
+          "w": "-lift",
+          "source_s": 1064.86,
+          "source_e": 1065.06,
+          "short_s": 46.26,
+          "short_e": 46.46
+        },
+        {
+          "w": "helicopter",
+          "source_s": 1065.06,
+          "source_e": 1065.52,
+          "short_s": 46.46,
+          "short_e": 46.92
+        },
+        {
+          "w": "technology",
+          "source_s": 1065.52,
+          "source_e": 1066.3,
+          "short_s": 46.92,
+          "short_e": 47.7
+        },
+        {
+          "w": "made",
+          "source_s": 1066.3,
+          "source_e": 1066.92,
+          "short_s": 47.7,
+          "short_e": 48.32
+        },
+        {
+          "w": "the",
+          "source_s": 1066.92,
+          "source_e": 1067.14,
+          "short_s": 48.32,
+          "short_e": 48.54
+        },
+        {
+          "w": "Overland",
+          "source_s": 1067.14,
+          "source_e": 1067.56,
+          "short_s": 48.54,
+          "short_e": 48.96
+        },
+        {
+          "w": "train",
+          "source_s": 1067.56,
+          "source_e": 1067.94,
+          "short_s": 48.96,
+          "short_e": 49.34
+        },
+        {
+          "w": "increasingly",
+          "source_s": 1067.94,
+          "source_e": 1068.72,
+          "short_s": 49.34,
+          "short_e": 50.12
+        },
+        {
+          "w": "obsolete",
+          "source_s": 1068.72,
+          "source_e": 1069.4,
+          "short_s": 50.12,
+          "short_e": 50.8
+        },
+        {
+          "w": "before",
+          "source_s": 1069.4,
+          "source_e": 1070.14,
+          "short_s": 50.8,
+          "short_e": 51.54
+        },
+        {
+          "w": "the",
+          "source_s": 1070.14,
+          "source_e": 1070.32,
+          "short_s": 51.54,
+          "short_e": 51.72
+        },
+        {
+          "w": "concept",
+          "source_s": 1070.32,
+          "source_e": 1070.72,
+          "short_s": 51.72,
+          "short_e": 52.12
+        },
+        {
+          "w": "could",
+          "source_s": 1070.72,
+          "source_e": 1070.98,
+          "short_s": 52.12,
+          "short_e": 52.38
+        },
+        {
+          "w": "become",
+          "source_s": 1070.98,
+          "source_e": 1071.32,
+          "short_s": 52.38,
+          "short_e": 52.72
+        },
+        {
+          "w": "an",
+          "source_s": 1071.32,
+          "source_e": 1071.48,
+          "short_s": 52.72,
+          "short_e": 52.88
+        },
+        {
+          "w": "operational",
+          "source_s": 1071.48,
+          "source_e": 1071.96,
+          "short_s": 52.88,
+          "short_e": 53.36
+        },
+        {
+          "w": "fleet.",
+          "source_s": 1071.96,
+          "source_e": 1072.46,
+          "short_s": 53.36,
+          "short_e": 53.86
+        }
+      ],
+      "montage": [
+        {
+          "short_in": 0,
+          "short_out": 10.76,
+          "source_in": 1018.6,
+          "source_out": 1029.36,
+          "visual": "terrain problem montage",
+          "action": "rivers → ridges → soft ground → dunes; quick distinct cuts",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 11.64,
+          "short_out": 16.42,
+          "source_in": 1030.24,
+          "source_out": 1035.02,
+          "visual": "heavy-lift helicopter bypasses terrain",
+          "action": "first helicopter reveal; hard contrast with ground machine",
+          "provenance": "match source visual"
+        },
+        {
+          "short_in": 17.52,
+          "short_out": 28.82,
+          "source_in": 1036.12,
+          "source_out": 1047.42,
+          "visual": "S-64 Skycrane / CH-54 Tarhe",
+          "action": "use verified archival aircraft imagery where available",
+          "provenance": "HISTORICAL SOURCE if verified archive"
+        },
+        {
+          "short_in": 29.48,
+          "short_out": 41.02,
+          "source_in": 1048.08,
+          "source_out": 1059.62,
+          "visual": "vertical lift moves point-to-point",
+          "action": "ground route vs air route explanatory contrast",
+          "provenance": "GFX / match source"
+        },
+        {
+          "short_in": 41.8,
+          "short_out": 53.86,
+          "source_in": 1060.4,
+          "source_out": 1072.46,
+          "visual": "historical payoff: Overland Train becomes obsolete",
+          "action": "finish on TC-497 receding/legacy visual; no extra CTA",
+          "provenance": "match source visual"
+        }
+      ]
+    }
+  ]
+}
