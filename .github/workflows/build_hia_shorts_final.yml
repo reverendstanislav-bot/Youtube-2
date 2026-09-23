@@ -2,9 +2,6 @@ name: Build 10 Shorts Final Masters
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/build_hia_shorts_final.yml'
 
 permissions:
   contents: write
@@ -257,13 +254,13 @@ jobs:
       - name: Build final package
         run: |
           set -euo pipefail
-          mkdir -p /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/{CHICAGO,TC497,QC,MAPS}
+          mkdir -p /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/{CHICAGO,TC497,QC/CHICAGO,QC/TC497,MAPS/CHICAGO,MAPS/TC497}
           cp /tmp/final/CHICAGO/out/*_FINAL_MASTER.mp4 /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/CHICAGO/
           cp /tmp/final/TC497/out/*_FINAL_MASTER.mp4 /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/TC497/
-          cp -r /tmp/final/CHICAGO/qc /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/QC/CHICAGO
-          cp -r /tmp/final/TC497/qc /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/QC/TC497
-          cp CHICAGO/SHORTS/SHORTS_EXTRACTION_MAP.md CHICAGO/SHORTS/shorts_extraction_map.json /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/MAPS/
-          cp TC497/SHORTS/SHORTS_EXTRACTION_MAP.md TC497/SHORTS/shorts_extraction_map.json /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/MAPS/
+          cp -r /tmp/final/CHICAGO/qc/. /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/QC/CHICAGO/
+          cp -r /tmp/final/TC497/qc/. /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/QC/TC497/
+          cp CHICAGO/SHORTS/SHORTS_EXTRACTION_MAP.md CHICAGO/SHORTS/shorts_extraction_map.json /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/MAPS/CHICAGO/
+          cp TC497/SHORTS/SHORTS_EXTRACTION_MAP.md TC497/SHORTS/shorts_extraction_map.json /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/MAPS/TC497/
           cat > /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS/STATUS.txt <<'EOF'
           HIDDEN INDUSTRIAL AMERICA — 10 SHORTS FINAL MASTER CANDIDATES
           5 Chicago + 5 TC-497
@@ -274,6 +271,10 @@ jobs:
           Publication status: AWAITING USER VISUAL APPROVAL. Files are not marked PUBLISHED/APPROVED by automation.
           EOF
           cd /tmp/pkg/HIA_SHORTS_10_FINAL_MASTERS
+          test "$(find CHICAGO -name '*_FINAL_MASTER.mp4' | wc -l)" = "5"
+          test "$(find TC497 -name '*_FINAL_MASTER.mp4' | wc -l)" = "5"
+          test -s MAPS/CHICAGO/shorts_extraction_map.json
+          test -s MAPS/TC497/shorts_extraction_map.json
           find CHICAGO TC497 -type f -name '*.mp4' -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
           cd /tmp/pkg
           zip -q -r -0 HIA_SHORTS_10_FINAL_MASTERS.zip HIA_SHORTS_10_FINAL_MASTERS
