@@ -1,0 +1,126 @@
+name: Discover Shorts Source Windows
+
+on:
+  push:
+    paths:
+      - '.github/workflows/discover_shorts_source_windows.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full unzip
+
+      - name: Download Chicago source transcript
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/shorts_chicago /tmp/shorts_tc
+          mkdir -p /tmp/shorts_chicago /tmp/shorts_tc
+          cd /tmp/shorts_chicago
+          gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > source.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  source.rar' | sha256sum -c -
+          7z x -y source.rar -oextract "-ir!*/_QC/voice_words.json"
+          find extract -type f -name voice_words.json -print -quit > /tmp/chicago_words_path.txt
+          test -s "$(cat /tmp/chicago_words_path.txt)"
+
+      - name: Download TC497 word transcript
+        run: |
+          set -euo pipefail
+          curl -fL --retry 4 --retry-all-errors 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip' -o /tmp/shorts_tc/transcript.zip
+          unzip -q /tmp/shorts_tc/transcript.zip -d /tmp/shorts_tc/extract
+          find /tmp/shorts_tc/extract -type f -name TC497_VO_WORD_LEVEL.csv -print -quit > /tmp/tc_words_path.txt
+          test -s "$(cat /tmp/tc_words_path.txt)"
+
+      - name: Build discovery windows
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/SHORTS_WORK TC497/SHORTS_WORK
+          CHI_WORDS="$(cat /tmp/chicago_words_path.txt)" TC_WORDS="$(cat /tmp/tc_words_path.txt)" python3 - <<'PY'
+          import os,json,csv,re
+          from pathlib import Path
+
+          def chicago(path):
+              raw=json.loads(Path(path).read_text(encoding='utf-8-sig'))
+              return [{'w':str(x.get('word','')).strip(),'s':float(x['start']),'e':float(x['end'])}
+                      for x in raw if str(x.get('word','')).strip()]
+
+          def tc(path):
+              out=[]
+              with open(path,encoding='utf-8-sig',newline='') as f:
+                  for r in csv.DictReader(f):
+                      out.append({'w':r['word'],'s':float(r['start_sec']),'e':float(r['end_sec'])})
+              return out
+
+          def norm(s):
+              return re.sub(r'[^a-z0-9]+',' ',s.lower()).strip()
+
+          def windows(words,anchors,pre=9,post=34):
+              text=' '.join(norm(x['w']) for x in words)
+              toks=text.split()
+              token_to_word=[]
+              wi=0
+              for i,x in enumerate(words):
+                  for _ in norm(x['w']).split():
+                      token_to_word.append(i)
+              res=[]
+              for anchor in anchors:
+                  a=norm(anchor).split()
+                  hit=None
+                  for i in range(0,max(0,len(toks)-len(a)+1)):
+                      if toks[i:i+len(a)]==a:
+                          hit=i; break
+                  if hit is None:
+                      # fallback single-token substring
+                      for i,t in enumerate(toks):
+                          if a and a[0] in t:
+                              hit=i; break
+                  if hit is None:
+                      res.append({'anchor':anchor,'found':False}); continue
+                  idx=token_to_word[min(hit,len(token_to_word)-1)]
+                  center=words[idx]['s']
+                  start=max(0,center-pre); end=center+post
+                  seg=[x for x in words if x['e']>=start and x['s']<=end]
+                  res.append({
+                      'anchor':anchor,'found':True,'anchor_time':round(center,3),
+                      'start':round(seg[0]['s'],3),'end':round(seg[-1]['e'],3),
+                      'duration':round(seg[-1]['e']-seg[0]['s'],3),
+                      'text':' '.join(x['w'] for x in seg)
+                  })
+              return res
+
+          chi=chicago(os.environ['CHI_WORDS'])
+          t=tc(os.environ['TC_WORDS'])
+          chi_anchors=['60 miles','telephone','coal','1992','flood','july 1959','abandoned','freight elevators','river']
+          tc_anchors=['572 feet','54 driven wheels','electric','nuclear','yuma','400 mile','150 tons','helicopter','airlift','sky']
+          Path('CHICAGO/SHORTS_WORK/DISCOVERY.json').write_text(json.dumps({
+              'runtime':round(chi[-1]['e'],3),'word_count':len(chi),'windows':windows(chi,chi_anchors)
+          },indent=2,ensure_ascii=False),encoding='utf-8')
+          Path('TC497/SHORTS_WORK/DISCOVERY.json').write_text(json.dumps({
+              'runtime':round(t[-1]['e'],3),'word_count':len(t),'windows':windows(t,tc_anchors)
+          },indent=2,ensure_ascii=False),encoding='utf-8')
+          PY
+
+      - name: Commit discovery
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/SHORTS_WORK/DISCOVERY.json TC497/SHORTS_WORK/DISCOVERY.json
+          git commit -m "Extract Chicago and TC497 Shorts source windows"
+          git pull --rebase origin main
+          git push origin main
