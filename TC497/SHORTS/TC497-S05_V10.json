@@ -1,0 +1,115 @@
+{
+  "id": "TC497-S05",
+  "fps": 30,
+  "title_lines": [
+    "THE HELICOPTER THAT MADE",
+    "THE 572-FOOT TRAIN OBSOLETE"
+  ],
+  "version": "V10_CANON",
+  "rules": {
+    "motion": "STATIC + THREE SUBTLE PUSHES ONLY",
+    "source": "clean reconstruction + verified CH-54 archive",
+    "provenance": "truthful per asset"
+  },
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 2.8,
+      "asset": "V2_DUNE.png",
+      "x": 0.48,
+      "motion": "static",
+      "metric": "RIVERS",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 2.8,
+      "out_end": 5.4,
+      "asset": "V3_DUNE_LIMIT.png",
+      "x": 0.52,
+      "motion": "static",
+      "metric": "RIDGES",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 5.4,
+      "out_end": 8,
+      "asset": "V3_YUMA_TEST.png",
+      "x": 0.46,
+      "motion": "static",
+      "metric": "SOFT GROUND",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 8,
+      "out_end": 10.76,
+      "asset": "V4_RANGE_ALT.png",
+      "x": 0.54,
+      "motion": "static",
+      "metric": "DUNES",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 10.76,
+      "out_end": 16.42,
+      "asset": "V4_HELI_CARGO.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "HEAVY-LIFT CHANGED THE PROBLEM",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 16.42,
+      "out_end": 22.6,
+      "asset": "AR_CH54_1.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "SIKORSKY S-64 SKYCRANE",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 22.6,
+      "out_end": 28.82,
+      "asset": "AR_CH54_2.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "ARMY CH-54 TARHE",
+      "provenance": "HISTORICAL SOURCE"
+    },
+    {
+      "out_start": 28.82,
+      "out_end": 35,
+      "asset": "heavy_lift_logistics_clean.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "VERTICAL LIFT",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 35,
+      "out_end": 41.02,
+      "asset": "ground_vs_air_clean.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "POINT TO POINT",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 41.02,
+      "out_end": 47,
+      "asset": "V3_HELI_LOAD.png",
+      "x": 0.5,
+      "motion": "static",
+      "metric": "GROUND ROUTE VS AIRLIFT",
+      "provenance": "AI RECONSTRUCTION"
+    },
+    {
+      "out_start": 47,
+      "out_end": 53.86,
+      "asset": "V3_LEGACY.png",
+      "x": 0.5,
+      "motion": "push",
+      "metric": "HEAVY-LIFT MADE IT OBSOLETE",
+      "provenance": "AI RECONSTRUCTION"
+    }
+  ]
+}
