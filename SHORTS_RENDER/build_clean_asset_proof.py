@@ -22,6 +22,10 @@ def ass_time(sec):
 def ass_escape(value):
     return str(value).replace("\\", r"\\").replace("{", r"\{").replace("}", r"\}")
 
+def display_word(value):
+    v=str(value)
+    return {"turn":"LeTourneau","-o":""}.get(v,v)
+
 def draw_escape(value):
     return (
         str(value)
@@ -94,7 +98,7 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
         for active_index, active_word in enumerate(group):
             parts = []
             for index, item in enumerate(group):
-                token = ass_escape(item["w"])
+                token = ass_escape(display_word(item["w"]))
                 if index == active_index:
                     token = r"{\c&H003A8AF2&}" + token + r"{\c&HFFFFFF&}"
                 parts.append(token)
@@ -170,12 +174,13 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
             + f",drawbox=x=54:y=1374:w=972:h=4:color={ORANGE}:t=fill"
         )
 
-        # All assets in this proof are generated reconstructions; label them truthfully.
-        vf += (
-            ",drawtext=font='DejaVu Sans':text='AI RECONSTRUCTION':"
-            "x=w-text_w-42:y=46:fontsize=19:fontcolor=0xF3EBDD:"
-            "borderw=2:bordercolor=black@0.72"
-        )
+        provenance = draw_escape(segment.get("provenance", ""))
+        if provenance:
+            vf += (
+                f",drawtext=font='DejaVu Sans':text='{provenance}':"
+                "x=w-text_w-42:y=46:fontsize=19:fontcolor=0xF3EBDD:"
+                "borderw=2:bordercolor=black@0.72"
+            )
 
         metric = draw_escape(segment.get("metric", ""))
 
