@@ -27,3 +27,8 @@ R13 remains a rejected review artifact and must not be uploaded.
 Read `CURRENT_STATUS_HANDOFF.md` before editing.
 
 The first R14 review release with a rectangular video slot is rejected and must not be uploaded. A corrected R14 rebuild is required.
+
+## Shorts package
+
+Locked extraction-first Shorts plan: `CHICAGO/SHORTS/`.
+Five Shorts have exact source IN/OUT, exact narration extraction, word timing and 9:16 montage instructions. State: `VERTICAL_PLAN_LOCKED`; render remains blocked until the Chicago long-form is explicitly approved.
