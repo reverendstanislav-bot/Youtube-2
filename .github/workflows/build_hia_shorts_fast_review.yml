@@ -1,0 +1,193 @@
+name: Build 10 Shorts Fast Review
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build_hia_shorts_fast_review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: hia-shorts-fast-review
+  cancel-in-progress: true
+
+jobs:
+  chicago:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg jq python3-pil zip fonts-dejavu-core
+          mkdir -p /tmp/chi/{out,qc}
+      - name: Download Chicago R14 source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chi
+          gh release download chicago-r14-editorial-recut-review-20260923             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_R14_EDITORIAL_RECUT_REVIEW_1920x1080.mp4'
+          mv HIA_CHICAGO_R14_EDITORIAL_RECUT_REVIEW_1920x1080.mp4 source.mp4
+      - name: Render Chicago 9x16 reviews
+        run: |
+          set -euo pipefail
+          python3 SHORTS_RENDER/build_ffmpeg.py             --map CHICAGO/SHORTS/shorts_extraction_map.json             --source /tmp/chi/source.mp4 --episode-key chicago --fps 25             --outdir /tmp/chi/out --qcdir /tmp/chi/qc
+      - name: QC Chicago reviews
+        run: |
+          set -euo pipefail
+          MAP=CHICAGO/SHORTS/shorts_extraction_map.json python3 - <<'PY'
+          import json,os,subprocess,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageFont
+          root=Path('/tmp/chi'); q=root/'qc'; out=root/'out'
+          mp=json.loads(Path(os.environ['MAP']).read_text())
+          report={'episode':'CHICAGO','status':'PASS','shorts':[]}
+          font=ImageFont.load_default()
+          for sh in mp['shorts']:
+              sid=sh['id']; p=out/f'{sid}.mp4'
+              probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
+              v=next(x for x in probe['streams'] if x['codec_type']=='video')
+              aud=[x for x in probe['streams'] if x['codec_type']=='audio']
+              dur=float(probe['format']['duration'])
+              dec=q/f'{sid}_decode.txt'
+              with dec.open('w') as f:
+                  rc=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],stderr=f).returncode
+              ok=(v['width']==1080 and v['height']==1920 and v['r_frame_rate']=='25/1' and bool(aud) and abs(dur-sh['duration_sec'])<.45 and rc==0 and dec.stat().st_size==0)
+              frames=[]
+              for n,frac in enumerate([.06,.24,.42,.60,.78,.94],1):
+                  t=max(.05,min(dur-.05,dur*frac)); jpg=q/f'{sid}_{n}.jpg'
+                  subprocess.run(['ffmpeg','-y','-loglevel','error','-ss',f'{t:.3f}','-i',str(p),'-frames:v','1','-q:v','2',str(jpg)],check=True)
+                  frames.append(jpg)
+              canvas=Image.new('RGB',(1080*3,1920*2),(16,16,16))
+              d=ImageDraw.Draw(canvas)
+              for i,jpg in enumerate(frames):
+                  im=Image.open(jpg).convert('RGB')
+                  x=(i%3)*1080; y=(i//3)*1920
+                  canvas.paste(im,(x,y))
+                  d.rectangle((x,y,x+260,y+42),fill=(10,10,10))
+                  d.text((x+8,y+12),f'{sid} {i+1}/6',fill=(245,245,245),font=font)
+              canvas.thumbnail((1620,1920))
+              canvas.save(q/f'{sid}_CONTACT.jpg',quality=90)
+              subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(p),'-vf','blackdetect=d=.25:pix_th=.02','-an','-f','null','-'],stdout=subprocess.DEVNULL,stderr=open(q/f'{sid}_black.txt','w'))
+              sha=hashlib.sha256(p.read_bytes()).hexdigest()
+              report['shorts'].append({'id':sid,'duration':dur,'fps':v['r_frame_rate'],'audio':len(aud),'decode_ok':rc==0,'pass':ok,'sha256':sha})
+              if not ok: report['status']='FAIL'
+          (q/'QC.json').write_text(json.dumps(report,indent=2))
+          if report['status']!='PASS': raise SystemExit(report)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shorts-fast-review-chicago
+          path: |
+            /tmp/chi/out
+            /tmp/chi/qc
+          compression-level: 0
+          retention-days: 7
+
+  tc497:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg jq python3-pil zip fonts-dejavu-core
+          mkdir -p /tmp/tc/{out,qc}
+      - name: Download TC497 R14 source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/tc
+          gh release download tc497-r14-remotion-reedit-review-20260923             --repo reverendstanislav-bot/Youtube-2             --pattern 'TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4'
+          mv TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4 source.mp4
+      - name: Render TC497 9x16 reviews
+        run: |
+          set -euo pipefail
+          python3 SHORTS_RENDER/build_ffmpeg.py             --map TC497/SHORTS/shorts_extraction_map.json             --source /tmp/tc/source.mp4 --episode-key tc497 --fps 30             --outdir /tmp/tc/out --qcdir /tmp/tc/qc
+      - name: QC TC497 reviews
+        run: |
+          set -euo pipefail
+          MAP=TC497/SHORTS/shorts_extraction_map.json python3 - <<'PY'
+          import json,os,subprocess,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageFont
+          root=Path('/tmp/tc'); q=root/'qc'; out=root/'out'
+          mp=json.loads(Path(os.environ['MAP']).read_text())
+          report={'episode':'TC497','status':'PASS','shorts':[]}
+          font=ImageFont.load_default()
+          for sh in mp['shorts']:
+              sid=sh['id']; p=out/f'{sid}.mp4'
+              probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
+              v=next(x for x in probe['streams'] if x['codec_type']=='video')
+              aud=[x for x in probe['streams'] if x['codec_type']=='audio']
+              dur=float(probe['format']['duration'])
+              dec=q/f'{sid}_decode.txt'
+              with dec.open('w') as f:
+                  rc=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],stderr=f).returncode
+              ok=(v['width']==1080 and v['height']==1920 and v['r_frame_rate']=='30/1' and bool(aud) and abs(dur-sh['duration_sec'])<.45 and rc==0 and dec.stat().st_size==0)
+              frames=[]
+              for n,frac in enumerate([.06,.24,.42,.60,.78,.94],1):
+                  t=max(.05,min(dur-.05,dur*frac)); jpg=q/f'{sid}_{n}.jpg'
+                  subprocess.run(['ffmpeg','-y','-loglevel','error','-ss',f'{t:.3f}','-i',str(p),'-frames:v','1','-q:v','2',str(jpg)],check=True)
+                  frames.append(jpg)
+              canvas=Image.new('RGB',(1080*3,1920*2),(16,16,16))
+              d=ImageDraw.Draw(canvas)
+              for i,jpg in enumerate(frames):
+                  im=Image.open(jpg).convert('RGB')
+                  x=(i%3)*1080; y=(i//3)*1920
+                  canvas.paste(im,(x,y))
+                  d.rectangle((x,y,x+260,y+42),fill=(10,10,10))
+                  d.text((x+8,y+12),f'{sid} {i+1}/6',fill=(245,245,245),font=font)
+              canvas.thumbnail((1620,1920))
+              canvas.save(q/f'{sid}_CONTACT.jpg',quality=90)
+              subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(p),'-vf','blackdetect=d=.25:pix_th=.02','-an','-f','null','-'],stdout=subprocess.DEVNULL,stderr=open(q/f'{sid}_black.txt','w'))
+              sha=hashlib.sha256(p.read_bytes()).hexdigest()
+              report['shorts'].append({'id':sid,'duration':dur,'fps':v['r_frame_rate'],'audio':len(aud),'decode_ok':rc==0,'pass':ok,'sha256':sha})
+              if not ok: report['status']='FAIL'
+          (q/'QC.json').write_text(json.dumps(report,indent=2))
+          if report['status']!='PASS': raise SystemExit(report)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shorts-fast-review-tc497
+          path: |
+            /tmp/tc/out
+            /tmp/tc/qc
+          compression-level: 0
+          retention-days: 7
+
+  package:
+    needs: [chicago,tc497]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: shorts-fast-review-chicago
+          path: /tmp/all/CHICAGO
+      - uses: actions/download-artifact@v4
+        with:
+          name: shorts-fast-review-tc497
+          path: /tmp/all/TC497
+      - name: Pack review archive
+        run: |
+          set -euo pipefail
+          cd /tmp/all
+          zip -q -r -0 HIA_SHORTS_10_REVIEW.zip CHICAGO TC497
+          sha256sum HIA_SHORTS_10_REVIEW.zip > SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-shorts-10-fast-review
+          path: |
+            /tmp/all/HIA_SHORTS_10_REVIEW.zip
+            /tmp/all/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
