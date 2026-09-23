@@ -28,10 +28,14 @@ R14 corrects those defects using only existing approved assets. No image/video g
 - provenance label must be readable at 1080p.
 - captions are generated directly from word-level timing and must have 100% sequence coverage.
 - approved AAC SHA256 remains `a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed`.
-- outro from 21:08 is textless: one previous-video rectangle + one avatar circle; no captions/provenance.
+- outro from 21:08 is textless and Episode-1-specific: ONE avatar/subscribe circle only; ZERO previous-video/next-video rectangles; no captions/provenance.
 - final picture target: 1920×1080, 25 fps, exactly 32,268 frames, limited-range `yuv420p`.
 
 ### Active workflow
 `.github/workflows/build_chicago_r14_editorial_recut.yml`
 
 R14 remains REVIEW until the rendered file passes visual/editorial QC and explicit user approval.
+
+
+## Episode 1 end-screen correction — 2026-09-23
+The R14 review that contained a video-slot rectangle is rejected. Chicago is the first published episode, therefore there is no previous video to place there. The corrected build must render zero video slots and one subscribe/avatar circle only.
