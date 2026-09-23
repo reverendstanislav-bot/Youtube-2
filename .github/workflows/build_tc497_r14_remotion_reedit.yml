@@ -1,0 +1,376 @@
+name: Build TC497 R14 Remotion Re-edit Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_tc497_r14_remotion_reedit.yml'
+      - 'TC497/R14_REEDIT/**'
+      - 'CHANNEL/PROVENANCE_AND_EDITING_CANON.md'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      TRANSCRIPT_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip
+      V4_WORK: /tmp/tc497_r14/v4work
+      V4_PUBLIC: /tmp/tc497_r14/v4public
+      V4_EXTRA: /tmp/tc497_r14/v4extra
+      ASS_OUT: /tmp/tc497_r14/unused.ass
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install media tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils unzip zip fonts-dejavu-core
+          pip install pillow numpy opencv-python-headless
+
+      - name: Download canonical TC497 packages
+        uses: actions/download-artifact@v4
+        with:
+          name: TC497-CODEX-READY-FULL-v1
+          path: /tmp/pkg_artifact
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35425693962
+          github-token: ${{ github.token }}
+
+      - name: Download approved V9 audio source
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-full-v9-review-fast
+          path: /tmp/v9
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35427554323
+          github-token: ${{ github.token }}
+
+      - name: Prepare source package and transcript
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/tc497_r14 /tmp/pkg
+          mkdir -p /tmp/tc497_r14/{v4work,v4public,v4extra,v5patch,patch,remotion/src,remotion/public,coldwork,qc/stills} /tmp/pkg
+
+          PKG_ZIP="$(find /tmp/pkg_artifact -type f -name 'Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip' | head -n1)"
+          test -n "$PKG_ZIP"
+          unzip -q "$PKG_ZIP" -d /tmp/pkg
+          PKG_ROOT="$(find /tmp/pkg -mindepth 1 -maxdepth 1 -type d | head -n1)"
+          GEN_DIR="$(find "$PKG_ROOT" -type d -name FINAL_62 | head -n1)"
+          test -n "$PKG_ROOT"; test -n "$GEN_DIR"
+          echo "PKG_ROOT=$PKG_ROOT" >> "$GITHUB_ENV"
+          echo "GEN_DIR=$GEN_DIR" >> "$GITHUB_ENV"
+
+          curl -fL --retry 4 --retry-all-errors "$TRANSCRIPT_URL" -o /tmp/tc497_r14/transcript.zip
+          unzip -q /tmp/tc497_r14/transcript.zip -d /tmp/tc497_r14/transcript
+          WORD="$(find /tmp/tc497_r14/transcript -type f -name TC497_VO_WORD_LEVEL.csv | head -n1)"
+          test -s "$WORD"
+          echo "TRANSCRIPT_DIR=$(dirname "$WORD")" >> "$GITHUB_ENV"
+          echo "WORD_CSV=$WORD" >> "$GITHUB_ENV"
+          test -s /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4
+
+      - name: Download retained V13 picture assets
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          src=Path('TC497/FULL_V13/download_assets.py').read_text()
+          src=src.replace("Path('/tmp/v13/v4extra')","Path('/tmp/tc497_r14/v4extra')")
+          src=src.replace("Path('/tmp/v13/v5patch')","Path('/tmp/tc497_r14/v5patch')")
+          src=src.replace("Path('/tmp/v13/patch')","Path('/tmp/tc497_r14/patch')")
+          Path('/tmp/tc497_r14/download_assets.py').write_text(src)
+          PY
+          python3 /tmp/tc497_r14/download_assets.py
+          test -s /tmp/tc497_r14/patch/electric_human_v6.png
+          for f in nuclear_concept_clean.png nuclear_unbuilt_clean.png heavy_lift_logistics_clean.png ground_vs_air_clean.png survivor_detail_clean.png; do
+            test -s "/tmp/tc497_r14/v5patch/$f"
+          done
+
+      - name: Build approved cold open in Remotion with truthful provenance
+        run: |
+          set -euo pipefail
+          export V14_EXTRA=/tmp/tc497_r14/v4extra
+          export V14_PUBLIC=/tmp/tc497_r14/remotion/public
+          export V14_WORK=/tmp/tc497_r14/coldwork
+
+          cp TC497/V14/assets/INTRO_DETAIL.png "$V14_EXTRA/INTRO_DETAIL.png"
+          cp TC497/V14/assets/INTRO_OBSERVERS.png "$V14_EXTRA/INTRO_OBSERVERS.png"
+          cp TC497/V14/assets/INTRO_REVEAL.png "$V14_EXTRA/INTRO_REVEAL.png"
+          unzip -p TC497/V14/TC497_V14_REMOTION_REPORT.zip captions.json > /tmp/tc497_r14/remotion/public/cold_captions.json
+          ffmpeg -y -loglevel error -i TC497/V14/TC497_V14_COLD_OPEN_TARGETED_POLISH.mp4 -vn -ac 2 -ar 48000 -c:a pcm_s16le /tmp/tc497_r14/remotion/public/cold_mix.wav
+
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('TC497/FULL_V13/prep_v13_cold.py').read_text()
+          reps={
+            'scale=900:506:force_original_aspect_ratio=decrease,pad=960:540:(ow-iw)/2:(oh-ih)/2':'scale=1800:1012:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2',
+            'scale=1632:918:force_original_aspect_ratio=increase,crop=1632:918':'scale=3264:1836:force_original_aspect_ratio=increase,crop=3264:1836',
+            'crop=960:540:336:189':'crop=1920:1080:672:378',
+            'scale=1440:810:force_original_aspect_ratio=increase,crop=1440:810':'scale=2880:1620:force_original_aspect_ratio=increase,crop=2880:1620',
+            'crop=960:540:240:135':'crop=1920:1080:480:270',
+            'scale=900:506,pad=960:540:30:17':'scale=1800:1012,pad=1920:1080:60:34',
+          }
+          for a,b in reps.items():
+              if a not in p: raise SystemExit(f'missing cold transform token: {a}')
+              p=p.replace(a,b)
+          Path('/tmp/tc497_r14/prep_cold_1080.py').write_text(p)
+          PY
+          python3 /tmp/tc497_r14/prep_cold_1080.py
+          ! grep -q 'WA-09' /tmp/tc497_r14/coldwork/V14_EDIT_DECISIONS.csv
+
+          python3 - <<'PY'
+          from pathlib import Path
+          src=Path('TC497/FULL_V13/index_v13.jsx').read_text()
+          src=src.replace("import captions from '../public/captions.json';","import captions from '../public/cold_captions.json';")
+          src=src.replace("staticFile('mix.wav')","staticFile('cold_mix.wav')")
+          src=src.replace(">RECONSTRUCTION</div>",">AI RECONSTRUCTION</div>")
+          old="""const Film=()=> <AbsoluteFill style={{background:C.charcoal}}>
+            <OffthreadVideo src={staticFile('base.mp4')} style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+            <Mood/>
+            <ReconBug/>
+            <ArchiveTag/>
+            <Measurement/>
+            <WheelBeat/>
+            <InfoLabels/>
+            <YumaBuild/>
+            <Payoff/>
+            <Title/>
+            <Caption/>
+            <Audio src={staticFile('cold_mix.wav')} volume={1}/>
+          </AbsoluteFill>;
+
+          registerRoot(()=> <Composition id="TC497V14" component={Film} durationInFrames={2478} fps={30} width={960} height={540}/>);"""
+          new="""const UI=()=> <div style={{position:'absolute',left:0,top:0,width:960,height:540,transform:'scale(2)',transformOrigin:'top left'}}>
+            <Mood/><ReconBug/><ArchiveTag/><Measurement/><WheelBeat/><InfoLabels/><YumaBuild/><Payoff/><Title/><Caption/>
+          </div>;
+          const Film=()=> <AbsoluteFill style={{background:C.charcoal}}>
+            <OffthreadVideo src={staticFile('base.mp4')} style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+            <UI/>
+            <Audio src={staticFile('cold_mix.wav')} volume={1}/>
+          </AbsoluteFill>;
+          registerRoot(()=> <Composition id="TC497V14" component={Film} durationInFrames={2478} fps={30} width={1920} height={1080}/>);"""
+          if old not in src: raise SystemExit('cold Film block did not match')
+          Path('/tmp/tc497_r14/cold_index.jsx').write_text(src.replace(old,new))
+          PY
+
+          cp /tmp/tc497_r14/cold_index.jsx /tmp/tc497_r14/remotion/src/cold_index.jsx
+          cp TC497/V14/package.json /tmp/tc497_r14/remotion/cold_package.json
+          cp /tmp/tc497_r14/coldwork/base.mp4 /tmp/tc497_r14/remotion/public/base.mp4
+          cd /tmp/tc497_r14/remotion
+          cp cold_package.json package.json
+          npm install --no-audit --no-fund
+          npx remotion render src/cold_index.jsx TC497V14 cold_out.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p
+          ffmpeg -y -loglevel error -i cold_out.mp4 -t 82.6 -an -c:v copy public/cold_picture_1080.mp4
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 public/cold_picture_1080.mp4)" = "1920"
+          test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 public/cold_picture_1080.mp4)" = "1080"
+
+      - name: Build accepted post-cold visual states and shot map
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          src=Path('TC497/FULL_V4/full_v4_build.py').read_text()
+          src=src.replace('W,H=960,540','W,H=1920,1080')
+          src=src.replace("'scale=960:540,format=yuv420p'","'scale=1920:1080,format=yuv420p'")
+          src=src.replace("('WA-09','wide',6,'wheel_motor',1)","('ST-ELECTRIC','wide',6,'electric_distribution',1)")
+          src=src.replace("('WA-09','detail',4,'wheel_motor',1)","('AR-PATENT','doc_mid',4,'patent_detail',1)",1)
+          src=src.replace("('WA-09','detail',4,'wheel_motor',1)","('WB-L04','wide',4,'tc497_articulation',1)",1)
+          src=src.replace("BLACKLISTED_LEGACY={","BLACKLISTED_LEGACY={'WA-09',")
+          Path('/tmp/tc497_r14/full_v13_states_1080.py').write_text(src)
+          PY
+          python3 /tmp/tc497_r14/full_v13_states_1080.py
+          ! grep -q '"code": "WA-09"' /tmp/tc497_r14/v4public/shots.json
+          test -d /tmp/tc497_r14/v4work/state_images
+
+      - name: Prepare retained V13 override assets
+        run: |
+          set -euo pipefail
+          P=/tmp/tc497_r14/patch
+          cp "$GEN_DIR/WC-Y01.png" "$P/WC-Y01.png"
+          cp "$GEN_DIR/WD-T03.png" "$P/WD-T03.png"
+          cp "$GEN_DIR/WC-D03.png" "$P/WC-D03.png"
+          cp "$GEN_DIR/WC-D05.png" "$P/WC-D05.png"
+          cp "$GEN_DIR/WB-N04.png" "$P/WB-N04.png"
+          cp /tmp/tc497_r14/v5patch/nuclear_concept_clean.png "$P/"
+          cp /tmp/tc497_r14/v5patch/nuclear_unbuilt_clean.png "$P/"
+          cp /tmp/tc497_r14/v5patch/heavy_lift_logistics_clean.png "$P/"
+          cp /tmp/tc497_r14/v5patch/ground_vs_air_clean.png "$P/"
+          cp /tmp/tc497_r14/v5patch/survivor_detail_clean.png "$P/"
+          for f in "$P"/*.png; do test -s "$f"; done
+
+      - name: Build canonical textless HIA end screen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/hia_brand
+          mkdir -p /tmp/hia_brand
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920 --repo reverendstanislav-bot/Youtube-2 --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          BASE="$(find extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          test -s "$BASE"
+          BRAND_BASE="$BASE" python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          import os
+          src=Image.open(os.environ['BRAND_BASE']).convert('RGB')
+          assert src.size==(1920,1080)
+          im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
+          d=ImageDraw.Draw(im); PAPER=(230,221,200); RUST=(165,82,53)
+          rx1,ry1,rx2,ry2=185,350,1015,817
+          d.rounded_rectangle([rx1,ry1,rx2,ry2],radius=6,fill=(22,25,27),outline=PAPER,width=5)
+          d.line([rx1,ry1,rx1+155,ry1],fill=RUST,width=7)
+          cx,cy,r=1425,590,145
+          d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
+          d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],start=208,end=325,fill=RUST,width=6)
+          im.save('/tmp/tc497_r14/remotion/public/end_screen_1080.png')
+          PY
+
+      - name: Prepare phrase-snapped Remotion timeline
+        run: |
+          set -euo pipefail
+          python3 TC497/R14_REEDIT/prepare_remotion_timeline.py \
+            --shots /tmp/tc497_r14/v4public/shots.json \
+            --state-dir /tmp/tc497_r14/v4work/state_images \
+            --word-csv "$WORD_CSV" \
+            --override-dir /tmp/tc497_r14/patch \
+            --public-dir /tmp/tc497_r14/remotion/public \
+            --manifest /tmp/tc497_r14/remotion/public/timeline.json \
+            --captions /tmp/tc497_r14/remotion/public/captions.json \
+            --report /tmp/tc497_r14/qc/PROVENANCE_EDIT_AUDIT.json
+          python3 - <<'PY'
+          import json
+          p=json.load(open('/tmp/tc497_r14/qc/PROVENANCE_EDIT_AUDIT.json'))
+          assert p['historicalOnGenerated']==0
+          assert p['archiveAsReconstruction']==0
+          assert p['status']=='PASS'
+          print(p)
+          PY
+
+      - name: Prepare full Remotion project
+        run: |
+          set -euo pipefail
+          cp TC497/R14_REEDIT/src/index.jsx /tmp/tc497_r14/remotion/src/index.jsx
+          cp TC497/R14_REEDIT/package.json /tmp/tc497_r14/remotion/package.json
+          grep -q 'HISTORICAL SOURCE' TC497/R14_REEDIT/prepare_remotion_timeline.py
+          grep -q 'AI RECONSTRUCTION' TC497/R14_REEDIT/src/index.jsx
+          cd /tmp/tc497_r14/remotion
+          npm install --no-audit --no-fund
+
+      - name: Render provenance and pacing proof stills
+        working-directory: /tmp/tc497_r14/remotion
+        run: |
+          set -euo pipefail
+          npx remotion still src/index.jsx TC497R14Reedit /tmp/tc497_r14/qc/stills/01_cold_reconstruction.png --frame=30
+          npx remotion still src/index.jsx TC497R14Reedit /tmp/tc497_r14/qc/stills/02_document.png --frame=6200
+          npx remotion still src/index.jsx TC497R14Reedit /tmp/tc497_r14/qc/stills/03_archive.png --frame=12050
+          npx remotion still src/index.jsx TC497R14Reedit /tmp/tc497_r14/qc/stills/04_concept.png --frame=21300
+          npx remotion still src/index.jsx TC497R14Reedit /tmp/tc497_r14/qc/stills/05_reconstruction.png --frame=24000
+          npx remotion still src/index.jsx TC497R14Reedit /tmp/tc497_r14/qc/stills/06_end_screen.png --frame=36900
+
+      - name: Render full Remotion-led 1080 review
+        working-directory: /tmp/tc497_r14/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx TC497R14Reedit out/picture.mp4 --codec=h264 --crf=17 --pixel-format=yuv420p --concurrency=4
+
+      - name: Mux approved V9 audio bit-for-bit
+        run: |
+          set -euo pipefail
+          OUT=/tmp/tc497_r14/TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4
+          ffmpeg -y -loglevel error -i /tmp/tc497_r14/remotion/out/picture.mp4 -i /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4 \
+            -map 0:v:0 -map 1:a:0 -c copy -t 1236.533333 -movflags +faststart "$OUT"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Full technical and editorial QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/tc497_r14/qc
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+          W="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 "$OUT")"
+          H="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 "$OUT")"
+          FPS="$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$OUT")"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
+          test "$W" = "1920"; test "$H" = "1080"; test "$FPS" = "30/1"; test "$FRAMES" = "37096"
+
+          ffmpeg -y -loglevel error -i /tmp/v9/TC497_FULL_V9_REVIEW_960x540.mp4 -map 0:a:0 -c copy -f adts "$Q/v9.aac"
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/final.aac"
+          cmp "$Q/v9.aac" "$Q/final.aac"
+          sha256sum "$Q/v9.aac" "$Q/final.aac" > "$Q/AUDIO_SHA256.txt"
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+          python3 - <<'PY'
+          import json
+          p=json.load(open('/tmp/tc497_r14/qc/PROVENANCE_EDIT_AUDIT.json'))
+          assert p['historicalOnGenerated']==0
+          assert p['archiveAsReconstruction']==0
+          assert p['status']=='PASS'
+          assert p['snappedCutsToWordEnds']>=1
+          PY
+
+      - name: Publish R14 review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/tc497_r14
+          zip -q -r TC497_R14_REVIEW_QC.zip qc
+          TAG=tc497-r14-remotion-reedit-review-20260923
+          gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
+          gh release create "$TAG" "$OUT" TC497_R14_REVIEW_QC.zip \
+            --title 'TC497 R14 Remotion Re-edit — REVIEW' \
+            --notes 'REVIEW ONLY, NOT PUBLICATION MASTER. Full post-cold-open picture is rendered from an explicit Remotion beat timeline. Cuts are snapped toward narration word boundaries. HISTORICAL SOURCE is archive only, DOCUMENT is report/patent only, CONCEPT is unbuilt concept only, AI RECONSTRUCTION is generated imagery. Approved V9 audio preserved bit-for-bit.' \
+            --repo reverendstanislav-bot/Youtube-2
+
+      - name: Record R14 review status
+        run: |
+          set -euo pipefail
+          mkdir -p TC497/R14_REEDIT/REVIEW_QC
+          cp /tmp/tc497_r14/qc/PROVENANCE_EDIT_AUDIT.json TC497/R14_REEDIT/REVIEW_QC/
+          cp /tmp/tc497_r14/qc/VIDEO_SHA256.txt TC497/R14_REEDIT/REVIEW_QC/
+          cp /tmp/tc497_r14/qc/AUDIO_SHA256.txt TC497/R14_REEDIT/REVIEW_QC/
+          cat > TC497/R14_REEDIT/REVIEW_QC/STATUS.md <<'EOF'
+          # TC497 R14 review status
+          Status: REVIEW ONLY — NOT APPROVED FOR PUBLICATION.
+          - Full post-cold-open picture timeline: Remotion.
+          - Cut timing nudged to narration word boundaries where safe.
+          - HISTORICAL SOURCE: archive only.
+          - DOCUMENT: verified report/patent only.
+          - CONCEPT: nuclear/unbuilt concept only.
+          - AI RECONSTRUCTION: generated/reconstructed visuals.
+          - Approved V9 audio preserved bit-for-bit.
+          - Accepted V13 corrections and textless end screen retained.
+          - User visual review required before promotion.
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TC497/R14_REEDIT/REVIEW_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Record TC497 R14 Remotion re-edit review QC"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc497-r14-remotion-reedit-review-1080
+          path: |
+            /tmp/tc497_r14/TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4
+            /tmp/tc497_r14/qc
+          retention-days: 14
