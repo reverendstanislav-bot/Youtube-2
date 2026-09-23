@@ -138,7 +138,7 @@ jobs:
         run: |
           set -euo pipefail
           M=TC497/FULL_V13/asset_urls.json
-          for n in V3_ASSEMBLY.png V2_TRACTION.png V3_COUPLING.png V2_DISTRIBUTION.png V2_POWERTRAIN.png V4_WHEEL_ALT.png V2_ELECTRIC_HERO.png V2_PREDECESSOR_EARLY.png V2_PREDECESSOR_MIL.png; do
+          for n in V3_ASSEMBLY.png V2_TRACTION.png V3_COUPLING.png V2_DISTRIBUTION.png V2_POWERTRAIN.png V4_WHEEL_ALT.png V3_WHEEL_MOTION.png V2_ELECTRIC_HERO.png V2_PREDECESSOR_EARLY.png V3_PREDECESSOR.png; do
             url="$(jq -r --arg n "$n" '.v4_extra[$n] // empty' "$M")"
             test -n "$url" || { echo "NO URL $n" >&2; exit 1; }
             curl -fL --retry 4 --retry-all-errors "$url" -o "/tmp/tc/assets/$n"
