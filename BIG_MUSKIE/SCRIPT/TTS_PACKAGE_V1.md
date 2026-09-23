@@ -1,6 +1,6 @@
 # BIG MUSKIE — TTS PACKAGE V1
 
-Status: **PREFLIGHT COMPLETE — AWAITING EXPLICIT USER APPROVAL FOR CREDIT SPEND**
+Status: **GENERATED WITH CANONICAL ARTHUR — TECHNICAL QC PASS**
 
 Canonical narration: `SCRIPT/NARRATION_V3_EN_REVIEW.md`  
 Spoken-only text: `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`  
@@ -82,6 +82,11 @@ On 2026-09-23 an incorrect Alexey batch was submitted without explicit user cred
 - additional defect: chapter headings were spoken in those jobs.
 - status: **REJECTED / NON-CANONICAL / NEVER ASSEMBLE INTO MASTER**
 
-## Next gate
+## Generation result
 
-Show the user the exact **56.25-credit** Arthur cost and wait for explicit approval. Do not submit any TTS job before that approval.
+The user explicitly approved **56.25 credits** for the four Arthur chunks.
+
+All four jobs completed successfully. Exact job IDs, URLs, hashes, durations and master QC are recorded in:
+`SCRIPT/TTS_GENERATION_MANIFEST_V1.md`.
+
+No additional paid generation is authorized.

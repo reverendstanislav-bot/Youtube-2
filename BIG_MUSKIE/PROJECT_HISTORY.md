@@ -117,3 +117,17 @@ Future history entries must record:
 - Restored the hard production rule: **cost preflight → exact total shown to user → explicit approval → generation**.
 - Current approved spend for corrected TTS: **0.00 credits**.
 
+## 2026-09-23 — Canonical Arthur TTS generated
+
+- User explicitly approved the corrected four-chunk Arthur batch at **56.25 credits**.
+- Immediately before submission, cost preflight reconfirmed **14.55 + 14.55 + 14.55 + 12.60 = 56.25 credits**.
+- Submitted exactly four paid jobs, all using Arthur preset `30fc8796-ceb6-4a66-b3a7-4a145ef7f346` with ElevenLabs.
+- All four completed successfully; no retry or additional paid generation was submitted.
+- Provider durations: 374.48 / 374.16 / 370.48 / 306.48 s.
+- Download/decode QC: PASS.
+- Canonical decoded PCM timeline runtime: **1425.722458 s = 23:45.722**.
+- Source VO measured at approximately **-14.47 LUFS**, true peak **-0.42 dBTP**, LRA **3.40 LU**. No normalization was rendered at this stage.
+- Added `SCRIPT/TTS_GENERATION_MANIFEST_V1.md` with job IDs, URLs, hashes and master hashes.
+- Next: free word-level alignment + continuity/pronunciation QC, then Stage 7 visual beat map.
+- No additional paid generation is authorized.
+

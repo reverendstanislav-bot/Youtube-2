@@ -1,6 +1,6 @@
 # BIG MUSKIE — TTS CHUNK MANIFEST V1
 
-Status: **CORRECTED PREFLIGHT COMPLETE — AWAITING EXPLICIT CREDIT APPROVAL**
+Status: **GENERATED — SEE TTS_GENERATION_MANIFEST_V1.md**
 
 Source narration: `SCRIPT/NARRATION_V3_EN_REVIEW.md`  
 Source narration blob SHA: `8dd9b3cd12e8e5471d86d591fbbb3be33a138c1a`  
@@ -32,10 +32,14 @@ Spoken-only file: `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`
 | 04 | 4154 | 670 | 12.60 credits |
 
 **Estimated total: 56.25 credits.**  
-**Approved spend: 0.00 credits.**
+**Approved batch: 56.25 credits.**
 
-## Hard gate
+## Generation status
 
-Do not generate until the user explicitly approves the **56.25-credit** spend after seeing this estimate.
+The user explicitly approved this exact **56.25-credit** batch.
 
-The earlier 57.00-credit Alexey batch is rejected and non-canonical.
+The four canonical Arthur jobs were generated successfully. See `SCRIPT/TTS_GENERATION_MANIFEST_V1.md` for exact job IDs, URLs, durations and hashes.
+
+Any further paid generation requires a new cost preflight and new explicit approval.
+
+The earlier 57.00-credit Alexey batch remains rejected and non-canonical.

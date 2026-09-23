@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 6 LOCKED — CORRECT ARTHUR TTS PREFLIGHT COMPLETE; AWAITING EXPLICIT CREDIT APPROVAL**  
-Publication status: **SCRIPT / PREPRODUCTION ONLY — NO AUDIO MASTER, EDIT, RC, OR PUBLICATION CANDIDATE YET**
+State: **ARTHUR TTS GENERATED — TECHNICAL QC PASS — WORD-LEVEL ALIGNMENT / STAGE 7 PREP NEXT**  
+Publication status: **PREPRODUCTION — CANONICAL ARTHUR VO GENERATED; NO EDIT, RC, OR PUBLICATION CANDIDATE YET**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -186,11 +186,6 @@ Canonical Stage 6 files:
 - `SCRIPT/SHORTS_EXTRACTION_MAP_V2.md`
 - `SCRIPT/TTS_PACKAGE_V1.md`
 
-Important preflight finding:
-- the current `NARRATION_V3_EN_TTS_CLEAN.txt` is **not yet clean enough for production**;
-- it still contains the Stage 6 status/header text at the beginning and the non-spoken end-screen instruction at the end;
-- rebuild it from V3 as spoken narration only before generating audio.
-
 ## TTS lock / current next stage
 
 Canonical Hidden Industrial America / YouTube-2 voice: **Arthur**.
@@ -206,13 +201,17 @@ Verification:
 - TC-497 historical narration jobs use the same Arthur preset and ElevenLabs engine.
 - Alexey was incorrectly introduced into Big Muskie metadata on 2026-09-23 and is rejected for YouTube-2.
 
-Correct spoken-only V3 preflight:
+Correct spoken-only V3:
 - characters: **18657**
 - chunks: **4826 / 4844 / 4827 / 4154**
 - all chunks <5000 characters;
-- no chapter headings or production notes;
-- Arthur estimated cost: **56.25 credits**;
-- current approved spend for this corrected batch: **0.00 credits**.
+- no chapter headings or production notes.
+
+User explicitly approved **56.25 credits** for the four Arthur chunks. The four jobs were generated successfully and no additional paid jobs were submitted.
+
+Canonical decoded VO runtime: **23:45.722**.
+
+See: `SCRIPT/TTS_GENERATION_MANIFEST_V1.md`.
 
 ### Mandatory spend gate
 
@@ -337,25 +336,23 @@ Final captions:
 
 ## Immediate next action
 
-**STOP AT CREDIT APPROVAL GATE**
+**WORD-LEVEL ALIGNMENT / CONTINUITY QC — FREE PROCESSING ONLY**
 
-Correct Arthur/ElevenLabs preflight is complete: **56.25 credits estimated**.
+Canonical Arthur TTS is generated.
 
-Do not submit any TTS generation until the user explicitly approves this spend.
+Next:
+1. align the exact V3 text against the exact Arthur VO master;
+2. generate word-level timestamps/transcript;
+3. verify pronunciation and continuity at all chunk joins;
+4. lock exact runtime and transcript hashes;
+5. build Stage 7 visual beat map against real VO timestamps.
 
-After explicit approval:
-1. submit the four locked Arthur chunks;
-2. capture job IDs, results and actual spend;
-3. continuity/pronunciation QC;
-4. assemble canonical audio master;
-5. exact runtime + word-level timing;
-6. commit audio/timing manifest;
-7. Stage 7 visual beat map.
+No additional paid generation is authorized. Any future paid operation requires a new exact cost preflight and explicit user approval.
 
 After each major stage record:
 - what was completed;
 - what was checked;
 - commit SHA;
-- actual credits spent;
-- exact runtime once available;
+- actual approved credits;
+- exact runtime;
 - next concrete step.
