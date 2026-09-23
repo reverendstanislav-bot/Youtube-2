@@ -1,0 +1,13 @@
+{
+  "visualBeats": 205,
+  "originalPlanBeats": 207,
+  "mergedDuplicateVisualCuts": 2,
+  "provenanceCounts": {
+    "AI RECONSTRUCTION": 154,
+    "HISTORICAL SOURCE": 51
+  },
+  "historicalOnNonHistorical": 0,
+  "reconstructionWithoutAIReconstruction": 0,
+  "archiveMotionNonStatic": 0,
+  "status": "PASS"
+}
