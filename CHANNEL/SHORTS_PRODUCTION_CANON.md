@@ -64,3 +64,15 @@ Never mark a Short APPROVED based only on technical QC.
 - Do not stack a "full" view and a second "detail" copy of the same image at the same time.
 - Preserve the source long-form provenance label when it is visible; do not add a second provenance label over the same frame.
 - The rejected two-panel Shorts package from 2026-09-23 is superseded by the V3 single-panel system.
+
+## Clean-source vertical rebuild rule
+
+The rejected V3/V4/V5 Shorts proved that mechanically cropping the finished 16:9 long-form master is not an acceptable vertical workflow.
+
+- Do not use the finished 16:9 long-form master as the primary Shorts picture source.
+- Long-form audio/word timing may be source-locked, but picture must be rebuilt from clean underlying archive / document / reconstruction / GFX assets.
+- Every Short gets a semantic visual plan: the picture shown must directly explain the narration at that moment.
+- The opening hook must show the actual subject immediately; no abstract wheel/tire/texture crop under a machine-scale title.
+- Full-bleed 9:16 is allowed only when the clean asset supports a meaningful portrait crop.
+- Wide machines, maps and documents require a curated pan/reframe or a purpose-built editorial composition; never a blind center crop.
+- Scale from one proof Short first. Do not batch-render all episode Shorts until the proof visual language passes human visual review.
