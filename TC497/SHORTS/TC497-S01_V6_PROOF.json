@@ -1,0 +1,70 @@
+{
+  "id": "TC497-S01",
+  "fps": 30,
+  "title": "THE ARMY BUILT A 572-FOOT TRAIN WITH NO TRACKS",
+  "segments": [
+    {
+      "out_start": 0,
+      "out_end": 5.8,
+      "visual_source_in": 7.2,
+      "mode": "wide",
+      "direction": "lr",
+      "label": "LETOURNEAU TC-497",
+      "metric": "572-FOOT OVERLAND TRAIN"
+    },
+    {
+      "out_start": 5.8,
+      "out_end": 13.2,
+      "visual_source_in": 13.8,
+      "mode": "wide",
+      "direction": "lr",
+      "label": "SCALE",
+      "metric": "13 CONNECTED UNITS"
+    },
+    {
+      "out_start": 13.2,
+      "out_end": 21.8,
+      "visual_source_in": 20.8,
+      "mode": "wide",
+      "direction": "rl",
+      "label": "DRIVE SYSTEM",
+      "metric": "54 DRIVEN WHEELS"
+    },
+    {
+      "out_start": 21.8,
+      "out_end": 30.8,
+      "visual_source_in": 27.6,
+      "mode": "wide",
+      "direction": "lr",
+      "label": "PAYLOAD",
+      "metric": "~150 TONS OF CARGO"
+    },
+    {
+      "out_start": 30.8,
+      "out_end": 39.8,
+      "visual_source_in": 34.8,
+      "mode": "portrait",
+      "x": 0.45,
+      "label": "",
+      "metric": ""
+    },
+    {
+      "out_start": 39.8,
+      "out_end": 47.4,
+      "visual_source_in": 41.8,
+      "mode": "wide",
+      "direction": "rl",
+      "label": "MISSION",
+      "metric": "NO RAILROAD REQUIRED"
+    },
+    {
+      "out_start": 47.4,
+      "out_end": 53.88,
+      "visual_source_in": 48.4,
+      "mode": "wide",
+      "direction": "lr",
+      "label": "TC-497 OVERLAND TRAIN",
+      "metric": "BUILT FOR ROADLESS TERRAIN"
+    }
+  ]
+}
