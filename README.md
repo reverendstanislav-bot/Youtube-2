@@ -4,7 +4,7 @@ Production repository for **Hidden Industrial America**.
 
 ## Episodes
 
-- `CHICAGO/` — Episode 1. Current active build: **R13 Remotion provenance re-edit review**. The earlier textless 1080 master is withdrawn and must not be uploaded.
+- `CHICAGO/` — Episode 1. Current active build: **R14 editorial recut review**. The earlier textless 1080 master is withdrawn and must not be uploaded.
 - `TC497/` — Episode 2. Current active build: **R14 Remotion re-edit review**. The earlier V13 textless 1080 master is withdrawn and must not be uploaded.
 - `BIG_MUSKIE/` — Episode 3. Big Muskie / Bucyrus-Erie 4250-W. Research/preproduction continues separately.
 - Episode 4 — Satsop Nuclear Plant.
@@ -13,7 +13,7 @@ Production repository for **Hidden Industrial America**.
 ## Active production workflows
 
 Only two episode render workflows are active:
-- `.github/workflows/build_chicago_r13_remotion_reedit.yml`
+- `.github/workflows/build_chicago_r14_editorial_recut.yml`
 - `.github/workflows/build_tc497_r14_remotion_reedit.yml`
 
 Legacy build/review workflows were removed from the current tree. They remain available through Git history if ever needed for forensic recovery.
