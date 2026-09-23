@@ -63,7 +63,7 @@
       "asset": "V3_DUNE_LIMIT.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "WHERE ROADS DIDN'T EXIST",
+      "metric": "WHERE ROADS DID NOT EXIST",
       "provenance": "AI RECONSTRUCTION"
     },
     {
