@@ -66,18 +66,19 @@ def build(plan,mapj,asset_dir,audio_source,out,qc):
         inputs += ["-loop","1","-framerate",str(fps),"-t",f"{segdur:.3f}","-i",str(asset)]
 
         # Full-bleed vertical crop from CLEAN source asset, never from caption-burned long-form video.
-        # A 608px crop maps 1920x1080 -> exact 9:16.
+        # Crop width is derived from actual input height, so 1344x752 and 1920x1080 both work.
         x=seg.get("x",.5)
         motion=seg.get("motion","static")
+        cropw="ih*9/16"
         if motion=="scan_lr":
-            xexpr=f"(iw-608)*min(1,max(0,t/{max(.2,segdur):.3f}))"
+            xexpr=f"(iw-ow)*min(1,max(0,t/{max(.2,segdur):.3f}))"
         elif motion=="scan_rl":
-            xexpr=f"(iw-608)*(1-min(1,max(0,t/{max(.2,segdur):.3f})))"
+            xexpr=f"(iw-ow)*(1-min(1,max(0,t/{max(.2,segdur):.3f})))"
         else:
-            xexpr=f"(iw-608)*{float(x):.3f}"
+            xexpr=f"(iw-ow)*{float(x):.3f}"
 
         vf=(
-            f"crop=608:1080:x='{xexpr}':y=0,"
+            f"crop={cropw}:ih:x='{xexpr}':y=0,"
             "scale=1080:1920:flags=lanczos,"
             "drawbox=x=0:y=1450:w=1080:h=470:color=0x171A1C@0.76:t=fill,"
             "drawbox=x=0:y=1660:w=1080:h=260:color=0x171A1C@0.94:t=fill,"
