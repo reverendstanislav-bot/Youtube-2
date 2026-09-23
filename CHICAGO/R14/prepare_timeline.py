@@ -165,14 +165,14 @@ def main():
                 "view":view_for(kind,s.get("variant",""),sub,subcount),
                 "motion":motion_for(kind,sub,subcount,dur),
                 "provenance":prov,
-                "showProvenance":bool(prov and (sub==0 or source_change)),
+                "showProvenance":bool(prov and sub==0 and source_change),
                 "durationSec":round(dur,3),
                 "splitFromLongBeat":subcount>1,
                 "text":s.get("text",""),"chapter":s.get("chapter",""),
                 "explainer":s.get("explainer",""),"phase":s.get("phase",0),
             }
             out.append(row)
-            prev_asset=str(s["asset"]); prev_kind=kind
+        prev_asset=str(s["asset"]); prev_kind=norm_kind(s.get("kind"))
 
     if not out or out[0]["a"]!=0 or out[-1]["b"]!=TOTAL_FRAMES:
         raise RuntimeError(f"bad coverage endpoints: {out[0]['a'] if out else None}..{out[-1]['b'] if out else None}")
