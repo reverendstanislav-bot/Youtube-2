@@ -93,7 +93,19 @@ def drawtext_filter(text,x,y,size,color="white"):
         "shadowcolor=black@0.85:shadowx=2:shadowy=2"
     )
 
-def visual_filter():
+def provenance_label(beat):
+    raw=str(beat.get("provenance","")).strip()
+    # Only render a provenance tag when the extraction map is unambiguous.
+    # Ambiguous instructions such as "match source visual" defer to the source frame.
+    if "/" in raw or "if verified" in raw.lower() or "match source" in raw.lower() or "→" in raw:
+        return ""
+    u=raw.upper()
+    for label in ("HISTORICAL SOURCE","AI RECONSTRUCTION","DOCUMENT","CONCEPT"):
+        if u==label or u.startswith(label+" "):
+            return label
+    return ""
+
+def visual_filter(beat):
     # One decode -> two visual branches:
     # 1) full-width context panel keeps the original long-form provenance area visible;
     # 2) centered detail panel makes the 9:16 composition visually dense.
@@ -107,6 +119,10 @@ def visual_filter():
         f"drawbox=x=0:y=1254:w=1080:h=666:color={CHARCOAL}@0.94:t=fill,"
         f"drawbox=x=54:y=1254:w=972:h=5:color={ORANGE}:t=fill,"
         +drawtext_filter("HIDDEN INDUSTRIAL AMERICA","54","72","24","white")
+        +(
+            ","+drawtext_filter(provenance_label(beat),"54","112","22","0xF3EBDD")
+            if provenance_label(beat) else ""
+        )
     )
 
 def build_short(short,source,outdir,qcdir):
@@ -129,7 +145,7 @@ def build_short(short,source,outdir,qcdir):
 
     fc=[]; labels=[]
     for i,_ in enumerate(beats):
-        vf=visual_filter()
+        vf=visual_filter(b)
         fc.append(f"[{i}:v]{vf},fps={fps},setsar=1[v{i}]")
         labels.append(f"[v{i}]")
     fc.append("".join(labels)+f"concat=n={len(beats)}:v=1:a=0[vc]")
