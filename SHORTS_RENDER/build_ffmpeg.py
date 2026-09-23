@@ -144,7 +144,7 @@ def build_short(short,source,outdir,qcdir):
     cmd += ["-ss",f"{float(short['source_in_sec']):.3f}","-t",f"{float(short['duration_sec']):.3f}","-i",str(source)]
 
     fc=[]; labels=[]
-    for i,_ in enumerate(beats):
+    for i,b in enumerate(beats):
         vf=visual_filter(b)
         fc.append(f"[{i}:v]{vf},fps={fps},setsar=1[v{i}]")
         labels.append(f"[v{i}]")
