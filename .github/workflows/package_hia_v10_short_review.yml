@@ -1,0 +1,131 @@
+name: Package HIA 10 Shorts V10 Review
+
+on:
+  push:
+    paths:
+      - '.github/workflows/package_hia_v10_short_review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: hia-v10-review-package
+  cancel-in-progress: true
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download TC497-S01 V10 canonical proof
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-s01-v10-style-bible-proof
+          path: /tmp/src/TC497-S01
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35922055313
+          github-token: ${{ github.token }}
+
+      - name: Download CHI-S01 V10 gate proof
+        uses: actions/download-artifact@v4
+        with:
+          name: chi-s01-v10-proof
+          path: /tmp/src/CHI-S01
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35922628077
+          github-token: ${{ github.token }}
+
+      - name: Download TC497-S02 V10 gate proof
+        uses: actions/download-artifact@v4
+        with:
+          name: tc497-s02-v10-proof
+          path: /tmp/src/TC497-S02
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35922628077
+          github-token: ${{ github.token }}
+
+      - name: Download Chicago S02-S05 latest V10 reviews
+        uses: actions/download-artifact@v4
+        with:
+          name: hia-v10-chicago-s02-s05-review
+          path: /tmp/src/CHI-BATCH
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35924011280
+          github-token: ${{ github.token }}
+
+      - name: Download TC497 S03-S05 latest V10 reviews
+        uses: actions/download-artifact@v4
+        with:
+          name: hia-v10-tc497-s03-s05-review
+          path: /tmp/src/TC-BATCH
+          repository: reverendstanislav-bot/Youtube-2
+          run-id: 35924011280
+          github-token: ${{ github.token }}
+
+      - name: Build review package
+        run: |
+          set -euo pipefail
+          ROOT=/tmp/pkg/HIA_SHORTS_V10_REVIEW
+          mkdir -p "$ROOT"/{CHICAGO,TC497,QC/CHICAGO,QC/TC497,PLANS/CHICAGO,PLANS/TC497}
+
+          find /tmp/src/CHI-S01 -type f -name 'CHI-S01_V10_PROOF.mp4' -exec cp {} "$ROOT/CHICAGO/CHI-S01_V10_REVIEW.mp4" \;
+          find /tmp/src/TC497-S01 -type f -name 'TC497-S01_V10_STYLE_BIBLE_PROOF.mp4' -exec cp {} "$ROOT/TC497/TC497-S01_V10_REVIEW.mp4" \;
+          find /tmp/src/TC497-S02 -type f -name 'TC497-S02_V10_PROOF.mp4' -exec cp {} "$ROOT/TC497/TC497-S02_V10_REVIEW.mp4" \;
+
+          cp /tmp/src/CHI-BATCH/out/*_V10_REVIEW.mp4 "$ROOT/CHICAGO/"
+          cp /tmp/src/TC-BATCH/out/*_V10_REVIEW.mp4 "$ROOT/TC497/"
+
+          find /tmp/src/CHI-S01 -type f -name 'CONTACT.jpg' -exec cp {} "$ROOT/QC/CHICAGO/CHI-S01_CONTACT.jpg" \;
+          find /tmp/src/TC497-S01 -type f -name 'CONTACT.jpg' -exec cp {} "$ROOT/QC/TC497/TC497-S01_CONTACT.jpg" \;
+          find /tmp/src/TC497-S02 -type f -name 'CONTACT.jpg' -exec cp {} "$ROOT/QC/TC497/TC497-S02_CONTACT.jpg" \;
+          cp /tmp/src/CHI-BATCH/qc/*_CONTACT.jpg "$ROOT/QC/CHICAGO/"
+          cp /tmp/src/TC-BATCH/qc/*_CONTACT.jpg "$ROOT/QC/TC497/"
+
+          cp CHICAGO/SHORTS/shorts_extraction_map.json CHICAGO/SHORTS/SHORTS_EXTRACTION_MAP.md "$ROOT/PLANS/CHICAGO/"
+          cp TC497/SHORTS/shorts_extraction_map.json TC497/SHORTS/SHORTS_EXTRACTION_MAP.md "$ROOT/PLANS/TC497/"
+          cp CHICAGO/SHORTS/*_V10*.json "$ROOT/PLANS/CHICAGO/" 2>/dev/null || true
+          cp TC497/SHORTS/*_V10*.json "$ROOT/PLANS/TC497/" 2>/dev/null || true
+
+          test "$(find "$ROOT/CHICAGO" -type f -name '*.mp4' | wc -l)" = "5"
+          test "$(find "$ROOT/TC497" -type f -name '*.mp4' | wc -l)" = "5"
+
+          cat > "$ROOT/STATUS.txt" <<'EOF'
+          HIDDEN INDUSTRIAL AMERICA — SHORTS V10 REVIEW PACK
+          10 vertical Shorts: 5 Chicago + 5 TC-497.
+          Visual system: clean-source semantic rebuild; one primary visual plane; no horizontal travel; only restrained hero push-ins.
+          Captions: white base, orange active word, max two balanced lines, mobile-safe.
+          Provenance: verified archive/document labels only where source class is known; generated visuals labeled AI RECONSTRUCTION; unbuilt nuclear visuals labeled CONCEPT.
+          Technical QC: 1080x1920, episode-native fps, decode checks passed on source artifacts.
+          Human visual QC: representative gate passed; remaining seven contact sheets reviewed and corrected before this package.
+          PUBLICATION STATUS: REVIEW ONLY — AWAITING USER VISUAL APPROVAL.
+          EOF
+
+          cd "$ROOT"
+          find CHICAGO TC497 -type f -name '*.mp4' -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+          cd /tmp/pkg
+          zip -q -r -0 HIA_SHORTS_V10_REVIEW_10.zip HIA_SHORTS_V10_REVIEW
+          sha256sum HIA_SHORTS_V10_REVIEW_10.zip > HIA_SHORTS_V10_REVIEW_10.zip.sha256
+          ls -lh HIA_SHORTS_V10_REVIEW_10.zip
+
+      - name: Publish V10 review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/pkg
+          TAG=hia-shorts-v10-review-20260923
+          gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
+          gh release create "$TAG"             HIA_SHORTS_V10_REVIEW_10.zip             HIA_SHORTS_V10_REVIEW_10.zip.sha256             --title 'HIA — 10 Shorts V10 Review Pack'             --notes 'REVIEW ONLY. 10 vertical Shorts (5 Chicago + 5 TC-497) rebuilt from clean source assets under the approved V10 visual system. No horizontal travel, restrained push-ins only, safe white/orange captions, truthful provenance. Awaiting user visual approval before final masters/publication.'             --repo reverendstanislav-bot/Youtube-2
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-shorts-v10-review-10
+          path: |
+            /tmp/pkg/HIA_SHORTS_V10_REVIEW_10.zip
+            /tmp/pkg/HIA_SHORTS_V10_REVIEW_10.zip.sha256
+          compression-level: 0
+          retention-days: 14
