@@ -29,6 +29,10 @@ Research / evidence / source ledger → audience angle → packaging hypothesis 
 - Do not spend image-generation credits before the script, beat map, archive/download/generate/GFX classification, full prompt pack, exact generation count, and budget are reviewed.
 - Shorts are designed while writing the long-form, with self-contained hooks/payoffs and extraction markers.
 
+## Canonical provenance/editing rule
+
+See `CHANNEL/PROVENANCE_AND_EDITING_CANON.md`. It is mandatory and overrides stale episode notes. In particular, `HISTORICAL SOURCE` is allowed only on the actual verified historical visual currently on screen; AI/generated reconstructions must be labeled `AI RECONSTRUCTION`.
+
 ## Canonical caption rule
 
 For new production, unless a later explicit approval changes it:
