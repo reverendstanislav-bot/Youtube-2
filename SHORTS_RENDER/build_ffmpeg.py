@@ -53,7 +53,7 @@ def active_text(group,active):
     for i,w in enumerate(group):
         token=ass_escape(w["w"])
         if i==active:
-            token=r"{\c&H003AF2&}"+token+r"{\c&HFFFFFF&}"
+            token=r"{\c&H003A8AF2&}"+token+r"{\c&HFFFFFF&}"
         if split is not None and i==split:
             token=r"\N"+token
         chunks.append(token)
@@ -69,7 +69,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Cap,DejaVu Sans,64,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.2,1.4,2,82,82,330,1
+Style: Cap,DejaVu Sans,68,&H00FFFFFF,&H00FFFFFF,&H00101416,&H90000000,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,78,78,285,1
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
@@ -106,23 +106,41 @@ def provenance_label(beat):
     return ""
 
 def visual_filter(beat):
-    # One decode -> two visual branches:
-    # 1) full-width context panel keeps the original long-form provenance area visible;
-    # 2) centered detail panel makes the 9:16 composition visually dense.
-    # The source bottom 180 px is removed before both branches, eliminating baked long-form captions.
-    return (
-        "crop=iw:ih-180:0:0,split=2[full][detail];"
-        "[full]scale=1080:506:flags=lanczos,"
-        f"pad=1080:1920:0:170:color={CHARCOAL}[base];"
-        "[detail]crop=1500:750:210:40,scale=1080:540:flags=lanczos[det];"
-        "[base][det]overlay=0:760,"
-        f"drawbox=x=0:y=1254:w=1080:h=666:color={CHARCOAL}@0.94:t=fill,"
-        f"drawbox=x=54:y=1254:w=972:h=5:color={ORANGE}:t=fill,"
-        +drawtext_filter("HIDDEN INDUSTRIAL AMERICA","54","72","24","white")
-        +(
-            ","+drawtext_filter(provenance_label(beat),"54","112","22","0xF3EBDD")
-            if provenance_label(beat) else ""
+    # V2 vertical design: ONE crisp source image only.
+    # The previous layout duplicated the same landscape frame into two visible panels.
+    # That is explicitly forbidden now.
+    desc=(str(beat.get("visual",""))+" "+str(beat.get("action",""))+" "+str(beat.get("provenance",""))).lower()
+    keep_full=bool(re.search(
+        r"map|document|patent|publication|diagram|network|top-down|572|13 units|full.machine|long.profile|route|metric|gauge|archive|historical source",
+        desc
+    ))
+
+    # Always remove the burned-in long-form caption strip.
+    # Wide evidence shots preserve the full horizontal source.
+    # Other shots get only a mild centered crop, never a second copy.
+    if keep_full:
+        picture=(
+            "crop=iw:ih-180:0:0,"
+            "scale=1040:-2:flags=lanczos,"
+            "pad=1080:620:20:(620-ih)/2:color=0x171A1C"
         )
+    else:
+        picture=(
+            "crop=1560:900:180:0,"
+            "scale=1080:623:flags=lanczos"
+        )
+
+    # Neutral industrial background; no blurred duplicate of the source.
+    # One warm-paper outline and one rust rule are the only framing devices.
+    y=276 if keep_full else 268
+    panel_h=620 if keep_full else 623
+    return (
+        f"color=c={CHARCOAL}:s=1080x1920:r=30[bg];"
+        f"[in]{picture}[pic];"
+        f"[bg][pic]overlay=0:{y},"
+        f"drawbox=x=20:y={y}:w=1040:h={panel_h}:color=0xF3EBDD@0.28:t=2,"
+        f"drawbox=x=54:y=1018:w=972:h=5:color={ORANGE}:t=fill,"
+        f"drawbox=x=0:y=1023:w=1080:h=897:color={CHARCOAL}@0.98:t=fill"
     )
 
 def build_short(short,source,outdir,qcdir):
@@ -146,7 +164,7 @@ def build_short(short,source,outdir,qcdir):
     fc=[]; labels=[]
     for i,b in enumerate(beats):
         vf=visual_filter(b)
-        fc.append(f"[{i}:v]{vf},fps={fps},setsar=1[v{i}]")
+        fc.append(f"[{i}:v]null[in];{vf},fps={fps},setsar=1[v{i}]")
         labels.append(f"[v{i}]")
     fc.append("".join(labels)+f"concat=n={len(beats)}:v=1:a=0[vc]")
     fc.append(f"[vc]ass='{ass.as_posix()}'[vout]")
