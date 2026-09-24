@@ -372,3 +372,12 @@ Future history entries must record:
 - This is REVIEW ONLY, not RC and not a publication candidate.
 - Next: end-to-end directorial picture QC and V2 picture-only fixes before captions/music/SFX.
 
+## 2026-09-24 — cinematic GFX replacement QC
+
+- Replaced the weak wireframe/placeholder-slide family with 10 cinematic test frames.
+- QC result: **6 PASS / 0 HOLD / 4 REJECT**.
+- PASS: FX001, FX002, FX036, FX045, FX047, FX049.
+- REJECT: FX013 and FX016 for crawler-track geometry; FX033 for crawler geometry plus unsupported truck-equivalence implication; FX048 for overly literal explosive/dismantling imagery.
+- Six PASS frames may enter Picture V2.
+- Four rejects must be regenerated and re-QC'd before V2 patch.
+

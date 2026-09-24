@@ -7,7 +7,7 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **FULL PICTURE ASSEMBLY V1 RENDERED — TECHNICAL QC PASS — DIRECTORIAL PICTURE QC NEXT**  
+State: **PICTURE V1 DIRECTORIAL QC IN PROGRESS — CINEMATIC GFX CLEANUP: 6 PASS / 4 REJECT**  
 Publication status: **REVIEW ONLY — PICTURE V1 IS NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,27 +336,34 @@ Final captions:
 
 ## Immediate next action
 
-**DIRECTORIAL PICTURE-ONLY QC OF FULL V1**
+**REGENERATE 4 REJECTED CINEMATIC GFX → QC → PATCH PICTURE V2**
 
-Rendered:
-- `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V1_1080P.mp4`
-- **1920×1080 / 25 fps / 23:46.400**
-- **35,660 frames**
-- Arthur VO only
-- captions: none
-- music: none
-- SFX: none
-- hard cuts only
-- SHA-256: `f9358f4d85709ae4910a7565dc2549f344aa6ef305179d579e89996189ea35f1`
-- technical QC: **PASS**
+Latest cinematic GFX cleanup QC:
+- generated: **10**
+- PASS: **6**
+- HOLD: **0**
+- REJECT: **4**
 
-Canonical assembly records:
-- `ASSEMBLY_V1/FINAL_MEDIA_MAPPING_V1.md`
-- `ASSEMBLY_V1/PICTURE_ASSEMBLY_V1_QC.md`
+PASS:
+- FX001
+- FX002
+- FX036
+- FX045
+- FX047
+- FX049
+
+REJECT:
+- FX013 — crawler-track geometry
+- FX016 — crawler-track geometry
+- FX033 — crawler-track geometry + unsupported truck equivalence
+- FX048 — overly literal/explosive dismantling imagery
+
+Canonical QC:
+- `GFX/CINEMATIC_GFX_REPLACEMENT_QC_V1.md`
 
 Next:
-1. watch/audit the actual V1 end-to-end;
-2. flag weak/repetitive/incorrect picture beats;
-3. apply picture fixes and restrained editorial motion only where useful;
-4. render V2 picture-only;
-5. only after picture approval add provenance labels, captions, music and SFX.
+1. regenerate exactly FX013 / FX016 / FX033 / FX048 under the stricter geometry/factual locks;
+2. QC those four;
+3. once 4/4 PASS, patch the 10 cinematic replacements into Picture Assembly V1;
+4. render Picture Assembly V2 picture-only;
+5. run directorial QC before captions/music/SFX.
