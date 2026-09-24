@@ -1,114 +1,163 @@
-# HIA — Shorts Production Canon
+# HIA — SHORTS PRODUCTION CANON
 
-## Purpose
+Status: **ACTIVE / OWNER-DIRECTED**
+Locked from the proven Shorts model in `reverendstanislav-bot/Youtube-1-`.
 
-Shorts are derived from the approved long-form film. They are not separate rewrites unless explicitly approved.
+## 1. Canonical origin
 
-## Source lock
+Hidden Industrial America Shorts inherit the **Youtube-1 direct-cut V2 model**.
 
-For every Short:
-- use the exact long-form narration/audio between the locked IN/OUT timecodes;
-- select IN/OUT on word boundaries from the episode word-level transcript;
-- preserve factual wording from the long-form;
-- do not generate a new voice track unless explicitly requested;
-- do not use video generation;
-- use existing episode archive / document / reconstruction / GFX assets;
-- provenance truth rules remain identical to long-form.
+The previous HIA V10 semantic-rebuild system is **REJECTED / DO NOT USE**:
+- no Shorts-only editor-native GFX;
+- no rebuilding a Short from individual stills;
+- no replacement visual sequence assembled separately from the long-form;
+- no second caption layer;
+- no Shorts-only titles/metric cards;
+- no new factual claims;
+- no image/video generation for Shorts unless the owner explicitly reopens the format.
 
-## Editorial target
+Historical files and artifacts may remain for audit, but they are not production references.
 
-- aspect ratio: 9:16, 1080×1920;
-- target runtime: 25–55 seconds; hard maximum 60 seconds unless explicitly approved;
-- first 1–2 seconds must contain an immediate visual/narrative hook already present in the source excerpt;
-- one Short = one complete idea with setup, escalation/payoff, and a clean ending;
-- avoid cutting mid-sentence merely to hit duration;
-- cuts should land on source narration word/phrase boundaries;
-- no more than two highly similar views in a row;
-- use vertical reframing before inventing replacement imagery;
-- archive/document frames remain readable and truthful;
-- maps must be reframed around the exact region being discussed;
-- captions: one layer, white base with orange active word, large 9:16-safe typography;
-- keep critical visual content and captions inside vertical safe zones;
-- no baked-in YouTube end-screen placeholders inside Shorts.
+## 2. Source rule
 
-## Required episode package
+Every Short is a direct continuous cut from the current long-form master for that episode.
 
-Each episode with Shorts must contain:
+For each Short:
+- preserve the source picture sequence exactly;
+- preserve the source narration/audio exactly;
+- preserve the source burned captions exactly;
+- preserve source provenance labels and source GFX exactly;
+- cut only at locked clean word/sentence boundaries;
+- do not rebuild shots from underlying assets.
 
-- `SHORTS/SHORTS_EXTRACTION_MAP.md` — human-readable locked plan;
-- `SHORTS/shorts_extraction_map.json` — machine-readable timecodes and beat map;
-- exact long-form IN/OUT;
-- exact extracted narration text;
-- working title and hook;
-- 9:16 montage instructions;
-- source/provenance expectations;
-- caption treatment;
-- status per Short.
+The locked extraction range is the only editorial change before the portrait wrapper.
 
-## Production state
+## 3. Portrait wrapper — inherited from Youtube-1
 
-A Short may be:
-- `SOURCE_LOCKED` — exact excerpt/timecodes chosen;
-- `VERTICAL_PLAN_LOCKED` — 9:16 beat map completed;
-- `RENDER_REVIEW` — vertical review rendered;
-- `APPROVED` — user approved;
-- `PUBLISHED` — platform publish confirmed.
+For a 1920×1080 HIA source:
 
-Never mark a Short APPROVED based only on technical QC.
+1. Split the exact same source frame into background and foreground.
+2. Background:
+   - scale to fill 1080×1920;
+   - center crop;
+   - blur;
+   - slightly darken/desaturate.
+3. Foreground:
+   - preserve approximately 93% of original source width;
+   - canonical crop: `1786×1080`;
+   - canonical x offset: `67 px`;
+   - scale to approximately `1080×654`;
+   - vertically center at approximately `y=633`.
+4. No independent foreground/background timing.
+5. No duplicate visible content panels.
+6. No scene-aware Shorts-only pans.
+7. No artificial zoom drift.
+8. No replacement graphics.
 
-## Vertical composition hard rules
+This intentionally keeps the entire approved long-form composition readable while filling the 9:16 screen with a subdued copy of the same live frame.
 
-- Never show the same source frame twice in two simultaneous visible panels.
-- One moment in narration = one primary crisp visual plane. Decorative duplicated/blurred copies are not allowed as visible content panels.
-- Wide maps/documents may be letterboxed inside the 9:16 frame; reconstruction/archive may receive a controlled crop, but must not be duplicated to fill space.
-- Do not stack a "full" view and a second "detail" copy of the same image at the same time.
-- Preserve the source long-form provenance label when it is visible; do not add a second provenance label over the same frame.
-- Rejected V3/V4/V5 mechanical vertical systems are superseded by the V10 clean-source semantic system.
+## 4. HIA-native technical settings
 
-## Clean-source vertical rebuild rule
+The Youtube-1 editorial model is inherited, but HIA keeps its native master cadence/audio:
+- 1080×1920;
+- source episode FPS (Chicago 25 fps; TC-497 30 fps unless the approved publication master changes);
+- H.264 High;
+- yuv420p;
+- AAC;
+- preserve HIA 48 kHz stereo unless the source master requires otherwise;
+- no frame interpolation.
 
-The rejected V3/V4/V5 Shorts proved that mechanically cropping the finished 16:9 long-form master is not an acceptable vertical workflow.
+## 5. Captions
 
-- Do not use the finished 16:9 long-form master as the primary Shorts picture source.
-- Long-form audio/word timing may be source-locked, but picture must be rebuilt from clean underlying archive / document / reconstruction / GFX assets.
-- Every Short gets a semantic visual plan: the picture shown must directly explain the narration at that moment.
-- The opening hook must show the actual subject immediately; no abstract wheel/tire/texture crop under a machine-scale title.
-- Full-bleed 9:16 is allowed only when the clean asset supports a meaningful portrait crop.
-- Wide machines, maps and documents require a curated pan/reframe or a purpose-built editorial composition; never a blind center crop.
-- Scale from one proof Short first. Do not batch-render all episode Shorts until the proof visual language passes human visual review.
+Use **only captions already burned into the long-form master**.
 
-## Motion discipline
+Forbidden:
+- new ASS/SRT burn-in;
+- orange-word caption regeneration;
+- duplicate subtitle layer;
+- corrected display text that differs from the actual locked master;
+- black caption box not present in the master.
 
-- No aggressive horizontal scan / left-right sweep on still images.
-- Default motion for Shorts is static framing + hard cut between semantic beats.
-- If motion is used later, it must be a very subtle push/reframe (roughly <=2% scale change over the shot), never a full-frame side-to-side traverse.
-- More energy should come from stronger shot selection and narration-driven cuts, not from artificial camera movement.
-- Captions must remain inside the 9:16 safe area and may use at most two balanced lines; no single-line overflow beyond the frame.
+If a source master contains a caption/audio error, fix the long-form master first. Do not silently repair it only inside the Short.
 
-## Current V10 review lock
+## 6. HIA Shorts end card
 
-The current review package is **V10**.
+Youtube-1 uses an exact owner-provided vertical end-card.
 
-- 10 Shorts exist: 5 Chicago + 5 TC-497.
-- TC497-S01 is the original V10 style-bible proof.
-- CHI-S01 and TC497-S02 were used as cross-episode V10 gate proofs.
-- The remaining seven were rendered only after those gate proofs passed visual review.
-- V10 uses clean underlying assets, semantic visual beats, one visual plane, restrained push-ins only, mobile-safe white/orange captions, and truthful per-asset provenance.
-- Release tag: `hia-shorts-v10-review-20260923`.
-- Publication state remains `RENDER_REVIEW` until explicit user visual approval.
-- Do not run or restore the obsolete pre-V10 final-master workflow; it used rejected master-crop logic.
+HIA currently has **no owner-locked 9:16 Shorts end-card asset** in the repository.
 
-## Wave 2 hard-QC lock — 2026-09-24
+Therefore:
+- do not invent one;
+- do not redraw the 16:9 long-form end screen;
+- do not adapt/recreate a CTA card;
+- review proofs end on the source content.
+A final HIA Shorts end-card may be appended only after the owner explicitly approves an exact HIA asset.
 
-The seven remaining V10 review Shorts completed the hard-QC repair pass.
+## 7. Production order
 
-- final Actions run: `36017934649`;
-- final head used for render: `d0223420ad6b8b49039dd6fe8571ea5110ae2eaf`;
-- combined review artifact id: `10815054356`;
-- detailed report: `CHANNEL/SHORTS_WAVE2_FINAL_QC_2026-09-24.md`;
-- machine QC: 7/7 technical PASS, zero decode errors, zero ASS overlaps, no legacy subtitle contamination;
-- visual QC: no remaining hard blocker in CHI-S02/S03/S04/S05 or TC497-S03/S04/S05;
-- generation spend for the repair pass: zero; only existing assets and editor-native GFX were used.
+1. Lock the long-form master.
+2. Lock Short source IN/OUT on clean spoken boundaries.
+3. Render **one SH01 proof** using the Youtube-1 portrait wrapper.
+4. Owner reviews the proof.
+5. If the format is accepted, scale the exact same wrapper to all remaining Shorts.
+6. Run technical + visual QC.
+7. Package individual MP4s + ZIP + QC + SHA256.
+8. Add an exact HIA Shorts end-card only after a separate owner lock.
 
-State remains `RENDER_REVIEW` until explicit user visual approval. Do not silently promote these Shorts to `APPROVED`.
+## 8. Current source ranges
 
+### Chicago
+- CHI-S01: 11.800 → 46.680 (34.880 s)
+- CHI-S02: 153.680 → 195.660 (41.980 s)
+- CHI-S03: 47.360 → 73.780 (26.420 s)
+- CHI-S04: 911.000 → 955.380 (44.380 s)
+- CHI-S05: 988.940 → 1036.060 (47.120 s)
+
+### TC-497
+- TC497-S01: 0.000 → 53.880 (53.880 s)
+- TC497-S02: 265.000 → 315.800 (50.800 s)
+- TC497-S03: 494.740 → 532.760 (38.020 s)
+- TC497-S04: 663.080 → 708.660 (45.580 s)
+- TC497-S05: 1018.600 → 1072.460 (53.860 s)
+
+These ranges are inherited from the existing extraction maps. Old per-beat Shorts montage/rebuild instructions are superseded by this direct-cut rule.
+
+## 9. QC gate
+
+Technical:
+- full decode PASS;
+- correct 1080×1920;
+- correct source-native FPS;
+- H.264 High / yuv420p;
+- AAC present;
+- no black-frame event introduced;
+- no PTS discontinuity;
+- no audio stretch or duplicate audio.
+
+Visual:
+- foreground is one continuous direct-cut master;
+- background is the same synchronized source frame;
+- no double-screen layout;
+- no empty portrait dead zone;
+- no Shorts-only GFX;
+- no duplicate captions;
+- source captions remain readable;
+- no horizontal drift;
+- no generated replacement imagery.
+
+Editorial:
+- exact source boundaries;
+- clean spoken start/end;
+- no new narration;
+- no new claims;
+- no scene reconstruction.
+
+## 10. Change control
+
+Do not redesign this format silently.
+
+Any future alternative requires:
+- explicit owner request;
+- one proof;
+- owner approval;
+- only then a channel-wide canon update.
