@@ -178,6 +178,24 @@ def make_editor_gfx(segment, out_path):
             d.arc((420,640,1030,1180),185,350,fill=paper,width=14)
         _center_lines(d,["THE TERRAIN STILL DECIDES"],1240,_font(31,True),rust)
 
+    elif kind=="army1961_excerpt":
+        # Editor-native evidence card based on the verified January 1961
+        # U.S. Army Research and Development Newsmagazine item.
+        im=Image.new("RGB",(1080,1920),warm)
+        d=ImageDraw.Draw(im)
+        d.rectangle((0,0,1080,26),fill=rust)
+        d.text((90,118),"U.S. ARMY • JANUARY 1961",font=_font(30,True),fill=rust)
+        _center_lines(d,["NUCLEAR POWER PLANNED","FOR OVERLAND TRAIN"],235,_font(52,True),(30,32,33),12)
+        d.line((90,455,990,455),fill=blue,width=4)
+        d.text((90,520),"DOCUMENT EXCERPT",font=_font(28,True),fill=blue)
+        excerpt="One promising potential application was to provide power for the Army’s new Overland Train."
+        lines=_wrap(d,excerpt,_font(40,False),875)
+        _center_lines(d,lines,640,_font(40,False),(30,32,33),22)
+        d.rounded_rectangle((90,1040,990,1215),radius=18,outline=rust,width=5)
+        _center_lines(d,["CONCEPT DISCUSSED IN PRINT","NOT THE TC-497 POWERPLANT"],1080,_font(31,True),rust,14)
+        d.text((90,1300),"SOURCE: ARMY RESEARCH AND DEVELOPMENT NEWSMAGAZINE",font=_font(22,False),fill=blue)
+        d.text((90,1340),"JANUARY 1961 • ARTICLE HEADING VERIFIED",font=_font(22,False),fill=blue)
+
     elif kind=="court_allegation":
         d.rectangle((0,0,1080,26),fill=rust)
         d.text((90,120),"DOCUMENT EXCERPT",font=_font(30,True),fill=rust)
