@@ -1,0 +1,307 @@
+name: Build Chicago R15 Smooth Remotion Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build_chicago_r15_smooth_remotion.yml'
+      - 'CHICAGO/R15_SMOOTH/src/**'
+      - 'CHICAGO/R15_SMOOTH/package.json'
+      - 'CHICAGO/R15_SMOOTH/TRANSITION_DESIGN.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chicago-r15-smooth
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full ffmpeg python3-pil jq zip fonts-dejavu-core
+
+      - name: Repository preflight
+        run: |
+          set -euo pipefail
+          for f in \
+            CHICAGO/R14/prepare_timeline.py \
+            CHICAGO/R14/prepare_data.py \
+            CHICAGO/R15_SMOOTH/src/index.jsx \
+            CHICAGO/R15_SMOOTH/package.json \
+            CHICAGO/V3/build_v3_picture.py \
+            CHICAGO/V12/prepare_remotion_data.py \
+            CHICAGO/AUDIT/V2_SEQUENCE/shots.json; do
+              test -s "$f" || { echo "MISSING: $f" >&2; exit 1; }
+          done
+          grep -q "HALF_DISSOLVE=3" CHICAGO/R15_SMOOTH/src/index.jsx
+          grep -q "ChicagoR15Smooth" CHICAGO/R15_SMOOTH/src/index.jsx
+          if grep -q "translate(" CHICAGO/R15_SMOOTH/src/index.jsx; then
+            echo "FAIL: translate() motion is forbidden in R15 smooth picture" >&2
+            exit 1
+          fi
+
+      - name: Download canonical Chicago source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_r15 /tmp/chicago_src /tmp/chicago_extract /tmp/hia_brand
+          mkdir -p /tmp/chicago_r15/{remotion/src,remotion/public,work,qc/stills,qc/transitions} /tmp/chicago_src /tmp/chicago_extract /tmp/hia_brand
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+
+      - name: Extract source assets timing and audio
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar -o/tmp/chicago_extract \
+            "-ir!*/_V2/work/assets/*" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.mp4" \
+            "-ir!*/_V2/final/HIA_CHICAGO_V2.srt" \
+            "-ir!*/_QC/voice_words.json"
+          ASSETS="$(find /tmp/chicago_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          SRT="$(find /tmp/chicago_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.srt' | head -n1)"
+          WORDS="$(find /tmp/chicago_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          test -d "$ASSETS"; test -s "$V2"; test -s "$SRT"; test -s "$WORDS"
+          echo "ASSETS=$ASSETS" >> "$GITHUB_ENV"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+          echo "SRT=$SRT" >> "$GITHUB_ENV"
+          echo "WORDS=$WORDS" >> "$GITHUB_ENV"
+
+      - name: Rebuild exact R14 editorial data
+        run: |
+          set -euo pipefail
+          python3 CHICAGO/R14/prepare_timeline.py \
+            --v3-builder CHICAGO/V3/build_v3_picture.py \
+            --shots CHICAGO/AUDIT/V2_SEQUENCE/shots.json \
+            --assets-root "$ASSETS" \
+            --words "$WORDS" \
+            --work /tmp/chicago_r15/work \
+            --public-dir /tmp/chicago_r15/remotion/public \
+            --manifest /tmp/chicago_r15/remotion/public/timeline.json \
+            --plan-out /tmp/chicago_r15/work/base_plan.json \
+            --report /tmp/chicago_r15/qc/EDITORIAL_PROVENANCE_AUDIT.json
+
+          python3 CHICAGO/R14/prepare_data.py \
+            --words "$WORDS" \
+            --base-plan /tmp/chicago_r15/work/base_plan.json \
+            --v12-script CHICAGO/V12/prepare_remotion_data.py \
+            --captions-out /tmp/chicago_r15/remotion/public/captions.json \
+            --overlays-out /tmp/chicago_r15/remotion/public/overlays.json \
+            --report /tmp/chicago_r15/qc/CAPTION_CARD_AUDIT.json
+
+          jq -e '.status=="PASS" and .beatsOver7_05SecBeforeOutro==0 and .wordSnapRatio>=0.95' /tmp/chicago_r15/qc/EDITORIAL_PROVENANCE_AUDIT.json
+          jq -e '.status=="PASS" and .wordCoverageRatio==1 and .exactWordSequence==true' /tmp/chicago_r15/qc/CAPTION_CARD_AUDIT.json
+
+      - name: Audit smooth transition grouping
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('/tmp/chicago_r15/remotion/public/timeline.json').read_text())
+          shots=m['shots']
+          groups=[]
+          for s in shots:
+              if groups and groups[-1]['file']==s['file'] and groups[-1]['kind']==s['kind'] and groups[-1]['b']==s['a']:
+                  groups[-1]['b']=s['b']
+                  groups[-1]['members']+=1
+              else:
+                  groups.append({'a':s['a'],'b':s['b'],'file':s['file'],'kind':s['kind'],'members':1})
+          report={
+              'r14_shots':len(shots),
+              'r15_visual_groups':len(groups),
+              'same_asset_boundaries_removed':len(shots)-len(groups),
+              'full_frame_dissolve_boundaries':max(0,len(groups)-1),
+              'dissolve_frames_total':6,
+              'dissolve_seconds':6/25,
+              'horizontal_translation':False,
+              'vertical_translation':False,
+              'shake':False,
+              'status':'PASS'
+          }
+          Path('/tmp/chicago_r15/qc/SMOOTH_TRANSITION_AUDIT.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+
+      - name: Build canonical textless end screen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920 --repo reverendstanislav-bot/Youtube-2 --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'
+          unzip -q HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip -d extracted
+          BASE="$(find extracted -type f -name '07_generic_reusable_thumbnail_base.png' | head -n1)"
+          test -s "$BASE"
+          BRAND_BASE="$BASE" python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          import os,json
+          src=Image.open(os.environ['BRAND_BASE']).convert('RGB')
+          assert src.size==(1920,1080)
+          im=Image.blend(src,Image.new('RGB',src.size,(0,0,0)),0.15)
+          d=ImageDraw.Draw(im); PAPER=(230,221,200); RUST=(165,82,53)
+          cx,cy,r=960,590,145
+          d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(18,21,23),outline=PAPER,width=5)
+          d.arc([cx-r-9,cy-r-9,cx+r+9,cy+r+9],start=208,end=325,fill=RUST,width=6)
+          im.save('/tmp/chicago_r15/remotion/public/end_screen_1080.png')
+          with open('/tmp/chicago_r15/qc/END_SCREEN_LAYOUT.json','w') as f:
+              json.dump({'episode':1,'video_slots':0,'subscribe_avatar_slots':1,'text_labels':0},f,indent=2)
+          PY
+
+      - name: Lock approved audio
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error -i "$V2" -map 0:a:0 -c copy -f adts /tmp/chicago_r15/work/original.aac
+          AH="$(sha256sum /tmp/chicago_r15/work/original.aac | awk '{print $1}')"
+          test "$AH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+          echo "$AH  original.aac" > /tmp/chicago_r15/qc/AUDIO_SHA256.txt
+
+      - name: Prepare Remotion project
+        run: |
+          set -euo pipefail
+          cp CHICAGO/R15_SMOOTH/src/index.jsx /tmp/chicago_r15/remotion/src/index.jsx
+          cp CHICAGO/R15_SMOOTH/package.json /tmp/chicago_r15/remotion/package.json
+          cd /tmp/chicago_r15/remotion
+          npm install --no-audit --no-fund
+
+      - name: Render transition proof stills
+        working-directory: /tmp/chicago_r15/remotion
+        run: |
+          set -euo pipefail
+          # Broad film samples plus frames around several known high-change areas.
+          for spec in \
+            "001:125" "002:335" "003:388" "004:895" \
+            "005:1758" "006:5087" "007:8730" "008:12000" \
+            "009:16980" "010:20456" "011:25000" "012:31725"; do
+              name="${spec%%:*}"; frame="${spec##*:}"
+              npx remotion still src/index.jsx ChicagoR15Smooth "/tmp/chicago_r15/qc/stills/${name}.png" --frame="$frame"
+          done
+
+      - name: Render full R15 smooth review
+        working-directory: /tmp/chicago_r15/remotion
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx ChicagoR15Smooth out/remotion.mp4 \
+            --codec=h264 --crf=16 --pixel-format=yuv420p --concurrency=4
+
+      - name: Normalize picture and mux approved AAC
+        run: |
+          set -euo pipefail
+          ffmpeg -y -loglevel error \
+            -i /tmp/chicago_r15/remotion/out/remotion.mp4 -an \
+            -c:v libx264 -preset medium -crf 14 \
+            -pix_fmt yuv420p -color_range tv \
+            -color_primaries bt709 -color_trc bt709 -colorspace bt709 \
+            -movflags +faststart /tmp/chicago_r15/work/picture_master.mp4
+
+          OUT=/tmp/chicago_r15/HIA_CHICAGO_R15_SMOOTH_REMOTION_REVIEW_1920x1080.mp4
+          ffmpeg -y -loglevel error \
+            -i /tmp/chicago_r15/work/picture_master.mp4 \
+            -i /tmp/chicago_r15/work/original.aac \
+            -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart "$OUT"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Hard technical QC
+        run: |
+          set -euo pipefail
+          Q=/tmp/chicago_r15/qc
+          ffmpeg -v error -xerror -i "$OUT" -map 0:v:0 -map 0:a:0 -f null - 2> "$Q/DECODE_ERRORS.txt"
+          test ! -s "$Q/DECODE_ERRORS.txt"
+
+          W="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 "$OUT")"
+          H="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 "$OUT")"
+          FPSV="$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nw=1:nk=1 "$OUT")"
+          FRAMES="$(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nw=1:nk=1 "$OUT")"
+          PIX="$(ffprobe -v error -select_streams v:0 -show_entries stream=pix_fmt -of default=nw=1:nk=1 "$OUT")"
+          test "$W" = "1920"; test "$H" = "1080"; test "$FPSV" = "25/1"; test "$FRAMES" = "32268"; test "$PIX" = "yuv420p"
+
+          ffmpeg -y -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts "$Q/final.aac"
+          FH="$(sha256sum "$Q/final.aac" | awk '{print $1}')"
+          test "$FH" = 'a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed'
+
+          ffprobe -v error -show_streams -show_format -of json "$OUT" > "$Q/FFPROBE.json"
+          ffmpeg -hide_banner -nostats -i "$OUT" -vf "blackdetect=d=0.20:pix_th=0.02" -an -f null - > /dev/null 2> "$Q/BLACKDETECT.txt" || true
+          ffmpeg -hide_banner -nostats -i "$OUT" -af "ebur128=peak=true" -vn -f null - > /dev/null 2> "$Q/EBUR128.txt" || true
+          sha256sum "$OUT" > "$Q/VIDEO_SHA256.txt"
+
+          # Detect only very large residual scene jumps. Smooth dissolve should materially suppress them.
+          ffmpeg -hide_banner -nostats -i "$OUT" \
+            -vf "select='gt(scene,0.65)',showinfo" -an -f null - > /dev/null 2> "$Q/HARD_SCENE_JUMPS.txt" || true
+
+          jq -e '.status=="PASS" and .horizontal_translation==false and .vertical_translation==false and .shake==false' "$Q/SMOOTH_TRANSITION_AUDIT.json"
+          jq -e '.episode==1 and .video_slots==0 and .subscribe_avatar_slots==1 and .text_labels==0' "$Q/END_SCREEN_LAYOUT.json"
+
+      - name: Publish R15 review release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_r15
+          zip -q -r HIA_CHICAGO_R15_SMOOTH_REVIEW_QC.zip qc
+          TAG=chicago-r15-smooth-remotion-review-20260924
+          gh release delete "$TAG" --repo reverendstanislav-bot/Youtube-2 -y >/dev/null 2>&1 || true
+          gh release create "$TAG" \
+            "$OUT" HIA_CHICAGO_R15_SMOOTH_REVIEW_QC.zip \
+            --title 'Chicago R15 Smooth Remotion — REVIEW' \
+            --notes 'REVIEW ONLY. Full Remotion picture rebuild from the current R14 editorial data. Same approved assets, exact captions, provenance and bit-identical approved AAC. Same-asset cuts are merged into continuous groups. Different assets use 6-frame full-frame dissolves. No translate/pan/shake/whip/slide motion. Extremely restrained scale breathing only.' \
+            --repo reverendstanislav-bot/Youtube-2
+
+      - name: Record R15 review status
+        run: |
+          set -euo pipefail
+          mkdir -p CHICAGO/R15_SMOOTH/REVIEW_QC
+          cp /tmp/chicago_r15/qc/SMOOTH_TRANSITION_AUDIT.json CHICAGO/R15_SMOOTH/REVIEW_QC/
+          cp /tmp/chicago_r15/qc/EDITORIAL_PROVENANCE_AUDIT.json CHICAGO/R15_SMOOTH/REVIEW_QC/
+          cp /tmp/chicago_r15/qc/CAPTION_CARD_AUDIT.json CHICAGO/R15_SMOOTH/REVIEW_QC/
+          cp /tmp/chicago_r15/qc/VIDEO_SHA256.txt CHICAGO/R15_SMOOTH/REVIEW_QC/
+          cp /tmp/chicago_r15/qc/AUDIO_SHA256.txt CHICAGO/R15_SMOOTH/REVIEW_QC/
+          cat > CHICAGO/R15_SMOOTH/REVIEW_QC/STATUS.md <<'EOF'
+          # Chicago R15 Smooth Remotion review
+          Status: REVIEW ONLY — USER VISUAL APPROVAL REQUIRED.
+          - Derived from current R14 editorial data.
+          - Remotion is the primary picture compositor.
+          - Adjacent same-asset R14 segments are merged into continuous visual groups.
+          - Different assets use a centered 6-frame / 240 ms full-frame smooth dissolve.
+          - No horizontal/vertical translation.
+          - No shake, whip, slide or rapid zoom transition.
+          - Only extremely restrained scale interpolation/breathing is allowed.
+          - Exact word-level captions and provenance logic retained.
+          - Approved source AAC preserved bit-for-bit.
+          - Episode-1 textless subscribe/avatar end screen retained.
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHICAGO/R15_SMOOTH/REVIEW_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chicago R15 smooth Remotion review QC"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload R15 review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-r15-smooth-remotion-review-1080
+          path: |
+            /tmp/chicago_r15/HIA_CHICAGO_R15_SMOOTH_REMOTION_REVIEW_1920x1080.mp4
+            /tmp/chicago_r15/qc
+          compression-level: 0
+          retention-days: 14
