@@ -79,8 +79,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,DejaVu Sans,62,&H00FFFFFF,&H00FFFFFF,&H00110A05,&H00000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,165,1
-Style: Hist,DejaVu Sans,28,&H00DDE6F3,&H00DDE6F3,&H00110A05,&H00000000,-1,0,0,0,100,100,2,0,1,3,1,9,40,44,50,1
+Style: Cap,DejaVu Sans,62,&H00FFFFFF,&H00FFFFFF,&H00110A05,&H00000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,390,1
+Style: Hist,DejaVu Sans,28,&H00DDE6F3,&H00DDE6F3,&H00110A05,&H00000000,-1,0,0,0,100,100,2,0,1,3,1,9,70,90,105,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -135,7 +135,7 @@ def main():
     filters.append(''.join(f'[v{i}]' for i in range(len(SEGMENTS)))+f'concat=n={len(SEGMENTS)}:v=1:a=0[base]')
     # Soft bottom gradient is not a card; it only protects mobile captions.
     filters.append(
-        "[base]drawbox=x=0:y=1450:w=1080:h=470:color=black@0.18:t=fill,"
+        "[base]drawbox=x=0:y=1320:w=1080:h=600:color=black@0.22:t=fill,"
         f"ass='{ass.as_posix()}':fontsdir='/usr/share/fonts/truetype/dejavu'[vout]"
     )
     fs=out/'filter.txt'; fs.write_text(';\n'.join(filters),encoding='utf-8')
