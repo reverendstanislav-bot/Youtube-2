@@ -1,0 +1,34 @@
+name: Big Muskie materialize base reconstruction seven
+
+on:
+  push:
+    paths:
+      - '.github/workflows/big_muskie_materialize_recon_base7.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download final base reconstruction seven
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p recon
+          curl -L --fail --retry 3 -o recon/GEN01.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_192816_b153595d-1ef4-408c-867d-95888657ab5b.png'
+          curl -L --fail --retry 3 -o recon/GEN02.png 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/42279705-0e0e-496a-9b62-4668d9cfcd4c.png'
+          curl -L --fail --retry 3 -o recon/GEN03.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_192816_27d0791b-9016-43ca-a2cd-3f757f744434.png'
+          curl -L --fail --retry 3 -o recon/GEN04.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_192816_4ca32137-09fc-4357-8aa5-284a78570fe1.png'
+          curl -L --fail --retry 3 -o recon/GEN11.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_192831_02c12726-f1cd-4574-ba29-ca60adf0cf59.png'
+          curl -L --fail --retry 3 -o recon/GEN15.png 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/492bd98a-fd37-4ae5-bc22-b59774d10d38.png'
+          curl -L --fail --retry 3 -o recon/GEN17.png 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/bbcd9731-c847-4ea8-b726-ff0892755cd4.png'
+          sha256sum recon/*.png > recon/SHA256SUMS.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_RECON_BASE7
+          path: recon/
+          retention-days: 7
+          compression-level: 0
