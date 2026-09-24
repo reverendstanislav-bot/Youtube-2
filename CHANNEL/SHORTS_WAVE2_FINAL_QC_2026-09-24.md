@@ -1,3 +1,7 @@
+# SUPERSEDED / REJECTED
+
+This document describes the rejected HIA V10 semantic-rebuild Shorts system. It is retained only as historical QC evidence. **DO NOT USE IT AS A PRODUCTION REFERENCE.** Active Shorts canon: `CHANNEL/SHORTS_PRODUCTION_CANON.md` (Youtube-1 direct-cut model).
+
 # HIA Shorts V10 — Wave 2 hard QC — 2026-09-24
 
 ## Scope
