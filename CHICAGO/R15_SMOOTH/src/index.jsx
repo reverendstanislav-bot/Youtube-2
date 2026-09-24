@@ -1,5 +1,5 @@
 import React from 'react';
-import {registerRoot,Composition,AbsoluteFill,Sequence,Img,staticFile,useCurrentFrame,interpolate} from 'remotion';
+import {registerRoot,Composition,AbsoluteFill,Img,staticFile,useCurrentFrame,interpolate} from 'remotion';
 import manifest from '../public/timeline.json';
 import captions from '../public/captions.json';
 import overlays from '../public/overlays.json';
@@ -57,34 +57,18 @@ function buildGroups(shots){
 
 const groups=buildGroups(manifest.shots);
 
-function SmoothGroup({group,index}){
-  const local=useCurrentFrame();
-  const seqStart=Math.max(0,group.a-HALF_DISSOLVE);
-  const global=seqStart+local;
-
-  let opacity=1;
-  if(index>0){
-    opacity*=smoothstep((global-(group.a-HALF_DISSOLVE))/(HALF_DISSOLVE*2));
-  }
-  if(index<groups.length-1){
-    opacity*=1-smoothstep((global-(group.b-HALF_DISSOLVE))/(HALF_DISSOLVE*2));
-  }
-
+function GroupLayer({group,globalFrame,opacity=1}){
   const bodyProgress=interpolate(
-    global,
+    globalFrame,
     [group.a,Math.max(group.a+1,group.b-1)],
     [0,1],
     CLAMP
   );
 
-  // Slow scale interpolation replaces abrupt R14 reframing jumps.
-  // No positional pan or horizontal/vertical travel.
   const s0=scaleForView(group.firstView);
   const s1=scaleForView(group.lastView);
   let scale=s0+(s1-s0)*smoothstep(bodyProgress);
 
-  // Extremely restrained editorial breathing on reconstruction/concept only.
-  // Max extra travel is 0.4% over the entire group.
   if((group.kind==='reconstruction'||group.kind==='concept') && group.frames>=125){
     scale+=0.004*smoothstep(bodyProgress);
   }
@@ -99,15 +83,45 @@ function SmoothGroup({group,index}){
   </AbsoluteFill>;
 }
 
+function groupIndexForFrame(frame){
+  let lo=0,hi=groups.length-1;
+  while(lo<=hi){
+    const mid=(lo+hi)>>1;
+    const g=groups[mid];
+    if(frame<g.a)hi=mid-1;
+    else if(frame>=g.b)lo=mid+1;
+    else return mid;
+  }
+  return Math.max(0,Math.min(groups.length-1,lo));
+}
+
 function Picture(){
+  const frame=useCurrentFrame();
+  const i=groupIndexForFrame(frame);
+  const current=groups[i];
+
+  // First half of a centered dissolve: current group fades toward the next one.
+  if(i<groups.length-1 && frame>=current.b-HALF_DISSOLVE){
+    const next=groups[i+1];
+    const p=smoothstep((frame-(current.b-HALF_DISSOLVE))/(HALF_DISSOLVE*2));
+    return <AbsoluteFill style={{background:C.charcoal}}>
+      <GroupLayer group={current} globalFrame={frame} opacity={1-p}/>
+      <GroupLayer group={next} globalFrame={frame} opacity={p}/>
+    </AbsoluteFill>;
+  }
+
+  // Second half after the original cut: previous group finishes fading out.
+  if(i>0 && frame<current.a+HALF_DISSOLVE){
+    const prev=groups[i-1];
+    const p=smoothstep((frame-(current.a-HALF_DISSOLVE))/(HALF_DISSOLVE*2));
+    return <AbsoluteFill style={{background:C.charcoal}}>
+      <GroupLayer group={prev} globalFrame={frame} opacity={1-p}/>
+      <GroupLayer group={current} globalFrame={frame} opacity={p}/>
+    </AbsoluteFill>;
+  }
+
   return <AbsoluteFill style={{background:C.charcoal}}>
-    {groups.map((g,i)=>{
-      const from=Math.max(0,g.a-HALF_DISSOLVE);
-      const to=Math.min(TOTAL_FRAMES,g.b+HALF_DISSOLVE);
-      return <Sequence key={g.key} from={from} durationInFrames={Math.max(1,to-from)} premountFor={10}>
-        <SmoothGroup group={g} index={i}/>
-      </Sequence>;
-    })}
+    <GroupLayer group={current} globalFrame={frame}/>
   </AbsoluteFill>;
 }
 
