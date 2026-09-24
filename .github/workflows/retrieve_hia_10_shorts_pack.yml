@@ -1,0 +1,38 @@
+name: Retrieve HIA 10 Shorts review pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/retrieve_hia_10_shorts_pack.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download release pack
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/hia10
+          cd /tmp/hia10
+          gh release download hia-shorts-v10-review-20260923 \
+            --repo reverendstanislav-bot/Youtube-2 \
+            --pattern 'HIA_SHORTS_V10_REVIEW_10.zip'
+          unzip -l HIA_SHORTS_V10_REVIEW_10.zip > CONTENTS.txt
+      - name: Upload full release pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-10-shorts-release-pack
+          path: |
+            /tmp/hia10/HIA_SHORTS_V10_REVIEW_10.zip
+            /tmp/hia10/CONTENTS.txt
+          compression-level: 0
+          retention-days: 7
