@@ -11,12 +11,12 @@ DUR=END-START
 SEGMENTS=[
     (0.000,0.650,'opening_street.png',0,'reconstruction'),
     (0.650,3.740,'S004_P003_detail_reconstruction.png',520,'reconstruction'),
-    (3.740,7.700,'A03_ChicagoTunnelFieldsTrain_full_archive.png',600,'archive'),
-    (7.700,12.380,'A04_TunnelCoalDelivery_full_archive.png',620,'archive'),
+    (3.740,7.700,'A03_ChicagoTunnelFieldsTrain.jpg',600,'archive'),
+    (7.700,12.380,'A04_TunnelCoalDelivery.jpg',620,'archive'),
     (12.380,16.200,'S039_P015_detail_reconstruction.png',560,'reconstruction'),
     (16.200,20.720,'S041_P016_full_reconstruction.png',650,'reconstruction'),
-    (20.720,24.800,'A02_IllinoisTunnelMap1910_full_map.png',220,'map'),
-    (24.800,29.660,'A02_IllinoisTunnelMap1910_full_map.png',920,'map'),
+    (20.720,24.800,'A02_IllinoisTunnelMap1910.png',220,'map'),
+    (24.800,29.660,'A02_IllinoisTunnelMap1910.png',920,'map'),
     (29.660,32.500,'S006_P004_full_reconstruction.png',340,'reconstruction'),
     (32.500,34.880,'S007_P005_detail_reconstruction.png',680,'reconstruction'),
 ]
@@ -29,11 +29,13 @@ def run(cmd):
         raise subprocess.CalledProcessError(p.returncode,cmd)
     return p
 
-def locate(root,name):
-    hits=list(Path(root).rglob(name))
-    if not hits:
-        raise FileNotFoundError(name)
-    return hits[0]
+def locate(assets,source_root,name):
+    roots=[Path(assets),Path(source_root)]
+    for root in roots:
+        hits=list(root.rglob(name))
+        if hits:
+            return hits[0]
+    raise FileNotFoundError(name)
 
 def ass_time(t):
     h=int(t//3600); t-=h*3600
@@ -110,6 +112,7 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--assets',required=True)
     ap.add_argument('--v2',required=True)
+    ap.add_argument('--source-root',required=True)
     ap.add_argument('--words',required=True)
     ap.add_argument('--outdir',required=True)
     a=ap.parse_args()
@@ -120,7 +123,7 @@ def main():
     inputs=[]
     filters=[]
     for i,(s,e,name,x,kind) in enumerate(SEGMENTS):
-        p=locate(a.assets,name)
+        p=locate(a.assets,a.source_root,name)
         dur=e-s
         inputs += ['-loop','1','-framerate',str(FPS),'-t',f'{dur:.3f}','-i',str(p)]
         # Normalize every clean long-form asset to 1920x1080 first, then static portrait crop.
