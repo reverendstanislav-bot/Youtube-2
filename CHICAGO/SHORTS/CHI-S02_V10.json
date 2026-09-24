@@ -18,7 +18,8 @@
       "gfx_type": "origin",
       "motion": "static",
       "metric": "IT DID NOT START AS A RAILROAD",
-      "provenance": ""
+      "provenance": "",
+      "overlay_metric": true
     },
     {
       "out_start": 4.14,
@@ -53,7 +54,8 @@
       "gfx_type": "evidence_uncertain",
       "motion": "static",
       "metric": "THE EXACT TURNING POINT IS UNCLEAR",
-      "provenance": ""
+      "provenance": "",
+      "overlay_metric": true
     },
     {
       "out_start": 28.62,
@@ -79,7 +81,8 @@
       "gfx_type": "gauge",
       "motion": "push",
       "metric": "TRACK WAS INSTALLED ON A TWO-FOOT GAUGE",
-      "provenance": ""
+      "provenance": "",
+      "overlay_metric": true
     }
   ]
 }
