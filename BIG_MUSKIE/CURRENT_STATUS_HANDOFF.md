@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GFX 55/55 PASS — RECONSTRUCTIONS 22/22 PASS — FINAL 116-BEAT ASSET LOCK NEXT**  
-Publication status: **PREPRODUCTION — GFX AND RECONSTRUCTION PACKAGES LOCKED; FINAL 116-BEAT ASSET LOCK NEXT**
+State: **FINAL 116-BEAT ASSET LOCK COMPLETE — READY FOR FULL PICTURE ASSEMBLY**  
+Publication status: **PREPRODUCTION LOCKED — 116/116 VISUAL ASSETS ASSIGNED; FULL PICTURE ASSEMBLY NEXT**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,23 +336,34 @@ Final captions:
 
 ## Immediate next action
 
-**FINAL 116-BEAT ASSET LOCK**
+**FULL PICTURE ASSEMBLY — 23:46.400**
 
-Closed:
-- GFX: **55/55 PASS**
-- Reconstructions: **22/22 PASS**
-- HOLD: **0**
-- REJECT: **0**
+Final asset lock:
+- beats: **116/116 LOCKED**
+- REAL: **20**
+- REAL_CONTEXT: **11**
+- DOCUMENT: **8**
+- GFX: **55 / 55 PASS**
+- RECONSTRUCTION: **22 / 22 PASS**
+- visible R/C/D reuse max: **2**
+- reuse violations: **0**
+- rights/provenance blockers: **0**
+- HOLD/REJECT assets: **0**
 
-GEN14 was explicitly accepted by the user despite the earlier QC reservation and is now production-locked.
+Canonical files:
+- `FINAL_ASSET_LOCK/FINAL_116_BEAT_ASSET_LOCK_V1.md`
+- `FINAL_ASSET_LOCK/FINAL_116_BEAT_ASSET_LOCK_V1.csv`
+- `FINAL_ASSET_LOCK/FINAL_SOURCE_REUSE_AUDIT_V1.md`
+- `FINAL_ASSET_LOCK/FINAL_RIGHTS_PROVENANCE_AUDIT_V1.md`
 
-Next:
-1. assign one final production asset to every beat BM-B001 → BM-B116;
-2. freeze REAL / REAL_CONTEXT / DOCUMENT / GFX / RECONSTRUCTION selections;
-3. verify visible R/C/D reuse <= 2;
-4. verify provenance and rights labels;
-5. verify caption-safe framing;
-6. publish the final 116-beat asset-lock manifest;
-7. begin full picture assembly on canonical runtime **23:46.400**.
+Picture coverage:
+- outgoing beat holds across narration pauses until the next beat begins;
+- no black frames in the **72.910 s** total inter-beat silence;
+- BM-B116 holds through **23:46.400**.
 
-No further reconstruction generation is required.
+Next build:
+1. materialize/ingest the locked assets;
+2. assemble all 116 beats against canonical Arthur VO;
+3. use hard cuts / restrained transitions only;
+4. no shake, random pan, or aggressive zoom;
+5. then run picture-only QC before captions/music/SFX.

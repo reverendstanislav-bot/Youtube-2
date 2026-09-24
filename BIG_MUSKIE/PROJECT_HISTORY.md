@@ -342,3 +342,16 @@ Future history entries must record:
 - All generated historical frames remain labelled **AI RECONSTRUCTION**, never HISTORICAL SOURCE.
 - Next stage: FINAL 116-BEAT ASSET LOCK → full picture assembly on the canonical 23:46.400 timeline.
 
+## 2026-09-24 — FINAL 116-BEAT ASSET LOCK
+
+- Converted the authoritative 116-beat Visual Diversity Pass into the final production asset manifest.
+- Final allocation: **20 REAL / 11 REAL_CONTEXT / 8 DOCUMENT / 55 GFX / 22 RECONSTRUCTION = 116 beats**.
+- GFX package remains **55/55 PASS**.
+- Reconstruction package remains **22/22 PASS**.
+- Re-verified R08 (Big Muskie Bucket Looking South, Eric Gunderson) as **CC BY-SA 3.0**, closing the only catalog-level rights HOLD used by the diversity plan.
+- Visible R/C/D source reuse maximum remains **2**; violations **0**.
+- Rights/provenance blockers in the final manifest: **0**.
+- Stage 7 narration gaps total **72.910 s** and are explicitly covered by outgoing-picture holds; no black-frame gaps.
+- Final BM-B116 picture hold extends 20 ms to canonical **23:46.400**.
+- Next stage: full 116-beat picture assembly against canonical Arthur VO.
+

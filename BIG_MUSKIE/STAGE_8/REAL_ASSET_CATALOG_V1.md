@@ -35,6 +35,7 @@ Primary URLs:
 - R05: https://commons.wikimedia.org/wiki/File:Big_Muskie_-_Side_View.jpg
 - R06: https://commons.wikimedia.org/wiki/File:Big_Muskie_Dragline_Bucket.jpg
 - R07: https://commons.wikimedia.org/wiki/File:Big_Muskie_Bucket_(Looking_Northeast).JPG
+- R08: https://commons.wikimedia.org/wiki/File:Big_Muskie_Bucket_(Looking_South).JPG
 - R09: https://commons.wikimedia.org/wiki/File:Big_Muskie%27s_Bucket_(7716920152).jpg
 - R10: https://commons.wikimedia.org/wiki/File:Big_Muskie%27s_Chain_(7716922488).jpg
 - R11: https://commons.wikimedia.org/wiki/File:Reclamation_Land_Ohio.jpg
