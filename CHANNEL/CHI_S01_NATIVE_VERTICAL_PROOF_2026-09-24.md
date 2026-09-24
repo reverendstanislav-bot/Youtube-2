@@ -72,3 +72,18 @@ This removes older embedded editorial labels from the processed map/archive asse
 - artifact digest: `sha256:fdd9f8cb7351bedeeda0a8245c8bdda7194d643b09395604fdb68d8e7af537fd`
 
 Do not batch-scale to the remaining Shorts until owner visually approves this format.
+
+## Caption / provenance single-layer correction — 2026-09-24
+
+The earlier local safe-caption patch is rejected because it re-burned ASS over an already captioned proof, causing duplicated running captions and duplicated `HISTORICAL SOURCE` labels.
+
+Canonical fix:
+- clean render from approved assets;
+- caption safe margin built into the clean render itself;
+- exactly one caption layer;
+- exactly one `HISTORICAL SOURCE` layer on verified historical frames;
+- no second-pass subtitle/provenance burn.
+
+Corrected Actions run: `36033600802`
+Artifact id: `10823868019`
+Artifact digest: `sha256:449479cd160be1df572fc087d9d9a1fd2d7c907fa779a15c79f9f4b08b2fa5a0`
