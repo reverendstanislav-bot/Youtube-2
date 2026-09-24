@@ -80,6 +80,21 @@ Forbidden:
 
 If a source master contains a caption/audio error, fix the long-form master first. Do not silently repair it only inside the Short.
 
+## 5A. Provenance plaque rule — OWNER LOCKED
+
+**Visible provenance plaques are allowed only on genuinely historical/archive frames.**
+
+Hard rules:
+- `HISTORICAL SOURCE` plaque: allowed only when the currently visible picture is a verified historical/archive source.
+- `AI RECONSTRUCTION`: **NEVER show a visible plaque in Shorts.**
+- `CONCEPT`: no visible plaque in Shorts.
+- `DOCUMENT`: no visible plaque unless the owner explicitly reopens this rule; default is no plaque.
+- generated/reconstructed imagery remains visually unlabeled.
+- do not invent substitute badges, corner tags, ribbons, boxes, or explanatory labels.
+- historical plaque must disappear immediately when the picture switches away from the historical source.
+
+This owner rule overrides older HIA provenance-display behavior inherited from long-form builds.
+
 ## 6. HIA Shorts end card
 
 Youtube-1 uses an exact owner-provided vertical end-card.
