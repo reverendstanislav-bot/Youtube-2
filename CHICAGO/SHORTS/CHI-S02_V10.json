@@ -5,39 +5,29 @@
     "IT STARTED AS A",
     "TELEPHONE TUNNEL"
   ],
-  "version": "V10_CANON",
+  "version": "V10_PATCH1",
   "rules": {
     "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
-    "source": "clean verified archive",
-    "provenance": "HISTORICAL SOURCE"
+    "source": "clean verified archive + editor-native GFX",
+    "provenance": "truthful per active asset"
   },
   "segments": [
     {
       "out_start": 0,
       "out_end": 4.14,
-      "asset": "A07_IllinoisTunnelTestTrain.jpg",
-      "x": 0.5,
-      "motion": "push",
+      "gfx_type": "origin",
+      "motion": "static",
       "metric": "IT DID NOT START AS A RAILROAD",
-      "provenance": "HISTORICAL SOURCE"
+      "provenance": ""
     },
     {
       "out_start": 4.14,
-      "out_end": 8.4,
+      "out_end": 12.6,
       "asset": "A08_IllinoisTelephoneAndTelegraphAd.png",
       "x": 0.5,
       "motion": "static",
       "metric": "1899 TELEPHONE FRANCHISE",
-      "provenance": "HISTORICAL SOURCE"
-    },
-    {
-      "out_start": 8.4,
-      "out_end": 12.6,
-      "asset": "A14_LOC_State_Street_1905.jpg",
-      "x": 0.5,
-      "motion": "static",
-      "metric": "INFRASTRUCTURE UNDERGROUND",
-      "provenance": "HISTORICAL SOURCE"
+      "provenance": "DOCUMENT"
     },
     {
       "out_start": 12.6,
@@ -59,25 +49,24 @@
     },
     {
       "out_start": 22.4,
-      "out_end": 27,
+      "out_end": 28.62,
+      "gfx_type": "evidence_uncertain",
+      "motion": "static",
+      "metric": "THE EXACT TURNING POINT IS UNCLEAR",
+      "provenance": ""
+    },
+    {
+      "out_start": 28.62,
+      "out_end": 35.32,
       "asset": "A08_IllinoisTelephoneAndTelegraphAd.png",
       "x": 0.62,
       "motion": "static",
-      "metric": "THE EXACT TURNING POINT IS UNCLEAR",
-      "provenance": "HISTORICAL SOURCE"
+      "metric": "SURVIVING EVIDENCE DOES NOT PROVE A SECRET DAY-ONE RAIL PLAN",
+      "provenance": "DOCUMENT"
     },
     {
-      "out_start": 27,
-      "out_end": 31.5,
-      "asset": "A05_IllinoisTunnelConstruction.jpg",
-      "x": 0.58,
-      "motion": "static",
-      "metric": "NO SECRET DAY-ONE RAIL PLAN",
-      "provenance": "HISTORICAL SOURCE"
-    },
-    {
-      "out_start": 31.5,
-      "out_end": 36.24,
+      "out_start": 35.32,
+      "out_end": 38.4,
       "asset": "A01_IllinoisTunnelIntersectionCloser.jpg",
       "x": 0.42,
       "motion": "static",
@@ -85,13 +74,12 @@
       "provenance": "HISTORICAL SOURCE"
     },
     {
-      "out_start": 36.24,
+      "out_start": 38.4,
       "out_end": 41.98,
-      "asset": "A07_IllinoisTunnelTestTrain.jpg",
-      "x": 0.56,
+      "gfx_type": "gauge",
       "motion": "push",
-      "metric": "TWO-FOOT GAUGE",
-      "provenance": "HISTORICAL SOURCE"
+      "metric": "TRACK WAS INSTALLED ON A TWO-FOOT GAUGE",
+      "provenance": ""
     }
   ]
 }
