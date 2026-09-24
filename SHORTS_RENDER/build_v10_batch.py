@@ -33,6 +33,15 @@ def _font(size, bold=False):
     name = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
     return ImageFont.truetype(f"/usr/share/fonts/truetype/dejavu/{name}", size)
 
+def fit_text_size(text, max_width=950, start=42, minimum=24, bold=False):
+    draw = ImageDraw.Draw(Image.new("RGB", (2, 2)))
+    for size in range(int(start), int(minimum) - 1, -1):
+        font = _font(size, bold)
+        box = draw.textbbox((0, 0), str(text), font=font)
+        if box[2] - box[0] <= max_width:
+            return size
+    return int(minimum)
+
 def _wrap(draw, text, font, max_width):
     words = str(text).split()
     lines=[]
@@ -188,7 +197,7 @@ def make_editor_gfx(segment, out_path):
         _center_lines(d,["NUCLEAR POWER PLANNED","FOR OVERLAND TRAIN"],235,_font(52,True),(30,32,33),12)
         d.line((90,455,990,455),fill=blue,width=4)
         d.text((90,520),"DOCUMENT EXCERPT",font=_font(28,True),fill=blue)
-        excerpt="One promising potential application was to provide power for the Army’s new Overland Train."
+        excerpt="One of the promising potential applications of the plant is to provide power for the Army's new Overland Train."
         lines=_wrap(d,excerpt,_font(40,False),875)
         _center_lines(d,lines,640,_font(40,False),(30,32,33),22)
         d.rounded_rectangle((90,1040,990,1215),radius=18,outline=rust,width=5)
@@ -441,12 +450,14 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
                 "borderw=2:bordercolor=black@0.72"
             )
 
-        metric = draw_escape(segment.get("metric", ""))
+        raw_metric = str(segment.get("metric", ""))
+        metric = draw_escape(raw_metric)
 
         if metric:
+            metric_size = fit_text_size(raw_metric, max_width=948, start=42, minimum=23)
             vf += (
                 f",drawtext=font='DejaVu Sans':text='{metric}':"
-                f"x=54:y=1286:fontsize=42:fontcolor={PAPER}:"
+                f"x=54:y=1286:fontsize={metric_size}:fontcolor={PAPER}:"
                 "borderw=3:bordercolor=black@0.82"
             )
 
