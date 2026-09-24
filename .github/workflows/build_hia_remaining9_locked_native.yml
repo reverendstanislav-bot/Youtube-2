@@ -1,0 +1,301 @@
+name: Build HIA remaining 9 locked native Shorts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build_hia_remaining9_locked_native.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  chicago:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg p7zip-full unzip python3-pil jq fonts-dejavu-core
+          mkdir -p /tmp/chi/{assets,out,qc,src,h10}
+
+      - name: Download full 10-pack for exact Short audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd /tmp/chi/h10
+          gh release download hia-shorts-v10-review-20260923 --repo reverendstanislav-bot/Youtube-2 --pattern HIA_SHORTS_V10_REVIEW_10.zip
+          unzip -q HIA_SHORTS_V10_REVIEW_10.zip
+
+      - name: Download Chicago source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/chi/src
+          : > source.rar
+          for part in 00 01 02; do
+            n="Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part${part}"
+            gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern "$n"
+            cat "$n" >> source.rar
+            rm -f "$n"
+          done
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  source.rar' | sha256sum -c -
+
+      - name: Extract clean Chicago assets
+        run: |
+          set -euo pipefail
+          cd /tmp/chi/src
+          names=(
+            A08_IllinoisTelephoneAndTelegraphAd.png
+            A05_IllinoisTunnelConstruction.jpg
+            A07_IllinoisTunnelTestTrain.jpg
+            A01_IllinoisTunnelIntersectionCloser.jpg
+            A02_IllinoisTunnelMap1910.png
+            A14_LOC_State_Street_1905.jpg
+            A13_LOC_State_Street_1903.jpg
+            A15_LOC_Wabash_Avenue_c1900.jpg
+            A14_LOC_State_Street_1905_full_archive.png
+            A13_LOC_State_Street_1903_full_archive.png
+            A15_LOC_Wabash_Avenue_c1900_full_archive.png
+            S007_P005.png S008_P006.png
+            S164_P105.png S165_P106.png S166_P107.png S168_P109.png
+            S178_P119.png S180_P121.png S181_P122.png S183_P124.png S184_P125.png S185_P126.png
+          )
+          args=()
+          for n in "${names[@]}"; do args+=("-ir!*${n}"); done
+          7z x -y source.rar -oextract "${args[@]}"
+          for n in "${names[@]}"; do
+            src="$(find extract -type f -name "$n" | head -n1 || true)"
+            if [ -s "$src" ]; then cp "$src" "/tmp/chi/assets/$n"; fi
+          done
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          root=Path('/tmp/chi/assets')
+          aliases=[
+            ('A14_LOC_State_Street_1905.jpg','A14_LOC_State_Street_1905_full_archive.png'),
+            ('A13_LOC_State_Street_1903.jpg','A13_LOC_State_Street_1903_full_archive.png'),
+            ('A15_LOC_Wabash_Avenue_c1900.jpg','A15_LOC_Wabash_Avenue_c1900_full_archive.png'),
+          ]
+          for raw,alias in aliases:
+              r=root/raw; a=root/alias
+              if r.exists():
+                  Image.open(r).convert('RGB').save(a)
+              elif not a.exists():
+                  raise SystemExit(f'Missing historical source {raw}/{alias}')
+          required=[
+            'A08_IllinoisTelephoneAndTelegraphAd.png','A05_IllinoisTunnelConstruction.jpg',
+            'A07_IllinoisTunnelTestTrain.jpg','A01_IllinoisTunnelIntersectionCloser.jpg',
+            'A02_IllinoisTunnelMap1910.png','A14_LOC_State_Street_1905_full_archive.png',
+            'A13_LOC_State_Street_1903_full_archive.png','A15_LOC_Wabash_Avenue_c1900_full_archive.png',
+            'S007_P005.png','S008_P006.png','S164_P105.png','S165_P106.png','S166_P107.png',
+            'S168_P109.png','S178_P119.png','S180_P121.png','S181_P122.png','S183_P124.png',
+            'S184_P125.png','S185_P126.png'
+          ]
+          miss=[x for x in required if not (root/x).exists()]
+          if miss: raise SystemExit(f'Missing: {miss}')
+          PY
+          rm -rf source.rar extract
+
+      - name: Render Chicago S02-S05 locked native
+        run: |
+          set -euo pipefail
+          BASE=/tmp/chi/h10/HIA_SHORTS_V10_REVIEW
+          for id in CHI-S02 CHI-S03 CHI-S04 CHI-S05; do
+            python3 SHORTS_RENDER/build_locked_native_vertical.py               --plan "CHICAGO/SHORTS/${id}_V10.json"               --map CHICAGO/SHORTS/shorts_extraction_map.json               --asset-dir /tmp/chi/assets               --audio-source "$BASE/CHICAGO/${id}_V10_REVIEW.mp4"               --out "/tmp/chi/out/${id}_LOCKED_NATIVE.mp4"               --qc /tmp/chi/qc
+          done
+
+      - name: Chicago hard QC and contacts
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import subprocess,json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path('/tmp/chi'); ids=['CHI-S02','CHI-S03','CHI-S04','CHI-S05']
+          report={'status':'PASS','shorts':[]}
+          for sid in ids:
+              p=root/'out'/f'{sid}_LOCKED_NATIVE.mp4'
+              pr=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
+              v=next(x for x in pr['streams'] if x['codec_type']=='video'); a=next(x for x in pr['streams'] if x['codec_type']=='audio')
+              dur=float(pr['format']['duration'])
+              ok=v['width']==1080 and v['height']==1920 and v['r_frame_rate']=='25/1' and a['sample_rate']=='48000' and int(a['channels'])==2
+              dec=root/'qc'/f'{sid}_decode.txt'
+              with dec.open('w') as fh: rc=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],stderr=fh).returncode
+              ok=ok and rc==0 and dec.stat().st_size==0
+              imgs=[]
+              for i,t in enumerate([dur*x for x in [.04,.14,.25,.36,.48,.60,.72,.84,.96]],1):
+                  jpg=root/'qc'/f'{sid}_{i:02d}.jpg'
+                  subprocess.run(['ffmpeg','-y','-loglevel','error','-ss',f'{t:.3f}','-i',str(p),'-frames:v','1',str(jpg)],check=True)
+                  im=Image.open(jpg).convert('RGB'); im.thumbnail((360,640)); imgs.append(im.copy())
+              sheet=Image.new('RGB',(1080,1920),(12,12,12))
+              for i,im in enumerate(imgs): sheet.paste(im,((i%3)*360,(i//3)*640))
+              sheet.save(root/'qc'/f'{sid}_CONTACT.jpg',quality=92)
+              ass=(root/'qc'/f'{sid}.ass').read_text(encoding='utf-8')
+              banned=['AI RECONSTRUCTION','DOCUMENT','CONCEPT','100,100)}']
+              if any(x in ass for x in banned): ok=False
+              report['shorts'].append({'id':sid,'pass':ok,'duration':dur,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+              if not ok: report['status']='FAIL'
+          (root/'qc'/'BATCH_QC.json').write_text(json.dumps(report,indent=2))
+          if report['status']!='PASS': raise SystemExit(report)
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-locked-native-chicago-s02-s05
+          path: |
+            /tmp/chi/out
+            /tmp/chi/qc
+          compression-level: 0
+          retention-days: 7
+
+  tc497:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg unzip poppler-utils python3-pil jq fonts-dejavu-core
+          mkdir -p /tmp/tc/{assets,out,qc,pkg,h10}
+
+      - name: Download full 10-pack for exact Short audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd /tmp/tc/h10
+          gh release download hia-shorts-v10-review-20260923 --repo reverendstanislav-bot/Youtube-2 --pattern HIA_SHORTS_V10_REVIEW_10.zip
+          unzip -q HIA_SHORTS_V10_REVIEW_10.zip
+
+      - name: Download clean TC497 generated assets
+        run: |
+          set -euo pipefail
+          M=TC497/FULL_V13/asset_urls.json
+          v4=(
+            V3_YUMA_TEST.png V3_ASSEMBLY.png V2_POWERTRAIN.png V3_TOPDOWN.png V2_YUMA_OBSERVERS.png
+            V3_WHEEL_MOTION.png V2_TRACTION.png V3_CARGOLOAD.png V3_CREW.png V2_DUNE.png V3_DUNE_LIMIT.png
+            V3_LEGACY.png V3_COUPLING.png V2_DISTRIBUTION.png V4_WHEEL_ALT.png V2_ELECTRIC_HERO.png
+            V2_PREDECESSOR_EARLY.png V3_PREDECESSOR.png V3_RANGE.png V4_STEER_TRACKS.png V4_STEER_JOINT.png
+            V4_NUKE_TECH.png V4_HELI_CARGO.png
+          )
+          for n in "${v4[@]}"; do
+            url="$(jq -r --arg n "$n" '.v4_extra[$n] // empty' "$M")"
+            test -n "$url" || { echo "NO URL $n"; exit 1; }
+            curl -fL --retry 4 --retry-all-errors "$url" -o "/tmp/tc/assets/$n"
+          done
+          for n in nuclear_concept_clean.png nuclear_unbuilt_clean.png heavy_lift_logistics_clean.png ground_vs_air_clean.png; do
+            url="$(jq -r --arg n "$n" '.v5_patch[$n] // empty' "$M")"
+            test -n "$url"
+            curl -fL --retry 4 --retry-all-errors "$url" -o "/tmp/tc/assets/$n"
+          done
+          url="$(jq -r '.v6_patch["electric_wheel_v6.png"]' "$M")"
+          curl -fL --retry 4 --retry-all-errors "$url" -o /tmp/tc/assets/electric_wheel_v6.png
+
+      - name: Download TC497 package for patent and historical CH-54
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/tc/pkg
+          gh release download tc497-codex-ready-v1 --repo reverendstanislav-bot/Youtube-2 --pattern Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip
+          unzip -q Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip
+          PAT="$(find . -type f -name 'AR-PATENT__*.pdf' | head -n1)"
+          test -s "$PAT"
+          pdftoppm -f 1 -singlefile -png -r 160 "$PAT" /tmp/tc/assets/patent
+          mv /tmp/tc/assets/patent.png /tmp/tc/assets/AR_PATENT.png
+          for pair in 'AR-CH54-1:AR_CH54_1.png' 'AR-CH54-2:AR_CH54_2.png' 'AR-CH54-3:AR_CH54_3.png'; do
+            code="${pair%%:*}"; out="${pair##*:}"
+            src="$(find . -type f -name "${code}__*" | head -n1)"
+            test -s "$src"
+            SRC="$src" OUT="/tmp/tc/assets/$out" python3 - <<'PY'
+          import os
+          from PIL import Image
+          Image.open(os.environ['SRC']).convert('RGB').save(os.environ['OUT'])
+          PY
+          done
+          rm -rf Hidden_Industrial_America_TC497_CODEX_READY_FULL_v1.zip Hidden_Industrial_America_TC497_CODEX_READY_v1
+
+      - name: Render TC497 S01-S05 locked native
+        run: |
+          set -euo pipefail
+          BASE=/tmp/tc/h10/HIA_SHORTS_V10_REVIEW
+          python3 SHORTS_RENDER/build_locked_native_vertical.py             --plan TC497/SHORTS/TC497-S01_V7_CLEAN_ASSET_PROOF.json             --map TC497/SHORTS/shorts_extraction_map.json             --asset-dir /tmp/tc/assets             --audio-source "$BASE/TC497/TC497-S01_V10_REVIEW.mp4"             --out /tmp/tc/out/TC497-S01_LOCKED_NATIVE.mp4 --qc /tmp/tc/qc
+          for id in TC497-S02 TC497-S03 TC497-S04 TC497-S05; do
+            suffix="_V10.json"; [ "$id" = "TC497-S02" ] && suffix="_V10_PROOF.json"
+            python3 SHORTS_RENDER/build_locked_native_vertical.py               --plan "TC497/SHORTS/${id}${suffix}"               --map TC497/SHORTS/shorts_extraction_map.json               --asset-dir /tmp/tc/assets               --audio-source "$BASE/TC497/${id}_V10_REVIEW.mp4"               --out "/tmp/tc/out/${id}_LOCKED_NATIVE.mp4" --qc /tmp/tc/qc
+          done
+
+      - name: TC497 hard QC and contacts
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import subprocess,json,hashlib
+          from pathlib import Path
+          from PIL import Image
+          root=Path('/tmp/tc'); ids=['TC497-S01','TC497-S02','TC497-S03','TC497-S04','TC497-S05']
+          report={'status':'PASS','shorts':[]}
+          for sid in ids:
+              p=root/'out'/f'{sid}_LOCKED_NATIVE.mp4'
+              pr=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
+              v=next(x for x in pr['streams'] if x['codec_type']=='video'); a=next(x for x in pr['streams'] if x['codec_type']=='audio')
+              dur=float(pr['format']['duration'])
+              ok=v['width']==1080 and v['height']==1920 and v['r_frame_rate']=='30/1' and a['sample_rate']=='48000' and int(a['channels'])==2
+              dec=root/'qc'/f'{sid}_decode.txt'
+              with dec.open('w') as fh: rc=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],stderr=fh).returncode
+              ok=ok and rc==0 and dec.stat().st_size==0
+              imgs=[]
+              for i,t in enumerate([dur*x for x in [.04,.14,.25,.36,.48,.60,.72,.84,.96]],1):
+                  jpg=root/'qc'/f'{sid}_{i:02d}.jpg'
+                  subprocess.run(['ffmpeg','-y','-loglevel','error','-ss',f'{t:.3f}','-i',str(p),'-frames:v','1',str(jpg)],check=True)
+                  im=Image.open(jpg).convert('RGB'); im.thumbnail((360,640)); imgs.append(im.copy())
+              sheet=Image.new('RGB',(1080,1920),(12,12,12))
+              for i,im in enumerate(imgs): sheet.paste(im,((i%3)*360,(i//3)*640))
+              sheet.save(root/'qc'/f'{sid}_CONTACT.jpg',quality=92)
+              ass=(root/'qc'/f'{sid}.ass').read_text(encoding='utf-8')
+              banned=['AI RECONSTRUCTION','DOCUMENT','CONCEPT','100,100)}','Aircrafts']
+              if any(x in ass for x in banned): ok=False
+              report['shorts'].append({'id':sid,'pass':ok,'duration':dur,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+              if not ok: report['status']='FAIL'
+          (root/'qc'/'BATCH_QC.json').write_text(json.dumps(report,indent=2))
+          if report['status']!='PASS': raise SystemExit(report)
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-locked-native-tc497-s01-s05
+          path: |
+            /tmp/tc/out
+            /tmp/tc/qc
+          compression-level: 0
+          retention-days: 7
+
+  package:
+    needs: [chicago,tc497]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: hia-locked-native-chicago-s02-s05
+          path: /tmp/all/CHICAGO
+      - uses: actions/download-artifact@v4
+        with:
+          name: hia-locked-native-tc497-s01-s05
+          path: /tmp/all/TC497
+      - name: Package remaining nine
+        run: |
+          cd /tmp/all
+          zip -q -r -0 HIA_REMAINING9_LOCKED_NATIVE.zip CHICAGO TC497
+          sha256sum HIA_REMAINING9_LOCKED_NATIVE.zip > SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hia-remaining9-locked-native
+          path: |
+            /tmp/all/HIA_REMAINING9_LOCKED_NATIVE.zip
+            /tmp/all/SHA256SUMS.txt
+          compression-level: 0
+          retention-days: 7
