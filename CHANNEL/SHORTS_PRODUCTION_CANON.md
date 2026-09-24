@@ -95,6 +95,25 @@ Hard rules:
 
 This owner rule overrides older HIA provenance-display behavior inherited from long-form builds.
 
+## 5B. Transition rule — OWNER LOCKED
+
+Default: preserve clean source cuts.
+
+If a source cut is visibly too harsh in 9:16, the only allowed repair is a **very short full-frame micro-softening** around the cut (about 3–4 frames at source FPS).
+
+Hard rules:
+- effect applies to the **entire composed frame**, never foreground/background separately;
+- no partial-layer dissolve;
+- no duplicated panels;
+- no left/right slide, whip, pan or zoom transition;
+- no long crossfade;
+- no black/white flash;
+- no timing change;
+- no audio shift;
+- no source-frame substitution.
+
+The goal is only to remove the harsh visual hit while keeping the edit structurally identical.
+
 ## 6. HIA Shorts end card
 
 Youtube-1 uses an exact owner-provided vertical end-card.
