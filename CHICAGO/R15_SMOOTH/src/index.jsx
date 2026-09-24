@@ -78,7 +78,7 @@ function SmoothGroup({group,index}){
   );
 
   // Slow scale interpolation replaces abrupt R14 reframing jumps.
-  // No translate(), no pan, no horizontal or vertical travel.
+  // No positional pan or horizontal/vertical travel.
   const s0=scaleForView(group.firstView);
   const s1=scaleForView(group.lastView);
   let scale=s0+(s1-s0)*smoothstep(bodyProgress);
