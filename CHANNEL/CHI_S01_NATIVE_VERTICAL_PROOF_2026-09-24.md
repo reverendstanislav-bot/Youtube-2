@@ -87,3 +87,17 @@ Canonical fix:
 Corrected Actions run: `36033600802`
 Artifact id: `10823868019`
 Artifact digest: `sha256:449479cd160be1df572fc087d9d9a1fd2d7c907fa779a15c79f9f4b08b2fa5a0`
+
+## Patch-only correction rule — 2026-09-24
+
+Owner correction: when asked to fix a specific visible defect in an approved/reviewed Short version, do **not** silently alter any unrelated visual property.
+
+For the current CHI-S01 safe-caption V2:
+- preserve bottom darkening;
+- preserve caption position;
+- preserve visual sequence;
+- preserve timing and cuts;
+- preserve all other styling;
+- remove only the duplicate second-pass `HISTORICAL SOURCE` event.
+
+Patch-only output SHA256: `9fbe9b5a6dcc6616fe2ea946e0a28368b34b8ca46e8dcd610b83b36fc00bd036`.
