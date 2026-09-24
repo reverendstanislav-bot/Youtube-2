@@ -292,3 +292,12 @@ Future history entries must record:
 - Repair strategy is editor-first: text fixes, masking, neutral schematic replacements and source-safe relabeling before any paid regeneration.
 - No new paid generation was performed during QC.
 
+## 2026-09-24 — GFX package final lock
+
+- Final overburden-depth HOLD was replaced with a neutral ~97-ft average vs ~182-ft cited-case comparison.
+- Final GFX state: **55 PASS / 0 HOLD / 0 REJECT**.
+- HIA visual style and lower 12–15% subtitle-safe rule remain locked.
+- GFX work is closed.
+- The remaining visual blocker is the independent 22-still reconstruction package from the Visual Diversity Pass, whose prior QC remains 4 PASS / 3 HOLD / 15 REJECT.
+- Next production block: zero-cost HOLD salvage → replacement prompt rebuild → exact cost preflight → explicit approval → reconstruction completion → final 116-beat asset lock.
+

@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **38-GFX REPAIR QC COMPLETE — 26 PASS / 4 HOLD / 8 REGENERATE**  
-Publication status: **PREPRODUCTION — GFX STYLE LOCKED; FACTUAL/EDITORIAL REPAIR PASS REQUIRED BEFORE EDIT LOCK**
+State: **GFX 55/55 PASS — RECONSTRUCTION RECOVERY PASS NEXT**  
+Publication status: **PREPRODUCTION — GFX LOCKED; 22 RECONSTRUCTION-GAP PACKAGE NOT YET LOCKED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,33 +336,32 @@ Final captions:
 
 ## Immediate next action
 
-**REGENERATE THE FINAL 8 GFX — THEN FINAL 38/38 QC**
+**RECONSTRUCTION RECOVERY PASS — THEN FINAL 116-BEAT ASSET LOCK**
 
-Current repair QC:
-- PASS: **26**
-- HOLD: **4** — editorial text/mask cleanup only
-- REGENERATE: **8**
+GFX:
+- **55/55 PASS**
+- 0 HOLD
+- 0 REJECT
+- final lock recorded in `GFX/GFX_FINAL_LOCK_V2.md`.
 
-The eight required new GFX are:
-1. preservation attempts;
-2. 13.8-kV power feed;
-3. drag vs swing;
-4. second distinct dragline-cycle composition;
-5. hoist force path;
-6. inertia / shock-control;
-7. second distinct overburden-depth composition;
-8. productivity paradox.
+Reconstruction stills required by the authoritative Visual Diversity Pass:
+- total required: **22**
+- current old QC: **4 PASS / 3 HOLD / 15 REJECT**
 
-Mandatory for all eight:
-- same locked HIA GFX style;
-- one image per file;
-- no invented quotes or unsupported numbers;
-- no crawler/tracked Big Muskie geometry;
-- lower 12–15% clear for captions.
+Next zero-cost actions:
+1. preserve GEN01 / GEN03 / GEN04 / GEN11 as current PASS;
+2. test crop/mask salvage on GEN02 / GEN15 / GEN17;
+3. calculate the exact replacement count after salvage;
+4. rewrite only the remaining replacement prompts with strict 4250-W geometry locks;
+5. run exact cost preflight;
+6. stop for explicit spend approval.
 
-After these eight exist:
-1. perform final QC of all 38 repaired GFX;
-2. clean the four HOLD text layers;
-3. lock the complete 55-GFX production package.
+After reconstruction QC reaches 22/22 PASS:
+1. build one final 116-beat asset manifest;
+2. verify every beat has one locked source/GFX/reconstruction composition;
+3. verify R/C/D visible reuse <= 2;
+4. verify provenance labels;
+5. lock Stage 8;
+6. begin full 23:46.400 picture assembly.
 
-No unrelated GFX should be generated.
+No additional paid generation is currently authorized.
