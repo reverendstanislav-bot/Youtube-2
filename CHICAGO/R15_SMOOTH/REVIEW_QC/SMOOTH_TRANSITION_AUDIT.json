@@ -1,0 +1,12 @@
+{
+  "r14_shots": 294,
+  "r15_visual_groups": 205,
+  "same_asset_boundaries_removed": 89,
+  "full_frame_dissolve_boundaries": 204,
+  "dissolve_frames_total": 6,
+  "dissolve_seconds": 0.24,
+  "horizontal_translation": false,
+  "vertical_translation": false,
+  "shake": false,
+  "status": "PASS"
+}

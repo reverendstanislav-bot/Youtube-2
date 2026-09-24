@@ -1,0 +1,10 @@
+{
+  "captionSource": "word-level transcript",
+  "voiceWords": 2732,
+  "captionWords": 2732,
+  "wordCoverageRatio": 1.0,
+  "exactWordSequence": true,
+  "captionCues": 563,
+  "editorialCards": 30,
+  "status": "PASS"
+}
