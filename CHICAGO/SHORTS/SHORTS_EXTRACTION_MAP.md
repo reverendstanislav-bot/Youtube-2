@@ -1,5 +1,7 @@
 # CHICAGO — SHORTS EXTRACTION MAP
 
+> **ACTIVE RENDER POLICY — YOUTUBE-1 MODEL:** Only the locked source IN/OUT ranges and exact narration spans below remain active. All older per-beat `9:16 montage` / asset-rebuild instructions in this document are superseded and retained only as historical planning notes. Shorts picture must be a continuous direct cut from the long-form master, wrapped using `CHANNEL/SHORTS_PRODUCTION_CANON.md`. No Shorts-only GFX, still rebuild, replacement imagery, or second caption layer.
+
 Episode 1 — Chicago underground freight tunnel system.
 
 Status: **VERTICAL_PLAN_LOCKED**. Rendering is blocked until the long-form episode is explicitly approved.
