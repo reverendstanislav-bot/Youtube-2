@@ -323,3 +323,14 @@ Future history entries must record:
 - REJECT: GEN09 distinct loaded-swing phase missing; GEN10 post-dump return not shown; GEN12 cable reads as a pipe/hose.
 - Remaining workflow: zero-cost salvage GEN05/14, regenerate only GEN09/10/12, then final reconstruction QC.
 
+## 2026-09-24 — reconstruction replacement QC V4
+
+- Rechecked the latest five individual replacement images.
+- GEN10 advanced to PASS.
+- GEN05 remains HOLD because the loaded bucket occupies the subtitle-safe lower band.
+- GEN14 remains HOLD because a true mid-step walking state is still not unmistakable.
+- GEN09 remains REJECT because visible material discharge reads as dumping rather than loaded swing.
+- GEN12 remains REJECT because the trailing feed reads as pipe/hose rather than flexible electrical cable.
+- Replacement-package state: **11 PASS / 2 HOLD / 2 REJECT**.
+- Full reconstruction state: **18/22 PASS / 2 HOLD / 2 REJECT**.
+

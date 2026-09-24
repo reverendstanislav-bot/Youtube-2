@@ -7,7 +7,7 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GFX 55/55 PASS — RECONSTRUCTION REPLACEMENT QC: 10 PASS / 2 HOLD / 3 REJECT**  
+State: **GFX 55/55 PASS — RECONSTRUCTIONS 18/22 PASS / 2 HOLD / 2 REJECT**  
 Publication status: **PREPRODUCTION — GFX LOCKED; 22 RECONSTRUCTION-GAP PACKAGE NOT YET LOCKED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,20 +336,20 @@ Final captions:
 
 ## Immediate next action
 
-**RECONSTRUCTION CLEANUP — 2 SALVAGE + 3 REGENERATE**
+**FINAL FOUR RECONSTRUCTION FIXES**
 
-Current replacement QC:
-- PASS: **10**
-- HOLD: **2** — GEN05 / GEN14
-- REJECT: **3** — GEN09 / GEN10 / GEN12
-- unique replacement files physically present: **14/15**
+Current reconstruction package:
+- **18/22 PASS**
+- HOLD: **GEN05 / GEN14**
+- REJECT: **GEN09 / GEN12**
 
-Next:
-1. zero-cost salvage GEN05 subtitle-safe framing;
-2. zero-cost GEN14 D04/editorial walking-step salvage test;
-3. regenerate only GEN09 / GEN10 / GEN12;
-4. final 15/15 replacement QC;
-5. merge with the 7 earlier reconstruction PASS assets;
-6. require **22/22 reconstruction PASS** before final 116-beat asset lock.
+Required:
+1. GEN05 — loaded bucket moved above subtitle-safe lower band;
+2. GEN09 — true loaded swing, no dumping/material loss;
+3. GEN12 — believable flexible trailing electrical cable, not pipe/hose;
+4. GEN14 — unmistakable walking-step/load-transfer state with circular tub and no tracks/wheels.
 
-See `GENERATED/RECONSTRUCTION_REPLACEMENT_QC_V3.md`.
+After these four:
+- final 22/22 reconstruction QC;
+- then FINAL 116-BEAT ASSET LOCK;
+- then full picture assembly.
