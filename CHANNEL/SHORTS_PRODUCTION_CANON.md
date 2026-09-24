@@ -1,7 +1,17 @@
 # HIA — SHORTS PRODUCTION CANON
 
-Status: **ACTIVE / OWNER-DIRECTED**
-Locked from the proven Shorts model in `reverendstanislav-bot/Youtube-1-`.
+Status: **OWNER REVIEW / NATIVE VERTICAL PROOF ACTIVE**
+
+## 0. Rejected HIA approaches
+
+The following HIA Shorts approaches are explicitly rejected and must not be reused:
+- blurred full-height same-frame background with a small horizontal 16:9 foreground strip;
+- floating/stacked horizontal frame inside portrait;
+- Shorts built from editor-native replacement GFX/cards;
+- visible `AI RECONSTRUCTION`, `CONCEPT`, or `DOCUMENT` provenance plaques;
+- micro-dissolve / transition patches added merely to soften bad portrait composition.
+
+The current proof direction is **native full-screen 9:16 assembly from already-approved long-form assets**, using the exact locked source audio span and word timing.
 
 ## 1. Canonical origin
 
@@ -55,6 +65,25 @@ For a 1920×1080 HIA source:
 8. No replacement graphics.
 
 This intentionally keeps the entire approved long-form composition readable while filling the 9:16 screen with a subdued copy of the same live frame.
+
+## 3A. Native vertical proof direction — ACTIVE
+
+Until owner approval, this is a proof direction rather than a final channel-wide lock.
+
+Rules:
+- exact long-form audio extraction remains the narration source;
+- visual sequence may use already-approved assets from the same episode to make the Short understandable on a phone;
+- no new image generation;
+- no new video generation;
+- no invented explanatory GFX;
+- no blur-fill portrait wrapper;
+- use full-screen 9:16 static reframes;
+- rebuild running captions for mobile from the canonical word-level transcript;
+- captions: white base, orange active word;
+- transitions: hard cuts by default;
+- visible provenance: `HISTORICAL SOURCE` only, and only on verified historical/archive/map frames;
+- reconstruction imagery is shown without an AI plaque.
+
 
 ## 4. HIA-native technical settings
 
