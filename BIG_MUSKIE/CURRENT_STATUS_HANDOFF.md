@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GFX 55/55 PASS — RECONSTRUCTIONS 18/22 PASS / 2 HOLD / 2 REJECT**  
-Publication status: **PREPRODUCTION — GFX LOCKED; 22 RECONSTRUCTION-GAP PACKAGE NOT YET LOCKED**
+State: **GFX 55/55 PASS — RECONSTRUCTIONS 22/22 PASS — FINAL 116-BEAT ASSET LOCK NEXT**  
+Publication status: **PREPRODUCTION — GFX AND RECONSTRUCTION PACKAGES LOCKED; FINAL 116-BEAT ASSET LOCK NEXT**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,20 +336,23 @@ Final captions:
 
 ## Immediate next action
 
-**FINAL FOUR RECONSTRUCTION FIXES**
+**FINAL 116-BEAT ASSET LOCK**
 
-Current reconstruction package:
-- **18/22 PASS**
-- HOLD: **GEN05 / GEN14**
-- REJECT: **GEN09 / GEN12**
+Closed:
+- GFX: **55/55 PASS**
+- Reconstructions: **22/22 PASS**
+- HOLD: **0**
+- REJECT: **0**
 
-Required:
-1. GEN05 — loaded bucket moved above subtitle-safe lower band;
-2. GEN09 — true loaded swing, no dumping/material loss;
-3. GEN12 — believable flexible trailing electrical cable, not pipe/hose;
-4. GEN14 — unmistakable walking-step/load-transfer state with circular tub and no tracks/wheels.
+GEN14 was explicitly accepted by the user despite the earlier QC reservation and is now production-locked.
 
-After these four:
-- final 22/22 reconstruction QC;
-- then FINAL 116-BEAT ASSET LOCK;
-- then full picture assembly.
+Next:
+1. assign one final production asset to every beat BM-B001 → BM-B116;
+2. freeze REAL / REAL_CONTEXT / DOCUMENT / GFX / RECONSTRUCTION selections;
+3. verify visible R/C/D reuse <= 2;
+4. verify provenance and rights labels;
+5. verify caption-safe framing;
+6. publish the final 116-beat asset-lock manifest;
+7. begin full picture assembly on canonical runtime **23:46.400**.
+
+No further reconstruction generation is required.

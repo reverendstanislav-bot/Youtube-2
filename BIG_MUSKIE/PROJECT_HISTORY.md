@@ -334,3 +334,11 @@ Future history entries must record:
 - Replacement-package state: **11 PASS / 2 HOLD / 2 REJECT**.
 - Full reconstruction state: **18/22 PASS / 2 HOLD / 2 REJECT**.
 
+## 2026-09-24 — reconstruction package final lock
+
+- User explicitly accepted the final GEN14 frame despite the earlier QC reservation.
+- Final reconstruction package state: **22 PASS / 0 HOLD / 0 REJECT**.
+- No additional reconstruction generation is required.
+- All generated historical frames remain labelled **AI RECONSTRUCTION**, never HISTORICAL SOURCE.
+- Next stage: FINAL 116-BEAT ASSET LOCK → full picture assembly on the canonical 23:46.400 timeline.
+
