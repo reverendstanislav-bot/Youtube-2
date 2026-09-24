@@ -1,0 +1,52 @@
+name: CHI-S01 native vertical asset proof
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build_chi_s01_native_vertical_asset_proof.yml'
+      - 'SHORTS_RENDER/build_chi_s01_native_asset_proof.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y p7zip-full ffmpeg fonts-dejavu-core
+      - name: Download and extract clean Chicago assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chi_native /tmp/chi_src /tmp/chi_extract
+          mkdir -p /tmp/chi_native /tmp/chi_src /tmp/chi_extract
+          cd /tmp/chi_src
+          gh release download chicago-source-archive-v1 --repo reverendstanislav-bot/Youtube-2 --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01 Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02 > source.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  source.rar' | sha256sum -c -
+          7z x -y source.rar -o/tmp/chi_extract '-ir!*/_V2/work/assets/*' '-ir!*/_V2/final/HIA_CHICAGO_V2.mp4' '-ir!*/_QC/voice_words.json'
+          ASSETS="$(find /tmp/chi_extract -type d -path '*/_V2/work/assets' | head -n1)"
+          V2="$(find /tmp/chi_extract -type f -path '*/_V2/final/HIA_CHICAGO_V2.mp4' | head -n1)"
+          WORDS="$(find /tmp/chi_extract -type f -path '*/_QC/voice_words.json' | head -n1)"
+          test -d "$ASSETS"; test -s "$V2"; test -s "$WORDS"
+          echo "ASSETS=$ASSETS" >> "$GITHUB_ENV"
+          echo "V2=$V2" >> "$GITHUB_ENV"
+          echo "WORDS=$WORDS" >> "$GITHUB_ENV"
+      - name: Render native vertical proof
+        run: |
+          python3 SHORTS_RENDER/build_chi_s01_native_asset_proof.py             --assets "$ASSETS" --v2 "$V2" --words "$WORDS" --outdir /tmp/chi_native
+      - name: Upload proof
+        uses: actions/upload-artifact@v4
+        with:
+          name: chi-s01-native-vertical-asset-proof
+          path: /tmp/chi_native
+          compression-level: 0
+          retention-days: 7
