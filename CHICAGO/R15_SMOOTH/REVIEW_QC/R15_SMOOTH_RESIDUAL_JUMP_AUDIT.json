@@ -1,0 +1,7 @@
+{
+  "scene_threshold": 0.65,
+  "hard_scene_jump_frames": 0,
+  "hard_scene_jump_times_sec": [],
+  "black_events": 0,
+  "status": "PASS"
+}
