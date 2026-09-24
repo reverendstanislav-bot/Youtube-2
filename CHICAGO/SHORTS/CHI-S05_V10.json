@@ -5,25 +5,28 @@
     "CLOSED FOR 33 YEARS.",
     "IT STILL MATTERED."
   ],
-  "version": "V10_CANON",
+  "version": "V10_PATCH1",
+  "caption_replacements": {
+    "Kinsey": "Kinzie"
+  },
   "rules": {
     "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
-    "source": "clean episode assets",
+    "source": "clean archive + verified legal-record GFX",
     "provenance": "no fake legal-document labels"
   },
   "segments": [
     {
       "out_start": 0,
       "out_end": 6.18,
-      "asset": "S178_P119.png",
-      "x": 0.5,
+      "asset": "A02_IllinoisTunnelMap1910.png",
+      "x": 0.46,
       "motion": "push",
-      "metric": "THE NETWORK COULD DISTRIBUTE WATER",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "A NETWORK BUILT TO DISTRIBUTE FREIGHT",
+      "provenance": "HISTORICAL SOURCE"
     },
     {
       "out_start": 6.18,
-      "out_end": 11.5,
+      "out_end": 11.6,
       "asset": "S180_P121.png",
       "x": 0.46,
       "motion": "static",
@@ -31,48 +34,37 @@
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 11.5,
+      "out_start": 11.6,
       "out_end": 17.62,
-      "asset": "S181_P122.png",
-      "x": 0.52,
+      "gfx_type": "court_allegation",
       "motion": "static",
-      "metric": "LATER CLAIMS ALLEGED DAMAGE",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "LATER LEGAL CLAIMS ALLEGED DAMAGE",
+      "provenance": "DOCUMENT"
     },
     {
       "out_start": 17.62,
-      "out_end": 22.5,
-      "asset": "S182_P123.png",
-      "x": 0.5,
-      "motion": "static",
-      "metric": "ALLEGATION IS NOT A FINAL FINDING",
-      "provenance": "AI RECONSTRUCTION"
-    },
-    {
-      "out_start": 22.5,
       "out_end": 26.64,
-      "asset": "S183_P124.png",
-      "x": 0.5,
+      "gfx_type": "court_correction",
       "motion": "static",
-      "metric": "NO SIMPLE BLAME CLAIM",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "ALLEGATION ≠ FINAL FINDING",
+      "provenance": "DOCUMENT"
     },
     {
       "out_start": 26.64,
-      "out_end": 31.5,
+      "out_end": 31.76,
       "asset": "S184_P125.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "33 YEARS CLOSED",
+      "metric": "THE LARGER POINT",
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 31.5,
+      "out_start": 31.76,
       "out_end": 35.74,
       "asset": "S185_P126.png",
       "x": 0.48,
       "motion": "static",
-      "metric": "PHYSICAL CONNECTIONS REMAINED",
+      "metric": "33 YEARS CLOSED",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -81,7 +73,7 @@
       "asset": "A02_IllinoisTunnelMap1910.png",
       "x": 0.54,
       "motion": "static",
-      "metric": "THE NETWORK STILL MATTERED",
+      "metric": "PHYSICAL CONNECTIONS REMAINED",
       "provenance": "HISTORICAL SOURCE"
     },
     {
