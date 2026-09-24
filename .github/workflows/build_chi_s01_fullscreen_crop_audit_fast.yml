@@ -1,0 +1,30 @@
+name: CHI-S01 fullscreen crop audit fast
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build_chi_s01_fullscreen_crop_audit_fast.yml'
+      - 'SHORTS_RENDER/build_chi_s01_crop_audit_fast.sh'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build crop audit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash SHORTS_RENDER/build_chi_s01_crop_audit_fast.sh
+      - name: Upload crop audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: chi-s01-fullscreen-crop-audit-fast
+          path: /tmp/chi_s01_crop_audit_fast/audit
+          compression-level: 0
+          retention-days: 7
