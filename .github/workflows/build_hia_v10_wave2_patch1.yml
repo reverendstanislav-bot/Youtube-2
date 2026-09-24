@@ -243,26 +243,6 @@ jobs:
           done
           rm -rf /tmp/tc/pkg /tmp/tc/pkg_artifact
 
-      - name: Download verified January 1961 Army R&D document page
-        run: |
-          set -euo pipefail
-          URL='https://asc.army.mil/docs/pubs/alt/archives/1961/Jan_1961.PDF'
-          curl -fL --retry 4 --retry-all-errors -A 'Mozilla/5.0' "$URL" -o /tmp/tc/Jan_1961.PDF
-          pages="$(pdfinfo /tmp/tc/Jan_1961.PDF | awk '/^Pages:/ {print $2}')"
-          found=''
-          for p in $(seq 1 "$pages"); do
-            pdftotext -f "$p" -l "$p" /tmp/tc/Jan_1961.PDF /tmp/tc/page.txt
-            if grep -qi 'Nuclear Power Planned For Overland Train' /tmp/tc/page.txt; then
-              found="$p"
-              break
-            fi
-          done
-          test -n "$found" || { echo '1961 Army nuclear-overland page not found' >&2; exit 1; }
-          pdftoppm -f "$found" -l "$found" -png -r 180 -singlefile /tmp/tc/Jan_1961.PDF /tmp/tc/army1961
-          mv /tmp/tc/army1961.png /tmp/tc/assets/ARMY1961_NUCLEAR_OVERLAND.png
-          test -s /tmp/tc/assets/ARMY1961_NUCLEAR_OVERLAND.png
-          echo "Verified Army document page: PDF page $found"
-
       - name: Download TC497 locked audio source
         env:
           GH_TOKEN: ${{ github.token }}
