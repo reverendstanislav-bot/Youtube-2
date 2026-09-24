@@ -1,41 +1,44 @@
 # CHICAGO — CURRENT STATUS / HANDOFF
 
-## ACTIVE TARGET — R14 EDITORIAL RECUT
+## ACTIVE TARGET — R15 SMOOTH REMOTION REVIEW
 
-**Do not upload R13.**
+**Do not upload R14.**
 
-Deep QC of the completed R13 review found:
-- technical decode PASS;
-- provenance classification PASS;
-- end screen PASS;
-- primary editorial pacing FAIL;
-- multiple static beats 8–25 s long;
-- map block around 05:49–07:17 too static;
-- provenance text too small at 10 px;
-- caption token alignment 98.665%, not exact word-level coverage;
-- output pixel-format/range not accepted as the final upload target.
+R15 supersedes R14 as the current Chicago review target because the owner rejected the R14 transition feel as too abrupt.
 
-R14 corrects those defects using only existing approved assets. No image/video generation or external generation credits are authorized or used.
+### What R15 changes
+- Remotion remains the primary picture compositor.
+- Same approved R14 source assets and phrase-driven timing are retained.
+- Adjacent R14 segments using the same source asset are merged into continuous visual groups.
+- 89 same-asset hard boundaries were removed.
+- Different source assets use centered 6-frame / 240 ms full-frame dissolves.
+- No horizontal translation.
+- No vertical translation.
+- No shake.
+- No whip/slide transitions.
+- No rapid zoom-in/zoom-out bouncing.
+- Only extremely restrained scale interpolation/breathing is allowed.
+- Exact word-level captions and provenance logic are retained.
+- Approved Chicago AAC remains bit-identical.
+- Episode-1 textless subscribe/avatar end screen remains.
 
-### R14 hard rules
-- Remotion remains the primary picture timeline.
-- New internal cuts are placed at narration word boundaries where safe.
-- No pre-outro visual beat may exceed 7.05 s.
-- Archive/map/document: controlled reframing cuts, no constant Ken Burns.
-- Reconstruction: alternate framing; subtle push only selectively.
-- HISTORICAL SOURCE = verified archive/map only.
-- AI RECONSTRUCTION = generated reconstruction only.
-- provenance label must be readable at 1080p.
-- captions are generated directly from word-level timing and must have 100% sequence coverage.
-- approved AAC SHA256 remains `a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed`.
-- outro from 21:08 is textless and Episode-1-specific: ONE avatar/subscribe circle only; ZERO previous-video/next-video rectangles; no captions/provenance.
-- final picture target: 1920×1080, 25 fps, exactly 32,268 frames, limited-range `yuv420p`.
+### R15 QC
+- GitHub Actions run: `36046301264`
+- render: PASS
+- technical QC: PASS
+- R14 shots: 294
+- R15 continuous visual groups: 205
+- same-asset boundaries removed: 89
+- full-frame dissolve boundaries: 204
+- residual scene jumps above threshold 0.65: 0
+- black events: 0
+- video SHA256: `712a043166052a7077203501117c75fce5b0047fcd6794f7b22ff64513291128`
+- approved AAC SHA256: `a1e84ecb33a2060075b5681a086bf59b166396e16564b8e705a5b201dc4928ed`
 
-### Active workflow
-`.github/workflows/build_chicago_r14_editorial_recut.yml`
+### Release
+Tag: `chicago-r15-smooth-remotion-review-20260924`
 
-R14 remains REVIEW until the rendered file passes visual/editorial QC and explicit user approval.
+File:
+`HIA_CHICAGO_R15_SMOOTH_REMOTION_REVIEW_1920x1080.mp4`
 
-
-## Episode 1 end-screen correction — 2026-09-23
-The R14 review that contained a video-slot rectangle is rejected. Chicago is the first published episode, therefore there is no previous video to place there. The corrected build must render zero video slots and one subscribe/avatar circle only.
+Status remains **REVIEW ONLY — USER VISUAL APPROVAL REQUIRED** until the owner watches and approves the R15 film.
