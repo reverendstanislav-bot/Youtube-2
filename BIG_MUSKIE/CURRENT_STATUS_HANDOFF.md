@@ -7,7 +7,7 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GFX 55/55 PASS — RECONSTRUCTION SALVAGE COMPLETE — 7 PASS / 15 REPLACE**  
+State: **GFX 55/55 PASS — RECONSTRUCTION REPLACEMENT QC: 10 PASS / 2 HOLD / 3 REJECT**  
 Publication status: **PREPRODUCTION — GFX LOCKED; 22 RECONSTRUCTION-GAP PACKAGE NOT YET LOCKED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,25 +336,20 @@ Final captions:
 
 ## Immediate next action
 
-**READ-ONLY COST PREFLIGHT FOR 15 RECONSTRUCTION REPLACEMENTS — THEN STOP**
+**RECONSTRUCTION CLEANUP — 2 SALVAGE + 3 REGENERATE**
 
-GFX:
-- **55/55 PASS**
-
-Reconstruction:
-- original PASS: GEN01 / GEN03 / GEN04 / GEN11
-- salvage PASS: GEN02 / GEN15 / GEN17
-- total PASS: **7**
-- exact replacement count: **15**
-- replace: GEN05 / 06 / 07 / 08 / 09 / 10 / 12 / 13 / 14 / 16 / 18 / 19 / 20 / 21 / 22
-
-Files:
-- `GENERATED/RECONSTRUCTION_SALVAGE_QC_V2.md`
-- `GENERATED/RECONSTRUCTION_REPLACEMENT_PROMPT_PACK_V2.md`
+Current replacement QC:
+- PASS: **10**
+- HOLD: **2** — GEN05 / GEN14
+- REJECT: **3** — GEN09 / GEN10 / GEN12
+- unique replacement files physically present: **14/15**
 
 Next:
-1. prepare D03/D04 engineering-lineage PNG references where required;
-2. run read-only cost preflight on all 15 final prompts and actual reference assignments;
-3. show exact total;
-4. STOP for explicit spend approval;
-5. no paid replacement jobs before that approval.
+1. zero-cost salvage GEN05 subtitle-safe framing;
+2. zero-cost GEN14 D04/editorial walking-step salvage test;
+3. regenerate only GEN09 / GEN10 / GEN12;
+4. final 15/15 replacement QC;
+5. merge with the 7 earlier reconstruction PASS assets;
+6. require **22/22 reconstruction PASS** before final 116-beat asset lock.
+
+See `GENERATED/RECONSTRUCTION_REPLACEMENT_QC_V3.md`.

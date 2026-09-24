@@ -314,3 +314,12 @@ Future history entries must record:
 - Rebuilt 15 prompts with circular-tub / walking-shoe / no-crawler geometry locks and source-specific reference strategy.
 - No paid replacement generation submitted.
 
+## 2026-09-24 — replacement reconstruction QC V3
+
+- Audited the in-chat replacement reconstruction outputs against the 15-slot V2 prompt pack.
+- Physical finding: 14 unique files exist for 15 slots because one cycle image filename was overwritten.
+- QC result: **10 PASS / 2 HOLD / 3 REJECT**.
+- HOLD: GEN05 subtitle-safe framing; GEN14 walking-step readability.
+- REJECT: GEN09 distinct loaded-swing phase missing; GEN10 post-dump return not shown; GEN12 cable reads as a pipe/hose.
+- Remaining workflow: zero-cost salvage GEN05/14, regenerate only GEN09/10/12, then final reconstruction QC.
+
