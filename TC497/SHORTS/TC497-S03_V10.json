@@ -5,11 +5,11 @@
     "400 MILES WITH NO ROAD —",
     "BUT HOW DO YOU TURN 572 FEET?"
   ],
-  "version": "V10_CANON",
+  "version": "V10_PATCH1",
   "rules": {
     "motion": "STATIC + THREE SUBTLE PUSHES ONLY",
-    "source": "clean TC497 assets",
-    "provenance": "AI reconstruction"
+    "source": "clean TC497 assets + editor-native comparison GFX",
+    "provenance": "truthful per asset"
   },
   "segments": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "out_start": 5.62,
-      "out_end": 10.5,
+      "out_end": 12.4,
       "asset": "V3_YUMA_TEST.png",
       "x": 0.5,
       "motion": "static",
@@ -31,7 +31,7 @@
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 10.5,
+      "out_start": 12.4,
       "out_end": 16.38,
       "asset": "V3_RANGE.png",
       "x": 0.5,
@@ -41,20 +41,19 @@
     },
     {
       "out_start": 16.38,
-      "out_end": 21,
-      "asset": "V4_CARGO_ALT.png",
-      "x": 0.5,
+      "out_end": 20.56,
+      "gfx_type": "road_compare",
       "motion": "static",
-      "metric": "NOT AN ORDINARY HIGHWAY TRUCK",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "UNIMPRESSIVE FOR A HIGHWAY TRUCK",
+      "provenance": ""
     },
     {
-      "out_start": 21,
+      "out_start": 20.56,
       "out_end": 25.4,
       "asset": "V2_DUNE.png",
       "x": 0.48,
       "motion": "static",
-      "metric": "NOT BUILT FOR HIGHWAYS",
+      "metric": "TC-497 WAS NOT BUILT FOR HIGHWAYS",
       "provenance": "AI RECONSTRUCTION"
     },
     {
