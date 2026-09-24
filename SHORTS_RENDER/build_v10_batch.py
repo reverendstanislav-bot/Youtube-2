@@ -453,7 +453,10 @@ def build(plan, mapping, asset_dir, audio_source, output, qc_dir):
         raw_metric = str(segment.get("metric", ""))
         metric = draw_escape(raw_metric)
 
-        if metric:
+        show_metric = bool(metric) and (
+            not is_vertical_gfx or bool(segment.get("overlay_metric", False))
+        )
+        if show_metric:
             metric_size = fit_text_size(raw_metric, max_width=948, start=42, minimum=23)
             vf += (
                 f",drawtext=font='DejaVu Sans':text='{metric}':"
