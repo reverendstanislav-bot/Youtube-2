@@ -86,3 +86,14 @@ No new end-card was invented or adapted.
 ## Gate
 
 Do not render the remaining nine Shorts until the owner visually approves this proof format.
+
+## Owner plaque correction — 2026-09-24
+
+Owner rule:
+- visible provenance plaque only on genuine historical/archive frames;
+- `AI RECONSTRUCTION` plaque is forbidden;
+- no replacement provenance badges on reconstruction/concept shots.
+
+The earlier CHI-S01 mobile proof containing visible `AI RECONSTRUCTION` labels is superseded and must not be used.
+Current visual proof version: `CHI_S01_MOBILESAFE_V3_NO_AI_PLAQUES.mp4`.
+Historical-source plaques remain visible only on historical frames.
