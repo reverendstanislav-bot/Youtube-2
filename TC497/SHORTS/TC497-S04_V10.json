@@ -33,12 +33,11 @@
     {
       "out_start": 9.58,
       "out_end": 15.08,
-      "asset": "ARMY1961_NUCLEAR_OVERLAND.png",
-      "fit": "contain",
       "x": 0.5,
       "motion": "static",
-      "metric": "JANUARY 1961 • ARMY R&D NEWSMAGAZINE",
-      "provenance": "DOCUMENT"
+      "metric": "JANUARY 1961 • VERIFIED ARMY PUBLICATION",
+      "provenance": "DOCUMENT",
+      "gfx_type": "army1961_excerpt"
     },
     {
       "out_start": 15.08,
