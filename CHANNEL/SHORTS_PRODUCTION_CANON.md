@@ -97,3 +97,18 @@ The current review package is **V10**.
 - Release tag: `hia-shorts-v10-review-20260923`.
 - Publication state remains `RENDER_REVIEW` until explicit user visual approval.
 - Do not run or restore the obsolete pre-V10 final-master workflow; it used rejected master-crop logic.
+
+## Wave 2 hard-QC lock — 2026-09-24
+
+The seven remaining V10 review Shorts completed the hard-QC repair pass.
+
+- final Actions run: `36017934649`;
+- final head used for render: `d0223420ad6b8b49039dd6fe8571ea5110ae2eaf`;
+- combined review artifact id: `10815054356`;
+- detailed report: `CHANNEL/SHORTS_WAVE2_FINAL_QC_2026-09-24.md`;
+- machine QC: 7/7 technical PASS, zero decode errors, zero ASS overlaps, no legacy subtitle contamination;
+- visual QC: no remaining hard blocker in CHI-S02/S03/S04/S05 or TC497-S03/S04/S05;
+- generation spend for the repair pass: zero; only existing assets and editor-native GFX were used.
+
+State remains `RENDER_REVIEW` until explicit user visual approval. Do not silently promote these Shorts to `APPROVED`.
+
