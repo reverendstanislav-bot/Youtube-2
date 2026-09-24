@@ -1,0 +1,34 @@
+name: Big Muskie assembly support payload
+
+on:
+  push:
+    paths:
+      - '.github/workflows/big_muskie_assembly_support.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect final manifest and patent drawings
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p payload/patents
+          cp BIG_MUSKIE/FINAL_ASSET_LOCK/FINAL_116_BEAT_ASSET_LOCK_V1.csv payload/
+          curl -L --fail --retry 3 -o payload/patents/D03_page1.png 'https://patentimages.storage.googleapis.com/32/9f/de/4520ab5981145a/US3531088-drawings-page-1.png'
+          curl -L --fail --retry 3 -o payload/patents/D03_page2.png 'https://patentimages.storage.googleapis.com/af/57/32/2134ef8acbd37c/US3531088-drawings-page-2.png'
+          curl -L --fail --retry 3 -o payload/patents/D04_page1.png 'https://patentimages.storage.googleapis.com/14/a2/25/6182919de09f9e/US3375892-drawings-page-1.png'
+          curl -L --fail --retry 3 -o payload/patents/D04_page2.png 'https://patentimages.storage.googleapis.com/63/ba/6a/5d0c1af656a130/US3375892-drawings-page-2.png'
+          sha256sum payload/patents/*.png > payload/patents/SHA256SUMS.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_ASSEMBLY_SUPPORT
+          path: payload/
+          retention-days: 7
+          compression-level: 0
