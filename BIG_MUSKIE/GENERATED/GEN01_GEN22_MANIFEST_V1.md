@@ -1,6 +1,6 @@
 # BIG MUSKIE — GEN01–GEN22 HIGGSFIELD GENERATION MANIFEST V1
 
-Status: **22/22 GENERATED — VISUAL QC COMPLETE — 4 PASS / 3 HOLD / 15 REJECT**
+Status: **RECOVERY V2 — 7 PASS AFTER ZERO-COST SALVAGE / 15 REPLACEMENTS REQUIRED**
 
 Generation:
 - provider workflow: Higgsfield
@@ -69,3 +69,22 @@ Full QC completed in `GEN01_GEN22_QC_V1.md`.
 - subtitle-safe lower band generally passed.
 
 No replacement generation is authorized or submitted.
+
+
+## Recovery V2 override — 2026-09-24
+
+The original V1 QC state is superseded for production planning.
+
+Zero-cost salvage:
+- GEN02 → PASS
+- GEN15 → PASS as hybrid editorial salvage
+- GEN17 → PASS
+
+Current:
+- **7 PASS**
+- **15 REPLACE**
+- no paid replacement generation submitted
+
+See:
+- `RECONSTRUCTION_SALVAGE_QC_V2.md`
+- `RECONSTRUCTION_REPLACEMENT_PROMPT_PACK_V2.md`

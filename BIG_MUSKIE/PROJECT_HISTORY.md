@@ -301,3 +301,16 @@ Future history entries must record:
 - The remaining visual blocker is the independent 22-still reconstruction package from the Visual Diversity Pass, whose prior QC remains 4 PASS / 3 HOLD / 15 REJECT.
 - Next production block: zero-cost HOLD salvage → replacement prompt rebuild → exact cost preflight → explicit approval → reconstruction completion → final 116-beat asset lock.
 
+## 2026-09-24 — reconstruction salvage + replacement prompt rebuild
+
+- Re-audited GEN02 / GEN15 / GEN17 against exact Stage 7 narration.
+- Completed zero-cost editorial crops/masks.
+- GEN02: PASS.
+- GEN15: PASS as hybrid crew/terrain/path salvage with editor-native route/cable treatment.
+- GEN17: PASS.
+- Paid salvage cost: **0.00 credits**.
+- Reconstruction state: **7 PASS / 15 REPLACE**.
+- Replacement IDs: GEN05/06/07/08/09/10/12/13/14/16/18/19/20/21/22.
+- Rebuilt 15 prompts with circular-tub / walking-shoe / no-crawler geometry locks and source-specific reference strategy.
+- No paid replacement generation submitted.
+

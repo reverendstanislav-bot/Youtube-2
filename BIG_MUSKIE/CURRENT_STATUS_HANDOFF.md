@@ -7,7 +7,7 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GFX 55/55 PASS — RECONSTRUCTION RECOVERY PASS NEXT**  
+State: **GFX 55/55 PASS — RECONSTRUCTION SALVAGE COMPLETE — 7 PASS / 15 REPLACE**  
 Publication status: **PREPRODUCTION — GFX LOCKED; 22 RECONSTRUCTION-GAP PACKAGE NOT YET LOCKED**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,32 +336,25 @@ Final captions:
 
 ## Immediate next action
 
-**RECONSTRUCTION RECOVERY PASS — THEN FINAL 116-BEAT ASSET LOCK**
+**READ-ONLY COST PREFLIGHT FOR 15 RECONSTRUCTION REPLACEMENTS — THEN STOP**
 
 GFX:
 - **55/55 PASS**
-- 0 HOLD
-- 0 REJECT
-- final lock recorded in `GFX/GFX_FINAL_LOCK_V2.md`.
 
-Reconstruction stills required by the authoritative Visual Diversity Pass:
-- total required: **22**
-- current old QC: **4 PASS / 3 HOLD / 15 REJECT**
+Reconstruction:
+- original PASS: GEN01 / GEN03 / GEN04 / GEN11
+- salvage PASS: GEN02 / GEN15 / GEN17
+- total PASS: **7**
+- exact replacement count: **15**
+- replace: GEN05 / 06 / 07 / 08 / 09 / 10 / 12 / 13 / 14 / 16 / 18 / 19 / 20 / 21 / 22
 
-Next zero-cost actions:
-1. preserve GEN01 / GEN03 / GEN04 / GEN11 as current PASS;
-2. test crop/mask salvage on GEN02 / GEN15 / GEN17;
-3. calculate the exact replacement count after salvage;
-4. rewrite only the remaining replacement prompts with strict 4250-W geometry locks;
-5. run exact cost preflight;
-6. stop for explicit spend approval.
+Files:
+- `GENERATED/RECONSTRUCTION_SALVAGE_QC_V2.md`
+- `GENERATED/RECONSTRUCTION_REPLACEMENT_PROMPT_PACK_V2.md`
 
-After reconstruction QC reaches 22/22 PASS:
-1. build one final 116-beat asset manifest;
-2. verify every beat has one locked source/GFX/reconstruction composition;
-3. verify R/C/D visible reuse <= 2;
-4. verify provenance labels;
-5. lock Stage 8;
-6. begin full 23:46.400 picture assembly.
-
-No additional paid generation is currently authorized.
+Next:
+1. prepare D03/D04 engineering-lineage PNG references where required;
+2. run read-only cost preflight on all 15 final prompts and actual reference assignments;
+3. show exact total;
+4. STOP for explicit spend approval;
+5. no paid replacement jobs before that approval.
