@@ -54,7 +54,8 @@
       "gfx_type": "obsolescence",
       "motion": "static",
       "metric": "HOW DID IT BECOME OBSOLETE?",
-      "provenance": ""
+      "provenance": "",
+      "overlay_metric": true
     },
     {
       "out_start": 19.58,
