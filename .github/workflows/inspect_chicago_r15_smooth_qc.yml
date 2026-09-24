@@ -1,0 +1,68 @@
+name: Inspect Chicago R15 Smooth QC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/inspect_chicago_r15_smooth_qc.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download R15 QC release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/r15qc
+          mkdir -p /tmp/r15qc
+          cd /tmp/r15qc
+          gh release download chicago-r15-smooth-remotion-review-20260924             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHICAGO_R15_SMOOTH_REVIEW_QC.zip'
+          unzip -q HIA_CHICAGO_R15_SMOOTH_REVIEW_QC.zip
+          find . -type f | sort > FILES.txt
+          HARD="$(find . -type f -name HARD_SCENE_JUMPS.txt | head -n1)"
+          BLACK="$(find . -type f -name BLACKDETECT.txt | head -n1)"
+          PROBE="$(find . -type f -name FFPROBE.json | head -n1)"
+          test -s "$PROBE"
+          cp "$PROBE" FINAL_FFPROBE.json
+          if [ -n "$HARD" ]; then cp "$HARD" HARD_SCENE_JUMPS.txt; else : > HARD_SCENE_JUMPS.txt; fi
+          if [ -n "$BLACK" ]; then cp "$BLACK" BLACKDETECT.txt; else : > BLACKDETECT.txt; fi
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, json
+          txt=Path('HARD_SCENE_JUMPS.txt').read_text(errors='ignore')
+          # showinfo lines after scene select contain pts_time.
+          times=[]
+          for line in txt.splitlines():
+              m=re.search(r'pts_time:([0-9.]+)',line)
+              if m: times.append(float(m.group(1)))
+          black=Path('BLACKDETECT.txt').read_text(errors='ignore')
+          black_events=[x for x in black.splitlines() if 'black_start:' in x]
+          summary={
+              'scene_threshold':0.65,
+              'hard_scene_jump_frames':len(times),
+              'hard_scene_jump_times_sec':times,
+              'black_events':len(black_events),
+              'status':'PASS' if len(times)==0 and len(black_events)==0 else 'REVIEW'
+          }
+          Path('R15_SMOOTH_RESIDUAL_JUMP_AUDIT.json').write_text(json.dumps(summary,indent=2))
+          print(json.dumps(summary,indent=2))
+          PY
+      - name: Upload compact QC
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-r15-smooth-compact-qc
+          path: |
+            /tmp/r15qc/R15_SMOOTH_RESIDUAL_JUMP_AUDIT.json
+            /tmp/r15qc/HARD_SCENE_JUMPS.txt
+            /tmp/r15qc/BLACKDETECT.txt
+            /tmp/r15qc/FINAL_FFPROBE.json
+            /tmp/r15qc/FILES.txt
+          retention-days: 7
