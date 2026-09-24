@@ -5,79 +5,87 @@
     "THE HELICOPTER THAT MADE",
     "THE 572-FOOT TRAIN OBSOLETE"
   ],
-  "version": "V10_CANON",
+  "version": "V10_PATCH1",
+  "caption_replacements": {
+    "Aircrafts": "Aircraft"
+  },
   "rules": {
-    "motion": "STATIC + THREE SUBTLE PUSHES ONLY",
-    "source": "clean reconstruction + verified CH-54 archive",
-    "provenance": "truthful per asset"
+    "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
+    "source": "clean reconstruction + verified CH-54 archive + editor-native terrain GFX",
+    "provenance": "truthful per active asset"
   },
   "segments": [
     {
       "out_start": 0,
-      "out_end": 2.8,
+      "out_end": 3.6,
       "asset": "V2_DUNE.png",
       "x": 0.48,
       "motion": "static",
-      "metric": "",
+      "metric": "A GROUND VEHICLE STILL FACES THE TERRAIN",
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 2.8,
-      "out_end": 5.4,
-      "asset": "V3_DUNE_LIMIT.png",
-      "x": 0.52,
+      "out_start": 3.6,
+      "out_end": 4.68,
+      "gfx_type": "terrain_river",
       "motion": "static",
-      "metric": "",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "RIVERS MATTERED",
+      "provenance": ""
     },
     {
-      "out_start": 5.4,
-      "out_end": 8,
-      "asset": "V3_YUMA_TEST.png",
-      "x": 0.46,
+      "out_start": 4.68,
+      "out_end": 6.66,
+      "gfx_type": "terrain_ridge",
       "motion": "static",
-      "metric": "",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "STEEP RIDGES MATTERED",
+      "provenance": ""
     },
     {
-      "out_start": 8,
+      "out_start": 6.66,
+      "out_end": 8.6,
+      "gfx_type": "terrain_soft ground",
+      "motion": "static",
+      "metric": "SOFT GROUND MATTERED",
+      "provenance": ""
+    },
+    {
+      "out_start": 8.6,
       "out_end": 10.76,
-      "asset": "V4_RANGE_ALT.png",
-      "x": 0.54,
+      "gfx_type": "terrain_dunes",
       "motion": "static",
-      "metric": "",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "LARGE DUNES MATTERED",
+      "provenance": ""
     },
     {
       "out_start": 10.76,
-      "out_end": 16.42,
+      "out_end": 17.52,
       "asset": "V4_HELI_CARGO.png",
       "x": 0.5,
       "motion": "push",
-      "metric": "HEAVY-LIFT CHANGED THE PROBLEM",
+      "metric": "HEAVY-LIFT COULD BYPASS THE TERRAIN",
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 16.42,
-      "out_end": 22.6,
+      "out_start": 17.52,
+      "out_end": 24.08,
       "asset": "AR_CH54_1.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "SIKORSKY S-64 SKYCRANE",
+      "metric": "SIKORSKY HEAVY-LIFT FAMILY",
       "provenance": "HISTORICAL SOURCE"
     },
     {
-      "out_start": 22.6,
+      "out_start": 24.08,
       "out_end": 28.82,
       "asset": "AR_CH54_2.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "ARMY CH-54 TARHE",
+      "metric": "U.S. ARMY CH-54 TARHE",
       "provenance": "HISTORICAL SOURCE"
     },
     {
       "out_start": 28.82,
-      "out_end": 35,
+      "out_end": 33.4,
       "asset": "heavy_lift_logistics_clean.png",
       "x": 0.5,
       "motion": "static",
@@ -85,30 +93,30 @@
       "provenance": "AI RECONSTRUCTION"
     },
     {
-      "out_start": 35,
+      "out_start": 33.4,
       "out_end": 41.02,
       "asset": "ground_vs_air_clean.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "POINT TO POINT",
+      "metric": "POINT TO POINT • NO GROUND ROUTE",
       "provenance": "AI RECONSTRUCTION"
     },
     {
       "out_start": 41.02,
-      "out_end": 47,
-      "asset": "V3_HELI_LOAD.png",
+      "out_end": 45.4,
+      "asset": "AR_CH54_3.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "GROUND ROUTE VS AIRLIFT",
-      "provenance": "AI RECONSTRUCTION"
+      "metric": "HEAVY-LIFT CHANGED THE LOGISTICS ANSWER",
+      "provenance": "HISTORICAL SOURCE"
     },
     {
-      "out_start": 47,
+      "out_start": 45.4,
       "out_end": 53.86,
       "asset": "V3_LEGACY.png",
       "x": 0.5,
       "motion": "push",
-      "metric": "HEAVY-LIFT MADE IT OBSOLETE",
+      "metric": "THE OVERLAND TRAIN BECAME OBSOLETE",
       "provenance": "AI RECONSTRUCTION"
     }
   ]
