@@ -62,3 +62,5 @@ sheet.save(root/'SOURCE_OVERVIEW.jpg',quality=92)
 PY
 
 ffprobe -v error -show_entries stream=width,height,r_frame_rate,pix_fmt -of default=nw=1 "$SRC" > "$ROOT/audit/SOURCE_INFO.txt"
+
+# trigger crop audit
