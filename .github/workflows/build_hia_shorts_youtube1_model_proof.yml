@@ -1,0 +1,44 @@
+name: HIA Shorts — Youtube-1 Model Proof
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build_hia_shorts_youtube1_model_proof.yml'
+      - 'SHORTS_RENDER/render_youtube1_model_proof.sh'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: hia-shorts-youtube1-model-proof
+  cancel-in-progress: true
+
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install render dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg python3 python3-pil gh
+
+      - name: Render CHI-S01 direct-cut proof
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash SHORTS_RENDER/render_youtube1_model_proof.sh
+
+      - name: Upload proof and QC
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-shorts-youtube1-model-chi-s01-proof
+          path: |
+            /tmp/hia_shorts_youtube1_model/out/CHI-S01_YOUTUBE1_MODEL_PROOF.mp4
+            /tmp/hia_shorts_youtube1_model/qc
+          compression-level: 0
+          retention-days: 7
