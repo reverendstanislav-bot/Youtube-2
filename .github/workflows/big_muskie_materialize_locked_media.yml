@@ -16,34 +16,27 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p payload/audio
-          curl -L --fail --retry 3 -o payload/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/a629faa2-037a-4a84-9044-4d929500d0ca.zip'
-          curl -L --fail --retry 3 -o payload/audio/chunk01.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121755_f3af59ce-8b81-4d6f-9980-103cfc133bcb.mp3'
-          curl -L --fail --retry 3 -o payload/audio/chunk02.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121754_a41a21f8-5b87-48c8-a6cd-a7723fd58ef4.mp3'
-          curl -L --fail --retry 3 -o payload/audio/chunk03.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121754_5966eff5-f4f7-4795-bc95-40e84350d080.mp3'
-          curl -L --fail --retry 3 -o payload/audio/chunk04.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121755_fd0210e2-baad-4e8d-881c-9fb81383adf9.mp3'
+          mkdir -p source audio
+          curl -L --fail --retry 3 -o source/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/a629faa2-037a-4a84-9044-4d929500d0ca.zip'
+          curl -L --fail --retry 3 -o audio/chunk01.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121755_f3af59ce-8b81-4d6f-9980-103cfc133bcb.mp3'
+          curl -L --fail --retry 3 -o audio/chunk02.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121754_a41a21f8-5b87-48c8-a6cd-a7723fd58ef4.mp3'
+          curl -L --fail --retry 3 -o audio/chunk03.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121754_5966eff5-f4f7-4795-bc95-40e84350d080.mp3'
+          curl -L --fail --retry 3 -o audio/chunk04.mp3 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260923_121755_fd0210e2-baad-4e8d-881c-9fb81383adf9.mp3'
+          sha256sum source/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip > source/SOURCE_SHA256.txt
+          sha256sum audio/*.mp3 > audio/AUDIO_CHUNKS_SHA256.txt
 
-      - name: Build canonical 23:46.400 Arthur master
-        shell: bash
-        run: |
-          set -euo pipefail
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-          ffmpeg -hide_banner -loglevel error \
-            -i payload/audio/chunk01.mp3 \
-            -i payload/audio/chunk02.mp3 \
-            -i payload/audio/chunk03.mp3 \
-            -i payload/audio/chunk04.mp3 \
-            -filter_complex "[0:a]adelay=0|0[a0];[1:a]adelay=375000|375000[a1];[2:a]adelay=749440|749440[a2];[3:a]adelay=1119920|1119920[a3];[a0][a1][a2][a3]amix=inputs=4:duration=longest:normalize=0,atrim=0:1426.400,asetpts=N/SR/TB[a]" \
-            -map "[a]" -ar 48000 -ac 1 -c:a pcm_s24le payload/BIG_MUSKIE_ARTHUR_CANONICAL_23m46p400.wav
-          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 payload/BIG_MUSKIE_ARTHUR_CANONICAL_23m46p400.wav
-          sha256sum payload/BIG_MUSKIE_ARTHUR_CANONICAL_23m46p400.wav > payload/AUDIO_SHA256.txt
-          sha256sum payload/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip > payload/SOURCE_SHA256.txt
-
-      - name: Upload locked media payload
+      - name: Upload source archive
         uses: actions/upload-artifact@v4
         with:
-          name: BIG_MUSKIE_LOCKED_MEDIA_PAYLOAD
-          path: payload/
+          name: BIG_MUSKIE_SOURCE_ARCHIVE_V2_CLEAN
+          path: source/
+          retention-days: 7
+          compression-level: 0
+
+      - name: Upload Arthur MP3 chunks
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_ARTHUR_CHUNKS
+          path: audio/
           retention-days: 7
           compression-level: 0
