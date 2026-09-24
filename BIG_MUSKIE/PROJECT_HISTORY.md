@@ -355,3 +355,20 @@ Future history entries must record:
 - Final BM-B116 picture hold extends 20 ms to canonical **23:46.400**.
 - Next stage: full 116-beat picture assembly against canonical Arthur VO.
 
+## 2026-09-24 — FULL PICTURE ASSEMBLY V1
+
+- Materialized the final clean source archive, canonical Arthur chunks, final reconstruction base assets and assembly-support documents.
+- Resolved all **116 locked beats** to physical production files.
+- Built canonical Arthur review master to exactly **23:46.400**.
+- Rendered `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V1_1080P.mp4`.
+- Render: **1920×1080 / 25 fps CFR / 35,660 frames / H.264 + AAC / 23:46.400**.
+- Picture-only: no captions, no music, no SFX.
+- V1 uses hard cuts only; no shake or random pan/zoom.
+- Technical decode QC: PASS.
+- Missing assets: 0.
+- Near-black source frames: 0.
+- Audio silence >2s at -55 dB: 0.
+- SHA-256: `f9358f4d85709ae4910a7565dc2549f344aa6ef305179d579e89996189ea35f1`.
+- This is REVIEW ONLY, not RC and not a publication candidate.
+- Next: end-to-end directorial picture QC and V2 picture-only fixes before captions/music/SFX.
+

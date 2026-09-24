@@ -7,8 +7,8 @@ Updated: 2026-09-23
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **FINAL 116-BEAT ASSET LOCK COMPLETE — READY FOR FULL PICTURE ASSEMBLY**  
-Publication status: **PREPRODUCTION LOCKED — 116/116 VISUAL ASSETS ASSIGNED; FULL PICTURE ASSEMBLY NEXT**
+State: **FULL PICTURE ASSEMBLY V1 RENDERED — TECHNICAL QC PASS — DIRECTORIAL PICTURE QC NEXT**  
+Publication status: **REVIEW ONLY — PICTURE V1 IS NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,34 +336,27 @@ Final captions:
 
 ## Immediate next action
 
-**FULL PICTURE ASSEMBLY — 23:46.400**
+**DIRECTORIAL PICTURE-ONLY QC OF FULL V1**
 
-Final asset lock:
-- beats: **116/116 LOCKED**
-- REAL: **20**
-- REAL_CONTEXT: **11**
-- DOCUMENT: **8**
-- GFX: **55 / 55 PASS**
-- RECONSTRUCTION: **22 / 22 PASS**
-- visible R/C/D reuse max: **2**
-- reuse violations: **0**
-- rights/provenance blockers: **0**
-- HOLD/REJECT assets: **0**
+Rendered:
+- `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V1_1080P.mp4`
+- **1920×1080 / 25 fps / 23:46.400**
+- **35,660 frames**
+- Arthur VO only
+- captions: none
+- music: none
+- SFX: none
+- hard cuts only
+- SHA-256: `f9358f4d85709ae4910a7565dc2549f344aa6ef305179d579e89996189ea35f1`
+- technical QC: **PASS**
 
-Canonical files:
-- `FINAL_ASSET_LOCK/FINAL_116_BEAT_ASSET_LOCK_V1.md`
-- `FINAL_ASSET_LOCK/FINAL_116_BEAT_ASSET_LOCK_V1.csv`
-- `FINAL_ASSET_LOCK/FINAL_SOURCE_REUSE_AUDIT_V1.md`
-- `FINAL_ASSET_LOCK/FINAL_RIGHTS_PROVENANCE_AUDIT_V1.md`
+Canonical assembly records:
+- `ASSEMBLY_V1/FINAL_MEDIA_MAPPING_V1.md`
+- `ASSEMBLY_V1/PICTURE_ASSEMBLY_V1_QC.md`
 
-Picture coverage:
-- outgoing beat holds across narration pauses until the next beat begins;
-- no black frames in the **72.910 s** total inter-beat silence;
-- BM-B116 holds through **23:46.400**.
-
-Next build:
-1. materialize/ingest the locked assets;
-2. assemble all 116 beats against canonical Arthur VO;
-3. use hard cuts / restrained transitions only;
-4. no shake, random pan, or aggressive zoom;
-5. then run picture-only QC before captions/music/SFX.
+Next:
+1. watch/audit the actual V1 end-to-end;
+2. flag weak/repetitive/incorrect picture beats;
+3. apply picture fixes and restrained editorial motion only where useful;
+4. render V2 picture-only;
+5. only after picture approval add provenance labels, captions, music and SFX.
