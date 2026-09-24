@@ -5,7 +5,7 @@
     "THE TRAINS STOPPED.",
     "THE TUNNELS STAYED."
   ],
-  "version": "V10_CANON",
+  "version": "V10_PATCH1",
   "rules": {
     "motion": "STATIC + TWO SUBTLE PUSHES ONLY",
     "source": "clean episode assets",
@@ -27,7 +27,7 @@
       "asset": "S008_P006.png",
       "x": 0.5,
       "motion": "static",
-      "metric": "THE TRAINS STOPPED",
+      "metric": "THE RAILROAD DISAPPEARED",
       "provenance": "AI RECONSTRUCTION"
     },
     {
@@ -42,37 +42,36 @@
     {
       "out_start": 10.8,
       "out_end": 15.14,
-      "asset": "S010_P007.png",
-      "x": 0.48,
+      "asset": "A14_LOC_State_Street_1905_full_archive.png",
+      "x": 0.42,
       "motion": "static",
       "metric": "WHY BUILD IT UNDER CHICAGO?",
-      "provenance": "AI RECONSTRUCTION"
+      "provenance": "HISTORICAL SOURCE"
     },
     {
       "out_start": 15.14,
       "out_end": 19.58,
-      "asset": "S011_P008.png",
-      "x": 0.52,
+      "gfx_type": "obsolescence",
       "motion": "static",
       "metric": "HOW DID IT BECOME OBSOLETE?",
-      "provenance": "AI RECONSTRUCTION"
+      "provenance": ""
     },
     {
       "out_start": 19.58,
-      "out_end": 22.8,
-      "asset": "A14_LOC_State_Street_1905.jpg",
-      "x": 0.42,
+      "out_end": 22.46,
+      "asset": "A13_LOC_State_Street_1903_full_archive.png",
+      "x": 0.48,
       "motion": "static",
-      "metric": "THE PROBLEM WAS ABOVE GROUND",
+      "metric": "THE PHYSICAL FOOTPRINT REMAINED",
       "provenance": "HISTORICAL SOURCE"
     },
     {
-      "out_start": 22.8,
+      "out_start": 22.46,
       "out_end": 26.42,
-      "asset": "A14_LOC_State_Street_1905.jpg",
-      "x": 0.62,
+      "asset": "A15_LOC_Wabash_Avenue_c1900_full_archive.png",
+      "x": 0.5,
       "motion": "static",
-      "metric": "CHICAGO COULD SEE IT EVERY DAY",
+      "metric": "THE PROBLEM WAS ABOVE GROUND",
       "provenance": "HISTORICAL SOURCE"
     }
   ]
