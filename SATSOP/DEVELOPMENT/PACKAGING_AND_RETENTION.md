@@ -5,19 +5,19 @@ Status: **working hypotheses; audience research and script architecture still re
 
 ## Recommended working package
 
-**Title:** America Built 74% of a Nuclear Plant. Then Walked Away.
+**Title:** Why a 74%-Complete Nuclear Plant Was Still Too Expensive to Finish
 
 **Thumbnail:** present-day Unit 3 cooling tower and unfinished complex, one dominant hero structure, a small progress graphic reading `74% BUILT`, no hazard symbol, no fake radiation glow, no abandoned-city collage.
 
-Packaging promise: the video will explain why physical progress did not equal economic value.
+Packaging promise: the video will use BPA's own 1994 comparison to explain why physical progress did not equal economic value.
 
 Accuracy control: `74%` refers specifically to WNP-3 in BPA's 1994 record. The title and thumbnail must not visually imply both units were 74 percent complete.
 
 ## Title alternatives
 
-1. **Why Two Nuclear Reactors Died 12 Years Apart**
-2. **The $2.6 Billion Nuclear Plant That Never Made Power**
-3. **Inside America's Unfinished Nuclear Megaproject**
+1. **They Built 74% of a Nuclear Plant — Then the Math Collapsed**
+2. **Why Two Nuclear Projects Died 12 Years Apart**
+3. **The $2.6 Billion Nuclear Project That Never Made Power**
 4. **The Nuclear Plant That Became an Industrial Park**
 
 Controls:

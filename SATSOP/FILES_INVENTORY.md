@@ -19,5 +19,8 @@ Updated: 2026-09-24
 | `SCRIPT/NARRATION_DRAFT_V1.md` | Complete sourced English narration with cues | Editorial review required |
 | `SCRIPT/V1_FACT_CHECK.md` | Line-level factual audit | Pass for editorial review |
 | `SCRIPT/DIRECTORIAL_AUDIT_V1.md` | Global story, retention, language, visual, and packaging audit | V1 scored 71/100; V2 required |
+| `SCRIPT/NARRATION_V2_EN_REVIEW.md` | Full English directorial rewrite | Fact-check pass; editorial review required |
+| `SCRIPT/V2_FACT_CHECK.md` | V2 line-level factual and audit compliance review | Pass for editorial review |
+| `SCRIPT/DIRECTORIAL_REVIEW_V2.md` | Post-rewrite global directorial review | 89/100; pass for user editorial review |
 
 No source media, generated media, TTS, timed beat map, render, or publication master exists for Episode 4. A sourced English V1 script exists but is not TTS-locked.

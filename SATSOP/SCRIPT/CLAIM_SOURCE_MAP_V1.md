@@ -37,6 +37,12 @@ Status: **STAGE 5 — FACTUAL PASS**
 | C031 | Of five projects, WNP-2 alone entered commercial operation, in Dec. 1984 | S01 | do not imply the other four had identical outcomes |
 | C032 | WNP-3 base case had nearly 3× the early-termination capital at risk of equivalent CCCT energy; low case had 2× | S01 | BPA 1994 comparison; preserve scenario scope |
 | C033 | 1,240 MW WNP-3 was projected to create about 600 aMW surplus and a $200M/year deficit even under BPA high-load forecast | S01 | BPA 1994 projection, not realized operating result |
+| C034 | Regional planning followed projections that demand would exceed the hydro system; 1969 plan called for large thermal plants | S02 | describe as historical forecast, not actual shortage |
+| C035 | BPA reopened preservation study June 1993; conclusions presented Nov. 1993 and Jan. 1994 | S01 | safe chronology |
+| C036 | CCCT reference 240 MW / 3-year lead versus WNP-3 1,240 MW / 5-year lead | S01 | assumptions in 1994 exhibits, not universal technology facts |
+| C037 | BPA customers considered independent power supply and rate competitiveness | S01 | no invented customer quotes |
+| C038 | BPA considered and rejected repowering WNP-3 as combined cycle | S01 | preserve agency conclusion and period context |
+| C039 | Restricted Satsop structures are closed to public; visitors remain on public roads | S10 | present-day safety/access control |
 
 ## Excluded claims
 
