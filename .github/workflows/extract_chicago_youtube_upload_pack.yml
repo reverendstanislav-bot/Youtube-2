@@ -1,0 +1,44 @@
+name: Extract Chicago YouTube upload pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/extract_chicago_youtube_upload_pack.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install 7zip
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+      - name: Download canonical Chicago source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/chicago_src /tmp/chicago_youtube
+          mkdir -p /tmp/chicago_src /tmp/chicago_youtube
+          cd /tmp/chicago_src
+          gh release download chicago-source-archive-v1             --repo reverendstanislav-bot/Youtube-2             --pattern 'Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part*'
+          cat Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part00               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part01               Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar.part02               > Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar
+          echo '2fcfcd4767ce0d6234b72a33bde08ea0b5fe0cdb4eb3d9150515cba56ef705eb  Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar' | sha256sum -c -
+      - name: Extract YouTube package only
+        run: |
+          set -euo pipefail
+          cd /tmp/chicago_src
+          7z x -y Hidden_Industrial_America_Chicago_CODEX_READY_v7.rar             -o/tmp/chicago_youtube             "-ir!*/08_YOUTUBE/*"             "-ir!*/02_SCRIPT/voiceover_en.txt"             "-ir!*/03_TIMELINE/scene_map.csv"
+          find /tmp/chicago_youtube -type f | sort > /tmp/chicago_youtube/EXTRACTED_FILES.txt
+          test -s "$(find /tmp/chicago_youtube -type f -name youtube_upload_pack.txt | head -n1)"
+      - name: Upload extracted YouTube package
+        uses: actions/upload-artifact@v4
+        with:
+          name: chicago-youtube-upload-pack-source
+          path: /tmp/chicago_youtube
+          retention-days: 7
