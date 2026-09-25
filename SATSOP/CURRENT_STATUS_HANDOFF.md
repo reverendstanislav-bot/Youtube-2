@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 V2 SECOND TEST COMPLETE / 13 PASSES LOCKED / 55 PENDING / REFERENCES REQUIRED**
+State: **STAGE 6 V3 DIRECTORIAL-RISK REWRITE COMPLETE / 13 PASSES LOCKED / 55 POSITIONS ROUTED**
 Publication status: **PREPRODUCTION — TEST VISUALS ONLY / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -141,7 +141,7 @@ Canonical files:
 
 ## Next authorized work
 
-Acquire, authenticate, rights-log and upload the real R01–R07 media required by V2. Record concrete Higgsfield media IDs, correct the four remaining failed prompt types, then preflight a reference-conditioned validation set and request explicit approval. Do not submit the remaining 55 as text-only jobs.
+Acquire, authenticate, rights-log and upload the real R01–R07 media required by the 10 reference-conditioned V3 positions. Record concrete provider media IDs, then preflight a small mixed-route validation set and request explicit approval. Build the 16 factual positions as deterministic editorial GFX; do not submit them as image jobs.
 
 ## Stage 6 deliverables
 
@@ -158,8 +158,11 @@ Acquire, authenticate, rights-log and upload the real R01–R07 media required b
 - V2: **68/68 rewritten visual propositions**;
 - retained test passes: **13**;
 - corrected pending queue: **55**;
+- V3 routes: **16 deterministic GFX / 10 reference-conditioned / 29 controlled text generation**;
+- maximum remaining image-generation cost: **19.50 credits**;
+- V3 generation authorization: **none**;
 - V2 grammar families: **54**;
-- maximum remaining full-queue cost: **27.50 credits**;
+- historical V2 maximum remaining full-queue cost: **27.50 credits**, superseded by V3;
 - V2 generation authorization: **0.00 credits**.
 
 Canonical files:

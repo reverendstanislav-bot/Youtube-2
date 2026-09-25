@@ -61,5 +61,10 @@ Updated: 2026-09-25
 | `STAGE_6/TEST20_V2/TEST20_V2_JOBS.json` | Second-test selection, job IDs and result URLs | 20/20 complete |
 | `STAGE_6/TEST20_V2/TEST20_V2_TECHNICAL_QC.json` | Second-test decode, dimensions, sizes and SHA-256 | Pass |
 | `STAGE_6/TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md` | Strict V2 visual audit and V1/V2 comparison | 8 pass / 8 conditional / 4 fail |
+| `DEVELOPMENT/build_stage6_prompt_pack_v3.py` | Reproducible V3 routing and prompt builder | Active |
+| `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.md` | Human-readable V3 prompts and editor build briefs | Complete; no generation authorized |
+| `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.json` | Canonical V3 routes, gates, prompts and costs | Complete |
+| `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.csv` | Flat V3 production matrix | Complete |
+| `STAGE_6/V3/STAGE_6_V3_DIRECTORIAL_PREFLIGHT.md` | Directorial risk and execution-gate audit | Pass for reference acquisition and targeted validation |
 
-The locked VO, exact timed beat map, both test evidence sets, and full V2 prompt pack exist. Thirteen images are locked; 55 prompts await real reference inputs and new approval. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, both test evidence sets, and full V3 prompt pack exist. Thirteen images are locked; 16 positions are deterministic GFX, 10 require real references, and 29 are controlled text-generation positions. No V3 generation is authorized. No picture edit, render, or publication master exists for Episode 4.

@@ -140,3 +140,14 @@
 - Locked eight additional accepted images, bringing the project total to **13**.
 - Remaining queue: **55 images / maximum 27.50 credits**, with no further generation authorized.
 - The test's attributable cost was **10.00 credits**. The observed post-test workspace balance was **1,196.57 credits**; the larger balance movement cannot be attributed to this batch without a provider usage ledger.
+
+## 2026-09-25 — Stage 6 V3 directorial-risk rewrite
+
+- Preserved all **13** accepted test images as locked assets.
+- Rewrote and individually gated all **55** pending positions.
+- Removed **16** factual map, chronology, technical and quantitative positions from image generation and converted them to deterministic editor-built GFX briefs.
+- Blocked **10** site-specific positions until authenticated R01–R07 media are attached as concrete provider IDs.
+- Narrowed **29** interpretive reconstruction prompts to one subject and one composition with blank document surfaces and explicit historical limits.
+- Directly corrected every conditional or failed position from the V2 test.
+- Reduced maximum remaining image-generation exposure from **27.50** to **19.50 credits**.
+- Submitted no provider jobs and spent no credits.

@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 6 V2 SECOND TEST COMPLETE — 13 PASSES LOCKED — 55 REMAINING REQUIRE REFERENCES.**
+**STAGE 6 V3 DIRECTORIAL-RISK REWRITE COMPLETE — 13 PASSES LOCKED — 55 POSITIONS ROUTED.**
 
-Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. The first test scored **5 PASS / 7 CONDITIONAL / 8 FAIL**. The text-only V2 test improved to **8 PASS / 8 CONDITIONAL / 4 FAIL**. Thirteen accepted images are now locked; **55** positions remain, with maximum cost **27.50 credits**. Real R01–R07 media inputs are still required before further generation. No picture edit has been produced.
+Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. The first test scored **5 PASS / 7 CONDITIONAL / 8 FAIL**. The text-only V2 test improved to **8 PASS / 8 CONDITIONAL / 4 FAIL**. V3 keeps all 13 accepted images, routes 16 factual positions to deterministic editor-built GFX, blocks 10 site-specific positions until real references exist, and narrows 29 interpretive prompts. Maximum remaining image cost is **19.50 credits**. No V3 generation is authorized and no picture edit has been produced.
 
 Start every new chat with:
 
@@ -21,6 +21,8 @@ Start every new chat with:
 9. `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md`
 10. `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md`
 11. `STAGE_6/TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md`
+12. `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.md`
+13. `STAGE_6/V3/STAGE_6_V3_DIRECTORIAL_PREFLIGHT.md`
 
 ## Episode rule
 
