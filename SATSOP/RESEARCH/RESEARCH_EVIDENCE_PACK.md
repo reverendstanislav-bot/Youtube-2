@@ -1,4 +1,4 @@
-# SATSOP — RESEARCH & EVIDENCE PACK — STAGE 0–4
+# SATSOP — RESEARCH & EVIDENCE PACK — STAGE 1
 
 Status: **initial primary-source evidence base; not narration copy**
 Updated: 2026-09-24

@@ -13,7 +13,7 @@ Updated: 2026-09-24
 | `RESEARCH/RESEARCH_GAPS_CLOSED_2026-09-24.md` | Closed chronology, cost, finance, and afterlife gaps | Active |
 | `DEVELOPMENT/DOCUMENTARY_ANGLES.md` | Candidate story structures | Working |
 | `DEVELOPMENT/PACKAGING_AND_RETENTION.md` | Titles, thumbnail logic, retention plan | Working; not locked |
-| `DEVELOPMENT/STAGE_5_LOCK.md` | Current story and script-stage decisions | Active |
+| `DEVELOPMENT/STAGE_2_LOCK.md` | Canonical Stage 2 script lock | Active |
 | `SCRIPT/CLAIM_SOURCE_MAP_V1.md` | Narration claims mapped to evidence | Factual pass |
 | `SCRIPT/RETENTION_OUTLINE_V1.md` | Long-form architecture and payoff plan | Script basis |
 | `SCRIPT/NARRATION_DRAFT_V1.md` | Complete sourced English narration with cues | Editorial review required |

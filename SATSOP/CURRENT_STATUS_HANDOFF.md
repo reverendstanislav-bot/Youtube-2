@@ -7,7 +7,7 @@ Updated: 2026-09-24
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 — ENGLISH V2 COMPLETE / DIRECTORIAL REVIEW 89/100 / FACT CHECK PASS / USER EDITORIAL REVIEW REQUIRED**
+State: **STAGE 2 COMPLETE — ENGLISH V2 / DIRECTORIAL REVIEW 89/100 / FACT CHECK PASS**
 Publication status: **PREPRODUCTION — REVIEWED SCRIPT V2 EXISTS / NO VO / ASSETS / EDIT**
 
 ## Current documentary direction
@@ -47,7 +47,7 @@ The film should explain the system behind the ruins:
 - Do not claim the whole site is abandoned. It is an active business park, and restricted structures are not open to the public.
 - Do not frame the present cooling towers as proof of radioactive contamination. The projects never operated; any environmental/remediation claim needs its own source.
 
-## Stage 5 deliverables
+## Stage 2 deliverables
 
 - core chronology and financing distinction closed;
 - claim-source map complete;
@@ -70,7 +70,7 @@ Canonical files:
 - `SCRIPT/NARRATION_V2_EN_REVIEW.md`
 - `SCRIPT/V2_FACT_CHECK.md`
 - `SCRIPT/DIRECTORIAL_REVIEW_V2.md`
-- `DEVELOPMENT/STAGE_5_LOCK.md`
+- `DEVELOPMENT/STAGE_2_LOCK.md`
 
 Remaining before visual production:
 
@@ -81,7 +81,7 @@ Remaining before visual production:
 
 ## Next authorized work
 
-Run the final editorial cadence review of English V2, then prepare the spoken-only TTS package, pronunciation controls, and exact cost preflight.
+Proceed to **Stage 3 — narration preflight and timing preparation**: final cadence polish, spoken-only text, pronunciation controls, character/chunk calculation, and exact TTS cost. Do not generate audio until the exact cost is shown and explicitly approved.
 
 No TTS or generation spend is authorized by this handoff.
 

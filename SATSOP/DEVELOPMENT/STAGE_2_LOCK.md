@@ -1,4 +1,4 @@
-# SATSOP — STAGE 5 LOCK
+# SATSOP — STAGE 2 LOCK
 
 Updated: 2026-09-24
 
@@ -17,7 +17,7 @@ Updated: 2026-09-24
 - V2 prose estimate: approximately 16–18 minutes with documentary pauses; final runtime authority is TTS.
 - Ending: active industrial reuse; return to matched towers with two histories visible.
 
-## Canonical Stage 5 files
+## Canonical Stage 2 files
 
 - `RESEARCH/RESEARCH_GAPS_CLOSED_2026-09-24.md`
 - `SCRIPT/CLAIM_SOURCE_MAP_V1.md`
@@ -39,7 +39,7 @@ Updated: 2026-09-24
 - timed beat map;
 - generation plan or budget.
 
-## Next stage
+## Next stage — Stage 3
 
 1. editorial review of English V2;
 2. prepare spoken-only TTS text and pronunciation package;

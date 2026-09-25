@@ -1,6 +1,6 @@
 # SATSOP — RETENTION OUTLINE V1
 
-Status: **STAGE 5 — SCRIPT BASIS**
+Status: **STAGE 2 — SCRIPT BASIS**
 
 Target: **15–17 minutes**, composed narrator, business-epic documentary lane. Final runtime authority will be TTS, not prose estimates.
 

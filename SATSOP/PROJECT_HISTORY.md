@@ -9,7 +9,7 @@
 - Recorded unresolved research and visual-rights gates.
 - No script, media download, paid generation, narration, or edit was started.
 
-## 2026-09-24 — Stage 5 sourced script
+## 2026-09-24 — Stage 2 sourced script
 
 - Closed core chronology, scale, financing, decision, transfer, and reuse gaps.
 - Added five official/primary sources to the ledger.
@@ -48,3 +48,10 @@
 - Measured approximately 2,224 spoken words and 37 purposeful visual cues.
 - Raised directorial assessment from 71/100 to 89/100.
 - Marked V2 pass for user editorial review while preserving the TTS/spend gate.
+
+## 2026-09-24 — Stage numbering correction
+
+- Corrected the Satsop production state after mistakenly applying Big Muskie's internal stage numbering.
+- Canonical Satsop state is Stage 2 complete, not Stage 6.
+- Renamed `DEVELOPMENT/STAGE_5_LOCK.md` to `DEVELOPMENT/STAGE_2_LOCK.md`.
+- Next stage is Stage 3: narration preflight and timing preparation.

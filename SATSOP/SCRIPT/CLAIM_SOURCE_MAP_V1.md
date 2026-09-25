@@ -1,6 +1,6 @@
 # SATSOP — CLAIM → SOURCE MAP V1
 
-Status: **STAGE 5 — FACTUAL PASS**
+Status: **STAGE 2 — FACTUAL PASS**
 
 | Claim ID | Production claim | Source IDs | Use rule |
 |---|---|---|---|
