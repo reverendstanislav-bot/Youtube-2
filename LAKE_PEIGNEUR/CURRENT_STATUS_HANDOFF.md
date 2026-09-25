@@ -1,81 +1,93 @@
 # LAKE PEIGNEUR — CURRENT STATUS / HANDOFF
 
-Updated: 2026-09-24
+Updated: 2026-09-25
 
 ## Canonical status
 
-Episode: **5 — Lake Peigneur**
-Project: **Hidden Industrial America / YouTube-2**
-Event: **Jefferson Island Mine inundation, November 20, 1980**
-State: **RESEARCH BASELINE COMPLETE / DOCUMENTARY DEVELOPMENT OPEN**
-Publication status: **PREPRODUCTION**
+Episode: **5 — Lake Peigneur / Jefferson Island Mine Inundation**  
+Project: **Hidden Industrial America / YouTube-2**  
+State: **STAGE 5 — SOURCED ENGLISH V1 + CLAIM MAP + FACT CHECK COMPLETE**  
+Publication status: **PREPRODUCTION — NOT TTS READY**
 
 No TTS, image generation, video generation, or paid generation is authorized.
 
-## Documentary thesis — working lock
+## Completed
 
-> Lake Peigneur was not simply a lake with a hole punched in it. It was a collision between two industrial systems occupying the same salt dome: an oil well descending from the surface and a salt mine spreading underground. Once water found a path between them, the geology itself amplified the failure.
+- source ledger;
+- research evidence pack;
+- remaining research-gap controls;
+- blocked/qualified-number list;
+- documentary angle selection;
+- packaging/retention architecture;
+- full claim → source map;
+- sourced English Narration V1;
+- directorial notes embedded in V1;
+- five embedded Shorts;
+- V1 line-level factual audit.
 
-The second dramatic engine is survival:
+## V1 factual status
 
-> More than fifty people were underground, seven workers were on the drilling platform, and no human life was lost.
+**PASS FOR DIRECTORIAL REVIEW.**
 
-The third engine is uncertainty:
+High-risk controls:
+- MSHA number: 52 underground;
+- evacuation: less than one hour;
+- no human deaths;
+- precise initiating cause remains unresolved in official federal report;
+- no coordinate-conversion theory presented as fact;
+- no 1,300-ft-lake myth;
+- Delcambre Canal reversal retained;
+- temporary waterfall described only as roughly 150 ft;
+- land loss described as roughly 68 acres;
+- current ONEOK salt-cavern storage used only as a carefully separated modern epilogue.
 
-> The physical sequence is well documented, but the official federal investigation did **not** conclusively determine the precise initiating error.
+## Current documentary thesis
 
-That uncertainty must remain part of the film. Do not convert the popular "wrong coordinates" explanation into a proven official finding.
+> Two industrial systems occupied the same salt dome. A drilling operation opened a hydraulic connection with a salt mine. Once fresh water reached salt, the physical failure amplified itself. The evacuation succeeded. The landscape collapsed. The exact initiating technical error could not later be reconstructed conclusively.
 
-## Fact controls already established
+## Current working title direction
 
-- Date: **November 20, 1980**.
-- Location: Lake Peigneur / Jefferson Island area, Iberia Parish, Louisiana.
-- Salt-mine operator: **Diamond Crystal Salt Company**.
-- Oil operator: **Texaco**; drilling contractor: **Wilson Brothers Corporation**.
-- Federal MSHA records describe **52 people underground**, evacuated safely in less than an hour after the inflow was discovered.
-- Contemporary reports describe **seven workers** abandoning the drilling platform.
-- The surface drilling operation opened a pathway into or immediately adjacent to mine workings; water entered the salt mine and the inundation followed.
-- The federal MSHA report states that the exact cause was extremely difficult to determine because the flooded mine could not be inspected and the evidence was circumstantial.
-- The Delcambre Canal reversed direction as the lake drained and later refilled.
-- Contemporary and Louisiana historical sources describe a temporary waterfall on the order of **150 ft**; exact height varies by source and should not be overstated.
-- No human deaths were reported.
-- Litigation followed. In 1983 Diamond Crystal accepted **$32 million** from Texaco and Wilson Brothers; Live Oak Gardens interests received **$12.8 million** in a separate settlement.
-- A Louisiana appellate case records that the mine closure laid off approximately **250 Diamond Crystal employees**.
-- Current federal/industry records show **Jefferson Island Storage & Hub** remains connected to regional natural-gas infrastructure, making the salt dome's continuing industrial use a possible present-day epilogue.
+Primary:
+**The Day a Louisiana Lake Fell Into a Salt Mine**
 
-## Wording prohibitions
+Alternative:
+**They Drilled One Hole. Then the Lake Disappeared.**
 
-Do **not** say:
-- "Texaco definitely drilled at the wrong coordinates" as settled fact.
-- "A coordinate conversion error caused the disaster" unless explicitly attributed as a later interpretation.
-- "55 miners" as the canonical headcount without qualification; MSHA's FY1981 report says 52 people underground.
-- "the lake became 1,300 feet deep" without a high-quality geologic source; 1,300 ft is also a mine level and is frequently repeated incorrectly online.
-- "the mine was empty/abandoned" at the moment of inundation.
-- "everyone involved received compensation"; employee litigation was separate.
-- any exact water-volume, waterfall-height, land-loss or final-depth figure unless tied to a named source.
+Thumbnail direction:
+surface lake/drilling rig over cutaway salt-mine void;
+text:
+**THE LAKE DISAPPEARED**
 
-## Recommended next work
+Not final packaging yet.
 
-1. Close remaining research gaps:
-   - exact sequence/times from MSHA report;
-   - mine geometry and room-and-pillar dimensions;
-   - defensible pre/post lake depth;
-   - exact drill-hole estimate and what investigators did/did not conclude;
-   - surface land-loss number from Autin's geologic study;
-   - visual rights for 1980 incident imagery.
-2. Lock one documentary angle.
-3. Lock title/thumbnail hypothesis.
-4. Build 15–18 minute retention architecture and five embedded Shorts.
-5. Write sourced English narration V1.
-6. Run line-by-line fact check before any TTS work.
+## Immediate next action
 
-## Inherited channel rules
+**Global directorial / retention audit of V1.**
 
-- GitHub is source of truth.
-- no video generation;
-- no paid generation without explicit user approval after exact preflight;
-- no image generation before script + timed beat map + complete prompt pack + exact cost approval;
-- historical visuals require provenance;
-- reconstruction must never be presented as archive;
-- captions: white base #FFFFFF, active word #F28A3A, word-level, one layer;
-- proof → owner review → RC → exhaustive QC → upload master.
+Audit must test:
+- cold-open strength;
+- whether geology exposition arrives too early;
+- duplicate explanations of dissolution;
+- pacing of evacuation;
+- timing of vortex spectacle;
+- whether uncertainty section slows momentum;
+- whether legal aftermath is too long;
+- ending strength;
+- Short extraction independence;
+- estimated Arthur runtime.
+
+Then:
+1. write English V2;
+2. repeat line-by-line fact check;
+3. create spoken-only TTS clean text;
+4. exact characters/chunks/cost;
+5. ask user for explicit TTS spend approval;
+6. only after approval generate Arthur VO;
+7. word-level transcript + runtime;
+8. full visual beat map;
+9. archive/source inventory;
+10. generation-gap analysis + complete prompt pack;
+11. exact image count + credit budget;
+12. explicit generation approval.
+
+**Video generation remains prohibited.**
