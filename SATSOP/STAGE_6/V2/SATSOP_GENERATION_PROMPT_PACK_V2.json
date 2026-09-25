@@ -1,5 +1,5 @@
 {
-  "status": "V2 REWRITTEN — 5 LOCKED PASS / 63 REQUIRE REFERENCES AND NEW APPROVAL",
+  "status": "V2 TESTED — 13 LOCKED PASS / 55 REQUIRE REFERENCES AND NEW APPROVAL",
   "model_defaults": {
     "model": "gpt_image_2",
     "quality": "low",
@@ -8,9 +8,9 @@
     "count": 1,
     "use_unlim": false
   },
-  "locked_pass_count": 5,
-  "rewritten_queue_count": 63,
-  "maximum_remaining_cost_credits": 31.5,
+  "locked_pass_count": 13,
+  "rewritten_queue_count": 55,
+  "maximum_remaining_cost_credits": 27.5,
   "generation_authorized": false,
   "items": [
     {
@@ -38,7 +38,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Project Five at an unmistakably early phase: low foundations and sparse formwork only, one survey crew for scale; no reactor dome, cooling tower, turbine hall, or completed switchyard. ERA/STATE: 1982. Respect the exact stated era and state (1982); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -66,7 +67,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "FAIL",
       "prompt": "VISUAL PROPOSITION: Reference-matched Project Three exterior in preservation condition: cooling tower and major shells present, open unfinished interfaces visible, no cranes working and no operating vapor. ERA/STATE: 1983-1994 preservation. Respect the exact stated era and state (1983-1994 preservation); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -93,7 +95,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "FAIL",
       "prompt": "VISUAL PROPOSITION: Near-orthographic site-plan plate matching the authenticated plan exactly; Project Three and Project Five footprints separated, all labels and status marks omitted for vector overlay. ERA/STATE: neutral factual map. Respect the exact stated era and state (neutral factual map); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -121,7 +124,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Split-site orthographic plate with Project Five visually sparse and Project Three substantially built; preserve exact plan geometry and reserve the center seam for a twelve-year timeline overlay. ERA/STATE: 1982-1994 comparison. Respect the exact stated era and state (1982-1994 comparison); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -148,7 +152,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: January 1982 utility-board decision room after a vote: closed folders, empty chairs and a stopped-project site photograph on an easel; no readable invented documents. ERA/STATE: 1982. Respect the exact stated era and state (1982); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -176,7 +181,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Project Five early works viewed from ground level: isolated concrete foundations and stored rebar separated by large empty tracts; make limited physical progress the dominant fact. ERA/STATE: 1981-1982. Respect the exact stated era and state (1981-1982); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -203,7 +209,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A period utility desk where a signed payment obligation in the foreground visually blocks the road toward the distant unfinished site; documents remain blank for editorial replacement. ERA/STATE: 1982. Respect the exact stated era and state (1982); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -231,7 +238,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: 1969 regional planning room with five separate plant models arranged around a Pacific Northwest wall map, small staff dwarfed by the expansion plan; no modern screens. ERA/STATE: 1969. Respect the exact stated era and state (1969); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -258,7 +266,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Diptych base: a modest pre-1968 utility office on the left and a crowded 1979 engineering floor on the right, matched camera height and blank center for exact employee numbers. ERA/STATE: 1968 vs 1979. Respect the exact stated era and state (1968 vs 1979); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -286,7 +295,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Five distinct project worktables competing for the same limited pool of engineers, contractor schedules, component crates and permit trays in one overhead institutional composition. ERA/STATE: late 1970s. Respect the exact stated era and state (late 1970s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -303,7 +313,7 @@
       "required_reference_packages": [
         "R05"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "88 BPA customers + 1 private utility",
       "model": "gpt_image_2",
       "quality": "low",
@@ -311,10 +321,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
-      "prompt": "VISUAL PROPOSITION: Dark warm-paper regional map base with many small utility nodes converging on Projects Four and Five; no text, no fake boundaries, ample negative space for 88+1 overlay. ERA/STATE: 1976. Respect the exact stated era and state (1976); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Dark warm-paper regional map base with many small utility nodes converging on Projects Four and Five; no text, no fake boundaries, ample negative space for 88+1 overlay. ERA/STATE: 1976. Respect the exact stated era and state (1976); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "526a3aff-1099-4ade-a78c-9fa511713e1b",
+        "filename": "SAT-GEN011.png",
+        "sha256": "ca014cb396dae4534b5ba2482d595d5a7244a191a3e8fdb6b3d4fcad03be020e"
+      }
     },
     {
       "prompt_id": "SAT-GEN012",
@@ -330,7 +346,7 @@
       "required_reference_packages": [
         "R03"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "PAY WHETHER COMPLETED OR OPERATING",
       "model": "gpt_image_2",
       "quality": "low",
@@ -338,10 +354,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
-      "prompt": "VISUAL PROPOSITION: Three-state triptych using the same payment folder in front of an unfinished plant, an inoperable plant and an idle plant; the obligation remains visually unchanged in all panels. ERA/STATE: late 1970s-1980s. Respect the exact stated era and state (late 1970s-1980s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Three-state triptych using the same payment folder in front of an unfinished plant, an inoperable plant and an idle plant; the obligation remains visually unchanged in all panels. ERA/STATE: late 1970s-1980s. Respect the exact stated era and state (late 1970s-1980s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "2f80135f-3f84-4102-bb6d-81cb5572c540",
+        "filename": "SAT-GEN012.png",
+        "sha256": "76432909df7711544bae03352c87e77b4fa08e6eb0d80b8ab2af2abf13e96d6e"
+      }
     },
     {
       "prompt_id": "SAT-GEN013",
@@ -367,7 +389,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Period public-utility counter with household bills and court-file boxes in foreground, worried customers waiting, unfinished project photograph small in the background; all paper text blank. ERA/STATE: early 1980s. Respect the exact stated era and state (early 1980s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -394,7 +417,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A stopped industrial gate at dusk with one heavy contract case being passed from project officials toward local utility representatives; no active construction. ERA/STATE: 1982-1983. Respect the exact stated era and state (1982-1983); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -421,7 +445,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Empty bond-market trading desk and stacked blank bond certificates under a single extinguished task lamp, with the halted Project Five foundation visible only through a window. ERA/STATE: July 1983. Respect the exact stated era and state (July 1983); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -448,7 +473,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "FAIL",
       "prompt": "VISUAL PROPOSITION: Exact plan-matched two-project diagram plate divided into two clean financial lanes while retaining true site adjacency; no invented architecture or labels in the generated layer. ERA/STATE: neutral factual map. Respect the exact stated era and state (neutral factual map); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -476,7 +502,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Project Five foundation at the end of a branching chain of municipal utility offices, each connected by restrained empty line paths reserved for editorial graphics. ERA/STATE: late 1970s. Respect the exact stated era and state (late 1970s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -504,7 +531,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.0,
       "queue_status": "LOCKED_PASS_REUSE",
-      "test_grade": "PASS",
+      "test_grade_v1": "PASS",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Period utility boardroom with capability-share folders moving toward a central Bonneville representative; preserve the accepted TEST20 composition and do not regenerate. ERA/STATE: late 1970s. Respect the exact stated era and state (late 1970s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
       "locked_asset": {
         "job_id": "a55d4b4c-c00f-418b-93cf-e922a7cafa73",
@@ -536,7 +564,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: One clean tabletop divided 70/30 by physical folder stacks, public-utility side larger and four investor-owned utility chairs on the smaller side; blank overlay space above. ERA/STATE: agreement-era. Respect the exact stated era and state (agreement-era); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -564,7 +593,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Two simplified cutaway silhouettes of pressurized-water project systems derived from authenticated technical references, side by side on neutral blueprint-gray; no photoreal domes, labels, pipes to nowhere or operating effects. ERA/STATE: design comparison. Respect the exact stated era and state (design comparison); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -593,7 +623,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Low-angle exterior where the cooling tower occupies one edge while reactor, turbine and auxiliary building shells recede separately across the site, making the tower only one component. ERA/STATE: construction-era. Respect the exact stated era and state (construction-era); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -620,7 +651,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Clean horizontal four-stage engineering plate: reactor vessel silhouette, steam line, turbine-generator, cooling loop; unfinished broken link at Satsop, no labels or arrows rendered by the model. ERA/STATE: intended system. Respect the exact stated era and state (intended system); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -648,7 +680,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Plan-matched Satsop systems plate with the intended generation chain stopping before completion and Project Five highlighted as the first financial stop; generated layer contains no labels. ERA/STATE: 1982-1983. Respect the exact stated era and state (1982-1983); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -676,7 +709,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Project Three immediately after suspension: locked work zone, idle crane booms lowered, weather covers being installed and a two-person inspection team; no pouring concrete or active build. ERA/STATE: July 1983. Respect the exact stated era and state (July 1983); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -695,7 +729,7 @@
         "R03",
         "R04"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "preserve optionality",
       "model": "gpt_image_2",
       "quality": "low",
@@ -703,10 +737,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
-      "prompt": "VISUAL PROPOSITION: Protected stored equipment inside an unfinished turbine space, tagged but unreadable crates, desiccation covers and a small inspection crew; no active construction. ERA/STATE: 1983-1994. Respect the exact stated era and state (1983-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Protected stored equipment inside an unfinished turbine space, tagged but unreadable crates, desiccation covers and a small inspection crew; no active construction. ERA/STATE: 1983-1994. Respect the exact stated era and state (1983-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "9c2df235-7dd3-4951-96f1-ba5b92bbdad5",
+        "filename": "SAT-GEN025.png",
+        "sha256": "3a6f04a213b756c9a22f9b4ca7647ed957e1dcc97f7f66a5316a0ac1061498bb"
+      }
     },
     {
       "prompt_id": "SAT-GEN026",
@@ -733,7 +773,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A preserved machine under a clean protective cover in a vast unfinished hall while a maintenance crew works under one pool of light; show time being purchased, not construction progress. ERA/STATE: preservation era. Respect the exact stated era and state (preservation era); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -761,7 +802,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Pacific Northwest power-system landscape at low water with one silent preserved Satsop site at the edge; large clean sky and water areas reserved for demand-forecast overlay. ERA/STATE: late 1980s-early 1990s. Respect the exact stated era and state (late 1980s-early 1990s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -790,7 +832,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Close operational inspection of corrosion protection, sealed penetrations and stored equipment records inside an unfinished plant; three workers only, no cranes or fresh concrete. ERA/STATE: preservation era. Respect the exact stated era and state (preservation era); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -818,7 +861,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Symmetrical corridor of preserved equipment with recurring inspection stations disappearing into depth, each station consuming labor while nothing produces power. ERA/STATE: preservation era. Respect the exact stated era and state (preservation era); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -846,7 +890,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Reference-matched Project Three concrete mass isolated against a clean warm-paper field, with one empty lower-third scale lane for the verified invested-dollar overlay; no cash, coins or charts generated. ERA/STATE: 1993 valuation. Respect the exact stated era and state (1993 valuation); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -874,7 +919,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.0,
       "queue_status": "LOCKED_PASS_REUSE",
-      "test_grade": "PASS",
+      "test_grade_v1": "PASS",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Preserve the accepted road-level cooling-tower scale frame; use authenticated tower proportions and keep the reactor and turbine shells visibly incomplete. ERA/STATE: 1993-1994. Respect the exact stated era and state (1993-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
       "locked_asset": {
         "job_id": "54b90c09-6543-43b8-b638-29a3786ee955",
@@ -897,7 +943,7 @@
         "R01",
         "R04"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "VISIBLE CONCRETE ≠ COST TO FINISH",
       "model": "gpt_image_2",
       "quality": "low",
@@ -905,10 +951,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
-      "prompt": "VISUAL PROPOSITION: Foreground unfinished cable trays, open penetrations and missing systems lead toward the apparently complete exterior shell; the absent work dominates over the visible concrete. ERA/STATE: 1993-1994. Respect the exact stated era and state (1993-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Foreground unfinished cable trays, open penetrations and missing systems lead toward the apparently complete exterior shell; the absent work dominates over the visible concrete. ERA/STATE: 1993-1994. Respect the exact stated era and state (1993-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "32bc0999-aad9-4580-b4b8-a7d75d7f9824",
+        "filename": "SAT-GEN032.png",
+        "sha256": "20d787f9d4b57520b59aa4c022f9e9f44f893d49413266ce0475ebb1ec1a8914"
+      }
     },
     {
       "prompt_id": "SAT-GEN033",
@@ -934,7 +986,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Long empty access road from preserved Project Three toward a distant uncertain horizon, with maintenance barriers and aging equipment in foreground; no active build. ERA/STATE: 1993-1994. Respect the exact stated era and state (1993-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -961,7 +1014,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A small Northwest business after hours with utility invoice and operating ledger on a counter, Satsop image only as a secondary newspaper photograph; no readable invented amounts. ERA/STATE: 1993-1994. Respect the exact stated era and state (1993-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -988,7 +1042,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A closed archival vault containing past-project folders behind glass while an open decision table in foreground remains empty, separating money already spent from the next commitment. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1007,7 +1062,7 @@
         "R04",
         "R06"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "1,240 MW / 240 MW",
       "model": "gpt_image_2",
       "quality": "low",
@@ -1015,10 +1070,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
-      "prompt": "VISUAL PROPOSITION: Clean scale comparison plate: one large reference-controlled Project Three mass on the left and five smaller modular combined-cycle blocks on the right, neutral background, no labels or fake site placement. ERA/STATE: 1994 alternatives. Respect the exact stated era and state (1994 alternatives); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Clean scale comparison plate: one large reference-controlled Project Three mass on the left and five smaller modular combined-cycle blocks on the right, neutral background, no labels or fake site placement. ERA/STATE: 1994 alternatives. Respect the exact stated era and state (1994 alternatives); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "4605cbef-d813-40f5-a87a-e46843aa5bb1",
+        "filename": "SAT-GEN036.png",
+        "sha256": "8cc3fe27376f55fa57f08ac238c962adedc19d369aaa5578179d0b5758253249"
+      }
     },
     {
       "prompt_id": "SAT-GEN037",
@@ -1045,7 +1106,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Two parallel construction paths seen from above: long preserved nuclear restart path with many unfinished stages versus a short modular gas path with fewer stages; no text in generated layer. ERA/STATE: 1994 comparison. Respect the exact stated era and state (1994 comparison); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1073,7 +1135,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Pacific Northwest hydro control context with reservoir, transmission and dispatch room reflections; modular thermal blocks remain secondary and geographically non-specific. ERA/STATE: 1994 system context. Respect the exact stated era and state (1994 system context); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1101,7 +1164,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.0,
       "queue_status": "LOCKED_PASS_REUSE",
-      "test_grade": "PASS",
+      "test_grade_v1": "PASS",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Preserve the accepted conceptual composite of one unfinished nuclear commitment versus several small modular combined-cycle units, explicitly non-geographic and free of Satsop site claims. ERA/STATE: 1994 alternatives. Respect the exact stated era and state (1994 alternatives); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
       "locked_asset": {
         "job_id": "c6f45379-6433-4d3a-92d0-120132013b62",
@@ -1134,7 +1198,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Balanced tabletop still life: gas-fuel contract and emissions-policy folder on one side, nuclear completion-risk folder on the other, all text blank and equal visual weight. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1162,7 +1227,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Split composition giving nuclear and combined-cycle advantages and liabilities equal physical space; neither side heroic or catastrophic, no site merger. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1190,7 +1256,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A rigid single heavy commitment path beside several smaller movable resource blocks on a utility planning table; human hands can rearrange only the modular side. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1217,7 +1284,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Project Three silhouette behind one large empty cost bar area on warm-paper background; no digits generated, exact $1.55B overlay added later. ERA/STATE: 1993 dollars. Respect the exact stated era and state (1993 dollars); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1234,7 +1302,7 @@
       "required_reference_packages": [
         "R06"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "LOW / BASE / HIGH / CC",
       "model": "gpt_image_2",
       "quality": "low",
@@ -1242,10 +1310,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
-      "prompt": "VISUAL PROPOSITION: Three empty vertical case lanes—low, base, high—beside one shorter combined-cycle lane, using physical model blocks and no generated numbers or labels. ERA/STATE: 1994 analysis. Respect the exact stated era and state (1994 analysis); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Three empty vertical case lanes—low, base, high—beside one shorter combined-cycle lane, using physical model blocks and no generated numbers or labels. ERA/STATE: 1994 analysis. Respect the exact stated era and state (1994 analysis); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "fe25abe0-6996-46cb-9969-711ad30c3475",
+        "filename": "SAT-GEN044.png",
+        "sha256": "fe6d2a4f16c65ac23b99f3d909b64f3470ac35a8470c87cbb5da5c9cf2f5865d"
+      }
     },
     {
       "prompt_id": "SAT-GEN045",
@@ -1272,7 +1346,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Two alternatives appear similar at the far operating-life horizon, but the Project Three path carries a much larger locked capital block in the foreground. ERA/STATE: 1994 analysis. Respect the exact stated era and state (1994 analysis); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1299,7 +1374,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Clean regional supply-demand plate with one large Project Three block visibly exceeding a lower demand band; no site photograph, no numbers, no labels, ample overlay space. ERA/STATE: 1994 forecast. Respect the exact stated era and state (1994 forecast); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1326,7 +1402,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: A technically complete power block feeds into a visibly undersized regional demand channel, causing unused capacity to terminate in an empty lane; conceptual, not a real site. ERA/STATE: 1994 forecast. Respect the exact stated era and state (1994 forecast); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1354,7 +1431,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Reference-controlled cooling tower fills foreground while the wider regional grid and demand landscape remains visible through an opening, revealing the system hidden by the monument. ERA/STATE: 1994 reflection. Respect the exact stated era and state (1994 reflection); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1382,7 +1460,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Project Three scale model sits at the center of a circular table surrounded by load forecast, customer and finance stations; all station text reserved for overlay. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1410,7 +1489,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Reference-matched mostly built Project Three on left and a deliberately sparse regional demand field on right; no cranes, no active construction, clean central overlay lane. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1438,7 +1518,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: One huge immovable Project Three commitment block contrasted with several smaller distributed alternatives, while a subtle existing-assets layer remains behind the nuclear side. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1466,7 +1547,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Quiet preserved Project Three exterior with completed access, major shells and permit binders represented as blank physical folders; no operating plant or emissions spectacle. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1495,7 +1577,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Three-panel neutral engineering plate: preserved Project Three, hypothetical gas repower, and clean-sheet combined-cycle plant; no physical claim that repowering occurred. ERA/STATE: 1994 alternatives. Respect the exact stated era and state (1994 alternatives); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1523,7 +1606,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.0,
       "queue_status": "LOCKED_PASS_REUSE",
-      "test_grade": "PASS",
+      "test_grade_v1": "PASS",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Preserve the accepted image of protected unfinished infrastructure as an uncertain third-party option; no map claim and no active nuclear construction. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
       "locked_asset": {
         "job_id": "3d40b18e-dcef-486c-beb4-ec3726eb249d",
@@ -1555,7 +1639,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: June 1994 preserved site behind a newly closed administrative gate, with the built structures unchanged and the future path visibly ending; no demolition. ERA/STATE: June 1994. Respect the exact stated era and state (June 1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1583,7 +1668,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Four physical clocks mounted over permit files, property keys, debt ledgers and redevelopment plans, each showing a different phase; exact dates added only in overlay. ERA/STATE: 1982-2000. Respect the exact stated era and state (1982-2000); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1612,7 +1698,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "FAIL",
       "prompt": "VISUAL PROPOSITION: Four clean horizontal event stations with distinct physical symbols—Project Five stop, bond default, Project Three suspension, Project Three termination—no generated dates or text. ERA/STATE: 1982-1994. Respect the exact stated era and state (1982-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1630,7 +1717,7 @@
         "R03",
         "R07"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "permit / property / remediation / debt",
       "model": "gpt_image_2",
       "quality": "low",
@@ -1638,10 +1725,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
-      "prompt": "VISUAL PROPOSITION: Permit stamp, property key, remediation field kit and debt ledger arranged as four independent workstreams on a neutral table; no readable invented wording. ERA/STATE: post-termination. Respect the exact stated era and state (post-termination); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: Permit stamp, property key, remediation field kit and debt ledger arranged as four independent workstreams on a neutral table; no readable invented wording. ERA/STATE: post-termination. Respect the exact stated era and state (post-termination); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "62ccc7ef-615f-4136-977c-c19915e704af",
+        "filename": "SAT-GEN058.png",
+        "sha256": "7c7b711231b2115287d048bc8c4ca1356b59af665ed161d0cb61f40fd93e78a9"
+      }
     },
     {
       "prompt_id": "SAT-GEN059",
@@ -1668,7 +1761,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Maintained concrete building outside a window while property keys and long-lived finance folders occupy separate foreground planes, making visible asset and invisible contract coexist. ERA/STATE: post-termination. Respect the exact stated era and state (post-termination); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1696,7 +1790,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Present-day institutional budget workspace with legacy project folder linked visually to a long receding timeline; no new construction imagery and no generated numbers. ERA/STATE: present-day debt administration. Respect the exact stated era and state (present-day debt administration); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1723,7 +1818,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Contemporary finance office managing legacy obligations: spreadsheets visible only as unreadable shapes, archived project folders, no hard hats, cranes, plant operation or construction. ERA/STATE: FY2021. Respect the exact stated era and state (FY2021); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1751,7 +1847,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Close exterior concrete wall reflected in glass over a table of sealed contracts, pairing durable structure and durable obligation in one restrained composition. ERA/STATE: post-termination. Respect the exact stated era and state (post-termination); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1769,7 +1866,7 @@
         "R02",
         "R07"
       ],
-      "reference_gate": "BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED",
+      "reference_gate": "LOCKED_PASS_REUSE",
       "overlay_plan": "three public partners",
       "model": "gpt_image_2",
       "quality": "low",
@@ -1777,10 +1874,16 @@
       "aspect_ratio": "16:9",
       "count": 1,
       "use_unlim": false,
-      "cost_if_generated_credits": 0.5,
-      "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "FAIL",
-      "prompt": "VISUAL PROPOSITION: 1995 civic redevelopment meeting with county, port and public-utility representatives around a reuse site model; no cranes, nuclear construction or operating reactor. ERA/STATE: 1995. Respect the exact stated era and state (1995); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
+      "cost_if_generated_credits": 0.0,
+      "queue_status": "LOCKED_PASS_REUSE",
+      "test_grade_v1": "FAIL",
+      "test_grade_v2": "PASS",
+      "prompt": "VISUAL PROPOSITION: 1995 civic redevelopment meeting with county, port and public-utility representatives around a reuse site model; no cranes, nuclear construction or operating reactor. ERA/STATE: 1995. Respect the exact stated era and state (1995); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
+      "locked_asset": {
+        "job_id": "33b098dd-6513-4e9d-be1a-834658f2206f",
+        "filename": "SAT-GEN063.png",
+        "sha256": "8adbcff2aef6c179b316f76ec9e379ed3596f6231dbfbc47f0ae2962300b969d"
+      }
     },
     {
       "prompt_id": "SAT-GEN064",
@@ -1807,7 +1910,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Exact plan-matched site plate showing reusable roads, turbine space, grid connection and heavy foundations as isolated zones; reactor-completion path visibly absent, labels reserved for overlay. ERA/STATE: reuse era. Respect the exact stated era and state (reuse era); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1835,7 +1939,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Present-day active turbine-building industrial interior with maintained floor, ordinary logistics activity and reusable open volume; no reactor work, cranes, dereliction or nuclear props. ERA/STATE: present day. Respect the exact stated era and state (present day); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1862,7 +1967,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.0,
       "queue_status": "LOCKED_PASS_REUSE",
-      "test_grade": "PASS",
+      "test_grade_v1": "PASS",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Preserve the accepted confined-space rescue-training frame: modern PPE, organized exercise team and safe industrial tunnel, clearly training rather than emergency or construction. ERA/STATE: present day. Respect the exact stated era and state (present day); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.",
       "locked_asset": {
         "job_id": "52e0323a-2480-4e2e-b1f4-450de55a17fe",
@@ -1895,7 +2001,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "NOT_TESTED",
+      "test_grade_v1": "NOT_TESTED",
+      "test_grade_v2": "NOT_TESTED",
       "prompt": "VISUAL PROPOSITION: Present-day maintained business-park roadway during a normal workday with occupied industrial buildings, delivery vehicles and controlled access; no tourists, ruins or cranes. ERA/STATE: present day. Respect the exact stated era and state (present day); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     },
     {
@@ -1924,7 +2031,8 @@
       "use_unlim": false,
       "cost_if_generated_credits": 0.5,
       "queue_status": "REWRITTEN_NOT_AUTHORIZED",
-      "test_grade": "CONDITIONAL",
+      "test_grade_v1": "CONDITIONAL",
+      "test_grade_v2": "CONDITIONAL",
       "prompt": "VISUAL PROPOSITION: Elevated present-day view anchored on active reused buildings and maintained infrastructure, with the cooling tower secondary in the distance; show useful afterlife, not abandoned spectacle. ERA/STATE: present day. Respect the exact stated era and state (present day); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only."
     }
   ]

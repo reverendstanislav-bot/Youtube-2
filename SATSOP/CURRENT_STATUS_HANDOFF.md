@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 V2 COMPLETE / 5 PASSES LOCKED / 63 PROMPTS REWRITTEN / REFERENCES REQUIRED**
+State: **STAGE 6 V2 SECOND TEST COMPLETE / 13 PASSES LOCKED / 55 PENDING / REFERENCES REQUIRED**
 Publication status: **PREPRODUCTION — TEST VISUALS ONLY / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -141,7 +141,7 @@ Canonical files:
 
 ## Next authorized work
 
-Acquire, authenticate, rights-log and upload the real R01–R07 media required by V2. Record concrete Higgsfield media IDs, select a small representative second test from the 63 rewritten prompts, run exact cost preflight and request explicit approval. Do not submit the full queue.
+Acquire, authenticate, rights-log and upload the real R01–R07 media required by V2. Record concrete Higgsfield media IDs, correct the four remaining failed prompt types, then preflight a reference-conditioned validation set and request explicit approval. Do not submit the remaining 55 as text-only jobs.
 
 ## Stage 6 deliverables
 
@@ -156,10 +156,10 @@ Acquire, authenticate, rights-log and upload the real R01–R07 media required b
 - directorial QC: **5 PASS / 7 CONDITIONAL / 8 FAIL**;
 - original V1 jobs not submitted: **48**; V1 is superseded by V2;
 - V2: **68/68 rewritten visual propositions**;
-- retained test passes: **5**;
-- corrected pending queue: **63**;
+- retained test passes: **13**;
+- corrected pending queue: **55**;
 - V2 grammar families: **54**;
-- maximum remaining full-queue cost: **31.50 credits**;
+- maximum remaining full-queue cost: **27.50 credits**;
 - V2 generation authorization: **0.00 credits**.
 
 Canonical files:
@@ -177,6 +177,9 @@ Canonical files:
 - `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.csv`
 - `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md`
 - `STAGE_6/V2/STAGE_6_V2_PROMPT_AUDIT.md`
+- `STAGE_6/TEST20_V2/TEST20_V2_JOBS.json`
+- `STAGE_6/TEST20_V2/TEST20_V2_TECHNICAL_QC.json`
+- `STAGE_6/TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md`
 
 ## Mandatory inherited rules
 

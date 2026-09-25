@@ -1,0 +1,419 @@
+[
+  {
+    "index": 1,
+    "prompt_id": "SAT-GEN001",
+    "beat_id": "SAT-B002",
+    "prompt_grammar": "CONSTRUCTION_PHASE",
+    "required_reference_packages": [
+      "R02",
+      "R03"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "598d3276-d05c-4feb-83ba-eddfdc2215af",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184317_598d3276-d05c-4feb-83ba-eddfdc2215af.png",
+    "filename": "SAT-GEN001.png",
+    "size_bytes": 1628692,
+    "sha256": "a242ce1c0f011e4e7dd2e138d4e3995db35e27c6231bf2bd44248fa0d9a1af0b",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 2,
+    "prompt_id": "SAT-GEN002",
+    "beat_id": "SAT-B003",
+    "prompt_grammar": "SITE_IDENTITY",
+    "required_reference_packages": [
+      "R01",
+      "R02"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "d5c80b34-8e18-4b3c-b011-6065629bf643",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184321_d5c80b34-8e18-4b3c-b011-6065629bf643.png",
+    "filename": "SAT-GEN002.png",
+    "size_bytes": 1444675,
+    "sha256": "4922fe3a871b72c47c58bd39f28b61e80a0a92c84d99508461ba8c235e986437",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 3,
+    "prompt_id": "SAT-GEN003",
+    "beat_id": "SAT-B004",
+    "prompt_grammar": "MAP_BASE",
+    "required_reference_packages": [
+      "R02"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "acd2b322-ded9-4677-9c0a-4e62c9052960",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184326_acd2b322-ded9-4677-9c0a-4e62c9052960.png",
+    "filename": "SAT-GEN003.png",
+    "size_bytes": 1880457,
+    "sha256": "bbf00e1f03aafe49178438d9b7e8bb201c88149c0a2b304d78aa3a55e72a8c6a",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 4,
+    "prompt_id": "SAT-GEN006",
+    "beat_id": "SAT-B011",
+    "prompt_grammar": "CONSTRUCTION_PHASE",
+    "required_reference_packages": [
+      "R02",
+      "R03"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "5d3e6bd3-3ee8-4d94-971e-fdf59b3cbab0",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184330_5d3e6bd3-3ee8-4d94-971e-fdf59b3cbab0.png",
+    "filename": "SAT-GEN006.png",
+    "size_bytes": 1567519,
+    "sha256": "1977036ca2ed4cd3470cc083047782302f70d7512870d72143c76a4e50eb1e4f",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 5,
+    "prompt_id": "SAT-GEN011",
+    "beat_id": "SAT-B019",
+    "prompt_grammar": "NETWORK_GFX_BASE",
+    "required_reference_packages": [
+      "R05"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "526a3aff-1099-4ade-a78c-9fa511713e1b",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184336_526a3aff-1099-4ade-a78c-9fa511713e1b.png",
+    "filename": "SAT-GEN011.png",
+    "size_bytes": 1694879,
+    "sha256": "ca014cb396dae4534b5ba2482d595d5a7244a191a3e8fdb6b3d4fcad03be020e",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 6,
+    "prompt_id": "SAT-GEN012",
+    "beat_id": "SAT-B021",
+    "prompt_grammar": "CONTRACT_MECHANISM",
+    "required_reference_packages": [
+      "R03"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "2f80135f-3f84-4102-bb6d-81cb5572c540",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184341_2f80135f-3f84-4102-bb6d-81cb5572c540.png",
+    "filename": "SAT-GEN012.png",
+    "size_bytes": 1675438,
+    "sha256": "76432909df7711544bae03352c87e77b4fa08e6eb0d80b8ab2af2abf13e96d6e",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 7,
+    "prompt_id": "SAT-GEN016",
+    "beat_id": "SAT-B026",
+    "prompt_grammar": "MAP_BASE",
+    "required_reference_packages": [
+      "R02"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "a1f012a0-134a-4ed9-83c6-528ab0522593",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184346_a1f012a0-134a-4ed9-83c6-528ab0522593.png",
+    "filename": "SAT-GEN016.png",
+    "size_bytes": 1803628,
+    "sha256": "d5ada818854d9b247562a35b65b0ce49e2f5382ae82b9d9e2988cfd07cb3baae",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 8,
+    "prompt_id": "SAT-GEN020",
+    "beat_id": "SAT-B032",
+    "prompt_grammar": "TECHNICAL_GFX_BASE",
+    "required_reference_packages": [
+      "R02",
+      "R04"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "d623431e-e5e3-46f3-99d0-0f9c4bb680bf",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184350_d623431e-e5e3-46f3-99d0-0f9c4bb680bf.png",
+    "filename": "SAT-GEN020.png",
+    "size_bytes": 1218943,
+    "sha256": "5aed5b1e6ae3ec1d35a80e641f1985c61a0150d07ec79924a81d7a195c95a0e7",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 9,
+    "prompt_id": "SAT-GEN022",
+    "beat_id": "SAT-B036",
+    "prompt_grammar": "TECHNICAL_GFX_BASE",
+    "required_reference_packages": [
+      "R04"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "b0f8ee21-f079-4d4c-8488-1b783ef68f10",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184354_b0f8ee21-f079-4d4c-8488-1b783ef68f10.png",
+    "filename": "SAT-GEN022.png",
+    "size_bytes": 1494984,
+    "sha256": "bf959c15ad2562aac3b3c03f20309044bc8c53b45fc5f99a4098055b233eedf4",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 10,
+    "prompt_id": "SAT-GEN025",
+    "beat_id": "SAT-B039",
+    "prompt_grammar": "PRESERVATION",
+    "required_reference_packages": [
+      "R01",
+      "R03",
+      "R04"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "9c2df235-7dd3-4951-96f1-ba5b92bbdad5",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184359_9c2df235-7dd3-4951-96f1-ba5b92bbdad5.png",
+    "filename": "SAT-GEN025.png",
+    "size_bytes": 1502856,
+    "sha256": "3a6f04a213b756c9a22f9b4ca7647ed957e1dcc97f7f66a5316a0ac1061498bb",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 11,
+    "prompt_id": "SAT-GEN032",
+    "beat_id": "SAT-B048",
+    "prompt_grammar": "FUTURE_COST",
+    "required_reference_packages": [
+      "R01",
+      "R04"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "32bc0999-aad9-4580-b4b8-a7d75d7f9824",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184406_32bc0999-aad9-4580-b4b8-a7d75d7f9824.png",
+    "filename": "SAT-GEN032.png",
+    "size_bytes": 1460244,
+    "sha256": "20d787f9d4b57520b59aa4c022f9e9f44f893d49413266ce0475ebb1ec1a8914",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 12,
+    "prompt_id": "SAT-GEN036",
+    "beat_id": "SAT-B058",
+    "prompt_grammar": "COMPARISON_GFX_BASE",
+    "required_reference_packages": [
+      "R01",
+      "R04",
+      "R06"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "4605cbef-d813-40f5-a87a-e46843aa5bb1",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184411_4605cbef-d813-40f5-a87a-e46843aa5bb1.png",
+    "filename": "SAT-GEN036.png",
+    "size_bytes": 1127857,
+    "sha256": "8cc3fe27376f55fa57f08ac238c962adedc19d369aaa5578179d0b5758253249",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 13,
+    "prompt_id": "SAT-GEN044",
+    "beat_id": "SAT-B070",
+    "prompt_grammar": "COST_GFX_BASE",
+    "required_reference_packages": [
+      "R06"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "fe25abe0-6996-46cb-9969-711ad30c3475",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184416_fe25abe0-6996-46cb-9969-711ad30c3475.png",
+    "filename": "SAT-GEN044.png",
+    "size_bytes": 1384711,
+    "sha256": "fe6d2a4f16c65ac23b99f3d909b64f3470ac35a8470c87cbb5da5c9cf2f5865d",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 14,
+    "prompt_id": "SAT-GEN046",
+    "beat_id": "SAT-B074",
+    "prompt_grammar": "QUANT_GFX_BASE",
+    "required_reference_packages": [
+      "R05"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "3500475a-5844-4f8c-b598-8034274b2972",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184421_3500475a-5844-4f8c-b598-8034274b2972.png",
+    "filename": "SAT-GEN046.png",
+    "size_bytes": 1201721,
+    "sha256": "491e583023eb8015be5dc2182bf54a9c500b55df895cb6cb48cbef7d1da30ba1",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 15,
+    "prompt_id": "SAT-GEN050",
+    "beat_id": "SAT-B079",
+    "prompt_grammar": "NEED_GFX_BASE",
+    "required_reference_packages": [
+      "R01",
+      "R05"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "3d8ba391-a067-45a3-ad20-67d85cdebb14",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184427_3d8ba391-a067-45a3-ad20-67d85cdebb14.png",
+    "filename": "SAT-GEN050.png",
+    "size_bytes": 1341396,
+    "sha256": "9870656f432a249e0b4cb0b5a6df54ce7a296a81ab251166ccb0c518e82cf272",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 16,
+    "prompt_id": "SAT-GEN057",
+    "beat_id": "SAT-B088",
+    "prompt_grammar": "CHRONOLOGY_GFX_BASE",
+    "required_reference_packages": [
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "54313d4b-6d16-47e8-a565-bbcee55973fc",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184431_54313d4b-6d16-47e8-a565-bbcee55973fc.png",
+    "filename": "SAT-GEN057.png",
+    "size_bytes": 1417990,
+    "sha256": "dd1bb12c08c909242424ecd6ec4a1a176e3be28ca5fd7826915d7f32a26f4aff",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 17,
+    "prompt_id": "SAT-GEN058",
+    "beat_id": "SAT-B090",
+    "prompt_grammar": "MULTIPLE_CLOCKS",
+    "required_reference_packages": [
+      "R03",
+      "R07"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "62ccc7ef-615f-4136-977c-c19915e704af",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184435_62ccc7ef-615f-4136-977c-c19915e704af.png",
+    "filename": "SAT-GEN058.png",
+    "size_bytes": 1396403,
+    "sha256": "7c7b711231b2115287d048bc8c4ca1356b59af665ed161d0cb61f40fd93e78a9",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 18,
+    "prompt_id": "SAT-GEN063",
+    "beat_id": "SAT-B096",
+    "prompt_grammar": "REDEVELOPMENT_INSTITUTIONAL",
+    "required_reference_packages": [
+      "R02",
+      "R07"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "33b098dd-6513-4e9d-be1a-834658f2206f",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184442_33b098dd-6513-4e9d-be1a-834658f2206f.png",
+    "filename": "SAT-GEN063.png",
+    "size_bytes": 1390961,
+    "sha256": "8adbcff2aef6c179b316f76ec9e379ed3596f6231dbfbc47f0ae2962300b969d",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 19,
+    "prompt_id": "SAT-GEN065",
+    "beat_id": "SAT-B102",
+    "prompt_grammar": "MODERN_REUSE",
+    "required_reference_packages": [
+      "R01",
+      "R07"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "eecdcc27-6913-4d89-9e15-ddf2166578b1",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184446_eecdcc27-6913-4d89-9e15-ddf2166578b1.png",
+    "filename": "SAT-GEN065.png",
+    "size_bytes": 1508652,
+    "sha256": "9a983622afbe89460d2aebc25c1b92afd278852d64180f26f205f8c536e797ab",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  },
+  {
+    "index": 20,
+    "prompt_id": "SAT-GEN068",
+    "beat_id": "SAT-B107",
+    "prompt_grammar": "REUSE_RESOLUTION",
+    "required_reference_packages": [
+      "R01",
+      "R02",
+      "R07"
+    ],
+    "reference_mode": "TEXT_ONLY_NO_MEDIA_ATTACHED",
+    "job_id": "647c1db4-a942-4513-bb29-5005bd4a1051",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_184453_647c1db4-a942-4513-bb29-5005bd4a1051.png",
+    "filename": "SAT-GEN068.png",
+    "size_bytes": 1728086,
+    "sha256": "b5fd8a809599d1e66201d53e72dad9c0f03dff985a47b6e55e556df820186479",
+    "codec_name": "png",
+    "width": 1344,
+    "height": 752,
+    "pix_fmt": "rgb24"
+  }
+]

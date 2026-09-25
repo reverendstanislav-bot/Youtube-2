@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 6 V2 PROMPTS COMPLETE — 5 TEST PASSES LOCKED — 63 FULLY REWRITTEN — REFERENCES REQUIRED.**
+**STAGE 6 V2 SECOND TEST COMPLETE — 13 PASSES LOCKED — 55 REMAINING REQUIRE REFERENCES.**
 
-Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. The first 20-image test scored **5 PASS / 7 CONDITIONAL / 8 FAIL**. The five passes are locked; all other tested and untested positions were replaced by a complete V2 pack of **63 rewritten prompts**. V2 uses 54 visual grammars and blocks generation until real reference media IDs are attached. No picture edit has been produced.
+Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. The first test scored **5 PASS / 7 CONDITIONAL / 8 FAIL**. The text-only V2 test improved to **8 PASS / 8 CONDITIONAL / 4 FAIL**. Thirteen accepted images are now locked; **55** positions remain, with maximum cost **27.50 credits**. Real R01–R07 media inputs are still required before further generation. No picture edit has been produced.
 
 Start every new chat with:
 
@@ -20,6 +20,7 @@ Start every new chat with:
 8. `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.md`
 9. `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md`
 10. `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md`
+11. `STAGE_6/TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md`
 
 ## Episode rule
 

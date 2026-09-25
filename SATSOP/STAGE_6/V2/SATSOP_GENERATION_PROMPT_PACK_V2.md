@@ -1,13 +1,13 @@
 # SATSOP — GENERATION PROMPT PACK V2
 
-Status: **FULL REWRITE COMPLETE — 5 LOCKED PASS / 63 REWRITTEN / NO GENERATION AUTHORIZED**
+Status: **SECOND TEST COMPLETE — 13 LOCKED PASS / 55 PENDING REFERENCES / NO FURTHER GENERATION AUTHORIZED**
 
 V2 replaces the V1 prompt system. Every non-passing beat has a new visual proposition, era/state control, prompt grammar, reference gate, and overlay plan. Reference package names are requirements; a job remains blocked until real Higgsfield media IDs are attached.
 
 - model: GPT Image 2 / low / 1k / 16:9
-- locked accepted images: 5
-- rewritten pending images: 63
-- maximum cost if all 63 were later approved: 31.50 credits
+- locked accepted images: 13
+- rewritten pending images: 55
+- maximum cost if all 55 were later approved: 27.50 credits
 - current authorization: 0.00 credits
 
 ## SAT-GEN001 / SAT-B002 — REWRITTEN_NOT_AUTHORIZED
@@ -140,11 +140,11 @@ VISUAL PROPOSITION: Diptych base: a modest pre-1968 utility office on the left a
 
 VISUAL PROPOSITION: Five distinct project worktables competing for the same limited pool of engineers, contractor schedules, component crates and permit trays in one overhead institutional composition. ERA/STATE: late 1970s. Respect the exact stated era and state (late 1970s); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN011 / SAT-B019 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN011 / SAT-B019 — LOCKED_PASS_REUSE
 
 - Grammar: `NETWORK_GFX_BASE`
 - References: `R05`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: 1976
 - Overlay plan: 88 BPA customers + 1 private utility
 - Narration: By July 1976, eighty-eight customers of the Bonneville Power Administration and one private utility had become participants in Projects Four and Five.
@@ -153,11 +153,11 @@ VISUAL PROPOSITION: Five distinct project worktables competing for the same limi
 
 VISUAL PROPOSITION: Dark warm-paper regional map base with many small utility nodes converging on Projects Four and Five; no text, no fake boundaries, ample negative space for 88+1 overlay. ERA/STATE: 1976. Respect the exact stated era and state (1976); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN012 / SAT-B021 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN012 / SAT-B021 — LOCKED_PASS_REUSE
 
 - Grammar: `CONTRACT_MECHANISM`
 - References: `R03`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: late 1970s-1980s
 - Overlay plan: PAY WHETHER COMPLETED OR OPERATING
 - Narration: Its meaning was painfully clear. Participants were required to pay their share whether the plants were completed, operable, or operating.
@@ -322,11 +322,11 @@ VISUAL PROPOSITION: Plan-matched Satsop systems plate with the intended generati
 
 VISUAL PROPOSITION: Project Three immediately after suspension: locked work zone, idle crane booms lowered, weather covers being installed and a two-person inspection team; no pouring concrete or active build. ERA/STATE: July 1983. Respect the exact stated era and state (July 1983); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN025 / SAT-B039 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN025 / SAT-B039 — LOCKED_PASS_REUSE
 
 - Grammar: `PRESERVATION`
 - References: `R01 + R03 + R04`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: 1983-1994
 - Overlay plan: preserve optionality
 - Narration: Suspended did not mean terminated. Buildings and installed systems were protected. Equipment and construction materials retained possible value.
@@ -413,11 +413,11 @@ VISUAL PROPOSITION: Reference-matched Project Three concrete mass isolated again
 
 VISUAL PROPOSITION: Preserve the accepted road-level cooling-tower scale frame; use authenticated tower proportions and keep the reactor and turbine shells visibly incomplete. ERA/STATE: 1993-1994. Respect the exact stated era and state (1993-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN032 / SAT-B048 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN032 / SAT-B048 — LOCKED_PASS_REUSE
 
 - Grammar: `FUTURE_COST`
 - References: `R01 + R04`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: 1993-1994
 - Overlay plan: VISIBLE CONCRETE ≠ COST TO FINISH
 - Narration: But completion is not measured by how much concrete is visible. It is measured by what still has to be spent and how long that money remains at risk.
@@ -465,11 +465,11 @@ VISUAL PROPOSITION: A small Northwest business after hours with utility invoice 
 
 VISUAL PROPOSITION: A closed archival vault containing past-project folders behind glass while an open decision table in foreground remains empty, separating money already spent from the next commitment. ERA/STATE: 1994. Respect the exact stated era and state (1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN036 / SAT-B058 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN036 / SAT-B058 — LOCKED_PASS_REUSE
 
 - Grammar: `COMPARISON_GFX_BASE`
 - References: `R01 + R04 + R06`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: 1994 alternatives
 - Overlay plan: 1,240 MW / 240 MW
 - Narration: That money was already gone. Only the next commitment could still be changed. Bonneville compared Project Three with natural-gas combined-cycle generation — plants using gas and steam turbines together.
@@ -569,11 +569,11 @@ VISUAL PROPOSITION: A rigid single heavy commitment path beside several smaller 
 
 VISUAL PROPOSITION: Project Three silhouette behind one large empty cost bar area on warm-paper background; no digits generated, exact $1.55B overlay added later. ERA/STATE: 1993 dollars. Respect the exact stated era and state (1993 dollars); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN044 / SAT-B070 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN044 / SAT-B070 — LOCKED_PASS_REUSE
 
 - Grammar: `COST_GFX_BASE`
 - References: `R06`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: 1994 analysis
 - Overlay plan: LOW / BASE / HIGH / CC
 - Narration: Bonneville also tested lower and higher cases. Combined cycle was cheaper than the base and high Project Three cases.
@@ -751,11 +751,11 @@ VISUAL PROPOSITION: Four physical clocks mounted over permit files, property key
 
 VISUAL PROPOSITION: Four clean horizontal event stations with distinct physical symbols—Project Five stop, bond default, Project Three suspension, Project Three termination—no generated dates or text. ERA/STATE: 1982-1994. Respect the exact stated era and state (1982-1994); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN058 / SAT-B090 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN058 / SAT-B090 — LOCKED_PASS_REUSE
 
 - Grammar: `MULTIPLE_CLOCKS`
 - References: `R03 + R07`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: post-termination
 - Overlay plan: permit / property / remediation / debt
 - Narration: Property, remediation, and debt moved on different schedules. The permit clock asked whether nuclear construction could legally continue.
@@ -816,11 +816,11 @@ VISUAL PROPOSITION: Contemporary finance office managing legacy obligations: spr
 
 VISUAL PROPOSITION: Close exterior concrete wall reflected in glass over a table of sealed contracts, pairing durable structure and durable obligation in one restrained composition. ERA/STATE: post-termination. Respect the exact stated era and state (post-termination); do not import construction activity, clothing, vehicles or technology from another period. Historically grounded 16:9 documentary reconstruction with restrained natural light and realistic materials. The Satsop projects never operated: no fuel, nuclear glow, operating steam, radioactive spectacle or completed plant presented as fact. Do not render titles, dates, numbers, logos, maps, signs, document text, arrows or labels; exact information is added later as editorial vector graphics. Keep the lower 15 percent calm for captions. One visual proposition only.
 
-## SAT-GEN063 / SAT-B096 — REWRITTEN_NOT_AUTHORIZED
+## SAT-GEN063 / SAT-B096 — LOCKED_PASS_REUSE
 
 - Grammar: `REDEVELOPMENT_INSTITUTIONAL`
 - References: `R02 + R07`
-- Reference gate: `BLOCKED_UNTIL_REAL_MEDIA_IDS_ATTACHED`
+- Reference gate: `LOCKED_PASS_REUSE`
 - Era/state: 1995
 - Overlay plan: three public partners
 - Narration: In 1995, Grays Harbor County, the Port of Grays Harbor, and the local public utility district formed the Satsop Redevelopment Project.

@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**20-IMAGE TEST COMPLETE — DIRECTORIAL QC FAILED — REMAINING 48 ON HOLD**
+**V2 SECOND TEST COMPLETE — 13 TOTAL PASSES LOCKED — 55 REMAINING REQUIRE REFERENCES**
 
 ## Canonical files
 
@@ -25,4 +25,4 @@ Updated: 2026-09-25
 - image credits spent: **10.00**;
 - test QC: **5 PASS / 7 CONDITIONAL / 8 FAIL**.
 
-The 34.00-credit full-batch gate is superseded by the representative test. Stage 7 cannot begin until the prompt/reference system is corrected, a second test passes, and any further spend receives explicit approval.
+The 34.00-credit full-batch gate is superseded. The text-only V2 test improved to 8 PASS / 8 CONDITIONAL / 4 FAIL, but exact Satsop geography and architecture remain blocked by missing reference inputs. Stage 7 cannot begin until real references are attached and any further spend receives explicit approval.

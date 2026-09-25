@@ -22,6 +22,16 @@ TEST_GRADES = {
     "SAT-GEN066": "PASS", "SAT-GEN068": "CONDITIONAL",
 }
 
+SECOND_TEST_GRADES = {
+    "SAT-GEN001": "CONDITIONAL", "SAT-GEN002": "FAIL", "SAT-GEN003": "FAIL",
+    "SAT-GEN006": "CONDITIONAL", "SAT-GEN011": "PASS", "SAT-GEN012": "PASS",
+    "SAT-GEN016": "FAIL", "SAT-GEN020": "CONDITIONAL", "SAT-GEN022": "CONDITIONAL",
+    "SAT-GEN025": "PASS", "SAT-GEN032": "PASS", "SAT-GEN036": "PASS",
+    "SAT-GEN044": "PASS", "SAT-GEN046": "CONDITIONAL", "SAT-GEN050": "CONDITIONAL",
+    "SAT-GEN057": "FAIL", "SAT-GEN058": "PASS", "SAT-GEN063": "PASS",
+    "SAT-GEN065": "CONDITIONAL", "SAT-GEN068": "CONDITIONAL",
+}
+
 PLANS = {
     "SAT-B002": ("CONSTRUCTION_PHASE", "Project Five at an unmistakably early phase: low foundations and sparse formwork only, one survey crew for scale; no reactor dome, cooling tower, turbine hall, or completed switchyard.", "R02+R03", "1982", "14% / 1982"),
     "SAT-B003": ("SITE_IDENTITY", "Reference-matched Project Three exterior in preservation condition: cooling tower and major shells present, open unfinished interfaces visible, no cranes working and no operating vapor.", "R01+R02", "1983-1994 preservation", "74% / preserved to 1994"),
@@ -109,8 +119,10 @@ v1 = json.loads((ROOT / "STAGE_6" / "SATSOP_GENERATION_PROMPT_PACK_V1.json").rea
 prompt_by_beat = {item["beat_id"]: item["prompt_id"] for item in v1["items"]}
 test_jobs = json.loads((ROOT / "STAGE_6" / "TEST20" / "TEST20_JOBS.json").read_text(encoding="utf-8"))
 test_tech = json.loads((ROOT / "STAGE_6" / "TEST20" / "TEST20_TECHNICAL_QC.json").read_text(encoding="utf-8"))
-job_by_prompt = {item["prompt_id"]: item for item in test_jobs}
-tech_by_prompt = {item["prompt_id"]: item for item in test_tech}
+second_jobs = json.loads((ROOT / "STAGE_6" / "TEST20_V2" / "TEST20_V2_JOBS.json").read_text(encoding="utf-8"))
+second_tech = json.loads((ROOT / "STAGE_6" / "TEST20_V2" / "TEST20_V2_TECHNICAL_QC.json").read_text(encoding="utf-8"))
+job_by_prompt = {item["prompt_id"]: item for item in test_jobs + second_jobs}
+tech_by_prompt = {item["prompt_id"]: item for item in test_tech + second_tech}
 
 assert len(beats) == len(PLANS) == 68
 assert {row["beat_id"] for row in beats} == set(PLANS)
@@ -119,7 +131,7 @@ items = []
 for row in beats:
     prompt_id = prompt_by_beat[row["beat_id"]]
     grammar, proposition, references, era, overlay = PLANS[row["beat_id"]]
-    locked = TEST_GRADES.get(prompt_id) == "PASS"
+    locked = TEST_GRADES.get(prompt_id) == "PASS" or SECOND_TEST_GRADES.get(prompt_id) == "PASS"
     prompt = f"VISUAL PROPOSITION: {proposition} ERA/STATE: {era}. {global_guard(era)}"
     old_prompt = next(item["prompt"] for item in v1["items"] if item["prompt_id"] == prompt_id)
     assert prompt != old_prompt
@@ -140,7 +152,8 @@ for row in beats:
         **MODEL,
         "cost_if_generated_credits": 0.0 if locked else 0.5,
         "queue_status": "LOCKED_PASS_REUSE" if locked else "REWRITTEN_NOT_AUTHORIZED",
-        "test_grade": TEST_GRADES.get(prompt_id, "NOT_TESTED"),
+        "test_grade_v1": TEST_GRADES.get(prompt_id, "NOT_TESTED"),
+        "test_grade_v2": SECOND_TEST_GRADES.get(prompt_id, "NOT_TESTED"),
         "prompt": prompt,
     }
     if locked:
@@ -152,22 +165,22 @@ for row in beats:
     items.append(item)
 
 assert len({item["prompt"] for item in items}) == 68
-assert sum(item["queue_status"] == "LOCKED_PASS_REUSE" for item in items) == 5
-assert sum(item["queue_status"] == "REWRITTEN_NOT_AUTHORIZED" for item in items) == 63
-assert sum(item["cost_if_generated_credits"] for item in items) == 31.5
+assert sum(item["queue_status"] == "LOCKED_PASS_REUSE" for item in items) == 13
+assert sum(item["queue_status"] == "REWRITTEN_NOT_AUTHORIZED" for item in items) == 55
+assert sum(item["cost_if_generated_credits"] for item in items) == 27.5
 
 payload = {
-    "status": "V2 REWRITTEN — 5 LOCKED PASS / 63 REQUIRE REFERENCES AND NEW APPROVAL",
+    "status": "V2 TESTED — 13 LOCKED PASS / 55 REQUIRE REFERENCES AND NEW APPROVAL",
     "model_defaults": MODEL,
-    "locked_pass_count": 5,
-    "rewritten_queue_count": 63,
-    "maximum_remaining_cost_credits": 31.5,
+    "locked_pass_count": 13,
+    "rewritten_queue_count": 55,
+    "maximum_remaining_cost_credits": 27.5,
     "generation_authorized": False,
     "items": items,
 }
 (OUT / "SATSOP_GENERATION_PROMPT_PACK_V2.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-fields = ["prompt_id", "beat_id", "start", "end", "duration_seconds", "asset_class", "prompt_grammar", "required_reference_packages", "reference_gate", "overlay_plan", "model", "quality", "resolution", "aspect_ratio", "cost_if_generated_credits", "queue_status", "test_grade", "prompt"]
+fields = ["prompt_id", "beat_id", "start", "end", "duration_seconds", "asset_class", "prompt_grammar", "required_reference_packages", "reference_gate", "overlay_plan", "model", "quality", "resolution", "aspect_ratio", "cost_if_generated_credits", "queue_status", "test_grade_v1", "test_grade_v2", "prompt"]
 with (OUT / "SATSOP_GENERATION_PROMPT_PACK_V2.csv").open("w", newline="", encoding="utf-8-sig") as handle:
     writer = csv.DictWriter(handle, fieldnames=fields)
     writer.writeheader()
@@ -178,10 +191,10 @@ with (OUT / "SATSOP_GENERATION_PROMPT_PACK_V2.csv").open("w", newline="", encodi
 
 lines = [
     "# SATSOP — GENERATION PROMPT PACK V2", "",
-    "Status: **FULL REWRITE COMPLETE — 5 LOCKED PASS / 63 REWRITTEN / NO GENERATION AUTHORIZED**", "",
+    "Status: **SECOND TEST COMPLETE — 13 LOCKED PASS / 55 PENDING REFERENCES / NO FURTHER GENERATION AUTHORIZED**", "",
     "V2 replaces the V1 prompt system. Every non-passing beat has a new visual proposition, era/state control, prompt grammar, reference gate, and overlay plan. Reference package names are requirements; a job remains blocked until real Higgsfield media IDs are attached.", "",
-    "- model: GPT Image 2 / low / 1k / 16:9", "- locked accepted images: 5", "- rewritten pending images: 63",
-    "- maximum cost if all 63 were later approved: 31.50 credits", "- current authorization: 0.00 credits", "",
+    "- model: GPT Image 2 / low / 1k / 16:9", "- locked accepted images: 13", "- rewritten pending images: 55",
+    "- maximum cost if all 55 were later approved: 27.50 credits", "- current authorization: 0.00 credits", "",
 ]
 for item in items:
     lines += [
@@ -192,4 +205,4 @@ for item in items:
     ]
 (OUT / "SATSOP_GENERATION_PROMPT_PACK_V2.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
-print(json.dumps({"total": 68, "locked_pass": 5, "rewritten": 63, "remaining_max_cost": 31.5}, indent=2))
+print(json.dumps({"total": 68, "locked_pass": 13, "rewritten": 55, "remaining_max_cost": 27.5}, indent=2))

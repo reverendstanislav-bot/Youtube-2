@@ -53,10 +53,13 @@ Updated: 2026-09-25
 | `STAGE_6/TEST20/TEST20_JOBS.json` | Test selection, provider job IDs, and result URLs | 20/20 complete |
 | `STAGE_6/TEST20/TEST20_TECHNICAL_QC.json` | Decode, dimensions, sizes, and SHA-256 evidence | Pass |
 | `STAGE_6/TEST20/TEST20_DIRECTORIAL_QC_V1.md` | Per-image visual verdict and systemic prompt audit | Fail for scale-up |
-| `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md` | Full human-readable rewrite with 5 locked passes and 63 corrected prompts | Complete; references required |
+| `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md` | Full V2 pack with 13 locked passes and 55 pending prompts | Complete; references required |
 | `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.json` | Canonical V2 queue, gates, locked assets and model settings | Complete |
 | `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.csv` | Flat 68-row V2 production matrix | Complete |
 | `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md` | Failed/conditional errors and V2 corrections | Complete |
-| `STAGE_6/V2/STAGE_6_V2_PROMPT_AUDIT.md` | V2 completeness, diversity and execution-gate audit | Pass for reference acquisition and second test |
+| `STAGE_6/V2/STAGE_6_V2_PROMPT_AUDIT.md` | V2 completeness, diversity and execution-gate audit | Second test complete; references required |
+| `STAGE_6/TEST20_V2/TEST20_V2_JOBS.json` | Second-test selection, job IDs and result URLs | 20/20 complete |
+| `STAGE_6/TEST20_V2/TEST20_V2_TECHNICAL_QC.json` | Second-test decode, dimensions, sizes and SHA-256 | Pass |
+| `STAGE_6/TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md` | Strict V2 visual audit and V1/V2 comparison | 8 pass / 8 conditional / 4 fail |
 
-The locked VO, exact timed beat map, first test evidence, and full V2 prompt pack exist. Five test images are locked; 63 corrected prompts await real reference inputs and a second-test approval. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, both test evidence sets, and full V2 prompt pack exist. Thirteen images are locked; 55 prompts await real reference inputs and new approval. No picture edit, render, or publication master exists for Episode 4.

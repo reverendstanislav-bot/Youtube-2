@@ -3,12 +3,15 @@ from __future__ import annotations
 import hashlib
 import json
 import subprocess
+import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TEST_DIR = ROOT / "STAGE_6" / "TEST20"
-entries = json.loads((TEST_DIR / "TEST20_JOBS.json").read_text(encoding="utf-8"))
+folder = sys.argv[1] if len(sys.argv) > 1 else "TEST20"
+prefix = "TEST20_V2" if folder == "TEST20_V2" else "TEST20"
+TEST_DIR = ROOT / "STAGE_6" / folder
+entries = json.loads((TEST_DIR / f"{prefix}_JOBS.json").read_text(encoding="utf-8"))
 
 report = []
 paths = []
@@ -29,7 +32,7 @@ for entry in entries:
     })
     paths.append(path)
 
-(TEST_DIR / "TEST20_TECHNICAL_QC.json").write_text(
+(TEST_DIR / f"{prefix}_TECHNICAL_QC.json").write_text(
     json.dumps(report, indent=2) + "\n", encoding="utf-8"
 )
 
@@ -48,7 +51,7 @@ for page in range(2):
     command += [
         "-filter_complex", f"{scales};{stack_inputs}xstack=inputs=10:layout={layout}[out]",
         "-map", "[out]", "-frames:v", "1", "-q:v", "2",
-        str(TEST_DIR / f"TEST20_CONTACT_{page + 1}.jpg"),
+        str(TEST_DIR / f"{prefix}_CONTACT_{page + 1}.jpg"),
     ]
     subprocess.run(command, check=True, capture_output=True)
 

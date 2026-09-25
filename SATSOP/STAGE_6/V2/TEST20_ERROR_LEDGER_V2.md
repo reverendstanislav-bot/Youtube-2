@@ -24,7 +24,7 @@ The poor result came from prompt design and missing operational reference inputs
 | SAT-GEN054 | Preservation and third-party uncertainty are visually legible. |
 | SAT-GEN066 | Confined-space rescue training is clear and distinct from the construction material. |
 
-These files, provider job IDs and SHA-256 hashes are locked in the V2 JSON. They are excluded from the 63-image replacement queue.
+These five first-test files, provider job IDs and SHA-256 hashes are locked in the V2 JSON. The later V2 test locked eight additional files; see `../TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md`.
 
 ## Failed frames
 
@@ -67,10 +67,10 @@ These files, provider job IDs and SHA-256 hashes are locked in the V2 JSON. They
 
 - 68 distinct visual propositions and **54 prompt grammars**;
 - 5 passing assets locked and removed from paid queue;
-- 63 prompts rewritten from zero;
+- 63 prompts rewritten from zero before the second test;
 - narration retained as production context but removed from the generated prompt body;
 - every job receives one visual proposition, one era/state, a separate overlay plan and explicit exclusions;
-- all 63 pending jobs are blocked until the required R01–R07 packages are attached as real Higgsfield media IDs;
+- after the second test, 55 pending jobs remain blocked until the required R01–R07 packages are attached as real Higgsfield media IDs;
 - map, technical, quantitative, institutional, chronology and modern-reuse scenes now use separate visual grammars;
-- maximum remaining cost if the entire corrected queue is later approved: **31.50 credits**;
+- maximum remaining cost after both tests if the corrected queue is later approved: **27.50 credits**;
 - current authorized spend: **0.00 credits**.

@@ -130,3 +130,13 @@
 - Added a hard execution block until required R01–R07 packages are attached as concrete Higgsfield media IDs.
 - Maximum remaining cost if all 63 corrected images are later approved: **31.50 credits**.
 - No generation or additional credit spend occurred during the rewrite.
+
+## 2026-09-25 — Stage 6 V2 text-only 20-image test
+
+- User authorized 20 GPT Image 2 / low / 1k / 16:9 V2 test jobs at the verified 0.50-credit profile.
+- Submitted exactly 20 jobs with no retry; all completed and passed technical QC at 1344 × 752 PNG.
+- R01–R07 source media did not exist locally, so the batch was explicitly treated as a text-only prompt-grammar test rather than reference-conditioned Satsop verification.
+- Strict directorial QC: **8 PASS / 8 CONDITIONAL / 4 FAIL**, versus 5 / 7 / 8 in the first test.
+- Locked eight additional accepted images, bringing the project total to **13**.
+- Remaining queue: **55 images / maximum 27.50 credits**, with no further generation authorized.
+- The test's attributable cost was **10.00 credits**. The observed post-test workspace balance was **1,196.57 credits**; the larger balance movement cannot be attributed to this batch without a provider usage ledger.
