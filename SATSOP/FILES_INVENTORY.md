@@ -18,5 +18,6 @@ Updated: 2026-09-24
 | `SCRIPT/RETENTION_OUTLINE_V1.md` | Long-form architecture and payoff plan | Script basis |
 | `SCRIPT/NARRATION_DRAFT_V1.md` | Complete sourced English narration with cues | Editorial review required |
 | `SCRIPT/V1_FACT_CHECK.md` | Line-level factual audit | Pass for editorial review |
+| `SCRIPT/DIRECTORIAL_AUDIT_V1.md` | Global story, retention, language, visual, and packaging audit | V1 scored 71/100; V2 required |
 
 No source media, generated media, TTS, timed beat map, render, or publication master exists for Episode 4. A sourced English V1 script exists but is not TTS-locked.

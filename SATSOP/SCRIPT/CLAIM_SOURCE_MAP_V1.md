@@ -35,6 +35,8 @@ Status: **STAGE 5 — FACTUAL PASS**
 | C029 | BPA transmission and utility infrastructure supported later reuse | S05, S11 | keep specific assets sourced |
 | C030 | WPPSS staff grew from <100 pre-1968 to 1,471 by Mar. 1979 | S04 | organizational scale context; no misconduct implication |
 | C031 | Of five projects, WNP-2 alone entered commercial operation, in Dec. 1984 | S01 | do not imply the other four had identical outcomes |
+| C032 | WNP-3 base case had nearly 3× the early-termination capital at risk of equivalent CCCT energy; low case had 2× | S01 | BPA 1994 comparison; preserve scenario scope |
+| C033 | 1,240 MW WNP-3 was projected to create about 600 aMW surplus and a $200M/year deficit even under BPA high-load forecast | S01 | BPA 1994 projection, not realized operating result |
 
 ## Excluded claims
 

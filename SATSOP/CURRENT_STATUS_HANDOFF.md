@@ -7,7 +7,7 @@ Updated: 2026-09-24
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 5 — CORE RESEARCH CLOSED / SOURCED ENGLISH V1 COMPLETE / FACT CHECK PASS**
+State: **STAGE 5 — GLOBAL DIRECTORIAL AUDIT COMPLETE / V1 NOT TTS-READY / V2 REQUIRED**
 Publication status: **PREPRODUCTION — SOURCED SCRIPT V1 EXISTS / NO VO / ASSETS / EDIT**
 
 ## Current documentary direction
@@ -54,7 +54,9 @@ The film should explain the system behind the ruins:
 - 15–17 minute retention outline complete;
 - three hook options complete;
 - full sourced English V1 complete;
-- V1 fact check: **PASS, factual blockers 0**.
+- initial V1 fact check: **passed the existing claim map, then superseded for editorial lock by the global audit**;
+- global directorial audit: **71/100 — strong research draft, not ready for TTS or picture**;
+- precision corrections and V2 rewrite mandate recorded in `SCRIPT/DIRECTORIAL_AUDIT_V1.md`.
 
 Canonical files:
 
@@ -63,6 +65,7 @@ Canonical files:
 - `SCRIPT/RETENTION_OUTLINE_V1.md`
 - `SCRIPT/NARRATION_DRAFT_V1.md`
 - `SCRIPT/V1_FACT_CHECK.md`
+- `SCRIPT/DIRECTORIAL_AUDIT_V1.md`
 - `DEVELOPMENT/STAGE_5_LOCK.md`
 
 Remaining before visual production:
@@ -74,7 +77,7 @@ Remaining before visual production:
 
 ## Next authorized work
 
-Run an editorial/directorial critique of English V1, revise to V2, repeat fact check, then prepare a spoken-only TTS package and exact cost preflight.
+Revise English V1 to V2 under `SCRIPT/DIRECTORIAL_AUDIT_V1.md`, repeat the line-by-line fact check, then prepare a spoken-only TTS package and exact cost preflight.
 
 No TTS or generation spend is authorized by this handoff.
 
