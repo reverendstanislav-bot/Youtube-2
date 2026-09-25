@@ -117,14 +117,14 @@ GitHub Actions:
 - artifact: `LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1`
 - build: **SUCCESS**
 - artifact digest: `sha256:67e97d6d664ae14c908598494f3fb766918ff5c409e057e83ab2dc0fac16ba86`
-- archive payload: **108 files**
+- archive payload: **98 files**
 
 Contents include:
 - full MSHA 1981 federal report;
 - FY1981 MSHA report;
 - Appendix T;
 - Appendix EE pages 120–149;
-- 40 large embedded photo extractions from Appendix EE;
+- 39 large embedded photo extractions from Appendix EE;
 - Appendix EE contact sheets;
 - USGS geology reports;
 - USGS 1963 Delcambre historical topo;
