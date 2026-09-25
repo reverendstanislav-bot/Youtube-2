@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 TEST COMPLETE / 20 GENERATED / DIRECTORIAL QC FAIL / REMAINING 48 ON HOLD**
+State: **STAGE 6 V2 COMPLETE / 5 PASSES LOCKED / 63 PROMPTS REWRITTEN / REFERENCES REQUIRED**
 Publication status: **PREPRODUCTION — TEST VISUALS ONLY / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -141,7 +141,7 @@ Canonical files:
 
 ## Next authorized work
 
-Rebuild the prompt/reference workflow from `STAGE_6/TEST20/TEST20_DIRECTORIAL_QC_V1.md`. Attach real reference media, separate prompt grammars by visual function, and prepare a smaller second test. Do not submit the remaining 48 prompts or retry failed test frames without a new exact preflight and explicit approval.
+Acquire, authenticate, rights-log and upload the real R01–R07 media required by V2. Record concrete Higgsfield media IDs, select a small representative second test from the 63 rewritten prompts, run exact cost preflight and request explicit approval. Do not submit the full queue.
 
 ## Stage 6 deliverables
 
@@ -154,7 +154,13 @@ Rebuild the prompt/reference workflow from `STAGE_6/TEST20/TEST20_DIRECTORIAL_QC
 - image credits spent: **10.00**;
 - balance after test: **1,256.67 credits**;
 - directorial QC: **5 PASS / 7 CONDITIONAL / 8 FAIL**;
-- remaining 48 prompts: **ON HOLD**.
+- original V1 jobs not submitted: **48**; V1 is superseded by V2;
+- V2: **68/68 rewritten visual propositions**;
+- retained test passes: **5**;
+- corrected pending queue: **63**;
+- V2 grammar families: **54**;
+- maximum remaining full-queue cost: **31.50 credits**;
+- V2 generation authorization: **0.00 credits**.
 
 Canonical files:
 
@@ -166,6 +172,11 @@ Canonical files:
 - `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md`
 - `STAGE_6/TEST20/TEST20_DIRECTORIAL_QC_V1.md`
 - `STAGE_6/TEST20/TEST20_TECHNICAL_QC.json`
+- `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md`
+- `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.json`
+- `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.csv`
+- `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md`
+- `STAGE_6/V2/STAGE_6_V2_PROMPT_AUDIT.md`
 
 ## Mandatory inherited rules
 

@@ -119,3 +119,14 @@
 - Directorial QC: **5 PASS / 7 CONDITIONAL / 8 FAIL**.
 - Found that reference-package labels had not been attached as real generation inputs and that the common suffix collapsed maps, GFX, finance, chronology, and reuse into repetitive generic nuclear-construction imagery.
 - Put the remaining 48 prompts on hold pending reference acquisition and prompt-system redesign.
+
+## 2026-09-25 — Stage 6 complete V2 prompt rewrite
+
+- Locked the five clean Test20 passes and preserved their provider job IDs, local filenames and SHA-256 hashes.
+- Converted all seven conditional frames and eight failed frames into replacement positions.
+- Rewrote every non-passing and untested position, producing **63 corrected pending prompts** and 68 total V2 records.
+- Replaced the universal scene suffix with **54 distinct visual grammars** covering construction phase, institutional action, finance, preservation, maps, technical systems, quantitative comparisons, chronology and modern reuse.
+- Removed full narration sentences from model prompt bodies and assigned one visual proposition plus one separate overlay plan per beat.
+- Added a hard execution block until required R01–R07 packages are attached as concrete Higgsfield media IDs.
+- Maximum remaining cost if all 63 corrected images are later approved: **31.50 credits**.
+- No generation or additional credit spend occurred during the rewrite.

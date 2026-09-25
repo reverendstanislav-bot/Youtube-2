@@ -53,5 +53,10 @@ Updated: 2026-09-25
 | `STAGE_6/TEST20/TEST20_JOBS.json` | Test selection, provider job IDs, and result URLs | 20/20 complete |
 | `STAGE_6/TEST20/TEST20_TECHNICAL_QC.json` | Decode, dimensions, sizes, and SHA-256 evidence | Pass |
 | `STAGE_6/TEST20/TEST20_DIRECTORIAL_QC_V1.md` | Per-image visual verdict and systemic prompt audit | Fail for scale-up |
+| `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md` | Full human-readable rewrite with 5 locked passes and 63 corrected prompts | Complete; references required |
+| `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.json` | Canonical V2 queue, gates, locked assets and model settings | Complete |
+| `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.csv` | Flat 68-row V2 production matrix | Complete |
+| `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md` | Failed/conditional errors and V2 corrections | Complete |
+| `STAGE_6/V2/STAGE_6_V2_PROMPT_AUDIT.md` | V2 completeness, diversity and execution-gate audit | Pass for reference acquisition and second test |
 
-The locked VO, exact timed beat map, and 68-prompt generation pack exist. Twenty test images exist locally; the remaining 48 are on hold after directorial QC. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, first test evidence, and full V2 prompt pack exist. Five test images are locked; 63 corrected prompts await real reference inputs and a second-test approval. No picture edit, render, or publication master exists for Episode 4.
