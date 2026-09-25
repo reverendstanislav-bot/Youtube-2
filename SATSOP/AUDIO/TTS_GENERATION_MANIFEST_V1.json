@@ -1,0 +1,98 @@
+{
+  "created": "2026-09-25",
+  "voice": {
+    "name": "Arthur",
+    "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+    "voice_type": "preset"
+  },
+  "engine": {
+    "model": "text2speech_v2",
+    "variant": "elevenlabs"
+  },
+  "authorized_cost_credits": 46.8,
+  "jobs_submitted": 4,
+  "chunks": [
+    {
+      "index": 1,
+      "job_id": "bfd91cfb-5e15-4118-8263-a8f6d80caa56",
+      "filename": "CHUNK_01.mp3",
+      "size_bytes": 5429751,
+      "sha256": "fe9cebf6b3e3491db7731461da4c8914cd54b41dd3e5a55214b58710db172118",
+      "duration_seconds": 339.330612,
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "preflight_cost_credits": 13.65
+    },
+    {
+      "index": 2,
+      "job_id": "2945ee6c-697f-4058-8df0-43e0e23dd50a",
+      "filename": "CHUNK_02.mp3",
+      "size_bytes": 5726502,
+      "sha256": "3e9c53614177411c96a1a8ae76d9d2bf25d27fc9a0b9eb1ef53b674c526297ca",
+      "duration_seconds": 357.877551,
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "preflight_cost_credits": 14.25
+    },
+    {
+      "index": 3,
+      "job_id": "93916884-e126-41bd-8054-f8d88d5e3889",
+      "filename": "CHUNK_03.mp3",
+      "size_bytes": 5681781,
+      "sha256": "bba26708aa26ed68f76f812394c9af127115c3575ccc6e97ea98e676a1d2de00",
+      "duration_seconds": 355.082449,
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "preflight_cost_credits": 14.25
+    },
+    {
+      "index": 4,
+      "job_id": "446a7371-7ccc-4d5e-9341-b4c5c23fcb12",
+      "filename": "CHUNK_04.mp3",
+      "size_bytes": 1789327,
+      "sha256": "1b39d77a269d3a01f967f7ead2fa016758b39102f6125b71339ee047948dc941",
+      "duration_seconds": 111.804082,
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "preflight_cost_credits": 4.65
+    }
+  ],
+  "master": {
+    "filename": "SATSOP_VO_MASTER_V1.wav",
+    "size_bytes": 102657822,
+    "sha256": "5e9afb2310f812cf39aff3f37a8d4500bbca2988ae57ba1633244ed65d9d070c",
+    "duration_seconds": 1163.92,
+    "runtime": "00:19:23.920",
+    "codec": "pcm_s16le",
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "sample_width_bits": 16
+  },
+  "automated_qc": {
+    "all_jobs_completed": true,
+    "all_chunks_decode": true,
+    "master_decodes": true,
+    "clipped_samples": 0,
+    "peak_dbfs": -0.332,
+    "rms_dbfs": -14.753,
+    "sustained_quiet_runs_over_1_5s": 0,
+    "word_alignment_file": "SATSOP_WORD_ALIGNMENT_V1.json",
+    "alignment_method": "local faster-whisper tiny offline",
+    "alignment_sequence_match_ratio": 0.928328,
+    "human_pronunciation_listen_pending": [
+      "Satsop",
+      "Bonneville",
+      "Grays Harbor"
+    ]
+  },
+  "balance_snapshots": {
+    "before_submission": 1353.07,
+    "after_completion": 1266.67,
+    "global_delta": 86.4,
+    "note": "Workspace-wide delta is not attributable to this batch alone; concurrent activity may exist."
+  }
+}

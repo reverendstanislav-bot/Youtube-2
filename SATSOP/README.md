@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 3 COMPLETE — NARRATION PREFLIGHT READY — AWAITING TTS SPEND APPROVAL.**
+**STAGE 4 VO GENERATED — AUTOMATED QC PASS — HUMAN PRONUNCIATION LISTEN PENDING.**
 
-Research, English V2, fact check, directorial review, spoken-only narration, pronunciation controls, four safe TTS chunks, hashes, and a live cost-only preflight are complete. No voice audio, beat map, generated imagery, or edit has been produced. The exact Arthur/ElevenLabs batch cost is 46.80 credits and remains unauthorized.
+Research, English V2, fact check, directorial review, spoken-only narration, and the TTS preflight are complete. Four authorized Arthur/ElevenLabs jobs completed, and the local PCM VO master runs **00:19:23.920**. Automated decode, level, clipping, silence, and offline alignment checks passed. Human listening remains required for `Satsop`, `Bonneville`, `Grays Harbor`, and the three joins before the master is pronunciation-approved. No beat map, generated imagery, or edit has been produced.
 
 Start every new chat with:
 
@@ -16,8 +16,8 @@ Start every new chat with:
 4. `RESEARCH/VISUAL_SOURCE_LEDGER.md`
 5. `DEVELOPMENT/DOCUMENTARY_ANGLES.md`
 6. `DEVELOPMENT/PACKAGING_AND_RETENTION.md`
-7. `DEVELOPMENT/STAGE_3_LOCK.md`
-8. `SCRIPT/TTS_PACKAGE_V1.md`
+7. `DEVELOPMENT/STAGE_4_QC.md`
+8. `AUDIO/TTS_GENERATION_MANIFEST_V1.json`
 
 ## Episode rule
 

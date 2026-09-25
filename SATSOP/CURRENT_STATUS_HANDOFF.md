@@ -1,14 +1,14 @@
 # SATSOP — CURRENT STATUS / HANDOFF
 
-Updated: 2026-09-24
+Updated: 2026-09-25
 
 ## Canonical status
 
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 3 COMPLETE — NARRATION PREFLIGHT READY / EXACT COST 46.80 CREDITS / AWAITING SPEND APPROVAL**
-Publication status: **PREPRODUCTION — TTS PACKAGE READY / NO VO / ASSETS / EDIT**
+State: **STAGE 4 VO GENERATED / AUTOMATED QC PASS / HUMAN PRONUNCIATION LISTEN PENDING**
+Publication status: **PREPRODUCTION — VO MASTER EXISTS / NO BEAT MAP / ASSETS / EDIT**
 
 ## Current documentary direction
 
@@ -92,6 +92,24 @@ Canonical files:
 - `SCRIPT/PRONUNCIATION_PACKAGE_V1.md`
 - `SCRIPT/V3_TTS_TEXT_AUDIT.md`
 
+## Stage 4 deliverables
+
+- exactly four authorized Arthur/ElevenLabs jobs completed;
+- no retry, alternate take, or additional paid job submitted;
+- four provider MP3 files downloaded and hash-locked locally;
+- canonical PCM master assembled at **00:19:23.920**;
+- master SHA-256: `5e9afb2310f812cf39aff3f37a8d4500bbca2988ae57ba1633244ed65d9d070c`;
+- decode, clipping, level, and sustained-silence checks passed;
+- offline word-level alignment generated;
+- mandatory human listen remains for `Satsop`, `Bonneville`, `Grays Harbor`, and all three joins.
+
+Canonical files:
+
+- `DEVELOPMENT/STAGE_4_QC.md`
+- `AUDIO/TTS_GENERATION_MANIFEST_V1.json`
+- `AUDIO/SATSOP_WORD_ALIGNMENT_V1.json`
+- local ignored binary: `AUDIO/SATSOP_VO_MASTER_V1.wav`
+
 Remaining before visual production:
 
 1. locate reusable period construction imagery and record explicit rights;
@@ -101,9 +119,7 @@ Remaining before visual production:
 
 ## Next authorized work
 
-Await explicit approval of **46.80 credits**. After approval, Stage 4 generates exactly four Arthur/ElevenLabs chunks, verifies and assembles the VO master, then produces exact word-level timing.
-
-No TTS or generation spend is authorized by this handoff.
+Perform the human pronunciation/join listen, then lock the VO master and build the audio-timed beat map. No retry or additional generation spend is authorized by this handoff.
 
 ## Mandatory inherited rules
 
