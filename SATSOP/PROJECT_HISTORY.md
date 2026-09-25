@@ -163,3 +163,15 @@
 - Balance before the test: **1,193.57 credits**. Observed balance after the test: **1,167.07 credits**. The additional movement cannot be attributed to this batch without a provider usage ledger.
 - Identified a new systematic defect: caption-space wording caused several outputs to render white or black lower mattes.
 - Held the remaining queue for correction; no retries or further jobs were submitted.
+
+## 2026-09-25 — Stage 6 remaining reference-free V4 generation
+
+- User authorized generation of the remaining images.
+- Removed caption-space wording and added an explicit full-bleed/no-matte constraint.
+- Reframed risky site, map and reactor propositions as evidence-safe institutional or abstract physical metaphors.
+- Submitted all **18** remaining reference-free image jobs at the locked 0.50-credit profile; all completed without retries.
+- Technical QC passed 18/18 at 1344 × 752 PNG.
+- Directorial QC: **16 PASS / 1 CONDITIONAL / 1 FAIL**.
+- Locked 16 additional outputs, bringing the total accepted generated pool to **40**.
+- Exact spend and observed balance movement both equal **9.00 credits**: 1,167.07 to 1,158.07.
+- Remaining image work: 10 reference-conditioned positions plus two corrections. Remaining non-image work: 16 deterministic GFX positions.

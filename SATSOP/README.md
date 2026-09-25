@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 6 V3 TEST COMPLETE — 24 PASSES LOCKED — 44 POSITIONS REMAIN.**
+**STAGE 6 REFERENCE-FREE GENERATION COMPLETE — 40 PASSES LOCKED — 28 POSITIONS REMAIN.**
 
-Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. Test scores progressed from **5/7/8** to **8/8/4** and then **11 PASS / 4 CONDITIONAL / 5 FAIL** in V3. Twenty-four generated images are now accepted and locked. Forty-four positions remain unresolved; the V3 test exposed lower-matte artifacts and several renewed site-geometry hallucinations. No further generation is authorized and no picture edit has been produced.
+Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. The corrected remaining reference-free batch scored **16 PASS / 1 CONDITIONAL / 1 FAIL**. Forty generated images are accepted and locked. Remaining work is 10 reference-conditioned images, two image corrections and 16 deterministic GFX positions. No further generation is authorized and no picture edit has been produced.
 
 Start every new chat with:
 
@@ -24,6 +24,7 @@ Start every new chat with:
 12. `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.md`
 13. `STAGE_6/V3/STAGE_6_V3_DIRECTORIAL_PREFLIGHT.md`
 14. `STAGE_6/TEST20_V3/TEST20_V3_DIRECTORIAL_QC.md`
+15. `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_DIRECTORIAL_QC.md`
 
 ## Episode rule
 

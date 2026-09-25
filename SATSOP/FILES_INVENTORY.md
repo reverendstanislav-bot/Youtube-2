@@ -70,5 +70,11 @@ Updated: 2026-09-25
 | `STAGE_6/TEST20_V3/TEST20_V3_JOBS.json` | V3 job IDs, URLs, hashes and local filenames | 20/20 complete |
 | `STAGE_6/TEST20_V3/TEST20_V3_TECHNICAL_QC.json` | Decode, dimensions, sizes and SHA-256 | Pass |
 | `STAGE_6/TEST20_V3/TEST20_V3_DIRECTORIAL_QC.md` | Strict visual audit and three-test comparison | 11 pass / 4 conditional / 5 fail |
+| `DEVELOPMENT/build_stage6_remaining_generation_v4.py` | Builds the corrected remaining reference-free queue | Complete |
+| `DEVELOPMENT/download_stage6_remaining_v4.py` | Downloads and verifies the 18 V4 outputs | Complete |
+| `STAGE_6/REMAINING_V4/SATSOP_REMAINING_GENERATION_V4.json` | Exact corrected prompts and authorized cost | 18 jobs / 9.00 credits |
+| `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_JOBS.json` | Provider IDs, URLs and hashes | 18/18 complete |
+| `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_TECHNICAL_QC.json` | Decode and dimension verification | Pass |
+| `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_DIRECTORIAL_QC.md` | Strict V4 visual audit | 16 pass / 1 conditional / 1 fail |
 
-The locked VO, exact timed beat map, three test evidence sets, and full V3 prompt pack exist. Twenty-four generated images are accepted and locked. Forty-four positions remain unresolved. No further generation is authorized. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, test evidence, and corrected V4 queue exist. Forty generated images are accepted and locked. Ten reference-conditioned images, two corrections and 16 deterministic GFX positions remain. No picture edit, render, or publication master exists for Episode 4.

@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**V3 TEST COMPLETE — 24 PASSES LOCKED — 44 POSITIONS REMAIN**
+**REFERENCE-FREE GENERATION COMPLETE — 40 PASSES LOCKED — 28 POSITIONS REMAIN**
 
 ## Canonical files
 
@@ -30,4 +30,4 @@ Updated: 2026-09-25
 - second-test QC: **8 PASS / 8 CONDITIONAL / 4 FAIL**;
 - accepted assets locked across both tests: **13**.
 
-The V3 controlled-text test completed 20/20 with no retries and scored **11 PASS / 4 CONDITIONAL / 5 FAIL**. Eleven new assets are locked, for **24 total accepted generated images** and **44 unresolved positions**. Caption-space wording caused lower matte artifacts, while several site/path prompts still produced fabricated plant geometry. The remaining queue is held until prompt routing is corrected; any further spend requires explicit approval.
+The corrected V4 reference-free queue completed 18/18 with no retries and scored **16 PASS / 1 CONDITIONAL / 1 FAIL**. Sixteen new assets are locked, for **40 total accepted generated images**. Remaining work is 10 reference-conditioned images, two corrected replacements and 16 deterministic editorial GFX positions. Site-specific jobs remain blocked until real reference media IDs are attached; any further spend requires explicit approval.
