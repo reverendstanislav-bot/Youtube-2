@@ -1,0 +1,93 @@
+name: Audit Big Muskie production media artifacts
+
+on:
+  push:
+    paths:
+      - '.github/workflows/big_muskie_media_pool_audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download locked media payload
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 36037155006
+          name: BIG_MUSKIE_LOCKED_MEDIA_PAYLOAD
+          path: audit/locked_media
+
+      - name: Download source archive
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 36037713415
+          name: BIG_MUSKIE_SOURCE_ARCHIVE_V2_CLEAN
+          path: audit/source_archive
+
+      - name: Download Arthur chunks
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 36037713415
+          name: BIG_MUSKIE_ARTHUR_CHUNKS
+          path: audit/arthur
+
+      - name: Download reconstruction base seven
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 36038063482
+          name: BIG_MUSKIE_RECON_BASE7
+          path: audit/recon_base7
+
+      - name: Download assembly support
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 36038417223
+          name: BIG_MUSKIE_ASSEMBLY_SUPPORT
+          path: audit/assembly_support
+
+      - name: Inventory every physical file
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            echo "# Big Muskie GitHub Artifact Physical Inventory"
+            echo
+            date -u
+            echo
+            for d in audit/*; do
+              echo "## $d"
+              find "$d" -type f -printf '%P|%s bytes\n' | sort
+              echo
+            done
+            echo "## Repository Big Muskie media/mapping references"
+            grep -RhoE 'https://[^ )\]>"]+' BIG_MUSKIE 2>/dev/null | sort -u || true
+          } | tee audit/PHYSICAL_INVENTORY.txt
+
+          echo "=== relevant final asset filename matches ==="
+          grep -RniE 'FX0(0[1-9]|[1-5][0-9])|GEN(0[1-9]|1[0-9]|2[0-2])|10_machine_disappears|03_capability|big_muskie_s_loaded_bucket|dragline_demolition' audit BIG_MUSKIE | head -1000 | tee audit/FINAL_ASSET_MATCHES.txt || true
+
+      - name: Upload audit inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_GITHUB_MEDIA_POOL_AUDIT
+          path: |
+            audit/PHYSICAL_INVENTORY.txt
+            audit/FINAL_ASSET_MATCHES.txt
+          retention-days: 7
