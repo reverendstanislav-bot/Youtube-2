@@ -1,0 +1,50 @@
+name: Extract Lake Peigneur Review Subset
+
+on:
+  push:
+    paths:
+      - ".github/workflows/extract_lake_peigneur_review_subset.yml"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RUN_ID: "36176288181"
+    steps:
+      - name: Download source artifact
+        run: |
+          set -euo pipefail
+          mkdir -p src
+          gh run download "$RUN_ID"             --repo "${{ github.repository }}"             --name "LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"             --dir src
+          unzip -q src/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip -d unpack
+
+      - name: Build review subset
+        run: |
+          set -euo pipefail
+          ROOT="unpack/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"
+          OUT="LAKE_PEIGNEUR_REVIEW_SUBSET"
+          mkdir -p "$OUT"/{CONTACT_SHEETS,KEY_DOC_PAGES,MAPS_CONTEXT}
+          cp "$ROOT"/08_EDITOR_HELPERS/APPENDIX_EE_CONTACT_*.jpg "$OUT"/CONTACT_SHEETS/
+          cp "$ROOT"/01_PRIMARY_MSHA/MSHA_Appendix_T_Estimated_Drill_Hole_Location*.jpg "$OUT"/KEY_DOC_PAGES/ || true
+          cp "$ROOT"/01_PRIMARY_MSHA/MSHA_FY1981_Jefferson_Island_Evacuation*.jpg "$OUT"/KEY_DOC_PAGES/ || true
+          cp "$ROOT"/05_PUBLIC_DOMAIN_CONTEXT/USGS_Landsat8_Salt_Dome_Islands_LA_PD.png "$OUT"/MAPS_CONTEXT/
+          cp "$ROOT"/06_CC_LICENSED_REFERENCE/Lake_Peigneur_OSM_CC_BY_2.5.jpg "$OUT"/MAPS_CONTEXT/
+          cp "$ROOT"/06_CC_LICENSED_REFERENCE/MAPPA_PEIGNEUR_CC_BY_4.0_REFERENCE.jpeg "$OUT"/MAPS_CONTEXT/
+          cp "$ROOT"/02_MSHA_APPENDIX_EE_CONDITIONAL/APPENDIX_EE_INDEX.csv "$OUT"/
+          find "$OUT" -type f -maxdepth 2 -printf "%P\n" | sort > "$OUT/FILES.txt"
+          zip -qr LAKE_PEIGNEUR_REVIEW_SUBSET.zip "$OUT"
+          ls -lh LAKE_PEIGNEUR_REVIEW_SUBSET.zip
+
+      - name: Upload subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: LAKE_PEIGNEUR_REVIEW_SUBSET
+          path: LAKE_PEIGNEUR_REVIEW_SUBSET.zip
+          compression-level: 0
+          retention-days: 7
