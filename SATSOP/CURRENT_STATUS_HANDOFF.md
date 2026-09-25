@@ -7,8 +7,8 @@ Updated: 2026-09-24
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 0–4 RESEARCH / DEVELOPMENT — INITIAL PRIMARY-SOURCE BASE COMPLETE**
-Publication status: **NOT IN PRODUCTION — NO SCRIPT / VO / ASSETS / EDIT**
+State: **STAGE 5 — CORE RESEARCH CLOSED / SOURCED ENGLISH V1 COMPLETE / FACT CHECK PASS**
+Publication status: **PREPRODUCTION — SOURCED SCRIPT V1 EXISTS / NO VO / ASSETS / EDIT**
 
 ## Current documentary direction
 
@@ -34,7 +34,7 @@ The film should explain the system behind the ruins:
 - BPA's 1994 Record of Decision described WNP-3 as 74 percent complete, with approximately $2.6 billion invested in 1993 dollars.
 - BPA selected termination after comparing completion with combined-cycle generation and judging WNP-3's remaining capital and business risks unacceptable.
 - Project 3 was terminated in 1994. Its NRC construction permit was later revoked in 1999.
-- Public agencies formed the Satsop Redevelopment Project in 1995; the site property and facilities were transferred for economic development in 1999.
+- Public agencies formed the Satsop Redevelopment Project in 1995; official records describe the transfer in 1999 and report its completion during fiscal year 2000.
 - The present Satsop Business Park reuses parts of the site for industry and training. The Port's own material identifies the 300,000-square-foot turbine building as an industrial/manufacturing facility.
 
 ## Critical wording controls
@@ -47,25 +47,34 @@ The film should explain the system behind the ruins:
 - Do not claim the whole site is abandoned. It is an active business park, and restricted structures are not open to the public.
 - Do not frame the present cooling towers as proof of radioactive contamination. The projects never operated; any environmental/remediation claim needs its own source.
 
-## Open research gates before script
+## Stage 5 deliverables
 
-1. Obtain an authoritative construction-start chronology for both Satsop units.
-2. Build a year-by-year cost table that separates original estimates, spending, remaining completion cost, and dollar-year basis.
-3. Confirm the precise 1994 decision/termination dates across BPA, WPPSS/Energy Northwest, EFSEC, and NRC records.
-4. Trace title/management from the 1999 public transfer to the Port's later ownership.
-5. Locate reusable period construction imagery and documents with explicit rights evidence.
-6. Identify at least one sourced human-scale account from a worker, ratepayer, utility participant, or redevelopment official.
-7. Verify which surviving structures belong to Unit 3, Unit 5, or common systems before visual annotation.
+- core chronology and financing distinction closed;
+- claim-source map complete;
+- 15–17 minute retention outline complete;
+- three hook options complete;
+- full sourced English V1 complete;
+- V1 fact check: **PASS, factual blockers 0**.
+
+Canonical files:
+
+- `RESEARCH/RESEARCH_GAPS_CLOSED_2026-09-24.md`
+- `SCRIPT/CLAIM_SOURCE_MAP_V1.md`
+- `SCRIPT/RETENTION_OUTLINE_V1.md`
+- `SCRIPT/NARRATION_DRAFT_V1.md`
+- `SCRIPT/V1_FACT_CHECK.md`
+- `DEVELOPMENT/STAGE_5_LOCK.md`
+
+Remaining before visual production:
+
+1. locate reusable period construction imagery and record explicit rights;
+2. obtain reuse permission or replacements for current Port footage;
+3. add a cleared human account if it improves rather than distorts the structure;
+4. authenticate a unit-by-unit plan for the future site-map graphic.
 
 ## Next authorized work
 
-Continue research and rights clearance, then produce:
-
-- closed research-gap audit;
-- claim-to-source map;
-- packaging lock and retention outline;
-- sourced English narration V1;
-- fact-check audit.
+Run an editorial/directorial critique of English V1, revise to V2, repeat fact check, then prepare a spoken-only TTS package and exact cost preflight.
 
 No TTS or generation spend is authorized by this handoff.
 

@@ -26,14 +26,18 @@ Status: **initial pass; primary/official sources prioritized**
 | S11 | [Port of Grays Harbor — Satsop Business Park](https://www.portofgraysharbor.com/satsop-business-park) | B | Current business-park scale, facilities, utilities, and public ownership context | Marketing language needs independent support for evaluative claims |
 | S12 | [Port of Grays Harbor — Training at Satsop](https://www.portofgraysharbor.com/training-at-satsop) | B | Current tunnel/reactor-building training uses | Current page may change; archive citation details before script lock |
 | S13 | [Washington State SMR Siting Study](https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=SMRFinalReport_7ba0bec6-1c34-4f92-a601-c9df0806a70e.pdf) | B | Official later description: Satsop projects partially constructed/cancelled for cost and need; infrastructure partly removed | Later planning study, not the controlling historical chronology |
+| S14 | [EFSEC, Grays Harbor Energy Center application / SCA material](https://efsec.wa.gov/sites/default/files/2025-05/20091023_SCA.pdf) | A | Satsop site construction began in 1977; unfinished and unfueled nuclear plant; physical site context | Later gas-project filing summarizing prior site history |
+| S15 | [Energy Northwest, Fiscal Year 2021 Budget](https://www.energy-northwest.com/whoweare/finance/Documents/2020%20Budget%20docs/Energy%20Northwest%20Fiscal%20Year%202021%20Budget%20Final.pdf) | A | Project 3 terminated June 1994; transfer completed FY2000; continuing debt-related costs | Annual budget figures are year-specific and must not be described as original construction cost |
+| S16 | [Port of Grays Harbor, 2023 Satsop historic-tour release](https://www.portofgraysharbor.com/news/satsopvideotours) | B | 2023 was tenth anniversary as a Port facility; current restricted structures and public-road access | Implies 2013 Port start; do not infer transaction terms |
+| S17 | [EFSEC Site Certification Agreement, Amendment 2](https://efsec.wa.gov/sites/default/files/2025-05/SCA%20Amend%202%20FINAL.pdf) | A | Official unit descriptions; PWR, turbine, natural-draft cooling tower, approximately 1,240 MW net each | Agreement was later amended; use only for described nuclear-unit design |
+| S18 | [EFSEC SCA Amendment 4](https://efsec.wa.gov/sites/default/files/2025-05/SCA_Amendment4_Full.pdf) | A | Two approximately 496-foot nuclear cooling towers; industrial landscape and former construction laydown area | Later project environmental material, not original construction record |
 
 ## Claims not yet cleared
 
 - exact total cost of Satsop alone;
 - exact construction employment peak at Satsop;
-- specific unit-by-unit construction start dates;
 - “largest municipal bond default in U.S. history” wording and time scope;
 - any claim about radiation, contamination, or cleanup level;
 - current use of every cooling tower/building;
-- exact Port acquisition date and transaction chain after the 1999 public transfer;
+- exact legal transaction terms for the park's addition to the Port portfolio;
 - any superlative about cooling-tower dimensions.
