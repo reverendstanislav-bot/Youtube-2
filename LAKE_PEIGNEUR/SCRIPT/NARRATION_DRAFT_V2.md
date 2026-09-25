@@ -1,9 +1,9 @@
 # Lake Peigneur — English Narration Draft V2
 
 Updated: 2026-09-25  
-State: **DIRECTORIAL V2 / FACT CHECK REQUIRED / NOT TTS READY**
+State: **DIRECTORIAL V2 / FACT CHECK PASS / OWNER REVIEW / NOT TTS READY**
 
-Target spoken runtime: approximately **15–17 minutes**.
+Target spoken runtime: approximately **15–16 minutes at deliberate HIA documentary pacing**.
 
 Production note:
 Bracketed `[DIRECTORIAL]`, `[SOURCE]`, and `[SHORT]` lines are not spoken.
@@ -38,6 +38,12 @@ Everyone would survive.
 
 But the industrial landscape beneath Jefferson Island would never be the same.
 
+What happened here is often reduced to one bad drilling mistake.
+
+The real story is larger.
+
+It is about two industrial systems occupying the same geology — and what happened when the boundary between them disappeared.
+
 [SOURCE: LP-001, LP-006, LP-010, LP-013, LP-018, LP-024]
 
 [DIRECTORIAL: TITLE — "THE DAY A LOUISIANA LAKE FELL INTO A SALT MINE".]
@@ -58,31 +64,41 @@ But the landscape was three-dimensional.
 
 Jefferson Island rises above the coastal plain because of a salt dome — a mass of ancient salt pushed upward through younger sediments.
 
-For decades, that salt had been mined.
+That hidden salt created industrial value long before the disaster.
+
+For decades, it had been mined.
 
 By 1980, Diamond Crystal Salt Company operated a room-and-pillar mine beneath the area.
 
-Federal records describe workings at several levels — around eight hundred, one thousand, thirteen hundred and fifteen hundred feet.
+In a room-and-pillar mine, workers remove large volumes of material while deliberately leaving columns behind to support the roof.
 
-At the same time, the salt structure made the area interesting to the petroleum industry.
+That means the underground is not one giant empty cave.
+
+It is a network of rooms, pillars, passages and working levels.
+
+Federal records describe workings around eight hundred, one thousand, thirteen hundred and fifteen hundred feet below the surface.
+
+At the same time, the same salt structure made the area interesting to the petroleum industry.
+
+Oil can accumulate around salt structures.
 
 Texaco held an oil lease beneath Lake Peigneur.
 
-Wilson Brothers was drilling the exploratory well.
+Wilson Brothers was drilling the exploratory well from a floating platform.
 
-So one industry was cutting horizontal rooms through the salt from underground.
+So one industry was moving horizontally through the salt underground.
 
 Another was drilling vertically from the lake above.
 
-The entire system depended on those underground positions remaining separate.
+Each could work safely only if the geometry separating them remained understood.
 
-And there was one physical rule that made separation critical.
+And there was one physical rule that made that separation critical.
 
 Fresh water dissolves salt.
 
 [SOURCE: LP-002, LP-003, LP-009, LP-014, LP-015, LP-035, LP-036]
 
-[DIRECTORIAL: One clean 3D/cutaway explanation. Do not show an exact breach path.]
+[DIRECTORIAL: One clean 3D/cutaway explanation. Surface lake, vertical well, mine levels and room-and-pillar geometry. Do not show an exact breach path.]
 
 ---
 
@@ -96,17 +112,25 @@ Then the problem changed.
 
 Water began entering the mine.
 
-At that point, the crew underground did not need a final answer about maps, coordinates or legal responsibility.
+For the people underground, that transformed the situation immediately.
 
-They needed to get out.
+Salt mines are built to manage normal underground conditions.
+
+They are not designed to accept a lake.
+
+And because the surrounding structure itself was soluble, no one could assume that an opening would remain the same size once water began moving through it.
+
+At that point, nobody underground needed a final answer about maps, coordinates or legal responsibility.
+
+They needed time.
 
 What exactly connected the drilling operation to the mine would become the great argument after the disaster.
 
 The connection itself was now the emergency.
 
-[SOURCE: LP-004, LP-005, LP-006, LP-007]
+[SOURCE: LP-004, LP-005, LP-006, LP-007, LP-014]
 
-[DIRECTORIAL: Keep this section short. Do not stop for the coordinate-error myth yet.]
+[DIRECTORIAL: Keep the cause dispute as a promise. Do not stop the movie here.]
 
 ---
 
@@ -114,19 +138,33 @@ The connection itself was now the emergency.
 
 MSHA later recorded fifty-two people underground.
 
-They were not standing together waiting beside an exit.
+They were not standing together beside an exit.
 
-They were working inside a mine spread across multiple levels and workings.
+They were working inside a mine spread through multiple levels and workings.
 
-Now water was entering a system carved into soluble rock.
+Now water was entering that system.
 
-The evacuation had to happen before flooding, ground failure or loss of access turned the mine into a trap.
+The mine had only one safe strategy left: move people out before flooding, ground failure or loss of access turned distance into a trap.
 
-Workers moved toward the exit.
+Workers began moving toward the exit.
 
-Supervisors and crew members accounted for people who had been distributed through the workings.
+Supervisors and crew members had to account for people who had been distributed through the workings.
+
+Some had to be found.
+
+Some had to travel through a mine that was changing from a workplace into an emergency scene.
 
 The official investigation later recognized several employees for leadership and search actions during the evacuation.
+
+That matters because successful evacuations can look inevitable after the fact.
+
+They are not.
+
+The workers did not know how large the connection would become.
+
+They did not know how quickly the inflow would grow.
+
+They only knew that water was entering a salt mine beneath a lake.
 
 And less than an hour after the inflow was discovered, all fifty-two people were out.
 
@@ -160,7 +198,7 @@ a mine full of people had enough warning, training and leadership to empty befor
 
 [SHORT-02 END]
 
-[DIRECTORIAL: Hold human tension. Do not cut away to spectacle until the last line.]
+[DIRECTORIAL: Hold human tension. Do not cut away to full spectacle until the last line.]
 
 ---
 
@@ -170,25 +208,33 @@ Above them, the seven-man drilling crew also got clear.
 
 Then the drilling platform disappeared.
 
-The lake began moving toward the failure zone.
+That was the point where the failure stopped looking like a problem inside an industrial system and started looking like the landscape itself was moving.
 
-Floating equipment, boats, trees and shoreline material were pulled with it.
+The lake began pulling toward the failure zone.
 
-The surface opening expanded as the ground beneath it failed.
+Floating equipment, boats, trees and shoreline material moved with it.
 
-What had started as a connection between a well and a mine was now changing the shape of the lake itself.
+The opening at the surface expanded as the ground beneath it failed.
+
+Water was not simply draining from a stable bowl.
+
+The bowl was changing.
+
+The edge of the lake was collapsing into the process.
 
 Post-disaster geological work put the permanent land loss at roughly sixty-eight acres.
 
-The important image is not simply water going down a hole.
+That number is easier to understand if you imagine the shoreline as part of the machinery of the accident.
 
-It is the edge of the lake moving with the water.
+Every section of ground lost around the opening changed the shape of the basin.
 
-The boundary of the landscape was collapsing.
+Every change in shape gave the moving water a new path.
+
+What had begun as a drilling emergency was now reshaping Jefferson Island.
 
 [SOURCE: LP-013, LP-020, LP-021, LP-022]
 
-[DIRECTORIAL: First full spectacle release. Prioritize real 1980 imagery. Reconstruction only where evidence is missing.]
+[DIRECTORIAL: First full spectacle release. Prioritize real 1980 imagery. Reconstruction only where evidence is missing. No fake archive.]
 
 ---
 
@@ -200,7 +246,7 @@ A normal pipe stays roughly the same size while water passes through it.
 
 A failure through salt does not have to.
 
-Fresh water attacks the salt surface.
+Fresh water contacts the salt surface.
 
 Salt dissolves into the flow.
 
@@ -222,9 +268,15 @@ Enlargement and failure.
 
 More flow.
 
+The crucial idea is feedback.
+
+The failure was not merely carrying water through a fixed opening.
+
+The water could help enlarge the system that was carrying the water.
+
 That is why the phrase "one small hole drained the lake" misses the engineering story.
 
-The pathway did not have to stay the size it was at the beginning.
+Whatever the initiating pathway looked like, it did not have to stay that size.
 
 The accident was modifying the system while the system was failing.
 
@@ -254,7 +306,7 @@ It is that the pathway did not have to remain tiny.
 
 [SHORT-01 END]
 
-[DIRECTORIAL: GFX — FLOW → DISSOLUTION → ENLARGEMENT/FAILURE → MORE FLOW. No fake underground certainty.]
+[DIRECTORIAL: GFX — FLOW → DISSOLUTION → ENLARGEMENT/FAILURE → MORE FLOW. No exact unseen breach geometry.]
 
 ---
 
@@ -272,17 +324,25 @@ The receiving space was not a concrete reservoir with fixed walls.
 
 It was a mine carved through a soluble salt structure.
 
-The famous whirlpool was the surface expression of something much larger.
+The famous whirlpool was only the surface expression.
 
-The relationship between lake, mine, rock and air was being rewritten in real time.
+Below it, water was entering an industrial void built across multiple levels.
 
-And as the lake level dropped, the failure reached beyond Jefferson Island.
+Above it, the lake was losing both water and shoreline.
 
-It changed the direction of another body of water.
+Those two systems were now coupled.
+
+The faster the lake fed the failure, the more the failure could change the route available to the lake.
+
+The relationship between water, mine, rock and air was being rewritten in real time.
+
+And as the lake level dropped, the consequences reached beyond Jefferson Island.
+
+They changed the direction of another body of water.
 
 [SOURCE: LP-014, LP-018, LP-034]
 
-[DIRECTORIAL: End on map setup for Delcambre Canal.]
+[DIRECTORIAL: End on regional map setup for Delcambre Canal. No waterfall image yet.]
 
 ---
 
@@ -290,21 +350,31 @@ It changed the direction of another body of water.
 
 Lake Peigneur connected southward through the Delcambre Canal toward Vermilion Bay.
 
-Normally, that connection carried water away from the lake.
+Under normal conditions, that connection carried water away from the lake.
 
-Now the lake had fallen so far that the hydraulic slope reversed.
+Now the lake had fallen so far that the hydraulic relationship reversed.
 
-The canal began feeding the lake.
+The lake became the lower destination.
+
+The canal began feeding it.
 
 Water from the Gulf side moved inland toward the emptied basin.
 
 Historical Louisiana accounts describe what happened next as a temporary waterfall roughly one hundred and fifty feet high.
 
-In coastal Louisiana, the landscape is famously flat.
+For a place as flat as coastal Louisiana, the image is almost absurd.
 
-Yet for a short time, water was dropping into Lake Peigneur from a height comparable to a multi-story building.
+A canal flowing the wrong way.
 
-The canal had not changed where it was on the map.
+Salt water moving inland.
+
+A temporary waterfall appearing where there had been no cliff.
+
+But the water was still obeying gravity.
+
+The landscape had changed underneath it.
+
+The canal had not moved on the map.
 
 The lake had changed its elevation enough to reverse the system.
 
@@ -326,7 +396,7 @@ The lake changed so dramatically that the direction of the water changed around 
 
 [SHORT-03 END]
 
-[DIRECTORIAL: Visual climax. Map animation first, then source imagery, then clearly labeled reconstruction only if required.]
+[DIRECTORIAL: Visual climax. Map animation first, then source imagery, then clearly classified reconstruction only if required.]
 
 ---
 
@@ -340,6 +410,8 @@ The shoreline had been cut back.
 
 The lake had been transformed from the shallow basin that existed before the accident into a much deeper one.
 
+The industrial system beneath it was finished.
+
 But the most important number is not the final depth.
 
 It is zero.
@@ -350,7 +422,11 @@ All fifty-two people recorded underground escaped.
 
 The seven drilling workers above them got clear.
 
-An event violent enough to erase part of a shoreline ended without a human fatality.
+That does not make the event small.
+
+It makes the evacuation extraordinary.
+
+An accident violent enough to erase part of a shoreline, destroy a working mine and reverse a canal ended without a human fatality.
 
 [SOURCE: LP-010, LP-011, LP-013, LP-015, LP-016, LP-024]
 
@@ -372,7 +448,9 @@ The official federal investigation did not close the case that neatly.
 
 After the inundation, the relevant mine workings could not simply be entered and inspected.
 
-Critical physical evidence was underwater, displaced or gone.
+The accident had destroyed access to the best evidence.
+
+Critical physical information was underwater, displaced or gone.
 
 MSHA reconstructed an estimated drill-hole location near the mine's thirteen-hundred-foot level.
 
@@ -381,6 +459,18 @@ Diamond Crystal argued that the drilling operation had penetrated the roof of an
 Other experts disputed that reconstruction.
 
 More than two years later, during the settlement process, experts were still disagreeing over whether the well had entered the mined room in the way Diamond Crystal alleged.
+
+That distinction matters.
+
+Investigators could document the drilling operation.
+
+They could document the mine.
+
+They could document the inundation.
+
+They could estimate where the well may have intersected the underground system.
+
+But the disaster had made the decisive physical scene inaccessible.
 
 So two statements can both be true.
 
@@ -412,7 +502,7 @@ The mechanism is documented more clearly than the blame.
 
 [SHORT-04 END]
 
-[DIRECTORIAL: Use report pages, maps and evidence. No accusatory villain montage.]
+[DIRECTORIAL: Use report pages, mine maps and estimated-location evidence. No villain montage.]
 
 ---
 
@@ -428,17 +518,23 @@ Live Oak Gardens interests received twelve-point-eight million dollars in a sepa
 
 Those numbers resolved claims.
 
+They did not restore the underground system.
+
 They did not reopen the mine.
+
+And they did not turn the settlement into a scientific finding about one exact cause.
 
 Louisiana appellate records later described approximately two hundred and fifty Diamond Crystal employees being laid off after the closure.
 
-The physical disaster lasted hours.
+That is the quieter scale of the disaster.
 
-For the people whose jobs depended on the mine, the industrial aftermath lasted much longer.
+The famous sequence — the whirlpool, the collapsing bank, the reversed canal — lasted hours.
 
-[SOURCE: LP-025, LP-026, LP-027, LP-029]
+For the people whose livelihoods depended on the mine, the consequences continued after the water stopped moving.
 
-[DIRECTORIAL: Keep this under 70–80 seconds. Documents + workers / mine exterior if rights-cleared.]
+[SOURCE: LP-025, LP-026, LP-027, LP-028, LP-029]
+
+[DIRECTORIAL: Keep this concise and human. Documents → empty mine/worksite → Jefferson Island aftermath.]
 
 ---
 
@@ -454,9 +550,13 @@ Today, Jefferson Island Storage & Hub operates as a salt-cavern natural-gas stor
 
 ONEOK says the facility connects with eight major pipelines.
 
-The industrial use of the geology continued.
+That does not mean today's storage system is the old mine.
 
-Just in a different form.
+It means the same geological feature that created one industrial economy continued to support another.
+
+The industrial use of Jefferson Island's underground did not disappear.
+
+It changed.
 
 [SOURCE: LP-030, LP-031]
 
@@ -516,6 +616,12 @@ They could test competing explanations.
 
 But part of the evidence had vanished inside the event itself.
 
+That is why Lake Peigneur survives as more than a bizarre engineering story.
+
+The visible landscape was only one layer of the system.
+
+The decisive infrastructure was hidden.
+
 Lake Peigneur is remembered because a lake disappeared.
 
 The deeper lesson is why.
@@ -526,5 +632,4 @@ And the systems we cannot see can be the systems that matter most.
 
 [SOURCE: LP-005, LP-010, LP-018, LP-024, LP-030]
 
-[DIRECTORIAL: Present-day lake. Hold. Clean HIA end screen. No extra final text.]
-
+[DIRECTORIAL: Present-day lake. Long hold. Clean HIA end screen. No extra final text.]
