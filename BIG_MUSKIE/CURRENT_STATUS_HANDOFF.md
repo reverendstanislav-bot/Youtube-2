@@ -7,7 +7,7 @@ Updated: 2026-09-24
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **PICTURE V2 DIRECTORIAL QC COMPLETE — FAIL FOR RC — CANONICAL REMOTION FIX PASS OPEN**  
+State: **GITHUB-ONLY REMOTION V3 RUNNER READY — BLOCKED ONLY ON FINAL PICTURE BINARY INGEST**  
 Publication status: **REVIEW ONLY — NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,25 +336,41 @@ Final captions:
 
 ## Immediate next action
 
-**CANONICAL REMOTION PICTURE FIX PASS**
+**INGEST ONE EXACT FINAL PICTURE INPUT INTO GITHUB, THEN RUN DURABLE V3 ACTION**
 
-Directorial QC result:
-- Picture V2: **FAIL FOR RC / FIXABLE**
-- new paid image generation required: **0**
-- patch-boundary defects: **13**
-- close duplicate/repeat pairs requiring editorial treatment: **5**
-- critical document-readability block: **D03 + D04**
-- short unreadable GFX blocker: **BM-B076**
-- dense infographic runs requiring staged Remotion treatment: **B010–B016 / B066–B073 / B081–B089 / B113–B115**
+GitHub artifact audit run `36174431632` completed successfully.
 
-Canonical report:
-- `ASSEMBLY_V2/DIRECTORIAL_QC_V2.md`
+Verified GitHub-held inputs:
+- canonical Arthur WAV;
+- source archive V2 clean;
+- Arthur chunks;
+- reconstruction base7;
+- D03/D04 support;
+- 116-beat final manifest.
 
-Next:
-1. reproduce the accepted V2 replacement map natively in Remotion;
-2. extend each picture through the next beat start so narration pauses never reveal old V1 frames;
-3. quantize all boundaries to 25 fps;
-4. apply document crops, duplicate fixes, staged GFX treatment and restrained motion from the QC report;
-5. render Picture V3 / Remotion proof;
-6. run full directorial + technical QC;
-7. only after picture approval proceed to provenance/captions/music/SFX and RC.
+Verified missing physical binaries:
+- full Picture V1/V2 MP4;
+- complete final 55-GFX pixel package;
+- 15 final reconstruction replacement PNGs;
+- 10 final cinematic V2 replacement PNGs.
+
+Do not substitute rejected/old files and do not regenerate.
+
+Required exact input for the durable runner:
+- `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
+- SHA-256 `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`
+
+Once that exact binary is GitHub-hosted as a Release/Actions artifact, the prepared workflow can:
+1. extract the 116 safe beat sources;
+2. render native Remotion V3;
+3. mux canonical Arthur;
+4. run exact runtime/frame/decode/audio QC;
+5. publish the finished V3 as a GitHub Actions artifact.
+
+Dropbox is explicitly excluded.
+No new generation is authorized.
+
+See:
+- `REMOTION_V3/GITHUB_MEDIA_POOL_AUDIT.md`
+- `.github/workflows/big_muskie_media_pool_audit.yml`
+- `.github/workflows/big_muskie_remotion_v3_render.yml`
