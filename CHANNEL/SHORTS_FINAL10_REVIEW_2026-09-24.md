@@ -135,3 +135,13 @@ Locked end-screen behavior for all 10 current Shorts:
 - approved CTA artwork text: **FULL STORY ON YOUTUBE / HIDDEN INDUSTRIAL AMERICA / SUBSCRIBE FOR MORE FORGOTTEN INFRASTRUCTURE**.
 
 This end-screen rule is now the active owner override for the current 10-Short batch.
+
+## End-screen assembly status
+
+The current 10-Short batch has been assembled with the owner-locked HIA end screen appended for 2.4 seconds after each story payoff. The preceding Short content is preserved; only the final tail is added. All 10 assembled MP4s completed full decode QC successfully.
+
+Current delivery package names:
+- `HIA_SHORTS_FINAL10_WITH_ENDSCREEN.zip`
+- `HIA_YOUTUBE_UPLOAD_FINAL_COMPLETE.zip`
+
+The upload-only package intentionally excludes rejected/old review assets and source/QC clutter. A Chicago-specific final thumbnail remains outside the package until explicitly locked by the owner.
