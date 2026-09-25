@@ -6,7 +6,6 @@ const FPS=25;
 const TOTAL=35660;
 const C={charcoal:'#171A1C',iron:'#30363A',paper:'#E6DDC8',ivory:'#F3EBDD',rust:'#A55235',blue:'#5F747D',white:'#FFFFFF'};
 const CLAMP={extrapolateLeft:'clamp',extrapolateRight:'clamp'};
-const REPL=new Set(['FX001','FX002','FX013','FX016','FX033','FX036','FX045','FX047','FX048','FX049']);
 const NO_DISSOLVE=new Set(['B033','B034','B035','B036','B037','B038','B039','B040']);
 const DENSE=new Set(['B010','B011','B012','B013','B014','B015','B016','B066','B067','B068','B069','B070','B071','B072','B073','B081','B082','B083','B084','B085','B086','B087','B088','B089','B113','B114','B115']);
 
@@ -131,7 +130,7 @@ function Visual({item,duration}){
  const defaultDrift=item.class==='RECONSTRUCTION'?0.010:(item.class==='GFX'?0.004:0.006);
  const s0=sp.s0??1.0, s1=sp.s1??(1+defaultDrift);
  const scale=interpolate(frame,[0,Math.max(1,duration-1)],[s0,s1],CLAMP);
- const src=REPL.has(item.asset)?`${item.asset}.png`:item.beatFile;
+ const src=item.beatFile;
  return <AbsoluteFill style={{overflow:'hidden',background:C.charcoal}}>
    <Img src={staticFile(src)} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',
       transform:`scale(${scale})`,transformOrigin:sp.origin||'50% 50%'}}/>
