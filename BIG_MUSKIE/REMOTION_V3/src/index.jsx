@@ -104,9 +104,28 @@ function FailurePath(){
  </AbsoluteFill>;
 }
 
+function SurvivingParts(){
+ const frame=useCurrentFrame();
+ const p=interpolate(frame,[0,18],[0,1],CLAMP);
+ return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden'}}>
+   <Img src={staticFile('beats/beat_105.png')} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',transform:'scale(1.035)',filter:'brightness(.48) saturate(.82)'}}/>
+   <AbsoluteFill style={{background:'linear-gradient(90deg,rgba(23,26,28,.22) 0%,rgba(23,26,28,.58) 48%,rgba(23,26,28,.94) 100%)'}}/>
+   <div style={{position:'absolute',left:96,top:92,right:96,fontFamily:'Arial Narrow,Arial,sans-serif',color:C.ivory,opacity:p}}>
+     <div style={{fontSize:22,letterSpacing:5,color:C.rust,fontWeight:800}}>WHAT SURVIVED</div>
+     <div style={{fontSize:64,fontWeight:900,lineHeight:.98,marginTop:14}}>THE BUCKET WAS NOT<br/>THE ONLY MATERIAL LEFT</div>
+   </div>
+   <div style={{position:'absolute',right:110,top:420,width:620,fontFamily:'Arial Narrow,Arial,sans-serif',color:C.ivory}}>
+     {['SECTIONS OF CABLE','CHAIN','A BUCKET TOOTH'].map((x,i)=><div key={x} style={{display:'flex',alignItems:'center',gap:22,padding:'20px 0',borderTop:'1px solid rgba(230,221,200,.28)',opacity:interpolate(frame,[10+i*9,24+i*9],[0,1],CLAMP)}}>
+       <div style={{fontSize:18,letterSpacing:3,color:C.blue}}>0{i+1}</div><div style={{fontSize:34,fontWeight:900,letterSpacing:1.2}}>{x}</div>
+     </div>)}
+   </div>
+ </AbsoluteFill>;
+}
+
 function Visual({item,duration}){
  const frame=useCurrentFrame();
  if(item.beat==='B076')return <FailurePath/>;
+ if(item.beat==='B106')return <SurvivingParts/>;
  const sp=special[item.beat]||{};
  const isDoc=!!sp.doc;
  const defaultDrift=item.class==='RECONSTRUCTION'?0.010:(item.class==='GFX'?0.004:0.006);
