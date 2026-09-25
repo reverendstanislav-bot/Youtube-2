@@ -11,14 +11,14 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 
 ## Planned class count
 
-- `ARCHIVE_PHOTO`: **13**
+- `AI_RECONSTRUCTION`: **50**
+- `AI_RECONSTRUCTION_GFX`: **7**
+- `AI_RECONSTRUCTION_MAP`: **11**
 - `CURRENT_BROLL`: **2**
 - `CURRENT_FOOTAGE`: **10**
-- `DOCUMENT`: **22**
-- `DOCUMENT_GFX`: **21**
+- `DOCUMENT`: **6**
 - `GFX`: **16**
-- `MAP_GFX`: **18**
-- `TECH_GFX`: **7**
+- `MAP_GFX`: **7**
 
 ## Beats
 
@@ -40,12 +40,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Their histories are not. One belonged to Washington Nuclear Project Five. That project was about fourteen percent complete when it was terminated in 1982.
 
 - Narrative function: ACT I — two towers, two failures
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B003 — 00:00:18.360 → 00:00:30.600 (12.240s)
@@ -53,12 +53,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The other served Washington Nuclear Project Three. That project reached seventy-four percent physical completion and remained preserved for possible completion until 1994.
 
 - Narrative function: ACT I — two towers, two failures
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B004 — 00:00:30.600 → 00:00:38.040 (7.440s)
@@ -66,12 +66,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Neither project produced commercial electricity. The site was never fueled.
 
 - Narrative function: ACT I — two towers, two failures
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B005 — 00:00:38.040 → 00:00:53.800 (15.760s)
@@ -79,12 +79,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** So the mystery is not simply why Satsop was unfinished. It is why two reactor projects, built side by side, died twelve years apart — and why seventy-four percent complete was still too expensive to finish.
 
 - Narrative function: ACT I — two towers, two failures
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B006 — 00:00:53.800 → 00:01:02.800 (9.000s)
@@ -92,12 +92,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** On January 22, 1982, the Washington Public Power Supply System terminated Nuclear Projects Four and Five.
 
 - Narrative function: ACT I — two towers, two failures
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B007 — 00:01:02.800 → 00:01:12.460 (9.660s)
@@ -157,12 +157,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Project Five itself was only about fourteen percent complete. The physical project advanced. The estimate for completing Projects Four and Five had already moved far beyond the original combined plan.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B012 — 00:01:53.080 → 00:02:02.480 (9.400s)
@@ -170,12 +170,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** But this was not just a construction problem. It was a promise to pay. To see how the region reached that point, rewind sixteen years.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B013 — 00:02:02.480 → 00:02:10.980 (8.500s)
@@ -209,12 +209,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** In 1969, that effort adopted a plan calling for several large thermal plants. the Supply System moved from a small organization into a builder of five nuclear projects.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B016 — 00:02:35.380 → 00:02:45.170 (9.790s)
@@ -222,12 +222,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Before 1968 it had fewer than one hundred employees. By March 1979, it had 1,471.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B017 — 00:02:45.170 → 00:03:01.300 (16.130s)
@@ -235,12 +235,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** This was not one isolated plant running over budget. It was an entire portfolio competing for engineering, contractors, equipment, regulatory attention, and financing at the same time.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B018 — 00:03:01.300 → 00:03:10.260 (8.960s)
@@ -261,12 +261,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** By July 1976, eighty-eight customers of the Bonneville Power Administration and one private utility had become participants in Projects Four and Five.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B020 — 00:03:23.280 → 00:03:30.930 (7.650s)
@@ -287,12 +287,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Its meaning was painfully clear. Participants were required to pay their share whether the plants were completed, operable, or operating.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B022 — 00:03:39.580 → 00:03:53.240 (13.660s)
@@ -313,12 +313,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** GAO reported that rate increases would be required to service the debt. Utilities and ratepayers went to court.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B024 — 00:04:01.980 → 00:04:09.640 (7.660s)
@@ -326,12 +326,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The question was no longer only whether the projects should continue. It was who would carry the bill after they stopped.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B025 — 00:04:09.640 → 00:04:20.880 (11.240s)
@@ -339,12 +339,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** On July 22, 1983, the Project Four and Five bonds went into default. That is the famous the Supply System financial collapse.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B026 — 00:04:20.880 → 00:04:31.760 (10.880s)
@@ -352,12 +352,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** And yet the neighboring project at Satsop did not end with it. To understand why, the two towers have to be separated financially.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B027 — 00:04:31.760 → 00:04:38.140 (6.380s)
@@ -365,12 +365,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Project Five belonged to the participant-financed Project Four and Five system.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B028 — 00:04:38.140 → 00:04:49.420 (11.280s)
@@ -391,12 +391,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Public utilities held capability shares in Project Three and assigned them to Bonneville.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Verified capability-share/net-billing agreement excerpt showing the assignment relationship among public utilities and Bonneville.
-- Provenance: DOCUMENT
-- Motion/editing: Highlight the parties and assignment clause; keep the rest of the page quiet.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Use the correct Project Three agreement; do not substitute Project Four/Five participant contracts. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B030 — 00:04:56.520 → 00:05:07.380 (10.860s)
@@ -417,12 +417,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Four investor-owned utilities held the remaining thirty percent. A later settlement changed Bonneville's exposure, and Bonneville ultimately paid all Project Three project costs.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B032 — 00:05:20.160 → 00:05:29.680 (9.520s)
@@ -430,12 +430,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The structures looked similar because both projects were planned as large pressurized-water reactors of roughly twelve hundred and forty megawatts.
 
 - Narrative function: ACT II — the five-project system
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Source-grounded simplified plant/system diagram showing only the components named in narration.
-- Provenance: DOCUMENT if a verified drawing is visible; otherwise no historical label
-- Motion/editing: Component-by-component reveal; no decorative gauges or invented engineering detail.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not depict either Satsop unit as fueled, operating, or completed. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B033 — 00:05:29.680 → 00:05:38.316 (8.636s)
@@ -469,12 +469,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The tower was the most visible piece, but it was only the heat-rejection end of the plant.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B036 — 00:06:02.971 → 00:06:15.631 (12.660s)
@@ -482,12 +482,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** In operation, reactor heat would produce steam, the steam would spin a turbine generator, and the cooling system would remove waste heat so water could circulate again.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Source-grounded simplified plant/system diagram showing only the components named in narration.
-- Provenance: DOCUMENT if a verified drawing is visible; otherwise no historical label
-- Motion/editing: Component-by-component reveal; no decorative gauges or invented engineering detail.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not depict either Satsop unit as fueled, operating, or completed. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B037 — 00:06:15.631 → 00:06:24.961 (9.330s)
@@ -495,12 +495,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** At Satsop, that chain was never completed and never entered service. Project Five hit its financing wall first.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B038 — 00:06:24.961 → 00:06:36.411 (11.450s)
@@ -508,12 +508,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Project Three had enough support to enter a different state: neither advancing nor dead. Construction on Project Three was suspended in July 1983.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B039 — 00:06:36.411 → 00:06:48.221 (11.810s)
@@ -521,12 +521,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Suspended did not mean terminated. Buildings and installed systems were protected. Equipment and construction materials retained possible value.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B040 — 00:06:48.221 → 00:06:56.801 (8.580s)
@@ -534,12 +534,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The option to finish the project remained open. Preservation bought time. It also cost money.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B041 — 00:06:56.801 → 00:07:07.941 (11.140s)
@@ -560,12 +560,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The region's demand forecasts changed. The site therefore required work without producing electricity.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B043 — 00:07:16.081 → 00:07:30.786 (14.705s)
@@ -573,12 +573,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Preservation meant inspecting what had been built and protecting material that might still be used. It also meant maintaining the option to restart and studying whether that option remained valuable.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B044 — 00:07:30.786 → 00:07:40.261 (9.475s)
@@ -586,12 +586,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The longer preservation continued, the more the project faced a paradox. Keeping the option alive required spending money.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B045 — 00:07:40.261 → 00:07:54.011 (13.750s)
@@ -612,12 +612,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Approximately two point six billion dollars had been invested, measured in 1993 dollars and including the investor-owned utilities' share.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B047 — 00:08:04.071 → 00:08:14.951 (10.880s)
@@ -625,12 +625,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The cooling tower stood almost five hundred feet high. The reactor and turbine buildings existed. From the road, the project could look close to finished.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Source-grounded simplified plant/system diagram showing only the components named in narration.
-- Provenance: DOCUMENT if a verified drawing is visible; otherwise no historical label
-- Motion/editing: Component-by-component reveal; no decorative gauges or invented engineering detail.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not depict either Satsop unit as fueled, operating, or completed. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B048 — 00:08:14.951 → 00:08:26.231 (11.280s)
@@ -638,12 +638,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** But completion is not measured by how much concrete is visible. It is measured by what still has to be spent and how long that money remains at risk.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B049 — 00:08:26.231 → 00:08:42.631 (16.400s)
@@ -651,12 +651,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Most of all, it is measured by whether the electricity will be needed when the plant finally opens. In June 1993, Bonneville began another study of whether Project Three should remain preserved for nuclear completion.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B050 — 00:08:42.631 → 00:08:52.911 (10.280s)
@@ -690,12 +690,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Did the region need the power? How did Project Three compare with available alternatives? And what risks came with each choice?
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B053 — 00:09:11.891 → 00:09:28.091 (16.200s)
@@ -716,12 +716,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Bonneville was already under pressure to control its rates. Its customers were considering other sources of power, and some indicated that they might pay a premium for greater independence.
 
 - Narrative function: ACT III — financing split and collapse
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Bonneville source excerpt documenting competitiveness/rate pressure, paired with a restrained regional power-context background.
-- Provenance: DOCUMENT while verified page is visible
-- Motion/editing: Static source crop with one highlighted clause, then hard cut away.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not generalize beyond the cited customer and rate context. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B055 — 00:09:40.211 → 00:09:48.871 (8.660s)
@@ -768,12 +768,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** That money was already gone. Only the next commitment could still be changed. Bonneville compared Project Three with natural-gas combined-cycle generation — plants using gas and steam turbines together.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Source-grounded simplified plant/system diagram showing only the components named in narration.
-- Provenance: DOCUMENT if a verified drawing is visible; otherwise no historical label
-- Motion/editing: Component-by-component reveal; no decorative gauges or invented engineering detail.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not depict either Satsop unit as fueled, operating, or completed. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B059 — 00:10:20.911 → 00:10:32.011 (11.100s)
@@ -794,12 +794,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** That difference mattered. Combined-cycle resources could be built in smaller increments, letting Bonneville match new supply more closely to actual load growth.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B061 — 00:10:44.351 → 00:10:57.551 (13.200s)
@@ -807,12 +807,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Bonneville's assumptions also gave the combined-cycle alternative a shorter construction lead time: three years, compared with five years for restarting and completing Project Three.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B062 — 00:10:57.551 → 00:11:10.851 (13.300s)
@@ -820,12 +820,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The comparison was not one giant replacement plant against one giant nuclear plant. Bonneville could add combined-cycle capacity in smaller units as demand appeared.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B063 — 00:11:10.851 → 00:11:21.331 (10.480s)
@@ -872,12 +872,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The gas option had risks, including fuel prices and possible carbon costs. Bonneville recorded those too.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B067 — 00:11:46.198 → 00:11:57.468 (11.270s)
@@ -885,12 +885,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** This matters because the 1994 decision was not a claim that combined-cycle power was risk-free or that nuclear generation had no advantages.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B068 — 00:11:57.468 → 00:12:06.998 (9.530s)
@@ -898,12 +898,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** It was a comparison of which risks Bonneville was willing and able to carry. But it offered something Project Three could not.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B069 — 00:12:06.998 → 00:12:19.158 (12.160s)
@@ -911,12 +911,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Flexibility. An earlier study put the base estimate to complete Project Three at another one point five five billion dollars, in 1993 dollars.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B070 — 00:12:19.158 → 00:12:28.418 (9.260s)
@@ -924,12 +924,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Bonneville also tested lower and higher cases. Combined cycle was cheaper than the base and high Project Three cases.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B071 — 00:12:28.418 → 00:12:38.288 (9.870s)
@@ -937,12 +937,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** In the low-cost case, Project Three became comparable over its operating life. But comparable lifetime cost was not enough.
 
 - Narrative function: ACT IV — preservation and the completion question
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B072 — 00:12:38.288 → 00:12:49.158 (10.870s)
@@ -976,12 +976,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Then came the need question. Bonneville projected that Project Three's full twelve hundred and forty-megawatt output would create about six hundred average megawatts of surplus power even under its high-load forecast.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Source-grounded simplified plant/system diagram showing only the components named in narration.
-- Provenance: DOCUMENT if a verified drawing is visible; otherwise no historical label
-- Motion/editing: Component-by-component reveal; no decorative gauges or invented engineering detail.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not depict either Satsop unit as fueled, operating, or completed. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B075 — 00:13:17.108 → 00:13:27.618 (10.510s)
@@ -1002,12 +1002,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The project could work technically and still fail economically. It could generate every megawatt promised and create a financial problem because too much capacity arrived at once.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B077 — 00:13:40.418 → 00:13:48.148 (7.730s)
@@ -1015,12 +1015,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** That is what the cooling towers conceal. Megaprojects are usually judged by whether engineers can finish them.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B078 — 00:13:48.148 → 00:13:57.138 (8.990s)
@@ -1028,12 +1028,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Project Three also had to survive a second test: whether the system around it could use and pay for what it produced.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B079 — 00:13:57.138 → 00:14:06.888 (9.750s)
@@ -1041,12 +1041,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** This was the answer hidden behind the seventy-four-percent number. The project was mostly built. The region did not need all of its power.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B080 — 00:14:06.888 → 00:14:15.808 (8.920s)
@@ -1054,12 +1054,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** And finishing it would concentrate far more capital in one decision than the alternative. Project Three still had real advantages.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B081 — 00:14:15.808 → 00:14:26.688 (10.880s)
@@ -1067,12 +1067,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Much of it existed. Major siting permits were in place. Nuclear generation would not face combustion limits on carbon dioxide or sulfur dioxide.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Verified siting/permit record paired with an authenticated construction-state image; show existing advantages without implying readiness to operate.
-- Provenance: DOCUMENT for the record; HISTORICAL SOURCE only for authenticated period image
-- Motion/editing: Hard cut from permit excerpt to one period structural detail.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Existing permits and structures must not be framed as proof the plant was operationally complete. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B082 — 00:14:26.688 → 00:14:42.928 (16.240s)
@@ -1093,12 +1093,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Bonneville examined other possibilities. It considered repowering Project Three as a gas-fired combined-cycle plant and found no clear economic advantage over building a new one.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Conceptual site/system comparison between repowering the existing site and a new combined-cycle plant, limited to options actually examined.
-- Provenance: CONCEPT
-- Motion/editing: Simple side-by-side system blocks; no photoreal unbuilt plant.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not imply the repowering concept was selected or engineered for construction. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B084 — 00:14:57.088 → 00:15:10.628 (13.540s)
@@ -1106,12 +1106,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** It considered whether a third party might use the site. None of those possibilities justified Bonneville continuing to finance preservation for nuclear completion under the existing agreements.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B085 — 00:15:10.628 → 00:15:26.368 (15.740s)
@@ -1132,12 +1132,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Project Three was terminated in June. Not because seventy-four percent had disappeared. Because seventy-four percent described the past.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B087 — 00:15:35.248 → 00:15:43.608 (8.360s)
@@ -1145,12 +1145,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The decision had to describe the future. A megaproject does not end on a single date.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B088 — 00:15:43.608 → 00:15:54.888 (11.280s)
@@ -1158,12 +1158,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Project Five was terminated in 1982. The Project Four and Five bonds defaulted in 1983. Project Three construction stopped in 1983.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B089 — 00:15:54.888 → 00:16:05.468 (10.580s)
@@ -1184,12 +1184,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Property, remediation, and debt moved on different schedules. The permit clock asked whether nuclear construction could legally continue.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B091 — 00:16:16.488 → 00:16:26.208 (9.720s)
@@ -1197,12 +1197,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The property clock asked who would own and maintain the buildings. The debt clock followed financing agreements created years earlier.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `DOCUMENT_GFX`
-- Specific asset requirement: Relevant official-source excerpt, restrained typographic pull-quote, or factual HIA diagram that makes the clause visually specific.
-- Provenance: DOCUMENT only for the verified source page; otherwise no historical label
-- Motion/editing: One purposeful reveal or hard cut; avoid generic cards and wallpaper text.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Every visible number and label must remain traceable to the claim-source map. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B092 — 00:16:26.208 → 00:16:34.328 (8.120s)
@@ -1223,12 +1223,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Energy Northwest — the later name of the Supply System — still carried Project Three debt-related budgeting decades after termination.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B094 — 00:16:43.288 → 00:16:54.088 (10.800s)
@@ -1236,12 +1236,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Its fiscal-year twenty twenty-one budget covered financing obligations and debt administration, not new construction or plant operation.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B095 — 00:16:54.088 → 00:17:02.048 (7.960s)
@@ -1249,12 +1249,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Concrete is visible. Contracts are not. Both can survive the moment work stops.
 
 - Narrative function: ACT V — Bonneville's risk decision
-- Main asset class: `ARCHIVE_PHOTO`
-- Specific asset requirement: Authenticated period construction photograph/film tied to the correct Satsop unit and date; use documents/GFX if rights remain unclear.
-- Provenance: HISTORICAL SOURCE only while verified archive is actually visible
-- Motion/editing: Hard cut; static or ≤3% restrained crop; alternate scale, labor, structure, and site views.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not misidentify Unit Three/Five or reuse one image as fake visual progression. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B096 — 00:17:02.048 → 00:17:12.248 (10.200s)
@@ -1262,12 +1262,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** In 1995, Grays Harbor County, the Port of Grays Harbor, and the local public utility district formed the Satsop Redevelopment Project.
 
 - Narrative function: ACT VI — transfer, reuse, and meaning
-- Main asset class: `DOCUMENT`
-- Specific asset requirement: Authenticated government/owner record page or dated period source tied to the stated event; highlight only the cited date, decision, or figure.
-- Provenance: DOCUMENT
-- Motion/editing: Hard cut into a restrained page crop; one highlight/reveal, no generic document carousel.
+- Main asset class: `AI_RECONSTRUCTION`
+- Specific asset requirement: Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems.
+- Provenance: AI RECONSTRUCTION for the complete on-screen duration
+- Motion/editing: Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom.
 - GFX: Use one restrained factual overlay for the named number/date; remove it before the next unrelated claim.
-- Rights/QC: Verify page, agency, date, and embedded third-party rights before edit. Caption-safe lower 15% required.
+- Rights/QC: Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B097 — 00:17:12.248 → 00:17:19.568 (7.320s)
@@ -1288,12 +1288,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The nuclear investment could not be recovered by pretending the reactor still made sense. But parts of the industrial site had value outside the original plan.
 
 - Narrative function: ACT VI — transfer, reuse, and meaning
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B099 — 00:17:31.679 → 00:17:40.561 (8.882s)
@@ -1340,12 +1340,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Today the site operates as a community-owned business park. The former turbine building offers roughly three hundred thousand square feet of industrial space.
 
 - Narrative function: ACT VI — transfer, reuse, and meaning
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B103 — 00:18:15.811 → 00:18:24.691 (8.880s)
@@ -1353,12 +1353,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** Underground tunnels support confined-space training. Portions of the reactor building are used for rescue and other specialized exercises.
 
 - Narrative function: ACT VI — transfer, reuse, and meaning
-- Main asset class: `TECH_GFX`
-- Specific asset requirement: Source-grounded simplified plant/system diagram showing only the components named in narration.
-- Provenance: DOCUMENT if a verified drawing is visible; otherwise no historical label
-- Motion/editing: Component-by-component reveal; no decorative gauges or invented engineering detail.
+- Main asset class: `AI_RECONSTRUCTION_GFX`
+- Specific asset requirement: Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay for the explanatory relationships. Generated base must not imply an operating or completed reactor.
+- Provenance: AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX
+- Motion/editing: Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Do not depict either Satsop unit as fueled, operating, or completed. Caption-safe lower 15% required.
+- Rights/QC: No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B104 — 00:18:24.691 → 00:18:35.791 (11.100s)
@@ -1392,12 +1392,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** The business park is a working industrial site, not an abandoned playground. It answers a narrower question.
 
 - Narrative function: ACT VI — transfer, reuse, and meaning
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B107 — 00:18:54.721 → 00:19:03.501 (8.780s)
@@ -1405,12 +1405,12 @@ Status: **COMPLETE TIMING MAP — ASSETS NOT YET CLEARED OR GENERATED**
 **Narration:** After the original future disappears, can the infrastructure do anything useful next? At Satsop, some of it could.
 
 - Narrative function: ACT VI — transfer, reuse, and meaning
-- Main asset class: `MAP_GFX`
-- Specific asset requirement: Original HIA map/site-plan GFX grounded in official geography and unit layout; distinguish Project Three, Project Five, Hanford, and shared infrastructure.
-- Provenance: No historical label; cite map/data sources
-- Motion/editing: Clean map trace or plan reveal; static labels, restrained camera, no fake satellite UI.
+- Main asset class: `AI_RECONSTRUCTION_MAP`
+- Specific asset requirement: Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship.
+- Provenance: AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography
+- Motion/editing: Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface.
 - GFX: None beyond captions unless a number/date named in narration materially improves comprehension.
-- Rights/QC: Unit placement and common-system geometry must be authenticated before final lock. Caption-safe lower 15% required.
+- Rights/QC: Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required.
 - Status: PLANNED — ASSET NOT YET CLEARED
 
 ## SAT-B108 — 00:19:03.501 → 00:19:13.981 (10.480s)

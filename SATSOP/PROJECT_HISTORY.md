@@ -86,5 +86,7 @@
 - Converted the exact VO timing into **109 contiguous Remotion beats**.
 - Covered `00:00:00.000` through `00:19:23.920` with no gaps or overlaps.
 - Assigned every beat a specific asset class, visual requirement, provenance rule, motion instruction, GFX instruction, and rights/QC control.
-- Completed the source-first acquisition plan and directorial audit.
-- Submitted **zero** image or video generation jobs; reconstruction count remains zero until archive acquisition and missing-visual audit.
+- Initially framed source acquisition too broadly, then corrected the strategy at the user's direction so generated visuals predominate.
+- Final Stage 5 classification assigns **68 of 109 beats** and approximately **63 percent of runtime** to generated reconstruction, generated map bases, or generated technical bases.
+- Restricted real-source acquisition to evidence-critical documents, factual maps, current-site material, and reference grounding.
+- Submitted **zero** image or video generation jobs; the complete 68-beat prompt/reference pack and exact cost remain the next gate.

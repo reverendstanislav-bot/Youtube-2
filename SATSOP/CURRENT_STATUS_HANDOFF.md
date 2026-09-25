@@ -7,8 +7,8 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 5 LOCKED / VO LOCKED / 109-BEAT VISUAL MAP COMPLETE**
-Publication status: **PREPRODUCTION — SOURCE ACQUISITION NEXT / NO GENERATED VISUALS / NO EDIT**
+State: **STAGE 5 LOCKED / VO LOCKED / 109-BEAT GENERATION-LED VISUAL MAP COMPLETE**
+Publication status: **PREPRODUCTION — 68-BEAT PROMPT PACK NEXT / NO GENERATED VISUALS / NO EDIT**
 
 ## Current documentary direction
 
@@ -124,9 +124,11 @@ Remaining before visual production:
 - average beat duration: **10.678 seconds**;
 - no beat under 5 seconds or over 19 seconds;
 - every beat includes asset class, specific requirement, provenance, motion, GFX, and rights/QC controls;
-- source-first acquisition plan and directorial audit complete;
+- generation-led asset plan and directorial audit complete;
 - paid image/video generation: **0**;
-- generation count remains **0 pending archive acquisition and missing-visual audit**.
+- generation-led beats: **68 / 109**;
+- planned generated runtime share: **approximately 63.0 percent**;
+- evidence/current/map/GFX beats: **41 / 109**.
 
 Canonical files:
 
@@ -139,7 +141,7 @@ Canonical files:
 
 ## Next authorized work
 
-Acquire and rights-log official documents, authenticated archive, current footage, and site-plan sources. Then bind actual assets to the 109 beats and prepare a prompt/cost package only for genuine remaining reconstruction gaps. No additional paid generation is authorized.
+Build the complete prompt/reference package and exact model-cost preflight for the 68 generation-led beats. Acquire and rights-log only the evidence documents, exact maps, current footage, and grounding references needed for the other 41 beats. No paid generation is authorized yet.
 
 ## Mandatory inherited rules
 

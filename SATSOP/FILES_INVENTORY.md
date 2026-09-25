@@ -41,7 +41,7 @@ Updated: 2026-09-25
 | `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.md` | Human-readable 109-beat exact-timing map | Complete |
 | `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.csv` | Machine-readable beat/asset/provenance matrix | Complete |
 | `STAGE_5/SATSOP_STAGE_5_BEAT_MAP_AUDIT.json` | Coverage and class-count audit | Pass |
-| `STAGE_5/STAGE_5_DIRECTORIAL_AUDIT_V1.md` | Pacing, diversity, provenance, and remaining-risk audit | Pass for source acquisition |
-| `STAGE_5/STAGE_5_ASSET_ACQUISITION_PLAN_V1.md` | Source-first archive/current/GFX acquisition order | Active next gate |
+| `STAGE_5/STAGE_5_DIRECTORIAL_AUDIT_V1.md` | Pacing, diversity, provenance, and remaining-risk audit | Pass for generation pack and targeted sources |
+| `STAGE_5/STAGE_5_ASSET_ACQUISITION_PLAN_V1.md` | Generation-led 68-beat plan plus targeted evidence/current acquisition | Active next gate |
 
 The locked VO and exact timed beat map exist. No source visual has yet been cleared, and no image/video generation, picture edit, render, or publication master exists for Episode 4.

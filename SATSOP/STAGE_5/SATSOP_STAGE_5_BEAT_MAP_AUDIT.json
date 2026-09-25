@@ -4,12 +4,12 @@
   "average_beat_seconds": 10.678,
   "class_counts": {
     "CURRENT_FOOTAGE": 10,
-    "DOCUMENT": 22,
-    "MAP_GFX": 18,
+    "AI_RECONSTRUCTION": 50,
+    "AI_RECONSTRUCTION_MAP": 11,
+    "MAP_GFX": 7,
     "GFX": 16,
-    "DOCUMENT_GFX": 21,
-    "ARCHIVE_PHOTO": 13,
-    "TECH_GFX": 7,
+    "AI_RECONSTRUCTION_GFX": 7,
+    "DOCUMENT": 6,
     "CURRENT_BROLL": 2
   },
   "first_start": "00:00:00.000",

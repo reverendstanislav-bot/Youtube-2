@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**VO LOCKED — 109-BEAT TIMING MAP COMPLETE — SOURCE ACQUISITION MAY BEGIN**
+**VO LOCKED — 109-BEAT MAP COMPLETE — GENERATION-LED VISUAL STRATEGY LOCKED**
 
 ## Locked inputs
 
@@ -29,12 +29,14 @@ The user explicitly directed that the listening gate be treated as passed and th
 
 - full runtime coverage: **PASS**;
 - explicit Remotion beat per shot: **PASS**;
-- source/document/map/GFX/technical/current classification: **PASS**;
+- generation/evidence/map/GFX/current classification: **PASS**;
 - provenance rule per beat: **PASS**;
 - motion and caption-safe instruction per beat: **PASS**;
 - paid generation performed: **0**;
-- currently justified generated assets: **0 pending archive acquisition**.
+- planned generation-led beats: **68 / 109**;
+- planned generated runtime share: **approximately 63.0 percent**;
+- submitted image/video jobs: **0**.
 
 ## Next stage
 
-Acquire and rights-log real sources first. Then bind actual asset IDs to all 109 beats, run the missing-visual audit, and prepare a complete prompt/cost package only for remaining reconstruction gaps.
+Build the complete prompt/reference package and exact model-cost preflight for the 68 generation-led beats. In parallel, acquire and rights-log only the documents, maps, current footage, and grounding references required by the remaining beats. No paid generation begins without explicit approval.

@@ -230,6 +230,51 @@ rows = []
 for i, beat in enumerate(beats, 1):
     mid = (beat["start"] + beat["end"]) / 2
     asset, req, prov, motion, risk, gfx = classify(beat["text"], mid)
+    lower = beat["text"].lower()
+    evidence_markers = [
+        "gao",
+        "bonneville described",
+        "1994 exhibits",
+        "executive board",
+        "board of directors",
+        "administrator made the final determination",
+        "construction permit",
+        "fiscal year 2000",
+        "record of decision",
+        "the analysis asked",
+    ]
+    evidence_document = asset == "DOCUMENT" and any(marker in lower for marker in evidence_markers)
+    if asset in {"ARCHIVE_PHOTO", "DOCUMENT_GFX"} or (asset == "DOCUMENT" and not evidence_document):
+        asset = "AI_RECONSTRUCTION"
+        req = (
+            "Purpose-built, historically grounded non-photoreal reconstruction of this exact narration beat. "
+            "Use verified Satsop/WPPSS references for structures, period, weather, clothing, equipment, and geography; "
+            "do not invent readable signs, documents, reactor operation, fuel, steam, smoke, or completed systems."
+        )
+        prov = "AI RECONSTRUCTION for the complete on-screen duration"
+        motion = "Use a distinct composition and restrained depth/motion treatment; hard cut by default; no repeated plate or oscillating zoom."
+        risk = "Reference package must substantiate every historical/technical detail. Caption-safe lower 15% required."
+    elif asset == "MAP_GFX" and not any(
+        marker in lower
+        for marker in ["pacific northwest", "regional", "hanford", "hydroelectric system", "transmission", "geography"]
+    ):
+        asset = "AI_RECONSTRUCTION_MAP"
+        req = (
+            "Generated, historically grounded Satsop/site base composition paired with a precise HIA map or site-plan overlay. "
+            "The generated layer supplies scale and atmosphere; the vector overlay carries every factual location and unit relationship."
+        )
+        prov = "AI RECONSTRUCTION while generated base is visible; map overlay cites authenticated plan/geography"
+        motion = "Restrained spatial reveal from generated site context into exact vector geometry; no fake satellite interface."
+        risk = "Generated geography is illustrative; factual placement comes only from the authenticated overlay. Caption-safe lower 15% required."
+    elif asset == "TECH_GFX":
+        asset = "AI_RECONSTRUCTION_GFX"
+        req = (
+            "Historically grounded generated industrial base frame for the named Satsop system, combined with an exact HIA vector overlay "
+            "for the explanatory relationships. Generated base must not imply an operating or completed reactor."
+        )
+        prov = "AI RECONSTRUCTION while generated base is visible; overlay is explanatory GFX"
+        motion = "Subtle generated depth only; explanatory vector reveal follows narration and remains technically traceable."
+        risk = "No invented piping labels, gauges, fuel, steam plume, or completed-system claim. Caption-safe lower 15% required."
     rows.append({
         "beat_id": f"SAT-B{i:03}",
         "start": tc(beat["start"]),

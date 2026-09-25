@@ -1,6 +1,6 @@
 # SATSOP — STAGE 5 DIRECTORIAL AUDIT V1
 
-Status: **PASS FOR SOURCE ACQUISITION**
+Status: **PASS FOR GENERATION-PACK AND TARGETED SOURCE PREPARATION**
 
 ## Timing integrity
 
@@ -16,7 +16,7 @@ Status: **PASS FOR SOURCE ACQUISITION**
 
 ## Directorial result
 
-The map avoids the failed visual pattern identified in earlier HIA work: one still image under constant zoom, repeated reconstruction plates, and a permanent reconstruction plaque. The planned grammar rotates among current scale, authenticated archive, source documents, maps, technical explanation, finance/risk graphics, and present-day reuse.
+The map avoids the failed visual pattern identified in earlier HIA work: one still image under constant zoom, repeated reconstruction plates, and a permanent undifferentiated reconstruction treatment. Generation is deliberately dominant: 68 beats and approximately 63 percent of runtime use generated reconstruction, generated map bases, or generated technical bases. Evidence documents, exact GFX, maps, and current footage interrupt that language where truth or present-day specificity requires them.
 
 The opening separates the two towers within the first 31 seconds. The financing distinction receives its own visual system. The Bonneville decision climax uses exact sourced comparisons rather than generic abandoned-building imagery. The final act changes visual language from nuclear incompletion to industrial reuse.
 
@@ -35,12 +35,12 @@ The opening separates the two towers within the first 31 seconds. The financing 
 
 ## Remaining risks
 
-1. No period construction archive has yet been authenticated and cleared.
-2. Port of Grays Harbor footage and photos remain permission-dependent.
-3. The unit-by-unit site plan still requires authentication.
-4. `DOCUMENT_GFX` beats must be diversified during asset assignment; the class name is not permission to repeat one page template.
+1. The 68 generation-led beats still require individual prompts, references, model choice, and exact cost.
+2. Port of Grays Harbor footage and photos remain permission-dependent for current-site beats.
+3. The unit-by-unit site plan still requires authentication for exact overlays.
+4. Generated outputs must remain compositionally distinct and cannot reuse one plate as fake progression.
 5. The alignment is word-timed from local ASR; final caption timing must use the exact spoken-word track and receive a subtitle drift audit.
 
 ## Decision
 
-The beat map is sufficiently complete and specific to begin source acquisition. It does not authorize downloads with unclear rights, paid generation, picture rendering, or final captions.
+The beat map is sufficiently complete and specific to build the 68-beat prompt/reference pack and acquire only the necessary evidence/current materials. It does not authorize paid generation, picture rendering, or final captions.
