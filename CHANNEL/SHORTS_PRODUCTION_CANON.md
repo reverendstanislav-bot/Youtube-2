@@ -224,3 +224,17 @@ Any future alternative requires:
 - one proof;
 - owner approval;
 - only then a channel-wide canon update.
+
+## Current owner override — reusable HIA Shorts end screen
+
+For the current 10-Short batch, the owner has explicitly approved and locked a reusable vertical HIA end screen.
+
+Apply after the story payoff:
+- duration: 2.4 s;
+- hard cut only;
+- silent tail;
+- no changes to the preceding Short edit;
+- artwork is channel-generic, not episode-specific;
+- text: `FULL STORY ON YOUTUBE`, `HIDDEN INDUSTRIAL AMERICA`, `SUBSCRIBE FOR MORE FORGOTTEN INFRASTRUCTURE`.
+
+This explicit owner override supersedes older extraction-map notes saying no generic CTA/end-screen card for these 10 Shorts.
