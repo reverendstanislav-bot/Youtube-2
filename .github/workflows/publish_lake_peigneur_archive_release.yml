@@ -1,0 +1,42 @@
+name: Publish Lake Peigneur Archive Release
+
+on:
+  push:
+    paths:
+      - ".github/workflows/publish_lake_peigneur_archive_release.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: lake-peigneur-archive-v1-20260925
+      RUN_ID: "36176288181"
+    steps:
+      - name: Download built archive artifact
+        run: |
+          set -euo pipefail
+          mkdir -p dl
+          gh run download "$RUN_ID"             --repo "${{ github.repository }}"             --name "LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"             --dir dl
+          ls -lh dl
+          test -f dl/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip
+
+      - name: Create or update release
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "Release exists"
+          else
+            gh release create "$TAG"               --repo "${{ github.repository }}"               --title "Lake Peigneur Archive Source Pack V1"               --notes "Archive/source materials pack for Hidden Industrial America Episode 5. Includes MSHA 1981 report, Appendix T, Appendix EE pages and extracted images, USGS geology/topo/context, licensing notes and manifests. Appendix EE individual photographs remain conditional-use until item-level provenance is checked."
+          fi
+
+      - name: Upload archive as release asset
+        run: |
+          set -euo pipefail
+          gh release upload "$TAG"             dl/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip             --repo "${{ github.repository }}"             --clobber
+          gh release view "$TAG" --repo "${{ github.repository }}" --json url,assets
