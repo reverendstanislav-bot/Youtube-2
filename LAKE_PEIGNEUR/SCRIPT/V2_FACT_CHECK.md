@@ -4,7 +4,9 @@ Updated: 2026-09-25
 
 ## Verdict
 
-**PASS FOR DIRECTORIAL V2 / NOT YET TTS-LOCKED**
+**PASS FOR OWNER/DIRECTORIAL REVIEW / NOT YET TTS-LOCKED**
+
+Expanded V2 spoken length: **2,447 words**. The expansion adds pacing, scene tension and connective explanation without adding a blocked claim.
 
 The V2 rewrite changes order, pacing and emphasis. It does **not** add a new unsupported causal theory or blocked number.
 
@@ -100,3 +102,21 @@ Before any TTS spend:
 6. explicit user approval.
 
 No paid generation is authorized by this file.
+
+
+## Expanded-V2 recheck — 2026-09-25
+
+The 2,447-word expansion was re-read against the claim map.
+
+Result: **PASS**.
+
+Newly expanded language remains explanatory/directorial and does not introduce:
+- a new exact cause;
+- a coordinate-conversion assertion;
+- a new unsupported casualty count;
+- a 1,300-ft lake-depth claim;
+- an exact unseen breach geometry;
+- a new settlement figure;
+- a new current-storage capacity figure.
+
+The line that salt mines are not designed to "accept a lake" is treated as rhetorical explanation of the documented inundation, not as a quoted design-code requirement.
