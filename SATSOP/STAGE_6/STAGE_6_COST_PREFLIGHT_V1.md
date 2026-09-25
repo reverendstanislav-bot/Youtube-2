@@ -2,7 +2,7 @@
 
 Updated: 2026-09-25
 
-Status: **68/68 COST-ONLY REQUESTS PASS — NO JOBS SUBMITTED**
+Status: **HISTORICAL FULL-BATCH PREFLIGHT — SUPERSEDED BY 20-IMAGE TEST QC**
 
 ## Locked settings
 
@@ -32,8 +32,6 @@ Every provider response was cost-only and created no generation job.
 
 ## Authorization boundary
 
-Current authorized image spend: **0.00 credits**.
+The user subsequently authorized a 20-image representative test. That test spent **10.00 credits**, completed 20/20, and failed the directorial scale-up gate. The remaining 48 images are on hold. This preflight no longer authorizes or supports submitting the full batch.
 
-Required authorization must explicitly approve **34.00 credits for 68 GPT Image 2 / low / 1k / 16:9 Satsop reconstruction images**.
-
-No retry, alternate, second candidate, upscale, video generation, motion pass, or repair generation is included.
+No retry, alternate, second candidate, upscale, video generation, motion pass, repair generation, or remaining-batch submission is authorized.

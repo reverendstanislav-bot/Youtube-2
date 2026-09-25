@@ -49,6 +49,9 @@ Updated: 2026-09-25
 | `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.json` | Canonical machine-readable prompts, settings, references, and costs | Complete |
 | `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.csv` | Flat production queue | Complete |
 | `STAGE_6/STAGE_6_PROMPT_AUDIT_V1.md` | Prompt completeness and safety/accuracy audit | Pass |
-| `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md` | 68 individual cost-only checks and exact batch total | Awaiting 34.00-credit approval |
+| `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md` | Historical 68-image preflight | Superseded by Test20 QC |
+| `STAGE_6/TEST20/TEST20_JOBS.json` | Test selection, provider job IDs, and result URLs | 20/20 complete |
+| `STAGE_6/TEST20/TEST20_TECHNICAL_QC.json` | Decode, dimensions, sizes, and SHA-256 evidence | Pass |
+| `STAGE_6/TEST20/TEST20_DIRECTORIAL_QC_V1.md` | Per-image visual verdict and systemic prompt audit | Fail for scale-up |
 
-The locked VO, exact timed beat map, and 68-prompt generation pack exist. No image/video generation, picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, and 68-prompt generation pack exist. Twenty test images exist locally; the remaining 48 are on hold after directorial QC. No picture edit, render, or publication master exists for Episode 4.

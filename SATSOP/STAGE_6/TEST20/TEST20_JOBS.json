@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "prompt_id": "SAT-GEN001",
+    "beat_id": "SAT-B002",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "fad72a24-b7e2-439d-aaac-b04f40d0756e",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182138_fad72a24-b7e2-439d-aaac-b04f40d0756e.png"
+  },
+  {
+    "index": 2,
+    "prompt_id": "SAT-GEN002",
+    "beat_id": "SAT-B003",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "626bc765-d132-4621-9d64-e054e1fad680",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182142_626bc765-d132-4621-9d64-e054e1fad680.png"
+  },
+  {
+    "index": 3,
+    "prompt_id": "SAT-GEN003",
+    "beat_id": "SAT-B004",
+    "asset_class": "AI_RECONSTRUCTION_MAP",
+    "job_id": "762880ec-de60-4310-b97d-7836060ee861",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182146_762880ec-de60-4310-b97d-7836060ee861.png"
+  },
+  {
+    "index": 4,
+    "prompt_id": "SAT-GEN006",
+    "beat_id": "SAT-B011",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "2151bf9c-9fdc-4719-ac66-90eda61b6d54",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182151_2151bf9c-9fdc-4719-ac66-90eda61b6d54.png"
+  },
+  {
+    "index": 5,
+    "prompt_id": "SAT-GEN011",
+    "beat_id": "SAT-B019",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "ed2aee12-a5a4-4d40-822d-a7468ca341bf",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182156_ed2aee12-a5a4-4d40-822d-a7468ca341bf.png"
+  },
+  {
+    "index": 6,
+    "prompt_id": "SAT-GEN016",
+    "beat_id": "SAT-B026",
+    "asset_class": "AI_RECONSTRUCTION_MAP",
+    "job_id": "b7331e6e-1e25-497d-b587-5fc0036db2a8",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182200_b7331e6e-1e25-497d-b587-5fc0036db2a8.png"
+  },
+  {
+    "index": 7,
+    "prompt_id": "SAT-GEN018",
+    "beat_id": "SAT-B029",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "a55d4b4c-c00f-418b-93cf-e922a7cafa73",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182206_a55d4b4c-c00f-418b-93cf-e922a7cafa73.png"
+  },
+  {
+    "index": 8,
+    "prompt_id": "SAT-GEN020",
+    "beat_id": "SAT-B032",
+    "asset_class": "AI_RECONSTRUCTION_GFX",
+    "job_id": "66fb2b30-f2b3-4b7f-b348-19c2cc6869a1",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182211_66fb2b30-f2b3-4b7f-b348-19c2cc6869a1.png"
+  },
+  {
+    "index": 9,
+    "prompt_id": "SAT-GEN025",
+    "beat_id": "SAT-B039",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "f366bf0b-a710-4403-9b8a-4fd8a0be3e78",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182217_f366bf0b-a710-4403-9b8a-4fd8a0be3e78.png"
+  },
+  {
+    "index": 10,
+    "prompt_id": "SAT-GEN031",
+    "beat_id": "SAT-B047",
+    "asset_class": "AI_RECONSTRUCTION_GFX",
+    "job_id": "54b90c09-6543-43b8-b638-29a3786ee955",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182222_54b90c09-6543-43b8-b638-29a3786ee955.png"
+  },
+  {
+    "index": 11,
+    "prompt_id": "SAT-GEN032",
+    "beat_id": "SAT-B048",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "a98421f7-9e28-4009-893e-90abe9db62be",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182227_a98421f7-9e28-4009-893e-90abe9db62be.png"
+  },
+  {
+    "index": 12,
+    "prompt_id": "SAT-GEN039",
+    "beat_id": "SAT-B062",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "c6f45379-6433-4d3a-92d0-120132013b62",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182232_c6f45379-6433-4d3a-92d0-120132013b62.png"
+  },
+  {
+    "index": 13,
+    "prompt_id": "SAT-GEN044",
+    "beat_id": "SAT-B070",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "34dc1a79-880d-49ab-9af3-473a0a2d223d",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182237_34dc1a79-880d-49ab-9af3-473a0a2d223d.png"
+  },
+  {
+    "index": 14,
+    "prompt_id": "SAT-GEN046",
+    "beat_id": "SAT-B074",
+    "asset_class": "AI_RECONSTRUCTION_GFX",
+    "job_id": "fd7bbc59-ba7d-4eda-b0d9-3633aaccd087",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182242_fd7bbc59-ba7d-4eda-b0d9-3633aaccd087.png"
+  },
+  {
+    "index": 15,
+    "prompt_id": "SAT-GEN050",
+    "beat_id": "SAT-B079",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "802b55b8-3f2b-4897-9398-0c23f9d726ef",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182245_802b55b8-3f2b-4897-9398-0c23f9d726ef.png"
+  },
+  {
+    "index": 16,
+    "prompt_id": "SAT-GEN054",
+    "beat_id": "SAT-B084",
+    "asset_class": "AI_RECONSTRUCTION_MAP",
+    "job_id": "3d40b18e-dcef-486c-beb4-ec3726eb249d",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182250_3d40b18e-dcef-486c-beb4-ec3726eb249d.png"
+  },
+  {
+    "index": 17,
+    "prompt_id": "SAT-GEN057",
+    "beat_id": "SAT-B088",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "807e381a-4db1-4ff0-9c86-054a3f6c72dc",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182257_807e381a-4db1-4ff0-9c86-054a3f6c72dc.png"
+  },
+  {
+    "index": 18,
+    "prompt_id": "SAT-GEN063",
+    "beat_id": "SAT-B096",
+    "asset_class": "AI_RECONSTRUCTION",
+    "job_id": "1378c3e5-1102-4553-a4b3-ee104350be2f",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182302_1378c3e5-1102-4553-a4b3-ee104350be2f.png"
+  },
+  {
+    "index": 19,
+    "prompt_id": "SAT-GEN066",
+    "beat_id": "SAT-B103",
+    "asset_class": "AI_RECONSTRUCTION_GFX",
+    "job_id": "52e0323a-2480-4e2e-b1f4-450de55a17fe",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182306_52e0323a-2480-4e2e-b1f4-450de55a17fe.png"
+  },
+  {
+    "index": 20,
+    "prompt_id": "SAT-GEN068",
+    "beat_id": "SAT-B107",
+    "asset_class": "AI_RECONSTRUCTION_MAP",
+    "job_id": "5949d34e-4dd6-48f9-9885-fadaf3363a17",
+    "status": "completed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_182311_5949d34e-4dd6-48f9-9885-fadaf3363a17.png"
+  }
+]

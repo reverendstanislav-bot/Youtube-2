@@ -108,3 +108,14 @@
 - Ran 68 separate provider cost-only checks; all returned exactly **0.50 credits**, with zero errors and no submitted jobs.
 - Locked the corrected exact batch total at **34.00 credits**.
 - Rechecked the workspace balance at **1,266.67 credits**; the correction spent zero credits.
+
+## 2026-09-25 — Stage 6 representative 20-image test
+
+- User authorized a 20-image prompt test and QC at the locked **0.50 credits per image** profile.
+- Selected 20 beats across the timeline and all three generation-led asset classes.
+- Submitted exactly 20 GPT Image 2 / low / 1k / 16:9 jobs; all completed with no retry.
+- Exact spend: **10.00 credits**; post-test balance: **1,256.67 credits**.
+- Technical QC passed 20/20 at 1344 × 752 PNG.
+- Directorial QC: **5 PASS / 7 CONDITIONAL / 8 FAIL**.
+- Found that reference-package labels had not been attached as real generation inputs and that the common suffix collapsed maps, GFX, finance, chronology, and reuse into repetitive generic nuclear-construction imagery.
+- Put the remaining 48 prompts on hold pending reference acquisition and prompt-system redesign.

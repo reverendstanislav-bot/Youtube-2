@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**68 PROMPTS LOCKED — EXACT COST 34.00 CREDITS — AWAITING EXPLICIT APPROVAL**
+**20-IMAGE TEST COMPLETE — DIRECTORIAL QC FAILED — REMAINING 48 ON HOLD**
 
 ## Canonical files
 
@@ -21,7 +21,8 @@ Updated: 2026-09-25
 - model/settings: GPT Image 2 / low / 1k / 16:9;
 - one output per beat;
 - exact provider preflight: **34.00 credits**;
-- jobs submitted: **0**;
-- image credits spent: **0.00**.
+- test jobs submitted/completed: **20/20**;
+- image credits spent: **10.00**;
+- test QC: **5 PASS / 7 CONDITIONAL / 8 FAIL**.
 
-Stage 7 begins only after explicit approval of the exact batch. Approval does not include retries or motion/video generation.
+The 34.00-credit full-batch gate is superseded by the representative test. Stage 7 cannot begin until the prompt/reference system is corrected, a second test passes, and any further spend receives explicit approval.

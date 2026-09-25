@@ -1,6 +1,6 @@
 # SATSOP — STAGE 6 PROMPT AUDIT V1
 
-Status: **PASS — 68 INDIVIDUAL PROMPTS READY FOR BUDGET APPROVAL**
+Status: **SUPERSEDED BY TEST20 DIRECTORIAL QC — PROMPT SYSTEM REQUIRES REVISION**
 
 ## Completeness
 
@@ -49,4 +49,4 @@ Every prompt:
 
 ## Remaining execution gate
 
-Do not submit any image job until the user explicitly approves the exact **34.00-credit** batch. The approval covers one output for each of the 68 locked prompts and does not cover retries, alternates, upscales, or motion generation.
+The representative 20-image test showed that completeness and text-level guardrails were insufficient predictors of visual quality. Do not submit the remaining 48 prompts. Follow `TEST20/TEST20_DIRECTORIAL_QC_V1.md`, then obtain a new exact approval for a smaller second test.
