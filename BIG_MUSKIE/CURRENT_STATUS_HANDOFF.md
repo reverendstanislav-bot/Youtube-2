@@ -7,7 +7,7 @@ Updated: 2026-09-24
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **PICTURE V3 REPLACEMENT CLEANUP — 2 PASS LOCKED / 7 REBUILDS OPEN**  
+State: **PICTURE V3 — 114/116 VISUAL BEATS COVERED / 2 WALKING-SYSTEM REBUILDS OPEN**  
 Publication status: **REVIEW ONLY — NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,44 +336,57 @@ Final captions:
 
 ## Immediate next action
 
-**CLOSE THE 7 OPEN REPLACEMENTS, THEN REBUILD CANONICAL REMOTION PICTURE V3**
+**FINISH 2 OPEN VISUAL BEATS → REBUILD FULL CANONICAL REMOTION V3 → FULL QC → RC**
 
-Locked PASS — do not regenerate:
-- **BM-B106 — WHAT SURVIVED**
-  - generation: `d31e098e-1a58-4c20-857f-0b5ae7c0010d`
-  - SHA-256: `2f566ca877e204c9a9ed7a2771735136ea5207d2e2d8395cd4e2437fe34132a4`
-- **BM-B114 ALT — A MACHINE DISAPPEARS**
-  - generation: `9d3e3f57-386a-4a21-bca8-f210c5461a77`
-  - SHA-256: `e1db0c550c1bc2985b309816f13784bffdac718e724fcfa38fccb2d437534e41`
+### Whole-film visual status
 
-Both locked passes require `HIA EXPLANATORY GFX` classification.
+- total long-form beats: **116**
+- beats with accepted/locked visual coverage: **114**
+- open visual beats: **2**
+  - BM-B051 — WALKING SHOE MECHANISM
+  - BM-B052 — STEPPING PROPULSION
+- replacement cleanup scope: **9 beats**
+- replacement PASS locked: **7/9**
+- no other beat currently requires new image generation before the next full-picture render.
 
-Open rebuilds:
-- BM-B076
-- BM-B083
-- BM-B085
-- BM-B038
-- BM-B041
-- BM-B051
-- BM-B052
+### After B051/B052 PASS
 
-Anti-reject strategy:
-- B076: no visible undercarriage; no crawler/wheel/rail risk.
-- B083: explanatory policy GFX only; no fake EPA seal/document facsimile.
-- B085: only 1991 and 1995 allowed as generated numbers; exact factual sentence added in Remotion.
-- B038/B041: source-image edit only from real high-resolution US3531088A patent figure.
-- B051/B052: source-image edit only from real high-resolution US3375892A patent figure.
-- no free text-to-image technical-drawing generation for D03/D04.
+1. lock all **116/116** visual beats;
+2. update canonical beat→asset mapping;
+3. rebuild full **Remotion Picture V3** at 1920×1080 / 25 fps / 35,660 frames / 23:46.400;
+4. verify all 13 former V2 boundary defects are absent;
+5. run full technical QC:
+   - exact runtime/frame count;
+   - full decode;
+   - black/broken frame scan;
+   - A/V sync;
+   - Arthur integrity;
+6. run full-film directorial QC:
+   - visual↔narration match;
+   - repetition/monotony;
+   - document/GFX readability;
+   - transition/motion quality;
+   - provenance/authenticity labels;
+   - subtitle-safe framing;
+7. if PASS → **PICTURE LOCK**;
+8. build RC layer:
+   - provenance labels;
+   - final captions (white + orange active word);
+   - approved music;
+   - SFX;
+   - final audio master;
+9. full RC QC;
+10. render final 1080p upload master;
+11. after long-form lock, extract/finish the planned Shorts.
 
-Canonical files:
-- `REMOTION_V3/GENERATED_REPLACEMENTS_QC_V1.md`
+### Current production reality
+
+**Image-generation work remaining for the long-form film: 2 frames only.**
+
+Everything after those two is assembly / editorial / audio / caption / QC work, not another mass-generation pass.
+
+Canonical status records:
 - `REMOTION_V3/GENERATED_REPLACEMENT_PASS_LOCK_V1.md`
-- `REMOTION_V3/GENERATED_REPLACEMENT_PROMPT_PACK_V2.md`
-
-After 7/7 PASS:
-1. update final beat mapping;
-2. rebuild canonical Remotion Picture V3;
-3. full technical QC;
-4. full directorial QC;
-5. Picture Lock;
-6. only then RC.
+- `REMOTION_V3/GENERATED_REPLACEMENTS_QC_V2.md`
+- `REMOTION_V3/WALKING_SYSTEM_PROMPTS_V3.md`
+- `ASSEMBLY_V2/DIRECTORIAL_QC_V2.md`
