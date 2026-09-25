@@ -6,8 +6,8 @@ Updated: 2026-09-25
 
 Episode: **5 — Lake Peigneur / Jefferson Island Mine Inundation**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 6 — DIRECTORIAL V2 COMPLETE / FACT CHECK PASS / OWNER REVIEW**  
-Publication status: **PREPRODUCTION — NOT TTS READY**
+State: **STAGE 6 — ARTHUR TTS GENERATED / TECHNICAL QC PASS / WORD-LEVEL ALIGNMENT NEXT**  
+Publication status: **PREPRODUCTION — VO GENERATED / NOT YET PICTURE-READY**
 
 No TTS, image generation, video generation, or paid generation is authorized.
 
@@ -116,3 +116,26 @@ After owner approval of V2:
 13. explicit generation approval.
 
 **Video generation remains prohibited.**
+
+
+## TTS generation result — 2026-09-25
+
+- canonical voice: Arthur / ElevenLabs
+- approved spend: **39.60 credits**
+- actual spend: **39.60 credits**
+- jobs submitted: **4**
+- retries: **0**
+- provider duration sum: **968.32 s**
+- lossless MP3 master runtime: **16:08.464**
+- technical decode QC: **PASS**
+- integrated loudness: **-14.5 LUFS**
+- true peak: **-0.5 dBFS**
+- post-generation balance: **1266.67 credits**
+
+Canonical record:
+`SCRIPT/TTS_GENERATION_MANIFEST_V1.md`
+
+Next unpaid production step:
+**pronunciation/content listen QC → word-level alignment → exact editorial timing → Stage 7 visual beat map.**
+
+No additional paid generation is authorized.
