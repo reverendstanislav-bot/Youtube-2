@@ -1,0 +1,177 @@
+name: Big Muskie canonical Remotion V3 render
+
+on:
+  push:
+    paths:
+      - 'BIG_MUSKIE/REMOTION_V3/RUNNER_INPUT_URL.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Read runner input URL
+        id: input
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL="$(tr -d '\r\n' < BIG_MUSKIE/REMOTION_V3/RUNNER_INPUT_URL.txt)"
+          test -n "$URL"
+          test "$URL" != "__NEEDS_RUNNER_INPUT_URL__"
+          echo "::add-mask::$URL"
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Download verified Picture V2 input
+        shell: bash
+        env:
+          INPUT_URL: ${{ steps.input.outputs.url }}
+        run: |
+          set -euo pipefail
+          mkdir -p BIG_MUSKIE/REMOTION_V3/input
+          curl -L --fail --retry 4 --retry-delay 3 \
+            -o BIG_MUSKIE/REMOTION_V3/input/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4 \
+            "$INPUT_URL"
+          echo "Downloaded:"
+          ls -lh BIG_MUSKIE/REMOTION_V3/input/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4
+
+      - name: Verify V2 master
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd BIG_MUSKIE/REMOTION_V3
+          ACTUAL="$(sha256sum input/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4 | awk '{print $1}')"
+          EXPECTED="cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c"
+          echo "V2 SHA-256: $ACTUAL"
+          test "$ACTUAL" = "$EXPECTED"
+          ffprobe -v error -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate,sample_rate,channels -show_entries format=duration -of json input/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4
+
+      - name: Build canonical 116-beat timeline
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          python prepare_timeline.py
+          python - <<'PY'
+          import json
+          p=json.load(open('src/timeline.json'))
+          assert len(p)==116
+          assert p[0]['startFrame']==0
+          assert p[-1]['endFrame']==35660
+          print('Timeline PASS:',len(p),'beats',p[-1]['endFrame'],'frames')
+          PY
+
+      - name: Extract clean beat picture sources from verified V2
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p public/beats
+          python - <<'PY'
+          import json, subprocess
+          p=json.load(open('src/timeline.json'))
+          src='input/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4'
+          for item in p:
+              # Capture safely inside the locked beat, never from a V2 patch boundary.
+              start=item['start']
+              end=item['end']
+              t=min(start+0.20, start+max(0.04,(end-start)*0.20))
+              out=f"public/beats/beat_{item['i']:03d}.png"
+              subprocess.run([
+                  'ffmpeg','-hide_banner','-loglevel','error','-y',
+                  '-ss',f'{t:.3f}','-i',src,'-frames:v','1',
+                  '-vf','scale=1920:1080:flags=lanczos','-compression_level','4',out
+              ],check=True)
+          print('Extracted',len(p),'beat stills')
+          PY
+          test "$(find public/beats -type f -name 'beat_*.png' | wc -l)" -eq 116
+
+      - name: Extract canonical Arthur audio stream
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -hide_banner -loglevel error -y \
+            -i input/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4 \
+            -map 0:a:0 -c copy input/arthur.aac
+          sha256sum input/arthur.aac | tee input/ARTHUR_AUDIO_SHA256.txt
+
+      - name: Install Remotion
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm install --no-audit --no-fund
+          npx remotion browser ensure
+
+      - name: Render canonical Remotion Picture V3
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          npx remotion render src/index.jsx BigMuskieV3 out/BIG_MUSKIE_REMOTION_PICTURE_V3_RAW.mp4 \
+            --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4
+
+      - name: Mux unchanged Arthur audio
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -hide_banner -loglevel error -y \
+            -i out/BIG_MUSKIE_REMOTION_PICTURE_V3_RAW.mp4 \
+            -i input/arthur.aac \
+            -map 0:v:0 -map 1:a:0 -c:v copy -c:a copy -shortest \
+            out/BIG_MUSKIE_REMOTION_PICTURE_V3_1080P.mp4
+
+      - name: Full technical QC
+        working-directory: BIG_MUSKIE/REMOTION_V3
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=out/BIG_MUSKIE_REMOTION_PICTURE_V3_1080P.mp4
+          ffprobe -v error -count_frames \
+            -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate,nb_read_frames,sample_rate,channels \
+            -show_entries format=duration,size \
+            -of json "$OUT" | tee out/ffprobe.json
+          ffmpeg -v error -i "$OUT" -f null - 2>out/decode_errors.txt
+          test ! -s out/decode_errors.txt
+          sha256sum "$OUT" | tee out/SHA256SUMS.txt
+          ffmpeg -hide_banner -loglevel error -i "$OUT" -map 0:a:0 -c copy -f adts out/final_audio.aac
+          sha256sum out/final_audio.aac | tee out/FINAL_AUDIO_SHA256.txt
+          diff <(awk '{print $1}' input/ARTHUR_AUDIO_SHA256.txt) <(awk '{print $1}' out/FINAL_AUDIO_SHA256.txt)
+
+          python - <<'PY'
+          import json, math
+          j=json.load(open('out/ffprobe.json'))
+          v=next(s for s in j['streams'] if s['codec_type']=='video')
+          assert v['width']==1920 and v['height']==1080
+          assert v['r_frame_rate']=='25/1'
+          assert int(v['nb_read_frames'])==35660, v['nb_read_frames']
+          d=float(j['format']['duration'])
+          assert abs(d-1426.4)<0.05, d
+          print('TECH QC PASS')
+          PY
+
+      - name: Upload V3 review and QC
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_REMOTION_PICTURE_V3_1080P
+          path: |
+            BIG_MUSKIE/REMOTION_V3/out/BIG_MUSKIE_REMOTION_PICTURE_V3_1080P.mp4
+            BIG_MUSKIE/REMOTION_V3/out/ffprobe.json
+            BIG_MUSKIE/REMOTION_V3/out/SHA256SUMS.txt
+            BIG_MUSKIE/REMOTION_V3/out/ARTHUR_AUDIO_SHA256.txt
+            BIG_MUSKIE/REMOTION_V3/out/FINAL_AUDIO_SHA256.txt
+          retention-days: 14
+          compression-level: 0
