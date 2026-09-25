@@ -1,0 +1,187 @@
+﻿{
+    "status":  "AUTHORIZED_EXACTLY_20_NO_RETRIES",
+    "expected_cost_credits":  10,
+    "balance_before":  1193.57,
+    "items":  [
+                  {
+                      "index":  1,
+                      "prompt_id":  "SAT-GEN005",
+                      "beat_id":  "SAT-B006",
+                      "prompt":  "SUBJECT AND COMPOSITION: January 1982 utility-board decision room after a vote: closed folders, empty chairs and a stopped-project site photograph on an easel; no readable invented documents. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  2,
+                      "prompt_id":  "SAT-GEN007",
+                      "beat_id":  "SAT-B012",
+                      "prompt":  "SUBJECT AND COMPOSITION: A period utility desk where a signed payment obligation in the foreground visually blocks the road toward the distant unfinished site; documents remain blank for editorial replacement. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  3,
+                      "prompt_id":  "SAT-GEN008",
+                      "beat_id":  "SAT-B015",
+                      "prompt":  "SUBJECT AND COMPOSITION: 1969 regional planning room with five separate plant models arranged around a Pacific Northwest wall map, small staff dwarfed by the expansion plan; no modern screens. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  4,
+                      "prompt_id":  "SAT-GEN009",
+                      "beat_id":  "SAT-B016",
+                      "prompt":  "SUBJECT AND COMPOSITION: Diptych base: a modest pre-1968 utility office on the left and a crowded 1979 engineering floor on the right, matched camera height and blank center for exact employee numbers. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  5,
+                      "prompt_id":  "SAT-GEN010",
+                      "beat_id":  "SAT-B017",
+                      "prompt":  "SUBJECT AND COMPOSITION: Five distinct project worktables competing for the same limited pool of engineers, contractor schedules, component crates and permit trays in one overhead institutional composition. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  6,
+                      "prompt_id":  "SAT-GEN013",
+                      "beat_id":  "SAT-B023",
+                      "prompt":  "SUBJECT AND COMPOSITION: Period public-utility counter with household bills and court-file boxes in foreground, worried customers waiting, unfinished project photograph small in the background; all paper text blank. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  7,
+                      "prompt_id":  "SAT-GEN015",
+                      "beat_id":  "SAT-B025",
+                      "prompt":  "SUBJECT AND COMPOSITION: Empty bond-market trading desk and stacked blank bond certificates under a single extinguished task lamp, with the halted Project Five foundation visible only through a window. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  8,
+                      "prompt_id":  "SAT-GEN019",
+                      "beat_id":  "SAT-B031",
+                      "prompt":  "SUBJECT AND COMPOSITION: One clean tabletop divided 70/30 by physical folder stacks, public-utility side larger and four investor-owned utility chairs on the smaller side; blank overlay space above. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  9,
+                      "prompt_id":  "SAT-GEN026",
+                      "beat_id":  "SAT-B040",
+                      "prompt":  "SUBJECT AND COMPOSITION: A preserved machine under a clean protective cover in a vast unfinished hall while a maintenance crew works under one pool of light; show time being purchased, not construction progress. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  10,
+                      "prompt_id":  "SAT-GEN029",
+                      "beat_id":  "SAT-B044",
+                      "prompt":  "SUBJECT AND COMPOSITION: Symmetrical corridor of preserved equipment with recurring inspection stations disappearing into depth, each station consuming labor while nothing produces power. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  11,
+                      "prompt_id":  "SAT-GEN033",
+                      "beat_id":  "SAT-B049",
+                      "prompt":  "SUBJECT AND COMPOSITION: Long empty access road from preserved Project Three toward a distant uncertain horizon, with maintenance barriers and aging equipment in foreground; no active build. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  12,
+                      "prompt_id":  "SAT-GEN035",
+                      "beat_id":  "SAT-B054",
+                      "prompt":  "SUBJECT AND COMPOSITION: A closed archival vault containing past-project folders behind glass while an open decision table in foreground remains empty, separating money already spent from the next commitment. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  13,
+                      "prompt_id":  "SAT-GEN037",
+                      "beat_id":  "SAT-B060",
+                      "prompt":  "SUBJECT AND COMPOSITION: Two parallel construction paths seen from above: long preserved nuclear restart path with many unfinished stages versus a short modular gas path with fewer stages; no text in generated layer. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  14,
+                      "prompt_id":  "SAT-GEN040",
+                      "beat_id":  "SAT-B066",
+                      "prompt":  "SUBJECT AND COMPOSITION: Balanced tabletop still life: gas-fuel contract and emissions-policy folder on one side, nuclear completion-risk folder on the other, all text blank and equal visual weight. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  15,
+                      "prompt_id":  "SAT-GEN042",
+                      "beat_id":  "SAT-B068",
+                      "prompt":  "SUBJECT AND COMPOSITION: A rigid single heavy commitment path beside several smaller movable resource blocks on a utility planning table; human hands can rearrange only the modular side. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  16,
+                      "prompt_id":  "SAT-GEN045",
+                      "beat_id":  "SAT-B071",
+                      "prompt":  "SUBJECT AND COMPOSITION: Two alternatives appear similar at the far operating-life horizon, but the Project Three path carries a much larger locked capital block in the foreground. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  17,
+                      "prompt_id":  "SAT-GEN049",
+                      "beat_id":  "SAT-B078",
+                      "prompt":  "SUBJECT AND COMPOSITION: Project Three scale model sits at the center of a circular table surrounded by load forecast, customer and finance stations; all station text reserved for overlay. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  18,
+                      "prompt_id":  "SAT-GEN055",
+                      "beat_id":  "SAT-B086",
+                      "prompt":  "SUBJECT AND COMPOSITION: June 1994 preserved site behind a newly closed administrative gate, with the built structures unchanged and the future path visibly ending; no demolition. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  19,
+                      "prompt_id":  "SAT-GEN059",
+                      "beat_id":  "SAT-B091",
+                      "prompt":  "SUBJECT AND COMPOSITION: Maintained concrete building outside a window while property keys and long-lived finance folders occupy separate foreground planes, making visible asset and invisible contract coexist. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  },
+                  {
+                      "index":  20,
+                      "prompt_id":  "SAT-GEN062",
+                      "beat_id":  "SAT-B095",
+                      "prompt":  "SUBJECT AND COMPOSITION: Close exterior concrete wall reflected in glass over a table of sealed contracts, pairing durable structure and durable obligation in one restrained composition. EVIDENCE BOUNDARY: This is an explicitly interpretive reconstruction. Avoid identifiable real people and keep every document surface blank for editorial replacement. Create one restrained 16:9 documentary frame with a clear primary subject and no competing secondary story. Use realistic materials, neutral natural light and a calm lower 15 percent for captions. Never render words, dates, numbers, logos, maps, arrows, diagrams, captions or document text. No nuclear glow, operating steam, disaster imagery, active reactor, completed Satsop plant, faux archival damage or cinematic spectacle.",
+                      "model":  "gpt_image_2",
+                      "aspect_ratio":  "16:9",
+                      "cost_credits":  0.5
+                  }
+              ]
+}

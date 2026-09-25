@@ -66,5 +66,9 @@ Updated: 2026-09-25
 | `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.json` | Canonical V3 routes, gates, prompts and costs | Complete |
 | `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.csv` | Flat V3 production matrix | Complete |
 | `STAGE_6/V3/STAGE_6_V3_DIRECTORIAL_PREFLIGHT.md` | Directorial risk and execution-gate audit | Pass for reference acquisition and targeted validation |
+| `STAGE_6/TEST20_V3/TEST20_V3_SELECTION.json` | Authorized V3 test selection and expected cost | 20 positions |
+| `STAGE_6/TEST20_V3/TEST20_V3_JOBS.json` | V3 job IDs, URLs, hashes and local filenames | 20/20 complete |
+| `STAGE_6/TEST20_V3/TEST20_V3_TECHNICAL_QC.json` | Decode, dimensions, sizes and SHA-256 | Pass |
+| `STAGE_6/TEST20_V3/TEST20_V3_DIRECTORIAL_QC.md` | Strict visual audit and three-test comparison | 11 pass / 4 conditional / 5 fail |
 
-The locked VO, exact timed beat map, both test evidence sets, and full V3 prompt pack exist. Thirteen images are locked; 16 positions are deterministic GFX, 10 require real references, and 29 are controlled text-generation positions. No V3 generation is authorized. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, three test evidence sets, and full V3 prompt pack exist. Twenty-four generated images are accepted and locked. Forty-four positions remain unresolved. No further generation is authorized. No picture edit, render, or publication master exists for Episode 4.

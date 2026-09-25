@@ -151,3 +151,15 @@
 - Directly corrected every conditional or failed position from the V2 test.
 - Reduced maximum remaining image-generation exposure from **27.50** to **19.50 credits**.
 - Submitted no provider jobs and spent no credits.
+
+## 2026-09-25 — Stage 6 V3 controlled-text 20-image test
+
+- User authorized a 20-image V3 test at the locked GPT Image 2 / low / 1k / 16:9 profile and 0.50 credits per image.
+- Submitted exactly 20 controlled-text jobs with no retries; all 20 completed.
+- Technical QC passed 20/20 at 1344 × 752 PNG with per-file SHA-256 recorded.
+- Strict directorial QC: **11 PASS / 4 CONDITIONAL / 5 FAIL**.
+- Locked 11 additional accepted images, bringing the project total to **24**.
+- Exact attributable cost: **10.00 credits**.
+- Balance before the test: **1,193.57 credits**. Observed balance after the test: **1,167.07 credits**. The additional movement cannot be attributed to this batch without a provider usage ledger.
+- Identified a new systematic defect: caption-space wording caused several outputs to render white or black lower mattes.
+- Held the remaining queue for correction; no retries or further jobs were submitted.

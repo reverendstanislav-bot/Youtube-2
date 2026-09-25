@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "count": 20,
+  "expected_dimensions": [
+    1344,
+    752
+  ],
+  "items": [
+    {
+      "index": 1,
+      "prompt_id": "SAT-GEN005",
+      "filename": "01_SAT-GEN005_SAT-B006.png",
+      "size_bytes": 1372099,
+      "sha256": "8e5dbbfa6cff14e7f5f1b6285a35b1fae919331f5195b222c64b7bb065258030",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 2,
+      "prompt_id": "SAT-GEN007",
+      "filename": "02_SAT-GEN007_SAT-B012.png",
+      "size_bytes": 1421089,
+      "sha256": "b8510f48c61b78fc144ab1af2e85f06773ccc236391cf16c59cea8f68ba214f5",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 3,
+      "prompt_id": "SAT-GEN008",
+      "filename": "03_SAT-GEN008_SAT-B015.png",
+      "size_bytes": 1703210,
+      "sha256": "8fd478c464bc1ed856ff6fb29b9a83ca96308d2521f91098c41b3b5108220cd8",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 4,
+      "prompt_id": "SAT-GEN009",
+      "filename": "04_SAT-GEN009_SAT-B016.png",
+      "size_bytes": 1188127,
+      "sha256": "67e8cf1b0ff582bda019904810f953216d8ce838c2fc606cf003c7e77a38f3fe",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 5,
+      "prompt_id": "SAT-GEN010",
+      "filename": "05_SAT-GEN010_SAT-B017.png",
+      "size_bytes": 1460827,
+      "sha256": "3ab04d716b5b753abd17aaea0f3be524791a57b2f980922250e6cb919b43cfb8",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 6,
+      "prompt_id": "SAT-GEN013",
+      "filename": "06_SAT-GEN013_SAT-B023.png",
+      "size_bytes": 1370859,
+      "sha256": "8097a544dee0abfe74f6092b28de4e0f23e7044671cfe8237e4efa1349ae8a49",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 7,
+      "prompt_id": "SAT-GEN015",
+      "filename": "07_SAT-GEN015_SAT-B025.png",
+      "size_bytes": 1206098,
+      "sha256": "b3b225d97d603f088eee242a9dd90dc9200002e7a98ac46bcfaa2bd425a0d9d8",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 8,
+      "prompt_id": "SAT-GEN019",
+      "filename": "08_SAT-GEN019_SAT-B031.png",
+      "size_bytes": 1179032,
+      "sha256": "afd834c3f5841835ea6e62482eb57c992ebcec9ca6c5569a425cdf223d1ad4e5",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 9,
+      "prompt_id": "SAT-GEN026",
+      "filename": "09_SAT-GEN026_SAT-B040.png",
+      "size_bytes": 1336645,
+      "sha256": "13dc4aec2683491cd664b46ee576dcee97248cc975749475d177d9ddbb25bbba",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 10,
+      "prompt_id": "SAT-GEN029",
+      "filename": "10_SAT-GEN029_SAT-B044.png",
+      "size_bytes": 1523373,
+      "sha256": "dc7329b0a3b50b1b429a66525fd243bf27ee8e701339343e71a842187ab69373",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 11,
+      "prompt_id": "SAT-GEN033",
+      "filename": "11_SAT-GEN033_SAT-B049.png",
+      "size_bytes": 1683749,
+      "sha256": "4eee1e4bc18ee7e2ee091adcd111c8d365a51a33f277c3ee9ac93c1b9e97825a",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 12,
+      "prompt_id": "SAT-GEN035",
+      "filename": "12_SAT-GEN035_SAT-B054.png",
+      "size_bytes": 1194400,
+      "sha256": "121702afddd19a8b2050a4238833fe5d967979a4cccc07f5735064815cf664e6",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 13,
+      "prompt_id": "SAT-GEN037",
+      "filename": "13_SAT-GEN037_SAT-B060.png",
+      "size_bytes": 2181651,
+      "sha256": "b0b590000f3284af69de0bd7c8c3857ac456a062535384e549ab854ae69e6934",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 14,
+      "prompt_id": "SAT-GEN040",
+      "filename": "14_SAT-GEN040_SAT-B066.png",
+      "size_bytes": 1230503,
+      "sha256": "f95aa043e5d4dbbe0fe2cda6c940eeee232d1b37fbf386370642de346293f7f1",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 15,
+      "prompt_id": "SAT-GEN042",
+      "filename": "15_SAT-GEN042_SAT-B068.png",
+      "size_bytes": 1458424,
+      "sha256": "8b243e2dff20f7314f123d4be7b103bd5d88a084925e4cb3c6da1a455922cc7b",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 16,
+      "prompt_id": "SAT-GEN045",
+      "filename": "16_SAT-GEN045_SAT-B071.png",
+      "size_bytes": 1509946,
+      "sha256": "2f9c4749b4b83361419eb08d3ac230766749e153f65c5090ff1d768ae8604b37",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 17,
+      "prompt_id": "SAT-GEN049",
+      "filename": "17_SAT-GEN049_SAT-B078.png",
+      "size_bytes": 1264593,
+      "sha256": "f84e67ad400e467440e3a533618e3d382ff07a92da6d22ce2ff8acd03ba3a316",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 18,
+      "prompt_id": "SAT-GEN055",
+      "filename": "18_SAT-GEN055_SAT-B086.png",
+      "size_bytes": 1455063,
+      "sha256": "51c6d20d27b7c5b599652ea303f3d322581b2aaa71aafa78dc8e4c250d87de73",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 19,
+      "prompt_id": "SAT-GEN059",
+      "filename": "19_SAT-GEN059_SAT-B091.png",
+      "size_bytes": 1359597,
+      "sha256": "8f5b92292aa6b035c77875a526b7a14438827570e61ed064fbaf5c24174d52de",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    },
+    {
+      "index": 20,
+      "prompt_id": "SAT-GEN062",
+      "filename": "20_SAT-GEN062_SAT-B095.png",
+      "size_bytes": 1362392,
+      "sha256": "10185c3e13aa01be16d221b3ca4695c95c81c5e04f363723ac5bb151509841da",
+      "width": 1344,
+      "height": 752,
+      "mode": "rgb24"
+    }
+  ]
+}

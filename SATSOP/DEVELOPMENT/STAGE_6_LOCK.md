@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**V3 DIRECTORIAL-RISK REWRITE COMPLETE — 13 PASSES LOCKED — 55 POSITIONS ROUTED**
+**V3 TEST COMPLETE — 24 PASSES LOCKED — 44 POSITIONS REMAIN**
 
 ## Canonical files
 
@@ -30,4 +30,4 @@ Updated: 2026-09-25
 - second-test QC: **8 PASS / 8 CONDITIONAL / 4 FAIL**;
 - accepted assets locked across both tests: **13**.
 
-The 34.00-credit full-batch gate and 27.50-credit V2 remainder are superseded. V3 routes 16 factual positions to editor-built GFX at zero image cost, gates 10 site-specific images behind real reference media IDs, and keeps 29 controlled text-generation positions. The maximum remaining image cost is **19.50 credits**. Stage 7 cannot begin until required references are attached, a small validation batch passes QC, and any spend receives explicit approval.
+The V3 controlled-text test completed 20/20 with no retries and scored **11 PASS / 4 CONDITIONAL / 5 FAIL**. Eleven new assets are locked, for **24 total accepted generated images** and **44 unresolved positions**. Caption-space wording caused lower matte artifacts, while several site/path prompts still produced fabricated plant geometry. The remaining queue is held until prompt routing is corrected; any further spend requires explicit approval.

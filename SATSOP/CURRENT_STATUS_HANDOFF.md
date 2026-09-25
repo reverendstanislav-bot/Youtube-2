@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 V3 DIRECTORIAL-RISK REWRITE COMPLETE / 13 PASSES LOCKED / 55 POSITIONS ROUTED**
+State: **STAGE 6 V3 TEST COMPLETE / 24 PASSES LOCKED / 44 POSITIONS REMAIN**
 Publication status: **PREPRODUCTION — TEST VISUALS ONLY / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -141,7 +141,7 @@ Canonical files:
 
 ## Next authorized work
 
-Acquire, authenticate, rights-log and upload the real R01–R07 media required by the 10 reference-conditioned V3 positions. Record concrete provider media IDs, then preflight a small mixed-route validation set and request explicit approval. Build the 16 factual positions as deterministic editorial GFX; do not submit them as image jobs.
+Remove caption-space wording that produced lower mattes, reroute the five V3 failures away from unconstrained generation, and preserve the eleven new passes as locked assets. In parallel, acquire and rights-log the real R01–R07 media required by reference-conditioned positions. Do not submit another job until the corrected remaining queue has been audited and an exact budget is approved.
 
 ## Stage 6 deliverables
 
@@ -161,6 +161,12 @@ Acquire, authenticate, rights-log and upload the real R01–R07 media required b
 - V3 routes: **16 deterministic GFX / 10 reference-conditioned / 29 controlled text generation**;
 - maximum remaining image-generation cost: **19.50 credits**;
 - V3 generation authorization: **none**;
+- V3 test jobs: **20/20 completed**, no retries;
+- V3 test QC: **11 PASS / 4 CONDITIONAL / 5 FAIL**;
+- total accepted generated images across all tests: **24**;
+- remaining unresolved positions after V3 locks: **44**;
+- exact attributable V3 test cost: **10.00 credits**;
+- post-test observed balance: **1,167.07 credits**; the larger workspace movement is not attributable to this batch without a provider usage ledger;
 - V2 grammar families: **54**;
 - historical V2 maximum remaining full-queue cost: **27.50 credits**, superseded by V3;
 - V2 generation authorization: **0.00 credits**.
