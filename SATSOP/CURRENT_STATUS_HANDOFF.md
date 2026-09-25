@@ -7,8 +7,8 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 5 LOCKED / VO LOCKED / 109-BEAT GENERATION-LED VISUAL MAP COMPLETE**
-Publication status: **PREPRODUCTION — 68-BEAT PROMPT PACK NEXT / NO GENERATED VISUALS / NO EDIT**
+State: **STAGE 6 LOCKED / 68 PROMPTS READY / EXACT COST 17.00 CREDITS / AWAITING APPROVAL**
+Publication status: **PREPRODUCTION — NO GENERATED VISUALS / NO PICTURE EDIT**
 
 ## Current documentary direction
 
@@ -141,7 +141,27 @@ Canonical files:
 
 ## Next authorized work
 
-Build the complete prompt/reference package and exact model-cost preflight for the 68 generation-led beats. Acquire and rights-log only the evidence documents, exact maps, current footage, and grounding references needed for the other 41 beats. No paid generation is authorized yet.
+Await explicit approval of **17.00 credits** for exactly 68 GPT Image 2.5 / Flare / low / 1k / 16:9 Satsop images. After approval, submit one image per locked prompt, verify every result, and create a replacement list without automatically retrying failures. No retry, alternate, upscale, motion, or video spend is authorized.
+
+## Stage 6 deliverables
+
+- 68 unique beat-specific production prompts;
+- seven reference-package assignments;
+- model/settings locked;
+- 68/68 individual provider cost-only checks passed;
+- exact cost: **17.00 credits**;
+- jobs submitted: **0**;
+- image credits spent: **0.00**;
+- balance after preflight: **1,266.67 credits**.
+
+Canonical files:
+
+- `DEVELOPMENT/STAGE_6_LOCK.md`
+- `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.md`
+- `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.json`
+- `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.csv`
+- `STAGE_6/STAGE_6_PROMPT_AUDIT_V1.md`
+- `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md`
 
 ## Mandatory inherited rules
 

@@ -18,6 +18,8 @@ Updated: 2026-09-25
 | `DEVELOPMENT/STAGE_4_QC.md` | TTS job record, master properties, automated QC, and listening disposition | Complete |
 | `DEVELOPMENT/STAGE_5_LOCK.md` | VO lock and full visual beat-map gate | Active |
 | `DEVELOPMENT/build_stage5_beat_map.py` | Reproducible exact-timing beat-map builder | Active |
+| `DEVELOPMENT/STAGE_6_LOCK.md` | Prompt/model/cost lock and image-spend gate | Active |
+| `DEVELOPMENT/build_stage6_prompt_pack.py` | Reproducible 68-prompt pack builder | Active |
 | `SCRIPT/CLAIM_SOURCE_MAP_V1.md` | Narration claims mapped to evidence | Factual pass |
 | `SCRIPT/RETENTION_OUTLINE_V1.md` | Long-form architecture and payoff plan | Script basis |
 | `SCRIPT/NARRATION_DRAFT_V1.md` | Complete sourced English narration with cues | Editorial review required |
@@ -43,5 +45,10 @@ Updated: 2026-09-25
 | `STAGE_5/SATSOP_STAGE_5_BEAT_MAP_AUDIT.json` | Coverage and class-count audit | Pass |
 | `STAGE_5/STAGE_5_DIRECTORIAL_AUDIT_V1.md` | Pacing, diversity, provenance, and remaining-risk audit | Pass for generation pack and targeted sources |
 | `STAGE_5/STAGE_5_ASSET_ACQUISITION_PLAN_V1.md` | Generation-led 68-beat plan plus targeted evidence/current acquisition | Active next gate |
+| `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.md` | Human-readable 68-prompt production pack | Complete |
+| `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.json` | Canonical machine-readable prompts, settings, references, and costs | Complete |
+| `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.csv` | Flat production queue | Complete |
+| `STAGE_6/STAGE_6_PROMPT_AUDIT_V1.md` | Prompt completeness and safety/accuracy audit | Pass |
+| `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md` | 68 individual cost-only checks and exact batch total | Awaiting 17.00-credit approval |
 
-The locked VO and exact timed beat map exist. No source visual has yet been cleared, and no image/video generation, picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map, and 68-prompt generation pack exist. No image/video generation, picture edit, render, or publication master exists for Episode 4.

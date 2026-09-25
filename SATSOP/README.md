@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 5 LOCKED — VO LOCKED — 109-BEAT VISUAL MAP COMPLETE.**
+**STAGE 6 LOCKED — 68 PROMPTS READY — EXACT IMAGE COST 17.00 CREDITS — AWAITING APPROVAL.**
 
-Research, English V2, fact check, directorial review, narration generation, automated QC, and the listening gate are complete. The locked PCM VO runs **00:19:23.920**. Stage 5 maps the full runtime into **109 explicit Remotion beats** with asset, provenance, motion, GFX, and rights instructions. No image/video generation or picture edit has been produced.
+Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. Generation is the dominant planned visual language: **68 beats / approximately 63 percent of runtime**. All 68 individual GPT Image 2.5 prompts, reference assignments, and cost-only checks are complete. Exact batch cost is **17.00 credits**. No image/video generation or picture edit has been produced.
 
 Start every new chat with:
 
@@ -16,8 +16,8 @@ Start every new chat with:
 4. `RESEARCH/VISUAL_SOURCE_LEDGER.md`
 5. `DEVELOPMENT/DOCUMENTARY_ANGLES.md`
 6. `DEVELOPMENT/PACKAGING_AND_RETENTION.md`
-7. `DEVELOPMENT/STAGE_5_LOCK.md`
-8. `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.md`
+7. `DEVELOPMENT/STAGE_6_LOCK.md`
+8. `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.md`
 
 ## Episode rule
 

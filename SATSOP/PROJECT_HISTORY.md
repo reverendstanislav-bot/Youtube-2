@@ -90,3 +90,13 @@
 - Final Stage 5 classification assigns **68 of 109 beats** and approximately **63 percent of runtime** to generated reconstruction, generated map bases, or generated technical bases.
 - Restricted real-source acquisition to evidence-critical documents, factual maps, current-site material, and reference grounding.
 - Submitted **zero** image or video generation jobs; the complete 68-beat prompt/reference pack and exact cost remain the next gate.
+
+## 2026-09-25 — Stage 6 prompt and image-cost lock
+
+- Built 68 unique beat-specific prompts for the generation-led visual layer.
+- Assigned reference packages R01–R07 according to Satsop identity, site layout, construction period, technical system, regional context, combined-cycle comparison, and present-day reuse.
+- Locked GPT Image 2.5 / Flare / low / 1k / 16:9 with one output per prompt.
+- Ran 68 separate provider cost-only checks; all returned 0.25 credits with no errors and no submitted jobs.
+- Locked exact batch total at **17.00 credits**.
+- Verified the workspace balance remained **1,266.67 credits**, proving the preflight spent zero credits.
+- No image or video generation was started.
