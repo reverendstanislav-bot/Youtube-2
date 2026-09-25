@@ -27,6 +27,7 @@ Purpose: implement the approved Picture V2 direction as a clean native Remotion 
 - B076 simplified to a three-step failure chain;
 - B033–B040 reframe plan breaks machine-shot monotony without new assets;
 - B102/B104, B105/B107, B109/B112 use distinct reframes;
+- B106 placeholder is replaced by a source-grounded cable/chain/bucket-tooth card using existing imagery;
 - dense GFX runs use restrained focus staging, not camera travel;
 - final B116 gets only a ≤1% slow push.
 
