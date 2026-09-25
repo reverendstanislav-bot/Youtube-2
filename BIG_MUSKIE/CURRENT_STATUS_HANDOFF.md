@@ -1,14 +1,14 @@
 # BIG MUSKIE — CURRENT STATUS / HANDOFF
 
-Updated: 2026-09-23
+Updated: 2026-09-24
 
 ## Canonical status
 
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **PICTURE V1 DIRECTORIAL QC IN PROGRESS — CINEMATIC GFX CLEANUP: 6 PASS / 4 REJECT**  
-Publication status: **REVIEW ONLY — PICTURE V1 IS NOT RC / NOT PUBLICATION CANDIDATE**
+State: **PICTURE V2 REVIEW BUILD COMPLETE — 10/10 CINEMATIC GFX REPLACEMENTS APPLIED — TECHNICAL QC PASS**  
+Publication status: **REVIEW ONLY — PICTURE V2 IS NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,34 +336,32 @@ Final captions:
 
 ## Immediate next action
 
-**REGENERATE 4 REJECTED CINEMATIC GFX → QC → PATCH PICTURE V2**
+**DIRECTORIAL PICTURE-ONLY QC OF PICTURE V2**
 
-Latest cinematic GFX cleanup QC:
-- generated: **10**
-- PASS: **6**
-- HOLD: **0**
-- REJECT: **4**
+Rendered review build:
+- `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
+- Library: `/Youtube 2/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
+- **1920×1080 / 25 fps / 23:46.400 / 35,660 frames**
+- Arthur VO unchanged from V1
+- captions: none
+- music: none
+- SFX: none
+- cinematic replacements applied: **10/10**
+- video SHA-256: `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`
+- audio stream SHA-256: `72a4b444ef1786ca031d74f57ebfabe75af2f011eca9511d27dfb87bc1d0fe4d`
+- full decode: **PASS**
 
-PASS:
-- FX001
-- FX002
-- FX036
-- FX045
-- FX047
-- FX049
+Canonical V2 records:
+- `GFX/CINEMATIC_GFX_FINAL_LOCK_V2.md`
+- `ASSEMBLY_V2/FINAL_MEDIA_MAPPING_V2.md`
+- `ASSEMBLY_V2/PICTURE_ASSEMBLY_V2_QC.md`
 
-REJECT:
-- FX013 — crawler-track geometry
-- FX016 — crawler-track geometry
-- FX033 — crawler-track geometry + unsupported truck equivalence
-- FX048 — overly literal/explosive dismantling imagery
-
-Canonical QC:
-- `GFX/CINEMATIC_GFX_REPLACEMENT_QC_V1.md`
+Important:
+- V2 is a review patch build over the verified V1 master.
+- If the picture direction is approved, reproduce this exact replacement map in canonical Remotion before RC/final promotion.
 
 Next:
-1. regenerate exactly FX013 / FX016 / FX033 / FX048 under the stricter geometry/factual locks;
-2. QC those four;
-3. once 4/4 PASS, patch the 10 cinematic replacements into Picture Assembly V1;
-4. render Picture Assembly V2 picture-only;
-5. run directorial QC before captions/music/SFX.
+1. watch/audit Picture V2 end-to-end;
+2. flag remaining weak/repetitive/incorrect picture beats;
+3. if approved, reproduce the V2 patch map in canonical Remotion;
+4. then add provenance labels, captions, music and SFX.
