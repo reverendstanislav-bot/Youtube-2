@@ -18,20 +18,22 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install Remotion runtime
+      - name: Install Remotion runtime and browser
         working-directory: BIG_MUSKIE/REMOTION_V3
         run: |
           set -euo pipefail
           npm install --no-audit --no-fund
+          npx remotion browser
           node -e "console.log(require('remotion/package.json').version)"
-      - name: Package node_modules
+          find node_modules/.remotion -maxdepth 3 -type f | head -20 || true
+      - name: Package runtime
         run: |
           set -euo pipefail
-          tar -C BIG_MUSKIE/REMOTION_V3 -czf /tmp/big_muskie_remotion_v3_node_modules.tar.gz node_modules package-lock.json
-          ls -lh /tmp/big_muskie_remotion_v3_node_modules.tar.gz
+          tar -C BIG_MUSKIE/REMOTION_V3 -czf /tmp/big_muskie_remotion_v3_runtime.tar.gz node_modules package-lock.json
+          ls -lh /tmp/big_muskie_remotion_v3_runtime.tar.gz
       - uses: actions/upload-artifact@v4
         with:
-          name: big-muskie-remotion-v3-node-modules
-          path: /tmp/big_muskie_remotion_v3_node_modules.tar.gz
+          name: big-muskie-remotion-v3-runtime
+          path: /tmp/big_muskie_remotion_v3_runtime.tar.gz
           retention-days: 1
           compression-level: 0
