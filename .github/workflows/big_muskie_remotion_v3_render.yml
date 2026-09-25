@@ -171,7 +171,7 @@ jobs:
             BIG_MUSKIE/REMOTION_V3/out/BIG_MUSKIE_REMOTION_PICTURE_V3_1080P.mp4
             BIG_MUSKIE/REMOTION_V3/out/ffprobe.json
             BIG_MUSKIE/REMOTION_V3/out/SHA256SUMS.txt
-            BIG_MUSKIE/REMOTION_V3/out/ARTHUR_AUDIO_SHA256.txt
+            BIG_MUSKIE/REMOTION_V3/input/ARTHUR_AUDIO_SHA256.txt
             BIG_MUSKIE/REMOTION_V3/out/FINAL_AUDIO_SHA256.txt
           retention-days: 14
           compression-level: 0
