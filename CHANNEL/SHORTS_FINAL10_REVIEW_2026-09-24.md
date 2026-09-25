@@ -117,3 +117,21 @@ The complete review set is:
 - TC497-S05.
 
 This package is **not marked APPROVED or PUBLISHED** until the owner visually approves the 10/10 review set.
+
+## Owner-locked Shorts end screen — 2026-09-24
+
+Latest owner instruction overrides the earlier no-CTA-card note in the old extraction maps.
+
+Locked end-screen behavior for all 10 current Shorts:
+- append the approved HIA vertical end screen to the end of every Short;
+- exact end-screen duration: **2.4 seconds**;
+- hard cut into the end screen; no extra transition effect;
+- end-screen audio: silence;
+- original Short portion must remain unchanged;
+- no re-edit of picture, captions, bottom darkening, timing or narration inside the original Short;
+- Chicago Shorts remain 25 fps;
+- TC497 Shorts remain 30 fps;
+- output remains 1080x1920;
+- approved CTA artwork text: **FULL STORY ON YOUTUBE / HIDDEN INDUSTRIAL AMERICA / SUBSCRIBE FOR MORE FORGOTTEN INFRASTRUCTURE**.
+
+This end-screen rule is now the active owner override for the current 10-Short batch.
