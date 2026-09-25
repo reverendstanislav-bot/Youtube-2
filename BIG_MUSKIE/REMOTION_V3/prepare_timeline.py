@@ -27,7 +27,7 @@ for i,r in enumerate(rows,1):
         'asset':r['asset_id'],
         'class':r['final_class'],
         'provenance':r['provenance'],
-        'beatFile':f'beats/beat_{i:03d}.png',
+        'beatFile':f'beats/beat_{i:03d}.jpg',
     })
 OUT.parent.mkdir(parents=True,exist_ok=True)
 OUT.write_text(json.dumps(timeline,indent=2),encoding='utf-8')
