@@ -23,17 +23,25 @@ jobs:
         run: |
           set -euo pipefail
           npm install --no-audit --no-fund
-          npx remotion browser
+          npx remotion browser ensure
           node -e "console.log(require('remotion/package.json').version)"
-          find node_modules/.remotion -maxdepth 3 -type f | head -20 || true
-      - name: Package runtime
+          echo "=== browser cache candidates ==="
+          find "$HOME" /tmp -type f \( -name 'headless_shell' -o -name 'chrome-headless-shell' -o -name 'chrome' \) 2>/dev/null | head -30 || true
+      - name: Package runtime and Remotion browser cache
         run: |
           set -euo pipefail
-          tar -C BIG_MUSKIE/REMOTION_V3 -czf /tmp/big_muskie_remotion_v3_runtime.tar.gz node_modules package-lock.json
-          ls -lh /tmp/big_muskie_remotion_v3_runtime.tar.gz
+          mkdir -p /tmp/runtime
+          tar -C BIG_MUSKIE/REMOTION_V3 -czf /tmp/runtime/node_runtime.tar.gz node_modules package-lock.json
+          for d in "$HOME/.cache/remotion" "$HOME/.cache/remotion-browser" "$HOME/.cache/puppeteer" "/tmp/remotion"; do
+            if [ -e "$d" ]; then
+              n="$(echo "$d" | tr '/.' '__')"
+              tar -czf "/tmp/runtime/cache_${n}.tar.gz" -C "$(dirname "$d")" "$(basename "$d")"
+            fi
+          done
+          find /tmp/runtime -maxdepth 1 -type f -printf '%f %s bytes\n'
       - uses: actions/upload-artifact@v4
         with:
-          name: big-muskie-remotion-v3-runtime
-          path: /tmp/big_muskie_remotion_v3_runtime.tar.gz
+          name: big-muskie-remotion-v3-runtime-browser
+          path: /tmp/runtime/
           retention-days: 1
           compression-level: 0
