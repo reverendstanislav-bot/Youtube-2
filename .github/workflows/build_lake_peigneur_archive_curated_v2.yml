@@ -1,0 +1,149 @@
+name: Build Lake Peigneur Curated Archive V2
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build_lake_peigneur_archive_curated_v2.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_RUN_ID: "36176288181"
+      TAG: lake-peigneur-archive-curated-v2-20260925
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils zip
+
+      - name: Download original source pack
+        run: |
+          set -euo pipefail
+          mkdir -p src
+          gh run download "$SOURCE_RUN_ID"             --repo "${{ github.repository }}"             --name "LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"             --dir src
+          unzip -q src/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip -d unpack
+
+      - name: Build curated production archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC="unpack/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"
+          OUT="LAKE_PEIGNEUR_ARCHIVE_CURATED_V2"
+          mkdir -p "$OUT"/{01_HISTORICAL_PHOTOS,02_SOURCE_PAGES,03_KEY_DOCUMENTS,04_MAPS,05_RIGHTS}
+
+          # Only story-relevant Appendix EE pages.
+          for p in 122 123 124 125 126 127 128 129 130 135 136 137 138 139 143; do
+            cp "$SRC"/02_MSHA_APPENDIX_EE_CONDITIONAL/EE-${p}.jpg "$OUT"/02_SOURCE_PAGES/
+            cp "$SRC"/02_MSHA_APPENDIX_EE_CONDITIONAL/EXTRACTED_EMBEDDED_IMAGES/EE_p${p}_* "$OUT"/01_HISTORICAL_PHOTOS/ 2>/dev/null || true
+          done
+
+          # Two source pages actually useful in the edit.
+          cp "$SRC"/01_PRIMARY_MSHA/MSHA_Appendix_T_Estimated_Drill_Hole_Location-097.jpg "$OUT"/03_KEY_DOCUMENTS/
+          cp "$SRC"/01_PRIMARY_MSHA/MSHA_FY1981_Jefferson_Island_Evacuation-*.jpg "$OUT"/03_KEY_DOCUMENTS/ || true
+
+          # Useful maps only; rasterized so the editor does not need giant PDFs.
+          pdftoppm -singlefile -jpeg -jpegopt quality=94 -r 180             "$SRC"/04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf             "$OUT"/04_MAPS/USGS_Delcambre_1963_24000 >/dev/null 2>&1
+          cp "$SRC"/05_PUBLIC_DOMAIN_CONTEXT/USGS_Landsat8_Salt_Dome_Islands_LA_PD.png "$OUT"/04_MAPS/
+          cp "$SRC"/06_CC_LICENSED_REFERENCE/Lake_Peigneur_OSM_CC_BY_2.5.jpg "$OUT"/04_MAPS/
+
+          cat > "$OUT"/README_FIRST.md <<'EOF'
+          # LAKE PEIGNEUR — CURATED ARCHIVE V2
+
+          This is the production archive, not a research dump.
+
+          INCLUDED:
+          - only story-relevant historical Lake Peigneur / Jefferson Island images;
+          - extracted photo-only frames;
+          - their source pages with captions;
+          - Appendix T drill-location figure;
+          - FY1981 evacuation source page;
+          - one historical USGS Delcambre map;
+          - USGS regional context and OSM map.
+
+          EXCLUDED:
+          - huge full reports;
+          - unrelated geology books;
+          - blank pages;
+          - duplicate document scans;
+          - Bayless guesthouse/greenhouse damage sequences;
+          - security-car photo;
+          - redundant No. 8 well-fire closeups;
+          - copyrighted news screenshots;
+          - YouTube/stock material.
+
+          RIGHTS:
+          Appendix EE images are genuine source images inside the 1981 federal MSHA report, but remain CONDITIONAL_USE until each selected photo's individual source/credit is verified.
+          The USGS materials are public-domain federal works.
+          The OSM map is CC BY 2.5 with attribution.
+          EOF
+
+          cat > "$OUT"/05_RIGHTS/RIGHTS_NOTES.md <<'EOF'
+          # Rights notes
+
+          ## CONDITIONAL — Appendix EE
+          The selected 1980/1981 photographs are embedded in the federal MSHA investigation report. The accessible OCR does not reliably expose an individual photographer/source credit for every frame. Keep as research/editorial assets until the exact selected photograph receives an item-level provenance check.
+
+          ## PUBLIC DOMAIN
+          - USGS Delcambre 1963 historical topo.
+          - USGS Landsat regional image.
+          - federal-created MSHA document text/figures, subject to embedded third-party-photo caveat above.
+
+          ## CC BY 2.5
+          Lake Peigneur OSM map.
+          Credit: © OpenStreetMap contributors.
+          Source: https://commons.wikimedia.org/wiki/File:Lake_Peigneur.jpg
+          EOF
+
+          python3 - <<'PY'
+          import csv, pathlib, re
+          src=pathlib.Path("unpack/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/02_MSHA_APPENDIX_EE_CONDITIONAL/APPENDIX_EE_INDEX.csv")
+          out=pathlib.Path("LAKE_PEIGNEUR_ARCHIVE_CURATED_V2/SELECTED_ASSET_MANIFEST.csv")
+          keep={122,123,124,125,126,127,128,129,130,135,136,137,138,139,143}
+          rows=[]
+          with src.open(encoding="utf-8") as f:
+              for r in csv.DictReader(f):
+                  p=int(r["pdf_page"])
+                  if p in keep:
+                      rows.append({
+                          "source_page":p,
+                          "caption":r["caption_ocr"],
+                          "production_value":"KEEP",
+                          "rights_status":"CONDITIONAL_USE — item-level photo credit check required"
+                      })
+          with out.open("w",newline="",encoding="utf-8") as f:
+              w=csv.DictWriter(f,fieldnames=["source_page","caption","production_value","rights_status"])
+              w.writeheader(); w.writerows(rows)
+          PY
+
+          find "$OUT" -type f -printf "%P\n" | sort > "$OUT"/FILE_LIST.txt
+          find "$OUT" -type f -not -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > "$OUT"/SHA256SUMS.txt
+
+          zip -qr LAKE_PEIGNEUR_ARCHIVE_CURATED_V2.zip "$OUT"
+          ls -lh LAKE_PEIGNEUR_ARCHIVE_CURATED_V2.zip
+          echo "FILES=$(find "$OUT" -type f | wc -l)"
+          echo "PHOTO_ONLY=$(find "$OUT"/01_HISTORICAL_PHOTOS -type f | wc -l)"
+          echo "SOURCE_PAGES=$(find "$OUT"/02_SOURCE_PAGES -type f | wc -l)"
+          sha256sum LAKE_PEIGNEUR_ARCHIVE_CURATED_V2.zip
+
+      - name: Publish curated release
+        run: |
+          set -euo pipefail
+          if ! gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release create "$TAG"               --repo "${{ github.repository }}"               --title "Lake Peigneur Curated Archive V2"               --notes "Production-only archive: relevant historical frames, source pages, two key document pages and useful maps. Research dump removed."
+          fi
+          gh release upload "$TAG" LAKE_PEIGNEUR_ARCHIVE_CURATED_V2.zip             --repo "${{ github.repository }}"             --clobber
+
+      - name: Upload Actions artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LAKE_PEIGNEUR_ARCHIVE_CURATED_V2
+          path: LAKE_PEIGNEUR_ARCHIVE_CURATED_V2.zip
+          compression-level: 0
+          retention-days: 30
