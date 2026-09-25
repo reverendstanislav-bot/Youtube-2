@@ -1,0 +1,150 @@
+name: Build Lake Peigneur Archive Essentials V3
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build_lake_peigneur_archive_essentials_v3.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_RUN_ID: "36176288181"
+      TAG: lake-peigneur-archive-essentials-v3-20260925
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils imagemagick zip
+
+      - name: Download original archive artifact
+        run: |
+          set -euo pipefail
+          mkdir -p src
+          gh run download "$SOURCE_RUN_ID"             --repo "${{ github.repository }}"             --name "LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"             --dir src
+          unzip -q src/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip -d unpack
+
+      - name: Build essentials-only pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC="unpack/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"
+          OUT="LAKE_PEIGNEUR_ARCHIVE_ESSENTIALS_V3"
+          mkdir -p "$OUT"/{01_HISTORICAL_FRAMES,02_KEY_DOCUMENTS,03_HISTORICAL_MAP,04_PROVENANCE}
+
+          # Only the 13 Appendix EE pages that materially support this film.
+          # For each page choose the largest embedded photo, then normalize for editing.
+          for p in 123 124 125 126 127 128 129 130 135 136 137 138 139; do
+            files=( "$SRC"/02_MSHA_APPENDIX_EE_CONDITIONAL/EXTRACTED_EMBEDDED_IMAGES/EE_p${p}_* )
+            best=""
+            best_size=0
+            for f in "${files[@]}"; do
+              [ -f "$f" ] || continue
+              sz=$(stat -c%s "$f")
+              if [ "$sz" -gt "$best_size" ]; then
+                best="$f"
+                best_size="$sz"
+              fi
+            done
+            if [ -n "$best" ]; then
+              convert "$best" -auto-orient -resize '2400x2400>' -strip -quality 90                 "$OUT/01_HISTORICAL_FRAMES/EE_p${p}_BEST.jpg"
+            fi
+          done
+
+          # Two document visuals actually used in the script.
+          convert "$SRC"/01_PRIMARY_MSHA/MSHA_Appendix_T_Estimated_Drill_Hole_Location-097.jpg             -resize '2400x2400>' -strip -quality 92             "$OUT"/02_KEY_DOCUMENTS/MSHA_Appendix_T_Drill_Location.jpg
+
+          EVAC=$(find "$SRC"/01_PRIMARY_MSHA -maxdepth 1 -name 'MSHA_FY1981_Jefferson_Island_Evacuation-*.jpg' | head -1)
+          convert "$EVAC" -resize '2400x2400>' -strip -quality 92             "$OUT"/02_KEY_DOCUMENTS/MSHA_FY1981_Evacuation_52_People.jpg
+
+          # One useful pre-disaster-era historical map, rasterized and normalized.
+          pdftoppm -singlefile -jpeg -jpegopt quality=92 -r 120             "$SRC"/04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf             /tmp/delcambre >/dev/null 2>&1
+          convert /tmp/delcambre.jpg -resize '3200x3200>' -strip -quality 90             "$OUT"/03_HISTORICAL_MAP/USGS_Delcambre_1963.jpg
+
+          # Build human-readable manifest from source captions.
+          python3 - <<'PY'
+          import csv, pathlib
+          src=pathlib.Path("unpack/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/02_MSHA_APPENDIX_EE_CONDITIONAL/APPENDIX_EE_INDEX.csv")
+          out=pathlib.Path("LAKE_PEIGNEUR_ARCHIVE_ESSENTIALS_V3/04_PROVENANCE/HISTORICAL_FRAME_MANIFEST.csv")
+          keep={123,124,125,126,127,128,129,130,135,136,137,138,139}
+          rows=[]
+          with src.open(encoding="utf-8") as f:
+              for r in csv.DictReader(f):
+                  p=int(r["pdf_page"])
+                  if p in keep:
+                      rows.append({
+                          "file":f"EE_p{p}_BEST.jpg",
+                          "ms ha report pdf page":p,
+                          "source caption":r["caption_ocr"],
+                          "status":"SELECTED FOR EDIT",
+                          "rights":"CONDITIONAL — verify individual embedded-photo credit before final publication"
+                      })
+          with out.open("w",newline="",encoding="utf-8") as f:
+              w=csv.DictWriter(f,fieldnames=rows[0].keys())
+              w.writeheader(); w.writerows(rows)
+          PY
+
+          cat > "$OUT"/README_FIRST.md <<'EOF'
+          # LAKE PEIGNEUR — ARCHIVE ESSENTIALS V3
+
+          This is the clean production pack.
+
+          13 historical frames only:
+          - pre-inundation aerial;
+          - post-inundation aerial;
+          - drilling-service equipment disappearing;
+          - early crater development;
+          - lake bed exposed;
+          - Delcambre Canal reverse-flow sequence;
+          - mud/water blown from air shaft;
+          - late-afternoon aftermath;
+          - old air shaft;
+          - air shaft / headframe / cage;
+          - production shaft / debris;
+          - bubbling slurry in production shaft.
+
+          Plus:
+          - MSHA Appendix T drill-location figure;
+          - MSHA FY1981 evacuation page;
+          - USGS Delcambre 1963 historical topo.
+
+          NOT INCLUDED:
+          full research PDFs, giant geology reports, current satellite imagery, OSM/current maps, irrelevant property-damage photos, security vehicles, No. 8 well-fire sequence, duplicate pages, blank scans, news screenshots, stock/YouTube material.
+
+          RIGHTS:
+          The 13 Appendix EE frames are genuine images embedded in the 1981 federal report, but individual image credits still need item-level verification before publication.
+          Federal-created MSHA figures/text and the USGS historical topo are public-domain U.S. government material, subject to the embedded-photo caveat above.
+          EOF
+
+          cat > "$OUT"/04_PROVENANCE/SOURCE_LINKS.md <<'EOF'
+          Primary federal report:
+          https://books.google.com/books?id=EbjC-q99VHAC
+
+          MSHA FY1981 report:
+          https://www.osti.gov/servlets/purl/5260059
+
+          USGS historical topo source:
+          https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/PDF/LA/24000/LA_Delcambre_331821_1963_24000_geo.pdf
+          EOF
+
+          find "$OUT" -type f -printf "%P\n" | sort > "$OUT"/FILE_LIST.txt
+          find "$OUT" -type f -not -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > "$OUT"/SHA256SUMS.txt
+
+          zip -qr LAKE_PEIGNEUR_ARCHIVE_ESSENTIALS_V3.zip "$OUT"
+          ls -lh LAKE_PEIGNEUR_ARCHIVE_ESSENTIALS_V3.zip
+          echo "FILES=$(find "$OUT" -type f | wc -l)"
+          sha256sum LAKE_PEIGNEUR_ARCHIVE_ESSENTIALS_V3.zip
+
+      - name: Publish essentials release
+        run: |
+          set -euo pipefail
+          if ! gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release create "$TAG"               --repo "${{ github.repository }}"               --title "Lake Peigneur Archive Essentials V3"               --notes "Clean production archive: 13 relevant historical frames + 2 key MSHA document visuals + 1 historical USGS map. Research dump removed."
+          fi
+          gh release upload "$TAG" LAKE_PEIGNEUR_ARCHIVE_ESSENTIALS_V3.zip             --repo "${{ github.repository }}"             --clobber
