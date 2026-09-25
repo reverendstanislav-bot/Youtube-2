@@ -15,8 +15,7 @@ Status: **PASS — 68 INDIVIDUAL PROMPTS READY FOR BUDGET APPROVAL**
 
 ## Model lock
 
-- `gpt_image_2_5`;
-- variant `flare`;
+- `gpt_image_2`;
 - quality `low`;
 - resolution `1k`;
 - aspect ratio `16:9`;
@@ -50,4 +49,4 @@ Every prompt:
 
 ## Remaining execution gate
 
-Do not submit any image job until the user explicitly approves the exact **17.00-credit** batch. The approval covers one output for each of the 68 locked prompts and does not cover retries, alternates, upscales, or motion generation.
+Do not submit any image job until the user explicitly approves the exact **34.00-credit** batch. The approval covers one output for each of the 68 locked prompts and does not cover retries, alternates, upscales, or motion generation.

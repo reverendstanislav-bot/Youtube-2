@@ -100,3 +100,11 @@
 - Locked exact batch total at **17.00 credits**.
 - Verified the workspace balance remained **1,266.67 credits**, proving the preflight spent zero credits.
 - No image or video generation was started.
+
+## 2026-09-25 — Stage 6 model and cost correction
+
+- The initial GPT Image 2.5 / 0.25-credit lock was rejected because it contradicted the repository's established 0.50-credit generation standard.
+- Replaced it with GPT Image 2 / low / 1k / 16:9, matching the prior canonical generation profile.
+- Ran 68 separate provider cost-only checks; all returned exactly **0.50 credits**, with zero errors and no submitted jobs.
+- Locked the corrected exact batch total at **34.00 credits**.
+- Rechecked the workspace balance at **1,266.67 credits**; the correction spent zero credits.

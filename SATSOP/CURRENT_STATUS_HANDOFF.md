@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 LOCKED / 68 PROMPTS READY / EXACT COST 17.00 CREDITS / AWAITING APPROVAL**
+State: **STAGE 6 LOCKED / 68 PROMPTS READY / EXACT COST 34.00 CREDITS / AWAITING APPROVAL**
 Publication status: **PREPRODUCTION — NO GENERATED VISUALS / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -141,7 +141,7 @@ Canonical files:
 
 ## Next authorized work
 
-Await explicit approval of **17.00 credits** for exactly 68 GPT Image 2.5 / Flare / low / 1k / 16:9 Satsop images. After approval, submit one image per locked prompt, verify every result, and create a replacement list without automatically retrying failures. No retry, alternate, upscale, motion, or video spend is authorized.
+Await explicit approval of **34.00 credits** for exactly 68 GPT Image 2 / low / 1k / 16:9 Satsop images. After approval, submit one image per locked prompt, verify every result, and create a replacement list without automatically retrying failures. No retry, alternate, upscale, motion, or video spend is authorized.
 
 ## Stage 6 deliverables
 
@@ -149,7 +149,7 @@ Await explicit approval of **17.00 credits** for exactly 68 GPT Image 2.5 / Flar
 - seven reference-package assignments;
 - model/settings locked;
 - 68/68 individual provider cost-only checks passed;
-- exact cost: **17.00 credits**;
+- exact cost: **34.00 credits**;
 - jobs submitted: **0**;
 - image credits spent: **0.00**;
 - balance after preflight: **1,266.67 credits**.

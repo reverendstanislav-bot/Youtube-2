@@ -49,6 +49,6 @@ Updated: 2026-09-25
 | `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.json` | Canonical machine-readable prompts, settings, references, and costs | Complete |
 | `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.csv` | Flat production queue | Complete |
 | `STAGE_6/STAGE_6_PROMPT_AUDIT_V1.md` | Prompt completeness and safety/accuracy audit | Pass |
-| `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md` | 68 individual cost-only checks and exact batch total | Awaiting 17.00-credit approval |
+| `STAGE_6/STAGE_6_COST_PREFLIGHT_V1.md` | 68 individual cost-only checks and exact batch total | Awaiting 34.00-credit approval |
 
 The locked VO, exact timed beat map, and 68-prompt generation pack exist. No image/video generation, picture edit, render, or publication master exists for Episode 4.

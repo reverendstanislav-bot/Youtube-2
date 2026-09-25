@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 6 LOCKED — 68 PROMPTS READY — EXACT IMAGE COST 17.00 CREDITS — AWAITING APPROVAL.**
+**STAGE 6 LOCKED — 68 PROMPTS READY — EXACT IMAGE COST 34.00 CREDITS — AWAITING APPROVAL.**
 
-Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. Generation is the dominant planned visual language: **68 beats / approximately 63 percent of runtime**. All 68 individual GPT Image 2.5 prompts, reference assignments, and cost-only checks are complete. Exact batch cost is **17.00 credits**. No image/video generation or picture edit has been produced.
+Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. Generation is the dominant planned visual language: **68 beats / approximately 63 percent of runtime**. All 68 individual GPT Image 2 prompts, reference assignments, and cost-only checks are complete. Exact batch cost is **34.00 credits**. No image/video generation or picture edit has been produced.
 
 Start every new chat with:
 

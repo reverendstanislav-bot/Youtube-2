@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**68 PROMPTS LOCKED — EXACT COST 17.00 CREDITS — AWAITING EXPLICIT APPROVAL**
+**68 PROMPTS LOCKED — EXACT COST 34.00 CREDITS — AWAITING EXPLICIT APPROVAL**
 
 ## Canonical files
 
@@ -18,9 +18,9 @@ Updated: 2026-09-25
 ## Lock
 
 - generation-led beats: **68**;
-- model/settings: GPT Image 2.5 / Flare / low / 1k / 16:9;
+- model/settings: GPT Image 2 / low / 1k / 16:9;
 - one output per beat;
-- exact provider preflight: **17.00 credits**;
+- exact provider preflight: **34.00 credits**;
 - jobs submitted: **0**;
 - image credits spent: **0.00**.
 

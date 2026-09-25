@@ -1,17 +1,16 @@
 # SATSOP — GENERATION PROMPT PACK V1
 
-Status: **68/68 PROMPTS READY — EXACT COST 17.00 CREDITS — NO GENERATION AUTHORIZED**
+Status: **68/68 PROMPTS READY — EXACT COST 34.00 CREDITS — NO GENERATION AUTHORIZED**
 
 ## Model lock
 
-- model: `gpt_image_2_5` / GPT Image 2.5
-- variant: `flare`
+- model: `gpt_image_2` / GPT Image 2
 - quality: `low`
 - resolution: `1k`
 - aspect ratio: `16:9`
 - outputs per prompt: `1`
 - payment mode for future approved generation: credits (`use_unlim:false`)
-- exact provider preflight: `0.25 × 68 = 17.00 credits`
+- exact provider preflight: `0.50 × 68 = 34.00 credits`
 
 ## Reference packages
 
