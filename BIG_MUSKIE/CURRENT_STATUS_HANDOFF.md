@@ -7,7 +7,7 @@ Updated: 2026-09-24
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **GITHUB-ONLY REMOTION V3 RUNNER READY — BLOCKED ONLY ON FINAL PICTURE BINARY INGEST**  
+State: **PICTURE V3 REPLACEMENT CLEANUP — 2 PASS LOCKED / 7 REBUILDS OPEN**  
 Publication status: **REVIEW ONLY — NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,41 +336,44 @@ Final captions:
 
 ## Immediate next action
 
-**INGEST ONE EXACT FINAL PICTURE INPUT INTO GITHUB, THEN RUN DURABLE V3 ACTION**
+**CLOSE THE 7 OPEN REPLACEMENTS, THEN REBUILD CANONICAL REMOTION PICTURE V3**
 
-GitHub artifact audit run `36174431632` completed successfully.
+Locked PASS — do not regenerate:
+- **BM-B106 — WHAT SURVIVED**
+  - generation: `d31e098e-1a58-4c20-857f-0b5ae7c0010d`
+  - SHA-256: `2f566ca877e204c9a9ed7a2771735136ea5207d2e2d8395cd4e2437fe34132a4`
+- **BM-B114 ALT — A MACHINE DISAPPEARS**
+  - generation: `9d3e3f57-386a-4a21-bca8-f210c5461a77`
+  - SHA-256: `e1db0c550c1bc2985b309816f13784bffdac718e724fcfa38fccb2d437534e41`
 
-Verified GitHub-held inputs:
-- canonical Arthur WAV;
-- source archive V2 clean;
-- Arthur chunks;
-- reconstruction base7;
-- D03/D04 support;
-- 116-beat final manifest.
+Both locked passes require `HIA EXPLANATORY GFX` classification.
 
-Verified missing physical binaries:
-- full Picture V1/V2 MP4;
-- complete final 55-GFX pixel package;
-- 15 final reconstruction replacement PNGs;
-- 10 final cinematic V2 replacement PNGs.
+Open rebuilds:
+- BM-B076
+- BM-B083
+- BM-B085
+- BM-B038
+- BM-B041
+- BM-B051
+- BM-B052
 
-Do not substitute rejected/old files and do not regenerate.
+Anti-reject strategy:
+- B076: no visible undercarriage; no crawler/wheel/rail risk.
+- B083: explanatory policy GFX only; no fake EPA seal/document facsimile.
+- B085: only 1991 and 1995 allowed as generated numbers; exact factual sentence added in Remotion.
+- B038/B041: source-image edit only from real high-resolution US3531088A patent figure.
+- B051/B052: source-image edit only from real high-resolution US3375892A patent figure.
+- no free text-to-image technical-drawing generation for D03/D04.
 
-Required exact input for the durable runner:
-- `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
-- SHA-256 `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`
+Canonical files:
+- `REMOTION_V3/GENERATED_REPLACEMENTS_QC_V1.md`
+- `REMOTION_V3/GENERATED_REPLACEMENT_PASS_LOCK_V1.md`
+- `REMOTION_V3/GENERATED_REPLACEMENT_PROMPT_PACK_V2.md`
 
-Once that exact binary is GitHub-hosted as a Release/Actions artifact, the prepared workflow can:
-1. extract the 116 safe beat sources;
-2. render native Remotion V3;
-3. mux canonical Arthur;
-4. run exact runtime/frame/decode/audio QC;
-5. publish the finished V3 as a GitHub Actions artifact.
-
-Dropbox is explicitly excluded.
-No new generation is authorized.
-
-See:
-- `REMOTION_V3/GITHUB_MEDIA_POOL_AUDIT.md`
-- `.github/workflows/big_muskie_media_pool_audit.yml`
-- `.github/workflows/big_muskie_remotion_v3_render.yml`
+After 7/7 PASS:
+1. update final beat mapping;
+2. rebuild canonical Remotion Picture V3;
+3. full technical QC;
+4. full directorial QC;
+5. Picture Lock;
+6. only then RC.
