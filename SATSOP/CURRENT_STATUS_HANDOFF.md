@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 REFERENCE-FREE GENERATION COMPLETE / 40 PASSES LOCKED / 28 POSITIONS REMAIN**
+State: **STAGE 6 FINAL28 V5 GENERATED / 59 PASSES LOCKED / 9 POSITIONS UNRESOLVED**
 Publication status: **PREPRODUCTION — TEST VISUALS ONLY / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -172,8 +172,15 @@ Acquire and rights-log the real R01–R07 media required by the 10 reference-con
 - V4 attributable spend: **9.00 credits**;
 - V4 post-run balance: **1,158.07 credits**;
 - total accepted generated images: **40**;
-- remaining image jobs: **12 maximum** — 10 reference-conditioned plus 2 corrections;
-- remaining non-image GFX positions: **16**;
+- FINAL28 V5 jobs: **28/28 completed**, no retries;
+- FINAL28 V5 technical QC: **28/28 PASS** at 1344 × 752 PNG;
+- FINAL28 V5 directorial QC: **19 PASS / 2 CONDITIONAL / 7 FAIL**;
+- FINAL28 V5 attributable spend: **14.00 credits**;
+- FINAL28 V5 post-run balance: **1,144.07 credits**;
+- total accepted generated images after FINAL28 V5: **59 / 68**;
+- unresolved positions: **9**;
+- remaining unresolved visual positions: **9** — 2 editorial repairs and 7 replacements/rebuilds;
+- generated factual GFX bases require deterministic overlays before picture lock;
 - V2 grammar families: **54**;
 - historical V2 maximum remaining full-queue cost: **27.50 credits**, superseded by V3;
 - V2 generation authorization: **0.00 credits**.

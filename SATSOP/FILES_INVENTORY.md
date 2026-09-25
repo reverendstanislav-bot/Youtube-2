@@ -76,5 +76,11 @@ Updated: 2026-09-25
 | `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_JOBS.json` | Provider IDs, URLs and hashes | 18/18 complete |
 | `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_TECHNICAL_QC.json` | Decode and dimension verification | Pass |
 | `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_DIRECTORIAL_QC.md` | Strict V4 visual audit | 16 pass / 1 conditional / 1 fail |
+| `DEVELOPMENT/build_stage6_final28_v5.py` | Reproducible FINAL28 V5 prompt builder | Complete |
+| `DEVELOPMENT/download_stage6_final28_v5.py` | Downloads and verifies FINAL28 V5 outputs | Complete |
+| `STAGE_6/FINAL28_V5/SATSOP_FINAL28_PROMPTS_V5.json` | Exact 28-image prompt queue | Complete |
+| `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_JOBS.json` | Provider IDs, URLs, local files and hashes | 28/28 complete |
+| `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_TECHNICAL_QC.json` | Decode, dimensions and SHA-256 verification | Pass 28/28 |
+| `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_DIRECTORIAL_QC.md` | Strict FINAL28 visual audit | 19 pass / 2 conditional / 7 fail |
 
-The locked VO, exact timed beat map, test evidence, and corrected V4 queue exist. Forty generated images are accepted and locked. Ten reference-conditioned images, two corrections and 16 deterministic GFX positions remain. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map and complete generation evidence exist. Fifty-nine generated images are accepted and locked. Nine visual positions remain unresolved after FINAL28 V5 QC, and factual GFX bases still require deterministic overlays. No picture edit, render, or publication master exists for Episode 4.

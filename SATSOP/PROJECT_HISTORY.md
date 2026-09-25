@@ -175,3 +175,15 @@
 - Locked 16 additional outputs, bringing the total accepted generated pool to **40**.
 - Exact spend and observed balance movement both equal **9.00 credits**: 1,167.07 to 1,158.07.
 - Remaining image work: 10 reference-conditioned positions plus two corrections. Remaining non-image work: 16 deterministic GFX positions.
+
+## 2026-09-25 — Stage 6 FINAL28 V5 generation
+
+- User authorized all 28 remaining positions through Higgsfield at the locked GPT Image 2 / low / 1k / 16:9 profile.
+- Built individual prompts for 10 reference-sensitive positions, 16 GFX base plates and two replacements; site-sensitive views were reframed to avoid unsupported landmark identity where authenticated provider references were unavailable.
+- Preflight confirmed **0.50 credits each / 14.00 credits maximum**.
+- Submitted and completed **28/28** jobs with no retries.
+- Technical QC passed **28/28** at 1344 × 752 PNG with SHA-256 recorded.
+- Strict directorial QC scored **19 PASS / 2 CONDITIONAL / 7 FAIL**.
+- Locked 19 new assets, bringing the accepted pool to **59 / 68**; nine positions remain unresolved.
+- Exact attributable spend and balance movement both equal **14.00 credits**: 1,158.07 to 1,144.07.
+- Generated GFX outputs remain base plates; exact factual overlays must be built deterministically in the edit.

@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**REFERENCE-FREE GENERATION COMPLETE — 40 PASSES LOCKED — 28 POSITIONS REMAIN**
+**FINAL28 V5 GENERATED — 59 PASSES LOCKED — 9 POSITIONS UNRESOLVED**
 
 ## Canonical files
 
@@ -30,4 +30,4 @@ Updated: 2026-09-25
 - second-test QC: **8 PASS / 8 CONDITIONAL / 4 FAIL**;
 - accepted assets locked across both tests: **13**.
 
-The corrected V4 reference-free queue completed 18/18 with no retries and scored **16 PASS / 1 CONDITIONAL / 1 FAIL**. Sixteen new assets are locked, for **40 total accepted generated images**. Remaining work is 10 reference-conditioned images, two corrected replacements and 16 deterministic editorial GFX positions. Site-specific jobs remain blocked until real reference media IDs are attached; any further spend requires explicit approval.
+The user-authorized FINAL28 V5 queue completed 28/28 with no retries. Technical QC passed 28/28. Strict directorial QC scored **19 PASS / 2 CONDITIONAL / 7 FAIL**. Nineteen new assets are locked, for **59 total accepted generated images**. Nine positions remain unresolved. The generated GFX outputs are base plates and require deterministic factual overlays.
