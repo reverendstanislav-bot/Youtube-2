@@ -6,7 +6,7 @@ Updated: 2026-09-25
 
 Episode: **5 — Lake Peigneur / Jefferson Island Mine Inundation**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 5 — SOURCED ENGLISH V1 + CLAIM MAP + FACT CHECK COMPLETE**  
+State: **STAGE 6 — DIRECTORIAL V2 COMPLETE / FACT CHECK PASS / OWNER REVIEW**  
 Publication status: **PREPRODUCTION — NOT TTS READY**
 
 No TTS, image generation, video generation, or paid generation is authorized.
@@ -15,79 +15,104 @@ No TTS, image generation, video generation, or paid generation is authorized.
 
 - source ledger;
 - research evidence pack;
-- remaining research-gap controls;
-- blocked/qualified-number list;
-- documentary angle selection;
+- research-gap controls;
+- factual blocked/qualified-number list;
+- documentary angle;
 - packaging/retention architecture;
 - full claim → source map;
-- sourced English Narration V1;
-- directorial notes embedded in V1;
-- five embedded Shorts;
-- V1 line-level factual audit.
+- sourced Narration V1;
+- V1 fact check;
+- global V1 directorial/retention audit;
+- full English Narration V2 rewrite;
+- V2-aligned five-Short extraction map;
+- expanded V2 factual recheck;
+- directorial QC of V2.
 
-## V1 factual status
+## V1 audit result
 
-**PASS FOR DIRECTORIAL REVIEW.**
+V1 score: **76/100 — rewrite required**.
 
-High-risk controls:
-- MSHA number: 52 underground;
-- evacuation: less than one hour;
-- no human deaths;
-- precise initiating cause remains unresolved in official federal report;
-- no coordinate-conversion theory presented as fact;
-- no 1,300-ft-lake myth;
-- Delcambre Canal reversal retained;
-- temporary waterfall described only as roughly 150 ft;
-- land loss described as roughly 68 acres;
-- current ONEOK salt-cavern storage used only as a carefully separated modern epilogue.
+Main failures fixed:
+- cause dispute came too early;
+- Act I setup was too long;
+- dissolution explanation repeated;
+- evacuation was summarized rather than staged;
+- first irreversible surface payoff arrived too late;
+- legal aftermath was overweight;
+- ending was longer than necessary.
 
-## Current documentary thesis
+## V2 status
 
-> Two industrial systems occupied the same salt dome. A drilling operation opened a hydraulic connection with a salt mine. Once fresh water reached salt, the physical failure amplified itself. The evacuation succeeded. The landscape collapsed. The exact initiating technical error could not later be reconstructed conclusively.
+V2 directorial score: **91/100 — PASS FOR OWNER REVIEW**.
 
-## Current working title direction
+Spoken length:
+- **2,447 words**
+- estimated ~16.3–17.5 min before real Arthur timing.
 
-Primary:
+V2 architecture:
+0. Two warnings.
+1. Two industries / one salt dome.
+2. The connection.
+3. 52-person evacuation.
+4. Surface moves.
+5. Salt-failure feedback.
+6. Lake becomes the engine.
+7. Canal runs backward.
+8. Zero deaths.
+9. Forensic cause dispute.
+10. Settlements + ~250 layoffs.
+11. Modern salt-cavern industrial use.
+12. Invisible-map ending.
+
+## Current working packaging
+
+Primary title:
 **The Day a Louisiana Lake Fell Into a Salt Mine**
 
-Alternative:
+Alternate:
 **They Drilled One Hole. Then the Lake Disappeared.**
 
 Thumbnail direction:
-surface lake/drilling rig over cutaway salt-mine void;
-text:
+surface lake + drilling rig over cutaway mine;
+compact text:
 **THE LAKE DISAPPEARED**
 
-Not final packaging yet.
+Packaging is still review-state, not final lock.
+
+## Five Shorts
+
+1. The hole did not stay small.
+2. 52 people were underground.
+3. The canal ran backward.
+4. The famous cause is too simple.
+5. The mine died; the salt dome did not.
+
+Exact IN/OUT waits for final Arthur VO and word-level timing.
+
+## Factual red lines
+
+Do not:
+- present coordinate conversion as proven;
+- say the lake became 1,300 ft deep;
+- state exact underground breach geometry as verified;
+- turn settlement into causal proof;
+- remove "roughly" from ~1,228 ft, ~68 acres or ~150-ft waterfall without stronger primary closure.
 
 ## Immediate next action
 
-**Global directorial / retention audit of V1.**
-
-Audit must test:
-- cold-open strength;
-- whether geology exposition arrives too early;
-- duplicate explanations of dissolution;
-- pacing of evacuation;
-- timing of vortex spectacle;
-- whether uncertainty section slows momentum;
-- whether legal aftermath is too long;
-- ending strength;
-- Short extraction independence;
-- estimated Arthur runtime.
-
-Then:
-1. write English V2;
-2. repeat line-by-line fact check;
-3. create spoken-only TTS clean text;
-4. exact characters/chunks/cost;
-5. ask user for explicit TTS spend approval;
-6. only after approval generate Arthur VO;
-7. word-level transcript + runtime;
-8. full visual beat map;
-9. archive/source inventory;
-10. generation-gap analysis + complete prompt pack;
-11. exact image count + credit budget;
-12. explicit generation approval.
+After owner approval of V2:
+1. create spoken-only TTS clean text;
+2. exact character count;
+3. chunk plan under provider limits;
+4. exact Arthur credit cost;
+5. show the user cost and wait for explicit approval;
+6. only then generate TTS;
+7. word-level transcript + exact runtime;
+8. Stage 7 full visual beat map;
+9. real archive/source inventory;
+10. generation-gap analysis;
+11. complete prompt pack;
+12. exact image count + budget;
+13. explicit generation approval.
 
 **Video generation remains prohibited.**
