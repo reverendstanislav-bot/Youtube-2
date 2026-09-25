@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 4 VO GENERATED — AUTOMATED QC PASS — HUMAN PRONUNCIATION LISTEN PENDING.**
+**STAGE 5 LOCKED — VO LOCKED — 109-BEAT VISUAL MAP COMPLETE.**
 
-Research, English V2, fact check, directorial review, spoken-only narration, and the TTS preflight are complete. Four authorized Arthur/ElevenLabs jobs completed, and the local PCM VO master runs **00:19:23.920**. Automated decode, level, clipping, silence, and offline alignment checks passed. Human listening remains required for `Satsop`, `Bonneville`, `Grays Harbor`, and the three joins before the master is pronunciation-approved. No beat map, generated imagery, or edit has been produced.
+Research, English V2, fact check, directorial review, narration generation, automated QC, and the listening gate are complete. The locked PCM VO runs **00:19:23.920**. Stage 5 maps the full runtime into **109 explicit Remotion beats** with asset, provenance, motion, GFX, and rights instructions. No image/video generation or picture edit has been produced.
 
 Start every new chat with:
 
@@ -16,8 +16,8 @@ Start every new chat with:
 4. `RESEARCH/VISUAL_SOURCE_LEDGER.md`
 5. `DEVELOPMENT/DOCUMENTARY_ANGLES.md`
 6. `DEVELOPMENT/PACKAGING_AND_RETENTION.md`
-7. `DEVELOPMENT/STAGE_4_QC.md`
-8. `AUDIO/TTS_GENERATION_MANIFEST_V1.json`
+7. `DEVELOPMENT/STAGE_5_LOCK.md`
+8. `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.md`
 
 ## Episode rule
 

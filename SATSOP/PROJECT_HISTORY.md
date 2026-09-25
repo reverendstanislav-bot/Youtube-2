@@ -68,3 +68,23 @@
 - Locked exact total at **46.80 credits**.
 - Verified workspace balance at **1,353.07 credits** before any paid submission.
 - Submitted **zero** audio jobs and spent **zero** credits.
+
+## 2026-09-25 — Stage 4 narration generation
+
+- Received explicit approval for 46.80 credits and exactly four Arthur/ElevenLabs jobs.
+- Submitted four jobs with no retry, alternate voice, or additional take.
+- Downloaded and hash-locked all four completed MP3 outputs.
+- Assembled the canonical PCM master at **00:19:23.920**.
+- Verified full decoding, zero clipped samples, and no sustained silence run over 1.5 seconds at the audit threshold.
+- Produced local offline word-level alignment and recorded all provider IDs and media hashes.
+- Prepared six short listening checks for names and joins.
+- User directed that the listening gate be treated as passed and the existing VO locked.
+
+## 2026-09-25 — Stage 5 timed visual map
+
+- Locked the VO master at SHA-256 `5e9afb2310f812cf39aff3f37a8d4500bbca2988ae57ba1633244ed65d9d070c`.
+- Converted the exact VO timing into **109 contiguous Remotion beats**.
+- Covered `00:00:00.000` through `00:19:23.920` with no gaps or overlaps.
+- Assigned every beat a specific asset class, visual requirement, provenance rule, motion instruction, GFX instruction, and rights/QC control.
+- Completed the source-first acquisition plan and directorial audit.
+- Submitted **zero** image or video generation jobs; reconstruction count remains zero until archive acquisition and missing-visual audit.

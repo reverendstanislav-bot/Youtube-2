@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**FOUR TTS JOBS COMPLETE — VO MASTER ASSEMBLED — AUTOMATED QC PASS — HUMAN PRONUNCIATION LISTEN PENDING**
+**FOUR TTS JOBS COMPLETE — VO MASTER ASSEMBLED — USER LISTENING GATE ACCEPTED — VO LOCKED**
 
 ## Authorized generation
 
@@ -46,11 +46,11 @@ The four provider MP3 files and WAV master are ignored by Git and retained local
 
 Most ASR differences are representational: written number words versus digits and compounds split into separate words.
 
-## Remaining approval gate
+## Listening gate disposition
 
-Automated ASR rendered `Satsop` inconsistently as `Satsup` or `Satsap`. This may be a tiny-model transcription limitation, but it cannot prove the intended `SAT-sop` pronunciation. `Bonneville` and `Grays Harbor` also remain on the mandatory human listening checklist.
+Automated ASR rendered `Satsop` inconsistently as `Satsup` or `Satsap`. This may be a tiny-model transcription limitation. The user subsequently directed that the listening check be treated as passed, the VO be locked, and Stage 5 begin.
 
-Do not label the voice master fully pronunciation-approved until those names and the three chunk joins have been heard. No regeneration is authorized by the original 46.80-credit approval.
+The existing master is therefore the locked production VO. No regeneration is authorized by the original 46.80-credit approval.
 
 ## Balance note
 

@@ -7,8 +7,8 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 4 VO GENERATED / AUTOMATED QC PASS / HUMAN PRONUNCIATION LISTEN PENDING**
-Publication status: **PREPRODUCTION — VO MASTER EXISTS / NO BEAT MAP / ASSETS / EDIT**
+State: **STAGE 5 LOCKED / VO LOCKED / 109-BEAT VISUAL MAP COMPLETE**
+Publication status: **PREPRODUCTION — SOURCE ACQUISITION NEXT / NO GENERATED VISUALS / NO EDIT**
 
 ## Current documentary direction
 
@@ -117,9 +117,29 @@ Remaining before visual production:
 3. add a cleared human account if it improves rather than distorts the structure;
 4. authenticate a unit-by-unit plan for the future site-map graphic.
 
+## Stage 5 deliverables
+
+- user directed the listening gate to be treated as passed and the existing VO locked;
+- full runtime mapped into **109** contiguous Remotion beats;
+- average beat duration: **10.678 seconds**;
+- no beat under 5 seconds or over 19 seconds;
+- every beat includes asset class, specific requirement, provenance, motion, GFX, and rights/QC controls;
+- source-first acquisition plan and directorial audit complete;
+- paid image/video generation: **0**;
+- generation count remains **0 pending archive acquisition and missing-visual audit**.
+
+Canonical files:
+
+- `DEVELOPMENT/STAGE_5_LOCK.md`
+- `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.md`
+- `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.csv`
+- `STAGE_5/SATSOP_STAGE_5_BEAT_MAP_AUDIT.json`
+- `STAGE_5/STAGE_5_DIRECTORIAL_AUDIT_V1.md`
+- `STAGE_5/STAGE_5_ASSET_ACQUISITION_PLAN_V1.md`
+
 ## Next authorized work
 
-Perform the human pronunciation/join listen, then lock the VO master and build the audio-timed beat map. No retry or additional generation spend is authorized by this handoff.
+Acquire and rights-log official documents, authenticated archive, current footage, and site-plan sources. Then bind actual assets to the 109 beats and prepare a prompt/cost package only for genuine remaining reconstruction gaps. No additional paid generation is authorized.
 
 ## Mandatory inherited rules
 
