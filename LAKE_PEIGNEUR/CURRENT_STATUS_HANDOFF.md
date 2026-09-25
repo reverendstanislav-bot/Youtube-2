@@ -6,8 +6,8 @@ Updated: 2026-09-25
 
 Episode: **5 — Lake Peigneur / Jefferson Island Mine Inundation**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 8 COMPLETE — 87/87 BEATS SOURCE-MAPPED / RIGHTS AUDITED / GENERATION GAPS LOCKED**  
-Publication status: **PREPRODUCTION — READY FOR PROMPT PACK, NOT GENERATION**
+State: **STAGE 8A COMPLETE — ARCHIVE/SOURCE PACK COLLECTED / ARCHIVAL FRAME REVIEW NEXT**  
+Publication status: **PREPRODUCTION — ARCHIVE REVIEW BEFORE PROMPT PACK**
 
 No additional TTS, image generation, video generation, or paid generation is authorized.
 
@@ -107,9 +107,39 @@ Directory:
 - `GENERATION_GAP_ANALYSIS_V1.md`
 - `README.md`
 
+## Archive collection update — 2026-09-25
+
+A full archive/source pack was built before prompt generation.
+
+GitHub Actions:
+- run: `36176288181`
+- artifact id: `10882273779`
+- artifact: `LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1`
+- build: **SUCCESS**
+- artifact digest: `sha256:67e97d6d664ae14c908598494f3fb766918ff5c409e057e83ab2dc0fac16ba86`
+- archive payload: **108 files**
+
+Contents include:
+- full MSHA 1981 federal report;
+- FY1981 MSHA report;
+- Appendix T;
+- Appendix EE pages 120–149;
+- 40 large embedded photo extractions from Appendix EE;
+- Appendix EE contact sheets;
+- USGS geology reports;
+- USGS 1963 Delcambre historical topo;
+- USGS public-domain Landsat context;
+- CC-licensed map references;
+- licenses, source links and SHA256 manifests.
+
+Appendix EE frames remain **CONDITIONAL_USE** until each chosen image receives an individual source/credit check.
+
+Canonical manifest:
+`STAGE_8/ARCHIVE_MATERIALS_MANIFEST_V1.md`
+
 ## Immediate next action
 
-**Stage 9 — build the complete 9-prompt Reconstruction Prompt Pack.**
+**Stage 8B — inspect the collected Appendix EE / federal archive frame-by-frame and remap the 87 beats to the strongest genuine archival assets before any reconstruction prompt pack is written.**
 
 For every prompt:
 - exact beat(s);
