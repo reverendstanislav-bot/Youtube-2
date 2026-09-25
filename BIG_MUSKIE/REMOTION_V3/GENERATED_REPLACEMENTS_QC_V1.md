@@ -2,7 +2,7 @@
 
 Date: 2026-09-25
 
-Status: **2 PASS / 1 HOLD / 7 REJECT**
+Status: **2 LOCKED PASS / 1 HOLD / 7 REBUILD**
 
 Scope: ten separately generated 16:9 replacement candidates for the non-final editor-native / blurry-document insert cleanup.
 
@@ -38,6 +38,26 @@ Therefore the canonical fix for B038/B041/B051/B052 is:
 - use real source linework as the visible base;
 - optionally add restrained HIA framing/highlights;
 - do not AI-invent the engineering drawing itself.
+
+## Locked PASS assets
+
+See:
+- `GENERATED_REPLACEMENT_PASS_LOCK_V1.md`
+
+Exact frozen PASS assets:
+- BM-B106 — generation `d31e098e-1a58-4c20-857f-0b5ae7c0010d`
+- BM-B114 ALT — generation `9d3e3f57-386a-4a21-bca8-f210c5461a77`
+
+Both are classified as `HIA EXPLANATORY GFX`, never `HISTORICAL SOURCE`.
+
+## Anti-reject rebuild prompts
+
+The seven rebuild targets now use:
+- `GENERATED_REPLACEMENT_PROMPT_PACK_V2.md`
+
+Critical change:
+- B076/B083/B085 remain standalone generated explanatory GFX with stricter factual/geometry controls;
+- B038/B041/B051/B052 are no longer allowed as free text-to-image generations and require real high-resolution D03/D04 source crops as image-edit inputs.
 
 ## Locked next state
 
