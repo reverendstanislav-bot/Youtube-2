@@ -16,7 +16,7 @@ GitHub Actions build:
 
 Inner production archive:
 - `LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip`
-- unpacked archive contents: **108 files**
+- unpacked archive contents: **98 files**
 - unpacked payload size represented in ZIP listing: **502,761,725 bytes**
 
 ## Included
@@ -32,7 +32,7 @@ Inner production archive:
 - Appendix EE pages 120–149 rendered as JPEGs;
 - page-caption index CSV;
 - high-resolution embedded image extractions from the photo section;
-- **40 extracted large RGB image files**;
+- **39 extracted large RGB image files**;
 - four Appendix EE contact sheets in editor helpers.
 
 Rights state:
