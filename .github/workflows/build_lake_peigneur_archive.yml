@@ -1,0 +1,261 @@
+name: Build Lake Peigneur Archive Pack
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build_lake_peigneur_archive.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils python3-pil zip
+
+      - name: Build archive/source pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT="$GITHUB_WORKSPACE/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"
+          mkdir -p "$ROOT"/{01_PRIMARY_MSHA,02_MSHA_APPENDIX_EE_CONDITIONAL,03_USGS_HISTORICAL_GEOLOGY_PD,04_USGS_HISTORICAL_MAPS_PD,05_PUBLIC_DOMAIN_CONTEXT,06_CC_LICENSED_REFERENCE,07_REFERENCE_ONLY_LINKS,08_EDITOR_HELPERS}
+          cd "$ROOT"
+
+          curl -L -A 'Mozilla/5.0' -fsS -o 01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.pdf 'https://books.google.com/books/download?id=EbjC-q99VHAC&output=pdf'
+          curl -L -A 'Mozilla/5.0' -fsS -o 01_PRIMARY_MSHA/MSHA_FY1981_Annual_Report.pdf 'https://www.osti.gov/servlets/purl/5260059'
+
+          curl -L -A 'Mozilla/5.0' -fsS -o 03_USGS_HISTORICAL_GEOLOGY_PD/USGS_Bulletin_0669_Salt_Resources_US.pdf 'https://pubs.usgs.gov/bul/0669/report.pdf'
+          curl -L -A 'Mozilla/5.0' -fsS -o 03_USGS_HISTORICAL_GEOLOGY_PD/USGS_Bulletin_0845_Western_US_Guidebook.pdf 'https://pubs.usgs.gov/bul/0845/report.pdf'
+          curl -L -A 'Mozilla/5.0' -fsS -o 03_USGS_HISTORICAL_GEOLOGY_PD/USGS_WRI_90_4060_Salt_Dome_Map.pdf 'https://pubs.usgs.gov/wri/1990/4060/report.pdf'
+          curl -L -A 'Mozilla/5.0' -fsS -o 03_USGS_HISTORICAL_GEOLOGY_PD/USGS_Bulletin_1794_Gulf_Coast_Salt_Domes.pdf 'https://pubs.usgs.gov/bul/1794/report.pdf'
+
+          curl -L -A 'Mozilla/5.0' -fsS -o 04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/PDF/LA/24000/LA_Delcambre_331821_1963_24000_geo.pdf'
+
+          curl -L -A 'Mozilla/5.0' -fsS -o 05_PUBLIC_DOMAIN_CONTEXT/USGS_Landsat8_Salt_Dome_Islands_LA_PD.png 'https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/20241223_Salt_Dome_Islands_LA.png'
+
+          curl -L -A 'Mozilla/5.0' -fsS -o 06_CC_LICENSED_REFERENCE/Lake_Peigneur_OSM_CC_BY_2.5.jpg 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Lake_Peigneur.jpg'
+          curl -L -A 'Mozilla/5.0' -fsS -o 06_CC_LICENSED_REFERENCE/MAPPA_PEIGNEUR_CC_BY_4.0_REFERENCE.jpeg 'https://upload.wikimedia.org/wikipedia/commons/3/3c/MAPPA_PEIGNEUR.jpeg'
+
+          pdftotext -layout 01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.pdf 01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.txt
+          pdfseparate -f 97 -l 97 01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.pdf 01_PRIMARY_MSHA/MSHA_Appendix_T_Estimated_Drill_Hole_Location_p97.pdf
+          pdftoppm -f 97 -l 97 -jpeg -jpegopt quality=95 -r 220 01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.pdf 01_PRIMARY_MSHA/MSHA_Appendix_T_Estimated_Drill_Hole_Location >/dev/null 2>&1
+
+          python3 - <<'PY'
+          import subprocess, pathlib
+          pdf='01_PRIMARY_MSHA/MSHA_FY1981_Annual_Report.pdf'
+          hit=None
+          for p in range(1,200):
+              t=subprocess.run(['pdftotext','-f',str(p),'-l',str(p),'-layout',pdf,'-'],capture_output=True,text=True).stdout
+              if '52 people underground' in t:
+                  hit=p
+                  break
+          if hit:
+              pathlib.Path('01_PRIMARY_MSHA/MSHA_FY1981_RELEVANT_PAGE.txt').write_text(str(hit))
+              subprocess.run(['pdfseparate','-f',str(hit),'-l',str(hit),pdf,'01_PRIMARY_MSHA/MSHA_FY1981_Jefferson_Island_Evacuation_page.pdf'],check=True)
+              subprocess.run(['pdftoppm','-f',str(hit),'-l',str(hit),'-jpeg','-jpegopt','quality=95','-r','220',pdf,'01_PRIMARY_MSHA/MSHA_FY1981_Jefferson_Island_Evacuation'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+          PY
+
+          pdftoppm -f 120 -l 149 -jpeg -jpegopt quality=94 -r 180 01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.pdf 02_MSHA_APPENDIX_EE_CONDITIONAL/EE >/dev/null 2>&1
+
+          python3 - <<'PY'
+          import subprocess,csv,pathlib
+          from PIL import Image,ImageDraw
+          pdf='01_PRIMARY_MSHA/MSHA_1981_Jefferson_Island_Mine_Inundation.pdf'
+          rows=[]
+          for p in range(120,150):
+              t=subprocess.run(['pdftotext','-f',str(p),'-l',str(p),'-layout',pdf,'-'],capture_output=True,text=True).stdout
+              rows.append([p,' '.join(t.split()),'CONDITIONAL_USE — embedded in federal report; item-level photo credit not reliably exposed'])
+          with open('02_MSHA_APPENDIX_EE_CONDITIONAL/APPENDIX_EE_INDEX.csv','w',newline='',encoding='utf-8') as f:
+              w=csv.writer(f)
+              w.writerow(['pdf_page','caption_ocr','rights_status'])
+              w.writerows(rows)
+
+          tmp=pathlib.Path('/tmp/ee_extract')
+          tmp.mkdir(exist_ok=True)
+          out=pathlib.Path('02_MSHA_APPENDIX_EE_CONDITIONAL/EXTRACTED_EMBEDDED_IMAGES')
+          out.mkdir(exist_ok=True)
+          for p in range(122,147):
+              for f in tmp.glob('*'):
+                  f.unlink()
+              subprocess.run(['pdfimages','-f',str(p),'-l',str(p),'-png',pdf,str(tmp/f'p{p}')],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+              kept=0
+              for f in sorted(tmp.glob('*.png')):
+                  try:
+                      im=Image.open(f)
+                      w,h=im.size
+                      if im.mode in ('RGB','RGBA') and w>=1000 and h>=500:
+                          kept+=1
+                          im.save(out/f'EE_p{p:03d}_img{kept:02d}_{w}x{h}.png',optimize=True)
+                  except Exception:
+                      pass
+
+          files=sorted(pathlib.Path('02_MSHA_APPENDIX_EE_CONDITIONAL').glob('EE-*.jpg'))
+          thumbs=[]
+          for f in files:
+              im=Image.open(f).convert('RGB')
+              im.thumbnail((320,420))
+              c=Image.new('RGB',(340,460),'white')
+              c.paste(im,((340-im.width)//2,10))
+              ImageDraw.Draw(c).text((10,435),f.name,fill='black')
+              thumbs.append(c)
+          for page in range((len(thumbs)+7)//8):
+              chunk=thumbs[page*8:(page+1)*8]
+              sheet=Image.new('RGB',(1360,920),'white')
+              for i,im in enumerate(chunk):
+                  sheet.paste(im,((i%4)*340,(i//4)*460))
+              sheet.save(f'08_EDITOR_HELPERS/APPENDIX_EE_CONTACT_{page+1:02d}.jpg',quality=90)
+          PY
+
+          cat > README_FIRST.md <<'EOF'
+          # LAKE PEIGNEUR — ARCHIVE / SOURCE MATERIALS V1
+
+          Collected before any image generation.
+
+          Folders:
+          1. PRIMARY MSHA — federal investigation, FY1981 report, Appendix T.
+          2. MSHA APPENDIX EE — historical/source pages and extracted embedded images.
+          3. USGS HISTORICAL GEOLOGY — public-domain federal geology reports/maps.
+          4. USGS HISTORICAL MAPS — pre-disaster-era Delcambre topo map.
+          5. PUBLIC DOMAIN CONTEXT — USGS Landsat regional context.
+          6. CC LICENSED REFERENCE — OSM and CC-BY explanatory map.
+          7. REFERENCE ONLY LINKS — copyrighted or un-cleared sources; do not reuse page imagery.
+          8. EDITOR HELPERS — contact sheets only.
+
+          IMPORTANT:
+          Appendix EE photographs are included for archival research but remain CONDITIONAL_USE until the source/credit of the individual photograph is confirmed. Do not automatically label those frames HISTORICAL SOURCE merely because they appear in a federal report.
+
+          No UPI, Washington Post, YouTube, Shutterstock, ONEOK, 64 Parishes or other copyrighted page imagery has been copied into this archive.
+          EOF
+
+          cat > LICENSE_NOTES.md <<'EOF'
+          # Rights / License Notes
+
+          CLEARED / PUBLIC DOMAIN:
+          - Federal-created MSHA text/figures.
+          - USGS reports, maps and Landsat image.
+          - USGS Historical Topographic Map.
+
+          CLEARED WITH ATTRIBUTION:
+          - Lake Peigneur OpenStreetMap image: © OpenStreetMap contributors, CC BY 2.5.
+          - MAPPA PEIGNEUR: Enrico Cabianca, CC BY 4.0. Reference geometry only.
+
+          CONDITIONAL:
+          - MSHA Appendix EE photographs/pages. Item-level photographer/source credits are not reliably exposed in OCR. Use for research/editorial planning until each chosen photo is traced/cleared.
+
+          REFERENCE ONLY:
+          - UPI, Washington Post, AAPG/GCAGS papers, Louisiana Geological Survey paid publications, 64 Parishes, ONEOK corporate imagery, YouTube/stock footage.
+          EOF
+
+          cat > 07_REFERENCE_ONLY_LINKS/REFERENCE_ONLY_LINKS.md <<'EOF'
+          # Reference-only sources
+
+          UPI 1980-11-21:
+          https://www.upi.com/Archives/1980/11/21/Drilling-rig-breaks-into-salt-mine-cavity-draining-lake/6665343630800/
+
+          UPI 1980-11-22:
+          https://www.upi.com/Archives/1980/11/22/Texaco-says-its-oil-rig-was-in-right-place/2760343717200/
+
+          UPI 1980-11-24:
+          https://www.upi.com/Archives/1980/11/24/Salt-mine-fire-subsides-workers-seek-jobs/1411343890000/
+
+          UPI 1983-07-07:
+          https://www.upi.com/Archives/1983/07/07/Settlement-reached-in-Jeff-Island-accident/4485426398400/
+
+          LGS Guidebook Series:
+          https://uas.lsu.edu/lgs/publications/guidebook-series.php
+
+          LGS Geological Pamphlets:
+          https://www.feti.lsu.edu/lgs/publications/geological-pamphlets.php
+
+          Autin 1984 GCAGS:
+          https://archives.datapages.com/data/gcags/data/034/034001/0293.htm
+
+          Kumar 1982 HGS:
+          https://archives.datapages.com/data/HGS/vol24/no06/02.htm
+
+          64 Parishes:
+          https://64parishes.org/entry/lake-peigneur-drilling-accident
+
+          ONEOK JISH:
+          https://www.oneok.com/jish
+
+          Babin v. Texaco:
+          https://openjurist.org/449/so2d/718/babin-v-texaco-inc
+
+          Melancon v. Texaco:
+          https://law.justia.com/cases/federal/appellate-courts/F2/659/551/318621/
+          EOF
+
+          cat > 06_CC_LICENSED_REFERENCE/ATTRIBUTION.txt <<'EOF'
+          Lake_Peigneur_OSM_CC_BY_2.5.jpg
+          Source: https://commons.wikimedia.org/wiki/File:Lake_Peigneur.jpg
+          Credit: © OpenStreetMap contributors
+          License: CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/
+
+          MAPPA_PEIGNEUR_CC_BY_4.0_REFERENCE.jpeg
+          Source: https://commons.wikimedia.org/wiki/File:MAPPA_PEIGNEUR.jpeg
+          Author: Enrico Cabianca
+          License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+          NOTE: later self-published schematic; reference only, not canonical geometry.
+          EOF
+
+          cat > 05_PUBLIC_DOMAIN_CONTEXT/USGS_Landsat8_LICENSE.txt <<'EOF'
+          USGS Landsat 8 Image of the Salt Dome Islands of Louisiana.
+          Source: https://www.usgs.gov/media/images/landsat-8-image-salt-dome-islands-louisiana
+          Sources/Usage: Public Domain.
+          Landsat 8 OLI, Path 23 Row 39, December 23, 2024.
+          EOF
+
+          cat > 04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_LICENSE.txt <<'EOF'
+          USGS 1:24,000 Delcambre, Louisiana historical topo map.
+          Map date: 1963; historical scan ID 331821.
+          U.S. Geological Survey federal work / public domain.
+          EOF
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,csv
+          rows=[]
+          for p in sorted(Path('.').rglob('*')):
+              if p.is_file() and p.name not in ('ARCHIVE_ASSET_MANIFEST.csv','SHA256SUMS.txt'):
+                  h=hashlib.sha256()
+                  with p.open('rb') as f:
+                      for c in iter(lambda:f.read(1024*1024),b''):
+                          h.update(c)
+                  rel=str(p)
+                  status='REFERENCE'
+                  if rel.startswith('01_PRIMARY_MSHA/'): status='PRIMARY_GOV'
+                  elif rel.startswith('02_MSHA_APPENDIX_EE_CONDITIONAL/'): status='CONDITIONAL_HISTORICAL'
+                  elif rel.startswith(('03_USGS_HISTORICAL_GEOLOGY_PD/','04_USGS_HISTORICAL_MAPS_PD/','05_PUBLIC_DOMAIN_CONTEXT/')): status='PUBLIC_DOMAIN'
+                  elif rel.startswith('06_CC_LICENSED_REFERENCE/'): status='CC_LICENSED'
+                  elif rel.startswith('07_REFERENCE_ONLY_LINKS/'): status='REFERENCE_ONLY'
+                  elif rel.startswith('08_EDITOR_HELPERS/'): status='EDITOR_HELPER'
+                  rows.append([rel,p.stat().st_size,h.hexdigest(),status])
+          with open('ARCHIVE_ASSET_MANIFEST.csv','w',newline='',encoding='utf-8') as f:
+              w=csv.writer(f)
+              w.writerow(['file','size_bytes','sha256','rights_status'])
+              w.writerows(rows)
+          PY
+
+          find . -type f -not -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+
+          cd "$GITHUB_WORKSPACE"
+          zip -qr LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1
+          ls -lh LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip
+          echo "FILES=$(find LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -type f | wc -l)"
+          echo "EE_PAGES=$(find LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/02_MSHA_APPENDIX_EE_CONDITIONAL -maxdepth 1 -name 'EE-*.jpg' | wc -l)"
+          echo "EE_EXTRACTED=$(find LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/02_MSHA_APPENDIX_EE_CONDITIONAL/EXTRACTED_EMBEDDED_IMAGES -type f | wc -l)"
+          sha256sum LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip
+
+      - name: Upload archive pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1
+          path: LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1.zip
+          compression-level: 0
+          retention-days: 30
