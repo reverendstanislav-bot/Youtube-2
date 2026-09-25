@@ -381,3 +381,18 @@ Future history entries must record:
 - Six PASS frames may enter Picture V2.
 - Four rejects must be regenerated and re-QC'd before V2 patch.
 
+
+
+## 2026-09-24 — PICTURE ASSEMBLY V2 GFX REPLACEMENT PATCH
+
+- Closed the cinematic GFX cleanup block at **10/10 production-accepted replacements**.
+- Applied replacements for **FX001 / FX002 / FX013 / FX016 / FX033 / FX036 / FX045 / FX047 / FX048 / FX049**.
+- FX013 and FX016 were accepted by the user with the known caption-safe compromise.
+- FX048 received an additional zero-cost cleanup removing incorrect generated technical-number text before integration.
+- Built `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4` as a picture-only review patch over verified V1.
+- Runtime: **23:46.400**; **1920×1080 / 25 fps / 35,660 frames**.
+- Arthur audio stream is byte-identical at the elementary-stream hash level to V1.
+- Full decode QC: **PASS**.
+- V2 SHA-256: `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`.
+- V2 is **REVIEW ONLY**, not RC/final.
+- If approved, reproduce the accepted patch map in canonical Remotion before RC/final.
