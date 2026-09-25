@@ -1,36 +1,31 @@
 # LAKE PEIGNEUR — TTS CHUNK MANIFEST V1
 
-Updated: 2026-09-25
-Status: **FINAL PREFLIGHT SPLIT / NOT GENERATED**
+Updated: 2026-09-25  
+Status: **GENERATED — SEE TTS_GENERATION_MANIFEST_V1.md**
 
-Source: `SCRIPT/NARRATION_V2_EN_TTS_CLEAN.txt`
+Source:
+`SCRIPT/NARRATION_V2_EN_TTS_CLEAN.txt`
 
 Rules:
-- paragraph boundaries only;
+- preserve canonical spoken wording;
+- split only between complete paragraphs;
 - no sentence split;
-- provider hard limit <5,000 chars;
-- production target <=3,600 chars.
+- four approved Arthur / ElevenLabs jobs;
+- total spend exactly **39.60 credits**.
 
-| Chunk | Chars | Words | Exact cost |
-|---|---:|---:|---:|
-| 01 | 3,558 | 549 | 10.80 |
-| 02 | 3,532 | 576 | 10.65 |
-| 03 | 3,587 | 556 | 10.80 |
-| 04 | 2,444 | 364 | 7.35 |
-| **Total** | **13,121** | **2,045** | **39.60** |
+| Chunk | Chars | Words | Cost | Boundary |
+|---:|---:|---:|---:|---|
+| 01 | 3558 | 549 | 10.80 | ends: `Now water was entering that system.` |
+| 02 | 3180 | 519 | 9.60 | ends: `Ground continued to collapse.` |
+| 03 | 3247 | 512 | 9.75 | ends: `...in the way Diamond Crystal alleged.` |
+| 04 | 3136 | 465 | 9.45 | ends: `...the systems that matter most.` |
+| **Total** | **13121** | **2045** | **39.60** | |
 
-Boundary audit:
-- 01 begins: `On November 20, 1980, a drilling crew on Lake Peigneur had a problem.`
-- 01 ends: `Now water was entering that system.`
-- 02 begins: `The mine had only one safe strategy left: move people out before flooding, ground failure or loss of access turned distance into a trap.`
-- 02 ends: `Those two systems were now coupled.`
-- 03 begins: `The faster the lake fed the failure, the more the failure could change the route available to the lake.`
-- 03 ends: `Diamond Crystal originally sued Texaco for two hundred and sixty million dollars.`
-- 04 begins: `In 1983, Diamond Crystal accepted a thirty-two-million-dollar settlement from Texaco and Wilson Brothers.`
-- 04 ends: `And the systems we cannot see can be the systems that matter most.`
+The canonical clean master includes formatting separators/final newline outside the four independent job payloads. Spoken content is continuous and complete.
 
-The clean master has 7 extra formatting characters relative to the four independent payloads: 6 characters from three paragraph separators at job boundaries plus one final newline.
+Chunk 01 job: `d574664e-51e2-4849-a69a-c87f1c1e1e3c`  
+Chunk 02 job: `ce01243f-382c-4b47-a3e0-28ebed0447fd`  
+Chunk 03 job: `b40ac1de-544c-4bb9-ac3a-cd76d2d5ac19`  
+Chunk 04 job: `dac52f0e-1019-4687-a33d-fb72b0962650`
 
-Embedded Shorts are not spoken twice in the long-form master.
-
-Any wording change invalidates this count and requires a fresh cost preflight.
+No retry was submitted.
