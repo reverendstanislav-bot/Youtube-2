@@ -6,8 +6,8 @@ Updated: 2026-09-25
 
 Episode: **5 — Lake Peigneur / Jefferson Island Mine Inundation**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **STAGE 8A COMPLETE — ARCHIVE/SOURCE PACK COLLECTED / ARCHIVAL FRAME REVIEW NEXT**  
-Publication status: **PREPRODUCTION — ARCHIVE REVIEW BEFORE PROMPT PACK**
+State: **STAGE 8B COMPLETE — ARCHIVE CURATED / 87-BEAT REMAP LOCKED / PROMPT PACK NEXT**
+Publication status: **PREPRODUCTION — RIGHTS-CONDITIONAL ARCHIVE / NO PAID GENERATION AUTHORIZED**
 
 No additional TTS, image generation, video generation, or paid generation is authorized.
 
@@ -163,3 +163,35 @@ After the entire 9-prompt pack passes QC:
 4. no automatic retries.
 
 **No paid generation is currently authorized.**
+
+
+## Stage 8B completion — 2026-09-25
+
+Archival frame review and full 87-beat remap completed.
+
+Final beat-mode totals:
+- REAL: 19 beats (Appendix EE assignments remain CONDITIONAL pending item-level rights clearance)
+- REAL_CONTEXT: 5
+- DOCUMENT: 24
+- MAP: 11
+- GFX: 21
+- RECONSTRUCTION: 7 beats
+
+Final unique generated-image requirement:
+**5 unique reconstruction images**
+
+Prospective image cost:
+**5 × Higgsfield × 0.5 credit = 2.5 credits**
+
+No image generation was performed. No retries. No video generation.
+
+New canonical Stage 8B files:
+- STAGE_8B_ARCHIVE_FRAME_QC.md
+- STAGE_8B_ARCHIVE_SHORTLIST.csv
+- STAGE_8B_FINAL_87_BEAT_ASSET_MAP.csv
+- STAGE_8B_RECONSTRUCTION_GAPS_FINAL.md
+
+Important: Appendix EE is authentic historical material, but selected photographs remain CONDITIONAL_USE because item-level photographer/source rights could not be established from the accessible federal report/catalog records. Do not mark them HISTORICAL SOURCE or publication-cleared until that provenance gate is resolved.
+
+Immediate next action:
+Stage 9 may prepare a **5-prompt reconstruction pack**, but paid generation still requires separate explicit owner approval.
