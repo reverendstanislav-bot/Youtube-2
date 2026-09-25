@@ -4,10 +4,10 @@ Production repository for **Hidden Industrial America**.
 
 ## Episodes
 
-- `CHICAGO/` — Episode 1. Current active build: **R14 editorial recut review**. The earlier textless 1080 master is withdrawn and must not be uploaded.
+- `CHICAGO/` — Episode 1. Current active build: **R15 Smooth Remotion review**. Earlier masters remain withdrawn and must not be uploaded.
 - `TC497/` — Episode 2. Current active build: **R14 Remotion re-edit review**. The earlier V13 textless 1080 master is withdrawn and must not be uploaded.
-- `BIG_MUSKIE/` — Episode 3. Big Muskie / Bucyrus-Erie 4250-W. Research/preproduction continues separately.
-- Episode 4 — Satsop Nuclear Plant.
+- `BIG_MUSKIE/` — Episode 3. Big Muskie / Bucyrus-Erie 4250-W. Picture V2 review build complete; technical QC passed; not RC/final.
+- `SATSOP/` — Episode 4. Satsop Nuclear Plant / WNP-3 and WNP-5. Initial research and development.
 - Episode 5 — Lake Peigneur.
 
 ## Active production workflows

@@ -6,10 +6,10 @@ The channel is designed to scale across American industry, infrastructure, engin
 
 ## Current episodes
 
-1. **Chicago** — Episode 1. Earlier textless master withdrawn; active target is R13 Remotion provenance re-edit review.
+1. **Chicago** — Episode 1. Earlier textless master withdrawn; active target is R15 Smooth Remotion review.
 2. **LeTourneau TC-497 Overland Train** — Episode 2. V13 publication master withdrawn; active target is R14 Remotion re-edit review.
-3. **Big Muskie / Bucyrus-Erie 4250-W** — Episode 3. Research and preproduction.
-4. **Satsop Nuclear Plant** — planned Episode 4.
+3. **Big Muskie / Bucyrus-Erie 4250-W** — Episode 3. Picture V2 review build complete; technical QC passed; not RC/final.
+4. **Satsop Nuclear Plant / WNP-3 and WNP-5** — Episode 4. Initial research and development.
 5. **Lake Peigneur** — planned Episode 5.
 
 ## Core production chain
