@@ -7,8 +7,8 @@ Updated: 2026-09-24
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **PICTURE V2 REVIEW BUILD COMPLETE — 10/10 CINEMATIC GFX REPLACEMENTS APPLIED — TECHNICAL QC PASS**  
-Publication status: **REVIEW ONLY — PICTURE V2 IS NOT RC / NOT PUBLICATION CANDIDATE**
+State: **PICTURE V2 DIRECTORIAL QC COMPLETE — FAIL FOR RC — CANONICAL REMOTION FIX PASS OPEN**  
+Publication status: **REVIEW ONLY — NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
 The repository may continue to move because other episodes are being edited in parallel; always re-read `main` before any write and apply changes on top of the current HEAD.
@@ -336,32 +336,25 @@ Final captions:
 
 ## Immediate next action
 
-**DIRECTORIAL PICTURE-ONLY QC OF PICTURE V2**
+**CANONICAL REMOTION PICTURE FIX PASS**
 
-Rendered review build:
-- `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
-- Library: `/Youtube 2/BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
-- **1920×1080 / 25 fps / 23:46.400 / 35,660 frames**
-- Arthur VO unchanged from V1
-- captions: none
-- music: none
-- SFX: none
-- cinematic replacements applied: **10/10**
-- video SHA-256: `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`
-- audio stream SHA-256: `72a4b444ef1786ca031d74f57ebfabe75af2f011eca9511d27dfb87bc1d0fe4d`
-- full decode: **PASS**
+Directorial QC result:
+- Picture V2: **FAIL FOR RC / FIXABLE**
+- new paid image generation required: **0**
+- patch-boundary defects: **13**
+- close duplicate/repeat pairs requiring editorial treatment: **5**
+- critical document-readability block: **D03 + D04**
+- short unreadable GFX blocker: **BM-B076**
+- dense infographic runs requiring staged Remotion treatment: **B010–B016 / B066–B073 / B081–B089 / B113–B115**
 
-Canonical V2 records:
-- `GFX/CINEMATIC_GFX_FINAL_LOCK_V2.md`
-- `ASSEMBLY_V2/FINAL_MEDIA_MAPPING_V2.md`
-- `ASSEMBLY_V2/PICTURE_ASSEMBLY_V2_QC.md`
-
-Important:
-- V2 is a review patch build over the verified V1 master.
-- If the picture direction is approved, reproduce this exact replacement map in canonical Remotion before RC/final promotion.
+Canonical report:
+- `ASSEMBLY_V2/DIRECTORIAL_QC_V2.md`
 
 Next:
-1. watch/audit Picture V2 end-to-end;
-2. flag remaining weak/repetitive/incorrect picture beats;
-3. if approved, reproduce the V2 patch map in canonical Remotion;
-4. then add provenance labels, captions, music and SFX.
+1. reproduce the accepted V2 replacement map natively in Remotion;
+2. extend each picture through the next beat start so narration pauses never reveal old V1 frames;
+3. quantize all boundaries to 25 fps;
+4. apply document crops, duplicate fixes, staged GFX treatment and restrained motion from the QC report;
+5. render Picture V3 / Remotion proof;
+6. run full directorial + technical QC;
+7. only after picture approval proceed to provenance/captions/music/SFX and RC.
