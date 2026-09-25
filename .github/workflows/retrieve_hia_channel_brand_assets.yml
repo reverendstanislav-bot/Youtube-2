@@ -1,0 +1,34 @@
+name: Retrieve HIA channel brand assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/retrieve_hia_channel_brand_assets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download canonical brand package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/hia_brand
+          cd /tmp/hia_brand
+          gh release download chicago-channel-brand-assets-extracted-20260920             --repo reverendstanislav-bot/Youtube-2             --pattern 'HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip'             --pattern 'Hidden_Industrial_America_Quick_Usage_Guide_RU.pdf'             --pattern 'BRAND_ASSETS_MANIFEST.json'             --pattern 'BRAND_ASSETS_FILE_LIST.txt'             --pattern 'SHA256SUMS.txt'
+          unzip -l HIA_CHANNEL_BRAND_ASSETS_EXTRACTED.zip > CONTENTS.txt
+      - name: Upload canonical brand package
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-channel-brand-assets
+          path: /tmp/hia_brand
+          compression-level: 0
+          retention-days: 7
