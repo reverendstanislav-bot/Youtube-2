@@ -55,3 +55,16 @@
 - Canonical Satsop state is Stage 2 complete, not Stage 6.
 - Renamed `DEVELOPMENT/STAGE_5_LOCK.md` to `DEVELOPMENT/STAGE_2_LOCK.md`.
 - Next stage is Stage 3: narration preflight and timing preparation.
+
+## 2026-09-25 — Stage 3 narration preflight
+
+- Rebased on the current GitHub `main` before writing.
+- Performed final cadence polish without changing factual content.
+- Created a 15,465-character / 2,309-word spoken-only narration file.
+- Normalized project names, agency abbreviations, measurements, and decimals for TTS.
+- Split the narration into four paragraph-safe chunks: 4,501 / 4,726 / 4,703 / 1,532 characters.
+- Recorded SHA-256 for the clean master and every chunk.
+- Ran live Arthur/ElevenLabs cost-only preflight: 13.65 / 14.25 / 14.25 / 4.65 credits.
+- Locked exact total at **46.80 credits**.
+- Verified workspace balance at **1,353.07 credits** before any paid submission.
+- Submitted **zero** audio jobs and spent **zero** credits.

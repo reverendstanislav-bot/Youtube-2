@@ -52,7 +52,7 @@ Project Four stood at Hanford. Project Five stood here at Satsop.
 
 [MAP — Hanford Project 4 linked to Satsop Project 5.]
 
-Financial advisers had reached a blunt conclusion: the bond market could not absorb the financing needed to carry all five nuclear projects then being pursued by the Supply System.
+Financial advisers had reached a blunt conclusion. The bond market could not absorb the financing needed to carry all five nuclear projects then being pursued by the Supply System.
 
 At termination, Projects Four and Five had sold 2.25 billion dollars in bonds. Their estimated combined completion cost had climbed to roughly twelve billion dollars — about 8.5 billion above the original combined estimate.
 
@@ -156,7 +156,7 @@ It also cost money.
 
 Every year changed the calculation. Equipment aged. Current regulatory requirements moved. Alternative generating technology improved. The region's demand forecasts changed.
 
-The site therefore required work without producing electricity. Preservation meant inspecting what had been built, protecting material that might still be used, maintaining the legal and technical option to restart, and studying whether that option remained valuable.
+The site therefore required work without producing electricity. Preservation meant inspecting what had been built and protecting material that might still be used. It also meant maintaining the option to restart and studying whether that option remained valuable.
 
 The longer preservation continued, the more the project faced a paradox. Keeping the option alive required spending money. But spending money to preserve an option did not prove that exercising the option would make sense.
 
@@ -170,7 +170,7 @@ The cooling tower stood almost five hundred feet high. The reactor and turbine b
 
 But completion is not measured by how much concrete is visible.
 
-It is measured by what still has to be spent, how long that money remains at risk, and whether the electricity will be needed when the plant finally opens.
+It is measured by what still has to be spent and how long that money remains at risk. Most of all, it is measured by whether the electricity will be needed when the plant finally opens.
 
 ### 【08:00】 The decision on the page
 
@@ -244,7 +244,7 @@ But comparable lifetime cost was not enough.
 
 [GFX — CAPITAL AT RISK counter.]
 
-In BPA's base case, completing WNP-3 exposed Bonneville to nearly three times as much capital at risk as producing an equivalent amount of energy with combined-cycle plants if the resources were terminated early.
+In Bonneville's base case, completing WNP-3 exposed the agency to nearly three times as much capital at risk as the combined-cycle alternative. This comparison measured what would be lost if the resources were terminated early.
 
 Even the low WNP-3 case carried double the capital at risk.
 
@@ -284,7 +284,7 @@ BPA examined other possibilities. It considered repowering WNP-3 as a gas-fired 
 
 [DOCUMENT — final determination; highlight “not in the best interest.”]
 
-In May 1994, the BPA administrator determined that neither continued preservation nor completion under the existing agreements was in the best interest of Bonneville and the region's ratepayers.
+In May 1994, the Bonneville administrator made the final determination. Neither continued preservation nor completion under the existing agreements was in the best interest of Bonneville and the region's ratepayers.
 
 Project Three was terminated in June.
 

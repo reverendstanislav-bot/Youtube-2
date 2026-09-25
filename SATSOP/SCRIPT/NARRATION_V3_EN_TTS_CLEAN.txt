@@ -1,0 +1,249 @@
+Two cooling towers rise from the wooded hills of western Washington.
+
+They look like a matched pair. Their histories are not.
+
+One belonged to Washington Nuclear Project Five. That project was about fourteen percent complete when it was terminated in 1982.
+
+The other served Washington Nuclear Project Three. That project reached seventy-four percent physical completion and remained preserved for possible completion until 1994.
+
+Neither project produced commercial electricity. The site was never fueled.
+
+So the mystery is not simply why Satsop was unfinished.
+
+It is why two reactor projects, built side by side, died twelve years apart — and why seventy-four percent complete was still too expensive to finish.
+
+On January 22, 1982, the Washington Public Power Supply System terminated Nuclear Projects Four and Five.
+
+Project Four stood at Hanford. Project Five stood here at Satsop.
+
+Financial advisers had reached a blunt conclusion. The bond market could not absorb the financing needed to carry all five nuclear projects then being pursued by the Supply System.
+
+At termination, Projects Four and Five had sold two point two five billion dollars in bonds. Their estimated combined completion cost had climbed to roughly twelve billion dollars — about eight point five billion above the original combined estimate.
+
+Project Five itself was only about fourteen percent complete.
+
+The physical project advanced. The estimate for completing Projects Four and Five had already moved far beyond the original combined plan.
+
+But this was not just a construction problem.
+
+It was a promise to pay.
+
+To see how the region reached that point, rewind sixteen years.
+
+Through the mid-twentieth century, federal hydroelectric projects supplied most of the Pacific Northwest's electricity. By 1966, planners projected demand growing beyond what that system could provide. Utilities and Bonneville organized a regional planning effort. In 1969, that effort adopted a plan calling for several large thermal plants.
+
+the Supply System moved from a small organization into a builder of five nuclear projects. Before 1968 it had fewer than one hundred employees. By March 1979, it had 1,471.
+
+This was not one isolated plant running over budget. It was an entire portfolio competing for engineering, contractors, equipment, regulatory attention, and financing at the same time.
+
+Only one of those five projects would eventually operate: Project Two at Hanford, which entered commercial service in December 1984.
+
+By July 1976, eighty-eight customers of the Bonneville Power Administration and one private utility had become participants in Projects Four and Five.
+
+The bonds were backed by contracts containing a take-or-pay obligation.
+
+The phrase sounds obscure. Its meaning was painfully clear.
+
+Participants were required to pay their share whether the plants were completed, operable, or operating.
+
+When the projects were alive, that promise helped make their bonds marketable. Once construction ended, it meant utilities could still face the cost of plants that would never deliver power.
+
+GAO reported that rate increases would be required to service the debt. Utilities and ratepayers went to court. The question was no longer only whether the projects should continue. It was who would carry the bill after they stopped.
+
+On July 22, 1983, the Project Four and Five bonds went into default.
+
+That is the famous the Supply System financial collapse.
+
+And yet the neighboring project at Satsop did not end with it.
+
+To understand why, the two towers have to be separated financially.
+
+Project Five belonged to the participant-financed Project Four and Five system.
+
+Project Three belonged to an earlier group supported through net billing with Bonneville, the federal agency that marketed power from the Northwest's federal hydroelectric system.
+
+Public utilities held capability shares in Project Three and assigned them to Bonneville. In exchange, Bonneville credited project costs through their wholesale power bills.
+
+Seventy percent of Project Three used that public net-billing structure. Four investor-owned utilities held the remaining thirty percent. A later settlement changed Bonneville's exposure, and Bonneville ultimately paid all Project Three project costs.
+
+The structures looked similar because both projects were planned as large pressurized-water reactors of roughly twelve hundred and forty megawatts.
+
+But a cooling tower cannot show who carries the next billion dollars of risk.
+
+Nor can the tower show how much remained outside it. Each proposed Satsop unit included a reactor system, auxiliary building, turbine generator, cooling system, transmission connections, and supporting facilities. The tower was the most visible piece, but it was only the heat-rejection end of the plant.
+
+In operation, reactor heat would produce steam, the steam would spin a turbine generator, and the cooling system would remove waste heat so water could circulate again. At Satsop, that chain was never completed and never entered service.
+
+Project Five hit its financing wall first.
+
+Project Three had enough support to enter a different state: neither advancing nor dead.
+
+Construction on Project Three was suspended in July 1983.
+
+Suspended did not mean terminated.
+
+Buildings and installed systems were protected. Equipment and construction materials retained possible value. The option to finish the project remained open.
+
+Preservation bought time.
+
+It also cost money.
+
+Every year changed the calculation. Equipment aged. Current regulatory requirements moved. Alternative generating technology improved. The region's demand forecasts changed.
+
+The site therefore required work without producing electricity. Preservation meant inspecting what had been built and protecting material that might still be used. It also meant maintaining the option to restart and studying whether that option remained valuable.
+
+The longer preservation continued, the more the project faced a paradox. Keeping the option alive required spending money. But spending money to preserve an option did not prove that exercising the option would make sense.
+
+By 1994, Bonneville described the Project Three project as seventy-four percent physically complete. Approximately two point six billion dollars had been invested, measured in 1993 dollars and including the investor-owned utilities' share.
+
+The cooling tower stood almost five hundred feet high. The reactor and turbine buildings existed. From the road, the project could look close to finished.
+
+But completion is not measured by how much concrete is visible.
+
+It is measured by what still has to be spent and how long that money remains at risk. Most of all, it is measured by whether the electricity will be needed when the plant finally opens.
+
+In June 1993, Bonneville began another study of whether Project Three should remain preserved for nuclear completion.
+
+The conclusions went before the Supply System's Executive Board in November 1993 and its Board of Directors in January 1994.
+
+The analysis asked four practical questions.
+
+Would completion damage Bonneville's competitiveness?
+
+Did the region need the power?
+
+How did Project Three compare with available alternatives?
+
+And what risks came with each choice?
+
+This is the human-scale center of the story. The project was no longer an abstract monument. Its remaining cost would flow through institutions to utilities and eventually to the people paying for electricity across the region.
+
+Bonneville was already under pressure to control its rates. Its customers were considering other sources of power, and some indicated that they might pay a premium for greater independence. Completing Project Three could push Bonneville's costs upward at the same moment its customers were gaining alternatives.
+
+That is how a decision inside a federal power agency reaches a household or a small business. Not as a cooling tower. As a rate.
+
+The past two point six billion dollars could not answer those questions.
+
+That money was already gone.
+
+Only the next commitment could still be changed.
+
+Bonneville compared Project Three with natural-gas combined-cycle generation — plants using gas and steam turbines together.
+
+The 1994 exhibits modeled Project Three at twelve hundred and forty megawatts. The combined-cycle reference was two hundred and forty megawatts.
+
+That difference mattered. Combined-cycle resources could be built in smaller increments, letting Bonneville match new supply more closely to actual load growth.
+
+Bonneville's assumptions also gave the combined-cycle alternative a shorter construction lead time: three years, compared with five years for restarting and completing Project Three.
+
+The comparison was not one giant replacement plant against one giant nuclear plant. Bonneville could add combined-cycle capacity in smaller units as demand appeared. The agency could shape and dispatch that output more flexibly around a hydroelectric system whose generation changed with water conditions.
+
+More of a combined-cycle plant's costs were variable and avoidable when it was not producing power. Project Three carried a larger share of fixed costs that Bonneville would owe regardless of production.
+
+The gas option had risks, including fuel prices and possible carbon costs. Bonneville recorded those too.
+
+This matters because the 1994 decision was not a claim that combined-cycle power was risk-free or that nuclear generation had no advantages. It was a comparison of which risks Bonneville was willing and able to carry.
+
+But it offered something Project Three could not.
+
+Flexibility.
+
+An earlier study put the base estimate to complete Project Three at another one point five five billion dollars, in 1993 dollars. Bonneville also tested lower and higher cases.
+
+Combined cycle was cheaper than the base and high Project Three cases. In the low-cost case, Project Three became comparable over its operating life.
+
+But comparable lifetime cost was not enough.
+
+In Bonneville's base case, completing Project Three exposed the agency to nearly three times as much capital at risk as the combined-cycle alternative. This comparison measured what would be lost if the resources were terminated early.
+
+Even the low Project Three case carried double the capital at risk.
+
+Then came the need question.
+
+Bonneville projected that Project Three's full twelve hundred and forty-megawatt output would create about six hundred average megawatts of surplus power even under its high-load forecast.
+
+If all that surplus could be sold at Bonneville's Priority Firm rate, the agency still estimated a deficit of roughly two hundred million dollars per year.
+
+The project could work technically and still fail economically. It could generate every megawatt promised and create a financial problem because too much capacity arrived at once.
+
+That is what the cooling towers conceal. Megaprojects are usually judged by whether engineers can finish them. Project Three also had to survive a second test: whether the system around it could use and pay for what it produced.
+
+This was the answer hidden behind the seventy-four-percent number.
+
+The project was mostly built.
+
+The region did not need all of its power.
+
+And finishing it would concentrate far more capital in one decision than the alternative.
+
+Project Three still had real advantages. Much of it existed. Major siting permits were in place. Nuclear generation would not face combustion limits on carbon dioxide or sulfur dioxide.
+
+Bonneville acknowledged those points.
+
+It also listed uncertainty in completion cost, upgrades after years of preservation, operating performance, maintenance, waste, decommissioning, regulation, and public opposition.
+
+Bonneville examined other possibilities. It considered repowering Project Three as a gas-fired combined-cycle plant and found no clear economic advantage over building a new one. It considered whether a third party might use the site. None of those possibilities justified Bonneville continuing to finance preservation for nuclear completion under the existing agreements.
+
+In May 1994, the Bonneville administrator made the final determination. Neither continued preservation nor completion under the existing agreements was in the best interest of Bonneville and the region's ratepayers.
+
+Project Three was terminated in June.
+
+Not because seventy-four percent had disappeared.
+
+Because seventy-four percent described the past. The decision had to describe the future.
+
+A megaproject does not end on a single date.
+
+Project Five was terminated in 1982. The Project Four and Five bonds defaulted in 1983.
+
+Project Three construction stopped in 1983. Its completion option ended in 1994. The Nuclear Regulatory Commission revoked its construction permit in January 1999.
+
+Property, remediation, and debt moved on different schedules.
+
+The permit clock asked whether nuclear construction could legally continue. The property clock asked who would own and maintain the buildings. The debt clock followed financing agreements created years earlier. The redevelopment clock asked whether land and infrastructure designed for one purpose could support another.
+
+Energy Northwest — the later name of the Supply System — still carried Project Three debt-related budgeting decades after termination. Its fiscal-year twenty twenty-one budget covered financing obligations and debt administration, not new construction or plant operation.
+
+Concrete is visible.
+
+Contracts are not.
+
+Both can survive the moment work stops.
+
+In 1995, Grays Harbor County, the Port of Grays Harbor, and the local public utility district formed the Satsop Redevelopment Project.
+
+Transfer of the Project Three property and facilities was completed during fiscal year 2000.
+
+The nuclear investment could not be recovered by pretending the reactor still made sense. But parts of the industrial site had value outside the original plan.
+
+Roads. Large buildings. Electrical connections. Water and wastewater systems. Transmission access. Fiber. Developed land.
+
+Those assets had been assembled for a nuclear station, but many were not inherently nuclear. A heavy industrial building can house manufacturing. A tunnel can become a controlled training environment. Electrical and water capacity can attract tenants that could never justify building the same infrastructure from scratch.
+
+Today the site operates as a community-owned business park.
+
+The former turbine building offers roughly three hundred thousand square feet of industrial space.
+
+Underground tunnels support confined-space training. Portions of the reactor building are used for rescue and other specialized exercises.
+
+This reuse does not repay every nuclear-project cost. It does not turn Project Three or Project Five into successful power investments.
+
+Nor does it make the restricted nuclear structures public attractions. The Port warns visitors to remain on public roads and outside fenced areas. The business park is a working industrial site, not an abandoned playground.
+
+It answers a narrower question.
+
+After the original future disappears, can the infrastructure do anything useful next?
+
+At Satsop, some of it could.
+
+The towers still look like twins.
+
+Now they record two different failures.
+
+Project Five marks the point where one financing system broke.
+
+Project Three marks the point where sunk cost lost to future risk.
+
+The power never arrived.
+
+The infrastructure found another job.

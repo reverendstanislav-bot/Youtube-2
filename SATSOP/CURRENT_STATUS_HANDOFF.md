@@ -7,8 +7,8 @@ Updated: 2026-09-24
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 2 COMPLETE — ENGLISH V2 / DIRECTORIAL REVIEW 89/100 / FACT CHECK PASS**
-Publication status: **PREPRODUCTION — REVIEWED SCRIPT V2 EXISTS / NO VO / ASSETS / EDIT**
+State: **STAGE 3 COMPLETE — NARRATION PREFLIGHT READY / EXACT COST 46.80 CREDITS / AWAITING SPEND APPROVAL**
+Publication status: **PREPRODUCTION — TTS PACKAGE READY / NO VO / ASSETS / EDIT**
 
 ## Current documentary direction
 
@@ -72,6 +72,26 @@ Canonical files:
 - `SCRIPT/DIRECTORIAL_REVIEW_V2.md`
 - `DEVELOPMENT/STAGE_2_LOCK.md`
 
+## Stage 3 deliverables
+
+- final cadence polish complete;
+- spoken-only V3 created and hash-locked;
+- pronunciation and delivery package complete;
+- four safe ElevenLabs chunks created and audited;
+- live cost-only provider preflight complete;
+- exact total: **46.80 credits**;
+- balance snapshot: **1,353.07 credits**;
+- audio jobs submitted: **0**.
+
+Canonical files:
+
+- `DEVELOPMENT/STAGE_3_LOCK.md`
+- `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt`
+- `SCRIPT/TTS_PACKAGE_V1.md`
+- `SCRIPT/TTS_CHUNK_MANIFEST_V1.md`
+- `SCRIPT/PRONUNCIATION_PACKAGE_V1.md`
+- `SCRIPT/V3_TTS_TEXT_AUDIT.md`
+
 Remaining before visual production:
 
 1. locate reusable period construction imagery and record explicit rights;
@@ -81,7 +101,7 @@ Remaining before visual production:
 
 ## Next authorized work
 
-Proceed to **Stage 3 — narration preflight and timing preparation**: final cadence polish, spoken-only text, pronunciation controls, character/chunk calculation, and exact TTS cost. Do not generate audio until the exact cost is shown and explicitly approved.
+Await explicit approval of **46.80 credits**. After approval, Stage 4 generates exactly four Arthur/ElevenLabs chunks, verifies and assembles the VO master, then produces exact word-level timing.
 
 No TTS or generation spend is authorized by this handoff.
 

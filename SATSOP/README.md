@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**RESEARCH / DEVELOPMENT.**
+**STAGE 3 COMPLETE — NARRATION PREFLIGHT READY — AWAITING TTS SPEND APPROVAL.**
 
-The initial primary-source evidence base and source ledgers exist. The documentary angle and packaging hypotheses are working directions, not locks. No script, narration, beat map, generated imagery, or edit has been approved or produced.
+Research, English V2, fact check, directorial review, spoken-only narration, pronunciation controls, four safe TTS chunks, hashes, and a live cost-only preflight are complete. No voice audio, beat map, generated imagery, or edit has been produced. The exact Arthur/ElevenLabs batch cost is 46.80 credits and remains unauthorized.
 
 Start every new chat with:
 
@@ -16,6 +16,8 @@ Start every new chat with:
 4. `RESEARCH/VISUAL_SOURCE_LEDGER.md`
 5. `DEVELOPMENT/DOCUMENTARY_ANGLES.md`
 6. `DEVELOPMENT/PACKAGING_AND_RETENTION.md`
+7. `DEVELOPMENT/STAGE_3_LOCK.md`
+8. `SCRIPT/TTS_PACKAGE_V1.md`
 
 ## Episode rule
 

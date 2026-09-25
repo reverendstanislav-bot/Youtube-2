@@ -29,7 +29,7 @@ Updated: 2026-09-24
 - `SCRIPT/V2_FACT_CHECK.md`
 - `SCRIPT/DIRECTORIAL_REVIEW_V2.md`
 
-## Not locked
+## Not locked at Stage 2
 
 - final title and thumbnail;
 - script cadence, length, or wording after editorial review;
@@ -39,9 +39,6 @@ Updated: 2026-09-24
 - timed beat map;
 - generation plan or budget.
 
-## Next stage — Stage 3
+## Stage 3 handoff
 
-1. editorial review of English V2;
-2. prepare spoken-only TTS text and pronunciation package;
-3. calculate exact TTS characters/chunks/cost;
-4. request explicit spend approval before generation.
+Stage 3 has since completed. Its current authority is `DEVELOPMENT/STAGE_3_LOCK.md`. Paid TTS remains blocked pending explicit approval of 46.80 credits.

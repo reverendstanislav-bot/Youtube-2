@@ -14,6 +14,7 @@ Updated: 2026-09-24
 | `DEVELOPMENT/DOCUMENTARY_ANGLES.md` | Candidate story structures | Working |
 | `DEVELOPMENT/PACKAGING_AND_RETENTION.md` | Titles, thumbnail logic, retention plan | Working; not locked |
 | `DEVELOPMENT/STAGE_2_LOCK.md` | Canonical Stage 2 script lock | Active |
+| `DEVELOPMENT/STAGE_3_LOCK.md` | Canonical narration preflight and spend gate | Active |
 | `SCRIPT/CLAIM_SOURCE_MAP_V1.md` | Narration claims mapped to evidence | Factual pass |
 | `SCRIPT/RETENTION_OUTLINE_V1.md` | Long-form architecture and payoff plan | Script basis |
 | `SCRIPT/NARRATION_DRAFT_V1.md` | Complete sourced English narration with cues | Editorial review required |
@@ -22,5 +23,14 @@ Updated: 2026-09-24
 | `SCRIPT/NARRATION_V2_EN_REVIEW.md` | Full English directorial rewrite | Fact-check pass; editorial review required |
 | `SCRIPT/V2_FACT_CHECK.md` | V2 line-level factual and audit compliance review | Pass for editorial review |
 | `SCRIPT/DIRECTORIAL_REVIEW_V2.md` | Post-rewrite global directorial review | 89/100; pass for user editorial review |
+| `SCRIPT/NARRATION_V3_EN_TTS_CLEAN.txt` | Final spoken-only narration input | Hash-locked; not generated |
+| `SCRIPT/TTS_PACKAGE_V1.md` | Voice, delivery, cost, balance, and approval controls | Awaiting 46.80-credit approval |
+| `SCRIPT/TTS_CHUNK_MANIFEST_V1.md` | Chunk order, sizes, hashes, boundaries, and costs | Complete |
+| `SCRIPT/PRONUNCIATION_PACKAGE_V1.md` | Pronunciation, number, delivery, and join controls | Complete |
+| `SCRIPT/V3_TTS_TEXT_AUDIT.md` | Semantic and chunk audit | Pass |
+| `SCRIPT/TTS_CHUNKS_V1/CHUNK_01.txt` | Arthur/ElevenLabs input 1 of 4 | Cost-only preflight complete |
+| `SCRIPT/TTS_CHUNKS_V1/CHUNK_02.txt` | Arthur/ElevenLabs input 2 of 4 | Cost-only preflight complete |
+| `SCRIPT/TTS_CHUNKS_V1/CHUNK_03.txt` | Arthur/ElevenLabs input 3 of 4 | Cost-only preflight complete |
+| `SCRIPT/TTS_CHUNKS_V1/CHUNK_04.txt` | Arthur/ElevenLabs input 4 of 4 | Cost-only preflight complete |
 
 No source media, generated media, TTS, timed beat map, render, or publication master exists for Episode 4. A sourced English V1 script exists but is not TTS-locked.
