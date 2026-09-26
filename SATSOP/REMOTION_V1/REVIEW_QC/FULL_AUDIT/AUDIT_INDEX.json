@@ -1,0 +1,983 @@
+[
+  {
+    "index": 1,
+    "beat": "SAT-B001",
+    "time": 3.71,
+    "kind": "current",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "Two cooling towers rise from the wooded hills of western Washington. They look like a matched pair.",
+    "thumbnail": "001_SAT-B001.jpg"
+  },
+  {
+    "index": 2,
+    "beat": "SAT-B002",
+    "time": 12.89,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "Their histories are not. One belonged to Washington Nuclear Project Five. That project was about fourteen percent complete when it was terminated in 1982.",
+    "thumbnail": "002_SAT-B002.jpg"
+  },
+  {
+    "index": 3,
+    "beat": "SAT-B003",
+    "time": 24.48,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "The other served Washington Nuclear Project Three. That project reached seventy-four percent physical completion and remained preserved for possible completion until 1994.",
+    "thumbnail": "003_SAT-B003.jpg"
+  },
+  {
+    "index": 4,
+    "beat": "SAT-B004",
+    "time": 34.32,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "Neither project produced commercial electricity. The site was never fueled.",
+    "thumbnail": "004_SAT-B004.jpg"
+  },
+  {
+    "index": 5,
+    "beat": "SAT-B005",
+    "time": 45.92,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "So the mystery is not simply why Satsop was unfinished. It is why two reactor projects, built side by side, died twelve years apart — and why seventy-four percent complete was still too expensive to finish.",
+    "thumbnail": "005_SAT-B005.jpg"
+  },
+  {
+    "index": 6,
+    "beat": "SAT-B006",
+    "time": 58.3,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "On January 22, 1982, the Washington Public Power Supply System terminated Nuclear Projects Four and Five.",
+    "thumbnail": "006_SAT-B006.jpg"
+  },
+  {
+    "index": 7,
+    "beat": "SAT-B007",
+    "time": 67.63,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "Project Four stood at Hanford. Project Five stood here at Satsop. Financial advisers had reached a blunt conclusion.",
+    "thumbnail": "007_SAT-B007.jpg"
+  },
+  {
+    "index": 8,
+    "beat": "SAT-B008",
+    "time": 77.23,
+    "kind": "current",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "The bond market could not absorb the financing needed to carry all five nuclear projects then being pursued by the Supply System.",
+    "thumbnail": "008_SAT-B008.jpg"
+  },
+  {
+    "index": 9,
+    "beat": "SAT-B009",
+    "time": 85.64,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "At termination, Projects Four and Five had sold two point two five billion dollars in bonds.",
+    "thumbnail": "009_SAT-B009.jpg"
+  },
+  {
+    "index": 10,
+    "beat": "SAT-B010",
+    "time": 94.33,
+    "kind": "generated",
+    "chapter": "ACT I — two towers, two failures",
+    "narration": "Their estimated combined completion cost had climbed to roughly twelve billion dollars — about eight point five billion above the original combined estimate.",
+    "thumbnail": "010_SAT-B010.jpg"
+  },
+  {
+    "index": 11,
+    "beat": "SAT-B011",
+    "time": 106.23,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Project Five itself was only about fourteen percent complete. The physical project advanced. The estimate for completing Projects Four and Five had already moved far beyond the original combined plan.",
+    "thumbnail": "011_SAT-B011.jpg"
+  },
+  {
+    "index": 12,
+    "beat": "SAT-B012",
+    "time": 117.78,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "But this was not just a construction problem. It was a promise to pay. To see how the region reached that point, rewind sixteen years.",
+    "thumbnail": "012_SAT-B012.jpg"
+  },
+  {
+    "index": 13,
+    "beat": "SAT-B013",
+    "time": 126.73,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Through the mid-twentieth century, federal hydroelectric projects supplied most of the Pacific Northwest's electricity.",
+    "thumbnail": "013_SAT-B013.jpg"
+  },
+  {
+    "index": 14,
+    "beat": "SAT-B014",
+    "time": 136.6,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "By 1966, planners projected demand growing beyond what that system could provide. Utilities and Bonneville organized a regional planning effort.",
+    "thumbnail": "014_SAT-B014.jpg"
+  },
+  {
+    "index": 15,
+    "beat": "SAT-B015",
+    "time": 148.8,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "In 1969, that effort adopted a plan calling for several large thermal plants. the Supply System moved from a small organization into a builder of five nuclear projects.",
+    "thumbnail": "015_SAT-B015.jpg"
+  },
+  {
+    "index": 16,
+    "beat": "SAT-B016",
+    "time": 160.275,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Before 1968 it had fewer than one hundred employees. By March 1979, it had 1,471.",
+    "thumbnail": "016_SAT-B016.jpg"
+  },
+  {
+    "index": 17,
+    "beat": "SAT-B017",
+    "time": 173.235,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "This was not one isolated plant running over budget. It was an entire portfolio competing for engineering, contractors, equipment, regulatory attention, and financing at the same time.",
+    "thumbnail": "017_SAT-B017.jpg"
+  },
+  {
+    "index": 18,
+    "beat": "SAT-B018",
+    "time": 185.78,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Only one of those five projects would eventually operate: Project Two at Hanford, which entered commercial service in December 1984.",
+    "thumbnail": "018_SAT-B018.jpg"
+  },
+  {
+    "index": 19,
+    "beat": "SAT-B019",
+    "time": 196.77,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "By July 1976, eighty-eight customers of the Bonneville Power Administration and one private utility had become participants in Projects Four and Five.",
+    "thumbnail": "019_SAT-B019.jpg"
+  },
+  {
+    "index": 20,
+    "beat": "SAT-B020",
+    "time": 207.105,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "The bonds were backed by contracts containing a take-or-pay obligation. The phrase sounds obscure.",
+    "thumbnail": "020_SAT-B020.jpg"
+  },
+  {
+    "index": 21,
+    "beat": "SAT-B021",
+    "time": 215.255,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Its meaning was painfully clear. Participants were required to pay their share whether the plants were completed, operable, or operating.",
+    "thumbnail": "021_SAT-B021.jpg"
+  },
+  {
+    "index": 22,
+    "beat": "SAT-B022",
+    "time": 226.41,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "When the projects were alive, that promise helped make their bonds marketable. Once construction ended, it meant utilities could still face the cost of plants that would never deliver power.",
+    "thumbnail": "022_SAT-B022.jpg"
+  },
+  {
+    "index": 23,
+    "beat": "SAT-B023",
+    "time": 237.61,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "GAO reported that rate increases would be required to service the debt. Utilities and ratepayers went to court.",
+    "thumbnail": "023_SAT-B023.jpg"
+  },
+  {
+    "index": 24,
+    "beat": "SAT-B024",
+    "time": 245.81,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "The question was no longer only whether the projects should continue. It was who would carry the bill after they stopped.",
+    "thumbnail": "024_SAT-B024.jpg"
+  },
+  {
+    "index": 25,
+    "beat": "SAT-B025",
+    "time": 255.26,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "On July 22, 1983, the Project Four and Five bonds went into default. That is the famous the Supply System financial collapse.",
+    "thumbnail": "025_SAT-B025.jpg"
+  },
+  {
+    "index": 26,
+    "beat": "SAT-B026",
+    "time": 266.32,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "And yet the neighboring project at Satsop did not end with it. To understand why, the two towers have to be separated financially.",
+    "thumbnail": "026_SAT-B026.jpg"
+  },
+  {
+    "index": 27,
+    "beat": "SAT-B027",
+    "time": 274.95,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Project Five belonged to the participant-financed Project Four and Five system.",
+    "thumbnail": "027_SAT-B027.jpg"
+  },
+  {
+    "index": 28,
+    "beat": "SAT-B028",
+    "time": 283.78,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Project Three belonged to an earlier group supported through net billing with Bonneville, the federal agency that marketed power from the Northwest's federal hydroelectric system.",
+    "thumbnail": "028_SAT-B028.jpg"
+  },
+  {
+    "index": 29,
+    "beat": "SAT-B029",
+    "time": 292.97,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Public utilities held capability shares in Project Three and assigned them to Bonneville.",
+    "thumbnail": "029_SAT-B029.jpg"
+  },
+  {
+    "index": 30,
+    "beat": "SAT-B030",
+    "time": 301.95,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "In exchange, Bonneville credited project costs through their wholesale power bills. Seventy percent of Project Three used that public net-billing structure.",
+    "thumbnail": "030_SAT-B030.jpg"
+  },
+  {
+    "index": 31,
+    "beat": "SAT-B031",
+    "time": 313.77,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "Four investor-owned utilities held the remaining thirty percent. A later settlement changed Bonneville's exposure, and Bonneville ultimately paid all Project Three project costs.",
+    "thumbnail": "031_SAT-B031.jpg"
+  },
+  {
+    "index": 32,
+    "beat": "SAT-B032",
+    "time": 324.92,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "The structures looked similar because both projects were planned as large pressurized-water reactors of roughly twelve hundred and forty megawatts.",
+    "thumbnail": "032_SAT-B032.jpg"
+  },
+  {
+    "index": 33,
+    "beat": "SAT-B033",
+    "time": 333.998,
+    "kind": "generated",
+    "chapter": "ACT II — the five-project system",
+    "narration": "But a cooling tower cannot show who carries the next billion dollars of risk.",
+    "thumbnail": "033_SAT-B033.jpg"
+  },
+  {
+    "index": 34,
+    "beat": "SAT-B034",
+    "time": 347.479,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Nor can the tower show how much remained outside it. Each proposed Satsop unit included a reactor system, auxiliary building, turbine generator, cooling system, transmission connections, and supporting facilities.",
+    "thumbnail": "034_SAT-B034.jpg"
+  },
+  {
+    "index": 35,
+    "beat": "SAT-B035",
+    "time": 359.806,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The tower was the most visible piece, but it was only the heat-rejection end of the plant.",
+    "thumbnail": "035_SAT-B035.jpg"
+  },
+  {
+    "index": 36,
+    "beat": "SAT-B036",
+    "time": 369.301,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "In operation, reactor heat would produce steam, the steam would spin a turbine generator, and the cooling system would remove waste heat so water could circulate again.",
+    "thumbnail": "036_SAT-B036.jpg"
+  },
+  {
+    "index": 37,
+    "beat": "SAT-B037",
+    "time": 380.296,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "At Satsop, that chain was never completed and never entered service. Project Five hit its financing wall first.",
+    "thumbnail": "037_SAT-B037.jpg"
+  },
+  {
+    "index": 38,
+    "beat": "SAT-B038",
+    "time": 390.686,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Project Three had enough support to enter a different state: neither advancing nor dead. Construction on Project Three was suspended in July 1983.",
+    "thumbnail": "038_SAT-B038.jpg"
+  },
+  {
+    "index": 39,
+    "beat": "SAT-B039",
+    "time": 402.316,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Suspended did not mean terminated. Buildings and installed systems were protected. Equipment and construction materials retained possible value.",
+    "thumbnail": "039_SAT-B039.jpg"
+  },
+  {
+    "index": 40,
+    "beat": "SAT-B040",
+    "time": 412.511,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The option to finish the project remained open. Preservation bought time. It also cost money.",
+    "thumbnail": "040_SAT-B040.jpg"
+  },
+  {
+    "index": 41,
+    "beat": "SAT-B041",
+    "time": 422.371,
+    "kind": "current",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Every year changed the calculation. Equipment aged. Current regulatory requirements moved. Alternative generating technology improved.",
+    "thumbnail": "041_SAT-B041.jpg"
+  },
+  {
+    "index": 42,
+    "beat": "SAT-B042",
+    "time": 432.011,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The region's demand forecasts changed. The site therefore required work without producing electricity.",
+    "thumbnail": "042_SAT-B042.jpg"
+  },
+  {
+    "index": 43,
+    "beat": "SAT-B043",
+    "time": 443.433,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Preservation meant inspecting what had been built and protecting material that might still be used. It also meant maintaining the option to restart and studying whether that option remained valuable.",
+    "thumbnail": "043_SAT-B043.jpg"
+  },
+  {
+    "index": 44,
+    "beat": "SAT-B044",
+    "time": 455.524,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The longer preservation continued, the more the project faced a paradox. Keeping the option alive required spending money.",
+    "thumbnail": "044_SAT-B044.jpg"
+  },
+  {
+    "index": 45,
+    "beat": "SAT-B045",
+    "time": 467.136,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "But spending money to preserve an option did not prove that exercising the option would make sense. By 1994, Bonneville described the Project Three project as seventy-four percent physically complete.",
+    "thumbnail": "045_SAT-B045.jpg"
+  },
+  {
+    "index": 46,
+    "beat": "SAT-B046",
+    "time": 479.041,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Approximately two point six billion dollars had been invested, measured in 1993 dollars and including the investor-owned utilities' share.",
+    "thumbnail": "046_SAT-B046.jpg"
+  },
+  {
+    "index": 47,
+    "beat": "SAT-B047",
+    "time": 489.511,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The cooling tower stood almost five hundred feet high. The reactor and turbine buildings existed. From the road, the project could look close to finished.",
+    "thumbnail": "047_SAT-B047.jpg"
+  },
+  {
+    "index": 48,
+    "beat": "SAT-B048",
+    "time": 500.591,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "But completion is not measured by how much concrete is visible. It is measured by what still has to be spent and how long that money remains at risk.",
+    "thumbnail": "048_SAT-B048.jpg"
+  },
+  {
+    "index": 49,
+    "beat": "SAT-B049",
+    "time": 514.431,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Most of all, it is measured by whether the electricity will be needed when the plant finally opens. In June 1993, Bonneville began another study of whether Project Three should remain preserved for nuclear completion.",
+    "thumbnail": "049_SAT-B049.jpg"
+  },
+  {
+    "index": 50,
+    "beat": "SAT-B050",
+    "time": 527.771,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The conclusions went before the Supply System's Executive Board in November 1993 and its Board of Directors in January 1994.",
+    "thumbnail": "050_SAT-B050.jpg"
+  },
+  {
+    "index": 51,
+    "beat": "SAT-B051",
+    "time": 537.091,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "The analysis asked four practical questions. Would completion damage Bonneville's competitiveness?",
+    "thumbnail": "051_SAT-B051.jpg"
+  },
+  {
+    "index": 52,
+    "beat": "SAT-B052",
+    "time": 546.581,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Did the region need the power? How did Project Three compare with available alternatives? And what risks came with each choice?",
+    "thumbnail": "052_SAT-B052.jpg"
+  },
+  {
+    "index": 53,
+    "beat": "SAT-B053",
+    "time": 559.991,
+    "kind": "current",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "This is the human-scale center of the story. The project was no longer an abstract monument. Its remaining cost would flow through institutions to utilities and eventually to the people paying for electricity across the region.",
+    "thumbnail": "053_SAT-B053.jpg"
+  },
+  {
+    "index": 54,
+    "beat": "SAT-B054",
+    "time": 574.151,
+    "kind": "generated",
+    "chapter": "ACT III — financing split and collapse",
+    "narration": "Bonneville was already under pressure to control its rates. Its customers were considering other sources of power, and some indicated that they might pay a premium for greater independence.",
+    "thumbnail": "054_SAT-B054.jpg"
+  },
+  {
+    "index": 55,
+    "beat": "SAT-B055",
+    "time": 584.541,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "Completing Project Three could push Bonneville's costs upward at the same moment its customers were gaining alternatives.",
+    "thumbnail": "055_SAT-B055.jpg"
+  },
+  {
+    "index": 56,
+    "beat": "SAT-B056",
+    "time": 592.861,
+    "kind": "current",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "That is how a decision inside a federal power agency reaches a household or a small business.",
+    "thumbnail": "056_SAT-B056.jpg"
+  },
+  {
+    "index": 57,
+    "beat": "SAT-B057",
+    "time": 600.811,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "Not as a cooling tower. As a rate. The past two point six billion dollars could not answer those questions.",
+    "thumbnail": "057_SAT-B057.jpg"
+  },
+  {
+    "index": 58,
+    "beat": "SAT-B058",
+    "time": 612.841,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "That money was already gone. Only the next commitment could still be changed. Bonneville compared Project Three with natural-gas combined-cycle generation — plants using gas and steam turbines together.",
+    "thumbnail": "058_SAT-B058.jpg"
+  },
+  {
+    "index": 59,
+    "beat": "SAT-B059",
+    "time": 626.461,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "The 1994 exhibits modeled Project Three at twelve hundred and forty megawatts. The combined-cycle reference was two hundred and forty megawatts.",
+    "thumbnail": "059_SAT-B059.jpg"
+  },
+  {
+    "index": 60,
+    "beat": "SAT-B060",
+    "time": 638.181,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "That difference mattered. Combined-cycle resources could be built in smaller increments, letting Bonneville match new supply more closely to actual load growth.",
+    "thumbnail": "060_SAT-B060.jpg"
+  },
+  {
+    "index": 61,
+    "beat": "SAT-B061",
+    "time": 650.951,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "Bonneville's assumptions also gave the combined-cycle alternative a shorter construction lead time: three years, compared with five years for restarting and completing Project Three.",
+    "thumbnail": "061_SAT-B061.jpg"
+  },
+  {
+    "index": 62,
+    "beat": "SAT-B062",
+    "time": 664.201,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "The comparison was not one giant replacement plant against one giant nuclear plant. Bonneville could add combined-cycle capacity in smaller units as demand appeared.",
+    "thumbnail": "062_SAT-B062.jpg"
+  },
+  {
+    "index": 63,
+    "beat": "SAT-B063",
+    "time": 676.091,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "The agency could shape and dispatch that output more flexibly around a hydroelectric system whose generation changed with water conditions.",
+    "thumbnail": "063_SAT-B063.jpg"
+  },
+  {
+    "index": 64,
+    "beat": "SAT-B064",
+    "time": 685.311,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "More of a combined-cycle plant's costs were variable and avoidable when it was not producing power.",
+    "thumbnail": "064_SAT-B064.jpg"
+  },
+  {
+    "index": 65,
+    "beat": "SAT-B065",
+    "time": 693.115,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "Project Three carried a larger share of fixed costs that Bonneville would owe regardless of production.",
+    "thumbnail": "065_SAT-B065.jpg"
+  },
+  {
+    "index": 66,
+    "beat": "SAT-B066",
+    "time": 701.568,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "The gas option had risks, including fuel prices and possible carbon costs. Bonneville recorded those too.",
+    "thumbnail": "066_SAT-B066.jpg"
+  },
+  {
+    "index": 67,
+    "beat": "SAT-B067",
+    "time": 711.833,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "This matters because the 1994 decision was not a claim that combined-cycle power was risk-free or that nuclear generation had no advantages.",
+    "thumbnail": "067_SAT-B067.jpg"
+  },
+  {
+    "index": 68,
+    "beat": "SAT-B068",
+    "time": 722.233,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "It was a comparison of which risks Bonneville was willing and able to carry. But it offered something Project Three could not.",
+    "thumbnail": "068_SAT-B068.jpg"
+  },
+  {
+    "index": 69,
+    "beat": "SAT-B069",
+    "time": 733.078,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "Flexibility. An earlier study put the base estimate to complete Project Three at another one point five five billion dollars, in 1993 dollars.",
+    "thumbnail": "069_SAT-B069.jpg"
+  },
+  {
+    "index": 70,
+    "beat": "SAT-B070",
+    "time": 743.788,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "Bonneville also tested lower and higher cases. Combined cycle was cheaper than the base and high Project Three cases.",
+    "thumbnail": "070_SAT-B070.jpg"
+  },
+  {
+    "index": 71,
+    "beat": "SAT-B071",
+    "time": 753.353,
+    "kind": "generated",
+    "chapter": "ACT IV — preservation and the completion question",
+    "narration": "In the low-cost case, Project Three became comparable over its operating life. But comparable lifetime cost was not enough.",
+    "thumbnail": "071_SAT-B071.jpg"
+  },
+  {
+    "index": 72,
+    "beat": "SAT-B072",
+    "time": 763.723,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "In Bonneville's base case, completing Project Three exposed the agency to nearly three times as much capital at risk as the combined-cycle alternative.",
+    "thumbnail": "072_SAT-B072.jpg"
+  },
+  {
+    "index": 73,
+    "beat": "SAT-B073",
+    "time": 775.068,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "This comparison measured what would be lost if the resources were terminated early. Even the low Project Three case carried double the capital at risk.",
+    "thumbnail": "073_SAT-B073.jpg"
+  },
+  {
+    "index": 74,
+    "beat": "SAT-B074",
+    "time": 789.043,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Then came the need question. Bonneville projected that Project Three's full twelve hundred and forty-megawatt output would create about six hundred average megawatts of surplus power even under its high-load forecast.",
+    "thumbnail": "074_SAT-B074.jpg"
+  },
+  {
+    "index": 75,
+    "beat": "SAT-B075",
+    "time": 802.363,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "If all that surplus could be sold at Bonneville's Priority Firm rate, the agency still estimated a deficit of roughly two hundred million dollars per year.",
+    "thumbnail": "075_SAT-B075.jpg"
+  },
+  {
+    "index": 76,
+    "beat": "SAT-B076",
+    "time": 814.018,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "The project could work technically and still fail economically. It could generate every megawatt promised and create a financial problem because too much capacity arrived at once.",
+    "thumbnail": "076_SAT-B076.jpg"
+  },
+  {
+    "index": 77,
+    "beat": "SAT-B077",
+    "time": 824.283,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "That is what the cooling towers conceal. Megaprojects are usually judged by whether engineers can finish them.",
+    "thumbnail": "077_SAT-B077.jpg"
+  },
+  {
+    "index": 78,
+    "beat": "SAT-B078",
+    "time": 832.643,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Project Three also had to survive a second test: whether the system around it could use and pay for what it produced.",
+    "thumbnail": "078_SAT-B078.jpg"
+  },
+  {
+    "index": 79,
+    "beat": "SAT-B079",
+    "time": 842.013,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "This was the answer hidden behind the seventy-four-percent number. The project was mostly built. The region did not need all of its power.",
+    "thumbnail": "079_SAT-B079.jpg"
+  },
+  {
+    "index": 80,
+    "beat": "SAT-B080",
+    "time": 851.348,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "And finishing it would concentrate far more capital in one decision than the alternative. Project Three still had real advantages.",
+    "thumbnail": "080_SAT-B080.jpg"
+  },
+  {
+    "index": 81,
+    "beat": "SAT-B081",
+    "time": 861.248,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Much of it existed. Major siting permits were in place. Nuclear generation would not face combustion limits on carbon dioxide or sulfur dioxide.",
+    "thumbnail": "081_SAT-B081.jpg"
+  },
+  {
+    "index": 82,
+    "beat": "SAT-B082",
+    "time": 874.808,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Bonneville acknowledged those points. It also listed uncertainty in completion cost, upgrades after years of preservation, operating performance, maintenance, waste, decommissioning, regulation, and public opposition.",
+    "thumbnail": "082_SAT-B082.jpg"
+  },
+  {
+    "index": 83,
+    "beat": "SAT-B083",
+    "time": 890.008,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Bonneville examined other possibilities. It considered repowering Project Three as a gas-fired combined-cycle plant and found no clear economic advantage over building a new one.",
+    "thumbnail": "083_SAT-B083.jpg"
+  },
+  {
+    "index": 84,
+    "beat": "SAT-B084",
+    "time": 903.858,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "It considered whether a third party might use the site. None of those possibilities justified Bonneville continuing to finance preservation for nuclear completion under the existing agreements.",
+    "thumbnail": "084_SAT-B084.jpg"
+  },
+  {
+    "index": 85,
+    "beat": "SAT-B085",
+    "time": 918.498,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "In May 1994, the Bonneville administrator made the final determination. Neither continued preservation nor completion under the existing agreements was in the best interest of Bonneville and the region's ratepayers.",
+    "thumbnail": "085_SAT-B085.jpg"
+  },
+  {
+    "index": 86,
+    "beat": "SAT-B086",
+    "time": 930.808,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Project Three was terminated in June. Not because seventy-four percent had disappeared. Because seventy-four percent described the past.",
+    "thumbnail": "086_SAT-B086.jpg"
+  },
+  {
+    "index": 87,
+    "beat": "SAT-B087",
+    "time": 939.428,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "The decision had to describe the future. A megaproject does not end on a single date.",
+    "thumbnail": "087_SAT-B087.jpg"
+  },
+  {
+    "index": 88,
+    "beat": "SAT-B088",
+    "time": 949.248,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Project Five was terminated in 1982. The Project Four and Five bonds defaulted in 1983. Project Three construction stopped in 1983.",
+    "thumbnail": "088_SAT-B088.jpg"
+  },
+  {
+    "index": 89,
+    "beat": "SAT-B089",
+    "time": 960.178,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Its completion option ended in 1994. The Nuclear Regulatory Commission revoked its construction permit in January 1999.",
+    "thumbnail": "089_SAT-B089.jpg"
+  },
+  {
+    "index": 90,
+    "beat": "SAT-B090",
+    "time": 970.978,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Property, remediation, and debt moved on different schedules. The permit clock asked whether nuclear construction could legally continue.",
+    "thumbnail": "090_SAT-B090.jpg"
+  },
+  {
+    "index": 91,
+    "beat": "SAT-B091",
+    "time": 981.348,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "The property clock asked who would own and maintain the buildings. The debt clock followed financing agreements created years earlier.",
+    "thumbnail": "091_SAT-B091.jpg"
+  },
+  {
+    "index": 92,
+    "beat": "SAT-B092",
+    "time": 990.268,
+    "kind": "current",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "The redevelopment clock asked whether land and infrastructure designed for one purpose could support another.",
+    "thumbnail": "092_SAT-B092.jpg"
+  },
+  {
+    "index": 93,
+    "beat": "SAT-B093",
+    "time": 998.808,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Energy Northwest — the later name of the Supply System — still carried Project Three debt-related budgeting decades after termination.",
+    "thumbnail": "093_SAT-B093.jpg"
+  },
+  {
+    "index": 94,
+    "beat": "SAT-B094",
+    "time": 1008.688,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Its fiscal-year twenty twenty-one budget covered financing obligations and debt administration, not new construction or plant operation.",
+    "thumbnail": "094_SAT-B094.jpg"
+  },
+  {
+    "index": 95,
+    "beat": "SAT-B095",
+    "time": 1018.068,
+    "kind": "generated",
+    "chapter": "ACT V — Bonneville's risk decision",
+    "narration": "Concrete is visible. Contracts are not. Both can survive the moment work stops.",
+    "thumbnail": "095_SAT-B095.jpg"
+  },
+  {
+    "index": 96,
+    "beat": "SAT-B096",
+    "time": 1027.148,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "In 1995, Grays Harbor County, the Port of Grays Harbor, and the local public utility district formed the Satsop Redevelopment Project.",
+    "thumbnail": "096_SAT-B096.jpg"
+  },
+  {
+    "index": 97,
+    "beat": "SAT-B097",
+    "time": 1035.908,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Transfer of the Project Three property and facilities was completed during fiscal year 2000.",
+    "thumbnail": "097_SAT-B097.jpg"
+  },
+  {
+    "index": 98,
+    "beat": "SAT-B098",
+    "time": 1045.624,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "The nuclear investment could not be recovered by pretending the reactor still made sense. But parts of the industrial site had value outside the original plan.",
+    "thumbnail": "098_SAT-B098.jpg"
+  },
+  {
+    "index": 99,
+    "beat": "SAT-B099",
+    "time": 1056.12,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Roads. Large buildings. Electrical connections. Water and wastewater systems. Transmission access.",
+    "thumbnail": "099_SAT-B099.jpg"
+  },
+  {
+    "index": 100,
+    "beat": "SAT-B100",
+    "time": 1064.911,
+    "kind": "current",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Fiber. Developed land. Those assets had been assembled for a nuclear station, but many were not inherently nuclear.",
+    "thumbnail": "100_SAT-B100.jpg"
+  },
+  {
+    "index": 101,
+    "beat": "SAT-B101",
+    "time": 1076.981,
+    "kind": "current",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "A heavy industrial building can house manufacturing. A tunnel can become a controlled training environment. Electrical and water capacity can attract tenants that could never justify building the same infrastructure from scratch.",
+    "thumbnail": "101_SAT-B101.jpg"
+  },
+  {
+    "index": 102,
+    "beat": "SAT-B102",
+    "time": 1090.256,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Today the site operates as a community-owned business park. The former turbine building offers roughly three hundred thousand square feet of industrial space.",
+    "thumbnail": "102_SAT-B102.jpg"
+  },
+  {
+    "index": 103,
+    "beat": "SAT-B103",
+    "time": 1100.251,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Underground tunnels support confined-space training. Portions of the reactor building are used for rescue and other specialized exercises.",
+    "thumbnail": "103_SAT-B103.jpg"
+  },
+  {
+    "index": 104,
+    "beat": "SAT-B104",
+    "time": 1110.241,
+    "kind": "current",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "This reuse does not repay every nuclear-project cost. It does not turn Project Three or Project Five into successful power investments.",
+    "thumbnail": "104_SAT-B104.jpg"
+  },
+  {
+    "index": 105,
+    "beat": "SAT-B105",
+    "time": 1120.951,
+    "kind": "current",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Nor does it make the restricted nuclear structures public attractions. The Port warns visitors to remain on public roads and outside fenced areas.",
+    "thumbnail": "105_SAT-B105.jpg"
+  },
+  {
+    "index": 106,
+    "beat": "SAT-B106",
+    "time": 1130.416,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "The business park is a working industrial site, not an abandoned playground. It answers a narrower question.",
+    "thumbnail": "106_SAT-B106.jpg"
+  },
+  {
+    "index": 107,
+    "beat": "SAT-B107",
+    "time": 1139.111,
+    "kind": "generated",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "After the original future disappears, can the infrastructure do anything useful next? At Satsop, some of it could.",
+    "thumbnail": "107_SAT-B107.jpg"
+  },
+  {
+    "index": 108,
+    "beat": "SAT-B108",
+    "time": 1148.741,
+    "kind": "current",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "The towers still look like twins. Now they record two different failures. Project Five marks the point where one financing system broke.",
+    "thumbnail": "108_SAT-B108.jpg"
+  },
+  {
+    "index": 109,
+    "beat": "SAT-B109",
+    "time": 1158.95,
+    "kind": "current",
+    "chapter": "ACT VI — transfer, reuse, and meaning",
+    "narration": "Project Three marks the point where sunk cost lost to future risk. The power never arrived. The infrastructure found another job.",
+    "thumbnail": "109_SAT-B109.jpg"
+  }
+]

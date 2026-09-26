@@ -63,12 +63,14 @@ def captions() -> list[dict]:
     alignment = json.loads((SAT / "AUDIO/SATSOP_WORD_ALIGNMENT_V1.json").read_text(encoding="utf-8"))
     words = []
     for chunk in alignment["chunks"]:
-        off = float(chunk["offset_seconds"])
         for segment in chunk["segments"]:
             for word in segment.get("words", []):
                 text = word["word"].strip()
                 if text:
-                    words.append({"w": text, "s": round(off + float(word["start"]), 3), "e": round(off + float(word["end"]), 3)})
+                    # Alignment word timestamps are already absolute. Adding the
+                    # chunk offset again created long caption outages after each
+                    # TTS chunk boundary.
+                    words.append({"w": text, "s": round(float(word["start"]), 3), "e": round(float(word["end"]), 3)})
     cues, buf = [], []
     for w in words:
         if buf and (len(buf) >= 7 or w["s"] - buf[-1]["e"] > 0.42 or w["e"] - buf[0]["s"] > 3.2):
@@ -128,6 +130,10 @@ def main() -> None:
                 item.update({"kind": "generated", "file": f"assets/{dst.name}", "promptId": prompt})
         except Exception as exc:
             missing.append(f"{beat}: {exc}")
+        if beat == "SAT-B056":
+            # Portrait source: keep the tower on screen instead of panning over
+            # the large white sky area at the image centre.
+            item["objectPosition"] = "left top"
         timeline.append(item)
     if missing:
         raise RuntimeError("\n".join(missing))

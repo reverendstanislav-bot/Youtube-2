@@ -22,7 +22,7 @@ function ImageBeat({beat,frame}){
   const x=isGfx?0:beat.direction*interpolate(p,[0,1],[-0.55,0.55]);
   const fade=Math.min(interpolate(frame,[beat.a,beat.a+6],[0,1],CLAMP),interpolate(frame,[beat.b-6,beat.b],[1,0],CLAMP));
   return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden',opacity:fade}}>
-    <Img src={staticFile(beat.file)} style={{width:'100%',height:isGfx?'900px':'100%',objectFit:isGfx?'contain':'cover',objectPosition:'center top',transform:`translateX(${x}%) scale(${scale})`,transformOrigin:'50% 50%'}}/>
+    <Img src={staticFile(beat.file)} style={{width:'100%',height:isGfx?'900px':'100%',objectFit:isGfx?'contain':'cover',objectPosition:beat.objectPosition||'center top',transform:`translateX(${x}%) scale(${scale})`,transformOrigin:'50% 50%'}}/>
     {isGfx&&<div style={{position:'absolute',left:0,right:0,bottom:0,height:180,background:C.charcoal,borderTop:'1px solid rgba(243,235,221,.12)'}}/>}
     {!isGfx&&<AbsoluteFill style={{background:'linear-gradient(180deg,rgba(8,10,11,.08),rgba(8,10,11,.02) 58%,rgba(8,10,11,.48))'}}/>}
   </AbsoluteFill>;

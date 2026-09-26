@@ -789,7 +789,8 @@
       "sourceTitle": "File:Satsop Nuclear Power Plant (3224059471).jpg",
       "license": "CC BY 2.0",
       "kind": "current",
-      "file": "assets/SAT-B056.jpg"
+      "file": "assets/SAT-B056.jpg",
+      "objectPosition": "left top"
     },
     {
       "beat": "SAT-B057",

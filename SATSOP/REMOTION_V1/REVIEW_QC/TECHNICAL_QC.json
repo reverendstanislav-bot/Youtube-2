@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "file": "SATSOP/REMOTION_V1/out/SATSOP_ROUGH_CUT_V1.mp4",
-  "size_bytes": 1028911182,
-  "sha256": "f2f9c0731c7ec6af0158cf949dc5f09f6dd64bf46adeda3e829c23bd3b69b42a",
+  "size_bytes": 1030991098,
+  "sha256": "9767f63ae8c9ab5a72c1fe0be105455ae2af1b9d4b5943592608f2ac0810ef1d",
   "duration_seconds": 1163.989333,
   "expected_duration_seconds": 1163.92,
   "video": {
@@ -27,5 +27,23 @@
     "sample_05_0800s.jpg",
     "sample_06_1000s.jpg",
     "sample_07_1155s.jpg"
-  ]
-}
+  ],
+  "caption_qc": {
+    "cues": 464,
+    "first_start_seconds": 0.0,
+    "last_end_seconds": 1164.031,
+    "gaps_over_1_5_seconds": 0,
+    "spot_checks_seconds": [
+      340.0,
+      592.8,
+      1036.0
+    ],
+    "status": "PASS"
+  },
+  "decode_qc": "PASS",
+  "black_frame_qc": {
+    "minimum_duration_seconds": 0.2,
+    "detections": 0,
+    "status": "PASS"
+  }
+}\n

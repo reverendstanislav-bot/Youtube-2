@@ -279,3 +279,19 @@ Canonical files:
 - SHA-256: `f2f9c0731c7ec6af0158cf949dc5f09f6dd64bf46adeda3e829c23bd3b69b42a`;
 - five former GFX/card positions were sampled in the encoded MP4 and visually passed;
 - current gate: user directorial review of the replacement rough cut.
+
+## Stage 8 full directorial audit V2
+
+- midpoint visual review: **109 / 109 beats checked**;
+- blocking caption defect found and fixed: chunk offsets had been added twice;
+- corrected captions: **464 cues**, 00:00.000–19:24.031, no gaps over 1.5 seconds;
+- SAT-B056 portrait-source crop corrected so the tower remains visible;
+- full corrected Remotion master rerendered;
+- decode QC: **PASS**;
+- black-frame QC (minimum 0.20 seconds): **PASS, 0 detections**;
+- subtitle/crop spot checks at 05:40, 09:52.8 and 17:16: **PASS**;
+- duration: **00:19:23.989**;
+- size: **1,030,991,098 bytes**;
+- SHA-256: `9767f63ae8c9ab5a72c1fe0be105455ae2af1b9d4b5943592608f2ac0810ef1d`;
+- additional generation spend: **0 credits**;
+- current gate: user directorial review of the corrected rough cut; music/mix and final delivery review remain before final-master status.
