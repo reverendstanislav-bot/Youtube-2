@@ -43,3 +43,7 @@ Never collapse WNP-3 and WNP-5 into one cancellation story. WNP-5 was terminated
 - No paid generation before the approved script, exact VO timing, visual beat map, source/generate/GFX classification, prompt pack, count, and budget.
 - Generated material must be labeled `AI RECONSTRUCTION`; verified period material may be labeled `HISTORICAL SOURCE` only while it is actually on screen.
 - Nothing becomes `FINAL`, `APPROVED`, or `UPLOAD_MASTER` without explicit user approval and the required QC gates.
+
+## Stage 8 correction
+
+The first Remotion rough cut exposed 35 hand-built schematic inserts that do not meet the intended generated-documentary visual standard. All 35 now have individual replacement prompts. The `AI RECONSTRUCTION` badge has been removed from the Remotion source. The existing render remains superseded until replacement generation, QC, remapping and rerender are complete.

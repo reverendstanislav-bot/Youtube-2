@@ -239,3 +239,22 @@ Canonical files:
 - `REMOTION_V1/BUILD_PREFLIGHT.json`
 - `REMOTION_V1/REVIEW_QC/TECHNICAL_QC.json`
 - `REMOTION_V1/REVIEW_QC/DIRECTORIAL_QC.md`
+
+## Stage 8 visual replacement correction
+
+User directorial review rejected the hand-built editorial inserts as final picture content.
+
+- manual/schematic inserts requiring generated replacements: **35**;
+- breakdown: **23** Stage 7 SVG/GFX, **6** Remotion document cards, **6** deterministic Stage 6 GFX;
+- individual replacement prompts: **35 / 35 ready**;
+- generation status: **NOT SUBMITTED**;
+- maximum cost at the locked 0.50-credit image rate: **17.50 credits**;
+- `AI RECONSTRUCTION` badge removed from Remotion source;
+- the existing local rough cut is superseded as a visual review proof and must not advance to RC;
+- next gate: exact provider preflight, explicit budget approval, generation, QC, asset remap and full rerender.
+
+Canonical files:
+
+- `STAGE_8_GENERATED_REPLACEMENTS/SATSOP_35_GENERATED_REPLACEMENTS.md`
+- `STAGE_8_GENERATED_REPLACEMENTS/SATSOP_35_GENERATED_REPLACEMENTS.json`
+- `STAGE_8_GENERATED_REPLACEMENTS/SATSOP_35_GENERATED_REPLACEMENTS.csv`

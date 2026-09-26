@@ -43,12 +43,11 @@ function DocumentBeat({beat,frame}){
 }
 
 function Provenance({beat,frame}){
-  if(beat.kind!=='generated'&&beat.kind!=='document')return null;
+  if(beat.kind!=='document')return null;
   const local=(frame-beat.a)/FPS,dur=(beat.b-beat.a)/FPS;
   if(local>Math.min(2.4,dur))return null;
   const op=Math.min(interpolate(local,[0,.18],[0,1],CLAMP),interpolate(local,[Math.min(1.85,dur-.25),Math.min(2.4,dur)],[1,0],CLAMP));
-  const label=beat.kind==='generated'?'AI RECONSTRUCTION':'DOCUMENT';
-  return <div style={{position:'absolute',right:50,top:38,zIndex:40,opacity:op,fontFamily:'Arial,Helvetica,sans-serif',fontSize:23,fontWeight:850,letterSpacing:3,color:C.ivory,textShadow:'0 2px 8px #000'}}><span style={{display:'inline-block',width:40,height:5,background:beat.kind==='generated'?C.blue:C.rust,marginRight:13,verticalAlign:'middle'}}/>{label}</div>;
+  return <div style={{position:'absolute',right:50,top:38,zIndex:40,opacity:op,fontFamily:'Arial,Helvetica,sans-serif',fontSize:23,fontWeight:850,letterSpacing:3,color:C.ivory,textShadow:'0 2px 8px #000'}}><span style={{display:'inline-block',width:40,height:5,background:C.rust,marginRight:13,verticalAlign:'middle'}}/>DOCUMENT</div>;
 }
 
 function Caption({frame}){
