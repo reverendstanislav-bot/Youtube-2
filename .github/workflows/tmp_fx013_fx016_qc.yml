@@ -1,0 +1,32 @@
+name: Temporary FX013 FX016 materialize for QC
+
+on:
+  push:
+    branches:
+      - tmp/fx013-fx016-qc-20260925
+    paths:
+      - '.github/workflows/tmp_fx013_fx016_qc.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download locked Higgsfield results
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          curl -L --fail --retry 3 -o out/FX013_final.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260926_011525_9f570b72-c5a9-4895-8e0d-d4aaf016dc47.png'
+          curl -L --fail --retry 3 -o out/FX016_final.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260926_011531_e61cafa8-313a-41a5-9f1e-7756320dad79.png'
+          file out/*.png
+          sha256sum out/*.png > out/SHA256SUMS.txt
+      - name: Upload QC inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: FX013_FX016_FINAL_QC_INPUTS
+          path: out/
+          retention-days: 1
+          compression-level: 0
