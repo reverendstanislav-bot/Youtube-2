@@ -1,6 +1,7 @@
 name: Big Muskie Remotion V3 bootstrap
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/big_muskie_remotion_v3_bootstrap.yml'
@@ -43,5 +44,5 @@ jobs:
         with:
           name: big-muskie-remotion-v3-runtime-browser
           path: /tmp/runtime/
-          retention-days: 1
+          retention-days: 7
           compression-level: 0
