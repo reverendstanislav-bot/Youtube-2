@@ -40,8 +40,8 @@ const special={
  B040:{s0:1.015,s1:1.025,origin:'67% 48%'},
  B038:{s0:2.65,s1:2.72,origin:'50% 48%',doc:'HOIST MECHANISM'},
  B041:{s0:2.55,s1:2.62,origin:'50% 54%',doc:'MAIN-MOTION ENGINEERING'},
- B051:{s0:2.45,s1:2.52,origin:'50% 48%',doc:'WALKING SHOE MECHANISM'},
- B052:{s0:2.45,s1:2.52,origin:'50% 52%',doc:'STEPPING PROPULSION'},
+ B051:{s0:1.000,s1:1.004,origin:'50% 50%'},
+ B052:{s0:1.000,s1:1.003,origin:'50% 50%'},
  B083:{s0:1.12,s1:1.15,origin:'50% 48%',doc:'1990 CLEAN AIR ACT AMENDMENTS'},
  B085:{s0:1.12,s1:1.15,origin:'50% 48%',doc:'PHASE I COMPLIANCE — 1995'},
  B102:{s0:1.00,s1:1.006,origin:'50% 50%'},
@@ -84,7 +84,7 @@ function FailurePath(){
  const p=interpolate(frame,[0,18],[0,1],CLAMP);
  const items=['COMPONENT FAULT','MACHINE UNAVAILABLE','STRIPPING SYSTEM AFFECTED'];
  return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden'}}>
-   <Img src={staticFile('beats/beat_076.png')} style={{width:'100%',height:'100%',objectFit:'cover',filter:'grayscale(.45) brightness(.35)',transform:'scale(1.02)'}}/>
+   <Img src={staticFile('beats/beat_076.jpg')} style={{width:'100%',height:'100%',objectFit:'cover',filter:'grayscale(.45) brightness(.35)',transform:'scale(1.02)'}}/>
    <AbsoluteFill style={{background:'linear-gradient(90deg,rgba(23,26,28,.92),rgba(23,26,28,.72),rgba(23,26,28,.88))'}}/>
    <div style={{position:'absolute',left:100,right:100,top:130,color:C.ivory,fontFamily:'Arial Narrow,Arial,sans-serif'}}>
     <div style={{fontSize:24,letterSpacing:5,color:C.rust,fontWeight:800,opacity:p}}>THE FAILURE PATH</div>
@@ -107,7 +107,7 @@ function SurvivingParts(){
  const frame=useCurrentFrame();
  const p=interpolate(frame,[0,18],[0,1],CLAMP);
  return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden'}}>
-   <Img src={staticFile('beats/beat_105.png')} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',transform:'scale(1.035)',filter:'brightness(.48) saturate(.82)'}}/>
+   <Img src={staticFile('beats/beat_105.jpg')} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',transform:'scale(1.035)',filter:'brightness(.48) saturate(.82)'}}/>
    <AbsoluteFill style={{background:'linear-gradient(90deg,rgba(23,26,28,.22) 0%,rgba(23,26,28,.58) 48%,rgba(23,26,28,.94) 100%)'}}/>
    <div style={{position:'absolute',left:96,top:92,right:96,fontFamily:'Arial Narrow,Arial,sans-serif',color:C.ivory,opacity:p}}>
      <div style={{fontSize:22,letterSpacing:5,color:C.rust,fontWeight:800}}>WHAT SURVIVED</div>

@@ -1,46 +1,29 @@
 # BIG MUSKIE — REMOTION V3 MEDIA INPUTS
 
-Status: **LOCKED FOR PICTURE V3**
+Status: **116/116 VISUAL LOCK COMPLETE — PHYSICAL V2 MASTER REQUIRED**
 
-The canonical Remotion V3 compositor works from the approved Picture V2 picture lineage without new image generation.
+## Canonical base picture input
 
-## Picture-source captures
-
-- 116 beat-level 1920×1080 stills are captured from the verified Picture V2 master.
-- capture point: safely inside each locked beat, after the beat boundary;
-- purpose: remove the V2 patch lineage and rebuild a clean frame-quantized native Remotion timeline;
-- each beat owns picture continuously through the next beat start.
-
-Verified V2 master:
+Use only:
 - `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
 - SHA-256: `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`
+- bytes: 398,245,725
+- 1920×1080 / 25 fps / 35,660 frames / 23:46.400
 
-## Direct replacement PNGs
+Do not use an unverified substitute.
 
-The following approved GFX are used directly rather than captured from the flattened V2 master:
+## Direct final overrides
 
-- FX001
-- FX002
-- FX013
-- FX016
-- FX033
-- FX036
-- FX045
-- FX047
-- FX048
-- FX049
+The V3 pipeline must support direct replacement of these current user-approved assets after the base V2 still extraction:
+- BM-B021 → FX013 final accepted working-arc asset
+- BM-B035 → FX016 final accepted operating-cycle asset
+- BM-B051 → B051 final WALKING SHOE MECHANISM technical reconstruction
+- BM-B052 → B052 final STEPPING PROPULSION technical reconstruction
 
-## Editorial-only Remotion replacements
+B051/B052 classification: `HIA TECHNICAL RECONSTRUCTION`, not DOCUMENT/PATENT SOURCE.
 
-No paid generation.
+B052 is user-approved unchanged; do not crop away its lower step labels. Final captions must avoid the collision.
 
-- B076: simplified three-step failure-path card over existing picture.
-- B106: source-grounded surviving-parts treatment using existing chain imagery and the locked narration facts.
-- D03/D04 beats: crop/reframe and labels only.
-- duplicate-image fixes: alternate crop/scale only.
+## Current physical-media preflight
 
-## Audio
-
-Picture render is silent.
-
-After Remotion render, the canonical Arthur AAC stream from Picture V2 is muxed by stream copy. No TTS regeneration, resampling or audio processing is allowed at this gate.
+The verified 398-MB V2 binary is referenced by QC/history but is not currently present in GitHub Releases, current Actions media artifacts, Dropbox search, or current Library search. The render runner must not start until that exact master is accessible.

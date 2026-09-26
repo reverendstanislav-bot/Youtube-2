@@ -7,7 +7,7 @@ Updated: 2026-09-24
 Episode: **3 — Big Muskie**  
 Machine: **Bucyrus-Erie 4250-W walking dragline**  
 Project: **Hidden Industrial America / YouTube-2**  
-State: **PICTURE V3 — 114/116 VISUAL BEATS COVERED / 2 WALKING-SYSTEM REBUILDS OPEN**  
+State: **PICTURE V3 — 116/116 VISUAL BEATS LOCKED — REMOTION V3 BUILD PREP**  
 Publication status: **REVIEW ONLY — NOT RC / NOT PUBLICATION CANDIDATE**
 
 Pre-sync repository HEAD used for this handoff refresh: `9f5989ec3dedaf3cb250416b6f9fba04390b645b`.  
@@ -336,57 +336,31 @@ Final captions:
 
 ## Immediate next action
 
-**FINISH 2 OPEN VISUAL BEATS → REBUILD FULL CANONICAL REMOTION V3 → FULL QC → RC**
+**BUILD CANONICAL REMOTION PICTURE V3 → FULL QC → RC**
 
-### Whole-film visual status
+### Visual lock
+- long-form beats: **116**
+- accepted/locked: **116/116**
+- open image generations: **0**
+- B051: **PASS**
+- B052: **PASS — explicit user override, unchanged**
+- replacement cleanup: **9/9 LOCKED**
 
-- total long-form beats: **116**
-- beats with accepted/locked visual coverage: **114**
-- open visual beats: **2**
-  - BM-B051 — WALKING SHOE MECHANISM
-  - BM-B052 — STEPPING PROPULSION
-- replacement cleanup scope: **9 beats**
-- replacement PASS locked: **7/9**
-- no other beat currently requires new image generation before the next full-picture render.
+### Build requirements
+1. update canonical beat→asset mapping to use B051/B052 final technical reconstructions;
+2. preserve accepted FX013/FX016 without regeneration;
+3. rebuild native 1920×1080 / 25 fps / 35,660-frame / 23:46.400 Remotion timeline;
+4. remove all 13 historical V2 patch-boundary flash/reversion defects by contiguous beat ownership;
+5. apply the locked B038/B041 document readability crops and B076 simplification;
+6. preserve duplicate-pair reframing and restrained motion rules;
+7. run full technical + directorial picture QC;
+8. only after Picture V3 PASS proceed to RC captions/provenance/music/SFX.
 
-### After B051/B052 PASS
+### Physical-media gate discovered during V3 preflight
+The verified V2 binary is not currently present in GitHub Releases/Actions media pool or Dropbox/Library search. Canonical record:
+- file: `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
+- SHA-256: `cf022849456c43cbc10ff38659d3e5b7033d8bac386597c47db41b11a0130f7c`
+- bytes: **398,245,725**
+- 1920×1080 / 25 fps / 35,660 frames / 23:46.400
 
-1. lock all **116/116** visual beats;
-2. update canonical beat→asset mapping;
-3. rebuild full **Remotion Picture V3** at 1920×1080 / 25 fps / 35,660 frames / 23:46.400;
-4. verify all 13 former V2 boundary defects are absent;
-5. run full technical QC:
-   - exact runtime/frame count;
-   - full decode;
-   - black/broken frame scan;
-   - A/V sync;
-   - Arthur integrity;
-6. run full-film directorial QC:
-   - visual↔narration match;
-   - repetition/monotony;
-   - document/GFX readability;
-   - transition/motion quality;
-   - provenance/authenticity labels;
-   - subtitle-safe framing;
-7. if PASS → **PICTURE LOCK**;
-8. build RC layer:
-   - provenance labels;
-   - final captions (white + orange active word);
-   - approved music;
-   - SFX;
-   - final audio master;
-9. full RC QC;
-10. render final 1080p upload master;
-11. after long-form lock, extract/finish the planned Shorts.
-
-### Current production reality
-
-**Image-generation work remaining for the long-form film: 2 frames only.**
-
-Everything after those two is assembly / editorial / audio / caption / QC work, not another mass-generation pass.
-
-Canonical status records:
-- `REMOTION_V3/GENERATED_REPLACEMENT_PASS_LOCK_V1.md`
-- `REMOTION_V3/GENERATED_REPLACEMENTS_QC_V2.md`
-- `REMOTION_V3/WALKING_SYSTEM_PROMPTS_V3.md`
-- `ASSEMBLY_V2/DIRECTORIAL_QC_V2.md`
+Do not substitute a different V2 binary. Once the verified master is physically accessible to the runner, execute the prepared V3 build.

@@ -1,61 +1,43 @@
-# BIG MUSKIE — GENERATED REPLACEMENT PASS LOCK V2
+# BIG MUSKIE — GENERATED REPLACEMENT PASS LOCK V3
 
 Date: 2026-09-25
 
-Status: **LOCKED — 7 FINAL PASS ASSETS / 2 OPEN REBUILDS**
+Status: **LOCKED — 9/9 FINAL PASS ASSETS / 0 OPEN REBUILDS**
 
-The following generated frames passed replacement QC and are frozen for canonical Picture V3 integration.
+The complete replacement cleanup scope is now closed. No rejected/HOLD candidate may enter canonical Picture V3.
 
-## PASS 01 — BM-B106 — WHAT SURVIVED
-- generation id: `d31e098e-1a58-4c20-857f-0b5ae7c0010d`
-- classification: `HIA EXPLANATORY GFX`
-- action: **DO NOT REGENERATE**
+## Previously locked PASS assets
 
-## PASS 02 — BM-B114 ALT — A MACHINE DISAPPEARS
-- generation id: `9d3e3f57-386a-4a21-bca8-f210c5461a77`
-- classification: `HIA EXPLANATORY GFX`
-- action: **DO NOT REGENERATE**
+1. **BM-B106 — WHAT SURVIVED** — generation `d31e098e-1a58-4c20-857f-0b5ae7c0010d` — `HIA EXPLANATORY GFX` — DO NOT REGENERATE.
+2. **BM-B114 ALT — A MACHINE DISAPPEARS** — generation `9d3e3f57-386a-4a21-bca8-f210c5461a77` — `HIA EXPLANATORY GFX` — DO NOT REGENERATE.
+3. **BM-B076 — THE FAILURE PATH** — generation `7c76abd9-27a6-4b63-8768-5157fc46376a` — `HIA EXPLANATORY GFX` — DO NOT REGENERATE.
+4. **BM-B083 — EPA TITLE IV** — generation `0fc4045f-bd55-4be5-b591-aac6d5c774a4` — `HIA EXPLANATORY GFX`; source citation added in RC.
+5. **BM-B085 — PHASE I COMPLIANCE** — generation `69ae9505-363a-41a5-b01d-2cce441e2035` — `HIA EXPLANATORY GFX`; exact factual sentence remains editor-added.
+6. **BM-B038 — HOIST MECHANISM** — generation `9f58926f-7411-41df-9c81-38f7a7b5413b` — `HIA TECHNICAL RECONSTRUCTION`; never label HISTORICAL SOURCE/PATENT SOURCE.
+7. **BM-B041 — MAIN-MOTION ENGINEERING** — generation `56fcda33-a2b5-4863-a2dd-ecf0897120db` — `HIA TECHNICAL RECONSTRUCTION`; never label HISTORICAL SOURCE/PATENT SOURCE.
 
-## PASS 03 — BM-B076 — THE FAILURE PATH
-- generation id: `7c76abd9-27a6-4b63-8768-5157fc46376a`
-- classification: `HIA EXPLANATORY GFX`
-- action: **DO NOT REGENERATE**
+## Final walking-system closures
 
-## PASS 04 — BM-B083 — EPA TITLE IV
-- generation id: `0fc4045f-bd55-4be5-b591-aac6d5c774a4`
-- classification: `HIA EXPLANATORY GFX`
-- exact source citation must be added in Remotion
-- action: **DO NOT REGENERATE**
+8. **BM-B051 — WALKING SHOE MECHANISM** — **PASS**.
+   - final class: `HIA TECHNICAL RECONSTRUCTION`
+   - user-approved final frame
+   - broad circular tub/base + broad flat walking shoes
+   - no crawler tracks / wheels / spider legs / central foot
+   - action: **LOCK / DO NOT REGENERATE**
 
-## PASS 05 — BM-B085 — PHASE I COMPLIANCE
-- generation id: `69ae9505-3635-426d-b01d-2cce441e2035`
-- classification: `HIA EXPLANATORY GFX`
-- exact factual sentence must be added in Remotion
-- action: **DO NOT REGENERATE**
-
-## PASS 06 — BM-B038 — HOIST MECHANISM
-- generation id: `9f58926f-7411-41df-9c81-38f7a7b5413b`
-- classification: `HIA TECHNICAL RECONSTRUCTION`
-- prohibited labels: `HISTORICAL SOURCE`, `PATENT SOURCE`
-- action: **DO NOT REGENERATE**
-
-## PASS 07 — BM-B041 — MAIN-MOTION ENGINEERING
-- generation id: `56fcda33-a2b5-4863-a2dd-ecf0897120db`
-- classification: `HIA TECHNICAL RECONSTRUCTION`
-- prohibited labels: `HISTORICAL SOURCE`, `PATENT SOURCE`
-- action: **DO NOT REGENERATE**
-
-## Open rebuilds
-
-Only two replacement beats remain open:
-- **BM-B051 — WALKING SHOE MECHANISM**
-- **BM-B052 — STEPPING PROPULSION**
+9. **BM-B052 — STEPPING PROPULSION** — **PASS — EXPLICIT USER OVERRIDE**.
+   - final class: `HIA TECHNICAL RECONSTRUCTION`
+   - user instruction: **PASS, NOTHING CHANGED**
+   - circular tub + broad shoes + three-step load-transfer sequence retained
+   - lower step labels are intentionally retained; RC captions must move/adjust instead of altering this approved image
+   - action: **LOCK / DO NOT REGENERATE**
 
 ## Canonical replacement progress
 
-- total replacement beats: **9**
-- locked PASS: **7**
-- open: **2**
-- completion: **77.8%**
+- replacement beats: **9**
+- locked PASS: **9**
+- open: **0**
+- completion: **100%**
+- long-form visual coverage: **116/116 PASS**
 
-No rejected or HOLD candidate may enter canonical Picture V3.
+Next gate: canonical Remotion Picture V3 build and full QC.
