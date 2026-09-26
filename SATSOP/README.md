@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 7 ASSET ACQUISITION COMPLETE — 109 / 109 BEATS ASSIGNED.**
+**STAGE 8 REMOTION ROUGH CUT ASSEMBLED — TECHNICAL QC PASS.**
 
-Research, script, narration and the 109-beat visual map are locked. Stage 6 closed all 68 generation/GFX positions. Stage 7 assigned and rights-logged all 41 non-generation beats using 12 licensed/PD current stills, 23 original editorial GFX/maps and three complete official PDFs. Technical QC passed all 38 unique Stage 7 assets. No picture edit has been produced; Stage 8 rough-cut assembly is next.
+Research, script, narration and the 109-beat visual map are locked. Stage 6 closed all 68 generation-led positions. Stage 7 assigned and rights-logged all 41 non-generation beats. Stage 8 assembled all 109 beats in Remotion against the locked VO with word-timed English captions, restrained one-direction reframing, provenance labels and sourced document cards. The local rough cut passed technical QC at 1920×1080, 30 fps. It remains a review proof and is not a final or upload master.
 
 Start every new chat with:
 

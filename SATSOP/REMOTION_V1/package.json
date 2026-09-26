@@ -1,0 +1,14 @@
+{
+  "name": "hia-satsop-remotion-v1",
+  "private": true,
+  "scripts": {
+    "build-assets": "python ../DEVELOPMENT/build_remotion_v1.py",
+    "render": "remotion render src/index.jsx SatsopV1 out/SATSOP_ROUGH_CUT_V1.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.344",
+    "remotion": "4.0.344",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

@@ -219,3 +219,23 @@ Canonical files:
 - source provenance and reuse rights must be recorded;
 - final captions use white `#FFFFFF`, active word orange `#F28A3A`, word-level timing, one layer, and no opaque black block;
 - proof → user review → RC → exhaustive QC → native upload master.
+
+## Stage 8 Remotion rough cut
+
+- status: **ASSEMBLED / TECHNICAL PASS**;
+- full picture-edit coverage: **109 / 109 beats**;
+- local review render: `REMOTION_V1/out/SATSOP_ROUGH_CUT_V1.mp4`;
+- render duration: **00:19:23.989** (69 ms over the 00:19:23.920 map endpoint; within the three-frame gate);
+- render format: **1920×1080, 30 fps, H.264, AAC 48 kHz stereo, 34,918 frames**;
+- render SHA-256: `b2a7de4df282a874b4ef781448312abcdeace52f8b187096def0515bc0674e03`;
+- visual QC sampled beginning, middle, GFX, document and ending positions;
+- the detected GFX/caption overlap was corrected and the full master rerendered;
+- current gate: **user directorial review of the rough cut**;
+- do not call this FINAL or UPLOAD_MASTER.
+
+Canonical files:
+
+- `REMOTION_V1/README.md`
+- `REMOTION_V1/BUILD_PREFLIGHT.json`
+- `REMOTION_V1/REVIEW_QC/TECHNICAL_QC.json`
+- `REMOTION_V1/REVIEW_QC/DIRECTORIAL_QC.md`
