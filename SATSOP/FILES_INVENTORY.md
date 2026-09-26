@@ -88,5 +88,14 @@ Updated: 2026-09-25
 | `STAGE_6/FIX9_V6/FIX9_V6_DETERMINISTIC_MANIFEST.json` | Six editor-built GFX hashes | Complete |
 | `STAGE_6/FIX9_V6/FIX9_V6_TECHNICAL_QC.json` | Nine-file decode, dimensions and SHA-256 | Pass 9/9 |
 | `STAGE_6/FIX9_V6/FIX9_V6_DIRECTORIAL_QC.md` | Final correction audit | 9 pass / 0 conditional / 0 fail |
+| `DEVELOPMENT/acquire_stage7_sources.py` | Reproducible official/Commons acquisition | Complete |
+| `DEVELOPMENT/acquire_stage7_commons_retry.py` | Throttling-safe Commons thumbnail acquisition | Complete |
+| `DEVELOPMENT/build_stage7_editorial_gfx.py` | Builds 23 editable editorial SVGs and previews | Complete |
+| `DEVELOPMENT/finalize_stage7_package.py` | Reconciles sources and assigns all 41 beats | Complete |
+| `STAGE_7/SOURCES/STAGE7_SOURCE_MANIFEST.json` | URLs, creators, licenses, local filenames and hashes | 12 stills / 3 PDFs |
+| `STAGE_7/EDITORIAL_GFX/STAGE7_EDITORIAL_GFX_MANIFEST.json` | Original GFX/map asset manifest | 23/23 built |
+| `STAGE_7/STAGE7_41_BEAT_ASSIGNMENT.json` | Exact non-generation beat-to-asset map | 41/41 assigned |
+| `STAGE_7/STAGE7_TECHNICAL_QC.json` | Decode, dimensions, PDF integrity and SHA-256 | Pass 38/38 unique assets |
+| `STAGE_7/STAGE7_DIRECTORIAL_QC.md` | Rights and assembly-readiness audit | Pass for rough cut |
 
-The locked VO, exact timed beat map and complete generation evidence exist. All 68 generation/GFX positions are accepted and locked. The 41 evidence/current/source beats still require acquisition and rights logging. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map and full 109-beat asset assignment exist. Stage 6 and Stage 7 visual gates are closed. No picture edit, render, or publication master exists for Episode 4.

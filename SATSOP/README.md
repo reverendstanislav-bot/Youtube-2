@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 6 GENERATION/GFX LAYER COMPLETE — 68 / 68 POSITIONS LOCKED.**
+**STAGE 7 ASSET ACQUISITION COMPLETE — 109 / 109 BEATS ASSIGNED.**
 
-Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. FIX9 V6 passed **9 PASS / 0 CONDITIONAL / 0 FAIL**, closing the generation/GFX layer at **68 / 68**. The separate 41 evidence/current/source beats still require acquisition and rights logging before the entire 109-beat visual package is assembled. No picture edit has been produced.
+Research, script, narration and the 109-beat visual map are locked. Stage 6 closed all 68 generation/GFX positions. Stage 7 assigned and rights-logged all 41 non-generation beats using 12 licensed/PD current stills, 23 original editorial GFX/maps and three complete official PDFs. Technical QC passed all 38 unique Stage 7 assets. No picture edit has been produced; Stage 8 rough-cut assembly is next.
 
 Start every new chat with:
 

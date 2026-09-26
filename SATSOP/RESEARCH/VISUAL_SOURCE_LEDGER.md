@@ -1,7 +1,7 @@
 # SATSOP — VISUAL SOURCE LEDGER
 
 Updated: 2026-09-24
-Status: **discovery only — no third-party visual asset cleared for edit**
+Status: **Stage 7 acquisition complete — 12 Commons stills and 3 official PDFs locally verified**
 
 Availability is not permission. Every downloaded visual must retain source URL, creator/agency, date, rights statement, download date, local filename, checksum, and intended on-screen label.
 
@@ -17,6 +17,11 @@ Availability is not permission. Every downloaded visual must retain source URL, 
 | V08 | Original WPPSS construction photographs/films | Period construction, workers, machinery, rising towers | Repository and rights holder not yet established | Highest-priority archive search; label `HISTORICAL SOURCE` only after authentication |
 | V09 | Contemporary newspapers/TV reports | Public reaction and bond crisis | Likely copyrighted | License or use only narrowly with documented rationale |
 | V10 | Maps/site plans/technical drawings | Explain two units, common systems, regional grid | Source not yet selected | Prefer government/owner documents; otherwise create factual GFX from sourced data |
+| V11 | Wikimedia Commons Satsop package, 12 distinct stills | Current towers, interiors, scale, training and reuse | Cleared file-by-file: CC0, CC BY, CC BY-SA, or U.S. Army public domain; exact creator, license URL and SHA-256 in `STAGE_7/SOURCES/STAGE7_SOURCE_MANIFEST.json` | Preserve attribution and share-alike terms; no `HISTORICAL SOURCE` label |
+| V12 | BPA 1994 WNP-1 & -3 Record of Decision | B045, B050, B059, B085 | Complete official PDF downloaded and SHA-256 locked | `DOCUMENT`; cite exact page in edit |
+| V13 | NRC/GovInfo 64 FR 4725 permit-revocation notice | B089 | U.S. federal work; complete PDF downloaded and SHA-256 locked | `DOCUMENT` |
+| V14 | Energy Northwest FY2020 Project 3 budget | B097 | Official owner publication; full archived PDF downloaded from verified 2024 Wayback capture and SHA-256 locked | `DOCUMENT`; narrow attributed excerpt |
+| V15 | HIA Stage 7 editorial SVG package | 16 GFX and 7 MAP_GFX beats | Project-owned; source basis recorded in manifest | Explanatory diagram, not surveyed site plan |
 
 ## Preferred visual grammar
 

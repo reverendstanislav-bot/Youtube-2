@@ -1,0 +1,348 @@
+﻿{
+    "status":  "PASS",
+    "beat_assignments":  41,
+    "unique_assets":  38,
+    "counts":  {
+                   "current_images":  12,
+                   "editorial_svg":  23,
+                   "official_pdfs":  3
+               },
+    "assets":  [
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B007.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1556,
+                       "sha256":  "68e606098b84c437c92af59d378e6ecc2e32ac7ff4f3fa7131372281e5879d4d",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B009.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1516,
+                       "sha256":  "575b99c5751f83f45e9ba86221027c67dc4e23ae16eb5db104545cc0fd245289",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B010.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1532,
+                       "sha256":  "97ef192eb8e9cabf2e120db05b22aab00d3cb0c787972c722b49c5d5492146c0",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B013.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1561,
+                       "sha256":  "48092f408550ce5866a3d910e57e80e96bd519bb1bc9bf67cecf18586c4bdefb",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B014.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1549,
+                       "sha256":  "17de6497ca5bf33263e41ce42e9ca1c8310408ec708051f0512af25b141f5441",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B018.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1551,
+                       "sha256":  "22d8260d792c224ca7e5d0ff85a49af7c2554a25151b334aeb1cac4a3b0f4cf5",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B020.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1547,
+                       "sha256":  "a628d1ad65d9a838023a89dbd6f6f5fce4c5620636feee9487d9a131b0765f50",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B022.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1537,
+                       "sha256":  "8a7b2dda6c0848ac06c4f7b25b6dc82ec79d93373ae4fb7e79ed2e941a66829a",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B028.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1523,
+                       "sha256":  "a340516bf7c86d8338d377084873a169b02282eeba2385b7328774275b43e4dd",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B030.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1537,
+                       "sha256":  "ad39b3fac42c041fbd4c5c37db8223c2f1b1e34e8a51e85b13b7971450692af9",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B033.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1528,
+                       "sha256":  "70bafeb1cf2aae218119b5acd8a54336f7b5317f0161332141ec3e15933afae5",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B034.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1575,
+                       "sha256":  "47b3a08439fdebfb08718b6e7ec7aa1ac6f4d18a5200994c398e4119280f995e",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B051.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1534,
+                       "sha256":  "b2e5416ffd72c70dea2767dde186e4d5a2c539f7f81e7ed1c8675768fdf5ce61",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B055.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1534,
+                       "sha256":  "e733b814f94702a8f950f6aecbf63e69be7b796851000833cc673566d783819f",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B057.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1538,
+                       "sha256":  "be980eede9876b4ec97deedf6426615050161b9d7e26868de7e1fd0c696a4acb",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B063.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1552,
+                       "sha256":  "a2de4cb7117010489581040cdb9a47cfcbddac22d24a57062cda63dd561d31a2",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B064.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1535,
+                       "sha256":  "83133b204d52a17320a4c212af0f13f622aeec86c37b291a3ea526522103015a",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B065.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1536,
+                       "sha256":  "7a3a3858807f0bbc22be204a9f979e7338ecf6bf6d8927927725b2aea5becd83",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B072.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1541,
+                       "sha256":  "0e8b727c6a45b4dc49344d1b7b46125fd0ff53f250f4e4a613e84c8ca3d62c7b",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B073.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1535,
+                       "sha256":  "5c0cabe0d5821dcaba68f5d137b70aeb940b6d9f24323967b7f0fe25bcdc1234",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B075.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1541,
+                       "sha256":  "90a1e24f8708a728b2f7affe3548a31eb45e79d16f6f436088912cc6922e1e54",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B082.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1603,
+                       "sha256":  "0a0005990ff82345501b06162923cb365905acc34747c5f68318384f2c50499d",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "EDITORIAL_GFX/SAT-B099.svg",
+                       "type":  "SVG",
+                       "size_bytes":  1584,
+                       "sha256":  "30dd1812297074619255ec4dc010066136604ba193ba5f14134d0618356d7b50",
+                       "width":  1344,
+                       "height":  752,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-01_Satsop_Power_Plant.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  4030925,
+                       "sha256":  "982c450716fb6f6b1281b443c770ebb8659cf740b12b7c65fc98ec00d8c2f9fc",
+                       "width":  3036,
+                       "height":  4048,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-02_Inside_an_Incomplete_Satsop_Cooling_Tower_-_Mercator_Projection.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  14880650,
+                       "sha256":  "612dadac60717638ccd93acf8d05e4078b33793491249b89ae2c8f382ee4dae9",
+                       "width":  6050,
+                       "height":  3344,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-03_Satsop_Development_Park_07780.JPG.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  990100,
+                       "sha256":  "c503742d492e5362c6fcf8c81832facef45079a5e046fb261b769e2f134cc80e",
+                       "width":  2560,
+                       "height":  1920,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-04_Satsop_Development_Park_07781.JPG.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  1217508,
+                       "sha256":  "e3dc283033d5106c4431d871c37c907cb9399ab61b1d33a0c94b26b302b30f1e",
+                       "width":  1920,
+                       "height":  2560,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-05_Satsop_Nuclear_Power_Plant_3224059471.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  669446,
+                       "sha256":  "8f3b5d5e8b8705b1aeca8d7372f9a498eb8659225f33b644fc1115a80f6df31e",
+                       "width":  1920,
+                       "height":  2560,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-06_Gryphons_soar_into_Satsop_141112-A-SF231-682.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  508160,
+                       "sha256":  "02f11fc979115010595cf14e406e818185bb0209b7b7c41cc6f0dde9f5cf7395",
+                       "width":  1920,
+                       "height":  1096,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-07_Satsop_141112-A-NC823-220.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  784702,
+                       "sha256":  "c7bb6a8b86db4f57f77ba0d983f7bb74cf7ac17831fca90a394dfeff3447cb7f",
+                       "width":  1920,
+                       "height":  1280,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-08_Satsop_Nuclear_Cooling_Tower_22448062046_.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  580739,
+                       "sha256":  "9d0ad6a009a720b7dcb404d77608398a3be9ab8fcd568c7e056d833c05511d0d",
+                       "width":  1920,
+                       "height":  1280,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-09_Satsop_Nuclear_Plant.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  500009,
+                       "sha256":  "3b3e7f52a72f6541c3bafbda98335104f58388ff8a05c8eeb5688dfbea059eeb",
+                       "width":  1920,
+                       "height":  1440,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-10_Satsop_Nuclear_Power_Plant_3224050535_.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  675083,
+                       "sha256":  "a0f0b488c97097b055ff1bf42ae7d82ee77ea5d7e9acfff77e451dee3aff6e19",
+                       "width":  1920,
+                       "height":  1440,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-11_Satsop_Nuclear_Power_Plant_3224056575_.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  689934,
+                       "sha256":  "f1971d773a37dd786de2abcf883ce136e2a15b396f3b9e631bcd927ca5ddc036",
+                       "width":  1920,
+                       "height":  1440,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/CURRENT_COMMONS/CUR-12_Satsop_nuclear_cooling_tower_east.jpg.jpg",
+                       "type":  "IMAGE",
+                       "size_bytes":  519331,
+                       "sha256":  "7340cceca89294b8146ac06bc2ee479e32151441164cc92fe9d6533105c44daf",
+                       "width":  1920,
+                       "height":  1440,
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/DOCUMENTS/DOC-BPA-1994-ROD.pdf",
+                       "type":  "PDF",
+                       "size_bytes":  4491023,
+                       "sha256":  "0cafc4f0ed1fde586602e16382e3bc9cc4478a10035ecd2a97f9f54fce9d8046",
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/DOCUMENTS/DOC-ENERGY-NW-2020-BUDGET.pdf",
+                       "type":  "PDF",
+                       "size_bytes":  2818407,
+                       "sha256":  "f048e980399d10e9cb89285bf857aaf996d53beeaef075ee5b38a3674c85c84b",
+                       "verdict":  "PASS"
+                   },
+                   {
+                       "path":  "SOURCES/DOCUMENTS/DOC-NRC-1999-CPPR154.pdf",
+                       "type":  "PDF",
+                       "size_bytes":  107290,
+                       "sha256":  "24ec0c612f83c8c6f225fe5859be9e0f14190dabad2e472414f7d00f1d483f7c",
+                       "verdict":  "PASS"
+                   }
+               ]
+}

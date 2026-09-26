@@ -1,0 +1,376 @@
+{
+  "count": 41,
+  "cleared_or_built": 41,
+  "conditional": 0,
+  "assignments": [
+    {
+      "beat_id": "SAT-B001",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-01_Satsop_Power_Plant.jpg.jpg",
+      "source_title": "File:Satsop Power Plant.jpg",
+      "license": "CC0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Power_Plant.jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B007",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B007.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B008",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-02_Inside_an_Incomplete_Satsop_Cooling_Tower_-_Mercator_Projection.jpg.jpg",
+      "source_title": "File:Inside an Incomplete Satsop Cooling Tower - Mercator Projection.jpg",
+      "license": "CC BY 3.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Inside_an_Incomplete_Satsop_Cooling_Tower_-_Mercator_Projection.jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B009",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B009.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B010",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B010.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B013",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B013.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B014",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B014.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B018",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B018.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B020",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B020.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B022",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B022.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B028",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B028.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B030",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B030.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B033",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B033.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B034",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B034.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B041",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-03_Satsop_Development_Park_07780.JPG.jpg",
+      "source_title": "File:Satsop Development Park 07780.JPG",
+      "license": "CC BY 2.5",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Development_Park_07780.JPG",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B045",
+      "asset_class": "DOCUMENT",
+      "asset_path": "SOURCES/DOCUMENTS/DOC-BPA-1994-ROD.pdf",
+      "source_title": "Official document",
+      "license": "Attributed official record",
+      "description_url": "See source manifest",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B050",
+      "asset_class": "DOCUMENT",
+      "asset_path": "SOURCES/DOCUMENTS/DOC-BPA-1994-ROD.pdf",
+      "source_title": "Official document",
+      "license": "Attributed official record",
+      "description_url": "See source manifest",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B051",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B051.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B053",
+      "asset_class": "CURRENT_BROLL",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-04_Satsop_Development_Park_07781.JPG.jpg",
+      "source_title": "File:Satsop Development Park 07781.JPG",
+      "license": "CC BY 2.5",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Development_Park_07781.JPG",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B055",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B055.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B056",
+      "asset_class": "CURRENT_BROLL",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-05_Satsop_Nuclear_Power_Plant_3224059471.jpg",
+      "source_title": "File:Satsop Nuclear Power Plant (3224059471).jpg",
+      "license": "CC BY 2.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Nuclear_Power_Plant_(3224059471).jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B057",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B057.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B059",
+      "asset_class": "DOCUMENT",
+      "asset_path": "SOURCES/DOCUMENTS/DOC-BPA-1994-ROD.pdf",
+      "source_title": "Official document",
+      "license": "Attributed official record",
+      "description_url": "See source manifest",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B063",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B063.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B064",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B064.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B065",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B065.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B072",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B072.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B073",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B073.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B075",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B075.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B082",
+      "asset_class": "GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B082.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B085",
+      "asset_class": "DOCUMENT",
+      "asset_path": "SOURCES/DOCUMENTS/DOC-BPA-1994-ROD.pdf",
+      "source_title": "Official document",
+      "license": "Attributed official record",
+      "description_url": "See source manifest",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B089",
+      "asset_class": "DOCUMENT",
+      "asset_path": "SOURCES/DOCUMENTS/DOC-NRC-1999-CPPR154.pdf",
+      "source_title": "Official document",
+      "license": "Attributed official record",
+      "description_url": "See source manifest",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B092",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-06_Gryphons_soar_into_Satsop_141112-A-SF231-682.jpg.jpg",
+      "source_title": "File:Gryphons soar into Satsop 141112-A-SF231-682.jpg",
+      "license": "Public domain",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Gryphons_soar_into_Satsop_141112-A-SF231-682.jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B097",
+      "asset_class": "DOCUMENT",
+      "asset_path": "SOURCES/DOCUMENTS/DOC-ENERGY-NW-2020-BUDGET.pdf",
+      "source_title": "Official document",
+      "license": "Attributed official record",
+      "description_url": "See source manifest",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B099",
+      "asset_class": "MAP_GFX",
+      "asset_path": "EDITORIAL_GFX/SAT-B099.svg",
+      "source_title": "Original HIA editorial graphic",
+      "license": "Project-owned",
+      "description_url": "BPA/GAO sources listed in GFX manifest",
+      "status": "BUILT"
+    },
+    {
+      "beat_id": "SAT-B100",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-07_Satsop_141112-A-NC823-220.jpg.jpg",
+      "source_title": "File:Satsop 141112-A-NC823-220.jpg",
+      "license": "Public domain",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_141112-A-NC823-220.jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B101",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-08_Satsop_Nuclear_Cooling_Tower_22448062046_.jpg.jpg",
+      "source_title": "File:Satsop Nuclear Cooling Tower (22448062046).jpg",
+      "license": "CC BY-SA 2.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Nuclear_Cooling_Tower_(22448062046).jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B104",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-09_Satsop_Nuclear_Plant.jpg.jpg",
+      "source_title": "File:Satsop Nuclear Plant.jpg",
+      "license": "CC BY-SA 3.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Nuclear_Plant.jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B105",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-10_Satsop_Nuclear_Power_Plant_3224050535_.jpg.jpg",
+      "source_title": "File:Satsop Nuclear Power Plant (3224050535).jpg",
+      "license": "CC BY 2.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Nuclear_Power_Plant_(3224050535).jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B108",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-11_Satsop_Nuclear_Power_Plant_3224056575_.jpg.jpg",
+      "source_title": "File:Satsop Nuclear Power Plant (3224056575).jpg",
+      "license": "CC BY 2.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_Nuclear_Power_Plant_(3224056575).jpg",
+      "status": "CLEARED"
+    },
+    {
+      "beat_id": "SAT-B109",
+      "asset_class": "CURRENT_FOOTAGE",
+      "asset_path": "SOURCES/CURRENT_COMMONS/CUR-12_Satsop_nuclear_cooling_tower_east.jpg.jpg",
+      "source_title": "File:Satsop nuclear cooling tower east.jpg",
+      "license": "CC BY-SA 4.0",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Satsop_nuclear_cooling_tower_east.jpg",
+      "status": "CLEARED"
+    }
+  ]
+}

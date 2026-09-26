@@ -199,3 +199,14 @@
 - Locked the complete generation/GFX layer at **68 / 68**.
 - Balance moved exactly from 1,144.07 to 1,142.57 credits.
 - The remaining 41 beats are evidence/current/source acquisitions, not additional generated positions.
+
+## 2026-09-25 — Stage 7 source and editorial visual acquisition
+
+- Parsed all 41 non-generation beats from the locked Stage 5 map.
+- Downloaded and rights-logged 12 distinct Satsop stills from Wikimedia Commons under CC0, CC BY, CC BY-SA or U.S. Army public-domain terms.
+- Excluded Port of Grays Harbor audiovisual material because no blanket reuse permission was documented.
+- Downloaded complete official BPA and NRC/GovInfo PDFs and recovered a complete Energy Northwest FY2020 budget from a verified untruncated Wayback capture.
+- Built 16 original editorial GFX and seven explanatory map/technical SVGs with local 1344 × 752 previews.
+- Assigned all **41 / 41** non-generation beats to concrete local assets.
+- Technical QC passed all **38** unique assets; SHA-256, source URLs, creators and license data are recorded.
+- Total visual assignment coverage is now **109 / 109 beats**. Stage 8 rough-cut assembly is next.

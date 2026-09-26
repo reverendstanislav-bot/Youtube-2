@@ -7,7 +7,7 @@ Updated: 2026-09-25
 Episode: **4 — Satsop Nuclear Plant**
 Projects: **Washington Nuclear Projects 3 and 5**
 Project: **Hidden Industrial America / YouTube-2**
-State: **STAGE 6 GENERATION/GFX LAYER COMPLETE / 68 OF 68 LOCKED**
+State: **STAGE 7 ASSET ACQUISITION COMPLETE / 109 OF 109 BEATS ASSIGNED**
 Publication status: **PREPRODUCTION — TEST VISUALS ONLY / NO PICTURE EDIT**
 
 ## Current documentary direction
@@ -181,7 +181,11 @@ Acquire and rights-log the real R01–R07 media required by the 10 reference-con
 - FIX9 V6 directorial QC: **9 PASS / 0 CONDITIONAL / 0 FAIL**;
 - FIX9 V6 cost: **1.50 credits** for three Higgsfield replacements; six deterministic GFX cost no credits;
 - post-run balance: **1,142.57 credits**;
-- remaining visual acquisition: **41 evidence/current/source beats** under the Stage 5 plan;
+- Stage 7 non-generation assignments: **41 / 41**;
+- Stage 7 unique assets: **38** — 12 current Commons stills, 23 original GFX/map SVGs and 3 official PDFs;
+- Stage 7 technical QC: **PASS**;
+- full beat-map asset coverage: **109 / 109**;
+- next gate: Stage 8 rough-cut assembly against the locked 00:19:23.920 VO master;
 - V2 grammar families: **54**;
 - historical V2 maximum remaining full-queue cost: **27.50 credits**, superseded by V3;
 - V2 generation authorization: **0.00 credits**.

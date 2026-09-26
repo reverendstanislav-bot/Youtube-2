@@ -1,0 +1,305 @@
+{
+  "status": "23/23 BUILT",
+  "count": 23,
+  "files": [
+    {
+      "beat_id": "SAT-B007",
+      "class": "MAP",
+      "svg": "SAT-B007.svg",
+      "png": "SAT-B007.png",
+      "size_bytes": 53220,
+      "sha256": "c64121efeffe9cd76e00c880dcaeac50aae1c05f0b023b643803cf664bda7132",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B009",
+      "class": "GFX",
+      "svg": "SAT-B009.svg",
+      "png": "SAT-B009.png",
+      "size_bytes": 31606,
+      "sha256": "45f815998d99dc951a815d3c9930ea63c27c4d6c04e7cdff8b6ce439a0e1d0de",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B010",
+      "class": "GFX",
+      "svg": "SAT-B010.svg",
+      "png": "SAT-B010.png",
+      "size_bytes": 31753,
+      "sha256": "330a8b04d507a3316ce3336e3683c2b265c687df795d46871099b861fd2e603d",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B013",
+      "class": "MAP",
+      "svg": "SAT-B013.svg",
+      "png": "SAT-B013.png",
+      "size_bytes": 52715,
+      "sha256": "551359b1e36044f5018ce5066eb34da15e5730f56a08ee05e5895247d7180060",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B014",
+      "class": "MAP",
+      "svg": "SAT-B014.svg",
+      "png": "SAT-B014.png",
+      "size_bytes": 51928,
+      "sha256": "726acc01cef9295bd5a259a82184e638f0e671ae270580b266d7a93f9d1e24a6",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B018",
+      "class": "MAP",
+      "svg": "SAT-B018.svg",
+      "png": "SAT-B018.png",
+      "size_bytes": 52334,
+      "sha256": "05fe57842fac064bf2b6b0d97e42d91091c8f12af49ee8755ae5846812695895",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B020",
+      "class": "GFX",
+      "svg": "SAT-B020.svg",
+      "png": "SAT-B020.png",
+      "size_bytes": 36536,
+      "sha256": "149ce3412e8fdb4b1d9f2fbe7b92395f258cda3c45d6c0919bb2230c5c8057d5",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B022",
+      "class": "GFX",
+      "svg": "SAT-B022.svg",
+      "png": "SAT-B022.png",
+      "size_bytes": 38683,
+      "sha256": "d21e7a209cf92fc5df27644442054660196ea73380f1af4efdabf57f0a05b359",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B028",
+      "class": "GFX",
+      "svg": "SAT-B028.svg",
+      "png": "SAT-B028.png",
+      "size_bytes": 28044,
+      "sha256": "c841852e46623a97c45cd9646b18c45742f546947782b2f6adb62183a6314655",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B030",
+      "class": "GFX",
+      "svg": "SAT-B030.svg",
+      "png": "SAT-B030.png",
+      "size_bytes": 32386,
+      "sha256": "fcfdd5c71e86a8c78d50129432ca917636e73adb8be8ddba25a6d09ffc5a3616",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B033",
+      "class": "GFX",
+      "svg": "SAT-B033.svg",
+      "png": "SAT-B033.png",
+      "size_bytes": 32306,
+      "sha256": "1608baf18516db73dfbb8316f4482fab06a8640a8b1320802b129d4f05a37242",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B034",
+      "class": "MAP",
+      "svg": "SAT-B034.svg",
+      "png": "SAT-B034.png",
+      "size_bytes": 55284,
+      "sha256": "2538cce20e8ed183b142d1dcfcbd569afe2112dcb4f1cd736368e9ca2a5263e8",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B051",
+      "class": "GFX",
+      "svg": "SAT-B051.svg",
+      "png": "SAT-B051.png",
+      "size_bytes": 34541,
+      "sha256": "2fb1dff16af02da9a0b14861dddac5dfd642a7d5a6ca1ddf4866c71409a322e8",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B055",
+      "class": "GFX",
+      "svg": "SAT-B055.svg",
+      "png": "SAT-B055.png",
+      "size_bytes": 37905,
+      "sha256": "e4c834d7f67eca3fa8e05756ce60e0d250abb21555abceb03111b3a7349625b4",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B057",
+      "class": "GFX",
+      "svg": "SAT-B057.svg",
+      "png": "SAT-B057.png",
+      "size_bytes": 41727,
+      "sha256": "9e5e8037dc7288d78354bc57fc9c9656942b72dd571f5c5e75c7681b61530d3a",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B063",
+      "class": "MAP",
+      "svg": "SAT-B063.svg",
+      "png": "SAT-B063.png",
+      "size_bytes": 49246,
+      "sha256": "591d22e35b5571d4c5fc7a7fc7cbff99b0f2b822714b349ea0265a33482eb687",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B064",
+      "class": "GFX",
+      "svg": "SAT-B064.svg",
+      "png": "SAT-B064.png",
+      "size_bytes": 36015,
+      "sha256": "cdfaf679cacbb411ba40b34db012e33644069369dda124e282b1c23e0eb0e22a",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B065",
+      "class": "GFX",
+      "svg": "SAT-B065.svg",
+      "png": "SAT-B065.png",
+      "size_bytes": 38192,
+      "sha256": "c86af879313a937c3847422de5c44c76bdaa1caaa4033fe0574b2698d2355a72",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B072",
+      "class": "GFX",
+      "svg": "SAT-B072.svg",
+      "png": "SAT-B072.png",
+      "size_bytes": 35163,
+      "sha256": "415d68bfe70d46bd2e591adf5850b378eebe820e47e383a3f2d606718f310198",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B073",
+      "class": "GFX",
+      "svg": "SAT-B073.svg",
+      "png": "SAT-B073.png",
+      "size_bytes": 38217,
+      "sha256": "acf2875d0b34f78832dea4877e5df2ececee670a18540c12a4e90d7e0ffc7f52",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B075",
+      "class": "GFX",
+      "svg": "SAT-B075.svg",
+      "png": "SAT-B075.png",
+      "size_bytes": 38733,
+      "sha256": "681c2eb2e7e2523d30819d49902e13567931736309b0697ec4967818444b4b80",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B082",
+      "class": "GFX",
+      "svg": "SAT-B082.svg",
+      "png": "SAT-B082.png",
+      "size_bytes": 36938,
+      "sha256": "afcc45bf66f2b3e8c9366d194e8a74aae76752f1c94db8894130044c3c4c1c67",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    },
+    {
+      "beat_id": "SAT-B099",
+      "class": "MAP",
+      "svg": "SAT-B099.svg",
+      "png": "SAT-B099.png",
+      "size_bytes": 60242,
+      "sha256": "beee65395a232d76b507a218fda7612234d253e240c3f0ffbce5eaa513e1436d",
+      "source_basis": [
+        "BPA WNP-1 & -3 ROD (1994)",
+        "GAO EMD-82-106 (1982)",
+        "Stage 5 locked narration"
+      ]
+    }
+  ]
+}
