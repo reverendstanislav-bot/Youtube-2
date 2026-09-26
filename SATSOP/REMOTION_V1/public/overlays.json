@@ -1,0 +1,268 @@
+{
+  "cards": [
+    {
+      "beat": "SAT-B002",
+      "s": 7.87,
+      "e": 12.47,
+      "kicker": "PROJECT 5",
+      "title": "14% COMPLETE",
+      "subline": "TERMINATED IN 1982"
+    },
+    {
+      "beat": "SAT-B003",
+      "s": 18.81,
+      "e": 23.41,
+      "kicker": "PROJECT 3",
+      "title": "74% COMPLETE",
+      "subline": "PRESERVED UNTIL 1994"
+    },
+    {
+      "beat": "SAT-B006",
+      "s": 54.25,
+      "e": 58.85,
+      "kicker": "THE FIRST BREAK",
+      "title": "JANUARY 22, 1982",
+      "subline": "PROJECTS 4 + 5 TERMINATED"
+    },
+    {
+      "beat": "SAT-B009",
+      "s": 82.45,
+      "e": 87.05,
+      "kicker": "BONDS ALREADY SOLD",
+      "title": "$2.25 BILLION",
+      "subline": "PROJECTS 4 + 5"
+    },
+    {
+      "beat": "SAT-B010",
+      "s": 89.73,
+      "e": 94.33,
+      "kicker": "COMPLETION ESTIMATE",
+      "title": "$12 BILLION",
+      "subline": "~$8.5B ABOVE THE ORIGINAL ESTIMATE"
+    },
+    {
+      "beat": "SAT-B015",
+      "s": 142.67,
+      "e": 147.27,
+      "kicker": "THE BUILDOUT",
+      "title": "FIVE NUCLEAR PROJECTS",
+      "subline": "ONE WOULD EVENTUALLY OPERATE"
+    },
+    {
+      "beat": "SAT-B016",
+      "s": 155.83,
+      "e": 160.43,
+      "kicker": "ORGANIZATIONAL SCALE",
+      "title": "FEWER THAN 100 → 1,471",
+      "subline": "EMPLOYEES, 1968–1979"
+    },
+    {
+      "beat": "SAT-B019",
+      "s": 190.71,
+      "e": 195.31,
+      "kicker": "PROJECT 4 + 5 PARTICIPANTS",
+      "title": "88 BPA CUSTOMERS",
+      "subline": "+ 1 PRIVATE UTILITY"
+    },
+    {
+      "beat": "SAT-B021",
+      "s": 211.38,
+      "e": 215.98,
+      "kicker": "TAKE OR PAY",
+      "title": "PAY WHETHER COMPLETED",
+      "subline": "OPERABLE OR OPERATING"
+    },
+    {
+      "beat": "SAT-B025",
+      "s": 250.09,
+      "e": 254.69,
+      "kicker": "THE DEFAULT",
+      "title": "JULY 22, 1983",
+      "subline": "PROJECT 4 + 5 BONDS"
+    },
+    {
+      "beat": "SAT-B026",
+      "s": 261.33,
+      "e": 265.93,
+      "kicker": "TWO FINANCING PATHS",
+      "title": "PROJECT 5 ≠ PROJECT 3",
+      "subline": "PARTICIPANT DEBT / BPA NET BILLING"
+    },
+    {
+      "beat": "SAT-B031",
+      "s": 307.83,
+      "e": 312.43,
+      "kicker": "PROJECT 3 FINANCING",
+      "title": "70% / 30%",
+      "subline": "PUBLIC NET BILLING / FOUR IOUs"
+    },
+    {
+      "beat": "SAT-B032",
+      "s": 320.61,
+      "e": 325.21,
+      "kicker": "PLANNED OUTPUT",
+      "title": "1,240 MW EACH",
+      "subline": "PRESSURIZED-WATER REACTORS"
+    },
+    {
+      "beat": "SAT-B038",
+      "s": 385.411,
+      "e": 390.011,
+      "kicker": "PROJECT 3",
+      "title": "SUSPENDED ≠ TERMINATED",
+      "subline": "THE COMPLETION OPTION REMAINED OPEN"
+    },
+    {
+      "beat": "SAT-B046",
+      "s": 474.461,
+      "e": 479.061,
+      "kicker": "CAPITAL ALREADY INVESTED",
+      "title": "$2.6 BILLION",
+      "subline": "1993 DOLLARS"
+    },
+    {
+      "beat": "SAT-B047",
+      "s": 484.521,
+      "e": 489.121,
+      "kicker": "VISIBLE SCALE",
+      "title": "~500-FOOT COOLING TOWERS",
+      "subline": "MAJOR BUILDINGS ALREADY EXISTED"
+    },
+    {
+      "beat": "SAT-B048",
+      "s": 495.401,
+      "e": 500.001,
+      "kicker": "THE COMPLETION TRAP",
+      "title": "VISIBLE CONCRETE",
+      "subline": "DOES NOT REVEAL THE COST TO FINISH"
+    },
+    {
+      "beat": "SAT-B054",
+      "s": 568.541,
+      "e": 573.141,
+      "kicker": "THE DECISION RULE",
+      "title": "PAST SPEND / NEXT DECISION",
+      "subline": "SUNK COST IS NOT FUTURE VALUE"
+    },
+    {
+      "beat": "SAT-B058",
+      "s": 605.221,
+      "e": 609.821,
+      "kicker": "CAPACITY COMPARISON",
+      "title": "1,240 MW / 240 MW",
+      "subline": "NUCLEAR / COMBINED-CYCLE REFERENCE"
+    },
+    {
+      "beat": "SAT-B060",
+      "s": 632.461,
+      "e": 637.061,
+      "kicker": "CONSTRUCTION WINDOW",
+      "title": "FIVE YEARS / THREE YEARS",
+      "subline": "PROJECT 3 / COMBINED CYCLE"
+    },
+    {
+      "beat": "SAT-B068",
+      "s": 717.918,
+      "e": 722.518,
+      "kicker": "THE ALTERNATIVE'S VALUE",
+      "title": "FLEXIBILITY",
+      "subline": "SMALLER STEPS, SHORTER COMMITMENT"
+    },
+    {
+      "beat": "SAT-B069",
+      "s": 727.448,
+      "e": 732.048,
+      "kicker": "BASE COMPLETION ESTIMATE",
+      "title": "$1.55 BILLION",
+      "subline": "PROJECT 3 — 1993 DOLLARS"
+    },
+    {
+      "beat": "SAT-B074",
+      "s": 781.428,
+      "e": 786.028,
+      "kicker": "SYSTEM POSITION",
+      "title": "1,240 MW",
+      "subline": "+600 AVERAGE-MW SURPLUS FORECAST"
+    },
+    {
+      "beat": "SAT-B079",
+      "s": 837.588,
+      "e": 842.188,
+      "kicker": "THE 1994 CONTRADICTION",
+      "title": "74% BUILT",
+      "subline": "POWER NO LONGER NEEDED"
+    },
+    {
+      "beat": "SAT-B083",
+      "s": 883.378,
+      "e": 887.978,
+      "kicker": "THE STRATEGIC CHOICE",
+      "title": "REPOWER / NEW BUILD",
+      "subline": "EXISTING ASSETS VS FLEXIBILITY"
+    },
+    {
+      "beat": "SAT-B086",
+      "s": 926.818,
+      "e": 931.418,
+      "kicker": "FINAL DECISION",
+      "title": "TERMINATED",
+      "subline": "PAST INVESTMENT DID NOT CONTROL THE FUTURE"
+    },
+    {
+      "beat": "SAT-B088",
+      "s": 944.058,
+      "e": 948.658,
+      "kicker": "FOUR ENDINGS",
+      "title": "1982 / 1983 / 1983 / 1994",
+      "subline": "P5 / DEFAULT / P3 SUSPENSION / P3 TERMINATION"
+    },
+    {
+      "beat": "SAT-B090",
+      "s": 965.918,
+      "e": 970.518,
+      "kicker": "AFTER TERMINATION",
+      "title": "FOUR DIFFERENT CLOCKS",
+      "subline": "PERMIT / PROPERTY / REMEDIATION / DEBT"
+    },
+    {
+      "beat": "SAT-B093",
+      "s": 994.778,
+      "e": 999.378,
+      "kicker": "THE DEBT CLOCK",
+      "title": "DECADES LATER",
+      "subline": "BUDGETING CONTINUED AFTER TERMINATION"
+    },
+    {
+      "beat": "SAT-B098",
+      "s": 1040.018,
+      "e": 1044.618,
+      "kicker": "THE RECOVERY",
+      "title": "INFRASTRUCTURE",
+      "subline": "NOT THE NUCLEAR INVESTMENT"
+    },
+    {
+      "beat": "SAT-B102",
+      "s": 1085.151,
+      "e": 1089.751,
+      "kicker": "TODAY'S SITE",
+      "title": "300,000 SQ FT",
+      "subline": "SATSOP BUSINESS PARK"
+    },
+    {
+      "beat": "SAT-B103",
+      "s": 1096.261,
+      "e": 1100.861,
+      "kicker": "ADAPTIVE REUSE",
+      "title": "CONFINED-SPACE TRAINING",
+      "subline": "INDUSTRIAL AND RESCUE OPERATIONS"
+    },
+    {
+      "beat": "SAT-B106",
+      "s": 1126.561,
+      "e": 1131.161,
+      "kicker": "WHAT SATSOP BECAME",
+      "title": "A WORKING INDUSTRIAL SITE",
+      "subline": "WITHOUT GENERATING NUCLEAR POWER"
+    }
+  ]
+}

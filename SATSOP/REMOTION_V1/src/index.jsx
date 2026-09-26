@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Audio, Composition, Img, interpolate, registerRoot, staticFile, useCurrentFrame} from 'remotion';
 import timeline from '../public/timeline.json';
 import captions from '../public/captions.json';
+import overlays from '../public/overlays.json';
 
 const FPS=timeline.fps;
 const TOTAL=Math.round(timeline.duration*FPS);
@@ -57,11 +58,31 @@ function Caption({frame}){
   return <div style={{position:'absolute',left:150,right:150,bottom:54,zIndex:70,textAlign:'center',fontFamily:'Arial,Helvetica,sans-serif',fontWeight:850,fontSize:55,lineHeight:1.12,color:C.paper,WebkitTextStroke:'1.2px rgba(8,10,11,.95)',textShadow:'0 4px 9px rgba(0,0,0,.98),0 0 21px rgba(0,0,0,.8)'}}>{cue.words.map((w,i)=><React.Fragment key={i}><span style={{color:i===active?C.orange:C.paper}}>{w.w}</span>{i<cue.words.length-1?' ':''}</React.Fragment>)}</div>;
 }
 
+function EditorialCard({card,frame}){
+  const t=frame/FPS,dur=card.e-card.s,local=t-card.s;
+  const op=Math.min(interpolate(local,[0,.22],[0,1],CLAMP),interpolate(local,[Math.max(.45,dur-.30),dur],[1,0],CLAMP));
+  const y=interpolate(local,[0,.28],[10,0],CLAMP);
+  const titleSize=card.title.length>28?54:(card.title.length>20?61:70);
+  return <div style={{position:'absolute',left:88,top:72,width:1120,zIndex:45,opacity:op,transform:`translateY(${y}px)`,fontFamily:'Arial,Helvetica,sans-serif',textShadow:'0 4px 12px rgba(0,0,0,.95)'}}>
+    <div style={{display:'flex',alignItems:'center',gap:18}}>
+      <div style={{width:64,height:5,background:C.orange}}/>
+      <div style={{fontSize:20,fontWeight:760,letterSpacing:4.3,color:C.paper}}>{card.kicker}</div>
+    </div>
+    <div style={{marginTop:24,fontWeight:850,fontSize:titleSize,lineHeight:.95,color:C.ivory}}>{card.title}</div>
+    <div style={{marginTop:18,fontSize:23,fontWeight:760,letterSpacing:3.0,color:C.orange}}>{card.subline}</div>
+  </div>;
+}
+
+function Cards({frame}){
+  const t=frame/FPS,card=overlays.cards.find(x=>t>=x.s&&t<=x.e);
+  return card?<EditorialCard card={card} frame={frame}/>:null;
+}
+
 function Film(){
   const frame=useCurrentFrame(),beat=currentBeat(frame);
   return <AbsoluteFill style={{background:C.charcoal}}>
     {beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<ImageBeat beat={beat} frame={frame}/>} 
-    <Provenance beat={beat} frame={frame}/><Caption frame={frame}/>
+    <Provenance beat={beat} frame={frame}/><Cards frame={frame}/><Caption frame={frame}/>
     <Audio src={staticFile('SATSOP_VO_MASTER_V1.wav')}/>
   </AbsoluteFill>;
 }

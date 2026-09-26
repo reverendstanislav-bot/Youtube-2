@@ -295,3 +295,17 @@ Canonical files:
 - SHA-256: `9767f63ae8c9ab5a72c1fe0be105455ae2af1b9d4b5943592608f2ac0810ef1d`;
 - additional generation spend: **0 credits**;
 - current gate: user directorial review of the corrected rough cut; music/mix and final delivery review remain before final-master status.
+
+## Stage 8 editorial-card completion
+
+- upper-left editorial cards matching the earlier channel episodes: **33**;
+- full encoded-master card review: **33 PASS / 0 FAIL**;
+- subtitle collisions or text clipping: **0**;
+- music: **explicitly excluded by user direction**;
+- active audio: locked narration only;
+- decode QC: **PASS**;
+- black-frame QC (minimum 0.20 seconds): **PASS, 0 detections**;
+- duration: **00:19:23.989**;
+- size: **1,034,217,533 bytes**;
+- SHA-256: `d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166`;
+- current gate: user review, then picture lock and final delivery QC without a music stage.
