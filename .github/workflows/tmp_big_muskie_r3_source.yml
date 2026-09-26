@@ -1,0 +1,28 @@
+name: Package Big Muskie R3 source
+on:
+  push:
+    branches:
+      - tmp/big-muskie-r3-runtime-20260925
+    paths:
+      - '.github/workflows/tmp_big_muskie_r3_source.yml'
+permissions:
+  contents: read
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package source
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/pkg/BIG_MUSKIE
+          cp -a BIG_MUSKIE/REMOTION_V3 /tmp/pkg/BIG_MUSKIE/
+          cp -a BIG_MUSKIE/FINAL_ASSET_LOCK /tmp/pkg/BIG_MUSKIE/
+          cp -a BIG_MUSKIE/ASSEMBLY_V2 /tmp/pkg/BIG_MUSKIE/
+          tar -C /tmp/pkg -czf /tmp/BIG_MUSKIE_R3_SOURCE.tar.gz BIG_MUSKIE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_R3_SOURCE
+          path: /tmp/BIG_MUSKIE_R3_SOURCE.tar.gz
+          retention-days: 1
+          compression-level: 0
