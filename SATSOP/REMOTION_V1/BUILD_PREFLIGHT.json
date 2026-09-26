@@ -1,10 +1,10 @@
 {
   "beats": 109,
   "counts": {
-    "generated": 68,
+    "generated": 97,
     "current": 12,
-    "gfx": 23,
-    "document": 6
+    "gfx": 0,
+    "document": 0
   },
   "captions": 465,
   "duration_seconds": 1163.92,

@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "file": "SATSOP/REMOTION_V1/out/SATSOP_ROUGH_CUT_V1.mp4",
-  "size_bytes": 818658699,
-  "sha256": "b2a7de4df282a874b4ef781448312abcdeace52f8b187096def0515bc0674e03",
+  "size_bytes": 1028911182,
+  "sha256": "f2f9c0731c7ec6af0158cf949dc5f09f6dd64bf46adeda3e829c23bd3b69b42a",
   "duration_seconds": 1163.989333,
   "expected_duration_seconds": 1163.92,
   "video": {

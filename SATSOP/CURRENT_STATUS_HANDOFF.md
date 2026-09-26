@@ -258,3 +258,24 @@ Canonical files:
 - `STAGE_8_GENERATED_REPLACEMENTS/SATSOP_35_GENERATED_REPLACEMENTS.md`
 - `STAGE_8_GENERATED_REPLACEMENTS/SATSOP_35_GENERATED_REPLACEMENTS.json`
 - `STAGE_8_GENERATED_REPLACEMENTS/SATSOP_35_GENERATED_REPLACEMENTS.csv`
+
+## Stage 8 generated replacement completion
+
+- Higgsfield replacement jobs: **35 / 35 completed**;
+- technical QC: **35 / 35 PASS** at 1344 × 752 PNG;
+- directorial QC: **35 PASS / 0 CONDITIONAL / 0 FAIL**;
+- retries: **0**;
+- exact spend: **17.50 credits**;
+- balance before: **1,092.67 credits**;
+- balance after: **1,075.17 credits**;
+- active Remotion timeline: **97 generated photographic frames + 12 current licensed frames**;
+- hand-built editorial GFX in active timeline: **0**;
+- Remotion document cards in active timeline: **0**;
+- `AI RECONSTRUCTION` badge: **removed**;
+- replacement rough cut technical QC: **PASS**;
+- render: **1920×1080, 30 fps, H.264, AAC 48 kHz stereo, 34,918 frames**;
+- duration: **00:19:23.989**;
+- size: **1,028,911,182 bytes**;
+- SHA-256: `f2f9c0731c7ec6af0158cf949dc5f09f6dd64bf46adeda3e829c23bd3b69b42a`;
+- five former GFX/card positions were sampled in the encoded MP4 and visually passed;
+- current gate: user directorial review of the replacement rough cut.

@@ -47,3 +47,7 @@ Never collapse WNP-3 and WNP-5 into one cancellation story. WNP-5 was terminated
 ## Stage 8 correction
 
 The first Remotion rough cut exposed 35 hand-built schematic inserts that do not meet the intended generated-documentary visual standard. All 35 now have individual replacement prompts. The `AI RECONSTRUCTION` badge has been removed from the Remotion source. The existing render remains superseded until replacement generation, QC, remapping and rerender are complete.
+
+## Generated replacement pass complete
+
+All 35 hand-built schematic inserts were replaced with generated photographic documentary scenes. The active timeline now contains 97 generated images and 12 licensed current-source images, with zero editorial SVG/GFX cards and zero Remotion document cards. The replacement rough cut passed technical QC. It remains a review proof until user directorial approval.

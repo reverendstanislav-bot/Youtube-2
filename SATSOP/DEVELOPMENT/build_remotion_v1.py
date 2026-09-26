@@ -102,7 +102,13 @@ def main() -> None:
             "assetClass": klass, "direction": -1 if i % 2 else 1,
         }
         try:
-            if beat in assignments:
+            replacements = sorted((SAT / "STAGE_8_GENERATED_REPLACEMENTS/IMAGES").glob(f"SAT-RPL-*_{beat}.png"))
+            if replacements:
+                src = replacements[0]
+                dst = ASSETS / f"{beat}{src.suffix.lower()}"
+                link(src, dst)
+                item.update({"kind": "generated", "file": f"assets/{dst.name}", "replacementId": src.stem.split("_")[0]})
+            elif beat in assignments:
                 a = assignments[beat]
                 item.update({"sourceTitle": a["source_title"], "license": a["license"]})
                 if a["asset_class"] == "DOCUMENT":
