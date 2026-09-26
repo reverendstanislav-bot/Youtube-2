@@ -1,0 +1,26 @@
+{
+  "status": "3/3 AUTHORIZED JOBS COMPLETED",
+  "model": "gpt_image_2",
+  "aspect_ratio": "16:9",
+  "unit_cost_expected": 0.5,
+  "items": [
+    {
+      "prompt_id": "SAT-GEN028-V6",
+      "beat_id": "SAT-B043",
+      "overlay_plan": "inspect / protect / evaluate",
+      "prompt": "Documentary reconstruction, full-bleed 16:9. In a quiet unfinished 1980s concrete service corridor, two maintenance workers inspect only ordinary wall-mounted electrical junction boxes and exposed empty conduit runs with flashlights and a handheld meter. Medium-wide eye-level composition; the workers and conduit are the only subjects. No cylindrical vessel, dome, reactor component, turbine, pressure equipment, piping maze, plant panorama, operating machinery, readable labels, papers, words, numbers, logos or screens. Neutral practical light, restrained color, credible period clothing, no spectacle. This is a generic preservation procedure, not a depiction of exact Satsop geometry. Continue the image to every edge; no borders, panels, captions or blank matte."
+    },
+    {
+      "prompt_id": "SAT-GEN034-V6",
+      "beat_id": "SAT-B052",
+      "overlay_plan": "agency decision → monthly rate",
+      "prompt": "Documentary reconstruction, full-bleed 16:9. Late-1980s small Pacific Northwest repair workshop after closing: one owner sits at a workbench, looking with concern at a plain sealed utility envelope held face-down beside an old adding machine and a switched-off desk lamp. The envelope is completely blank and its face is not visible; no ledger, invoice, newspaper, chart, form or loose paper appears anywhere. Medium close shot centered on the owner's expression and hands, with the dim workshop behind. No readable words, letters, numbers, logos or watermarks. Natural practical light, restrained color, credible period details, no cinematic melodrama. Continue the image to every edge; no borders, panels, captions or blank matte."
+    },
+    {
+      "prompt_id": "SAT-GEN038-V6",
+      "beat_id": "SAT-B061",
+      "overlay_plan": "hydro variability / flexible dispatch",
+      "prompt": "Documentary reconstruction, full-bleed 16:9. Tight late-1980s regional power-control-room detail: an operator's hands adjust three rows of identical unmarked analog toggle switches while another hand moves three plain wooden planning blocks on a dark desk. Shallow depth of field keeps the background fully soft and unreadable. No wall map, coastline, river, reservoir photograph, geographic outline, monitor content, chart, document, plant model, reactor, turbine, smokestack, readable words, letters, numbers, logos or watermarks. The image represents flexible dispatch generically and does not claim identifiable geography. Neutral practical light, restrained documentary realism. Continue the image to every edge; no borders, panels, captions or blank matte."
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Updated: 2026-09-25
 
 ## Status
 
-**FINAL28 V5 GENERATED — 59 PASSES LOCKED — 9 POSITIONS UNRESOLVED**
+**GENERATION/GFX LAYER COMPLETE — 68 / 68 POSITIONS LOCKED**
 
 ## Canonical files
 
@@ -30,4 +30,4 @@ Updated: 2026-09-25
 - second-test QC: **8 PASS / 8 CONDITIONAL / 4 FAIL**;
 - accepted assets locked across both tests: **13**.
 
-The user-authorized FINAL28 V5 queue completed 28/28 with no retries. Technical QC passed 28/28. Strict directorial QC scored **19 PASS / 2 CONDITIONAL / 7 FAIL**. Nineteen new assets are locked, for **59 total accepted generated images**. Nine positions remain unresolved. The generated GFX outputs are base plates and require deterministic factual overlays.
+FIX9 V6 rebuilt six failed factual positions as deterministic GFX and regenerated three reconstruction positions through Higgsfield. Technical and directorial QC passed **9 / 9**, closing the generation/GFX layer at **68 / 68**. Exact additional spend was **1.50 credits**. The separate 41 evidence/current/source beats remain governed by the Stage 5 acquisition plan.

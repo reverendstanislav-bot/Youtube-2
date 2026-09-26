@@ -1,0 +1,23 @@
+{
+  "authorized_cost_credits": 1.5,
+  "jobs": [
+    {
+      "prompt_id": "SAT-GEN028-V6",
+      "job_id": "5db8dca9-864a-4883-9e1c-1d8dec4df02a",
+      "status": "completed",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_211632_5db8dca9-864a-4883-9e1c-1d8dec4df02a.png"
+    },
+    {
+      "prompt_id": "SAT-GEN034-V6",
+      "job_id": "1aec0023-dad4-4a9a-baf2-e2982a319324",
+      "status": "completed",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_211632_1aec0023-dad4-4a9a-baf2-e2982a319324.png"
+    },
+    {
+      "prompt_id": "SAT-GEN038-V6",
+      "job_id": "d4bf1140-1c7a-4e0b-8772-ec97749bee55",
+      "status": "completed",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260925_211632_d4bf1140-1c7a-4e0b-8772-ec97749bee55.png"
+    }
+  ]
+}

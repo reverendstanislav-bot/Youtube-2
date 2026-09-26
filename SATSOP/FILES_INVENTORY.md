@@ -82,5 +82,11 @@ Updated: 2026-09-25
 | `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_JOBS.json` | Provider IDs, URLs, local files and hashes | 28/28 complete |
 | `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_TECHNICAL_QC.json` | Decode, dimensions and SHA-256 verification | Pass 28/28 |
 | `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_DIRECTORIAL_QC.md` | Strict FINAL28 visual audit | 19 pass / 2 conditional / 7 fail |
+| `DEVELOPMENT/build_stage6_fix9_v6.py` | Reproducible deterministic GFX correction builder | Complete |
+| `STAGE_6/FIX9_V6/FIX9_V6_HIGGSFIELD_PROMPTS.json` | Exact three-replacement prompt pack | Complete |
+| `STAGE_6/FIX9_V6/FIX9_V6_HIGGSFIELD_SUBMISSIONS.json` | Provider IDs and result URLs | 3/3 complete |
+| `STAGE_6/FIX9_V6/FIX9_V6_DETERMINISTIC_MANIFEST.json` | Six editor-built GFX hashes | Complete |
+| `STAGE_6/FIX9_V6/FIX9_V6_TECHNICAL_QC.json` | Nine-file decode, dimensions and SHA-256 | Pass 9/9 |
+| `STAGE_6/FIX9_V6/FIX9_V6_DIRECTORIAL_QC.md` | Final correction audit | 9 pass / 0 conditional / 0 fail |
 
-The locked VO, exact timed beat map and complete generation evidence exist. Fifty-nine generated images are accepted and locked. Nine visual positions remain unresolved after FINAL28 V5 QC, and factual GFX bases still require deterministic overlays. No picture edit, render, or publication master exists for Episode 4.
+The locked VO, exact timed beat map and complete generation evidence exist. All 68 generation/GFX positions are accepted and locked. The 41 evidence/current/source beats still require acquisition and rights logging. No picture edit, render, or publication master exists for Episode 4.

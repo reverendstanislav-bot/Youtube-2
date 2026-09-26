@@ -4,9 +4,9 @@ Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Sat
 
 ## Current state
 
-**STAGE 6 FINAL28 V5 GENERATED — 59 PASSES LOCKED — 9 POSITIONS UNRESOLVED.**
+**STAGE 6 GENERATION/GFX LAYER COMPLETE — 68 / 68 POSITIONS LOCKED.**
 
-Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. The authorized FINAL28 V5 batch completed 28/28 and passed technical QC. Strict directorial QC scored **19 PASS / 2 CONDITIONAL / 7 FAIL**, bringing the accepted pool to **59 / 68**. Nine positions remain unresolved; generated GFX bases still require exact deterministic overlays. No retry generation is authorized and no picture edit has been produced.
+Research, script, narration, QC, listening gate, and the 109-beat visual map are complete. FIX9 V6 passed **9 PASS / 0 CONDITIONAL / 0 FAIL**, closing the generation/GFX layer at **68 / 68**. The separate 41 evidence/current/source beats still require acquisition and rights logging before the entire 109-beat visual package is assembled. No picture edit has been produced.
 
 Start every new chat with:
 
@@ -26,6 +26,7 @@ Start every new chat with:
 14. `STAGE_6/TEST20_V3/TEST20_V3_DIRECTORIAL_QC.md`
 15. `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_DIRECTORIAL_QC.md`
 16. `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_DIRECTORIAL_QC.md`
+17. `STAGE_6/FIX9_V6/FIX9_V6_DIRECTORIAL_QC.md`
 
 ## Episode rule
 

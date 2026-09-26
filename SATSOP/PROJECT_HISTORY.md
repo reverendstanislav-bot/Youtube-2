@@ -187,3 +187,15 @@
 - Locked 19 new assets, bringing the accepted pool to **59 / 68**; nine positions remain unresolved.
 - Exact attributable spend and balance movement both equal **14.00 credits**: 1,158.07 to 1,144.07.
 - Generated GFX outputs remain base plates; exact factual overlays must be built deterministically in the edit.
+
+## 2026-09-25 — Stage 6 FIX9 V6 closure
+
+- Rebuilt six failed factual positions as deterministic editor-made GFX with no provider spend.
+- Rewrote SAT-GEN028, SAT-GEN034 and SAT-GEN038 around their exact failure modes.
+- User explicitly approved the exact **1.50-credit** Higgsfield budget after preflight.
+- Submitted and completed exactly three replacement jobs with no retries.
+- Technical QC passed **9 / 9** final correction files at 1344 × 752 PNG with SHA-256 recorded.
+- Directorial QC passed **9 PASS / 0 CONDITIONAL / 0 FAIL**.
+- Locked the complete generation/GFX layer at **68 / 68**.
+- Balance moved exactly from 1,144.07 to 1,142.57 credits.
+- The remaining 41 beats are evidence/current/source acquisitions, not additional generated positions.

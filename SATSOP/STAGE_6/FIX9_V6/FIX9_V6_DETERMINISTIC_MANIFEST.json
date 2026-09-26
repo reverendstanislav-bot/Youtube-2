@@ -1,0 +1,40 @@
+{
+  "status": "6 deterministic GFX fixes built; 3 Higgsfield replacements tracked separately",
+  "technical": {
+    "width": 1344,
+    "height": 752,
+    "format": "PNG"
+  },
+  "files": [
+    {
+      "filename": "SAT-GEN022_FIX_GFX.png",
+      "size_bytes": 5578,
+      "sha256": "3594f18fd23b17fa3b416726788e2abee60fde917bff1118cf0460d6f211a723"
+    },
+    {
+      "filename": "SAT-GEN043_FIX_GFX.png",
+      "size_bytes": 5544,
+      "sha256": "e33784282a52bc8d40cc44a01801f2d98a2f031a99699b564c1ad377cfa8dde2"
+    },
+    {
+      "filename": "SAT-GEN046_FIX_GFX.png",
+      "size_bytes": 5584,
+      "sha256": "18b81b1d7c0fa198aab2b3794a7fedb0ce65e1f2a766e3a4928f05ec3c73ecaa"
+    },
+    {
+      "filename": "SAT-GEN050_FIX_GFX.png",
+      "size_bytes": 6159,
+      "sha256": "05e3c70b8c4baaf17a4afa4233fb08f4d0d89d57ddc150c612c3e048c48598b5"
+    },
+    {
+      "filename": "SAT-GEN053_FIX_GFX.png",
+      "size_bytes": 5501,
+      "sha256": "e5340ae8d7e03e3fbcca7da1f7c46bb92e549eeef3f96a4f9e78caff64ec872d"
+    },
+    {
+      "filename": "SAT-GEN064_FIX_GFX.png",
+      "size_bytes": 5385,
+      "sha256": "20ddac73c94711cd591acc3e77d514b5f2fdeda29279e02f0a98dec8ac40e70c"
+    }
+  ]
+}
