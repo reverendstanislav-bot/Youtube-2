@@ -1,0 +1,33 @@
+name: Temporary Big Muskie 12-pass materialize
+
+on:
+  push:
+    branches:
+      - tmp/big-muskie-12-pass-assets-20260927
+    paths:
+      - '.github/workflows/tmp_big_muskie_12_pass.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download final locked Higgsfield assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          curl -L --fail --retry 3 -o out/B088_FINAL.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260927_162836_3de57967-e6a6-4803-b1bc-98d2f3721e42.png'
+          curl -L --fail --retry 3 -o out/B089_FINAL.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260927_162845_aeb91761-1dff-439c-ac5d-48def9b334fd.png'
+          curl -L --fail --retry 3 -o out/B111_FINAL.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260927_162859_115b5916-b8f5-4d39-991c-d0dcd5e2af79.png'
+          curl -L --fail --retry 3 -o out/B115_FINAL.png 'https://d8j0ntlcm91z4.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/hf_20260927_162909_6b72dc22-2255-46d2-bd2b-4835bcf6efed.png'
+          file out/*
+          sha256sum out/* > out/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_4_FINAL_PASS_ASSETS
+          path: out/
+          retention-days: 1
+          compression-level: 0
