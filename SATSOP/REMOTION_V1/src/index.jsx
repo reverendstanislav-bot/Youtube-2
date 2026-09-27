@@ -6,7 +6,9 @@ import overlays from '../public/overlays.json';
 import motion from '../public/motion.json';
 
 const FPS=timeline.fps;
-const TOTAL=Math.round(timeline.duration*FPS);
+const CONTENT_END=Math.round(timeline.duration*FPS);
+const END_SCREEN_FRAMES=20*FPS;
+const TOTAL=CONTENT_END+END_SCREEN_FRAMES;
 const C={charcoal:'#171A1C',paper:'#FFFFFF',ivory:'#F3EBDD',orange:'#F28A3A',blue:'#708996',rust:'#A55235'};
 const CLAMP={extrapolateLeft:'clamp',extrapolateRight:'clamp'};
 const smooth=x=>{const v=Math.max(0,Math.min(1,x));return v*v*(3-2*v)};
@@ -109,12 +111,21 @@ function Cards({frame}){
   return card?<EditorialCard card={card} frame={frame}/>:null;
 }
 
+function EndScreen({frame}){
+  if(frame<CONTENT_END)return null;
+  const opacity=interpolate(frame,[CONTENT_END,CONTENT_END+8],[0,1],CLAMP);
+  return <AbsoluteFill style={{zIndex:100,background:C.charcoal,opacity}}>
+    <Img src={staticFile('end_screen_1080.png')} style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+  </AbsoluteFill>;
+}
+
 function Film(){
   const frame=useCurrentFrame(),beat=currentBeat(frame);
   return <AbsoluteFill style={{background:C.charcoal}}>
-    {beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<Picture beat={beat} frame={frame}/>}
-    <Provenance beat={beat} frame={frame}/><Cards frame={frame}/><Caption frame={frame}/>
+    {frame<CONTENT_END&&<>{beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<Picture beat={beat} frame={frame}/>}
+    <Provenance beat={beat} frame={frame}/><Cards frame={frame}/><Caption frame={frame}/></>}
     <Audio src={staticFile('SATSOP_VO_MASTER_V1.wav')}/>
+    <EndScreen frame={frame}/>
   </AbsoluteFill>;
 }
 

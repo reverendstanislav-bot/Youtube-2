@@ -343,3 +343,18 @@ Canonical files:
 - size: **925,323,209 bytes**;
 - SHA-256: `051a2886a6071226c8ca6545e22fc769ba4f8127fc55d050e6dcb8106d710733`;
 - current gate: user directorial review of V2 motion; no final/upload-master status until approval.
+
+### Motion review V3 — canonical HIA end screen restored
+
+- current candidate: `REMOTION_V1/out/SATSOP_MOTION_REVIEW_V3_HIA_END.mp4`;
+- V2 picture and locked narration preserved; no music;
+- canonical 1920x1080 HIA end screen appended for the final **20.000 seconds**;
+- captions, provenance and editorial cards on the end screen: **none**;
+- end-screen audio: **digital silence**;
+- full decode: **PASS**;
+- duration: **00:19:43.989**;
+- video: **35,518 frames, 1920x1080, 30 fps, H.264**;
+- audio: **AAC, 48 kHz stereo**;
+- size: **926,727,142 bytes**;
+- SHA-256: `f07d177c831513b056909d36065883405c87eae3791396374235f9598b8558bc`;
+- current gate: user directorial review of V3; picture lock remains open.
