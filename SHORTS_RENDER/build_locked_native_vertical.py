@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse, json, subprocess, re, hashlib
+import argparse, json, subprocess, re, hashlib, os
 from pathlib import Path
 from PIL import Image
 
@@ -188,8 +188,13 @@ def main():
     filters.append("".join(labels)+f"concat=n={n}:v=1:a=0[base]")
     filters.append(f"[{grad_idx}:v]format=rgba[grad]")
     filters.append("[base][grad]overlay=0:0:shortest=1[shade]")
-    assp=str(ass).replace(":",r"\:")
-    filters.append(f"[shade]ass='{assp}':fontsdir='/usr/share/fonts/truetype/dejavu'[vout]")
+    # FFmpeg filter paths need forward slashes on Windows; otherwise libass
+    # consumes backslashes as escapes and receives a path with no separators.
+    assp=str(ass.resolve()).replace("\\","/").replace(":",r"\:")
+    if os.name == "nt":
+        filters.append(f"[shade]ass='{assp}'[vout]")
+    else:
+        filters.append(f"[shade]ass='{assp}':fontsdir='/usr/share/fonts/truetype/dejavu'[vout]")
 
     cmd=["ffmpeg","-y","-hide_banner","-loglevel","error",*inputs,
          "-filter_complex",";".join(filters),"-map","[vout]","-map",f"{audio_idx}:a:0",

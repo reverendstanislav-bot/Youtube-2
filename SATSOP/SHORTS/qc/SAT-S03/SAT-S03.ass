@@ -1,0 +1,124 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H00FFFFFF,&H00FFFFFF,&H00110A05,&H00000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,390,1
+Style: Hist,DejaVu Sans,28,&H00DDE6F3,&H00DDE6F3,&H00110A05,&H00000000,-1,0,0,0,100,100,2,0,1,3,1,9,40,44,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 10,0:00:00.43,0:00:00.43,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} project could\Nwork technically
+Dialogue: 10,0:00:00.43,0:00:00.81,Cap,,0,0,0,,The {\c&H003A8AF2&}project{\c&H00FFFFFF&} could\Nwork technically
+Dialogue: 10,0:00:00.81,0:00:01.11,Cap,,0,0,0,,The project {\c&H003A8AF2&}could{\c&H00FFFFFF&}\Nwork technically
+Dialogue: 10,0:00:01.11,0:00:01.39,Cap,,0,0,0,,The project could\N{\c&H003A8AF2&}work{\c&H00FFFFFF&} technically
+Dialogue: 10,0:00:01.39,0:00:01.93,Cap,,0,0,0,,The project could\Nwork {\c&H003A8AF2&}technically{\c&H00FFFFFF&}
+Dialogue: 10,0:00:01.85,0:00:02.73,Cap,,0,0,0,,{\c&H003A8AF2&}and{\c&H00FFFFFF&} still fail\Neconomically.
+Dialogue: 10,0:00:02.73,0:00:03.01,Cap,,0,0,0,,and {\c&H003A8AF2&}still{\c&H00FFFFFF&} fail\Neconomically.
+Dialogue: 10,0:00:03.01,0:00:03.37,Cap,,0,0,0,,and still {\c&H003A8AF2&}fail{\c&H00FFFFFF&}\Neconomically.
+Dialogue: 10,0:00:03.37,0:00:04.19,Cap,,0,0,0,,and still fail\N{\c&H003A8AF2&}economically.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:05.07,0:00:05.09,Cap,,0,0,0,,{\c&H003A8AF2&}It{\c&H00FFFFFF&} could generate\Nevery megawatt promised
+Dialogue: 10,0:00:05.09,0:00:05.27,Cap,,0,0,0,,It {\c&H003A8AF2&}could{\c&H00FFFFFF&} generate\Nevery megawatt promised
+Dialogue: 10,0:00:05.27,0:00:05.69,Cap,,0,0,0,,It could {\c&H003A8AF2&}generate{\c&H00FFFFFF&}\Nevery megawatt promised
+Dialogue: 10,0:00:05.69,0:00:06.17,Cap,,0,0,0,,It could generate\N{\c&H003A8AF2&}every{\c&H00FFFFFF&} megawatt promised
+Dialogue: 10,0:00:06.17,0:00:06.65,Cap,,0,0,0,,It could generate\Nevery {\c&H003A8AF2&}megawatt{\c&H00FFFFFF&} promised
+Dialogue: 10,0:00:06.65,0:00:07.17,Cap,,0,0,0,,It could generate\Nevery megawatt {\c&H003A8AF2&}promised{\c&H00FFFFFF&}
+Dialogue: 10,0:00:07.09,0:00:07.73,Cap,,0,0,0,,{\c&H003A8AF2&}and{\c&H00FFFFFF&} create a financial\Nproblem because
+Dialogue: 10,0:00:07.73,0:00:08.03,Cap,,0,0,0,,and {\c&H003A8AF2&}create{\c&H00FFFFFF&} a financial\Nproblem because
+Dialogue: 10,0:00:08.03,0:00:08.21,Cap,,0,0,0,,and create {\c&H003A8AF2&}a{\c&H00FFFFFF&} financial\Nproblem because
+Dialogue: 10,0:00:08.21,0:00:08.57,Cap,,0,0,0,,and create a {\c&H003A8AF2&}financial{\c&H00FFFFFF&}\Nproblem because
+Dialogue: 10,0:00:08.57,0:00:09.23,Cap,,0,0,0,,and create a financial\N{\c&H003A8AF2&}problem{\c&H00FFFFFF&} because
+Dialogue: 10,0:00:09.23,0:00:09.87,Cap,,0,0,0,,and create a financial\Nproblem {\c&H003A8AF2&}because{\c&H00FFFFFF&}
+Dialogue: 10,0:00:09.79,0:00:10.03,Cap,,0,0,0,,{\c&H003A8AF2&}too{\c&H00FFFFFF&} much capacity\Narrived at once.
+Dialogue: 10,0:00:10.03,0:00:10.25,Cap,,0,0,0,,too {\c&H003A8AF2&}much{\c&H00FFFFFF&} capacity\Narrived at once.
+Dialogue: 10,0:00:10.25,0:00:10.79,Cap,,0,0,0,,too much {\c&H003A8AF2&}capacity{\c&H00FFFFFF&}\Narrived at once.
+Dialogue: 10,0:00:10.79,0:00:11.69,Cap,,0,0,0,,too much capacity\N{\c&H003A8AF2&}arrived{\c&H00FFFFFF&} at once.
+Dialogue: 10,0:00:11.69,0:00:12.01,Cap,,0,0,0,,too much capacity\Narrived {\c&H003A8AF2&}at{\c&H00FFFFFF&} once.
+Dialogue: 10,0:00:12.01,0:00:12.47,Cap,,0,0,0,,too much capacity\Narrived at {\c&H003A8AF2&}once.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:13.21,0:00:13.31,Cap,,0,0,0,,{\c&H003A8AF2&}That{\c&H00FFFFFF&} is what the\Ncooling towers
+Dialogue: 10,0:00:13.31,0:00:13.55,Cap,,0,0,0,,That {\c&H003A8AF2&}is{\c&H00FFFFFF&} what the\Ncooling towers
+Dialogue: 10,0:00:13.55,0:00:13.73,Cap,,0,0,0,,That is {\c&H003A8AF2&}what{\c&H00FFFFFF&} the\Ncooling towers
+Dialogue: 10,0:00:13.73,0:00:13.91,Cap,,0,0,0,,That is what {\c&H003A8AF2&}the{\c&H00FFFFFF&}\Ncooling towers
+Dialogue: 10,0:00:13.91,0:00:14.27,Cap,,0,0,0,,That is what the\N{\c&H003A8AF2&}cooling{\c&H00FFFFFF&} towers
+Dialogue: 10,0:00:14.27,0:00:14.83,Cap,,0,0,0,,That is what the\Ncooling {\c&H003A8AF2&}towers{\c&H00FFFFFF&}
+Dialogue: 10,0:00:14.75,0:00:15.51,Cap,,0,0,0,,{\c&H003A8AF2&}conceal.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:16.35,0:00:16.53,Cap,,0,0,0,,{\c&H003A8AF2&}Mega{\c&H00FFFFFF&} projects are\Nusually judged by
+Dialogue: 10,0:00:16.53,0:00:17.07,Cap,,0,0,0,,Mega {\c&H003A8AF2&}projects{\c&H00FFFFFF&} are\Nusually judged by
+Dialogue: 10,0:00:17.07,0:00:17.57,Cap,,0,0,0,,Mega projects {\c&H003A8AF2&}are{\c&H00FFFFFF&}\Nusually judged by
+Dialogue: 10,0:00:17.57,0:00:17.87,Cap,,0,0,0,,Mega projects are\N{\c&H003A8AF2&}usually{\c&H00FFFFFF&} judged by
+Dialogue: 10,0:00:17.87,0:00:18.31,Cap,,0,0,0,,Mega projects are\Nusually {\c&H003A8AF2&}judged{\c&H00FFFFFF&} by
+Dialogue: 10,0:00:18.31,0:00:18.75,Cap,,0,0,0,,Mega projects are\Nusually judged {\c&H003A8AF2&}by{\c&H00FFFFFF&}
+Dialogue: 10,0:00:18.67,0:00:18.91,Cap,,0,0,0,,{\c&H003A8AF2&}whether{\c&H00FFFFFF&} engineers\Ncan finish them.
+Dialogue: 10,0:00:18.91,0:00:19.39,Cap,,0,0,0,,whether {\c&H003A8AF2&}engineers{\c&H00FFFFFF&}\Ncan finish them.
+Dialogue: 10,0:00:19.39,0:00:19.83,Cap,,0,0,0,,whether engineers\N{\c&H003A8AF2&}can{\c&H00FFFFFF&} finish them.
+Dialogue: 10,0:00:19.83,0:00:20.09,Cap,,0,0,0,,whether engineers\Ncan {\c&H003A8AF2&}finish{\c&H00FFFFFF&} them.
+Dialogue: 10,0:00:20.09,0:00:20.61,Cap,,0,0,0,,whether engineers\Ncan finish {\c&H003A8AF2&}them.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:20.53,0:00:21.45,Cap,,0,0,0,,{\c&H003A8AF2&}Project{\c&H00FFFFFF&} 3 also\Nhad to survive
+Dialogue: 10,0:00:21.45,0:00:21.97,Cap,,0,0,0,,Project {\c&H003A8AF2&}3{\c&H00FFFFFF&} also\Nhad to survive
+Dialogue: 10,0:00:21.97,0:00:22.49,Cap,,0,0,0,,Project 3 {\c&H003A8AF2&}also{\c&H00FFFFFF&}\Nhad to survive
+Dialogue: 10,0:00:22.49,0:00:22.75,Cap,,0,0,0,,Project 3 also\N{\c&H003A8AF2&}had{\c&H00FFFFFF&} to survive
+Dialogue: 10,0:00:22.75,0:00:22.89,Cap,,0,0,0,,Project 3 also\Nhad {\c&H003A8AF2&}to{\c&H00FFFFFF&} survive
+Dialogue: 10,0:00:22.89,0:00:23.41,Cap,,0,0,0,,Project 3 also\Nhad to {\c&H003A8AF2&}survive{\c&H00FFFFFF&}
+Dialogue: 10,0:00:23.33,0:00:23.69,Cap,,0,0,0,,{\c&H003A8AF2&}a{\c&H00FFFFFF&} second test\Nwhether the system
+Dialogue: 10,0:00:23.69,0:00:23.99,Cap,,0,0,0,,a {\c&H003A8AF2&}second{\c&H00FFFFFF&} test\Nwhether the system
+Dialogue: 10,0:00:23.99,0:00:24.49,Cap,,0,0,0,,a second {\c&H003A8AF2&}test{\c&H00FFFFFF&}\Nwhether the system
+Dialogue: 10,0:00:24.49,0:00:25.37,Cap,,0,0,0,,a second test\N{\c&H003A8AF2&}whether{\c&H00FFFFFF&} the system
+Dialogue: 10,0:00:25.37,0:00:25.65,Cap,,0,0,0,,a second test\Nwhether {\c&H003A8AF2&}the{\c&H00FFFFFF&} system
+Dialogue: 10,0:00:25.65,0:00:26.03,Cap,,0,0,0,,a second test\Nwhether the {\c&H003A8AF2&}system{\c&H00FFFFFF&}
+Dialogue: 10,0:00:25.95,0:00:26.37,Cap,,0,0,0,,{\c&H003A8AF2&}around{\c&H00FFFFFF&} it could\Nuse and pay
+Dialogue: 10,0:00:26.37,0:00:26.81,Cap,,0,0,0,,around {\c&H003A8AF2&}it{\c&H00FFFFFF&} could\Nuse and pay
+Dialogue: 10,0:00:26.81,0:00:27.05,Cap,,0,0,0,,around it {\c&H003A8AF2&}could{\c&H00FFFFFF&}\Nuse and pay
+Dialogue: 10,0:00:27.05,0:00:27.47,Cap,,0,0,0,,around it could\N{\c&H003A8AF2&}use{\c&H00FFFFFF&} and pay
+Dialogue: 10,0:00:27.47,0:00:27.71,Cap,,0,0,0,,around it could\Nuse {\c&H003A8AF2&}and{\c&H00FFFFFF&} pay
+Dialogue: 10,0:00:27.71,0:00:28.11,Cap,,0,0,0,,around it could\Nuse and {\c&H003A8AF2&}pay{\c&H00FFFFFF&}
+Dialogue: 10,0:00:28.03,0:00:28.19,Cap,,0,0,0,,{\c&H003A8AF2&}for{\c&H00FFFFFF&} what it\Nproduced.
+Dialogue: 10,0:00:28.19,0:00:28.39,Cap,,0,0,0,,for {\c&H003A8AF2&}what{\c&H00FFFFFF&} it\Nproduced.
+Dialogue: 10,0:00:28.39,0:00:28.55,Cap,,0,0,0,,for what {\c&H003A8AF2&}it{\c&H00FFFFFF&}\Nproduced.
+Dialogue: 10,0:00:28.55,0:00:29.15,Cap,,0,0,0,,for what it\N{\c&H003A8AF2&}produced.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:29.97,0:00:29.97,Cap,,0,0,0,,{\c&H003A8AF2&}This{\c&H00FFFFFF&} was the answer\Nhidden behind
+Dialogue: 10,0:00:29.97,0:00:30.19,Cap,,0,0,0,,This {\c&H003A8AF2&}was{\c&H00FFFFFF&} the answer\Nhidden behind
+Dialogue: 10,0:00:30.19,0:00:30.41,Cap,,0,0,0,,This was {\c&H003A8AF2&}the{\c&H00FFFFFF&} answer\Nhidden behind
+Dialogue: 10,0:00:30.41,0:00:30.83,Cap,,0,0,0,,This was the {\c&H003A8AF2&}answer{\c&H00FFFFFF&}\Nhidden behind
+Dialogue: 10,0:00:30.83,0:00:31.43,Cap,,0,0,0,,This was the answer\N{\c&H003A8AF2&}hidden{\c&H00FFFFFF&} behind
+Dialogue: 10,0:00:31.43,0:00:31.87,Cap,,0,0,0,,This was the answer\Nhidden {\c&H003A8AF2&}behind{\c&H00FFFFFF&}
+Dialogue: 10,0:00:31.79,0:00:32.07,Cap,,0,0,0,,{\c&H003A8AF2&}the{\c&H00FFFFFF&} 74 % number.
+Dialogue: 10,0:00:32.07,0:00:32.51,Cap,,0,0,0,,the {\c&H003A8AF2&}74{\c&H00FFFFFF&} % number.
+Dialogue: 10,0:00:32.51,0:00:33.15,Cap,,0,0,0,,the 74 {\c&H003A8AF2&}%{\c&H00FFFFFF&} number.
+Dialogue: 10,0:00:33.15,0:00:33.85,Cap,,0,0,0,,the 74 % {\c&H003A8AF2&}number.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:34.57,0:00:34.67,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} project was\Nmostly built.
+Dialogue: 10,0:00:34.67,0:00:35.11,Cap,,0,0,0,,The {\c&H003A8AF2&}project{\c&H00FFFFFF&} was\Nmostly built.
+Dialogue: 10,0:00:35.11,0:00:35.35,Cap,,0,0,0,,The project {\c&H003A8AF2&}was{\c&H00FFFFFF&}\Nmostly built.
+Dialogue: 10,0:00:35.35,0:00:35.73,Cap,,0,0,0,,The project was\N{\c&H003A8AF2&}mostly{\c&H00FFFFFF&} built.
+Dialogue: 10,0:00:35.73,0:00:36.35,Cap,,0,0,0,,The project was\Nmostly {\c&H003A8AF2&}built.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:36.93,0:00:37.07,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} region did\Nnot need all
+Dialogue: 10,0:00:37.07,0:00:37.45,Cap,,0,0,0,,The {\c&H003A8AF2&}region{\c&H00FFFFFF&} did\Nnot need all
+Dialogue: 10,0:00:37.45,0:00:37.93,Cap,,0,0,0,,The region {\c&H003A8AF2&}did{\c&H00FFFFFF&}\Nnot need all
+Dialogue: 10,0:00:37.93,0:00:38.17,Cap,,0,0,0,,The region did\N{\c&H003A8AF2&}not{\c&H00FFFFFF&} need all
+Dialogue: 10,0:00:38.17,0:00:38.63,Cap,,0,0,0,,The region did\Nnot {\c&H003A8AF2&}need{\c&H00FFFFFF&} all
+Dialogue: 10,0:00:38.63,0:00:39.07,Cap,,0,0,0,,The region did\Nnot need {\c&H003A8AF2&}all{\c&H00FFFFFF&}
+Dialogue: 10,0:00:38.99,0:00:39.11,Cap,,0,0,0,,{\c&H003A8AF2&}of{\c&H00FFFFFF&} its power.
+Dialogue: 10,0:00:39.11,0:00:39.27,Cap,,0,0,0,,of {\c&H003A8AF2&}its{\c&H00FFFFFF&} power.
+Dialogue: 10,0:00:39.27,0:00:40.01,Cap,,0,0,0,,of its {\c&H003A8AF2&}power.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:40.53,0:00:40.63,Cap,,0,0,0,,{\c&H003A8AF2&}And{\c&H00FFFFFF&} finishing it\Nwould concentrate
+Dialogue: 10,0:00:40.63,0:00:40.95,Cap,,0,0,0,,And {\c&H003A8AF2&}finishing{\c&H00FFFFFF&} it\Nwould concentrate
+Dialogue: 10,0:00:40.95,0:00:41.39,Cap,,0,0,0,,And finishing {\c&H003A8AF2&}it{\c&H00FFFFFF&}\Nwould concentrate
+Dialogue: 10,0:00:41.39,0:00:41.73,Cap,,0,0,0,,And finishing it\N{\c&H003A8AF2&}would{\c&H00FFFFFF&} concentrate
+Dialogue: 10,0:00:41.73,0:00:42.27,Cap,,0,0,0,,And finishing it\Nwould {\c&H003A8AF2&}concentrate{\c&H00FFFFFF&}
+Dialogue: 10,0:00:42.19,0:00:42.59,Cap,,0,0,0,,{\c&H003A8AF2&}far{\c&H00FFFFFF&} more capital\Nin one decision
+Dialogue: 10,0:00:42.59,0:00:42.81,Cap,,0,0,0,,far {\c&H003A8AF2&}more{\c&H00FFFFFF&} capital\Nin one decision
+Dialogue: 10,0:00:42.81,0:00:43.17,Cap,,0,0,0,,far more {\c&H003A8AF2&}capital{\c&H00FFFFFF&}\Nin one decision
+Dialogue: 10,0:00:43.17,0:00:43.37,Cap,,0,0,0,,far more capital\N{\c&H003A8AF2&}in{\c&H00FFFFFF&} one decision
+Dialogue: 10,0:00:43.37,0:00:43.53,Cap,,0,0,0,,far more capital\Nin {\c&H003A8AF2&}one{\c&H00FFFFFF&} decision
+Dialogue: 10,0:00:43.53,0:00:44.01,Cap,,0,0,0,,far more capital\Nin one {\c&H003A8AF2&}decision{\c&H00FFFFFF&}
+Dialogue: 10,0:00:43.93,0:00:44.55,Cap,,0,0,0,,{\c&H003A8AF2&}than{\c&H00FFFFFF&} the alternative.
+Dialogue: 10,0:00:44.55,0:00:44.67,Cap,,0,0,0,,than {\c&H003A8AF2&}the{\c&H00FFFFFF&} alternative.
+Dialogue: 10,0:00:44.67,0:00:45.29,Cap,,0,0,0,,than the {\c&H003A8AF2&}alternative.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:46.07,0:00:46.53,Cap,,0,0,0,,{\c&H003A8AF2&}Project{\c&H00FFFFFF&} 3\Nstill had real
+Dialogue: 10,0:00:46.53,0:00:47.21,Cap,,0,0,0,,Project {\c&H003A8AF2&}3{\c&H00FFFFFF&}\Nstill had real
+Dialogue: 10,0:00:47.21,0:00:47.67,Cap,,0,0,0,,Project 3\N{\c&H003A8AF2&}still{\c&H00FFFFFF&} had real
+Dialogue: 10,0:00:47.67,0:00:47.95,Cap,,0,0,0,,Project 3\Nstill {\c&H003A8AF2&}had{\c&H00FFFFFF&} real
+Dialogue: 10,0:00:47.95,0:00:48.27,Cap,,0,0,0,,Project 3\Nstill had {\c&H003A8AF2&}real{\c&H00FFFFFF&}

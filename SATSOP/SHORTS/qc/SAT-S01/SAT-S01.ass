@@ -1,0 +1,122 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H00FFFFFF,&H00FFFFFF,&H00110A05,&H00000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,390,1
+Style: Hist,DejaVu Sans,28,&H00DDE6F3,&H00DDE6F3,&H00110A05,&H00000000,-1,0,0,0,100,100,2,0,1,3,1,9,40,44,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 10,0:00:00.00,0:00:00.40,Cap,,0,0,0,,{\c&H003A8AF2&}Two{\c&H00FFFFFF&} cooling towers\Nrise from the
+Dialogue: 10,0:00:00.40,0:00:00.80,Cap,,0,0,0,,Two {\c&H003A8AF2&}cooling{\c&H00FFFFFF&} towers\Nrise from the
+Dialogue: 10,0:00:00.80,0:00:01.42,Cap,,0,0,0,,Two cooling {\c&H003A8AF2&}towers{\c&H00FFFFFF&}\Nrise from the
+Dialogue: 10,0:00:01.42,0:00:02.04,Cap,,0,0,0,,Two cooling towers\N{\c&H003A8AF2&}rise{\c&H00FFFFFF&} from the
+Dialogue: 10,0:00:02.04,0:00:02.34,Cap,,0,0,0,,Two cooling towers\Nrise {\c&H003A8AF2&}from{\c&H00FFFFFF&} the
+Dialogue: 10,0:00:02.34,0:00:02.60,Cap,,0,0,0,,Two cooling towers\Nrise from {\c&H003A8AF2&}the{\c&H00FFFFFF&}
+Dialogue: 10,0:00:02.52,0:00:02.82,Cap,,0,0,0,,{\c&H003A8AF2&}wooded{\c&H00FFFFFF&} hills of\NWestern Washington.
+Dialogue: 10,0:00:02.82,0:00:03.32,Cap,,0,0,0,,wooded {\c&H003A8AF2&}hills{\c&H00FFFFFF&} of\NWestern Washington.
+Dialogue: 10,0:00:03.32,0:00:03.78,Cap,,0,0,0,,wooded hills {\c&H003A8AF2&}of{\c&H00FFFFFF&}\NWestern Washington.
+Dialogue: 10,0:00:03.78,0:00:04.06,Cap,,0,0,0,,wooded hills of\N{\c&H003A8AF2&}Western{\c&H00FFFFFF&} Washington.
+Dialogue: 10,0:00:04.06,0:00:04.72,Cap,,0,0,0,,wooded hills of\NWestern {\c&H003A8AF2&}Washington.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:05.38,0:00:05.54,Cap,,0,0,0,,{\c&H003A8AF2&}They{\c&H00FFFFFF&} look like\Na matched pair.
+Dialogue: 10,0:00:05.54,0:00:05.78,Cap,,0,0,0,,They {\c&H003A8AF2&}look{\c&H00FFFFFF&} like\Na matched pair.
+Dialogue: 10,0:00:05.78,0:00:05.98,Cap,,0,0,0,,They look {\c&H003A8AF2&}like{\c&H00FFFFFF&}\Na matched pair.
+Dialogue: 10,0:00:05.98,0:00:06.12,Cap,,0,0,0,,They look like\N{\c&H003A8AF2&}a{\c&H00FFFFFF&} matched pair.
+Dialogue: 10,0:00:06.12,0:00:06.46,Cap,,0,0,0,,They look like\Na {\c&H003A8AF2&}matched{\c&H00FFFFFF&} pair.
+Dialogue: 10,0:00:06.46,0:00:07.18,Cap,,0,0,0,,They look like\Na matched {\c&H003A8AF2&}pair.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:07.74,0:00:07.86,Cap,,0,0,0,,{\c&H003A8AF2&}Their{\c&H00FFFFFF&} histories\Nare not.
+Dialogue: 10,0:00:07.86,0:00:08.36,Cap,,0,0,0,,Their {\c&H003A8AF2&}histories{\c&H00FFFFFF&}\Nare not.
+Dialogue: 10,0:00:08.36,0:00:08.78,Cap,,0,0,0,,Their histories\N{\c&H003A8AF2&}are{\c&H00FFFFFF&} not.
+Dialogue: 10,0:00:08.78,0:00:09.14,Cap,,0,0,0,,Their histories\Nare {\c&H003A8AF2&}not.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:09.80,0:00:10.02,Cap,,0,0,0,,{\c&H003A8AF2&}One{\c&H00FFFFFF&} belonged to\NWashington Nuclear
+Dialogue: 10,0:00:10.02,0:00:10.38,Cap,,0,0,0,,One {\c&H003A8AF2&}belonged{\c&H00FFFFFF&} to\NWashington Nuclear
+Dialogue: 10,0:00:10.38,0:00:10.58,Cap,,0,0,0,,One belonged {\c&H003A8AF2&}to{\c&H00FFFFFF&}\NWashington Nuclear
+Dialogue: 10,0:00:10.58,0:00:10.96,Cap,,0,0,0,,One belonged to\N{\c&H003A8AF2&}Washington{\c&H00FFFFFF&} Nuclear
+Dialogue: 10,0:00:10.96,0:00:11.56,Cap,,0,0,0,,One belonged to\NWashington {\c&H003A8AF2&}Nuclear{\c&H00FFFFFF&}
+Dialogue: 10,0:00:11.48,0:00:12.00,Cap,,0,0,0,,{\c&H003A8AF2&}Project{\c&H00FFFFFF&} 5.
+Dialogue: 10,0:00:12.00,0:00:12.82,Cap,,0,0,0,,Project {\c&H003A8AF2&}5.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:13.52,0:00:13.72,Cap,,0,0,0,,{\c&H003A8AF2&}That{\c&H00FFFFFF&} project\Nwas about 14 %
+Dialogue: 10,0:00:13.72,0:00:14.22,Cap,,0,0,0,,That {\c&H003A8AF2&}project{\c&H00FFFFFF&}\Nwas about 14 %
+Dialogue: 10,0:00:14.22,0:00:14.66,Cap,,0,0,0,,That project\N{\c&H003A8AF2&}was{\c&H00FFFFFF&} about 14 %
+Dialogue: 10,0:00:14.66,0:00:14.98,Cap,,0,0,0,,That project\Nwas {\c&H003A8AF2&}about{\c&H00FFFFFF&} 14 %
+Dialogue: 10,0:00:14.98,0:00:15.36,Cap,,0,0,0,,That project\Nwas about {\c&H003A8AF2&}14{\c&H00FFFFFF&} %
+Dialogue: 10,0:00:15.36,0:00:15.90,Cap,,0,0,0,,That project\Nwas about 14 {\c&H003A8AF2&}%{\c&H00FFFFFF&}
+Dialogue: 10,0:00:15.82,0:00:16.28,Cap,,0,0,0,,{\c&H003A8AF2&}complete{\c&H00FFFFFF&} when it\Nwas terminated in
+Dialogue: 10,0:00:16.28,0:00:16.84,Cap,,0,0,0,,complete {\c&H003A8AF2&}when{\c&H00FFFFFF&} it\Nwas terminated in
+Dialogue: 10,0:00:16.84,0:00:16.88,Cap,,0,0,0,,complete when {\c&H003A8AF2&}it{\c&H00FFFFFF&}\Nwas terminated in
+Dialogue: 10,0:00:16.88,0:00:17.12,Cap,,0,0,0,,complete when it\N{\c&H003A8AF2&}was{\c&H00FFFFFF&} terminated in
+Dialogue: 10,0:00:17.12,0:00:17.76,Cap,,0,0,0,,complete when it\Nwas {\c&H003A8AF2&}terminated{\c&H00FFFFFF&} in
+Dialogue: 10,0:00:17.76,0:00:18.44,Cap,,0,0,0,,complete when it\Nwas terminated {\c&H003A8AF2&}in{\c&H00FFFFFF&}
+Dialogue: 10,0:00:18.36,0:00:19.24,Cap,,0,0,0,,{\c&H003A8AF2&}1982.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:20.04,0:00:20.26,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} other served\NWashington Nuclear
+Dialogue: 10,0:00:20.26,0:00:20.52,Cap,,0,0,0,,The {\c&H003A8AF2&}other{\c&H00FFFFFF&} served\NWashington Nuclear
+Dialogue: 10,0:00:20.52,0:00:20.98,Cap,,0,0,0,,The other {\c&H003A8AF2&}served{\c&H00FFFFFF&}\NWashington Nuclear
+Dialogue: 10,0:00:20.98,0:00:21.56,Cap,,0,0,0,,The other served\N{\c&H003A8AF2&}Washington{\c&H00FFFFFF&} Nuclear
+Dialogue: 10,0:00:21.56,0:00:22.16,Cap,,0,0,0,,The other served\NWashington {\c&H003A8AF2&}Nuclear{\c&H00FFFFFF&}
+Dialogue: 10,0:00:22.08,0:00:22.60,Cap,,0,0,0,,{\c&H003A8AF2&}Project{\c&H00FFFFFF&} 3.
+Dialogue: 10,0:00:22.60,0:00:23.44,Cap,,0,0,0,,Project {\c&H003A8AF2&}3.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:23.92,0:00:24.14,Cap,,0,0,0,,{\c&H003A8AF2&}That{\c&H00FFFFFF&} project reached\N74 % physical
+Dialogue: 10,0:00:24.14,0:00:24.72,Cap,,0,0,0,,That {\c&H003A8AF2&}project{\c&H00FFFFFF&} reached\N74 % physical
+Dialogue: 10,0:00:24.72,0:00:25.26,Cap,,0,0,0,,That project {\c&H003A8AF2&}reached{\c&H00FFFFFF&}\N74 % physical
+Dialogue: 10,0:00:25.26,0:00:25.92,Cap,,0,0,0,,That project reached\N{\c&H003A8AF2&}74{\c&H00FFFFFF&} % physical
+Dialogue: 10,0:00:25.92,0:00:26.56,Cap,,0,0,0,,That project reached\N74 {\c&H003A8AF2&}%{\c&H00FFFFFF&} physical
+Dialogue: 10,0:00:26.56,0:00:27.04,Cap,,0,0,0,,That project reached\N74 % {\c&H003A8AF2&}physical{\c&H00FFFFFF&}
+Dialogue: 10,0:00:26.96,0:00:27.56,Cap,,0,0,0,,{\c&H003A8AF2&}completion{\c&H00FFFFFF&} and\Nremained preserved
+Dialogue: 10,0:00:27.56,0:00:28.22,Cap,,0,0,0,,completion {\c&H003A8AF2&}and{\c&H00FFFFFF&}\Nremained preserved
+Dialogue: 10,0:00:28.22,0:00:28.64,Cap,,0,0,0,,completion and\N{\c&H003A8AF2&}remained{\c&H00FFFFFF&} preserved
+Dialogue: 10,0:00:28.64,0:00:29.28,Cap,,0,0,0,,completion and\Nremained {\c&H003A8AF2&}preserved{\c&H00FFFFFF&}
+Dialogue: 10,0:00:29.20,0:00:29.70,Cap,,0,0,0,,{\c&H003A8AF2&}for{\c&H00FFFFFF&} possible\Ncompletion until 1994.
+Dialogue: 10,0:00:29.70,0:00:30.06,Cap,,0,0,0,,for {\c&H003A8AF2&}possible{\c&H00FFFFFF&}\Ncompletion until 1994.
+Dialogue: 10,0:00:30.06,0:00:30.60,Cap,,0,0,0,,for possible\N{\c&H003A8AF2&}completion{\c&H00FFFFFF&} until 1994.
+Dialogue: 10,0:00:30.60,0:00:31.30,Cap,,0,0,0,,for possible\Ncompletion {\c&H003A8AF2&}until{\c&H00FFFFFF&} 1994.
+Dialogue: 10,0:00:31.30,0:00:32.50,Cap,,0,0,0,,for possible\Ncompletion until {\c&H003A8AF2&}1994.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:33.44,0:00:33.60,Cap,,0,0,0,,{\c&H003A8AF2&}Neither{\c&H00FFFFFF&} project\Nproduced commercial
+Dialogue: 10,0:00:33.60,0:00:34.18,Cap,,0,0,0,,Neither {\c&H003A8AF2&}project{\c&H00FFFFFF&}\Nproduced commercial
+Dialogue: 10,0:00:34.18,0:00:34.82,Cap,,0,0,0,,Neither project\N{\c&H003A8AF2&}produced{\c&H00FFFFFF&} commercial
+Dialogue: 10,0:00:34.82,0:00:35.52,Cap,,0,0,0,,Neither project\Nproduced {\c&H003A8AF2&}commercial{\c&H00FFFFFF&}
+Dialogue: 10,0:00:35.44,0:00:36.24,Cap,,0,0,0,,{\c&H003A8AF2&}electricity.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:37.06,0:00:37.24,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} site was\Nnever fueled.
+Dialogue: 10,0:00:37.24,0:00:37.60,Cap,,0,0,0,,The {\c&H003A8AF2&}site{\c&H00FFFFFF&} was\Nnever fueled.
+Dialogue: 10,0:00:37.60,0:00:38.04,Cap,,0,0,0,,The site {\c&H003A8AF2&}was{\c&H00FFFFFF&}\Nnever fueled.
+Dialogue: 10,0:00:38.04,0:00:38.32,Cap,,0,0,0,,The site was\N{\c&H003A8AF2&}never{\c&H00FFFFFF&} fueled.
+Dialogue: 10,0:00:38.32,0:00:38.98,Cap,,0,0,0,,The site was\Nnever {\c&H003A8AF2&}fueled.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:39.80,0:00:39.96,Cap,,0,0,0,,{\c&H003A8AF2&}So{\c&H00FFFFFF&} the mystery\Nis not simply
+Dialogue: 10,0:00:39.96,0:00:40.06,Cap,,0,0,0,,So {\c&H003A8AF2&}the{\c&H00FFFFFF&} mystery\Nis not simply
+Dialogue: 10,0:00:40.06,0:00:40.36,Cap,,0,0,0,,So the {\c&H003A8AF2&}mystery{\c&H00FFFFFF&}\Nis not simply
+Dialogue: 10,0:00:40.36,0:00:40.58,Cap,,0,0,0,,So the mystery\N{\c&H003A8AF2&}is{\c&H00FFFFFF&} not simply
+Dialogue: 10,0:00:40.58,0:00:40.72,Cap,,0,0,0,,So the mystery\Nis {\c&H003A8AF2&}not{\c&H00FFFFFF&} simply
+Dialogue: 10,0:00:40.72,0:00:41.22,Cap,,0,0,0,,So the mystery\Nis not {\c&H003A8AF2&}simply{\c&H00FFFFFF&}
+Dialogue: 10,0:00:41.14,0:00:41.70,Cap,,0,0,0,,{\c&H003A8AF2&}why{\c&H00FFFFFF&} Satsop was\Nunfinished.
+Dialogue: 10,0:00:41.70,0:00:42.18,Cap,,0,0,0,,why {\c&H003A8AF2&}Satsop{\c&H00FFFFFF&} was\Nunfinished.
+Dialogue: 10,0:00:42.18,0:00:42.48,Cap,,0,0,0,,why Satsop {\c&H003A8AF2&}was{\c&H00FFFFFF&}\Nunfinished.
+Dialogue: 10,0:00:42.48,0:00:43.04,Cap,,0,0,0,,why Satsop was\N{\c&H003A8AF2&}unfinished.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:43.54,0:00:43.66,Cap,,0,0,0,,{\c&H003A8AF2&}It{\c&H00FFFFFF&} is why two\Nreactor projects
+Dialogue: 10,0:00:43.66,0:00:43.90,Cap,,0,0,0,,It {\c&H003A8AF2&}is{\c&H00FFFFFF&} why two\Nreactor projects
+Dialogue: 10,0:00:43.90,0:00:44.12,Cap,,0,0,0,,It is {\c&H003A8AF2&}why{\c&H00FFFFFF&} two\Nreactor projects
+Dialogue: 10,0:00:44.12,0:00:44.54,Cap,,0,0,0,,It is why {\c&H003A8AF2&}two{\c&H00FFFFFF&}\Nreactor projects
+Dialogue: 10,0:00:44.54,0:00:44.92,Cap,,0,0,0,,It is why two\N{\c&H003A8AF2&}reactor{\c&H00FFFFFF&} projects
+Dialogue: 10,0:00:44.92,0:00:45.70,Cap,,0,0,0,,It is why two\Nreactor {\c&H003A8AF2&}projects{\c&H00FFFFFF&}
+Dialogue: 10,0:00:45.62,0:00:46.06,Cap,,0,0,0,,{\c&H003A8AF2&}built{\c&H00FFFFFF&} side by\Nside died 12
+Dialogue: 10,0:00:46.06,0:00:46.42,Cap,,0,0,0,,built {\c&H003A8AF2&}side{\c&H00FFFFFF&} by\Nside died 12
+Dialogue: 10,0:00:46.42,0:00:46.70,Cap,,0,0,0,,built side {\c&H003A8AF2&}by{\c&H00FFFFFF&}\Nside died 12
+Dialogue: 10,0:00:46.70,0:00:47.26,Cap,,0,0,0,,built side by\N{\c&H003A8AF2&}side{\c&H00FFFFFF&} died 12
+Dialogue: 10,0:00:47.26,0:00:47.90,Cap,,0,0,0,,built side by\Nside {\c&H003A8AF2&}died{\c&H00FFFFFF&} 12
+Dialogue: 10,0:00:47.90,0:00:48.52,Cap,,0,0,0,,built side by\Nside died {\c&H003A8AF2&}12{\c&H00FFFFFF&}
+Dialogue: 10,0:00:48.44,0:00:48.80,Cap,,0,0,0,,{\c&H003A8AF2&}years{\c&H00FFFFFF&} apart.
+Dialogue: 10,0:00:48.80,0:00:49.50,Cap,,0,0,0,,years {\c&H003A8AF2&}apart.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:50.14,0:00:50.40,Cap,,0,0,0,,{\c&H003A8AF2&}And{\c&H00FFFFFF&} why 74 %\Ncomplete was
+Dialogue: 10,0:00:50.40,0:00:50.74,Cap,,0,0,0,,And {\c&H003A8AF2&}why{\c&H00FFFFFF&} 74 %\Ncomplete was
+Dialogue: 10,0:00:50.74,0:00:51.46,Cap,,0,0,0,,And why {\c&H003A8AF2&}74{\c&H00FFFFFF&} %\Ncomplete was
+Dialogue: 10,0:00:51.46,0:00:52.02,Cap,,0,0,0,,And why 74 {\c&H003A8AF2&}%{\c&H00FFFFFF&}\Ncomplete was
+Dialogue: 10,0:00:52.02,0:00:52.52,Cap,,0,0,0,,And why 74 %\N{\c&H003A8AF2&}complete{\c&H00FFFFFF&} was
+Dialogue: 10,0:00:52.52,0:00:53.22,Cap,,0,0,0,,And why 74 %\Ncomplete {\c&H003A8AF2&}was{\c&H00FFFFFF&}
+Dialogue: 10,0:00:53.14,0:00:53.44,Cap,,0,0,0,,{\c&H003A8AF2&}still{\c&H00FFFFFF&} too expensive\Nto finish.
+Dialogue: 10,0:00:53.44,0:00:53.80,Cap,,0,0,0,,still {\c&H003A8AF2&}too{\c&H00FFFFFF&} expensive\Nto finish.
+Dialogue: 10,0:00:53.80,0:00:54.18,Cap,,0,0,0,,still too {\c&H003A8AF2&}expensive{\c&H00FFFFFF&}\Nto finish.
+Dialogue: 10,0:00:54.18,0:00:54.50,Cap,,0,0,0,,still too expensive\N{\c&H003A8AF2&}to{\c&H00FFFFFF&} finish.
+Dialogue: 10,0:00:54.50,0:00:55.00,Cap,,0,0,0,,still too expensive\Nto {\c&H003A8AF2&}finish.{\c&H00FFFFFF&}

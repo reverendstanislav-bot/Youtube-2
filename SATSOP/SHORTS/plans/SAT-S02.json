@@ -1,0 +1,48 @@
+{
+  "id": "SAT-S02",
+  "fps": 30,
+  "title": "Pay Even If It Never Runs",
+  "version": "SATSOP_LOCKED_NATIVE_V1",
+  "segments": [
+    {
+      "out_start": 0.0,
+      "out_end": 7.65,
+      "asset": "SAT-B020.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 7.65,
+      "out_end": 16.3,
+      "asset": "SAT-B021.png",
+      "x": 0.48,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 16.3,
+      "out_end": 29.96,
+      "asset": "SAT-B022.png",
+      "x": 0.53,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 29.96,
+      "out_end": 38.7,
+      "asset": "SAT-B023.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 38.7,
+      "out_end": 46.36,
+      "asset": "SAT-B024.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    }
+  ]
+}

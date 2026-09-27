@@ -1,0 +1,46 @@
+{
+  "id": "SAT-S01",
+  "status": "PASS",
+  "style": "CHI-S01 SAFE V2 SCALE",
+  "new_generation": false,
+  "editor_gfx": false,
+  "motion": "STATIC ONLY",
+  "visible_provenance": "HISTORICAL SOURCE ONLY",
+  "ai_reconstruction_plaque": false,
+  "document_plaque": false,
+  "concept_plaque": false,
+  "caption_margin_v": 390,
+  "bottom_darkening": "locked strong gradient",
+  "duration_target": 54.92,
+  "ass": {
+    "caption_words": 108,
+    "historical_events": 0
+  },
+  "sha256": "38d075c812f4a64c2640dc776fcec2dc46e46fb1dd8ce35ef35a77ada6b0dee3",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuvj420p",
+        "r_frame_rate": "30/1",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "54.920000",
+      "size": "6735562"
+    }
+  }
+}

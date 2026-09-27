@@ -1,0 +1,48 @@
+{
+  "id": "SAT-S04",
+  "fps": 30,
+  "title": "The Nuclear Plant That Found Another Job",
+  "version": "SATSOP_LOCKED_NATIVE_V1",
+  "segments": [
+    {
+      "out_start": 0.0,
+      "out_end": 12.111,
+      "asset": "SAT-B098.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 12.111,
+      "out_end": 20.993,
+      "asset": "SAT-B099.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 20.993,
+      "out_end": 29.693,
+      "asset": "SAT-B100.jpg",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 29.693,
+      "out_end": 45.133,
+      "asset": "SAT-B101.jpg",
+      "x": 0.53,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 45.133,
+      "out_end": 56.243,
+      "asset": "SAT-B102.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    }
+  ]
+}

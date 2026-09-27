@@ -1,0 +1,127 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H00FFFFFF,&H00FFFFFF,&H00110A05,&H00000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,390,1
+Style: Hist,DejaVu Sans,28,&H00DDE6F3,&H00DDE6F3,&H00110A05,&H00000000,-1,0,0,0,100,100,2,0,1,3,1,9,40,44,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 10,0:00:00.00,0:00:00.42,Cap,,0,0,0,,{\c&H003A8AF2&}fiscal{\c&H00FFFFFF&} year 2000.
+Dialogue: 10,0:00:00.42,0:00:00.80,Cap,,0,0,0,,fiscal {\c&H003A8AF2&}year{\c&H00FFFFFF&} 2000.
+Dialogue: 10,0:00:00.80,0:00:01.82,Cap,,0,0,0,,fiscal year {\c&H003A8AF2&}2000.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:02.52,0:00:02.60,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} nuclear investment\Ncould not be
+Dialogue: 10,0:00:02.60,0:00:02.88,Cap,,0,0,0,,The {\c&H003A8AF2&}nuclear{\c&H00FFFFFF&} investment\Ncould not be
+Dialogue: 10,0:00:02.88,0:00:03.46,Cap,,0,0,0,,The nuclear {\c&H003A8AF2&}investment{\c&H00FFFFFF&}\Ncould not be
+Dialogue: 10,0:00:03.46,0:00:04.00,Cap,,0,0,0,,The nuclear investment\N{\c&H003A8AF2&}could{\c&H00FFFFFF&} not be
+Dialogue: 10,0:00:04.00,0:00:04.20,Cap,,0,0,0,,The nuclear investment\Ncould {\c&H003A8AF2&}not{\c&H00FFFFFF&} be
+Dialogue: 10,0:00:04.20,0:00:04.46,Cap,,0,0,0,,The nuclear investment\Ncould not {\c&H003A8AF2&}be{\c&H00FFFFFF&}
+Dialogue: 10,0:00:04.38,0:00:04.70,Cap,,0,0,0,,{\c&H003A8AF2&}recovered{\c&H00FFFFFF&} by\Npretending the reactor
+Dialogue: 10,0:00:04.70,0:00:05.02,Cap,,0,0,0,,recovered {\c&H003A8AF2&}by{\c&H00FFFFFF&}\Npretending the reactor
+Dialogue: 10,0:00:05.02,0:00:05.42,Cap,,0,0,0,,recovered by\N{\c&H003A8AF2&}pretending{\c&H00FFFFFF&} the reactor
+Dialogue: 10,0:00:05.42,0:00:06.02,Cap,,0,0,0,,recovered by\Npretending {\c&H003A8AF2&}the{\c&H00FFFFFF&} reactor
+Dialogue: 10,0:00:06.02,0:00:06.44,Cap,,0,0,0,,recovered by\Npretending the {\c&H003A8AF2&}reactor{\c&H00FFFFFF&}
+Dialogue: 10,0:00:06.36,0:00:06.72,Cap,,0,0,0,,{\c&H003A8AF2&}still{\c&H00FFFFFF&} made sense.
+Dialogue: 10,0:00:06.72,0:00:06.96,Cap,,0,0,0,,still {\c&H003A8AF2&}made{\c&H00FFFFFF&} sense.
+Dialogue: 10,0:00:06.96,0:00:07.52,Cap,,0,0,0,,still made {\c&H003A8AF2&}sense.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:08.14,0:00:08.30,Cap,,0,0,0,,{\c&H003A8AF2&}But{\c&H00FFFFFF&} parts of the\Nindustrial site
+Dialogue: 10,0:00:08.30,0:00:08.66,Cap,,0,0,0,,But {\c&H003A8AF2&}parts{\c&H00FFFFFF&} of the\Nindustrial site
+Dialogue: 10,0:00:08.66,0:00:08.84,Cap,,0,0,0,,But parts {\c&H003A8AF2&}of{\c&H00FFFFFF&} the\Nindustrial site
+Dialogue: 10,0:00:08.84,0:00:08.98,Cap,,0,0,0,,But parts of {\c&H003A8AF2&}the{\c&H00FFFFFF&}\Nindustrial site
+Dialogue: 10,0:00:08.98,0:00:09.40,Cap,,0,0,0,,But parts of the\N{\c&H003A8AF2&}industrial{\c&H00FFFFFF&} site
+Dialogue: 10,0:00:09.40,0:00:10.06,Cap,,0,0,0,,But parts of the\Nindustrial {\c&H003A8AF2&}site{\c&H00FFFFFF&}
+Dialogue: 10,0:00:09.98,0:00:10.42,Cap,,0,0,0,,{\c&H003A8AF2&}had{\c&H00FFFFFF&} value outside\Nthe original plan.
+Dialogue: 10,0:00:10.42,0:00:10.74,Cap,,0,0,0,,had {\c&H003A8AF2&}value{\c&H00FFFFFF&} outside\Nthe original plan.
+Dialogue: 10,0:00:10.74,0:00:11.50,Cap,,0,0,0,,had value {\c&H003A8AF2&}outside{\c&H00FFFFFF&}\Nthe original plan.
+Dialogue: 10,0:00:11.50,0:00:11.76,Cap,,0,0,0,,had value outside\N{\c&H003A8AF2&}the{\c&H00FFFFFF&} original plan.
+Dialogue: 10,0:00:11.76,0:00:12.12,Cap,,0,0,0,,had value outside\Nthe {\c&H003A8AF2&}original{\c&H00FFFFFF&} plan.
+Dialogue: 10,0:00:12.12,0:00:12.74,Cap,,0,0,0,,had value outside\Nthe original {\c&H003A8AF2&}plan.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:12.72,0:00:13.26,Cap,,0,0,0,,{\c&H003A8AF2&}roads,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:13.72,0:00:14.02,Cap,,0,0,0,,{\c&H003A8AF2&}large{\c&H00FFFFFF&} buildings,
+Dialogue: 10,0:00:14.02,0:00:14.56,Cap,,0,0,0,,large {\c&H003A8AF2&}buildings,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:15.36,0:00:15.70,Cap,,0,0,0,,{\c&H003A8AF2&}electrical{\c&H00FFFFFF&} connections,
+Dialogue: 10,0:00:15.70,0:00:16.34,Cap,,0,0,0,,electrical {\c&H003A8AF2&}connections,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:17.30,0:00:17.54,Cap,,0,0,0,,{\c&H003A8AF2&}water{\c&H00FFFFFF&} and\Nwastewater systems,
+Dialogue: 10,0:00:17.54,0:00:17.84,Cap,,0,0,0,,water {\c&H003A8AF2&}and{\c&H00FFFFFF&}\Nwastewater systems,
+Dialogue: 10,0:00:17.84,0:00:18.16,Cap,,0,0,0,,water and\N{\c&H003A8AF2&}wastewater{\c&H00FFFFFF&} systems,
+Dialogue: 10,0:00:18.16,0:00:19.00,Cap,,0,0,0,,water and\Nwastewater {\c&H003A8AF2&}systems,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:19.66,0:00:19.98,Cap,,0,0,0,,{\c&H003A8AF2&}transmission{\c&H00FFFFFF&} access,
+Dialogue: 10,0:00:19.98,0:00:20.74,Cap,,0,0,0,,transmission {\c&H003A8AF2&}access,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:21.32,0:00:21.76,Cap,,0,0,0,,{\c&H003A8AF2&}fiber,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:22.44,0:00:22.78,Cap,,0,0,0,,{\c&H003A8AF2&}developed{\c&H00FFFFFF&} land.
+Dialogue: 10,0:00:22.78,0:00:23.44,Cap,,0,0,0,,developed {\c&H003A8AF2&}land.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:23.98,0:00:24.22,Cap,,0,0,0,,{\c&H003A8AF2&}Those{\c&H00FFFFFF&} assets had\Nbeen assembled for
+Dialogue: 10,0:00:24.22,0:00:24.64,Cap,,0,0,0,,Those {\c&H003A8AF2&}assets{\c&H00FFFFFF&} had\Nbeen assembled for
+Dialogue: 10,0:00:24.64,0:00:24.96,Cap,,0,0,0,,Those assets {\c&H003A8AF2&}had{\c&H00FFFFFF&}\Nbeen assembled for
+Dialogue: 10,0:00:24.96,0:00:25.06,Cap,,0,0,0,,Those assets had\N{\c&H003A8AF2&}been{\c&H00FFFFFF&} assembled for
+Dialogue: 10,0:00:25.06,0:00:25.46,Cap,,0,0,0,,Those assets had\Nbeen {\c&H003A8AF2&}assembled{\c&H00FFFFFF&} for
+Dialogue: 10,0:00:25.46,0:00:25.82,Cap,,0,0,0,,Those assets had\Nbeen assembled {\c&H003A8AF2&}for{\c&H00FFFFFF&}
+Dialogue: 10,0:00:25.74,0:00:25.90,Cap,,0,0,0,,{\c&H003A8AF2&}a{\c&H00FFFFFF&} nuclear station,
+Dialogue: 10,0:00:25.90,0:00:26.12,Cap,,0,0,0,,a {\c&H003A8AF2&}nuclear{\c&H00FFFFFF&} station,
+Dialogue: 10,0:00:26.12,0:00:26.88,Cap,,0,0,0,,a nuclear {\c&H003A8AF2&}station,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:27.38,0:00:27.54,Cap,,0,0,0,,{\c&H003A8AF2&}but{\c&H00FFFFFF&} many were not\Ninherently nuclear.
+Dialogue: 10,0:00:27.54,0:00:27.76,Cap,,0,0,0,,but {\c&H003A8AF2&}many{\c&H00FFFFFF&} were not\Ninherently nuclear.
+Dialogue: 10,0:00:27.76,0:00:27.92,Cap,,0,0,0,,but many {\c&H003A8AF2&}were{\c&H00FFFFFF&} not\Ninherently nuclear.
+Dialogue: 10,0:00:27.92,0:00:28.24,Cap,,0,0,0,,but many were {\c&H003A8AF2&}not{\c&H00FFFFFF&}\Ninherently nuclear.
+Dialogue: 10,0:00:28.24,0:00:28.70,Cap,,0,0,0,,but many were not\N{\c&H003A8AF2&}inherently{\c&H00FFFFFF&} nuclear.
+Dialogue: 10,0:00:28.70,0:00:29.40,Cap,,0,0,0,,but many were not\Ninherently {\c&H003A8AF2&}nuclear.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:30.06,0:00:30.22,Cap,,0,0,0,,{\c&H003A8AF2&}A{\c&H00FFFFFF&} heavy industrial\Nbuilding can house
+Dialogue: 10,0:00:30.22,0:00:30.46,Cap,,0,0,0,,A {\c&H003A8AF2&}heavy{\c&H00FFFFFF&} industrial\Nbuilding can house
+Dialogue: 10,0:00:30.46,0:00:30.92,Cap,,0,0,0,,A heavy {\c&H003A8AF2&}industrial{\c&H00FFFFFF&}\Nbuilding can house
+Dialogue: 10,0:00:30.92,0:00:31.60,Cap,,0,0,0,,A heavy industrial\N{\c&H003A8AF2&}building{\c&H00FFFFFF&} can house
+Dialogue: 10,0:00:31.60,0:00:32.04,Cap,,0,0,0,,A heavy industrial\Nbuilding {\c&H003A8AF2&}can{\c&H00FFFFFF&} house
+Dialogue: 10,0:00:32.04,0:00:32.44,Cap,,0,0,0,,A heavy industrial\Nbuilding can {\c&H003A8AF2&}house{\c&H00FFFFFF&}
+Dialogue: 10,0:00:32.36,0:00:33.12,Cap,,0,0,0,,{\c&H003A8AF2&}manufacturing.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:33.84,0:00:34.02,Cap,,0,0,0,,{\c&H003A8AF2&}A{\c&H00FFFFFF&} tunnel can\Nbecome a controlled
+Dialogue: 10,0:00:34.02,0:00:34.38,Cap,,0,0,0,,A {\c&H003A8AF2&}tunnel{\c&H00FFFFFF&} can\Nbecome a controlled
+Dialogue: 10,0:00:34.38,0:00:34.82,Cap,,0,0,0,,A tunnel {\c&H003A8AF2&}can{\c&H00FFFFFF&}\Nbecome a controlled
+Dialogue: 10,0:00:34.82,0:00:35.06,Cap,,0,0,0,,A tunnel can\N{\c&H003A8AF2&}become{\c&H00FFFFFF&} a controlled
+Dialogue: 10,0:00:35.06,0:00:35.32,Cap,,0,0,0,,A tunnel can\Nbecome {\c&H003A8AF2&}a{\c&H00FFFFFF&} controlled
+Dialogue: 10,0:00:35.32,0:00:35.84,Cap,,0,0,0,,A tunnel can\Nbecome a {\c&H003A8AF2&}controlled{\c&H00FFFFFF&}
+Dialogue: 10,0:00:35.76,0:00:36.16,Cap,,0,0,0,,{\c&H003A8AF2&}training{\c&H00FFFFFF&} environment.
+Dialogue: 10,0:00:36.16,0:00:36.92,Cap,,0,0,0,,training {\c&H003A8AF2&}environment.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:36.84,0:00:38.14,Cap,,0,0,0,,{\c&H003A8AF2&}Electrical{\c&H00FFFFFF&} and\Nwater capacity can
+Dialogue: 10,0:00:38.14,0:00:38.34,Cap,,0,0,0,,Electrical {\c&H003A8AF2&}and{\c&H00FFFFFF&}\Nwater capacity can
+Dialogue: 10,0:00:38.34,0:00:38.60,Cap,,0,0,0,,Electrical and\N{\c&H003A8AF2&}water{\c&H00FFFFFF&} capacity can
+Dialogue: 10,0:00:38.60,0:00:39.20,Cap,,0,0,0,,Electrical and\Nwater {\c&H003A8AF2&}capacity{\c&H00FFFFFF&} can
+Dialogue: 10,0:00:39.20,0:00:39.82,Cap,,0,0,0,,Electrical and\Nwater capacity {\c&H003A8AF2&}can{\c&H00FFFFFF&}
+Dialogue: 10,0:00:39.74,0:00:40.10,Cap,,0,0,0,,{\c&H003A8AF2&}attract{\c&H00FFFFFF&} tenants that\Ncould never justify
+Dialogue: 10,0:00:40.10,0:00:40.62,Cap,,0,0,0,,attract {\c&H003A8AF2&}tenants{\c&H00FFFFFF&} that\Ncould never justify
+Dialogue: 10,0:00:40.62,0:00:41.20,Cap,,0,0,0,,attract tenants {\c&H003A8AF2&}that{\c&H00FFFFFF&}\Ncould never justify
+Dialogue: 10,0:00:41.20,0:00:41.38,Cap,,0,0,0,,attract tenants that\N{\c&H003A8AF2&}could{\c&H00FFFFFF&} never justify
+Dialogue: 10,0:00:41.38,0:00:41.64,Cap,,0,0,0,,attract tenants that\Ncould {\c&H003A8AF2&}never{\c&H00FFFFFF&} justify
+Dialogue: 10,0:00:41.64,0:00:42.30,Cap,,0,0,0,,attract tenants that\Ncould never {\c&H003A8AF2&}justify{\c&H00FFFFFF&}
+Dialogue: 10,0:00:42.22,0:00:42.64,Cap,,0,0,0,,{\c&H003A8AF2&}building{\c&H00FFFFFF&} the same\Ninfrastructure from
+Dialogue: 10,0:00:42.64,0:00:42.96,Cap,,0,0,0,,building {\c&H003A8AF2&}the{\c&H00FFFFFF&} same\Ninfrastructure from
+Dialogue: 10,0:00:42.96,0:00:43.24,Cap,,0,0,0,,building the {\c&H003A8AF2&}same{\c&H00FFFFFF&}\Ninfrastructure from
+Dialogue: 10,0:00:43.24,0:00:43.78,Cap,,0,0,0,,building the same\N{\c&H003A8AF2&}infrastructure{\c&H00FFFFFF&} from
+Dialogue: 10,0:00:43.78,0:00:44.26,Cap,,0,0,0,,building the same\Ninfrastructure {\c&H003A8AF2&}from{\c&H00FFFFFF&}
+Dialogue: 10,0:00:44.18,0:00:44.80,Cap,,0,0,0,,{\c&H003A8AF2&}scratch.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:45.54,0:00:45.82,Cap,,0,0,0,,{\c&H003A8AF2&}Today{\c&H00FFFFFF&} the site\Noperates as a
+Dialogue: 10,0:00:45.82,0:00:46.10,Cap,,0,0,0,,Today {\c&H003A8AF2&}the{\c&H00FFFFFF&} site\Noperates as a
+Dialogue: 10,0:00:46.10,0:00:46.38,Cap,,0,0,0,,Today the {\c&H003A8AF2&}site{\c&H00FFFFFF&}\Noperates as a
+Dialogue: 10,0:00:46.38,0:00:46.86,Cap,,0,0,0,,Today the site\N{\c&H003A8AF2&}operates{\c&H00FFFFFF&} as a
+Dialogue: 10,0:00:46.86,0:00:47.40,Cap,,0,0,0,,Today the site\Noperates {\c&H003A8AF2&}as{\c&H00FFFFFF&} a
+Dialogue: 10,0:00:47.40,0:00:47.62,Cap,,0,0,0,,Today the site\Noperates as {\c&H003A8AF2&}a{\c&H00FFFFFF&}
+Dialogue: 10,0:00:47.54,0:00:47.88,Cap,,0,0,0,,{\c&H003A8AF2&}community{\c&H00FFFFFF&} owned\Nbusiness park.
+Dialogue: 10,0:00:47.88,0:00:48.38,Cap,,0,0,0,,community {\c&H003A8AF2&}owned{\c&H00FFFFFF&}\Nbusiness park.
+Dialogue: 10,0:00:48.38,0:00:48.76,Cap,,0,0,0,,community owned\N{\c&H003A8AF2&}business{\c&H00FFFFFF&} park.
+Dialogue: 10,0:00:48.76,0:00:49.34,Cap,,0,0,0,,community owned\Nbusiness {\c&H003A8AF2&}park.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:49.86,0:00:50.02,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} former turbine\Nbuilding offers
+Dialogue: 10,0:00:50.02,0:00:50.32,Cap,,0,0,0,,The {\c&H003A8AF2&}former{\c&H00FFFFFF&} turbine\Nbuilding offers
+Dialogue: 10,0:00:50.32,0:00:50.70,Cap,,0,0,0,,The former {\c&H003A8AF2&}turbine{\c&H00FFFFFF&}\Nbuilding offers
+Dialogue: 10,0:00:50.70,0:00:51.26,Cap,,0,0,0,,The former turbine\N{\c&H003A8AF2&}building{\c&H00FFFFFF&} offers
+Dialogue: 10,0:00:51.26,0:00:51.84,Cap,,0,0,0,,The former turbine\Nbuilding {\c&H003A8AF2&}offers{\c&H00FFFFFF&}
+Dialogue: 10,0:00:51.76,0:00:52.22,Cap,,0,0,0,,{\c&H003A8AF2&}roughly{\c&H00FFFFFF&} 300 ,000\Nsquare feet of
+Dialogue: 10,0:00:52.22,0:00:52.80,Cap,,0,0,0,,roughly {\c&H003A8AF2&}300{\c&H00FFFFFF&} ,000\Nsquare feet of
+Dialogue: 10,0:00:52.80,0:00:53.44,Cap,,0,0,0,,roughly 300 {\c&H003A8AF2&},000{\c&H00FFFFFF&}\Nsquare feet of
+Dialogue: 10,0:00:53.44,0:00:53.84,Cap,,0,0,0,,roughly 300 ,000\N{\c&H003A8AF2&}square{\c&H00FFFFFF&} feet of
+Dialogue: 10,0:00:53.84,0:00:54.24,Cap,,0,0,0,,roughly 300 ,000\Nsquare {\c&H003A8AF2&}feet{\c&H00FFFFFF&} of
+Dialogue: 10,0:00:54.24,0:00:54.68,Cap,,0,0,0,,roughly 300 ,000\Nsquare feet {\c&H003A8AF2&}of{\c&H00FFFFFF&}
+Dialogue: 10,0:00:54.60,0:00:55.00,Cap,,0,0,0,,{\c&H003A8AF2&}industrial{\c&H00FFFFFF&} space.
+Dialogue: 10,0:00:55.00,0:00:55.90,Cap,,0,0,0,,industrial {\c&H003A8AF2&}space.{\c&H00FFFFFF&}

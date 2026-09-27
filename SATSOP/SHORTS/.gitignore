@@ -1,0 +1,5 @@
+out/*.mp4
+qc/*_audio.wav
+qc/*_story.mp4
+qc/*/bottom_gradient.png
+qc/*/frames/

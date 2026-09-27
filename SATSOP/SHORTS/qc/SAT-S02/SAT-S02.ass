@@ -1,0 +1,119 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H00FFFFFF,&H00FFFFFF,&H00110A05,&H00000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,390,1
+Style: Hist,DejaVu Sans,28,&H00DDE6F3,&H00DDE6F3,&H00110A05,&H00000000,-1,0,0,0,100,100,2,0,1,3,1,9,40,44,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 10,0:00:00.00,0:00:00.34,Cap,,0,0,0,,{\c&H003A8AF2&}projects{\c&H00FFFFFF&} 4 and 5.
+Dialogue: 10,0:00:00.34,0:00:00.88,Cap,,0,0,0,,projects {\c&H003A8AF2&}4{\c&H00FFFFFF&} and 5.
+Dialogue: 10,0:00:00.88,0:00:01.14,Cap,,0,0,0,,projects 4 {\c&H003A8AF2&}and{\c&H00FFFFFF&} 5.
+Dialogue: 10,0:00:01.14,0:00:02.00,Cap,,0,0,0,,projects 4 and {\c&H003A8AF2&}5.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:02.48,0:00:02.66,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} bonds were\Nbacked by contracts
+Dialogue: 10,0:00:02.66,0:00:02.96,Cap,,0,0,0,,The {\c&H003A8AF2&}bonds{\c&H00FFFFFF&} were\Nbacked by contracts
+Dialogue: 10,0:00:02.96,0:00:03.20,Cap,,0,0,0,,The bonds {\c&H003A8AF2&}were{\c&H00FFFFFF&}\Nbacked by contracts
+Dialogue: 10,0:00:03.20,0:00:03.48,Cap,,0,0,0,,The bonds were\N{\c&H003A8AF2&}backed{\c&H00FFFFFF&} by contracts
+Dialogue: 10,0:00:03.48,0:00:03.78,Cap,,0,0,0,,The bonds were\Nbacked {\c&H003A8AF2&}by{\c&H00FFFFFF&} contracts
+Dialogue: 10,0:00:03.78,0:00:04.40,Cap,,0,0,0,,The bonds were\Nbacked by {\c&H003A8AF2&}contracts{\c&H00FFFFFF&}
+Dialogue: 10,0:00:04.32,0:00:05.08,Cap,,0,0,0,,{\c&H003A8AF2&}containing{\c&H00FFFFFF&} a take\Nor pay obligation.
+Dialogue: 10,0:00:05.08,0:00:05.40,Cap,,0,0,0,,containing {\c&H003A8AF2&}a{\c&H00FFFFFF&} take\Nor pay obligation.
+Dialogue: 10,0:00:05.40,0:00:05.72,Cap,,0,0,0,,containing a {\c&H003A8AF2&}take{\c&H00FFFFFF&}\Nor pay obligation.
+Dialogue: 10,0:00:05.72,0:00:06.06,Cap,,0,0,0,,containing a take\N{\c&H003A8AF2&}or{\c&H00FFFFFF&} pay obligation.
+Dialogue: 10,0:00:06.06,0:00:06.46,Cap,,0,0,0,,containing a take\Nor {\c&H003A8AF2&}pay{\c&H00FFFFFF&} obligation.
+Dialogue: 10,0:00:06.46,0:00:07.26,Cap,,0,0,0,,containing a take\Nor pay {\c&H003A8AF2&}obligation.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:08.12,0:00:08.26,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} phrase\Nsounds obscure.
+Dialogue: 10,0:00:08.26,0:00:08.62,Cap,,0,0,0,,The {\c&H003A8AF2&}phrase{\c&H00FFFFFF&}\Nsounds obscure.
+Dialogue: 10,0:00:08.62,0:00:08.98,Cap,,0,0,0,,The phrase\N{\c&H003A8AF2&}sounds{\c&H00FFFFFF&} obscure.
+Dialogue: 10,0:00:08.98,0:00:09.60,Cap,,0,0,0,,The phrase\Nsounds {\c&H003A8AF2&}obscure.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:10.06,0:00:10.34,Cap,,0,0,0,,{\c&H003A8AF2&}Its{\c&H00FFFFFF&} meaning was\Npainfully clear.
+Dialogue: 10,0:00:10.34,0:00:10.62,Cap,,0,0,0,,Its {\c&H003A8AF2&}meaning{\c&H00FFFFFF&} was\Npainfully clear.
+Dialogue: 10,0:00:10.62,0:00:11.06,Cap,,0,0,0,,Its meaning {\c&H003A8AF2&}was{\c&H00FFFFFF&}\Npainfully clear.
+Dialogue: 10,0:00:11.06,0:00:11.54,Cap,,0,0,0,,Its meaning was\N{\c&H003A8AF2&}painfully{\c&H00FFFFFF&} clear.
+Dialogue: 10,0:00:11.54,0:00:12.14,Cap,,0,0,0,,Its meaning was\Npainfully {\c&H003A8AF2&}clear.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:12.96,0:00:13.42,Cap,,0,0,0,,{\c&H003A8AF2&}Participants{\c&H00FFFFFF&} were\Nrequired to pay
+Dialogue: 10,0:00:13.42,0:00:13.68,Cap,,0,0,0,,Participants {\c&H003A8AF2&}were{\c&H00FFFFFF&}\Nrequired to pay
+Dialogue: 10,0:00:13.68,0:00:13.98,Cap,,0,0,0,,Participants were\N{\c&H003A8AF2&}required{\c&H00FFFFFF&} to pay
+Dialogue: 10,0:00:13.98,0:00:14.16,Cap,,0,0,0,,Participants were\Nrequired {\c&H003A8AF2&}to{\c&H00FFFFFF&} pay
+Dialogue: 10,0:00:14.16,0:00:14.42,Cap,,0,0,0,,Participants were\Nrequired to {\c&H003A8AF2&}pay{\c&H00FFFFFF&}
+Dialogue: 10,0:00:14.34,0:00:14.68,Cap,,0,0,0,,{\c&H003A8AF2&}their{\c&H00FFFFFF&} share whether\Nthe plants were
+Dialogue: 10,0:00:14.68,0:00:15.12,Cap,,0,0,0,,their {\c&H003A8AF2&}share{\c&H00FFFFFF&} whether\Nthe plants were
+Dialogue: 10,0:00:15.12,0:00:15.58,Cap,,0,0,0,,their share {\c&H003A8AF2&}whether{\c&H00FFFFFF&}\Nthe plants were
+Dialogue: 10,0:00:15.58,0:00:15.82,Cap,,0,0,0,,their share whether\N{\c&H003A8AF2&}the{\c&H00FFFFFF&} plants were
+Dialogue: 10,0:00:15.82,0:00:16.04,Cap,,0,0,0,,their share whether\Nthe {\c&H003A8AF2&}plants{\c&H00FFFFFF&} were
+Dialogue: 10,0:00:16.04,0:00:16.38,Cap,,0,0,0,,their share whether\Nthe plants {\c&H003A8AF2&}were{\c&H00FFFFFF&}
+Dialogue: 10,0:00:16.30,0:00:16.82,Cap,,0,0,0,,{\c&H003A8AF2&}completed,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:17.20,0:00:17.96,Cap,,0,0,0,,{\c&H003A8AF2&}operable,{\c&H00FFFFFF&} or operating.
+Dialogue: 10,0:00:17.96,0:00:18.18,Cap,,0,0,0,,operable, {\c&H003A8AF2&}or{\c&H00FFFFFF&} operating.
+Dialogue: 10,0:00:18.18,0:00:18.72,Cap,,0,0,0,,operable, or {\c&H003A8AF2&}operating.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:19.68,0:00:19.86,Cap,,0,0,0,,{\c&H003A8AF2&}When{\c&H00FFFFFF&} the projects\Nwere alive, that
+Dialogue: 10,0:00:19.86,0:00:20.04,Cap,,0,0,0,,When {\c&H003A8AF2&}the{\c&H00FFFFFF&} projects\Nwere alive, that
+Dialogue: 10,0:00:20.04,0:00:20.34,Cap,,0,0,0,,When the {\c&H003A8AF2&}projects{\c&H00FFFFFF&}\Nwere alive, that
+Dialogue: 10,0:00:20.34,0:00:20.60,Cap,,0,0,0,,When the projects\N{\c&H003A8AF2&}were{\c&H00FFFFFF&} alive, that
+Dialogue: 10,0:00:20.60,0:00:21.38,Cap,,0,0,0,,When the projects\Nwere {\c&H003A8AF2&}alive,{\c&H00FFFFFF&} that
+Dialogue: 10,0:00:21.38,0:00:21.64,Cap,,0,0,0,,When the projects\Nwere alive, {\c&H003A8AF2&}that{\c&H00FFFFFF&}
+Dialogue: 10,0:00:21.56,0:00:21.90,Cap,,0,0,0,,{\c&H003A8AF2&}promise{\c&H00FFFFFF&} helped make\Ntheir bonds marketable.
+Dialogue: 10,0:00:21.90,0:00:22.26,Cap,,0,0,0,,promise {\c&H003A8AF2&}helped{\c&H00FFFFFF&} make\Ntheir bonds marketable.
+Dialogue: 10,0:00:22.26,0:00:22.52,Cap,,0,0,0,,promise helped {\c&H003A8AF2&}make{\c&H00FFFFFF&}\Ntheir bonds marketable.
+Dialogue: 10,0:00:22.52,0:00:22.82,Cap,,0,0,0,,promise helped make\N{\c&H003A8AF2&}their{\c&H00FFFFFF&} bonds marketable.
+Dialogue: 10,0:00:22.82,0:00:23.22,Cap,,0,0,0,,promise helped make\Ntheir {\c&H003A8AF2&}bonds{\c&H00FFFFFF&} marketable.
+Dialogue: 10,0:00:23.22,0:00:24.34,Cap,,0,0,0,,promise helped make\Ntheir bonds {\c&H003A8AF2&}marketable.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:24.98,0:00:25.24,Cap,,0,0,0,,{\c&H003A8AF2&}Once{\c&H00FFFFFF&} construction ended,
+Dialogue: 10,0:00:25.24,0:00:25.76,Cap,,0,0,0,,Once {\c&H003A8AF2&}construction{\c&H00FFFFFF&} ended,
+Dialogue: 10,0:00:25.76,0:00:26.38,Cap,,0,0,0,,Once construction {\c&H003A8AF2&}ended,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:26.74,0:00:26.78,Cap,,0,0,0,,{\c&H003A8AF2&}it{\c&H00FFFFFF&} meant utilities\Ncould still face
+Dialogue: 10,0:00:26.78,0:00:27.02,Cap,,0,0,0,,it {\c&H003A8AF2&}meant{\c&H00FFFFFF&} utilities\Ncould still face
+Dialogue: 10,0:00:27.02,0:00:27.50,Cap,,0,0,0,,it meant {\c&H003A8AF2&}utilities{\c&H00FFFFFF&}\Ncould still face
+Dialogue: 10,0:00:27.50,0:00:27.90,Cap,,0,0,0,,it meant utilities\N{\c&H003A8AF2&}could{\c&H00FFFFFF&} still face
+Dialogue: 10,0:00:27.90,0:00:28.20,Cap,,0,0,0,,it meant utilities\Ncould {\c&H003A8AF2&}still{\c&H00FFFFFF&} face
+Dialogue: 10,0:00:28.20,0:00:28.50,Cap,,0,0,0,,it meant utilities\Ncould still {\c&H003A8AF2&}face{\c&H00FFFFFF&}
+Dialogue: 10,0:00:28.42,0:00:28.64,Cap,,0,0,0,,{\c&H003A8AF2&}the{\c&H00FFFFFF&} cost of\Nplants that would
+Dialogue: 10,0:00:28.64,0:00:28.82,Cap,,0,0,0,,the {\c&H003A8AF2&}cost{\c&H00FFFFFF&} of\Nplants that would
+Dialogue: 10,0:00:28.82,0:00:29.04,Cap,,0,0,0,,the cost {\c&H003A8AF2&}of{\c&H00FFFFFF&}\Nplants that would
+Dialogue: 10,0:00:29.04,0:00:29.48,Cap,,0,0,0,,the cost of\N{\c&H003A8AF2&}plants{\c&H00FFFFFF&} that would
+Dialogue: 10,0:00:29.48,0:00:29.96,Cap,,0,0,0,,the cost of\Nplants {\c&H003A8AF2&}that{\c&H00FFFFFF&} would
+Dialogue: 10,0:00:29.96,0:00:30.24,Cap,,0,0,0,,the cost of\Nplants that {\c&H003A8AF2&}would{\c&H00FFFFFF&}
+Dialogue: 10,0:00:30.16,0:00:30.48,Cap,,0,0,0,,{\c&H003A8AF2&}never{\c&H00FFFFFF&} deliver power.
+Dialogue: 10,0:00:30.48,0:00:30.86,Cap,,0,0,0,,never {\c&H003A8AF2&}deliver{\c&H00FFFFFF&} power.
+Dialogue: 10,0:00:30.86,0:00:31.58,Cap,,0,0,0,,never deliver {\c&H003A8AF2&}power.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:32.50,0:00:33.00,Cap,,0,0,0,,{\c&H003A8AF2&}GAO{\c&H00FFFFFF&} reported that\Nrate increases would
+Dialogue: 10,0:00:33.00,0:00:33.48,Cap,,0,0,0,,GAO {\c&H003A8AF2&}reported{\c&H00FFFFFF&} that\Nrate increases would
+Dialogue: 10,0:00:33.48,0:00:34.00,Cap,,0,0,0,,GAO reported {\c&H003A8AF2&}that{\c&H00FFFFFF&}\Nrate increases would
+Dialogue: 10,0:00:34.00,0:00:34.24,Cap,,0,0,0,,GAO reported that\N{\c&H003A8AF2&}rate{\c&H00FFFFFF&} increases would
+Dialogue: 10,0:00:34.24,0:00:34.70,Cap,,0,0,0,,GAO reported that\Nrate {\c&H003A8AF2&}increases{\c&H00FFFFFF&} would
+Dialogue: 10,0:00:34.70,0:00:35.10,Cap,,0,0,0,,GAO reported that\Nrate increases {\c&H003A8AF2&}would{\c&H00FFFFFF&}
+Dialogue: 10,0:00:35.02,0:00:35.20,Cap,,0,0,0,,{\c&H003A8AF2&}be{\c&H00FFFFFF&} required to\Nservice the debt.
+Dialogue: 10,0:00:35.20,0:00:35.60,Cap,,0,0,0,,be {\c&H003A8AF2&}required{\c&H00FFFFFF&} to\Nservice the debt.
+Dialogue: 10,0:00:35.60,0:00:36.10,Cap,,0,0,0,,be required {\c&H003A8AF2&}to{\c&H00FFFFFF&}\Nservice the debt.
+Dialogue: 10,0:00:36.10,0:00:36.44,Cap,,0,0,0,,be required to\N{\c&H003A8AF2&}service{\c&H00FFFFFF&} the debt.
+Dialogue: 10,0:00:36.44,0:00:36.68,Cap,,0,0,0,,be required to\Nservice {\c&H003A8AF2&}the{\c&H00FFFFFF&} debt.
+Dialogue: 10,0:00:36.68,0:00:37.30,Cap,,0,0,0,,be required to\Nservice the {\c&H003A8AF2&}debt.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:37.94,0:00:38.40,Cap,,0,0,0,,{\c&H003A8AF2&}Utilities{\c&H00FFFFFF&} and ratepayers\Nwent to court.
+Dialogue: 10,0:00:38.40,0:00:38.70,Cap,,0,0,0,,Utilities {\c&H003A8AF2&}and{\c&H00FFFFFF&} ratepayers\Nwent to court.
+Dialogue: 10,0:00:38.70,0:00:39.28,Cap,,0,0,0,,Utilities and {\c&H003A8AF2&}ratepayers{\c&H00FFFFFF&}\Nwent to court.
+Dialogue: 10,0:00:39.28,0:00:39.70,Cap,,0,0,0,,Utilities and ratepayers\N{\c&H003A8AF2&}went{\c&H00FFFFFF&} to court.
+Dialogue: 10,0:00:39.70,0:00:39.92,Cap,,0,0,0,,Utilities and ratepayers\Nwent {\c&H003A8AF2&}to{\c&H00FFFFFF&} court.
+Dialogue: 10,0:00:39.92,0:00:40.36,Cap,,0,0,0,,Utilities and ratepayers\Nwent to {\c&H003A8AF2&}court.{\c&H00FFFFFF&}
+Dialogue: 10,0:00:41.20,0:00:41.28,Cap,,0,0,0,,{\c&H003A8AF2&}The{\c&H00FFFFFF&} question was\Nno longer only
+Dialogue: 10,0:00:41.28,0:00:41.64,Cap,,0,0,0,,The {\c&H003A8AF2&}question{\c&H00FFFFFF&} was\Nno longer only
+Dialogue: 10,0:00:41.64,0:00:41.88,Cap,,0,0,0,,The question {\c&H003A8AF2&}was{\c&H00FFFFFF&}\Nno longer only
+Dialogue: 10,0:00:41.88,0:00:42.10,Cap,,0,0,0,,The question was\N{\c&H003A8AF2&}no{\c&H00FFFFFF&} longer only
+Dialogue: 10,0:00:42.10,0:00:42.34,Cap,,0,0,0,,The question was\Nno {\c&H003A8AF2&}longer{\c&H00FFFFFF&} only
+Dialogue: 10,0:00:42.34,0:00:42.72,Cap,,0,0,0,,The question was\Nno longer {\c&H003A8AF2&}only{\c&H00FFFFFF&}
+Dialogue: 10,0:00:42.64,0:00:42.88,Cap,,0,0,0,,{\c&H003A8AF2&}whether{\c&H00FFFFFF&} the project\Nshould continue,
+Dialogue: 10,0:00:42.88,0:00:43.12,Cap,,0,0,0,,whether {\c&H003A8AF2&}the{\c&H00FFFFFF&} project\Nshould continue,
+Dialogue: 10,0:00:43.12,0:00:43.44,Cap,,0,0,0,,whether the {\c&H003A8AF2&}project{\c&H00FFFFFF&}\Nshould continue,
+Dialogue: 10,0:00:43.44,0:00:43.70,Cap,,0,0,0,,whether the project\N{\c&H003A8AF2&}should{\c&H00FFFFFF&} continue,
+Dialogue: 10,0:00:43.70,0:00:44.28,Cap,,0,0,0,,whether the project\Nshould {\c&H003A8AF2&}continue,{\c&H00FFFFFF&}
+Dialogue: 10,0:00:44.70,0:00:44.88,Cap,,0,0,0,,{\c&H003A8AF2&}it{\c&H00FFFFFF&} was who\Nwould carry the
+Dialogue: 10,0:00:44.88,0:00:45.10,Cap,,0,0,0,,it {\c&H003A8AF2&}was{\c&H00FFFFFF&} who\Nwould carry the
+Dialogue: 10,0:00:45.10,0:00:45.50,Cap,,0,0,0,,it was {\c&H003A8AF2&}who{\c&H00FFFFFF&}\Nwould carry the
+Dialogue: 10,0:00:45.50,0:00:45.90,Cap,,0,0,0,,it was who\N{\c&H003A8AF2&}would{\c&H00FFFFFF&} carry the
+Dialogue: 10,0:00:45.90,0:00:46.12,Cap,,0,0,0,,it was who\Nwould {\c&H003A8AF2&}carry{\c&H00FFFFFF&} the
+Dialogue: 10,0:00:46.12,0:00:46.44,Cap,,0,0,0,,it was who\Nwould carry {\c&H003A8AF2&}the{\c&H00FFFFFF&}

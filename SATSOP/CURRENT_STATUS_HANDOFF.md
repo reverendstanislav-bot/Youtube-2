@@ -420,3 +420,15 @@ Canonical files:
 - tags, hashtags, pinned comment, upload settings and release checklist complete;
 - exact approved thumbnail supplied in chat is not available as a repository binary and must be saved without regeneration as `PUBLISHING/SATSOP_THUMBNAIL_FINAL.png`;
 - initial YouTube visibility: private or unlisted; altered/synthetic-content disclosure: yes; music: none.
+
+### Shorts package
+
+- four Satsop Shorts assembled in the locked native HIA vertical format;
+- outputs: `SHORTS/out/SAT-S01.mp4` through `SAT-S04.mp4`;
+- 1080x1920, 30 fps, H.264 High, AAC 48 kHz stereo;
+- exact excerpts of the approved narration; no new TTS and no music;
+- existing approved Satsop visual assets only; no new image or video generation;
+- white mobile captions with orange active word, static vertical reframes and hard cuts;
+- approved reusable HIA vertical end screen appended for 2.4 seconds with silence;
+- full decode QC: **4 / 4 PASS**;
+- upload text and Russian instructions: `SHORTS/SHORTS_UPLOAD_TEXT_RU.txt`.

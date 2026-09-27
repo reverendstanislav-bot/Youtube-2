@@ -1,0 +1,48 @@
+{
+  "id": "SAT-S03",
+  "fps": 30,
+  "title": "74% Complete — Still Cancelled",
+  "version": "SATSOP_LOCKED_NATIVE_V1",
+  "segments": [
+    {
+      "out_start": 0.0,
+      "out_end": 12.8,
+      "asset": "SAT-B076.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 12.8,
+      "out_end": 20.53,
+      "asset": "SAT-B077.png",
+      "x": 0.55,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 20.53,
+      "out_end": 29.52,
+      "asset": "SAT-B078.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 29.52,
+      "out_end": 39.27,
+      "asset": "SAT-B079.png",
+      "x": 0.5,
+      "motion": "static",
+      "provenance": ""
+    },
+    {
+      "out_start": 39.27,
+      "out_end": 48.19,
+      "asset": "SAT-B080.png",
+      "x": 0.48,
+      "motion": "static",
+      "provenance": ""
+    }
+  ]
+}

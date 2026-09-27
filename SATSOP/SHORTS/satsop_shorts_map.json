@@ -1,0 +1,2221 @@
+{
+  "source_fps": 30,
+  "shorts": [
+    {
+      "id": "SAT-S01",
+      "title": "Two Towers, Two Different Failures",
+      "source_in_sec": 0.0,
+      "source_out_sec": 54.92,
+      "duration_sec": 54.92,
+      "source_words": [
+        {
+          "w": "Two",
+          "short_s": 0.0,
+          "short_e": 0.4
+        },
+        {
+          "w": "cooling",
+          "short_s": 0.4,
+          "short_e": 0.8
+        },
+        {
+          "w": "towers",
+          "short_s": 0.8,
+          "short_e": 1.42
+        },
+        {
+          "w": "rise",
+          "short_s": 1.42,
+          "short_e": 2.04
+        },
+        {
+          "w": "from",
+          "short_s": 2.04,
+          "short_e": 2.34
+        },
+        {
+          "w": "the",
+          "short_s": 2.34,
+          "short_e": 2.52
+        },
+        {
+          "w": "wooded",
+          "short_s": 2.52,
+          "short_e": 2.82
+        },
+        {
+          "w": "hills",
+          "short_s": 2.82,
+          "short_e": 3.32
+        },
+        {
+          "w": "of",
+          "short_s": 3.32,
+          "short_e": 3.78
+        },
+        {
+          "w": "Western",
+          "short_s": 3.78,
+          "short_e": 4.06
+        },
+        {
+          "w": "Washington.",
+          "short_s": 4.06,
+          "short_e": 4.64
+        },
+        {
+          "w": "They",
+          "short_s": 5.38,
+          "short_e": 5.54
+        },
+        {
+          "w": "look",
+          "short_s": 5.54,
+          "short_e": 5.78
+        },
+        {
+          "w": "like",
+          "short_s": 5.78,
+          "short_e": 5.98
+        },
+        {
+          "w": "a",
+          "short_s": 5.98,
+          "short_e": 6.12
+        },
+        {
+          "w": "matched",
+          "short_s": 6.12,
+          "short_e": 6.46
+        },
+        {
+          "w": "pair.",
+          "short_s": 6.46,
+          "short_e": 7.1
+        },
+        {
+          "w": "Their",
+          "short_s": 7.74,
+          "short_e": 7.86
+        },
+        {
+          "w": "histories",
+          "short_s": 7.86,
+          "short_e": 8.36
+        },
+        {
+          "w": "are",
+          "short_s": 8.36,
+          "short_e": 8.78
+        },
+        {
+          "w": "not.",
+          "short_s": 8.78,
+          "short_e": 9.06
+        },
+        {
+          "w": "One",
+          "short_s": 9.8,
+          "short_e": 10.02
+        },
+        {
+          "w": "belonged",
+          "short_s": 10.02,
+          "short_e": 10.38
+        },
+        {
+          "w": "to",
+          "short_s": 10.38,
+          "short_e": 10.58
+        },
+        {
+          "w": "Washington",
+          "short_s": 10.58,
+          "short_e": 10.96
+        },
+        {
+          "w": "Nuclear",
+          "short_s": 10.96,
+          "short_e": 11.48
+        },
+        {
+          "w": "Project",
+          "short_s": 11.48,
+          "short_e": 12.0
+        },
+        {
+          "w": "5.",
+          "short_s": 12.0,
+          "short_e": 12.74
+        },
+        {
+          "w": "That",
+          "short_s": 13.52,
+          "short_e": 13.72
+        },
+        {
+          "w": "project",
+          "short_s": 13.72,
+          "short_e": 14.22
+        },
+        {
+          "w": "was",
+          "short_s": 14.22,
+          "short_e": 14.66
+        },
+        {
+          "w": "about",
+          "short_s": 14.66,
+          "short_e": 14.98
+        },
+        {
+          "w": "14",
+          "short_s": 14.98,
+          "short_e": 15.36
+        },
+        {
+          "w": "%",
+          "short_s": 15.36,
+          "short_e": 15.82
+        },
+        {
+          "w": "complete",
+          "short_s": 15.82,
+          "short_e": 16.28
+        },
+        {
+          "w": "when",
+          "short_s": 16.28,
+          "short_e": 16.84
+        },
+        {
+          "w": "it",
+          "short_s": 16.84,
+          "short_e": 16.88
+        },
+        {
+          "w": "was",
+          "short_s": 16.88,
+          "short_e": 17.12
+        },
+        {
+          "w": "terminated",
+          "short_s": 17.12,
+          "short_e": 17.76
+        },
+        {
+          "w": "in",
+          "short_s": 17.76,
+          "short_e": 18.36
+        },
+        {
+          "w": "1982.",
+          "short_s": 18.36,
+          "short_e": 19.16
+        },
+        {
+          "w": "The",
+          "short_s": 20.04,
+          "short_e": 20.26
+        },
+        {
+          "w": "other",
+          "short_s": 20.26,
+          "short_e": 20.52
+        },
+        {
+          "w": "served",
+          "short_s": 20.52,
+          "short_e": 20.98
+        },
+        {
+          "w": "Washington",
+          "short_s": 20.98,
+          "short_e": 21.56
+        },
+        {
+          "w": "Nuclear",
+          "short_s": 21.56,
+          "short_e": 22.08
+        },
+        {
+          "w": "Project",
+          "short_s": 22.08,
+          "short_e": 22.6
+        },
+        {
+          "w": "3.",
+          "short_s": 22.6,
+          "short_e": 23.36
+        },
+        {
+          "w": "That",
+          "short_s": 23.92,
+          "short_e": 24.14
+        },
+        {
+          "w": "project",
+          "short_s": 24.14,
+          "short_e": 24.72
+        },
+        {
+          "w": "reached",
+          "short_s": 24.72,
+          "short_e": 25.26
+        },
+        {
+          "w": "74",
+          "short_s": 25.26,
+          "short_e": 25.92
+        },
+        {
+          "w": "%",
+          "short_s": 25.92,
+          "short_e": 26.56
+        },
+        {
+          "w": "physical",
+          "short_s": 26.56,
+          "short_e": 26.96
+        },
+        {
+          "w": "completion",
+          "short_s": 26.96,
+          "short_e": 27.56
+        },
+        {
+          "w": "and",
+          "short_s": 27.56,
+          "short_e": 28.22
+        },
+        {
+          "w": "remained",
+          "short_s": 28.22,
+          "short_e": 28.64
+        },
+        {
+          "w": "preserved",
+          "short_s": 28.64,
+          "short_e": 29.2
+        },
+        {
+          "w": "for",
+          "short_s": 29.2,
+          "short_e": 29.7
+        },
+        {
+          "w": "possible",
+          "short_s": 29.7,
+          "short_e": 30.06
+        },
+        {
+          "w": "completion",
+          "short_s": 30.06,
+          "short_e": 30.6
+        },
+        {
+          "w": "until",
+          "short_s": 30.6,
+          "short_e": 31.3
+        },
+        {
+          "w": "1994.",
+          "short_s": 31.3,
+          "short_e": 32.42
+        },
+        {
+          "w": "Neither",
+          "short_s": 33.44,
+          "short_e": 33.6
+        },
+        {
+          "w": "project",
+          "short_s": 33.6,
+          "short_e": 34.18
+        },
+        {
+          "w": "produced",
+          "short_s": 34.18,
+          "short_e": 34.82
+        },
+        {
+          "w": "commercial",
+          "short_s": 34.82,
+          "short_e": 35.44
+        },
+        {
+          "w": "electricity.",
+          "short_s": 35.44,
+          "short_e": 36.16
+        },
+        {
+          "w": "The",
+          "short_s": 37.06,
+          "short_e": 37.24
+        },
+        {
+          "w": "site",
+          "short_s": 37.24,
+          "short_e": 37.6
+        },
+        {
+          "w": "was",
+          "short_s": 37.6,
+          "short_e": 38.04
+        },
+        {
+          "w": "never",
+          "short_s": 38.04,
+          "short_e": 38.32
+        },
+        {
+          "w": "fueled.",
+          "short_s": 38.32,
+          "short_e": 38.9
+        },
+        {
+          "w": "So",
+          "short_s": 39.8,
+          "short_e": 39.96
+        },
+        {
+          "w": "the",
+          "short_s": 39.96,
+          "short_e": 40.06
+        },
+        {
+          "w": "mystery",
+          "short_s": 40.06,
+          "short_e": 40.36
+        },
+        {
+          "w": "is",
+          "short_s": 40.36,
+          "short_e": 40.58
+        },
+        {
+          "w": "not",
+          "short_s": 40.58,
+          "short_e": 40.72
+        },
+        {
+          "w": "simply",
+          "short_s": 40.72,
+          "short_e": 41.14
+        },
+        {
+          "w": "why",
+          "short_s": 41.14,
+          "short_e": 41.7
+        },
+        {
+          "w": "Satsop",
+          "short_s": 41.7,
+          "short_e": 42.18
+        },
+        {
+          "w": "was",
+          "short_s": 42.18,
+          "short_e": 42.48
+        },
+        {
+          "w": "unfinished.",
+          "short_s": 42.48,
+          "short_e": 42.96
+        },
+        {
+          "w": "It",
+          "short_s": 43.54,
+          "short_e": 43.66
+        },
+        {
+          "w": "is",
+          "short_s": 43.66,
+          "short_e": 43.9
+        },
+        {
+          "w": "why",
+          "short_s": 43.9,
+          "short_e": 44.12
+        },
+        {
+          "w": "two",
+          "short_s": 44.12,
+          "short_e": 44.54
+        },
+        {
+          "w": "reactor",
+          "short_s": 44.54,
+          "short_e": 44.92
+        },
+        {
+          "w": "projects",
+          "short_s": 44.92,
+          "short_e": 45.62
+        },
+        {
+          "w": "built",
+          "short_s": 45.62,
+          "short_e": 46.06
+        },
+        {
+          "w": "side",
+          "short_s": 46.06,
+          "short_e": 46.42
+        },
+        {
+          "w": "by",
+          "short_s": 46.42,
+          "short_e": 46.7
+        },
+        {
+          "w": "side",
+          "short_s": 46.7,
+          "short_e": 47.26
+        },
+        {
+          "w": "died",
+          "short_s": 47.26,
+          "short_e": 47.9
+        },
+        {
+          "w": "12",
+          "short_s": 47.9,
+          "short_e": 48.44
+        },
+        {
+          "w": "years",
+          "short_s": 48.44,
+          "short_e": 48.8
+        },
+        {
+          "w": "apart.",
+          "short_s": 48.8,
+          "short_e": 49.42
+        },
+        {
+          "w": "And",
+          "short_s": 50.14,
+          "short_e": 50.4
+        },
+        {
+          "w": "why",
+          "short_s": 50.4,
+          "short_e": 50.74
+        },
+        {
+          "w": "74",
+          "short_s": 50.74,
+          "short_e": 51.46
+        },
+        {
+          "w": "%",
+          "short_s": 51.46,
+          "short_e": 52.02
+        },
+        {
+          "w": "complete",
+          "short_s": 52.02,
+          "short_e": 52.52
+        },
+        {
+          "w": "was",
+          "short_s": 52.52,
+          "short_e": 53.14
+        },
+        {
+          "w": "still",
+          "short_s": 53.14,
+          "short_e": 53.44
+        },
+        {
+          "w": "too",
+          "short_s": 53.44,
+          "short_e": 53.8
+        },
+        {
+          "w": "expensive",
+          "short_s": 53.8,
+          "short_e": 54.18
+        },
+        {
+          "w": "to",
+          "short_s": 54.18,
+          "short_e": 54.5
+        },
+        {
+          "w": "finish.",
+          "short_s": 54.5,
+          "short_e": 54.92
+        }
+      ]
+    },
+    {
+      "id": "SAT-S02",
+      "title": "Pay Even If It Never Runs",
+      "source_in_sec": 203.28,
+      "source_out_sec": 249.64,
+      "duration_sec": 46.36,
+      "source_words": [
+        {
+          "w": "projects",
+          "short_s": 0.0,
+          "short_e": 0.34
+        },
+        {
+          "w": "4",
+          "short_s": 0.34,
+          "short_e": 0.88
+        },
+        {
+          "w": "and",
+          "short_s": 0.88,
+          "short_e": 1.14
+        },
+        {
+          "w": "5.",
+          "short_s": 1.14,
+          "short_e": 1.92
+        },
+        {
+          "w": "The",
+          "short_s": 2.48,
+          "short_e": 2.66
+        },
+        {
+          "w": "bonds",
+          "short_s": 2.66,
+          "short_e": 2.96
+        },
+        {
+          "w": "were",
+          "short_s": 2.96,
+          "short_e": 3.2
+        },
+        {
+          "w": "backed",
+          "short_s": 3.2,
+          "short_e": 3.48
+        },
+        {
+          "w": "by",
+          "short_s": 3.48,
+          "short_e": 3.78
+        },
+        {
+          "w": "contracts",
+          "short_s": 3.78,
+          "short_e": 4.32
+        },
+        {
+          "w": "containing",
+          "short_s": 4.32,
+          "short_e": 5.08
+        },
+        {
+          "w": "a",
+          "short_s": 5.08,
+          "short_e": 5.4
+        },
+        {
+          "w": "take",
+          "short_s": 5.4,
+          "short_e": 5.72
+        },
+        {
+          "w": "or",
+          "short_s": 5.72,
+          "short_e": 6.06
+        },
+        {
+          "w": "pay",
+          "short_s": 6.06,
+          "short_e": 6.46
+        },
+        {
+          "w": "obligation.",
+          "short_s": 6.46,
+          "short_e": 7.18
+        },
+        {
+          "w": "The",
+          "short_s": 8.12,
+          "short_e": 8.26
+        },
+        {
+          "w": "phrase",
+          "short_s": 8.26,
+          "short_e": 8.62
+        },
+        {
+          "w": "sounds",
+          "short_s": 8.62,
+          "short_e": 8.98
+        },
+        {
+          "w": "obscure.",
+          "short_s": 8.98,
+          "short_e": 9.52
+        },
+        {
+          "w": "Its",
+          "short_s": 10.06,
+          "short_e": 10.34
+        },
+        {
+          "w": "meaning",
+          "short_s": 10.34,
+          "short_e": 10.62
+        },
+        {
+          "w": "was",
+          "short_s": 10.62,
+          "short_e": 11.06
+        },
+        {
+          "w": "painfully",
+          "short_s": 11.06,
+          "short_e": 11.54
+        },
+        {
+          "w": "clear.",
+          "short_s": 11.54,
+          "short_e": 12.06
+        },
+        {
+          "w": "Participants",
+          "short_s": 12.96,
+          "short_e": 13.42
+        },
+        {
+          "w": "were",
+          "short_s": 13.42,
+          "short_e": 13.68
+        },
+        {
+          "w": "required",
+          "short_s": 13.68,
+          "short_e": 13.98
+        },
+        {
+          "w": "to",
+          "short_s": 13.98,
+          "short_e": 14.16
+        },
+        {
+          "w": "pay",
+          "short_s": 14.16,
+          "short_e": 14.34
+        },
+        {
+          "w": "their",
+          "short_s": 14.34,
+          "short_e": 14.68
+        },
+        {
+          "w": "share",
+          "short_s": 14.68,
+          "short_e": 15.12
+        },
+        {
+          "w": "whether",
+          "short_s": 15.12,
+          "short_e": 15.58
+        },
+        {
+          "w": "the",
+          "short_s": 15.58,
+          "short_e": 15.82
+        },
+        {
+          "w": "plants",
+          "short_s": 15.82,
+          "short_e": 16.04
+        },
+        {
+          "w": "were",
+          "short_s": 16.04,
+          "short_e": 16.3
+        },
+        {
+          "w": "completed,",
+          "short_s": 16.3,
+          "short_e": 16.74
+        },
+        {
+          "w": "operable,",
+          "short_s": 17.2,
+          "short_e": 17.64
+        },
+        {
+          "w": "or",
+          "short_s": 17.96,
+          "short_e": 18.18
+        },
+        {
+          "w": "operating.",
+          "short_s": 18.18,
+          "short_e": 18.64
+        },
+        {
+          "w": "When",
+          "short_s": 19.68,
+          "short_e": 19.86
+        },
+        {
+          "w": "the",
+          "short_s": 19.86,
+          "short_e": 20.04
+        },
+        {
+          "w": "projects",
+          "short_s": 20.04,
+          "short_e": 20.34
+        },
+        {
+          "w": "were",
+          "short_s": 20.34,
+          "short_e": 20.6
+        },
+        {
+          "w": "alive,",
+          "short_s": 20.6,
+          "short_e": 21.06
+        },
+        {
+          "w": "that",
+          "short_s": 21.38,
+          "short_e": 21.56
+        },
+        {
+          "w": "promise",
+          "short_s": 21.56,
+          "short_e": 21.9
+        },
+        {
+          "w": "helped",
+          "short_s": 21.9,
+          "short_e": 22.26
+        },
+        {
+          "w": "make",
+          "short_s": 22.26,
+          "short_e": 22.52
+        },
+        {
+          "w": "their",
+          "short_s": 22.52,
+          "short_e": 22.82
+        },
+        {
+          "w": "bonds",
+          "short_s": 22.82,
+          "short_e": 23.22
+        },
+        {
+          "w": "marketable.",
+          "short_s": 23.22,
+          "short_e": 24.26
+        },
+        {
+          "w": "Once",
+          "short_s": 24.98,
+          "short_e": 25.24
+        },
+        {
+          "w": "construction",
+          "short_s": 25.24,
+          "short_e": 25.76
+        },
+        {
+          "w": "ended,",
+          "short_s": 25.76,
+          "short_e": 26.3
+        },
+        {
+          "w": "it",
+          "short_s": 26.74,
+          "short_e": 26.78
+        },
+        {
+          "w": "meant",
+          "short_s": 26.78,
+          "short_e": 27.02
+        },
+        {
+          "w": "utilities",
+          "short_s": 27.02,
+          "short_e": 27.5
+        },
+        {
+          "w": "could",
+          "short_s": 27.5,
+          "short_e": 27.9
+        },
+        {
+          "w": "still",
+          "short_s": 27.9,
+          "short_e": 28.2
+        },
+        {
+          "w": "face",
+          "short_s": 28.2,
+          "short_e": 28.42
+        },
+        {
+          "w": "the",
+          "short_s": 28.42,
+          "short_e": 28.64
+        },
+        {
+          "w": "cost",
+          "short_s": 28.64,
+          "short_e": 28.82
+        },
+        {
+          "w": "of",
+          "short_s": 28.82,
+          "short_e": 29.04
+        },
+        {
+          "w": "plants",
+          "short_s": 29.04,
+          "short_e": 29.48
+        },
+        {
+          "w": "that",
+          "short_s": 29.48,
+          "short_e": 29.96
+        },
+        {
+          "w": "would",
+          "short_s": 29.96,
+          "short_e": 30.16
+        },
+        {
+          "w": "never",
+          "short_s": 30.16,
+          "short_e": 30.48
+        },
+        {
+          "w": "deliver",
+          "short_s": 30.48,
+          "short_e": 30.86
+        },
+        {
+          "w": "power.",
+          "short_s": 30.86,
+          "short_e": 31.5
+        },
+        {
+          "w": "GAO",
+          "short_s": 32.5,
+          "short_e": 33.0
+        },
+        {
+          "w": "reported",
+          "short_s": 33.0,
+          "short_e": 33.48
+        },
+        {
+          "w": "that",
+          "short_s": 33.48,
+          "short_e": 34.0
+        },
+        {
+          "w": "rate",
+          "short_s": 34.0,
+          "short_e": 34.24
+        },
+        {
+          "w": "increases",
+          "short_s": 34.24,
+          "short_e": 34.7
+        },
+        {
+          "w": "would",
+          "short_s": 34.7,
+          "short_e": 35.02
+        },
+        {
+          "w": "be",
+          "short_s": 35.02,
+          "short_e": 35.2
+        },
+        {
+          "w": "required",
+          "short_s": 35.2,
+          "short_e": 35.6
+        },
+        {
+          "w": "to",
+          "short_s": 35.6,
+          "short_e": 36.1
+        },
+        {
+          "w": "service",
+          "short_s": 36.1,
+          "short_e": 36.44
+        },
+        {
+          "w": "the",
+          "short_s": 36.44,
+          "short_e": 36.68
+        },
+        {
+          "w": "debt.",
+          "short_s": 36.68,
+          "short_e": 37.22
+        },
+        {
+          "w": "Utilities",
+          "short_s": 37.94,
+          "short_e": 38.4
+        },
+        {
+          "w": "and",
+          "short_s": 38.4,
+          "short_e": 38.7
+        },
+        {
+          "w": "ratepayers",
+          "short_s": 38.7,
+          "short_e": 39.28
+        },
+        {
+          "w": "went",
+          "short_s": 39.28,
+          "short_e": 39.7
+        },
+        {
+          "w": "to",
+          "short_s": 39.7,
+          "short_e": 39.92
+        },
+        {
+          "w": "court.",
+          "short_s": 39.92,
+          "short_e": 40.28
+        },
+        {
+          "w": "The",
+          "short_s": 41.2,
+          "short_e": 41.28
+        },
+        {
+          "w": "question",
+          "short_s": 41.28,
+          "short_e": 41.64
+        },
+        {
+          "w": "was",
+          "short_s": 41.64,
+          "short_e": 41.88
+        },
+        {
+          "w": "no",
+          "short_s": 41.88,
+          "short_e": 42.1
+        },
+        {
+          "w": "longer",
+          "short_s": 42.1,
+          "short_e": 42.34
+        },
+        {
+          "w": "only",
+          "short_s": 42.34,
+          "short_e": 42.64
+        },
+        {
+          "w": "whether",
+          "short_s": 42.64,
+          "short_e": 42.88
+        },
+        {
+          "w": "the",
+          "short_s": 42.88,
+          "short_e": 43.12
+        },
+        {
+          "w": "project",
+          "short_s": 43.12,
+          "short_e": 43.44
+        },
+        {
+          "w": "should",
+          "short_s": 43.44,
+          "short_e": 43.7
+        },
+        {
+          "w": "continue,",
+          "short_s": 43.7,
+          "short_e": 44.2
+        },
+        {
+          "w": "it",
+          "short_s": 44.7,
+          "short_e": 44.88
+        },
+        {
+          "w": "was",
+          "short_s": 44.88,
+          "short_e": 45.1
+        },
+        {
+          "w": "who",
+          "short_s": 45.1,
+          "short_e": 45.5
+        },
+        {
+          "w": "would",
+          "short_s": 45.5,
+          "short_e": 45.9
+        },
+        {
+          "w": "carry",
+          "short_s": 45.9,
+          "short_e": 46.12
+        },
+        {
+          "w": "the",
+          "short_s": 46.12,
+          "short_e": 46.36
+        }
+      ]
+    },
+    {
+      "id": "SAT-S03",
+      "title": "74% Complete — Still Cancelled",
+      "source_in_sec": 807.618,
+      "source_out_sec": 855.808,
+      "duration_sec": 48.19,
+      "source_words": [
+        {
+          "w": "The",
+          "short_s": 0.43,
+          "short_e": 0.43
+        },
+        {
+          "w": "project",
+          "short_s": 0.43,
+          "short_e": 0.81
+        },
+        {
+          "w": "could",
+          "short_s": 0.81,
+          "short_e": 1.11
+        },
+        {
+          "w": "work",
+          "short_s": 1.11,
+          "short_e": 1.39
+        },
+        {
+          "w": "technically",
+          "short_s": 1.39,
+          "short_e": 1.85
+        },
+        {
+          "w": "and",
+          "short_s": 1.85,
+          "short_e": 2.73
+        },
+        {
+          "w": "still",
+          "short_s": 2.73,
+          "short_e": 3.01
+        },
+        {
+          "w": "fail",
+          "short_s": 3.01,
+          "short_e": 3.37
+        },
+        {
+          "w": "economically.",
+          "short_s": 3.37,
+          "short_e": 4.11
+        },
+        {
+          "w": "It",
+          "short_s": 5.07,
+          "short_e": 5.09
+        },
+        {
+          "w": "could",
+          "short_s": 5.09,
+          "short_e": 5.27
+        },
+        {
+          "w": "generate",
+          "short_s": 5.27,
+          "short_e": 5.69
+        },
+        {
+          "w": "every",
+          "short_s": 5.69,
+          "short_e": 6.17
+        },
+        {
+          "w": "megawatt",
+          "short_s": 6.17,
+          "short_e": 6.65
+        },
+        {
+          "w": "promised",
+          "short_s": 6.65,
+          "short_e": 7.09
+        },
+        {
+          "w": "and",
+          "short_s": 7.09,
+          "short_e": 7.73
+        },
+        {
+          "w": "create",
+          "short_s": 7.73,
+          "short_e": 8.03
+        },
+        {
+          "w": "a",
+          "short_s": 8.03,
+          "short_e": 8.21
+        },
+        {
+          "w": "financial",
+          "short_s": 8.21,
+          "short_e": 8.57
+        },
+        {
+          "w": "problem",
+          "short_s": 8.57,
+          "short_e": 9.23
+        },
+        {
+          "w": "because",
+          "short_s": 9.23,
+          "short_e": 9.79
+        },
+        {
+          "w": "too",
+          "short_s": 9.79,
+          "short_e": 10.03
+        },
+        {
+          "w": "much",
+          "short_s": 10.03,
+          "short_e": 10.25
+        },
+        {
+          "w": "capacity",
+          "short_s": 10.25,
+          "short_e": 10.79
+        },
+        {
+          "w": "arrived",
+          "short_s": 10.79,
+          "short_e": 11.69
+        },
+        {
+          "w": "at",
+          "short_s": 11.69,
+          "short_e": 12.01
+        },
+        {
+          "w": "once.",
+          "short_s": 12.01,
+          "short_e": 12.39
+        },
+        {
+          "w": "That",
+          "short_s": 13.21,
+          "short_e": 13.31
+        },
+        {
+          "w": "is",
+          "short_s": 13.31,
+          "short_e": 13.55
+        },
+        {
+          "w": "what",
+          "short_s": 13.55,
+          "short_e": 13.73
+        },
+        {
+          "w": "the",
+          "short_s": 13.73,
+          "short_e": 13.91
+        },
+        {
+          "w": "cooling",
+          "short_s": 13.91,
+          "short_e": 14.27
+        },
+        {
+          "w": "towers",
+          "short_s": 14.27,
+          "short_e": 14.75
+        },
+        {
+          "w": "conceal.",
+          "short_s": 14.75,
+          "short_e": 15.43
+        },
+        {
+          "w": "Mega",
+          "short_s": 16.35,
+          "short_e": 16.53
+        },
+        {
+          "w": "projects",
+          "short_s": 16.53,
+          "short_e": 17.07
+        },
+        {
+          "w": "are",
+          "short_s": 17.07,
+          "short_e": 17.57
+        },
+        {
+          "w": "usually",
+          "short_s": 17.57,
+          "short_e": 17.87
+        },
+        {
+          "w": "judged",
+          "short_s": 17.87,
+          "short_e": 18.31
+        },
+        {
+          "w": "by",
+          "short_s": 18.31,
+          "short_e": 18.67
+        },
+        {
+          "w": "whether",
+          "short_s": 18.67,
+          "short_e": 18.91
+        },
+        {
+          "w": "engineers",
+          "short_s": 18.91,
+          "short_e": 19.39
+        },
+        {
+          "w": "can",
+          "short_s": 19.39,
+          "short_e": 19.83
+        },
+        {
+          "w": "finish",
+          "short_s": 19.83,
+          "short_e": 20.09
+        },
+        {
+          "w": "them.",
+          "short_s": 20.09,
+          "short_e": 20.53
+        },
+        {
+          "w": "Project",
+          "short_s": 20.53,
+          "short_e": 21.45
+        },
+        {
+          "w": "3",
+          "short_s": 21.45,
+          "short_e": 21.97
+        },
+        {
+          "w": "also",
+          "short_s": 21.97,
+          "short_e": 22.49
+        },
+        {
+          "w": "had",
+          "short_s": 22.49,
+          "short_e": 22.75
+        },
+        {
+          "w": "to",
+          "short_s": 22.75,
+          "short_e": 22.89
+        },
+        {
+          "w": "survive",
+          "short_s": 22.89,
+          "short_e": 23.33
+        },
+        {
+          "w": "a",
+          "short_s": 23.33,
+          "short_e": 23.69
+        },
+        {
+          "w": "second",
+          "short_s": 23.69,
+          "short_e": 23.99
+        },
+        {
+          "w": "test",
+          "short_s": 23.99,
+          "short_e": 24.49
+        },
+        {
+          "w": "whether",
+          "short_s": 24.49,
+          "short_e": 25.37
+        },
+        {
+          "w": "the",
+          "short_s": 25.37,
+          "short_e": 25.65
+        },
+        {
+          "w": "system",
+          "short_s": 25.65,
+          "short_e": 25.95
+        },
+        {
+          "w": "around",
+          "short_s": 25.95,
+          "short_e": 26.37
+        },
+        {
+          "w": "it",
+          "short_s": 26.37,
+          "short_e": 26.81
+        },
+        {
+          "w": "could",
+          "short_s": 26.81,
+          "short_e": 27.05
+        },
+        {
+          "w": "use",
+          "short_s": 27.05,
+          "short_e": 27.47
+        },
+        {
+          "w": "and",
+          "short_s": 27.47,
+          "short_e": 27.71
+        },
+        {
+          "w": "pay",
+          "short_s": 27.71,
+          "short_e": 28.03
+        },
+        {
+          "w": "for",
+          "short_s": 28.03,
+          "short_e": 28.19
+        },
+        {
+          "w": "what",
+          "short_s": 28.19,
+          "short_e": 28.39
+        },
+        {
+          "w": "it",
+          "short_s": 28.39,
+          "short_e": 28.55
+        },
+        {
+          "w": "produced.",
+          "short_s": 28.55,
+          "short_e": 29.07
+        },
+        {
+          "w": "This",
+          "short_s": 29.97,
+          "short_e": 29.97
+        },
+        {
+          "w": "was",
+          "short_s": 29.97,
+          "short_e": 30.19
+        },
+        {
+          "w": "the",
+          "short_s": 30.19,
+          "short_e": 30.41
+        },
+        {
+          "w": "answer",
+          "short_s": 30.41,
+          "short_e": 30.83
+        },
+        {
+          "w": "hidden",
+          "short_s": 30.83,
+          "short_e": 31.43
+        },
+        {
+          "w": "behind",
+          "short_s": 31.43,
+          "short_e": 31.79
+        },
+        {
+          "w": "the",
+          "short_s": 31.79,
+          "short_e": 32.07
+        },
+        {
+          "w": "74",
+          "short_s": 32.07,
+          "short_e": 32.51
+        },
+        {
+          "w": "%",
+          "short_s": 32.51,
+          "short_e": 33.15
+        },
+        {
+          "w": "number.",
+          "short_s": 33.15,
+          "short_e": 33.77
+        },
+        {
+          "w": "The",
+          "short_s": 34.57,
+          "short_e": 34.67
+        },
+        {
+          "w": "project",
+          "short_s": 34.67,
+          "short_e": 35.11
+        },
+        {
+          "w": "was",
+          "short_s": 35.11,
+          "short_e": 35.35
+        },
+        {
+          "w": "mostly",
+          "short_s": 35.35,
+          "short_e": 35.73
+        },
+        {
+          "w": "built.",
+          "short_s": 35.73,
+          "short_e": 36.27
+        },
+        {
+          "w": "The",
+          "short_s": 36.93,
+          "short_e": 37.07
+        },
+        {
+          "w": "region",
+          "short_s": 37.07,
+          "short_e": 37.45
+        },
+        {
+          "w": "did",
+          "short_s": 37.45,
+          "short_e": 37.93
+        },
+        {
+          "w": "not",
+          "short_s": 37.93,
+          "short_e": 38.17
+        },
+        {
+          "w": "need",
+          "short_s": 38.17,
+          "short_e": 38.63
+        },
+        {
+          "w": "all",
+          "short_s": 38.63,
+          "short_e": 38.99
+        },
+        {
+          "w": "of",
+          "short_s": 38.99,
+          "short_e": 39.11
+        },
+        {
+          "w": "its",
+          "short_s": 39.11,
+          "short_e": 39.27
+        },
+        {
+          "w": "power.",
+          "short_s": 39.27,
+          "short_e": 39.93
+        },
+        {
+          "w": "And",
+          "short_s": 40.53,
+          "short_e": 40.63
+        },
+        {
+          "w": "finishing",
+          "short_s": 40.63,
+          "short_e": 40.95
+        },
+        {
+          "w": "it",
+          "short_s": 40.95,
+          "short_e": 41.39
+        },
+        {
+          "w": "would",
+          "short_s": 41.39,
+          "short_e": 41.73
+        },
+        {
+          "w": "concentrate",
+          "short_s": 41.73,
+          "short_e": 42.19
+        },
+        {
+          "w": "far",
+          "short_s": 42.19,
+          "short_e": 42.59
+        },
+        {
+          "w": "more",
+          "short_s": 42.59,
+          "short_e": 42.81
+        },
+        {
+          "w": "capital",
+          "short_s": 42.81,
+          "short_e": 43.17
+        },
+        {
+          "w": "in",
+          "short_s": 43.17,
+          "short_e": 43.37
+        },
+        {
+          "w": "one",
+          "short_s": 43.37,
+          "short_e": 43.53
+        },
+        {
+          "w": "decision",
+          "short_s": 43.53,
+          "short_e": 43.93
+        },
+        {
+          "w": "than",
+          "short_s": 43.93,
+          "short_e": 44.55
+        },
+        {
+          "w": "the",
+          "short_s": 44.55,
+          "short_e": 44.67
+        },
+        {
+          "w": "alternative.",
+          "short_s": 44.67,
+          "short_e": 45.21
+        },
+        {
+          "w": "Project",
+          "short_s": 46.07,
+          "short_e": 46.53
+        },
+        {
+          "w": "3",
+          "short_s": 46.53,
+          "short_e": 47.21
+        },
+        {
+          "w": "still",
+          "short_s": 47.21,
+          "short_e": 47.67
+        },
+        {
+          "w": "had",
+          "short_s": 47.67,
+          "short_e": 47.95
+        },
+        {
+          "w": "real",
+          "short_s": 47.95,
+          "short_e": 48.19
+        }
+      ]
+    },
+    {
+      "id": "SAT-S04",
+      "title": "The Nuclear Plant That Found Another Job",
+      "source_in_sec": 1039.568,
+      "source_out_sec": 1095.811,
+      "duration_sec": 56.243,
+      "source_words": [
+        {
+          "w": "fiscal",
+          "short_s": 0.0,
+          "short_e": 0.42
+        },
+        {
+          "w": "year",
+          "short_s": 0.42,
+          "short_e": 0.8
+        },
+        {
+          "w": "2000.",
+          "short_s": 0.8,
+          "short_e": 1.74
+        },
+        {
+          "w": "The",
+          "short_s": 2.52,
+          "short_e": 2.6
+        },
+        {
+          "w": "nuclear",
+          "short_s": 2.6,
+          "short_e": 2.88
+        },
+        {
+          "w": "investment",
+          "short_s": 2.88,
+          "short_e": 3.46
+        },
+        {
+          "w": "could",
+          "short_s": 3.46,
+          "short_e": 4.0
+        },
+        {
+          "w": "not",
+          "short_s": 4.0,
+          "short_e": 4.2
+        },
+        {
+          "w": "be",
+          "short_s": 4.2,
+          "short_e": 4.38
+        },
+        {
+          "w": "recovered",
+          "short_s": 4.38,
+          "short_e": 4.7
+        },
+        {
+          "w": "by",
+          "short_s": 4.7,
+          "short_e": 5.02
+        },
+        {
+          "w": "pretending",
+          "short_s": 5.02,
+          "short_e": 5.42
+        },
+        {
+          "w": "the",
+          "short_s": 5.42,
+          "short_e": 6.02
+        },
+        {
+          "w": "reactor",
+          "short_s": 6.02,
+          "short_e": 6.36
+        },
+        {
+          "w": "still",
+          "short_s": 6.36,
+          "short_e": 6.72
+        },
+        {
+          "w": "made",
+          "short_s": 6.72,
+          "short_e": 6.96
+        },
+        {
+          "w": "sense.",
+          "short_s": 6.96,
+          "short_e": 7.44
+        },
+        {
+          "w": "But",
+          "short_s": 8.14,
+          "short_e": 8.3
+        },
+        {
+          "w": "parts",
+          "short_s": 8.3,
+          "short_e": 8.66
+        },
+        {
+          "w": "of",
+          "short_s": 8.66,
+          "short_e": 8.84
+        },
+        {
+          "w": "the",
+          "short_s": 8.84,
+          "short_e": 8.98
+        },
+        {
+          "w": "industrial",
+          "short_s": 8.98,
+          "short_e": 9.4
+        },
+        {
+          "w": "site",
+          "short_s": 9.4,
+          "short_e": 9.98
+        },
+        {
+          "w": "had",
+          "short_s": 9.98,
+          "short_e": 10.42
+        },
+        {
+          "w": "value",
+          "short_s": 10.42,
+          "short_e": 10.74
+        },
+        {
+          "w": "outside",
+          "short_s": 10.74,
+          "short_e": 11.5
+        },
+        {
+          "w": "the",
+          "short_s": 11.5,
+          "short_e": 11.76
+        },
+        {
+          "w": "original",
+          "short_s": 11.76,
+          "short_e": 12.12
+        },
+        {
+          "w": "plan.",
+          "short_s": 12.12,
+          "short_e": 12.66
+        },
+        {
+          "w": "roads,",
+          "short_s": 12.723,
+          "short_e": 13.183
+        },
+        {
+          "w": "large",
+          "short_s": 13.723,
+          "short_e": 14.023
+        },
+        {
+          "w": "buildings,",
+          "short_s": 14.023,
+          "short_e": 14.483
+        },
+        {
+          "w": "electrical",
+          "short_s": 15.363,
+          "short_e": 15.703
+        },
+        {
+          "w": "connections,",
+          "short_s": 15.703,
+          "short_e": 16.263
+        },
+        {
+          "w": "water",
+          "short_s": 17.303,
+          "short_e": 17.543
+        },
+        {
+          "w": "and",
+          "short_s": 17.543,
+          "short_e": 17.843
+        },
+        {
+          "w": "wastewater",
+          "short_s": 17.843,
+          "short_e": 18.163
+        },
+        {
+          "w": "systems,",
+          "short_s": 18.163,
+          "short_e": 18.923
+        },
+        {
+          "w": "transmission",
+          "short_s": 19.663,
+          "short_e": 19.983
+        },
+        {
+          "w": "access,",
+          "short_s": 19.983,
+          "short_e": 20.663
+        },
+        {
+          "w": "fiber,",
+          "short_s": 21.323,
+          "short_e": 21.683
+        },
+        {
+          "w": "developed",
+          "short_s": 22.443,
+          "short_e": 22.783
+        },
+        {
+          "w": "land.",
+          "short_s": 22.783,
+          "short_e": 23.363
+        },
+        {
+          "w": "Those",
+          "short_s": 23.983,
+          "short_e": 24.223
+        },
+        {
+          "w": "assets",
+          "short_s": 24.223,
+          "short_e": 24.643
+        },
+        {
+          "w": "had",
+          "short_s": 24.643,
+          "short_e": 24.963
+        },
+        {
+          "w": "been",
+          "short_s": 24.963,
+          "short_e": 25.063
+        },
+        {
+          "w": "assembled",
+          "short_s": 25.063,
+          "short_e": 25.463
+        },
+        {
+          "w": "for",
+          "short_s": 25.463,
+          "short_e": 25.743
+        },
+        {
+          "w": "a",
+          "short_s": 25.743,
+          "short_e": 25.903
+        },
+        {
+          "w": "nuclear",
+          "short_s": 25.903,
+          "short_e": 26.123
+        },
+        {
+          "w": "station,",
+          "short_s": 26.123,
+          "short_e": 26.803
+        },
+        {
+          "w": "but",
+          "short_s": 27.383,
+          "short_e": 27.543
+        },
+        {
+          "w": "many",
+          "short_s": 27.543,
+          "short_e": 27.763
+        },
+        {
+          "w": "were",
+          "short_s": 27.763,
+          "short_e": 27.923
+        },
+        {
+          "w": "not",
+          "short_s": 27.923,
+          "short_e": 28.243
+        },
+        {
+          "w": "inherently",
+          "short_s": 28.243,
+          "short_e": 28.703
+        },
+        {
+          "w": "nuclear.",
+          "short_s": 28.703,
+          "short_e": 29.323
+        },
+        {
+          "w": "A",
+          "short_s": 30.063,
+          "short_e": 30.223
+        },
+        {
+          "w": "heavy",
+          "short_s": 30.223,
+          "short_e": 30.463
+        },
+        {
+          "w": "industrial",
+          "short_s": 30.463,
+          "short_e": 30.923
+        },
+        {
+          "w": "building",
+          "short_s": 30.923,
+          "short_e": 31.603
+        },
+        {
+          "w": "can",
+          "short_s": 31.603,
+          "short_e": 32.043
+        },
+        {
+          "w": "house",
+          "short_s": 32.043,
+          "short_e": 32.363
+        },
+        {
+          "w": "manufacturing.",
+          "short_s": 32.363,
+          "short_e": 33.043
+        },
+        {
+          "w": "A",
+          "short_s": 33.843,
+          "short_e": 34.023
+        },
+        {
+          "w": "tunnel",
+          "short_s": 34.023,
+          "short_e": 34.383
+        },
+        {
+          "w": "can",
+          "short_s": 34.383,
+          "short_e": 34.823
+        },
+        {
+          "w": "become",
+          "short_s": 34.823,
+          "short_e": 35.063
+        },
+        {
+          "w": "a",
+          "short_s": 35.063,
+          "short_e": 35.323
+        },
+        {
+          "w": "controlled",
+          "short_s": 35.323,
+          "short_e": 35.763
+        },
+        {
+          "w": "training",
+          "short_s": 35.763,
+          "short_e": 36.163
+        },
+        {
+          "w": "environment.",
+          "short_s": 36.163,
+          "short_e": 36.843
+        },
+        {
+          "w": "Electrical",
+          "short_s": 36.843,
+          "short_e": 38.143
+        },
+        {
+          "w": "and",
+          "short_s": 38.143,
+          "short_e": 38.343
+        },
+        {
+          "w": "water",
+          "short_s": 38.343,
+          "short_e": 38.603
+        },
+        {
+          "w": "capacity",
+          "short_s": 38.603,
+          "short_e": 39.203
+        },
+        {
+          "w": "can",
+          "short_s": 39.203,
+          "short_e": 39.743
+        },
+        {
+          "w": "attract",
+          "short_s": 39.743,
+          "short_e": 40.103
+        },
+        {
+          "w": "tenants",
+          "short_s": 40.103,
+          "short_e": 40.623
+        },
+        {
+          "w": "that",
+          "short_s": 40.623,
+          "short_e": 41.203
+        },
+        {
+          "w": "could",
+          "short_s": 41.203,
+          "short_e": 41.383
+        },
+        {
+          "w": "never",
+          "short_s": 41.383,
+          "short_e": 41.643
+        },
+        {
+          "w": "justify",
+          "short_s": 41.643,
+          "short_e": 42.223
+        },
+        {
+          "w": "building",
+          "short_s": 42.223,
+          "short_e": 42.643
+        },
+        {
+          "w": "the",
+          "short_s": 42.643,
+          "short_e": 42.963
+        },
+        {
+          "w": "same",
+          "short_s": 42.963,
+          "short_e": 43.243
+        },
+        {
+          "w": "infrastructure",
+          "short_s": 43.243,
+          "short_e": 43.783
+        },
+        {
+          "w": "from",
+          "short_s": 43.783,
+          "short_e": 44.183
+        },
+        {
+          "w": "scratch.",
+          "short_s": 44.183,
+          "short_e": 44.723
+        },
+        {
+          "w": "Today",
+          "short_s": 45.543,
+          "short_e": 45.823
+        },
+        {
+          "w": "the",
+          "short_s": 45.823,
+          "short_e": 46.103
+        },
+        {
+          "w": "site",
+          "short_s": 46.103,
+          "short_e": 46.383
+        },
+        {
+          "w": "operates",
+          "short_s": 46.383,
+          "short_e": 46.863
+        },
+        {
+          "w": "as",
+          "short_s": 46.863,
+          "short_e": 47.403
+        },
+        {
+          "w": "a",
+          "short_s": 47.403,
+          "short_e": 47.543
+        },
+        {
+          "w": "community",
+          "short_s": 47.543,
+          "short_e": 47.883
+        },
+        {
+          "w": "owned",
+          "short_s": 47.883,
+          "short_e": 48.383
+        },
+        {
+          "w": "business",
+          "short_s": 48.383,
+          "short_e": 48.763
+        },
+        {
+          "w": "park.",
+          "short_s": 48.763,
+          "short_e": 49.263
+        },
+        {
+          "w": "The",
+          "short_s": 49.863,
+          "short_e": 50.023
+        },
+        {
+          "w": "former",
+          "short_s": 50.023,
+          "short_e": 50.323
+        },
+        {
+          "w": "turbine",
+          "short_s": 50.323,
+          "short_e": 50.703
+        },
+        {
+          "w": "building",
+          "short_s": 50.703,
+          "short_e": 51.263
+        },
+        {
+          "w": "offers",
+          "short_s": 51.263,
+          "short_e": 51.763
+        },
+        {
+          "w": "roughly",
+          "short_s": 51.763,
+          "short_e": 52.223
+        },
+        {
+          "w": "300",
+          "short_s": 52.223,
+          "short_e": 52.803
+        },
+        {
+          "w": ",000",
+          "short_s": 52.803,
+          "short_e": 53.443
+        },
+        {
+          "w": "square",
+          "short_s": 53.443,
+          "short_e": 53.843
+        },
+        {
+          "w": "feet",
+          "short_s": 53.843,
+          "short_e": 54.243
+        },
+        {
+          "w": "of",
+          "short_s": 54.243,
+          "short_e": 54.603
+        },
+        {
+          "w": "industrial",
+          "short_s": 54.603,
+          "short_e": 55.003
+        },
+        {
+          "w": "space.",
+          "short_s": 55.003,
+          "short_e": 55.823
+        }
+      ]
+    }
+  ]
+}

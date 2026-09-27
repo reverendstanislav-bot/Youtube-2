@@ -1,0 +1,90 @@
+ИНСТРУКЦИЯ ПО ЗАГРУЗКЕ ЧЕТЫРЁХ SATSOP SHORTS
+==================================================
+
+Все четыре ролика уже имеют вертикальный формат 1080×1920, английские вшитые субтитры и финальную HIA-заставку.
+Музыку, дополнительные субтитры, фильтры и новую обложку добавлять не нужно.
+
+Для каждого ролика:
+1. В YouTube Studio нажмите «Создать» → «Добавить видео».
+2. Выберите соответствующий MP4.
+3. Скопируйте указанное ниже название в поле «Название».
+4. Скопируйте указанный блок в поле «Описание».
+5. Укажите: язык — английский; для детей — нет; изменённый/синтетический контент — да.
+6. Сначала загрузите с доступом «Ограниченный» или «По ссылке» и дождитесь обработки HD.
+7. После проверки опубликуйте или назначьте время публикации.
+
+
+SHORT 1
+==================================================
+
+Файл:
+SAT-S01 - TWO TOWERS TWO FAILURES.mp4
+
+Название:
+Two Nuclear Towers. Two Different Failures. #Shorts
+
+Описание:
+Two unfinished cooling towers at Satsop look like a matched pair. They were actually tied to two nuclear projects that failed twelve years apart—and neither ever produced commercial electricity.
+
+Watch the full documentary on Hidden Industrial America.
+
+#HiddenIndustrialAmerica #Satsop #NuclearHistory #Shorts
+
+
+SHORT 2
+==================================================
+
+Файл:
+SAT-S02 - PAY EVEN IF IT NEVER RUNS.mp4
+
+Название:
+They Had to Pay Even If the Nuclear Plant Never Ran #Shorts
+
+Описание:
+The take-or-pay contracts behind Washington Nuclear Projects 4 and 5 required participants to pay their share whether the plants were completed, operable, or operating.
+
+Watch the full documentary on Hidden Industrial America.
+
+#HiddenIndustrialAmerica #NuclearHistory #Megaprojects #Shorts
+
+
+SHORT 3
+==================================================
+
+Файл:
+SAT-S03 - 74 PERCENT COMPLETE.mp4
+
+Название:
+74% Complete—Still Too Expensive to Finish #Shorts
+
+Описание:
+Washington Nuclear Project 3 was 74% physically complete. But the region did not need all of its power, and finishing it would put far more capital at risk than the alternative.
+
+Watch the full documentary on Hidden Industrial America.
+
+#HiddenIndustrialAmerica #Satsop #NuclearPower #Shorts
+
+
+SHORT 4
+==================================================
+
+Файл:
+SAT-S04 - THE SITE FOUND ANOTHER JOB.mp4
+
+Название:
+The Nuclear Plant That Found Another Job #Shorts
+
+Описание:
+Satsop never became an operating nuclear plant. Its roads, utilities, industrial buildings, tunnels, and developed land later became part of a community-owned business park.
+
+Watch the full documentary on Hidden Industrial America.
+
+#HiddenIndustrialAmerica #IndustrialHistory #Satsop #Shorts
+
+
+ПОРЯДОК ПУБЛИКАЦИИ
+==================================================
+
+Рекомендуемый порядок: Short 1 → Short 2 → Short 3 → Short 4.
+Не публикуйте все четыре одновременно. Между публикациями оставляйте отдельные временные окна.
+После публикации полного документального фильма можно добавить его ссылку в описание и закреплённый комментарий каждого Short.
