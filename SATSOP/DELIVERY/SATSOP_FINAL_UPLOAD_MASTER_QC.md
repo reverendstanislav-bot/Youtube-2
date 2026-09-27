@@ -2,19 +2,18 @@
 
 Date: 2026-09-27
 
-Status: **SUPERSEDED — DO NOT UPLOAD**
-
-This technically valid file was rejected for uniform motion direction. It has been renamed `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`. See `REMOTION_V1/REVIEW_QC/MOTION_REVIEW_V2_QC.md` for the replacement review cut.
+Status: **FINAL UPLOAD MASTER — QC PASS**
 
 ## Master
 
-- File: `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`
-- Size: **1,034,217,533 bytes**
-- SHA-256: `d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166`
-- Source-to-delivery binary hash match: **PASS**
-- Duration: **1,163.989333 seconds**
+- File: `SATSOP_FINAL_UPLOAD_MASTER.mp4`
+- Source: `REMOTION_V1/out/SATSOP_MOTION_REVIEW_V4_CAPTIONS_HIA.mp4`
+- Source-to-delivery size and SHA-256 match: **PASS**
+- Size: **1,098,111,448 bytes**
+- SHA-256: `83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906`
+- Duration: **1,183.989333 seconds / 00:19:43.989**
 - Container: MP4
-- Overall bitrate: **7,108,089 bps**
+- Overall bitrate: **7,419,738 bps**
 
 ## Video
 
@@ -22,34 +21,39 @@ This technically valid file was rejected for uniform motion direction. It has be
 - Resolution: **1920 × 1080**
 - Frame rate: **30/1 constant**
 - Pixel format: `yuvj420p`
-- Frame count: **34,918**
-- Video bitrate: **6,782,686 bps**
+- Frame count: **35,518**
+- Video bitrate: **7,099,190 bps**
 - Full decode: **PASS**
-- Black frames of 0.20 seconds or longer: **0**
-- Frozen intervals of 2 seconds or longer at −50 dB threshold: **0**
+- Abnormal packet durations: **0**
+- Abnormal PTS steps: **0**
+- Black intervals ≥0.20 seconds: **0**
+- Freeze detections: intentional hold treatments and static HIA end screen only
 
 ## Audio
 
-- Audio streams: **1**
-- Content: locked narration only
-- Music streams/tracks: **0**
+- Approved narration preserved from V3: **55,501 / 55,501 packet hashes identical**
+- New TTS jobs: **0**
+- Generation spend: **0 credits**
+- Music: **none**
 - Codec/profile: AAC-LC
 - Sample rate: **48,000 Hz**
 - Channels: **2 / stereo**
-- Audio bitrate: **317,375 bps**
-- Integrated loudness: **−14.70 LUFS**
-- Loudness range: **2.90 LU**
-- True peak: **−3.32 dBTP**
-- Silence intervals of 2 seconds or longer below −50 dB: **0**
-- Additional loudness normalization: **not required**
+- Integrated loudness: **−14.7 LUFS**
+- Loudness range: **3.0 LU**
+- True peak: **−3.3 dBTP**
+- HIA end-screen audio: silence
 
 ## Editorial validation
 
 - Visual beat coverage: **109 / 109**
 - Editorial cards: **33 PASS / 0 FAIL**
 - Subtitle cues: **464**
-- Subtitle coverage: **00:00.000–19:24.031**
+- Zero-duration subtitle cues: **0**
+- Subtitle overlaps: **0**
 - Subtitle gaps longer than 1.5 seconds: **0**
-- Card/subtitle collisions: **0**
-- Text clipping: **0**
-- Full directorial contact-sheet review: **PASS**
+- Corrected subtitle regions visually reviewed: **16 / 16 PASS**
+- HIA end-screen seam and layout: **PASS**
+- `AI RECONSTRUCTION` badge: **absent**
+- Detailed correction report: `../REMOTION_V1/REVIEW_QC/EXTENSIVE_QC_V4.md`
+
+This is the canonical upload master for the Satsop episode.

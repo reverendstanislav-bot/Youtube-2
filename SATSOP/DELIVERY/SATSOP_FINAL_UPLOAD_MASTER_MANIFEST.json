@@ -1,39 +1,48 @@
 {
-  "status": "SUPERSEDED_DO_NOT_UPLOAD",
+  "status": "FINAL_UPLOAD_MASTER_QC_PASS",
   "picture_lock_date": "2026-09-27",
-  "filename": "SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4",
-  "size_bytes": 1034217533,
-  "sha256": "d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166",
-  "duration_seconds": 1163.989333,
+  "filename": "SATSOP_FINAL_UPLOAD_MASTER.mp4",
+  "source_candidate": "REMOTION_V1/out/SATSOP_MOTION_REVIEW_V4_CAPTIONS_HIA.mp4",
+  "size_bytes": 1098111448,
+  "sha256": "83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906",
+  "duration_seconds": 1183.989333,
   "video": {
     "codec": "h264",
     "profile": "High",
     "width": 1920,
     "height": 1080,
     "fps": "30/1",
-    "frames": 34918,
+    "frames": 35518,
     "pixel_format": "yuvj420p",
+    "duration_seconds": 1183.933333,
+    "bit_rate": 7099190,
     "decode_qc": "PASS",
-    "black_intervals": 0,
-    "freeze_intervals": 0
+    "abnormal_packet_durations": 0,
+    "abnormal_pts_steps": 0,
+    "black_intervals": 0
   },
   "audio": {
-    "policy": "VOICEOVER_ONLY_NO_MUSIC",
+    "policy": "APPROVED_VOICEOVER_ONLY_NO_MUSIC",
+    "new_tts_jobs": 0,
     "streams": 1,
     "codec": "aac",
     "profile": "LC",
     "sample_rate_hz": 48000,
     "channels": 2,
-    "integrated_lufs": -14.70,
-    "true_peak_dbtp": -3.32,
-    "loudness_range_lu": 2.90,
-    "silence_intervals_over_2s": 0
+    "packets": 55501,
+    "packet_hash_differences_from_approved_v3": 0,
+    "integrated_lufs": -14.7,
+    "true_peak_dbtp": -3.3,
+    "loudness_range_lu": 3.0
   },
   "editorial": {
     "visual_beats": 109,
     "editorial_cards": 33,
     "subtitle_cues": 464,
+    "zero_duration_subtitle_cues": 0,
+    "subtitle_overlaps": 0,
     "subtitle_gaps_over_1_5s": 0,
+    "hia_end_screen_seconds": 20,
     "ai_reconstruction_badge": false
   }
 }

@@ -395,3 +395,17 @@ Canonical files:
 - SHA-256: `83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906`;
 - detailed report: `REMOTION_V1/REVIEW_QC/EXTENSIVE_QC_V4.md`;
 - current gate: user picture-lock review; V4 is not yet an upload master.
+
+### Final delivery lock
+
+- user approved transfer to delivery on **2026-09-27**;
+- picture status: **LOCKED**;
+- delivery status: **FINAL UPLOAD MASTER — QC PASS**;
+- canonical master: `DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4`;
+- source-to-delivery size and SHA-256 match: **PASS**;
+- size: **1,098,111,448 bytes**;
+- duration: **00:19:43.989**;
+- SHA-256: `83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906`;
+- approved narration preserved bit-for-bit; new TTS jobs: **0**;
+- music: **none**;
+- upload the canonical master above; do not upload `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`.
