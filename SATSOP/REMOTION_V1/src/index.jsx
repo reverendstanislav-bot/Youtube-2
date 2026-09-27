@@ -3,12 +3,15 @@ import {AbsoluteFill, Audio, Composition, Img, interpolate, registerRoot, static
 import timeline from '../public/timeline.json';
 import captions from '../public/captions.json';
 import overlays from '../public/overlays.json';
+import motion from '../public/motion.json';
 
 const FPS=timeline.fps;
 const TOTAL=Math.round(timeline.duration*FPS);
 const C={charcoal:'#171A1C',paper:'#FFFFFF',ivory:'#F3EBDD',orange:'#F28A3A',blue:'#708996',rust:'#A55235'};
 const CLAMP={extrapolateLeft:'clamp',extrapolateRight:'clamp'};
 const smooth=x=>{const v=Math.max(0,Math.min(1,x));return v*v*(3-2*v)};
+const motionByBeat=Object.fromEntries(motion.items.map(x=>[x.beat,x]));
+const beatIndexById=Object.fromEntries(timeline.beats.map((x,i)=>[x.beat,i]));
 
 function currentBeat(frame){
   let lo=0,hi=timeline.beats.length-1;
@@ -16,14 +19,27 @@ function currentBeat(frame){
   return timeline.beats[Math.max(0,Math.min(timeline.beats.length-1,lo))];
 }
 
-function ImageBeat({beat,frame}){
+function motionTransform(beat,frame){
   const p=smooth(interpolate(frame,[beat.a,Math.max(beat.a+1,beat.b-1)],[0,1],CLAMP));
+  const style=(motionByBeat[beat.beat]||{}).style||'hold';
+  let scale=1.035,x=0,y=0,origin='50% 50%';
+  if(style==='push')scale=1.012+0.052*p;
+  if(style==='pull')scale=1.072-0.047*p;
+  if(style==='pan_left'){scale=1.085;x=1.45-2.9*p;}
+  if(style==='pan_right'){scale=1.085;x=-1.45+2.9*p;}
+  if(style==='tilt_up'){scale=1.075;y=1.35-2.7*p;}
+  if(style==='tilt_down'){scale=1.075;y=-1.35+2.7*p;}
+  if(style==='push_left'){scale=1.018+0.055*p;origin='30% 50%';x=.45-.45*p;}
+  if(style==='push_right'){scale=1.018+0.055*p;origin='70% 50%';x=-.45+.45*p;}
+  if(style==='hold_then_push'){const q=smooth(interpolate(p,[.38,1],[0,1],CLAMP));scale=1.025+0.042*q;}
+  return {style,transform:`translate(${x}%,${y}%) scale(${scale})`,origin};
+}
+
+function ImageBeat({beat,frame,opacity=1}){
   const isGfx=beat.kind==='gfx';
-  const scale=isGfx?1:1.025+0.035*p;
-  const x=isGfx?0:beat.direction*interpolate(p,[0,1],[-0.55,0.55]);
-  const fade=Math.min(interpolate(frame,[beat.a,beat.a+6],[0,1],CLAMP),interpolate(frame,[beat.b-6,beat.b],[1,0],CLAMP));
-  return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden',opacity:fade}}>
-    <Img src={staticFile(beat.file)} style={{width:'100%',height:isGfx?'900px':'100%',objectFit:isGfx?'contain':'cover',objectPosition:beat.objectPosition||'center top',transform:`translateX(${x}%) scale(${scale})`,transformOrigin:'50% 50%'}}/>
+  const m=motionTransform(beat,frame);
+  return <AbsoluteFill style={{background:C.charcoal,overflow:'hidden',opacity}}>
+    <Img src={staticFile(beat.file)} style={{width:'100%',height:isGfx?'900px':'100%',objectFit:isGfx?'contain':'cover',objectPosition:beat.objectPosition||'center top',transform:isGfx?'none':m.transform,transformOrigin:m.origin}}/>
     {isGfx&&<div style={{position:'absolute',left:0,right:0,bottom:0,height:180,background:C.charcoal,borderTop:'1px solid rgba(243,235,221,.12)'}}/>}
     {!isGfx&&<AbsoluteFill style={{background:'linear-gradient(180deg,rgba(8,10,11,.08),rgba(8,10,11,.02) 58%,rgba(8,10,11,.48))'}}/>}
   </AbsoluteFill>;
@@ -58,6 +74,21 @@ function Caption({frame}){
   return <div style={{position:'absolute',left:150,right:150,bottom:54,zIndex:70,textAlign:'center',fontFamily:'Arial,Helvetica,sans-serif',fontWeight:850,fontSize:55,lineHeight:1.12,color:C.paper,WebkitTextStroke:'1.2px rgba(8,10,11,.95)',textShadow:'0 4px 9px rgba(0,0,0,.98),0 0 21px rgba(0,0,0,.8)'}}>{cue.words.map((w,i)=><React.Fragment key={i}><span style={{color:i===active?C.orange:C.paper}}>{w.w}</span>{i<cue.words.length-1?' ':''}</React.Fragment>)}</div>;
 }
 
+function Picture({frame,beat}){
+  const index=beatIndexById[beat.beat];
+  const spec=motionByBeat[beat.beat]||{};
+  if(index>0&&spec.transition_in==='dissolve'){
+    const frames=spec.dissolve_frames||8;
+    const p=smooth(interpolate(frame,[beat.a,beat.a+frames],[0,1],CLAMP));
+    const previous=timeline.beats[index-1];
+    return <AbsoluteFill style={{background:C.charcoal}}>
+      <ImageBeat beat={previous} frame={previous.b-1} opacity={1-p}/>
+      <ImageBeat beat={beat} frame={frame} opacity={p}/>
+    </AbsoluteFill>;
+  }
+  return <ImageBeat beat={beat} frame={frame}/>;
+}
+
 function EditorialCard({card,frame}){
   const t=frame/FPS,dur=card.e-card.s,local=t-card.s;
   const op=Math.min(interpolate(local,[0,.22],[0,1],CLAMP),interpolate(local,[Math.max(.45,dur-.30),dur],[1,0],CLAMP));
@@ -81,7 +112,7 @@ function Cards({frame}){
 function Film(){
   const frame=useCurrentFrame(),beat=currentBeat(frame);
   return <AbsoluteFill style={{background:C.charcoal}}>
-    {beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<ImageBeat beat={beat} frame={frame}/>} 
+    {beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<Picture beat={beat} frame={frame}/>}
     <Provenance beat={beat} frame={frame}/><Cards frame={frame}/><Caption frame={frame}/>
     <Audio src={staticFile('SATSOP_VO_MASTER_V1.wav')}/>
   </AbsoluteFill>;

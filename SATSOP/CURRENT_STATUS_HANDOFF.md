@@ -327,3 +327,19 @@ Canonical files:
 - size: **1,034,217,533 bytes**;
 - SHA-256: `d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166`;
 - further picture/audio changes require a new master hash and renewed delivery QC.
+
+### Lock reopened — motion revision V2
+
+- prior final-master status: **REVOKED / SUPERSEDED** after user rejected the uniform push-in montage;
+- superseded file: `DELIVERY/SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`;
+- current candidate: `REMOTION_V1/out/SATSOP_MOTION_REVIEW_V2.mp4`;
+- motion grammar: **10 styles across 109 beats**;
+- adjacent motion-style repeats: **0**;
+- transitions: **90 hard cuts / 19 true eight-frame crossfades**;
+- fade-to-black substitutions: **0**;
+- current candidate decode QC: **PASS**;
+- black intervals ≥0.20 seconds: **0**;
+- duration: **00:19:23.989**;
+- size: **925,323,209 bytes**;
+- SHA-256: `051a2886a6071226c8ca6545e22fc769ba4f8127fc55d050e6dcb8106d710733`;
+- current gate: user directorial review of V2 motion; no final/upload-master status until approval.

@@ -2,7 +2,7 @@
 
 Lock date: 2026-09-27
 
-Status: **PICTURE LOCKED**
+Status: **REOPENED — PRIOR LOCK REJECTED FOR MOTION DIRECTION**
 
 - Episode: `Hidden Industrial America — Satsop`
 - Visual beats: **109 / 109**
@@ -15,5 +15,4 @@ Status: **PICTURE LOCKED**
 - Audio content: locked narration only
 - Locked runtime: **00:19:23.989**
 
-No picture, timing, subtitle, editorial-card, or audio-content changes may be made after this lock without reopening QC and producing a new master hash.
-
+The prior lock was reopened on 2026-09-27 after the uniform push-in treatment was rejected. The locked file was renamed `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`. Current candidate: `REMOTION_V1/out/SATSOP_MOTION_REVIEW_V2.mp4`. A new picture lock requires user approval of V2.

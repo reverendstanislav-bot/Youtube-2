@@ -1,7 +1,7 @@
 {
-  "status": "FINAL_UPLOAD_MASTER_QC_PASS",
+  "status": "SUPERSEDED_DO_NOT_UPLOAD",
   "picture_lock_date": "2026-09-27",
-  "filename": "SATSOP_FINAL_UPLOAD_MASTER.mp4",
+  "filename": "SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4",
   "size_bytes": 1034217533,
   "sha256": "d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166",
   "duration_seconds": 1163.989333,
@@ -37,4 +37,3 @@
     "ai_reconstruction_badge": false
   }
 }
-

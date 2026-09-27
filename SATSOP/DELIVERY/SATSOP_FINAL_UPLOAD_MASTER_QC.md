@@ -2,11 +2,13 @@
 
 Date: 2026-09-27
 
-Status: **FINAL UPLOAD MASTER — QC PASS**
+Status: **SUPERSEDED — DO NOT UPLOAD**
+
+This technically valid file was rejected for uniform motion direction. It has been renamed `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`. See `REMOTION_V1/REVIEW_QC/MOTION_REVIEW_V2_QC.md` for the replacement review cut.
 
 ## Master
 
-- File: `SATSOP_FINAL_UPLOAD_MASTER.mp4`
+- File: `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`
 - Size: **1,034,217,533 bytes**
 - SHA-256: `d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166`
 - Source-to-delivery binary hash match: **PASS**
@@ -51,4 +53,3 @@ Status: **FINAL UPLOAD MASTER — QC PASS**
 - Card/subtitle collisions: **0**
 - Text clipping: **0**
 - Full directorial contact-sheet review: **PASS**
-

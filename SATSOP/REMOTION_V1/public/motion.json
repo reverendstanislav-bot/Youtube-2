@@ -1,0 +1,676 @@
+{
+  "version": 2,
+  "principle": "varied restrained documentary motion; hard cuts dominate",
+  "items": [
+    {
+      "beat": "SAT-B001",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B002",
+      "style": "push_left",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B003",
+      "style": "pan_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B004",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B005",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B006",
+      "style": "hold_then_push",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B007",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B008",
+      "style": "tilt_up",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B009",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B010",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B011",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B012",
+      "style": "tilt_down",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B013",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B014",
+      "style": "push_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B015",
+      "style": "pan_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B016",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B017",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B018",
+      "style": "hold_then_push",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B019",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B020",
+      "style": "tilt_up",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B021",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B022",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B023",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B024",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B025",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B026",
+      "style": "push_left",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B027",
+      "style": "pan_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B028",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B029",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B030",
+      "style": "hold_then_push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B031",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B032",
+      "style": "tilt_up",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B033",
+      "style": "push_right",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B034",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B035",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B036",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B037",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B038",
+      "style": "push_left",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B039",
+      "style": "pan_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B040",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B041",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B042",
+      "style": "hold_then_push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B043",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B044",
+      "style": "tilt_up",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B045",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B046",
+      "style": "pull",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B047",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B048",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B049",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B050",
+      "style": "push_left",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B051",
+      "style": "pan_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B052",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B053",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B054",
+      "style": "hold_then_push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B055",
+      "style": "pan_left",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B056",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B057",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B058",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B059",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B060",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B061",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B062",
+      "style": "push_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B063",
+      "style": "pan_right",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B064",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B065",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B066",
+      "style": "hold_then_push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B067",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B068",
+      "style": "tilt_up",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B069",
+      "style": "push_right",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B070",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B071",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B072",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B073",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B074",
+      "style": "push_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B075",
+      "style": "pan_right",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B076",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B077",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B078",
+      "style": "hold_then_push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B079",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B080",
+      "style": "tilt_up",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B081",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B082",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B083",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B084",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B085",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B086",
+      "style": "push_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B087",
+      "style": "pan_right",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B088",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B089",
+      "style": "push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B090",
+      "style": "hold_then_push",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B091",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B092",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B093",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B094",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B095",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B096",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B097",
+      "style": "hold",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B098",
+      "style": "push_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B099",
+      "style": "pan_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B100",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B101",
+      "style": "push",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B102",
+      "style": "hold_then_push",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B103",
+      "style": "pan_left",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B104",
+      "style": "tilt_up",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B105",
+      "style": "push_right",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B106",
+      "style": "pull",
+      "transition_in": "dissolve",
+      "dissolve_frames": 8
+    },
+    {
+      "beat": "SAT-B107",
+      "style": "hold",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B108",
+      "style": "tilt_down",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    },
+    {
+      "beat": "SAT-B109",
+      "style": "pull",
+      "transition_in": "cut",
+      "dissolve_frames": 0
+    }
+  ],
+  "counts": {
+    "hold": 20,
+    "hold_then_push": 9,
+    "pan_left": 9,
+    "pan_right": 9,
+    "pull": 19,
+    "push": 9,
+    "push_left": 9,
+    "push_right": 9,
+    "tilt_down": 9,
+    "tilt_up": 7
+  },
+  "transitions": {
+    "cut": 90,
+    "dissolve": 19
+  }
+}
