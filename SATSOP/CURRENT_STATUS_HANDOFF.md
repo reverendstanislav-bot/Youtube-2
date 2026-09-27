@@ -375,3 +375,23 @@ Canonical files:
 - narration language: **FAIL** at approximately 04:19 (`That is the famous the Supply System financial collapse.`);
 - VO pronunciation review required for every spoken `Satsop` and `Grays Harbor`;
 - current V3 file remains a rejected QC candidate and must not become an upload master.
+
+### V4 caption and cadence repair
+
+- approved narration retained bit-for-bit: **55,501 / 55,501 audio packets identical to V3**;
+- new TTS jobs: **0**;
+- generation spend: **0 credits**;
+- corrected burned-caption forms: **19**;
+- zero-duration cues: **0**;
+- caption overlaps: **0**;
+- repaired `1983,` interval: **04:14.400–04:15.000**;
+- video cadence: **35,518 / 35,518 packets at 0.033333 seconds**;
+- abnormal PTS steps: **0**;
+- full decode errors: **0**;
+- black intervals >=0.20 seconds: **0**;
+- HIA end-screen seam and layout: **PASS**;
+- candidate: `REMOTION_V1/out/SATSOP_MOTION_REVIEW_V4_CAPTIONS_HIA.mp4`;
+- size: **1,098,111,448 bytes**;
+- SHA-256: `83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906`;
+- detailed report: `REMOTION_V1/REVIEW_QC/EXTENSIVE_QC_V4.md`;
+- current gate: user picture-lock review; V4 is not yet an upload master.
