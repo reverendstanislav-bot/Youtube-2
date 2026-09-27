@@ -39,6 +39,11 @@ Updated: 2026-09-25
 | `SCRIPT/TTS_CHUNKS_V1/CHUNK_04.txt` | Arthur/ElevenLabs input 4 of 4 | Generated; job recorded in manifest |
 | `AUDIO/TTS_GENERATION_MANIFEST_V1.json` | Job IDs, settings, hashes, durations, and QC summary | Complete |
 | `AUDIO/SATSOP_WORD_ALIGNMENT_V1.json` | Local offline word-level timing | Complete |
+| `PUBLISHING/YOUTUBE_UPLOAD_PACKAGE.md` | Locked title, thumbnail copy, chapters, pinned comment and upload settings | Complete; thumbnail binary pending local save |
+| `PUBLISHING/YOUTUBE_DESCRIPTION.txt` | Paste-ready YouTube description with sources, credits and disclosure | Complete |
+| `PUBLISHING/YOUTUBE_METADATA.json` | Machine-readable upload metadata, tags and chapters | Complete |
+| `PUBLISHING/VISUAL_CREDITS.md` | Full attribution ledger for the 12 licensed stills | Complete |
+| `PUBLISHING/YOUTUBE_RELEASE_CHECKLIST.md` | Local and YouTube-side release gates | Active |
 | `AUDIO/SATSOP_VO_MASTER_V1.wav` | Canonical PCM production VO | Local ignored binary; locked |
 | `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.md` | Human-readable 109-beat exact-timing map | Complete |
 | `STAGE_5/SATSOP_STAGE_5_VISUAL_BEAT_MAP_V1.csv` | Machine-readable beat/asset/provenance matrix | Complete |
@@ -98,4 +103,4 @@ Updated: 2026-09-25
 | `STAGE_7/STAGE7_TECHNICAL_QC.json` | Decode, dimensions, PDF integrity and SHA-256 | Pass 38/38 unique assets |
 | `STAGE_7/STAGE7_DIRECTORIAL_QC.md` | Rights and assembly-readiness audit | Pass for rough cut |
 
-The locked VO, exact timed beat map and full 109-beat asset assignment exist. Stage 6 and Stage 7 visual gates are closed. No picture edit, render, or publication master exists for Episode 4.
+The canonical upload master is `DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4`. The paste-ready title, description, chapters, tags, credits, pinned comment and release checklist are in `PUBLISHING/`. The approved thumbnail shown in chat must be saved locally as `PUBLISHING/SATSOP_THUMBNAIL_FINAL.png` before upload.

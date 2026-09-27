@@ -1,0 +1,51 @@
+{
+  "episode": "Hidden Industrial America — Episode 4 — Satsop",
+  "title": "Why a 74%-Complete Nuclear Plant Was Still Too Expensive to Finish",
+  "thumbnail_filename": "SATSOP_THUMBNAIL_FINAL.png",
+  "thumbnail_text": [
+    "74% BUILT.",
+    "NEVER USED."
+  ],
+  "video_filename": "../DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4",
+  "video_sha256": "83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906",
+  "duration_seconds": 1183.989333,
+  "category": "Education",
+  "language": "en",
+  "made_for_kids": false,
+  "contains_paid_promotion": false,
+  "altered_or_synthetic_content": true,
+  "music": "none",
+  "visibility_for_initial_upload": "private_or_unlisted",
+  "chapters": [
+    {"time": "00:00", "title": "Two Towers, Two Different Failures"},
+    {"time": "01:39", "title": "The Five-Project Nuclear Gamble"},
+    {"time": "05:38", "title": "Two Financing Systems"},
+    {"time": "09:40", "title": "Why 74% Complete Wasn't Enough"},
+    {"time": "12:38", "title": "The 1994 Risk Decision"},
+    {"time": "17:02", "title": "What Satsop Became"}
+  ],
+  "tags": [
+    "Satsop nuclear power plant",
+    "Satsop nuclear plant",
+    "WNP-3",
+    "WNP-5",
+    "Washington Public Power Supply System",
+    "WPPSS",
+    "Energy Northwest",
+    "Bonneville Power Administration",
+    "nuclear history",
+    "abandoned nuclear plant",
+    "unfinished megaproject",
+    "megaproject failure",
+    "industrial history",
+    "Washington State history",
+    "Hidden Industrial America",
+    "Satsop Business Park",
+    "nuclear power documentary"
+  ],
+  "hashtags": [
+    "#HiddenIndustrialAmerica",
+    "#Satsop",
+    "#NuclearHistory"
+  ]
+}

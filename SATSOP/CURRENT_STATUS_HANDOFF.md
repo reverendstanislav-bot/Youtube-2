@@ -409,3 +409,14 @@ Canonical files:
 - approved narration preserved bit-for-bit; new TTS jobs: **0**;
 - music: **none**;
 - upload the canonical master above; do not upload `SATSOP_SUPERSEDED_ZOOM_CUT_V1.mp4`.
+
+### YouTube upload package
+
+- publishing package assembled in `PUBLISHING/`;
+- locked title: `Why a 74%-Complete Nuclear Plant Was Still Too Expensive to Finish`;
+- locked thumbnail copy: `74% BUILT. / NEVER USED.`;
+- six chapter timestamps derived from the final 109-beat timeline;
+- paste-ready English description includes primary research sources, all 12 licensed-still credits, and synthetic-content disclosure;
+- tags, hashtags, pinned comment, upload settings and release checklist complete;
+- exact approved thumbnail supplied in chat is not available as a repository binary and must be saved without regeneration as `PUBLISHING/SATSOP_THUMBNAIL_FINAL.png`;
+- initial YouTube visibility: private or unlisted; altered/synthetic-content disclosure: yes; music: none.
