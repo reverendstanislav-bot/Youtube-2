@@ -1,21 +1,15 @@
 # BIG MUSKIE — LEGACY EXPLAINER REBUILD STATUS
 
-Status: **4 PASS LOCKED / 8 OPEN**
+Date: 2026-09-27
 
-Locked:
-- B079 — THE CHANGING INDUSTRIAL EQUATION
-- B082 — FROM DRAGLINE TO DIVERSE MINING PATHWAYS
-- B084 — NOT ONE LAW — A CONVERGENCE OF FORCES (remapped Wave-3 B086 frame)
-- B095 — WHY PRESERVATION FAILED
+Status: **12/12 PASS / LOCKED — REVIEW RENDER IN PROGRESS**
 
-Open:
-- B081
-- B086
-- B087
-- B088
-- B089
-- B103
-- B111
-- B115
+Locked beats:
+B079 / B081 / B082 / B084 / B086 / B087 / B088 / B089 / B095 / B103 / B111 / B115
 
-Do not regenerate the four locked beats.
+Open legacy explainer rebuilds: **0**
+
+Current gate:
+1. Remotion 960×540 review render with all 12 replacements.
+2. Sequential full-film QC: replacement correctness, boundary regressions, duplicate/repetition, document readability, motion/transitions, technical decode/runtime.
+3. Only after review PASS: canonical 1920×1080 / 25 fps render.
