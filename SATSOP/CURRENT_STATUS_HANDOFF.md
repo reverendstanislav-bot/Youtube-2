@@ -309,3 +309,21 @@ Canonical files:
 - size: **1,034,217,533 bytes**;
 - SHA-256: `d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166`;
 - current gate: user review, then picture lock and final delivery QC without a music stage.
+
+## Picture lock and final delivery
+
+- picture status: **LOCKED** on 2026-09-27;
+- delivery status: **FINAL UPLOAD MASTER — QC PASS**;
+- master: `DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4`;
+- binary copy verification against the approved render: **PASS**;
+- full decode: **PASS**;
+- black intervals ≥0.20 seconds: **0**;
+- freeze intervals ≥2 seconds: **0**;
+- audio policy: **locked VO only / no music**;
+- integrated loudness: **−14.70 LUFS**;
+- true peak: **−3.32 dBTP**;
+- silence intervals ≥2 seconds below −50 dB: **0**;
+- duration: **00:19:23.989**;
+- size: **1,034,217,533 bytes**;
+- SHA-256: `d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166`;
+- further picture/audio changes require a new master hash and renewed delivery QC.

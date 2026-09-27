@@ -50,4 +50,4 @@ The first Remotion rough cut exposed 35 hand-built schematic inserts that do not
 
 ## Generated replacement pass complete
 
-All 35 hand-built schematic inserts were replaced with generated photographic documentary scenes. The active timeline now contains 97 generated images and 12 licensed current-source images, with zero editorial SVG/GFX cards and zero Remotion document cards. The replacement rough cut passed technical QC. It remains a review proof until user directorial approval.
+All 35 hand-built schematic inserts were replaced with generated photographic documentary scenes. The active timeline contains 97 generated images and 12 licensed current-source images, with zero editorial SVG/GFX cards and zero Remotion document cards. After directorial approval, 33 upper-left factual editorial cards were added in the channel's established style. Picture is locked and `DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4` passed final delivery QC with locked narration only and no music.

@@ -1,0 +1,40 @@
+{
+  "status": "FINAL_UPLOAD_MASTER_QC_PASS",
+  "picture_lock_date": "2026-09-27",
+  "filename": "SATSOP_FINAL_UPLOAD_MASTER.mp4",
+  "size_bytes": 1034217533,
+  "sha256": "d1d390cfb7f5e5e7c8deebecf1e0f715d22a15b1f1133f50861d7ce581fce166",
+  "duration_seconds": 1163.989333,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 34918,
+    "pixel_format": "yuvj420p",
+    "decode_qc": "PASS",
+    "black_intervals": 0,
+    "freeze_intervals": 0
+  },
+  "audio": {
+    "policy": "VOICEOVER_ONLY_NO_MUSIC",
+    "streams": 1,
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "integrated_lufs": -14.70,
+    "true_peak_dbtp": -3.32,
+    "loudness_range_lu": 2.90,
+    "silence_intervals_over_2s": 0
+  },
+  "editorial": {
+    "visual_beats": 109,
+    "editorial_cards": 33,
+    "subtitle_cues": 464,
+    "subtitle_gaps_over_1_5s": 0,
+    "ai_reconstruction_badge": false
+  }
+}
+
