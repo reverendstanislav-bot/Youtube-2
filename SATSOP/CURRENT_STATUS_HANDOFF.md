@@ -360,3 +360,18 @@ Canonical files:
 - size: **926,935,818 bytes**;
 - SHA-256: `5e142ec16cd8d5590ba4caf8960a498d9915012117279fb15cdc6f36dcb497c6`;
 - current gate: user directorial review of V3; picture lock remains open.
+
+### Extensive V3 QC — lock blocked
+
+- report: `REMOTION_V1/REVIEW_QC/EXTENSIVE_QC_V3.md`;
+- overall status: **FAIL — NOT READY FOR PICTURE LOCK OR DELIVERY**;
+- picture integrity: **PASS**, including 34,918 / 34,918 V2 content frames pixel-identical in V3;
+- HIA end-screen layout: **PASS**;
+- black intervals: **0**;
+- audio loudness / peak / intentional end silence: **PASS**;
+- frame cadence: **FAIL** — one 0.089323-second packet/PTS step at the HIA seam instead of 0.033333 seconds;
+- subtitle structure: **FAIL** — one zero-duration `1983,` cue at 04:14.400;
+- subtitle accuracy: **FAIL** — material transcription errors include `Satsup/Satsap`, `rewined`, `For investor`, `.55 billion`, `sighting`, `Bonnes`, and `Graze Harbour`;
+- narration language: **FAIL** at approximately 04:19 (`That is the famous the Supply System financial collapse.`);
+- VO pronunciation review required for every spoken `Satsop` and `Grays Harbor`;
+- current V3 file remains a rejected QC candidate and must not become an upload master.
