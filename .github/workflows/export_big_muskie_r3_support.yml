@@ -1,0 +1,103 @@
+name: Export Big Muskie R3 canonical support
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export_big_muskie_r3_support.yml'
+      - 'BIG_MUSKIE/REMOTION_V3/R3_SUPPORT_TRIGGER.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build canonical caption package
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/bm_r3_support
+          cp CHICAGO/V12/FINAL_QC/END_SCREEN_FINAL_PREVIEW.jpg /tmp/bm_r3_support/HIA_END_SCREEN_FINAL.jpg
+          python - <<'PY'
+          import csv, json, pathlib, re
+          root=pathlib.Path('.')
+          words=[]
+          for n in range(1,5):
+              p=root/f'BIG_MUSKIE/STAGE_7/WORD_TIMING_V1_CHUNK_{n:02d}.csv'
+              with p.open(encoding='utf-8',newline='') as f:
+                  for r in csv.DictReader(f):
+                      words.append({'s':float(r['start']),'e':float(r['end']),'w':r['word']})
+          words.sort(key=lambda x:(x['s'],x['e']))
+          assert words and words[0]['s']==0.0
+          assert words[-1]['e']>=1426.30
+
+          # Deterministic readable cue grouping: short phrases, pause-aware, max ~38 chars / 7 words.
+          cues=[]
+          cur=[]
+          for w in words:
+              if cur:
+                  gap=w['s']-cur[-1]['e']
+                  text=' '.join(x['w'] for x in cur+[w])
+                  if gap>=0.62 or len(cur)>=7 or len(text)>38:
+                      cues.append({'s':cur[0]['s'],'e':cur[-1]['e'],'words':cur})
+                      cur=[]
+              cur.append(w)
+              if re.search(r'[.!?]$',w['w']) and len(cur)>=2:
+                  cues.append({'s':cur[0]['s'],'e':cur[-1]['e'],'words':cur})
+                  cur=[]
+          if cur:cues.append({'s':cur[0]['s'],'e':cur[-1]['e'],'words':cur})
+
+          out=pathlib.Path('/tmp/bm_r3_support')
+          (out/'captions.json').write_text(json.dumps(cues,ensure_ascii=False,indent=2),encoding='utf-8')
+
+          # ASS: exact HIA word-highlight grammar from Chicago R15 / TC497 R14.
+          # 1920x1080 reference; libass scales to review size.
+          def ts(t):
+              h=int(t//3600); t-=h*3600; m=int(t//60); s=t-m*60
+              return f'{h}:{m:02d}:{s:05.2f}'
+          def esc(x):
+              return x.replace('\\','\\\\').replace('{','\\{').replace('}','\\}')
+          header='''[Script Info]\nScriptType: v4.00+\nPlayResX: 1920\nPlayResY: 1080\nScaledBorderAndShadow: yes\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: HIA,Arial,58,&H00FFFFFF,&H00FFFFFF,&H0017191C,&H0017191C,-1,0,0,0,100,100,0,0,1,2.4,3.2,2,150,150,54,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n'''
+          events=[]
+          ORANGE='&H003A8AF2&'  # ASS BGR for #F28A3A
+          WHITE='&H00FFFFFF&'
+          for cue in cues:
+              ws=cue['words']
+              for i,w in enumerate(ws):
+                  a=max(cue['s'],w['s'])
+                  b=max(a+0.055,w['e'])
+                  if i+1<len(ws):
+                      b=min(b,ws[i+1]['s']) if ws[i+1]['s']>a else b
+                  if b<=a:b=a+0.055
+                  parts=[]
+                  for j,x in enumerate(ws):
+                      col=ORANGE if i==j else WHITE
+                      parts.append('{\\c'+col+'}'+esc(x['w']))
+                  events.append(f'Dialogue: 0,{ts(a)},{ts(b)},HIA,,0,0,0,,{chr(32).join(parts)}')
+              # hold full phrase white through remaining cue gap if useful
+              tail=max(ws[-1]['e'],cue['e'])
+              nxt=None
+          (out/'captions.ass').write_text(header+'\n'.join(events)+'\n',encoding='utf-8')
+
+          with (out/'WORD_TIMING_COMBINED.csv').open('w',encoding='utf-8',newline='') as f:
+              wr=csv.writer(f); wr.writerow(['start','end','word'])
+              for w in words:wr.writerow([f"{w['s']:.3f}",f"{w['e']:.3f}",w['w']])
+          (out/'README.txt').write_text(
+              f'words={len(words)}\ncues={len(cues)}\nstyle=HIA Chicago R15 / TC497 R14 white + #F28A3A active word, no black box\n',
+              encoding='utf-8')
+          print('WORDS',len(words),'CUES',len(cues))
+          PY
+
+      - name: Upload support artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_R3_CANONICAL_SUPPORT
+          path: /tmp/bm_r3_support
+          compression-level: 0
+          retention-days: 7
