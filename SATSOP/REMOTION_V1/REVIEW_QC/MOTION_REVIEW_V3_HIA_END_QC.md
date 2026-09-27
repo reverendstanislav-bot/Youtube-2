@@ -12,11 +12,13 @@ Status: **REVIEW CUT — TECHNICAL PASS**
 - End-screen audio: digital silence
 - Music: none
 - Duration: 1,183.989333 seconds
-- Size: 926,727,142 bytes
+- Layout: one previous-story rectangle and one subscribe circle; no duplicated or overlapping placeholders
+- Source: approved flattened HIA end screen from `CHICAGO/V12/FINAL_QC/END_SCREEN_FINAL_PREVIEW.jpg`, scaled 2x to 1920x1080
+- Size: 926,935,818 bytes
 - Video: H.264, 1920x1080, 30 fps, 35,518 frames
 - Audio: AAC, 48 kHz stereo
 - Full decode: PASS
-- SHA-256: `f07d177c831513b056909d36065883405c87eae3791396374235f9598b8558bc`
+- SHA-256: `5e142ec16cd8d5590ba4caf8960a498d9915012117279fb15cdc6f36dcb497c6`
 - Visual seam check: PASS (`V3_OUTRO_CONTACT_SHEET.jpg`)
 
 Picture lock remains open until user review.

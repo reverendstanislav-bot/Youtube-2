@@ -355,6 +355,8 @@ Canonical files:
 - duration: **00:19:43.989**;
 - video: **35,518 frames, 1920x1080, 30 fps, H.264**;
 - audio: **AAC, 48 kHz stereo**;
-- size: **926,727,142 bytes**;
-- SHA-256: `f07d177c831513b056909d36065883405c87eae3791396374235f9598b8558bc`;
+- end-screen layout correction: the erroneous double-overlay build was replaced with the approved flattened HIA end screen from `CHICAGO/V12/FINAL_QC`;
+- layout QC: **PASS — one previous-story rectangle, one subscribe circle, no overlap**;
+- size: **926,935,818 bytes**;
+- SHA-256: `5e142ec16cd8d5590ba4caf8960a498d9915012117279fb15cdc6f36dcb497c6`;
 - current gate: user directorial review of V3; picture lock remains open.
