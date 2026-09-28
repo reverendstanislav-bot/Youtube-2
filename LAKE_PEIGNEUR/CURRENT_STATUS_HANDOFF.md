@@ -218,3 +218,17 @@ Current canonical generation plan supersedes the earlier 100-row prompt pack for
 - Video generation remains prohibited.
 
 Generation is still **NOT AUTHORIZED** until the owner explicitly approves the 72-credit preflight.
+
+
+## Stage 8C-R4 generated-text lock — 2026-09-27
+
+After the 20-frame Higgsfield test, the full 144-prompt pack was rewritten so required on-screen text is generated directly in the image.
+
+- Canonical prompt pack: `STAGE_8/STAGE_8C_R4_144_PROMPT_PACK_TEXT_LOCK.csv`
+- Rule file: `STAGE_8/STAGE_8C_R4_GENERATED_TEXT_LOCK.md`
+- 93 text-bearing assets: exact in-image wording locked in `EXACT_TEXT_TO_RENDER`
+- 51 reconstruction assets: `NO_TEXT`
+- no blank text boxes / placeholder copy / later editor text assumption
+- test-20 systemic fixes incorporated
+- no new generation authorized by this update
+- R4 still requires hard QC before the next paid batch
