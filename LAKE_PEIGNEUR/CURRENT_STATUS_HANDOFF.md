@@ -232,3 +232,25 @@ After the 20-frame Higgsfield test, the full 144-prompt pack was rewritten so re
 - test-20 systemic fixes incorporated
 - no new generation authorized by this update
 - R4 still requires hard QC before the next paid batch
+
+
+## Stage 8C-R4.1 hard-QC lock — 2026-09-27
+
+Canonical generation prompt pack is now:
+`STAGE_8/STAGE_8C_R4_1_144_PROMPT_PACK_TEXT_QC_REPAIRED.csv`
+
+Final QC:
+`STAGE_8/STAGE_8C_R4_1_HARD_QC_144_FINAL.md`
+
+- 144/144 prompt-level PASS
+- 12 DOCUMENT
+- 26 MAP / spatial GFX
+- 55 GENERATED GFX
+- 51 RECONSTRUCTION
+- 93 frames render exact in-image text
+- 51 reconstruction frames render no text
+- 43 MAP/GFX text-to-scene mismatches discovered in first R4 pass were repaired before lock
+- all TEST20 systemic fixes are embedded
+- generation jobs submitted by R4.1 QC: 0
+- credits spent by R4.1 QC: 0
+- image outputs still require visual QC for spelling/text fidelity after generation
