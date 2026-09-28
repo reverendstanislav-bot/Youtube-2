@@ -195,3 +195,26 @@ Important: Appendix EE is authentic historical material, but selected photograph
 
 Immediate next action:
 Stage 9 may prepare a **5-prompt reconstruction pack**, but paid generation still requires separate explicit owner approval.
+
+
+## Stage 8C-R3 final prompt lock — 2026-09-27
+
+Current canonical generation plan supersedes the earlier 100-row prompt pack for generation planning.
+
+- Total generated-image jobs planned: **144**
+- DOCUMENT: **12**
+- MAP / spatial GFX: **26**
+- GENERATED GFX: **55**
+- RECONSTRUCTION: **51**
+- Reuse: **0**
+- Canonical manifest: `STAGE_8/STAGE_8C_R3_144_PROMPT_PACK.csv`
+- Final QC: `STAGE_8/STAGE_8C_R3_HARD_QC_144_FINAL.md`
+- Hard QC result: **144/144 PASS**
+- Conditional Appendix EE dependencies in the generated prompt pack: **0**
+- Paid generation performed: **0**
+- Credits spent in Stage 8C-R3: **0**
+- Prospective preflight only: **144 × 0.5 = 72 credits**
+- No retries without separate owner approval.
+- Video generation remains prohibited.
+
+Generation is still **NOT AUTHORIZED** until the owner explicitly approves the 72-credit preflight.
