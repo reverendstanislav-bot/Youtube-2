@@ -1,0 +1,105 @@
+name: Ingest Lake Peigneur Final Thumbnail
+
+on:
+  push:
+    paths:
+      - ".github/workflows/ingest_lake_peigneur_thumbnail_lock.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify selected thumbnail
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p LAKE_PEIGNEUR/THUMBNAIL
+          curl -L --fail --retry 3 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/0208c9ff-9dc2-4d98-869c-228f21898954.png' -o LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png
+          echo '4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2  LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png' | sha256sum -c -
+          python - <<'PY'
+          import struct
+          p='LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png'
+          data=open(p,'rb').read(32)
+          assert data[:8] == b'\x89PNG\r\n\x1a\n'
+          w,h=struct.unpack('>II',data[16:24])
+          assert (w,h)==(1672,941), (w,h)
+          print(f'PNG dimensions verified: {w}x{h}')
+          PY
+
+      - name: Write thumbnail lock
+        shell: bash
+        run: |
+          cat > LAKE_PEIGNEUR/THUMBNAIL/THUMBNAIL_LOCK.md <<'EOF'
+          # Lake Peigneur — FINAL THUMBNAIL LOCK
+
+          Locked: 2026-09-30
+          Episode: **5 — Lake Peigneur / Jefferson Island Mine Inundation**
+          Channel: **Hidden Industrial America**
+
+          ## Status
+
+          **FINAL / OWNER-SELECTED / LOCKED**
+
+          Canonical asset:
+          `LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`
+
+          Dimensions: **1672 × 941**
+          SHA256: `4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2`
+
+          ## Locked thumbnail direction
+
+          Selected direction: **TH-A — split physical world**
+
+          Exact headline:
+          **THE LAKE**
+          **DISAPPEARED**
+
+          Visual:
+          - Louisiana lake at surface;
+          - small drilling platform for scale;
+          - dominant whirlpool / downward water draw;
+          - enormous illuminated underground salt-mine cutaway below;
+          - one hero composition;
+          - HIA charcoal / ivory / faded-rust visual grammar.
+
+          This thumbnail must not be replaced, regenerated, or materially edited unless the owner explicitly requests a new thumbnail.
+          EOF
+
+      - name: Update packaging and handoff
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('LAKE_PEIGNEUR/DEVELOPMENT/PACKAGING_AND_RETENTION.md')
+          s=p.read_text(encoding='utf-8')
+          tag='## Final thumbnail lock — 2026-09-30'
+          if tag not in s:
+              s += f'''\n\n{tag}\n\n**TH-A is FINAL / OWNER-SELECTED / LOCKED.**\n\nCanonical asset:\n`LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`\n\nExact thumbnail text:\n**THE LAKE**\n**DISAPPEARED**\n\nDo not replace or regenerate without explicit owner instruction.\n'''
+              p.write_text(s,encoding='utf-8')
+
+          p=Path('LAKE_PEIGNEUR/CURRENT_STATUS_HANDOFF.md')
+          s=p.read_text(encoding='utf-8')
+          tag='## Final thumbnail lock — 2026-09-30'
+          if tag not in s:
+              s += f'''\n\n{tag}\n\nEpisode 5 thumbnail is **FINAL / OWNER-SELECTED / LOCKED**.\n\nCanonical asset:\n`THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`\n\nExact headline: **THE LAKE / DISAPPEARED**\nSHA256: `4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2`\n\nNo regeneration or replacement without explicit owner instruction.\n'''
+              p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Commit locked thumbnail
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png                   LAKE_PEIGNEUR/THUMBNAIL/THUMBNAIL_LOCK.md                   LAKE_PEIGNEUR/DEVELOPMENT/PACKAGING_AND_RETENTION.md                   LAKE_PEIGNEUR/CURRENT_STATUS_HANDOFF.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Lock Lake Peigneur final thumbnail"
+          git push
