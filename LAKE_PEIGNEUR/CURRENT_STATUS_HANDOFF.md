@@ -254,3 +254,16 @@ Final QC:
 - generation jobs submitted by R4.1 QC: 0
 - credits spent by R4.1 QC: 0
 - image outputs still require visual QC for spelling/text fidelity after generation
+
+
+## Final thumbnail lock — 2026-09-30
+
+Episode 5 thumbnail is **FINAL / OWNER-SELECTED / LOCKED**.
+
+Canonical asset:
+`THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`
+
+Exact headline: **THE LAKE / DISAPPEARED**
+SHA256: `4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2`
+
+No regeneration or replacement without explicit owner instruction.

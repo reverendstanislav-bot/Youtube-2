@@ -138,3 +138,17 @@ SHORT-05 — **The Disaster Ended the Mine, Not the Salt Dome's Industrial Life*
 Aftermath / modern storage context.
 
 Exact wording and extraction ranges wait for final narration + VO.
+
+
+## Final thumbnail lock — 2026-09-30
+
+**TH-A is FINAL / OWNER-SELECTED / LOCKED.**
+
+Canonical asset:
+`LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`
+
+Exact thumbnail text:
+**THE LAKE**
+**DISAPPEARED**
+
+Do not replace or regenerate without explicit owner instruction.
