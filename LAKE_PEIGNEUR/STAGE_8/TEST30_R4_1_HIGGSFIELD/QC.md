@@ -1,72 +1,61 @@
-# LAKE PEIGNEUR — R4.1 HIGGSFIELD TEST30 VISUAL QC
+# Lake Peigneur — R4.1 Higgsfield TEST30 Visual QC
 
-Updated: 2026-09-27
+- Model: gpt_image_2_5
+- Aspect: 16:9
+- Submitted/completed: 30/30
+- Preflight rate: 0.25 credit/image
+- Calculated spend: 7.5 credits
+- Retries: 0
+- PASS: 26
+- REJECT: 4
+- HOLD: 0
 
-Status: **26/30 PASS — 4/30 REJECT — 0 HOLD**
+## Rejects
+- **LP-DOC-002** — Required labels duplicated in a second lower strip; redundant text/clutter.
+- **LP-DOC-011** — Adds readable Diamond Crystal brand/logo text outside exact-text lock.
+- **LP-MAP-023** — Text says 8 connections but only 6 connection nodes/lines are drawn.
+- **LP-GFX-013** — Adds readable CH4 text not in exact-text lock.
 
-Canonical prompt source:
-`../STAGE_8C_R4_1_144_PROMPT_PACK_TEXT_QC_REPAIRED.csv`
+## Systemic findings
+The R4.1 fixes corrected the major previous TEST20 defects: fake MSHA-page styling, 52/7 hierarchy, ~150-ft uncertainty, flags, canal-control inventions, and scene/text mismatch errors.
 
-## Generation
-- Model: `gpt_image_2_5`
-- 16:9
-- 30 submitted / 30 completed
-- submission failures: 0
-- exact preflight: 0.25 credit/image
-- calculated batch spend: **7.5 credits**
-- retries: **0**
-
-Composition: 8 DOCUMENT + 8 MAP + 8 GFX + 6 RECONSTRUCTION.
-
-## Rejected
-- **LP-DOC-002** — Required labels are duplicated in a second bottom strip, creating redundant text and clutter; violates exact-text-once production intent.
-- **LP-DOC-011** — Adds readable Diamond Crystal brand/logo text that was not in EXACT_TEXT_TO_RENDER; unnecessary trademark/facsimile-like element.
-- **LP-MAP-023** — Text says 8 major pipeline connections, but the generated hub visibly shows only 6 connection nodes/lines. Factual visual mismatch.
-- **LP-GFX-013** — Adds readable CH4 text not present in EXACT_TEXT_TO_RENDER. Main concept is good, but exact-text lock is violated.
-
-## Systemic result
-R4.1 fixes worked on the major TEST20 failures: fake MSHA facsimile, 52/7 hierarchy, ~150-ft uncertainty, flags, canal-control inventions, and scene/text mismatch repairs.
-
-Remaining failure modes:
+Remaining failure modes are narrow:
 1. duplicate required text;
-2. extra readable logo/formula not in EXACT_TEXT_TO_RENDER;
-3. diagram topology contradicting stated fact (8 written / 6 drawn).
+2. extra readable text/logo/formula outside EXACT_TEXT_TO_RENDER;
+3. diagram topology contradicting its own stated fact.
 
-No retry is authorized by this QC file.
+No rejected frame is authorized for retry by this QC file.
 
 ## Matrix
-| # | Asset | Category | QC | Reason |
-|---:|---|---|---|---|
-| 1 | LP-DOC-001 | DOCUMENT | **PASS** | Exact required text rendered cleanly; no blank panel; HIA evidence-card treatment works; subtitle-safe. |
-| 2 | LP-DOC-002 | DOCUMENT | **REJECT** | Required labels are duplicated in a second bottom strip, creating redundant text and clutter; violates exact-text-once production intent. |
-| 3 | LP-DOC-005 | DOCUMENT | **PASS** | 52 evacuated / less than 1 hour / no human fatalities are clear, correctly hierarchical, and visually clean. |
-| 4 | LP-DOC-006 | DOCUMENT | **PASS** | Previous fake-report defect fixed; no MSHA facsimile/logo/letterhead; exact uncertainty wording rendered directly. |
-| 5 | LP-DOC-007 | DOCUMENT | **PASS** | Popular claim vs federal finding contrast reads immediately; exact required wording present; no fake document. |
-| 6 | LP-DOC-009 | DOCUMENT | **PASS** | Salt-dome geology is visually clear; source text and geology labels are present; strong HIA scientific-evidence frame. |
-| 7 | LP-DOC-011 | DOCUMENT | **REJECT** | Adds readable Diamond Crystal brand/logo text that was not in EXACT_TEXT_TO_RENDER; unnecessary trademark/facsimile-like element. |
-| 8 | LP-DOC-012 | DOCUMENT | **PASS** | $12.8M / ≈250 layoffs / mine not restored all render clearly with strong consequence hierarchy. |
-| 9 | LP-MAP-001 | MAP | **PASS** | Previous defect fixed: 52 underground and 7 on platform are dominant and correctly separated; NOT TO SCALE present. |
-| 10 | LP-MAP-004 | MAP | **PASS** | Clean regional orientation; Lake Peigneur / Jefferson Island / Coastal Louisiana labels are readable and restrained. |
-| 11 | LP-MAP-007 | MAP | **PASS** | ≈1,228-ft drill depth vs 1,300-ft mine level is clear and explicitly estimated; no false lake-depth implication. |
-| 12 | LP-MAP-008 | MAP | **PASS** | Hydraulic connection plus unknown initiating geometry reads correctly; uncertainty zone is conceptual, not a claimed exact breach. |
-| 13 | LP-MAP-016 | MAP | **PASS** | Previous precision defect fixed: ≈150 FT and REPORTED ESTIMATE are explicit; conceptual cross-section clearly labeled. |
-| 14 | LP-MAP-017 | MAP | **PASS** | Coordinate-error popular claim and federal estimated-location evidence are visually separated without presenting myth as settled fact. |
-| 15 | LP-MAP-023 | MAP | **REJECT** | Text says 8 major pipeline connections, but the generated hub visibly shows only 6 connection nodes/lines. Factual visual mismatch. |
-| 16 | LP-MAP-025 | MAP | **PASS** | Surface landscape / hidden infrastructure thesis is clean, readable, cinematic, and subtitle-safe. |
-| 17 | LP-GFX-001 | GFX | **PASS** | 7 / 52 / surface / underground hierarchy is strong and immediately readable; no unsupported mechanism added. |
-| 18 | LP-GFX-008 | GFX | **PASS** | R4.1 scene/text repair works: SMALL OPENING → CAN ENLARGE → EXACT PATH UNKNOWN matches the intended engineering point. |
-| 19 | LP-GFX-013 | GFX | **REJECT** | Adds readable CH4 text not present in EXACT_TEXT_TO_RENDER. Main concept is good, but exact-text lock is violated. |
-| 20 | LP-GFX-035 | GFX | **PASS** | Previous precision defect fixed: ≈150 FT / REPORTED ESTIMATE rendered clearly without claiming a precise survey. |
-| 21 | LP-GFX-036 | GFX | **PASS** | R4.1 repair works: same salt dome / salt mining / gas storage / different industrial systems is visually coherent and on-narration. |
-| 22 | LP-GFX-042 | GFX | **PASS** | Settlement ≠ scientific finding / technical cause unresolved communicates the legal-vs-scientific distinction clearly. |
-| 23 | LP-GFX-051 | GFX | **PASS** | Eight abstract connection nodes are visible; no U.S./regional route map; current-context hub graphic is appropriately schematic. |
-| 24 | LP-GFX-055 | GFX | **PASS** | Final thesis line is large and readable; vertical infrastructure cutaway is strong and not another generic lake shot. |
-| 25 | LP-REC-001 | RECONSTRUCTION | **PASS** | Previous flag defect fixed; restrained pre-event drilling-platform establishing shot with no text/logos and no disaster spectacle. |
-| 26 | LP-REC-009 | RECONSTRUCTION | **PASS** | Vertical drilling and horizontal mine workings remain separate; no confirmed intersection is implied; no accidental text. |
-| 27 | LP-REC-027 | RECONSTRUCTION | **PASS** | Crew evacuation reads urgent but not sensational; period industrial staging is believable; no text/flag/logo defect. |
-| 28 | LP-REC-039 | RECONSTRUCTION | **PASS** | Previous canal defect fixed: natural/simple banks and reversed current only; no invented locks, gates, dams or control structures. |
-| 29 | LP-REC-045 | RECONSTRUCTION | **PASS** | Forensic reconstruction workspace communicates estimated reconstruction without readable fake documents or exact coordinates. |
-| 30 | LP-REC-051 | RECONSTRUCTION | **PASS** | Strong closing HIA cutaway: calm surface over hidden industrial layers; no text and no exact breach claim. |
-
-## Media
-Git stores full-resolution 1344×752 JPEG q92 copies. `MANIFEST.csv` preserves each original Higgsfield PNG URL and job ID.
+| Asset | QC | Reason |
+|---|---|---|
+| LP-DOC-001 | **PASS** | Exact text clean; HIA evidence card works. |
+| LP-DOC-002 | **REJECT** | Required labels duplicated in a second lower strip; redundant text/clutter. |
+| LP-DOC-005 | **PASS** | 52 evacuated / <1 hour / no fatalities read clearly. |
+| LP-DOC-006 | **PASS** | Fake MSHA-report defect fixed; no agency facsimile. |
+| LP-DOC-007 | **PASS** | Popular claim vs federal finding reads clearly. |
+| LP-DOC-009 | **PASS** | Geology evidence frame is clear and on-style. |
+| LP-DOC-011 | **REJECT** | Adds readable Diamond Crystal brand/logo text outside exact-text lock. |
+| LP-DOC-012 | **PASS** | Settlement / layoffs / mine-not-restored hierarchy works. |
+| LP-MAP-001 | **PASS** | 52 underground / 7 on platform fixed and dominant. |
+| LP-MAP-004 | **PASS** | Clean regional orientation. |
+| LP-MAP-007 | **PASS** | ≈1,228 ft vs 1,300-ft mine level reads correctly. |
+| LP-MAP-008 | **PASS** | Hydraulic connection + unknown initiating geometry preserved. |
+| LP-MAP-016 | **PASS** | ≈150 FT + REPORTED ESTIMATE fixed. |
+| LP-MAP-017 | **PASS** | Myth vs evidence separation works. |
+| LP-MAP-023 | **REJECT** | Text says 8 connections but only 6 connection nodes/lines are drawn. |
+| LP-MAP-025 | **PASS** | Surface / hidden-infrastructure thesis works. |
+| LP-GFX-001 | **PASS** | 7 / 52 hierarchy strong. |
+| LP-GFX-008 | **PASS** | Scene/text repair works: small opening can enlarge. |
+| LP-GFX-013 | **REJECT** | Adds readable CH4 text not in exact-text lock. |
+| LP-GFX-035 | **PASS** | ≈150 FT / reported estimate reads correctly. |
+| LP-GFX-036 | **PASS** | Salt mining vs gas storage continuity works. |
+| LP-GFX-042 | **PASS** | Settlement ≠ scientific finding works. |
+| LP-GFX-051 | **PASS** | Eight abstract connections visible; no fake route geography. |
+| LP-GFX-055 | **PASS** | Final thesis frame is strong/readable. |
+| LP-REC-001 | **PASS** | Flag defect fixed; clean pre-event platform shot. |
+| LP-REC-009 | **PASS** | Drill and mine remain separate; no implied confirmed intersection. |
+| LP-REC-027 | **PASS** | Evacuation reads urgent but not sensational. |
+| LP-REC-039 | **PASS** | Canal defect fixed; no invented locks/gates/dams. |
+| LP-REC-045 | **PASS** | Forensic reconstruction stays estimated and non-fake-document. |
+| LP-REC-051 | **PASS** | Strong closing HIA cutaway. |
