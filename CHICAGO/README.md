@@ -1,34 +1,24 @@
 # Hidden Industrial America — Chicago
 
-Episode 1 of **Hidden Industrial America**.
+Episode 01 of **Hidden Industrial America**.
 
 ## Current state
 
-**NOT PUBLICATION-APPROVED.**
+**COMPLETE / OWNER-CODEX FINAL / READY FOR PUBLICATION**
 
-R13 fixed the false HISTORICAL SOURCE labeling and moved the picture timeline into Remotion, but a deep QC on the rendered file rejected it for editorial pacing: too many 8–25 second static beats, especially maps/archive, tiny provenance text, and captions aligned at 98.665% rather than directly from the word-level transcript.
+Canonical master:
+`HIA_CHICAGO_R15_SMOOTH_REMOTION_REVIEW_1920x1080.mp4`
 
-Current active target:
-- `CHICAGO/R14/`
-- phrase/word-boundary-driven Remotion recut;
-- no visual beat longer than 7.05 s before the end screen;
-- long archive/maps broken into controlled reframing beats without constant Ken Burns;
-- long reconstructions use restrained alternate framing and only occasional subtle push;
-- `HISTORICAL SOURCE` only on verified archive/map;
-- `AI RECONSTRUCTION` only on generated reconstruction;
-- provenance enlarged for 1080p readability;
-- captions derived directly from the word-level transcript at exact sequence coverage;
-- original approved AAC preserved bit-for-bit;
-- output normalized to limited-range `yuv420p`;
-- Episode 1 textless end screen: subscribe/avatar circle only; ZERO previous/next-video rectangles.
+SHA256:
+`712a043166052a7077203501117c75fce5b0047fcd6794f7b22ff64513291128`
 
-R13 remains a rejected review artifact and must not be uploaded.
+Locked thumbnail:
+- `buried_under_chicago_hidden_freight_tunnels.png`
+- **BURIED UNDER CHICAGO**
+- SHA256 `b001650022f589536cf32f9b09b1dd5c2aa4721fc81c18f2c34501737c0c22cf`
 
-Read `CURRENT_STATUS_HANDOFF.md` before editing.
+Read:
+- `CURRENT_STATUS_HANDOFF.md`
+- `../CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md`
 
-The first R14 review release with a rectangular video slot is rejected and must not be uploaded. A corrected R14 rebuild is required.
-
-## Shorts package
-
-Locked extraction-first Shorts plan: `CHICAGO/SHORTS/`.
-Five Shorts have exact source IN/OUT, exact narration extraction, word timing and 9:16 montage instructions. State: `VERTICAL_PLAN_LOCKED`; render remains blocked until the Chicago long-form is explicitly approved.
+Older R13/R14/R15 review documents are historical QC checkpoints and are superseded as current-state indicators.

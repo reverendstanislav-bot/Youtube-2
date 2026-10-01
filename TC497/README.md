@@ -1,30 +1,24 @@
-# TC497 — CURRENT PROJECT STATE
+# Hidden Industrial America — TC-497
 
-**Current status: R14 REMOTION RE-EDIT IN PROGRESS / NOT READY FOR YOUTUBE UPLOAD**
+Episode 02 of **Hidden Industrial America**.
 
-The old FULL_V13 textless 1080 master is withdrawn from publication.
+## Current state
 
-Current active target:
-- `TC497/R14_REEDIT/`
-- primary post-cold-open picture timeline rendered in Remotion;
-- cuts nudged toward narration word/phrase boundaries where safe;
-- `HISTORICAL SOURCE` only for verified archive;
-- `DOCUMENT` for report/patent material;
-- `CONCEPT` for unbuilt/hypothetical concept visuals;
-- `AI RECONSTRUCTION` for generated/reconstructed imagery;
-- accepted V13 corrections preserved;
-- approved V9 audio preserved bit-for-bit;
-- textless HIA end screen retained.
+**COMPLETE / OWNER-CODEX FINAL / READY FOR PUBLICATION**
 
-The active tree intentionally keeps only the dependency builds R14 still needs:
-- `FULL_V4/`
-- `FULL_V13/`
-- `V14/`
-- `R14_REEDIT/`
+Canonical master:
+`TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4`
 
-Older V1–V12 build trees and stale final-status folders were removed from the current branch and remain available through Git history.
+SHA256:
+`d889dd45d43f091f4d76bd76ae7929cb23c6c1ecd68a3c1d73ac4c5a18c2292e`
 
-## Shorts package
+Locked thumbnail:
+- `giant_overland_train_no_tracks.png`
+- **TRAIN WITH NO TRACKS**
+- SHA256 `a774bd91476e33271f70dd96d06d06d658dcdefaffd66718bcff273bfeb0900b`
 
-Locked extraction-first Shorts plan: `TC497/SHORTS/`.
-Five Shorts have exact source IN/OUT, exact narration extraction, word timing and 9:16 montage instructions. State: `VERTICAL_PLAN_LOCKED`; render remains blocked until the TC497 long-form is explicitly approved.
+Read:
+- `CURRENT_STATUS_HANDOFF.md`
+- `../CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md`
+
+Older V13/V14/R14 review-state language is retained only as historical audit history.

@@ -1,53 +1,27 @@
-# Hidden Industrial America — Episode 4 — Satsop Nuclear Plant
+# Hidden Industrial America — Episode 04 — Satsop Nuclear Plant
 
-Episode 4 investigates the unfinished Washington Nuclear Projects 3 and 5 at Satsop, Washington, and the industrial site that grew out of them.
+Episode 04 investigates Washington Nuclear Projects 3 and 5 at Satsop, Washington.
 
 ## Current state
 
-**FINAL UPLOAD MASTER QC PASS — YOUTUBE PACKAGE ASSEMBLED.**
+**COMPLETE / FINAL UPLOAD MASTER / READY FOR PUBLICATION**
 
-Research, script, narration and the 109-beat visual map are locked. All visual positions are complete, the approved narration is preserved without music, and the corrected 1920×1080 master passed final delivery QC. The canonical video is `DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4`; publication metadata and credits are in `PUBLISHING/`.
+Canonical master:
+`DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4`
 
-Start every new chat with:
+SHA256:
+`83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906`
 
-1. `CURRENT_STATUS_HANDOFF.md`
-2. `RESEARCH/RESEARCH_EVIDENCE_PACK.md`
-3. `RESEARCH/SOURCE_LEDGER.md`
-4. `RESEARCH/VISUAL_SOURCE_LEDGER.md`
-5. `DEVELOPMENT/DOCUMENTARY_ANGLES.md`
-6. `DEVELOPMENT/PACKAGING_AND_RETENTION.md`
-7. `DEVELOPMENT/STAGE_6_LOCK.md`
-8. `STAGE_6/SATSOP_GENERATION_PROMPT_PACK_V1.md`
-9. `STAGE_6/V2/SATSOP_GENERATION_PROMPT_PACK_V2.md`
-10. `STAGE_6/V2/TEST20_ERROR_LEDGER_V2.md`
-11. `STAGE_6/TEST20_V2/TEST20_V2_DIRECTORIAL_QC.md`
-12. `STAGE_6/V3/SATSOP_GENERATION_PROMPT_PACK_V3.md`
-13. `STAGE_6/V3/STAGE_6_V3_DIRECTORIAL_PREFLIGHT.md`
-14. `STAGE_6/TEST20_V3/TEST20_V3_DIRECTORIAL_QC.md`
-15. `STAGE_6/REMAINING_V4/SATSOP_REMAINING_V4_DIRECTORIAL_QC.md`
-16. `STAGE_6/FINAL28_V5/SATSOP_FINAL28_V5_DIRECTORIAL_QC.md`
-17. `STAGE_6/FIX9_V6/FIX9_V6_DIRECTORIAL_QC.md`
+Final master QC: **PASS**
 
-## Episode rule
+Thumbnail:
+- `PUBLISHING/SATSOP_THUMBNAIL_FINAL.png`
+- **74% BUILT. / NEVER USED.**
+- owner/Codex final;
+- thumbnail SHA256 not mirrored in Git yet.
 
-**Two reactors, two financing systems, two different endings.**
+Publishing metadata, description, credits and release checklist live in `PUBLISHING/`.
 
-Never collapse WNP-3 and WNP-5 into one cancellation story. WNP-5 was terminated with Project 4 in January 1982; WNP-3 was suspended in July 1983, preserved for possible completion, and terminated in 1994.
-
-## Production controls
-
-- GitHub and this episode's canonical handoff are project memory.
-- Research claims require traceable primary or official sources.
-- Source availability does not imply reuse permission; visual rights must be logged separately.
-- No video generation under the channel-wide rule.
-- No paid generation before the approved script, exact VO timing, visual beat map, source/generate/GFX classification, prompt pack, count, and budget.
-- Generated material must be labeled `AI RECONSTRUCTION`; verified period material may be labeled `HISTORICAL SOURCE` only while it is actually on screen.
-- Nothing becomes `FINAL`, `APPROVED`, or `UPLOAD_MASTER` without explicit user approval and the required QC gates.
-
-## Stage 8 correction
-
-The first Remotion rough cut exposed 35 hand-built schematic inserts that do not meet the intended generated-documentary visual standard. All 35 now have individual replacement prompts. The `AI RECONSTRUCTION` badge has been removed from the Remotion source. The existing render remains superseded until replacement generation, QC, remapping and rerender are complete.
-
-## Generated replacement pass complete
-
-All 35 hand-built schematic inserts were replaced with generated photographic documentary scenes. The active timeline contains 97 generated images and 12 licensed current-source images, with zero editorial SVG/GFX cards and zero Remotion document cards. After directorial approval, 33 upper-left factual editorial cards were added in the channel's established style. The first picture lock was reopened after its uniform push-in treatment was rejected. `REMOTION_V1/out/SATSOP_MOTION_REVIEW_V4_CAPTIONS_HIA.mp4` is the current technically passed review cut. It preserves the approved narration bit-for-bit, corrects the burned-caption transcription defects, uses continuous 30 fps timestamps, and includes the canonical 20-second HIA end screen. There is no music.
+Read:
+- `CURRENT_STATUS_HANDOFF.md`
+- `../CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md`

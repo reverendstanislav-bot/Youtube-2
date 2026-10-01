@@ -1,33 +1,26 @@
-# Hidden Industrial America — Lake Peigneur
+# Hidden Industrial America — Episode 05 — Lake Peigneur
 
-Episode 5 of **Hidden Industrial America**.
+Episode 05 covers the 1980 Lake Peigneur / Jefferson Island salt-mine inundation in Louisiana.
 
 ## Current state
 
-**RESEARCH / DOCUMENTARY DEVELOPMENT — NO TTS / NO GENERATION / NO EDIT**
+**COMPLETE / OWNER-CODEX FINAL / READY FOR PUBLICATION**
 
-Topic:
-**Lake Peigneur / Jefferson Island mine inundation — November 20, 1980**
+The final Codex edit is complete.
 
-Core story:
-A surface oil-drilling operation and an underground salt mine became physically connected beneath a shallow Louisiana lake. Once water entered the salt workings, the failure became self-amplifying: freshwater attacked the salt structure, the lake drained toward the mine, shoreline failed, the Delcambre Canal reversed, and the entire landscape changed.
+The final Codex video filename + SHA256 are not yet mirrored into Git. This is a release-metadata mirror gap only and does not reopen production.
 
-The strongest version of this film is **not** a simplified "someone used the wrong coordinates" story. The official MSHA investigation documented the inundation in detail but explicitly said the precise cause could not be determined because the mine could not be inspected and the surviving evidence was circumstantial.
+Locked thumbnail:
+`THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`
 
-## Channel fit
+Headline:
+**THE LAKE / DISAPPEARED**
 
-This episode belongs in HIA because it combines:
-- hidden underground infrastructure;
-- oil exploration;
-- salt mining;
-- geology;
-- industrial systems occupying the same physical space;
-- a catastrophic chain reaction;
-- a remarkable emergency evacuation;
-- long-term transformation of an industrial landscape.
+Thumbnail SHA256:
+`4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2`
 
-## Production order
+Read:
+- `CURRENT_STATUS_HANDOFF.md`
+- `../CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md`
 
-Research / evidence / source ledger → factual controls → documentary angle → packaging / retention → sourced script V1 → fact check → directorial rewrite → TTS preflight → explicit spend approval → VO → exact timing → visual beat map → archive/source plan → generation-gap analysis → prompt pack → exact image budget → explicit approval → assets → Remotion picture → captions → review → RC → QC → upload master.
-
-Read `CURRENT_STATUS_HANDOFF.md` before editing.
+All earlier research / Stage 8 / prompt-generation / next-step language is historical and superseded as current-state information.
