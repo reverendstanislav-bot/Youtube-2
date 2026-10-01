@@ -1,5 +1,9 @@
 # Chicago R15 Smooth Remotion review
-Status: REVIEW ONLY — USER VISUAL APPROVAL REQUIRED.
+
+Status: **SUPERSEDED AS CURRENT STATE — SEE CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md**
+
+Historical note: this file records the R15 review checkpoint before owner/Codex finalization. It is retained for audit history only.
+
 - Derived from current R14 editorial data.
 - Remotion is the primary picture compositor.
 - Adjacent same-asset R14 segments are merged into continuous visual groups.

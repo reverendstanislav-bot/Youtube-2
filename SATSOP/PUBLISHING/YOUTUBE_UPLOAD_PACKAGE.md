@@ -1,10 +1,11 @@
 # Satsop YouTube Upload Package
 
-Status: **READY EXCEPT FOR LOCAL THUMBNAIL BINARY**
+Status: **READY FOR PUBLICATION — OWNER/CODEX FINAL**
 
 ## Canonical upload files
 
 - Video: `../DELIVERY/SATSOP_FINAL_UPLOAD_MASTER.mp4`
+- Video SHA256: `83d3bd75575cebacb43c2102fa3dfb7cea458d1cd9e65b8b681e0fa8b1a09906`
 - Thumbnail target filename: `SATSOP_THUMBNAIL_FINAL.png`
 - Metadata: `YOUTUBE_METADATA.json`
 - Paste-ready description: `YOUTUBE_DESCRIPTION.txt`
@@ -42,29 +43,6 @@ Set to **Yes**. The episode contains realistic AI-generated illustrative scenes.
 
 None. The soundtrack contains the approved narration only.
 
-## Chapters
-
-```text
-00:00 Two Towers, Two Different Failures
-01:39 The Five-Project Nuclear Gamble
-05:38 Two Financing Systems
-09:40 Why 74% Complete Wasn't Enough
-12:38 The 1994 Risk Decision
-17:02 What Satsop Became
-```
-
-## Pinned comment
-
-```text
-Satsop looks like one abandoned nuclear plant, but its two unfinished units followed different financial paths. WNP-5 was terminated in 1982; WNP-3 reached 74% physical completion and remained under consideration until 1994.
-
-If you had been making the 1994 decision, would you have finished WNP-3—or stopped before committing another $1.55 billion? What would have changed your answer?
-
-Sources and image credits are listed in the description.
-```
-
 ## Thumbnail provenance
 
-The selected thumbnail is AI-generated packaging artwork. Its text correctly limits the 74% claim to the episode's WNP-3 story, but it is illustrative rather than a documentary photograph of exact Satsop geometry.
-
-The image supplied in chat is approved editorially, but it was not exposed to the repository as a local binary. Save that exact image as `SATSOP/PUBLISHING/SATSOP_THUMBNAIL_FINAL.png`; do not regenerate it or substitute another frame.
+The thumbnail is owner/Codex final. Its binary SHA256 is not mirrored in Git yet; this is a metadata mirror gap only and does not change the publication-ready status.

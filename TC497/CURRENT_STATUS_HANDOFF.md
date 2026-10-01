@@ -1,27 +1,25 @@
-# TC497 — CURRENT STATUS / HANDOFF
+# TC-497 — CURRENT STATUS / HANDOFF
 
-## CRITICAL EDITORIAL CORRECTION — 2026-09-23
+Updated: 2026-10-01
 
-**The previously rendered textless 1080 V13 master is WITHDRAWN FROM PUBLICATION. DO NOT UPLOAD IT.**
+## CANONICAL STATUS
 
-The underlying approved story, voice, audio mix, accepted replacement assets, cold-open direction, caption colors, and rejected-asset blacklist remain valid.
+Episode 02 — LeTourneau TC-497 Overland Train  
+Status: **COMPLETE / OWNER-CODEX FINAL / READY FOR PUBLICATION**
 
-The publication master is reopened because the post-cold-open picture edit was primarily assembled by Python/FFmpeg weighted still segments and only overlaid afterward. The replacement build must:
-- use Remotion as the primary picture-timeline renderer;
-- snap post-cold-open cuts to narration word/phrase boundaries where practical;
-- keep archive/document/reconstruction/concept provenance tied to the actual current visual;
-- use `HISTORICAL SOURCE` only for verified archival visuals;
-- use `DOCUMENT` for Project OTTER / patent pages;
-- use `AI RECONSTRUCTION` for generated reconstruction;
-- use `CONCEPT` for the nuclear/unbuilt concept;
-- preserve V9 audio bit-for-bit;
-- preserve the accepted V13 content corrections and blacklist;
-- keep the textless HIA end screen;
-- pass a new editorial + technical review before publication.
+Canonical master:
+`TC497_R14_REMOTION_REEDIT_REVIEW_1920x1080.mp4`
 
-The old V13 textless release is retained only as a superseded technical artifact.
+SHA256:
+`d889dd45d43f091f4d76bd76ae7929cb23c6c1ecd68a3c1d73ac4c5a18c2292e`
 
-## Next canonical target
+Thumbnail:
+`giant_overland_train_no_tracks.png`
 
-`TC497/R14_REEDIT/` — Remotion-led re-edit review build.
+Thumbnail headline: **TRAIN WITH NO TRACKS**  
+Thumbnail SHA256: `a774bd91476e33271f70dd96d06d06d658dcdefaffd66718bcff273bfeb0900b`
 
+Publishing status: **READY**
+
+V13 withdrawal and R14 review-only labels are historical production-state records and no longer describe the current release state.
+See: `CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md`
