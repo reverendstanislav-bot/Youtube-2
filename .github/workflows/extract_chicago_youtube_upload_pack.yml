@@ -42,3 +42,5 @@ jobs:
           name: chicago-youtube-upload-pack-source
           path: /tmp/chicago_youtube
           retention-days: 7
+
+# Re-extract canonical Chicago YouTube metadata: 2026-10-02
