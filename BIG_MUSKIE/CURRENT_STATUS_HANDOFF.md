@@ -25,42 +25,23 @@ SHA256:
 
 ### Final-master / upload-master status
 
-The missing original owner/Codex high-quality final binary is still **not physically mirrored in GitHub**.
+A physically verified high-quality reconstructed upload master now exists:
 
-The surviving low-bitrate file:
-`BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4`
-remains **REJECTED FOR DIRECT FINAL YOUTUBE UPLOAD**.
+`BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`
 
-A verified recovery upload binary has now been physically created:
-
-`BIG_MUSKIE_YOUTUBE_REPAIR_MASTER_1440P.mp4`
-
-- SHA256: `801367340431b179d102efd3b9c2d847dab904c8b202eb15a74a24a44eca537a`
-- size: 615,912,469 bytes
-- 2560×1440 / 25 fps
+- SHA256: `b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf`
+- size: 1,527,013,934 bytes
+- 1920×1080 / 25 fps
 - 35,660 frames
 - runtime: 23:46.400
+- video bitrate: ~8.37 Mb/s
+- AAC LC 48 kHz mono: ~188 kb/s
 - full decode: PASS / 0 errors
-- original AAC audio copied unchanged
+- canonical captions and canonical HIA end screen included
 
-Use this as the **current verified recovery YouTube upload copy** if the missing original high-quality Codex master cannot be recovered.
+Use this as the **current verified final upload master**.
+
+The missing original Codex-final archival binary remains a separate provenance gap; do not confuse that archival gap with upload readiness.
 
 See:
-- `BIG_MUSKIE/PUBLISHING/UPLOAD_MASTER_QC_2026-10-03.md`
-- `BIG_MUSKIE/PUBLISHING/YOUTUBE_REPAIR_MASTER_1440P_QC_2026-10-03.md`
-
-The repaired 615.9 MB binary is a conversation artifact and is not yet physically hosted by GitHub; verify any downloaded/local copy against the SHA256 above.
-
-### Thumbnail
-
-Locked HIA direction:
-- single Big Muskie hero image;
-- no collage / fake UI / orange block;
-- headline direction: **27 MILLION LB**.
-
-Final Codex thumbnail binary + SHA256 are not mirrored in Git yet.
-
-Publishing status: **READY**
-
-All older HOLD / canonical-render-not-started language is historical and superseded by owner confirmation of Codex completion.
-See: `CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md`
+`BIG_MUSKIE/PUBLISHING/FINAL_UPLOAD_MASTER_QC_2026-10-03.md`
