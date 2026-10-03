@@ -21,3 +21,24 @@ Final Codex high-quality master filename + SHA256 are not mirrored in Git yet.
 Do not promote that low-bitrate file as canonical. The next actual high-quality/repaired upload binary must be hashed and recorded before publication.
 
 Thumbnail: owner/Codex final; headline direction **27 MILLION LB**. Final binary/hash not mirrored yet.
+
+
+## 2026-10-03 verified recovery upload master
+
+A repaired upload copy was physically created from the surviving low-bitrate final copy:
+
+`BIG_MUSKIE_YOUTUBE_REPAIR_MASTER_1440P.mp4`
+
+- SHA256: `801367340431b179d102efd3b9c2d847dab904c8b202eb15a74a24a44eca537a`
+- size: 615,912,469 bytes
+- 2560×1440
+- 25 fps
+- 35,660 frames
+- runtime: 1426.400 s
+- full decode: PASS / 0 errors
+- original AAC audio copied unchanged
+
+QC:
+`YOUTUBE_REPAIR_MASTER_1440P_QC_2026-10-03.md`
+
+This is the current verified **recovery YouTube upload copy**, not the missing original archival-quality Codex-final binary. The MP4 itself is not physically mirrored in GitHub by this metadata commit; downloaded/local copies must match the SHA256 above.
