@@ -71,9 +71,17 @@ Thumbnail lock:
 - locked headline direction: `27 MILLION LB`;
 - final Codex thumbnail binary + SHA256 are **not mirrored in Git yet**.
 
-Publishing status: **EDIT COMPLETE / UPLOAD MASTER REPLACEMENT REQUIRED**.
+Publishing status: **EDIT COMPLETE / VERIFIED RECOVERY UPLOAD MASTER AVAILABLE**.
 
-2026-10-03 note: local `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` is not canonical and is rejected for final upload because of excessive compression (~1.14 Mb/s video bitrate). See `BIG_MUSKIE/PUBLISHING/UPLOAD_MASTER_QC_2026-10-03.md`.
+2026-10-03:
+- low-bitrate `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` remains rejected for direct final upload;
+- verified recovery upload copy: `BIG_MUSKIE_YOUTUBE_REPAIR_MASTER_1440P.mp4`;
+- SHA256: `801367340431b179d102efd3b9c2d847dab904c8b202eb15a74a24a44eca537a`;
+- 615,912,469 bytes / 2560×1440 / 25 fps / 23:46.400 / full decode PASS;
+- original high-quality Codex-final binary remains an archival gap;
+- repaired MP4 itself is not yet physically mirrored in GitHub.
+
+See `BIG_MUSKIE/PUBLISHING/YOUTUBE_REPAIR_MASTER_1440P_QC_2026-10-03.md`.
 
 ## Episode 04 — Satsop
 
