@@ -45,3 +45,9 @@ The missing original Codex-final archival binary remains a separate provenance g
 
 See:
 `BIG_MUSKIE/PUBLISHING/FINAL_UPLOAD_MASTER_QC_2026-10-03.md`
+
+GitHub Release:
+`https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/big-muskie-final-upload-master-20261003`
+
+Direct master asset:
+`https://github.com/reverendstanislav-bot/Youtube-2/releases/download/big-muskie-final-upload-master-20261003/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`
