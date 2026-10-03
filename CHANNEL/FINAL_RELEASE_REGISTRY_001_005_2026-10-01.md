@@ -71,17 +71,21 @@ Thumbnail lock:
 - locked headline direction: `27 MILLION LB`;
 - final Codex thumbnail binary + SHA256 are **not mirrored in Git yet**.
 
-Publishing status: **EDIT COMPLETE / VERIFIED RECOVERY UPLOAD MASTER AVAILABLE**.
+Publishing status: **READY — VERIFIED FINAL UPLOAD MASTER AVAILABLE**.
 
-2026-10-03:
-- low-bitrate `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` remains rejected for direct final upload;
-- verified recovery upload copy: `BIG_MUSKIE_YOUTUBE_REPAIR_MASTER_1440P.mp4`;
-- SHA256: `801367340431b179d102efd3b9c2d847dab904c8b202eb15a74a24a44eca537a`;
-- 615,912,469 bytes / 2560×1440 / 25 fps / 23:46.400 / full decode PASS;
-- original high-quality Codex-final binary remains an archival gap;
-- repaired MP4 itself is not yet physically mirrored in GitHub.
+2026-10-03 verified current upload master:
+- `BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`
+- SHA256: `b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf`
+- 1,527,013,934 bytes
+- 1920×1080 / 25 fps / 35,660 frames / 23:46.400
+- H.264 ~8.37 Mb/s
+- AAC LC 48 kHz mono ~188 kb/s
+- full decode PASS / 0 errors
+- captions and canonical end screen included
 
-See `BIG_MUSKIE/PUBLISHING/YOUTUBE_REPAIR_MASTER_1440P_QC_2026-10-03.md`.
+The rejected 215.6 MB low-bitrate copy remains non-canonical. The missing original Codex-final archival binary remains a provenance-only gap.
+
+See `BIG_MUSKIE/PUBLISHING/FINAL_UPLOAD_MASTER_QC_2026-10-03.md`.
 
 ## Episode 04 — Satsop
 
