@@ -10,15 +10,32 @@ Repository currently contains the following traceable media checkpoints:
 - canonical end/captions review: `BIG_MUSKIE_R3_REVIEW_CANONICAL_END_CAPTIONS_V2_960x540.mp4`
   - SHA256: `2c57bbd9ec9eea700008f47388323c41d9fa73c67c58ea360749e8ac2b742a11`
 
-Final Codex high-quality master filename + SHA256 are not mirrored in Git yet.
+Physical GitHub Release master is now available:
 
-2026-10-03 upload-master QC:
-- local `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` = **REJECT FOR FINAL YOUTUBE UPLOAD**
-- 1920×1080 / 25 fps, but only ~1.14 Mb/s video bitrate
-- SHA256: `ec6a8d3f4ab4091af4f1267b3dc22bb3d8968eb1b4e1dcef9217f522a52ae8ff`
-- detailed QC: `UPLOAD_MASTER_QC_2026-10-03.md`
+`BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`
 
-Do not promote that low-bitrate file as canonical. The next actual high-quality/repaired upload binary must be hashed and recorded before publication.
+- SHA256: `b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf`
+- size: 1,527,013,934 bytes
+- 1920×1080 / 25 fps
+- 35,660 frames
+- runtime: 23:46.400
+- H.264 ~8.37 Mb/s
+- AAC LC 48 kHz mono ~188 kb/s
+- full decode: PASS / 0 errors
+- canonical captions + HIA end screen included
+
+GitHub Release:
+`https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/big-muskie-final-upload-master-20261003`
+
+Direct master asset:
+`https://github.com/reverendstanislav-bot/Youtube-2/releases/download/big-muskie-final-upload-master-20261003/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`
+
+QC:
+`FINAL_UPLOAD_MASTER_QC_2026-10-03.md`
+
+The older local `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` (215.6 MB / ~1.14 Mb/s) remains REJECTED and non-canonical.
+
+The earlier 1440p recovery copy is superseded for publication by `BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`.
 
 Thumbnail: owner/Codex final; headline direction **27 MILLION LB**. Final binary/hash not mirrored yet.
 
