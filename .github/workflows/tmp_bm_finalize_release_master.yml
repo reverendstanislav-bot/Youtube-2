@@ -4,8 +4,10 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/tmp_bm_finalize_release_master.yml'
+
 permissions:
   contents: write
+
 jobs:
   finalize:
     runs-on: ubuntu-latest
@@ -24,6 +26,7 @@ jobs:
           gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern 'BIG_MUSKIE_FINAL_UPLOAD_MASTER.part*' --dir parts
           count="$(find parts -maxdepth 1 -type f -name 'BIG_MUSKIE_FINAL_UPLOAD_MASTER.part*' | wc -l)"
           test "$count" -eq 16
+
       - name: Reassemble and verify exact binary
         shell: bash
         run: |
@@ -33,26 +36,32 @@ jobs:
           test "$actual_size" = "$EXPECTED_SIZE"
           echo "$EXPECTED_SHA  BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4" | sha256sum -c -
           printf '%s  %s\n' "$EXPECTED_SHA" "BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4" > BIG_MUSKIE_FINAL_UPLOAD_MASTER.sha256
-          cat > BIG_MUSKIE_FINAL_UPLOAD_MASTER_QC.txt <<'EOF'
-BIG MUSKIE — FINAL UPLOAD MASTER
-VERIFIED 2026-10-03
+          printf '%s\n' \
+            'BIG MUSKIE — FINAL UPLOAD MASTER' \
+            'VERIFIED 2026-10-03' \
+            '' \
+            'Filename: BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4' \
+            'Size: 1,527,013,934 bytes' \
+            'SHA256: b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf' \
+            'Video: 1920x1080, 25 fps, H.264, ~8.37 Mb/s' \
+            'Frames: 35,660' \
+            'Runtime: 23:46.400' \
+            'Audio: AAC LC, 48 kHz mono, ~188 kb/s' \
+            'Full decode QC performed before release staging: PASS / 0 errors' \
+            'Canonical captions included.' \
+            'Canonical HIA end screen included from 23:34.040.' \
+            > BIG_MUSKIE_FINAL_UPLOAD_MASTER_QC.txt
 
-Filename: BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4
-Size: 1,527,013,934 bytes
-SHA256: b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf
-Video: 1920x1080, 25 fps, H.264, ~8.37 Mb/s
-Frames: 35,660
-Runtime: 23:46.400
-Audio: AAC LC, 48 kHz mono, ~188 kb/s
-Full decode QC performed before release staging: PASS / 0 errors
-Canonical captions included.
-Canonical HIA end screen included from 23:34.040.
-EOF
       - name: Upload final master and verification files
         shell: bash
         run: |
           set -euo pipefail
-          gh release upload "$TAG"             BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4             BIG_MUSKIE_FINAL_UPLOAD_MASTER.sha256             BIG_MUSKIE_FINAL_UPLOAD_MASTER_QC.txt             --repo "$GITHUB_REPOSITORY" --clobber
+          gh release upload "$TAG" \
+            BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 \
+            BIG_MUSKIE_FINAL_UPLOAD_MASTER.sha256 \
+            BIG_MUSKIE_FINAL_UPLOAD_MASTER_QC.txt \
+            --repo "$GITHUB_REPOSITORY" --clobber
+
       - name: Verify final release asset server-side
         shell: bash
         run: |
@@ -64,15 +73,21 @@ EOF
           test "$size" = "$EXPECTED_SIZE"
           test "$digest" = "sha256:$EXPECTED_SHA"
           test "$state" = "uploaded"
+
       - name: Remove staging parts from release
         shell: bash
         run: |
           set -euo pipefail
-          gh api "repos/$GITHUB_REPOSITORY/releases/tags/$TAG" |             jq -r '.assets[] | select(.name|test("BIG_MUSKIE_FINAL_UPLOAD_MASTER\\.part[0-9]+$")) | .id' |             while read -r id; do
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/$TAG" | \
+            jq -r '.assets[] | select(.name|test("BIG_MUSKIE_FINAL_UPLOAD_MASTER\\.part[0-9]+$")) | .id' | \
+            while read -r id; do
               gh api --method DELETE "repos/$GITHUB_REPOSITORY/releases/assets/$id"
             done
+
       - name: Finalize release notes
         shell: bash
         run: |
           set -euo pipefail
-          gh release edit "$TAG" --repo "$GITHUB_REPOSITORY"             --title "Big Muskie — Final Upload Master"             --notes "Physical final upload master is stored in this GitHub Release. Filename: BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4. Size: 1,527,013,934 bytes. SHA256: b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf. 1920x1080, 25 fps, 23:46.400. Use this release asset for Codex/local transfer."
+          gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" \
+            --title "Big Muskie — Final Upload Master" \
+            --notes "Physical final upload master is stored in this GitHub Release. Filename: BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4. Size: 1,527,013,934 bytes. SHA256: b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf. 1920x1080, 25 fps, 23:46.400. Use this release asset for Codex/local transfer."
