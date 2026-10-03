@@ -50,10 +50,10 @@ jobs:
               punct=buf[-1]["w"].rstrip().endswith((".", "!", "?", ";", ":"))
               comma=buf[-1]["w"].rstrip().endswith(",")
               if len(buf)>=7 or chars>=48 or span>=2.45 or (punct and len(buf)>=3) or (comma and len(buf)>=5):
-                  cues.append((buf[0]["s"], min(1222.3,buf[-1]["e"]+0.08), " ".join(x["w"] for x in buf)))
+                  cues.append((buf[0]["s"], buf[-1]["e"], " ".join(x["w"] for x in buf)))
                   buf=[]
           if buf:
-              cues.append((buf[0]["s"], min(1222.3,buf[-1]["e"]+0.08), " ".join(x["w"] for x in buf)))
+              cues.append((buf[0]["s"], buf[-1]["e"], " ".join(x["w"] for x in buf)))
 
           def ts(sec):
               ms=round(sec*1000)
