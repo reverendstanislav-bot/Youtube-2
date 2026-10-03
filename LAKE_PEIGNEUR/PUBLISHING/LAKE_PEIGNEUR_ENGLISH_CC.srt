@@ -1,0 +1,1335 @@
+1
+00:00:00,000 --> 00:00:01,920
+On November 20, 1980,
+
+2
+00:00:02,680 --> 00:00:05,380
+a drilling crew on Lake Peigneur had a problem.
+
+3
+00:00:06,120 --> 00:00:07,860
+More than a thousand feet below them,
+
+4
+00:00:08,480 --> 00:00:10,500
+a salt mine had a different one.
+
+5
+00:00:11,100 --> 00:00:13,880
+At the surface, the drill assembly was stuck at
+
+6
+00:00:13,880 --> 00:00:15,820
+roughly twelve hundred and twenty-eight feet.
+
+7
+00:00:16,555 --> 00:00:20,060
+Underground, workers were finding water where water should never
+
+8
+00:00:20,060 --> 00:00:20,620
+have been.
+
+9
+00:00:21,420 --> 00:00:22,460
+In a salt mine.
+
+10
+00:00:22,825 --> 00:00:25,200
+Fifty-two people were below ground.
+
+11
+00:00:25,980 --> 00:00:28,660
+Seven more were on the drilling platform above them.
+
+12
+00:00:29,160 --> 00:00:31,500
+Within hours, the platform would be gone.
+
+13
+00:00:32,400 --> 00:00:34,060
+Part of the shoreline would be gone.
+
+14
+00:00:34,760 --> 00:00:37,300
+And the canal connected to the lake would begin
+
+15
+00:00:37,300 --> 00:00:39,000
+flowing in the wrong direction.
+
+16
+00:00:40,000 --> 00:00:41,060
+Everyone would survive.
+
+17
+00:00:41,940 --> 00:00:45,560
+But the industrial landscape beneath Jefferson Island would
+
+18
+00:00:45,560 --> 00:00:46,520
+never be the same.
+
+19
+00:00:47,640 --> 00:00:50,200
+What happened here is often reduced to one bad
+
+20
+00:00:50,200 --> 00:00:51,120
+drilling mistake.
+
+21
+00:00:51,960 --> 00:00:53,980
+The real story is larger.
+
+22
+00:00:53,980 --> 00:00:57,740
+It is about two industrial systems occupying
+
+23
+00:00:57,740 --> 00:00:59,020
+the same geology
+
+24
+00:00:59,800 --> 00:01:03,080
+and what happened when the boundary between them disappeared.
+
+25
+00:01:04,180 --> 00:01:06,320
+Lake Peigneur looked simple from the surface.
+
+26
+00:01:06,860 --> 00:01:08,360
+A shallow Louisiana lake.
+
+27
+00:01:09,060 --> 00:01:11,360
+Trees and gardens around Jefferson Island.
+
+28
+00:01:12,020 --> 00:01:14,460
+A drilling platform floating on the water.
+
+29
+00:01:15,260 --> 00:01:16,820
+But the landscape was
+
+30
+00:01:17,580 --> 00:01:17,830
+three-dimensional.
+
+31
+00:01:18,590 --> 00:01:22,580
+Jefferson Island rises above the coastal plain because
+
+32
+00:01:22,580 --> 00:01:25,920
+of a salt dome a mass of ancient salt
+
+33
+00:01:25,920 --> 00:01:28,540
+pushed upward through younger sediments.
+
+34
+00:01:29,340 --> 00:01:33,180
+That hidden salt created industrial value long before
+
+35
+00:01:33,180 --> 00:01:33,800
+the disaster.
+
+36
+00:01:34,720 --> 00:01:36,740
+For decades, it had been mined.
+
+37
+00:01:37,740 --> 00:01:41,540
+By 1980, Diamond Crystal Salt Company operated
+
+38
+00:01:41,540 --> 00:01:43,900
+a room-and-pillar mine beneath the area.
+
+39
+00:01:44,500 --> 00:01:48,100
+In a room-and-pillar mine, workers remove large volumes
+
+40
+00:01:48,100 --> 00:01:51,860
+of material while deliberately leaving columns behind to
+
+41
+00:01:51,860 --> 00:01:52,680
+support the roof.
+
+42
+00:01:53,540 --> 00:01:57,180
+That means the underground is not one giant empty
+
+43
+00:01:57,180 --> 00:01:57,580
+cave.
+
+44
+00:01:58,400 --> 00:02:00,060
+It is a network of rooms,
+
+45
+00:02:00,800 --> 00:02:00,820
+pillars,
+
+46
+00:02:01,660 --> 00:02:03,320
+passages and working levels.
+
+47
+00:02:04,420 --> 00:02:07,268
+Federal records describe workings around eight hundred,
+
+48
+00:02:07,369 --> 00:02:10,800
+one thousand, thirteen hundred and fifteen hundred feet
+
+49
+00:02:10,800 --> 00:02:11,780
+below the surface.
+
+50
+00:02:12,500 --> 00:02:15,380
+At the same time, the same salt structure made
+
+51
+00:02:15,380 --> 00:02:18,160
+the area interesting to the petroleum industry.
+
+52
+00:02:19,080 --> 00:02:21,200
+Oil can accumulate around salt structures.
+
+53
+00:02:22,120 --> 00:02:24,760
+Texaco held an oil lease beneath Lake Peigneur.
+
+54
+00:02:25,680 --> 00:02:28,740
+Wilson Brothers was drilling the exploratory well from a
+
+55
+00:02:28,740 --> 00:02:29,620
+floating platform.
+
+56
+00:02:30,420 --> 00:02:33,360
+So one industry was moving horizontally through the salt
+
+57
+00:02:33,360 --> 00:02:33,900
+underground.
+
+58
+00:02:34,800 --> 00:02:37,460
+Another was drilling vertically from the lake above.
+
+59
+00:02:38,220 --> 00:02:41,700
+Each could work safely only if the geometry separating
+
+60
+00:02:41,700 --> 00:02:43,460
+them remained understood.
+
+61
+00:02:44,480 --> 00:02:46,980
+And there was one physical rule that made that
+
+62
+00:02:46,980 --> 00:02:48,140
+separation critical.
+
+63
+00:02:49,060 --> 00:02:51,240
+Fresh water dissolves salt.
+
+64
+00:02:52,100 --> 00:02:54,880
+That morning, the drill assembly would not come free.
+
+65
+00:02:55,760 --> 00:02:58,963
+Later reconstructions placed it at roughly twelve hundred and
+
+66
+00:02:59,017 --> 00:03:00,040
+twenty-eight feet
+
+67
+00:03:00,820 --> 00:03:04,520
+close enough to the mine's thirteen-hundred-foot level to become
+
+68
+00:03:04,520 --> 00:03:06,240
+central to the investigation.
+
+69
+00:03:07,180 --> 00:03:08,660
+Then the problem changed.
+
+70
+00:03:09,600 --> 00:03:11,120
+Water began entering the mine.
+
+71
+00:03:12,040 --> 00:03:15,760
+For the people underground, that transformed the situation immediately.
+
+72
+00:03:17,060 --> 00:03:20,180
+Salt mines are built to manage normal underground conditions.
+
+73
+00:03:20,800 --> 00:03:22,800
+They are not designed to accept a lake.
+
+74
+00:03:23,680 --> 00:03:26,340
+And because the surrounding structure itself was soluble,
+
+75
+00:03:27,000 --> 00:03:29,620
+no one could assume that an opening would remain
+
+76
+00:03:29,620 --> 00:03:32,920
+the same size once water began moving through it.
+
+77
+00:03:33,410 --> 00:03:36,940
+At that point, nobody underground needed a
+
+78
+00:03:36,940 --> 00:03:38,980
+final answer about maps,
+
+79
+00:03:39,920 --> 00:03:41,720
+coordinates or legal responsibility.
+
+80
+00:03:42,720 --> 00:03:44,080
+They needed time.
+
+81
+00:03:45,200 --> 00:03:48,160
+What exactly connected the drilling operation to the mine
+
+82
+00:03:48,530 --> 00:03:51,400
+would become the great argument after the disaster.
+
+83
+00:03:52,220 --> 00:03:54,920
+The connection itself was now the emergency.
+
+84
+00:03:55,900 --> 00:03:59,655
+The Mine Safety and Health Administration later recorded fifty-two
+
+85
+00:03:59,900 --> 00:04:01,420
+people underground.
+
+86
+00:04:02,280 --> 00:04:04,780
+They were not standing together beside an exit.
+
+87
+00:04:05,480 --> 00:04:08,760
+They were working inside a mine spread through multiple
+
+88
+00:04:08,760 --> 00:04:09,980
+levels and workings.
+
+89
+00:04:10,900 --> 00:04:13,040
+Now water was entering that system.
+
+90
+00:04:13,320 --> 00:04:16,020
+The mine had only one safe strategy left:
+
+91
+00:04:16,620 --> 00:04:20,040
+move people out before flooding, ground failure
+
+92
+00:04:20,040 --> 00:04:23,520
+or loss of access turned distance into
+
+93
+00:04:23,520 --> 00:04:24,020
+a trap.
+
+94
+00:04:25,320 --> 00:04:27,260
+Workers began moving toward the exit.
+
+95
+00:04:28,260 --> 00:04:31,000
+Supervisors and crew members had to account for people
+
+96
+00:04:31,000 --> 00:04:33,300
+who had been distributed through the workings.
+
+97
+00:04:34,460 --> 00:04:35,520
+Some had to be found.
+
+98
+00:04:36,380 --> 00:04:38,640
+Some had to travel through a mine that was
+
+99
+00:04:38,640 --> 00:04:42,140
+changing from a workplace into an emergency scene.
+
+100
+00:04:43,220 --> 00:04:46,820
+The official investigation later recognized several employees
+
+101
+00:04:46,820 --> 00:04:50,040
+for leadership and search actions during the evacuation.
+
+102
+00:04:51,300 --> 00:04:55,120
+That matters because successful evacuations can look inevitable
+
+103
+00:04:55,120 --> 00:04:56,200
+after the fact.
+
+104
+00:04:56,820 --> 00:04:57,440
+They are not.
+
+105
+00:04:58,320 --> 00:05:00,960
+The workers did not know how large the connection
+
+106
+00:05:00,960 --> 00:05:01,660
+would become.
+
+107
+00:05:02,520 --> 00:05:04,580
+They did not know how quickly the inflow would
+
+108
+00:05:04,580 --> 00:05:04,920
+grow.
+
+109
+00:05:05,740 --> 00:05:08,420
+They only knew that water was entering a salt
+
+110
+00:05:08,420 --> 00:05:09,960
+mine beneath a lake.
+
+111
+00:05:10,700 --> 00:05:12,840
+And less than an hour after the inflow was
+
+112
+00:05:12,840 --> 00:05:15,720
+discovered, all fifty-two people were out.
+
+113
+00:05:16,560 --> 00:05:19,400
+No one underground was injured in the inundation.
+
+114
+00:05:20,360 --> 00:05:23,340
+The spectacle of Lake Peigneur can make that fact
+
+115
+00:05:23,340 --> 00:05:25,420
+feel secondary. It is not.
+
+116
+00:05:26,120 --> 00:05:28,300
+Before the lake became a national story,
+
+117
+00:05:28,680 --> 00:05:31,705
+this was a mine emergency with more than fifty
+
+118
+00:05:31,780 --> 00:05:32,960
+people below ground.
+
+119
+00:05:33,460 --> 00:05:35,380
+And the emergency plan worked.
+
+120
+00:05:36,420 --> 00:05:40,020
+Above them, the seven-man drilling crew also got clear.
+
+121
+00:05:40,960 --> 00:05:43,380
+Then the drilling platform disappeared.
+
+122
+00:05:44,380 --> 00:05:47,020
+That was the point where the failure stopped looking
+
+123
+00:05:47,020 --> 00:05:50,660
+like a problem inside an industrial system and
+
+124
+00:05:50,660 --> 00:05:53,960
+started looking like the landscape itself was moving.
+
+125
+00:05:54,780 --> 00:05:57,560
+The lake began pulling toward the failure zone.
+
+126
+00:05:58,700 --> 00:06:02,480
+Floating equipment, boats, trees and shoreline material
+
+127
+00:06:02,480 --> 00:06:03,740
+moved with it.
+
+128
+00:06:04,420 --> 00:06:07,440
+The opening at the surface expanded as the ground
+
+129
+00:06:07,440 --> 00:06:08,540
+beneath it failed.
+
+130
+00:06:09,540 --> 00:06:12,380
+Water was not simply draining from a stable bowl.
+
+131
+00:06:13,000 --> 00:06:14,900
+The bowl was changing.
+
+132
+00:06:15,920 --> 00:06:18,700
+The edge of the lake was collapsing into the
+
+133
+00:06:18,700 --> 00:06:19,180
+process.
+
+134
+00:06:20,065 --> 00:06:20,315
+Post-disaster
+
+135
+00:06:21,200 --> 00:06:24,640
+geological work put the permanent land loss at
+
+136
+00:06:24,640 --> 00:06:26,420
+roughly sixty-eight acres.
+
+137
+00:06:27,520 --> 00:06:30,480
+That number is easier to understand if you imagine
+
+138
+00:06:30,480 --> 00:06:33,500
+the shoreline as part of the machinery of the
+
+139
+00:06:33,500 --> 00:06:34,000
+accident.
+
+140
+00:06:34,940 --> 00:06:38,000
+Every section of ground lost around the opening changed
+
+141
+00:06:38,000 --> 00:06:39,280
+the shape of the basin.
+
+142
+00:06:40,200 --> 00:06:43,340
+Every change in shape gave the moving water a
+
+143
+00:06:43,340 --> 00:06:43,980
+new path.
+
+144
+00:06:45,040 --> 00:06:48,000
+What had begun as a drilling emergency was now
+
+145
+00:06:48,000 --> 00:06:49,740
+reshaping Jefferson Island.
+
+146
+00:06:50,960 --> 00:06:54,280
+A normal pipe stays roughly the same size while
+
+147
+00:06:54,280 --> 00:06:55,860
+water passes through it.
+
+148
+00:06:56,400 --> 00:06:59,060
+A failure through salt does not have to.
+
+149
+00:06:59,920 --> 00:07:02,100
+Fresh water contacts the salt surface.
+
+150
+00:07:03,180 --> 00:07:05,000
+Salt dissolves into the flow.
+
+151
+00:07:05,940 --> 00:07:07,640
+A narrow path can enlarge.
+
+152
+00:07:08,920 --> 00:07:10,400
+Loss of salt can weaken the roof,
+
+153
+00:07:10,880 --> 00:07:12,680
+pillars or surrounding ground.
+
+154
+00:07:13,560 --> 00:07:15,720
+That creates more space for water.
+
+155
+00:07:16,460 --> 00:07:18,840
+More water exposes more salt.
+
+156
+00:07:19,620 --> 00:07:21,120
+And the cycle can accelerate.
+
+157
+00:07:22,660 --> 00:07:26,540
+Flow. Dissolution. Enlargement and failure.
+
+158
+00:07:27,300 --> 00:07:28,040
+More flow.
+
+159
+00:07:29,080 --> 00:07:31,060
+The crucial idea is feedback.
+
+160
+00:07:32,180 --> 00:07:34,920
+The failure was not merely carrying water through a
+
+161
+00:07:34,920 --> 00:07:35,760
+fixed opening.
+
+162
+00:07:36,580 --> 00:07:39,560
+The water could help enlarge the system that was
+
+163
+00:07:39,560 --> 00:07:40,520
+carrying the water.
+
+164
+00:07:41,280 --> 00:07:44,860
+That is why the phrase "one small hole drained
+
+165
+00:07:44,860 --> 00:07:47,800
+the lake" misses the engineering story.
+
+166
+00:07:48,740 --> 00:07:51,100
+Whatever the initiating pathway looked like,
+
+167
+00:07:51,460 --> 00:07:53,620
+it did not have to stay that size.
+
+168
+00:07:54,420 --> 00:07:57,700
+The accident was modifying the system while the system
+
+169
+00:07:57,700 --> 00:07:58,340
+was failing.
+
+170
+00:07:59,500 --> 00:08:01,440
+Once enough water was moving underground,
+
+171
+00:08:02,140 --> 00:08:03,680
+gravity supplied the energy.
+
+172
+00:08:04,500 --> 00:08:07,600
+The lake itself became part of the failure mechanism.
+
+173
+00:08:08,400 --> 00:08:10,620
+Water rushed toward the opening.
+
+174
+00:08:11,780 --> 00:08:12,920
+Ground continued to collapse.
+
+175
+00:08:13,800 --> 00:08:17,320
+The receiving space was not a concrete reservoir
+
+176
+00:08:17,320 --> 00:08:18,640
+with fixed walls.
+
+177
+00:08:19,340 --> 00:08:22,560
+It was a mine carved through a soluble salt
+
+178
+00:08:22,560 --> 00:08:26,200
+structure. The famous whirlpool was only
+
+179
+00:08:26,200 --> 00:08:27,380
+the surface expression.
+
+180
+00:08:28,240 --> 00:08:31,980
+Below it, water was entering an industrial void built
+
+181
+00:08:31,980 --> 00:08:33,680
+across multiple levels.
+
+182
+00:08:34,460 --> 00:08:37,920
+Above it, the lake was losing both water and
+
+183
+00:08:37,920 --> 00:08:38,540
+shoreline.
+
+184
+00:08:39,420 --> 00:08:41,420
+Those two systems were now coupled.
+
+185
+00:08:42,100 --> 00:08:44,120
+The faster the lake fed the failure,
+
+186
+00:08:44,600 --> 00:08:47,500
+the more the failure could change the route available
+
+187
+00:08:47,500 --> 00:08:48,380
+to the lake.
+
+188
+00:08:49,000 --> 00:08:52,580
+The relationship between water, mine, rock and
+
+189
+00:08:52,580 --> 00:08:55,940
+air was being rewritten in real time.
+
+190
+00:08:56,840 --> 00:08:58,180
+And as the lake level dropped,
+
+191
+00:08:58,700 --> 00:09:01,940
+the consequences reached beyond Jefferson Island.
+
+192
+00:09:02,480 --> 00:09:05,800
+They changed the direction of another body of water.
+
+193
+00:09:06,600 --> 00:09:10,380
+Lake Peigneur connected southward through the Delcambre Canal
+
+194
+00:09:10,380 --> 00:09:12,220
+toward Vermilion Bay.
+
+195
+00:09:13,100 --> 00:09:16,820
+Under normal conditions, that connection carried water away
+
+196
+00:09:16,820 --> 00:09:17,480
+from the lake.
+
+197
+00:09:18,200 --> 00:09:21,300
+Now the lake had fallen so far that the
+
+198
+00:09:21,300 --> 00:09:22,980
+hydraulic relationship reversed.
+
+199
+00:09:23,680 --> 00:09:26,040
+The lake became the lower destination.
+
+200
+00:09:26,920 --> 00:09:28,860
+The canal began feeding it.
+
+201
+00:09:28,860 --> 00:09:32,700
+Water from the Gulf side moved inland toward
+
+202
+00:09:32,700 --> 00:09:33,800
+the emptied basin.
+
+203
+00:09:35,120 --> 00:09:38,540
+Historical Louisiana accounts describe what happened next as
+
+204
+00:09:38,540 --> 00:09:42,400
+a temporary waterfall roughly one hundred and fifty feet
+
+205
+00:09:42,400 --> 00:09:42,880
+high.
+
+206
+00:09:43,780 --> 00:09:46,080
+For a place as flat as coastal Louisiana,
+
+207
+00:09:46,540 --> 00:09:48,480
+the image is almost absurd.
+
+208
+00:09:49,160 --> 00:09:51,240
+A canal flowing the wrong way.
+
+209
+00:09:51,980 --> 00:09:53,360
+Salt water moving inland.
+
+210
+00:09:54,080 --> 00:09:57,740
+A temporary waterfall appearing where there had been no
+
+211
+00:09:57,740 --> 00:09:58,040
+cliff.
+
+212
+00:09:58,860 --> 00:10:01,300
+But the water was still obeying gravity.
+
+213
+00:10:02,180 --> 00:10:04,420
+The landscape had changed underneath it.
+
+214
+00:10:04,860 --> 00:10:06,680
+The canal had not moved on the map.
+
+215
+00:10:07,480 --> 00:10:10,300
+The lake had changed its elevation enough to reverse
+
+216
+00:10:10,300 --> 00:10:11,020
+the system.
+
+217
+00:10:11,820 --> 00:10:13,780
+When the major physical sequence ended,
+
+218
+00:10:14,260 --> 00:10:15,740
+the mine was inundated.
+
+219
+00:10:16,420 --> 00:10:18,020
+The drilling platform was gone.
+
+220
+00:10:18,720 --> 00:10:20,340
+The shoreline had been cut back.
+
+221
+00:10:21,040 --> 00:10:24,000
+The lake had been transformed from the shallow basin
+
+222
+00:10:24,000 --> 00:10:27,340
+that existed before the accident into a much deeper
+
+223
+00:10:27,340 --> 00:10:31,060
+one. The industrial system beneath it was finished.
+
+224
+00:10:31,780 --> 00:10:34,680
+But the most important number is not the final
+
+225
+00:10:34,680 --> 00:10:36,820
+depth. It is zero.
+
+226
+00:10:37,660 --> 00:10:38,600
+No human deaths.
+
+227
+00:10:39,280 --> 00:10:42,640
+All fifty-two people recorded underground escaped.
+
+228
+00:10:43,400 --> 00:10:45,820
+The seven drilling workers above them got clear.
+
+229
+00:10:46,520 --> 00:10:48,340
+That does not make the event small.
+
+230
+00:10:49,000 --> 00:10:51,220
+It makes the evacuation extraordinary.
+
+231
+00:10:51,940 --> 00:10:54,940
+An accident violent enough to erase part of a
+
+232
+00:10:54,940 --> 00:10:58,360
+shoreline, destroy a working mine and reverse a
+
+233
+00:10:58,360 --> 00:11:01,500
+canal ended without a human fatality.
+
+234
+00:11:02,360 --> 00:11:04,980
+By now, the natural question seems obvious.
+
+235
+00:11:05,860 --> 00:11:07,960
+Who put the drill in the wrong place?
+
+236
+00:11:08,800 --> 00:11:11,240
+That is where the popular version of Lake Peigneur
+
+237
+00:11:11,240 --> 00:11:13,600
+often becomes cleaner than the evidence.
+
+238
+00:11:14,440 --> 00:11:18,380
+A widely repeated story says a coordinate or surveying
+
+239
+00:11:18,380 --> 00:11:21,060
+error sent the well into the mine.
+
+240
+00:11:21,700 --> 00:11:25,240
+The official federal investigation did not close the case
+
+241
+00:11:25,240 --> 00:11:26,040
+that neatly.
+
+242
+00:11:26,900 --> 00:11:30,340
+After the inundation, the relevant mine workings could not
+
+243
+00:11:30,340 --> 00:11:32,280
+simply be entered and inspected.
+
+244
+00:11:33,040 --> 00:11:36,280
+The accident had destroyed access to the best evidence.
+
+245
+00:11:37,180 --> 00:11:39,340
+Critical physical information was underwater,
+
+246
+00:11:40,140 --> 00:11:41,440
+displaced or gone.
+
+247
+00:11:42,360 --> 00:11:46,160
+Federal mine-safety investigators reconstructed an estimated
+
+248
+00:11:46,385 --> 00:11:50,220
+drill-hole location near the mine's thirteen-hundred-foot level.
+
+249
+00:11:50,780 --> 00:11:54,560
+Diamond Crystal argued that the drilling operation had penetrated
+
+250
+00:11:54,560 --> 00:11:57,400
+the roof of an excavated mine room.
+
+251
+00:11:58,220 --> 00:12:00,900
+Other experts disputed that reconstruction.
+
+252
+00:12:01,960 --> 00:12:04,500
+More than two years later, during the settlement process,
+
+253
+00:12:05,040 --> 00:12:08,040
+experts were still disagreeing over whether the well had
+
+254
+00:12:08,040 --> 00:12:11,200
+entered the mined room in the way Diamond Crystal
+
+255
+00:12:11,200 --> 00:12:13,360
+alleged. That distinction matters.
+
+256
+00:12:14,220 --> 00:12:17,040
+Investigators could document the drilling operation.
+
+257
+00:12:17,740 --> 00:12:18,960
+They could document the mine.
+
+258
+00:12:19,580 --> 00:12:21,360
+They could document the inundation.
+
+259
+00:12:22,260 --> 00:12:24,820
+They could estimate where the well may have intersected
+
+260
+00:12:24,820 --> 00:12:25,900
+the underground system.
+
+261
+00:12:26,800 --> 00:12:30,400
+But the disaster had made the decisive physical scene
+
+262
+00:12:30,400 --> 00:12:31,420
+inaccessible.
+
+263
+00:12:32,600 --> 00:12:34,460
+So two statements can both be true.
+
+264
+00:12:35,080 --> 00:12:38,720
+The drilling operation and mine became hydraulically connected.
+
+265
+00:12:39,420 --> 00:12:42,920
+And the precise initiating technical error could not later
+
+266
+00:12:42,920 --> 00:12:44,500
+be established with certainty.
+
+267
+00:12:44,980 --> 00:12:46,820
+That is not a weakness in the story.
+
+268
+00:12:47,200 --> 00:12:49,880
+It is the reason evidence matters.
+
+269
+00:12:51,080 --> 00:12:53,100
+The uncertainty did not prevent lawsuits.
+
+270
+00:12:54,340 --> 00:12:57,468
+Diamond Crystal originally sued Texaco for two hundred and
+
+271
+00:12:57,516 --> 00:12:58,955
+sixty million dollars.
+
+272
+00:12:59,200 --> 00:13:00,540
+In 1983,
+
+273
+00:13:01,320 --> 00:13:05,200
+Diamond Crystal accepted a thirty-two-million-dollar settlement from
+
+274
+00:13:05,200 --> 00:13:06,880
+Texaco and Wilson Brothers.
+
+275
+00:13:07,980 --> 00:13:11,561
+Live Oak Gardens interests received twelve-point-eight million dollars
+
+276
+00:13:11,680 --> 00:13:14,560
+in a separate settlement involving the companies.
+
+277
+00:13:15,370 --> 00:13:17,440
+Those numbers resolved claims.
+
+278
+00:13:18,240 --> 00:13:20,360
+They did not restore the underground system.
+
+279
+00:13:21,040 --> 00:13:22,840
+They did not reopen the mine.
+
+280
+00:13:23,820 --> 00:13:25,980
+And they did not turn the settlement into a
+
+281
+00:13:25,980 --> 00:13:29,680
+scientific finding about one exact cause.
+
+282
+00:13:31,020 --> 00:13:34,562
+Louisiana appellate records later described approximately two
+
+283
+00:13:34,618 --> 00:13:38,120
+hundred and fifty Diamond Crystal employees being
+
+284
+00:13:38,120 --> 00:13:39,580
+laid off after the closure.
+
+285
+00:13:40,340 --> 00:13:43,440
+That is the quieter scale of the disaster.
+
+286
+00:13:44,200 --> 00:13:47,640
+The famous sequence the whirlpool, the collapsing
+
+287
+00:13:47,640 --> 00:13:51,140
+bank, the reversed canal lasted hours.
+
+288
+00:13:52,100 --> 00:13:54,620
+For the people whose livelihoods depended on the mine,
+
+289
+00:13:55,140 --> 00:13:58,740
+the consequences continued after the water stopped moving.
+
+290
+00:13:59,640 --> 00:14:01,800
+The disaster ended this salt mine.
+
+291
+00:14:02,540 --> 00:14:04,500
+It did not make the salt dome worthless.
+
+292
+00:14:05,780 --> 00:14:09,100
+Salt formations are also useful for storing pressurized natural
+
+293
+00:14:09,100 --> 00:14:12,060
+gas inside engineered caverns.
+
+294
+00:14:12,620 --> 00:14:16,340
+Today, Jefferson Island Storage Hub operates
+
+295
+00:14:16,340 --> 00:14:19,900
+as a salt-cavern natural-gas storage facility.
+
+296
+00:14:20,940 --> 00:14:23,960
+One Oak says the facility connects with eight major
+
+297
+00:14:23,960 --> 00:14:24,520
+pipelines.
+
+298
+00:14:25,540 --> 00:14:28,140
+That does not mean today's storage system is the
+
+299
+00:14:28,140 --> 00:14:28,840
+old mine.
+
+300
+00:14:29,640 --> 00:14:33,020
+It means the same geological feature that created one
+
+301
+00:14:33,020 --> 00:14:36,500
+industrial economy continued to support another.
+
+302
+00:14:37,560 --> 00:14:41,060
+The industrial use of Jefferson Island's underground did not
+
+303
+00:14:41,060 --> 00:14:43,180
+disappear. It changed.
+
+304
+00:14:44,440 --> 00:14:46,240
+Before November 20, 1980,
+
+305
+00:14:47,180 --> 00:14:49,840
+Lake Peigneur looked like a surface landscape.
+
+306
+00:14:50,920 --> 00:14:51,160
+Water.
+
+307
+00:14:52,195 --> 00:14:52,445
+Trees.
+
+308
+00:14:53,480 --> 00:14:53,680
+Gardens.
+
+309
+00:14:54,660 --> 00:14:55,760
+A drilling platform.
+
+310
+00:14:56,720 --> 00:14:59,860
+The dangerous map was the one underneath it.
+
+311
+00:15:00,600 --> 00:15:02,100
+Mine levels cut through salt.
+
+312
+00:15:02,920 --> 00:15:05,180
+A drilling path descending from above.
+
+313
+00:15:06,160 --> 00:15:09,820
+Two industries occupying the same three-dimensional space.
+
+314
+00:15:10,740 --> 00:15:14,300
+When those worlds became connected, gravity and salt
+
+315
+00:15:14,300 --> 00:15:15,840
+amplified the failure.
+
+316
+00:15:16,540 --> 00:15:17,620
+The mine flooded.
+
+317
+00:15:18,500 --> 00:15:19,740
+The shoreline collapsed.
+
+318
+00:15:20,560 --> 00:15:21,840
+The canal reversed.
+
+319
+00:15:22,860 --> 00:15:25,620
+And every person underground still made it out.
+
+320
+00:15:26,700 --> 00:15:28,600
+Investigators could study what remained.
+
+321
+00:15:29,440 --> 00:15:30,840
+They could estimate locations.
+
+322
+00:15:31,780 --> 00:15:33,940
+They could test competing explanations.
+
+323
+00:15:34,880 --> 00:15:37,440
+But part of the evidence had vanished inside the
+
+324
+00:15:37,440 --> 00:15:38,180
+event itself.
+
+325
+00:15:39,100 --> 00:15:42,580
+That is why Lake Peigneur survives as
+
+326
+00:15:42,580 --> 00:15:44,860
+more than a bizarre engineering story.
+
+327
+00:15:45,840 --> 00:15:48,380
+The visible landscape was only one layer of the
+
+328
+00:15:48,380 --> 00:15:48,780
+system.
+
+329
+00:15:49,660 --> 00:15:52,160
+The decisive infrastructure was hidden.
+
+330
+00:15:53,280 --> 00:15:56,380
+Lake Peigneur is remembered because a lake disappeared.
+
+331
+00:15:57,420 --> 00:15:59,380
+The deeper lesson is why.
+
+332
+00:16:00,760 --> 00:16:02,680
+Infrastructure does not stop at the surface.
+
+333
+00:16:03,400 --> 00:16:06,240
+And the systems we cannot see can be the
+
+334
+00:16:06,240 --> 00:16:08,080
+systems that matter most.
