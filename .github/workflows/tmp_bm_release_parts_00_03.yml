@@ -1,0 +1,39 @@
+name: TEMP Big Muskie release parts 00-03
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_bm_release_parts_00_03.yml'
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: big-muskie-final-upload-master-20261003
+    steps:
+      - name: Create release if needed
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 ||             gh release create "$TAG" --repo "$GITHUB_REPOSITORY"               --title "Big Muskie — Final Upload Master"               --notes "Verified final upload master staging/release. Final MP4 SHA256: b78ee1a746a92ccb83eafd1a0be7114bcf862db62c2792c1167dc0d4dff93bbf"
+      - name: Download and verify parts 00-03
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 5 --retry-delay 2 -o BIG_MUSKIE_FINAL_UPLOAD_MASTER.part00 'https://ucf65f6fccedf362c637bdf311ce.dl.dropboxusercontent.com/cd/0/get/DJSYkWgH9-HXhi5peBmTdRiSHYNQ53sbl_j26YKFNTt7t19Qk8XlJ1c3IdeJn2LSkdFF62mDASfHuWVTfoeqmQWVAxP3BSZE7r6D0fsQtxC55a-RUFa9qagC12D_CpcKsd_FNDjLezz3yH0vquKjpQsXiCRdM2_5NeX40tdPIVUIgQ/file?c_luid=c83f9db8'
+          echo '7ab89a134c975211b2e82f3df54813ec9bf8b0408d04dfe07b7fac3d2f818285  BIG_MUSKIE_FINAL_UPLOAD_MASTER.part00' | sha256sum -c -
+          curl -fL --retry 5 --retry-delay 2 -o BIG_MUSKIE_FINAL_UPLOAD_MASTER.part01 'https://ucad1884e298f554d33566177323.dl.dropboxusercontent.com/cd/0/get/DJRdiwEMrYgxRxetK4VuAwiIlHYPIB8HjX914wUx-1NY_R4rpDQBkKCNAjKJ_yYPvU_hqtqWqHKm6wxsB3LUK_W0WUIaDQtw8yDeOf-h8tVIBU84jj_FoV_3-Pp3CnCuQQa0Jy3fcbOpOUSzC3Z_ywvvIm0pU7mX9teoKalIsuyV6Q/file?c_luid=c83f9db8'
+          echo 'f29fa3f327d2e0b6bc94300f00c06900e7386efcf72651a050dc8e08fa80df9c  BIG_MUSKIE_FINAL_UPLOAD_MASTER.part01' | sha256sum -c -
+          curl -fL --retry 5 --retry-delay 2 -o BIG_MUSKIE_FINAL_UPLOAD_MASTER.part02 'https://uc411a5e4928d319cbd787967a38.dl.dropboxusercontent.com/cd/0/get/DJT9upNv95DOYmrzaD-mwF_cUQuSyvHGrVM1wC6qUdPHB0MVCF0T3cf7684MmmM75FE-HFX9HiWqnu-nDA3w7NCU1-fZYegEBPsRMV1heJpBIEb3nqfTaIVQ2l9MJtwTpoMRN53bF6g4wmCNr7-GQMwqQheZRyntR106ikdhhDqdTw/file?c_luid=c83f9db8'
+          echo '721c314e346b9b0ac64436d0f1758bc13ef605e11f280d9aefa15f4dd63ee485  BIG_MUSKIE_FINAL_UPLOAD_MASTER.part02' | sha256sum -c -
+          curl -fL --retry 5 --retry-delay 2 -o BIG_MUSKIE_FINAL_UPLOAD_MASTER.part03 'https://uc40c6d1d3ebf5905eed3bcba461.dl.dropboxusercontent.com/cd/0/get/DJSByGGa_7CSEDQNSkahc03LUC3b2JJYR0xr1rtdlct1vSqCThuA2OHhX8vA4pmP9YDLyhD-wEDVIEup5bNYpu1DTIlzWnrn96KmnxzWUg1U7T6LH8SlSVIeQa0GO2S-tcDIKTs6F_5wHb2w93Xzq4z2pVfaSTYX_OhGvt-kc-vddA/file?c_luid=c83f9db8'
+          echo '77826fa5a3ad3afdfcc22d10e86ef126eda4903e1a42e6c04cdebded927836b3  BIG_MUSKIE_FINAL_UPLOAD_MASTER.part03' | sha256sum -c -
+
+      - name: Upload parts 00-03 to release
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release upload "$TAG" BIG_MUSKIE_FINAL_UPLOAD_MASTER.part0{0,1,2,3} --repo "$GITHUB_REPOSITORY" --clobber
