@@ -52,7 +52,7 @@ Publishing status: **READY**
 
 Status: **COMPLETE / OWNER-CODEX FINAL / READY FOR PUBLICATION**
 
-Final Codex master: **confirmed complete by owner, but the final binary filename + SHA256 are not mirrored in this Git repository yet.**
+Final upload master is physically mirrored in a GitHub Release and verified by filename, size and SHA256.
 
 Last in-repo 1080p ancestor:
 `BIG_MUSKIE_FULL_PICTURE_ASSEMBLY_V2_1080P.mp4`
@@ -86,6 +86,10 @@ Publishing status: **READY — VERIFIED FINAL UPLOAD MASTER AVAILABLE**.
 The rejected 215.6 MB low-bitrate copy remains non-canonical. The missing original Codex-final archival binary remains a provenance-only gap.
 
 See `BIG_MUSKIE/PUBLISHING/FINAL_UPLOAD_MASTER_QC_2026-10-03.md`.
+
+GitHub Release: `https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/big-muskie-final-upload-master-20261003`
+
+Direct master asset: `https://github.com/reverendstanislav-bot/Youtube-2/releases/download/big-muskie-final-upload-master-20261003/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4`.
 
 ## Episode 04 — Satsop
 
@@ -141,9 +145,8 @@ are historical production/QC records and are **SUPERSEDED as current-state indic
 ## Remaining Git-only metadata mirror gaps
 
 These are not edit blockers:
-1. Big Muskie final Codex master filename + SHA256.
-2. Big Muskie final thumbnail binary + SHA256.
-3. Satsop final thumbnail binary + SHA256.
-4. Lake Peigneur final Codex master filename + SHA256.
+1. Big Muskie final thumbnail binary + SHA256.
+2. Satsop final thumbnail binary + SHA256.
+3. Lake Peigneur final Codex master filename + SHA256.
 
 Do not invent these hashes. Populate them only from the actual Codex-final binaries.
