@@ -25,17 +25,31 @@ SHA256:
 
 ### Final-master / upload-master status
 
-The owner/Codex final high-quality master filename + SHA256 are **not present in this Git repository yet**.
+The missing original owner/Codex high-quality final binary is still **not physically mirrored in GitHub**.
 
-A local file named `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` was checked on 2026-10-03 and is **REJECTED FOR FINAL YOUTUBE UPLOAD** because it is heavily compressed (~1.14 Mb/s video bitrate) despite being 1920×1080 / 25 fps.
+The surviving low-bitrate file:
+`BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4`
+remains **REJECTED FOR DIRECT FINAL YOUTUBE UPLOAD**.
 
-Rejected local file SHA256:
-`ec6a8d3f4ab4091af4f1267b3dc22bb3d8968eb1b4e1dcef9217f522a52ae8ff`
+A verified recovery upload binary has now been physically created:
+
+`BIG_MUSKIE_YOUTUBE_REPAIR_MASTER_1440P.mp4`
+
+- SHA256: `801367340431b179d102efd3b9c2d847dab904c8b202eb15a74a24a44eca537a`
+- size: 615,912,469 bytes
+- 2560×1440 / 25 fps
+- 35,660 frames
+- runtime: 23:46.400
+- full decode: PASS / 0 errors
+- original AAC audio copied unchanged
+
+Use this as the **current verified recovery YouTube upload copy** if the missing original high-quality Codex master cannot be recovered.
 
 See:
-`BIG_MUSKIE/PUBLISHING/UPLOAD_MASTER_QC_2026-10-03.md`
+- `BIG_MUSKIE/PUBLISHING/UPLOAD_MASTER_QC_2026-10-03.md`
+- `BIG_MUSKIE/PUBLISHING/YOUTUBE_REPAIR_MASTER_1440P_QC_2026-10-03.md`
 
-Do not treat that 215.6 MB local file as canonical. A repaired/high-quality upload master must be verified from the actual binary before its filename/hash is promoted.
+The repaired 615.9 MB binary is a conversation artifact and is not yet physically hosted by GitHub; verify any downloaded/local copy against the SHA256 above.
 
 ### Thumbnail
 
