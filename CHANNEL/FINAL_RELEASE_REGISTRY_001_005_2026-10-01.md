@@ -1,6 +1,6 @@
 # HIDDEN INDUSTRIAL AMERICA — FINAL RELEASE REGISTRY 001–005
 
-Updated: 2026-10-01  
+Updated: 2026-10-03  
 Canonical status: **5 / 5 LONG-FORM EPISODES COMPLETE**  
 Authority: **OWNER CONFIRMATION + CODEX FINALIZATION**
 
@@ -71,7 +71,9 @@ Thumbnail lock:
 - locked headline direction: `27 MILLION LB`;
 - final Codex thumbnail binary + SHA256 are **not mirrored in Git yet**.
 
-Publishing status: **READY — release metadata mirror incomplete, edit itself complete.**
+Publishing status: **EDIT COMPLETE / UPLOAD MASTER REPLACEMENT REQUIRED**.
+
+2026-10-03 note: local `BIG MUSKIE - ГОТОВОЕ ВИДЕО.mp4` is not canonical and is rejected for final upload because of excessive compression (~1.14 Mb/s video bitrate). See `BIG_MUSKIE/PUBLISHING/UPLOAD_MASTER_QC_2026-10-03.md`.
 
 ## Episode 04 — Satsop
 
