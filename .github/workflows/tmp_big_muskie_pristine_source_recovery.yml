@@ -1,0 +1,32 @@
+name: Temporary Big Muskie pristine source recovery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_big_muskie_pristine_source_recovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download original high-quality source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          curl -fL --retry 5 --retry-delay 3             -o out/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip             'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/a629faa2-037a-4a84-9044-4d929500d0ca.zip'
+          sha256sum out/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip | tee out/SHA256SUMS.txt
+          unzip -l out/BIG_MUSKIE_FULL_SOURCE_ARCHIVE_V2_CLEAN.zip | tee out/CONTENTS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_PRISTINE_SOURCE_RECOVERY
+          path: out/
+          retention-days: 7
+          compression-level: 0
