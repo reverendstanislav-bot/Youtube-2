@@ -1,0 +1,39 @@
+name: Temporary Big Muskie URL recovery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_big_muskie_url_recovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Recover Big Muskie media URLs from current tree and git history
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          grep -RhoE 'https://[^ )"'\''<>]+' BIG_MUSKIE .github/workflows 2>/dev/null | sort -u > out/CURRENT_URLS.txt || true
+          git log --all -p -- BIG_MUSKIE .github/workflows 2>/dev/null |             grep -oE 'https://[^ )"'\''<>]+' | sort -u > out/HISTORY_URLS.txt || true
+          cat out/CURRENT_URLS.txt out/HISTORY_URLS.txt | sort -u |             grep -E 'cloudfront|higgsfield|oaiusercontent|storage.googleapis|wikimedia|archive|github'             > out/MEDIA_URLS_FILTERED.txt || true
+          echo "current=$(wc -l < out/CURRENT_URLS.txt)" | tee out/COUNTS.txt
+          echo "history=$(wc -l < out/HISTORY_URLS.txt)" | tee -a out/COUNTS.txt
+          echo "filtered=$(wc -l < out/MEDIA_URLS_FILTERED.txt)" | tee -a out/COUNTS.txt
+          grep -RniE 'FX0[0-9]{2}|GEN[0-9]{2}|B0[0-9]{2}|cloudfront' BIG_MUSKIE .github/workflows             > out/CURRENT_CONTEXT.txt || true
+          git log --all -p -- BIG_MUSKIE .github/workflows > out/HISTORY_PATCHES.txt || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_URL_RECOVERY
+          path: out/
+          retention-days: 7
+          compression-level: 6
