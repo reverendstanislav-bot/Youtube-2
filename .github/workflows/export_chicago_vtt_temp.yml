@@ -1,0 +1,16 @@
+name: Export Chicago VTT Temp
+on:
+  push:
+    paths:
+      - '.github/workflows/export_chicago_vtt_temp.yml'
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chicago-youtube-english-cc
+          path: CHICAGO/PUBLISHING/YOUTUBE_ENGLISH_CC_POSITIONED.vtt
+          compression-level: 0
+          retention-days: 1
