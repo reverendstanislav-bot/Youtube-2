@@ -5,26 +5,34 @@ Status: WORKING / NO PAID GENERATION APPROVED
 
 ## 01 RELAUNCH — Lake Peigneur
 
+Final title:
+**An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.**
+
 Title status:
-**REOPENED / NOT LOCKED**
-
-Rejected V1 title:
-**How a Salt Mine Swallowed an Entire Louisiana Lake**
-
-Current research directions:
-- **52 Miners Were Underground When the Lake Above Them Began to Disappear**
-- **A Louisiana Lake Disappeared — Then the Canal Ran Backward**
-- **An Entire Lake Drained Into a Salt Mine. Everyone Escaped.**
-
-Full V2 competitor audit:
-`LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_COMPETITOR_TITLE_AUDIT_V2_2026-10-10.md`
+**LOCKED FOR RELAUNCH**
 
 Primary thumbnail:
 existing owner-locked HIA thumbnail
 **THE LAKE / DISAPPEARED**
 
-Packaging audit 2026-10-10:
-**COMPLETE.** Existing owner-locked thumbnail **THE LAKE / DISAPPEARED** remains primary. No paid alternate will be generated before launch. Full competitor/title/cold-open audit: `LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_PACKAGING_AUDIT_2026-10-10.md`.
+Thumbnail status:
+**KEEP / NO NEW PAID GENERATION BEFORE LAUNCH**
+
+Competitor/title audit:
+`LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_COMPETITOR_TITLE_AUDIT_V3_2026-10-10.md`
+
+Description:
+`LAKE_PEIGNEUR/PUBLISHING/YOUTUBE_DESCRIPTION_RELAUNCH.txt`
+
+Shorts:
+**4 selected / exact IN-OUT locked**
+`LAKE_PEIGNEUR/PUBLISHING/SHORTS_RELAUNCH_LOCK_V3.md`
+
+Master/provenance:
+later generated visual plan has **0 conditional Appendix EE dependencies**, but the exact final MP4 binary is not mirrored in Git and was not found in Project/Library/runtime.
+
+Current gate:
+**READY_FOR_UNLISTED = NO — exact final MP4 required for physical master QC.**
 
 Launch role:
 first public long-form on the new channel.

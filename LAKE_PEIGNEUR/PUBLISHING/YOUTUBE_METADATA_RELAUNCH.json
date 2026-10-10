@@ -1,11 +1,12 @@
 {
   "updated": "2026-10-10",
-  "status": "PACKAGING_LOCKED_READY_FOR_UNLISTED_QC",
+  "status": "PACKAGING_AND_SHORTS_LOCKED_MASTER_BINARY_REQUIRED",
   "launch_order": 1,
-  "title": "How a Salt Mine Swallowed an Entire Louisiana Lake",
-  "reserve_titles": [
-    "The Day a Louisiana Lake Fell Into a Salt Mine",
-    "How an Entire Louisiana Lake Vanished Underground"
+  "title": "An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.",
+  "title_reserves": [
+    "52 Miners Were Underground When an Entire Lake Drained Into the Mine",
+    "An Entire Lake Drained Into a Salt Mine. Nobody Died.",
+    "A Louisiana Lake Disappeared — Then the Canal Ran Backward"
   ],
   "thumbnail": {
     "path": "LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png",
@@ -15,22 +16,18 @@
   },
   "description_path": "LAKE_PEIGNEUR/PUBLISHING/YOUTUBE_DESCRIPTION_RELAUNCH.txt",
   "captions_path": "LAKE_PEIGNEUR/PUBLISHING/LAKE_PEIGNEUR_ENGLISH_CC.srt",
+  "shorts_lock_path": "LAKE_PEIGNEUR/PUBLISHING/SHORTS_RELAUNCH_LOCK_V3.md",
+  "shorts_count": 4,
   "language": "English (United States)",
   "audience": "Not made for kids",
   "category": "Education",
   "playlist": "Hidden Industrial America",
   "initial_visibility": "Unlisted",
-  "end_screen_initial": "Subscribe only",
   "master": {
     "filename": null,
     "sha256": null,
-    "state": "MUST_IDENTIFY_AND_QC_BEFORE_PUBLIC"
+    "available": false,
+    "blocker": "Exact final Lake Peigneur MP4 not found in Git, Project, Library, or active runtime"
   },
-  "public_release_gates": [
-    "P0 exact master identity and technical metadata",
-    "P1 provenance spot audit for conditional Appendix EE visuals",
-    "P2 human-ear pronunciation check for Peigneur and Delcambre",
-    "P3 Unlisted YouTube transcode QC",
-    "P4 phone-size thumbnail readability check"
-  ]
+  "ready_for_unlisted": false
 }
