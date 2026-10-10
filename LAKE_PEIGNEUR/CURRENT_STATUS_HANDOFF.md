@@ -2,7 +2,7 @@
 
 Updated: 2026-10-10
 
-**HARD NO-GO — RELEASE CANDIDATE NOT READY**
+**HARD NO-GO — CAPTIONED MASTER REJECTED BY OWNER**
 
 Earlier COMPLETE / READY FOR UNLISTED claims were incorrect and are superseded.
 
@@ -16,3 +16,7 @@ But inspected footage reveals a concrete caption/headline overlap at 16:05 and a
 
 The exact priority list and evidence:
 `PUBLISHING/RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md`.
+
+## Mandatory owner override 2026-10-10
+
+Absolutely **NO SUBTITLES** on all five films and Shorts. Uploaded Lake MP4 has burned-in captions throughout; deleting SRT or adjusting 16:05 captions does not solve this. Must re-render clean from source edit (all captions off), correct prior-video end screen, quality QC; then produce four **subtitle-free** Shorts. This source MP4 is NOT an acceptable release candidate. Canonical: `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
