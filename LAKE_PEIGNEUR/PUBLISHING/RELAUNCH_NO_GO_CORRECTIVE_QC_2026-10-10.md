@@ -1,3 +1,5 @@
+> **OWNER OVERRIDE / P0 HARD FAIL — 2026-10-10:** The entire uploaded Lake master contains burned-in dialogue subtitles, and ALL HIA long-form and Shorts must contain NO SUBTITLES. The 16:05 caption collision is only a symptom. Do NOT reposition captions. Remove the entire dialogue-caption renderer across the whole original edit and re-render cleanly. Refer to `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
 # LAKE PEIGNEUR — RELAUNCH NO-GO / CORRECTIVE QC
 
 Date: 2026-10-10
@@ -23,7 +25,7 @@ Uploaded user file:
 - The big editorial headline "INFRASTRUCTURE DOES NOT STOP AT THE SURFACE." occupies the same bottom band as the burned-in white/orange captions.
 - This is directly visible in an extracted original-frame still `00-16-05.jpg` from the supplied MP4.
 - The old PASS claim ("captions remain in safe region") was wrong.
-- Required fix: adjust/replace the headline graphic layout or caption placement for that scene and rebuild the final master; verify the entire on-screen duration of that title, not a single frame.
+- Required fix: strip the full caption track at the SOURCE EDIT and rebuild the entire subtitle-free master; verify the entire on-screen duration of that title, not a single frame.
 
 **P0-2 — first-episode end screen is built for a prior video [FAIL]**
 - ~16:09 to 16:28 end card includes "PREVIOUS STORY" and a large empty dark rectangular placeholder.
@@ -58,7 +60,7 @@ Uploaded user file:
 **P0-4 — 4/4 physical Shorts MP4s missing [FAIL]**
 - Git currently contains 4 selected cut specs and upload text only, not 4 delivered/reviewed 1080×1920 final MP4s.
 - Source binary is now actually available. The old shorts-map claim "render blocked only by missing master" is stale.
-- New bottlenecks: cut/edit, screen composition, caption crop/renderer, export and visual/audio QC.
+- New bottlenecks: cut/edit, screen composition, subtitle-free source/crop, export and visual/audio QC.
 
 **P1-4 — weak standalone starts in draft extracts [OPEN]**
 - LP-S02 at 05:36 starts "Above them", which requires prior context.
