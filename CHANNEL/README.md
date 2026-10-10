@@ -14,7 +14,7 @@ The channel is designed to scale across American industry, infrastructure, engin
 
 ## Core production chain
 
-Research / evidence / source ledger → audience angle → packaging hypothesis → hooks → documentary architecture → retention outline → full script → fact check → final narration → VO → word-level transcript → exact timing → visual beat map → archive/source plan → download/licensing → missing-visual analysis → generation plan → complete prompt pack → generation-budget approval → assets → graphics/maps/charts → music/SFX plan → long-form edit → Shorts extraction map → captions → proof → review → critic audit → RC → exhaustive QC → native upload master.
+Research / evidence / source ledger → audience angle → packaging hypothesis → hooks → documentary architecture → retention outline → full script → fact check → final narration → VO → word-level transcript → exact timing → visual beat map → archive/source plan → download/licensing → missing-visual analysis → generation plan → complete prompt pack → generation-budget approval → assets → graphics/maps/charts → music/SFX plan → long-form edit → Shorts extraction map → caption-free proof → review → critic audit → RC → exhaustive QC → native upload master.
 
 ## Channel-level rules
 
@@ -33,7 +33,11 @@ Research / evidence / source ledger → audience angle → packaging hypothesis 
 
 See `CHANNEL/PROVENANCE_AND_EDITING_CANON.md`. It is mandatory and overrides stale episode notes. In particular, `HISTORICAL SOURCE` is allowed only on the actual verified historical visual currently on screen; AI/generated reconstructions must be labeled `AI RECONSTRUCTION`.
 
-## Canonical caption rule
+## Mandatory owner instruction: NO SUBTITLES
+
+**All five long-form episodes and ALL Shorts must contain NO dialogue subtitles anywhere.** No white/orange karaoke text, no burned-in captions, no SRT/VTT publication uploads. Internal transcripts/SRT for editing timing only. This latest owner instruction supersedes ALL prior caption directions. Canonical: `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
+## Historical caption rule (REVOKED)
 
 For new production, unless a later explicit approval changes it:
 - base dialogue text: white #FFFFFF;
