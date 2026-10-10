@@ -92,11 +92,22 @@ Before first public release:
 
 ## Publishing cadence
 
-Default starting cadence:
-- one long-form every 2–3 days;
-- do not upload all five publicly at once;
-- 1–2 strong Shorts per day around the current long-form rather than 4/day immediately;
-- every Short should have a distinct hook and point to the relevant long-form where the product supports it.
+**LOCKED RELAUNCH CADENCE**
+
+- one long-form **every 2 days**;
+- **4 Shorts per long-form across those 2 days**;
+- default pattern: **2 Shorts on release day + 2 Shorts on the following day**;
+- then the next long-form releases on Day 3 and the 2-day Short cycle resets;
+- do not dump all five long-form videos publicly at once;
+- every Short must be tied to the current long-form and use a distinct hook;
+- Shorts are support content, not the main publishing volume.
+
+Example cycle:
+- Day 1 — Long #1 + Short #1 + Short #2
+- Day 2 — Short #3 + Short #4
+- Day 3 — Long #2 + Short #1 + Short #2
+- Day 4 — Short #3 + Short #4
+- repeat through all five long-form releases.
 
 ## Analytics checkpoints
 
