@@ -20,3 +20,14 @@ The exact priority list and evidence:
 ## Mandatory owner override 2026-10-10
 
 Absolutely **NO SUBTITLES** on all five films and Shorts. Uploaded Lake MP4 has burned-in captions throughout; deleting SRT or adjusting 16:05 captions does not solve this. Must re-render clean from source edit (all captions off), correct prior-video end screen, quality QC; then produce four **subtitle-free** Shorts. This source MP4 is NOT an acceptable release candidate. Canonical: `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
+## 2026-10-10 RESEARCH + FULL SOFTWARE DECODE REFRESH
+
+- Full 24,711-frame stream decode (audio+video) completed **PASS / no decoding errors**; no >=0.4s black events; no >=2s voiced-story silence (expected 20s silent end-screen tail only).
+- Visual release status **unchanged: NO-GO** because burnt dialogue captions across film, wrong "PREVIOUS STORY" end card, ~1.09 Mbps source and first 0–15s low visual density.
+- 11 same-event YouTube competitors rechecked from live indexed sources; see `PUBLISHING/RELAUNCH_COMPETITOR_REFRESH_VERIFIED_2026-10-10.md`.
+- Physical source-first re-render and launch plan: `PUBLISHING/EP01_MASTER_PREFLIGHT_HARD_REJECT_2026-10-10.md` and `PUBLISHING/EP01_CONTROLLED_LAUNCH_RUNBOOK_2026-10-10.md`.
+- No owner-approved final title pairing; no physically exported 4/4 subtitle-free Shorts; no actual clean long-form master.
+- No paid generations, no new TTS, no video generation.
+
+**READY_FOR_UNLISTED_RELEASE = NO / READY_FOR_PUBLIC = NO**.
