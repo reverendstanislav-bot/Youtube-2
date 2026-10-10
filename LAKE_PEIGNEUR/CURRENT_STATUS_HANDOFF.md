@@ -31,3 +31,14 @@ Absolutely **NO SUBTITLES** on all five films and Shorts. Uploaded Lake MP4 has 
 - No paid generations, no new TTS, no video generation.
 
 **READY_FOR_UNLISTED_RELEASE = NO / READY_FOR_PUBLIC = NO**.
+
+## 2026-10-10 — PHYSICAL RECOVERY PASS (PARTIAL)
+
+- Confirmed exact owner-locked thumbnail binary by remote fetch / SHA256 comparison. Visual QC at 320x180 legible. KEEP.
+- Rendered new 20-second 1080p25 BT.709 Episode-01 subscribe-only end-screen video, with no `PREVIOUS STORY` panel. Endscreen SHA `ee862f27d0bd30e7282dab70242a6c70c907fd185d9c46f3f5073051e4672f6b`.
+- Extracted original audio from uploaded long to 16:08.47 and 4 improved standalone-hook 48kHz WAV Shorts audio stems with exact EDL. These ARE NOT Shorts MP4 deliverables.
+- Packaged user-downloadable local `HIA_EP01_RELAUNCH_EDIT_ASSETS.zip` and clean-source handoff.
+- Source search: current file runtime, Git, connected Dropbox and Higgsfield project list. No editable Lake source/approved full-resolution generated-asset library recovered.
+- Accurate status: **END CARD FIX READY; AUDIO CUTS READY; CLEAN LONG MASTER NOT CREATED; SHORTS VIDEO 0/4.**
+- Full repair audit and delivery map: `PUBLISHING/EP01_PARTIAL_PHYSICAL_REPAIRS_AND_SOURCE_BLOCKER_2026-10-10.md`.
+- **RELEASE NO-GO** until clean editable project/asset directory is supplied or recovered and entire source is rebuilt without subtitles.
