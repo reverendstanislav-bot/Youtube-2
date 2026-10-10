@@ -1,0 +1,75 @@
+{
+  "release": "hia-lake-peigneur-source-recovery-20261010",
+  "verdict": "PARTIAL SOURCE RECOVERY — MISSING FILES",
+  "original_final_timeline_sources": "97/97",
+  "parts": [
+    {
+      "filename": "HIA_LAKE_SOURCE_PART_001.zip",
+      "size_bytes": 323823187,
+      "sha256": "f844e983727383d7fc8bc382d85ec1f6c5e34eb042b57e7b2e3de4a829b45c11",
+      "file_count": 475,
+      "crc": "PASS",
+      "download_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-source-recovery-20261010/HIA_LAKE_SOURCE_PART_001.zip"
+    },
+    {
+      "filename": "HIA_LAKE_SOURCE_PART_002.zip",
+      "size_bytes": 163293345,
+      "sha256": "9053ac049e6fe979934f0f5a03f8b01c9fc33b0402f88843ce27ddce60b65dfb",
+      "file_count": 1,
+      "crc": "PASS",
+      "download_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-source-recovery-20261010/HIA_LAKE_SOURCE_PART_002.zip"
+    },
+    {
+      "filename": "HIA_LAKE_SOURCE_PART_003.zip",
+      "size_bytes": 6614910,
+      "sha256": "e246f7b522d9875725ce008928108e1acab9310b2f1bcf4aaf371d30584c5700",
+      "file_count": 7,
+      "crc": "PASS",
+      "download_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-source-recovery-20261010/HIA_LAKE_SOURCE_PART_003.zip"
+    }
+  ],
+  "total_source_files": 483,
+  "extraction": "Extract all independent ZIPs into the same folder; do not concatenate",
+  "historical_prompt_pack": {
+    "rows": 144,
+    "recovered_test_originals": 26,
+    "unresolved": 118
+  },
+  "missing_final_timeline_sources": 0,
+  "verification": [
+    {
+      "filename": "HIA_LAKE_SOURCE_PART_001.zip",
+      "direct_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-source-recovery-20261010/HIA_LAKE_SOURCE_PART_001.zip",
+      "http_status": 200,
+      "authentication": "NONE; public direct URL",
+      "downloaded_bytes": 323823187,
+      "sha256": "f844e983727383d7fc8bc382d85ec1f6c5e34eb042b57e7b2e3de4a829b45c11",
+      "matches_local": true,
+      "zip_crc": "PASS",
+      "file_count": 475
+    },
+    {
+      "filename": "HIA_LAKE_SOURCE_PART_002.zip",
+      "direct_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-source-recovery-20261010/HIA_LAKE_SOURCE_PART_002.zip",
+      "http_status": 200,
+      "authentication": "NONE; public direct URL",
+      "downloaded_bytes": 163293345,
+      "sha256": "9053ac049e6fe979934f0f5a03f8b01c9fc33b0402f88843ce27ddce60b65dfb",
+      "matches_local": true,
+      "zip_crc": "PASS",
+      "file_count": 1
+    },
+    {
+      "filename": "HIA_LAKE_SOURCE_PART_003.zip",
+      "direct_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-source-recovery-20261010/HIA_LAKE_SOURCE_PART_003.zip",
+      "http_status": 200,
+      "downloaded_bytes": 6614910,
+      "sha256": "e246f7b522d9875725ce008928108e1acab9310b2f1bcf4aaf371d30584c5700",
+      "zip_crc": "PASS",
+      "file_count": 7,
+      "matches_local": true,
+      "authentication": "NONE; public direct URL"
+    }
+  ],
+  "supplement": "PART003 adds original Shorts scripts/shared renderer/vertical end-screen. Extract with parts001/002; supplementary checksum list covers additional files."
+}
