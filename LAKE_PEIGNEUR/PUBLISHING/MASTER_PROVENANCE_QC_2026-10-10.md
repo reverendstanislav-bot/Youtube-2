@@ -1,110 +1,148 @@
-# LAKE PEIGNEUR — MASTER / PROVENANCE QC GATE
+# LAKE PEIGNEUR — FINAL MASTER / PROVENANCE QC
 
 Updated: 2026-10-10  
-Status: **BLOCKED AT PHYSICAL MASTER BINARY / PROVENANCE PLAN AUDITED**
+Status: **LOCAL MASTER QC PASS / READY FOR UNLISTED YOUTUBE TEST**
 
-## What is verified
+## Exact supplied final master
 
-Project state:
-- episode is owner-confirmed COMPLETE / FINAL in the canonical 5/5 registry;
-- final captions exist and run to approximately **16:08.080**;
-- canonical VO runtime upstream is **16:08.464**;
-- final thumbnail is independently locked.
+Original supplied filename:
+`LAKE PEIGNEUR - ГОТОВОЕ ВИДЕО.mp4`
 
-## Master-binary recovery audit
+SHA256:
+`3436c9d7b9fd27caa97c6fc2c95aa2322e5bec1d8a69a8575722d52bd81e5b3d`
 
-Checked:
-- current Git tree;
-- GitHub releases;
-- Lake Peigneur Git history;
-- current Project/conversation files;
-- personal Library search;
-- active runtime `/mnt/data`.
+File size:
+**174,986,220 bytes**
 
-Result:
-**no final Lake Peigneur long-form MP4 binary was found.**
+Container:
+**MP4 / isom**
 
-Git contains no final Lake master filename or SHA256.
-Prior handoff explicitly calls this a metadata mirror gap.
-No older/non-canonical MP4 will be substituted.
+Runtime:
+**00:16:28.459**
+
+### Video
+
+- codec: H.264 / AVC
+- profile: High
+- resolution: 1920×1080
+- progressive
+- frame rate: 25/1
+- frames: 24,711
+- pixel format: yuvj420p
+- video bitrate: ~1.093 Mb/s
+- 2 B-frames
+- level 4.0
+
+### Audio
+
+- codec: AAC-LC
+- 48 kHz
+- stereo
+- bitrate: ~317 kb/s
+- integrated loudness: **-14.57 LUFS**
+- true peak: **-3.57 dBTP**
+- LRA: **3.10 LU**
+
+## Integrity / decode checks
+
+- whole-file packet/container integrity: **PASS / 0 errors**
+- targeted video+audio decode at critical regions: **PASS / 0 errors**
+  - opening
+  - surface-collapse act
+  - canal-reversal act
+  - cause/forensics act
+  - ending
+  - end-screen tail
+
+A full frame-by-frame software decode exceeded the current runtime limit, so it is **not** falsely claimed here. Packet integrity plus targeted decode checks passed.
+
+## Narration / end-screen timing
+
+Detected final long silence:
+**00:16:08.470 → 00:16:28.459**
+duration: **19.989 sec**
+
+This aligns with the final subtitle track:
+last caption ends at **00:16:08.080**.
+
+End screen is therefore approximately 20 seconds and silent.
+
+Transition inspection:
+- final story graphic persists through ~16:08.2;
+- transition/crossfade begins around ~16:08.5;
+- end screen is clean by ~16:09.5;
+- no caption remains on the clean end-screen state.
+
+## Visual spot QC
+
+Reviewed representative frames at:
+00:00:02, 00:00:12, 00:00:25, 00:00:40, 00:01:04, 00:03:55, 00:05:36, 00:06:10, 00:09:18, 00:10:00, 00:11:02, 00:12:30, 00:13:59, 00:14:44, 00:16:05, 00:16:15, 00:16:27.
+
+Observed:
+- 16:9 framing correct;
+- captions are white with orange active-word highlight;
+- captions remain in the expected lower safe region;
+- no opaque black caption slab;
+- no duplicate subtitle layer in sampled frames;
+- maps / diagrams / generated visuals are legible;
+- end screen is present and clean after the short transition.
+
+No sampled visual showed an unresolved Appendix EE historical still being presented as a cleared historical source.
+
+## Provenance
+
+Earlier Stage 8B had conditional Appendix EE imagery.
+The later canonical Stage 8C-R3 generation plan explicitly records:
+**conditional Appendix EE dependencies in generated prompt pack: 0**.
+
+R4 / R4.1 continued the generated-asset plan.
+
+The supplied final master was visually spot-checked at the major story acts above. No sampled frame contradicted the later zero-conditional-dependency plan.
+
+Status:
+**PROVENANCE QC PASS FOR UNLISTED TEST.**
+
+## Quality warning — important
+
+The supplied 1080p master averages only **~1.09 Mb/s video bitrate**.
+
+YouTube's current recommended upload bitrate for 1080p SDR at 24/25/30 fps is **8 Mb/s**.
+
+This does **not** automatically mean the file is unusable: the episode is dominated by still/editorial imagery and sampled frames remain visually clean. But the low source bitrate creates a real risk of extra softness after YouTube performs another encode.
+
+Also, the file reports:
+- color matrix: `bt470bg`
+- color range: full / `pc`
+- transfer: unknown
+- primaries: unknown
+
+YouTube recommends BT.709 metadata for SDR uploads.
 
 Therefore:
-- ffprobe cannot yet be run;
-- SHA256 cannot yet be calculated;
-- frame-level final-master QC cannot honestly be claimed;
-- Shorts cannot be physically rendered from the canonical source yet.
+- do **not** publish Public immediately;
+- upload this exact master **Unlisted first**;
+- wait for full 1080p processing;
+- compare the YouTube stream against the local file, especially fine text, diagrams, water, grain and dark mine scenes;
+- inspect Stats for Nerds / codec;
+- if the Unlisted transcode is visibly soft, build/test a dedicated higher-resolution upload master before Public.
 
-## Provenance audit
+No claim is made that re-encoding this already-compressed file can restore source detail.
 
-Stage 8B temporarily assigned 19 authentic MSHA Appendix EE historical frames as **CONDITIONAL_USE** because item-level photographer/source rights were unresolved.
+## Pronunciation gate
 
-However, later Stage 8C-R3 changed the production plan to a **144-generated-asset pack**:
-- DOCUMENT: 12
-- MAP / spatial GFX: 26
-- GENERATED GFX: 55
-- RECONSTRUCTION: 51
-- reuse: 0
-- hard QC: 144/144 PASS
-- **conditional Appendix EE dependencies in the generated prompt pack: 0**
-
-R4 and R4.1 superseded that pack for text/render controls and did not reintroduce an Appendix EE dependency in the documented plan.
-
-### Provenance conclusion
-
-**The final documented generation plan is clean of the unresolved Appendix EE dependency.**
-
-But the repository does not contain:
-- the final 144-output visual manifest;
-- a final picture-assembly manifest proving the exported master used only that plan;
-- the final MP4 itself.
-
-Therefore the provenance risk is reduced at the planning level but **cannot be marked binary-verified** until the actual master is inspected.
-
-## Required physical master check once the exact file is available
-
-P0 — identity:
-- exact filename
-- byte size
-- SHA256
-- runtime
-- frame rate
-- resolution
-- H.264/other codec + bitrate
-- audio codec / sample rate / channels
-- full decode test
-
-P1 — targeted visual spot QC:
-- 00:00–00:41 cold open
-- 05:36–06:49 surface collapse
-- 09:18–10:11 canal reversal
-- 11:02–12:49 cause/forensics
-- 13:59–16:08 modern context / ending
-
-At each range verify:
-- no unresolved Appendix EE historical still masquerading as cleared archive;
-- no AI image presented as authentic historical source;
-- no text corruption;
-- no black panels;
-- captions safe;
-- no duplicate subtitle layer.
-
-P2 — audio:
-human-ear check:
-- Peigneur
+Existing automated pronunciation QC passed with human-ear spot-check required for:
+- Lake Peigneur
 - Delcambre
 
-P3 — YouTube:
-upload Unlisted only after P0–P2 pass; wait for HD processing and check transcode softness.
+That human-ear check should be done during the Unlisted review.
 
-## Current gate
+## Final gate
 
-Packaging: **PASS**  
-Description: **PASS**  
-4 Shorts selection/timing: **PASS**  
-Provenance plan: **PASS WITH BINARY VERIFICATION REQUIRED**  
-Physical master QC: **BLOCKED — MASTER FILE NOT AVAILABLE**
+**READY_FOR_UNLISTED = YES**
 
-**READY_FOR_UNLISTED = NO**
+**READY_FOR_PUBLIC = NO**
 
-Only blocker:
-**the exact final Lake Peigneur MP4 binary must be supplied/recovered.**
+Public blockers:
+1. YouTube 1080p transcode quality check.
+2. Human-ear check: Peigneur / Delcambre.
+3. If the YouTube transcode shows the same "mushy" behavior seen on the old channel, do not publish until the upload-master path is corrected.

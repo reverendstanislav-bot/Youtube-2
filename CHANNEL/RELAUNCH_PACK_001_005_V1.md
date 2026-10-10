@@ -29,10 +29,12 @@ Shorts:
 `LAKE_PEIGNEUR/PUBLISHING/SHORTS_RELAUNCH_LOCK_V3.md`
 
 Master/provenance:
-later generated visual plan has **0 conditional Appendix EE dependencies**, but the exact final MP4 binary is not mirrored in Git and was not found in Project/Library/runtime.
+exact final MP4 supplied and locally QC'd.
+SHA256: `3436c9d7b9fd27caa97c6fc2c95aa2322e5bec1d8a69a8575722d52bd81e5b3d`.
+Later generated visual plan has **0 conditional Appendix EE dependencies**.
 
 Current gate:
-**READY_FOR_UNLISTED = NO — exact final MP4 required for physical master QC.**
+**READY_FOR_UNLISTED = YES / READY_FOR_PUBLIC = NO — YouTube transcode + pronunciation spot-check pending.**
 
 Launch role:
 first public long-form on the new channel.

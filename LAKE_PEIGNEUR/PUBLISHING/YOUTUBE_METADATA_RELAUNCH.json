@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-10",
-  "status": "PACKAGING_AND_SHORTS_LOCKED_MASTER_BINARY_REQUIRED",
+  "status": "READY_FOR_UNLISTED_TEST_PUBLIC_QC_PENDING",
   "launch_order": 1,
   "title": "An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.",
   "title_reserves": [
@@ -24,10 +24,25 @@
   "playlist": "Hidden Industrial America",
   "initial_visibility": "Unlisted",
   "master": {
-    "filename": null,
-    "sha256": null,
-    "available": false,
-    "blocker": "Exact final Lake Peigneur MP4 not found in Git, Project, Library, or active runtime"
+    "filename": "LAKE PEIGNEUR - ГОТОВОЕ ВИДЕО.mp4",
+    "sha256": "3436c9d7b9fd27caa97c6fc2c95aa2322e5bec1d8a69a8575722d52bd81e5b3d",
+    "size_bytes": 174986220,
+    "duration_seconds": 988.458667,
+    "resolution": "1920x1080",
+    "fps": 25,
+    "video_codec": "H.264 High",
+    "video_bitrate_bps": 1092780,
+    "audio_codec": "AAC-LC",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2,
+    "audio_bitrate_bps": 317375,
+    "local_qc": "PASS_FOR_UNLISTED_TEST"
   },
-  "ready_for_unlisted": false
+  "ready_for_unlisted": true,
+  "ready_for_public": false,
+  "public_blockers": [
+    "YouTube 1080p transcode quality check",
+    "Human-ear pronunciation check: Peigneur / Delcambre",
+    "Correct upload-master path if transcode is visibly soft"
+  ]
 }

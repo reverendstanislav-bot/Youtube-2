@@ -1,7 +1,7 @@
 # LAKE PEIGNEUR — YOUTUBE RELAUNCH UPLOAD PACKAGE
 
 Updated: 2026-10-10  
-Status: **PACKAGING LOCKED / SHORTS LOCKED / MASTER BINARY BLOCKER**
+Status: **READY FOR UNLISTED TEST / PUBLIC QC PENDING**
 
 ## Launch role
 
@@ -100,13 +100,23 @@ Day 2:
 See:
 `MASTER_PROVENANCE_QC_2026-10-10.md`
 
-The later 144-generated-asset plan documents **0 conditional Appendix EE dependencies**, but the actual final MP4 binary is missing from Git / Project / Library / runtime, so the exported master cannot yet be physically verified.
+The exact supplied final MP4 has now been identified and locally QC'd.
+
+Filename: `LAKE PEIGNEUR - ГОТОВОЕ ВИДЕО.mp4`  
+SHA256: `3436c9d7b9fd27caa97c6fc2c95aa2322e5bec1d8a69a8575722d52bd81e5b3d`  
+Runtime: **16:28.459**  
+Local status: **PASS FOR UNLISTED TEST**.
+
+Important: the source video bitrate is only ~1.09 Mb/s and the color metadata is not BT.709-clean, so the YouTube transcode must be reviewed before Public.
 
 ## Gate
 
-**READY_FOR_UNLISTED = NO**
+**READY_FOR_UNLISTED = YES**
 
-Everything in the relaunch package is locked except the physical master check.
+**READY_FOR_PUBLIC = NO**
 
-Only remaining blocker:
-**recover/supply the exact final Lake Peigneur MP4.**
+Remaining public gates:
+- wait for full YouTube 1080p processing;
+- inspect transcode sharpness / codec / captions / end screen;
+- human-ear check Peigneur / Delcambre;
+- if the transcode is visibly soft, correct the upload-master path before Public.
