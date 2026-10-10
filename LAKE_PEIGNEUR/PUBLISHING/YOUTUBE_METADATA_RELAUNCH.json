@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-10",
-  "status": "READY_FOR_UNLISTED_TEST_PUBLIC_QC_PENDING",
+  "status": "RELAUNCH_EDITORIAL_QC_FAILED_UNLISTED_BLOCKED",
   "launch_order": 1,
   "title": "An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.",
   "title_reserves": [
@@ -36,13 +36,22 @@
     "audio_sample_rate_hz": 48000,
     "audio_channels": 2,
     "audio_bitrate_bps": 317375,
-    "local_qc": "PASS_FOR_UNLISTED_TEST"
+    "local_qc": "FAIL_CAPTION_HEADLINE_COLLISION_AND_END_SCREEN"
   },
-  "ready_for_unlisted": true,
+  "ready_for_unlisted": false,
   "ready_for_public": false,
   "public_blockers": [
-    "YouTube 1080p transcode quality check",
-    "Human-ear pronunciation check: Peigneur / Delcambre",
-    "Correct upload-master path if transcode is visibly soft"
-  ]
+    "Fix 16:05 caption/headline collision and rebuild final master",
+    "Replace PREVIOUS STORY first-episode end screen",
+    "Validate highest-quality source and new upload master, metadata and codec",
+    "Finalize title and thumbnail pairing with owner",
+    "Physically render, deliver and QC four Shorts",
+    "Verify final-export provenance/rights",
+    "Review updated description/chapter markers and audio pronunciation",
+    "Unlisted YouTube transcode QC"
+  ],
+  "title_status": "DRAFT_NOT_OWNER_APPROVED",
+  "thumbnail_status": "OLD_ASSET_OWNER_LOCKED_RELAUNCH_PAIR_NOT_QCED",
+  "shorts_verified_rendered": 0,
+  "shorts_required": 4
 }

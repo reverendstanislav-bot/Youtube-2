@@ -1,7 +1,7 @@
-# LAKE PEIGNEUR — FINAL MASTER / PROVENANCE QC
+> **QC FAIL — SUPERSEDED (2026-10-10):** This prior report missed a visible 16:05 caption/headline overlap and the incorrect 16:09–16:28 PREVIOUS STORY end screen. Source bitrate/color, complete 4-Short deliverables, picture-level provenance and title/thumbnail approval also remain open. Previous `LOCAL MASTER QC PASS / READY FOR UNLISTED` and `PROVENANCE QC PASS` conclusions are RETRACTED. The data below is retained as historical technical inspection, not a publish approval. See `RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md`.\n\n# LAKE PEIGNEUR — FINAL MASTER / PROVENANCE QC
 
 Updated: 2026-10-10  
-Status: **LOCAL MASTER QC PASS / READY FOR UNLISTED YOUTUBE TEST**
+Status: **FAILED EDITORIAL QC / NOT READY**
 
 ## Exact supplied final master
 
@@ -138,7 +138,7 @@ That human-ear check should be done during the Unlisted review.
 
 ## Final gate
 
-**READY_FOR_UNLISTED = YES**
+**READY_FOR_UNLISTED = NO**
 
 **READY_FOR_PUBLIC = NO**
 

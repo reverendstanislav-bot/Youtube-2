@@ -5,39 +5,16 @@ Status: WORKING / NO PAID GENERATION APPROVED
 
 ## 01 RELAUNCH — Lake Peigneur
 
-Final title:
-**An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.**
+**HARD NO-GO / NOT READY** — previous title, Shorts and technical readiness locks were premature.
 
-Title status:
-**LOCKED FOR RELAUNCH**
+- Working title: `An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.` **NOT OWNER APPROVED**. Exact fact-control wording: 52 people underground.
+- Thumbnail `THE LAKE / DISAPPEARED`: historical owner-locked binary; relaunch pair still needs visual QC/approval.
+- Supplied final MP4 exists but has visible caption/headline collision at 16:05 and first-episode end-screen error ~16:09–16:28; its 1080p bitrate is ~1.09 Mb/s.
+- Four Shorts: **0/4 finished MP4s**, cut drafts only.
+- Final-export provenance, re-render, SRT/chapter re-sync and Unlisted transcode are still open.
+- Corrective source of truth: `LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md`
 
-Primary thumbnail:
-existing owner-locked HIA thumbnail
-**THE LAKE / DISAPPEARED**
-
-Thumbnail status:
-**KEEP / NO NEW PAID GENERATION BEFORE LAUNCH**
-
-Competitor/title audit:
-`LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_COMPETITOR_TITLE_AUDIT_V3_2026-10-10.md`
-
-Description:
-`LAKE_PEIGNEUR/PUBLISHING/YOUTUBE_DESCRIPTION_RELAUNCH.txt`
-
-Shorts:
-**4 selected / exact IN-OUT locked**
-`LAKE_PEIGNEUR/PUBLISHING/SHORTS_RELAUNCH_LOCK_V3.md`
-
-Master/provenance:
-exact final MP4 supplied and locally QC'd.
-SHA256: `3436c9d7b9fd27caa97c6fc2c95aa2322e5bec1d8a69a8575722d52bd81e5b3d`.
-Later generated visual plan has **0 conditional Appendix EE dependencies**.
-
-Current gate:
-**READY_FOR_UNLISTED = YES / READY_FOR_PUBLIC = NO — YouTube transcode + pronunciation spot-check pending.**
-
-Launch role:
-first public long-form on the new channel.
+**READY_FOR_UNLISTED_RELEASE_CANDIDATE = NO / READY_FOR_PUBLIC = NO**
 
 ## 02 RELAUNCH — Big Muskie
 

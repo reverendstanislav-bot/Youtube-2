@@ -1,7 +1,7 @@
-# LAKE PEIGNEUR — RELAUNCH SHORTS LOCK V3
+> **NOT A FINAL LOCK (2026-10-10).** Four SRT-derived cut specifications exist, **0/4 final MP4s have been rendered and visually approved**. Supplied exact master is now available. The hooks of S02/S03/S04 require standalone re-edit. See `PUBLISHING/RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md`.\n\n# LAKE PEIGNEUR — RELAUNCH SHORTS LOCK V3
 
 Updated: 2026-10-10  
-Status: **4 SHORTS SELECTED / EXACT LONG-FORM IN-OUT LOCKED / RENDER BLOCKED ONLY BY MISSING FINAL MASTER BINARY**
+Status: **4 DRAFT EXTRACTS / IN-OUT UNDER REVIEW / 0 RENDERED**
 
 Source:
 `LAKE_PEIGNEUR/PUBLISHING/LAKE_PEIGNEUR_ENGLISH_CC.srt`
@@ -116,6 +116,6 @@ The next long-form releases on Day 3 under the locked channel cadence.
 ## Render status
 
 The four exact cuts are locked.
-The MP4s are **not rendered in this repository** because the final Lake Peigneur master binary is not available in Git, current Project files, personal Library search, or the active runtime.
+The MP4s have **not been rendered**. The exact master is now available as a user-supplied MP4. Rendering and standalone hook QC are still required.
 
 Do not substitute an older/non-canonical video or recreate narration.

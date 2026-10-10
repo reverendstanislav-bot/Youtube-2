@@ -1,7 +1,7 @@
-# LAKE PEIGNEUR — RELAUNCH COMPETITOR / TITLE AUDIT V3
+> **TITLE LOCK RETRACTED (2026-10-10):** The suggested V3 title has not been owner-approved and uses `52 Miners` rather than the verified `52 people underground` phrasing. Treat all scores/nominations below as proposals, not a lock.\n\n# LAKE PEIGNEUR — RELAUNCH COMPETITOR / TITLE AUDIT V3
 
 Updated: 2026-10-10  
-Status: **FINAL TITLE AUDIT COMPLETE**  
+Status: **RESEARCH DRAFT / TITLE OWNER APPROVAL PENDING**  
 Supersedes: `RELAUNCH_COMPETITOR_TITLE_AUDIT_V2_2026-10-10.md`
 
 ## Direct-event competitor set
