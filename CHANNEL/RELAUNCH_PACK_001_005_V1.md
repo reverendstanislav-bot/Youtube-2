@@ -5,14 +5,19 @@ Status: WORKING / NO PAID GENERATION APPROVED
 
 ## 01 RELAUNCH — Lake Peigneur
 
-Primary launch title:
+Title status:
+**REOPENED / NOT LOCKED**
+
+Rejected V1 title:
 **How a Salt Mine Swallowed an Entire Louisiana Lake**
 
-Title B:
-**The Day a Louisiana Lake Fell Into a Salt Mine**
+Current research directions:
+- **52 Miners Were Underground When the Lake Above Them Began to Disappear**
+- **A Louisiana Lake Disappeared — Then the Canal Ran Backward**
+- **An Entire Lake Drained Into a Salt Mine. Everyone Escaped.**
 
-Title C:
-**How an Entire Louisiana Lake Vanished Underground**
+Full V2 competitor audit:
+`LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_COMPETITOR_TITLE_AUDIT_V2_2026-10-10.md`
 
 Primary thumbnail:
 existing owner-locked HIA thumbnail

@@ -1,15 +1,17 @@
 # LAKE PEIGNEUR — YOUTUBE RELAUNCH UPLOAD PACKAGE
 
 Updated: 2026-10-10  
-Status: **PACKAGING LOCKED / READY FOR UNLISTED QC / NOT YET CLEARED FOR PUBLIC**
+Status: **WORKING / TITLE REOPENED / NOT READY FOR UNLISTED QC**
 
 ## Launch role
 
 **Episode 01 on the new Hidden Industrial America channel.**
 
-## Final title
+## Title status
 
-**How a Salt Mine Swallowed an Entire Louisiana Lake**
+**NOT LOCKED.** Previous title `How a Salt Mine Swallowed an Entire Louisiana Lake` is **REJECTED / RETRACTED** after the expanded competitor audit.
+
+See: `RELAUNCH_COMPETITOR_TITLE_AUDIT_V2_2026-10-10.md`
 
 Reserve A:
 **The Day a Louisiana Lake Fell Into a Salt Mine**
@@ -136,5 +138,5 @@ Verify:
 
 ## Go / no-go
 
-**UPLOAD UNLISTED: GO after exact master is located.**  
+**UPLOAD UNLISTED: NO-GO until title/thumbnail pairing is owner-approved and the exact master is located.**  
 **PUBLISH PUBLIC: NO-GO until P0–P4 pass.**
