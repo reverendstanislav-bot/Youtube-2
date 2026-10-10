@@ -1,3 +1,5 @@
+> **OWNER OVERRIDE — 2026-10-10:** NO SUBTITLES IN ANY SHORT. The white/orange caption spec in this historical extraction document is obsolete. The supplied Lake master is captioned and cannot be used for compliant Shorts; first rebuild clean long-form source. Four physical Shorts remain 0/4 delivered. `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
 > **NOT A FINAL LOCK (2026-10-10).** Four SRT-derived cut specifications exist, **0/4 final MP4s have been rendered and visually approved**. Supplied exact master is now available. The hooks of S02/S03/S04 require standalone re-edit. See `PUBLISHING/RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md`.\n\n# LAKE PEIGNEUR — RELAUNCH SHORTS LOCK V3
 
 Updated: 2026-10-10  
@@ -12,7 +14,7 @@ Policy:
 - no new TTS;
 - no new image/video generation;
 - full-screen 1080×1920;
-- white captions + orange active word;
+- NO subtitles, running captions or word highlights;
 - static vertical reframes / hard cuts;
 - no left-right pans;
 - append approved HIA vertical end screen for **2.4 sec**, silent;
@@ -116,6 +118,6 @@ The next long-form releases on Day 3 under the locked channel cadence.
 ## Render status
 
 The four exact cuts are locked.
-The MP4s have **not been rendered**. The exact master is now available as a user-supplied MP4. Rendering and standalone hook QC are still required.
+The MP4s have **not been rendered**. The user-supplied MP4 has burned-in captions and cannot be used until rebuilt cleanly. Rendering and standalone hook QC are still required.
 
 Do not substitute an older/non-canonical video or recreate narration.
