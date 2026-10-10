@@ -1,3 +1,5 @@
+> **MANDATORY OVERRIDE 2026-10-10: NO SUBTITLES IN ANY HIA SHORTS OR LONG-FORM.** All historical advice about preserving burned captions, rebuilding word-level captions, or orange/white words below is REVOKED. Use clean subtitle-free long masters only. See `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
 # HIA — SHORTS PRODUCTION CANON
 
 Status: **OWNER REVIEW / NATIVE VERTICAL PROOF ACTIVE**
@@ -35,7 +37,7 @@ Every Short is a direct continuous cut from the current long-form master for tha
 For each Short:
 - preserve the source picture sequence exactly;
 - preserve the source narration/audio exactly;
-- preserve the source burned captions exactly;
+- preserve the NO source captions whatsoever;
 - preserve source provenance labels and source GFX exactly;
 - cut only at locked clean word/sentence boundaries;
 - do not rebuild shots from underlying assets.
@@ -78,7 +80,7 @@ Rules:
 - no invented explanatory GFX;
 - no blur-fill portrait wrapper;
 - use full-screen 9:16 static reframes;
-- rebuild running captions for mobile from the canonical word-level transcript;
+- NEVER add subtitle/caption text; transcript serves internal timing only;
 - captions: white base, orange active word;
 - transitions: hard cuts by default;
 - visible provenance: `HISTORICAL SOURCE` only, and only on verified historical/archive/map frames;
@@ -204,7 +206,7 @@ Visual:
 - no empty portrait dead zone;
 - no Shorts-only GFX;
 - no duplicate captions;
-- source captions remain readable;
+- there are no dialogue subtitles;
 - no horizontal drift;
 - no generated replacement imagery.
 
