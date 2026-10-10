@@ -1,3 +1,5 @@
+> **HARD NO-GO 2026-10-10:** The user requires NO SUBTITLES in all HIA videos and Shorts. The present Lake MP4 contains burned captions and is rejected as upload master. This is not a subtitle-positioning fix: rebuild from caption-free original edit. Any SRT is internal-only and not uploaded. Full authority: `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
 > **SUPERSEDED STATUS WARNING (2026-10-10): NOT LOCKED / NOT READY FOR UNLISTED RELEASE CANDIDATE / NOT READY FOR PUBLIC.**\n> See `RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md` for exact known render defects, missing Shorts and reopened title. The material below is an unapproved draft, not an upload-ready package.\n\n# LAKE PEIGNEUR — YOUTUBE RELAUNCH UPLOAD PACKAGE
 
 Updated: 2026-10-10  
@@ -62,7 +64,7 @@ Use:
 - Audience: **No, it's not made for kids**
 - Category: **Education**
 - Playlist: **Hidden Industrial America**
-- Captions: `LAKE_PEIGNEUR_ENGLISH_CC.srt`
+- Captions/subtitles: **NONE**; SRT is for internal timing only.
 - Initial visibility: **Unlisted**
 - End screen on first public release: subscribe-only until Episode 02 is public; then update Episode 01 to point to Episode 02.
 
