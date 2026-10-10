@@ -1,3 +1,5 @@
+> **CURRENT HIA OWNER LOCK:** NO SUBTITLES on ANY of the five long-form movies or Shorts. Previously captioned finished masters must NOT be reused for relaunch without a genuine clean re-render. Source of truth: `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
 # HIA RELAUNCH PACK 001–005 — V1
 
 Updated: 2026-10-10
@@ -10,7 +12,7 @@ Status: WORKING / NO PAID GENERATION APPROVED
 - Working title: `An Entire Lake Drained Into a Salt Mine. 52 Miners Were Inside.` **NOT OWNER APPROVED**. Exact fact-control wording: 52 people underground.
 - Thumbnail `THE LAKE / DISAPPEARED`: historical owner-locked binary; relaunch pair still needs visual QC/approval.
 - Supplied final MP4 exists but has visible caption/headline collision at 16:05 and first-episode end-screen error ~16:09–16:28; its 1080p bitrate is ~1.09 Mb/s.
-- Four Shorts: **0/4 finished MP4s**, cut drafts only.
+- Four Shorts: **0/4 subtitle-free finished MP4s**, cut drafts only.
 - Final-export provenance, re-render, SRT/chapter re-sync and Unlisted transcode are still open.
 - Corrective source of truth: `LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_NO_GO_CORRECTIVE_QC_2026-10-10.md`
 
