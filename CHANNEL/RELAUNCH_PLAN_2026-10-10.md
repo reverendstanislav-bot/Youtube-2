@@ -1,3 +1,5 @@
+> **OWNER LOCK 2026-10-10:** No subtitles on any HIA film or Short. Existing captioned masters are NOT launch-ready. See `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+
 # HIDDEN INDUSTRIAL AMERICA — RELAUNCH PLAN
 
 Updated: 2026-10-10
@@ -76,7 +78,7 @@ Before the first public release:
 - wait until HD processing is complete;
 - inspect 1080p playback on desktop;
 - inspect Stats for Nerds if available;
-- verify captions, audio, end screen, dark archival shots, grain/detail;
+- verify complete absence of dialogue subtitles, audio, end screen, dark archival shots, grain/detail;
 - only consider a 1440p/4K upload-master path if the actual YouTube transcode remains materially soft.
 
 ### Gate 5 — channel setup
