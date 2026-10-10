@@ -6,20 +6,20 @@ Status: WORKING / NO PAID GENERATION APPROVED
 ## 01 RELAUNCH — Lake Peigneur
 
 Primary launch title:
-**The Day a Louisiana Lake Fell Into a Salt Mine**
+**How a Salt Mine Swallowed an Entire Louisiana Lake**
 
 Title B:
-**They Drilled One Hole. Then the Lake Disappeared.**
+**The Day a Louisiana Lake Fell Into a Salt Mine**
 
 Title C:
-**A 14-Inch Hole Drained an Entire Louisiana Lake**
+**How an Entire Louisiana Lake Vanished Underground**
 
 Primary thumbnail:
 existing owner-locked HIA thumbnail
 **THE LAKE / DISAPPEARED**
 
-Alternative concept B:
-one coherent physical world; lake surface and collapsing/draining center; industrial context visible; no collage; compact headline **ONE HOLE / WHOLE LAKE** only if the image remains factually non-committal about the disputed exact initiating cause.
+Packaging audit 2026-10-10:
+**COMPLETE.** Existing owner-locked thumbnail **THE LAKE / DISAPPEARED** remains primary. No paid alternate will be generated before launch. Full competitor/title/cold-open audit: `LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_PACKAGING_AUDIT_2026-10-10.md`.
 
 Launch role:
 first public long-form on the new channel.

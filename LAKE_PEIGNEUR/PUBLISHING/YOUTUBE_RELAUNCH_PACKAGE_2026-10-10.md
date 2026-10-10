@@ -1,121 +1,140 @@
 # LAKE PEIGNEUR — YOUTUBE RELAUNCH UPLOAD PACKAGE
 
 Updated: 2026-10-10  
-Status: **LOCKED FOR RELAUNCH / NO PAID GENERATION REQUIRED**
+Status: **PACKAGING LOCKED / READY FOR UNLISTED QC / NOT YET CLEARED FOR PUBLIC**
 
 ## Launch role
 
 **Episode 01 on the new Hidden Industrial America channel.**
 
-Relaunch order:
-1. Lake Peigneur
-2. Big Muskie
-3. Satsop
-4. TC-497
-5. Chicago
+## Final title
 
-## Final launch title
+**How a Salt Mine Swallowed an Entire Louisiana Lake**
 
+Reserve A:
 **The Day a Louisiana Lake Fell Into a Salt Mine**
 
-Why this is the launch title:
-- instant event + place + mechanism;
-- understandable without prior knowledge;
-- strong curiosity gap without overclaiming the disputed precise initiating technical cause;
-- more fact-safe than title variants built around a proven "wrong hole" or coordinate-error claim.
+Reserve B:
+**How an Entire Louisiana Lake Vanished Underground**
 
-## Title reserves
+## Final primary thumbnail
 
-B: **They Drilled One Hole. Then the Lake Disappeared.**  
-C: **A 14-Inch Hole Drained an Entire Louisiana Lake**
-
-Do not use B/C as the primary relaunch title unless a later packaging test justifies it. They are more aggressive but can read as a stronger causal claim than the final evidence supports.
-
-## Final launch thumbnail
-
-Use the existing owner-selected asset:
-
+Use:
 `LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png`
 
 Headline:
-
 **THE LAKE**  
 **DISAPPEARED**
 
-SHA256:
+Dimensions: **1672×941**
+
+Locked SHA256:
 `4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2`
 
-Decision: **KEEP AS PRIMARY. DO NOT REGENERATE BEFORE LAUNCH.**
+Decision:
+**KEEP EXISTING THUMBNAIL. NO NEW PAID GENERATION BEFORE LAUNCH.**
 
-Reason:
-- the title explains the physical event;
-- the thumbnail supplies the emotional contradiction;
-- together they avoid repeating identical wording;
-- the image was already owner-selected and matches HIA visual grammar;
-- there is no meaningful old-channel CTR sample large enough to justify replacing this Lake Peigneur thumbnail before it has ever received a real public test.
+## Description
 
-### A/B reserve concept — not generated
+Use:
+`LAKE_PEIGNEUR/PUBLISHING/YOUTUBE_DESCRIPTION_RELAUNCH.txt`
 
-If the new channel receives thumbnail A/B testing and the primary package accumulates a meaningful sample, test one alternate only:
+## Chapters
 
-Visual:
-- one coherent Lake Peigneur world;
-- surface lake + drilling rig + visible downward water movement toward the mine;
-- no collage panels;
-- no giant orange block;
-- no fake archival treatment;
-- HIA charcoal / warm paper / faded-rust / blueprint-gray palette.
+00:00 The Two Warnings  
+01:04 Two Industries, One Salt Dome  
+02:52 The Connection  
+03:55 Fifty-Two People Below the Lake  
+05:36 Then the Surface Moved  
+06:50 Why the Failure Could Grow  
+07:59 The Lake Becomes the Engine  
+09:06 The Canal Ran Backward  
+10:11 The Number That Matters Most  
+11:02 What Actually Caused It?  
+12:51 Settlements and Aftermath  
+13:59 The Geology Was Still Valuable  
+14:44 The Map You Couldn't See
 
-Headline:
-**DOWN THE MINE**
-
-Do not use **ONE HOLE / WHOLE LAKE** as the first alternate because it risks turning the disputed precise initiating cause into an implied settled claim.
-
-## Final YouTube description
-
-On November 20, 1980, Lake Peigneur in Louisiana began draining into the salt mine beneath it. Within hours, the lake, the mine, the shoreline, and even the nearby canal had been transformed.
-
-This episode of Hidden Industrial America reconstructs how a shallow lake sat above a vast underground salt operation, how 52 miners escaped as water entered the workings, why the Delcambre Canal reversed direction, and why the exact initiating technical cause is still more complicated than the simplified version often repeated online.
-
-The disaster destroyed the mine, reshaped the landscape, and produced a temporary waterfall estimated at roughly 150 feet — yet no one was killed.
-
-Hidden Industrial America tells the stories of the machines, infrastructure, industrial systems, and megaprojects that shaped the United States — and what happened when those systems failed, disappeared, or outlived their original purpose.
-
-#HiddenIndustrialAmerica #LakePeigneur #IndustrialHistory
-
-## First two lines — packaging-critical
-
-On November 20, 1980, Lake Peigneur in Louisiana began draining into the salt mine beneath it. Within hours, the lake, the mine, the shoreline, and even the nearby canal had been transformed.
-
-These two lines must stay at the top of the description before source/credit blocks.
-
-## Upload settings
+## Upload metadata
 
 - Language: **English (United States)**
 - Audience: **No, it's not made for kids**
 - Category: **Education**
-- Visibility at upload: **Unlisted first**
-- Public release: only after technical upload-quality QC passes
-- Captions: upload `LAKE_PEIGNEUR/PUBLISHING/LAKE_PEIGNEUR_ENGLISH_CC.srt`
 - Playlist: **Hidden Industrial America**
-- End screen: subscribe + best available related HIA long-form; for Episode 01, subscribe-only is acceptable until Episode 02 is public
+- Captions: `LAKE_PEIGNEUR/PUBLISHING/LAKE_PEIGNEUR_ENGLISH_CC.srt`
+- Initial visibility: **Unlisted**
+- End screen for first release: **Subscribe only** until Episode 02 is public; then update Episode 01 to point to Episode 02.
+- Do not publish until all pre-public gates below are complete.
 
-## Relaunch quality gate
+Suggested tags:
+- Lake Peigneur
+- Lake Peigneur disaster
+- salt mine disaster
+- Louisiana history
+- industrial disaster
+- engineering failure
+- Jefferson Island
+- Hidden Industrial America
 
-Before scheduling Public:
-1. wait for full HD processing;
-2. inspect 1080p playback;
-3. inspect Stats for Nerds if available;
-4. check dark archival detail / grain / text legibility;
-5. verify captions;
-6. verify audio and end screen;
-7. if the YouTube transcode remains materially soft, evaluate a 1440p upload master before public release.
+## Cold-open decision
 
-## Launch-package verdict
+**KEEP CURRENT MASTER.**
 
-**TITLE: LOCKED**  
-**PRIMARY THUMBNAIL: LOCKED / EXISTING ASSET**  
-**DESCRIPTION: LOCKED**  
-**CAPTIONS: READY**  
-**PAID GENERATION: NOT NEEDED**  
-**NEXT STEP: technical Unlisted upload-QC on the new channel.**
+The final SRT shows:
+- dual warning setup by 00:10.5;
+- impossible water-in-salt-mine condition by ~00:20;
+- 52-person human stakes by ~00:25;
+- major disaster promises by ~00:39;
+- everyone-survived reversal at ~00:40;
+- deeper story thesis by ~01:03.
+
+No audience-retention data exists for this episode, so a speculative re-edit is not justified.
+
+## Pre-public gates
+
+### P0 — actual master identity
+The final Codex master filename and SHA256 are not mirrored in Git.
+Before upload:
+- identify the exact local final binary;
+- run ffprobe;
+- calculate SHA256;
+- record filename / size / duration / video codec / bitrate / audio codec;
+- mirror the metadata into Git.
+
+### P1 — provenance spot audit
+Historical Stage 8 records marked selected MSHA Appendix EE photographs conditional because item-level rights were unresolved.
+Before Public:
+- confirm the final master either replaced these frames, or has documented clearance;
+- do not assume inclusion in a federal report automatically made each photograph public domain.
+
+### P2 — human pronunciation
+Human-ear spot check:
+- Lake Peigneur;
+- Delcambre Canal.
+
+Automated QC was pass-with-human-check, not final human approval.
+
+### P3 — YouTube transcode
+Upload Unlisted and wait for full HD processing.
+Check:
+- 1080p playback;
+- Stats for Nerds if available;
+- dark-detail/grain retention;
+- text/map legibility;
+- audio;
+- captions;
+- end-screen geometry.
+
+If YouTube's 1080p transcode is materially soft, then evaluate a 1440p upload-master path. Do not create one blindly.
+
+### P4 — thumbnail phone check
+Open the exact locked PNG at small/mobile display size.
+Verify:
+- "THE LAKE DISAPPEARED" reads instantly;
+- drilling platform is still legible as scale;
+- lake-to-mine relationship reads without zooming in.
+
+## Go / no-go
+
+**UPLOAD UNLISTED: GO after exact master is located.**  
+**PUBLISH PUBLIC: NO-GO until P0–P4 pass.**

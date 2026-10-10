@@ -1,0 +1,36 @@
+{
+  "updated": "2026-10-10",
+  "status": "PACKAGING_LOCKED_READY_FOR_UNLISTED_QC",
+  "launch_order": 1,
+  "title": "How a Salt Mine Swallowed an Entire Louisiana Lake",
+  "reserve_titles": [
+    "The Day a Louisiana Lake Fell Into a Salt Mine",
+    "How an Entire Louisiana Lake Vanished Underground"
+  ],
+  "thumbnail": {
+    "path": "LAKE_PEIGNEUR/THUMBNAIL/VIDEO005_LAKE_PEIGNEUR_THUMBNAIL_FINAL.png",
+    "headline": "THE LAKE / DISAPPEARED",
+    "dimensions": "1672x941",
+    "sha256": "4c96862126f5821684a0efdfa10e934cdfd6bd8d0e4836873ce50c31f0ab43d2"
+  },
+  "description_path": "LAKE_PEIGNEUR/PUBLISHING/YOUTUBE_DESCRIPTION_RELAUNCH.txt",
+  "captions_path": "LAKE_PEIGNEUR/PUBLISHING/LAKE_PEIGNEUR_ENGLISH_CC.srt",
+  "language": "English (United States)",
+  "audience": "Not made for kids",
+  "category": "Education",
+  "playlist": "Hidden Industrial America",
+  "initial_visibility": "Unlisted",
+  "end_screen_initial": "Subscribe only",
+  "master": {
+    "filename": null,
+    "sha256": null,
+    "state": "MUST_IDENTIFY_AND_QC_BEFORE_PUBLIC"
+  },
+  "public_release_gates": [
+    "P0 exact master identity and technical metadata",
+    "P1 provenance spot audit for conditional Appendix EE visuals",
+    "P2 human-ear pronunciation check for Peigneur and Delcambre",
+    "P3 Unlisted YouTube transcode QC",
+    "P4 phone-size thumbnail readability check"
+  ]
+}
