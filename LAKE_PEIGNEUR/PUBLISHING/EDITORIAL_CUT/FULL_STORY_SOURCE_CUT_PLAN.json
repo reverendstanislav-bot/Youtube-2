@@ -54,17 +54,17 @@
     },
     {
       "beat": "LP-B031",
-      "asset": "LP-REC-031",
+      "asset": "LP-REC-035",
       "frame": 8870,
       "spoken": "The lake began pulling toward the failure zone",
-      "why": "Already locked shore collapse reconstruction"
+      "why": "Existing original LP-REC-035: site-agnostic conceptual reconstruction matching narrated Lake Peigneur engineering or human stakes; not authenticated 1980 film, no refinery footage."
     },
     {
       "beat": "LP-B032",
-      "asset": "LP-REC-032",
+      "asset": "LP-REC-036",
       "frame": 9111,
       "spoken": "The opening at the surface expanded",
-      "why": "Already locked shoreline erosion context"
+      "why": "Existing original LP-REC-036: site-agnostic conceptual reconstruction matching narrated Lake Peigneur engineering or human stakes; not authenticated 1980 film, no refinery footage."
     },
     {
       "beat": "LP-B037",
@@ -124,10 +124,10 @@
     },
     {
       "beat": "LP-B058",
-      "asset": "LP-REC-025",
+      "asset": "LP-REC-018",
       "frame": 15982,
       "spoken": "All fifty-two people recorded underground escaped",
-      "why": "Locked mine workers safely out of underground system"
+      "why": "Existing original LP-REC-018: site-agnostic conceptual reconstruction matching narrated Lake Peigneur engineering or human stakes; not authenticated 1980 film, no refinery footage."
     },
     {
       "beat": "LP-B062",
@@ -159,17 +159,17 @@
     },
     {
       "beat": "LP-B074",
-      "asset": "LP-REC-022",
+      "asset": "LP-REC-042",
       "frame": 20509,
       "spoken": "That is the quieter scale of the disaster",
-      "why": "Human industrial job-loss context; not authenticated historic worker"
+      "why": "Existing original LP-REC-042: site-agnostic conceptual reconstruction matching narrated Lake Peigneur engineering or human stakes; not authenticated 1980 film, no refinery footage."
     },
     {
       "beat": "LP-B082",
-      "asset": "LP-GFX-043",
+      "asset": "LP-GFX-045",
       "frame": 22573,
       "spoken": "A drilling path descending from above",
-      "why": "Approved vertical drilling/mining drawing to match narrated relationship"
+      "why": "Existing original LP-GFX-045: site-agnostic conceptual reconstruction matching narrated Lake Peigneur engineering or human stakes; not authenticated 1980 film, no refinery footage."
     }
   ]
 }
