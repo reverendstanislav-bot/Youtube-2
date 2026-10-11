@@ -41,18 +41,18 @@
         {
           "from": 650,
           "to": 810,
-          "asset": "LP-REC-027",
+          "asset": "LP-REC-002",
           "kind": "reconstruction",
           "spoken": "Seven more were on the drilling platform. Within hours, the platform would be gone",
-          "editorial": "Original locked drill crew on rig; source-grounded reconstruction"
+          "editorial": "Original inland floating rig workers; not an offshore ocean platform"
         },
         {
           "from": 810,
           "to": 869,
-          "asset": "LP-REC-030",
-          "kind": "reconstruction",
+          "asset": "LP-GFX-031",
+          "kind": "gfx",
           "spoken": "Part of the shoreline would be gone",
-          "editorial": "Original locked shoreline-failure context, without invented archival attribution"
+          "editorial": "Original shoreline-erosion illustration without unrelated refinery context"
         }
       ]
     },
