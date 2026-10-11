@@ -5,7 +5,7 @@ on:
       - '.github/workflows/hia_lake_v4_existing_media_qc.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   qc:
     runs-on: ubuntu-latest
@@ -32,7 +32,8 @@ jobs:
           echo "$SHORTS_SHA  qc_inputs/shorts_v2.zip" | sha256sum -c -
           unzip -q qc_inputs/shorts_v2.zip -d qc_inputs/shorts
           test "$(find qc_inputs/shorts -type f -iname '*.mp4' | wc -l)" -eq 4
-      - name: Full-decode every original and extract QC frames for 36 accents and 100 slots
+      - id: actual_qc
+        name: Full-decode every original and extract QC frames for 36 accents and 100 slots
         shell: bash
         run: |
           set -euo pipefail
@@ -56,3 +57,25 @@ jobs:
           path: qc_inputs/HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4
           retention-days: 14
           if-no-files-found: error
+      - name: Publish audit run locator (does not grant publication approval)
+        if: always()
+        shell: bash
+        env:
+          QC_RESULT: ${{ steps.actual_qc.outcome }}
+        run: |
+          set -euo pipefail
+          mkdir -p LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE
+          cat > LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE/LATEST_QC_RUN.md <<EOF
+          # Lake Peigneur V4 — QC extraction workflow locator
+          GitHub Actions: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
+          Actual source QC result: $QC_RESULT
+          Master: existing V4 review Release file; source unchanged.
+          Artifacts: HIA_LAKE_V4_EVIDENCE_SHORTS and HIA_LAKE_V4_ORIGINAL_MASTER_QC.
+          Editorial QC remains OPEN pending manual frame inspection; Public NO-GO.
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE/LATEST_QC_RUN.md
+          git commit -m "Record actual Lake V4 QC evidence Actions run ID; preserve editorial NO-GO"
+          git pull --rebase origin main
+          git push origin HEAD:main
