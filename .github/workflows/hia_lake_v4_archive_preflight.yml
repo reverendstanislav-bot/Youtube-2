@@ -1,0 +1,70 @@
+name: Lake Peigneur Map and Federal Source Preflight (no render)
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v4_archive_preflight.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download already-existing 1980s MSHA / USGS production archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p archive_download archive_unpack archive_inspection
+          gh run download 36176288181 -R "$GITHUB_REPOSITORY" -n LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -D archive_download
+          find archive_download -maxdepth 3 -type f -printf '%p %s bytes\n'
+          while IFS= read -r -d '' z; do unzip -q -o "$z" -d archive_unpack; done < <(find archive_download -type f -iname '*.zip' -print0)
+          find archive_unpack -maxdepth 3 -type f -printf '%p %s bytes\n' | head -100
+      - name: Prepare contact sheets without uploading or altering copyrighted images
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3-pil poppler-utils
+          python3 - <<'PY'
+          import pathlib, subprocess, json
+          from PIL import Image,ImageOps,ImageDraw
+          root=pathlib.Path('archive_unpack');out=pathlib.Path('archive_inspection')
+          files=[p for p in root.rglob('*') if p.is_file()]
+          (out/'ALL_ARCHIVE_FILES.txt').write_text('\n'.join(str(p.relative_to(root))+' | '+str(p.stat().st_size) for p in files))
+          focus=[p for p in files if any(s in str(p).upper() for s in ('01_PRIMARY_MSHA','03_USGS','04_USGS','05_PUBLIC_DOMAIN','06_CC_LICENSED'))]
+          imgs=[]
+          for p in focus:
+            suffix=p.suffix.lower()
+            if suffix in ('.jpg','.jpeg','.png','.webp','.tif','.tiff'):
+              try:
+                im=Image.open(p).convert('RGB');imgs.append((str(p.relative_to(root)),im.copy()))
+              except Exception:pass
+            elif suffix=='.pdf' and any(x in p.name.upper() for x in ('MAP','DELCAMBRE','APPENDIX','TOPO','LAKE')):
+              try:
+                dest=out/('sample_'+str(len(imgs)))
+                subprocess.run(['pdftoppm','-f','1','-l','1','-scale-to','1300','-singlefile','-png',str(p),str(dest)],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=25)
+                im=Image.open(str(dest)+'.png').convert('RGB');imgs.append((str(p.relative_to(root))+' (PDF p1)',im.copy()))
+              except Exception:pass
+          (out/'FOCUS_FILES.txt').write_text('\n'.join(str(p.relative_to(root)) for p in focus))
+          for start in range(0,len(imgs),15):
+            chunk=imgs[start:start+15]
+            sheet=Image.new('RGB',(5*350,3*258),'#151719');d=ImageDraw.Draw(sheet)
+            for j,(name,img) in enumerate(chunk):
+              im=ImageOps.contain(img,(342,221))
+              x=(j%5)*350;y=(j//5)*258
+              sheet.paste(im,(x+(342-im.width)//2,y+(221-im.height)//2))
+              d.rectangle([x,y+222,x+349,y+257],fill='#252a2e')
+              d.text((x+4,y+226),pathlib.Path(name).name[:51],fill='white')
+              d.text((x+4,y+243),str(j+start)+': '+name[:35],fill='#d6c9b6')
+            sheet.save(out/f'PUBLIC_SOURCE_CONTACT_{start//15+1:02d}.jpg',quality=88)
+          print('SOURCE',len(files),'FOCUS',len(focus),'IMG',len(imgs))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HIA_LAKE_GOV_SOURCE_MAPS_INDEX
+          path: archive_inspection/*
+          retention-days: 14
