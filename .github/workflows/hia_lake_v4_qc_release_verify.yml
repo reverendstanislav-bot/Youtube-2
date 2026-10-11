@@ -1,0 +1,73 @@
+name: Verify Lake V4 QC HOLD Release Actual Remote Assets
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v4_qc_release_verify.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: hia-lake-peigneur-v4-independent-qc-hold-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify real GitHub release asset availability, lengths and public HTTP HEAD
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE
+          for attempt in $(seq 1 12); do
+            gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets > /tmp/actual_release_assets.json || true
+            if python3 - <<'PY'
+          import json,pathlib,sys
+          p=pathlib.Path('/tmp/actual_release_assets.json')
+          try: d=json.loads(p.read_text())
+          except Exception: sys.exit(1)
+          n={x['name']:x['size'] for x in d['assets']}
+          needed={'HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4':270386435,
+          'LP-S01_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4':9463861,
+          'LP-S02_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4':8282545,
+          'LP-S03_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4':10449245,
+          'LP-S04_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4':8680604}
+          assert all(n.get(name)==size for name,size in needed.items()),n
+          for x in ['SHA256SUMS.txt','HIA_LAKE_V4_ACTUAL_QC_CONTACTS.zip','V4_INDEPENDENT_QC_REPORT_2026-10-11.md']:
+            assert n.get(x,0)>0,(x,n.get(x))
+          print('Verified 8 actual Release assets and exact five video file byte sizes')
+          PY
+            then break
+            fi
+            test "$attempt" -lt 12
+            sleep 15
+          done
+          for name in HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4 LP-S01_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4 LP-S02_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4 LP-S03_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4 LP-S04_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4 SHA256SUMS.txt; do
+            url="https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$name"
+            code=$(curl -LsSI --max-time 60 -o /dev/null -w '%{http_code}' "$url")
+            echo "$code $name" >> /tmp/http_results.txt
+            test "$code" = "200"
+          done
+          {
+            echo '# Lake Peigneur V4 QC HOLD Release VERIFIED'
+            echo
+            echo "Release: https://github.com/$GITHUB_REPOSITORY/releases/tag/$TAG"
+            echo "Verification Actions run: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            echo 'Confirmed eight remote Release assets (original master, four Shorts, QC report, contact evidence, SHA file).'
+            echo 'All five original MP4 assets match exact expected byte sizes.'
+            echo 'Remote asset download URLs tested using HTTP HEAD:'
+            cat /tmp/http_results.txt
+            echo 'Separate SHA256SUMS.txt provides authoritative actual MP4 hashes.'
+            echo '**Editorial status remains REJECT / NO-GO, not FINAL upload-approved.**'
+          } > LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE/VERIFIED_QC_HOLD_RELEASE.md
+      - name: Commit true verified links after checks pass
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE/VERIFIED_QC_HOLD_RELEASE.md
+          git commit -m 'Verify remote Lake V4 QC HOLD release assets byte sizes and HTTP HEAD'
+          git pull --rebase origin main
+          git push origin HEAD:main
