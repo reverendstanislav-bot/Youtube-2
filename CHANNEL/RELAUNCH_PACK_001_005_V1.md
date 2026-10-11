@@ -7,18 +7,14 @@ Status: WORKING / NO PAID GENERATION APPROVED
 
 ## 01 RELAUNCH — Lake Peigneur
 
-**2026-10-11 ACTUAL CLEAN MASTER + FOUR SHORTS DELIVERED.**
+**CURRENT: V3 corrected master 2026-10-11**, previous V1/V2 REJECT.
 
-- Clean long: 1920×1080 / 25fps / 16:28.440 / **NO subtitles**. Full decode and technical QC PASS, SHA `4ca4c63890df57a7203fe715076a4b15f36a408f383af51dd2e3463dba0c2de1`.
-- Correct first-episode Subscribe-only end screen; old PREVIOUS STORY removed.
-- Clean original pictures from recovered V13 archive, upgraded visual export without captioned-MP4 reuse.
-- Four finished 9:16 MP4s with no dialogue captions (4/4), all uploaded.
-- Original 14 historical CONDITIONAL frames: 2 replaced, 12 still require final semantic/editorial approval.
-- Title OWNER APPROVAL not yet obtained; canonical thumbnail checked, but final pair open.
-- Real YouTube Unlisted transcode/softness test and pronunciation spot checks pending.
-- Exact download URLs, SHA, source patch and hard QC: `LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_CLEAN_MASTER_DELIVERY_QC_2026-10-11.md`.
-
-**READY_FOR_UNLISTED_TEST = YES / READY_FOR_PUBLIC = NO**.
+- Long V3: 1920×1080 25fps, 16:28.440, SHA `fbc8efae5ec482b1fd6719e359cd7d50d21ed3ea9b45e0fe7608c399e700b40d`; no dialogue subtitles, accepted Chicago R15 first-video endscreen, no zoom jump or wipe.
+- 99 picture slots, source reuse <=2; rejected flat editorial slides and inaccurate collages removed.
+- Shorts: 4/4 NEW V2 smooth 9:16 MP4s physically delivered, caption-free.
+- Main V3 report, links, QC: `LAKE_PEIGNEUR/PUBLISHING/RELAUNCH_V3_CORRECTED_MASTER_QC_2026-10-11.md`.
+- Remaining: 6 historical CONDITIONAL reconstruction visual approvals, owner title/thumbnail lock, human-ear pronunciation, provenance, Unlisted transcoding.
+- **REVIEW READY / PUBLIC NO-GO**.
 
 ## 02 RELAUNCH — Big Muskie
 

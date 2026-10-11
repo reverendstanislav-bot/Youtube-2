@@ -1,7 +1,7 @@
 # LAKE PEIGNEUR — DIRECTORIAL REPAIR V3
 
 Date: 2026-10-11
-Status: **RENDER IN PROGRESS / MASTER NOT YET QC-PASSED**.
+Status: **RENDER AND TECHNICAL QC COMPLETE / V3 MASTER DELIVERED; OWNER REVIEW PENDING**.
 Latest owner instruction: all long-form and Shorts without subtitles; only approved end screens; no invented editorial slides / abrupt zoom or horizontal movement.
 
 ## Exact approved end screen identified
@@ -53,3 +53,12 @@ ZIP SHA256:
 The latest V3 long master must still finish rendering, undergo the full FFmpeg decode, black/silence checks, visual QC at all repaired timestamps, and owner review. YouTube Unlisted transcode and title+thumbnail approval are also still pending.
 
 Never promote this entry to PUBLIC READY until those checks pass.
+## V3 final render delivered
+
+Actual MP4: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/b135d035-6df6-4338-b5c9-5a3a94fa324e.mp4
+
+SHA `fbc8efae5ec482b1fd6719e359cd7d50d21ed3ea9b45e0fe7608c399e700b40d`.
+
+Full QC report: `RELAUNCH_V3_CORRECTED_MASTER_QC_2026-10-11.md`.
+
+V3 source patch and four Shorts are uploaded and verified. Owner editorial approval and actual YouTube Unlisted transcode are open.
