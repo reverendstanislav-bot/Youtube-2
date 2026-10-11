@@ -1,0 +1,58 @@
+name: Lake Peigneur V4 Existing Media QC Evidence
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v4_existing_media_qc.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REVIEW_TAG: hia-lake-peigneur-v4-remotion-review-20261011
+      SHORTS_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/2001dfc1-6067-4894-8e90-833242b4712d.zip
+      SHORTS_SHA: 6c86cc3123e3f26a2536869a60c263675adb3f84c9cf6574392b34cec783abae
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install original-media QC dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg python3-pil
+      - name: Fetch actual completed V4 MP4 and original four V2 Shorts without recompression
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p qc_inputs/shorts qc_results
+          gh release download "$REVIEW_TAG" --repo "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4' --pattern 'V4_SHA256SUMS.txt' --dir qc_inputs
+          (cd qc_inputs && sha256sum -c V4_SHA256SUMS.txt)
+          curl -fLsS --retry 4 "$SHORTS_URL" -o qc_inputs/shorts_v2.zip
+          echo "$SHORTS_SHA  qc_inputs/shorts_v2.zip" | sha256sum -c -
+          unzip -q qc_inputs/shorts_v2.zip -d qc_inputs/shorts
+          test "$(find qc_inputs/shorts -type f -iname '*.mp4' | wc -l)" -eq 4
+      - name: Full-decode every original and extract QC frames for 36 accents and 100 slots
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/hia_lake_v4_qc_evidence.py
+      - name: Upload real QC evidence and Shorts, always available
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_V4_EVIDENCE_SHORTS
+          path: |
+            qc_results/**
+            qc_inputs/shorts/**/*.mp4
+            qc_inputs/V4_SHA256SUMS.txt
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Upload original V4 master separately for independent editorial QC
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: HIA_LAKE_V4_ORIGINAL_MASTER_QC
+          path: qc_inputs/HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4
+          retention-days: 14
+          if-no-files-found: error
