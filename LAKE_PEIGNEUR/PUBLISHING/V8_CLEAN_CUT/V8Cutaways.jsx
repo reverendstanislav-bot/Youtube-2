@@ -31,7 +31,7 @@ export const V8Cutaways=({frame})=>{
  );
  return <AbsoluteFill style={{pointerEvents:'none',opacity,zIndex:9}}>
    <Img src={staticFile('assets/'+cut.asset+'.png')} style={{
-     width:'100%',height:'100%',objectFit:'contain',objectPosition:'center',
+     width:'100%',height:'100%',objectFit:cut.asset.startsWith('LP-GFX-')?'contain':'cover',objectPosition:'center',
      background:'#171A1C'
    }}/>
  </AbsoluteFill>;
