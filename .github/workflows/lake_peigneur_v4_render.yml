@@ -51,7 +51,7 @@ jobs:
           python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT" --dry-run
           python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT"
           cd "$LP_PROJECT"
-          npm ci --ignore-scripts --no-audit --no-fund
+          npm install --ignore-scripts --no-audit --no-fund --prefer-offline
           npx remotion compositions src/index.jsx
       - name: Render and technically review four control clips
         shell: bash
