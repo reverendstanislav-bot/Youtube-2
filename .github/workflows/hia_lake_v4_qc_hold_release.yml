@@ -1,0 +1,96 @@
+name: Lake Peigneur V4 Independent QC HOLD Release
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v4_qc_hold_release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish-qc-hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_TAG: hia-lake-peigneur-v4-remotion-review-20261011
+      AUDIT_TAG: hia-lake-peigneur-v4-independent-qc-hold-20261011
+      SHORTS_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/2001dfc1-6067-4894-8e90-833242b4712d.zip
+      SHORTS_SHA: 6c86cc3123e3f26a2536869a60c263675adb3f84c9cf6574392b34cec783abae
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover originals — never re-encode
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p publish/shorts qc-frames
+          gh release download "$SOURCE_TAG" --repo "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4' --dir publish
+          curl -fLsS --retry 3 "$SHORTS_URL" -o publish/shorts_archive.zip
+          echo "$SHORTS_SHA  publish/shorts_archive.zip" | sha256sum -c -
+          unzip -q publish/shorts_archive.zip -d publish/shorts
+          test "$(find publish/shorts -name '*.mp4' -type f | wc -l)" -eq 4
+          while IFS= read -r -d '' f; do cp "$f" publish/; done < <(find publish/shorts -name '*.mp4' -type f -print0)
+          rm -rf publish/shorts publish/shorts_archive.zip
+          cp LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/QC_EVIDENCE/V4_INDEPENDENT_QC_REPORT_2026-10-11.md publish/
+      - name: Verify immutable original MP4 content SHA256
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > publish/SHA256SUMS.txt <<'EOF'
+          412823ea678bdd54abd2c065c743d827f712bd3076c7c71f5c53bcb9deba51d7  HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4
+          6020400d27d2d3e07f0d65e9169d5634feebf1e2d6cd8c3cb6d60c76649da48d  LP-S01_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4
+          3fdeb7f64e290b01a05810ce0f9ce3920fd786158b7376f35a1c119e807f4987  LP-S02_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4
+          3e9ff822decae0f531967386b67279071cb147d82913ad5427c447464cc65aaa  LP-S03_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4
+          39a060f6a907d594cf3acf623fdf09bd8ff587947219b46e9b44fad83fac1296  LP-S04_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4
+          EOF
+          (cd publish && sha256sum -c SHA256SUMS.txt)
+      - name: Bundle actual visual QC contact sheets generated on independent run
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run download 38153508628 -R "$GITHUB_REPOSITORY" -n HIA_LAKE_V4_EVIDENCE_SHORTS -D qc-frames
+          python3 - <<'PY'
+          import pathlib,zipfile
+          root=pathlib.Path('qc-frames')
+          matches=[p for p in root.rglob('*') if p.is_file() and (('_contact_' in p.name and p.suffix.lower()=='.jpg') or p.name in ('QC_TECHNICAL_REPORT.json','FRAME_REVIEW_MANIFEST.csv','master_blackdetect.log','master_silencedetect.log'))]
+          assert len(matches)>=12, [str(m) for m in matches]
+          with zipfile.ZipFile('publish/HIA_LAKE_V4_ACTUAL_QC_CONTACTS.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
+            for p in matches: z.write(p,p.name)
+          print('QC evidence contacts/files',len(matches))
+          PY
+      - name: Publish NEW separate release, never overwrite source release
+        shell: bash
+        run: |
+          set -euo pipefail
+          test ! -z "$AUDIT_TAG"
+          if gh release view "$AUDIT_TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "QC release already exists; will not overwrite."
+            exit 1
+          fi
+          gh release create "$AUDIT_TAG" -R "$GITHUB_REPOSITORY" --title "HIA Lake Peigneur V4 — Verified Source Files / Editorial QC HOLD" --notes-file publish/V4_INDEPENDENT_QC_REPORT_2026-10-11.md --prerelease
+          gh release upload "$AUDIT_TAG" publish/*.mp4 publish/SHA256SUMS.txt publish/HIA_LAKE_V4_ACTUAL_QC_CONTACTS.zip publish/V4_INDEPENDENT_QC_REPORT_2026-10-11.md -R "$GITHUB_REPOSITORY"
+          gh release view "$AUDIT_TAG" -R "$GITHUB_REPOSITORY" --json tagName,assets > publish/ACTUAL_GITHUB_RELEASE_ASSETS.json
+          python3 - <<'PY'
+          import json,pathlib
+          data=json.loads(pathlib.Path('publish/ACTUAL_GITHUB_RELEASE_ASSETS.json').read_text())
+          names={a['name']:a['size'] for a in data['assets']}
+          expected=[p for p in pathlib.Path('publish').iterdir() if p.suffix=='.mp4']+[pathlib.Path('publish/SHA256SUMS.txt'),pathlib.Path('publish/HIA_LAKE_V4_ACTUAL_QC_CONTACTS.zip'),pathlib.Path('publish/V4_INDEPENDENT_QC_REPORT_2026-10-11.md')]
+          assert len([p for p in expected if p.suffix=='.mp4'])==5
+          for p in expected: assert names.get(p.name)==p.stat().st_size,(p.name,names.get(p.name),p.stat().st_size)
+          print('Verified GitHub Release assets names and byte sizes',len(expected))
+          PY
+          for f in HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4 LP-S01_V2_SMOOTH_NO_CAPTIONS_1080x1920.mp4 SHA256SUMS.txt; do
+            url="https://github.com/$GITHUB_REPOSITORY/releases/download/$AUDIT_TAG/$f"
+            status=$(curl -LsSI --max-time 45 -o /dev/null -w '%{http_code}' "$url")
+            printf '%s %s\n' "$status" "$url"
+            test "$status" = 200
+          done
+      - name: Preserve Actions QC Release verification outputs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_V4_QC_HOLD_RELEASE_VALIDATION
+          path: |
+            publish/ACTUAL_GITHUB_RELEASE_ASSETS.json
+            publish/SHA256SUMS.txt
+            publish/V4_INDEPENDENT_QC_REPORT_2026-10-11.md
+          retention-days: 14
