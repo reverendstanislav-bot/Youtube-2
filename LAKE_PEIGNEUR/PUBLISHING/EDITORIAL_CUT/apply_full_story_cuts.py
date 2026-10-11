@@ -27,7 +27,7 @@ def sha(p):
 assert sha(P/'public/LAKE_PEIGNEUR_ARTHUR_MASTER_LOCKED.mp3')=='1ae5c97d85b9cf2c10c438a2834d024776ea851a932a02aab2490860fa4afd13'
 assert sha(P/'public/approved_first_end_1080.png')=='b794e5582699e90812b25208ca1c5dd053df465825d1ce6e33a7a0c6ea53b575'
 # EXACT canonical word-start match from all four original Stage 7 timing CSV chunks
-base=D.parents[2]/'STAGE_7'
+base=D.parents[1]/'STAGE_7'
 words=[]
 for i in range(1,5):
  fn=base/f'WORD_TIMING_V1_CHUNK_0{i}.csv'
