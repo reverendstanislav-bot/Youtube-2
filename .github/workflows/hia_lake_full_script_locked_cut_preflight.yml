@@ -1,4 +1,5 @@
 name: Lake Peigneur — Full Script-Locked Cut Source Preflight
+# All 23 inserted cut points now match canonical Arthur word onsets to the nearest 25fps frame.
 on:
   push:
     paths:
