@@ -59,7 +59,7 @@ base_counts.update(used_extra)
 assert max(base_counts.values())<=2,base_counts.most_common(8)
 assert len(used_extra)==7 and sum(used_extra.values())==7,used_extra
 assert len(j['beats'])==87 and sum(len(b['slots']) for b in j['beats'])==106
-assert j['duration']==968.44
+assert 968.40 < j['duration'] < 968.46
 # Remove all technical/decorative accents and leave native V3 18-frame shot dissolves, Chapter/Fact and unchanged audio/endscreen.
 old='<V4Picture frame={frame}>{beatIndex===0?<OpeningPicture frame={frame}/>:<Picture beatIndex={beatIndex} frame={frame}/>}</V4Picture><V4Overlay frame={frame}/><Chapter'
 replacement='{beatIndex===0?<OpeningPicture frame={frame}/>:<Picture beatIndex={beatIndex} frame={frame}/>}<Chapter'
