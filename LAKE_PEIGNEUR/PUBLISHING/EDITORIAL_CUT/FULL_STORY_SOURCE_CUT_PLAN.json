@@ -1,0 +1,175 @@
+{
+  "status": "EDITORIAL SOURCE PLAN — locked Arthur speech with exact Stage7 word timings; not a final approved master",
+  "source": "LAKE_PEIGNEUR/STAGE_7/WORD_TIMING_V1_CHUNK_01..04.csv",
+  "start_from": "FIRST_180S_SCRIPT_LOCK.json applied after recovered V5 patch",
+  "invariants": {
+    "unchanged_arthur_audio": true,
+    "unchanged_chicago_endscreen": true,
+    "same_87_story_beats": true,
+    "no_v4_v7_motion_focus": true
+  },
+  "picture_edit_rule": "For each listed beat with one source slot, preserve the original source to the exact speech onset frame and use the listed already-approved asset to its beat end; native 18-frame Remotion dissolve. Never insert unrelated pictures or fabricated route geometries.",
+  "cuts": [
+    {
+      "beat": "LP-B018",
+      "asset": "LP-REC-034",
+      "frame": 5092,
+      "spoken": "And because the surrounding structure itself was soluble",
+      "why": "Floodwater entering salt-mine workings, not fabricated historic footage"
+    },
+    {
+      "beat": "LP-B019",
+      "asset": "LP-REC-019",
+      "frame": 5373,
+      "spoken": "nobody underground needed a final answer",
+      "why": "Original locked miners/supervisors accounting; human emergency"
+    },
+    {
+      "beat": "LP-B024",
+      "asset": "LP-REC-023",
+      "frame": 6708,
+      "spoken": "Supervisors and crew members had to account",
+      "why": "Workers evacuating toward mine exit"
+    },
+    {
+      "beat": "LP-B025",
+      "asset": "LP-REC-017",
+      "frame": 7080,
+      "spoken": "The official investigation later recognized",
+      "why": "Workers moving quickly through mine during evacuation"
+    },
+    {
+      "beat": "LP-B026",
+      "asset": "LP-REC-015",
+      "frame": 7458,
+      "spoken": "The workers did not know how large the connection would become",
+      "why": "Miners considering escape under uncertainty"
+    },
+    {
+      "beat": "LP-B028",
+      "asset": "LP-REC-021",
+      "frame": 8010,
+      "spoken": "The spectacle of Lake Peigneur can make that fact feel secondary",
+      "why": "Human survivors visible aboveground"
+    },
+    {
+      "beat": "LP-B031",
+      "asset": "LP-REC-031",
+      "frame": 8870,
+      "spoken": "The lake began pulling toward the failure zone",
+      "why": "Already locked shore collapse reconstruction"
+    },
+    {
+      "beat": "LP-B032",
+      "asset": "LP-REC-032",
+      "frame": 9110,
+      "spoken": "The opening at the surface expanded",
+      "why": "Already locked shoreline erosion context"
+    },
+    {
+      "beat": "LP-B037",
+      "asset": "LP-GFX-027",
+      "frame": 10498,
+      "spoken": "Fresh water contacts the salt surface",
+      "why": "Conceptual growing-opening engineering diagram, no claimed measured breach"
+    },
+    {
+      "beat": "LP-B038",
+      "asset": "LP-GFX-007",
+      "frame": 10723,
+      "spoken": "Loss of salt can weaken the roof, pillars",
+      "why": "Approved room-and-pillar mine gallery supports"
+    },
+    {
+      "beat": "LP-B039",
+      "asset": "LP-GFX-011",
+      "frame": 11068,
+      "spoken": "Flow. Dissolution. Enlargement and failure.",
+      "why": "Approved water–salt contact process graphic"
+    },
+    {
+      "beat": "LP-B041",
+      "asset": "LP-GFX-021",
+      "frame": 11718,
+      "spoken": "Whatever the initiating pathway looked like",
+      "why": "Approved borehole-to-salt schematic; cause uncertain"
+    },
+    {
+      "beat": "LP-B043",
+      "asset": "LP-GFX-025",
+      "frame": 12113,
+      "spoken": "The lake itself became part of the failure mechanism",
+      "why": "Approved lake–mine hydraulic connection concept"
+    },
+    {
+      "beat": "LP-B044",
+      "asset": "LP-GFX-033",
+      "frame": 12483,
+      "spoken": "It was a mine carved through a soluble salt structure",
+      "why": "Approved industrial mine cutaway, not concrete reservoir"
+    },
+    {
+      "beat": "LP-B050",
+      "asset": "LP-PD-USGS-DELCAMBRE-A",
+      "frame": 13828,
+      "spoken": "Under normal conditions",
+      "why": "Actual 1963 federal topo Lake Peigneur/Delcambre context; NO drawn arrows"
+    },
+    {
+      "beat": "LP-B051",
+      "asset": "LP-GFX-038",
+      "frame": 14093,
+      "spoken": "The lake became the lower destination",
+      "why": "Existing source-locked before/after lake depth concept"
+    },
+    {
+      "beat": "LP-B058",
+      "asset": "LP-REC-025",
+      "frame": 15983,
+      "spoken": "All fifty-two people recorded underground escaped",
+      "why": "Locked mine workers safely out of underground system"
+    },
+    {
+      "beat": "LP-B062",
+      "asset": "LP-GFX-047",
+      "frame": 17043,
+      "spoken": "The official federal investigation did not close the case",
+      "why": "Already cleared editorial investigation limit card, not a legal verdict"
+    },
+    {
+      "beat": "LP-B064",
+      "asset": "LP-GFX-042",
+      "frame": 17560,
+      "spoken": "Federal mine-safety investigators reconstructed",
+      "why": "Approved uncertain mine-versus-well-position technical illustration"
+    },
+    {
+      "beat": "LP-B066",
+      "asset": "LP-GFX-046",
+      "frame": 18125,
+      "spoken": "experts were still disagreeing",
+      "why": "Technical map explicitly acknowledges unverified initiating geometry"
+    },
+    {
+      "beat": "LP-B067",
+      "asset": "LP-REC-004",
+      "frame": 18443,
+      "spoken": "They could document the mine",
+      "why": "Approved underground room-and-pillar mine reconstruction"
+    },
+    {
+      "beat": "LP-B074",
+      "asset": "LP-REC-022",
+      "frame": 20508,
+      "spoken": "That is the quieter scale of the disaster",
+      "why": "Human industrial job-loss context; not authenticated historic worker"
+    },
+    {
+      "beat": "LP-B082",
+      "asset": "LP-GFX-043",
+      "frame": 22573,
+      "spoken": "A drilling path descending from above",
+      "why": "Approved vertical drilling/mining drawing to match narrated relationship"
+    }
+  ]
+}
