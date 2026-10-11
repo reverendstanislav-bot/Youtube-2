@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - ".github/workflows/lake_peigneur_v4_render.yml"
+      - "LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/**"
   workflow_dispatch:
 permissions:
   contents: write
