@@ -1,0 +1,171 @@
+{
+  "source_of_truth": [
+    "LAKE_PEIGNEUR/SCRIPT/NARRATION_V2_EN_TTS_CLEAN.txt",
+    "LAKE_PEIGNEUR/STAGE_7/STAGE_7_BEAT_MAP_V1.csv",
+    "LAKE_PEIGNEUR/STAGE_8/STAGE_8B_FINAL_87_BEAT_ASSET_MAP.csv",
+    "LAKE_PEIGNEUR/REMOTION_V1 recovered approved V3 patch",
+    "LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/V5_SOURCE_REPAIR_LOCK.md"
+  ],
+  "status": "UNAPPROVED EDITORIAL CUT PROOF; DO NOT CALL FINAL",
+  "film_fps": 25,
+  "preview_frames": [
+    0,
+    4499
+  ],
+  "rules": {
+    "keep_locked_arthur_voice": true,
+    "keep_all_words_and_timings": true,
+    "keep_chicago_r15_endscreen": true,
+    "no_new_tts_generation": true,
+    "no_paid_assets": true,
+    "remove_entire_v4_overlay_picture_motion": true,
+    "remove_entire_v7_layer": true,
+    "no_camera_pan_zoom_spotlight_ellipse": true,
+    "source_reuse_limit": 2,
+    "keep_same_beat_87": true,
+    "provenance_no_historical_claims": true
+  },
+  "changes": [
+    {
+      "beat": "LP-B003",
+      "replace_original": "LP-GFX-001",
+      "segments": [
+        {
+          "from": 571,
+          "to": 680,
+          "asset": "LP-GFX-001",
+          "kind": "gfx",
+          "spoken": "Fifty-two people were below ground",
+          "editorial": "Existing mine-worker number context; no extra marker"
+        },
+        {
+          "from": 680,
+          "to": 759,
+          "asset": "LP-REC-027",
+          "kind": "reconstruction",
+          "spoken": "Seven more were on the drilling platform. Within hours, the platform would be gone",
+          "editorial": "Original locked drill crew on rig; source-grounded reconstruction"
+        },
+        {
+          "from": 759,
+          "to": 869,
+          "asset": "LP-REC-030",
+          "kind": "reconstruction",
+          "spoken": "Part of the shoreline would be gone",
+          "editorial": "Original locked shoreline-failure context, without invented archival attribution"
+        }
+      ]
+    },
+    {
+      "beat": "LP-B004",
+      "replace_original": "LP-PD-USGS-DELCAMBRE-A",
+      "segments": [
+        {
+          "from": 869,
+          "to": 1029,
+          "asset": "LP-PD-USGS-DELCAMBRE-A",
+          "kind": "real_context",
+          "spoken": "the canal connected to the lake",
+          "editorial": "Federal topographic source, no fabricated arrows"
+        },
+        {
+          "from": 1029,
+          "to": 1191,
+          "asset": "LP-PD-USGS-DELCAMBRE-B",
+          "kind": "real_context",
+          "spoken": "flowing in the wrong direction; changing landscape",
+          "editorial": "Second actual USGS topo crop; no fake historic footage"
+        }
+      ]
+    },
+    {
+      "beat": "LP-B006",
+      "replace_original": "LP-REC-004",
+      "segments": [
+        {
+          "from": 1350,
+          "to": 1481,
+          "asset": "LP-REC-004",
+          "kind": "reconstruction",
+          "spoken": "two industrial systems occupying",
+          "editorial": "Locked salt mine room-and-pillar photo reconstruction"
+        },
+        {
+          "from": 1481,
+          "to": 1605,
+          "asset": "LP-GFX-010",
+          "kind": "gfx",
+          "spoken": "same geology; boundary between them",
+          "editorial": "Already approved geology mine-versus-vertical-drilling cutaway"
+        }
+      ]
+    },
+    {
+      "beat": "LP-B008",
+      "replace_original": "LP-GFX-004",
+      "segments": [
+        {
+          "from": 1882,
+          "to": 2066,
+          "asset": "LP-GFX-004",
+          "kind": "gfx",
+          "spoken": "Jefferson Island rises above coastal plain because of salt dome",
+          "editorial": "Existing explicitly sourced USGS/PD geology card"
+        },
+        {
+          "from": 2066,
+          "to": 2234,
+          "asset": "LP-GFX-009",
+          "kind": "gfx",
+          "spoken": "ancient salt pushed up through younger sediments",
+          "editorial": "Different existing cross-section of actual salt dome shape, illustrative"
+        }
+      ]
+    },
+    {
+      "beat": "LP-B012",
+      "replace_original": "LP-GFX-008",
+      "segments": [
+        {
+          "from": 2960,
+          "to": 3090,
+          "asset": "LP-GFX-016",
+          "kind": "gfx",
+          "spoken": "network of rooms, pillars, passages and working levels",
+          "editorial": "Existing multi-level mine diagram; the already-scripted 52 can remain in picture"
+        },
+        {
+          "from": 3090,
+          "to": 3312,
+          "asset": "LP-GFX-008",
+          "kind": "gfx",
+          "spoken": "working levels at 800, 1000, 1300, 1500 feet",
+          "editorial": "Existing labeled depth-level cutaway, not fabricated measurements"
+        }
+      ]
+    },
+    {
+      "beat": "LP-B013",
+      "replace_original": "LP-GFX-009",
+      "segments": [
+        {
+          "from": 3312,
+          "to": 3512,
+          "asset": "LP-GFX-009",
+          "kind": "gfx",
+          "spoken": "same salt structure made the area interesting to petroleum industry; oil can accumulate",
+          "editorial": "Original oil-around-salt-dome cross-section"
+        },
+        {
+          "from": 3512,
+          "to": 3642,
+          "asset": "LP-REC-011",
+          "kind": "reconstruction",
+          "spoken": "Texaco held an oil lease beneath Lake Peigneur",
+          "editorial": "Generic locked drilling-work reconstruction; NOT authentic 1980 Texaco footage"
+        }
+      ]
+    }
+  ],
+  "no_additional_generated_visuals": true
+}
