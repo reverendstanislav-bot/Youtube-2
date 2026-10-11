@@ -100,6 +100,27 @@ jobs:
             -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
             -t 988.44 -movflags +faststart \
             output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4
+      - name: SAVE FINISHED MASTER IMMEDIATELY before QC — never lose a completed render
+        shell: bash
+        run: |
+          set -euo pipefail
+          file='output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4'
+          test -s "$file"
+          sha256sum "$file" > output/MASTER_CHECKPOINT_SHA256.txt
+          if gh release view "$FINAL_TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'Refuse to overwrite an existing checkpoint/final master release'
+            exit 1
+          fi
+          gh release create "$FINAL_TAG" -R "$GITHUB_REPOSITORY" --title 'HIA Lake Peigneur V4/V5 — Repaired Master (QC pending)' --notes 'Actual 24711-frame original-PNG repair render saved. Full video/audio quality-control is still pending. NOT YouTube Public Ready.' --prerelease
+          gh release upload "$FINAL_TAG" "$file" output/MASTER_CHECKPOINT_SHA256.txt -R "$GITHUB_REPOSITORY"
+          gh release view "$FINAL_TAG" -R "$GITHUB_REPOSITORY" --json assets > output/MASTER_CHECKPOINT_RELEASE_ASSETS.json
+          python3 - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4')
+          assets={a['name']:a['size'] for a in json.loads(pathlib.Path('output/MASTER_CHECKPOINT_RELEASE_ASSETS.json').read_text())['assets']}
+          assert assets.get(p.name)==p.stat().st_size
+          print('Immutable actual completed MP4 safely uploaded BEFORE subsequent QC',p.stat().st_size)
+          PY
       - name: Full decode, H264 High, AAC identity, 36 accent, all repaired shots, source reuse and black/silence QC
         timeout-minutes: 30
         shell: bash
@@ -146,13 +167,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if gh release view "$FINAL_TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo "Refusing to clobber an existing final tag."
-            exit 1
-          fi
-          gh release create "$FINAL_TAG" -R "$GITHUB_REPOSITORY" --title 'HIA Lake Peigneur V4 — Repaired 1080p25 Upload Master / Publication HOLD' --notes-file output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md --prerelease
+          gh release view "$FINAL_TAG" -R "$GITHUB_REPOSITORY" >/dev/null
+          gh release edit "$FINAL_TAG" -R "$GITHUB_REPOSITORY" --title 'HIA Lake Peigneur V4 — Repaired 1080p25 Upload Master / Publication HOLD' --notes-file output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md --prerelease
           gh release upload "$FINAL_TAG" \
-            output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4 \
             output/HIA_LAKE_V5_REPAIR_SOURCE_PATCH.zip \
             output/HIA_LAKE_V4_FINAL_QC_CONTACTS.zip \
             output/SHA256SUMS_V4_FINAL.txt \
@@ -181,4 +198,6 @@ jobs:
             output/SHA256SUMS_V4_FINAL.txt
             output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md
             output/RELEASE_ASSETS_VERIFIED.json
+            output/MASTER_CHECKPOINT_SHA256.txt
+            output/MASTER_CHECKPOINT_RELEASE_ASSETS.json
           retention-days: 14
