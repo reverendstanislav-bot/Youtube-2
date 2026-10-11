@@ -38,13 +38,10 @@ export const V4Overlay=({frame})=>{
   if(opacity<0.001)return null;
   const cx=a.x*1920,cy=a.y*1080;
   const rx=Math.max(40,a.w*960),ry=Math.max(40,a.h*540);
-  if(a.effect==="RING"){
-    return <AbsoluteFill style={{pointerEvents:"none",opacity}}>
-      <svg viewBox="0 0 1920 1080" width="100%" height="100%">
-        <ellipse cx={cx} cy={cy} rx={rx} ry={ry} fill="none" stroke="#E6DDC8" strokeWidth="2" strokeOpacity="0.88"/>
-      </svg>
-    </AbsoluteFill>;
-  }
+  // HISTORICAL RING EFFECT FIX:
+  // Five legacy RING windows formerly drew conspicuous outlined ellipses.
+  // All non-PUSH accents, including these five, use only a borderless feathered focus.
+  // Absolutely no SVG circles, ellipses, strokes, tracing lines, labels or polygons.
   // PATH = soft source focus, NOT a fabricated line/arrow. Add traces only after waypoint QC.
   // DOCUMENT/DATA/SPOT use same restrained non-text spotlight, no new information.
   const dim=clamp(a.strength,0,.16)*opacity;
