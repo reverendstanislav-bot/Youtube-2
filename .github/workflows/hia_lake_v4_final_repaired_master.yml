@@ -1,0 +1,181 @@
+name: Lake Peigneur V4 Final Upload Master — Repaired V5 Pictures
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  final-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_TAG: hia-lake-peigneur-source-recovery-20261010
+      PREVIOUS_TAG: hia-lake-peigneur-v4-remotion-review-20261011
+      FINAL_TAG: hia-lake-peigneur-v4-final-upload-master-20261011
+      PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
+      PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install free deterministic render and QC dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg poppler-utils python3-pil
+      - name: Restore all locked original PNG, exact first endscreen and original Arthur VO
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p temp/parts temp/recovered temp/v3patch temp/archive_dl temp/archive output final_qc
+          gh release download "$SOURCE_TAG" -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_SOURCE_PART_*.zip' --dir temp/parts
+          echo 'f844e983727383d7fc8bc382d85ec1f6c5e34eb042b57e7b2e3de4a829b45c11  temp/parts/HIA_LAKE_SOURCE_PART_001.zip' | sha256sum -c -
+          echo '9053ac049e6fe979934f0f5a03f8b01c9fc33b0402f88843ce27ddce60b65dfb  temp/parts/HIA_LAKE_SOURCE_PART_002.zip' | sha256sum -c -
+          echo 'e246f7b522d9875725ce008928108e1acab9310b2f1bcf4aaf371d30584c5700  temp/parts/HIA_LAKE_SOURCE_PART_003.zip' | sha256sum -c -
+          for z in temp/parts/*.zip; do unzip -q -o "$z" -d temp/recovered; done
+          P="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/01_EDIT_PROJECT/project_files/Youtube-2/LAKE_PEIGNEUR/REMOTION_V1"
+          S="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/02_FINAL_VISUALS"
+          test -f "$P/src/index.jsx"
+          test -f "$P/public/timeline.json"
+          mkdir -p "$P/public/assets"
+          find "$S/GFX" "$S/RECONSTRUCTION" -name '*.png' -type f -exec cp -n {} "$P/public/assets/" \;
+          curl -fLsS --retry 3 "$PATCH_URL" -o temp/v3patch.zip
+          echo "$PATCH_SHA  temp/v3patch.zip" | sha256sum -c -
+          unzip -q temp/v3patch.zip -d temp/v3patch
+          cp temp/v3patch/timeline.json "$P/public/timeline.json"
+          cp temp/v3patch/index.jsx "$P/src/index.jsx"
+          cp temp/v3patch/approved_first_end_1080.png "$P/public/approved_first_end_1080.png"
+          echo "LP_PROJECT=$P" >> "$GITHUB_ENV"
+      - name: Recover already archived USGS government map — no new art
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run download 36176288181 -R "$GITHUB_REPOSITORY" -n LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -D temp/archive_dl
+          while IFS= read -r -d '' z; do unzip -q -o "$z" -d temp/archive; done < <(find temp/archive_dl -type f -name '*.zip' -print0)
+          test -f temp/archive/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf
+      - name: Download completed V4 original AAC stream for lossless audio transfer
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release download "$PREVIOUS_TAG" -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4' --pattern 'V4_SHA256SUMS.txt' --dir output
+          (cd output && sha256sum -c V4_SHA256SUMS.txt)
+      - name: Apply 36 approved accents and exact ten editor repair substitutions, preserve original timing
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT" --dry-run
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/apply_v5_replacements.py --project "$LP_PROJECT" --archive "$GITHUB_WORKSPACE/temp/archive" --output "$GITHUB_WORKSPACE/output"
+          python3 - <<'PY'
+          import json
+          m=json.load(open('output/V5_REPLACEMENTS_AND_PROVENANCE.json'))
+          assert len(m["replacements"])==10 and m["unique_old_ids"]==9
+          assert m["active_accents"]==36 and m["source_reuse_max"]<=2
+          assert len(m["new_federal_sources"])==2
+          print("FINAL EDIT INPUT LOCK VERIFIED",[(x["beat"],x["rejected"],x["replacement"]) for x in m["replacements"]])
+          PY
+          cd "$LP_PROJECT"
+          npm install --ignore-scripts --no-audit --no-fund --prefer-offline
+          npx remotion compositions src/index.jsx
+      - name: ONE complete original-PNG Remotion picture render; no video generation services
+        timeout-minutes: 145
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$LP_PROJECT"
+          npx remotion render src/index.jsx LakePeigneurV1 "$GITHUB_WORKSPACE/output/V5_PICTURE_HIGH_DETAIL.mp4" --codec=h264 --crf=15 --pixel-format=yuv420p --concurrency=3 --muted --log=error
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,nb_frames,r_frame_rate -of json "$GITHUB_WORKSPACE/output/V5_PICTURE_HIGH_DETAIL.mp4"
+      - name: Mux exact original Arthur AAC packets without any video recompression
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -hide_banner -loglevel error -y \
+            -i output/V5_PICTURE_HIGH_DETAIL.mp4 \
+            -i output/HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4 \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy -c:a copy -bsf:v 'h264_metadata=video_full_range_flag=0:colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1' \
+            -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
+            -t 988.44 -movflags +faststart \
+            output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4
+      - name: Full decode, H264 High, AAC identity, 36 accent, all repaired shots, source reuse and black/silence QC
+        timeout-minutes: 30
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/qc_v5_master.py "$LP_PROJECT"
+          test -f final_qc/FINAL_QC_TECHNICAL.json
+      - name: Assemble independent source/QA evidence and report (not a YouTube Public approval)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p output/source_patch
+          cp "$LP_PROJECT/public/timeline.json" output/source_patch/V5_TIMELINE.json
+          cp "$LP_PROJECT/public/v4_accents.json" output/source_patch/V5_ACCENT_MAP.json
+          cp "$LP_PROJECT/public/assets/LP-PD-USGS-DELCAMBRE-A.png" output/source_patch/
+          cp "$LP_PROJECT/public/assets/LP-PD-USGS-DELCAMBRE-B.png" output/source_patch/
+          cp output/V5_REPLACEMENTS_AND_PROVENANCE.json output/source_patch/
+          (cd output/source_patch && zip -q -9 -r ../HIA_LAKE_V5_REPAIR_SOURCE_PATCH.zip .)
+          (cd final_qc && zip -q -9 ../output/HIA_LAKE_V4_FINAL_QC_CONTACTS.zip *FRAMES_CONTACT_*.jpg FINAL_QC_TECHNICAL.json FRAME_EVIDENCE_MANIFEST.csv BLACKDETECT.log SILENCEDETECT.log FULL_DECODE.log)
+          python3 - <<'PY'
+          import json,pathlib
+          d=json.loads(pathlib.Path('final_qc/FINAL_QC_TECHNICAL.json').read_text())
+          p=pathlib.Path('output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md')
+          p.write_text('# Lake Peigneur V4 Final Upload Master — TECHNICAL QC\n\n'
+          + 'The 9 blocked source IDs were removed from 10 timeline exposures with two original public-domain USGS map crops and previously locked original PNGs. ZERO Higgsfield/TTS/video-generation calls.\n\n'
+          + 'Original Chicago R15 first-video end screen and Arthur audio are unchanged; no subtitles.\n\n'
+          + '## Verified technical facts\n\n'
+          + '- Original-image H264 High 1920x1080 25fps BT709 SDR, 24,711 frames; full decode PASS.\n'
+          + '- AAC 48kHz Arthur audio packet stream identical to prior V4 source, not remixed or regenerated.\n'
+          + '- 36 V4 accents mapped; 87 beats, 99 original slots, 100 exposures; max reused original image 2.\n'
+          + '- Source labels include ~68 ACRES, 52 PEOPLE UNDERGROUND, 7 DRILL WORKERS, ZERO FATALITIES.\n'
+          + '- No black >=0.4-second events or unexpected long narration silence; endscreen unchanged.\n'
+          + '- Technical QC hash: '+d['master_sha256']+'\n'
+          + '\n## Still OPEN before publication\n\n'
+          + '- Human editorial and owner review of full final film and all 36 accent windows.\n'
+          + '- Final independent provider license/source provenance and pronunciation spot-check.\n'
+          + '- Four V2 Shorts editorial repairs/consistency check; this step exports ONLY the corrected long master.\n'
+          + '- Final title/thumbnail owner approval; Unlisted 1080p transcode quality and native Subscribe element test.\n'
+          + '- YouTube public publishing authorization. No publishing performed.\n'
+          + '\nSTATUS: FINAL UPLOAD FILE TECHNICAL PASS; PUBLIC NO-GO.\n')
+          PY
+          (cd output && sha256sum HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4 HIA_LAKE_V5_REPAIR_SOURCE_PATCH.zip HIA_LAKE_V4_FINAL_QC_CONTACTS.zip > SHA256SUMS_V4_FINAL.txt)
+      - name: Publish independent, original-source corrected master Release, preserve every prior master
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "$FINAL_TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Refusing to clobber an existing final tag."
+            exit 1
+          fi
+          gh release create "$FINAL_TAG" -R "$GITHUB_REPOSITORY" --title 'HIA Lake Peigneur V4 — Repaired 1080p25 Upload Master / Publication HOLD' --notes-file output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md --prerelease
+          gh release upload "$FINAL_TAG" \
+            output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4 \
+            output/HIA_LAKE_V5_REPAIR_SOURCE_PATCH.zip \
+            output/HIA_LAKE_V4_FINAL_QC_CONTACTS.zip \
+            output/SHA256SUMS_V4_FINAL.txt \
+            output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md \
+            -R "$GITHUB_REPOSITORY"
+          gh release view "$FINAL_TAG" -R "$GITHUB_REPOSITORY" --json assets > output/RELEASE_ASSETS_VERIFIED.json
+          python3 - <<'PY'
+          import json,pathlib
+          data=json.loads(pathlib.Path('output/RELEASE_ASSETS_VERIFIED.json').read_text())
+          assets={a['name']:a['size'] for a in data['assets']}
+          for name in ['HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4','HIA_LAKE_V5_REPAIR_SOURCE_PATCH.zip','HIA_LAKE_V4_FINAL_QC_CONTACTS.zip','SHA256SUMS_V4_FINAL.txt','V4_FINAL_UPLOAD_MASTER_QC_REPORT.md']:
+            p=pathlib.Path('output')/name
+            assert assets.get(name)==p.stat().st_size,(name,assets.get(name),p.stat().st_size)
+          print('REAL GITHUB RELEASE ASSETS AND BYTES VERIFIED — no public YouTube publishing')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_V4_FINAL_RENDER_QC_AND_LOGS
+          path: |
+            final_qc/*.json
+            final_qc/*.log
+            final_qc/*FRAMES_CONTACT_*.jpg
+            output/V5_REPLACEMENTS_AND_PROVENANCE.json
+            output/V5_BEFORE_AFTER_*.jpg
+            output/SHA256SUMS_V4_FINAL.txt
+            output/V4_FINAL_UPLOAD_MASTER_QC_REPORT.md
+            output/RELEASE_ASSETS_VERIFIED.json
+          retention-days: 14
