@@ -1,0 +1,32 @@
+name: Lake Peigneur V7 Readonly Editor Source Inspection
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v7_editor_source_inspection.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read only exact V3 source patch, no videos and no paid generation
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/v3patch editor_src
+          curl -fLsS --retry 3 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip' -o /tmp/v3patch.zip
+          echo '58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418  /tmp/v3patch.zip' | sha256sum -c -
+          unzip -l /tmp/v3patch.zip | head -70
+          unzip -oq /tmp/v3patch.zip -d /tmp/v3patch
+          cp /tmp/v3patch/index.jsx editor_src/LOCKED_V3_INDEX.jsx
+          cp /tmp/v3patch/timeline.json editor_src/LOCKED_V3_TIMELINE.json
+          cp LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/AccentV4.jsx editor_src/ACCENT_V6_NO_RING.jsx
+          cp LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/apply_v5_replacements.py editor_src/APPLY_V5_REPAIRS.py
+          find editor_src -type f -printf '%f %s bytes\n'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HIA_LAKE_V7_EDITOR_SOURCE_READONLY
+          path: editor_src/*
+          retention-days: 7
