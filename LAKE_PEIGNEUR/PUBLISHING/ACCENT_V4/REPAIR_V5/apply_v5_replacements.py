@@ -30,7 +30,7 @@ archive=A/"LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"
 topo=archive/"04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf"
 landsat=archive/"05_PUBLIC_DOMAIN_CONTEXT/USGS_Landsat8_Salt_Dome_Islands_LA_PD.png"
 assert topo.is_file() and landsat.is_file()
-new={}
+federal_assets={}
 # Federal government topographic map with *no fabricated flow arrows*.
 raw=OUT/"USGS_1963_delcambre_source.png"
 subprocess.run(["pdftoppm","-f","1","-l","1","-scale-to-x","3200","-scale-to-y","-1","-singlefile","-png",str(topo),str(raw.with_suffix(""))],check=True)
@@ -44,13 +44,13 @@ for aid,rect in [("LP-PD-USGS-DELCAMBRE-A",rect1),("LP-PD-USGS-DELCAMBRE-B",rect
     crop=im.crop(rect).resize((1920,1080),Image.Resampling.LANCZOS)
     path=P/"public/assets"/(aid+".png");assert not path.exists()
     crop.save(path,optimize=True)
-    new[aid]={"original":str(topo.relative_to(A)),"raw_sha256":sha(topo),"image_sha256":sha(path),"crop":rect,"rights":"U.S. Geological Survey historical 1963 map; U.S. government public domain","public_asset":path.name}
+    federal_assets[aid]={"original":str(topo.relative_to(A)),"raw_sha256":sha(topo),"image_sha256":sha(path),"crop":rect,"rights":"U.S. Geological Survey historical 1963 map; U.S. government public domain","public_asset":path.name}
 aid="LP-PD-USGS-LANDSAT-CONTEXT"
 photo=Image.open(landsat).convert('RGB')
 photo=ImageOps.fit(photo,(1920,1080),method=Image.Resampling.LANCZOS,centering=(.50,.52))
 path=P/"public/assets"/(aid+".png");assert not path.exists()
 photo.save(path,optimize=True)
-new[aid]={"original":str(landsat.relative_to(A)),"raw_sha256":sha(landsat),"image_sha256":sha(path),"rights":"USGS Landsat8 Louisiana salt-dome islands, public domain; CONTEMPORARY REGIONAL CONTEXT, not 1980 documentary photo","public_asset":path.name}
+federal_assets[aid]={"original":str(landsat.relative_to(A)),"raw_sha256":sha(landsat),"image_sha256":sha(path),"rights":"USGS Landsat8 Louisiana salt-dome islands, public domain; CONTEMPORARY REGIONAL CONTEXT, not 1980 documentary photo","public_asset":path.name}
 # Every replacement is locked to one original source slot/beat, with no time edits.
 rep=[
  ("LP-B004","LP-GFX-002","LP-PD-USGS-DELCAMBRE-A","USGS 1963 actual Delcambre/Lake Peigneur geography, no fictional flow arrow"),
@@ -99,11 +99,11 @@ for key in lookup:
  assert (P/"public"/after[key]).is_file()
 report={"verdict":"V5 PICTURE REPAIR SOURCE PREFLIGHT PASS — not editorial/final video QC","replacements":[{"beat":b,"rejected":old,"replacement":new,"reason":reason,"image_sha256":sha(P/"public/assets"/(new+".png"))} for b,old,new,reason in rep],
  "unique_old_ids":9,"replaced_exposures":len(before),"beats":87,"timeline_slots":99,"mapped_exposures":100,"active_accents":36,
- "source_reuse_max":max(counts.values()),"new_federal_sources":new,
+ "source_reuse_max":max(counts.values()),"new_federal_sources":federal_assets,
  "unchanged_audio_sha256":sha(master),"unchanged_endscreen_sha256":sha(orig_img),
  "rights_and_editorial_gate":"All newly added sources are U.S. Government PD; other reused provider-generated original PNG images are illustrations not claimed authentic archival photos. All rights and owner/editorial approval gates remain OPEN."}
 # Above 'new' shadowed in comprehensions? Python comprehension is scoped; last top-level new is 3 new sources dictionary.
-report['new_federal_sources']={k:v for k,v in new.items()} if isinstance(new,dict) else {}
+
 (OUT/"V5_REPLACEMENTS_AND_PROVENANCE.json").write_text(json.dumps(report,indent=2,ensure_ascii=False))
 # side by side examples of all 10 real original replacements (5/page)
 for offset in (0,5):
@@ -117,4 +117,4 @@ for offset in (0,5):
             d.text((k*800+12,row*515+8),("BEFORE REJECT: " if not k else "REPAIR CANDIDATE: ")+src.stem,fill="white")
         d.text((10,row*515+476),beat+" | "+reason[:155],fill="#e6ddc8")
     sheet.save(OUT/f"V5_BEFORE_AFTER_{offset//5+1}.jpg",quality=91)
-print(json.dumps({"repaired":len(before),"max_source_reuse":max(counts.values()),"active_accents":36,"pd_sources":list(new)}))
+print(json.dumps({"repaired":len(before),"max_source_reuse":max(counts.values()),"active_accents":36,"pd_sources":list(federal_assets)}))
