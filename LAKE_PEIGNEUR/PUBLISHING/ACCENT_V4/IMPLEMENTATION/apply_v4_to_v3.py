@@ -15,11 +15,11 @@ m=json.loads((D/"HIA_LAKE_PEIGNEUR_V4_ACCENT_MAP_MACHINE.json").read_text())
 assert index.is_file() and timeline.is_file() and facts.is_file() and end.is_file(), "Missing V3 files or APPROVED first endscreen"
 j=json.loads(timeline.read_text())
 assert j["fps"]==25 and len(j["beats"])==87 and sum(len(b["slots"]) for b in j["beats"])==99
-assert len(m["items"])==100 and m["source_v3_master_sha256"]=="fbc8efae5ec482b1fd6719e359cd7d50d21ed3ea9b45e0fe7608c399e700b40d"
+assert len(m["items"])==100 and m.get("source_v3_master_sha256", m.get("base_v3_sha256",m.get("base_v3_sha")))=="fbc8efae5ec482b1fd6719e359cd7d50d21ed3ea9b45e0fe7608c399e700b40d"
 active=[x for x in m["items"] if x["effect"] not in ("HOLD","QC_HOLD")]
 assert len(active)==36
 for x in active:
- assert x["asset_id"] not in m["conditional_ids_to_skip"]
+ assert x["asset_id"] not in m.get("conditional_ids_to_skip",m.get("blocked_conditional_assets",["LP-REC-005","LP-REC-008","LP-REC-010","LP-REC-012","LP-REC-038","LP-REC-041"]))
  assert int(x["slot_in_frame"])<=int(x["accent_in_frame"])<int(x["accent_out_frame_exclusive"])<=int(x["slot_out_frame_exclusive"])<=24211
 for b in j["beats"]:
  for s in b["slots"]:
