@@ -1,0 +1,49 @@
+name: Lake Peigneur V4 Original Asset Replacement Inventory
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v4_repair_inventory.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_TAG: hia-lake-peigneur-source-recovery-20261010
+      PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
+      PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover all original source PNGs and exact approved V3 patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p temp/parts temp/recovered temp/v3patch
+          gh release download "$SOURCE_TAG" -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_SOURCE_PART_*.zip' --dir temp/parts
+          test "$(find temp/parts -name '*.zip'|wc -l)" -eq 3
+          for z in temp/parts/*.zip; do unzip -q -o "$z" -d temp/recovered; done
+          P="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/01_EDIT_PROJECT/project_files/Youtube-2/LAKE_PEIGNEUR/REMOTION_V1"
+          S="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/02_FINAL_VISUALS"
+          test -f "$P/src/index.jsx"
+          mkdir -p "$P/public/assets"
+          find "$S/GFX" "$S/RECONSTRUCTION" -name '*.png' -type f -exec cp -n {} "$P/public/assets/" \;
+          curl -fLsS --retry 3 "$PATCH_URL" -o temp/v3patch.zip
+          echo "$PATCH_SHA  temp/v3patch.zip" | sha256sum -c -
+          unzip -q temp/v3patch.zip -d temp/v3patch
+          cp temp/v3patch/timeline.json "$P/public/timeline.json"
+          cp temp/v3patch/index.jsx "$P/src/index.jsx"
+          cp temp/v3patch/approved_first_end_1080.png "$P/public/approved_first_end_1080.png"
+          test -f "$P/public/LAKE_PEIGNEUR_ARTHUR_MASTER_LOCKED.mp3"
+      - name: Build actual visual contact sheets for all recovered alternatives
+        shell: bash
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq python3-pil
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/inventory_orig_assets.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HIA_LAKE_V4_RECOVERED_ASSET_INVENTORY
+          path: inventory_output/*
+          retention-days: 14
