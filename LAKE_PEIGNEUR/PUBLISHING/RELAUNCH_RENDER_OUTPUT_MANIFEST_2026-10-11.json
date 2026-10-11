@@ -1,0 +1,50 @@
+{
+  "updated": "2026-10-11",
+  "status": "CLEAN_MASTER_AND_4_SHORTS_TECH_PASS_READY_FOR_UNLISTED_QC_NOT_PUBLIC",
+  "source_release": "hia-lake-peigneur-source-recovery-20261010",
+  "owner_no_subtitles": true,
+  "master": {
+    "name": "HIA_LAKE_PEIGNEUR_RELAUNCH_CLEAN_MASTER_1920x1080_25FPS.mp4",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/bc6e1078-eec8-440c-b003-2c0531f8bde7.mp4",
+    "sha256": "4ca4c63890df57a7203fe715076a4b15f36a408f383af51dd2e3463dba0c2de1",
+    "bytes": 347569085,
+    "frames": 24711,
+    "duration_seconds": 988.44,
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "video_codec": "h264",
+    "video_bitrate_bps": 2618463,
+    "color_space": "bt709",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "full_decode": "PASS",
+    "black_detect_events": 0,
+    "expected_end_silence_seconds": 19.988,
+    "subtitle_renderer": "NONE",
+    "end_screen": "SUBSCRIBE_ONLY"
+  },
+  "shorts": {
+    "count_rendered": 4,
+    "required": 4,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/6583ee88-3e0d-4fbd-be52-3b6d89905af6.zip",
+    "sha256": "8a22f654be3979ffb91abe18ec756f687324a866be53e761ad44f0bbbeb7a854",
+    "bytes": 18841995,
+    "fps": 25,
+    "resolution": "1080x1920",
+    "no_subtitles": true
+  },
+  "patch": {
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/9c3437d5-22e3-429b-af30-a612de406dac.zip",
+    "sha256": "4a2f3d3f92441f8135c44a0c42eacb8c53aab8c6a5f1a5e6b3640bf257703f22",
+    "bytes": 77467
+  },
+  "editorial_conditional_legacy": 14,
+  "editorial_conditional_repaired": 2,
+  "editorial_conditional_remaining": 12,
+  "title_owner_approved": false,
+  "ready_for_unlisted_test": true,
+  "ready_for_public": false,
+  "no_paid_generations": true
+}
