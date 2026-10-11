@@ -16,11 +16,11 @@ const getWindow=(assetId,frame)=>active.find(x=>x.asset_id===assetId && frame>=N
 export const v7Motion=(slot,frame)=>{
   if(!slot||getWindow(slot.assetId,frame)?.effect==='PUSH')return {};
   const a=Number(slot.a),b=Number(slot.b),duration=b-a;
-  if(!Number.isFinite(duration)||duration<140||frame<a||frame>=b)return {};
+  if(!Number.isFinite(duration)||duration<140||frame<a||frame>=b+18)return {};
   // Single continuous source-scale micro push; no X/Y translation or per-frame jitter.
   // <=1.018 maximum. A shot is ONE source exposure, not duplicated.
   const amount=duration>=225?.018:.011;
-  const eased=smooth((frame-a)/Math.max(1,duration-1));
+  const eased=smooth((Math.min(frame,b-1)-a)/Math.max(1,duration-1));
   return {transform:'scale('+(1+amount*eased).toFixed(5)+')',transformOrigin:'50% 50%'};
 };
 // Source-lock confirms both IDs have exactly 1 original timeline exposure.
