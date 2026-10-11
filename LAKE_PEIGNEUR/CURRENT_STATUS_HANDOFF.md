@@ -1,3 +1,5 @@
+> **UPDATE 2026-10-11 — V13 EDIT SOURCES RECOVERED / READY FOR CLEAN REBUILD.** Codex release `hia-lake-peigneur-source-recovery-20261010` contains all actual V13 picture assets, edit project, VO and Shorts scripts. Three ZIP hashes, CRC and 97/97 timeline references independently verified. Historical "no editable source" blocker is CLOSED. **New caption-free master and 4 Shorts are NOT rendered; publication remains NO-GO.** Source of truth: `PUBLISHING/SOURCE_RECOVERY_INDEPENDENT_VERIFICATION_2026-10-11.md`. Older missing-source statements below are historical only.
+
 # LAKE PEIGNEUR — CURRENT STATUS / HANDOFF
 
 Updated: 2026-10-10
