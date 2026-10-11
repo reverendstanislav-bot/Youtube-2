@@ -28,8 +28,7 @@ assert j['fps']==25 and len(j['beats'])==87 and len(m['items'])==100
 assert sum(len(b['slots']) for b in j['beats'])==99
 archive=A/"LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1"
 topo=archive/"04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf"
-landsat=archive/"05_PUBLIC_DOMAIN_CONTEXT/USGS_Landsat8_Salt_Dome_Islands_LA_PD.png"
-assert topo.is_file() and landsat.is_file()
+assert topo.is_file()
 federal_assets={}
 # Federal government topographic map with *no fabricated flow arrows*.
 raw=OUT/"USGS_1963_delcambre_source.png"
@@ -38,19 +37,13 @@ im=Image.open(raw).convert("RGB");w,h=im.size
 # Existing content only, crop/resize and restrained color balance, no added routes, photos or labels.
 rect1=(0,int(h*.035),w,int(h*.035)+round(w*9/16))
 cropw=round(w*.68);croph=round(cropw*9/16)
-rect2=(0,int(h*.06),cropw,int(h*.06)+croph)
+rect2=(0,int(h*.13),cropw,int(h*.13)+croph)
 assert rect1[3]<=h and rect2[3]<=h
 for aid,rect in [("LP-PD-USGS-DELCAMBRE-A",rect1),("LP-PD-USGS-DELCAMBRE-B",rect2)]:
     crop=im.crop(rect).resize((1920,1080),Image.Resampling.LANCZOS)
     path=P/"public/assets"/(aid+".png");assert not path.exists()
     crop.save(path,optimize=True)
     federal_assets[aid]={"original":str(topo.relative_to(A)),"raw_sha256":sha(topo),"image_sha256":sha(path),"crop":rect,"rights":"U.S. Geological Survey historical 1963 map; U.S. government public domain","public_asset":path.name}
-aid="LP-PD-USGS-LANDSAT-CONTEXT"
-photo=Image.open(landsat).convert('RGB')
-photo=ImageOps.fit(photo,(1920,1080),method=Image.Resampling.LANCZOS,centering=(.50,.52))
-path=P/"public/assets"/(aid+".png");assert not path.exists()
-photo.save(path,optimize=True)
-federal_assets[aid]={"original":str(landsat.relative_to(A)),"raw_sha256":sha(landsat),"image_sha256":sha(path),"rights":"USGS Landsat8 Louisiana salt-dome islands, public domain; CONTEMPORARY REGIONAL CONTEXT, not 1980 documentary photo","public_asset":path.name}
 # Every replacement is locked to one original source slot/beat, with no time edits.
 rep=[
  ("LP-B004","LP-GFX-002","LP-PD-USGS-DELCAMBRE-A","USGS 1963 actual Delcambre/Lake Peigneur geography, no fictional flow arrow"),
@@ -60,9 +53,9 @@ rep=[
  ("LP-B038","LP-GFX-022","LP-GFX-029","Existing focused water/salt cavern concept instead of four-panel collage"),
  ("LP-B039","LP-REC-010","LP-REC-033","Existing close view of salt-water contact; illustrative not archival"),
  ("LP-B040","LP-GFX-026","LP-GFX-030","Existing continuous flood channel picture, no feedback-loop arrows"),
- ("LP-B051","LP-REC-038","LP-GFX-038","Existing schematic lower lake basin concept, not unidentified industrial canal"),
+ ("LP-B051","LP-REC-038","LP-REC-028","Previously locked single-frame surface collapse context; no split-panel or unidentified canal"),
  ("LP-B053","LP-REC-038","LP-PD-USGS-DELCAMBRE-B","USGS 1963 real lake/canal map zoom, not unknown refinery canal"),
- ("LP-B080","LP-REC-041","LP-PD-USGS-LANDSAT-CONTEXT","Public domain PRESENT-DAY regional salt dome Landsat context, not imagined refinery"),
+ ("LP-B080","LP-REC-041","LP-GFX-052","Previously locked salt mining-versus-gas-storage comparison matching changed industrial use"),
 ]
 assert len(rep)==10 and len(set(a for _,a,_,_ in rep))==9
 lookup={(b,old):new for b,old,new,_ in rep}
