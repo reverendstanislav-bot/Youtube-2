@@ -1,0 +1,108 @@
+name: Lake Peigneur V6 No Rings — Five Actual-Frame Preflight
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v6_no_ring_preflight.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_TAG: hia-lake-peigneur-source-recovery-20261010
+      PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
+      PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install source-only proofing tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3-pil poppler-utils
+      - name: Recover original source, original endscreen, locked Arthur VO and archival USGS materials
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p temp/parts temp/recovered temp/v3patch temp/archive_download temp/archive output
+          gh release download "$SOURCE_TAG" -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_SOURCE_PART_*.zip' --dir temp/parts
+          test "$(find temp/parts -name '*.zip' | wc -l)" -eq 3
+          for z in temp/parts/*.zip; do unzip -q -o "$z" -d temp/recovered; done
+          P="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/01_EDIT_PROJECT/project_files/Youtube-2/LAKE_PEIGNEUR/REMOTION_V1"
+          S="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/02_FINAL_VISUALS"
+          test -f "$P/src/index.jsx"
+          mkdir -p "$P/public/assets"
+          find "$S/GFX" "$S/RECONSTRUCTION" -name '*.png' -type f -exec cp -n {} "$P/public/assets/" \;
+          curl -fLsS --retry 3 "$PATCH_URL" -o temp/v3patch.zip
+          echo "$PATCH_SHA  temp/v3patch.zip" | sha256sum -c -
+          unzip -q temp/v3patch.zip -d temp/v3patch
+          cp temp/v3patch/timeline.json "$P/public/timeline.json"
+          cp temp/v3patch/index.jsx "$P/src/index.jsx"
+          cp temp/v3patch/approved_first_end_1080.png "$P/public/approved_first_end_1080.png"
+          gh run download 36176288181 -R "$GITHUB_REPOSITORY" -n LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -D temp/archive_download
+          while IFS= read -r -d '' z; do unzip -q -o "$z" -d temp/archive; done < <(find temp/archive_download -type f -name '*.zip' -print0)
+          echo "LP_PROJECT=$P" >> "$GITHUB_ENV"
+      - name: Apply exact original V4 before non-destructive V5 scene repairs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT" --dry-run
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/apply_v5_replacements.py --project "$LP_PROJECT" --archive "$GITHUB_WORKSPACE/temp/archive" --output "$GITHUB_WORKSPACE/output"
+          test -f output/V5_REPLACEMENTS_AND_PROVENANCE.json
+          python3 - <<'PY'
+          import json
+          m=json.load(open('output/V5_REPLACEMENTS_AND_PROVENANCE.json'))
+          assert m['unique_old_ids']==9 and m['replaced_exposures']==10 and m['active_accents']==36 and m['source_reuse_max']<=2
+          assert len(m['new_federal_sources'])==2,m['new_federal_sources']
+          print('ACTUAL SOURCE REPAIR PREFLIGHT PASS — no video generated',m['replaced_exposures'])
+          PY
+      - name: Verify white ellipse rendering is physically removed and produce 5 exact Remotion stills
+        shell: bash
+        run: |
+          set -euo pipefail
+          ! grep -E '<ellipse|<circle|strokeWidth=|<svg' "$LP_PROJECT/src/AccentV4.jsx"
+          python3 - <<'PY'
+          import json,os,pathlib
+          p=pathlib.Path(os.environ['LP_PROJECT'])
+          m=json.loads((p/'public/v4_accents.json').read_text())
+          rings=[x for x in m['items'] if x['effect']=='RING']
+          assert len(rings)==5,rings
+          out=pathlib.Path('output')
+          for i,x in enumerate(rings):
+            f=(int(x['accent_in_frame'])+int(x['accent_out_frame_exclusive']))//2
+            print(i,x['beat_id'],x['asset_id'],f,flush=True)
+          (out/'RING_MIDPOINTS.json').write_text(json.dumps([{'asset_id':x['asset_id'],'beat':x['beat_id'],'frame':(int(x['accent_in_frame'])+int(x['accent_out_frame_exclusive']))//2} for x in rings],indent=2))
+          PY
+          cd "$LP_PROJECT"
+          npm install --ignore-scripts --no-audit --no-fund --prefer-offline
+          mkdir -p "$GITHUB_WORKSPACE/output/NO_RING_STILLS"
+          python3 - <<'PY'
+          import json,pathlib,subprocess,os
+          workspace=pathlib.Path(os.environ['GITHUB_WORKSPACE'])
+          data=json.loads((workspace/'output/RING_MIDPOINTS.json').read_text())
+          for row in data:
+            name=row['asset_id']+'_'+str(row['frame'])+'.png'
+            subprocess.run(['npx','remotion','still','src/index.jsx','LakePeigneurV1',str(workspace/'output/NO_RING_STILLS'/name),'--frame='+str(row['frame']),'--log=error'],check=True)
+          from PIL import Image, ImageDraw
+          board=Image.new('RGB',(2*640,3*399),'#171a1c');d=ImageDraw.Draw(board)
+          for i,row in enumerate(data):
+            img=Image.open(workspace/'output/NO_RING_STILLS'/(row['asset_id']+'_'+str(row['frame'])+'.png')).convert('RGB')
+            img.thumbnail((620,349))
+            x=(i%2)*640;y=(i//2)*399
+            board.paste(img,(x,y+22))
+            d.text((x+8,y+2),str(row['frame'])+' / '+row['asset_id']+' '+row['beat'],fill='white')
+          board.save(workspace/'output/NO_RING_5_SHOTS_CONTACT.jpg',quality=95)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_V6_NO_RING_FIVE_STILLS_PREFLIGHT
+          path: |
+            output/V5_REPLACEMENTS_AND_PROVENANCE.json
+            output/V5_BEFORE_AFTER_*.jpg
+            output/NO_RING_STILLS/*.png
+            output/NO_RING_5_SHOTS_CONTACT.jpg
+            output/RING_MIDPOINTS.json
+          retention-days: 14
