@@ -1,0 +1,153 @@
+name: Lake Peigneur V7 — First 3 Minutes Retention Proof
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v7_retention_preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_TAG: hia-lake-peigneur-source-recovery-20261010
+      V7_PREVIEW_TAG: hia-lake-peigneur-v7-retention-3min-preview-20261011
+      V3_PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
+      V3_PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install free editor preview tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg poppler-utils python3-pil
+      - name: Restore original assets, patch, approved first endscreen and locked Arthur VO
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p tmp/sourcezip tmp/source tmp/v3 tmp/archive_dl tmp/archive output/v7_evidence
+          gh release download "$SOURCE_TAG" -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_SOURCE_PART_*.zip' --dir tmp/sourcezip
+          echo 'f844e983727383d7fc8bc382d85ec1f6c5e34eb042b57e7b2e3de4a829b45c11  tmp/sourcezip/HIA_LAKE_SOURCE_PART_001.zip' | sha256sum -c -
+          echo '9053ac049e6fe979934f0f5a03f8b01c9fc33b0402f88843ce27ddce60b65dfb  tmp/sourcezip/HIA_LAKE_SOURCE_PART_002.zip' | sha256sum -c -
+          echo 'e246f7b522d9875725ce008928108e1acab9310b2f1bcf4aaf371d30584c5700  tmp/sourcezip/HIA_LAKE_SOURCE_PART_003.zip' | sha256sum -c -
+          for f in tmp/sourcezip/*.zip; do unzip -qo "$f" -d tmp/source; done
+          P="$GITHUB_WORKSPACE/tmp/source/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/01_EDIT_PROJECT/project_files/Youtube-2/LAKE_PEIGNEUR/REMOTION_V1"
+          S="$GITHUB_WORKSPACE/tmp/source/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/02_FINAL_VISUALS"
+          mkdir -p "$P/public/assets"
+          find "$S/GFX" "$S/RECONSTRUCTION" -name '*.png' -type f -exec cp -n {} "$P/public/assets/" \;
+          curl -fLsS --retry 3 "$V3_PATCH_URL" -o tmp/v3_patch.zip
+          echo "$V3_PATCH_SHA  tmp/v3_patch.zip" | sha256sum -c -
+          unzip -qo tmp/v3_patch.zip -d tmp/v3
+          cp tmp/v3/timeline.json "$P/public/timeline.json"
+          cp tmp/v3/index.jsx "$P/src/index.jsx"
+          cp tmp/v3/approved_first_end_1080.png "$P/public/approved_first_end_1080.png"
+          echo "LP_PROJECT=$P" >> "$GITHUB_ENV"
+      - name: Recover approved USGS cartography and patch exact V6 source
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run download 36176288181 -R "$GITHUB_REPOSITORY" -n LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -D tmp/archive_dl
+          while IFS= read -r -d '' z; do unzip -qo "$z" -d tmp/archive; done < <(find tmp/archive_dl -type f -name '*.zip' -print0)
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT" --dry-run
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/apply_v5_replacements.py --project "$LP_PROJECT" --archive "$GITHUB_WORKSPACE/tmp/archive" --output "$GITHUB_WORKSPACE/output"
+          python3 LAKE_PEIGNEUR/PUBLISHING/V7_RETENTION/patch_v7_to_v6.py --project "$LP_PROJECT" --dry-run
+          python3 LAKE_PEIGNEUR/PUBLISHING/V7_RETENTION/patch_v7_to_v6.py --project "$LP_PROJECT"
+          ! grep -E '<ellipse|<circle|<svg|strokeWidth=' "$LP_PROJECT/src/AccentV4.jsx"
+          cd "$LP_PROJECT"
+          npm install --ignore-scripts --no-audit --no-fund --prefer-offline
+          npx remotion compositions src/index.jsx
+      - name: Render ONLY 0:00–3:00 at 1080p25 with Arthur — no full film until preview review
+        shell: bash
+        timeout-minutes: 60
+        run: |
+          set -euo pipefail
+          cd "$LP_PROJECT"
+          npx remotion render src/index.jsx LakePeigneurV1 "$GITHUB_WORKSPACE/output/HIA_LAKE_PEIGNEUR_V7_FIRST_3_MIN_RETENTION_PROOF_1080P25.mp4" --frames=0-4499 --codec=h264 --crf=16 --pixel-format=yuv420p --concurrency=3 --log=error
+          ffprobe -v error -show_entries stream=index,codec_name,codec_type,width,height,nb_frames,r_frame_rate -show_entries format=duration,size -of json "$GITHUB_WORKSPACE/output/HIA_LAKE_PEIGNEUR_V7_FIRST_3_MIN_RETENTION_PROOF_1080P25.mp4"
+      - name: Checkpoint actual finished preview BEFORE QC
+        shell: bash
+        run: |
+          set -euo pipefail
+          f='output/HIA_LAKE_PEIGNEUR_V7_FIRST_3_MIN_RETENTION_PROOF_1080P25.mp4'
+          test -s "$f"
+          sha256sum "$f" > output/V7_PREVIEW_SHA256.txt
+          ! gh release view "$V7_PREVIEW_TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1
+          gh release create "$V7_PREVIEW_TAG" -R "$GITHUB_REPOSITORY" --title 'Lake Peigneur V7 — first 3min RETENTION RE-EDIT proof / NOT FINAL' --notes 'Exactly the first 180s, authentic locked source imagery and Arthur VO. Editorial review is mandatory before any full master rerender. No paid generation.' --prerelease
+          gh release upload "$V7_PREVIEW_TAG" "$f" output/V7_PREVIEW_SHA256.txt -R "$GITHUB_REPOSITORY"
+          gh release view "$V7_PREVIEW_TAG" -R "$GITHUB_REPOSITORY" --json assets > output/V7_PREVIEW_RELEASE_ASSETS.json
+          python3 - <<'PY'
+          import json,pathlib
+          x=pathlib.Path('output/HIA_LAKE_PEIGNEUR_V7_FIRST_3_MIN_RETENTION_PROOF_1080P25.mp4')
+          a={i['name']:i['size'] for i in json.load(open('output/V7_PREVIEW_RELEASE_ASSETS.json'))['assets']}
+          assert a.get(x.name)==x.stat().st_size,('Preview remote bytes mismatch',a.get(x.name),x.stat().st_size)
+          print('Actual 3-minute preview safely checkpointed before postrender QC')
+          PY
+      - name: First-three-minute mechanical QC and actual frame-contact evidence
+        timeout-minutes: 15
+        shell: bash
+        run: |
+          set -euo pipefail
+          f='output/HIA_LAKE_PEIGNEUR_V7_FIRST_3_MIN_RETENTION_PROOF_1080P25.mp4'
+          ffmpeg -nostdin -v error -xerror -i "$f" -f null - 2>output/v7_evidence/FULL_DECODE.log
+          ffmpeg -nostdin -hide_banner -i "$f" -vf 'blackdetect=d=0.4:pix_th=0.10:pic_th=0.98' -an -f null - >output/v7_evidence/BLACK_EVENTS.log 2>&1
+          ! grep -q 'black_start:' output/v7_evidence/BLACK_EVENTS.log
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,nb_frames,r_frame_rate -of json "$f" > output/v7_evidence/VIDEO_PROBE.json
+          ffprobe -v error -show_entries stream=codec_name,codec_type -of json "$f" > output/v7_evidence/STREAMS.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('output/v7_evidence/VIDEO_PROBE.json'))['streams'][0]
+          assert (d['width'],d['height'],d['nb_frames'],d['r_frame_rate'])==(1920,1080,'4500','25/1'),d
+          s=json.load(open('output/v7_evidence/STREAMS.json'))['streams']
+          assert any(x['codec_type']=='audio' for x in s),s
+          assert not any(x['codec_type']=='subtitle' for x in s),s
+          print('V7 PREVIEW TECHNICAL PASS: 4500 frames 1080p25, audio present, no subtitle stream')
+          PY
+          mkdir -p output/v7_evidence/stills
+          ffmpeg -nostdin -v error -i "$f" -vf 'fps=1/5,scale=640:360' -frames:v 36 -q:v 3 -y output/v7_evidence/stills/%03d.jpg
+          python3 - <<'PY'
+          import pathlib
+          from PIL import Image,ImageDraw
+          a=sorted(pathlib.Path('output/v7_evidence/stills').glob('*.jpg'))
+          assert len(a)==36,len(a)
+          for page in range(3):
+            sheet=Image.new('RGB',(4*650,3*400),'#171A1C')
+            draw=ImageDraw.Draw(sheet)
+            for i,p in enumerate(a[page*12:(page+1)*12]):
+              x=(i%4)*650;y=(i//4)*400
+              im=Image.open(p).convert('RGB');sheet.paste(im,(x+5,y+26))
+              sec=(page*12+i)*5;draw.text((x+8,y+4),f'{sec//60:02d}:{sec%60:02d}',fill='#F3EBDD')
+            sheet.save(f'output/v7_evidence/V7_ACTUAL_3MIN_CONTACT_{page+1}.jpg',quality=88)
+          PY
+          (cd output/v7_evidence && zip -q -9 ../V7_FIRST_3MIN_TECHNICAL_QC_CONTACTS.zip V7_ACTUAL_3MIN_CONTACT_*.jpg *.log *.json)
+          (cd output && sha256sum V7_FIRST_3MIN_TECHNICAL_QC_CONTACTS.zip >> V7_PREVIEW_SHA256.txt)
+      - name: Publish final preview QC (editorial approval still pending)
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release upload "$V7_PREVIEW_TAG" output/V7_FIRST_3MIN_TECHNICAL_QC_CONTACTS.zip -R "$GITHUB_REPOSITORY"
+          gh release view "$V7_PREVIEW_TAG" -R "$GITHUB_REPOSITORY" --json assets > output/V7_RELEASE_QC_ASSETS.json
+          python3 - <<'PY'
+          import json,pathlib
+          a={x['name']:x['size'] for x in json.load(open('output/V7_RELEASE_QC_ASSETS.json'))['assets']}
+          for name in ['HIA_LAKE_PEIGNEUR_V7_FIRST_3_MIN_RETENTION_PROOF_1080P25.mp4','V7_FIRST_3MIN_TECHNICAL_QC_CONTACTS.zip']:
+            p=pathlib.Path('output')/name
+            assert a.get(name)==p.stat().st_size,(name,a.get(name),p.stat().st_size)
+          print('Actual preview + QC contacts available remotely. Owner review NOT automatic PASS')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_V7_RETENTION_PREVIEW_EVIDENCE
+          path: |
+            output/v7_evidence/V7_ACTUAL_3MIN_CONTACT_*.jpg
+            output/v7_evidence/*.json
+            output/v7_evidence/*.log
+            output/V7_PREVIEW_SHA256.txt
+            output/V7_RELEASE_QC_ASSETS.json
+            output/V5_REPLACEMENTS_AND_PROVENANCE.json
+          retention-days: 14
