@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Technical final master QC and frame evidence. Automated tests are NOT human editorial approval."""
-import json, pathlib, subprocess, hashlib, csv, re, collections, sys
+import json, pathlib, subprocess, hashlib, csv, re, collections, sys, os
 from PIL import Image,ImageDraw,ImageOps,ImageChops,ImageStat
 root=pathlib.Path.cwd();o=root/"final_qc";o.mkdir(parents=True,exist_ok=True)
-master=root/"output/HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4"
+master=root/"output"/os.environ.get("HIA_FINAL_MASTER_NAME","HIA_LAKE_PEIGNEUR_V4_FINAL_UPLOAD_MASTER_1920x1080_25FPS.mp4")
 original=root/"output/HIA_LAKE_PEIGNEUR_V4_ACCENTS_REVIEW_MASTER_1080P25.mp4"
 p=pathlib.Path(sys.argv[1]); mp=json.loads((p/"public/v4_accents.json").read_text())
 j=json.loads((p/"public/timeline.json").read_text())
@@ -34,6 +34,12 @@ assert not [x for x in d["streams"] if x["codec_type"]=="subtitle"]
 assert len(j["beats"])==87 and sum(len(x["slots"]) for x in j["beats"])==99 and len(mp["items"])==100
 active=[x for x in mp["items"] if x["effect"] not in ("HOLD","QC_HOLD")]
 assert len(active)==36
+# Visual QC guard: legacy RING slots must never draw geometrical rings/ellipses.
+ring_items=[x for x in mp["items"] if x["effect"]=="RING"]
+assert len(ring_items)==5,("Expected exactly five legacy outlines to neutralize",len(ring_items))
+accent_source=(p/"src/AccentV4.jsx").read_text()
+assert not any(marker in accent_source for marker in ("<ellipse","<circle","<svg","strokeWidth=")),"Outlined SVG effect found in corrected source!"
+
 assert not any(x["asset_id"] in ["LP-GFX-002","LP-GFX-022","LP-GFX-026","LP-REC-005","LP-REC-008","LP-REC-010","LP-REC-012","LP-REC-038","LP-REC-041"] for x in mp["items"])
 cnt=collections.Counter(x["asset_id"] for x in mp["items"])
 assert max(cnt.values())<=2
