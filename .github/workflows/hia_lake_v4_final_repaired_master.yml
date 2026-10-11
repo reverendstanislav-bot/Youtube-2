@@ -1,5 +1,8 @@
 name: Lake Peigneur V4 Final Upload Master — Repaired V5 Pictures
 on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_v4_final_repaired_master.yml'
   workflow_dispatch:
 permissions:
   contents: write
