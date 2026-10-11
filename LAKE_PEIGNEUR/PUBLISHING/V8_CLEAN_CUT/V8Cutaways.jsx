@@ -11,7 +11,7 @@ import {AbsoluteFill,Img,staticFile} from 'remotion';
 const CUTS=[
   // Actual short foreshadowing of workers and lake failure while Arthur states the stakes.
   {asset:'LP-REC-021',start:25.52,end:28.44,why:'52 underground; workers at mine' },
-  {asset:'LP-REC-028',start:31.08,end:34.08,why:'future landscape collapse teaser, source-grounded reconstruction' },
+  {asset:'LP-REC-031',start:31.08,end:34.08,why:'future landscape collapse teaser, source-grounded reconstruction' },
   // Show actual drilling/mining geometry when narration introduces two industrial systems.
   {asset:'LP-GFX-012',start:59.04,end:62.28,why:'two industries on the same salt dome' },
   {asset:'LP-GFX-005',start:83.76,end:86.80,why:'mine workings within salt dome' },
