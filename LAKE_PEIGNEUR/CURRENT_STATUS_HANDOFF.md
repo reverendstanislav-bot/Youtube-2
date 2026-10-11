@@ -1,3 +1,5 @@
+> **LATEST 2026-10-11: V4 REMOTION MASTER IS PHYSICALLY RENDERED AND UPLOADED.** GitHub Actions `38139155486` SUCCESS, 24,711 frames, full A/V decode PASS, preview ZIP and master release linked below. **Owner visual approval, six conditional assets/provenance, title/thumb, Shorts QC and YouTube Unlisted remain OPEN — PUBLIC NOT READY.** Canonical report: `PUBLISHING/V4_TECHNICAL_RENDER_VERIFIED_2026-10-11.md`. Earlier V3 "current" statements below are historical.
+
 # V4 EDITORIAL ACCENTS — LIVE PRODUCTION STATUS (2026-10-11)
 
 - V4 accents in dedicated source patch: `PUBLISHING/ACCENT_V4/IMPLEMENTATION/` — 36 mapped actions over 100 visible exposures, zero speech subtitles.
