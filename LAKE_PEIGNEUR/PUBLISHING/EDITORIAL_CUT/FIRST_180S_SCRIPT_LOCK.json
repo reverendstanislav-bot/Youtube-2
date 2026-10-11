@@ -32,22 +32,22 @@
       "segments": [
         {
           "from": 571,
-          "to": 680,
+          "to": 650,
           "asset": "LP-GFX-001",
           "kind": "gfx",
           "spoken": "Fifty-two people were below ground",
           "editorial": "Existing mine-worker number context; no extra marker"
         },
         {
-          "from": 680,
-          "to": 759,
+          "from": 650,
+          "to": 810,
           "asset": "LP-REC-027",
           "kind": "reconstruction",
           "spoken": "Seven more were on the drilling platform. Within hours, the platform would be gone",
           "editorial": "Original locked drill crew on rig; source-grounded reconstruction"
         },
         {
-          "from": 759,
+          "from": 810,
           "to": 869,
           "asset": "LP-REC-030",
           "kind": "reconstruction",
@@ -62,14 +62,14 @@
       "segments": [
         {
           "from": 869,
-          "to": 1029,
+          "to": 1048,
           "asset": "LP-PD-USGS-DELCAMBRE-A",
           "kind": "real_context",
           "spoken": "the canal connected to the lake",
           "editorial": "Federal topographic source, no fabricated arrows"
         },
         {
-          "from": 1029,
+          "from": 1048,
           "to": 1191,
           "asset": "LP-PD-USGS-DELCAMBRE-B",
           "kind": "real_context",
@@ -84,14 +84,14 @@
       "segments": [
         {
           "from": 1350,
-          "to": 1481,
+          "to": 1494,
           "asset": "LP-REC-004",
           "kind": "reconstruction",
           "spoken": "two industrial systems occupying",
           "editorial": "Locked salt mine room-and-pillar photo reconstruction"
         },
         {
-          "from": 1481,
+          "from": 1494,
           "to": 1605,
           "asset": "LP-GFX-010",
           "kind": "gfx",
@@ -106,14 +106,14 @@
       "segments": [
         {
           "from": 1882,
-          "to": 2066,
+          "to": 2080,
           "asset": "LP-GFX-004",
           "kind": "gfx",
           "spoken": "Jefferson Island rises above coastal plain because of salt dome",
           "editorial": "Existing explicitly sourced USGS/PD geology card"
         },
         {
-          "from": 2066,
+          "from": 2080,
           "to": 2234,
           "asset": "LP-GFX-009",
           "kind": "gfx",
@@ -128,14 +128,14 @@
       "segments": [
         {
           "from": 2960,
-          "to": 3090,
+          "to": 3110,
           "asset": "LP-GFX-016",
           "kind": "gfx",
           "spoken": "network of rooms, pillars, passages and working levels",
           "editorial": "Existing multi-level mine diagram; the already-scripted 52 can remain in picture"
         },
         {
-          "from": 3090,
+          "from": 3110,
           "to": 3312,
           "asset": "LP-GFX-008",
           "kind": "gfx",
@@ -150,14 +150,14 @@
       "segments": [
         {
           "from": 3312,
-          "to": 3512,
+          "to": 3553,
           "asset": "LP-GFX-009",
           "kind": "gfx",
           "spoken": "same salt structure made the area interesting to petroleum industry; oil can accumulate",
           "editorial": "Original oil-around-salt-dome cross-section"
         },
         {
-          "from": 3512,
+          "from": 3553,
           "to": 3642,
           "asset": "LP-REC-011",
           "kind": "reconstruction",
@@ -167,5 +167,27 @@
       ]
     }
   ],
-  "no_additional_generated_visuals": true
+  "no_additional_generated_visuals": true,
+  "word_level_source": "LAKE_PEIGNEUR/STAGE_7/WORD_TIMING_V1_CHUNK_01.csv",
+  "cut_sync": {
+    "LP-B003": {
+      "650": "Seven more... at 26.0s",
+      "810": "Part of the shoreline... at 32.4s"
+    },
+    "LP-B004": {
+      "1048": "But the industrial landscape... at 41.9s"
+    },
+    "LP-B006": {
+      "1494": "and what happened when the boundary ... at 59.8s"
+    },
+    "LP-B008": {
+      "2080": "a salt dome ... a mass of ancient salt at 83.2s"
+    },
+    "LP-B012": {
+      "3110": "Federal records describe workings at 124.4s"
+    },
+    "LP-B013": {
+      "3553": "Texaco held an oil lease at 142.1s"
+    }
+  }
 }
