@@ -4,7 +4,7 @@ import map from "../public/v4_accents.json";
 
 // HIA V4. Frame-accurate picture-only accents; NEVER affects Fact/Chapter/end screen.
 const END=24211, FPS=25;
-const blocked=new Set(map.conditional_ids_to_skip || []);
+const blocked=new Set(map.conditional_ids_to_skip || map.blocked_conditional_assets || ["LP-REC-005","LP-REC-008","LP-REC-010","LP-REC-012","LP-REC-038","LP-REC-041"]);
 const active=map.items.filter(x=>x.effect!=="HOLD"&&x.effect!=="QC_HOLD").map(x=>({
   ...x,a:Number(x.accent_in_frame),b:Number(x.accent_out_frame_exclusive),
   fi:Number(x.fade_in_frames)||12,fo:Number(x.fade_out_frames)||12,
@@ -51,4 +51,4 @@ export const V4Overlay=({frame})=>{
   const gradient="radial-gradient(ellipse "+(rx*2)+"px "+(ry*2)+"px at "+cx+"px "+cy+"px, rgba(23,26,28,0) 0%, rgba(23,26,28,0.006) 47%, rgba(23,26,28,"+dim.toFixed(4)+") 100%)";
   return <AbsoluteFill style={{pointerEvents:"none",background:gradient}}/>;
 };
-export const V4AccentMeta={sourceV3:map.source_v3_master_sha256,number:active.length,fps:FPS};
+export const V4AccentMeta={sourceV3:(map.source_v3_master_sha256||map.base_v3_sha256||map.base_v3_sha),number:active.length,fps:FPS};
