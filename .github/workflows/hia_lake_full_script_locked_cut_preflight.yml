@@ -1,0 +1,122 @@
+name: Lake Peigneur — Full Script-Locked Cut Source Preflight
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_full_script_locked_cut_preflight.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  edit_preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
+      PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install free exact-source editorial preview tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg poppler-utils python3-pil
+      - name: Recover source-lock PNGs, untouched Arthur and approved Chicago R15 endscreen
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p temp/parts temp/recovered temp/patch temp/archive_dl temp/archive output/editorial_evidence
+          gh release download hia-lake-peigneur-source-recovery-20261010 -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_SOURCE_PART_*.zip' --dir temp/parts
+          echo 'f844e983727383d7fc8bc382d85ec1f6c5e34eb042b57e7b2e3de4a829b45c11  temp/parts/HIA_LAKE_SOURCE_PART_001.zip' | sha256sum -c -
+          echo '9053ac049e6fe979934f0f5a03f8b01c9fc33b0402f88843ce27ddce60b65dfb  temp/parts/HIA_LAKE_SOURCE_PART_002.zip' | sha256sum -c -
+          echo 'e246f7b522d9875725ce008928108e1acab9310b2f1bcf4aaf371d30584c5700  temp/parts/HIA_LAKE_SOURCE_PART_003.zip' | sha256sum -c -
+          for z in temp/parts/*.zip; do unzip -q -o "$z" -d temp/recovered; done
+          P="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/01_EDIT_PROJECT/project_files/Youtube-2/LAKE_PEIGNEUR/REMOTION_V1"
+          S="$GITHUB_WORKSPACE/temp/recovered/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/02_FINAL_VISUALS"
+          mkdir -p "$P/public/assets"
+          find "$S/GFX" "$S/RECONSTRUCTION" -name '*.png' -type f -exec cp -n {} "$P/public/assets/" \;
+          curl -fLsS --retry 3 "$PATCH_URL" -o temp/approved_v3.zip
+          echo "$PATCH_SHA  temp/approved_v3.zip" | sha256sum -c -
+          unzip -q temp/approved_v3.zip -d temp/patch
+          cp temp/patch/timeline.json "$P/public/timeline.json"
+          cp temp/patch/index.jsx "$P/src/index.jsx"
+          cp temp/patch/approved_first_end_1080.png "$P/public/approved_first_end_1080.png"
+          echo "LP_PROJECT=$P" >> "$GITHUB_ENV"
+      - name: Recover licensed USGS topo originals
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run download 36176288181 -R "$GITHUB_REPOSITORY" -n LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -D temp/archive_dl
+          while IFS= read -r -d '' z; do unzip -q -o "$z" -d temp/archive; done < <(find temp/archive_dl -type f -name '*.zip' -print0)
+          test -f temp/archive/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf
+      - name: Patch actual 87-beat V6 picture then exact Arthur-word cut manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT" --dry-run
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/apply_v5_replacements.py --project "$LP_PROJECT" --archive "$GITHUB_WORKSPACE/temp/archive" --output "$GITHUB_WORKSPACE/output"
+          python3 LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/apply_script_locked_cuts.py --project "$LP_PROJECT" --dry-run --report output/editorial_evidence/FIRST3_WORD_LOCK_PREFLIGHT.json
+          python3 LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/apply_script_locked_cuts.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/apply_full_story_cuts.py --project "$LP_PROJECT" --dry-run --report output/editorial_evidence/ALL_30_CUTS_WORD_LOCK_PREFLIGHT.json
+          python3 LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/apply_full_story_cuts.py --project "$LP_PROJECT"
+          ! grep -E 'V4Picture|V4Overlay|V7Motion|V7Focus|V8Cutaways' "$LP_PROJECT/src/index.jsx"
+          python3 - <<'PY'
+          import json
+          d=json.load(open('output/editorial_evidence/ALL_30_CUTS_WORD_LOCK_PREFLIGHT.json'))
+          assert d['total_new_meaningful_source_cuts']==30
+          assert d['physical_picture_slots_after_reedit']==129
+          assert d['source_max_reuse']<=2
+          assert d['no_v4_v7_zoom_or_highlight_effects']
+          print('HARD PREFLIGHT: 30 actual Arthur-word-aligned source cuts, ZERO zoom/focus gimmicks')
+          PY
+      - name: Render 30 EXACT after-edit Remotion stills before any movie re-encode
+        shell: bash
+        timeout-minutes: 35
+        run: |
+          set -euo pipefail
+          cd "$LP_PROJECT"
+          npm install --ignore-scripts --no-audit --no-fund --prefer-offline
+          npx remotion compositions src/index.jsx
+          python3 - <<'PY'
+          import json,os,pathlib,subprocess
+          base=pathlib.Path(os.environ['GITHUB_WORKSPACE'])
+          p=base/'output/editorial_evidence'
+          plan=json.load(open(base/'LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/FIRST_180S_SCRIPT_LOCK.json'))
+          full=json.load(open(base/'LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/FULL_STORY_SOURCE_CUT_PLAN.json'))
+          cues=[]
+          for b in plan['changes']:
+           for z in b['segments']:
+            if z['asset']==b['replace_original']:continue
+            cues.append({'beat':b['beat'],'asset':z['asset'],'frame':z['from']+25,'source_at':z['from']/25,'spoken':z['spoken']})
+          for z in full['cuts']:
+           cues.append({'beat':z['beat'],'asset':z['asset'],'frame':z['frame']+25,'source_at':z['frame']/25,'spoken':z['spoken']})
+          assert len(cues)==30,len(cues)
+          (p/'SHOT_REVIEW_INDEX.json').write_text(json.dumps(cues,indent=2))
+          for i,z in enumerate(cues):
+           out=p/f"{i+1:02d}_{z['beat']}_{z['asset']}.png"
+           subprocess.run(['npx','remotion','still','src/index.jsx','LakePeigneurV1',str(out),'--frame='+str(z['frame']),'--log=error'],check=True)
+           print('RENDERED REVIEW SHOT',i+1,z['beat'],z['asset'],flush=True)
+          from PIL import Image,ImageDraw,ImageOps
+          for k in range(0,len(cues),10):
+           sheet=Image.new('RGB',(2*680,5*420),'#171A1C')
+           d=ImageDraw.Draw(sheet)
+           for j,z in enumerate(cues[k:k+10]):
+            x=(j%2)*680;y=(j//2)*420
+            im=ImageOps.contain(Image.open(p/f"{k+j+1:02d}_{z['beat']}_{z['asset']}.png").convert('RGB'),(664,374))
+            sheet.paste(im,(x+(664-im.width)//2,y+24))
+            d.text((x+8,y+4),str(z['source_at'])+'s  '+z['beat']+'  '+z['asset'],fill='#F3EBDD')
+            d.text((x+8,y+401),z['spoken'][:96],fill='#E6DDC8')
+           sheet.save(p/f"WORD_LOCKED_SOURCE_CUT_CONTACT_{k//10+1}.jpg",quality=89)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_EDITORIAL_FULL_30_CUT_PREFLIGHT
+          path: |
+            output/editorial_evidence/*.json
+            output/editorial_evidence/WORD_LOCKED_SOURCE_CUT_CONTACT_*.jpg
+            output/V5_REPLACEMENTS_AND_PROVENANCE.json
+          retention-days: 14
