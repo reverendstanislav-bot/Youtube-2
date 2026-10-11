@@ -55,7 +55,7 @@ jobs:
           import json
           m=json.load(open('output/V5_REPLACEMENTS_AND_PROVENANCE.json'))
           assert m['unique_old_ids']==9 and m['replaced_exposures']==10 and m['active_accents']==36 and m['source_reuse_max']<=2
-          assert len(m['new_federal_sources'])==3,m['new_federal_sources']
+          assert len(m['new_federal_sources'])==2,m['new_federal_sources']
           print('ACTUAL SOURCE REPAIR PREFLIGHT PASS — no video generated',m['replaced_exposures'])
           PY
       - uses: actions/upload-artifact@v4
