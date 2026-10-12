@@ -1,4 +1,5 @@
 name: HIA Lake Peigneur — Fix Twelve Long Holds in Final HIA Canon
+# Source exposure inventory repaired: B068 uses the available federal-evidence GFX-018 asset.
 # Uses corrected source-aware film compositor and unchanged 87-beat source timeline.
 on:
   push:
