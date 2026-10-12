@@ -34,7 +34,7 @@ for z in plan["swaps"]:
 m1='"beat":"LP-B048","asset":"LP-GFX-036"'
 m2='"beat":"LP-B052","asset":"LP-GFX-036"'
 assert src.count(m1)==1 and src.count(m2)==1
-src=src.replace(m1,'"beat":"LP-B048","asset":"LP-GFX-038"')
+src=src.replace(m1,'"beat":"LP-B048","asset":"LP-REC-045"')
 src=src.replace(m2,'"beat":"LP-B052","asset":"LP-GFX-037"')
 # Gentle, visible soft-area emphasis: preserve all content; no circles, rings, panels or panning.
 old={
