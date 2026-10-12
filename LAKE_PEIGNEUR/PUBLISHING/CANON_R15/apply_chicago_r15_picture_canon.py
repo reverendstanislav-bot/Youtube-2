@@ -119,8 +119,6 @@ assert not any(t in src for t in ('translate(', 'scale(', 'V7Focus', 'V4Overlay'
 assert src.count('approved_first_end_1080.png')==1
 assert src.count('LAKE_PEIGNEUR_ARTHUR_MASTER_LOCKED.mp3')==2
 source.write_text(src)
-n=1
-for a,b in zip(pictureShots[:0],[]):pass
 # Auditable source cadence, separate from any editorial / human approval.
 flat=[dict(s) for s in shots]
 print(json.dumps({'status':'HIA R15 PICTURE CANON INSTALLED',
