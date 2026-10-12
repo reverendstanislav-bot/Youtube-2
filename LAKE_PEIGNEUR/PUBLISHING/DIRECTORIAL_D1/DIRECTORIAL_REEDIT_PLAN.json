@@ -1,0 +1,356 @@
+{
+  "title": "LAKE PEIGNEUR — DIRECTORIAL REEDIT D1 / HIA picture grammar",
+  "source": "Entire 16:28.44 87-beat Arthur-locked film, starting from previously completed 141-slot R15 master",
+  "hardLocks": [
+    "Original Arthur MP3/AAC packet stream untouched",
+    "Original Chicago approved endscreen PNG untouched",
+    "No video/image/TTS generation or paid external calls",
+    "No white rings, no black cards, no arbitrary arrows, no lateral pans or zoom bouncing",
+    "Use native Remotion picture compositor, Chicago R15 6-frame dissolve with occasional meaning-driven hard cuts",
+    "All historical/provenance labels bound to actual asset, never inferred from adjacent shot"
+  ],
+  "editorialReplacements": [
+    {
+      "beat": "LP-B026",
+      "old": "LP-REC-022",
+      "asset": "LP-GFX-014",
+      "why": "Unsafe refinery evacuation image replaced by existing one-hour mine response editorial graphic; no fake historical claim"
+    },
+    {
+      "beat": "LP-B049",
+      "old": "LP-GFX-034",
+      "asset": "LP-GFX-035",
+      "why": "Generic control-valve illustration irrelevant to reverse canal replaced with actual Lake Peigneur/Delcambre contextual schematic"
+    },
+    {
+      "beat": "LP-B071",
+      "old": "LP-REC-027",
+      "asset": "LP-REC-016",
+      "why": "Offshore platform unrelated to 1983 salt-mine settlement replaced by existing workers-in-mine reconstruction, consistent with affected industry"
+    },
+    {
+      "beat": "LP-B073",
+      "old": "LP-REC-040",
+      "asset": "LP-REC-044",
+      "why": "Offshore drilling shot under 'mine did not reopen' replaced by original mine entrance aftermath source"
+    },
+    {
+      "beat": "LP-B081",
+      "old": "LP-GFX-035",
+      "asset": "LP-GFX-020",
+      "why": "Replaces second repeated map during 'water, trees, gardens' with already-approved landscape before/after evidence; frees lake map for canal narrative"
+    }
+  ],
+  "semanticAttention": [
+    {
+      "beat": "LP-B012",
+      "asset": "LP-GFX-008",
+      "why": "Show four stacked mine depths in narrated order",
+      "points": [
+        [
+          62,
+          27
+        ],
+        [
+          62,
+          41
+        ],
+        [
+          62,
+          55
+        ],
+        [
+          62,
+          70
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B016",
+      "asset": "LP-GFX-012",
+      "why": "Drill depth versus 1,300-ft mine elevation",
+      "points": [
+        [
+          31,
+          55
+        ],
+        [
+          70,
+          54
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B027",
+      "asset": "LP-GFX-019",
+      "why": "Follow trapped workers to exit, then one-hour outcome",
+      "points": [
+        [
+          24,
+          72
+        ],
+        [
+          77,
+          34
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B034",
+      "asset": "LP-GFX-020",
+      "why": "Land before versus eroded after; source already embeds ≈68 acres",
+      "points": [
+        [
+          27,
+          50
+        ],
+        [
+          75,
+          50
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B035",
+      "asset": "LP-GFX-032",
+      "why": "Four incremental collapse stages in exactly left-to-right order",
+      "points": [
+        [
+          13,
+          47
+        ],
+        [
+          37,
+          47
+        ],
+        [
+          63,
+          47
+        ],
+        [
+          87,
+          47
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B040",
+      "asset": "LP-GFX-028",
+      "why": "Single-to-growing hydraulic opening, three contiguous stages",
+      "points": [
+        [
+          17,
+          49
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          83,
+          49
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B048",
+      "asset": "LP-GFX-036",
+      "why": "Existing comparison of normal and reversed flows; lower direction lands after setup",
+      "points": [
+        [
+          52,
+          26
+        ],
+        [
+          52,
+          68
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B049",
+      "asset": "LP-GFX-035",
+      "why": "Lake to connected southward canal, schematic location only, no invented trace arrows",
+      "points": [
+        [
+          58,
+          32
+        ],
+        [
+          30,
+          62
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B052",
+      "asset": "LP-GFX-036",
+      "why": "Contrasting original normal vs reversed canal flow without moving arrows",
+      "points": [
+        [
+          52,
+          24
+        ],
+        [
+          52,
+          70
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B063",
+      "asset": "LP-GFX-023",
+      "why": "Two competing technical descriptions, no premature certainty",
+      "points": [
+        [
+          25,
+          47
+        ],
+        [
+          75,
+          47
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B064",
+      "asset": "LP-GFX-042",
+      "why": "From well intersection model to contested lower mine-level area",
+      "points": [
+        [
+          30,
+          43
+        ],
+        [
+          72,
+          58
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B072",
+      "asset": "LP-GFX-050",
+      "why": "Distinguish settlement amounts from destruction of physical mine",
+      "points": [
+        [
+          31,
+          42
+        ],
+        [
+          70,
+          42
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B077",
+      "asset": "LP-GFX-052",
+      "why": "Salt mining and modern gas storage are different uses of same dome",
+      "points": [
+        [
+          25,
+          45
+        ],
+        [
+          73,
+          45
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B078",
+      "asset": "LP-GFX-055",
+      "why": "Eight-pipeline hub schematic emphasis at network junction",
+      "points": [
+        [
+          51,
+          51
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B079",
+      "asset": "LP-GFX-003",
+      "why": "Two gas caverns as separate engineered features, not the old salt mine",
+      "points": [
+        [
+          35,
+          55
+        ],
+        [
+          66,
+          55
+        ]
+      ]
+    },
+    {
+      "beat": "LP-B086",
+      "asset": "LP-GFX-046",
+      "why": "Evidence distinction: hydraulic connection verified, initiation geometry unresolved",
+      "points": [
+        [
+          32,
+          32
+        ],
+        [
+          76,
+          32
+        ]
+      ]
+    }
+  ],
+  "microBreath": [
+    {
+      "beat": "LP-B001",
+      "asset": "LP-REC-001",
+      "why": "Cold-open rig, restrained 0.36% cinematic depth"
+    },
+    {
+      "beat": "LP-B025",
+      "asset": "LP-REC-017",
+      "why": "Evacuation urgency without pan or shaking"
+    },
+    {
+      "beat": "LP-B030",
+      "asset": "LP-REC-026",
+      "why": "Rig departure: 0.36% no camera travel"
+    },
+    {
+      "beat": "LP-B050",
+      "asset": "LP-REC-037",
+      "why": "River current reversal, no simulated water animation"
+    },
+    {
+      "beat": "LP-B084",
+      "asset": "LP-REC-021",
+      "why": "Surviving workforce: restrained breathing"
+    },
+    {
+      "beat": "LP-B087",
+      "asset": "LP-REC-045",
+      "why": "Closing visual, no text or effect on end screen"
+    }
+  ],
+  "hardCutSeconds": [
+    245.48,
+    258.68,
+    268.28,
+    283.24,
+    336.4,
+    358.72,
+    369.52,
+    410.96,
+    546.6,
+    686.88,
+    801.04
+  ],
+  "QC": [
+    "Verify every replacement asset exists, max source reuse 2",
+    "Exact 87 beats; final 141 picture slots; no frame gaps; endscreen starts 968.44s",
+    "Source-aware focus only on existing panels, no synthetic blur, moving rings or rectangular spotlight",
+    "Scale<=1.0036 with no translation; no more than 6 breathing reconstruction shots",
+    "No false historical labels, no fabricated audio, no Photoshop/AI generated pictures",
+    "Final 24711-frame master full-decode, Arthur AAC bit-identical, black frames none",
+    "Editor contact sheets across actual final film; report any remaining visual/artifact mismatches; do not claim creative PASS"
+  ]
+}
