@@ -7,8 +7,7 @@ project=pathlib.Path(sys.argv[1]).resolve()
 master=pathlib.Path(sys.argv[2]).resolve()
 plan=json.loads((root/'LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/DIRECTORIAL_REEDIT_PLAN.json').read_text())
 for cue in plan['semanticAttention']:
- if cue['beat']=='LP-B048' and cue['asset']=='LP-GFX-036':cue['asset']='LP-REC-045'
- if cue['beat']=='LP-B052' and cue['asset']=='LP-GFX-036':cue['asset']='LP-GFX-037'
+  if cue['beat']=='LP-B052' and cue['asset']=='LP-GFX-036':cue['asset']='LP-GFX-037'
 
 timeline=json.loads((project/'public/timeline.json').read_text())
 out=root/'output/final_qc/directorial'
