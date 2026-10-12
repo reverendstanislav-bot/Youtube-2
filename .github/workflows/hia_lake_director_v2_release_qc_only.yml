@@ -1,0 +1,87 @@
+name: HIA Lake Peigneur — Verify Existing Director V2 MP4
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_director_v2_release_qc_only.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-already-rendered-film:
+    runs-on: ubuntu-latest
+    timeout-minutes: 85
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: hia-lake-peigneur-directorial-v2-master-20261012
+      MASTER: HIA_LAKE_PEIGNEUR_DIRECTORIAL_V2_MASTER_1080P25.mp4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install film QC dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg python3-pil
+      - name: Restore actual already-rendered V2 MP4, its original AAC reference and 141-slot D1 picture manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p output work/edition
+          gh release download "$TAG" -R "$GITHUB_REPOSITORY" --pattern "$MASTER" --pattern 'MASTER_SHA256.txt' --dir output
+          (cd output && sha256sum -c MASTER_SHA256.txt)
+          gh release download hia-lake-peigneur-v6-no-rings-20261011 -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4' --dir output
+          echo '6fe4464fa04d578bcb896ab4bd5abed5c4789ddc93f4e2b981885cd445f12fb5  output/HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4' | sha256sum -c -
+          gh release download hia-lake-peigneur-directorial-d1-20261012 -R "$GITHUB_REPOSITORY" --pattern 'FULL_EDITORIAL_SOURCE_MANIFEST.zip' --dir work
+          unzip -oq work/FULL_EDITORIAL_SOURCE_MANIFEST.zip -d work/edition
+          test -s work/edition/FINAL_LOCKED_TIMELINE_141_SLOTS.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('work/edition/FINAL_LOCKED_TIMELINE_141_SLOTS.json'))
+          assert len(d['beats'])==87 and sum(len(b['slots']) for b in d['beats'])==141
+          print('141 picture slots verified, exact same original timeline as V2')
+          PY
+      - name: Check actual MP4 full decode, original Arthur audio, blackframes and all 13 semantic cue exposures
+        timeout-minutes: 50
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_V2/qc_actual_release.py
+          test -s output/v2_qc/QC_ACTUAL_V2_RELEASE.json
+      - name: Save actual QC evidence beside the completed MP4 without overwriting the master
+        shell: bash
+        run: |
+          set -euo pipefail
+          (cd output && zip -q -9 -r HIA_LAKE_V2_ACTUAL_QC_EVIDENCE.zip v2_qc)
+          python3 - <<'PY'
+          import json,pathlib
+          r=json.loads(pathlib.Path('output/v2_qc/QC_ACTUAL_V2_RELEASE.json').read_text())
+          assert r['status'].startswith('TECHNICAL_PASS') and r['visual_cues_extracted_from_actual_mp4']==39
+          s="# LAKE PEIGNEUR V2 - ACTUAL MP4 QC\n\n"
+          s+=f"- Full V2 master: {r['master']} ({r['bytes']} bytes)\n"
+          s+=f"- SHA256: {r['sha256']}\n"
+          s+="- Full 24711-frame 1080p25 decode: PASS. Black interval 400ms+: none.\n"
+          s+="- Original Arthur AAC payload: bit-identical to verified V6.\n"
+          s+="- All 13 script-specific graphic emphasis cues sampled BEFORE, DURING, and AT END in 39 original MP4 frames.\n"
+          s+="- **Creative, factual lettering, compositional and timing QC still requires looking at included actual video contact sheets.**\n"
+          s+="- HIA canon owner creative approval: OPEN; YouTube publication: HOLD.\n"
+          pathlib.Path('output/HIA_LAKE_V2_QC_REPORT.md').write_text(s)
+          PY
+          gh release upload "$TAG" output/HIA_LAKE_V2_ACTUAL_QC_EVIDENCE.zip output/HIA_LAKE_V2_QC_REPORT.md -R "$GITHUB_REPOSITORY"
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets > output/RELEASE_ASSETS_AFTER_QC.json
+          python3 - <<'PY'
+          import json,pathlib
+          r={x['name']:x['size'] for x in json.load(open('output/RELEASE_ASSETS_AFTER_QC.json'))['assets']}
+          for name in ['HIA_LAKE_V2_ACTUAL_QC_EVIDENCE.zip','HIA_LAKE_V2_QC_REPORT.md','HIA_LAKE_PEIGNEUR_DIRECTORIAL_V2_MASTER_1080P25.mp4']:
+            assert r[name]==(pathlib.Path('output')/name).stat().st_size,(name,r.get(name))
+          print('QC evidence and finished film verified on GitHub Release')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_V2_COMPLETED_MP4_QC
+          path: |
+            output/v2_qc/QC_ACTUAL_V2_RELEASE.json
+            output/v2_qc/QC_ACTUAL_V2_CUES.json
+            output/v2_qc/ACTUAL_DIRECTOR_V2_CUE_SHEET_*.jpg
+            output/HIA_LAKE_V2_QC_REPORT.md
+          retention-days: 21
