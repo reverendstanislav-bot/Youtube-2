@@ -11,13 +11,6 @@
       "why": "Replace distant industrial excavator/refinery view with already approved nearer shore-collapse reconstruction for Arthur's 'edge of the lake was collapsing'; contextual reconstruction, NOT verified 1980 footage."
     },
     {
-      "beat": "LP-B048",
-      "old": "LP-GFX-036",
-      "new": "LP-REC-045",
-      "kind": "reconstruction",
-      "why": "Remove fabricated navigation lock comparison as Arthur describes the falling basin; use existing lake/shaft sectional reconstruction instead, with no asserted canal geometry."
-    },
-    {
       "beat": "LP-B052",
       "old": "LP-GFX-036",
       "new": "LP-GFX-037",
@@ -42,5 +35,14 @@
     "Chicago R15 transitions with 11 motivated action hard-cuts",
     "No black shapes/rings/animated arrows/lateral pans"
   ],
-  "qc": "42 source cut positions / 16 semantic focus cues / 6 0.9%-max scene breaths / 11 hard cuts; all measured from actual finished MP4, no owner creative pass implied"
+  "qc": "42 source cut positions / 16 semantic focus cues / 6 0.9%-max scene breaths / 11 hard cuts; all measured from actual finished MP4, no owner creative pass implied",
+  "editorial_hold": {
+    "beat": "LP-B048",
+    "range_sec": [
+      536.84,
+      542.48
+    ],
+    "reason": "The existing schematic resembles fabricated navigation locks. Two-exposure source limit blocks further reuse of grounded alternatives; do not mislabel as real canal footage.",
+    "action_required": "Owner/editor-selected new licensed source or editor-native historically accurate graphic before publication."
+  }
 }
