@@ -34,7 +34,6 @@ for z in plan["swaps"]:
 m1='"beat":"LP-B048","asset":"LP-GFX-036"'
 m2='"beat":"LP-B052","asset":"LP-GFX-036"'
 assert src.count(m1)==1 and src.count(m2)==1
-src=src.replace(m1,'"beat":"LP-B048","asset":"LP-REC-045"')
 src=src.replace(m2,'"beat":"LP-B052","asset":"LP-GFX-037"')
 # Gentle, visible soft-area emphasis: preserve all content; no circles, rings, panels or panning.
 old={
@@ -62,7 +61,7 @@ assert len(focus)==16
 for e in focus:
  beat=next(x for x in data["beats"] if x["beat"]==e["beat"])
  assert sum(s["assetId"]==e["asset"] for s in beat["slots"])==1,e
-assert len(plan["swaps"])==3
+assert len(plan["swaps"])==2
 assert src.count("approved_first_end_1080.png")==1
 assert src.count("LAKE_PEIGNEUR_ARTHUR_MASTER_LOCKED.mp3")==2
 assert "0.009*smoothed(t)" in src and "DIRECTOR_HARD_CUTS" in src
