@@ -1,0 +1,162 @@
+{
+  "name": "HIA Lake Peigneur — directorial emphasis lock v1",
+  "fps": 25,
+  "guide": "Selective restrained evidence-led editorial emphasis. Every displayed number must be spoken/cited. No unverified route animations, fake archival labels, motion on dense maps, moving black cards, or generic accents every beat.",
+  "overlays": [
+    {
+      "start": 0.9,
+      "end": 4.8,
+      "top": "NOVEMBER 20, 1980",
+      "main": "THE LAKE BEGINS TO FAIL",
+      "sub": "A disaster unfolding above and below",
+      "tone": "rust"
+    },
+    {
+      "start": 22.8,
+      "end": 26,
+      "top": "JEFFERSON ISLAND",
+      "main": "52 PEOPLE BELOW",
+      "sub": "The mine was still occupied",
+      "tone": "paper"
+    },
+    {
+      "start": 203.7,
+      "end": 208.5,
+      "top": "A DRILLING OPERATION",
+      "main": "THE CONNECTION",
+      "sub": "Surface drilling meets an underground system",
+      "tone": "rust"
+    },
+    {
+      "start": 320.4,
+      "end": 324.5,
+      "top": "UNDERGROUND",
+      "main": "52 MINERS",
+      "sub": "A race to get everyone out",
+      "tone": "paper"
+    },
+    {
+      "start": 369.5,
+      "end": 374.5,
+      "top": "THE LANDSCAPE",
+      "main": "THE SHORE GIVES WAY",
+      "sub": "Ground collapses into the growing void",
+      "tone": "rust"
+    },
+    {
+      "start": 449.1,
+      "end": 452.1,
+      "top": "THE MECHANISM",
+      "main": "A SELF-WIDENING PATH",
+      "sub": "Fresh water dissolves salt",
+      "tone": "paper"
+    },
+    {
+      "start": 553.1,
+      "end": 557.7,
+      "top": "DELCAMBRE CANAL",
+      "main": "THE FLOW REVERSED",
+      "sub": "Water moved inland toward the lake",
+      "tone": "rust"
+    },
+    {
+      "start": 575.1,
+      "end": 582.6,
+      "top": "CONTEMPORARY ACCOUNTS",
+      "main": "ROUGHLY 150 FEET",
+      "sub": "A temporary waterfall",
+      "tone": "paper"
+    },
+    {
+      "start": 639.3,
+      "end": 643,
+      "top": "THE EVACUATION",
+      "main": "ALL 52 ESCAPED",
+      "sub": "Zero recorded fatalities",
+      "tone": "paper"
+    },
+    {
+      "start": 668.8,
+      "end": 673,
+      "top": "THE INVESTIGATION",
+      "main": "CAUSE DISPUTED",
+      "sub": "Do not confuse a popular explanation with proof",
+      "tone": "rust"
+    },
+    {
+      "start": 752.6,
+      "end": 758.2,
+      "top": "THE EVIDENCE",
+      "main": "CONNECTED — NOT EXPLAINED",
+      "sub": "A hydraulic pathway; uncertain initiating error",
+      "tone": "paper"
+    },
+    {
+      "start": 860.9,
+      "end": 864.8,
+      "top": "THE SALT DOME TODAY",
+      "main": "8 MAJOR PIPELINES",
+      "sub": "The industrial use of the geology continues",
+      "tone": "paper"
+    },
+    {
+      "start": 934.9,
+      "end": 940,
+      "top": "HIDDEN INDUSTRIAL AMERICA",
+      "main": "WHAT WE CANNOT SEE",
+      "sub": "Can be what matters most",
+      "tone": "rust"
+    }
+  ],
+  "focus": [
+    {
+      "asset": "LP-REC-001",
+      "start": 0,
+      "end": 5.9,
+      "scale": 1.012,
+      "origin": "50% 50%"
+    },
+    {
+      "asset": "LP-REC-034",
+      "start": 203.7,
+      "end": 213.4,
+      "scale": 1.012,
+      "origin": "56% 46%"
+    },
+    {
+      "asset": "LP-REC-021",
+      "start": 320.4,
+      "end": 326.1,
+      "scale": 1.01,
+      "origin": "52% 48%"
+    },
+    {
+      "asset": "LP-REC-030",
+      "start": 369.5,
+      "end": 380.1,
+      "scale": 1.011,
+      "origin": "56% 50%"
+    },
+    {
+      "asset": "LP-REC-036",
+      "start": 568.88,
+      "end": 575.12,
+      "scale": 1.01,
+      "origin": "50% 52%"
+    },
+    {
+      "asset": "LP-REC-024",
+      "start": 639.28,
+      "end": 643.44,
+      "scale": 1.009,
+      "origin": "52% 52%"
+    },
+    {
+      "asset": "LP-REC-045",
+      "start": 957.44,
+      "end": 968.44,
+      "scale": 1.01,
+      "origin": "50% 50%"
+    }
+  ]
+}
