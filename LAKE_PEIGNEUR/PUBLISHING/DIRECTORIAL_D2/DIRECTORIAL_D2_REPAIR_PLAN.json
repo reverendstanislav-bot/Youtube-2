@@ -6,16 +6,16 @@
     {
       "beat": "LP-B033",
       "old": "LP-REC-030",
-      "new": "LP-GFX-029",
-      "kind": "gfx",
-      "why": "Narration says the lake basin/edge was physically changing, while old reconstruction showed refinery shoreline; existing salt-mine inundation section conveys collapse without refinery identity claim."
+      "new": "LP-REC-031",
+      "kind": "reconstruction",
+      "why": "Replace distant industrial excavator/refinery view with already approved nearer shore-collapse reconstruction for Arthur's 'edge of the lake was collapsing'; contextual reconstruction, NOT verified 1980 footage."
     },
     {
       "beat": "LP-B048",
       "old": "LP-GFX-036",
-      "new": "LP-GFX-038",
-      "kind": "gfx",
-      "why": "Remove fictional navigation-lock reversal scene while Arthur describes falling lake basin; use existing before/after lake-level relief diagram."
+      "new": "LP-REC-045",
+      "kind": "reconstruction",
+      "why": "Remove fabricated navigation lock comparison as Arthur describes the falling basin; use existing lake/shaft sectional reconstruction instead, with no asserted canal geometry."
     },
     {
       "beat": "LP-B052",
