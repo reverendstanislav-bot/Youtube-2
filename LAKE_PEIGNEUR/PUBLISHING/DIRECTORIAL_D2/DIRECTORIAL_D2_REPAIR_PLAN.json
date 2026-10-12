@@ -1,0 +1,46 @@
+{
+  "title": "Lake Peigneur D2 — factual context and semantic emphasis repair of existing director D1",
+  "supersedes_for_review": "D1 only after new full MP4 QC and owner review; D1 immutable",
+  "editorial_reason": "V2 actual-MP4 spot review showed tiny duplicative typography, misleading canal lock/waterfall comparison and generic refinery views; do not combine 13 V2 headline overlays into D1.",
+  "swaps": [
+    {
+      "beat": "LP-B033",
+      "old": "LP-REC-030",
+      "new": "LP-GFX-029",
+      "kind": "gfx",
+      "why": "Narration says the lake basin/edge was physically changing, while old reconstruction showed refinery shoreline; existing salt-mine inundation section conveys collapse without refinery identity claim."
+    },
+    {
+      "beat": "LP-B048",
+      "old": "LP-GFX-036",
+      "new": "LP-GFX-038",
+      "kind": "gfx",
+      "why": "Remove fictional navigation-lock reversal scene while Arthur describes falling lake basin; use existing before/after lake-level relief diagram."
+    },
+    {
+      "beat": "LP-B052",
+      "old": "LP-GFX-036",
+      "new": "LP-GFX-037",
+      "kind": "gfx",
+      "why": "Remove fictional navigation-lock rendering from roughly-150ft waterfall account; show existing depth/cross-section diagram already qualified as conceptual, not historical source."
+    }
+  ],
+  "change_motion": {
+    "max_hero_scale": 1.009,
+    "semantic_background_brightness": 0.86,
+    "semantic_foreground_brightness": 1.17,
+    "semantic_foreground_contrast": 1.08,
+    "semantic_mask_percent": "36% 38%"
+  },
+  "no_extra_typography": true,
+  "hard_locks": [
+    "Original Arthur AAC unchanged",
+    "Original approved endscreen unchanged",
+    "Original 87 beats and 141 source slots",
+    "All shots are existing approved licensed assets; no generation or new media",
+    "Max source appearances 2",
+    "Chicago R15 transitions with 11 motivated action hard-cuts",
+    "No black shapes/rings/animated arrows/lateral pans"
+  ],
+  "qc": "42 source cut positions / 16 semantic focus cues / 6 0.9%-max scene breaths / 11 hard cuts; all measured from actual finished MP4, no owner creative pass implied"
+}
