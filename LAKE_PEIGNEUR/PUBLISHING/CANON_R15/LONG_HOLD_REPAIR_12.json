@@ -1,0 +1,103 @@
+{
+  "source_master": "hia-lake-peigneur-canon-r15-master-20261012",
+  "canonical_refs": [
+    "CHANNEL/PROVENANCE_AND_EDITING_CANON.md",
+    "CHICAGO/R15_SMOOTH/TRANSITION_DESIGN.md",
+    "LAKE_PEIGNEUR/STAGE_7/WORD_TIMING_V1_CHUNK_01..04.csv"
+  ],
+  "scope": "Repair exactly 12 >12-second source holds flagged in R15 final-shot QC; no new images or narration; no zoom/focus motion; no change to ordered 87 beats",
+  "cuts": [
+    {
+      "beat": "LP-B035",
+      "old": "LP-REC-031",
+      "new": "LP-GFX-032",
+      "phrase": "Every section of ground lost",
+      "why": "Change from eroding shore to already-licensed salt cavity widening model; clarifies physical geometry"
+    },
+    {
+      "beat": "LP-B040",
+      "old": "LP-GFX-030",
+      "new": "LP-GFX-028",
+      "phrase": "The water could help enlarge",
+      "why": "Existing source-locked three-stage water cavity expansion, directly illustrates feedback"
+    },
+    {
+      "beat": "LP-B048",
+      "old": "LP-GFX-033",
+      "new": "LP-GFX-036",
+      "phrase": "And as the lake level dropped",
+      "why": "Approved normal/reversed flow comparison introduces geography and downstream consequence"
+    },
+    {
+      "beat": "LP-B052",
+      "old": "LP-REC-036",
+      "new": "LP-GFX-036",
+      "phrase": "Historical Louisiana accounts",
+      "why": "Actual story is canal/Gulf flow into lake, not flooded underground workers; existing reversal-flow diagram"
+    },
+    {
+      "beat": "LP-B054",
+      "old": "LP-GFX-037",
+      "new": "LP-GFX-035",
+      "phrase": "The canal had not moved",
+      "why": "Existing Lake Peigneur Jefferson Island geographic map connects explanation to fixed geography"
+    },
+    {
+      "beat": "LP-B061",
+      "old": "LP-GFX-025",
+      "new": "LP-GFX-044",
+      "phrase": "That is where the popular version",
+      "why": "Existing competing interpretation editorial illustration without misrepresenting disputed drilling geometry"
+    },
+    {
+      "beat": "LP-B068",
+      "old": "LP-REC-033",
+      "new": "LP-GFX-046",
+      "phrase": "So two statements can both be true",
+      "why": "Existing evidence-bounded hydraulic connection diagram explicitly states initiating geometry unknown"
+    },
+    {
+      "beat": "LP-B072",
+      "old": "LP-GFX-050",
+      "new": "LP-GFX-006",
+      "phrase": "They did not restore",
+      "why": "Existing original mine pillar/workings source reinforces that financial settlement did not repair underground structure"
+    },
+    {
+      "beat": "LP-B077",
+      "old": "LP-GFX-052",
+      "new": "LP-GFX-003",
+      "phrase": "Salt formations are also useful",
+      "why": "Original approved dual salt-cavern conceptual illustration, storage technology rather than mine disaster"
+    },
+    {
+      "beat": "LP-B078",
+      "old": "LP-GFX-053",
+      "new": "LP-GFX-055",
+      "mode": "replace_first",
+      "phrase": "One Oak says the facility",
+      "why": "Existing industrial-network infrastructure visual sets up precise pipeline map/claim, which remains second"
+    },
+    {
+      "beat": "LP-B079",
+      "old": "LP-GFX-003",
+      "new": "LP-GFX-004",
+      "phrase": "It means the same geological feature",
+      "why": "Original approved USGS-styled geologic dome illustration, links historical and contemporary uses"
+    },
+    {
+      "beat": "LP-B081",
+      "old": "LP-REC-045",
+      "new": "LP-GFX-035",
+      "phrase": "Water. Trees. Gardens.",
+      "why": "Original geographic Lake Peigneur context reorients closing surface geography"
+    }
+  ],
+  "hard_limits": {
+    "source_max_exposures": 2,
+    "no_source_id_rejected": true,
+    "no_new_credit": true,
+    "preserve_arthur_sha256": "1ae5c97d85b9cf2c10c438a2834d024776ea851a932a02aab2490860fa4afd13",
+    "preserve_endscreen_sha256": "b794e5582699e90812b25208ca1c5dd053df465825d1ce6e33a7a0c6ea53b575"
+  }
+}
