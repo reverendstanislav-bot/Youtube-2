@@ -77,9 +77,9 @@ jobs:
           print('12 static holds repaired with 12 source-locked Arthur onset cuts and zero source over-reuse')
           PY
           python3 LAKE_PEIGNEUR/PUBLISHING/CANON_R15/HOLD12/apply_holds_picture.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT" --dry-run --report "$GITHUB_WORKSPACE/output/D1_DIRECTORIAL_PREFLIGHT.json"
           python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT"
-          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/apply_directorial_d2.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/D2_DIRECTORIAL_SOURCE_QC.json" --dry-run --report "$GITHUB_WORKSPACE/output/D1_DIRECTORIAL_PREFLIGHT.json"
-          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/apply_directorial_d2.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/D2_DIRECTORIAL_SOURCE_QC.json"
           python3 - <<'PY'
           import json,pathlib
           p=pathlib.Path('output/D1_DIRECTORIAL_PREFLIGHT.json')
