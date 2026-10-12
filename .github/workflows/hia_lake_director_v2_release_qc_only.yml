@@ -28,7 +28,7 @@ jobs:
           set -euo pipefail
           mkdir -p output work/edition
           gh release download "$TAG" -R "$GITHUB_REPOSITORY" --pattern "$MASTER" --pattern 'MASTER_SHA256.txt' --dir output
-          (cd output && sha256sum -c MASTER_SHA256.txt)
+          sha256sum -c output/MASTER_SHA256.txt
           gh release download hia-lake-peigneur-v6-no-rings-20261011 -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4' --dir output
           echo '6fe4464fa04d578bcb896ab4bd5abed5c4789ddc93f4e2b981885cd445f12fb5  output/HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4' | sha256sum -c -
           gh release download hia-lake-peigneur-directorial-d1-20261012 -R "$GITHUB_REPOSITORY" --pattern 'FULL_EDITORIAL_SOURCE_MANIFEST.zip' --dir work
