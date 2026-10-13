@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 180
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: hia-lake-peigneur-directorial-d3-canon-20261013
+      TAG: hia-lake-peigneur-directorial-d3-caption-legibility-20261013
       MASTER: HIA_LAKE_PEIGNEUR_DIRECTORIAL_D3_CANON_MASTER_1080P25.mp4
       PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
       PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
@@ -120,6 +120,36 @@ jobs:
           cd "$LP_PROJECT"
           npm install --ignore-scripts --no-audit --no-fund --prefer-offline
           npx remotion compositions src/index.jsx
+      - name: Repair captions visibility on pale maps and avoid four footer collisions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os,pathlib
+          p=pathlib.Path(os.environ['LP_PROJECT'])/'src/index.jsx'
+          s=p.read_text()
+          old="WebkitTextStroke:'1.1px rgba(10,12,13,.92)'"
+          new="WebkitTextStroke:'2.2px rgba(10,12,13,.99)'"
+          assert s.count(old)==1,'Cannot safely locate canonical caption stroke'
+          s=s.replace(old,new,1)
+          old="textShadow:'0 3px 6px rgba(0,0,0,.94),0 0 15px rgba(0,0,0,.6)'"
+          new="textShadow:'0 2px 3px rgba(0,0,0,1),0 4px 8px rgba(0,0,0,.96),0 0 15px rgba(0,0,0,.7)'"
+          assert s.count(old)==1,'Cannot safely locate canonical caption shadow'
+          s=s.replace(old,new,1)
+          old="const c=hiaCaptionCues[idx];"
+          lift="""const c=hiaCaptionCues[idx];
+ const captionLift=(frame>=10498&&frame<10580)||(frame>=13225&&frame<13421)||(frame>=13562&&frame<13665)||(frame>=21316&&frame<21524);"""
+          assert s.count(old)==1,'Cannot safely locate caption cue variable'
+          s=s.replace(old,lift,1)
+          old="textAlign:'center',fontFamily:'Arial,Helvetica,sans-serif'"
+          assert s.count(old)==1,'Cannot safely locate canonical font block'
+          assert s.count("bottom:135,")==1,'Cannot safely locate lower subtitle positioning'
+          s=s.replace("bottom:135,","bottom:captionLift?220:135,",1)
+          assert "if(frame>=24211)return null" in s,'Endscreen subtitle exclusion absent'
+          assert s.count("HiaWordCaptions frame={frame}")==1,'Multiple captions layers'
+          p.write_text(s)
+          print('Caption contrast upgraded; only four exact footer windows lifted; no change to Arthur, visuals, frame timing or endscreen')
+          PY
       - name: Render ONE entire 24711-frame 1920x1080p25 canonical Remotion master
         shell: bash
         timeout-minutes: 145
@@ -151,7 +181,7 @@ jobs:
             echo "Refusing to overwrite an existing master. No automatic duplicate renders."
             exit 1
           fi
-          gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title 'Lake Peigneur — HIA DIRECTORIAL D2 Story/Motion Repair 1080p25 (owner review HOLD)' --notes 'Original 87-beat Arthur film; Chicago R15 picture canon. Three fact-matched context repairs include one editor-native NOT TO SCALE lake/canal graphic. No generated footage or TTS; Arthur audio is immutable. Publication HOLD pending owner editorial review.' --prerelease
+          gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title 'Lake Peigneur — D3 caption contrast and footer-safe review master (owner review HOLD)' --notes 'Original 87-beat Arthur film; Chicago R15 picture canon. Four fact-matched context repairs include labeled level and eight-pipeline diagrams. Contrast and four caption/footer collisions repaired. No generated footage or TTS; Arthur audio is immutable. Publication HOLD pending owner editorial review.' --prerelease
           gh release upload "$TAG" "output/$MASTER" output/MASTER_SHA256.txt -R "$GITHUB_REPOSITORY"
           gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets > output/MASTER_CHECKPOINT_ASSETS.json
           python3 - <<'PY'
