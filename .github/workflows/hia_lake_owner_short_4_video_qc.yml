@@ -1,0 +1,80 @@
+name: HIA Lake Peigneur — Four Owner-Locked Shorts Actual Video QC
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_owner_short_4_video_qc.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit-four-shorts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install lossless QC tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y ffmpeg python3-pil
+      - name: Download EXACT already rendered caption-free four Shorts
+        run: |
+          set -euo pipefail
+          mkdir -p work/shorts output
+          curl -fLsS --retry 3 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/6583ee88-3e0d-4fbd-be52-3b6d89905af6.zip' -o work/shorts.zip
+          echo '8a22f654be3979ffb91abe18ec756f687324a866be53e761ad44f0bbbeb7a854  work/shorts.zip' | sha256sum -c -
+          unzip -t work/shorts.zip
+          unzip -oq work/shorts.zip -d work/shorts
+          find work/shorts -type f -iname '*.mp4' -print
+      - name: Verify four actual videos, samples, approved end and no captions in visible frames
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,pathlib,subprocess
+          from PIL import Image,ImageDraw
+          files=sorted(pathlib.Path('work/shorts').rglob('*.mp4'))
+          assert len(files)==4,[str(x) for x in files]
+          expected={'b55a336a76a99d1cb332b371a670e5146aaae268eeb95ca08de4d41a79b3395a',
+          'b92bad83bc3ab61bbf0986d8ff8218e2caecceba495e69480572e82283838c93',
+          '681830ae119c5569cd5ccd0dd3bcd0ddbfe6210abe9e448ef632c21b7e95c8ab',
+          '19f183018d9b1d59dfc80d47531eea5cbaca1b57cc0251983cafaa7148132396'}
+          seen=set();rows=[]
+          p=pathlib.Path('output'); p.mkdir(exist_ok=True)
+          for i,f in enumerate(files):
+           sha=hashlib.sha256(f.read_bytes()).hexdigest()
+           assert sha in expected,('UNKNOWN SHORT CONTENT',f,sha)
+           seen.add(sha)
+           probe=subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(f)],text=True)
+           q=json.loads(probe);v=next(x for x in q['streams'] if x['codec_type']=='video')
+           a=next(x for x in q['streams'] if x['codec_type']=='audio')
+           assert (v['width'],v['height'],v['r_frame_rate'])==(1080,1920,'25/1'),f
+           assert a['codec_name']=='aac'
+           assert not [x for x in q['streams'] if x['codec_type']=='subtitle']
+           duration=float(q['format']['duration'])
+           assert 37<duration<45,(f,duration)
+           subprocess.run(['ffmpeg','-nostdin','-v','error','-xerror','-i',str(f),'-f','null','-'],check=True)
+           page=Image.new('RGB',(3*236,3*448),'#171A1C');draw=ImageDraw.Draw(page)
+           for j in range(9):
+            t=(j+.5)*duration/9
+            jpg=p/f'short_{i+1}_frame_{j+1}.jpg'
+            subprocess.run(['ffmpeg','-nostdin','-v','error','-ss',str(t),'-i',str(f),'-frames:v','1','-y','-q:v','3',str(jpg)],check=True)
+            im=Image.open(jpg).convert('RGB').resize((216,384))
+            x=(j%3)*236+10;y=(j//3)*448+24
+            page.paste(im,(x,y))
+            draw.text((x,y-18),'%0.1fs'%t,fill='#E6DDC8')
+           sheet=p/f'LP_SHORT_{i+1}_ACTUAL_9_FRAMES.jpg'
+           page.save(sheet,quality=90)
+           rows.append({'file':f.name,'sha256':sha,'duration':duration,'height':1920,'width':1080,
+                       'fps':25,'full_decode':'PASS','subtitle_streams':0,'contact_sheet':sheet.name})
+          assert seen==expected
+          (p/'SHORTS_ACTUAL_QC.json').write_text(json.dumps({'verdict':'4/4 FILE HASH + DECODE + TECHNICAL QC PASS; HUMAN ACTUAL-FRAME QC PENDING',
+          'owner_lock':'CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md',
+          'shorts':rows},indent=2)+'\n')
+          print(json.dumps(rows,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_OWNER_SHORTS_4_ACTUAL_VIDEO_QC
+          path: |
+            output/LP_SHORT_*_ACTUAL_9_FRAMES.jpg
+            output/SHORTS_ACTUAL_QC.json
+          retention-days: 14
