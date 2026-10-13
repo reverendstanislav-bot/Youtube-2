@@ -138,7 +138,7 @@ jobs:
           s=s.replace(old,new,1)
           old="const c=hiaCaptionCues[idx];"
           lift="""const c=hiaCaptionCues[idx];
- const captionLift=(frame>=10498&&frame<10580)||(frame>=13225&&frame<13421)||(frame>=13562&&frame<13665)||(frame>=21316&&frame<21524);"""
+          const captionLift=(frame>=10498&&frame<10580)||(frame>=13225&&frame<13421)||(frame>=13562&&frame<13665)||(frame>=21316&&frame<21524);"""
           assert s.count(old)==1,'Cannot safely locate caption cue variable'
           s=s.replace(old,lift,1)
           old="textAlign:'center',fontFamily:'Arial,Helvetica,sans-serif'"
