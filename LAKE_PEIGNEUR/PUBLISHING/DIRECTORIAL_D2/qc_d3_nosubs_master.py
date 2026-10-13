@@ -93,6 +93,7 @@ result={"status":"HIA CANON R15 CLEAN NO-SUBTITLES MASTER TECHNICAL PASS; OWNER 
  "narration_word_edit":False,"effect_layers_legacy_v4_v7_v8":False,
  "story_beats":87,"physical_slots":141,"source_reuse_max":max(n.values()),
  "actual_final_master_inserted_cuts_sampled":len(samples),
- "dialogue_captions_burned":False,"no_subtitles_owner_lock":"CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md",\n "human_editorial_approval":"OPEN","youtube_publication":"NOT DONE"}
+ "dialogue_captions_burned":False,"no_subtitles_owner_lock":"CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md",
+ "human_editorial_approval":"OPEN","youtube_publication":"NOT DONE"}
 (out/"TECHNICAL_REPORT.json").write_text(json.dumps(result,indent=2)+"\n")
 print(json.dumps(result,indent=2))
