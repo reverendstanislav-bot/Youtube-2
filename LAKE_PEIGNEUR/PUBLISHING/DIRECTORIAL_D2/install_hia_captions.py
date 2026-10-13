@@ -58,9 +58,9 @@ function HiaWordCaptions({frame}){
   textShadow:'0 3px 6px rgba(0,0,0,.94),0 0 15px rgba(0,0,0,.6)',
   pointerEvents:'none'
  }}>
- {c.words.map((w,i)=><React.Fragment key={i}>
+ {c.words.map((w,i)=><span key={i}>
   <span style={{color:(t>=w.s && t<=w.e+.03)?'#F28A3A':'#FFFFFF'}}>{w.w}</span>{i<c.words.length-1?' ':''}
- </React.Fragment>)}
+ </span>)}
  </div>;
 }
 """
