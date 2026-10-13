@@ -1,3 +1,23 @@
+> **CANONICAL CURRENT 2026-10-13 — CLEAN NO-SUBTITLES D3 MASTER PHYSICALLY DELIVERED AND INDEPENDENTLY TECH-QC PASSED.**
+>
+> The earlier D3 `HIA_LAKE_PEIGNEUR_DIRECTORIAL_D3_CANON_MASTER_1080P25.mp4` and D3 caption-contrast version **BURN SPOKEN SUBTITLES INTO THE PICTURE AND ARE REJECTED**. They must NEVER be handed to the owner as the approved master. This was a delivery mistake.
+>
+> **Only current no-subtitles D3 review master:** `HIA_LAKE_PEIGNEUR_D3_CLEAN_NO_SUBTITLES_MASTER_1080P25.mp4`
+>
+> - [Exact MASTER MP4](https://github.com/reverendstanislav-bot/Youtube-2/releases/download/hia-lake-peigneur-directorial-d3-clean-no-subtitles-20261013/HIA_LAKE_PEIGNEUR_D3_CLEAN_NO_SUBTITLES_MASTER_1080P25.mp4)
+> - [Exact GitHub Release](https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/hia-lake-peigneur-directorial-d3-clean-no-subtitles-20261013)
+> - Exact binary: **261,332,562 bytes**, SHA256 `01bfb2e19c1ae40daf788052dca538b4904dba5f2cfb64aeb5dc16b0df35d48c`.
+> - Format: 1920x1080 / 25fps / 24,711 frames / 16:28.440 / H.264 High BT.709 limited. Unmodified Arthur AAC packets and locked first-episode endscreen.
+> - Original clean-source Remotion compositor **contains no dialogue caption layer**, no `HiaWordCaptions`, no `<Caption` and no caption cue file. The owner authority is `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
+> - Physical QC: FFmpeg full decode PASS, 0 black intervals >=0.4s, identical Arthur AAC packets, unchanged original endscreen; 14 sampled actual video frames from the independently QC'd clean MP4 visually contain **no spoken dialogue captions**. Source audit covers 142 distinct picture groups.
+> - Independent [QC run 38449713980](https://github.com/reverendstanislav-bot/Youtube-2/actions/runs/38449713980): SUCCESS; artifact `HIA_LAKE_D3_CLEAN_NO_SUBTITLES_INDEPENDENT_QC`; report `final_qc/TECHNICAL_REPORT.json`.
+> - **READY_FOR_REVIEW = YES. OWNER FINAL VISUAL APPROVAL / HUMAN-EAR AUDIO AND YOUTUBE UNLISTED PLAYBACK STILL OPEN. READY_FOR_PUBLIC = NO.** Do not claim that technical tests certify editorial perfection.
+> - Four existing caption-free Shorts: exact SHA/full-decode and 36-frame contact-sheet QC PASS; see `PUBLISHING/SHORTS_OWNER_LOCK_PHYSICAL_QC_2026-10-13.md`.
+>
+> Entries below are earlier production states and are superseded by this exact physical clean-master lock.
+>
+---
+>
 > **LATEST 2026-10-13 — OWNER NO-SUBTITLES LOCK OVERRIDES HISTORICAL CAPTIONED D3.** The owner authority file `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md` prohibits burned or uploaded spoken-dialogue captions for all HIA content. The captioned D3 technically passed its historical checks but is **REJECT FOR UPLOAD** because it includes dialogue captions. The captioned D3 and caption-contrast rerelease must NOT be used as public masters.
 >
 > **CURRENT CLEAN D3:** Full 1920×1080/25fps 24,711-frame owner-lock caption-free Remotion render is in progress under GitHub Actions [38448947690](https://github.com/reverendstanislav-bot/Youtube-2/actions/runs/38448947690), release target `hia-lake-peigneur-directorial-d3-clean-no-subtitles-20261013`. A separate [QC-only runner 38449713980](https://github.com/reverendstanislav-bot/Youtube-2/actions/runs/38449713980) checks the exact finished master without duplicate video rendering. **CLEAN MASTER TECHNICAL PASS / PIXEL QC: PENDING actual finished binary. READY_FOR_PUBLIC: NO.** No paid generation; Arthur and first-episode end screen are unchanged in the editing plan.
