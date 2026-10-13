@@ -34,7 +34,12 @@ for z in plan["swaps"]:
 m1='"beat":"LP-B048","asset":"LP-GFX-036"'
 m2='"beat":"LP-B052","asset":"LP-GFX-036"'
 assert src.count(m1)==1 and src.count(m2)==1
+src=src.replace(m1,'"beat":"LP-B048","asset":"LP-EDITOR-LEVEL-DIFFERENCE-01"')
 src=src.replace(m2,'"beat":"LP-B052","asset":"LP-GFX-037"')
+# Re-target the two guided focal centers to the canal/lake level comparison.
+anchor='"beat":"LP-B048","asset":"LP-EDITOR-LEVEL-DIFFERENCE-01","points":[[52,26],[52,68]]'
+assert src.count(anchor)==1,('D2 level graphic coordinates not as expected',src.count(anchor))
+src=src.replace(anchor,'"beat":"LP-B048","asset":"LP-EDITOR-LEVEL-DIFFERENCE-01","points":[[31,44],[74,65]]')
 # Gentle, visible soft-area emphasis: preserve all content; no circles, rings, panels or panning.
 old={
  "0.0036*smoothed(t)":"0.009*smoothed(t)",
@@ -61,7 +66,7 @@ assert len(focus)==16
 for e in focus:
  beat=next(x for x in data["beats"] if x["beat"]==e["beat"])
  assert sum(s["assetId"]==e["asset"] for s in beat["slots"])==1,e
-assert len(plan["swaps"])==2
+assert len(plan["swaps"])==3
 assert src.count("approved_first_end_1080.png")==1
 assert src.count("LAKE_PEIGNEUR_ARTHUR_MASTER_LOCKED.mp3")==2
 assert "0.009*smoothed(t)" in src and "DIRECTOR_HARD_CUTS" in src
