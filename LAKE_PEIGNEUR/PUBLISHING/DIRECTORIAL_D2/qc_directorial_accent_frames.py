@@ -7,6 +7,7 @@ project=pathlib.Path(sys.argv[1]).resolve()
 master=pathlib.Path(sys.argv[2]).resolve()
 plan=json.loads((root/'LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/DIRECTORIAL_REEDIT_PLAN.json').read_text())
 for cue in plan['semanticAttention']:
+  if cue['beat']=='LP-B048' and cue['asset']=='LP-GFX-036':cue['asset']='LP-EDITOR-LEVEL-DIFFERENCE-01'
   if cue['beat']=='LP-B052' and cue['asset']=='LP-GFX-036':cue['asset']='LP-GFX-037'
 
 timeline=json.loads((project/'public/timeline.json').read_text())
@@ -61,11 +62,11 @@ for base in range(0,len(samples),12):
   page.paste(im,(left+7,top+26))
   draw.text((left+7,top+5),str(x['at_sec'])+'s | '+x['beat']+' '+x['asset']+' detail '+str(x['step']),fill='#F3EBDD')
  page.save(out/('D2_SEMANTIC_FOCUS_SHEET_%02d.jpg'%(base//12+1)),quality=86)
-report={'scope':'Actual original-quality completed HIA D1 full master: all intentional authored semantic picture cues sampled',
+report={'scope':'Actual original-quality completed HIA D2 repaired full master: all intentional authored semantic picture cues sampled',
         'semantic_story_cues':len(plan['semanticAttention']),
         'actual_semantic_frames_sampled':len(samples),'hero_micro_breath_cues':len(breaths),
         'hero_timing_pairs':breaths,
-        'source_no_new_images':True,'individual_cues':samples,
+        'new_visuals':{'editor_native_qualified_concept':1,'paid_generated':0},'individual_cues':samples,
         'notes':'Actual rendered frame evidence only. Cannot automatically certify creative quality, archive authenticity, or causal clarity.'}
 (out/'D2_ACTUAL_ACCENT_QC.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps({'semantic_cues':report['semantic_story_cues'],
