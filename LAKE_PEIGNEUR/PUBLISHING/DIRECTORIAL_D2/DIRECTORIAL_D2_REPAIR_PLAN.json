@@ -1,7 +1,7 @@
 {
   "title": "Lake Peigneur D2 — factual context and semantic emphasis repair of existing director D1",
   "supersedes_for_review": "D1 only after new full MP4 QC and owner review; D1 immutable",
-  "editorial_reason": "Repair actual V2/D1 visual context rejects without recycling the 13 inaccurate V2 overlaid slogans. One factual native concept graphic corrects the fictional locks at 08:57.",
+  "editorial_reason": "Replace four misleading source exposures from actual D1/V2 QC: industrial false-shore, shipping locks over lake-level drop, wrong waterfall-lock framing, and six-versus-eight pipeline geometry; never carry over V2 slogan overlays.",
   "swaps": [
     {
       "beat": "LP-B033",
@@ -23,6 +23,13 @@
       "new": "LP-GFX-037",
       "kind": "gfx",
       "why": "Remove fictional navigation-lock rendering from roughly-150ft waterfall account; show existing depth/cross-section diagram already qualified as conceptual, not historical source."
+    },
+    {
+      "beat": "LP-B078",
+      "old": "LP-GFX-053",
+      "new": "LP-EDITOR-PIPELINE-EIGHT-01",
+      "kind": "gfx",
+      "why": "Original source said 8 pipelines but drew only 6 connections. Replace with precisely eight discrete numbered spokes and label ILLUSTRATIVE NETWORK, NOT A GEOGRAPHIC PIPELINE MAP."
     }
   ],
   "change_motion": {
@@ -37,10 +44,10 @@
     "Original Arthur AAC unchanged",
     "Original approved endscreen unchanged",
     "Original 87 beats and 141 source slots",
-    "All photographs remain approved existing sources; one editor-native clearly labeled CONCEPT diagram is permitted. No paid image/video/TTS generation.",
+    "All real photographs remain existing licensed sources; two plainly labeled editor-native explanatory concepts correct objectively false graphics. No paid generation.",
     "Max source appearances 2",
     "Chicago R15 transitions with 11 motivated action hard-cuts",
     "No black shapes/rings/animated arrows/lateral pans"
   ],
-  "qc": "Three targeted source/context repairs (shoreline, canal level differential, waterfall visual); keep D1 16 original-data attention cues, six 0.9%-max hero breaths and 11 hard cuts; verify actual completed MP4. Creative PASS stays open."
+  "qc": "Four targeted contextual replacements plus canonical D1 16 semantic source emphases, six <=0.9% hero breaths and 11 action hard cuts. Two new editor-native clearly labeled CONCEPT graphics; no paid generation. Verify all from completed MP4."
 }
