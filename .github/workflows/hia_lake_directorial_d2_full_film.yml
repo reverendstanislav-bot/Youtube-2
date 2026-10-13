@@ -80,7 +80,17 @@ jobs:
           python3 LAKE_PEIGNEUR/PUBLISHING/CANON_R15/HOLD12/apply_holds_picture.py --project "$LP_PROJECT"
           python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT" --dry-run --report "$GITHUB_WORKSPACE/output/D1_DIRECTORIAL_PREFLIGHT.json"
           python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/build_editor_level_concept.py --project "$LP_PROJECT"
           python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/apply_directorial_d2.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/D2_DIRECTORIAL_SOURCE_QC.json"
+          python3 - <<'PY'
+          import json,pathlib,os
+          d=json.load(open('output/D2_DIRECTORIAL_SOURCE_QC.json'))
+          assert len(d['changed_sources'])==3 and d['source_reuse_max']<=2
+          assert d['story_beats']==87 and d['picture_slots']==141
+          a=pathlib.Path(os.environ['LP_PROJECT'])/'public/assets/LP-EDITOR-LEVEL-DIFFERENCE-01.png'
+          assert a.is_file() and a.stat().st_size>20000
+          print('FACTUAL D2 PREFLIGHT: 3 shot repairs, 1 source-labeled native concept, no overuse')
+          PY
           python3 - <<'PY'
           import json,pathlib
           p=pathlib.Path('output/D1_DIRECTORIAL_PREFLIGHT.json')
@@ -135,7 +145,7 @@ jobs:
             echo "Refusing to overwrite an existing master. No automatic duplicate renders."
             exit 1
           fi
-          gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title 'Lake Peigneur — HIA DIRECTORIAL D2 Story/Motion Repair 1080p25 (owner review HOLD)' --notes 'Complete original 87-beat film and existing 30 Arthur-aligned cuts under canonical Chicago R15 picture rules, original Arthur and original endscreen, no new images/voice; not YouTube public.' --prerelease
+          gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title 'Lake Peigneur — HIA DIRECTORIAL D2 Story/Motion Repair 1080p25 (owner review HOLD)' --notes 'Original 87-beat Arthur film; Chicago R15 picture canon. Three fact-matched context repairs include one editor-native NOT TO SCALE lake/canal graphic. No generated footage or TTS. Publication HOLD pending owner editorial review.' --prerelease
           gh release upload "$TAG" "output/$MASTER" output/MASTER_SHA256.txt -R "$GITHUB_REPOSITORY"
           gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets > output/MASTER_CHECKPOINT_ASSETS.json
           python3 - <<'PY'
@@ -179,6 +189,8 @@ jobs:
           cp output/D1_DIRECTORIAL_PREFLIGHT.json output/editorial_source/
           cp output/D2_DIRECTORIAL_SOURCE_QC.json output/editorial_source/
           cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/DIRECTORIAL_D2_REPAIR_PLAN.json output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/build_editor_level_concept.py output/editorial_source/
+          cp "$LP_PROJECT/public/assets/LP-EDITOR-LEVEL-DIFFERENCE-01.png" output/editorial_source/
           cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/DIRECTORIAL_REEDIT_PLAN.json output/editorial_source/
           cp "$LP_PROJECT/src/index.jsx" output/editorial_source/FINAL_DIRECTORIAL_D1_COMPOSITOR.jsx
           cp LAKE_PEIGNEUR/PUBLISHING/CANON_R15/LONG_HOLD_REPAIR_12.json output/editorial_source/
@@ -196,7 +208,7 @@ jobs:
           s+='- CHICAGO R15 CANON: six-frame centered full-frame dissolves, same-asset continuous groups, no side travel or artificial zoom.\\n'
           s+='- Twelve original overlong holds remain repaired at Arthur speech onsets.\n'
           s+='- D1 DIRECTORIAL: 5 mismatched pictures corrected; 16 guided original-detail reveals; 6 restrained 0.36 percent breaths; 11 chosen hard cuts at action turns. No new media.\n'
-          s+='- D2 DIRECTORIAL: replaced 3 historically inappropriate source visuals, increased 16 semantic local area cues for phone legibility and six 0.9% hero breaths. No V2 typography clutter.\\n'
+          s+='- D2 DIRECTORIAL: three source-context repairs, one clearly labeled native water-level concept, 16 semantic focus cues, and six restrained 0.9% hero breaths. No V2 typography clutter.\\n'
           s+='- Crossfade darkening corrected by fully opaque outgoing source beneath incoming picture; no two translucent pictures over black.\n'
           s+='- D1 art-direction evidence included for each staged original diagram in QC zip; user creative judgment still OPEN.\n'
           s+='- Actual full-film source shot index and all-shot contact sheets included in FULL_EDITORIAL_TECHNICAL_QC.zip.\\n'
