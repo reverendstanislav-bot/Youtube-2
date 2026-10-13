@@ -1,7 +1,7 @@
 {
   "title": "Lake Peigneur D2 — factual context and semantic emphasis repair of existing director D1",
   "supersedes_for_review": "D1 only after new full MP4 QC and owner review; D1 immutable",
-  "editorial_reason": "V2 actual-MP4 spot review showed tiny duplicative typography, misleading canal lock/waterfall comparison and generic refinery views; do not combine 13 V2 headline overlays into D1.",
+  "editorial_reason": "Repair actual V2/D1 visual context rejects without recycling the 13 inaccurate V2 overlaid slogans. One factual native concept graphic corrects the fictional locks at 08:57.",
   "swaps": [
     {
       "beat": "LP-B033",
@@ -9,6 +9,13 @@
       "new": "LP-REC-031",
       "kind": "reconstruction",
       "why": "Replace distant industrial excavator/refinery view with already approved nearer shore-collapse reconstruction for Arthur's 'edge of the lake was collapsing'; contextual reconstruction, NOT verified 1980 footage."
+    },
+    {
+      "beat": "LP-B048",
+      "old": "LP-GFX-036",
+      "new": "LP-EDITOR-LEVEL-DIFFERENCE-01",
+      "kind": "gfx",
+      "why": "Replace visually false shipping-lock/ship diagram with an editor-native qualitative lake-versus-canal water-level schematic, plainly labeled NOT TO SCALE. No claim of surveyed elevations or a verified canal route."
     },
     {
       "beat": "LP-B052",
@@ -30,19 +37,10 @@
     "Original Arthur AAC unchanged",
     "Original approved endscreen unchanged",
     "Original 87 beats and 141 source slots",
-    "All shots are existing approved licensed assets; no generation or new media",
+    "All photographs remain approved existing sources; one editor-native clearly labeled CONCEPT diagram is permitted. No paid image/video/TTS generation.",
     "Max source appearances 2",
     "Chicago R15 transitions with 11 motivated action hard-cuts",
     "No black shapes/rings/animated arrows/lateral pans"
   ],
-  "qc": "42 source cut positions / 16 semantic focus cues / 6 0.9%-max scene breaths / 11 hard cuts; all measured from actual finished MP4, no owner creative pass implied",
-  "editorial_hold": {
-    "beat": "LP-B048",
-    "range_sec": [
-      536.84,
-      542.48
-    ],
-    "reason": "The existing schematic resembles fabricated navigation locks. Two-exposure source limit blocks further reuse of grounded alternatives; do not mislabel as real canal footage.",
-    "action_required": "Owner/editor-selected new licensed source or editor-native historically accurate graphic before publication."
-  }
+  "qc": "Three targeted source/context repairs (shoreline, canal level differential, waterfall visual); keep D1 16 original-data attention cues, six 0.9%-max hero breaths and 11 hard cuts; verify actual completed MP4. Creative PASS stays open."
 }
