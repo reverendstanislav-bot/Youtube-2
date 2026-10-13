@@ -1,0 +1,267 @@
+name: HIA Lake Peigneur — D3 Canon Full Film Factual Repair and Captions
+# Selected free source exposures are REC-031, REC-045 and GFX-037; no new media.
+# Source exposure inventory repaired: B068 uses the available federal-evidence GFX-018 asset.
+# Uses corrected source-aware film compositor and unchanged 87-beat source timeline.
+on:
+  push:
+    paths:
+      - '.github/workflows/hia_lake_directorial_d3_canon_master.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  complete-film:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: hia-lake-peigneur-directorial-d3-canon-20261013
+      MASTER: HIA_LAKE_PEIGNEUR_DIRECTORIAL_D3_CANON_MASTER_1080P25.mp4
+      PATCH_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/1bbbe958-3f59-47b2-8a3b-436292440ff6.zip
+      PATCH_SHA: 58a62008e3e901cdaaeda815793e22578f7ef1d9f21c99b1d7633f548bdb6418
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install established Remotion render dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg poppler-utils python3-pil
+      - name: Recover original locked project, original PNGs, untouched Arthur and approved endscreen
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p work/parts work/source work/patch work/archive_download work/archive output
+          gh release download hia-lake-peigneur-source-recovery-20261010 -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_SOURCE_PART_*.zip' --dir work/parts
+          echo 'f844e983727383d7fc8bc382d85ec1f6c5e34eb042b57e7b2e3de4a829b45c11  work/parts/HIA_LAKE_SOURCE_PART_001.zip' | sha256sum -c -
+          echo '9053ac049e6fe979934f0f5a03f8b01c9fc33b0402f88843ce27ddce60b65dfb  work/parts/HIA_LAKE_SOURCE_PART_002.zip' | sha256sum -c -
+          echo 'e246f7b522d9875725ce008928108e1acab9310b2f1bcf4aaf371d30584c5700  work/parts/HIA_LAKE_SOURCE_PART_003.zip' | sha256sum -c -
+          for z in work/parts/*.zip; do unzip -oq "$z" -d work/source; done
+          P="$GITHUB_WORKSPACE/work/source/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/01_EDIT_PROJECT/project_files/Youtube-2/LAKE_PEIGNEUR/REMOTION_V1"
+          S="$GITHUB_WORKSPACE/work/source/HIA_LAKE_PEIGNEUR_FULL_SOURCE_RECOVERY/02_FINAL_VISUALS"
+          test -f "$P/src/index.jsx"
+          mkdir -p "$P/public/assets"
+          find "$S/GFX" "$S/RECONSTRUCTION" -name '*.png' -type f -exec cp -n {} "$P/public/assets/" \;
+          curl -fLsS --retry 3 "$PATCH_URL" -o work/patch.zip
+          echo "$PATCH_SHA  work/patch.zip" | sha256sum -c -
+          unzip -oq work/patch.zip -d work/patch
+          cp work/patch/timeline.json "$P/public/timeline.json"
+          cp work/patch/index.jsx "$P/src/index.jsx"
+          cp work/patch/approved_first_end_1080.png "$P/public/approved_first_end_1080.png"
+          echo "LP_PROJECT=$P" >> "$GITHUB_ENV"
+      - name: Restore already approved USGS map originals and untouched V6 Arthur soundtrack
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run download 36176288181 -R "$GITHUB_REPOSITORY" -n LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1 -D work/archive_download
+          while IFS= read -r -d '' z; do unzip -qo "$z" -d work/archive; done < <(find work/archive_download -type f -name '*.zip' -print0)
+          test -f work/archive/LAKE_PEIGNEUR_ARCHIVE_SOURCE_PACK_V1/04_USGS_HISTORICAL_MAPS_PD/USGS_Delcambre_1963_24000_GeoPDF.pdf
+          gh release download hia-lake-peigneur-v6-no-rings-20261011 -R "$GITHUB_REPOSITORY" --pattern 'HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4' --dir output
+          echo '6fe4464fa04d578bcb896ab4bd5abed5c4789ddc93f4e2b981885cd445f12fb5  output/HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4' | sha256sum -c -
+      - name: Apply existing 30 Arthur-word-locked cuts and Chicago R15 canonical compositing
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/IMPLEMENTATION/apply_v4_to_v3.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/ACCENT_V4/REPAIR_V5/apply_v5_replacements.py --project "$LP_PROJECT" --archive "$GITHUB_WORKSPACE/work/archive" --output "$GITHUB_WORKSPACE/output"
+          python3 LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/apply_script_locked_cuts.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/FIRST_7_CUTS_SOURCE.json"
+          python3 LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/apply_full_story_cuts.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/FULL_30_CUTS_SOURCE.json"
+          python3 LAKE_PEIGNEUR/PUBLISHING/CANON_R15/apply_12_long_hold_repairs.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/HOLD12_CUTS_FRAME_LOCK.json"
+          python3 - <<'PY'
+          import json
+          x=json.load(open('output/HOLD12_CUTS_FRAME_LOCK.json'))
+          assert x['repaired_picture_slots']==141 and x['repaired_too_long_count']==0 and x['source_max_reuse']<=2
+          assert len(x['cuts'])==12
+          print('12 static holds repaired with 12 source-locked Arthur onset cuts and zero source over-reuse')
+          PY
+          python3 LAKE_PEIGNEUR/PUBLISHING/CANON_R15/HOLD12/apply_holds_picture.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT" --dry-run --report "$GITHUB_WORKSPACE/output/D1_DIRECTORIAL_PREFLIGHT.json"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/apply_directorial_reedit.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/build_editor_level_concept.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/build_pipeline_connections.py --project "$LP_PROJECT"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/apply_directorial_d2.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/D2_DIRECTORIAL_SOURCE_QC.json"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/install_hia_captions.py --project "$LP_PROJECT" --report "$GITHUB_WORKSPACE/output/HIA_CAPTION_WORD_LOCK.json"
+          python3 - <<'PY'
+          import json,pathlib,os
+          d=json.load(open('output/D2_DIRECTORIAL_SOURCE_QC.json'))
+          assert len(d['changed_sources'])==4 and d['source_reuse_max']<=2
+          assert d['story_beats']==87 and d['picture_slots']==141
+          a=pathlib.Path(os.environ['LP_PROJECT'])/'public/assets/LP-EDITOR-LEVEL-DIFFERENCE-01.png'
+          assert a.is_file() and a.stat().st_size>20000
+          b=pathlib.Path(os.environ['LP_PROJECT'])/'public/assets/LP-EDITOR-PIPELINE-EIGHT-01.png'
+          assert b.is_file() and b.stat().st_size>20000
+          c=json.load(open('output/HIA_CAPTION_WORD_LOCK.json'))
+          assert c['words']>1500 and c['caption_cues']>200 and c['stop_at_frame']==24211
+          print('FACTUAL D2 PREFLIGHT: 4 shot repairs, 2 labeled native diagrams and original-Arthur subtitles, no overuse')
+          PY
+          python3 - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('output/D1_DIRECTORIAL_PREFLIGHT.json')
+          d=json.loads(p.read_text())
+          assert len(d['asset_swaps'])==5 and len(d['semantic_detail_emphasis'])==16
+          assert len(d['hero_breath'])==6 and len(d['hard_cut_frames'])==11
+          assert d['max_source_reuse']<=2
+          print('HIA DIRECTORIAL EDIT LOCK: 5 picture repairs / 16 factual GFX cues / 6 hero breaths / 11 motivated hard cuts')
+          PY
+          python3 - <<'PY'
+          import os,json,pathlib
+          p=pathlib.Path(os.environ['LP_PROJECT'])
+          t=json.loads((p/'public/timeline.json').read_text())
+          assert len(t['beats'])==87 and sum(len(b['slots']) for b in t['beats'])==141
+          a=json.load(open('output/FULL_30_CUTS_SOURCE.json'))
+          assert a['total_new_meaningful_source_cuts']==30 and a['source_max_reuse']<=2
+          c=(p/'src/index.jsx').read_text()
+          assert not any(x in c for x in ('V4Overlay','V4Picture','V7Retention','V7Focus','V8Cutaways','v7Motion'))
+          print('CANONICAL FULL SCRIPT-LOCK 30 PICTURE CUTS READY; 87 beats; untouched audio and endscreen')
+          PY
+          cd "$LP_PROJECT"
+          npm install --ignore-scripts --no-audit --no-fund --prefer-offline
+          npx remotion compositions src/index.jsx
+      - name: Render ONE entire 24711-frame 1920x1080p25 canonical Remotion master
+        shell: bash
+        timeout-minutes: 145
+        run: |
+          set -euo pipefail
+          cd "$LP_PROJECT"
+          npx remotion render src/index.jsx LakePeigneurV1 "$GITHUB_WORKSPACE/output/FULL_SCRIPT_EDIT_PICTURE.mp4" --codec=h264 --crf=15 --pixel-format=yuv420p --concurrency=3 --muted --log=error
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,nb_frames,r_frame_rate -of json "$GITHUB_WORKSPACE/output/FULL_SCRIPT_EDIT_PICTURE.mp4"
+      - name: Preserve Arthur AAC packets byte-identically; no voice recompression
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -hide_banner -loglevel error -y \
+            -i output/FULL_SCRIPT_EDIT_PICTURE.mp4 \
+            -i output/HIA_LAKE_PEIGNEUR_V6_NO_RINGS_MASTER_1920x1080_25FPS.mp4 \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy -c:a copy \
+            -bsf:v 'h264_metadata=video_full_range_flag=0:colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1' \
+            -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
+            -t 988.44 -movflags +faststart \
+            "output/$MASTER"
+          test -s "output/$MASTER"
+      - name: SAVE ACTUAL FULL MASTER IMMEDIATELY, never lose completed render to downstream QC
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum "output/$MASTER" > output/MASTER_SHA256.txt
+          if gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Refusing to overwrite an existing master. No automatic duplicate renders."
+            exit 1
+          fi
+          gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title 'Lake Peigneur — HIA DIRECTORIAL D2 Story/Motion Repair 1080p25 (owner review HOLD)' --notes 'Original 87-beat Arthur film; Chicago R15 picture canon. Three fact-matched context repairs include one editor-native NOT TO SCALE lake/canal graphic. No generated footage or TTS; Arthur audio is immutable. Publication HOLD pending owner editorial review.' --prerelease
+          gh release upload "$TAG" "output/$MASTER" output/MASTER_SHA256.txt -R "$GITHUB_REPOSITORY"
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets > output/MASTER_CHECKPOINT_ASSETS.json
+          python3 - <<'PY'
+          import os,pathlib,json
+          m=pathlib.Path('output')/os.environ['MASTER']
+          a={x['name']:x['size'] for x in json.load(open('output/MASTER_CHECKPOINT_ASSETS.json'))['assets']}
+          assert a.get(m.name)==m.stat().st_size
+          print('FULL UNTOUCHED ORIGINAL MASTER CHECKPOINTED',m.name,m.stat().st_size)
+          PY
+      - name: Check actual completed full MP4 integrity, source edit cuts, audio and approved end screen
+        timeout-minutes: 35
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/qc_d3_master.py "$LP_PROJECT"
+          test -s output/final_qc/TECHNICAL_REPORT.json
+      - name: Editorial audit of every distinct picture in completed full film
+        timeout-minutes: 65
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/audit_directorial_master.py "$LP_PROJECT" "output/$MASTER"
+          test -s output/final_qc/canon/CANON_EDITORIAL_SHOT_AUDIT.json
+          test -s output/final_qc/canon/CANON_EDITORIAL_SCENE_INDEX.json
+      - name: Verify all 16 authored source-semantic emphasis scenes in actual full MP4
+        timeout-minutes: 30
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/qc_directorial_accent_frames.py "$LP_PROJECT" "output/$MASTER"
+          python3 LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/qc_actual_hia_captions.py "$LP_PROJECT" "output/$MASTER"
+          test -s output/final_qc/captions/HIA_CAPTIONS_QC.json
+          test -s output/final_qc/directorial/D2_ACTUAL_ACCENT_QC.json
+      - name: Attach completed edit source manifest and verifiable technical QC
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p output/editorial_source
+          cp "$LP_PROJECT/public/timeline.json" output/editorial_source/FINAL_LOCKED_TIMELINE_141_SLOTS.json
+          cp "$LP_PROJECT/src/index.jsx" output/editorial_source/FINAL_LOCKED_REMOTION_INDEX.jsx
+          cp output/FIRST_7_CUTS_SOURCE.json output/FULL_30_CUTS_SOURCE.json output/editorial_source/
+          cp output/HOLD12_CUTS_FRAME_LOCK.json output/editorial_source/
+          cp output/D1_DIRECTORIAL_PREFLIGHT.json output/editorial_source/
+          cp output/D2_DIRECTORIAL_SOURCE_QC.json output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/DIRECTORIAL_D2_REPAIR_PLAN.json output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/build_editor_level_concept.py output/editorial_source/
+          cp "$LP_PROJECT/public/assets/LP-EDITOR-LEVEL-DIFFERENCE-01.png" output/editorial_source/
+          cp "$LP_PROJECT/public/assets/LP-EDITOR-PIPELINE-EIGHT-01.png" output/editorial_source/
+          cp "$LP_PROJECT/public/HIA_ARTHUR_CAPTIONS_LOCKED.json" output/editorial_source/
+          cp output/HIA_CAPTION_WORD_LOCK.json output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/build_pipeline_connections.py output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D2/install_hia_captions.py output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/DIRECTORIAL_D1/DIRECTORIAL_REEDIT_PLAN.json output/editorial_source/
+          cp "$LP_PROJECT/src/index.jsx" output/editorial_source/FINAL_DIRECTORIAL_D1_COMPOSITOR.jsx
+          cp LAKE_PEIGNEUR/PUBLISHING/CANON_R15/LONG_HOLD_REPAIR_12.json output/editorial_source/
+          cp LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/FIRST_180S_SCRIPT_LOCK.json LAKE_PEIGNEUR/PUBLISHING/EDITORIAL_CUT/FULL_STORY_SOURCE_CUT_PLAN.json output/editorial_source/
+          (cd output/editorial_source && zip -q -9 -r ../FULL_EDITORIAL_SOURCE_MANIFEST.zip .)
+          (cd output/final_qc && zip -q -9 -r ../FULL_EDITORIAL_TECHNICAL_QC.zip TECHNICAL_REPORT.json CUT_FRAME_MANIFEST.json ACTUAL_MASTER_30_CUTS_*.jpg FULL_DECODE.log BLACK_EVENTS.log ARTHUR_SILENCE_EVENTS.log canon directorial captions)
+          python3 - <<'PY'
+          import json,pathlib
+          d=json.loads(pathlib.Path('output/final_qc/TECHNICAL_REPORT.json').read_text())
+          s='# Lake Peigneur — Full Documentary Master: Technical QC\n\n'
+          s+='- Complete 16:28.44 film / 24711 frames, H264 High 1080p25 BT709.\n'
+          s+='- Exact same Arthur AAC bitstream, original approved Chicago first-film end screen. Canonical white/orange word-following captions burned into video; no captions on end screen.\n'
+          s+='- Original 30 + previous 12 timed repairs preserved; D1 adds no random cuts; 87 beats, 141 picture slots, max source reuse 2.\n'
+          s+='- NO editorial-only zooms, fades-to-dark, rings, rotating paths, or V7 overlays.\n'
+          s+='- CHICAGO R15 CANON: six-frame centered full-frame dissolves, same-asset continuous groups, no side travel or artificial zoom.\\n'
+          s+='- Twelve original overlong holds remain repaired at Arthur speech onsets.\n'
+          s+='- D1 DIRECTORIAL: 5 mismatched pictures corrected; 16 guided original-detail reveals; 6 restrained 0.36 percent breaths; 11 chosen hard cuts at action turns. No new media.\n'
+          s+='- D2 DIRECTORIAL: four source-context repairs, two clearly labeled native water-level and 8-pipeline concepts, 16 semantic focus cues, and six restrained 0.9% hero breaths. No V2 typography clutter.\\n'
+          s+='- Crossfade darkening corrected by fully opaque outgoing source beneath incoming picture; no two translucent pictures over black.\n'
+          s+='- D1 art-direction evidence included for each staged original diagram in QC zip; user creative judgment still OPEN.\n'
+          s+='- Actual full-film source shot index and all-shot contact sheets included in FULL_EDITORIAL_TECHNICAL_QC.zip.\\n'
+          s+='- Full audio/video decode PASS; no >=400ms black frames; audio endscreen quiet as approved.\n'
+          s+='- Film master SHA256: '+d['sha256']+'\n'
+          s+='- Remaining: full director/owner editorial watch, Shorts consistency and private YouTube transcode before publication.\n'
+          s+='\nPublication status: HOLD — this is the completed edited film file, NOT a claim of owner creative approval.\n'
+          pathlib.Path('output/FULL_EDITORIAL_MASTER_QC_REPORT.md').write_text(s)
+          PY
+          (cd output && sha256sum "$MASTER" FULL_EDITORIAL_SOURCE_MANIFEST.zip FULL_EDITORIAL_TECHNICAL_QC.zip > DELIVERY_SHA256SUMS.txt)
+          gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file output/FULL_EDITORIAL_MASTER_QC_REPORT.md --prerelease
+          gh release upload "$TAG" output/FULL_EDITORIAL_SOURCE_MANIFEST.zip output/FULL_EDITORIAL_TECHNICAL_QC.zip output/FULL_EDITORIAL_MASTER_QC_REPORT.md output/DELIVERY_SHA256SUMS.txt -R "$GITHUB_REPOSITORY"
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets > output/FINAL_RELEASE_ASSETS.json
+          python3 - <<'PY'
+          import json,pathlib,os
+          a={x['name']:x['size'] for x in json.load(open('output/FINAL_RELEASE_ASSETS.json'))['assets']}
+          for p in [pathlib.Path('output')/os.environ['MASTER']]+[pathlib.Path('output')/s for s in ('FULL_EDITORIAL_SOURCE_MANIFEST.zip','FULL_EDITORIAL_TECHNICAL_QC.zip','FULL_EDITORIAL_MASTER_QC_REPORT.md','DELIVERY_SHA256SUMS.txt')]:
+            assert a.get(p.name)==p.stat().st_size,(p.name,a.get(p.name),p.stat().st_size)
+          print('ALL REAL REMOTE RELEASE ASSETS VERIFIED BY EXACT BYTES')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_LAKE_DIRECTORIAL_D3_CANON_FULL_FILM_QC
+          path: |
+            output/final_qc/*.json
+            output/final_qc/*.log
+            output/final_qc/ACTUAL_MASTER_30_CUTS_*.jpg
+            output/final_qc/canon/*.json
+            output/final_qc/canon/CANON_FULL_FILM_SHOT_SHEET_*.jpg
+            output/MASTER_SHA256.txt
+            output/FULL_EDITORIAL_MASTER_QC_REPORT.md
+            output/FULL_30_CUTS_SOURCE.json
+            output/HOLD12_CUTS_FRAME_LOCK.json
+            output/D1_DIRECTORIAL_PREFLIGHT.json
+            output/D2_DIRECTORIAL_SOURCE_QC.json
+            output/final_qc/directorial/*.json
+            output/final_qc/directorial/D2_SEMANTIC_FOCUS_SHEET_*.jpg
+            output/final_qc/captions/HIA_CAPTIONS_QC.json
+            output/final_qc/captions/CAPTIONS_ACTUAL_MP4_12_SAMPLES.jpg
+            output/HIA_CAPTION_WORD_LOCK.json
+            output/FINAL_RELEASE_ASSETS.json
+          retention-days: 14
