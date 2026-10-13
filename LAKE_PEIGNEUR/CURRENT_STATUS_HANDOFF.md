@@ -1,3 +1,15 @@
+> **LATEST 2026-10-13 — OWNER NO-SUBTITLES LOCK OVERRIDES HISTORICAL CAPTIONED D3.** The owner authority file `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md` prohibits burned or uploaded spoken-dialogue captions for all HIA content. The captioned D3 technically passed its historical checks but is **REJECT FOR UPLOAD** because it includes dialogue captions. The captioned D3 and caption-contrast rerelease must NOT be used as public masters.
+>
+> **CURRENT CLEAN D3:** Full 1920×1080/25fps 24,711-frame owner-lock caption-free Remotion render is in progress under GitHub Actions [38448947690](https://github.com/reverendstanislav-bot/Youtube-2/actions/runs/38448947690), release target `hia-lake-peigneur-directorial-d3-clean-no-subtitles-20261013`. A separate [QC-only runner 38449713980](https://github.com/reverendstanislav-bot/Youtube-2/actions/runs/38449713980) checks the exact finished master without duplicate video rendering. **CLEAN MASTER TECHNICAL PASS / PIXEL QC: PENDING actual finished binary. READY_FOR_PUBLIC: NO.** No paid generation; Arthur and first-episode end screen are unchanged in the editing plan.
+>
+> **FOUR SHORTS:** Existing four caption-free Shorts verified 4/4 on physical MP4 SHA256, full decode, 1080×1920/25fps and 36 actual extracted stills; see `PUBLISHING/SHORTS_OWNER_LOCK_PHYSICAL_QC_2026-10-13.md`. Shorts technical/sample visual QC PASS; final owner playback still open.
+>
+> **CONDITIONAL RECONSTRUCTION SOURCE AUDIT:** The six previously noted IDs LP-REC-005/008/010/012/038/041 do not occur in the 142-source-group D3 physical scene index. Any broader rights/content review and Unlisted YouTube transcode review remain separate publication gates.
+>
+> Below are superseded V4/V3 production notes, retained for audit history only.
+>
+---
+
 > **LATEST 2026-10-11: V4 REMOTION MASTER IS PHYSICALLY RENDERED AND UPLOADED.** GitHub Actions `38139155486` SUCCESS, 24,711 frames, full A/V decode PASS, preview ZIP and master release linked below. **Owner visual approval, six conditional assets/provenance, title/thumb, Shorts QC and YouTube Unlisted remain OPEN — PUBLIC NOT READY.** Canonical report: `PUBLISHING/V4_TECHNICAL_RENDER_VERIFIED_2026-10-11.md`. Earlier V3 "current" statements below are historical.
 
 # V4 EDITORIAL ACCENTS — LIVE PRODUCTION STATUS (2026-10-11)
