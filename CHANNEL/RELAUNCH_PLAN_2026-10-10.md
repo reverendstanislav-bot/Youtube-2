@@ -2,7 +2,7 @@
 
 # HIDDEN INDUSTRIAL AMERICA — RELAUNCH PLAN
 
-Updated: 2026-10-10
+Updated: 2026-10-14 (owner-selected Satsop as second episode)
 Status: ACTIVE
 Reason: original Google account is inaccessible through account recovery; no content-policy violation or YouTube termination is known. The HIA channel disappeared from public access. Relaunch work proceeds on a new channel without deleting the old account/channel.
 
@@ -35,15 +35,15 @@ Interpretation:
 Do not restart with Chicago.
 
 1. Lake Peigneur
-2. Big Muskie
-3. Satsop
+2. Satsop
+3. Big Muskie
 4. TC-497
 5. Chicago
 
 Rationale:
 - Lake Peigneur has the clearest instant high-concept event;
-- Big Muskie has the strongest immediate scale visual;
-- Satsop has a strong numerical contradiction;
+- Satsop follows the opening industrial disaster with a broader money/energy paradox: more than $2 billion spent, no nuclear power generated;
+- Big Muskie is third and changes the format to giant-machine scale;
 - TC-497 has a strong engineering oddity;
 - Chicago is valuable but requires more explanation and its first launch produced weak early signals.
 

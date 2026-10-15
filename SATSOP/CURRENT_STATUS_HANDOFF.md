@@ -1,5 +1,8 @@
 # SATSOP — CURRENT STATUS / HANDOFF
 
+> **RELAUNCH PACKAGING LOCK 2026-10-14:** The owner selected Satsop as the **second public release** (after Lake Peigneur) with the exact title **They Spent $2 Billion on a Nuclear Plant. It Never Made Power.**. Existing thumbnail `SATSOP_THUMBNAIL_FINAL.png` and **74% BUILT. / NEVER USED.** remain unchanged. This packaging approval does NOT override `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`; verify the actual upload MP4 is dialogue-caption-free before Unlisted/public. Do not change production episode ID 04 or master content. Publication has not been performed.
+
+
 Updated: 2026-10-01
 
 ## CANONICAL STATUS

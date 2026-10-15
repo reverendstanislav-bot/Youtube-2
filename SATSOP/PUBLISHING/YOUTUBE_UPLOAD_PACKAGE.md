@@ -16,7 +16,7 @@ Status: **READY FOR PUBLICATION — OWNER/CODEX FINAL**
 
 **Title**
 
-Why a 74%-Complete Nuclear Plant Was Still Too Expensive to Finish
+They Spent $2 Billion on a Nuclear Plant. It Never Made Power.
 
 **Thumbnail text**
 

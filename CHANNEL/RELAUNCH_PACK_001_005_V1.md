@@ -2,7 +2,7 @@
 
 # HIA RELAUNCH PACK 001–005 — V1
 
-Updated: 2026-10-10
+Updated: 2026-10-14 (Satsop second + owner-selected title)
 Status: WORKING / NO PAID GENERATION APPROVED
 
 ## 01 RELAUNCH — Lake Peigneur
@@ -16,7 +16,32 @@ Status: WORKING / NO PAID GENERATION APPROVED
 - Remaining: 6 historical CONDITIONAL reconstruction visual approvals, owner title/thumbnail lock, human-ear pronunciation, provenance, Unlisted transcoding.
 - **REVIEW READY / PUBLIC NO-GO**.
 
-## 02 RELAUNCH — Big Muskie
+## 02 RELAUNCH — Satsop
+
+Primary launch title:
+**They Spent $2 Billion on a Nuclear Plant. It Never Made Power.**
+
+Title B:
+**They Built 74% of a Nuclear Plant — Then the Math Collapsed**
+
+Title C:
+**Why a 74%-Complete Nuclear Plant Was Still Too Expensive to Finish**
+
+Primary thumbnail:
+existing owner-final HIA thumbnail
+**74% BUILT. / NEVER USED.**
+
+Alternative concept B:
+single dominant unfinished Unit 3 cooling-tower world, visible incomplete industrial complex, small human/vehicle scale cue; no generic nuclear hazard icon; headline remains the numerical contradiction.
+
+Accuracy lock:
+74% refers specifically to WNP-3. The $2 billion title is supported by reporting dated July 8, 1983, which states that more than $2 billion had already been sunk into the Satsop plant. Neither WNP-3 nor WNP-5 entered nuclear power production.
+Source: https://www.washingtonpost.com/archive/business/1983/07/09/wppss-board-orders-unfinished-nuclear-plant-put-in-mothballs/f1c2bf6d-436b-423c-bc34-945f6b61cc5f/
+
+Launch role:
+second long-form.
+
+## 03 RELAUNCH — Big Muskie
 
 Primary launch title:
 **America Built a 27-Million-Pound Machine. Then Scrapped It.**
@@ -35,30 +60,6 @@ machine dominates the frame; human/vehicle scale reference.
 Alternative concept B:
 same single-world HIA grammar, but conflict becomes visible through preserved bucket / vanished machine contrast without a collage.
 Possible compact text: **THEN SCRAPPED**
-
-Launch role:
-second long-form.
-
-## 03 RELAUNCH — Satsop
-
-Primary launch title:
-**This Nuclear Plant Was 74% Complete. It Never Opened.**
-
-Title B:
-**They Built 74% of a Nuclear Plant — Then the Math Collapsed**
-
-Title C:
-**Why a 74%-Complete Nuclear Plant Was Still Too Expensive to Finish**
-
-Primary thumbnail:
-existing owner-final HIA thumbnail
-**74% BUILT. / NEVER USED.**
-
-Alternative concept B:
-single dominant unfinished Unit 3 cooling-tower world, visible incomplete industrial complex, small human/vehicle scale cue; no generic nuclear hazard icon; headline remains the numerical contradiction.
-
-Accuracy lock:
-74% refers specifically to WNP-3.
 
 Launch role:
 third long-form.
