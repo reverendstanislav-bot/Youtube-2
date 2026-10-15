@@ -1,7 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Composition, Img, interpolate, registerRoot, staticFile, useCurrentFrame} from 'remotion';
 import timeline from '../public/timeline.json';
-import captions from '../public/captions.json';
 import overlays from '../public/overlays.json';
 import motion from '../public/motion.json';
 
@@ -69,13 +68,6 @@ function Provenance({beat,frame}){
   return <div style={{position:'absolute',right:50,top:38,zIndex:40,opacity:op,fontFamily:'Arial,Helvetica,sans-serif',fontSize:23,fontWeight:850,letterSpacing:3,color:C.ivory,textShadow:'0 2px 8px #000'}}><span style={{display:'inline-block',width:40,height:5,background:C.rust,marginRight:13,verticalAlign:'middle'}}/>DOCUMENT</div>;
 }
 
-function Caption({frame}){
-  const t=frame/FPS,cue=captions.find(x=>t>=x.s&&t<=x.e+.08);
-  if(!cue)return null;
-  let active=-1;for(let i=0;i<cue.words.length;i++){const w=cue.words[i];if(t>=w.s&&t<=Math.max(w.e,w.s+.06)){active=i;break}}
-  return <div style={{position:'absolute',left:150,right:150,bottom:54,zIndex:70,textAlign:'center',fontFamily:'Arial,Helvetica,sans-serif',fontWeight:850,fontSize:55,lineHeight:1.12,color:C.paper,WebkitTextStroke:'1.2px rgba(8,10,11,.95)',textShadow:'0 4px 9px rgba(0,0,0,.98),0 0 21px rgba(0,0,0,.8)'}}>{cue.words.map((w,i)=><React.Fragment key={i}><span style={{color:i===active?C.orange:C.paper}}>{w.w}</span>{i<cue.words.length-1?' ':''}</React.Fragment>)}</div>;
-}
-
 function Picture({frame,beat}){
   const index=beatIndexById[beat.beat];
   const spec=motionByBeat[beat.beat]||{};
@@ -123,7 +115,7 @@ function Film(){
   const frame=useCurrentFrame(),beat=currentBeat(frame);
   return <AbsoluteFill style={{background:C.charcoal}}>
     {frame<CONTENT_END&&<>{beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<Picture beat={beat} frame={frame}/>}
-    <Provenance beat={beat} frame={frame}/><Cards frame={frame}/><Caption frame={frame}/></>}
+    <Provenance beat={beat} frame={frame}/><Cards frame={frame}/></>}
     <Audio src={staticFile('SATSOP_VO_MASTER_V1.wav')}/>
     <EndScreen frame={frame}/>
   </AbsoluteFill>;
