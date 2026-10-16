@@ -1,0 +1,61 @@
+name: 'HIA Satsop — Full Quality 109-Scene MP4 GitHub Release'
+on:
+  push:
+    paths:
+      - '.github/workflows/satsop_full_picture_cut_release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  full_picture_release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 115
+    env:
+      SATSOP_RENDER_WORK: "${{ runner.temp }}/satsop_render"
+      SATSOP_OUTPUT_MP4: "${{ runner.temp }}/satsop_render/SATSOP_109_SOURCE_SCENES_PICTURE_ONLY_1080P30_HQ.mp4"
+      SATSOP_INPUT_ASSETS: "${{ runner.temp }}/satsop_src/public/assets"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install render dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'Pillow>=11,<13'
+          ffmpeg -version | head -n 1
+          test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+      - name: Download 109 source images from existing GitHub Release
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p "$RUNNER_TEMP/satsop_src"
+          gh release download satsop-109-historical-frame-candidates-20261016 --pattern SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip --dir "$RUNNER_TEMP/satsop_src"
+          unzip -q "$RUNNER_TEMP/satsop_src/SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip" "public/assets/*" -d "$RUNNER_TEMP/satsop_src"
+          echo "Recovered physical images: $(find "$SATSOP_INPUT_ASSETS" -type f | wc -l)"
+          test "$(find "$SATSOP_INPUT_ASSETS" -maxdepth 1 -type f | wc -l)" = "109"
+      - name: Encode all 109 unique original scene candidates to one 1080p MP4
+        run: |
+          python -u SATSOP/RECOVERY/render_109_picture_cut_github_release.py
+      - name: Preserve complete MP4 in GitHub Release
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          TAG=satsop-full-109-scene-picture-only-hq-20261016
+          MP4="$SATSOP_OUTPUT_MP4"
+          QC="$SATSOP_RENDER_WORK/SATSOP_GITHUB_RELEASE_QC.json"
+          ls -lh "$MP4" "$QC"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$MP4" "$QC" --clobber
+          else
+            gh release create "$TAG" "$MP4" "$QC" --title "SATSOP — 109-source high-quality picture cut (NO AUDIO)" --prerelease --notes "Full-length 109-beat 1080p30 H.264 picture-only newly encoded from restored historical source photographs and factual HIA overlays. NOTE: NO original Arthur narration and NO original approved end screen; NOT ready for YouTube. This Github-rendered MP4 uses the same encoding recipe but is NOT represented as a byte-identical copy of the local 1.07 GB export. See attached QC JSON for exact SHA."
+          fi
+          gh release view "$TAG" --json url,assets -q '.url, (.assets[] | [.name,.size] | @tsv)'
+      - name: Save technical QC JSON even on publish failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: satsop-full-source-picture-cut-qc
+          path: |
+            ${{ runner.temp }}/satsop_render/SATSOP_GITHUB_RELEASE_QC.json
+          if-no-files-found: warn
+          retention-days: 14
