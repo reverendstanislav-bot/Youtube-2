@@ -1,3 +1,5 @@
+> **CORRECTION / OWNER VISUAL REJECT — 2026-10-15:** This export is REJECTED for gross visual repetition and absent original 109 image sources; no Arthur VO and no original end-screen. The previous full-decode PASS was technical-only, not a picture-quality PASS. OVERALL QC = FAIL. DO NOT PUBLISH or simply re-encode the 58 MB movie. Historical frame/job source records still exist in GitHub, but their image files have not been recovered and verified.
+
 # SATSOP — AVAILABLE MATERIAL PICTURE-ONLY CUT — PHYSICAL QC
 
 **Date:** 2026-10-16
