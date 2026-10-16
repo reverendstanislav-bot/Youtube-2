@@ -22,6 +22,8 @@ jobs:
       - name: Install render dependencies
         run: |
           python -m pip install --disable-pip-version-check 'Pillow>=11,<13'
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
           ffmpeg -version | head -n 1
           test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
       - name: Download 109 source images from existing GitHub Release
