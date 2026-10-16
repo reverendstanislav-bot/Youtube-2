@@ -3,6 +3,7 @@ import {AbsoluteFill, Audio, Composition, Img, interpolate, registerRoot, static
 import timeline from '../public/timeline.json';
 import overlays from '../public/overlays.json';
 import motion from '../public/motion.json';
+import {HiaEstablishingSlug,HiaEditorialPanel} from './HiaMotionCanon';
 
 const FPS=timeline.fps;
 const CONTENT_END=Math.round(timeline.duration*FPS);
@@ -23,17 +24,17 @@ function currentBeat(frame){
 function motionTransform(beat,frame){
   const p=smooth(interpolate(frame,[beat.a,Math.max(beat.a+1,beat.b-1)],[0,1],CLAMP));
   const style=(motionByBeat[beat.beat]||{}).style||'hold';
-  let scale=1.035,x=0,y=0,origin='50% 50%';
-  if(style==='push')scale=1.012+0.052*p;
-  if(style==='pull')scale=1.072-0.047*p;
-  if(style==='pan_left'){scale=1.085;x=1.45-2.9*p;}
-  if(style==='pan_right'){scale=1.085;x=-1.45+2.9*p;}
-  if(style==='tilt_up'){scale=1.075;y=1.35-2.7*p;}
-  if(style==='tilt_down'){scale=1.075;y=-1.35+2.7*p;}
-  if(style==='push_left'){scale=1.018+0.055*p;origin='30% 50%';x=.45-.45*p;}
-  if(style==='push_right'){scale=1.018+0.055*p;origin='70% 50%';x=-.45+.45*p;}
-  if(style==='hold_then_push'){const q=smooth(interpolate(p,[.38,1],[0,1],CLAMP));scale=1.025+0.042*q;}
-  return {style,transform:`translate(${x}%,${y}%) scale(${scale})`,origin};
+  let scale=1.007,x=0,y=0,origin='50% 50%';
+  if(style==='push')scale=1.005+.012*p;
+  if(style==='pull')scale=1.017-.012*p;
+  if(style==='pan_left'){scale=1.018;x=.20-.40*p;}
+  if(style==='pan_right'){scale=1.018;x=-.20+.40*p;}
+  if(style==='tilt_up'){scale=1.018;y=.20-.40*p;}
+  if(style==='tilt_down'){scale=1.018;y=-.20+.40*p;}
+  if(style==='push_left'){scale=1.005+.012*p;origin='30% 50%';}
+  if(style==='push_right'){scale=1.005+.012*p;origin='70% 50%';}
+  if(style==='hold_then_push'){const q=smooth(interpolate(p,[.4,1],[0,1],CLAMP));scale=1.007+.010*q;}
+  return {style,transform:'translate('+x+'%,'+y+'%) scale('+scale+')',origin};
 }
 
 function ImageBeat({beat,frame,opacity=1}){
@@ -83,24 +84,9 @@ function Picture({frame,beat}){
   return <ImageBeat beat={beat} frame={frame}/>;
 }
 
-function EditorialCard({card,frame}){
-  const t=frame/FPS,dur=card.e-card.s,local=t-card.s;
-  const op=Math.min(interpolate(local,[0,.22],[0,1],CLAMP),interpolate(local,[Math.max(.45,dur-.30),dur],[1,0],CLAMP));
-  const y=interpolate(local,[0,.28],[10,0],CLAMP);
-  const titleSize=card.title.length>28?54:(card.title.length>20?61:70);
-  return <div style={{position:'absolute',left:88,top:72,width:1120,zIndex:45,opacity:op,transform:`translateY(${y}px)`,fontFamily:'Arial,Helvetica,sans-serif',textShadow:'0 4px 12px rgba(0,0,0,.95)'}}>
-    <div style={{display:'flex',alignItems:'center',gap:18}}>
-      <div style={{width:64,height:5,background:C.orange}}/>
-      <div style={{fontSize:20,fontWeight:760,letterSpacing:4.3,color:C.paper}}>{card.kicker}</div>
-    </div>
-    <div style={{marginTop:24,fontWeight:850,fontSize:titleSize,lineHeight:.95,color:C.ivory}}>{card.title}</div>
-    <div style={{marginTop:18,fontSize:23,fontWeight:760,letterSpacing:3.0,color:C.orange}}>{card.subline}</div>
-  </div>;
-}
-
 function Cards({frame}){
   const t=frame/FPS,card=overlays.cards.find(x=>t>=x.s&&t<=x.e);
-  return card?<EditorialCard card={card} frame={frame}/>:null;
+  return card?<HiaEditorialPanel card={card} frame={frame} fps={FPS}/>:null;
 }
 
 function EndScreen({frame}){
@@ -115,7 +101,7 @@ function Film(){
   const frame=useCurrentFrame(),beat=currentBeat(frame);
   return <AbsoluteFill style={{background:C.charcoal}}>
     {frame<CONTENT_END&&<>{beat.kind==='document'?<DocumentBeat beat={beat} frame={frame}/>:<Picture beat={beat} frame={frame}/>}
-    <Provenance beat={beat} frame={frame}/><Cards frame={frame}/></>}
+    <Provenance beat={beat} frame={frame}/><HiaEstablishingSlug frame={frame} beat={beat}/><Cards frame={frame}/></>}
     <Audio src={staticFile('SATSOP_VO_MASTER_V1.wav')}/>
     <EndScreen frame={frame}/>
   </AbsoluteFill>;

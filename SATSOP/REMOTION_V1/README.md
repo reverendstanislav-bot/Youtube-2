@@ -27,3 +27,14 @@ python3 ../DEVELOPMENT/preflight_satsop_clean.py --project . --video out/SATSOP_
 **Release gate:** Provide new actual MP4 link, SHA, full decode/QC and representative stills. No upload approval or public release yet; owner must review actual clean movie.
 
 Previous rough-cut notes describing white/orange captions are superseded by this file and the owner lock.
+
+
+## HIA owner-selected motion-design reference (2026-10-15)
+
+- Active editable JSX: src/HiaMotionCanon.jsx. Integrated into src/index.jsx.
+- Existing 33 timed editorial cards become a narrow **right-hand technical panel** with modest rust and blueprint accents, original evidence text and original timings.
+- Intro slug appears only in the establishing beat. Not a permanent brand overlay.
+- All 109 original image assignments, the existing Arthur VO, 20s HIA endscreen and 30fps Satsop timeline remain unchanged.
+- Camera motion reduced: scale max 1.8% and drift max ±0.2%, no violent zooms or lateral motion.
+- No captions, no generated fake maps, no invented callout anchors. Leader lines require real-frame visual verification.
+- This is EDITABLE SOURCE ONLY, not a finished MP4. Rendering requires 109 missing media and original Arthur WAV; see preflight_satsop_clean.py.
