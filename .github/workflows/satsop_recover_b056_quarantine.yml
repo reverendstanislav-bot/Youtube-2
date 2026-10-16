@@ -1,0 +1,37 @@
+name: 'HIA Satsop — Inspect Changed Commons Asset SAT-B056'
+on:
+  push:
+    paths:
+      - '.github/workflows/satsop_recover_b056_quarantine.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download file from exact historical Commons URL and quarantine mismatch
+        run: |
+          mkdir -p recovered
+          python3 - <<'PY'
+          import urllib.request,hashlib,json,pathlib
+          url="https://upload.wikimedia.org/wikipedia/commons/e/e1/Satsop_Nuclear_Power_Plant_%283224059471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          expected="8f3b5d5e8b8705b1aeca8d7372f9a498eb8659225f33b644fc1115a80f6df31e"
+          b=urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"SatsopEvidenceRestore/1.0"}),timeout=40).read()
+          assert b.startswith(bytes.fromhex('ffd8ff'))
+          actual=hashlib.sha256(b).hexdigest()
+          pathlib.Path('recovered/SAT-B056_CHANGED_SOURCE_REVIEW_ONLY.jpg').write_bytes(b)
+          r={"beat":"SAT-B056","expected_sha":expected,"actual_sha":actual,"matches_locked_source":actual==expected,"size_bytes":len(b),"url":url,"status":"REVIEW_REQUIRED" if actual!=expected else "PASS_LOCKED_SOURCE"}
+          pathlib.Path('recovered/PHOTO_QC.json').write_text(json.dumps(r,indent=2))
+          print(json.dumps(r,indent=2))
+          PY
+      - name: Upload photo and mismatch QC
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: satsop-B056-changed-commons-photo-review
+          path: recovered/
+          retention-days: 14
+          if-no-files-found: warn
