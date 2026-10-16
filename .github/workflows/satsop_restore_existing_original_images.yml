@@ -1,0 +1,32 @@
+name: 'HIA Satsop — Recover Historical 109 Images (NO GENERATION)'
+on:
+  push:
+    paths:
+      - '.github/workflows/satsop_restore_existing_original_images.yml'
+      - 'SATSOP/RECOVERY/restore_original_source_candidates.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover historical picture bytes from exact recorded URLs
+        env:
+          SATSOP_RECOVER_OUT: "${{ runner.temp }}/satsop-asset-recovery"
+        run: |
+          python3 SATSOP/RECOVERY/restore_original_source_candidates.py
+          ls -lah "$SATSOP_RECOVER_OUT"/SATSOP_SOURCE_RECOVERY_CANDIDATES.zip "$SATSOP_RECOVER_OUT"/RECOVERY_RESULTS.json
+          python3 -c "import json,os; d=json.load(open(os.environ['SATSOP_RECOVER_OUT']+'/RECOVERY_RESULTS.json')); print('Recovered',d['recovered'],'of',d['total'],'source candidates. NOT A FINISHED MASTER.')"
+      - name: Save recovery ZIP and evidence ledger
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: satsop-historical-picture-recovery-candidates
+          path: |
+            ${{ runner.temp }}/satsop-asset-recovery/SATSOP_SOURCE_RECOVERY_CANDIDATES.zip
+            ${{ runner.temp }}/satsop-asset-recovery/RECOVERY_RESULTS.json
+          if-no-files-found: warn
+          retention-days: 14
