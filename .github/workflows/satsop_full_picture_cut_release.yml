@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 115
     env:
-      SATSOP_RENDER_WORK: "${{ runner.temp }}/satsop_render"
-      SATSOP_OUTPUT_MP4: "${{ runner.temp }}/satsop_render/SATSOP_109_SOURCE_SCENES_PICTURE_ONLY_1080P30_HQ.mp4"
-      SATSOP_INPUT_ASSETS: "${{ runner.temp }}/satsop_src/public/assets"
+      SATSOP_RENDER_WORK: "/tmp/satsop_render"
+      SATSOP_OUTPUT_MP4: "/tmp/satsop_render/SATSOP_109_SOURCE_SCENES_PICTURE_ONLY_1080P30_HQ.mp4"
+      SATSOP_INPUT_ASSETS: "/tmp/satsop_src/public/assets"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,9 +28,9 @@ jobs:
         env:
           GH_TOKEN: "${{ github.token }}"
         run: |
-          mkdir -p "$RUNNER_TEMP/satsop_src"
-          gh release download satsop-109-historical-frame-candidates-20261016 --pattern SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip --dir "$RUNNER_TEMP/satsop_src"
-          unzip -q "$RUNNER_TEMP/satsop_src/SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip" "public/assets/*" -d "$RUNNER_TEMP/satsop_src"
+          mkdir -p "/tmp/satsop_src"
+          gh release download satsop-109-historical-frame-candidates-20261016 --pattern SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip --dir "/tmp/satsop_src"
+          unzip -q "/tmp/satsop_src/SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip" "public/assets/*" -d "/tmp/satsop_src"
           echo "Recovered physical images: $(find "$SATSOP_INPUT_ASSETS" -type f | wc -l)"
           test "$(find "$SATSOP_INPUT_ASSETS" -maxdepth 1 -type f | wc -l)" = "109"
       - name: Encode all 109 unique original scene candidates to one 1080p MP4
@@ -56,6 +56,6 @@ jobs:
         with:
           name: satsop-full-source-picture-cut-qc
           path: |
-            ${{ runner.temp }}/satsop_render/SATSOP_GITHUB_RELEASE_QC.json
+            /tmp/satsop_render/SATSOP_GITHUB_RELEASE_QC.json
           if-no-files-found: warn
           retention-days: 14
