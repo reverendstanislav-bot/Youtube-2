@@ -38,3 +38,8 @@ Previous rough-cut notes describing white/orange captions are superseded by this
 - Camera motion reduced: scale max 1.8% and drift max ±0.2%, no violent zooms or lateral motion.
 - No captions, no generated fake maps, no invented callout anchors. Leader lines require real-frame visual verification.
 - This is EDITABLE SOURCE ONLY, not a finished MP4. Rendering requires 109 missing media and original Arthur WAV; see preflight_satsop_clean.py.
+
+
+## V2 motion transition audit (2026-10-15)
+
+See `HIA_TRANSITION_AND_EVIDENCE_MOTION_V2_2026-10-15.md`: mapped transitions for all 109 beats, documentary cuts/dissolves/dips, and native editable animated data comparisons. The 33 right-side panels remain source-grounded. This is source work, not a finished render; original media/WAV must pass preflight.

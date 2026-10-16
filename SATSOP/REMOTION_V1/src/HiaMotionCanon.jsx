@@ -1,5 +1,6 @@
 import React from 'react';
 import {interpolate} from 'remotion';
+import {HiaVerifiedMetric} from './HiaEvidenceAnimations';
 
 // HIA owner-selected right technical-panel system, all frame-based, no captions.
 // All factual copy comes from the original public/overlays.json.
@@ -79,6 +80,7 @@ export const HiaEditorialPanel=({card,frame,fps=30})=>{
         </div>
       </div>;
     })}
+    <HiaVerifiedMetric card={card} frame={frame} fps={fps}/>
     <div style={{height:1,background:'rgba(230,221,200,.3)',marginTop:4}}/>
     <div style={{display:'flex',gap:12,alignItems:'center',marginTop:13}}>
       <div style={{width:37,height:3,background:C.rust}}/>

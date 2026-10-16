@@ -4,6 +4,7 @@ import timeline from '../public/timeline.json';
 import overlays from '../public/overlays.json';
 import motion from '../public/motion.json';
 import {HiaEstablishingSlug,HiaEditorialPanel} from './HiaMotionCanon';
+import transitionPlan from '../public/hia_transition_plan.json';
 
 const FPS=timeline.fps;
 const CONTENT_END=Math.round(timeline.duration*FPS);
@@ -12,6 +13,7 @@ const TOTAL=CONTENT_END+END_SCREEN_FRAMES;
 const C={charcoal:'#171A1C',paper:'#FFFFFF',ivory:'#F3EBDD',orange:'#F28A3A',blue:'#708996',rust:'#A55235'};
 const CLAMP={extrapolateLeft:'clamp',extrapolateRight:'clamp'};
 const smooth=x=>{const v=Math.max(0,Math.min(1,x));return v*v*(3-2*v)};
+const transitionByBeat=Object.fromEntries(transitionPlan.items.map(x=>[x.beat,x]));
 const motionByBeat=Object.fromEntries(motion.items.map(x=>[x.beat,x]));
 const beatIndexById=Object.fromEntries(timeline.beats.map((x,i)=>[x.beat,i]));
 
@@ -71,17 +73,36 @@ function Provenance({beat,frame}){
 
 function Picture({frame,beat}){
   const index=beatIndexById[beat.beat];
-  const spec=motionByBeat[beat.beat]||{};
-  if(index>0&&spec.transition_in==='dissolve'){
-    const frames=spec.dissolve_frames||8;
-    const p=smooth(interpolate(frame,[beat.a,beat.a+frames],[0,1],CLAMP));
-    const previous=timeline.beats[index-1];
+  const edge=transitionByBeat[beat.beat]||{kind:'hard_cut',frames:0};
+  if(index===0||edge.frames===0||edge.kind==='hard_cut'||edge.kind==='evidence_cut'){
+    return <ImageBeat beat={beat} frame={frame}/>;
+  }
+  const previous=timeline.beats[index-1];
+  const p=smooth(interpolate(frame,[beat.a,beat.a+edge.frames],[0,1],CLAMP));
+  // Every transition blends original full-resolution scene pixels.
+  // Editorial-only motion: no same-image pan wipe and no invented video footage.
+  if(edge.kind==='chapter_dip'){
+    const oldOpacity=Math.max(0,Math.min(1,(.57-p)/.57));
+    const newOpacity=Math.max(0,Math.min(1,(p-.38)/.62));
     return <AbsoluteFill style={{background:C.charcoal}}>
-      <ImageBeat beat={previous} frame={previous.b-1} opacity={1-p}/>
-      <ImageBeat beat={beat} frame={frame} opacity={p}/>
+      {oldOpacity>0&&<ImageBeat beat={previous} frame={previous.b-1} opacity={oldOpacity}/>}
+      {newOpacity>0&&<ImageBeat beat={beat} frame={frame} opacity={newOpacity}/>}
     </AbsoluteFill>;
   }
-  return <ImageBeat beat={beat} frame={frame}/>;
+  if(edge.kind==='focus_dissolve'){
+    // A tiny perceived focus settle, NOT a Ken Burns slide/zoom jump.
+    return <AbsoluteFill style={{background:C.charcoal}}>
+      <ImageBeat beat={previous} frame={previous.b-1} opacity={1-p}/>
+      <AbsoluteFill style={{opacity:p,transform:'scale('+(1.003-.003*p)+')'}}>
+        <ImageBeat beat={beat} frame={frame}/>
+      </AbsoluteFill>
+    </AbsoluteFill>;
+  }
+  // Film vs match dissolve differ in duration & editorial selection.
+  return <AbsoluteFill style={{background:C.charcoal}}>
+    <ImageBeat beat={previous} frame={previous.b-1} opacity={1-p}/>
+    <ImageBeat beat={beat} frame={frame} opacity={p}/>
+  </AbsoluteFill>;
 }
 
 function Cards({frame}){

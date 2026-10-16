@@ -1,0 +1,567 @@
+{
+  "version": 1,
+  "scope": "Satsop original 109 locked beats",
+  "fps": 30,
+  "owner_style": "HIA right-side technical graphics, cut on story beats, no slide/wipe",
+  "notes": [
+    "Hard and evidence cuts remain purposeful, not transitions selected at random.",
+    "Match dissolves on documentary footage, film/focus dissolves sparingly, short charcoal dips only at ACT transitions.",
+    "No repeated left/right swipes, page flips, fake footage, scale leaps, subtitle or artificial motion of real-world objects."
+  ],
+  "counts": {
+    "start": 1,
+    "evidence_cut": 22,
+    "hard_cut": 51,
+    "focus_dissolve": 7,
+    "match_dissolve": 10,
+    "film_dissolve": 13,
+    "chapter_dip": 5
+  },
+  "items": [
+    {
+      "beat": "SAT-B001",
+      "kind": "start",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B002",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B003",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B004",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B005",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B006",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B007",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B008",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B009",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B010",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B011",
+      "kind": "chapter_dip",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B012",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B013",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B014",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B015",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B016",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B017",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B018",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B019",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B020",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B021",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B022",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B023",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B024",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B025",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B026",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B027",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B028",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B029",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B030",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B031",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B032",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B033",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B034",
+      "kind": "chapter_dip",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B035",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B036",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B037",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B038",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B039",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B040",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B041",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B042",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B043",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B044",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B045",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B046",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B047",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B048",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B049",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B050",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B051",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B052",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B053",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B054",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B055",
+      "kind": "chapter_dip",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B056",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B057",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B058",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B059",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B060",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B061",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B062",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B063",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B064",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B065",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B066",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B067",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B068",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B069",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B070",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B071",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B072",
+      "kind": "chapter_dip",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B073",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B074",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B075",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B076",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B077",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B078",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B079",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B080",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B081",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B082",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B083",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B084",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B085",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B086",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B087",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B088",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B089",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B090",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B091",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B092",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B093",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B094",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B095",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B096",
+      "kind": "chapter_dip",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B097",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B098",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B099",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B100",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B101",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B102",
+      "kind": "evidence_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B103",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B104",
+      "kind": "focus_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B105",
+      "kind": "match_dissolve",
+      "frames": 12
+    },
+    {
+      "beat": "SAT-B106",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B107",
+      "kind": "hard_cut",
+      "frames": 0
+    },
+    {
+      "beat": "SAT-B108",
+      "kind": "film_dissolve",
+      "frames": 10
+    },
+    {
+      "beat": "SAT-B109",
+      "kind": "match_dissolve",
+      "frames": 12
+    }
+  ]
+}
