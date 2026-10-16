@@ -1,0 +1,64 @@
+name: 'HIA Satsop — Preserve 109 Historical Source Frames as Release'
+on:
+  push:
+    paths:
+      - '.github/workflows/satsop_publish_109_recovered_sources.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover historical image pixels and preserve changed Commons B056
+        env:
+          SATSOP_RECOVER_OUT: "${{ runner.temp }}/satsop_release_src"
+        run: |
+          python3 SATSOP/RECOVERY/restore_original_source_candidates.py
+          python3 - <<'PY'
+          import json,hashlib,pathlib,urllib.request,zipfile,os
+          base=pathlib.Path(os.environ['SATSOP_RECOVER_OUT'])
+          p=base/'public/assets/SAT-B056.jpg'
+          url='https://upload.wikimedia.org/wikipedia/commons/e/e1/Satsop_Nuclear_Power_Plant_%283224059471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original'
+          b=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'HIA-Archive-Recovery/1.0'}),timeout=40).read()
+          assert b.startswith(bytes.fromhex('ffd8ff'))
+          h=hashlib.sha256(b).hexdigest()
+          old='8f3b5d5e8b8705b1aeca8d7372f9a498eb8659225f33b644fc1115a80f6df31e'
+          p.write_bytes(b)
+          d=json.loads((base/'RECOVERY_RESULTS.json').read_text())
+          row=next(x for x in d['results'] if x['beat']=='SAT-B056')
+          row.update(status='CURRENT_COMMONS_CHANGED_HASH_REVIEW_ONLY',source='commons_original_filename_changed_bytes',sha256=h,bytes=len(b),original_expected_sha=old)
+          d.update(recovered=109,missing=[],status='108 ORIGINAL SOURCES CHECKED; 1 SAME COMMONS PHOTO WITH CHANGED SHA',original_voiceover_available=False)
+          report=base/'RECOVERY_RESULTS.json';report.write_text(json.dumps(d,indent=2))
+          archive=base/'SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_STORED) as z:
+           z.write(report,report.name)
+           for f in sorted((base/'public/assets').glob('*')):z.write(f,'public/assets/'+f.name)
+          assert len(list((base/'public/assets').glob('*')))==109
+          print('ZIP',archive,archive.stat().st_size,hashlib.sha256(archive.read_bytes()).hexdigest())
+          PY
+      - name: Publish long-lived candidate archive (NOT a final film)
+        env:
+          GH_TOKEN: "${{ github.token }}"
+          SATSOP_RECOVER_OUT: "${{ runner.temp }}/satsop_release_src"
+        run: |
+          TAG=satsop-109-historical-frame-candidates-20261016
+          ZIP="$SATSOP_RECOVER_OUT/SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip"
+          REPORT="$SATSOP_RECOVER_OUT/RECOVERY_RESULTS.json"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ZIP" "$REPORT" --clobber
+          else
+            gh release create "$TAG" "$ZIP" "$REPORT" --title "Satsop 109 historical frame candidates (NOT master)" --prerelease --notes "Recovered 108 source frames with matching recorded SHA and 1 same Commons source photograph (B056) with changed SHA, documented as review-only. NO original Arthur voiceover, NO final master. This release is a production source recovery checkpoint, not publication-ready."
+          fi
+      - name: Keep short-term Actions backup
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: satsop-109-source-picture-archive
+          path: |
+            ${{ runner.temp }}/satsop_release_src/SATSOP_109_RESTORED_PICTURE_ASSETS_NO_AUDIO.zip
+            ${{ runner.temp }}/satsop_release_src/RECOVERY_RESULTS.json
+          retention-days: 14
+          if-no-files-found: warn
