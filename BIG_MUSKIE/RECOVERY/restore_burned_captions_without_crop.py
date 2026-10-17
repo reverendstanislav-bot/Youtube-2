@@ -146,7 +146,7 @@ def segment(source,beats,work,i):
  "-loop","1","-framerate","25","-i",str(patch),
  "-filter_complex",f"[0:v][1:v]overlay={X0}:{Y0}:format=auto:shortest=1,format=yuv420p[v]",
  "-map","[v]","-frames:v",str(n),"-fps_mode","cfr","-r","25",
- "-c:v","libx264","-preset","fast","-crf","15","-pix_fmt","yuv420p",
+ "-c:v","libx264","-preset",os.environ.get("BM_RENDER_PRESET","fast"),"-crf",os.environ.get("BM_RENDER_CRF","15"),"-pix_fmt","yuv420p",
  "-profile:v","high","-level","4.2","-g","100","-threads","2",
  "-an","-movflags","+faststart",str(clip)]
  p=subprocess.run(cmd,capture_output=True,timeout=750)
