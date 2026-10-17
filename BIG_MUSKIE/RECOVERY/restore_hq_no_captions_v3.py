@@ -20,7 +20,7 @@ bm.X1=1820
 W=pathlib.Path(os.getenv("BIG_MUSKIE_COMMONS_DIR","/tmp/bigmuskie-commons-align"))
 CONFIG=W/"commons.json"
 BADS=set([2,3,14,16,18,28,30,46,71,76,88,93,94,95,101,106,107])
-PHOTO_MAP={2:"R06",3:"R07",18:"R03",30:"R03",93:"C01",101:"R07",107:"R10"}
+PHOTO_MAP={2:"R06",3:"R07",18:"R03",30:"R03",93:"C01",101:"R07",106:"R10",107:"R10"}
 FLATBACK=set([14,16,46,71,76,88,94,95,106])
 texture_cache={}
 
