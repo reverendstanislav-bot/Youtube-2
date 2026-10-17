@@ -1,0 +1,54 @@
+name: 'Big Muskie — Canonical Photo Alignment Restoration QC'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_original_photo_alignment_qc.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  photo_align:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install photo match dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check Pillow 'numpy<3' 'opencv-python-headless<5'
+      - name: Download canonical 1.53 GB HQ film
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/muskie_hq_source
+          gh release download big-muskie-final-upload-master-20261003 --pattern BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --dir /tmp/muskie_hq_source
+          test "$(stat -c%s /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4)" = "1527013934"
+      - name: Recover original publicly licensed Wikimedia photo pixels
+        run: |
+          mkdir -p /tmp/bigmuskie-commons-align
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie_Dragline_Bucket.jpg' -o /tmp/bigmuskie-commons-align/R06.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie_Bucket_%28Looking_Northeast%29.JPG' -o /tmp/bigmuskie-commons-align/R07.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie%27s_Chain_%287716922488%29.jpg' -o /tmp/bigmuskie-commons-align/R10.jpg
+          python - <<'PY'
+          import cv2,json
+          p='/tmp/bigmuskie-commons-align/'
+          data={k:p+k+'.jpg' for k in ['R06','R07','R10']}
+          assert all(cv2.imread(x) is not None for x in data.values())
+          open(p+'commons.json','w').write(json.dumps(data,indent=2))
+          for k,v in data.items():print(k,cv2.imread(v).shape)
+          PY
+      - name: Align four verified historical photos to canonical video and preview
+        run: |
+          python -u BIG_MUSKIE/RECOVERY/align_original_clean_commons_photos.py
+      - name: Export photographic restoration tests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_AUTHENTIC_SOURCE_RESTORATION_QC
+          path: /tmp/bigmuskie-commons-align/qc/
+          if-no-files-found: warn
+          retention-days: 14
