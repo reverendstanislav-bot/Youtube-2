@@ -1,0 +1,67 @@
+name: 'Big Muskie — 116-Scene Post-Release Visual Subtitle QC'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_full_hq_release_post_qc.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  full_scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install visual inspection
+        run: python -m pip install --disable-pip-version-check Pillow 'numpy<3' 'opencv-python-headless<5'
+      - name: Download physically published corrected MP4
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/muskie_qc
+          gh release download big-muskie-full-hq-no-burned-captions-20261017 --pattern BIG_MUSKIE_FULL_HQ_NO_BURNED_CAPTIONS_1080P25.mp4 --dir /tmp/muskie_qc
+          gh release download big-muskie-full-hq-no-burned-captions-20261017 --pattern PREVIEW_SCAN_QC.json --dir /tmp/muskie_qc
+          test "$(stat -c%s /tmp/muskie_qc/BIG_MUSKIE_FULL_HQ_NO_BURNED_CAPTIONS_1080P25.mp4)" = "438794247"
+      - name: Render contact sheets from decoded release MP4 for every beat
+        run: |
+          python - <<'PY'
+          import pathlib,cv2,json
+          from PIL import Image,ImageDraw,ImageFont
+          root=pathlib.Path('/tmp/muskie_qc')
+          v=root/'BIG_MUSKIE_FULL_HQ_NO_BURNED_CAPTIONS_1080P25.mp4'
+          beats=json.loads((root/'PREVIEW_SCAN_QC.json').read_text())['beats']
+          cap=cv2.VideoCapture(str(v)); assert cap.isOpened()
+          assert len(beats)==116
+          groups=[[] for _ in range(4)]
+          for i,b in enumerate(beats):
+            f=(b['from']+b['to'])//2
+            cap.set(cv2.CAP_PROP_POS_FRAMES,f)
+            ok,img=cap.read()
+            if not ok:raise RuntimeError(f'Cannot decode frame {f}')
+            # preserve original local visual sizing, crop only inspection thumbnail
+            thumb=Image.fromarray(cv2.cvtColor(img[913:1056,100:1820],cv2.COLOR_BGR2RGB)).resize((1000,83),Image.Resampling.LANCZOS)
+            groups[i//30].append((b['beat'],f/25,thumb))
+          cap.release()
+          out=root/'qc_sheets';out.mkdir(exist_ok=True)
+          for ix,items in enumerate(groups):
+            canvas=Image.new('RGB',(1060,len(items)*105+20),'#202426')
+            d=ImageDraw.Draw(canvas)
+            for j,(beat,t,thumb) in enumerate(items):
+              y=12+j*105
+              d.text((8,y+27),beat.replace('BM-B',''),fill='#f3ebdd')
+              d.text((8,y+46),str(round(t,1))+'s',fill='#5f747d')
+              canvas.paste(thumb,(55,y))
+            fp=out/f'SHEET_{ix+1:02d}.jpg'
+            canvas.save(fp,quality=91)
+            print(fp, fp.stat().st_size)
+          PY
+      - name: Export 116-scene actual encoded-film visual QC
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_116_BEAT_POST_RELEASE_VISUAL_QC
+          path: /tmp/muskie_qc/qc_sheets/*.jpg
+          if-no-files-found: error
+          retention-days: 14
