@@ -15,6 +15,13 @@ TIMES={14:174.2,16:196.4,28:359.6,46:576.8,71:895.4,76:943.8,88:1092.8,94:1160.0
 # Left and right 100px left untouched.
 AREAS={14:(220,920,1715,1050),16:(220,920,1715,1050),28:(220,920,1715,1050),46:(220,920,1715,1050),71:(220,930,1715,1050),76:(220,920,1715,1050),88:(220,928,1715,1040),94:(220,920,1715,1050),95:(220,920,1715,1050),106:(220,920,1715,1050)}
 import torch
+# Installed old PyPI revision does not forward device to torch.jit.load.
+# Explicitly redirect TorchScript map_location, then keep the model on CPU.
+_orig_torch_load=torch.jit.load
+def _cpu_load(*args,**kwargs):
+ kwargs['map_location']=torch.device('cpu')
+ return _orig_torch_load(*args,**kwargs)
+torch.jit.load=_cpu_load
 lama=SimpleLama(device=torch.device('cpu'))
 print('LAMA model ready',flush=True)
 for n,t in TIMES.items():
