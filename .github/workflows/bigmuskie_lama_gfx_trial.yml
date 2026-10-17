@@ -39,3 +39,5 @@ jobs:
             /tmp/bigmuskie_lama_test/B*_LAMA.jpg
           if-no-files-found: warn
           retention-days: 14
+
+# Restart LaMa QC with explicit CPU device, no GPU dependency.
