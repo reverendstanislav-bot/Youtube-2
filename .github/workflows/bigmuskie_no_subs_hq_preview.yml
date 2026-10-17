@@ -1,0 +1,42 @@
+name: 'Big Muskie — HQ Subtitle Removal QC Preview (NO CROP)'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_no_subs_hq_preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Video dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check 'numpy<3' 'opencv-python-headless<5'
+      - name: Download exact 1.53 GB high-quality canonical master
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/muskie_hq_source
+          gh release download big-muskie-final-upload-master-20261003 --pattern BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --dir /tmp/muskie_hq_source
+          test "$(stat -c%s /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4)" = "1527013934"
+      - name: Scan 116 scenes and reconstruct 8 HQ QC previews without cropping
+        run: |
+          python -u BIG_MUSKIE/RECOVERY/restore_burned_captions_without_crop.py --source /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --work /tmp/muskie_hq_work --mode preview
+      - name: Export inspection frames and clean-frame statistics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_HQ_NO_SUBS_QC_PREVIEW
+          path: |
+            /tmp/muskie_hq_work/preview/*.jpg
+            /tmp/muskie_hq_work/PREVIEW_SCAN_QC.json
+          if-no-files-found: warn
+          retention-days: 14
