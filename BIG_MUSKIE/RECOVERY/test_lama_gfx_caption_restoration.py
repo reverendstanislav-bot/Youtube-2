@@ -14,7 +14,8 @@ TIMES={14:174.2,16:196.4,28:359.6,46:576.8,71:895.4,76:943.8,88:1092.8,94:1160.0
 # Inpainting only the exact caption baseline, not whole 175px wide previous smear band.
 # Left and right 100px left untouched.
 AREAS={14:(220,920,1715,1050),16:(220,920,1715,1050),28:(220,920,1715,1050),46:(220,920,1715,1050),71:(220,930,1715,1050),76:(220,920,1715,1050),88:(220,928,1715,1040),94:(220,920,1715,1050),95:(220,920,1715,1050),106:(220,920,1715,1050)}
-lama=SimpleLama()
+import torch
+lama=SimpleLama(device=torch.device('cpu'))
 print('LAMA model ready',flush=True)
 for n,t in TIMES.items():
  st=time.time()
