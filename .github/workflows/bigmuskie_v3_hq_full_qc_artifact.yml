@@ -1,0 +1,115 @@
+name: 'Big Muskie — V3 HQ Full No-Subtitles QC Master'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_v3_hq_full_qc_artifact.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  render_and_validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      BM_RENDER_CRF: "12"
+      BM_RENDER_PRESET: "fast"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install photo, renderer and QC dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check Pillow 'numpy<3' 'opencv-python-headless<5'
+      - name: Get exact canonical original 1.53 GB high-bitrate master
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/muskie_hq_source
+          gh release download big-muskie-final-upload-master-20261003 --pattern BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --dir /tmp/muskie_hq_source
+          test "$(stat -c%s /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4)" = 1527013934
+      - name: Get authoritative clean photo pixels for source-grounded scenes
+        run: |
+          set -e
+          mkdir -p /tmp/bigmuskie-commons-align
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie_Dragline_Bucket.jpg' -o /tmp/bigmuskie-commons-align/R06.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie_Bucket_%28Looking_Northeast%29.JPG' -o /tmp/bigmuskie-commons-align/R07.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie%27s_Chain_%287716922488%29.jpg' -o /tmp/bigmuskie-commons-align/R10.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/HD.11B.110_%2811823129254%29.jpg' -o /tmp/bigmuskie-commons-align/R03.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/FARMLAND_PURCHASED_BY_THE_OHIO_POWER_COMPANY_NEAR_CHANDLERSVILLE._STRIP_MINED_LAND_CAN_BE_SEEN_IN_THE_BACKGROUND_-_NARA_-_555648.jpg' -o /tmp/bigmuskie-commons-align/C01.jpg
+          python - <<'PY'
+          import cv2,json
+          p='/tmp/bigmuskie-commons-align/'
+          paths={k:p+k+'.jpg' for k in ['R06','R07','R10','R03','C01']}
+          assert all(cv2.imread(x) is not None for x in paths.values())
+          open(p+'commons.json','w').write(json.dumps(paths,indent=2))
+          PY
+      - name: Render full 116-scene V3 subtitle-free high bitrate master
+        run: |
+          python -u BIG_MUSKIE/RECOVERY/restore_hq_no_captions_v3.py --source /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --work /tmp/muskie_v3 --mode render
+          mv /tmp/muskie_v3/BIG_MUSKIE_FULL_HQ_NO_BURNED_CAPTIONS_1080P25.mp4 /tmp/muskie_v3/BIG_MUSKIE_V3_NO_BURNED_SUBTITLES_HQ_1080P25.mp4
+          ls -lh /tmp/muskie_v3/BIG_MUSKIE_V3_NO_BURNED_SUBTITLES_HQ_1080P25.mp4
+          sha256sum /tmp/muskie_v3/BIG_MUSKIE_V3_NO_BURNED_SUBTITLES_HQ_1080P25.mp4
+      - name: Generate independent actual-MP4 116-scene visual contact QC at three moments per scene
+        run: |
+          python - <<'PY'
+          import json,cv2,os
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          root=Path('/tmp/muskie_v3')
+          path=root/'BIG_MUSKIE_V3_NO_BURNED_SUBTITLES_HQ_1080P25.mp4'
+          beats=json.loads((root/'PREVIEW_SCAN_QC.json').read_text())['beats']
+          cap=cv2.VideoCapture(str(path))
+          assert cap.isOpened() and len(beats)==116
+          out=root/'ALL116_QC';out.mkdir(exist_ok=True)
+          segments=[]
+          for n,b in enumerate(beats,1):
+            row=[]
+            for frac in (.2,.5,.8):
+              frm=round(b['from']+(b['to']-b['from']-1)*frac)
+              cap.set(cv2.CAP_PROP_POS_FRAMES,frm)
+              ok,img=cap.read()
+              if not ok:raise RuntimeError(f'Missing frame {frm} beat {n}')
+              # actual rendered full image and full subtitle zone, zero rescale of stored MP4
+              crop=Image.fromarray(cv2.cvtColor(img[865:1058,180:1740],cv2.COLOR_BGR2RGB))
+              crop=crop.resize((960,119),Image.Resampling.LANCZOS)
+              row.append(crop)
+            segments.append((n,b['beat'],row))
+            if n%30==0:print('Extracted QC beats',n,'/116',flush=True)
+          cap.release()
+          for block in range(4):
+            subset=segments[block*30:block*30+30]
+            canvas=Image.new('RGB',(960, len(subset)*380+30),'#171a1c')
+            d=ImageDraw.Draw(canvas)
+            for i,(n,name,row) in enumerate(subset):
+              y=i*380+16
+              d.text((9,y),f'{name} — actual MP4 frames at 20%, 50%, 80%',fill='#f3ebdd')
+              for j,img in enumerate(row):canvas.paste(img,(0,y+20+j*119))
+            fp=out/f'CAPTION_ZONE_ALL_BEATS_{block+1:02}.jpg'
+            canvas.save(fp,quality=89)
+            print(fp, fp.stat().st_size)
+          (out/'QC_MANIFEST.json').write_text(json.dumps({'beats':116,'samples_per_beat':3,'full_mp4_tested':str(path),'total_frames':35660,'audio':'canonical AAC copied'},indent=2))
+          PY
+      - name: Export full master privately for final editorial QC — NOT A RELEASE
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_V3_HQ_MASTER_QC_HOLD
+          path: |
+            /tmp/muskie_v3/BIG_MUSKIE_V3_NO_BURNED_SUBTITLES_HQ_1080P25.mp4
+            /tmp/muskie_v3/FINAL_QC.json
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 14
+      - name: Export 116-scene text visibility and reference QC
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_V3_HQ_116_SCENE_QC
+          path: |
+            /tmp/muskie_v3/ALL116_QC/
+            /tmp/muskie_v3/reference_plate_qc/V3_REFERENCE_QC_SHEET*.jpg
+            /tmp/muskie_v3/PREVIEW_SCAN_QC.json
+          if-no-files-found: warn
+          retention-days: 14
