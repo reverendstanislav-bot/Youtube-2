@@ -1,0 +1,41 @@
+name: 'Big Muskie — FREE LaMa Caption Erase GFX Trial'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_lama_gfx_trial.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  lama_preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install video and public inpainting dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check Pillow 'numpy<3' 'opencv-python-headless<5' simple-lama-inpainting
+      - name: Fetch exact 1.527 GB canonical Big Muskie MP4
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/bm_master
+          gh release download big-muskie-final-upload-master-20261003 --pattern BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --dir /tmp/bm_master
+          test "$(stat -c%s /tmp/bm_master/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4)" = "1527013934"
+      - name: Try pretrained neural texture restoration on 10 problem frames
+        run: python -u BIG_MUSKIE/RECOVERY/test_lama_gfx_caption_restoration.py
+      - name: Export original-vs-restored comparisons
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_LAMA_10_GFX_RESTORATION_TRIAL_QC
+          path: |
+            /tmp/bigmuskie_lama_test/B*_COMPARISON.jpg
+            /tmp/bigmuskie_lama_test/B*_LAMA.jpg
+          if-no-files-found: warn
+          retention-days: 14
