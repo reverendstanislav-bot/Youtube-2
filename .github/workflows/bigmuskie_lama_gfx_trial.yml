@@ -41,3 +41,5 @@ jobs:
           retention-days: 14
 
 # Restart LaMa QC with explicit CPU device, no GPU dependency.
+
+# Force TorchScript checkpoint remap to CPU for older PyPI model loader.
