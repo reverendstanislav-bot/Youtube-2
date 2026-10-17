@@ -1,0 +1,61 @@
+name: 'Big Muskie — Full HQ No-Burned-Captions MP4 Release'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_no_subs_hq_full_release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  full:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install encoder and frame processing
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check 'numpy<3' 'opencv-python-headless<5'
+      - name: Restore exact owner-approved 1.53 GB HQ master
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/muskie_hq_source
+          gh release download big-muskie-final-upload-master-20261003 --pattern BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --dir /tmp/muskie_hq_source
+          test "$(stat -c%s /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4)" = "1527013934"
+      - name: Remove subtitle pixels through authentic clean-shot reference patch and re-encode full film
+        run: |
+          python -u BIG_MUSKIE/RECOVERY/restore_burned_captions_without_crop.py --source /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --work /tmp/muskie_hq_work --mode render
+      - name: Publish single full HQ MP4 to GitHub Releases
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          TAG=big-muskie-full-hq-no-burned-captions-20261017
+          MP4=/tmp/muskie_hq_work/BIG_MUSKIE_FULL_HQ_NO_BURNED_CAPTIONS_1080P25.mp4
+          QC=/tmp/muskie_hq_work/FINAL_QC.json
+          SCAN=/tmp/muskie_hq_work/PREVIEW_SCAN_QC.json
+          test -s "$MP4" && test -s "$QC"
+          SIZE=$(stat -c%s "$MP4")
+          echo "Full master bytes: $SIZE"
+          if [ "$SIZE" -ge 2147483648 ]; then echo "REJECT MP4 >= 2 GiB GitHub Release size limit" && exit 1; fi
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$MP4" "$QC" "$SCAN" --clobber
+          else
+            gh release create "$TAG" "$MP4" "$QC" "$SCAN" --title "BIG MUSKIE — Full HQ no burned narration captions (editorial QC pending)" --prerelease --notes "Full 1920x1080 25fps 23:46.400 Big Muskie picture from the canonical 1,527,013,934-byte HQ source. Burned narration subtitle line reconstructed from same-shot clean frames in a local subtitle region; NO vertical crop, NO video upscale. Original audio stream muxed without re-encoding; full FFmpeg decode checked. This is an editorial-review candidate, not claimed to recreate the original subtitle-free picture master. Inspect restored lower band for patch artifacts before final publishing."
+          fi
+          gh release view "$TAG" --json url,assets -q '.url, (.assets[] | [.name,.size] | @tsv)'
+      - name: Export QC artifacts even on publish failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_NO_CAPTIONS_FULL_HQ_QC
+          path: |
+            /tmp/muskie_hq_work/FINAL_QC.json
+            /tmp/muskie_hq_work/PREVIEW_SCAN_QC.json
+            /tmp/muskie_hq_work/preview/*.jpg
+          if-no-files-found: warn
+          retention-days: 14
