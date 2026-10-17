@@ -1,0 +1,77 @@
+name: 'Big Muskie — HQ No-Subtitles V3 Source Restoration Preview'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_hq_no_subs_v3_preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install codec and photo processing
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check Pillow 'numpy<3' 'opencv-python-headless<5'
+      - name: Fetch canonical high-bitrate Big Muskie film
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/muskie_hq_source
+          gh release download big-muskie-final-upload-master-20261003 --pattern BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --dir /tmp/muskie_hq_source
+          test "$(stat -c%s /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4)" = 1527013934
+      - name: Fetch five original CC or public-domain clean photographs
+        run: |
+          set -e
+          mkdir -p /tmp/bigmuskie-commons-align
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie_Dragline_Bucket.jpg' -o /tmp/bigmuskie-commons-align/R06.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie_Bucket_%28Looking_Northeast%29.JPG' -o /tmp/bigmuskie-commons-align/R07.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Big_Muskie%27s_Chain_%287716922488%29.jpg' -o /tmp/bigmuskie-commons-align/R10.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/HD.11B.110_%2811823129254%29.jpg' -o /tmp/bigmuskie-commons-align/R03.jpg
+          curl -fsSL --retry 4 'https://commons.wikimedia.org/wiki/Special:Redirect/file/FARMLAND_PURCHASED_BY_THE_OHIO_POWER_COMPANY_NEAR_CHANDLERSVILLE._STRIP_MINED_LAND_CAN_BE_SEEN_IN_THE_BACKGROUND_-_NARA_-_555648.jpg' -o /tmp/bigmuskie-commons-align/C01.jpg
+          python - <<'PY'
+          import cv2,json
+          p='/tmp/bigmuskie-commons-align/'
+          paths={k:p+k+'.jpg' for k in ['R06','R07','R10','R03','C01']}
+          assert all(cv2.imread(x) is not None for x in paths.values())
+          open(p+'commons.json','w').write(json.dumps(paths,indent=2))
+          for k,v in paths.items(): print(k,cv2.imread(v).shape)
+          PY
+      - name: Preview 116 updated patches and caption-bearing visual references
+        run: |
+          python -u BIG_MUSKIE/RECOVERY/restore_hq_no_captions_v3.py --source /tmp/muskie_hq_source/BIG_MUSKIE_FINAL_UPLOAD_MASTER.mp4 --work /tmp/muskie_v3 --mode preview
+          python - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          root=Path('/tmp/muskie_v3/reference_plate_qc')
+          selected=sorted(root.glob('*.jpg'))
+          print('Selected QC review images:', len(selected))
+          w,h=640,360
+          for seq in range(0,len(selected),22):
+            batch=selected[seq:seq+22]
+            sh=Image.new('RGB',(w*2,(h+24)*((len(batch)+1)//2)),'#171a1c')
+            d=ImageDraw.Draw(sh)
+            for j,p in enumerate(batch):
+              im=Image.open(p).convert('RGB').resize((w,h))
+              x=(j%2)*w;y=(j//2)*(h+24)
+              sh.paste(im,(x,y+24));d.text((x+4,y+4),p.name,fill='#fff')
+            sh.save(root/f'V3_REFERENCE_QC_SHEET_{seq//22+1:02d}.jpg',quality=92)
+          PY
+      - name: Export V3 actual source-photo and GFX repair previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_V3_HQ_REF_SHEETS_AND_QC
+          path: |
+            /tmp/muskie_v3/reference_plate_qc/
+            /tmp/muskie_v3/preview/
+            /tmp/muskie_v3/PREVIEW_SCAN_QC.json
+          if-no-files-found: warn
+          retention-days: 14
