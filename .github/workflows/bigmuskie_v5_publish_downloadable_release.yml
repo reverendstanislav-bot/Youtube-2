@@ -50,6 +50,7 @@ jobs:
         run: |
           TAG=big-muskie-v5-no-primitive-gfx-archive-picture-20261018
           cd /tmp/big_muskie_v5_release
+          export GH_REPO=reverendstanislav-bot/Youtube-2
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4 FINAL_V5_QC.json V5_ASSET_PROVENANCE_QC.json --clobber
           else
