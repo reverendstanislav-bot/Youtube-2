@@ -1,0 +1,27 @@
+name: 'Big Muskie V5 — Authentic Source Inventory'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_v5_source_inventory.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download rights-audited original archival source package
+        run: |
+          mkdir -p /tmp/bm_sources
+          curl -fL --retry 2 --connect-timeout 15 --max-time 240 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/a629faa2-037a-4a84-9044-4d929500d0ca.zip' -o /tmp/bm_sources/source_archive.zip
+          sha256sum /tmp/bm_sources/source_archive.zip
+          echo "EXACT_SHA: 7e453f165e72ad608324fd285195211d8b3eb20d45844b15850ab17ad510c979"
+          unzip -Z -1 /tmp/bm_sources/source_archive.zip | head -n 90
+      - name: Extract metadata and inspect rights
+        run: |
+          unzip -q /tmp/bm_sources/source_archive.zip -d /tmp/bm_sources/extracted
+          find /tmp/bm_sources/extracted -type f | grep -Ei '\.(jpg|jpeg|png|tiff|tif)$' | sort | head -n 90
+          echo RIGHTS_MAP
+          find /tmp/bm_sources/extracted -name 'MANIFEST.csv' -exec head -n 45 '{}' \;
