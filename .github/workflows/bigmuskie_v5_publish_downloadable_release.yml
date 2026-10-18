@@ -1,0 +1,61 @@
+name: 'Big Muskie V5 — Publish Verified Full MP4 GitHub Download'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_v5_publish_downloadable_release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download precisely tested one-piece V5 1080p25 MP4
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/big_muskie_v5_release
+          gh run download 39166147006 -n BIG_MUSKIE_V5_FULL_ARCHIVAL_REPLACEMENT_MP4_QC_HOLD -D /tmp/big_muskie_v5_release
+          ls -lh /tmp/big_muskie_v5_release
+          test "$(stat -c%s /tmp/big_muskie_v5_release/BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4)" = 499417535
+          echo '12d6bd7576297f87059f29b7083c6cbedc7790f132280e569b29fe83f3f2998f  /tmp/big_muskie_v5_release/BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4' | sha256sum --check --strict
+      - name: Confirm exact video dimensions, frames, Arthur AAC and 55 archival replacement shots
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          d=Path('/tmp/big_muskie_v5_release')
+          data=json.loads((d/'FINAL_V5_QC.json').read_text())
+          shot=json.loads((d/'V5_ASSET_PROVENANCE_QC.json').read_text())
+          assert data['technical_decode']=='PASS'
+          assert data['replaced_gfx_count']==55
+          assert shot['FX_count']==55 and len(shot['shots'])==56
+          assert data['frames']==35660 and data['fps']==25 and data['duration_seconds']==1426.4
+          assert data['audio_reencoded'] is False
+          obj=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(d/'BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4')]))
+          vs=[x for x in obj['streams'] if x['codec_type']=='video']
+          au=[x for x in obj['streams'] if x['codec_type']=='audio']
+          assert len(vs)==1 and int(vs[0]['nb_frames'])==35660 and (vs[0]['width'],vs[0]['height'])==(1920,1080)
+          assert len(au)==1 and au[0]['codec_name']=='aac'
+          print('V5 RELEASE TECH CHECK PASS',data)
+          PY
+      - name: Publish single downloadable GitHub Release MP4 and its factual QC records
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          TAG=big-muskie-v5-no-primitive-gfx-archive-picture-20261018
+          cd /tmp/big_muskie_v5_release
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4 FINAL_V5_QC.json V5_ASSET_PROVENANCE_QC.json --clobber
+          else
+            gh release create "$TAG" BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4 FINAL_V5_QC.json V5_ASSET_PROVENANCE_QC.json \
+              --title "BIG MUSKIE — V5 Full Archival Picture, FX001–FX055 Removed, Arthur Audio" \
+              --prerelease \
+              --notes "A complete 1920x1080, 25-fps, 23:46.400 high-quality Big Muskie documentary MP4. All 55 primitive editor vector graphics FX001 through FX055 have been replaced with genuine PD/CC-approved archival still sources with restrained editorial movement and internal cuts; also B028 was repaired. 116 beats, 35,660 frames, original Arthur AAC transferred without re-encoding, no generated narration captions. Source images from verified 2026-09-22 V2 production cleared source archive (checksum 7e453f...). Technical full decode PASS and 112 archived frames from 56 replaced beats checked. IMPORTANT: PRE-RELEASE EDITORIAL REVIEW — authentic still photography is reused at multiple points; the overall visual-diversity standard and fine artistic QC are not yet certified final. This release does NOT claim to be the pristine original picture master. It is not the previously rejected vector GFX version."
+          fi
+          gh release view "$TAG" --json url,assets -q '.url, (.assets[] | [.name,.size] | @tsv)'
