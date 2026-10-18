@@ -19,7 +19,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-          python -m pip install --disable-pip-version-check 'Pillow>=11,<13'
+          python -m pip install --disable-pip-version-check 'Pillow>=11,<13' 'opencv-python-headless<5' 'numpy<3'
       - name: Recover high-quality 23:46.400 V4 original-AAC source
         env:
           GH_TOKEN: "${{ github.token }}"
@@ -83,6 +83,7 @@ jobs:
           (qc/'V5_QC_REPORT.txt').write_text('FX001-FX055: 55/55 replaced with authentic archival imagery; frames inspected for all 55, 2 per scene. Other preserved picture is source V4; see technical decode file and attribution manifest. Human visual approval still required.')
           PY
       - name: Deliver full one-piece MP4 as GitHub Actions artifact for actual visual QC
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: BIG_MUSKIE_V5_FULL_ARCHIVAL_REPLACEMENT_MP4_QC_HOLD
