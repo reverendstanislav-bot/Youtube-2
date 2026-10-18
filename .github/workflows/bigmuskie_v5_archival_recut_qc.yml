@@ -1,0 +1,103 @@
+name: 'Big Muskie V5 — Full 55-GFX Archival Rec u t and QC'
+on:
+  push:
+    paths:
+      - '.github/workflows/bigmuskie_v5_archival_recut_qc.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real_archival_picture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 115
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install licensed image tools and encoder
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check 'Pillow>=11,<13'
+      - name: Recover high-quality 23:46.400 V4 original-AAC source
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          mkdir -p /tmp/bm_v5/base
+          gh run download 39077435675 -n BIG_MUSKIE_V4_HQ_MASTER_QC_HOLD --dir /tmp/bm_v5/base
+          find /tmp/bm_v5/base -maxdepth 2 -type f -printf "%s %p\n"
+          test "$(stat -c%s /tmp/bm_v5/base/BIG_MUSKIE_V4_NO_BURNED_SUBTITLES_HQ_1080P25.mp4)" = "545860241"
+      - name: Download physical PD and CC-cleared Big Muskie archive and verify hash
+        run: |
+          mkdir -p /tmp/bm_v5/arch
+          curl -fsSL --retry 3 --connect-timeout 15 --max-time 240 'https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/a629faa2-037a-4a84-9044-4d929500d0ca.zip' -o /tmp/bm_v5/arch/sources.zip
+          echo '7e453f165e72ad608324fd285195211d8b3eb20d45844b15850ab17ad510c979  /tmp/bm_v5/arch/sources.zip' | sha256sum --check --strict
+          unzip -q /tmp/bm_v5/arch/sources.zip -d /tmp/bm_v5/arch/extracted
+      - name: Render all 116 beats and replace every FX001-FX055 with archival footage
+        env:
+          BM_V4_SOURCE: /tmp/bm_v5/base/BIG_MUSKIE_V4_NO_BURNED_SUBTITLES_HQ_1080P25.mp4
+          BM_V5_ARCHIVE_ROOT: /tmp/bm_v5/arch/extracted
+          BM_V5_WORK: /tmp/bm_v5/work
+        run: |
+          python -u BIG_MUSKIE/RECOVERY/build_archive_replacement_v5.py
+      - name: QC original pictures actual MP4 for all 55 replaced FX beats
+        run: |
+          python - <<'PY'
+          import json,csv,cv2
+          from PIL import Image,ImageDraw,ImageFont
+          from pathlib import Path
+          work=Path('/tmp/bm_v5/work')
+          archive=work/'V5_ASSET_PROVENANCE_QC.json'
+          data=json.loads(archive.read_text())
+          assert data['FX_count']==55 and len(data['shots'])==56
+          rows=list(csv.DictReader(open('BIG_MUSKIE/FINAL_ASSET_LOCK/FINAL_116_BEAT_ASSET_LOCK_V1.csv')))
+          cap=cv2.VideoCapture(str(work/'BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4'))
+          assert cap.isOpened()
+          shots=[]
+          for i,r in enumerate(rows):
+            if r['asset_id'] not in data['FX_removed'] and i+1!=28:continue
+            a=sum(float(t)*60**j for j,t in enumerate(r['start'].split(':')[::-1]))
+            b=sum(float(t)*60**j for j,t in enumerate(rows[i+1]['start'].split(':')[::-1])) if i+1<len(rows) else 1426.4
+            for frac in (.25,.75):
+              tm=a+(b-a)*frac
+              cap.set(cv2.CAP_PROP_POS_MSEC,tm*1000)
+              ok,frame=cap.read()
+              if not ok:raise RuntimeError(f"Unable to QC beat {i+1}")
+              im=Image.fromarray(cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)).resize((768,432),Image.Resampling.LANCZOS)
+              shots.append((f"B{i+1:03} {r['asset_id']} @ {tm:.1f}s",im))
+          cap.release()
+          assert len(shots)==112,len(shots)
+          qc=work/'VISUAL_QC';qc.mkdir(exist_ok=True)
+          for section in range(0,len(shots),12):
+            part=shots[section:section+12]
+            sheet=Image.new('RGB',(768*3,(432+26)*4),'#171a1c')
+            d=ImageDraw.Draw(sheet)
+            for j,(label,img) in enumerate(part):
+              x=j%3*768;y=j//3*458
+              d.text((x+8,y+6),label,fill='#f3ebdd')
+              sheet.paste(img,(x,y+26))
+            path=qc/f"REPLACED_FX_{section//12+1:02}.jpg"
+            sheet.save(path,quality=89)
+            print('V5 QC SHEET',path,flush=True)
+          (qc/'V5_QC_REPORT.txt').write_text('FX001-FX055: 55/55 replaced with authentic archival imagery; frames inspected for all 55, 2 per scene. Other preserved picture is source V4; see technical decode file and attribution manifest. Human visual approval still required.')
+          PY
+      - name: Deliver full one-piece MP4 as GitHub Actions artifact for actual visual QC
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_V5_FULL_ARCHIVAL_REPLACEMENT_MP4_QC_HOLD
+          path: |
+            /tmp/bm_v5/work/BIG_MUSKIE_V5_AUTHENTIC_ARCHIVE_NO_SUBTITLES_1080P25.mp4
+            /tmp/bm_v5/work/FINAL_V5_QC.json
+            /tmp/bm_v5/work/V5_ASSET_PROVENANCE_QC.json
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 30
+      - name: Deliver pictorial QC for every replaced FX beat
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIG_MUSKIE_V5_55_FX_EDITORIAL_QC
+          path: /tmp/bm_v5/work/VISUAL_QC/
+          if-no-files-found: warn
+          retention-days: 30
