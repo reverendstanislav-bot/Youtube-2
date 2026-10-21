@@ -1,0 +1,58 @@
+name: Project Pluto Preselected Archival Clips V1
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_clip_export_v1.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  cut:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          ffprobe -version | head -1
+      - name: Get archived original film files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          mkdir -p project_pluto_media
+          gh release download project-pluto-archive-batch1-20261021 --dir project_pluto_media
+          test -s project_pluto_media/F020.webm
+          test -s project_pluto_media/F031.ogv
+      - name: Export source-timestamped caption-free H264 clips
+        run: python3 PROJECT_PLUTO/ARCHIVE/export_clips_v1.py
+      - name: Commit clipped-file checksum and duration results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/CLIP_DELIVERY_VERIFY.json
+          git commit -m "Project Pluto extracted footage duration hash QC [skip ci]"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Project_Pluto_9_Real_Source_Clips_Preselected
+          path: |
+            project_pluto_clips/
+            PROJECT_PLUTO/ARCHIVE/CLIP_DELIVERY_VERIFY.json
+            PROJECT_PLUTO/ARCHIVE/CLIP_SELECTION_V1.csv
+          retention-days: 14
+          compression-level: 0
+      - name: Publish archived originals and preselected clips for direct download
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          TAG="project-pluto-screened-clips-batch1-20261021"
+          gh release create "$TAG" --title "Project Pluto — nine preliminary period-context clips" --notes "Nine context-only footage excerpts, NOT actual Tory / Pluto test video. Clips physically source-cut, no added subtitles or sound. Preliminary human QC from 1fps review; verify before final edit."
+          gh release upload "$TAG" project_pluto_clips/*.mp4 PROJECT_PLUTO/ARCHIVE/CLIP_SELECTION_V1.csv PROJECT_PLUTO/ARCHIVE/CLIP_DELIVERY_VERIFY.json --clobber
+          gh release edit project-pluto-archive-batch1-20261021 --draft=false
