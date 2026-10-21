@@ -1,0 +1,54 @@
+name: Project Pluto Targeted Shot Screening V2
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_screening_v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install media tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow
+      - name: Restore original archive
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          mkdir -p project_pluto_media
+          if ! gh release download project-pluto-archive-batch1-20261021 --dir project_pluto_media; then
+            gh run download 39613589926 --name Project_Pluto_Batch1_Original_Video_and_QC --dir _previous
+            cp _previous/project_pluto_media/* project_pluto_media/
+          fi
+          ls -lah project_pluto_media
+          test -s project_pluto_media/F020.webm
+          test -s project_pluto_media/F026.webm
+          test -s project_pluto_media/F031.ogv
+      - name: Inspect thirteen candidate shot windows at 1-frame-per-second
+        run: python PROJECT_PLUTO/ARCHIVE/screen_v2.py
+      - name: Upload screening sheets to Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/SCREENING_V2/
+          git commit -m "Project Pluto 13 micro contact sheets with source timestamps [skip ci]" || exit 0
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Project_Pluto_13_Second_Level_Screening_Sheets
+          path: PROJECT_PLUTO/ARCHIVE/SCREENING_V2/
+          if-no-files-found: error
+          retention-days: 14
