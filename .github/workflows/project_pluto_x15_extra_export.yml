@@ -1,0 +1,50 @@
+name: Project Pluto — 16 More Distinct NASA Source Clips
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_x15_extra_export.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cut:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Restore verified NASA original movie
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p original_F020
+          gh release download project-pluto-archive-batch1-20261021 --pattern F020.webm --dir original_F020
+      - name: Export source-derived footage
+        run: python PROJECT_PLUTO/ARCHIVE/export_x15_extra_v3.py
+      - name: Commit verifiable QC checksums and accurate durations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/X15_EXTRA_EXPORT_VERIFY_V3.json
+          git commit -m "Project Pluto third wave 16 authentic NASA X15 contexts technical verification [skip ci]"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Pluto_Batch3_16_Additional_NASA_Historical_Clips
+          path: |
+            project_pluto_x15_extra_clips/
+            PROJECT_PLUTO/ARCHIVE/X15_EXTRA_EXPORT_VERIFY_V3.json
+            PROJECT_PLUTO/ARCHIVE/X15_EXTRA_SELECTED_V3.csv
+          retention-days: 14
+          compression-level: 0
+      - name: Publish editor-friendly actual MP4 cuts
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="project-pluto-nasa-x15-context-batch3-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "HIA Project Pluto — 16 additional 1962 NASA historical source cuts" --notes "Source movie: Research Project X-15 (1962), NOT Project Pluto/Tory tests. Authentic in/out frames; no generative footage, no additional captions or audio. Final script alignment and provenance QC still OPEN."
+          gh release upload "$TAG" project_pluto_x15_extra_clips/*.mp4 PROJECT_PLUTO/ARCHIVE/X15_EXTRA_SELECTED_V3.csv PROJECT_PLUTO/ARCHIVE/X15_EXTRA_EXPORT_VERIFY_V3.json --clobber
