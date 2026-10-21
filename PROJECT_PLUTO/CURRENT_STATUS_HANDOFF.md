@@ -1,6 +1,6 @@
 # CURRENT STATUS HANDOFF — PROJECT PLUTO — VIDEO 006
 
-Updated: 2026-10-21
+Updated: 2026-10-21 (extended archive research)
 Owner direction: start sixth HIA video.
 Topic: Project Pluto / Tory nuclear ramjets / proposed SLAM missile.
 Source of truth: this file together with CHANNEL production and NO-SUBTITLES owner locks.
@@ -31,6 +31,13 @@ Source of truth: this file together with CHANNEL production and NO-SUBTITLES own
 - No asserted radioactive destruction trail or proven cause of cancelation without source-specific qualifications.
 - Do not confuse Pluto nuclear ramjet program with Rover/NERVA space nuclear rocket facilities in Area 25. Pluto facility was in Area 26.
 - Images of hypothetical SLAM airframes are illustrations/concepts unless provenance documents an actual physical airframe.
+
+## Extended media archive research (2026-10-21)
+- Additional Commons Pluto facility pool: 56 media entries, including about 48 LOC HAER photographs; post-1968 facility documentation is not footage of 1961/64 operation.
+- Curated first-pass: 28 photo/diagram leads (priority, alternate, HOLD, REJECT explicitly marked). Source details: `ARCHIVE/PHOTO_SHORTLIST_V1.csv`.
+- Moving image search: 4 direct Pluto film catalog leads (no verified downloadable binary); six contextual archival films accessible on Commons with period/subject caveats: `ARCHIVE/FILM_LEDGER_V1.csv`.
+- Internet-requiring acquisition script, not run in assistant's offline runtime: `ARCHIVE/fetch_public_domain_assets.py`.
+- No actual image/video media binaries acquired or visually QC'd in this session. No licenses finally locked, credits spent, or videos produced.
 
 ## Next gated task
 Stage 02: producer/owner review of story angle and 30–45 second opening; Stage 01 deeper source work in parallel. Then full script / source-by-claim QC. No spend.
