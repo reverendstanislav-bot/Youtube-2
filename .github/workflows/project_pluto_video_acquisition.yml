@@ -1,0 +1,67 @@
+name: Project Pluto Video Originals - Batch 1
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_video_acquisition.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: project-pluto-video-batch-1
+  cancel-in-progress: false
+
+jobs:
+  acquire-and-qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python media helpers
+        run: python -m pip install requests pillow
+      - name: Verify FFmpeg installed
+        run: ffprobe -version | head -1
+      - name: Download, probe, hash, sample source media
+        run: python PROJECT_PLUTO/ARCHIVE/acquire_video_batch1.py
+      - name: Record QC evidence in Git
+        if: always()
+        shell: bash
+        run: |
+          if [ -f PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/MEDIA_VERIFICATION.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/
+            if ! git diff --cached --quiet; then
+              git commit -m "Project Pluto: verified downloaded film metadata and timed contact sheets [skip ci]"
+              git push
+            fi
+          fi
+      - name: Upload original videos and machine verification
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Project_Pluto_Batch1_Original_Video_and_QC
+          path: |
+            project_pluto_media/
+            PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/
+          if-no-files-found: warn
+          retention-days: 7
+          compression-level: 0
+      - name: Publish verifiable originals as GitHub release
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          TAG="project-pluto-archive-batch1-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --draft --title "Project Pluto — contextual archive originals batch 1" --notes "Historical contextual sources ONLY, not actual Project Pluto / Tory tests. See PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1 for sha256, contact sheets and rights cautions. Footage and shot licensing should be re-checked before use."
+          shopt -s nullglob
+          sources=(project_pluto_media/*)
+          if [ ${#sources[@]} -gt 0 ]; then
+            gh release upload "$TAG" "${sources[@]}" --clobber
+          fi
+          gh release upload "$TAG" PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/MEDIA_VERIFICATION.json --clobber
