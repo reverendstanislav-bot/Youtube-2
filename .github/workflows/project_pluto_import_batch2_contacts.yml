@@ -1,0 +1,34 @@
+name: Project Pluto Import Batch 2 Review Sheets
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_import_batch2_contacts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import only review sheets and metadata, not the large video binaries
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          for ID in F011 F013 F015 F018; do
+            DIR="PROJECT_PLUTO/ARCHIVE/BATCH2_REVIEW/$ID"
+            mkdir -p "$DIR"
+            gh release download "project-pluto-context-source-$ID-20261021" --pattern '*CONTACT*.jpg' --dir "$DIR"
+            gh release download "project-pluto-context-source-$ID-20261021" --pattern 'FILE_QC.json' --dir "$DIR"
+            ls -lah "$DIR"
+          done
+      - name: Store review evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/BATCH2_REVIEW/
+          git commit -m "Project Pluto: archival video B2 source-timestamped sheets for editorial review [skip ci]"
+          git push
