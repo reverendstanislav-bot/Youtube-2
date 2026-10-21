@@ -1,0 +1,48 @@
+name: Project Pluto Context Archive — Five More Reels
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_video_batch2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  acquire:
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        fileid: [F011, F013, F015, F018, F024]
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install FFmpeg and imaging
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install requests pillow
+      - name: Acquire an original source video and create 20-frame visual contact sheets
+        run: python PROJECT_PLUTO/ARCHIVE/acquire_context_batch2.py --id ${{ matrix.fileid }}
+      - name: Upload review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Pluto_Context_Original_${{ matrix.fileid }}
+          path: pluto_batch2/${{ matrix.fileid }}/
+          retention-days: 14
+          compression-level: 0
+          if-no-files-found: error
+      - name: Publish per-film direct source downloads
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILE_ID: ${{ matrix.fileid }}
+        run: |
+          TAG="project-pluto-context-source-$FILE_ID-20261021"
+          gh release view "$TAG" > /dev/null 2>&1 || gh release create "$TAG" --title "Project Pluto — context archive original $FILE_ID" --notes "Historically distinct USGov-era film: not Tory or Project Pluto test. Pre-editor QC; rights and old film scans still require source-specific verification."
+          gh release upload "$TAG" pluto_batch2/$FILE_ID/* --clobber
