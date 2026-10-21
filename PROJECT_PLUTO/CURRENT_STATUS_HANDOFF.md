@@ -41,3 +41,10 @@ Source of truth: this file together with CHANNEL production and NO-SUBTITLES own
 
 ## Next gated task
 Stage 02: producer/owner review of story angle and 30–45 second opening; Stage 01 deeper source work in parallel. Then full script / source-by-claim QC. No spend.
+
+## Film archive discovery expansion V2 — 2026-10-21
+- 31 playable Commons media-file leads (prior 6 + new 25). These are all contextual / other programs, not Pluto test films.
+- 20 original government film inventory leads (prior 4 + new 16), with catalog/digitization/rights unresolved.
+- 5 TV documentary parts are RESEARCH-ONLY / rights HOLD, excluded from assets.
+- Combined ledger 56 entries; this does NOT represent 56 usable video assets. **0 downloadable Project Pluto-specific archive originals confirmed in this pass; 0 binaries actually downloaded by this chat.**
+- Full details: `ARCHIVE/VIDEO_ARCHIVE_EXPANSION_V2.md` and `ARCHIVE/VIDEO_DOWNLOAD_PRIORITY_V2.csv`, updated `ARCHIVE/FILM_LEDGER_V1.csv`.
