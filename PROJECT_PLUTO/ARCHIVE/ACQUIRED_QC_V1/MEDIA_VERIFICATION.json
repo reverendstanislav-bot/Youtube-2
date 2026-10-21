@@ -1,23 +1,71 @@
 {
-  "assets": [],
-  "failed": [
+  "assets": [
     {
       "id": "F020",
       "title": "Research Project X-15 - development of the X-15 rocket plane - 1962 NASA documentary.webm",
-      "status": "FAILED",
-      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+      "file": "F020.webm",
+      "file_bytes": 107266655,
+      "sha256": "b77f315f01355d79272428af1ea63f21971772cc1a036ebbc1a90b3fad275616",
+      "commons_sha1": "88ca5abe389d831e9ed39371448b626f847cc124",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Research_Project_X-15_-_development_of_the_X-15_rocket_plane_-_1962_NASA_documentary.webm",
+      "direct_source": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Research_Project_X-15_-_development_of_the_X-15_rocket_plane_-_1962_NASA_documentary.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_license_status": "PUBLIC_DOMAIN_REPORTED_ON_SOURCE_PAGE—PER_FRAME_QC_OPEN",
+      "editorial_class": "CONTEXT_ONLY_NOT_PLUTO",
+      "editorial_use": "NASA X-15 research/engineering. NOT Project Pluto.",
+      "contact_sheet": "PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/CONTACT_F020.jpg",
+      "automated_sample_count": 24,
+      "status": "ACQUIRED_NEEDS_EDITOR_REVIEW",
+      "duration": 1645.721,
+      "width": 1280,
+      "height": 720,
+      "codec": "vp9",
+      "fps": "30000/1001",
+      "streams": 2
     },
     {
       "id": "F026",
       "title": "Power for Peace.webm",
-      "status": "FAILED",
-      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+      "file": "F026.webm",
+      "file_bytes": 210126228,
+      "sha256": "fcb7edda0a8aecb427fd8d82801126337fc618535562c044eda263a0f875136c",
+      "commons_sha1": "d6b4394269fe8e4f58676261ef5179e56d700a8d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Power_for_Peace.webm",
+      "direct_source": "https://upload.wikimedia.org/wikipedia/commons/3/36/Power_for_Peace.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_license_status": "PUBLIC_DOMAIN_REPORTED_ON_SOURCE_PAGE—PER_FRAME_QC_OPEN",
+      "editorial_class": "CONTEXT_ONLY_NOT_PLUTO",
+      "editorial_use": "USIA 1955 Atoms for Peace exhibition. NOT Project Pluto.",
+      "contact_sheet": "PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/CONTACT_F026.jpg",
+      "automated_sample_count": 24,
+      "status": "ACQUIRED_NEEDS_EDITOR_REVIEW",
+      "duration": 1030.221,
+      "width": 1920,
+      "height": 1080,
+      "codec": "vp9",
+      "fps": "24/1",
+      "streams": 2
     },
     {
       "id": "F031",
       "title": "1957-07-04 Fort Belvoir Army Package Power Reactor.ogv",
-      "status": "FAILED",
-      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+      "file": "F031.ogv",
+      "file_bytes": 9435966,
+      "sha256": "acb108d18b073dba2b572f15fdf99bf3e547bcc30809b225b2c8327307b1ea15",
+      "commons_sha1": "f7a49f3c43195a472deb28019628832484c049fc",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1957-07-04_Fort_Belvoir_Army_Package_Power_Reactor.ogv",
+      "direct_source": "https://upload.wikimedia.org/wikipedia/commons/e/ef/1957-07-04_Fort_Belvoir_Army_Package_Power_Reactor.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_license_status": "PUBLIC_DOMAIN_REPORTED_ON_SOURCE_PAGE—PER_FRAME_QC_OPEN",
+      "editorial_class": "CONTEXT_ONLY_NOT_PLUTO",
+      "editorial_use": "Universal Newsreel Fort Belvoir SM-1 reactor. NOT Tory/Pluto.",
+      "contact_sheet": "PROJECT_PLUTO/ARCHIVE/ACQUIRED_QC_V1/CONTACT_F031.jpg",
+      "automated_sample_count": 15,
+      "status": "ACQUIRED_NEEDS_EDITOR_REVIEW",
+      "duration": 29.662967,
+      "width": 720,
+      "height": 480,
+      "codec": "theora",
+      "fps": "30000/1001",
+      "streams": 2
     }
-  ]
+  ],
+  "failed": []
 }
