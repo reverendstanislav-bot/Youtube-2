@@ -1,0 +1,45 @@
+name: Project Pluto Precise Video Shot Review — Batch 2
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_batch2_micro_qc.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+jobs:
+  micros:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg and Python image module
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow
+      - name: Download four verified government-film source binaries from GitHub release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p project_pluto_batch2_video
+          for ID in F011 F013 F015 F018; do
+            gh release download "project-pluto-context-source-$ID-20261021" --pattern "$ID.webm" --dir project_pluto_batch2_video
+            test -s project_pluto_batch2_video/$ID.webm
+          done
+      - name: Generate precise per-second candidate frame sheets
+        run: python3 PROJECT_PLUTO/ARCHIVE/batch2_micro_qc.py
+      - name: Commit review assets (only preview images)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/BATCH2_MICRO_QC/
+          git commit -m "Project Pluto 28 verified archival video micro-contact sheets [skip ci]"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Project_Pluto_28_Batch2_Second_by_Second_Review_Sheets
+          path: PROJECT_PLUTO/ARCHIVE/BATCH2_MICRO_QC/
+          retention-days: 14
+          compression-level: 6
