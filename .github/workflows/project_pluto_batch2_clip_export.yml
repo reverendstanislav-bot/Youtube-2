@@ -1,0 +1,54 @@
+name: Project Pluto Context Clips — 21 Real Source Exports
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_batch2_clip_export.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Restore four film downloads from GitHub releases
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p project_pluto_batch2_video
+          for ID in F011 F013 F015 F018; do
+            gh release download "project-pluto-context-source-$ID-20261021" --pattern "$ID.webm" --dir project_pluto_batch2_video
+            test -s project_pluto_batch2_video/$ID.webm
+          done
+      - name: Export twenty-one true archival film fragments
+        run: python3 PROJECT_PLUTO/ARCHIVE/batch2_export_clips.py
+      - name: Save source timestamps and exported-file hashes in Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/BATCH2_EXPORT_VERIFY.json
+          git commit -m "Project Pluto context batch2 21 clipped sources technical QC [skip ci]"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Project_Pluto_21_Caption_Free_Historical_Context_Clips
+          path: |
+            pluto_batch2_clips/
+            PROJECT_PLUTO/ARCHIVE/BATCH2_SELECTED_21.csv
+            PROJECT_PLUTO/ARCHIVE/BATCH2_EXPORT_VERIFY.json
+          retention-days: 14
+          compression-level: 0
+      - name: Stable release for editor downloads
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          TAG="project-pluto-context-clips-batch2-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Project Pluto — 21 historical context clip candidates" --notes "Actual source-derived clips, not generated. None show Tory, Pluto or SLAM; Commons derivatives are AI-upscaled. Subtitles and audio removed from clips. Motion/content/license QC and beat alignment are OPEN."
+          gh release upload "$TAG" pluto_batch2_clips/*.mp4 PROJECT_PLUTO/ARCHIVE/BATCH2_SELECTED_21.csv PROJECT_PLUTO/ARCHIVE/BATCH2_EXPORT_VERIFY.json --clobber
