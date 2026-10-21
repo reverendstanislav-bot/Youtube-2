@@ -1,3 +1,18 @@
+## 2026-10-21 — NEWEST HIA PROJECT PLUTO ACTUAL ARCHIVE STATUS
+
+**LATEST VERIFIED PHYSICAL ASSETS (supersedes historical statuses below):**
+- Seven downloaded context-film binaries: first batch F020, F026, F031 (3); second batch F011, F013, F015, F018 (4). The second batch F024 Boeing download failed HTTP 429, **not acquired**.
+- Four direct Pluto still images acquired by photo archive downloader (P001, P002, P003, P014). Other 22 photo/diagram originals failed, mostly Wikimedia HTTP 429. Do not claim 26/26 acquired. Direct photos release: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-direct-archive-photos-20261021 .
+- Nine context clips (40.1401 sec) from first batch: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-screened-clips-batch1-20261021 .
+- 21 additional context clips (106 sec exactly), all physical MP4s and duration/hash-verified: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-context-clips-batch2-20261021 .
+- Total usable-for-review clips = **30** separate caption-free/no-audio MP4s; total selected context = **146.1401 sec (2m26.14s)**. Source-footage classes = CONTEXT ONLY; 0 actual Tory flight/test operating films. These are preliminary selections, not FINAL in-motion/rights/beat LOCK.
+- 28 context-film candidate shots microscreened at 1fps, 21 preselected, 7 rejected. Per-second cards at `ARCHIVE/BATCH2_MICRO_QC`, CSV `ARCHIVE/BATCH2_SELECTED_21.csv`, actual clip verification `ARCHIVE/BATCH2_EXPORT_VERIFY.json`.
+- The 4 new films are Commons copies often marked AI-upscaled, at actual 678x442 pixels; cannot call original film scans/pristine HD. True Tory footage remains a source acquisition gap. Do not cover that with fake footage from other programs.
+- The 8-section story outline is still **NOT an owner-locked script**. Do not falsely claim these clips align to narration timestamps. Need script + authentic document/still selection and Remotion visual beat plan.
+- NARA original-film request draft `ARCHIVE/NARA_PRIMARY_FILM_REQUEST_2026-10-21.md` is prepared **but not sent**. Current NARA reference email is mopix@nara.gov; official rules limit queries to 15 titles per request.
+- No paid generation, no video generation, no fabricated archive, no new film production claimed.
+
+
 
 ## Physical archival acquisition and scene QC — 2026-10-21 (latest)
 - Actual binary archive originals: 3/3 downloaded and ffprobe verified, SHA256 logged at `ARCHIVE/ACQUIRED_QC_V1/MEDIA_VERIFICATION.json`.
