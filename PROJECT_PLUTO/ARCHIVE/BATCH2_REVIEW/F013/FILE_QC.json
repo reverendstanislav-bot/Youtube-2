@@ -1,0 +1,25 @@
+{
+  "film_id": "F013",
+  "source_title": "Minutemen Missile And Mission 1962.webm",
+  "editorial_class": "CONTEXT_ONLY_NOT_PLUTO",
+  "source_role": "1962 Minuteman / alternatives to SLAM",
+  "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Minutemen_Missile_And_Mission_1962.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Minutemen_Missile_And_Mission_1962.webm",
+  "source_sha1": "69f44cb352fb19da4f2a3039504a3cc294ddba67",
+  "sha256": "e7043fdb830083bb989daa601bd7b4b721d818655ddde8c2e17cc0f6b4d3fe2d",
+  "file_bytes": 178871167,
+  "duration_seconds": 904.117,
+  "native_width": 678,
+  "native_height": 442,
+  "video_codec": "vp9",
+  "fps": "30/1",
+  "source_digital_edit_warning": "Commons derivative may contain AI upscaling; NOT film scan proof",
+  "snapshot_interval_sec": 21,
+  "contact_sheet_pages": [
+    "F013_CONTACT_01.jpg",
+    "F013_CONTACT_02.jpg",
+    "F013_CONTACT_03.jpg"
+  ],
+  "rights_status": "ITEM_REVIEW_OPEN",
+  "editorial_status": "REVIEW_OPEN"
+}

@@ -1,0 +1,25 @@
+{
+  "film_id": "F015",
+  "source_title": "Operation Bluenose AGM-28 Hound Dog Missile B-52 Launch 1960.webm",
+  "editorial_class": "CONTEXT_ONLY_NOT_PLUTO",
+  "source_role": "1960 Hound Dog air-launched missile / contrast",
+  "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Operation_Bluenose_AGM-28_Hound_Dog_Missile_B-52_Launch_1960.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Operation_Bluenose_AGM-28_Hound_Dog_Missile_B-52_Launch_1960.webm",
+  "source_sha1": "08167bedd422a40ef72bb3846c8a3c3d0b47c9d3",
+  "sha256": "6355b7078b64b9594b3467436d392ae7fec2cdb2985f409161b87140bd29c85f",
+  "file_bytes": 383789621,
+  "duration_seconds": 1289.4,
+  "native_width": 678,
+  "native_height": 442,
+  "video_codec": "vp9",
+  "fps": "30/1",
+  "source_digital_edit_warning": "Commons derivative may contain AI upscaling; NOT film scan proof",
+  "snapshot_interval_sec": 30,
+  "contact_sheet_pages": [
+    "F015_CONTACT_01.jpg",
+    "F015_CONTACT_02.jpg",
+    "F015_CONTACT_03.jpg"
+  ],
+  "rights_status": "ITEM_REVIEW_OPEN",
+  "editorial_status": "REVIEW_OPEN"
+}

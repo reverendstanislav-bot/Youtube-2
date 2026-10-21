@@ -1,0 +1,25 @@
+{
+  "film_id": "F011",
+  "source_title": "On Target, The Atlas ICBM 1958.webm",
+  "editorial_class": "CONTEXT_ONLY_NOT_PLUTO",
+  "source_role": "1958 Atlas ICBM / strategic program contrast",
+  "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/On_Target%2C_The_Atlas_ICBM_1958.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "source_page": "https://commons.wikimedia.org/wiki/File:On_Target,_The_Atlas_ICBM_1958.webm",
+  "source_sha1": "aca7c11d77ea1dc4ed9b2db85002928a6183034e",
+  "sha256": "10ca553b2ca7759d06b71c83dac60e8754ca897fba2579be297ef537cb2de927",
+  "file_bytes": 375558104,
+  "duration_seconds": 1349.867,
+  "native_width": 678,
+  "native_height": 442,
+  "video_codec": "vp9",
+  "fps": "30/1",
+  "source_digital_edit_warning": "Commons derivative may contain AI upscaling; NOT film scan proof",
+  "snapshot_interval_sec": 32,
+  "contact_sheet_pages": [
+    "F011_CONTACT_01.jpg",
+    "F011_CONTACT_02.jpg",
+    "F011_CONTACT_03.jpg"
+  ],
+  "rights_status": "ITEM_REVIEW_OPEN",
+  "editorial_status": "REVIEW_OPEN"
+}
