@@ -1,3 +1,17 @@
+## LATEST SOURCE FOOTAGE — 2026-10-21, third film review wave
+- Total physically exported original-film-derived clip proxies: **46 clips**, **239.2331 seconds** / **03:59.2331**, summed from first 9 (40.1401s), second 21 (106s), and third 16 (93.093s).
+- Three verified releases:
+  1. https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-screened-clips-batch1-20261021
+  2. https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-context-clips-batch2-20261021
+  3. https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-nasa-x15-context-batch3-20261021
+- Batch3 source movie F020 X15 (NASA, 1962), additional 16 non-overlapping segments, actual 1280x720; selected via 183 whole-reel spaced frames then 20 full 1fps windows, physical exports ffprobe+SHA checked. Reference `ARCHIVE/X15_EXTRA_SELECTED_V3.csv`, `ARCHIVE/X15_EXTRA_EXPORT_VERIFY_V3.json`.
+- All **46 = CONTEXT ONLY**, not historical Project Pluto operation. Copyright/provenance per-shot final QC still OPEN. No video of actual Tory II-A or Tory II-C operating obtained.
+- Additional found `Space Age Railroad` DoD 1969 (Holloman AFB, New Mexico) from https://archive.org/details/gov.dod.dimoc.26555. Attempted acquisition failed: Internet Archive redirected to archive node `dn800201.us.archive.org`, connection timed out. **Not downloaded, no source QC**. Do not count as obtained film.
+- An original-film NARA reference request on the 13 highest priority Pluto US military reels is drafted, NOT sent. See `ARCHIVE/NARA_PRIMARY_FILM_REQUEST_2026-10-21.md`.
+- No Stage 03 owner-approved script exists, so these are candidate scene selections, NOT source-to-spoken-word LOCK or completed visual beat coverage.
+- No generated footage or paid credits used.
+
+
 ## 2026-10-21 — NEWEST HIA PROJECT PLUTO ACTUAL ARCHIVE STATUS
 
 **LATEST VERIFIED PHYSICAL ASSETS (supersedes historical statuses below):**
