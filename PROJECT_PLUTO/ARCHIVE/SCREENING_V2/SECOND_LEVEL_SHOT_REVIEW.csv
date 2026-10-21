@@ -1,0 +1,14 @@
+candidate,original_id,inspection_start_sec,inspection_end_sec,anchor_sec,suggested_semantic_beat,only_allowed_context,qc_contact_sheet,manual_in_out_review
+X01,F020,615,627,621,X-15 facility presenter with aerospace equipment,"1950s/1960s engineering culture, not Pluto",X01_F020_MICRO.jpg,OPEN
+X02,F020,684,696,690,X-15 aircraft equipment interior/technical engine,"aircraft research laboratory context, NOT Tory",X02_F020_MICRO.jpg,OPEN
+X03,F020,753,765,759,X-15 technicians at aerospace test shop,aerospace workshop only,X03_F020_MICRO.jpg,OPEN
+X04,F020,891,903,897,X-15 hardware being worked in hangar,engineering test program context,X04_F020_MICRO.jpg,OPEN
+X05,F020,960,972,966,NASA specialists at an aircraft system,aircraft instrumentation context,X05_F020_MICRO.jpg,OPEN
+X06,F020,1236,1248,1242,X-15 aircraft in hangar with crew,research aircraft comparison,X06_F020_MICRO.jpg,OPEN
+X07,F020,1374,1386,1380,NASA-era control equipment and dials,period test/measurement context,X07_F020_MICRO.jpg,OPEN
+P01,F026,295,307,301,Atoms for Peace exposition technicians/machinery,US atomic exhibition (Tokyo) only,P01_F026_MICRO.jpg,OPEN
+P02,F026,467,479,473,1955 atomic exhibition laboratory gauge,"USIA expo, cannot portray Pluto facility",P02_F026_MICRO.jpg,OPEN
+P03,F026,553,565,559,exhibition experimental apparatus/robots,atomic technology exhibition,P03_F026_MICRO.jpg,OPEN
+P04,F026,682,694,688,exhibit of atomic-era industrial machine,"Japan exhibition, not US Nevada",P04_F026_MICRO.jpg,OPEN
+B01,F031,1,13,7,1957 Fort Belvoir reactor entry and vessel tour,"other reactor at Fort Belvoir, not Tory",B01_F031_MICRO.jpg,OPEN
+B02,F031,14,26,20,Fort Belvoir machinery/inside reactor building,"other reactor technology, context only",B02_F031_MICRO.jpg,OPEN
