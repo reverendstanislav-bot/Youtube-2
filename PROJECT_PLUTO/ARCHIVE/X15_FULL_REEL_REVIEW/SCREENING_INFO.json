@@ -1,0 +1,11 @@
+{
+  "film_id": "F020",
+  "date": 1962,
+  "source_sha256_provenance": "See ARCHIVE/ACQUIRED_QC_V1/MEDIA_VERIFICATION.json",
+  "interval_sec": 9,
+  "sample_count": 183,
+  "pages": 8,
+  "rights_status": "USGov NASA sourced; upload license review remains open",
+  "scope": "CONTEXT_ONLY_X15_NOT_PLUTO",
+  "qc": "SCREENING_CONTACTS_NOT_SHOTS_APPROVED"
+}
