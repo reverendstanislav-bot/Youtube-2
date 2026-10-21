@@ -7,7 +7,7 @@ Decision source: real 1fps contact sheets from downloaded and ffprobe-verified o
 - 3 actual movie originals captured and hash verified.
 - 13 candidate windows at 1fps reviewed visually.
 - 9 distinct usable / semi-usable contextual source excerpts **preselected** from 2 different films, total **40.1 seconds** (not nine full-length films).
-- 4 of 13 source windows had no useful independent scene for this topic and were REJECTED. The X15 source has many more unexamined scenes.
+- 7 of 13 source windows had no useful independent scene for this topic and were REJECTED (X04/X05/X06 and P01/P02/P03/P04). Six windows supplied nine distinct micro-segments. The X15 source has many more unexamined scenes.
 - Whole `F026` Power for Peace (1956 USIA / Tokyo expo) **HOLD FOR HIA PLUTO**. Expo trick demonstrations, bicycle, Japanese audience and industrial presentation do not add reliable evidence for Tory; no excerpts approved.
 - `F020` visual micro REVIEW: X01 TEST flame and controls (not Pluto); X02 X-15 assembly; X03 console and wiring; X04 generic sky/desert REJECT; X05 talking head/very brief plane view REJECT; X06 blurry flight-camera view REJECT; X07 technician/airframe at 22:55-23:04 good.
 - `F031`: B01 SM-1 building / tour/entry in separate clean cuts; B02 short (less than two seconds) recognizable machine component.
