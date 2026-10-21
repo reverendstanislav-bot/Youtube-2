@@ -1,0 +1,59 @@
+name: Project Pluto archive acquisition
+run-name: Project Pluto archival photo originals
+on:
+  workflow_dispatch:
+    inputs:
+      download_context_video:
+        description: "Also download larger contextual historical films (NOT Pluto tests)"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install HTTP dependency
+        run: python -m pip install requests
+      - name: Download Commons source originals, preserve provenance
+        shell: bash
+        env:
+          CONTEXT_VIDEO: ${{ inputs.download_context_video }}
+        run: |
+          mkdir -p project_pluto_assets
+          if [[ "$CONTEXT_VIDEO" == "true" ]]; then
+            python PROJECT_PLUTO/ARCHIVE/fetch_public_domain_assets.py --out project_pluto_assets --download-context-video
+          else
+            python PROJECT_PLUTO/ARCHIVE/fetch_public_domain_assets.py --out project_pluto_assets
+          fi
+      - name: Summarize success and failed files
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path("project_pluto_assets/ACQUIRED_MANIFEST.json")
+          if not p.exists():
+              print("No manifest produced: API/download preflight failed")
+          else:
+              rows=json.loads(p.read_text())
+              good=[r for r in rows if r.get("download")=="OK"]
+              bad=[r for r in rows if r.get("download")!="OK"]
+              print(f"Actual source files acquired: {len(good)}; errors: {len(bad)}")
+              for row in bad: print(row.get("asset_id",row.get("film_id")),row.get("error"))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: project-pluto-originals-and-provenance
+          path: project_pluto_assets/
+          if-no-files-found: warn
+          retention-days: 7
+          compression-level: 6
