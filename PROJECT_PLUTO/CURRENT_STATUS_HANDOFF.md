@@ -1,3 +1,15 @@
+
+## Physical archival acquisition and scene QC — 2026-10-21 (latest)
+- Actual binary archive originals: 3/3 downloaded and ffprobe verified, SHA256 logged at `ARCHIVE/ACQUIRED_QC_V1/MEDIA_VERIFICATION.json`.
+- Source videos: F020 NASA X-15 27:25.721 / 1280x720, F026 USIA Power for Peace 17:10.221 / 1920x1080, F031 Universal Newsreel Fort Belvoir SM-1 00:29.663 / 720x480 (actual ffprobe resolution). All actual separate historical programs, **NOT Project Pluto testing**.
+- Originals **physically published** in release: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-archive-batch1-20261021 .
+- Editor examined 3 coarse source contact sheets then 13 targeted 1fps micro contact sheets. Review images at `ARCHIVE/SCREENING_V2`. Decisions at `ARCHIVE/EDITORIAL_QC_DECISIONS_V1.md`.
+- **9 distinct PRESELECTED clips totaling 40.1401 sec** physically exported MP4, native dimensions, muted, no captions; ffprobe + SHA verified. Manifest `ARCHIVE/CLIP_SELECTION_V1.csv`, `ARCHIVE/CLIP_DELIVERY_VERIFY.json`. Public release: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-screened-clips-batch1-20261021 .
+- USIA F026 had **zero useful relevant scenes in sampled candidate windows** (Tokyo exposition footage): HOLD/REJECT for Pluto montage notwithstanding good pixels.
+- NO original Tory II-A/II-C operating film acquired; NARA project-specific reel requests remain open.
+- Nine clips are CONTEXT ONLY. Final owner/producer review against script and true moving clip boundaries, individual source rights review, and source labels required before FINAL LOCK. Do not treat this as 9 project-specific archive videos.
+- No generative video or image tools and no paid credits used.
+
 # CURRENT STATUS HANDOFF — PROJECT PLUTO — VIDEO 006
 
 Updated: 2026-10-21 (extended archive research)
