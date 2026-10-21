@@ -1,0 +1,40 @@
+name: Project Pluto — Exhaustive X15 Source Screening
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_x15_full_scan.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow
+      - name: Restore first original NASA film without Wikimedia redownload
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p source_F020
+          gh release download project-pluto-archive-batch1-20261021 --pattern "F020.webm" --dir source_F020
+          test -s source_F020/F020.webm
+      - name: Actual-video 9-second scene sampling
+        run: python PROJECT_PLUTO/ARCHIVE/x15_full_reel_scan.py
+      - name: Store review sheets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/X15_FULL_REEL_REVIEW/
+          git commit -m "X15 entire source reel 9-second screen review, not edited clips [skip ci]"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: X15_Full_Original_1962_Frame_Screening
+          path: PROJECT_PLUTO/ARCHIVE/X15_FULL_REEL_REVIEW/
+          retention-days: 14
