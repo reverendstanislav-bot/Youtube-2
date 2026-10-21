@@ -1,0 +1,39 @@
+name: Project Pluto — Screen 20 More NASA Film Windows
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_x15_extra_micro.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow
+      - name: Get previously verified NASA original
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p source_F020
+          gh release download project-pluto-archive-batch1-20261021 --pattern F020.webm --dir source_F020
+      - name: Screen each candidate with original-film second timecodes
+        run: python PROJECT_PLUTO/ARCHIVE/x15_extra_micro.py
+      - name: Save all 1-second review photos to Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/X15_MICRO_V3
+          git commit -m "Inspect 20 additional X15 context shots before selection [skip ci]"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: X15_20_extra_1fps_screening_images
+          path: PROJECT_PLUTO/ARCHIVE/X15_MICRO_V3/
+          retention-days: 14
