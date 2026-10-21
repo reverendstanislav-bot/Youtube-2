@@ -1,0 +1,88 @@
+name: Export TC497 English CC
+on:
+  push:
+    paths:
+      - '.github/workflows/export_tc497_srt.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get locked word-level alignment
+        shell: bash
+        run: |
+          mkdir -p /tmp/tc497/alignment
+          curl -fL --retry 3 --retry-all-errors --connect-timeout 15 --max-time 180 "https://d2ol7oe51mr4n9.cloudfront.net/user_3J3zfwu7kpgllQvPySWoLtXHwdR/7ead52a5-61f7-44be-b6d0-861d8159592f.zip" -o /tmp/tc497/alignment.zip
+          unzip -q /tmp/tc497/alignment.zip -d /tmp/tc497/alignment
+          find /tmp/tc497/alignment -type f -name 'TC497_VO_WORD_LEVEL.csv' -print
+      - name: Export synced English subtitles
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import csv, json, re
+          
+          paths=list(Path('/tmp/tc497/alignment').rglob('TC497_VO_WORD_LEVEL.csv'))
+          if len(paths)!=1:
+              raise SystemExit(f'Expected one canonical word-level CSV, found {len(paths)}')
+          with paths[0].open(encoding='utf-8-sig',newline='') as f:
+              records=list(csv.DictReader(f))
+          words=[]
+          for r in records:
+              s=float(r['start_sec']); e=float(r['end_sec']); w=r['word'].strip()
+              if not w or e<=s or s>=1225.45: continue
+              if s<0: s=0.0
+              words.append((s,min(e,1225.45),w))
+          words.sort(key=lambda x:x[0])
+          if len(words)<1500 or words[0][0]>15 or words[-1][1]<1150:
+              raise SystemExit(f'Alignment appears incomplete: {len(words)} words, first={words[0] if words else None}, last={words[-1] if words else None}')
+          phrases=[]
+          buffer=[]
+          for w in words:
+              if buffer:
+                  candidate=buffer+[w]
+                  duration=candidate[-1][1]-candidate[0][0]
+                  chars=len(' '.join(x[2] for x in candidate))
+                  gap=w[0]-buffer[-1][1]
+                  after_punct=bool(re.search(r'[.!?;:]$',buffer[-1][2]))
+                  if len(candidate)>7 or chars>45 or duration>2.70 or gap>0.50 or (after_punct and len(buffer)>=2):
+                      phrases.append(buffer)
+                      buffer=[]
+              buffer.append(w)
+          if buffer: phrases.append(buffer)
+          
+          def ts(s):
+              ms=round(max(0,s)*1000)
+              h,ms=divmod(ms,3600000);m,ms=divmod(ms,60000);sec,ms=divmod(ms,1000)
+              return f'{h:02d}:{m:02d}:{sec:02d},{ms:03d}'
+          
+          lines=[]
+          last_end=0.0
+          for i,p in enumerate(phrases):
+              start=max(last_end,p[0][0])
+              end=min(1225.45,p[-1][1]+0.12)
+              if i+1<len(phrases):end=min(end,phrases[i+1][0][0])
+              if end<=start:end=start+0.01
+              caption=' '.join(v[2] for v in p)
+              lines.append(f'{i+1}\n{ts(start)} --> {ts(end)}\n{caption}\n')
+              last_end=end
+          out=Path('TC497/PUBLISHING/TC497_ENGLISH_CC.srt')
+          out.parent.mkdir(parents=True,exist_ok=True)
+          out.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          qc={'source':'TC497_VO_WORD_LEVEL.csv','word_count':len(words),'cues':len(phrases),'first_start':phrases[0][0][0],'last_end':last_end,'full_master_seconds':1236.533333,'language':'en','format':'SRT','status':'PASS'}
+          print(json.dumps(qc,indent=2))
+          PY
+      - name: Commit SRT to TC497 publishing folder
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TC497/PUBLISHING/TC497_ENGLISH_CC.srt
+          if ! git diff --cached --quiet; then
+            git commit -m "publish TC497 synced English SRT"
+            git push
+          fi
