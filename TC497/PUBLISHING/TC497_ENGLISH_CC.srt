@@ -1,0 +1,2224 @@
+1
+00:00:00,000 --> 00:00:01,380
+In the Arizona desert,
+
+2
+00:00:01,860 --> 00:00:03,900
+the United States Army once tested a
+
+3
+00:00:03,900 --> 00:00:06,460
+vehicle that looked less like a truck,
+
+4
+00:00:06,900 --> 00:00:09,440
+and more like an entire transportation
+
+5
+00:00:09,440 --> 00:00:11,700
+system moving under its own
+
+6
+00:00:11,700 --> 00:00:12,320
+power.
+
+7
+00:00:12,940 --> 00:00:15,460
+It was 572 feet long,
+
+8
+00:00:16,000 --> 00:00:18,480
+13 units in all, a towering
+
+9
+00:00:18,480 --> 00:00:20,740
+control car followed by cargo
+
+10
+00:00:20,740 --> 00:00:22,260
+and power sections.
+
+11
+00:00:23,060 --> 00:00:25,360
+54 wheels could drive the machine
+
+12
+00:00:25,360 --> 00:00:25,980
+forward.
+
+13
+00:00:26,460 --> 00:00:28,580
+It carried a crew of six, and
+
+14
+00:00:28,580 --> 00:00:31,200
+could haul roughly 150 tons
+
+15
+00:00:31,200 --> 00:00:32,120
+of cargo.
+
+16
+00:00:33,040 --> 00:00:35,800
+And despite being called an overland train,
+
+17
+00:00:36,040 --> 00:00:37,420
+it needed no railroad,
+
+18
+00:00:38,080 --> 00:00:38,900
+no rails,
+
+19
+00:00:39,420 --> 00:00:40,620
+no prepared highway.
+
+20
+00:00:41,300 --> 00:00:43,820
+It was designed to keep moving when
+
+21
+00:00:43,820 --> 00:00:46,040
+conventional transportation infrastructure
+
+22
+00:00:46,040 --> 00:00:47,420
+simply ended.
+
+23
+00:00:48,060 --> 00:00:50,300
+This was the LeTourneau TC
+
+24
+00:00:50,300 --> 00:00:52,780
+497 Overland Train
+
+25
+00:00:52,780 --> 00:00:54,000
+Mark II.
+
+26
+00:00:54,580 --> 00:00:56,980
+At the time, the Army described it
+
+27
+00:00:56,980 --> 00:00:59,340
+as the longest rubber -tired vehicle
+
+28
+00:00:59,340 --> 00:01:00,500
+in the world.
+
+29
+00:01:01,080 --> 00:01:02,920
+But its size is not the strangest
+
+30
+00:01:02,920 --> 00:01:03,960
+part of the story.
+
+31
+00:01:04,620 --> 00:01:06,480
+Because after the Army took this machine
+
+32
+00:01:06,480 --> 00:01:08,820
+into the desert and tested it, the
+
+33
+00:01:08,820 --> 00:01:11,000
+TC 497 did something
+
+34
+00:01:11,240 --> 00:01:13,680
+that makes its disappearance much more
+
+35
+00:01:13,680 --> 00:01:14,380
+interesting.
+
+36
+00:01:14,980 --> 00:01:17,260
+It demonstrated that the idea could
+
+37
+00:01:17,260 --> 00:01:18,480
+actually work,
+
+38
+00:01:18,920 --> 00:01:20,960
+and America scrapped it anyway.
+
+39
+00:01:21,600 --> 00:01:23,720
+The TC 497
+
+40
+00:01:23,720 --> 00:01:26,260
+did not begin with somebody asking how
+
+41
+00:01:26,260 --> 00:01:28,700
+large a vehicle could possibly be built.
+
+42
+00:01:29,420 --> 00:01:31,580
+It began with a much more practical
+
+43
+00:01:31,580 --> 00:01:32,300
+question.
+
+44
+00:01:33,300 --> 00:01:35,960
+What happens when the road ends?
+
+45
+00:01:36,800 --> 00:01:39,160
+Railroads can move enormous quantities of
+
+46
+00:01:39,160 --> 00:01:39,660
+cargo,
+
+47
+00:01:40,200 --> 00:01:42,300
+but only where somebody has already laid
+
+48
+00:01:42,300 --> 00:01:42,940
+rails.
+
+49
+00:01:44,040 --> 00:01:46,060
+Trucks can move almost anywhere a road
+
+50
+00:01:46,060 --> 00:01:47,060
+has been built.
+
+51
+00:01:47,520 --> 00:01:49,480
+But during and after the Second World
+
+52
+00:01:49,480 --> 00:01:51,660
+War, the United States military
+
+53
+00:01:51,660 --> 00:01:54,100
+repeatedly encountered another kind of
+
+54
+00:01:54,100 --> 00:01:55,140
+logistics problem.
+
+55
+00:01:55,660 --> 00:01:57,800
+Moving heavy equipment through enormous
+
+56
+00:01:57,800 --> 00:01:59,880
+areas where neither system
+
+57
+00:01:59,880 --> 00:02:00,840
+existed.
+
+58
+00:02:01,500 --> 00:02:03,820
+The Cold War made that problem
+
+59
+00:02:03,820 --> 00:02:05,240
+even more urgent.
+
+60
+00:02:05,880 --> 00:02:07,960
+Across Alaska, Northern Canada, and
+
+61
+00:02:07,960 --> 00:02:08,480
+Greenland,
+
+62
+00:02:08,980 --> 00:02:11,400
+the United States and Canada were building
+
+63
+00:02:11,400 --> 00:02:13,680
+the distant early warning line,
+
+64
+00:02:14,260 --> 00:02:16,640
+a chain of radar installations positioned
+
+65
+00:02:16,640 --> 00:02:17,840
+across the Arctic.
+
+66
+00:02:18,540 --> 00:02:21,140
+Their purpose was to provide early warning
+
+67
+00:02:21,140 --> 00:02:23,660
+of a possible attack approaching across the
+
+68
+00:02:23,660 --> 00:02:24,560
+polar region.
+
+69
+00:02:25,380 --> 00:02:27,240
+But before a radar station could watch
+
+70
+00:02:27,240 --> 00:02:27,900
+the Arctic,
+
+71
+00:02:28,320 --> 00:02:29,860
+somebody had to build it.
+
+72
+00:02:30,020 --> 00:02:31,780
+That meant transporting construction
+
+73
+00:02:31,780 --> 00:02:32,580
+machinery,
+
+74
+00:02:33,020 --> 00:02:33,380
+fuel,
+
+75
+00:02:33,980 --> 00:02:34,600
+personnel,
+
+76
+00:02:35,340 --> 00:02:36,420
+electrical equipment,
+
+77
+00:02:36,900 --> 00:02:37,760
+and supplies.
+
+78
+00:02:38,400 --> 00:02:40,440
+All into some of the least developed
+
+79
+00:02:40,650 --> 00:02:43,200
+and least accessible terrain on the
+
+80
+00:02:43,200 --> 00:02:43,680
+continent.
+
+81
+00:02:44,560 --> 00:02:46,720
+There were places with no highways waiting
+
+82
+00:02:46,720 --> 00:02:47,700
+for a convoy,
+
+83
+00:02:48,100 --> 00:02:50,540
+no rail network running to the construction
+
+84
+00:02:50,540 --> 00:02:51,200
+site.
+
+85
+00:02:51,980 --> 00:02:54,580
+Sometimes there was barely a route at
+
+86
+00:02:54,580 --> 00:02:55,160
+all.
+
+87
+00:02:55,880 --> 00:02:57,620
+The army needed a vehicle that could
+
+88
+00:02:57,620 --> 00:02:59,700
+carry serious loads across wilderness
+
+89
+00:02:59,700 --> 00:03:02,260
+without first requiring somebody to build
+
+90
+00:03:02,260 --> 00:03:04,600
+an entire transportation network for
+
+91
+00:03:04,600 --> 00:03:06,480
+it. In other words,
+
+92
+00:03:07,040 --> 00:03:09,700
+it wanted a transportation system that
+
+93
+00:03:09,700 --> 00:03:11,900
+did not depend on another transportation
+
+94
+00:03:11,900 --> 00:03:14,220
+system already being there.
+
+95
+00:03:14,600 --> 00:03:16,980
+And one American engineer had already
+
+96
+00:03:16,980 --> 00:03:19,580
+spent years experimenting with exactly
+
+97
+00:03:19,580 --> 00:03:20,640
+that idea.
+
+98
+00:03:20,900 --> 00:03:23,000
+Robert Gilmour -Lauterno made his name
+
+99
+00:03:23,000 --> 00:03:24,720
+building heavy machinery.
+
+100
+00:03:25,400 --> 00:03:27,020
+But one of the ideas that made
+
+101
+00:03:27,020 --> 00:03:29,460
+his machines unusual was not simply
+
+102
+00:03:29,460 --> 00:03:32,060
+bigger engines or bigger tires.
+
+103
+00:03:32,680 --> 00:03:33,940
+It was electricity.
+
+104
+00:03:34,740 --> 00:03:37,460
+A conventional truck uses an engine,
+
+105
+00:03:37,700 --> 00:03:38,360
+a transmission,
+
+106
+00:03:38,880 --> 00:03:41,520
+drive shafts, and axles to send
+
+107
+00:03:41,520 --> 00:03:43,340
+mechanical power to its wheels.
+
+108
+00:03:44,140 --> 00:03:46,400
+That arrangement works well when the vehicle
+
+109
+00:03:46,400 --> 00:03:48,380
+is one compact machine.
+
+110
+00:03:49,080 --> 00:03:51,140
+It becomes much more complicated when the
+
+111
+00:03:51,140 --> 00:03:53,040
+vehicle starts growing into a chain of
+
+112
+00:03:53,040 --> 00:03:54,120
+powered sections,
+
+113
+00:03:54,700 --> 00:03:55,860
+hundreds of feet long.
+
+114
+00:03:56,640 --> 00:03:58,140
+The turn -o approached the problem
+
+115
+00:03:58,140 --> 00:03:58,780
+differently.
+
+116
+00:03:59,200 --> 00:04:01,140
+An engine could turn a generator.
+
+117
+00:04:01,700 --> 00:04:03,920
+The generator could produce electricity.
+
+118
+00:04:04,480 --> 00:04:06,780
+And that electricity could be sent to
+
+119
+00:04:06,780 --> 00:04:08,540
+traction motors at the wheels.
+
+120
+00:04:09,220 --> 00:04:11,280
+Now the source of power and the
+
+121
+00:04:11,280 --> 00:04:13,980
+wheels using that power did not have
+
+122
+00:04:13,980 --> 00:04:16,240
+to be connected by one enormous
+
+123
+00:04:16,240 --> 00:04:18,080
+mechanical drive train.
+
+124
+00:04:19,260 --> 00:04:21,180
+cables could carry the energy through the
+
+125
+00:04:21,180 --> 00:04:21,700
+machine
+
+126
+00:04:22,100 --> 00:04:24,460
+and that changed what was possible.
+
+127
+00:04:25,000 --> 00:04:26,500
+A trailer no longer had to be
+
+128
+00:04:26,500 --> 00:04:28,480
+nothing more than dead weight behind one
+
+129
+00:04:28,480 --> 00:04:29,000
+tractor.
+
+130
+00:04:30,080 --> 00:04:32,620
+sections could contribute traction of their
+
+131
+00:04:32,620 --> 00:04:33,140
+own.
+
+132
+00:04:33,900 --> 00:04:35,520
+Another section could be added,
+
+133
+00:04:35,940 --> 00:04:36,740
+then another.
+
+134
+00:04:37,280 --> 00:04:39,120
+And power could be distributed through the
+
+135
+00:04:39,120 --> 00:04:39,620
+train
+
+136
+00:04:40,080 --> 00:04:41,860
+instead of asking one tractor at the
+
+137
+00:04:41,860 --> 00:04:44,540
+front to drag everything behind it.
+
+138
+00:04:45,000 --> 00:04:46,680
+The turn -o had been developing electric
+
+139
+00:04:46,680 --> 00:04:48,720
+wheel technology long before the
+
+140
+00:04:48,720 --> 00:04:49,820
+TC497.
+
+141
+00:04:51,200 --> 00:04:53,320
+Patents filed in the early 1950s
+
+142
+00:04:53,320 --> 00:04:55,860
+described vehicle wheels incorporating
+
+143
+00:04:55,860 --> 00:04:58,000
+electric traction motors directly
+
+144
+00:04:58,000 --> 00:04:59,840
+into the wheel assembly.
+
+145
+00:05:00,380 --> 00:05:02,260
+The basic idea was simple enough to
+
+146
+00:05:02,260 --> 00:05:03,740
+explain in a diagram.
+
+147
+00:05:04,400 --> 00:05:06,700
+Its consequences were enormous.
+
+148
+00:05:06,700 --> 00:05:09,400
+The TC497 was
+
+149
+00:05:09,400 --> 00:05:11,280
+not the first land train.
+
+150
+00:05:12,100 --> 00:05:13,800
+It was the result of years of
+
+151
+00:05:13,800 --> 00:05:15,920
+increasingly ambitious experiments.
+
+152
+00:05:16,740 --> 00:05:18,540
+The turn -o had already developed the
+
+153
+00:05:18,540 --> 00:05:21,100
+turn -o -train concept for carrying heavy
+
+154
+00:05:21,100 --> 00:05:23,640
+loads through remote areas where
+
+155
+00:05:23,640 --> 00:05:25,820
+normal transportation infrastructure was
+
+156
+00:05:25,820 --> 00:05:26,400
+limited.
+
+157
+00:05:27,040 --> 00:05:29,260
+Then came machines designed specifically for
+
+158
+00:05:29,260 --> 00:05:30,460
+snow and tundra.
+
+159
+00:05:30,960 --> 00:05:33,260
+One of them was the Snow Buggy,
+
+160
+00:05:33,520 --> 00:05:36,060
+an experimental vehicle riding on enormous
+
+161
+00:05:36,060 --> 00:05:37,460
+low -pressure tyres.
+
+162
+00:05:38,240 --> 00:05:40,100
+turn -o was also involved with the
+
+163
+00:05:40,100 --> 00:05:42,340
+VC22 Snow Freighter,
+
+164
+00:05:42,840 --> 00:05:45,460
+a long articulated machine built
+
+165
+00:05:45,460 --> 00:05:47,360
+for hauling cargo through the north.
+
+166
+00:05:48,120 --> 00:05:49,700
+The idea was strange,
+
+167
+00:05:50,240 --> 00:05:52,340
+but it was not purely theoretical.
+
+168
+00:05:53,520 --> 00:05:55,180
+Machines based on this concept actually
+
+169
+00:05:55,180 --> 00:05:57,160
+operated in arctic conditions.
+
+170
+00:05:58,020 --> 00:05:59,580
+The army then asked the turn -o
+
+171
+00:05:59,580 --> 00:06:01,500
+to combine the logic of the land
+
+172
+00:06:01,500 --> 00:06:04,080
+train with the enormous tyres and cross
+
+173
+00:06:04,080 --> 00:06:06,560
+-country mobility being developed for snow
+
+174
+00:06:06,560 --> 00:06:07,140
+vehicles.
+
+175
+00:06:08,140 --> 00:06:10,500
+The result was the Logistics Cargo
+
+176
+00:06:10,500 --> 00:06:11,320
+Carrier,
+
+177
+00:06:12,100 --> 00:06:13,760
+the LCC -1.
+
+178
+00:06:14,600 --> 00:06:16,620
+It could haul about 45 tonnes,
+
+179
+00:06:17,440 --> 00:06:19,080
+and it was successful enough that the
+
+180
+00:06:19,080 --> 00:06:21,140
+army did not walk away from the
+
+181
+00:06:21,140 --> 00:06:21,680
+concept.
+
+182
+00:06:22,160 --> 00:06:24,940
+Instead, it asked for something bigger,
+
+183
+00:06:25,920 --> 00:06:26,660
+much bigger.
+
+184
+00:06:27,360 --> 00:06:29,520
+By the end of the 1950s, the
+
+185
+00:06:29,520 --> 00:06:31,140
+question was no longer whether a multi
+
+186
+00:06:31,140 --> 00:06:33,700
+-section, electrically -driven, off -road
+
+187
+00:06:33,700 --> 00:06:34,980
+train could exist.
+
+188
+00:06:35,680 --> 00:06:37,980
+The question was how far the
+
+189
+00:06:37,980 --> 00:06:39,400
+concept could be pushed.
+
+190
+00:06:39,540 --> 00:06:42,240
+The answer became the TC497
+
+191
+00:06:42,240 --> 00:06:44,960
+Overland Train Mark II.
+
+192
+00:06:45,540 --> 00:06:47,960
+From the front, the control car already
+
+193
+00:06:47,960 --> 00:06:49,100
+looked unusual.
+
+194
+00:06:49,560 --> 00:06:52,020
+It rose high above its giant tyres,
+
+195
+00:06:52,800 --> 00:06:54,800
+more like a small building on wheels
+
+196
+00:06:55,190 --> 00:06:56,640
+than the cab of a truck.
+
+197
+00:06:57,600 --> 00:07:00,260
+Behind it came cargo sections and additional
+
+198
+00:07:00,260 --> 00:07:01,280
+power units.
+
+199
+00:07:01,920 --> 00:07:04,380
+In the full army configuration described at
+
+200
+00:07:04,380 --> 00:07:04,820
+Yuma,
+
+201
+00:07:05,220 --> 00:07:07,220
+the entire system contained
+
+202
+00:07:07,220 --> 00:07:08,760
+13 units
+
+203
+00:07:09,170 --> 00:07:11,660
+and stretched 572
+
+204
+00:07:11,660 --> 00:07:13,960
+feet from end to end.
+
+205
+00:07:14,600 --> 00:07:17,220
+The machine rode on tyres roughly 10
+
+206
+00:07:17,220 --> 00:07:18,220
+feet tall.
+
+207
+00:07:18,980 --> 00:07:20,580
+54 wheels were driven.
+
+208
+00:07:21,260 --> 00:07:23,880
+A six -person crew operated the system,
+
+209
+00:07:24,100 --> 00:07:25,940
+and the army said the train could
+
+210
+00:07:25,940 --> 00:07:28,600
+carry about 150 tonnes of
+
+211
+00:07:28,600 --> 00:07:29,180
+cargo.
+
+212
+00:07:30,260 --> 00:07:31,080
+vehicles,
+
+213
+00:07:31,820 --> 00:07:32,740
+construction equipment,
+
+214
+00:07:33,220 --> 00:07:33,840
+containers.
+
+215
+00:07:34,820 --> 00:07:37,300
+The final design used gas turbine engines
+
+216
+00:07:37,300 --> 00:07:39,900
+to generate electrical power for the traction
+
+217
+00:07:39,900 --> 00:07:40,600
+system.
+
+218
+00:07:41,160 --> 00:07:43,420
+Instead of one enormous engine
+
+219
+00:07:43,420 --> 00:07:45,340
+mechanically pulling a line of passive
+
+220
+00:07:45,340 --> 00:07:45,980
+trailers,
+
+221
+00:07:46,400 --> 00:07:48,660
+the Overland Train could distribute
+
+222
+00:07:48,660 --> 00:07:50,400
+power through the machine.
+
+223
+00:07:51,040 --> 00:07:53,460
+The result looked excessive because
+
+224
+00:07:53,460 --> 00:07:55,780
+almost every normal assumption about a truck
+
+225
+00:07:55,780 --> 00:07:57,160
+had been removed.
+
+226
+00:07:57,880 --> 00:07:59,420
+The front vehicle did not have to
+
+227
+00:07:59,420 --> 00:08:01,980
+provide all of the traction by itself.
+
+228
+00:08:02,580 --> 00:08:04,880
+The sections behind it did not have
+
+229
+00:08:04,880 --> 00:08:06,720
+to remain completely passive,
+
+230
+00:08:07,100 --> 00:08:09,340
+and the overall length did not have
+
+231
+00:08:09,340 --> 00:08:11,760
+to stop where a conventional mechanical drive
+
+232
+00:08:11,760 --> 00:08:13,840
+train became impractical.
+
+233
+00:08:14,740 --> 00:08:16,320
+The LeTourneau had effectively turned
+
+234
+00:08:16,320 --> 00:08:18,920
+something resembling a convoy into
+
+235
+00:08:18,920 --> 00:08:20,480
+one connected machine.
+
+236
+00:08:21,580 --> 00:08:24,260
+Army historical accounts place its maximum
+
+237
+00:08:24,260 --> 00:08:26,760
+speed at roughly 20 miles per
+
+238
+00:08:26,760 --> 00:08:27,260
+hour,
+
+239
+00:08:27,860 --> 00:08:30,460
+and its operating range at around 400
+
+240
+00:08:30,460 --> 00:08:31,240
+miles.
+
+241
+00:08:32,040 --> 00:08:34,040
+Those figures would be unimpressive for an
+
+242
+00:08:34,040 --> 00:08:35,420
+ordinary highway truck.
+
+243
+00:08:35,980 --> 00:08:38,600
+But the TC497 was not
+
+244
+00:08:38,600 --> 00:08:40,260
+built for an ordinary highway.
+
+245
+00:08:41,160 --> 00:08:43,680
+Its entire purpose was to go where
+
+246
+00:08:43,680 --> 00:08:45,340
+the highway did not exist.
+
+247
+00:08:45,500 --> 00:08:48,000
+But building a machine this long created
+
+248
+00:08:48,000 --> 00:08:49,920
+a problem that had nothing to do
+
+249
+00:08:49,920 --> 00:08:50,720
+with horsepower.
+
+250
+00:08:51,580 --> 00:08:52,880
+How do you make it turn?
+
+251
+00:08:53,700 --> 00:08:56,200
+A normal truck pulling a trailer does
+
+252
+00:08:56,200 --> 00:08:58,740
+not trace one perfect path around
+
+253
+00:08:58,740 --> 00:08:59,380
+a corner.
+
+254
+00:08:59,960 --> 00:09:02,680
+The trailer cuts inside the tractor's turn.
+
+255
+00:09:03,480 --> 00:09:04,580
+Add another trailer,
+
+256
+00:09:05,060 --> 00:09:07,460
+and the geometry becomes more difficult.
+
+257
+00:09:08,440 --> 00:09:10,820
+Now imagine that problem repeated through a
+
+258
+00:09:10,820 --> 00:09:12,740
+vehicle hundreds of feet long.
+
+259
+00:09:13,600 --> 00:09:15,820
+If every section simply behaved like an
+
+260
+00:09:15,820 --> 00:09:17,200
+ordinary road trailer,
+
+261
+00:09:17,600 --> 00:09:19,280
+the rear of the train could cut
+
+262
+00:09:19,280 --> 00:09:21,640
+dramatically across the inside of a turn.
+
+263
+00:09:22,040 --> 00:09:24,320
+On a road, that might mean leaving
+
+264
+00:09:24,320 --> 00:09:25,100
+the pavement.
+
+265
+00:09:26,000 --> 00:09:28,620
+In rough terrain, it could mean encountering
+
+266
+00:09:28,620 --> 00:09:29,500
+obstacles,
+
+267
+00:09:29,980 --> 00:09:32,520
+or ground the control car had avoided.
+
+268
+00:09:33,600 --> 00:09:36,200
+So the TC497 could
+
+269
+00:09:36,200 --> 00:09:38,380
+not behave exactly like a conventional
+
+270
+00:09:38,380 --> 00:09:40,180
+tractor -trailer combination.
+
+271
+00:09:41,020 --> 00:09:43,340
+Its steering system was designed so the
+
+272
+00:09:43,340 --> 00:09:45,580
+sections of the train could more closely
+
+273
+00:09:45,580 --> 00:09:47,860
+follow the path established by the lead
+
+274
+00:09:47,860 --> 00:09:48,420
+vehicle.
+
+275
+00:09:49,120 --> 00:09:50,980
+The machine also had to deal with
+
+276
+00:09:50,980 --> 00:09:52,320
+another basic problem,
+
+277
+00:09:52,900 --> 00:09:53,400
+traction.
+
+278
+00:09:54,640 --> 00:09:56,420
+If one tractor attempted to drag a
+
+279
+00:09:56,420 --> 00:09:58,900
+massive load through loose sand using
+
+280
+00:09:58,900 --> 00:10:01,460
+only a few driven wheels, those wheels
+
+281
+00:10:01,460 --> 00:10:02,460
+could lose grip,
+
+282
+00:10:02,860 --> 00:10:05,300
+while the trailers behind it became
+
+283
+00:10:05,300 --> 00:10:06,040
+anchors.
+
+284
+00:10:07,200 --> 00:10:09,340
+Distributed electric drive changed that
+
+285
+00:10:09,340 --> 00:10:10,080
+relationship.
+
+286
+00:10:11,140 --> 00:10:13,140
+Power could be delivered to wheels throughout
+
+287
+00:10:13,140 --> 00:10:15,360
+the system, and the enormous
+
+288
+00:10:15,360 --> 00:10:17,660
+tyres spread the vehicle's load
+
+289
+00:10:17,660 --> 00:10:20,120
+over a larger contact area than
+
+290
+00:10:20,120 --> 00:10:21,700
+conventional truck tyres.
+
+291
+00:10:22,440 --> 00:10:24,860
+The result was a machine designed around
+
+292
+00:10:24,860 --> 00:10:27,380
+cross -country mobility, rather than
+
+293
+00:10:27,380 --> 00:10:28,500
+highway performance.
+
+294
+00:10:29,400 --> 00:10:31,240
+But the Army wanted to know exactly
+
+295
+00:10:31,240 --> 00:10:33,320
+how effective that approach really
+
+296
+00:10:33,320 --> 00:10:34,120
+was.
+
+297
+00:10:34,560 --> 00:10:36,580
+So it did not simply photograph the
+
+298
+00:10:36,580 --> 00:10:38,740
+TC497 in the desert
+
+299
+00:10:38,930 --> 00:10:41,220
+and declare the experiment successful.
+
+300
+00:10:42,460 --> 00:10:43,580
+studied the terrain.
+
+301
+00:10:44,220 --> 00:10:45,400
+They measured the ground.
+
+302
+00:10:45,920 --> 00:10:48,440
+They planned specific test routes.
+
+303
+00:10:49,220 --> 00:10:50,740
+And they tried to connect what happened
+
+304
+00:10:50,740 --> 00:10:52,680
+to the machine with measurable
+
+305
+00:10:52,680 --> 00:10:55,400
+characteristics of the landscape beneath it.
+
+306
+00:10:55,880 --> 00:10:57,900
+That effort became Project
+
+307
+00:10:57,900 --> 00:10:58,720
+OTTER.
+
+308
+00:10:59,320 --> 00:11:01,960
+Overland train terrain evaluation
+
+309
+00:11:01,960 --> 00:11:04,040
+research. And while the conventional
+
+310
+00:11:04,040 --> 00:11:05,260
+TC497
+
+311
+00:11:05,880 --> 00:11:08,300
+was already an extraordinary machine,
+
+312
+00:11:09,020 --> 00:11:11,240
+the Army briefly considered taking the
+
+313
+00:11:11,240 --> 00:11:12,780
+concept much further.
+
+314
+00:11:13,600 --> 00:11:15,120
+In 1961,
+
+315
+00:11:15,580 --> 00:11:18,160
+an Army research publication discussed
+
+316
+00:11:18,160 --> 00:11:20,740
+using a compact nuclear power plant
+
+317
+00:11:20,740 --> 00:11:23,180
+as a possible source of energy for
+
+318
+00:11:23,180 --> 00:11:24,460
+an overland train.
+
+319
+00:11:25,660 --> 00:11:27,800
+The idea followed naturally from the
+
+320
+00:11:27,800 --> 00:11:29,780
+vehicle's electrical architecture.
+
+321
+00:11:30,740 --> 00:11:33,300
+If the wheels were driven electrically, then
+
+322
+00:11:33,300 --> 00:11:35,120
+the traction system did not fundamentally
+
+323
+00:11:35,120 --> 00:11:37,320
+require a conventional mechanical
+
+324
+00:11:37,320 --> 00:11:39,860
+connection between the power plant and the
+
+325
+00:11:39,860 --> 00:11:40,440
+wheels.
+
+326
+00:11:41,320 --> 00:11:43,620
+Electricity generated by another source
+
+327
+00:11:43,620 --> 00:11:45,400
+could, at least in principle,
+
+328
+00:11:45,880 --> 00:11:48,140
+feed the same kind of distributed drive
+
+329
+00:11:48,140 --> 00:11:48,780
+system.
+
+330
+00:11:49,500 --> 00:11:51,620
+A compact reactor was therefore considered
+
+331
+00:11:51,620 --> 00:11:54,260
+as one possible way to give a
+
+332
+00:11:54,260 --> 00:11:56,740
+future cross -country vehicle extremely
+
+333
+00:11:56,740 --> 00:11:58,000
+long endurance,
+
+334
+00:11:58,420 --> 00:12:01,020
+far from conventional fuel infrastructure.
+
+335
+00:12:02,100 --> 00:12:04,700
+But the nuclear version never became the
+
+336
+00:12:04,700 --> 00:12:05,740
+TC497
+
+337
+00:12:06,320 --> 00:12:08,000
+that drove across Yuma.
+
+338
+00:12:08,600 --> 00:12:10,900
+The actual machine used
+
+339
+00:12:10,900 --> 00:12:12,140
+gas turbines.
+
+340
+00:12:13,180 --> 00:12:15,260
+Still, the proposal shows how seriously the
+
+341
+00:12:15,260 --> 00:12:18,000
+Army was thinking about the broader concept.
+
+342
+00:12:19,040 --> 00:12:21,320
+For a brief period, the overland train
+
+343
+00:12:21,320 --> 00:12:23,460
+was not being treated merely as an
+
+344
+00:12:23,460 --> 00:12:24,780
+oversized truck.
+
+345
+00:12:25,600 --> 00:12:27,720
+It was being considered as something closer
+
+346
+00:12:27,720 --> 00:12:30,160
+to a mobile logistics system.
+
+347
+00:12:30,280 --> 00:12:32,720
+The TC497 arrived at
+
+348
+00:12:32,720 --> 00:12:34,820
+Yuma in 1962,
+
+349
+00:12:35,300 --> 00:12:37,660
+where Army testing began in the
+
+350
+00:12:37,660 --> 00:12:38,780
+Arizona desert.
+
+351
+00:12:39,580 --> 00:12:42,040
+Yuma offered exactly the kind of environment
+
+352
+00:12:42,040 --> 00:12:44,380
+the Army needed for a machine like
+
+353
+00:12:44,380 --> 00:12:45,300
+this.
+
+354
+00:12:46,900 --> 00:12:48,260
+uneven surfaces,
+
+355
+00:12:49,020 --> 00:12:49,380
+slopes,
+
+356
+00:12:50,160 --> 00:12:51,020
+loose ground,
+
+357
+00:12:51,500 --> 00:12:54,080
+and enormous open areas where engineers
+
+358
+00:12:54,080 --> 00:12:56,740
+could observe how an unconventional vehicle
+
+359
+00:12:56,740 --> 00:12:58,560
+behaved away from roads.
+
+360
+00:12:59,320 --> 00:13:01,440
+The formal project OTTER terrain
+
+361
+00:13:01,440 --> 00:13:03,820
+evaluation work documented by the
+
+362
+00:13:03,820 --> 00:13:06,380
+Army Corps of Engineers followed in February
+
+363
+00:13:06,380 --> 00:13:08,880
+and June of 1963.
+
+364
+00:13:10,340 --> 00:13:12,380
+Project OTTER was not simply a durability
+
+365
+00:13:12,380 --> 00:13:13,300
+test.
+
+366
+00:13:14,340 --> 00:13:16,420
+were trying to connect measurable terrain
+
+367
+00:13:16,420 --> 00:13:19,000
+characteristics at Yuma with the actual
+
+368
+00:13:19,000 --> 00:13:20,540
+performance of the train.
+
+369
+00:13:21,120 --> 00:13:22,860
+They also wanted to understand whether
+
+370
+00:13:22,860 --> 00:13:24,960
+similar terrain conditions could be
+
+371
+00:13:24,960 --> 00:13:27,660
+identified in other desert regions around the
+
+372
+00:13:27,660 --> 00:13:28,220
+world.
+
+373
+00:13:28,780 --> 00:13:30,480
+That distinction matters.
+
+374
+00:13:31,060 --> 00:13:33,220
+A vehicle that can cross one carefully
+
+375
+00:13:33,220 --> 00:13:35,320
+selected demonstration route is
+
+376
+00:13:35,320 --> 00:13:36,080
+interesting.
+
+377
+00:13:36,780 --> 00:13:38,800
+A vehicle whose performance can be related
+
+378
+00:13:38,800 --> 00:13:41,080
+to measurable terrain is
+
+379
+00:13:41,080 --> 00:13:42,780
+potentially much more useful.
+
+380
+00:13:42,920 --> 00:13:44,720
+The test program did not become as
+
+381
+00:13:44,720 --> 00:13:47,420
+extensive as planners had originally hoped.
+
+382
+00:13:48,500 --> 00:13:50,640
+According to the final Project OTTER report,
+
+383
+00:13:50,960 --> 00:13:53,360
+testing ended after only a limited number
+
+384
+00:13:53,360 --> 00:13:55,300
+of courses had been traversed.
+
+385
+00:13:55,720 --> 00:13:58,180
+That left engineers with less quantitative
+
+386
+00:13:58,180 --> 00:13:59,980
+data than originally planned.
+
+387
+00:14:00,760 --> 00:14:03,240
+But what they did observe is revealing.
+
+388
+00:14:04,000 --> 00:14:06,460
+The report states that the Overland train
+
+389
+00:14:06,460 --> 00:14:07,960
+crossed course 12
+
+390
+00:14:08,480 --> 00:14:10,780
+and a shortened version of course one
+
+391
+00:14:11,120 --> 00:14:13,720
+without becoming immobilized because of the
+
+392
+00:14:13,720 --> 00:14:14,340
+terrain.
+
+393
+00:14:15,060 --> 00:14:17,560
+That was significant for a machine more
+
+394
+00:14:17,560 --> 00:14:19,240
+than 500 feet long.
+
+395
+00:14:19,880 --> 00:14:22,520
+But the report also recorded a clear
+
+396
+00:14:22,520 --> 00:14:23,680
+physical limit.
+
+397
+00:14:24,180 --> 00:14:26,760
+In the sand hills, the TC497
+
+398
+00:14:26,760 --> 00:14:29,420
+could not negotiate a 12 foot
+
+399
+00:14:29,420 --> 00:14:31,040
+high dune slip face.
+
+400
+00:14:31,880 --> 00:14:33,780
+That is exactly the kind of result
+
+401
+00:14:33,780 --> 00:14:36,280
+a serious engineering test is supposed
+
+402
+00:14:36,280 --> 00:14:37,100
+to produce.
+
+403
+00:14:37,780 --> 00:14:40,300
+Not proof that a machine is unstoppable
+
+404
+00:14:40,900 --> 00:14:43,120
+and not proof that it is useless.
+
+405
+00:14:44,000 --> 00:14:44,820
+A boundary.
+
+406
+00:14:45,700 --> 00:14:47,900
+The Overland train demonstrated
+
+407
+00:14:47,900 --> 00:14:49,940
+real cross -country mobility.
+
+408
+00:14:50,560 --> 00:14:53,160
+But difficult terrain was not
+
+409
+00:14:53,160 --> 00:14:54,060
+all the same.
+
+410
+00:14:54,740 --> 00:14:56,000
+And this is where the story of
+
+411
+00:14:56,000 --> 00:14:57,060
+the TC497
+
+412
+00:14:57,760 --> 00:15:00,260
+becomes more interesting than the usual
+
+413
+00:15:00,260 --> 00:15:02,800
+story of an oversized military
+
+414
+00:15:02,800 --> 00:15:03,660
+experiment.
+
+415
+00:15:04,380 --> 00:15:06,760
+Because the Army's own later account
+
+416
+00:15:06,760 --> 00:15:09,320
+does not describe the vehicle as a
+
+417
+00:15:09,320 --> 00:15:11,400
+machine that simply failed its tests.
+
+418
+00:15:11,940 --> 00:15:14,280
+It says the Overland train performed
+
+419
+00:15:14,280 --> 00:15:15,660
+well during testing.
+
+420
+00:15:15,660 --> 00:15:17,900
+Project OTTER gives that
+
+421
+00:15:17,900 --> 00:15:19,980
+statement useful context.
+
+422
+00:15:20,800 --> 00:15:22,980
+The machine demonstrated genuine cross
+
+423
+00:15:22,980 --> 00:15:24,220
+-country mobility.
+
+424
+00:15:24,840 --> 00:15:27,540
+It negotiated the tested courses without
+
+425
+00:15:27,540 --> 00:15:29,820
+terrain induced immobilization on those
+
+426
+00:15:29,820 --> 00:15:30,360
+routes.
+
+427
+00:15:30,840 --> 00:15:32,880
+And it did so while carrying the
+
+428
+00:15:32,880 --> 00:15:35,000
+complexity of a vehicle hundreds
+
+429
+00:15:35,000 --> 00:15:36,400
+of feet long.
+
+430
+00:15:37,240 --> 00:15:39,400
+At the same time, Project OTTER
+
+431
+00:15:39,400 --> 00:15:41,420
+documented very real limits.
+
+432
+00:15:42,020 --> 00:15:44,160
+The train could not ignore geography.
+
+433
+00:15:44,160 --> 00:15:46,840
+Certain terrain features could stop
+
+434
+00:15:46,840 --> 00:15:47,420
+it.
+
+435
+00:15:47,900 --> 00:15:50,300
+And the test program itself was shorter
+
+436
+00:15:50,300 --> 00:15:51,780
+than originally intended.
+
+437
+00:15:52,700 --> 00:15:54,540
+So saying the TC497
+
+438
+00:15:54,540 --> 00:15:56,880
+worked does not mean
+
+439
+00:15:56,880 --> 00:15:58,180
+saying it was perfect.
+
+440
+00:15:58,880 --> 00:16:00,720
+It means something more specific.
+
+441
+00:16:01,380 --> 00:16:03,480
+The fundamental concept had been
+
+442
+00:16:03,480 --> 00:16:04,240
+demonstrated.
+
+443
+00:16:04,980 --> 00:16:07,560
+A train -sized logistic system could
+
+444
+00:16:07,560 --> 00:16:10,180
+move across difficult country without
+
+445
+00:16:10,180 --> 00:16:12,360
+rails and without depending
+
+446
+00:16:12,360 --> 00:16:14,680
+on a conventional road network.
+
+447
+00:16:15,460 --> 00:16:17,200
+Which creates the obvious question.
+
+448
+00:16:17,980 --> 00:16:20,000
+If the concept actually worked,
+
+449
+00:16:20,820 --> 00:16:23,200
+why did the Army never build a
+
+450
+00:16:23,200 --> 00:16:23,980
+fleet of them?
+
+451
+00:16:24,640 --> 00:16:27,140
+The answer was already appearing above
+
+452
+00:16:27,140 --> 00:16:28,220
+the test range.
+
+453
+00:16:28,920 --> 00:16:31,120
+The same military logistics problem
+
+454
+00:16:31,120 --> 00:16:33,500
+that had produced the Overland train
+
+455
+00:16:33,740 --> 00:16:36,180
+was being attacked from an entirely
+
+456
+00:16:36,180 --> 00:16:37,460
+different direction.
+
+457
+00:16:38,280 --> 00:16:40,140
+Heavy -lift helicopters were becoming
+
+458
+00:16:40,140 --> 00:16:41,960
+increasingly practical.
+
+459
+00:16:42,220 --> 00:16:44,220
+A land train addressed the absence of
+
+460
+00:16:44,220 --> 00:16:46,320
+roads by building a vehicle capable of
+
+461
+00:16:46,320 --> 00:16:48,660
+crossing difficult ground without them.
+
+462
+00:16:49,460 --> 00:16:51,520
+lift attacked the same problem
+
+463
+00:16:51,520 --> 00:16:54,120
+by reducing how much the ground mattered
+
+464
+00:16:54,120 --> 00:16:55,400
+in the first place.
+
+465
+00:16:56,200 --> 00:16:57,820
+That difference was profound.
+
+466
+00:16:58,600 --> 00:17:00,700
+A ground vehicle still had to negotiate
+
+467
+00:17:00,700 --> 00:17:02,320
+the terrain in front of it.
+
+468
+00:17:02,880 --> 00:17:03,400
+mattered.
+
+469
+00:17:04,220 --> 00:17:05,260
+Steep ridges mattered.
+
+470
+00:17:05,260 --> 00:17:07,320
+Soft ground mattered.
+
+471
+00:17:08,020 --> 00:17:09,480
+Large dunes mattered.
+
+472
+00:17:10,240 --> 00:17:12,400
+A heavy -lift helicopter could bypass many
+
+473
+00:17:12,400 --> 00:17:15,140
+of those terrain obstacles entirely.
+
+474
+00:17:16,120 --> 00:17:18,420
+Aircrafts such as Sikorsky's S -64
+
+475
+00:17:18,420 --> 00:17:20,600
+Sky Crane and the Army's
+
+476
+00:17:20,600 --> 00:17:22,680
+CH -54 Tarhe
+
+477
+00:17:22,680 --> 00:17:25,020
+represented a fundamentally different
+
+478
+00:17:25,020 --> 00:17:27,540
+solution to the logistics problem.
+
+479
+00:17:28,080 --> 00:17:30,460
+Instead of carrying a supply system slowly
+
+480
+00:17:30,460 --> 00:17:32,120
+across difficult terrain,
+
+481
+00:17:32,520 --> 00:17:35,020
+vertical lift could move heavy loads
+
+482
+00:17:35,020 --> 00:17:37,320
+directly between points without
+
+483
+00:17:37,320 --> 00:17:39,740
+following the landscape between them.
+
+484
+00:17:40,400 --> 00:17:42,920
+historical accounts are unusually clear about
+
+485
+00:17:42,920 --> 00:17:44,120
+what happened next.
+
+486
+00:17:44,700 --> 00:17:47,140
+Heavy -lift helicopter technology made the
+
+487
+00:17:47,140 --> 00:17:49,400
+Overland train increasingly obsolete
+
+488
+00:17:49,400 --> 00:17:51,480
+before the concept could become an
+
+489
+00:17:51,480 --> 00:17:52,580
+operational fleet.
+
+490
+00:17:53,440 --> 00:17:55,640
+The Army later described vertical lift
+
+491
+00:17:55,640 --> 00:17:58,160
+as a faster, more flexible and
+
+492
+00:17:58,160 --> 00:18:00,840
+more economical solution for the mission it
+
+493
+00:18:00,840 --> 00:18:02,220
+had been trying to solve.
+
+494
+00:18:02,960 --> 00:18:05,480
+The TC -497 had spent
+
+495
+00:18:05,480 --> 00:18:07,960
+years becoming better at dealing with the
+
+496
+00:18:07,960 --> 00:18:08,400
+ground.
+
+497
+00:18:09,260 --> 00:18:11,660
+Then another technology changed how
+
+498
+00:18:11,660 --> 00:18:13,920
+necessary dealing with the ground was.
+
+499
+00:18:14,380 --> 00:18:16,940
+The Overland train was not defeated because
+
+500
+00:18:16,940 --> 00:18:18,980
+it immediately broke down in the desert.
+
+501
+00:18:19,460 --> 00:18:21,220
+It was not defeated because the basic
+
+502
+00:18:21,220 --> 00:18:22,700
+concept could not move.
+
+503
+00:18:23,360 --> 00:18:25,860
+It was defeated by a competing technology
+
+504
+00:18:25,860 --> 00:18:28,340
+that approached the same problem from an
+
+505
+00:18:28,340 --> 00:18:29,980
+entirely different direction.
+
+506
+00:18:30,900 --> 00:18:32,560
+It wasn't defeated by the desert,
+
+507
+00:18:33,020 --> 00:18:35,160
+it was defeated by the sky.
+
+508
+00:18:35,500 --> 00:18:38,080
+The TC -497 never became
+
+509
+00:18:38,080 --> 00:18:40,080
+an operational Army fleet.
+
+510
+00:18:40,680 --> 00:18:41,880
+In 1968,
+
+511
+00:18:42,380 --> 00:18:44,740
+the Overland train was sold for scrap.
+
+512
+00:18:45,320 --> 00:18:47,500
+The enormous chain of cargo and power
+
+513
+00:18:47,500 --> 00:18:48,960
+sections disappeared.
+
+514
+00:18:49,560 --> 00:18:52,240
+But one part survived, the control
+
+515
+00:18:52,240 --> 00:18:52,820
+car.
+
+516
+00:18:53,320 --> 00:18:55,460
+For a time, it stood in Yuma
+
+517
+00:18:55,460 --> 00:18:57,920
+as an advertising display for an RV
+
+518
+00:18:57,920 --> 00:18:58,620
+dealership.
+
+519
+00:18:59,620 --> 00:19:02,040
+Decades later, it returned to Yuma
+
+520
+00:19:02,040 --> 00:19:02,960
+proving ground.
+
+521
+00:19:03,780 --> 00:19:04,780
+In 2019,
+
+522
+00:19:05,260 --> 00:19:07,600
+volunteers cleaned and repainted its
+
+523
+00:19:07,600 --> 00:19:08,220
+interior.
+
+524
+00:19:08,940 --> 00:19:11,300
+And the surviving control car remains there
+
+525
+00:19:11,300 --> 00:19:12,980
+as a static display.
+
+526
+00:19:13,760 --> 00:19:15,360
+Without the rest of the train behind
+
+527
+00:19:15,360 --> 00:19:17,920
+it, the cab can look almost incomplete.
+
+528
+00:19:18,560 --> 00:19:21,180
+A strange tower on giant tyres.
+
+529
+00:19:21,740 --> 00:19:23,520
+With nowhere left to go.
+
+530
+00:19:24,220 --> 00:19:26,240
+But it is also the perfect surviving
+
+531
+00:19:26,240 --> 00:19:27,520
+piece of the project.
+
+532
+00:19:28,160 --> 00:19:30,720
+The front of a transportation system built
+
+533
+00:19:30,720 --> 00:19:33,320
+for a future that never quite arrived.
+
+534
+00:19:33,520 --> 00:19:35,920
+For years, engineers had been trying to
+
+535
+00:19:35,920 --> 00:19:37,560
+answer a difficult question.
+
+536
+00:19:38,280 --> 00:19:40,100
+How do you move an enormous supply
+
+537
+00:19:40,100 --> 00:19:42,320
+line through a place where roads and
+
+538
+00:19:42,320 --> 00:19:43,960
+railroads do not exist?
+
+539
+00:19:44,900 --> 00:19:47,460
+The TC -497 was one
+
+540
+00:19:47,460 --> 00:19:48,840
+serious answer.
+
+541
+00:19:49,340 --> 00:19:50,140
+Not a joke.
+
+542
+00:19:50,480 --> 00:19:52,820
+Not simply an engineering failure.
+
+543
+00:19:53,520 --> 00:19:55,420
+And not just a machine made enormous
+
+544
+00:19:55,420 --> 00:19:57,220
+for the sake of being enormous.
+
+545
+00:19:58,160 --> 00:20:00,460
+For a brief period, it represented a
+
+546
+00:20:00,460 --> 00:20:03,100
+plausible vision of how military logistics
+
+547
+00:20:03,100 --> 00:20:05,320
+might work across some of the most
+
+548
+00:20:05,320 --> 00:20:07,560
+inaccessible terrain on Earth.
+
+549
+00:20:08,460 --> 00:20:10,120
+Then another answer arrived.
+
+550
+00:20:10,840 --> 00:20:13,000
+Almost all of the Overland train was
+
+551
+00:20:13,000 --> 00:20:13,780
+cut apart.
+
+552
+00:20:14,320 --> 00:20:16,260
+But the control car remained.
+
+553
+00:20:16,740 --> 00:20:19,120
+A monument to an era when
+
+554
+00:20:19,120 --> 00:20:20,940
+America's answer to the end of the
+
+555
+00:20:20,940 --> 00:20:23,540
+road was to build something that
+
+556
+00:20:23,540 --> 00:20:25,060
+no longer needed one.
+
