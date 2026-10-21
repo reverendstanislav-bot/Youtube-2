@@ -1,6 +1,9 @@
 name: Project Pluto archive acquisition
 run-name: Project Pluto archival photo originals
 on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_archive_acquire.yml'
   workflow_dispatch:
     inputs:
       download_context_video:
@@ -10,7 +13,7 @@ on:
         default: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   archive:
@@ -57,3 +60,17 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
           compression-level: 6
+
+      - name: Publish confirmed original source images and checksums
+        if: success()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="project-pluto-direct-archive-photos-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Project Pluto actual historical facility originals" --notes "Historic Tory and Pluto facility/source-image candidates, not edited motion footage. Original source and SHA256 in ACQUIRED_MANIFEST.json. Per-image rights/provenance and editorial relevance still require review."
+          shopt -s nullglob
+          files=(project_pluto_assets/*)
+          if [ ${#files[@]} -gt 0 ]; then
+            gh release upload "$TAG" "${files[@]}" --clobber
+          fi
