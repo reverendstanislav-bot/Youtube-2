@@ -1,0 +1,49 @@
+name: HIA Pluto — Scrutinize REAL 1963 LASV-N1 film frames
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_lasvn1_full_screen.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  frame-qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install media analysis packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow
+      - name: Restore previously physically downloaded original USAF film copy
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p lasvn1_source
+          gh run download 39782104767 --name LASVN1_Primary_1963_Research_Mirror_Rights_PENDING --dir lasvn1_source
+          find lasvn1_source -type f -printf '%p  %s bytes\n'
+          test "$(find lasvn1_source -type f -name '*.mp4' | wc -l)" = 1
+      - name: Verify duration, pixels, checksum and screen entire 1963 movie
+        run: python PROJECT_PLUTO/ARCHIVE/screen_original_lasvn1_1963.py
+      - name: Preserve contact boards / source verification in Git
+        shell: bash
+        run: |
+          mkdir -p PROJECT_PLUTO/ARCHIVE/LASVN1_FILM_SOURCE_QC
+          cp LASVN1_ORIGINAL_SCREEN/*.json PROJECT_PLUTO/ARCHIVE/LASVN1_FILM_SOURCE_QC/
+          cp LASVN1_ORIGINAL_SCREEN/*_REVIEW.jpg PROJECT_PLUTO/ARCHIVE/LASVN1_FILM_SOURCE_QC/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/LASVN1_FILM_SOURCE_QC
+          if ! git diff --cached --quiet; then
+            git commit -m "Screen real USAF 38912 LASVN1 source film by factual chapter timecodes [skip ci]"
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Project_Pluto_LASVN1_Authentic_1963_Screening_Boards
+          path: LASVN1_ORIGINAL_SCREEN/
+          retention-days: 14
