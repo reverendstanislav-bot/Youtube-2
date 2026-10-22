@@ -154,6 +154,12 @@ This curated package contains no voice subtitles, effects or music.
 
 # CURRENT STATUS HANDOFF — PROJECT PLUTO — VIDEO 006
 
+## 2026-10-22 — public-only verified source bank R1
+
+Executed `ARCHIVE/CODEX_PUBLIC_ONLY_EXECUTION_HANDOFF_2026-10-22.md` against the authoritative minimal queue. Release-ready bank contains **33 silent MP4 clips / 10:56.375**: **29 direct 1963 Project Pluto/SLAM R&D clips / 10:28.375** and **4 explicitly labeled other-program context clips / 00:28.000**. All 33 pass full FFmpeg decode, black-frame, audio-stream, subtitle-stream, duration and unique-SHA checks. Every clip has exact source IN/OUT, context, editorial purpose, rights status and provisional script beat in `DELIVERY/VIDEO006_PUBLIC_SOURCE_BANK_R1/SOURCE_CLIP_MANIFEST.csv`.
+
+R5 ZIP was not locally available and is not a GitHub Release; the bank was rebuilt from the SHA256-verified original USAF 38912 source and is **not claimed byte-identical to R5**. Existing local R3 was hash-verified and not downloaded again. The only discovered VIDEO006-named narration WAV is for the unrelated Dragon Train / Light & Wonder episode, so it is rejected and all timing remains `AUDIO_TIMING_HOLD_WRONG_PROJECT_AUDIO`. Stage 03 script, actual May 1964 Tory II-C operating film, publication rights, synchronized timeline and final film remain HOLD. Confirmed 1964 Tory II-C operating footage remains **0 seconds**.
+
 Updated: 2026-10-21 (extended archive research)
 Owner direction: start sixth HIA video.
 Topic: Project Pluto / Tory nuclear ramjets / proposed SLAM missile.
