@@ -3,8 +3,8 @@
 **STAGE 03 — FULL NARRATION SCRIPT V1 (EN-US)**  
 **Status:** Complete draft for editorial review; **NOT Script Lock / NOT voice-authorized**  
 **Research:** `RESEARCH/SOURCE_LEDGER.md`, `FACT_CONTROL_V1.md`; P01 official 1964 AEC record verified directly on page 63.  
-**VO word count:** 3274 (chapter body only; do not read chapter headings or producer metadata).  
-**Provisional VO runtime:** 21.1–24.3 minutes at 135–155 spoken words/min, before transitions.  
+**VO word count:** 2887 (chapter body only; do not read chapter headings or producer metadata).  
+**Provisional VO runtime:** 18.6–21.4 minutes at 135–155 spoken words/min, before transitions.
 **Paid voice generation:** NOT AUTHORIZED.  
 **Core distinction:** Tory reactor/ground-testing real; SLAM flying missile never built or flown.
 
@@ -16,15 +16,11 @@ On May twentieth, nineteen sixty-four, engineers in the Nevada desert reached a 
 
 They brought a nuclear-powered ramjet called Tory Two-C to full power. Air was driven through its reactor under conditions intended to represent a missile traveling at Mach two point eight, near sea level.
 
-The reactor was real. The engineering was real. This was not a drawing of a futuristic aircraft, or a television model of a weapon that might someday exist.
-
 And the official government account of the test did not call it a disappointment. It called the May trials successful.
 
 Now jump forward just forty-two days.
 
 On July first, the Defense Department informed the Atomic Energy Commission that it would not pursue a flight-test objective for Project Pluto. Further planned reactor tests were canceled. The desert facility would be mothballed.
-
-The United States had spent years trying to make an extraordinary engine work. It had built the test infrastructure, overcome major materials problems, and demonstrated a nuclear ramjet on the ground.
 
 Yet the missile that was supposed to carry it never flew.
 
@@ -48,8 +44,6 @@ And its most important achievement would also expose the distance between provin
 
 <!-- Evidence: P02 P04 P05; header/source comments NOT narration -->
 
-A conventional jet engine draws in air, mixes it with fuel, burns that fuel, and pushes hot gas out the back.
-
 Pluto proposed a radically different source of heat.
 
 Inside its engine, a nuclear reactor would transfer energy to incoming air. That heated air would expand and rush rearward, creating thrust without the same onboard fuel supply a chemical-burning jet required.
@@ -62,17 +56,13 @@ So imagine two separate machines.
 
 One is the reactor and air passage: the power-producing heart of the proposed engine. This is what Livermore eventually built and operated during ground tests.
 
-The other is SLAM, the proposed Supersonic Low-Altitude Missile. That larger concept would have required an airframe, guidance, launch arrangements, aerodynamic controls, and a mission that military planners actually wanted to conduct.
-
-The reactor did not solve all of those requirements by itself.
+The other is SLAM, the proposed Supersonic Low-Altitude Missile. The reactor did not solve all of those requirements by itself.
 
 The attraction was endurance.
 
-A chemical-fueled aircraft must bring along the energy it intends to burn. For long-range, high-speed flight, that becomes a severe constraint. The Pluto concept moved the energy source into a nuclear reactor. In principle, it offered an entirely different balance between fuel carried and time aloft.
+The Pluto concept moved the energy source into a nuclear reactor. In principle, it offered an entirely different balance between fuel carried and time aloft.
 
 But theoretical endurance was not unlimited range. A complete flying vehicle would still have faced engineering limits, guidance requirements, and an operational mission.
-
-Surviving films of nineteen-sixty-three model and instrument work are evidence of just how much lay between concept and flight.
 
 You can see machines, test rigs, technicians, and equipment developed around the proposed SLAM system. They are genuine period research, but they are not footage of a completed missile flying.
 
@@ -118,13 +108,9 @@ None of those aircraft or rockets was Project Pluto. Their historical footage be
 
 That comparison is crucial.
 
-In nineteen fifty-seven, the future of nuclear delivery was not self-evident. Different technologies offered different combinations of speed, cost, survivability, and flexibility.
-
-By nineteen sixty-four, the comparison would look different.
+In nineteen fifty-seven, the future of nuclear delivery was not self-evident. By nineteen sixty-four, the comparison would look different.
 
 Every advance in alternative systems changed the value of making Pluto into a deployable missile. At the same time, Pluto's own engineering demands remained enormous.
-
-The military had asked its scientists a compelling question: could a reactor power a practical high-speed ramjet?
 
 The scientists would spend the following years answering the reactor part of that question.
 
@@ -158,21 +144,15 @@ And because these were nuclear reactors, handling the machinery after operation 
 
 The site incorporated arrangements for remote work and post-test examination. The Historic American Engineering Record documents a dedicated disassembly building associated with Pluto. Its purpose was to take apart tested reactors so their components could be studied and improved.
 
-That building was constructed as part of the program's original industrial infrastructure, not as a later tourist attraction.
-
 Photographs made for the federal historic survey show the real buildings and spaces associated with the site. But they were recorded later. They cannot honestly be presented as motion pictures of the tests occurring in nineteen sixty-one or nineteen sixty-four.
 
 The first major experimental goal was Tory Two-A.
 
 It was a feasibility reactor, designed to answer whether a nuclear ramjet core could withstand the relevant heating and airflow while behaving in a controllable way.
 
-On May fourteenth, nineteen sixty-one, Livermore recorded a forty-five-second test of Tory Two-A at Nevada. Additional experiments followed.
-
-That forty-five-second result was not a nuclear-powered missile taking off.
+On May fourteenth, nineteen sixty-one, Livermore recorded a forty-five-second test of Tory Two-A at Nevada. That forty-five-second result was not a nuclear-powered missile taking off.
 
 It was a short, demanding demonstration that a new type of reactor could operate under conditions chosen to resemble part of its intended environment.
-
-The success moved the program beyond paper design.
 
 It also exposed what had to come next.
 
@@ -206,23 +186,15 @@ This was not an abstract material-science demonstration. Engineers needed fuel-b
 
 Livermore's own history recalls the difficult combination: structural strength, resistance to damaging conditions, and the ability to manufacture very large quantities of consistent elements.
 
-A part that performs once in a laboratory is not yet a part suitable for an engine.
-
-A design that works with a handful of carefully prepared samples is not yet a repeatable industrial process.
-
 And a material that survives high temperature in one setting may fail when combined with intense airflow, vibration, and the surrounding reactor environment.
 
 That is why surviving Project Pluto reports are filled with drawings, test methods, and material questions rather than dramatic pictures of missiles.
-
-The diagrams show a progression from possibility toward an engineered system.
 
 Tory Two-A was built to demonstrate the fundamentals.
 
 Tory Two-C carried more of the burdens that a missile engine would face. Contemporary studies describe it as intended to be adequate as an engine for a ramjet vehicle, and identify control components within the reactor environment as an especially difficult step beyond the earlier test.
 
-That is a distinction with consequences.
-
-Controlling the output of a powerful reactor is not the same as turning a dial on a workshop machine. The control equipment has to function when the environment around it is hot, mechanically demanding, and affected by the reactor itself.
+The control equipment has to function when the environment around it is hot, mechanically demanding, and affected by the reactor itself.
 
 Electronics, actuators, measurement devices, and the systems that interpret those readings therefore mattered as much to the test campaign as the reactor core.
 
@@ -230,13 +202,9 @@ The nineteen-sixty-three LASV-N1 film preserves some of that supporting developm
 
 It is valuable evidence of the engineering program.
 
-But a shot of a technician working with control equipment is not automatically a photograph of Tory Two-C's core. When those images appear, they should explain the surrounding research, not impersonate hardware they do not show.
-
-The reactor itself had moved onto an entirely different scale.
+But a shot of a technician working with control equipment is not automatically a photograph of Tory Two-C's core. The reactor itself had moved onto an entirely different scale.
 
 A later Livermore history describes Tory Two-C at roughly five hundred megawatts of reactor power. That number is a measure of power produced as heat; it is not a figure for thrust, and it is not an electrical-output rating for an ordinary power station.
-
-The scale helps explain both the ambition and the difficulty of the enterprise.
 
 The team was not merely building a reactor that could turn on.
 
@@ -260,8 +228,6 @@ In mid-February, Tory Two-C was shipped from Livermore to Nevada.
 
 On March twenty-fifth, the reactor first reached criticality while assembled in its test vehicle.
 
-Criticality does not mean an explosion. It means that the nuclear chain reaction has become self-sustaining under controlled conditions.
-
 It was a milestone, but not yet the complete performance test.
 
 The next decisive dates were May twelfth and May twentieth.
@@ -284,13 +250,9 @@ But the reactor had remained at the Nevada Test Site.
 
 There was no flying SLAM vehicle. No complete weapon had navigated a long route. No aircraft structure had demonstrated the full combination of endurance, control, survivability, and mission performance.
 
-The ground tests did not prove that the concept was useless.
-
 They also did not prove that the proposed missile could now be deployed.
 
 The achievement belonged to a specific, formidable engineering problem: making a nuclear ramjet reactor work at the test conditions.
-
-The distinction becomes especially important whenever images of other test programs appear.
 
 A nuclear rocket being tested for Project Rover is not footage of Tory Two-C. A missile launch from the era is not a SLAM flight. And a dramatic cloud above Nevada cannot stand in for a reactor test merely because it looks cinematic.
 
@@ -334,21 +296,15 @@ We should not turn them into an invented quotation or claim that one person ende
 
 What we do know is that the military declined to fund the next major objective.
 
-And that reveals the fundamental problem with evaluating Pluto only as a piece of engineering.
-
 Imagine the question asked in nineteen fifty-seven: is it possible to create a nuclear ramjet capable of supporting a long-range high-speed missile?
 
 Now imagine the question being asked in nineteen sixty-four: do we still need this particular missile badly enough to undertake everything required to make it operational?
 
 They are not the same question.
 
-When a technology is just an ambitious proposal, its possible benefits dominate the discussion.
-
 Once the test reactor works, the remaining obligations become real.
 
 A flight program would have needed a complete vehicle, its control and guidance systems, a way to launch and recover useful test information, the operational infrastructure to support it, and a military rationale strong enough to outweigh the complications of a nuclear-powered cruise weapon.
-
-Success does not remove those requirements.
 
 It makes them the next bill that someone has to agree to pay.
 
@@ -385,8 +341,6 @@ Those photographs show the physical remains of a massive technical effort. They 
 Project Pluto never produced a flying nuclear-powered SLAM missile.
 
 What it produced was a demonstrated nuclear ramjet reactor, a body of engineering experience, and a record of what an industrial project can accomplish without ever becoming a useful weapons system.
-
-That outcome is easy to flatten into a slogan.
 
 One slogan says the machine was too terrifying to use.
 
