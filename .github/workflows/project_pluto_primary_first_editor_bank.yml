@@ -1,0 +1,36 @@
+name: VIDEO006 PRIMARY-FIRST Corrected Documentary Asset Bank
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_primary_first_editor_bank.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  primary_editor_bank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore only screened primary assets and limited comparison clips
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download project-pluto-video006-clean-cutouts-20261021 --pattern HIA_VIDEO006_PROJECT_PLUTO_CLEAN_CUTS.zip
+          gh release download project-pluto-26-authentic-technical-figures-20261022 --pattern HIA_VIDEO006_26_GENUINE_TORY_ENGINEERING_FIGURES.zip
+      - name: Package without image/video generators
+        run: python3 PROJECT_PLUTO/ARCHIVE/pack_primary_first_editor_bank.py
+      - name: Publish curated single archive with source map
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG=project-pluto-video006-primary-first-editor-bank-20261022
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "HIA VIDEO 006 — actual Pluto photos + technical figures + clean context" --notes "Primary-first 13 authentic Project Pluto photos, 26 real Tory/Pluto engineering-report pages and only 9 short other-program comparison clips. No fake 20min full footage claim. 1963 original LASV-N1 movie discovered but binary/rights not cleared. All file hashes and 8 chapter visual map included."
+          gh release upload "$TAG" HIA_VIDEO006_PLUTO_PRIMARY_FIRST_EDITOR_BANK.zip PROJECT_PLUTO/ARCHIVE/BEAT_VISUAL_MAP_V1.csv --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_VIDEO006_Primary_Real_Sources
+          path: HIA_VIDEO006_PLUTO_PRIMARY_FIRST_EDITOR_BANK.zip
+          if-no-files-found: warn
+          retention-days: 14

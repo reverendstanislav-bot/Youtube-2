@@ -1,0 +1,23 @@
+chapter,story_claim_or_reveal,visual_type,source_reference,editorial_status
+1,1964 Tory II-C actually existed,REAL_PHOTO,TORY_IIC_REAL_TEST_ENGINE.jpg,PRIMARY_VERIFIED
+1,Full power May 1964 ground conditions,ORIGINAL_REPORT_PAGE,DOC-01 P016,PRIMARY_VERIFIED
+1,The defense program was shut down July 1964,ORIGINAL_REPORT_PAGE,DOC-01 P007,PRIMARY_VERIFIED
+2,Engine is distinct from proposed flying SLAM,REAL_PHOTO,TORY_IIA_REAL_REACTOR.jpg,PRIMARY_VERIFIED
+2,Core arrangement and airflow,ORIGINAL_ENGINEERING_FIGURE,DOC-02 P049,PRIMARY_VERIFIED
+3,Strategic bomber context vs proposed missile,CONTEXT_ONLY,B-52 / HOUND DOG SC035,NEEDS_FINAL_SCRIPT_BEAT
+3,Alternative strategic missiles in development,CONTEXT_ONLY,Atlas rocket launch and gantry SC022,NEEDS_FINAL_SCRIPT_BEAT
+4,Early Tory II-A authentic engine,REAL_PHOTO,TORY_IIA_REAL_COLOR.jpg,PRIMARY_VERIFIED
+4,Area 26 physical disassembly building,REAL_SITE_HAER,PLUTO_REAL_FACILITY_EXTERIOR.jpg,PRIMARY_VERIFIED_RETROSPECTIVE
+4,Pluto industrial test infrastructure,REAL_SITE_HAER,PLUTO_REAL_LARGE_HALL.jpg,PRIMARY_VERIFIED_RETROSPECTIVE
+5,Reactor core and hexagonal grid,ORIGINAL_ENGINEERING_FIGURE,DOC-02 P105,PRIMARY_VERIFIED
+5,Fuel element samples and materials,ORIGINAL_ENGINEERING_FIGURE,DOC-02 P135,PRIMARY_VERIFIED
+5,Production reactor components and technicians,ORIGINAL_ENGINEERING_PHOTO,DOC-02 P228,PRIMARY_VERIFIED
+5,Control arrangement in reactor core,ORIGINAL_ENGINEERING_DIAGRAM,DOC-04 P041,PRIMARY_VERIFIED
+5,Actual control actuator machinery,ORIGINAL_ENGINEERING_PHOTO,DOC-04 P063,PRIMARY_VERIFIED
+6,Reactor test operating parameters,ORIGINAL_REPORT_PAGE,DOC-01 P016,PRIMARY_VERIFIED
+6,Engineering record of running Tory II-C,ORIGINAL_REPORT_PAGE,DOC-01 P037,PRIMARY_VERIFIED
+6,Operating engine movie in May 1964,ARCHIVE_MOTION,NOT ACQUIRED,BLOCKED_NO_REAL_BINARY
+7,An ICBM alternative exists,CONTEXT_ONLY,Minuteman SC027 SC032,ONLY_IF_EXPRESS_NARRATIVE_COMPARISON
+7,Program cancellation actual government contemporaneous record,ORIGINAL_REPORT_PAGE,DOC-01 P007,PRIMARY_VERIFIED
+8,Actual surviving Pluto installation later-era survey,REAL_SITE_HAER,PLUTO_REAL_OBSERVATION_CONTROLS.jpg,PRIMARY_VERIFIED_RETROSPECTIVE
+8,Original HAER site history,ORIGINAL_REPORT_PAGE,DOC-05 P004,PRIMARY_VERIFIED
