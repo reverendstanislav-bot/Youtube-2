@@ -1,0 +1,8 @@
+asset_id,original_release_tag,source_filename,subject,source_class,original_width,original_height,known_source_bytes,provenance_guard
+F020,project-pluto-archive-batch1-20261021,F020.webm,NASA X-15 research 1962,CONTEXT_ONLY,1280,720,107266655,NOT TORY PLUTO
+F026,project-pluto-archive-batch1-20261021,F026.webm,USIA Power for Peace 1955 exhibition,CONTEXT_ONLY,1920,1080,210126228,TOKYO EXPO NOT TORY PLUTO
+F031,project-pluto-archive-batch1-20261021,F031.ogv,SM-1 reactor Fort Belvoir 1957,CONTEXT_ONLY,720,480,9435966,NOT NEVADA NOR PLUTO
+F011,project-pluto-context-source-F011-20261021,F011.webm,Atlas ICBM 1958,CONTEXT_ONLY,678,442,375558104,AI UPSCALED COMMONS DERIVATIVE NOT PLUTO
+F013,project-pluto-context-source-F013-20261021,F013.webm,Minuteman missile 1962,CONTEXT_ONLY,678,442,178871167,AI UPSCALED COMMONS DERIVATIVE NOT PLUTO
+F015,project-pluto-context-source-F015-20261021,F015.webm,Hound Dog B-52 missile 1960,CONTEXT_ONLY,678,442,383789621,AI UPSCALED COMMONS DERIVATIVE NOT PLUTO
+F018,project-pluto-context-source-F018-20261021,F018.webm,Army Ordnance Missile Command 1958,CONTEXT_ONLY,678,442,354975860,AI UPSCALED COMMONS DERIVATIVE NOT PLUTO

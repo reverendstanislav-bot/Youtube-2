@@ -1,0 +1,58 @@
+name: HIA Project Pluto — Complete Film Sources in MP4
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_full_movie_mp4.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  convert:
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        film: [F020, F026, F031, F011, F013, F015, F018]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install media tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Download original full film
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILM: ${{ matrix.film }}
+        run: |
+          set -euo pipefail
+          mkdir -p full_source_original
+          case "$FILM" in
+            F020|F026) SOURCE="$FILM.webm"; TAG="project-pluto-archive-batch1-20261021";;
+            F031) SOURCE="F031.ogv"; TAG="project-pluto-archive-batch1-20261021";;
+            *) SOURCE="$FILM.webm"; TAG="project-pluto-context-source-$FILM-20261021";;
+          esac
+          gh release download "$TAG" --pattern "$SOURCE" --dir full_source_original
+          test -s "full_source_original/$SOURCE"
+      - name: Convert complete movie to MP4 at native resolution and rate
+        run: python3 PROJECT_PLUTO/ARCHIVE/convert_full_movies_v1.py --id ${{ matrix.film }}
+      - name: Publish complete film MP4 and QC
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILM: ${{ matrix.film }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="project-pluto-full-mp4-$FILM-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "HIA Pluto / $FILM — complete MP4 source" --notes "Full length source-derived MP4 with source audio at native resolution and FPS. HISTORICAL CONTEXT OF OTHER PROGRAMS, not actual Pluto/Tory testing. Original untouched and preserved in earlier release. MP4 is editorial derivative and cannot increase source detail. QC JSON included."
+          gh release upload "$TAG" full_source_mp4/"$FILM"_FULL_SOURCE.mp4 full_source_mp4/"$FILM"_FULL_SOURCE_TECH_QC.json --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Pluto_Full_MP4_${{ matrix.film }}
+          path: full_source_mp4/
+          if-no-files-found: warn
+          retention-days: 14
+          compression-level: 0
