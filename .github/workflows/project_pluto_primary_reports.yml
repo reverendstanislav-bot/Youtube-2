@@ -1,0 +1,41 @@
+name: HIA Project Pluto — Genuine Primary Documents
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_primary_reports.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  documents:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install document and network tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+          python -m pip install requests
+      - name: Download and PDF-validate original historical Project Pluto reports
+        run: python PROJECT_PLUTO/ARCHIVE/acquire_primary_docs_v1.py
+      - name: Archive documents as independent original-source files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          TAG="project-pluto-authentic-primary-documents-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Project Pluto — original Tory tests and engineering reports" --notes "Primary contemporary USGov/LLNL/HAER historical research, not fiction or generated content. Sources and SHA256 in DOCUMENT_MANIFEST.json. Per-page images, borrowed figures and rights remain subject to source-specific review."
+          shopt -s nullglob
+          files=(project_pluto_primary_documents/*.pdf project_pluto_primary_documents/DOCUMENT_MANIFEST.json)
+          gh release upload "$TAG" "${files[@]}" --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Project_Pluto_Primary_Government_Documents
+          path: project_pluto_primary_documents/
+          if-no-files-found: warn
+          retention-days: 14
