@@ -1,0 +1,44 @@
+name: VIDEO006 Authentic 1963 LASV-N1 Historical Film Acquisition
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_lasvn1_film.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install historical-film media inspection tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install -U yt-dlp pillow
+      - name: Acquire original 1963 LASV-N1 archival film reference and screen whole reel
+        run: python PROJECT_PLUTO/ARCHIVE/acquire_primary_lasv_n1.py
+      - name: Publish reference contact sheets and metadata to Git
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p PROJECT_PLUTO/ARCHIVE/LASV_N1_FILM_REFERENCE
+          cp pluto_primary_film_F061/*.json PROJECT_PLUTO/ARCHIVE/LASV_N1_FILM_REFERENCE/ || true
+          cp pluto_primary_film_F061/F061_CONTACT_*.jpg PROJECT_PLUTO/ARCHIVE/LASV_N1_FILM_REFERENCE/ || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/LASV_N1_FILM_REFERENCE/
+          git diff --cached --quiet || { git commit -m "Inspect historic 1963 Pluto LASV-N1 film provenance and storyboard [skip ci]"; git push; }
+      - name: Archive direct film for internally held source screening
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Pluto_LASVN1_1963_Reference_Source_Rights_HOLD
+          path: pluto_primary_film_F061/
+          retention-days: 7
+          if-no-files-found: warn
+          compression-level: 0
