@@ -1,3 +1,16 @@
+## LATEST EDITORIAL SOURCE SELECTION — 2026-10-21 — NO FILLER
+
+Owner direction: remove junk, export needed cutouts only. Completed strict source selection from 40 prior historical context clips, genuine engine/site photo QC and verified per-file extraction.
+
+### Canonical editor package
+Release: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-clean-cutouts-20261021
+Direct ZIP: https://github.com/reverendstanislav-bot/Youtube-2/releases/download/project-pluto-video006-clean-cutouts-20261021/HIA_VIDEO006_PROJECT_PLUTO_CLEAN_CUTS.zip
+Physically verified SHA/true source/timecodes: 9 MP4 clips at 69.020 sec total + 13 authentic Project Pluto images in one 34,435,246-byte ZIP.
+Folder split: 01_ACTUAL_PLUTO_HISTORICAL_STILLS/ = 3 Tory machinery historical photos and 10 later HAER site photography; 02_COMPARISON_VIDEO_NOT_PLUTO/ = 9 OTHER project historical clips (Atlas, Minuteman, B-52/Hound Dog, X15) only for directly warranted narrative comparisons; 03_PROVENANCE/ = true film IN/OUT and SHA256.
+Earlier 40-clip 8:11 context pack is **SUPERSEDED FOR EDITOR**; older 46 microcuts not approved and must NOT be placed in the timeline by default. Seven full source archival movies remain available for original source audits only, not automatic B-roll.
+No actual Tory operating film was acquired. Explicit direct Project Pluto test footage = 0sec. Thus HIA VIDEO006 FOOTAGE COVERAGE remains **HOLD**, with rights, full playback QC, and exact voice-to-beat mapping still OPEN. A stage-2 outline exists but not a final line-by-line narrator script. No paid generation or fake images or video production.
+This curated package contains no voice subtitles, effects or music.
+
 ## SOURCE ARCHIVE DELIVERED — LATEST VERIFIED 2026-10-21
 
 - **7 original-source-derived full MP4 movies physically published and verified:** 1h59m08.144s, 1.935 GB, with original resolution/FPS/sound intact; originals WEBM/OGV unchanged in earlier releases. ALL are CONTEXT ONLY, **not actual Project Pluto tests**. See `ARCHIVE/FINAL_VERIFIED_MEDIA_MANIFEST_20261021.md`.
