@@ -35,7 +35,7 @@ jobs:
           out=[]
           for id,title,video_id,naid,role in specs:
             u=f'https://www.youtube.com/watch?v={video_id}'
-            path=originals/id+'.mp4'
+            path=originals/(id+'.mp4')
             rec={'id':id,'title':title,'official_doe_source':'https://www.energy.gov/lm/atomic-energy-commission-films-available-online','nara_id':naid,'public_url':u,'role':role,'declared_program':'NOT_PROJECT_PLUTO','publishing_rights':'HOLD_PER_FILM_REVIEW','status':'NOT_DOWNLOADED'}
             cmd=['yt-dlp','--no-playlist','--no-progress','--socket-timeout','15','--retries','1','--fragment-retries','1','--merge-output-format','mp4','-f','bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b','-o',str(path),u]
             try:
