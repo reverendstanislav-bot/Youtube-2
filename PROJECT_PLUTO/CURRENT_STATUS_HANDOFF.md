@@ -1,3 +1,11 @@
+## LATEST R4 PHYSICAL RECOVERY + STRICT SOURCE QC (2026-10-22) — OVERRIDES R3 VIDEO BANK
+
+Original LASV-N1 (USAF 38912, 1963) RECOVERED from GitHub Actions artifact 12427911346, SHA256 verified. Source proper H264/AAC MP4 remux 92,111,526 bytes SHA256 `f0ffe68e0395738d191f53132b70d412b98b8d44236496f9db5fe58eedbd16e3`.
+
+NEW actual verified **R4 source-cut archive: 30 H264/720p/24fps silent MP4s, 876s / 14:36**, 30/30 entire streams decode PASS, per-file hashes PASS, ZIP CRC PASS. **25 primary 1963 program-related clips / 12:47**; **5 slower/support clips / 1:49**. Adjusted SLAM-07 end slate, SLAM-26 unrelated street/overlong frames (split into 2), SLAM-27B black tail. R4 ZIP 144,619,493 bytes SHA256 `9547f857a4a2ae56f82445b6f382d7d75cbf0a6e930eaf78cdaa6e58813b0521`.
+
+**IMPORTANT DELIVERY LIMIT:** R4 physical ZIP exists in producing ChatGPT conversation sandbox **NOT GitHub Release**; only R4 report/manifest committed to GitHub. **FINAL MOVIE/RIGHTS/TORY II-C 1964 TEST/8-CHAPTER COVERAGE STILL HOLD**. See `ARCHIVE/LASVN1_R4_PHYSICAL_MEDIA_QC_2026-10-22.md`, `ARCHIVE/LASVN1_R4_VERIFIED_VIDEO_SOURCE_MANIFEST_2026-10-22.csv`. R3 is historic only; this R4 is the current source-bank baseline. No generated footage or paid credits.
+
 ## LATEST R3 STRICT QC (2026-10-22) — OVERRIDES R2 COUNTS
 
 Verified actual local ZIP `HIA_VIDEO006_PLUTO_R3_EDITORIAL_QC_SOURCE_BANK.zip` 120,954,345 bytes, SHA256 `8ef7c1c582ac8afa38b17bdc42af519e752a7f77dbebb5bc03b8e3bf2982e8ad`.
