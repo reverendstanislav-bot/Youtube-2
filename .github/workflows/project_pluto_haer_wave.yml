@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/project_pluto_haer_wave.yml'
+      - 'PROJECT_PLUTO/ARCHIVE/acquire_haer_v1.py'
   workflow_dispatch:
 permissions:
   contents: write
