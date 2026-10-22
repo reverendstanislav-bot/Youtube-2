@@ -1,3 +1,15 @@
+## 2026-10-22 SOURCE RECOVERY — PRIMARY FIRST EDITOR BANK (OVERRIDES PREVIOUS 1:09-ONLY DELIVERY)
+
+Physical archive delivered and GitHub Release verified:
+https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-primary-first-editor-bank-20261022
+
+Single 58,440,612-byte ZIP with **13 original Pluto/Tory photographs**, **26 different original Tory/Pluto official engineering report pages and photographs/diagrams** at high resolution, and **9 factual other-program comparison-only clips** totaling 69.020 sec (not presented as direct Tory film). File-level SHA256 and 8-chapter provisional story map included. 39 primary visuals are not assigned made-up running time; timeline follows future narration.
+
+NEW FILM DISCOVERY: **USAF 38912 LASV-N1 Progress Report (1963)**, ~27min, genuine period film of Pluto SLAM supporting systems (models, aerodynamics, radiation shielding and avionics), publicly watchable at https://www.youtube.com/watch?v=8qMuS5kaDBI. Uploaded by What Is Nuclear? March 17 2025, attribution to US National Archives. The government film is documented in NARA classified film holdings RG342 accession NN3-342-94-001 (historical list). A complete MP4 IS NOT YET ACQUIRED: first attempted YouTube retrieval blocked anti-bot; other mirror accessibility is being checked. Do not mark this reel as downloaded, rights-cleared or as a movie of 1964 Tory II-C high-power engine testing. Link/candidate chapter times at `ARCHIVE/LASVN1_VERIFIED_ONLINE_SOURCE_2026-10-22.md`.
+
+Source coverage remains **HOLD**, not master edit PASS: 16–22min narration script not yet locked, original May 1964 actual engine run footage not obtained, review exact provenance and individual reuse terms. No external credit spend, no generated footage.
+
+
 ## PRODUCER QC REJECTION — 2026-10-22 (OVERRIDES EARLIER "CANONICAL" PACKAGE CLAIMS)
 
 Owner rejected 9-cut / 69.020-second curated release as far too short for 16–22 minute HIA documentary. **Final editorial footage coverage status: REJECT / HOLD**. Preserve release as provenance only, NOT a sufficient edit asset package. 13 stills have no inherent timeline duration. All 7 full movie originals are about other historical programs and cannot fill the Project Pluto-specific footage gap by padding. Need owner-approved script + source-specific visual beat map, continuous authentic sequences rather than arbitrary 6–9-second fragments, and original Tory II-A/Tory II-C film archive acquisition. Detailed correction: `PROJECT_PLUTO/ARCHIVE/PRODUCER_CORRECTION_SOURCE_DURATION_2026-10-22.md`.
