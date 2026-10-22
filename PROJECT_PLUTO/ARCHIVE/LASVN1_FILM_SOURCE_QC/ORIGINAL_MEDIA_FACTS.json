@@ -1,0 +1,17 @@
+{
+  "source": "LASVN1 US Air Force film 1963 USAF 38912",
+  "description": "What is Nuclear / NARA US Air Force film archived via Rutube mirror",
+  "source_binary": "USAF38912_LASVN1_1963.mp4",
+  "source_bytes": 100689792,
+  "duration_seconds": 1658.333333,
+  "resolution": [
+    1280,
+    720
+  ],
+  "codec": "h264",
+  "fps": "24/1",
+  "sha256": "3d9305615472a3ac7a18c50b1d7a3649d20d34f1e1aab93439f535650191114e",
+  "source_is_public_mirror": true,
+  "rights_status": "COPY_SOURCE_RIGHTS_AND_MIRROR_RESTORATION_REVIEW_PENDING",
+  "review_status": "SOURCE_TECHNICAL_QC_AND_CONTACT_SHEETS_ONLY"
+}

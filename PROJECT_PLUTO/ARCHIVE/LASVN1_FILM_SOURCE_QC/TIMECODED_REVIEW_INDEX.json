@@ -1,0 +1,119 @@
+[
+  {
+    "chapter": "CH01_OPENING",
+    "source_start_s": 42,
+    "source_end_s": 175,
+    "sample_period_s": 7,
+    "frames_reviewed": 19,
+    "sheet": "CH01_OPENING_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH02_PROGRAM_INTRO",
+    "source_start_s": 176,
+    "source_end_s": 322,
+    "sample_period_s": 8,
+    "frames_reviewed": 18,
+    "sheet": "CH02_PROGRAM_INTRO_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH03_SLAM_MODELS",
+    "source_start_s": 322,
+    "source_end_s": 492,
+    "sample_period_s": 9,
+    "frames_reviewed": 19,
+    "sheet": "CH03_SLAM_MODELS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH04_AERODYNAMICS",
+    "source_start_s": 493,
+    "source_end_s": 617,
+    "sample_period_s": 6,
+    "frames_reviewed": 21,
+    "sheet": "CH04_AERODYNAMICS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH05_MODEL_TESTING",
+    "source_start_s": 618,
+    "source_end_s": 775,
+    "sample_period_s": 8,
+    "frames_reviewed": 20,
+    "sheet": "CH05_MODEL_TESTING_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH06_SHIELDING",
+    "source_start_s": 776,
+    "source_end_s": 870,
+    "sample_period_s": 6,
+    "frames_reviewed": 16,
+    "sheet": "CH06_SHIELDING_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH07_HARDENED_SERVOS",
+    "source_start_s": 871,
+    "source_end_s": 1019,
+    "sample_period_s": 8,
+    "frames_reviewed": 19,
+    "sheet": "CH07_HARDENED_SERVOS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH08_COMPONENTS",
+    "source_start_s": 1020,
+    "source_end_s": 1156,
+    "sample_period_s": 7,
+    "frames_reviewed": 19,
+    "sheet": "CH08_COMPONENTS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH09_AVIONICS",
+    "source_start_s": 1157,
+    "source_end_s": 1212,
+    "sample_period_s": 6,
+    "frames_reviewed": 9,
+    "sheet": "CH09_AVIONICS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH10_COMPUTER_DATA",
+    "source_start_s": 1213,
+    "source_end_s": 1314,
+    "sample_period_s": 6,
+    "frames_reviewed": 17,
+    "sheet": "CH10_COMPUTER_DATA_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH11_RAD_HARDENED_COMPUTERS",
+    "source_start_s": 1315,
+    "source_end_s": 1521,
+    "sample_period_s": 11,
+    "frames_reviewed": 19,
+    "sheet": "CH11_RAD_HARDENED_COMPUTERS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH12_ANTENNAS",
+    "source_start_s": 1522,
+    "source_end_s": 1570,
+    "sample_period_s": 6,
+    "frames_reviewed": 8,
+    "sheet": "CH12_ANTENNAS_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  },
+  {
+    "chapter": "CH13_GYROSCOPE",
+    "source_start_s": 1571,
+    "source_end_s": 1656.333333,
+    "sample_period_s": 6,
+    "frames_reviewed": 14,
+    "sheet": "CH13_GYROSCOPE_REVIEW.jpg",
+    "status": "HUMAN_EDITOR_REVIEW_REQUIRED"
+  }
+]
