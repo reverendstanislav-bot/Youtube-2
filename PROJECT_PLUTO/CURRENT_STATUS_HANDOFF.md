@@ -1,3 +1,7 @@
+## PRODUCER QC REJECTION — 2026-10-22 (OVERRIDES EARLIER "CANONICAL" PACKAGE CLAIMS)
+
+Owner rejected 9-cut / 69.020-second curated release as far too short for 16–22 minute HIA documentary. **Final editorial footage coverage status: REJECT / HOLD**. Preserve release as provenance only, NOT a sufficient edit asset package. 13 stills have no inherent timeline duration. All 7 full movie originals are about other historical programs and cannot fill the Project Pluto-specific footage gap by padding. Need owner-approved script + source-specific visual beat map, continuous authentic sequences rather than arbitrary 6–9-second fragments, and original Tory II-A/Tory II-C film archive acquisition. Detailed correction: `PROJECT_PLUTO/ARCHIVE/PRODUCER_CORRECTION_SOURCE_DURATION_2026-10-22.md`.
+
 ## LATEST EDITORIAL SOURCE SELECTION — 2026-10-21 — NO FILLER
 
 Owner direction: remove junk, export needed cutouts only. Completed strict source selection from 40 prior historical context clips, genuine engine/site photo QC and verified per-file extraction.
