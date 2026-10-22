@@ -1,0 +1,30 @@
+clip_id,origin_1963_sec_in,origin_1963_sec_out,duration_sec,chapter_provisional,what_is_visibly_shown,QC_class
+SLAM-02,354,382,28,2,"Wind-tunnel technicians",SCENE_SOURCE_AND_TECH_PASS
+SLAM-04,420,451,31,2,"Engineering team assembling SLAM model",SCENE_SOURCE_AND_TECH_PASS
+SLAM-05,454,507,53,2,"Operating wind tunnel, model testing",SCENE_SOURCE_AND_TECH_PASS
+SLAM-06,532,568,36,2,"Test facility operators",SCENE_SOURCE_AND_TECH_PASS
+SLAM-07,570,598,28,2,"Real wind-tunnel apparatus, end slate excised",SCENE_SOURCE_AND_TECH_PASS
+SLAM-08,621,655,34,2,"Actual model component manufacturing",SCENE_SOURCE_AND_TECH_PASS
+SLAM-12,829,849,20,5,"Instrument controls/radiation test",SCENE_SOURCE_AND_TECH_PASS
+SLAM-13,874,911,37,5,"Real components demonstrated",SCENE_SOURCE_AND_TECH_PASS
+SLAM-14,913,963,50,5,"Servo controls and engineers",SCENE_SOURCE_AND_TECH_PASS
+SLAM-15,966,981,15,5,"Controls, unrelated model transition clipped",SCENE_SOURCE_AND_TECH_PASS
+SLAM-16,1027,1064,37,5,"Mechanical test apparatus, dark beginning clipped",SCENE_SOURCE_AND_TECH_PASS
+SLAM-17,1068,1108,40,5,"Mechanical seals test lab",SCENE_SOURCE_AND_TECH_PASS
+SLAM-18,1111,1154,43,5,"Laboratory test setup",SCENE_SOURCE_AND_TECH_PASS
+SLAM-19A,1162,1184,22,5,"Radiation test rig BEFORE roadway",SCENE_SOURCE_AND_TECH_PASS
+SLAM-19B,1198,1205,7,5,"Radiation monitoring instruments AFTER roadway",SCENE_SOURCE_AND_TECH_PASS
+SLAM-20,1209,1254,45,5,"Analog computing and laboratory engineering",SCENE_SOURCE_AND_TECH_PASS
+SLAM-21,1260,1298,38,5,"Component board manufacturing/testing",SCENE_SOURCE_AND_TECH_PASS
+SLAM-22B,1316,1324,8,5,"Engineer operating equipment rack",SCENE_SOURCE_AND_TECH_PASS
+SLAM-23,1347,1394,47,5,"Computer laboratory testing",SCENE_SOURCE_AND_TECH_PASS
+SLAM-24,1400,1444,44,5,"Computer instruments and operators",SCENE_SOURCE_AND_TECH_PASS
+SLAM-25,1473,1512,39,5,"Electronic communication instrumentation",SCENE_SOURCE_AND_TECH_PASS
+SLAM-26,1530,1576,46,5,"Ground antenna tests and calibration",SCENE_SOURCE_AND_TECH_PASS
+SLAM-27A,1578,1605,27,5,"Gyroscope and instrument technician",SCENE_SOURCE_AND_TECH_PASS
+SLAM-27B,1613,1621,8,5,"Avionics control unit closeups",SCENE_SOURCE_AND_TECH_PASS
+SLAM-01,331,343,12,2,"Model demonstration mainly slow",SUPPORT_ONLY_LIMITED_MOTION
+SLAM-03,384,413,29,2,"Long static or slow model shots",SUPPORT_ONLY_LIMITED_MOTION
+SLAM-09,660,705,45,2,"Dim model testing, limited variety",SUPPORT_ONLY_LIMITED_MOTION
+SLAM-22A,1303,1312,9,5,"Slow computer rack closeup",SUPPORT_ONLY_LIMITED_MOTION
+SLAM-22C,1328,1342,14,5,"Static labeled ceramic samples, few hands",SUPPORT_ONLY_LIMITED_MOTION
