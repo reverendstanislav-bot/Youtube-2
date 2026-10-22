@@ -1,3 +1,7 @@
+## PRODUCER PUBLIC-ONLY SOURCE ACQUISITION RULE (2026-10-22) — SUPERSEDES NARA/DOE OUTREACH PLANS
+
+**NO requests/contact/email/NARA copy orders/API-key applications/payment. Only already-published openly accessible video files.** Earlier prepared NARA/DOE letters are **NOT FOR SENDING** and superseded. Canonical rule: `ARCHIVE/PUBLIC_ONLY_ACQUISITION_RULES_2026-10-22.md`. A public online DOE AEC original film acquisition workflow `.github/workflows/project_pluto_public_only_online_film_acquire.yml` targets 4 officially indexed source videos; source frames and technical details must be examined before any clip is accepted. These are **CONTEXT OTHER PROGRAMS, NEVER Tory/Pluto actual tests**. Workflow creation ≠ proof of new MP4 acquisition; verify run and artifact before counting. R5 unaffected.
+
 ## LATEST R5 RIGHTS + NARA / DOE ORIGINAL FILM RESEARCH AUDIT (2026-10-22)
 
 Two acquisition/legal steps reviewed. **NO NEW PUBLIC-DOMAIN PLUTO FILM BINARY ACQUIRED** in this research pass. R5 unchanged **34 clips/15:33** technical PASS; all 34 inherit film-level **RIGHTS HOLD** from third-party LASVN1 mirror original. Original 1964 Tory II-C test film remains **0 confirmed seconds**. Original official NARA source transfer pending, no expenditure authorized.
