@@ -1,3 +1,8 @@
+## LATEST R3 STRICT QC (2026-10-22) — OVERRIDES R2 COUNTS
+
+Verified actual local ZIP `HIA_VIDEO006_PLUTO_R3_EDITORIAL_QC_SOURCE_BANK.zip` 120,954,345 bytes, SHA256 `8ef7c1c582ac8afa38b17bdc42af519e752a7f77dbebb5bc03b8e3bf2982e8ad`.
+29/29 source-film MP4s individually checked against SHA256, duration, native H264/720p/24 fps/no audio, ZIP CRC PASS. Primary historical LASV-N1 period motion: **24 clips/13:03**. Support-only demonstrative/graphic footage: **5 clips/1:49**. Total **14:52**, not all primary live film. This R3 source cut bank supersedes R2 15:44 and earlier 17:45 headline figures. Rights from third-party mirror remain **HOLD**; exact full narrative coverage and unacquired 1964 Tory II-C actual run **HOLD**. Not a final film nor 100% script beat coverage. Detailed audit at `ARCHIVE/LASVN1_EDITORIAL_R3_VERIFIED_RELEASE_GATE_2026-10-22.md`. ZIP in current conversation sandbox and **not uploaded to GitHub Releases**.
+
 ## HIGHEST-PRIORITY VIDEO 006 STATUS — INDEPENDENT R3 REVIEW 2026-10-22
 
 R3 **SOURCE VIDEO QC PASSED** for precise truthful subject matter, not full final movie/publication:
