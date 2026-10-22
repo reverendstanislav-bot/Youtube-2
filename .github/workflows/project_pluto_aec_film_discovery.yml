@@ -1,0 +1,32 @@
+name: Project Pluto — Locate original AEC nuclear propulsion films
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_aec_film_discovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  find-originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Check independent original film copies and rights metadata
+        run: python PROJECT_PLUTO/ARCHIVE/find_aec_original_film_copies.py
+      - name: Store result in Git
+        if: always()
+        run: |
+          mkdir -p PROJECT_PLUTO/ARCHIVE/AEC_SOURCE_FINDINGS
+          cp aec_film_discovery/SOURCE_DISCOVERY.json PROJECT_PLUTO/ARCHIVE/AEC_SOURCE_FINDINGS/ || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/AEC_SOURCE_FINDINGS/
+          if ! git diff --cached --quiet; then
+            git commit -m "Document original AEC film source search evidence [skip ci]"
+            git push
+          fi
