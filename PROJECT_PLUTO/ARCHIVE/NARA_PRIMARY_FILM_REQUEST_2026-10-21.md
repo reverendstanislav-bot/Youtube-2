@@ -1,3 +1,6 @@
+## Additional catalog evidence confirmed 2026-10-21
+A historic National Archives 2013 classified-film title inventory independently lists **Moving Images Record Group 342, film FR-258, THE NUCLEAR RAMJET PROGRAM PLUTO, 1963**, with accession **NN3-342-94-001**. This is a *holdings lead*, NOT a public digital file nor proof of current classification or release status. Source: https://www.scribd.com/document/736959168/NARAClassifiedTitles2013 . The original film title and number also appear in Michael Ravnitzky's older USAF inventory. Request a NARA digitization/transfer; never insert footage from current 3rd-party documentaries as if it were this original film.
+
 # HIA Project Pluto — priority motion-picture reference request to NARA
 
 Date drafted: 2026-10-21
