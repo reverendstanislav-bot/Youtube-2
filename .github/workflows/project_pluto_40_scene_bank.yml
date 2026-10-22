@@ -1,0 +1,56 @@
+name: Project Pluto — Forty Full Archival Scene Takes
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_40_scene_bank.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scene-bank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install native media and ZIP tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg zip
+      - name: Get unchanged original government archive movie files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          mkdir -p original_full_films
+          for ID in F020 F011 F013 F015 F031; do
+            case "$ID" in
+              F020) TAG=project-pluto-archive-batch1-20261021;;
+              F031) TAG=project-pluto-archive-batch1-20261021;;
+              *) TAG=project-pluto-context-source-$ID-20261021;;
+            esac
+            if [ "$ID" = "F031" ]; then EXT=ogv; else EXT=webm; fi
+            gh release download "$TAG" --pattern "$ID.$EXT" --dir original_full_films
+            test -s original_full_films/$ID.$EXT
+          done
+      - name: Cut individual actual footage scenes and verify durations hashes and formats
+        run: python3 PROJECT_PLUTO/ARCHIVE/export_scene_bank_40.py
+      - name: Assemble one clean downloadable scene folder package
+        run: |
+          cp PROJECT_PLUTO/ARCHIVE/SCENE_BANK_40_SOURCE_IN_OUT.csv PROJECT_PLUTO_DELIVERY/02_SELECTED_SCENES/
+          zip -r -q -0 PROJECT_PLUTO_40_REAL_CONTEXT_SCENES.zip PROJECT_PLUTO_DELIVERY/02_SELECTED_SCENES
+          ls -lh PROJECT_PLUTO_40_REAL_CONTEXT_SCENES.zip
+      - name: Publish full distinct scene archive and metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG=project-pluto-40-scene-bank-20261021
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Project Pluto — forty genuine historical contextual scenes, 5-20 sec" --notes "One ZIP of original-source-derived muted MP4 scenes (5-20 sec each); original source identity/times in CSV; native resolutions. These show other US government programs, NOT Project Pluto Tory experiments. Editorial playback QC and final per-clip licensing remain OPEN."
+          gh release upload "$TAG" PROJECT_PLUTO_40_REAL_CONTEXT_SCENES.zip PROJECT_PLUTO_DELIVERY/02_SELECTED_SCENES/SCENE_BANK_QC.json PROJECT_PLUTO/ARCHIVE/SCENE_BANK_40_SOURCE_IN_OUT.csv --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_Project_Pluto_Forty_Historical_Scenes
+          path: PROJECT_PLUTO_40_REAL_CONTEXT_SCENES.zip
+          if-no-files-found: warn
+          retention-days: 14
+          compression-level: 0
