@@ -1,0 +1,98 @@
+[
+  {
+    "id": "LASVN1",
+    "title": "LASV-N1 Progress Report 1963",
+    "official_catalog": "https://www.youtube.com/watch?v=8qMuS5kaDBI",
+    "video_role": "DIRECT_PLUTO_FILM_REVIEW",
+    "record_id": "USAF 38912",
+    "state": "CATALOG_LEAD_ONLY",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "ROVER",
+    "title": "Project Rover",
+    "official_catalog": "https://catalog.archives.gov/id/88229",
+    "video_role": "NUCLEAR_PROPULSION_DIFFERENT_PROGRAM",
+    "record_id": "NARA 88229",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "WINGS",
+    "title": "Giving Wings to the Atom",
+    "official_catalog": "https://catalog.archives.gov/id/6281120",
+    "video_role": "NUCLEAR_AIRCRAFT_DIFFERENT_PROGRAM",
+    "record_id": "NARA 6281120",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "ML1",
+    "title": "ML-1 Mobile Nuclear Power Plant",
+    "official_catalog": "https://catalog.archives.gov/id/88191",
+    "video_role": "GAS_REACTOR_DIFFERENT_PROGRAM",
+    "record_id": "NARA 88191",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "BUILD",
+    "title": "Building for Atomic Energy",
+    "official_catalog": "https://catalog.archives.gov/id/88375",
+    "video_role": "NUCLEAR_FACILITY_DIFFERENT_SITE",
+    "record_id": "NARA 88375",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "EBR",
+    "title": "EBR-1 Core Disassembly After Melt Down",
+    "official_catalog": "https://catalog.archives.gov/id/88380",
+    "video_role": "NUCLEAR_REMOTE_HANDLING_DIFFERENT_REACTOR",
+    "record_id": "NARA 88380",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "EBWR",
+    "title": "Construction of the Experimental Boiling Water Reactor",
+    "official_catalog": "https://catalog.archives.gov/id/88378",
+    "video_role": "REACTOR_BUILD_DIFFERENT_REACTOR",
+    "record_id": "NARA 88378",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [],
+    "rights": "UNCLEARED"
+  },
+  {
+    "id": "SPACE",
+    "title": "Atomic Energy for Space",
+    "official_catalog": "https://catalog.archives.gov/id/88102",
+    "video_role": "NUCLEAR_SPACE_DIFFERENT_PROGRAM",
+    "record_id": "NARA 88102",
+    "state": "DISCOVERY_COMPLETE_RIGHTS_UNVERIFIED",
+    "matches": [
+      {
+        "identifier": "AtomicEnergyForSpace",
+        "title": "Atomic Energy For Space",
+        "creator": "United States. Department of Energy",
+        "archive_page": "https://archive.org/details/AtomicEnergyForSpace",
+        "producer": "United States. Department of Energy",
+        "rights_text": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "candidate_files": [
+          {
+            "filename": "434-38 Atomic Energy For Space 1966.mov",
+            "size": 327975346,
+            "url": "https://archive.org/download/AtomicEnergyForSpace/434-38%20Atomic%20Energy%20For%20Space%201966.mov"
+          }
+        ]
+      }
+    ],
+    "rights": "UNCLEARED"
+  }
+]
