@@ -1,3 +1,11 @@
+## STAGE 04 FACT + SCRIPT LEGAL QC / VERIFIED V2 — 2026-10-22
+
+**FACT QC for V2 complete:** 54 material claims checked with exact source and limits; chronology **May 12/20 1964** (official AEC) and **July 1 flight-test decision**; period Air Force magazine says May22, AEC contemporaneous year report controls narration. Corrected Stage03 V1's false generalized '<1 minute' stored-air ground test limit to 'a few minutes'; LLNL's specific Tory II-A 45s remains. Added contemporary April/June1964 Congressional budget/no military requirement conflict, separated retrospective interpretation and documented decision. Clarified ~500MW thermal is rounded and not thrust. Verified authentic remote-controlled reactor railroad with UCRL-7036 Part1 p4. All claims listed in `SCRIPT/STAGE04_CLAIM_BY_CLAIM_EVIDENCE_LEDGER_V1.csv`. Full review `SCRIPT/STAGE04_FINAL_FACT_EDITORIAL_LEGAL_QC_2026-10-22.md`.
+
+**Authoritative V2 full script:** `SCRIPT/STAGE04_PROJECT_PLUTO_FULL_NARRATION_V2_EN.md` (8 chapters); **clean exact VO text:** `SCRIPT/STAGE04_PROJECT_PLUTO_VOICE_TEXT_V2_EN.txt`, **2955 spoken words, 19.1–21.9min at 135–155wpm**; **30 text-exact aligned semantic beats:** `SCRIPT/STAGE04_PROJECT_PLUTO_EVIDENCE_ALIGNED_BEATS_V2.csv`; timecodes blank because no Pluto WAV. Stage03 V1 remains historical, **superseded**.
+
+**STAGE04 FACT/SCRIPT-WORDING PASS WITH DOCUMENTED QUALIFICATIONS; OWNER SCRIPT LOCK OPEN; NO paid voice generation; NO voice job authorization; ALL media rights and FINAL_FILM HOLD; R1 footage bank REJECTED.** Public sources only; no requests to archives.
+
 ## STAGE 03 FULL 8-CHAPTER SCRIPT V1 WRITTEN AND GIT-COMMITTED — 2026-10-22
 
 **Stage 03 DONE (V1 complete); screenplay fact/legal/producer lock NOT DONE.** Exact GitHub file: `PROJECT_PLUTO/SCRIPT/STAGE03_PROJECT_PLUTO_FULL_NARRATION_V1_EN.md`; clean read-only voice narration text: `PROJECT_PLUTO/SCRIPT/STAGE03_PROJECT_PLUTO_VOICE_TEXT_V1_EN.txt`; semantic 33-bit ordered text map: `PROJECT_PLUTO/SCRIPT/STAGE03_PROJECT_PLUTO_SEMANTIC_BEATS_V1.csv`; check/audit: `PROJECT_PLUTO/SCRIPT/STAGE03_SCRIPT_EDITORIAL_AND_FACT_QC_V1.md`. Eight chapter bodies total **2887 spoken English words**; expected narration **18.6–21.4 minutes at 135–155 wpm**. All 33 beats have exact excerpt and chapter claim relevance; **no audio timestamps fabricated**.
