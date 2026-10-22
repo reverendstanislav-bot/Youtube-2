@@ -1,3 +1,13 @@
+## SOURCE ARCHIVE DELIVERED — LATEST VERIFIED 2026-10-21
+
+- **7 original-source-derived full MP4 movies physically published and verified:** 1h59m08.144s, 1.935 GB, with original resolution/FPS/sound intact; originals WEBM/OGV unchanged in earlier releases. ALL are CONTEXT ONLY, **not actual Project Pluto tests**. See `ARCHIVE/FINAL_VERIFIED_MEDIA_MANIFEST_20261021.md`.
+- **40 source-derived distinct 5–20s scene MP4s physically exported:** 8m11.221s in single 105.69MB ZIP; original source IN/OUT and SHA QC included; supersedes original 46 microcuts, do not add counts. Script beat match and full in-motion approval OPEN.
+- **39 authentic Tory/Pluto photos** in one 723MB ZIP, including 36 genuine HAER Area26 archival TIFF original photos; 12 additional HAER targeted photos failed Wikimedia 429. 3 historical Tory photos and 36 after-1968 site images are separate classes.
+- **5 genuine Project Pluto primary report PDFs** physically acquired and verified; sixth LOC photo captions 520 failed.
+- **Windows archive download script** created with four target folders and SHA log; native untouched films optionally included.
+- **0 sec confirmed downloaded Tory II-A or II-C engine-operating film**. 20 USAF original-film catalog leads including FR-258, NARA accession NN3-342-94-001; archive-request draft **NOT SENT**. HISTORICAL-DIRECT-FOOTAGE HOLD remains.
+- No film master, locked script, transcript timeline, final clip rights/continuity approval, or video generation claimed. No paid credits used.
+
 ## LATEST SOURCE FOOTAGE — 2026-10-21, third film review wave
 - Total physically exported original-film-derived clip proxies: **46 clips**, **239.2331 seconds** / **03:59.2331**, summed from first 9 (40.1401s), second 21 (106s), and third 16 (93.093s).
 - Three verified releases:
