@@ -1,0 +1,45 @@
+name: Project Pluto — CLEAN documentary cutouts
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_clean_cuts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow
+      - name: Restore the already physically-verified source assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download project-pluto-40-scene-bank-20261021 --pattern PROJECT_PLUTO_40_REAL_CONTEXT_SCENES.zip
+          gh release download project-pluto-39-real-historical-photos-20261021 --pattern PROJECT_PLUTO_REAL_HISTORICAL_PHOTOS_39_FILES.zip
+          test -s PROJECT_PLUTO_40_REAL_CONTEXT_SCENES.zip
+          test -s PROJECT_PLUTO_REAL_HISTORICAL_PHOTOS_39_FILES.zip
+      - name: Verify true source cuts, reject unrelated B-roll, extract strict reel
+        run: python PROJECT_PLUTO/ARCHIVE/build_strict_pluto_archive.py
+      - name: Release a single clean package, not hundreds of microclips
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG=project-pluto-video006-clean-cutouts-20261021
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "HIA VIDEO006 — real Pluto images + only necessary comparative film cutouts" --notes "Strict curator selection: 13 authentic Project Pluto historical photographs, nine other-program film cuts ONLY where direct comparison makes sense. True Pluto/Tory movie footage: 0 confirmed. CSV/SHA provenance included, rights and final script timing OPEN."
+          gh release upload "$TAG" HIA_VIDEO006_PROJECT_PLUTO_CLEAN_CUTS.zip HIA_VIDEO006_STRICT_EDITORIAL/03_PROVENANCE/STRICT_SOURCE_LOG.json HIA_VIDEO006_STRICT_EDITORIAL/03_PROVENANCE/SOURCE_IN_OUT.csv --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HIA_VIDEO006_Strict_Clean_Cutouts
+          path: HIA_VIDEO006_PROJECT_PLUTO_CLEAN_CUTS.zip
+          retention-days: 14
+          if-no-files-found: warn
