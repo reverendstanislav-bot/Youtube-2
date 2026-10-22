@@ -1,3 +1,11 @@
+## LATEST VIDEO ACQUISITION — 2026-10-22 (NEW REAL PROGRAM FILM, SUPERSEDES 1m09s-ONLY CLAIM)
+
+**Actual 1963 USAF LASV-N1 / Pluto primary film recovered**: 27:38.333 original USAF 38912, 1280x720, 24fps, H264, 100,689,792 bytes, source SHA256 `3d9305615472a3ac7a18c50b1d7a3649d20d34f1e1aab93439f535650191114e`. Source recorded from a publicly viewable mirror in GitHub Action 39782104767. Original-period film footage is authentic program supporting SLAM development, but mirror/restoration/embedded rights **HOLD**. `PROJECT_PLUTO/ARCHIVE/LASVN1_RECOVERED_SOURCE_AND_QC_2026-10-22.md` has precise evidence.
+
+**27 unique source-timestamped extracted MP4 candidates = 1065 sec (17:45)**, no soundtrack, 720p/24fps; 93,959,405-byte ZIP delivered in current ChatGPT conversation sandbox, **not in GitHub**. 27 source cutlist in `ARCHIVE/LASVN1_REAL_1963_27_CUTS_SOURCEMAP.csv`. Includes some original film's charts/animation, so final edited live-action duration is **not certified 17:45**. More primary motion sourced than prior 69sec kit. Script beat match, continuous motion editor signoff, and picture copyright check all OPEN; 1964 Tory II-C actual run film **NOT acquired**.
+
+DOE official archive added to scouting: `AEC_OFFICIAL_FILM_SOURCE_PRIORITY.csv`, public US DOE AEC film collection (Project Rover / ML-1 etc other programs must be marked context), `AEC_SOURCE_FINDINGS/SOURCE_DISCOVERY.json`. Current user's format preference footage first, few stills, generation only for factual graphs and creative document emphasis. Unrelated launches cannot stand in for actual Pluto test.
+
 ## 2026-10-22 SOURCE RECOVERY — PRIMARY FIRST EDITOR BANK (OVERRIDES PREVIOUS 1:09-ONLY DELIVERY)
 
 Physical archive delivered and GitHub Release verified:
