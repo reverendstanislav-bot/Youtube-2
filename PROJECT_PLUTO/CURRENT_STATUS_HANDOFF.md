@@ -154,6 +154,10 @@ This curated package contains no voice subtitles, effects or music.
 
 # CURRENT STATUS HANDOFF — PROJECT PLUTO — VIDEO 006
 
+## 2026-10-22 — owner rejection of public source bank R1
+
+Owner rejected R1 for editorial use: the package is dominated by old 1963 engineering footage and does not match the intended script. R1 is retained only as a provenance-preserved technical archive and must not be used as an approved montage bank. Root cause: no locked Stage 03 Project Pluto script or correct Project Pluto narration was available; provisional outline-based selection was insufficient. Replacement remains blocked until actual script and matching narration/transcript are available. Do not infer missing dialogue or pad chapters with unrelated historical footage.
+
 ## 2026-10-22 — public-only verified source bank R1
 
 Executed `ARCHIVE/CODEX_PUBLIC_ONLY_EXECUTION_HANDOFF_2026-10-22.md` against the authoritative minimal queue. Release-ready bank contains **33 silent MP4 clips / 10:56.375**: **29 direct 1963 Project Pluto/SLAM R&D clips / 10:28.375** and **4 explicitly labeled other-program context clips / 00:28.000**. All 33 pass full FFmpeg decode, black-frame, audio-stream, subtitle-stream, duration and unique-SHA checks. Every clip has exact source IN/OUT, context, editorial purpose, rights status and provisional script beat in `DELIVERY/VIDEO006_PUBLIC_SOURCE_BANK_R1/SOURCE_CLIP_MANIFEST.csv`.

@@ -1,5 +1,7 @@
 # PROJECT PLUTO / VIDEO006 — public source bank R1 QC
 
+> **OWNER REJECTED 2026-10-22 — DO NOT USE FOR EDIT.** The technically valid files do not form an acceptable script-matched montage bank. Most material covers provisional chapters 2 and 5, while no locked Stage 03 script or correct Project Pluto narration was available.
+
 Date: 2026-10-22  
 Repository: `reverendstanislav-bot/Youtube-2`  
 Scope: `PROJECT_PLUTO`, VIDEO006 only
