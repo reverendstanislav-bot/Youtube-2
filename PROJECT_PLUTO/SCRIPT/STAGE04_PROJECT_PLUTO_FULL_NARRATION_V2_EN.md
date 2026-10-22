@@ -3,8 +3,8 @@
 **STAGE 04 — SOURCE-CHECKED NARRATION SCRIPT V2 (EN-US) [PENDING OWNER SCRIPT LOCK]**  
 **Status:** Stage04 verified revision; **PENDING OWNER SCRIPT LOCK / NOT voice-authorized**  
 **Research:** `RESEARCH/SOURCE_LEDGER.md`, `FACT_CONTROL_V1.md`, and `SCRIPT/STAGE04_CLAIM_BY_CLAIM_EVIDENCE_LEDGER_V1.csv`; source P01 AEC 1964 printed page 63; P12 contemporary Congress and committee action (see stage04).  
-**VO word count:** 2922 (chapter body only; do not read chapter headings or producer metadata).
-**Provisional VO runtime:** 18.9–21.6 minutes at 135–155 spoken words/min, before transitions.
+**VO word count:** 2955 (chapter body only; do not read chapter headings or producer metadata).
+**Provisional VO runtime:** 19.1–21.9 minutes at 135–155 spoken words/min, before transitions.
 **Paid voice generation:** NOT AUTHORIZED.  
 **Core distinction:** Tory reactor/ground-testing real; SLAM flying missile never built or flown.
 
@@ -142,7 +142,9 @@ The air supply was finite. Contemporary Livermore engineers explained that groun
 
 And because these were nuclear reactors, handling the machinery after operation raised questions that ordinary aircraft testing rarely faced.
 
-The site incorporated arrangements for remote work and post-test examination. The Historic American Engineering Record documents a dedicated disassembly building associated with Pluto. Its purpose was to take apart tested reactors so their components could be studied and improved.
+The site incorporated arrangements for remote work and post-test examination. Contemporary engineers even used a remote-controlled railroad flatcar to move the reactor between the test position and the disassembly building. This was a real industrial railroad built around a radioactive machine, not a missile launch system.
+
+The Historic American Engineering Record documents the dedicated disassembly building. Its purpose was to take apart tested reactors so their components could be studied and improved.
 
 Photographs made for the federal historic survey show the real buildings and spaces associated with the site. But they were recorded later. They cannot honestly be presented as motion pictures of the tests occurring in nineteen sixty-one or nineteen sixty-four.
 
