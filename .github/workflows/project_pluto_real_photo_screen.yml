@@ -1,0 +1,29 @@
+name: Project Pluto — Real source photo shot QC
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_real_photo_screen.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo_review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow
+      - name: Restore verified originals
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download project-pluto-39-real-historical-photos-20261021 --pattern PROJECT_PLUTO_REAL_HISTORICAL_PHOTOS_39_FILES.zip
+      - name: Produce photo source QC contact sheets
+        run: python PROJECT_PLUTO/ARCHIVE/contact_real_pluto_photos.py
+      - name: Save the real photo screening results to source of truth
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_PLUTO/ARCHIVE/REAL_PLUTO_PHOTO_SCREENING/
+          git commit -m "Source-review real Project Pluto photographic originals for montage curation [skip ci]"
+          git push
