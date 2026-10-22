@@ -86,3 +86,14 @@ jobs:
             git commit -m "publish TC497 synced English SRT"
             git push
           fi
+
+      - name: Publish direct-download SRT asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          if gh release view tc497-english-subtitles-20261021 >/dev/null 2>&1; then
+            gh release upload tc497-english-subtitles-20261021 TC497/PUBLISHING/TC497_ENGLISH_CC.srt --clobber
+          else
+            gh release create tc497-english-subtitles-20261021 TC497/PUBLISHING/TC497_ENGLISH_CC.srt --title "TC-497 English Subtitles" --notes "Synced English subtitle track for the final TC-497 documentary, ready for YouTube Studio."
+          fi
