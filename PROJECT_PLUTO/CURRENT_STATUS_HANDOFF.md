@@ -1,3 +1,16 @@
+## CODEX READY / PUBLIC-ONLY NO-JUNK DOWNLOAD QUEUE — 2026-10-22
+
+Latest producer request: prepare direct download URLs for Codex tied to eight provisional chapters, story meaning and voice, **NO filler**. All source assets are **publicly posted**; no NARA/DOE letters, API keys, paid requests or subscriptions.
+
+**READY FILES ON main:**
+- `ARCHIVE/CODEX_PUBLIC_ONLY_MINIMAL_SOURCE_QUEUE_2026-10-22.csv`: 12 precise records with source URL, previously verified SHA, conditional chapter role and publication rights HOLD.
+- `ARCHIVE/CODEX_PUBLIC_ONLY_EXECUTION_HANDOFF_2026-10-22.md`: actionable acquisition/edit instructions and chapter-to-source map; no invented narration timecode.
+- `ARCHIVE/codex_fetch_public_queue.py`: one-command SHA256 verified minimal download of 58MB actual Pluto primary editor bank and DOC-01 1964 report; optional F015/F013 context only and recover original USAF38912 via `gh run download`. NO automatic YouTube anti-bot bypass; DOE candidates are watch-only until real public binary is found.
+- R5 is **local chat ZIP only** SHA256 `897cddf56a8299f7ca995cf5a94cca19d965bcc0cdca764e70ddf81272572b66`, **NOT downloadable from GitHub**. Existing original LASVN1 Actions run 39782104767 is recoverable; do not conflate original 1963 film with 1964 Tory-C test.
+- **Missing Pluto Stage03 script LOCK and actual voice WAV/transcript** from project directory; cannot assert exact final audio-sync maps. `AUDIO_TIMING_HOLD` until files supplied; only provisional chapter-level assignments.
+
+Keep FINAL_FILM and RIGHTS_HOLD until proven. Never count a watch page as a downloadable MP4.
+
 ## VERIFIED PUBLIC-ONLY INTERNET FILM RESEARCH (2026-10-22) — NO OUTREACH
 
 Producer forbids requests; **all new outreach/order drafts created in previous turn now deleted from current `main`**. Only public media. Source URLs 5 entries: `ARCHIVE/PUBLIC_ONLY_FILM_VIDEO_URLS_2026-10-22.csv`; results `ARCHIVE/PUBLIC_FILM_ACCESS_AND_DOWNLOAD_QC_2026-10-22.md`. DOE officially linked 4 public films + Argonne online source about reactor fuel handling. **Actual 0/4 newly downloaded**: GitHub Actions 39839095490 fetched metadata only; YouTube blocked `yt-dlp` runner with anti-bot. Workflow overall completed but MP4 count = ZERO. All other programs, not filmed Tory tests. NO increase to R5. Commercial rights HOLD, no invented files. Official DOE/NARA policies permit US federal PD where government-created, exceptions for embedded/privately owned video; individual source QC remains mandatory.
