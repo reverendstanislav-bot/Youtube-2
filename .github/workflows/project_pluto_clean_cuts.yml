@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/project_pluto_clean_cuts.yml'
+      - 'PROJECT_PLUTO/ARCHIVE/STRICT_REAL_PLUTO_PHOTOS.csv'
   workflow_dispatch:
 permissions:
   contents: write
