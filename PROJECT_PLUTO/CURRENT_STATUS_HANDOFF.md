@@ -1,3 +1,13 @@
+## HIGHEST-PRIORITY VIDEO 006 STATUS — INDEPENDENT R3 REVIEW 2026-10-22
+
+R3 **SOURCE VIDEO QC PASSED** for precise truthful subject matter, not full final movie/publication:
+- `HIA_VIDEO006_PLUTO_R3_EDITORIAL_QC_SOURCE_BANK.zip` generated in active user conversation; **120,954,345 bytes**, SHA256 `8ef7c1c582ac8afa38b17bdc42af519e752a7f77dbebb5bc03b8e3bf2982e8ad`, ZIP CRC PASS. This binary exists in conversation sandbox, **not** as a GitHub Release; do not assert GitHub download URL.
+- **24 core moving picture source scenes = 783s / 13:03**, actual 1963 LASV-N1 program models/wind tunnels/industrial experiments/electronics. Source/editor rough-cut selection + MP4 metadata/codec/frame-size/24fps/audio-free/SHA pass.
+- **5 limited support clips = 109s / 1:49**, slow demonstration/model stills, not primary live action coverage.
+- Total physical MP4 archive 29 clips = **892s / 14:52**. R2 15:44 is superseded; 52 seconds of low-value/deceptive road, dark, test slate and overlong takes removed. R3 verified SLAM-07, 16, 19A+19B and SLAM-15 shortened and frame-accurate. Source cutlist: `ARCHIVE/LASVN1_R3_EDITORIAL_VIDEO_SOURCE_CUTLIST.csv`. Full QC: `ARCHIVE/LASVN1_R3_SOURCE_MOTION_QC_2026-10-22.md`.
+- **Rights/YouTube strike prevention: HOLD**: USAF government film original origin clear by old historical record but third-party digitization and embedded elements not cleared. NARA cannot certify copyright; no one can promise automatic Content ID-free outcome. NARA original-copy/rightsholder request drafted, unsent: `ARCHIVE/LASVN1_NARA_AUTHENTIC_COPY_RIGHTS_REQUEST.md`.
+- **Full movie narrative coverage: HOLD**: source primarily supports 1963 design and components, not 1964 Tory-II-C test/decision. No locked 16–22-min video006 screenplay and no Tory 1964 live test footage. User must NOT be told film final/upload PASS.
+
 ## OVERRIDING LATEST PRODUCER QC — 2026-10-22 / LASVN1 R2
 
 **MOST RECENT CORRECTED SOURCE BANK:** 29 actual MP4 cuts totaling **15:44.000 = 944s**, edited from 27 earlier cuts totaling 17:45.000 (the prior 17:45 **NO LONGER counts as finished live-action montage**). 20 prior good cuts preserved byte-for-byte, 9 replacements/split cuts produced; all 29 technically verified: H264 1280x720 24fps, correct MP4, muted, SHA and duration checked, ZIP CRC PASS. 2:01 of graphics/unrelated road, blurry/repetitive material and black transitions removed or shortened. Initial 27 technically PASS but contain editorial filler; SLAM-11 rejected, SLAM-08 previously wrongly flagged but good. Corrected ZIP **133,570,226 bytes**, SHA256 `88eed4884252285095ba2d1a33ac65e23bc95f9bda369a78e6f188540a46e4a8`. Currently available through conversation download, **not GitHub Release**.
