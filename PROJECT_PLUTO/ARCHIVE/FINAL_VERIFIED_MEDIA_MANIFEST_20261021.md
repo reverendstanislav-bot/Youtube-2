@@ -31,7 +31,7 @@ No video generation, no paid credits.
 - Photos taken later are real place documentation, not 1961/1964 run-day pictures.
 
 ## 4. Original direct Project Pluto documentary reports
-- **Five physically acquired, PDF-magic + pdfinfo pages + SHA verified** authentic government/LLNL/HAER PDF binary reports, total 91,165,? bytes (use per-asset release manifest as authority; do not guess sums):
+- **Five physically acquired, PDF-magic + pdfinfo pages + SHA verified** authentic government/LLNL/HAER PDF binary reports, total **91,110,135 bytes** across the 5 verified PDFs:
   DOC-01 Project Pluto 1964 quarterly testing report PDF (176 PDF pages; 167-numbered-report description).
   DOC-02 Tory II-C full engineering PDF (421 actual PDF pages, source describes 414 report pages).
   DOC-03 period Tory II-C engineering study.
