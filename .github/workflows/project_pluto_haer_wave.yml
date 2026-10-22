@@ -1,0 +1,43 @@
+name: Project Pluto — Original HAER Site TIFF Photos
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_haer_wave.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  originals:
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Retrieve real-area Project Pluto HAER original TIFF
+        run: python PROJECT_PLUTO/ARCHIVE/acquire_haer_v1.py --shard ${{ matrix.shard }}
+      - name: Publish primary scanned historical photographs
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHARD: ${{ matrix.shard }}
+        run: |
+          set -e
+          N=$(printf "%02d" "$SHARD")
+          TAG="project-pluto-haer-originals-$N-20261021"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Pluto Area 26 historical photographs - batch $N" --notes "Real government HAER photos of Pluto Area 26 after 1968, not test-day photography. TIFF source originals, hashes, and failed downloads are in source manifest; rights check per image."
+          gh release upload "$TAG" pluto_haer/batch_"$N"/* --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Pluto_Actual_Facility_Photo_Sources_${{ matrix.shard }}
+          path: pluto_haer/
+          retention-days: 14
+          if-no-files-found: warn

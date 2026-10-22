@@ -1,0 +1,4 @@
+# VIDEO 006 — First-party HAER photographs original acquisition
+Attempts up to 48 REAL Area 26 facility photos from the Library of Congress HAER original set via Wikimedia Commons source-file links. 40 views from building 2201 (NV-32-A), 4 general site (NV-32), 4 ancillary structures. All later documentation after 1968; not Tory test-day exposures.
+
+Twelve staggered independent jobs, four files per job, at most two concurrent. Success requires actual TIFF binary content, expected original bytes and SHA256. Failures preserved in Source Manifest and do not count as acquired. No AI generation, no fake 1080p, no shots labeled as 1964 operation. Official collection references: https://www.loc.gov/item/nv0256/ and https://www.loc.gov/item/nv0255/ . Individual rights review remains open. Original photographs are stored as TIFF in the respective per-batch Releases.
