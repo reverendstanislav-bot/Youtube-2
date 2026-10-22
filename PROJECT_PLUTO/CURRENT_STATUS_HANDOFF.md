@@ -1,3 +1,9 @@
+## LATEST R5 ACTUAL MOTION ASSET EXPANSION — 2026-10-22 (SUPERSEDES R4 SOURCE CUTS)
+
+Independently recovered original USAF38912 LASV-N1 1963 program film; newly SCREENED source gaps yielded FOUR more genuine useful moving scenes totaling **+57 sec** (SLAM-11A 15s, 12B 8s, 15B 24s, 25B 10s). NEW **R5 total 34 physical clips / 15:33 = 933sec**: **29 PRIMARY clips / 13:44 = 824sec**, **5 SUPPORT / 1:49 = 109sec**. 34/34 fully FFmpeg-decoded without errors, SHA checked, ZIP CRC PASS. File: `HIA_VIDEO006_PLUTO_R5_EXPANDED_AUTHENTIC_VIDEO_SOURCE_BANK.zip` (153,505,827 bytes; SHA256 `897cddf56a8299f7ca995cf5a94cca19d965bcc0cdca764e70ddf81272572b66`). Binary exists ONLY in producing conversation sandbox; **NOT uploaded to GitHub Releases**. Manifest & audit in `ARCHIVE/LASVN1_R5_VERIFIED_VIDEO_SOURCE_MANIFEST_2026-10-22.csv` and `ARCHIVE/LASVN1_R5_PHYSICAL_MEDIA_QC_2026-10-22.md`.
+
+**MEDIA SOURCE TECH QC PASS; FINAL FILM, complete narrated coverage, official 1964 Tory footage, and picture RIGHTS ALL HOLD.** No payment, no generated video, no claim of guaranteed copyright immunity. R4 is now superseded for editorial use.
+
 ## LATEST R4 PHYSICAL RECOVERY + STRICT SOURCE QC (2026-10-22) — OVERRIDES R3 VIDEO BANK
 
 Original LASV-N1 (USAF 38912, 1963) RECOVERED from GitHub Actions artifact 12427911346, SHA256 verified. Source proper H264/AAC MP4 remux 92,111,526 bytes SHA256 `f0ffe68e0395738d191f53132b70d412b98b8d44236496f9db5fe58eedbd16e3`.
