@@ -1,0 +1,70 @@
+name: Project Pluto public online government films — non-Pluto context original scans
+on:
+  push:
+    paths:
+      - '.github/workflows/project_pluto_public_only_online_film_acquire.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install public media retrieval and probing tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade yt-dlp pillow
+      - name: Download publicly published film links embedded on DOE's government online AEC-film catalog
+        shell: bash
+        run: |
+          mkdir -p public_film_bank
+          python - <<'PY'
+          import hashlib,json,pathlib,subprocess
+          from datetime import datetime,timezone
+          base=pathlib.Path('public_film_bank')
+          originals=base/'01_PUBLIC_ORIGINALS'; originals.mkdir(exist_ok=True)
+          specs=[
+            ('AEC_EBRII','EBR-II Fuel Cycle Development', 'qJO3-21z_OI','NARA 88381','OTHER_PROGRAM_CONTEXT'),
+            ('AEC_ROVER','Project Rover', 'wh6e28FRO3s','NARA 88229','OTHER_PROGRAM_CONTEXT'),
+            ('AEC_ML1','ML-1 Mobile Nuclear Power Plant', 'ibn0rREfBhU','NARA 88191','OTHER_PROGRAM_CONTEXT'),
+            ('AEC_EBR1','EBR-1 Core Disassembly After Melt Down','Z9uEcxkp8bg','NARA 88380','OTHER_PROGRAM_CONTEXT')
+          ]
+          out=[]
+          for id,title,video_id,naid,role in specs:
+            u=f'https://www.youtube.com/watch?v={video_id}'
+            path=originals/id+'.mp4'
+            rec={'id':id,'title':title,'official_doe_source':'https://www.energy.gov/lm/atomic-energy-commission-films-available-online','nara_id':naid,'public_url':u,'role':role,'declared_program':'NOT_PROJECT_PLUTO','publishing_rights':'HOLD_PER_FILM_REVIEW','status':'NOT_DOWNLOADED'}
+            cmd=['yt-dlp','--no-playlist','--no-progress','--socket-timeout','15','--retries','1','--fragment-retries','1','--merge-output-format','mp4','-f','bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b','-o',str(path),u]
+            try:
+              p=subprocess.run(cmd, capture_output=True,text=True,timeout=420)
+              rec['retrieval_log_tail']=(p.stdout+'\n'+p.stderr)[-1200:]
+              if p.returncode == 0 and path.exists() and path.stat().st_size > 500000:
+                ff=subprocess.run(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(path)],capture_output=True,text=True,timeout=40)
+                if ff.returncode == 0:
+                  data=json.loads(ff.stdout)
+                  rec.update(status='ACQUIRED_TECH_PREFLIGHT',bytes=path.stat().st_size,sha256=hashlib.sha256(path.read_bytes()).hexdigest(),duration_sec=float(data['format'].get('duration',0)),streams=[{'codec_type':x.get('codec_type'),'codec_name':x.get('codec_name'),'width':x.get('width'),'height':x.get('height'),'r_frame_rate':x.get('r_frame_rate')} for x in data.get('streams',[])])
+                  frames=base/'02_CONTACT_SAMPLES'/id;frames.mkdir(parents=True,exist_ok=True)
+                  dur=rec['duration_sec']
+                  for j in range(0,int(dur),60):
+                    t=max(0,min(dur-2,j+10))
+                    subprocess.run(['ffmpeg','-loglevel','error','-ss',str(t),'-i',str(path),'-frames:v','1','-vf','scale=480:-2',str(frames/f'{j//60:02d}_{int(t)}s.jpg'),'-y'],timeout=35)
+                  rec['samples']=len(list(frames.glob('*.jpg')))
+                else:rec.update(status='FFPROBE_ERROR',probe_error=ff.stderr[-300:])
+              else:rec['status']='DOWNLOAD_FAILED_OR_EMPTY'
+            except Exception as e: rec.update(status='DOWNLOAD_EXCEPTION',exception=str(e)[:500])
+            print(id,rec['status'],rec.get('bytes'),flush=True)
+            out.append(rec)
+          (base/'SOURCE_AND_RIGHTS_PREFLIGHT.json').write_text(json.dumps({'checked_utc':datetime.now(timezone.utc).isoformat(),'sources':out,'note':'PUBLIC SOURCES ONLY. Context other programs, NOT filmed Pluto tests. Film-level rights HOLD for footage, producer, digitization and inserts. Only successfully downloaded files count.'},indent=2))
+          PY
+      - name: Upload physical files and metadata for content QC, no release and no source substitutions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HIA_Pluto_Public_Government_Films_CONTEXT_ONLY_Rights_HOLD
+          path: public_film_bank/
+          if-no-files-found: warn
+          compression-level: 0
+          retention-days: 5
