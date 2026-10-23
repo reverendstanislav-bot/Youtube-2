@@ -1,0 +1,41 @@
+At the Nevada Test Site, Project Pluto occupied an industrial world of its own.
+
+The engine could not simply be bolted to a stand, switched on, and treated like an ordinary motor.
+
+A ramjet normally receives high-pressure airflow because it is moving at enormous speed through the atmosphere.
+
+A reactor sitting on the ground has no such airflow unless the test facility supplies it.
+
+That meant engineers had to create, on the ground, part of the environment the engine was supposed to experience in flight.
+
+The solution involved massive air-handling equipment, stored compressed air, temperature control, instrumentation, remote operations, and facilities for handling equipment after a nuclear run.
+
+The test site did not merely hold the engine. The test site temporarily stood in for the missing aircraft.
+
+The original engineering records explain one basic limitation particularly well.
+
+The air supply was finite. Contemporary Livermore engineers explained that ground tests using stored air could last only a few minutes. That limit was imposed by the test facility. It was not a measurement of how long a nuclear-powered missile could theoretically fly.
+
+And because these were nuclear reactors, handling the machinery after operation raised questions that ordinary aircraft testing rarely faced.
+
+The site incorporated arrangements for remote work and post-test examination. Contemporary engineers even used a remote-controlled railroad flatcar to move the reactor between the test position and the disassembly building. This was a real industrial railroad built around a radioactive machine, not a missile launch system.
+
+The Historic American Engineering Record documents the dedicated disassembly building. Its purpose was to take apart tested reactors so their components could be studied and improved.
+
+Photographs made for the federal historic survey show the real buildings and spaces associated with the site. But they were recorded later. They cannot honestly be presented as motion pictures of the tests occurring in nineteen sixty-one or nineteen sixty-four.
+
+The first major experimental goal was Tory Two-A.
+
+It was a feasibility reactor, designed to answer whether a nuclear ramjet core could withstand the relevant heating and airflow while behaving in a controllable way.
+
+On May fourteenth, nineteen sixty-one, Livermore recorded a forty-five-second test of Tory Two-A at Nevada. That forty-five-second result was not a nuclear-powered missile taking off.
+
+It was a short, demanding demonstration that a new type of reactor could operate under conditions chosen to resemble part of its intended environment.
+
+It also exposed what had to come next.
+
+A laboratory reactor arranged to prove a principle is not automatically compact, durable, or controllable enough to serve as a flight engine.
+
+The engineers had shown that their basic idea was possible.
+
+Now they had to make the difficult part smaller, tougher, and closer to the shape of an actual machine.

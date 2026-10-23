@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-23T17:36:14.612154+00:00",
+  "status": "READY_FOR_OWNER_SCRIPT_LOCK__GENERATION_NOT_STARTED",
+  "authoritative_script": "SCRIPT/STAGE04_PROJECT_PLUTO_FULL_NARRATION_V2_EN.md",
+  "authoritative_voice_text": "SCRIPT/STAGE04_PROJECT_PLUTO_VOICE_TEXT_V2_EN.txt",
+  "v1_status": "SUPERSEDED_DO_NOT_USE",
+  "source_bank_r1_status": "REJECT_DO_NOT_USE",
+  "chapter_count": 8,
+  "voice_word_count_whitespace": 2955,
+  "voice_text_characters_including_7_double_newline_chapter_separators": 19064,
+  "billable_job_characters_excluding_inter_job_separators": 19050,
+  "sentence_loss_check": "PASS_EXACT_RECONSTRUCTION",
+  "claim_rows": 54,
+  "evidence_aligned_beats": 30,
+  "job_count": 8,
+  "chapter_pause_ms": 600,
+  "estimated_narration_seconds": {
+    "at_135_wpm": 1313.333,
+    "at_145_wpm": 1222.759,
+    "at_155_wpm": 1143.871,
+    "assembly_pause_total": 4.2
+  },
+  "cost": {
+    "local_voicebox_external_api_credits_usd": 0.0,
+    "paid_provider_cost": "NOT_CALCULATED_NO_PROVIDER_OR_RATE_AUTHORIZED",
+    "paid_provider_formula": "19050 / 1000 * provider_rate_per_1000_characters"
+  },
+  "profile": {
+    "name": "HIA Arthur Multi-Source",
+    "id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+    "source_scope": "Youtube-2 Big Muskie and Lake Peigneur verified narration only",
+    "youtube_3_audio_used": false,
+    "reference_sample_count": 4
+  },
+  "input_sha256": {
+    "STAGE04_PROJECT_PLUTO_FULL_NARRATION_V2_EN.md": "7afd18973b67f14d7781a6efd4bef3330f37abe27276b5c2832cba240a55fa90",
+    "STAGE04_PROJECT_PLUTO_VOICE_TEXT_V2_EN.txt": "39421d485e69acddaf40d141401490ce007ac02eb4f7c842fa1e2cd1b4470320",
+    "STAGE04_CLAIM_BY_CLAIM_EVIDENCE_LEDGER_V1.csv": "6c06884898ba8ca4c18255139e74989ae2ac5d895c2894f9fc9b9b473b7872c3",
+    "STAGE04_FINAL_FACT_EDITORIAL_LEGAL_QC_2026-10-22.md": "d83a5dd662a83de61b0fd5111b9dc1ea0ffd773cc145c1521cb69012ff7b10bc",
+    "STAGE04_PROJECT_PLUTO_EVIDENCE_ALIGNED_BEATS_V2.csv": "6c7d0cd4aecbf800a8e70826d409f9e1d1ccaeb3ad931ebea67314dde134d404"
+  }
+}

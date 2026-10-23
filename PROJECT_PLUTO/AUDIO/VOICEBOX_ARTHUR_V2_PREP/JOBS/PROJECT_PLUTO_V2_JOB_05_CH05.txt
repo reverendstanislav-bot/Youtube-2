@@ -1,0 +1,47 @@
+What made Project Pluto so difficult was not the word nuclear.
+
+It was the combination of nuclear power with the physical demands of a supersonic engine.
+
+Think about the journey the air was supposed to take.
+
+It would enter the proposed vehicle at high speed. It would be directed through the reactor's hot internal passages. And it would leave with additional energy, producing thrust.
+
+For that process to matter, the reactor had to transfer a tremendous amount of heat to a moving stream of air.
+
+But the hot surfaces could not be allowed to simply collapse, crumble, or deform when that air rushed past them.
+
+Inside Tory's core, ceramics played a central role.
+
+This was not an abstract material-science demonstration. Engineers needed fuel-bearing components with suitable nuclear characteristics that could retain their structure in a harsh thermal environment.
+
+Livermore's own history recalls the difficult combination: structural strength, resistance to damaging conditions, and the ability to manufacture very large quantities of consistent elements.
+
+And a material that survives high temperature in one setting may fail when combined with intense airflow, vibration, and the surrounding reactor environment.
+
+That is why surviving Project Pluto reports are filled with drawings, test methods, and material questions rather than dramatic pictures of missiles.
+
+Tory Two-A was built to demonstrate the fundamentals.
+
+Tory Two-C carried more of the burdens that a missile engine would face. Contemporary studies describe it as intended to be adequate as an engine for a ramjet vehicle, and identify control components within the reactor environment as an especially difficult step beyond the earlier test.
+
+The control equipment has to function when the environment around it is hot, mechanically demanding, and affected by the reactor itself.
+
+Electronics, actuators, measurement devices, and the systems that interpret those readings therefore mattered as much to the test campaign as the reactor core.
+
+The nineteen-sixty-three LASV-N1 film preserves some of that supporting development world: technicians at apparatus, instrument racks, model tests, and electronic research.
+
+It is valuable evidence of the engineering program.
+
+But a shot of a technician working with control equipment is not automatically a photograph of Tory Two-C's core. The reactor itself had moved onto an entirely different scale.
+
+A later Livermore history describes Tory Two-C on the scale of five hundred megawatts of reactor heat. It is a rounded figure, not a precise test measurement. And it measures thermal power, not engine thrust.
+
+The team was not merely building a reactor that could turn on.
+
+It was building a reactor intended to turn a moving air stream into propulsion, within the size and reliability limits of a proposed high-speed missile.
+
+Before any such vehicle could fly, the team had to demonstrate that the engine itself would survive.
+
+In nineteen sixty-four, Tory Two-C was ready for that test.
+
+And the official record of what happened next is much less ambiguous than the explanations later offered for why it ended.

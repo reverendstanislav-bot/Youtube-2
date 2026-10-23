@@ -1,0 +1,159 @@
+{
+  "status": "DO_NOT_SUBMIT_UNTIL_OWNER_SCRIPT_LOCK",
+  "job_count": 8,
+  "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+  "jobs": [
+    {
+      "job_number": 1,
+      "chapter": "CH01",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_01_CH01.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 2,
+      "chapter": "CH02",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_02_CH02.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 3,
+      "chapter": "CH03",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_03_CH03.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 4,
+      "chapter": "CH04",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_04_CH04.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 5,
+      "chapter": "CH05",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_05_CH05.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 6,
+      "chapter": "CH06",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_06_CH06.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 7,
+      "chapter": "CH07",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_07_CH07.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    },
+    {
+      "job_number": 8,
+      "chapter": "CH08",
+      "text_file": "JOBS/PROJECT_PLUTO_V2_JOB_08_CH08.txt",
+      "payload_template": {
+        "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+        "language": "en",
+        "model_size": "1.7B",
+        "engine": "qwen",
+        "seed": 20261022,
+        "instruct": "Calm, factual American industrial-history documentary narration. Measured medium cadence, restrained emphasis, clear technical terms, no trailer voice or melodrama.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true
+      },
+      "submit": false,
+      "status": "HOLD_OWNER_SCRIPT_LOCK"
+    }
+  ]
+}

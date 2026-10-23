@@ -1,0 +1,33 @@
+Pluto proposed a radically different source of heat.
+
+Inside its engine, a nuclear reactor would transfer energy to incoming air. That heated air would expand and rush rearward, creating thrust without the same onboard fuel supply a chemical-burning jet required.
+
+It was a nuclear ramjet.
+
+And a ramjet has another important characteristic: it works by using the speed of the vehicle itself to compress incoming air. It is not an ordinary engine that can simply take off from a runway under its own power.
+
+So imagine two separate machines.
+
+One is the reactor and air passage: the power-producing heart of the proposed engine. This is what Livermore eventually built and operated during ground tests.
+
+The other is SLAM, the proposed Supersonic Low-Altitude Missile. The reactor did not solve all of those requirements by itself.
+
+The attraction was endurance.
+
+The Pluto concept moved the energy source into a nuclear reactor. In principle, it offered an entirely different balance between fuel carried and time aloft.
+
+But theoretical endurance was not unlimited range. A complete flying vehicle would still have faced engineering limits, guidance requirements, and an operational mission.
+
+You can see machines, test rigs, technicians, and equipment developed around the proposed SLAM system. They are genuine period research, but they are not footage of a completed missile flying.
+
+That distinction matters.
+
+When a model survives a wind-tunnel test, it tells engineers something about airflow. It says nothing by itself about whether a nuclear reactor can survive the same mission.
+
+When a reactor produces heat under simulated flight conditions, it answers a different question. It cannot prove that an entire autonomous weapon has been developed.
+
+Project Pluto needed both sets of answers.
+
+The engine would go much further than the missile.
+
+And the reason engineers pursued such a difficult design had less to do with a love of strange machinery than with the strategic problem Washington was trying to solve.
