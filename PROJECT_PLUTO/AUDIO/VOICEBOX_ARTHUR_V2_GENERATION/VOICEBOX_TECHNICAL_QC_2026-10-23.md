@@ -5,6 +5,8 @@ Repository: `reverendstanislav-bot/Youtube-2`
 Project: `PROJECT_PLUTO`, VIDEO006  
 Source commit: `f86c121b824fb665d4a84d28e596a21f11791e1f`
 
+Published audio prerelease: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-stage05-voicebox-v2-20261023
+
 ## Result
 
 - Voice profile: `HIA Arthur Multi-Source`
@@ -49,3 +51,5 @@ Technical generation and file integrity pass. Human auditory review is still req
 - `VOICEBOX_EXECUTION_MANIFEST.json` — 9,129 bytes — SHA256 `6102b3fa5610701e3e710d948a166cdf6bdc66b5c2261dd0ef2a7a048e67a772`
 
 The ZIP was expanded after creation and all eight extracted WAV hashes matched their source WAVs.
+
+GitHub reported both large assets in `uploaded` state and returned SHA256 digests matching the local master and ZIP hashes above.

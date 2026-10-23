@@ -28,3 +28,4 @@
 - Voicebox profile `HIA Arthur Multi-Source` generated 8/8 chapter WAVs from the 2,955-word V2 narration; Youtube-3 audio was not used and external cost was USD 0.00.
 - All chapter WAVs passed complete FFmpeg decode and SHA256 verification. The 48kHz mono PCM 24-bit assembly master is 00:18:41.600, 161,510,502 bytes, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`.
 - Technical records are in `AUDIO/VOICEBOX_ARTHUR_V2_GENERATION/`. **Human auditory QC remains HOLD before audio lock and exact picture sync.**
+- Master, eight-job ZIP and QC records were published and server-digest verified at https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-stage05-voicebox-v2-20261023 .

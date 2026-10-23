@@ -2,7 +2,7 @@
 
 Owner directly authorized generation of the prepared Stage04 V2 package. Voicebox completed **8/8 chapter jobs** using local Qwen3-TTS 1.7B CUDA and profile `HIA Arthur Multi-Source` (`49119911-6b96-4db0-87fe-8a976ccc6b91`). Exact input remained Stage04 V2: **2,955 words / 19,050 job-body characters**. Youtube-3 audio was not used; external generation cost was **USD 0.00**.
 
-All eight 24kHz mono PCM job WAVs independently decode without error. The assembled master is **00:18:41.600**, 48kHz mono PCM 24-bit, 161,510,502 bytes, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`, full FFmpeg decode PASS. Technical report and per-job generation IDs/hashes: `AUDIO/VOICEBOX_ARTHUR_V2_GENERATION/`.
+All eight 24kHz mono PCM job WAVs independently decode without error. The assembled master is **00:18:41.600**, 48kHz mono PCM 24-bit, 161,510,502 bytes, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`, full FFmpeg decode PASS. Technical report and per-job generation IDs/hashes: `AUDIO/VOICEBOX_ARTHUR_V2_GENERATION/`. Verified GitHub audio prerelease: https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-stage05-voicebox-v2-20261023
 
 **TECHNICAL_GENERATION_COMPLETE_AUDITORY_QC_PENDING.** Human listening for pronunciation, omissions/repetitions, artifacts, pacing and joins remains required before audio lock or picture sync. The older preparation/generation hold section below is superseded by this completed run.
 
