@@ -29,3 +29,10 @@
 - All chapter WAVs passed complete FFmpeg decode and SHA256 verification. The 48kHz mono PCM 24-bit assembly master is 00:18:41.600, 161,510,502 bytes, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`.
 - Technical records are in `AUDIO/VOICEBOX_ARTHUR_V2_GENERATION/`. **Human auditory QC remains HOLD before audio lock and exact picture sync.**
 - Master, eight-job ZIP and QC records were published and server-digest verified at https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-stage05-voicebox-v2-20261023 .
+
+## 2026-10-23 — Owner audio approval and Stage 05 timing lock
+- Owner explicitly approved the complete 18:41.600 narration master, establishing AUDIO LOCK on SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`.
+- Faster-Whisper base aligned the eight original chapter WAVs to the authoritative Stage04 V2 text: 3,023 normalized expected tokens, weighted sequence ratio 0.964414. ASR is timing evidence only and does not alter script wording.
+- All 30 evidence-aligned beats received spoken-word bounds plus contiguous 25fps editorial boundaries. Frames 0–28,039 are covered with frame 28,040 exclusive and no gaps or overlaps.
+- Lock manifest, raw ASR evidence, per-word alignment, chapter timing, 30-beat timeline and QC are in `AUDIO/AUDIO_LOCK_V2/`.
+- Next gate: source-to-beat visual assignment and a representative DaVinci sequence. Producer-rejected Source Bank R1 remains rejected.

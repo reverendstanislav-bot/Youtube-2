@@ -1,3 +1,11 @@
+## STAGE 05 OWNER AUDIO LOCK + WORD TIMING PASS — 2026-10-23
+
+Owner explicitly approved the complete narration master. **AUDIO LOCK is now active** for `PROJECT_PLUTO_ARTHUR_V2_ASSEMBLY_MASTER_48K_MONO_S24.wav`: 00:18:41.600, 48kHz mono PCM 24-bit, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`. Any replacement or edit that changes this hash invalidates the lock and timing package.
+
+Local Faster-Whisper base word alignment completed against the eight source chapter WAVs: **8/8 chapters, 30/30 Stage04 evidence-aligned beats, 3,023 normalized expected tokens, weighted ordered sequence ratio 0.964414**. The 25fps edit map covers frames **0–28,039** with frame 28,040 exclusive, continuously and without gaps or overlaps. Stage04 V2 remains wording authority; ASR is timing evidence only. Package: `AUDIO/AUDIO_LOCK_V2/`.
+
+**AUDIO_LOCK PASS / TIMING PACKAGE PASS.** Next production gate is visual source-to-beat assignment and an early representative DaVinci sequence; rejected Source Bank R1 remains rejected and must not be revived.
+
 ## STAGE 05 V2 VOICEBOX GENERATION COMPLETE / AUDITORY QC HOLD — 2026-10-23
 
 Owner directly authorized generation of the prepared Stage04 V2 package. Voicebox completed **8/8 chapter jobs** using local Qwen3-TTS 1.7B CUDA and profile `HIA Arthur Multi-Source` (`49119911-6b96-4db0-87fe-8a976ccc6b91`). Exact input remained Stage04 V2: **2,955 words / 19,050 job-body characters**. Youtube-3 audio was not used; external generation cost was **USD 0.00**.

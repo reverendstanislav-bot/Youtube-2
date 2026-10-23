@@ -1,0 +1,22 @@
+{
+  "status": "OWNER_APPROVED_AUDIO_LOCK",
+  "approved_date": "2026-10-23",
+  "created_utc": "2026-10-23T23:16:47.646829+00:00",
+  "authoritative_script": "PROJECT_PLUTO/SCRIPT/STAGE04_PROJECT_PLUTO_VOICE_TEXT_V2_EN.txt",
+  "master_file": "PROJECT_PLUTO_ARTHUR_V2_ASSEMBLY_MASTER_48K_MONO_S24.wav",
+  "master_release_url": "https://github.com/reverendstanislav-bot/Youtube-2/releases/tag/project-pluto-video006-stage05-voicebox-v2-20261023",
+  "master_sha256": "78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19",
+  "duration_sec": 1121.6,
+  "duration_timecode_25fps": "00:18:41:15",
+  "fps": 25,
+  "chapters": 8,
+  "semantic_beats": 30,
+  "expected_tokens": 3023,
+  "asr_weighted_sequence_ratio": 0.964414,
+  "exact_aligned_tokens": 2891,
+  "substitution_aligned_tokens": 125,
+  "interpolated_tokens": 7,
+  "timeline_contiguous_frames": 28040,
+  "youtube_3_audio_used": false,
+  "authority_note": "Stage04 V2 text remains authoritative; ASR is timing evidence only."
+}

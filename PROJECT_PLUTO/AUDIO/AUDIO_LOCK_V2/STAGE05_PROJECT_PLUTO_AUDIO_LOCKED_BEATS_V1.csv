@@ -1,0 +1,281 @@
+﻿beat_id,chapter,spoken_text,voice_word_count,estimated_sec_at_145wpm,fact_evidence_ids,eligible_visual_types,audio_start_sec,audio_end_sec,fact_status,audio_status,spoken_start_sec,spoken_end_sec,chapter_word_start_index,chapter_word_end_index_inclusive,audio_start_frame_25,audio_end_frame_25_exclusive,audio_start_tc_25fps,audio_end_tc_25fps_exclusive
+PLUTO-CH01-B01,CH01,"On May twentieth, nineteen sixty-four, according to the Atomic Energy Commission's official annual account, engineers in the Nevada desert reached a remarkable milestone.
+
+They brought a nuclear-powered ramjet called Tory Two-C to full power. Air was driven through its reactor under conditions intended to represent a missile traveling at Mach two point eight, near sea level.
+
+And the official government account of the test did not call it a disappointment. It called the May trials successful.
+
+Now jump forward just forty-two days.
+
+On July first, the Defense Department informed the Atomic Energy Commission that it would not pursue a flight-test objective for Project Pluto. Further planned reactor tests were canceled. The desert facility would be mothballed.",116,48.00,AEC1964_P63;LLNL65,ACTUAL_TORY_ENGINE_PHOTO;1964_AEC_REPORT_P63,0.000,44.400,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,0.0,44.36,0,120,0,1110,00:00:00:00,00:00:44:10
+PLUTO-CH01-B02,CH01,"Yet the missile that was supposed to carry it never flew.
+
+How can one of the most ambitious propulsion projects of the Cold War pass its decisive reactor test and still be abandoned?
+
+The answer begins with a distinction that is easy to miss in surviving photographs.
+
+There was a tested reactor engine. And there was an imagined weapon.
+
+Only one of them became real.
+
+To understand why, we have to enter a period when the American military was willing to consider an idea almost impossible to separate from the fears of its time: a missile that did not need to carry conventional fuel for its long cruise.",108,44.69,AEC1964_P63;LLNL65,ACTUAL_TORY_ENGINE_PHOTO;1964_AEC_REPORT_P63,44.400,81.480,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,44.48,81.16,121,228,1110,2037,00:00:44:10,00:01:21:12
+PLUTO-CH01-B03,CH01,"That idea was Project Pluto.
+
+And its most important achievement would also expose the distance between proving a machine could function and proving that the world needed it.",28,11.59,AEC1964_P63;LLNL65,ACTUAL_TORY_ENGINE_PHOTO;1964_AEC_REPORT_P63,81.480,91.800,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,81.82,91.42,229,256,2037,2295,00:01:21:12,00:01:31:20
+PLUTO-CH02-B01,CH02,"Pluto proposed a radically different source of heat.
+
+Inside its engine, a nuclear reactor would transfer energy to incoming air. That heated air would expand and rush rearward, creating thrust without the same onboard fuel supply a chemical-burning jet required.
+
+It was a nuclear ramjet.
+
+And a ramjet has another important characteristic: it works by using the speed of the vehicle itself to compress incoming air. It is not an ordinary engine that can simply take off from a runway under its own power.
+
+So imagine two separate machines.
+
+One is the reactor and air passage: the power-producing heart of the proposed engine. This is what Livermore eventually built and operated during ground tests.",114,47.17,UCRL7036_PART1;UCRL6590,1963_LASVN1_ACTUAL_MODELS_ONLY;UCRL_TORY_FIGURES,91.800,133.880,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,92.15,133.61,0,115,2295,3347,00:01:31:20,00:02:13:22
+PLUTO-CH02-B02,CH02,"The other is SLAM, the proposed Supersonic Low-Altitude Missile. The reactor did not solve all of those requirements by itself.
+
+The attraction was endurance.
+
+The Pluto concept moved the energy source into a nuclear reactor. In principle, it offered an entirely different balance between fuel carried and time aloft.
+
+But theoretical endurance was not unlimited range. A complete flying vehicle would still have faced engineering limits, guidance requirements, and an operational mission.
+
+You can see machines, test rigs, technicians, and equipment developed around the proposed SLAM system. They are genuine period research, but they are not footage of a completed missile flying.",102,42.21,UCRL7036_PART1;UCRL6590,1963_LASVN1_ACTUAL_MODELS_ONLY;UCRL_TORY_FIGURES,133.880,173.960,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,134.13,173.61,116,218,3347,4349,00:02:13:22,00:02:53:24
+PLUTO-CH02-B03,CH02,"That distinction matters.
+
+When a model survives a wind-tunnel test, it tells engineers something about airflow. It says nothing by itself about whether a nuclear reactor can survive the same mission.
+
+When a reactor produces heat under simulated flight conditions, it answers a different question. It cannot prove that an entire autonomous weapon has been developed.
+
+Project Pluto needed both sets of answers.
+
+The engine would go much further than the missile.
+
+And the reason engineers pursued such a difficult design had less to do with a love of strange machinery than with the strategic problem Washington was trying to solve.",101,41.79,UCRL7036_PART1;UCRL6590,1963_LASVN1_ACTUAL_MODELS_ONLY;UCRL_TORY_FIGURES,173.960,210.160,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,174.31,209.73,219,320,4349,5254,00:02:53:24,00:03:30:04
+PLUTO-CH03-B01,CH03,"Go back to the late nineteen-fifties.
+
+The Cold War had turned military technology into a contest of distance, speed, warning time, and the ability to survive an opponent's defenses.
+
+Long-range bombers remained central to American nuclear strategy. Ballistic missiles were developing rapidly, but the shape of the future arsenal had not yet been settled.
+
+This was the world in which Project Pluto began at Lawrence Radiation Laboratory in nineteen fifty-seven, working for the Atomic Energy Commission and the United States Air Force.
+
+Planners were exploring a machine that might cruise at supersonic speed and low altitude, presenting an unusual challenge to defenses designed around bombers and missiles following more familiar paths.",111,45.93,UCRL7036_PART1;AF_MAG_JULY1964;NASA1964_CHRONICLE,PERIOD_B52_HOUND_DOG_OR_MINUTEMAN_IF_EXPLICIT_COMPARISON;NO_PLUTO_FLIGHT,210.160,254.880,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,210.57,254.77,0,113,5254,6372,00:03:30:04,00:04:14:22
+PLUTO-CH03-B02,CH03,"Low altitude was an ambition, not proof that such a weapon could travel anywhere unseen. Terrain, navigation, structural loads, and the realities of detection still mattered.
+
+The potential attraction was that a nuclear heat source would not consume conventional jet fuel in the way a bomber engine did.
+
+But potential range was only one part of a weapons system.
+
+The Air Force already had air-launched missiles such as the Hound Dog. A B-fifty-two carrying one of those weapons represented an actual operating approach to long-range attack.
+
+At the same time, programs such as Atlas and Minuteman were demonstrating a different idea: sending a payload on a ballistic trajectory instead of sustaining a powered cruise for hours.",116,48.00,UCRL7036_PART1;AF_MAG_JULY1964;NASA1964_CHRONICLE,PERIOD_B52_HOUND_DOG_OR_MINUTEMAN_IF_EXPLICIT_COMPARISON;NO_PLUTO_FLIGHT,254.880,298.840,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,255.01,298.51,114,233,6372,7471,00:04:14:22,00:04:58:21
+PLUTO-CH03-B03,CH03,"None of those aircraft or rockets was Project Pluto. Their historical footage belongs here only as a comparison between technologies the United States was developing during the same era.
+
+That comparison is crucial.
+
+In nineteen fifty-seven, the future of nuclear delivery was not self-evident. By nineteen sixty-four, the comparison would look different.
+
+Every advance in alternative systems changed the value of making Pluto into a deployable missile. At the same time, Pluto's own engineering demands remained enormous.
+
+The scientists would spend the following years answering the reactor part of that question.
+
+And to get an answer, they needed to build something in the Nevada desert that looked less like an aircraft test stand than an industrial complex.",117,48.41,UCRL7036_PART1;AF_MAG_JULY1964;NASA1964_CHRONICLE,PERIOD_B52_HOUND_DOG_OR_MINUTEMAN_IF_EXPLICIT_COMPARISON;NO_PLUTO_FLIGHT,298.840,344.080,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,299.15,343.65,234,353,7471,8602,00:04:58:21,00:05:44:02
+PLUTO-CH04-B01,CH04,"At the Nevada Test Site, Project Pluto occupied an industrial world of its own.
+
+The engine could not simply be bolted to a stand, switched on, and treated like an ordinary motor.
+
+A ramjet normally receives high-pressure airflow because it is moving at enormous speed through the atmosphere.
+
+A reactor sitting on the ground has no such airflow unless the test facility supplies it.
+
+That meant engineers had to create, on the ground, part of the environment the engine was supposed to experience in flight.
+
+The solution involved massive air-handling equipment, stored compressed air, temperature control, instrumentation, remote operations, and facilities for handling equipment after a nuclear run.",108,44.69,UCRL6590;UCRL7036_PART1;LOC_HAER_NV32A;LLNL65,TRUE_AREA26_1960_SITE_DOCUMENT;REMOTE_RAIL_ENGINEERING_DIAGRAM;LATER_HAER_PHOTO_FLAG,344.080,387.400,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,344.51,387.11,0,109,8602,9685,00:05:44:02,00:06:27:10
+PLUTO-CH04-B02,CH04,"The test site did not merely hold the engine. The test site temporarily stood in for the missing aircraft.
+
+The original engineering records explain one basic limitation particularly well.
+
+The air supply was finite. Contemporary Livermore engineers explained that ground tests using stored air could last only a few minutes. That limit was imposed by the test facility. It was not a measurement of how long a nuclear-powered missile could theoretically fly.
+
+And because these were nuclear reactors, handling the machinery after operation raised questions that ordinary aircraft testing rarely faced.
+
+The site incorporated arrangements for remote work and post-test examination. Contemporary engineers even used a remote-controlled railroad flatcar to move the reactor between the test position and the disassembly building. This was a real industrial railroad built around a radioactive machine, not a missile launch system.",137,56.69,UCRL6590;UCRL7036_PART1;LOC_HAER_NV32A;LLNL65,TRUE_AREA26_1960_SITE_DOCUMENT;REMOTE_RAIL_ENGINEERING_DIAGRAM;LATER_HAER_PHOTO_FLAG,387.400,444.200,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,387.67,443.91,110,249,9685,11105,00:06:27:10,00:07:24:05
+PLUTO-CH04-B03,CH04,"The Historic American Engineering Record documents the dedicated disassembly building. Its purpose was to take apart tested reactors so their components could be studied and improved.
+
+Photographs made for the federal historic survey show the real buildings and spaces associated with the site. But they were recorded later. They cannot honestly be presented as motion pictures of the tests occurring in nineteen sixty-one or nineteen sixty-four.
+
+The first major experimental goal was Tory Two-A.
+
+It was a feasibility reactor, designed to answer whether a nuclear ramjet core could withstand the relevant heating and airflow while behaving in a controllable way.",100,41.38,UCRL6590;UCRL7036_PART1;LOC_HAER_NV32A;LLNL65,TRUE_AREA26_1960_SITE_DOCUMENT;REMOTE_RAIL_ENGINEERING_DIAGRAM;LATER_HAER_PHOTO_FLAG,444.200,482.920,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,444.49,482.77,250,352,11105,12073,00:07:24:05,00:08:02:23
+PLUTO-CH04-B04,CH04,"On May fourteenth, nineteen sixty-one, Livermore recorded a forty-five-second test of Tory Two-A at Nevada. That forty-five-second result was not a nuclear-powered missile taking off.
+
+It was a short, demanding demonstration that a new type of reactor could operate under conditions chosen to resemble part of its intended environment.
+
+It also exposed what had to come next.
+
+A laboratory reactor arranged to prove a principle is not automatically compact, durable, or controllable enough to serve as a flight engine.
+
+The engineers had shown that their basic idea was possible.
+
+Now they had to make the difficult part smaller, tougher, and closer to the shape of an actual machine.",108,44.69,UCRL6590;UCRL7036_PART1;LOC_HAER_NV32A;LLNL65,TRUE_AREA26_1960_SITE_DOCUMENT;REMOTE_RAIL_ENGINEERING_DIAGRAM;LATER_HAER_PHOTO_FLAG,482.920,523.800,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,483.05,523.37,353,467,12073,13095,00:08:02:23,00:08:43:20
+PLUTO-CH05-B01,CH05,"What made Project Pluto so difficult was not the word nuclear.
+
+It was the combination of nuclear power with the physical demands of a supersonic engine.
+
+Think about the journey the air was supposed to take.
+
+It would enter the proposed vehicle at high speed. It would be directed through the reactor's hot internal passages. And it would leave with additional energy, producing thrust.
+
+For that process to matter, the reactor had to transfer a tremendous amount of heat to a moving stream of air.
+
+But the hot surfaces could not be allowed to simply collapse, crumble, or deform when that air rushed past them.",105,43.45,UCRL7036_PART1;UCRL7679;LLNL65;SANDHOLTZ1965,PLUTO_REACTOR_TECHNICAL_REPORT;REAL_CERAMIC_FUEL_FIGURE;OPTIONAL_DIRECT_LASVN1_RND_CLIP,523.800,558.440,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,524.24,558.22,0,104,13095,13961,00:08:43:20,00:09:18:11
+PLUTO-CH05-B02,CH05,"Inside Tory's core, ceramics played a central role.
+
+This was not an abstract material-science demonstration. Engineers needed fuel-bearing components with suitable nuclear characteristics that could retain their structure in a harsh thermal environment.
+
+Livermore's own history recalls the difficult combination: structural strength, resistance to damaging conditions, and the ability to manufacture very large quantities of consistent elements.
+
+And a material that survives high temperature in one setting may fail when combined with intense airflow, vibration, and the surrounding reactor environment.
+
+That is why surviving Project Pluto reports are filled with drawings, test methods, and material questions rather than dramatic pictures of missiles.",102,42.21,UCRL7036_PART1;UCRL7679;LLNL65;SANDHOLTZ1965,PLUTO_REACTOR_TECHNICAL_REPORT;REAL_CERAMIC_FUEL_FIGURE;OPTIONAL_DIRECT_LASVN1_RND_CLIP,558.440,603.600,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,558.64,603.2,105,208,13961,15090,00:09:18:11,00:10:03:15
+PLUTO-CH05-B03,CH05,"Tory Two-A was built to demonstrate the fundamentals.
+
+Tory Two-C carried more of the burdens that a missile engine would face. Contemporary studies describe it as intended to be adequate as an engine for a ramjet vehicle, and identify control components within the reactor environment as an especially difficult step beyond the earlier test.
+
+The control equipment has to function when the environment around it is hot, mechanically demanding, and affected by the reactor itself.
+
+Electronics, actuators, measurement devices, and the systems that interpret those readings therefore mattered as much to the test campaign as the reactor core.",98,40.55,UCRL7036_PART1;UCRL7679;LLNL65;SANDHOLTZ1965,PLUTO_REACTOR_TECHNICAL_REPORT;REAL_CERAMIC_FUEL_FIGURE;OPTIONAL_DIRECT_LASVN1_RND_CLIP,603.600,640.560,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,604.0,640.2,209,308,15090,16014,00:10:03:15,00:10:40:14
+PLUTO-CH05-B04,CH05,"The nineteen-sixty-three LASV-N1 film preserves some of that supporting development world: technicians at apparatus, instrument racks, model tests, and electronic research.
+
+It is valuable evidence of the engineering program.
+
+But a shot of a technician working with control equipment is not automatically a photograph of Tory Two-C's core. The reactor itself had moved onto an entirely different scale.
+
+A later Livermore history describes Tory Two-C on the scale of five hundred megawatts of reactor heat. It is a rounded figure, not a precise test measurement. And it measures thermal power, not engine thrust.",93,38.48,UCRL7036_PART1;UCRL7679;LLNL65;SANDHOLTZ1965,PLUTO_REACTOR_TECHNICAL_REPORT;REAL_CERAMIC_FUEL_FIGURE;OPTIONAL_DIRECT_LASVN1_RND_CLIP,640.560,677.920,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,640.88,677.52,309,406,16014,16948,00:10:40:14,00:11:17:23
+PLUTO-CH05-B05,CH05,"The team was not merely building a reactor that could turn on.
+
+It was building a reactor intended to turn a moving air stream into propulsion, within the size and reliability limits of a proposed high-speed missile.
+
+Before any such vehicle could fly, the team had to demonstrate that the engine itself would survive.
+
+In nineteen sixty-four, Tory Two-C was ready for that test.
+
+And the official record of what happened next is much less ambiguous than the explanations later offered for why it ended.",85,35.17,UCRL7036_PART1;UCRL7679;LLNL65;SANDHOLTZ1965,PLUTO_REACTOR_TECHNICAL_REPORT;REAL_CERAMIC_FUEL_FIGURE;OPTIONAL_DIRECT_LASVN1_RND_CLIP,677.920,707.840,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,678.34,707.42,407,494,16948,17696,00:11:17:23,00:11:47:21
+PLUTO-CH06-B01,CH06,"By January of nineteen sixty-four, workers had repaired the Nevada test facility and resumed pre-nuclear testing of its air systems.
+
+In mid-February, Tory Two-C was shipped from Livermore to Nevada.
+
+On March twenty-fifth, the reactor first reached criticality while assembled in its test vehicle.
+
+It was a milestone, but not yet the complete performance test.
+
+The next decisive dates were May twelfth and May twentieth.
+
+On May twelfth, the reactor operated at an intermediate power level. The conditions were intended to simulate flight at Mach two point eight and an altitude of ten thousand feet.",95,39.31,AEC1964_P63,P01_AEC_REPORT_1964_P63;ACTUAL_TORY_IIC_ENGINE_PHOTO;NO_ACTUAL_1964_TEST_FILM,707.840,742.520,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,708.24,742.22,0,99,17696,18563,00:11:47:21,00:12:22:13
+PLUTO-CH06-B02,CH06,"Eight days later came the initial full-power ground test.
+
+The official account says that the test conditions represented nuclear ramjet flight at the design speed of Mach two point eight and at sea-level conditions.
+
+The Atomic Energy Commission's report describes both May tests as successful.
+
+Think about what that means, and also what it does not mean.
+
+The engineers had operated a nuclear ramjet test reactor under deliberately chosen conditions intended to reproduce significant demands of flight.
+
+That was an extraordinary experimental achievement.
+
+But the reactor had remained at the Nevada Test Site.",93,38.48,AEC1964_P63,P01_AEC_REPORT_1964_P63;ACTUAL_TORY_IIC_ENGINE_PHOTO;NO_ACTUAL_1964_TEST_FILM,742.520,779.400,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,742.8,779.24,100,194,18563,19485,00:12:22:13,00:12:59:10
+PLUTO-CH06-B03,CH06,"There was no flying SLAM vehicle. No complete weapon had navigated a long route. No aircraft structure had demonstrated the full combination of endurance, control, survivability, and mission performance.
+
+They also did not prove that the proposed missile could now be deployed.
+
+The achievement belonged to a specific, formidable engineering problem: making a nuclear ramjet reactor work at the test conditions.
+
+A nuclear rocket being tested for Project Rover is not footage of Tory Two-C. A missile launch from the era is not a SLAM flight. And a dramatic cloud above Nevada cannot stand in for a reactor test merely because it looks cinematic.",104,43.03,AEC1964_P63,P01_AEC_REPORT_1964_P63;ACTUAL_TORY_IIC_ENGINE_PHOTO;NO_ACTUAL_1964_TEST_FILM,779.400,817.440,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,779.56,817.42,195,299,19485,20436,00:12:59:10,00:13:37:11
+PLUTO-CH06-B04,CH06,"The clearest surviving evidence of the May tests is found in the original reports and photographs of the actual engine.
+
+Those documents have a quieter kind of drama.
+
+They record success.
+
+And that success was followed, almost immediately, by a decision that the program would not reach the flight-test stage.
+
+The engine had passed its examination.
+
+The proposed weapon was about to lose its purpose.",65,26.90,AEC1964_P63,P01_AEC_REPORT_1964_P63;ACTUAL_TORY_IIC_ENGINE_PHOTO;NO_ACTUAL_1964_TEST_FILM,817.440,840.880,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,817.42,840.44,300,365,20436,21022,00:13:37:11,00:14:00:22
+PLUTO-CH07-B01,CH07,"On July first, nineteen sixty-four, the Department of Defense informed the Atomic Energy Commission that it had decided not to pursue Project Pluto's flight-test objective.
+
+The language matters.
+
+The Atomic Energy Commission's account does not describe a catastrophic reactor failure. Nor does it say that the nuclear ramjet concept had been disproved.
+
+It says the Defense Department would not continue toward flight testing.
+
+The AEC responded by canceling further planned reactor tests. The program was phased out, and the Nevada facility was mothballed.
+
+That decision ended the path from successful ground engine to an actual flying SLAM.",97,40.14,AEC1964_P63;AF_MAG_JULY1964;NASA1964_CHRONICLE;HISTORIAN_CONTEXT,1964_AEC_P63;1964_CONGRESS_BUDGET_REPORT;ALTERNATIVE_MISSILE_CONTEXT_ONLY,840.880,879.480,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,841.33,879.19,0,98,21022,21987,00:14:00:22,00:14:39:12
+PLUTO-CH07-B02,CH07,"What caused it?
+
+The funding conflict was already visible before the July decision. In April, Congress's Joint Committee on Atomic Energy cut proposed funding while pressing for a definite flight-test plan. On June eleventh, the House Appropriations Committee went further: it proposed sharply reducing further Pluto spending, on the grounds that there was still no approved military system or requirement for the successful reactor.
+
+Those public records show a concrete dispute over the next step, not a failed engine. They do not, by themselves, reveal every private consideration behind the Pentagon's July decision.",93,38.48,AEC1964_P63;AF_MAG_JULY1964;NASA1964_CHRONICLE;HISTORIAN_CONTEXT,1964_AEC_P63;1964_CONGRESS_BUDGET_REPORT;ALTERNATIVE_MISSILE_CONTEXT_ONLY,879.480,915.920,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,879.79,915.69,99,192,21987,22898,00:14:39:12,00:15:15:23
+PLUTO-CH07-B03,CH07,"Later accounts also discuss the rapid progress of ballistic missiles and the unresolved operational, political, and environmental complications of a flying nuclear ramjet. Those are historical explanations to assess, not a proven single cause.
+
+Imagine the question asked in nineteen fifty-seven: is it possible to create a nuclear ramjet capable of supporting a long-range high-speed missile?
+
+Now imagine the question being asked in nineteen sixty-four: do we still need this particular missile badly enough to undertake everything required to make it operational?
+
+They are not the same question.
+
+Once the test reactor works, the remaining obligations become real.",98,40.55,AEC1964_P63;AF_MAG_JULY1964;NASA1964_CHRONICLE;HISTORIAN_CONTEXT,1964_AEC_P63;1964_CONGRESS_BUDGET_REPORT;ALTERNATIVE_MISSILE_CONTEXT_ONLY,915.920,955.800,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,916.17,955.55,193,294,22898,23895,00:15:15:23,00:15:55:20
+PLUTO-CH07-B04,CH07,"A flight program would have needed a complete vehicle, its control and guidance systems, a way to launch and recover useful test information, the operational infrastructure to support it, and a military rationale strong enough to outweigh the complications of a nuclear-powered cruise weapon.
+
+They made the next stage a decision that would require a new military commitment.
+
+The Department of Defense decided against the flight-test objective. With further funding already under pressure, that decision ended the route toward a flying SLAM.
+
+The comparison with the conventional and ballistic missile systems of the period helps us understand the broader strategic setting. But footage of Minuteman production or an Atlas launch illustrates those alternatives, not the private reasoning of the officials who decided Pluto's fate.",124,51.31,AEC1964_P63;AF_MAG_JULY1964;NASA1964_CHRONICLE;HISTORIAN_CONTEXT,1964_AEC_P63;1964_CONGRESS_BUDGET_REPORT;ALTERNATIVE_MISSILE_CONTEXT_ONLY,955.800,1000.960,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,956.07,1000.97,295,420,23895,25024,00:15:55:20,00:16:40:24
+PLUTO-CH07-B05,CH07,"The record leaves room for discussion about how the different costs and risks were weighed.
+
+It leaves far less room for doubt about the actual result.
+
+The reactor was tested.
+
+The missile never flew.
+
+And the project that had spent years proving an engine could work was stopped before it could prove the weapon was worth building.",57,23.59,AEC1964_P63;AF_MAG_JULY1964;NASA1964_CHRONICLE;HISTORIAN_CONTEXT,1964_AEC_P63;1964_CONGRESS_BUDGET_REPORT;ALTERNATIVE_MISSILE_CONTEXT_ONLY,1000.960,1020.160,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,1000.97,1019.73,421,477,25024,25504,00:16:40:24,00:17:00:04
+PLUTO-CH08-B01,CH08,"Today, much of Project Pluto survives in a form that is far less spectacular than the weapon its designers once imagined.
+
+There are engineering reports. Historical photographs. Drawings that show how people approached an unusual combination of reactor physics and high-speed propulsion.
+
+And there is the documented Nevada site itself.
+
+The Historic American Engineering Record identifies real Pluto facilities in Area twenty-six and records spaces used for test operations and post-test disassembly.
+
+Those photographs show the physical remains of a massive technical effort. They were made after the program's main testing period, and they belong to the story as later evidence, not as invented pictures of the moment of success.",110,45.52,AEC1964_P63;LOC_HAER_NV32A;LLNL65,ACTUAL_TORY_ENGINE_PHOTO;LATER_AREA26_HAER_SITE_PHOTOS,1020.160,1061.840,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,1020.58,1061.68,0,112,25504,26546,00:17:00:04,00:17:41:21
+PLUTO-CH08-B02,CH08,"Project Pluto never produced a flying nuclear-powered SLAM missile.
+
+What it produced was a demonstrated nuclear ramjet reactor, a body of engineering experience, and a record of what an industrial project can accomplish without ever becoming a useful weapons system.
+
+One slogan says the machine was too terrifying to use.
+
+Another says the engineers built the future and politicians threw it away.
+
+Neither is an adequate substitute for the evidence.
+
+The people working on Pluto solved real problems.
+
+The Defense Department still refused the flight-test objective.
+
+Both facts belong in the same story.",93,38.48,AEC1964_P63;LOC_HAER_NV32A;LLNL65,ACTUAL_TORY_ENGINE_PHOTO;LATER_AREA26_HAER_SITE_PHOTOS,1061.840,1098.640,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,1061.98,1098.38,113,207,26546,27466,00:17:41:21,00:18:18:16
+PLUTO-CH08-B03,CH08,"The most revealing image may be the simplest: a real nuclear engine on the ground, surrounded by the equipment built to test it.
+
+That was where America's nuclear ramjet succeeded.
+
+And it was also as far as the missile ever got.
+
+Project Pluto is not the story of a weapon that failed its test.
+
+It is the story of an engine that passed — and a weapon that never made it beyond the decision to build one.",77,31.86,AEC1964_P63;LOC_HAER_NV32A;LLNL65,ACTUAL_TORY_ENGINE_PHOTO;LATER_AREA26_HAER_SITE_PHOTOS,1098.640,1121.600,FACT_QC_PASS_WITH_DOCUMENTED_QUALIFICATIONS,ASR_WORD_ALIGNED_OWNER_AUDIO_LOCK,1098.9,1121.44,208,283,27466,28040,00:18:18:16,00:18:41:15
