@@ -22,3 +22,9 @@
 - Verified exact reconstruction of the clean voice text from 8 chapter bodies: 2,955 words, 19,064 normalized characters, 54 claim rows and 30 evidence-aligned beats.
 - Prepared 8 chapter-boundary Voicebox jobs totaling 19,050 job-body characters, with SHA256 manifests, held request templates and a 48 kHz mono PCM WAV assembly plan in `AUDIO/VOICEBOX_ARTHUR_V2_PREP/`.
 - Local Voicebox external credit estimate is USD 0.00. **Owner Script Lock remains open; no voice generation submitted and no credits spent.** No Youtube-3 audio used; R1 source bank remains rejected.
+
+## 2026-10-23 — Stage 05 V2 Voicebox generation completed
+- Owner directly instructed generation of the prepared Stage04 V2 jobs, lifting the generation hold for this exact package.
+- Voicebox profile `HIA Arthur Multi-Source` generated 8/8 chapter WAVs from the 2,955-word V2 narration; Youtube-3 audio was not used and external cost was USD 0.00.
+- All chapter WAVs passed complete FFmpeg decode and SHA256 verification. The 48kHz mono PCM 24-bit assembly master is 00:18:41.600, 161,510,502 bytes, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`.
+- Technical records are in `AUDIO/VOICEBOX_ARTHUR_V2_GENERATION/`. **Human auditory QC remains HOLD before audio lock and exact picture sync.**

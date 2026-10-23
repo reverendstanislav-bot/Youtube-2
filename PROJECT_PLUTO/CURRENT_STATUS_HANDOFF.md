@@ -1,3 +1,11 @@
+## STAGE 05 V2 VOICEBOX GENERATION COMPLETE / AUDITORY QC HOLD — 2026-10-23
+
+Owner directly authorized generation of the prepared Stage04 V2 package. Voicebox completed **8/8 chapter jobs** using local Qwen3-TTS 1.7B CUDA and profile `HIA Arthur Multi-Source` (`49119911-6b96-4db0-87fe-8a976ccc6b91`). Exact input remained Stage04 V2: **2,955 words / 19,050 job-body characters**. Youtube-3 audio was not used; external generation cost was **USD 0.00**.
+
+All eight 24kHz mono PCM job WAVs independently decode without error. The assembled master is **00:18:41.600**, 48kHz mono PCM 24-bit, 161,510,502 bytes, SHA256 `78213c4b5fa68605ae5d50a102de21d49bd419cf28aad77b8ff777e02bb12b19`, full FFmpeg decode PASS. Technical report and per-job generation IDs/hashes: `AUDIO/VOICEBOX_ARTHUR_V2_GENERATION/`.
+
+**TECHNICAL_GENERATION_COMPLETE_AUDITORY_QC_PENDING.** Human listening for pronunciation, omissions/repetitions, artifacts, pacing and joins remains required before audio lock or picture sync. The older preparation/generation hold section below is superseded by this completed run.
+
 ## STAGE 04 V2 VOICEBOX PREPARATION / GENERATION HOLD ? 2026-10-23
 
 Stage04 V2 is now the sole authoritative script for **production preparation**; Stage03 V1 is preserved but **SUPERSEDED / DO NOT USE FOR VOICE**. Exact body reconstruction confirms **8 chapters / 2,955 words / 19,064 normalized voice-text characters / 54 claim rows / 30 evidence-aligned beats**. Prepared 8 natural voice jobs, one complete chapter each, totaling **19,050 billable job-body characters**; the 14-character difference is seven double-newline chapter separators replaced by seven planned 600ms master pauses. Package: `AUDIO/VOICEBOX_ARTHUR_V2_PREP/` with exact job text, SHA256, held request templates, cost formula, QC and WAV merge plan. Local Voicebox direct external credit estimate **USD 0.00**; no paid-provider price asserted without a selected provider/rate.
