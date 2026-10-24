@@ -1,0 +1,56 @@
+{
+  "result": "PASS",
+  "motion_bank": {
+    "direct_pluto": {
+      "clips": 49,
+      "duration_sec": 932.5,
+      "manifest_black_intervals": 0
+    },
+    "context_v2": {
+      "clips": 20,
+      "duration_sec": 270.0,
+      "manifest_black_intervals": 0
+    },
+    "context_promoted": {
+      "clips": 20,
+      "duration_sec": 220.52,
+      "manifest_black_intervals": 0
+    },
+    "context_f024": {
+      "clips": 18,
+      "duration_sec": 270.0,
+      "manifest_black_intervals": 0
+    },
+    "context_f018": {
+      "clips": 15,
+      "duration_sec": 124.0,
+      "manifest_black_intervals": 0
+    }
+  },
+  "motion_bank_total_clips": 122,
+  "motion_bank_total_duration_sec": 1817.02,
+  "motion_unique_sha256": 122,
+  "duplicate_motion_hashes": [],
+  "full_decode_and_hash_pass": 122,
+  "full_decode_or_hash_failures": [],
+  "timeline_rows": 261,
+  "timeline_unique_assets": 200,
+  "timeline_unique_motion_assets": 122,
+  "timeline_motion_sec": 428.737,
+  "timeline_start_sec": 0.0,
+  "timeline_end_sec": 1121.6,
+  "timeline_beats": 30,
+  "timeline_chapters": 8,
+  "continuity_errors": [],
+  "timeline_missing_files": [],
+  "local_clip_overruns": [],
+  "empty_rights_rows": 0,
+  "empty_required_label_rows": 0,
+  "media_type_counts": {
+    "HISTORICAL_PHOTO": 66,
+    "ENGINEERING_REPORT_FIGURE": 44,
+    "OFFICIAL_DOCUMENT_PAGE": 20,
+    "DIRECT_PROJECT_PLUTO_MOTION": 49,
+    "CONTEXT_MOTION_OTHER_PROGRAM": 82
+  }
+}
