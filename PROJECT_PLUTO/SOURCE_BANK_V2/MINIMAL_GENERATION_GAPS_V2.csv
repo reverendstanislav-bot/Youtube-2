@@ -1,0 +1,4 @@
+﻿gap_id,beat_id,duration_target_sec,need,reason,generation_limit,status
+GEN-01,PLUTO-CH02-B01,8-12,Simple explanatory airflow overlay through the documented Tory core cross-section,No historical motion cleanly explains ramjet compression and reactor heating,"Graphic arrows, labels and heat gradient only; base must remain the real report figure",OPTIONAL_MINIMAL_GENERATION
+GEN-02,PLUTO-CH06-B03,6-10,Clear tested-reactor versus unbuilt-flight-vehicle comparison,No actual SLAM flight footage exists,Diagrammatic silhouette and factual labels only; never present as archival footage,OPTIONAL_MINIMAL_GENERATION
+GEN-03,PLUTO-CH07-B01,6-8,May 20 to July 1 decision timeline over official documents,A concise date bridge improves comprehension without replacing source evidence,Typography and line animation over scanned official pages,OPTIONAL_MINIMAL_GENERATION

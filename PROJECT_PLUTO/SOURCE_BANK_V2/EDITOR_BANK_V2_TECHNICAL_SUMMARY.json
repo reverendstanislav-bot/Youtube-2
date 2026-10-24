@@ -1,0 +1,14 @@
+{
+  "direct_motion": 34,
+  "direct_duration_sec": 737.375,
+  "direct_decode_pass": 34,
+  "selected_context_motion": 20,
+  "selected_context_duration_sec": 270.0,
+  "selected_context_decode_pass": 20,
+  "all_context_inventory": 40,
+  "historical_photos": 39,
+  "engineering_figures": 26,
+  "contact_sheets": 68,
+  "aggregate_review_pages": 12,
+  "note": "Context motion is visually labelled as a different program; no context clip may depict a Tory test."
+}

@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-10-23",
+  "policy": "Reuse verified binaries; download only files needed by the locked narration; verify cryptographic hashes; preserve all rights holds.",
+  "results": [
+    {
+      "id": "DOC-01",
+      "status": "PASS_QUEUE_SHA256",
+      "sha256": "a267f6db8128518520d1ff86ad6b026613b3ba1414debac9740ad077539c0921"
+    },
+    {
+      "id": "DOC-02",
+      "status": "PASS_QUEUE_SHA256",
+      "sha256": "53c0cc068c58817e1528cc28c014323affe8a944166e33617d4f2ce32b53d618"
+    },
+    {
+      "id": "USAF38912_LASVN1_1963",
+      "status": "PASS_QUEUE_SHA256_AND_FULL_DECODE",
+      "sha256": "3d9305615472a3ac7a18c50b1d7a3649d20d34f1e1aab93439f535650191114e"
+    },
+    {
+      "id": "PRIMARY_EDITOR_BANK",
+      "status": "PASS_CURRENT_GITHUB_SERVER_DIGEST",
+      "sha256": "7e30d1d8b570a5ee5299538627487a0e2dd353b8995aa2b4ef057939e7769c5a",
+      "provenance_note": "The queue expected an older asset hash. GitHub reports that the release asset was replaced on 2026-10-23; the current server digest and downloaded binary match exactly. The historic mismatch remains recorded and is not silently overwritten."
+    },
+    {
+      "id": "AEC_PRESIDENT_REPORT_1964",
+      "status": "PASS_SHA256_RECORDED",
+      "sha256": "7dc348baea90005e0fc78d4ebe4e5e28864ef4577380811a6d06562b94862c0d"
+    },
+    {
+      "id": "NASA_AERONAUTICS_CHRONOLOGY_1964",
+      "status": "PASS_SHA256_RECORDED",
+      "sha256": "6ed5dfef723ecd6f29e0874c326095ca63071f065c8b9d9c5d65a7fc36f19c98"
+    },
+    {
+      "id": "CONGRESSIONAL_RECORD_1964_PT13_3_1",
+      "status": "PASS_SHA256_RECORDED",
+      "sha256": "eba62a4c66a5913b018bb690234c3a8256bec4c0f22b67213113d46091f2c862"
+    },
+    {
+      "id": "AIR_FORCE_MAGAZINE_JULY_1964_PLUTO",
+      "status": "PASS_BINARY_RIGHTS_HOLD",
+      "sha256": "efe4223ec45d883d3d93efd70c7c42c0d6ca2114c874e3fdf8735096adcaa934"
+    }
+  ]
+}
