@@ -32,25 +32,38 @@ def sha(p):
  return h.hexdigest()
 def main():
  OUT.mkdir(parents=True,exist_ok=True)
- motion_zip=OUT/"HIA_VIDEO006_PROJECT_PLUTO_R6_MOTION_BANK_122_CLIPS.zip"
- seen=set(); count=0
- with zipfile.ZipFile(motion_zip,"w",compression=zipfile.ZIP_STORED,allowZip64=True) as z:
-  for group,manifest,key in MOTION:
-   for r in read(manifest):
-    p=Path(r["file"]); ident=r[key]
-    if ident in seen:raise SystemExit(f"duplicate id {ident}")
-    seen.add(ident); z.write(p,f"{group}/{p.name}"); count+=1
+ for stale in OUT.glob("HIA_VIDEO006_R6_CHUNK_*.zip"): stale.unlink()
+ packages=[]; seen=set(); count=0; max_bytes=23_000_000
+ entries=[]
+ for group,manifest,key in MOTION:
+  for r in read(manifest):
+   p=Path(r["file"]); ident=r[key]
+   if ident in seen:raise SystemExit(f"duplicate id {ident}")
+   seen.add(ident); entries.append((group,p)); count+=1
+ chunks=[]; current=[]; current_size=0
+ for group,p in entries:
+  if current and current_size+p.stat().st_size>max_bytes:
+   chunks.append(current); current=[]; current_size=0
+  current.append((group,p)); current_size+=p.stat().st_size
+ if current:chunks.append(current)
+ for part,items in enumerate(chunks,1):
+  package=OUT/f"HIA_VIDEO006_R6_CHUNK_{part:02d}_OF_{len(chunks):02d}.zip"
+  with zipfile.ZipFile(package,"w",compression=zipfile.ZIP_STORED,allowZip64=True) as z:
+   for group,p in items:z.write(p,f"{group}/{p.name}")
+  packages.append(package)
  if count!=122:raise SystemExit(f"expected 122 clips, got {count}")
  meta_zip=OUT/"HIA_VIDEO006_PROJECT_PLUTO_R6_METADATA_QC.zip"
  with zipfile.ZipFile(meta_zip,"w",compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
   for name in META:z.write(SRC/name,name)
   for tool in sorted((REPO/"PROJECT_PLUTO"/"TOOLS").glob("*r6*.py")):z.write(tool,f"TOOLS/{tool.name}")
  checks=OUT/"SHA256SUMS.txt"
- checks.write_text("\n".join(f"{sha(p)}  {p.name}" for p in (motion_zip,meta_zip))+"\n",encoding="ascii")
+ checks.write_text("\n".join(f"{sha(p)}  {p.name}" for p in (*packages,meta_zip))+"\n",encoding="ascii")
  # Complete ZIP CRC test before release.
- for p in (motion_zip,meta_zip):
+ for p in (*packages,meta_zip):
   with zipfile.ZipFile(p) as z:
    bad=z.testzip()
    if bad:raise SystemExit(f"CRC failure {p.name}: {bad}")
- print(f"clips={count}\nmotion_zip={motion_zip.stat().st_size}\nmetadata_zip={meta_zip.stat().st_size}")
+ print(f"clips={count}")
+ for p in packages: print(f"{p.name}={p.stat().st_size}")
+ print(f"metadata_zip={meta_zip.stat().st_size}")
 if __name__=="__main__":main()
