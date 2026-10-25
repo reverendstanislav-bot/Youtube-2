@@ -1,3 +1,17 @@
+## TOP STATUS — 2026-10-24: STAGE03 V2 COMPLETE REWRITE (REPLACES V1)
+
+**HIA VIDEO007 Camp Century.** The producer explicitly rejected weak Stage03 V1 and requested a fully new high-retention documentary narration modeled on general storytelling methods of videos with >1M views, NOT copying competitor scripts. V2 is the authoritative current candidate:
+- `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V2_EN.md` — **8 complete chapters, 2942 spoken words**, forecast **19.0–21.8 min at 135–155 WPM**.
+- `SCRIPT/STAGE03_CAMP_CENTURY_VOICE_TEXT_V2_EN.txt` — pure English US narration, no evidence comments, text-exact to V2.
+- `SCRIPT/STAGE03_CAMP_CENTURY_SEMANTIC_BEATS_V2.csv` — literal **34** beats / excerpt blocks with estimated seconds but no fabricated audio.
+- `SCRIPT/STAGE03_V2_COMPETITOR_STYLE_EDITORIAL_AND_FACT_QC.md` — researched audience framing, source control, claimed numbers and correction of V1 historical misstatement.
+
+**Critical factual correction**: old V1 12%-annual-cross-section-lost assertion lacked support and MUST NOT be used. Exact 1965 Army TR174 Table II: main trench roof-arch clearance closure **16 in/year average**, side trenches **34 in/year**, with 1963 main passage floor cut another four feet; original report projected approximately **20,000 cu yd snow/year** just for maintaining the original openings, which is an **estimate** not an actual annual maintenance amount.
+
+V2 distinguishes built Camp Century vs NEVER-BUILT Project Iceworm missile network; PM-2A reactor removed in 1964; GAO2024 says radioactive liquid remains; contemporary 2021 study cited by GAO assesses immobility through 2100 and different studies involve different assumptions; actual modern imagery = NASA radar, not photo from inside. Competing established channel view counts do NOT guarantee HIA performance.
+
+**STAGE03 V2 WRITER QC PASS WITH QUALIFICATIONS; STAGE04 final independent fact/legal QC OPEN; OWNER SCRIPT LOCK OPEN; paid TTS NOT APPROVED; no generated audio; no genuine period clips physically source-locked or rendered, archive copyrights/overlap HOLD. Stage03 V1 superseded and NOT valid for Codex jobs.**
+
 ## 2026-10-24 — STAGE 03 FULL NARRATION V1 COMPLETE + INITIAL FACT QC
 
 **AUTHORITATIVE CURRENT SCRIPT DRAFT:** `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V1_EN.md` — 8 complete chapters, **2949 spoken words**, estimated **19.0–21.8 minutes at 135–155 wpm**.
