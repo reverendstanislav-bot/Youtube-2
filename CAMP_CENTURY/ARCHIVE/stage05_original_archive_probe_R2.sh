@@ -75,7 +75,7 @@ echo "  DVIDS distinct PM2A RELOCATION film 23:07, HIGH-res 720x480 842MB: https
 echo "  Save as CAMP_USACE_COLOR_ORIGINAL.mp4 / CAMP_PM2A_RELOCATION_DVIDS.mp4 in $OUT/masters if available."
 echo "  Save screenshot of source rights statements to $OUT/rights_receipts."
 
-find "$OUT/masters" -type f \\( -iname '*.mp4' -o -iname '*.mpeg' -o -iname '*.mpg' -o -iname '*.mov' \\) -size +100M -print0 |
+find "$OUT/masters" -type f \( -iname '*.mp4' -o -iname '*.mpeg' -o -iname '*.mpg' -o -iname '*.mov' \) -size +100M -print0 |
 while IFS= read -r -d '' src; do
   base="$(basename "$src")"
   echo "QC FILE: $src"
