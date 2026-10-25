@@ -42,3 +42,6 @@ LOCKED text is precisely the existing Stage04 V4 (`SCRIPT/STAGE05_SCRIPT_LOCK_V4
 
 ## 2026-10-25 Stage05 verified public archive links R2
 Use `ARCHIVE/STAGE05_VERIFIED_PUBLIC_ARCHIVE_LINKS_AND_RIGHTS_R2.md`, `ARCHIVE/STAGE05_ASSET_ORIGIN_RIGHTS_SOURCE_REGISTER_R2.csv`, `ARCHIVE/STAGE05_CODEX_DOWNLOAD_AND_RIGHTS_QC_RUNBOOK_R2.md`, and `ARCHIVE/STAGE05_CODEX_TASK_TO_RUN_R2.md` rather than the incomplete R1 source list. A distinct **23:07 original PD Army film on actual summer1964 PM-2A dismantling** has been identified at DVIDS `/video/556111`, highest listed 720×480. The earlier R1 claim no removal video identified is now superseded. Source rights pages reviewed, but NO physical movie assets or actual shot timecodes verified. Run `ARCHIVE/stage05_original_archive_probe_R2.sh` with working network and external asset storage. Source/scene rights and footage QC HOLD; owner-approved V4 script Lock remains.
+
+### R2A Archive expansion
+Three extra original US Army film leads F06-F08 added to R2 source pack and CSV: TV-543 actual Camp Century entrance/machines, TV-520 scouts in actual base, TV-781 later compilation (high duplication), see exact rights/shot cautions in R2 docs. 8 source-film candidates total, but no physical video frames verified; this is not source bank PASS.
