@@ -45,3 +45,6 @@ Use `ARCHIVE/STAGE05_VERIFIED_PUBLIC_ARCHIVE_LINKS_AND_RIGHTS_R2.md`, `ARCHIVE/S
 
 ### R2A Archive expansion
 Three extra original US Army film leads F06-F08 added to R2 source pack and CSV: TV-543 actual Camp Century entrance/machines, TV-520 scouts in actual base, TV-781 later compilation (high duplication), see exact rights/shot cautions in R2 docs. 8 source-film candidates total, but no physical video frames verified; this is not source bank PASS.
+
+## Stage05 Expanded Archive R3 | 2026-10-25
+Use `ARCHIVE/STAGE05_ASSET_SOURCE_REGISTER_R3.csv` (53 source RECORDS: 17 film leads incl repeats/different sites, 26 government photo/report/NASA entry leads, 10 license exclusions); `ARCHIVE/STAGE05_R3_EXPANDED_VIDEO_PHOTO_RESEARCH_AND_GAPS.md` (precise distinctions between Camp Century and Site I/II/Camp Tuto/Thule, per-chapter gaps and new 1959 raw commercial footage rights HOLD), and `ARCHIVE/STAGE05_CODEX_TASK_TO_RUN_R3.md` (ready to run on networked Codex host). None of 53 records means the actual footage was screened, downloaded, deduplicated or legally frame-cleared in this session. Original real footage runtime remains UNKNOWN. Voice gated.
