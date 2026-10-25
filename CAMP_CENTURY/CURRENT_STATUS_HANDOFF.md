@@ -1,3 +1,14 @@
+## 2026-10-24 — STAGE 03 FULL NARRATION V1 COMPLETE + INITIAL FACT QC
+
+**AUTHORITATIVE CURRENT SCRIPT DRAFT:** `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V1_EN.md` — 8 complete chapters, **2949 spoken words**, estimated **19.0–21.8 minutes at 135–155 wpm**.
+**Exact plain VO text:** `SCRIPT/STAGE03_CAMP_CENTURY_VOICE_TEXT_V1_EN.txt`.
+**Semantic beats:** `SCRIPT/STAGE03_CAMP_CENTURY_SEMANTIC_BEATS_V1.csv` — 30 phrase-range beats, 2949 words; no fabricated WAV seconds.
+**Initial historic/fact verification:** `SCRIPT/STAGE03_CAMP_CENTURY_FACT_EDITORIAL_QC_V1.md` — original US Army 1965 Technical Report 174 (construction and tunneling), 2024 Cryosphere science, 2016 AGU study, NASA 2024 radar, USACE reactor history; qualified uncertainties flagged.
+
+**Stage 03 full text V1 DONE; initial fact QC PASS WITH QUALIFICATIONS. Not owner Script Lock, not Stage04 independent fact/legal QC, not TTS approval.** Film source bank remains film/catalog candidates only, no real MP4 source extraction or screen coverage verified. HIA has absolute NO dialogue subtitles rule. No paid credits, no contacts to public archive institutions, no AI video.
+
+Next: producer checks actual script, Stage04 detailed line/source and legal review, Script Lock owner approval; then authorized voice job sizing and TTS separately. For editor use only real film motion under source semantics; avoid any false real-world Iceworm missile footage or unrelated stock padding.
+
 # HIA VIDEO007 CAMP CENTURY — CURRENT STATUS HANDOFF
 
 Started/approved topic by producer: 2026-10-24.
