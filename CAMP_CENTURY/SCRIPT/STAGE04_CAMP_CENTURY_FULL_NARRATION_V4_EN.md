@@ -1,7 +1,7 @@
 # HIA VIDEO007 — CAMP CENTURY | STAGE04 FACT-CHECKED FULL SCRIPT V4 EN-US
 
 **Status:** STAGE04 editorial/factual revision based on V3. Fact QC PASS with specified qualifications; **not owner Script Lock, not professional legal opinion, not clearance of sourced footage or audio**.
-**Narration:** 2943 spoken words; eight complete chapters. Estimated duration 18.99–21.80 min at 155–135 WPM, excluding pauses and original-footage speech.
+**Narration:** 2931 spoken words; eight complete chapters. Estimated duration 18.91–21.71 min at 155–135 WPM, excluding pauses and original-footage speech.
 **Sources:** Army CRREL TR174 (1965), Nielsen et al (2014), Colgan et al (2016), GAO (2024), Bierman et al (2024), NASA Earth Observatory (2024). Specific claim-by-claim control in STAGE04_CAMP_CENTURY_CLAIM_LEDGER_V1.csv.
 **IMPORTANT:** Public research facility documented by original Army film vs **never-built** Project Iceworm missile proposal. Stage03 V3 preserved unchanged. Script corrections in V4 clarify temporal link between nuclear plant and missile proposal, site-specific deformation measurements, year-round occupancy date discrepancy, and NASA's new radar imagery vs older known surveys.
 **Production:** No TTS, audio timing, or paid generation. Actual source clip rights/shot audit still HOLD. The HIA no-dialogue-subtitles owner rule applies.
@@ -50,7 +50,7 @@ And the first clue lies in a journey of one hundred thirty-eight miles, through 
 
 The year is nineteen fifty-nine.
 
-On the northwest Greenland ice sheet, there is no construction site as most people would recognize one. No trucks are arriving on pavement. No paved roadway leads to a gate.
+On the northwest Greenland ice sheet, there is no construction site as most people would recognize one. There is no paved roadway leading to a construction gate.
 
 The buildings do not exist yet. There is no paved road leading to the site.
 
@@ -96,7 +96,7 @@ And much harder to trust.
 
 The central construction machine at Camp Century was called the Peter snow miller.
 
-In the original footage, it looks less like ordinary snow removal equipment and more like an industrial machine trying to eat its way through an endless white wall.
+In the Army's period images, this machine resembles an industrial cutter trying to eat its way through an endless white wall.
 
 It cuts a long trench into compacted snow.
 
@@ -198,9 +198,9 @@ The reactor was a real technical achievement.
 
 But the more systems the Army put underground, the more there was to maintain.
 
-But the reactor was planned before the Iceworm missile proposal. Its cost does not prove the hidden weapons scheme paid for the camp.
+The reactor had been planned before Project Iceworm was formally proposed. Its cost cannot be treated as proof that the later missile plan financed the camp.
 
-What the working research base did give planners was an extraordinary example: an underground infrastructure they could imagine expanding to support weapons that would not always stay at the same launch position.
+But the working research camp made an extraordinary idea seem tangible: use buried infrastructure to conceal launching positions that would not always stay in the same place.
 
 ---
 
