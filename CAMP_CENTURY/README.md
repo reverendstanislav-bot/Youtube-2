@@ -27,3 +27,6 @@ The camp is real: US Army built experimental construction/trench and nuclear-pow
 
 ## Stage 03 V1 completion, October 24 2026
 The complete 8-chapter narrative and source-checked English narration now physically exist in `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V1_EN.md` and `SCRIPT/STAGE03_CAMP_CENTURY_VOICE_TEXT_V1_EN.txt` (2949 words). `SCRIPT/STAGE03_CAMP_CENTURY_SEMANTIC_BEATS_V1.csv` has 30 narrative beats; `SCRIPT/STAGE03_CAMP_CENTURY_FACT_EDITORIAL_QC_V1.md` includes initial primary-report fact QC. Not Stage04 final independent QC/producer Script Lock; all paid generation and direct video media QC HOLD.
+
+## Stage03 current authoritative documentary script V2 — 2026-10-24
+Producer rejected Stage03 V1 for low narrative tension; V2 entirely rewritten with documentary engine/hook and real large-scale engineering discoveries. Files: `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V2_EN.md` (2942 words, 8 chapters), `SCRIPT/STAGE03_CAMP_CENTURY_VOICE_TEXT_V2_EN.txt`, `SCRIPT/STAGE03_CAMP_CENTURY_SEMANTIC_BEATS_V2.csv` (34 beats), `SCRIPT/STAGE03_V2_COMPETITOR_STYLE_EDITORIAL_AND_FACT_QC.md`. V1 superseded. Stage04 independent final claim/legal QC not yet performed, owner Script Lock open, all paid TTS/generation barred and actual footage sourcing rights/QC HOLD.
