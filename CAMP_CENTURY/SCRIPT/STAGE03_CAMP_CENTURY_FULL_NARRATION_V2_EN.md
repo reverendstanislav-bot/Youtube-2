@@ -2,7 +2,7 @@
 
 **Status:** NEW narrative from scratch, editorial V2, **NOT SCRIPT LOCK**; claim-level Stage04 independent QC required.
 **Why rewritten:** V1 was a sequential informational recap with no sufficiently strong opening contradiction. V2 uses a documented shrinking tunnel as the opening conflict, then reveals construction/supply ingenuity, reactor, the non-built Iceworm missile concept, physical failure mode, and independently documented aftermath. The structure is inspired by *general* audience-retention techniques observable in engineering documentary hits; **no third-party script text is copied**.
-**Spoken words:** 2856 across 8 chapters. **Provisional runtime:** 18.4–21.2 minutes at 135–155 WPM, excluding scene pauses.
+**Spoken words:** 2899 across 8 chapters. **Provisional runtime:** 18.7–21.5 minutes at 135–155 WPM, excluding scene pauses.
 **English US only. Headers, evidence notes and editorial metadata are NOT voice text.**
 **Archival imagery:** Historical U.S. Army Camp Century only for site imagery; 1965 ARMY report / genuine photos for unavailable shots, public domain status by item and actual physical clip QC remain HOLD.
 **No paid TTS/video generation authorized. HIA subtitles prohibited.**
@@ -15,7 +15,7 @@ The U.S. Army built a road beneath Greenland's ice. Then the road began to shrin
 
 Not because of an earthquake. Not because of an enemy attack. Because the material surrounding it was slowly changing shape.
 
-In an Army engineering report, one of the main passages at Camp Century was recorded losing roughly twelve percent of its cross-sectional area each year. That is a remarkable problem for a place designed to hold buildings, machines, and people.
+In the Army's own measurements, the roof in Camp Century's main passage was settling by an average of sixteen inches a year. In some side passages the average was thirty-four inches — nearly three feet. That is a remarkable problem for a place designed to hold buildings, machines, and people.
 
 Look at the original Army film. Giant cutters bite into the snow. Tractors drag equipment across a white horizon. Steel arches disappear beneath the surface. Inside, there are heated rooms, workshops, a hospital, and a main street wide enough for tracked vehicles.
 
@@ -245,7 +245,7 @@ The original nineteen sixty-five engineering report contains drawings that make 
 
 One compares a main passage's cross section at different dates. It shows an arch losing the open space that made it useful.
 
-The report describes approximately twelve percent annual loss of cross-sectional area at one location. Another example was worse.
+The measurements were stark: about sixteen inches of yearly roof closure in the main passage, and around thirty-four inches in the side tunnels. In the summer of nineteen sixty-three, workers even removed part of the main passage's floor and excavated another four feet of snow to restore clearance beneath overhead utilities.
 
 But imagine what even a fraction of that change means to a vehicle that must pass through the corridor.
 
