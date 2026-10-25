@@ -1,10 +1,10 @@
-"beat_id","chapter","chapter_title","spoken_text_exact","spoken_words","duration_seconds_at_145wpm_estimate","evidence_ids","audio_start_sec","audio_end_sec","status"
-"CC07V2-CH01-B01","CH01","THE ROAD THAT WAS GETTING SMALLER","The U.S. Army built a road beneath Greenland's ice. Then the road began to shrink.
+"beat_id","chapter","chapter_title","spoken_text_exact","spoken_words","estimate_seconds_at_145wpm","evidence","actual_start_sec","actual_end_sec","status"
+"V2-01-01","CH01","THE ROAD THAT WAS GETTING SMALLER","The U.S. Army built a road beneath Greenland's ice. Then the road began to shrink.
 
 Not because of an earthquake. Not because of an enemy attack. Because the material surrounding it was slowly changing shape.
 
-In the Army's own measurements, the roof in Camp Century's main passage was settling by an average of sixteen inches a year. In some side passages the average was thirty-four inches — nearly three feet. That is a remarkable problem for a place designed to hold buildings, machines, and people.","85","35.17","ARMY65 FIG28; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH01-B02","CH01","THE ROAD THAT WAS GETTING SMALLER","Look at the original Army film. Giant cutters bite into the snow. Tractors drag equipment across a white horizon. Steel arches disappear beneath the surface. Inside, there are heated rooms, workshops, a hospital, and a main street wide enough for tracked vehicles.
+In the Army's own measurements, the roof in Camp Century's main passage was settling by an average of sixteen inches a year. In some side passages the average was thirty-four inches — nearly three feet. That is a remarkable problem for a place designed to hold buildings, machines, and people.","85","35.17","ARMY65 FIG28; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-01-02","CH01","THE ROAD THAT WAS GETTING SMALLER","Look at the original Army film. Giant cutters bite into the snow. Tractors drag equipment across a white horizon. Steel arches disappear beneath the surface. Inside, there are heated rooms, workshops, a hospital, and a main street wide enough for tracked vehicles.
 
 The Army even installed a nuclear power plant.
 
@@ -12,22 +12,22 @@ From the outside, it looked like a victory over the Arctic.
 
 But the walls were moving. The ceilings were settling. Keeping the city open was becoming a job without a finishing line.
 
-Camp Century was not just an experiment in keeping soldiers warm. It was connected to a much larger military proposal: a concealed network under the Greenland ice sheet that might one day support hundreds of nuclear missiles.","119","49.24","ARMY65 FIG28; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH01-B03","CH01","THE ROAD THAT WAS GETTING SMALLER","That vast missile network was never built. The small city was.
+Camp Century was not just an experiment in keeping soldiers warm. It was connected to a much larger military proposal: a concealed network under the Greenland ice sheet that might one day support hundreds of nuclear missiles.","119","49.24","ARMY65 FIG28; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-01-03","CH01","THE ROAD THAT WAS GETTING SMALLER","That vast missile network was never built. The small city was.
 
 What went wrong with the bigger idea? And why would an army spend millions building a place that could not simply be left alone?
 
 To understand the answer, follow the machinery before it ever reaches Camp Century.
 
-Because the first nearly impossible part was getting five thousand six hundred tons of material across the ice.","66","27.31","ARMY65 FIG28; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH02-B01","CH02","THE 138-MILE SUPPLY LINE","In the late nineteen fifties, Greenland offered something unusual to American military planners: enormous distances, an extreme climate, and a position that mattered in the Cold War.
+Because the first nearly impossible part was getting five thousand six hundred tons of material across the ice.","66","27.31","ARMY65 FIG28; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-02-01","CH02","THE 138-MILE SUPPLY LINE","In the late nineteen fifties, Greenland offered something unusual to American military planners: enormous distances, an extreme climate, and a position that mattered in the Cold War.
 
 For engineers, the problem was more basic. There was no road to the site they had chosen.
 
 Camp Century would be built in northwestern Greenland, deep inside an ice sheet. Greenland was part of the Danish realm, not American territory. The United States could operate facilities under defense arrangements, but geography made no concessions.
 
-Equipment arriving from the outside world was assembled into loads. Tracked tractors then pulled sled trains across the ice toward the planned camp.","104","43.03","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH02-B02","CH02","THE 138-MILE SUPPLY LINE","The Army's nineteen sixty-five report records a route of about one hundred thirty-eight miles.
+Equipment arriving from the outside world was assembled into loads. Tracked tractors then pulled sled trains across the ice toward the planned camp.","104","43.03","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","NO_VOICE_GENERATED"
+"V2-02-02","CH02","THE 138-MILE SUPPLY LINE","The Army's nineteen sixty-five report records a route of about one hundred thirty-eight miles.
 
 Snow buried the surface. Conditions changed. A broken machine was not a problem that could be solved by sending someone to a nearby parts store.
 
@@ -35,8 +35,8 @@ And the cargo was not just food and blankets.
 
 There were prefabricated buildings, heavy construction equipment, electrical systems, roof sections, fuel storage, and eventually components of a nuclear power plant.
 
-Some loads were so awkward that special sleds had to be fabricated in Greenland to carry them.","86","35.59","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH02-B03","CH02","THE 138-MILE SUPPLY LINE","The numbers make the project real.
+Some loads were so awkward that special sleds had to be fabricated in Greenland to carry them.","86","35.59","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","NO_VOICE_GENERATED"
+"V2-02-03","CH02","THE 138-MILE SUPPLY LINE","The numbers make the project real.
 
 In nineteen fifty-nine, the Army moved approximately one thousand short tons from Camp Tuto to Century. In nineteen sixty, another four thousand six hundred.
 
@@ -44,13 +44,13 @@ About five thousand six hundred short tons over two construction seasons.
 
 This is what the original film can show better than any graphic: small moving machines struggling across an enormous empty landscape, pulling the pieces of a future city.
 
-Construction began in June nineteen fifty-nine. By October nineteen sixty the major planned camp was complete.","85","35.17","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH02-B04","CH02","THE 138-MILE SUPPLY LINE","But a delivery problem was about to become a structural problem.
+Construction began in June nineteen fifty-nine. By October nineteen sixty the major planned camp was complete.","85","35.17","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","NO_VOICE_GENERATED"
+"V2-02-04","CH02","THE 138-MILE SUPPLY LINE","But a delivery problem was about to become a structural problem.
 
 Because the builders had chosen a very unusual material for their underground city.
 
-It was the snow itself.","29","12.00","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH03-B01","CH03","BUILDING A STREET OUT OF SNOW","Forget the usual image of an underground military base carved into solid stone.
+It was the snow itself.","29","12.00","ARMY65 P32; SCI24; DANISH_US_AGREEMENT","","","NO_VOICE_GENERATED"
+"V2-03-01","CH03","BUILDING A STREET OUT OF SNOW","Forget the usual image of an underground military base carved into solid stone.
 
 Camp Century was not dug into a mountain. It was built with a method called cut and cover.
 
@@ -58,22 +58,22 @@ First, the Army opened long trenches in compacted snow. Then workers installed s
 
 The result resembled an industrial town with one very strange feature: its streets were indoors.
 
-The main instrument of construction was a remarkable machine.","87","36.00","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH03-B02","CH03","BUILDING A STREET OUT OF SNOW","The Peter snow miller used rotating cutting equipment to remove enormous amounts of snow. In the Army footage, this is the kind of machinery that immediately tells you how ambitious the project was.
+The main instrument of construction was a remarkable machine.","87","36.00","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","NO_VOICE_GENERATED"
+"V2-03-02","CH03","BUILDING A STREET OUT OF SNOW","The Peter snow miller used rotating cutting equipment to remove enormous amounts of snow. In the Army footage, this is the kind of machinery that immediately tells you how ambitious the project was.
 
 Workers still had to shape the trenches, lower structural pieces, install the roofs, assemble the buildings, and protect everything from the weight above.
 
 In some sections they shaped the snow itself into an arch. In others they needed steel members and forms to hold larger openings.
 
-And the spaces were not all the same size.","88","36.41","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH03-B03","CH03","BUILDING A STREET OUT OF SNOW","The reactor installation required a trench approximately forty feet wide. It was a different structural challenge from a narrow pedestrian corridor.
+And the spaces were not all the same size.","88","36.41","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","NO_VOICE_GENERATED"
+"V2-03-03","CH03","BUILDING A STREET OUT OF SNOW","The reactor installation required a trench approximately forty feet wide. It was a different structural challenge from a narrow pedestrian corridor.
 
 A roof that spans twice the distance does not simply face twice the difficulty. It requires an entirely different understanding of loads, supports, and how the surrounding material behaves.
 
 The Army learned some of that lesson immediately.
 
-According to the engineering report, temporary forms were removed from some snow arches before the surrounding snow had gained sufficient strength. Deformation followed. Other forms were left in place.","87","36.00","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH03-B04","CH03","BUILDING A STREET OUT OF SNOW","Snow is not a passive material. It has a history. The way it has been compacted, its temperature, the pressure above it, and the passage of time all affect how it behaves.
+According to the engineering report, temporary forms were removed from some snow arches before the surrounding snow had gained sufficient strength. Deformation followed. Other forms were left in place.","87","36.00","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","NO_VOICE_GENERATED"
+"V2-03-04","CH03","BUILDING A STREET OUT OF SNOW","Snow is not a passive material. It has a history. The way it has been compacted, its temperature, the pressure above it, and the passage of time all affect how it behaves.
 
 Once the trenches existed, the actual settlement could be assembled.
 
@@ -81,15 +81,15 @@ There were sleeping quarters, a dining hall, medical facilities, laboratories, w
 
 The camp was designed to accommodate roughly two hundred people.
 
-Imagine walking from a heated room into the main passage. Outside, Greenland is wind and darkness. Inside, the Army has built a small, operating industrial community.","104","43.03","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH03-B05","CH03","BUILDING A STREET OUT OF SNOW","That contrast was powerful enough for a promotional film.
+Imagine walking from a heated room into the main passage. Outside, Greenland is wind and darkness. Inside, the Army has built a small, operating industrial community.","104","43.03","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","NO_VOICE_GENERATED"
+"V2-03-05","CH03","BUILDING A STREET OUT OF SNOW","That contrast was powerful enough for a promotional film.
 
 But filming a finished street is much easier than maintaining it.
 
 A town needs power and heat. It needs drinking water and sanitation. It needs machinery that works when spare parts are almost a week-long logistical problem.
 
-And the Army's answer to its growing energy needs was to bring one of the most complicated machines of all into this snow-built city.","70","28.97","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH04-B01","CH04","THE NUCLEAR CITY","The nuclear reactor at Camp Century was called PM-two-A.
+And the Army's answer to its growing energy needs was to bring one of the most complicated machines of all into this snow-built city.","70","28.97","ARMY65 FIG12-14 FIG24 FIG26; SCI24","","","NO_VOICE_GENERATED"
+"V2-04-01","CH04","THE NUCLEAR CITY","The nuclear reactor at Camp Century was called PM-two-A.
 
 Its purpose was not to arm the camp with a nuclear weapon. It was to give a remote installation power without forcing the Army to haul all of its energy there as diesel fuel.
 
@@ -97,15 +97,15 @@ A compact nuclear power plant offered a radically different trade-off: far less 
 
 The original Army report gives a figure that captures the ambition.
 
-Camp Century's historical construction cost was about seven point nine two million dollars.","89","36.83","ARMY65 P31 P42-51; USACE PM2A","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH04-B02","CH04","THE NUCLEAR CITY","Of that amount, approximately five point seven million went to the nuclear plant.
+Camp Century's historical construction cost was about seven point nine two million dollars.","89","36.83","ARMY65 P31 P42-51; USACE PM2A","","","NO_VOICE_GENERATED"
+"V2-04-02","CH04","THE NUCLEAR CITY","Of that amount, approximately five point seven million went to the nuclear plant.
 
 The Army worked with ALCO Products to develop the installation. Its components traveled through the same Greenland supply chain as the buildings and machinery.
 
 And the plant had to function in a place with very little margin for error.
 
-The reactor's rated thermal power was about ten megawatts. The useful electrical output was around one and a half megawatts. These are not interchangeable numbers: heat produced by a reactor is not the same as electricity delivered to the camp.","92","38.07","ARMY65 P31 P42-51; USACE PM2A","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH04-B03","CH04","THE NUCLEAR CITY","Power meant lighting, equipment, and the ability to keep a working settlement alive.
+The reactor's rated thermal power was about ten megawatts. The useful electrical output was around one and a half megawatts. These are not interchangeable numbers: heat produced by a reactor is not the same as electricity delivered to the camp.","92","38.07","ARMY65 P31 P42-51; USACE PM2A","","","NO_VOICE_GENERATED"
+"V2-04-03","CH04","THE NUCLEAR CITY","Power meant lighting, equipment, and the ability to keep a working settlement alive.
 
 The camp also needed water. Engineers developed a well system that used heat to create a reservoir in the surrounding ice and snow.
 
@@ -113,8 +113,8 @@ The practical problems were not always spectacular. An Army report describes a w
 
 The nuclear plant brought its own maintenance difficulties, including problems with the turbine-generator.
 
-There was no need to invent an explosion or a meltdown to make this dramatic.","96","39.72","ARMY65 P31 P42-51; USACE PM2A","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH04-B04","CH04","THE NUCLEAR CITY","The story is more revealing without one.
+There was no need to invent an explosion or a meltdown to make this dramatic.","96","39.72","ARMY65 P31 P42-51; USACE PM2A","","","NO_VOICE_GENERATED"
+"V2-04-04","CH04","THE NUCLEAR CITY","The story is more revealing without one.
 
 Engineers were maintaining a reactor, a small town, and the moving material enclosing both of them, all at the end of an extraordinary supply route.
 
@@ -124,8 +124,8 @@ And while the public was being shown a scientific city under the ice, some milit
 
 What if this were not just one city?
 
-What if it were the prototype for an entire hidden weapons system?","87","36.00","ARMY65 P31 P42-51; USACE PM2A","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH05-B01","CH05","THE PLAN BENEATH THE PLAN","By the early nineteen sixties, the Army had proved it could construct and operate a substantial installation inside the Greenland ice sheet.
+What if it were the prototype for an entire hidden weapons system?","87","36.00","ARMY65 P31 P42-51; USACE PM2A","","","NO_VOICE_GENERATED"
+"V2-05-01","CH05","THE PLAN BENEATH THE PLAN","By the early nineteen sixties, the Army had proved it could construct and operate a substantial installation inside the Greenland ice sheet.
 
 That success had a possible military application.
 
@@ -133,8 +133,8 @@ Project Iceworm proposed using the ice as cover for a much larger system of conc
 
 Instead of keeping a ballistic missile in a fixed, easily mapped location, the proposal imagined missiles moving between possible launching sites beneath the surface.
 
-It was an extraordinary attempt to turn Greenland itself into part of a strategic weapons system.","91","37.66","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH05-B02","CH05","THE PLAN BENEATH THE PLAN","The numbers in the historical studies are almost difficult to picture.
+It was an extraordinary attempt to turn Greenland itself into part of a strategic weapons system.","91","37.66","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","NO_VOICE_GENERATED"
+"V2-05-02","CH05","THE PLAN BENEATH THE PLAN","The numbers in the historical studies are almost difficult to picture.
 
 Around six hundred missiles, spread through a proposed network covering approximately one hundred thirty thousand square kilometers.
 
@@ -144,8 +144,8 @@ These were plans, not operating installations. Not one of those proposed Iceworm
 
 The camp included an experimental subsurface railway. That was a limited engineering experiment, not the beginning of an already functioning national missile network.
 
-And the difference matters.","86","35.59","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH05-B03","CH05","THE PLAN BENEATH THE PLAN","At one camp, engineers could inspect a shrinking tunnel, repair a roof, clear an entrance, and send in another supply convoy.
+And the difference matters.","86","35.59","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","NO_VOICE_GENERATED"
+"V2-05-03","CH05","THE PLAN BENEATH THE PLAN","At one camp, engineers could inspect a shrinking tunnel, repair a roof, clear an entrance, and send in another supply convoy.
 
 Multiply that work across a giant network. Add missile maintenance, movement, communications, command systems, and the demands of remaining operational for years.
 
@@ -155,8 +155,8 @@ And so does the political question.
 
 The Army was operating on Greenland under an agreement with Denmark. A research station was one thing. A massive concealed nuclear weapons system was another.
 
-There were also rival strategic choices within the United States. The Air Force was developing land-based ballistic missiles. The Navy was building a submarine-based nuclear deterrent. The Army's Iceworm proposal competed in a world where other ways to keep missiles survivable were already moving forward.","124","51.31","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH05-B04","CH05","THE PLAN BENEATH THE PLAN","Historical research identifies a combination of technical, interservice, and political difficulties behind Iceworm's failure to advance.
+There were also rival strategic choices within the United States. The Air Force was developing land-based ballistic missiles. The Navy was building a submarine-based nuclear deterrent. The Army's Iceworm proposal competed in a world where other ways to keep missiles survivable were already moving forward.","124","51.31","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","NO_VOICE_GENERATED"
+"V2-05-04","CH05","THE PLAN BENEATH THE PLAN","Historical research identifies a combination of technical, interservice, and political difficulties behind Iceworm's failure to advance.
 
 By nineteen sixty-three, the project had been rejected.
 
@@ -164,8 +164,8 @@ And the reasons were not all contained in secret policy papers.
 
 Some of the most decisive evidence was right there, in the passages beneath the snow.
 
-The Army could measure the problem with a ruler.","59","24.41","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH06-B01","CH06","THE ENEMY THAT NEVER STOPPED MOVING","There was no single day when the entire city suddenly collapsed.
+The Army could measure the problem with a ruler.","59","24.41","AGU16 SEC1; NIELSEN14 P445; PETERSEN08 ABSTRACT; GAO2024","","","NO_VOICE_GENERATED"
+"V2-06-01","CH06","THE ENEMY THAT NEVER STOPPED MOVING","There was no single day when the entire city suddenly collapsed.
 
 Camp Century's difficulty was slower, less cinematic, and in some ways more serious.
 
@@ -175,44 +175,43 @@ This process is called creep.
 
 An arched passage can look strong when construction is finished, yet still be getting narrower every month. Snow above it continues to accumulate. Side walls press inward. The opening loses height and width.
 
-The Army knew ice and firn could move. The experiment was partly about learning how to build and maintain structures despite that movement.","99","40.97","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH06-B02","CH06","THE ENEMY THAT NEVER STOPPED MOVING","But knowing a material will deform is not the same as being able to support an enormous military network inside it for decades.
+The Army knew ice and firn could move. The experiment was partly about learning how to build and maintain structures despite that movement.","99","40.97","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-06-02","CH06","THE ENEMY THAT NEVER STOPPED MOVING","But knowing a material will deform is not the same as being able to support an enormous military network inside it for decades.
 
 The original nineteen sixty-five engineering report contains drawings that make the problem undeniable.
 
 One compares a main passage's cross section at different dates. It shows an arch losing the open space that made it useful.
 
-The measurements were stark: about sixteen inches of yearly roof closure in the main passage, and around thirty-four inches in the side tunnels. In the summer of nineteen sixty-three, workers even removed part of the main passage's floor and excavated another four feet of snow to restore clearance beneath overhead utilities.","109","45.10","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH06-B03","CH06","THE ENEMY THAT NEVER STOPPED MOVING","But imagine what even a fraction of that change means to a vehicle that must pass through the corridor.
+The measurements were stark: about sixteen inches of yearly roof closure in the main passage, and around thirty-four inches in the side tunnels. In the summer of nineteen sixty-three, workers even removed part of the main passage's floor and excavated another four feet of snow to restore clearance beneath overhead utilities.","109","45.10","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-06-03","CH06","THE ENEMY THAT NEVER STOPPED MOVING","But imagine what even a fraction of that change means to a vehicle that must pass through the corridor.
 
 A machine needs clearance on both sides. A support column cannot simply follow the wall inward. A door that used to open may meet the surrounding structure.
 
-Every lost inch becomes another maintenance task.
-
-The snow outside the tunnels presented a second challenge. Winds buried entrances and access ramps. Keeping the main passages accessible required repeated clearing.
+Every lost inch becomes another maintenance task. The Army estimated that simply keeping the tunnels at their original size would mean removing around twenty thousand cubic yards of snow every year. Engineers even considered dedicated equipment for the task. A finished city would have to become a permanent excavation site.","96","39.72","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-06-04","CH06","THE ENEMY THAT NEVER STOPPED MOVING","The snow outside the tunnels presented a second challenge. Winds buried entrances and access ramps. Keeping the main passages accessible required repeated clearing.
 
 Then there was the problem of heat.
 
-Buildings and machines give off heat. People need warm rooms. But snow is also the material holding the roofs and walls in place.","106","43.86","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH06-B04","CH06","THE ENEMY THAT NEVER STOPPED MOVING","The challenge was not merely preventing the ice from melting. Temperature affected the snow's strength and its response to loading. Warmth that made the city livable could complicate the performance of the surrounding structure.
+Buildings and machines give off heat. People need warm rooms. But snow is also the material holding the roofs and walls in place.
 
-The Army's report also describes practical failures that are easy to overlook in a heroic construction film: supporting forms removed too soon, design compromises dictated by deadlines, and equipment that demanded repairs.
+The challenge was not merely preventing the ice from melting. Temperature affected the snow's strength and its response to loading. Warmth that made the city livable could complicate the performance of the surrounding structure.","87","36.00","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-06-05","CH06","THE ENEMY THAT NEVER STOPPED MOVING","The Army's report also describes practical failures that are easy to overlook in a heroic construction film: supporting forms removed too soon, design compromises dictated by deadlines, and equipment that demanded repairs.
 
 None of those is a spectacular one-time accident.
 
-Together, they describe a system that could be built, but that required constant intervention to keep working.","91","37.66","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH06-B05","CH06","THE ENEMY THAT NEVER STOPPED MOVING","This is the moment where the hidden missile proposal becomes easier to understand.
+Together, they describe a system that could be built, but that required constant intervention to keep working.
+
+This is the moment where the hidden missile proposal becomes easier to understand.
 
 A secret missile railway only works if the railway remains open.
 
-And it only remains useful if tunnels, communications, launching positions, and the supply system can be maintained across the entire network.
-
-Camp Century proved the Army could engineer a city beneath the snow.
+And it only remains useful if tunnels, communications, launching positions, and the supply system can be maintained across the entire network.","102","42.21","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-06-06","CH06","THE ENEMY THAT NEVER STOPPED MOVING","Camp Century proved the Army could engineer a city beneath the snow.
 
 The changing snow showed how much work it would take to keep a much larger system alive.
 
-That was a different answer from the one its builders had hoped to demonstrate.","88","36.41","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH07-B01","CH07","THE CITY LEFT BEHIND","The end came in stages.
+That was a different answer from the one its builders had hoped to demonstrate.","43","17.79","ARMY65 P32-40 FIG28-29; SCI24; AGU16","","","NO_VOICE_GENERATED"
+"V2-07-01","CH07","THE CITY LEFT BEHIND","The end came in stages.
 
 Year-round activities were reduced in the early nineteen sixties. The PM-two-A plant shut down on July ninth, nineteen sixty-three, and the Army removed it in nineteen sixty-four.
 
@@ -224,8 +223,8 @@ No underground nuclear missile force ever emerged from it.
 
 The evidence is more complicated.
 
-The tunnels deformed, and keeping them usable was difficult. The big missile proposal faced technical obstacles and political opposition. Other weapons programs were becoming established. Maintaining a remote experimental base required a continuing reason to pay for it.","99","40.97","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH07-B02","CH07","THE CITY LEFT BEHIND","The Army's own report did not dismiss every construction method as a failure. Engineers had learned how to create shelter, transport huge loads, support a remote workforce, and operate a reactor in a place few people had ever tried to inhabit.
+The tunnels deformed, and keeping them usable was difficult. The big missile proposal faced technical obstacles and political opposition. Other weapons programs were becoming established. Maintaining a remote experimental base required a continuing reason to pay for it.","99","40.97","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","NO_VOICE_GENERATED"
+"V2-07-02","CH07","THE CITY LEFT BEHIND","The Army's own report did not dismiss every construction method as a failure. Engineers had learned how to create shelter, transport huge loads, support a remote workforce, and operate a reactor in a place few people had ever tried to inhabit.
 
 It was that successful construction did not guarantee permanent military usefulness.
 
@@ -233,8 +232,8 @@ When the Army left, the reactor hardware had been removed. But much of the camp 
 
 And that included materials the modern world would consider an environmental problem.
 
-A report by the United States Government Accountability Office in twenty twenty-four confirmed that radioactive liquid associated with the Camp Century reactor remained entombed beneath the ice.","111","45.93","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH07-B03","CH07","THE CITY LEFT BEHIND","For decades, the assumption was that continuing snowfall would keep the abandoned installation buried.
+A report by the United States Government Accountability Office in twenty twenty-four confirmed that radioactive liquid associated with the Camp Century reactor remained entombed beneath the ice.","111","45.93","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","NO_VOICE_GENERATED"
+"V2-07-03","CH07","THE CITY LEFT BEHIND","For decades, the assumption was that continuing snowfall would keep the abandoned installation buried.
 
 Scientists have since examined how a warming climate might affect that assumption.
 
@@ -242,8 +241,8 @@ A twenty sixteen study warned about the possibility of future remobilization of 
 
 A later assessment, cited by the GAO in twenty twenty-four, found that the contamination would likely remain immobile through the year twenty-one hundred.
 
-Those statements are not identical predictions, and neither means radioactive material is currently pouring into the ocean.","85","35.17","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH07-B04","CH07","THE CITY LEFT BEHIND","The risks depend on how the ice sheet changes over time.
+Those statements are not identical predictions, and neither means radioactive material is currently pouring into the ocean.","85","35.17","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","NO_VOICE_GENERATED"
+"V2-07-04","CH07","THE CITY LEFT BEHIND","The risks depend on how the ice sheet changes over time.
 
 But the basic engineering irony remains.
 
@@ -251,8 +250,8 @@ The Army built Camp Century beneath the snow because the environment could conce
 
 The same environment slowly took the city out of service.
 
-And then it preserved the evidence of that city long after the people had gone.","59","24.41","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH08-B01","CH08","WHAT THE ICE GAVE BACK","The most surprising legacy of Camp Century may have nothing to do with missiles.
+And then it preserved the evidence of that city long after the people had gone.","59","24.41","ARMY65; AGU16; GAO2024; DANISH_GOV_MONITOR","","","NO_VOICE_GENERATED"
+"V2-08-01","CH08","WHAT THE ICE GAVE BACK","The most surprising legacy of Camp Century may have nothing to do with missiles.
 
 While the Army was learning to live under the snow, scientists were drilling into the ice beneath it.
 
@@ -260,8 +259,8 @@ The deeper they went, the farther back they were traveling through Greenland's e
 
 In nineteen sixty-six, the drilling reached roughly one thousand three hundred ninety meters below the surface. Researchers recovered frozen sediment from beneath the ice sheet itself.
 
-That material was preserved, moved between collections, and eventually came close to disappearing into the history of scientific storage.","91","37.66","SCI24; NSF_ICECORE; NASA24; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH08-B02","CH08","WHAT THE ICE GAVE BACK","In twenty nineteen, researchers recognized that important samples still survived in Copenhagen.
+That material was preserved, moved between collections, and eventually came close to disappearing into the history of scientific storage.","91","37.66","SCI24; NSF_ICECORE; NASA24; GAO2024","","","NO_VOICE_GENERATED"
+"V2-08-02","CH08","WHAT THE ICE GAVE BACK","In twenty nineteen, researchers recognized that important samples still survived in Copenhagen.
 
 When the old sediment was examined again, it offered evidence of a Greenland landscape that had once existed without the ice sheet covering that location.
 
@@ -271,8 +270,8 @@ Meanwhile, the former city was still there.
 
 In April twenty twenty-four, a NASA radar flight over Greenland unexpectedly detected structural features beneath the ice. In November, NASA published the images.
 
-These are not photographs taken inside a surviving accessible city.","94","38.90","SCI24; NSF_ICECORE; NASA24; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH08-B03","CH08","WHAT THE ICE GAVE BACK","They are radar measurements revealing portions of the buried base from the air.
+These are not photographs taken inside a surviving accessible city.","94","38.90","SCI24; NSF_ICECORE; NASA24; GAO2024","","","NO_VOICE_GENERATED"
+"V2-08-03","CH08","WHAT THE ICE GAVE BACK","They are radar measurements revealing portions of the buried base from the air.
 
 The tunnels, roofs, and structures have disappeared from view, but they have not disappeared from the scientific record.
 
@@ -282,11 +281,11 @@ Watch the snow miller cutting a trench. Watch the sled train carrying a load tha
 
 But we know something the promotional footage could not fully explain.
 
-The real experiment was not just whether a city could be built under Greenland's ice.","95","39.31","SCI24; NSF_ICECORE; NASA24; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
-"CC07V2-CH08-B04","CH08","WHAT THE ICE GAVE BACK","It was whether that city could remain useful when the walls themselves were moving.
+The real experiment was not just whether a city could be built under Greenland's ice.","95","39.31","SCI24; NSF_ICECORE; NASA24; GAO2024","","","NO_VOICE_GENERATED"
+"V2-08-04","CH08","WHAT THE ICE GAVE BACK","It was whether that city could remain useful when the walls themselves were moving.
 
 The Army solved the first problem.
 
 The second one helped bring an extraordinary military ambition to an end.
 
-And the ice kept the proof.","38","15.72","SCI24; NSF_ICECORE; NASA24; GAO2024","","","SCRIPT_QC_PENDING_NO_AUDIO"
+And the ice kept the proof.","38","15.72","SCI24; NSF_ICECORE; NASA24; GAO2024","","","NO_VOICE_GENERATED"
