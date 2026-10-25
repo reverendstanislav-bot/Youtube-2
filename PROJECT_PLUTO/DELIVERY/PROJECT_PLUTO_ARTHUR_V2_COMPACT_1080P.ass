@@ -1,0 +1,304 @@
+[Script Info]
+Title: HIA Project Pluto - Arthur V2 - Two-Line 1080p
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: HIA,IBM Plex Sans,43,&H00F3EBDD,&H00F3EBDD,&H900C1117,&H00000000,1,0,0,0,100,100,0,0,1,2.5,0,2,150,150,145,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:04.06,HIA,,0,0,0,,On May twentieth, nineteen sixty-four,\Naccording to the Atomic Energy
+Dialogue: 0,00:00:04.08,00:00:08.30,HIA,,0,0,0,,Commission's official annual account,\Nengineers in the Nevada desert reached
+Dialogue: 0,00:00:08.32,00:00:13.06,HIA,,0,0,0,,a remarkable milestone. They brought\Na nuclear-powered ramjet called Tory
+Dialogue: 0,00:00:13.08,00:00:17.38,HIA,,0,0,0,,Two-C to full power. Air was driven\Nthrough its reactor under conditions
+Dialogue: 0,00:00:17.40,00:00:21.46,HIA,,0,0,0,,intended to represent a missile\Ntraveling at Mach two point eight, near
+Dialogue: 0,00:00:21.48,00:00:25.34,HIA,,0,0,0,,sea level. And the official government\Naccount of the test did not call it a
+Dialogue: 0,00:00:25.36,00:00:28.54,HIA,,0,0,0,,disappointment. It called\Nthe May trials successful.
+Dialogue: 0,00:00:28.98,00:00:33.16,HIA,,0,0,0,,Now jump forward just forty-two days.\NOn July first, the Defense Department
+Dialogue: 0,00:00:33.18,00:00:37.22,HIA,,0,0,0,,informed the Atomic Energy Commission\Nthat it would not pursue a flight-test
+Dialogue: 0,00:00:37.24,00:00:41.78,HIA,,0,0,0,,objective for Project Pluto. Further\Nplanned reactor tests were canceled.
+Dialogue: 0,00:00:42.24,00:00:44.46,HIA,,0,0,0,,The desert facility\Nwould be mothballed.
+Dialogue: 0,00:00:44.48,00:00:47.86,HIA,,0,0,0,,Yet the missile that was\Nsupposed to carry it never flew.
+Dialogue: 0,00:00:48.44,00:00:53.02,HIA,,0,0,0,,How can one of the most ambitious\Npropulsion projects of the Cold War pass
+Dialogue: 0,00:00:53.04,00:00:56.52,HIA,,0,0,0,,its decisive reactor test\Nand still be abandoned?
+Dialogue: 0,00:00:56.98,00:01:00.76,HIA,,0,0,0,,The answer begins with a distinction\Nthat is easy to miss in surviving
+Dialogue: 0,00:01:00.78,00:01:03.88,HIA,,0,0,0,,photographs. There was\Na tested reactor engine.
+Dialogue: 0,00:01:04.38,00:01:07.84,HIA,,0,0,0,,And there was an imagined weapon.\NOnly one of them became real.
+Dialogue: 0,00:01:08.22,00:01:12.62,HIA,,0,0,0,,To understand why, we have to enter a\Nperiod when the American military was
+Dialogue: 0,00:01:12.64,00:01:16.46,HIA,,0,0,0,,willing to consider an idea almost\Nimpossible to separate from the fears of
+Dialogue: 0,00:01:16.48,00:01:20.58,HIA,,0,0,0,,its time: a missile that did not need\Nto carry conventional fuel for its
+Dialogue: 0,00:01:20.60,00:01:23.58,HIA,,0,0,0,,long cruise. That idea\Nwas Project Pluto.
+Dialogue: 0,00:01:24.16,00:01:27.76,HIA,,0,0,0,,And its most important achievement\Nwould also expose the distance between
+Dialogue: 0,00:01:27.78,00:01:31.54,HIA,,0,0,0,,proving a machine could function and\Nproving that the world needed it.
+Dialogue: 0,00:01:32.15,00:01:34.93,HIA,,0,0,0,,Pluto proposed a radically\Ndifferent source of heat.
+Dialogue: 0,00:01:35.35,00:01:39.91,HIA,,0,0,0,,Inside its engine, a nuclear reactor\Nwould transfer energy to incoming air.
+Dialogue: 0,00:01:40.25,00:01:44.01,HIA,,0,0,0,,That heated air would expand and rush\Nrearward, creating thrust without the
+Dialogue: 0,00:01:44.03,00:01:47.27,HIA,,0,0,0,,same onboard fuel supply a\Nchemical-burning jet required.
+Dialogue: 0,00:01:47.83,00:01:51.89,HIA,,0,0,0,,It was a nuclear ramjet. And a ramjet\Nhas another important characteristic:
+Dialogue: 0,00:01:51.91,00:01:56.73,HIA,,0,0,0,,it works by using the speed of the\Nvehicle itself to compress incoming air.
+Dialogue: 0,00:01:57.07,00:02:00.69,HIA,,0,0,0,,It is not an ordinary engine that can\Nsimply take off from a runway under
+Dialogue: 0,00:02:00.71,00:02:03.59,HIA,,0,0,0,,its own power. So imagine\Ntwo separate machines.
+Dialogue: 0,00:02:04.29,00:02:08.23,HIA,,0,0,0,,One is the reactor and air passage:\Nthe power-producing heart of the
+Dialogue: 0,00:02:08.25,00:02:12.69,HIA,,0,0,0,,proposed engine. This is what Livermore\Neventually built and operated during
+Dialogue: 0,00:02:12.71,00:02:17.57,HIA,,0,0,0,,ground tests. The other is SLAM,\Nthe proposed Supersonic Low-Altitude
+Dialogue: 0,00:02:17.59,00:02:21.69,HIA,,0,0,0,,Missile. The reactor did not solve\Nall of those requirements by itself.
+Dialogue: 0,00:02:22.11,00:02:26.89,HIA,,0,0,0,,The attraction was endurance. The Pluto\Nconcept moved the energy source into
+Dialogue: 0,00:02:26.91,00:02:30.93,HIA,,0,0,0,,a nuclear reactor. In principle,\Nit offered an entirely different balance
+Dialogue: 0,00:02:30.95,00:02:33.21,HIA,,0,0,0,,between fuel carried and time aloft.
+Dialogue: 0,00:02:33.43,00:02:36.55,HIA,,0,0,0,,But theoretical endurance\Nwas not unlimited range.
+Dialogue: 0,00:02:36.77,00:02:40.19,HIA,,0,0,0,,A complete flying vehicle would\Nstill have faced engineering limits,
+Dialogue: 0,00:02:40.53,00:02:43.25,HIA,,0,0,0,,guidance requirements,\Nand an operational mission.
+Dialogue: 0,00:02:43.55,00:02:46.97,HIA,,0,0,0,,You can see machines, test rigs,\Ntechnicians, and equipment developed
+Dialogue: 0,00:02:46.99,00:02:50.99,HIA,,0,0,0,,around the proposed SLAM system.\NThey are genuine period research,
+Dialogue: 0,00:02:51.07,00:02:53.73,HIA,,0,0,0,,but they are not footage of\Na completed missile flying.
+Dialogue: 0,00:02:54.31,00:02:58.21,HIA,,0,0,0,,That distinction matters. When a\Nmodel survives a wind-tunnel test,
+Dialogue: 0,00:02:58.23,00:03:00.97,HIA,,0,0,0,,it tells engineers\Nsomething about airflow.
+Dialogue: 0,00:03:01.23,00:03:05.23,HIA,,0,0,0,,It says nothing by itself about whether\Na nuclear reactor can survive the
+Dialogue: 0,00:03:05.25,00:03:09.05,HIA,,0,0,0,,same mission. When a reactor\Nproduces heat under simulated flight
+Dialogue: 0,00:03:09.07,00:03:11.45,HIA,,0,0,0,,conditions, it answers\Na different question.
+Dialogue: 0,00:03:11.67,00:03:15.31,HIA,,0,0,0,,It cannot prove that an entire\Nautonomous weapon has been developed.
+Dialogue: 0,00:03:15.71,00:03:18.31,HIA,,0,0,0,,Project Pluto needed\Nboth sets of answers.
+Dialogue: 0,00:03:18.65,00:03:20.89,HIA,,0,0,0,,The engine would go much\Nfurther than the missile.
+Dialogue: 0,00:03:20.91,00:03:25.43,HIA,,0,0,0,,And the reason engineers pursued such\Na difficult design had less to do with
+Dialogue: 0,00:03:25.45,00:03:29.01,HIA,,0,0,0,,a love of strange machinery than with\Nthe strategic problem Washington was
+Dialogue: 0,00:03:29.03,00:03:29.85,HIA,,0,0,0,,trying to solve.
+Dialogue: 0,00:03:30.57,00:03:32.97,HIA,,0,0,0,,Go back to the late nineteen-fifties.
+Dialogue: 0,00:03:33.33,00:03:37.25,HIA,,0,0,0,,The Cold War had turned military\Ntechnology into a contest of distance,
+Dialogue: 0,00:03:37.71,00:03:41.91,HIA,,0,0,0,,speed, warning time, and the ability\Nto survive an opponent's defenses.
+Dialogue: 0,00:03:42.59,00:03:46.27,HIA,,0,0,0,,Long-range bombers remained central\Nto American nuclear strategy.
+Dialogue: 0,00:03:47.01,00:03:50.73,HIA,,0,0,0,,Ballistic missiles were developing\Nrapidly, but the shape of the future
+Dialogue: 0,00:03:50.75,00:03:55.35,HIA,,0,0,0,,arsenal had not yet been settled. This\Nwas the world in which Project Pluto
+Dialogue: 0,00:03:55.37,00:03:59.59,HIA,,0,0,0,,began at Lawrence Radiation Laboratory\Nin nineteen fifty-seven, working for
+Dialogue: 0,00:03:59.61,00:04:02.93,HIA,,0,0,0,,the Atomic Energy Commission\Nand the United States Air Force.
+Dialogue: 0,00:04:03.31,00:04:07.31,HIA,,0,0,0,,Planners were exploring a machine that\Nmight cruise at supersonic speed and
+Dialogue: 0,00:04:07.33,00:04:11.73,HIA,,0,0,0,,low altitude, presenting an unusual\Nchallenge to defenses designed around
+Dialogue: 0,00:04:11.75,00:04:14.89,HIA,,0,0,0,,bombers and missiles\Nfollowing more familiar paths.
+Dialogue: 0,00:04:15.01,00:04:19.21,HIA,,0,0,0,,Low altitude was an ambition, not\Nproof that such a weapon could travel
+Dialogue: 0,00:04:19.23,00:04:24.21,HIA,,0,0,0,,anywhere unseen. Terrain,\Nnavigation, structural loads,
+Dialogue: 0,00:04:24.29,00:04:26.27,HIA,,0,0,0,,and the realities of\Ndetection still mattered.
+Dialogue: 0,00:04:26.29,00:04:30.33,HIA,,0,0,0,,The potential attraction was that a\Nnuclear heat source would not consume
+Dialogue: 0,00:04:30.35,00:04:33.17,HIA,,0,0,0,,conventional jet fuel in\Nthe way a bomber engine did.
+Dialogue: 0,00:04:33.67,00:04:36.77,HIA,,0,0,0,,But potential range was only\None part of a weapons system.
+Dialogue: 0,00:04:37.43,00:04:41.41,HIA,,0,0,0,,The Air Force already had air-launched\Nmissiles such as the Hound Dog.
+Dialogue: 0,00:04:41.87,00:04:46.19,HIA,,0,0,0,,A B-fifty-two carrying one of those\Nweapons represented an actual operating
+Dialogue: 0,00:04:46.21,00:04:50.65,HIA,,0,0,0,,approach to long-range attack. At the\Nsame time, programs such as Atlas and
+Dialogue: 0,00:04:50.67,00:04:54.63,HIA,,0,0,0,,Minuteman were demonstrating a\Ndifferent idea: sending a payload on a
+Dialogue: 0,00:04:54.65,00:04:58.63,HIA,,0,0,0,,ballistic trajectory instead of\Nsustaining a powered cruise for hours.
+Dialogue: 0,00:04:59.15,00:05:02.03,HIA,,0,0,0,,None of those aircraft or\Nrockets was Project Pluto.
+Dialogue: 0,00:05:02.19,00:05:05.71,HIA,,0,0,0,,Their historical footage belongs\Nhere only as a comparison between
+Dialogue: 0,00:05:05.73,00:05:09.71,HIA,,0,0,0,,technologies the United States was\Ndeveloping during the same era.
+Dialogue: 0,00:05:10.07,00:05:14.47,HIA,,0,0,0,,That comparison is crucial. In nineteen\Nfifty-seven, the future of nuclear
+Dialogue: 0,00:05:14.49,00:05:18.45,HIA,,0,0,0,,delivery was not self-evident. By\Nnineteen sixty-four, the comparison
+Dialogue: 0,00:05:18.47,00:05:23.17,HIA,,0,0,0,,would look different. Every advance in\Nalternative systems changed the value
+Dialogue: 0,00:05:23.19,00:05:25.73,HIA,,0,0,0,,of making Pluto into\Na deployable missile.
+Dialogue: 0,00:05:26.07,00:05:30.17,HIA,,0,0,0,,At the same time, Pluto's own\Nengineering demands remained enormous.
+Dialogue: 0,00:05:30.53,00:05:34.17,HIA,,0,0,0,,The scientists would spend the following\Nyears answering the reactor part of
+Dialogue: 0,00:05:34.19,00:05:38.45,HIA,,0,0,0,,that question. And to get an answer,\Nthey needed to build something in the
+Dialogue: 0,00:05:38.47,00:05:42.59,HIA,,0,0,0,,Nevada desert that looked less\Nlike an aircraft test stand than an
+Dialogue: 0,00:05:42.61,00:05:43.77,HIA,,0,0,0,,industrial complex.
+Dialogue: 0,00:05:44.51,00:05:49.11,HIA,,0,0,0,,At the Nevada Test Site, Project Pluto\Noccupied an industrial world of its
+Dialogue: 0,00:05:49.13,00:05:53.75,HIA,,0,0,0,,own. The engine could not simply\Nbe bolted to a stand, switched on,
+Dialogue: 0,00:05:54.05,00:05:58.65,HIA,,0,0,0,,and treated like an ordinary motor. A\Nramjet normally receives high-pressure
+Dialogue: 0,00:05:58.67,00:06:02.33,HIA,,0,0,0,,airflow because it is moving at\Nenormous speed through the atmosphere.
+Dialogue: 0,00:06:02.89,00:06:07.05,HIA,,0,0,0,,A reactor sitting on the ground has no\Nsuch airflow unless the test facility
+Dialogue: 0,00:06:07.07,00:06:11.59,HIA,,0,0,0,,supplies it. That meant engineers had\Nto create, on the ground, part of the
+Dialogue: 0,00:06:11.61,00:06:14.83,HIA,,0,0,0,,environment the engine was\Nsupposed to experience in flight.
+Dialogue: 0,00:06:15.33,00:06:18.83,HIA,,0,0,0,,The solution involved massive\Nair-handling equipment, stored
+Dialogue: 0,00:06:18.85,00:06:23.67,HIA,,0,0,0,,compressed air, temperature control,\Ninstrumentation, remote operations,
+Dialogue: 0,00:06:23.69,00:06:27.23,HIA,,0,0,0,,and facilities for handling\Nequipment after a nuclear run.
+Dialogue: 0,00:06:27.67,00:06:30.21,HIA,,0,0,0,,The test site did not\Nmerely hold the engine.
+Dialogue: 0,00:06:30.31,00:06:33.39,HIA,,0,0,0,,The test site temporarily stood\Nin for the missing aircraft.
+Dialogue: 0,00:06:33.83,00:06:38.23,HIA,,0,0,0,,The original engineering records explain\None basic limitation particularly
+Dialogue: 0,00:06:38.25,00:06:40.93,HIA,,0,0,0,,well. The air supply was finite.
+Dialogue: 0,00:06:41.39,00:06:45.49,HIA,,0,0,0,,Contemporary Livermore engineers\Nexplained that ground tests using stored
+Dialogue: 0,00:06:45.51,00:06:49.67,HIA,,0,0,0,,air could last only a few minutes.\NThat limit was imposed by the test
+Dialogue: 0,00:06:49.69,00:06:53.51,HIA,,0,0,0,,facility. It was not a measurement\Nof how long a nuclear-powered missile
+Dialogue: 0,00:06:53.53,00:06:57.75,HIA,,0,0,0,,could theoretically fly. And\Nbecause these were nuclear reactors,
+Dialogue: 0,00:06:58.19,00:07:01.63,HIA,,0,0,0,,handling the machinery after operation\Nraised questions that ordinary
+Dialogue: 0,00:07:01.65,00:07:06.47,HIA,,0,0,0,,aircraft testing rarely faced. The site\Nincorporated arrangements for remote
+Dialogue: 0,00:07:06.49,00:07:08.89,HIA,,0,0,0,,work and post-test examination.
+Dialogue: 0,00:07:11.87,00:07:13.87,HIA,,0,0,0,,Contemporary engineers even used a\Nremote-controlled railroad flatcar to
+Dialogue: 0,00:07:13.89,00:07:17.51,HIA,,0,0,0,,move the reactor between the test\Nposition and the disassembly building.
+Dialogue: 0,00:07:17.57,00:07:21.67,HIA,,0,0,0,,This was a real industrial railroad\Nbuilt around a radioactive machine,
+Dialogue: 0,00:07:22.17,00:07:26.73,HIA,,0,0,0,,not a missile launch system. The\NHistoric American Engineering Record
+Dialogue: 0,00:07:26.75,00:07:29.53,HIA,,0,0,0,,documents the dedicated\Ndisassembly building.
+Dialogue: 0,00:07:29.95,00:07:34.01,HIA,,0,0,0,,Its purpose was to take apart tested\Nreactors so their components could be
+Dialogue: 0,00:07:34.03,00:07:38.75,HIA,,0,0,0,,studied and improved. Photographs made\Nfor the federal historic survey show
+Dialogue: 0,00:07:38.77,00:07:42.11,HIA,,0,0,0,,the real buildings and spaces\Nassociated with the site.
+Dialogue: 0,00:07:42.23,00:07:45.97,HIA,,0,0,0,,But they were recorded later. They\Ncannot honestly be presented as motion
+Dialogue: 0,00:07:45.99,00:07:48.97,HIA,,0,0,0,,pictures of the tests occurring in\Nnineteen sixty-one or nineteen sixty
+Dialogue: 0,00:07:48.99,00:07:53.45,HIA,,0,0,0,,four. The first major\Nexperimental goal was Tory Two-A.
+Dialogue: 0,00:07:53.87,00:07:57.71,HIA,,0,0,0,,It was a feasibility reactor, designed\Nto answer whether a nuclear ramjet
+Dialogue: 0,00:07:57.73,00:08:01.87,HIA,,0,0,0,,core could withstand the relevant\Nheating and airflow while behaving in a
+Dialogue: 0,00:08:01.89,00:08:06.59,HIA,,0,0,0,,controllable way. On May fourteenth,\Nnineteen sixty-one, Livermore recorded
+Dialogue: 0,00:08:06.61,00:08:10.11,HIA,,0,0,0,,a forty-five-second test\Nof Tory Two-A at Nevada.
+Dialogue: 0,00:08:10.49,00:08:14.85,HIA,,0,0,0,,That forty-five-second result was not\Na nuclear-powered missile taking off.
+Dialogue: 0,00:08:15.29,00:08:18.95,HIA,,0,0,0,,It was a short, demanding demonstration\Nthat a new type of reactor could
+Dialogue: 0,00:08:18.97,00:08:22.31,HIA,,0,0,0,,operate under conditions chosen\Nto resemble part of its intended
+Dialogue: 0,00:08:22.33,00:08:25.75,HIA,,0,0,0,,environment. It also exposed\Nwhat had to come next.
+Dialogue: 0,00:08:26.19,00:08:29.73,HIA,,0,0,0,,A laboratory reactor arranged to\Nprove a principle is not automatically
+Dialogue: 0,00:08:29.75,00:08:34.09,HIA,,0,0,0,,compact, durable, or controllable\Nenough to serve as a flight engine.
+Dialogue: 0,00:08:34.63,00:08:37.61,HIA,,0,0,0,,The engineers had shown that\Ntheir basic idea was possible.
+Dialogue: 0,00:08:37.99,00:08:42.23,HIA,,0,0,0,,Now they had to make the difficult part\Nsmaller, tougher, and closer to the
+Dialogue: 0,00:08:42.25,00:08:43.49,HIA,,0,0,0,,shape of an actual machine.
+Dialogue: 0,00:08:44.24,00:08:47.94,HIA,,0,0,0,,What made Project Pluto so\Ndifficult was not the word nuclear.
+Dialogue: 0,00:08:48.54,00:08:52.08,HIA,,0,0,0,,It was the combination of nuclear\Npower with the physical demands of a
+Dialogue: 0,00:08:52.10,00:08:56.22,HIA,,0,0,0,,supersonic engine. Think about the\Njourney the air was supposed to take.
+Dialogue: 0,00:08:56.54,00:08:59.00,HIA,,0,0,0,,It would enter the proposed\Nvehicle at high speed.
+Dialogue: 0,00:08:59.46,00:09:02.48,HIA,,0,0,0,,It would be directed through the\Nreactor's hot internal passages.
+Dialogue: 0,00:09:02.90,00:09:05.62,HIA,,0,0,0,,And it would leave with additional\Nenergy, producing thrust.
+Dialogue: 0,00:09:05.88,00:09:09.70,HIA,,0,0,0,,For that process to matter, the reactor\Nhad to transfer a tremendous amount
+Dialogue: 0,00:09:09.72,00:09:11.94,HIA,,0,0,0,,of heat to a moving stream of air.
+Dialogue: 0,00:09:12.10,00:09:16.14,HIA,,0,0,0,,But the hot surfaces could not be\Nallowed to simply collapse, crumble, or
+Dialogue: 0,00:09:16.16,00:09:18.34,HIA,,0,0,0,,deform when that air rushed past them.
+Dialogue: 0,00:09:18.64,00:09:21.90,HIA,,0,0,0,,Inside Tory's core,\Nceramics played a central role.
+Dialogue: 0,00:09:22.18,00:09:24.98,HIA,,0,0,0,,This was not an abstract\Nmaterial-science demonstration.
+Dialogue: 0,00:09:25.16,00:09:28.62,HIA,,0,0,0,,Engineers needed fuel-bearing\Ncomponents with suitable nuclear
+Dialogue: 0,00:09:28.64,00:09:32.60,HIA,,0,0,0,,characteristics that could retain\Ntheir structure in a harsh thermal
+Dialogue: 0,00:09:32.62,00:09:36.98,HIA,,0,0,0,,environment. Livermore's own history\Nrecalls the difficult combination:
+Dialogue: 0,00:09:37.38,00:09:41.52,HIA,,0,0,0,,structural strength, resistance to\Ndamaging conditions, and the ability to
+Dialogue: 0,00:09:41.54,00:09:44.60,HIA,,0,0,0,,manufacture very large quantities\Nof consistent elements.
+Dialogue: 0,00:09:45.00,00:09:49.28,HIA,,0,0,0,,And a material that survives high\Ntemperature in one setting may fail when
+Dialogue: 0,00:09:49.30,00:09:53.36,HIA,,0,0,0,,combined with intense airflow,\Nvibration, and the surrounding reactor
+Dialogue: 0,00:09:53.38,00:09:57.66,HIA,,0,0,0,,environment. That is why surviving\NProject Pluto reports are filled with
+Dialogue: 0,00:09:57.68,00:10:02.60,HIA,,0,0,0,,drawings, test methods, and material\Nquestions rather than dramatic pictures
+Dialogue: 0,00:10:02.62,00:10:06.82,HIA,,0,0,0,,of missiles. Tory Two-A was built\Nto demonstrate the fundamentals.
+Dialogue: 0,00:10:07.44,00:10:11.18,HIA,,0,0,0,,Tory Two-C carried more of the burdens\Nthat a missile engine would face.
+Dialogue: 0,00:10:11.30,00:10:15.24,HIA,,0,0,0,,Contemporary studies describe it as\Nintended to be adequate as an engine for
+Dialogue: 0,00:10:15.26,00:10:19.32,HIA,,0,0,0,,a ramjet vehicle, and identify\Ncontrol components within the reactor
+Dialogue: 0,00:10:19.34,00:10:23.48,HIA,,0,0,0,,environment as an especially difficult\Nstep beyond the earlier test.
+Dialogue: 0,00:10:23.84,00:10:27.42,HIA,,0,0,0,,The control equipment has to function\Nwhen the environment around it is hot,
+Dialogue: 0,00:10:27.72,00:10:30.88,HIA,,0,0,0,,mechanically demanding, and\Naffected by the reactor itself.
+Dialogue: 0,00:10:31.18,00:10:35.50,HIA,,0,0,0,,Electronics, actuators, measurement\Ndevices, and the systems that interpret
+Dialogue: 0,00:10:35.52,00:10:39.50,HIA,,0,0,0,,those readings therefore mattered\Nas much to the test campaign as the
+Dialogue: 0,00:10:39.52,00:10:44.16,HIA,,0,0,0,,reactor core. The nineteen-sixty-three\NLASV-N1 film preserves
+Dialogue: 0,00:10:44.18,00:10:47.78,HIA,,0,0,0,,some of that supporting development\Nworld: technicians at apparatus,
+Dialogue: 0,00:10:48.22,00:10:51.64,HIA,,0,0,0,,instrument racks, model tests,\Nand electronic research.
+Dialogue: 0,00:10:51.92,00:10:54.78,HIA,,0,0,0,,It is valuable evidence of\Nthe engineering program.
+Dialogue: 0,00:10:54.94,00:10:57.96,HIA,,0,0,0,,But a shot of a technician working\Nwith control equipment is not
+Dialogue: 0,00:10:57.98,00:11:00.90,HIA,,0,0,0,,automatically a photograph\Nof Tory Two-C's core.
+Dialogue: 0,00:11:01.30,00:11:04.70,HIA,,0,0,0,,The reactor itself had moved\Nonto an entirely different scale.
+Dialogue: 0,00:11:04.72,00:11:08.96,HIA,,0,0,0,,A later Livermore history describes\NTory Two-C on the scale of five
+Dialogue: 0,00:11:08.98,00:11:11.16,HIA,,0,0,0,,hundred megawatts of reactor heat.
+Dialogue: 0,00:11:11.60,00:11:14.42,HIA,,0,0,0,,It is a rounded figure, not\Na precise test measurement.
+Dialogue: 0,00:11:14.66,00:11:17.64,HIA,,0,0,0,,And it measures thermal\Npower, not engine thrust.
+Dialogue: 0,00:11:18.34,00:11:21.54,HIA,,0,0,0,,The team was not merely building\Na reactor that could turn on.
+Dialogue: 0,00:11:21.94,00:11:25.32,HIA,,0,0,0,,It was building a reactor intended\Nto turn a moving air stream into
+Dialogue: 0,00:11:25.34,00:11:29.30,HIA,,0,0,0,,propulsion, within the size and\Nreliability limits of a proposed high
+Dialogue: 0,00:11:29.32,00:11:33.68,HIA,,0,0,0,,speed missile. Before any such\Nvehicle could fly, the team had to
+Dialogue: 0,00:11:33.70,00:11:36.38,HIA,,0,0,0,,demonstrate that the engine\Nitself would survive.
+Dialogue: 0,00:11:36.76,00:11:40.62,HIA,,0,0,0,,In nineteen sixty-four, Tory\NTwo-C was ready for that test.
+Dialogue: 0,00:11:41.04,00:11:45.02,HIA,,0,0,0,,And the official record of what happened\Nnext is much less ambiguous than
+Dialogue: 0,00:11:45.04,00:11:47.54,HIA,,0,0,0,,the explanations later\Noffered for why it ended.
+Dialogue: 0,00:11:48.24,00:11:52.78,HIA,,0,0,0,,By January of nineteen sixty-four,\Nworkers had repaired the Nevada test
+Dialogue: 0,00:11:52.80,00:11:56.64,HIA,,0,0,0,,facility and resumed pre-nuclear\Ntesting of its air systems.
+Dialogue: 0,00:11:56.90,00:12:00.70,HIA,,0,0,0,,In mid-February, Tory Two-C was\Nshipped from Livermore to Nevada.
+Dialogue: 0,00:12:00.72,00:12:05.14,HIA,,0,0,0,,On March twenty-fifth, the reactor first\Nreached criticality while assembled
+Dialogue: 0,00:12:05.16,00:12:08.38,HIA,,0,0,0,,in its test vehicle. It was a\Nmilestone, but not yet the complete
+Dialogue: 0,00:12:08.40,00:12:12.18,HIA,,0,0,0,,performance test. The next decisive\Ndates were May twelfth and May
+Dialogue: 0,00:12:12.20,00:12:16.08,HIA,,0,0,0,,twentieth. On May twelfth, the reactor\Noperated at an intermediate power
+Dialogue: 0,00:12:16.10,00:12:19.50,HIA,,0,0,0,,level. The conditions were intended\Nto simulate flight at Mach two point
+Dialogue: 0,00:12:19.52,00:12:22.34,HIA,,0,0,0,,eight and an altitude\Nof ten thousand feet.
+Dialogue: 0,00:12:22.80,00:12:25.78,HIA,,0,0,0,,Eight days later came the\Ninitial full-power ground test.
+Dialogue: 0,00:12:25.82,00:12:29.28,HIA,,0,0,0,,The official account says that the\Ntest conditions represented nuclear
+Dialogue: 0,00:12:29.30,00:12:34.04,HIA,,0,0,0,,ramjet flight at the design speed\Nof Mach two point eight and at sea
+Dialogue: 0,00:12:34.06,00:12:38.80,HIA,,0,0,0,,level conditions. The Atomic Energy\NCommission's report describes both May
+Dialogue: 0,00:12:38.82,00:12:43.48,HIA,,0,0,0,,tests as successful. Think about what\Nthat means, and also what it does
+Dialogue: 0,00:12:43.50,00:12:48.56,HIA,,0,0,0,,not mean. The engineers had operated\Na nuclear ramjet test reactor under
+Dialogue: 0,00:12:48.58,00:12:52.96,HIA,,0,0,0,,deliberately chosen conditions intended\Nto reproduce significant demands of
+Dialogue: 0,00:12:52.98,00:12:56.34,HIA,,0,0,0,,flight. That was an extraordinary\Nexperimental achievement.
+Dialogue: 0,00:12:56.60,00:12:59.36,HIA,,0,0,0,,But the reactor had remained\Nat the Nevada Test Site.
+Dialogue: 0,00:12:59.56,00:13:03.98,HIA,,0,0,0,,There was no flying SLAM vehicle. No\Ncomplete weapon had navigated a long
+Dialogue: 0,00:13:04.00,00:13:07.84,HIA,,0,0,0,,route. No aircraft structure had\Ndemonstrated the full combination of
+Dialogue: 0,00:13:07.86,00:13:11.70,HIA,,0,0,0,,endurance, control, survivability,\Nand mission performance.
+Dialogue: 0,00:13:11.72,00:13:15.86,HIA,,0,0,0,,They also did not prove that the\Nproposed missile could now be deployed.
+Dialogue: 0,00:13:16.18,00:13:19.82,HIA,,0,0,0,,The achievement belonged to a specific,\Nformidable engineering problem:
+Dialogue: 0,00:13:20.22,00:13:23.64,HIA,,0,0,0,,making a nuclear ramjet reactor\Nwork at the test conditions.
+Dialogue: 0,00:13:23.90,00:13:27.50,HIA,,0,0,0,,A nuclear rocket being tested for\NProject Rover is not footage of Tory Two
+Dialogue: 0,00:13:27.52,00:13:31.92,HIA,,0,0,0,,C. A missile launch from the\Nera is not a SLAM flight.
+Dialogue: 0,00:13:32.24,00:13:36.22,HIA,,0,0,0,,And a dramatic cloud above Nevada cannot\Nstand in for a reactor test merely
+Dialogue: 0,00:13:36.24,00:13:40.34,HIA,,0,0,0,,because it looks cinematic. The clearest\Nsurviving evidence of the May tests
+Dialogue: 0,00:13:40.36,00:13:44.22,HIA,,0,0,0,,is found in the original reports and\Nphotographs of the actual engine.
+Dialogue: 0,00:13:44.68,00:13:46.88,HIA,,0,0,0,,Those documents have a\Nquieter kind of drama.
+Dialogue: 0,00:13:47.44,00:13:51.46,HIA,,0,0,0,,They record success. And that success\Nwas followed, almost immediately,
+Dialogue: 0,00:13:51.48,00:13:55.56,HIA,,0,0,0,,by a decision that the program would\Nnot reach the flight-test stage.
+Dialogue: 0,00:13:56.00,00:13:59.80,HIA,,0,0,0,,The engine had passed its examination.\NThe proposed weapon was about to lose
+Dialogue: 0,00:13:59.82,00:14:00.56,HIA,,0,0,0,,its purpose.
+Dialogue: 0,00:14:01.33,00:14:05.95,HIA,,0,0,0,,On July first, nineteen sixty-four,\Nthe Department of Defense informed the
+Dialogue: 0,00:14:05.97,00:14:10.45,HIA,,0,0,0,,Atomic Energy Commission that it had\Ndecided not to pursue Project Pluto's
+Dialogue: 0,00:14:10.47,00:14:12.79,HIA,,0,0,0,,flight-test objective.\NThe language matters.
+Dialogue: 0,00:14:13.29,00:14:17.07,HIA,,0,0,0,,The Atomic Energy Commission's account\Ndoes not describe a catastrophic
+Dialogue: 0,00:14:17.09,00:14:21.49,HIA,,0,0,0,,reactor failure. Nor does it say that\Nthe nuclear ramjet concept had been
+Dialogue: 0,00:14:21.51,00:14:25.29,HIA,,0,0,0,,disproved. It says the Defense\NDepartment would not continue toward
+Dialogue: 0,00:14:25.31,00:14:29.53,HIA,,0,0,0,,flight testing. The AEC responded\Nby canceling further planned reactor
+Dialogue: 0,00:14:29.55,00:14:34.61,HIA,,0,0,0,,tests. The program was phased out,\Nand the Nevada facility was mothballed.
+Dialogue: 0,00:14:34.89,00:14:38.43,HIA,,0,0,0,,That decision ended the path from\Nsuccessful ground engine to an actual
+Dialogue: 0,00:14:38.45,00:14:43.29,HIA,,0,0,0,,flying SLAM. What caused it? The funding\Nconflict was already visible before
+Dialogue: 0,00:14:43.31,00:14:47.99,HIA,,0,0,0,,the July decision. In April, Congress's\NJoint Committee on Atomic Energy cut
+Dialogue: 0,00:14:48.01,00:14:51.75,HIA,,0,0,0,,proposed funding while pressing\Nfor a definite flight-test plan.
+Dialogue: 0,00:14:52.21,00:14:55.69,HIA,,0,0,0,,On June eleventh, the House\NAppropriations Committee went further:
+Dialogue: 0,00:14:55.93,00:15:00.01,HIA,,0,0,0,,it proposed sharply reducing further\NPluto spending, on the grounds that
+Dialogue: 0,00:15:00.03,00:15:03.25,HIA,,0,0,0,,there was still no approved military\Nsystem or requirement for the
+Dialogue: 0,00:15:03.27,00:15:07.63,HIA,,0,0,0,,successful reactor. Those public\Nrecords show a concrete dispute over the
+Dialogue: 0,00:15:07.65,00:15:09.91,HIA,,0,0,0,,next step, not a failed engine.
+Dialogue: 0,00:15:10.49,00:15:14.25,HIA,,0,0,0,,They do not, by themselves, reveal\Nevery private consideration behind the
+Dialogue: 0,00:15:14.27,00:15:18.91,HIA,,0,0,0,,Pentagon's July decision. Later accounts\Nalso discuss the rapid progress of
+Dialogue: 0,00:15:18.93,00:15:22.89,HIA,,0,0,0,,ballistic missiles and the unresolved\Noperational, political, and
+Dialogue: 0,00:15:22.91,00:15:26.15,HIA,,0,0,0,,environmental complications\Nof a flying nuclear ramjet.
+Dialogue: 0,00:15:26.17,00:15:30.85,HIA,,0,0,0,,Those are historical explanations to\Nassess, not a proven single cause.
+Dialogue: 0,00:15:30.95,00:15:35.25,HIA,,0,0,0,,Imagine the question asked in nineteen\Nfifty-seven: is it possible to create
+Dialogue: 0,00:15:35.27,00:15:39.57,HIA,,0,0,0,,a nuclear ramjet capable of supporting\Na long-range high-speed missile?
+Dialogue: 0,00:15:40.37,00:15:44.49,HIA,,0,0,0,,Now imagine the question being asked\Nin nineteen sixty-four: do we still
+Dialogue: 0,00:15:44.51,00:15:48.23,HIA,,0,0,0,,need this particular missile badly\Nenough to undertake everything required
+Dialogue: 0,00:15:48.25,00:15:51.59,HIA,,0,0,0,,to make it operational? They\Nare not the same question.
+Dialogue: 0,00:15:52.01,00:15:55.67,HIA,,0,0,0,,Once the test reactor works, the\Nremaining obligations become real.
+Dialogue: 0,00:15:56.07,00:15:59.77,HIA,,0,0,0,,A flight program would have needed\Na complete vehicle, its control and
+Dialogue: 0,00:15:59.79,00:16:03.99,HIA,,0,0,0,,guidance systems, a way to launch\Nand recover useful test information,
+Dialogue: 0,00:16:04.19,00:16:07.63,HIA,,0,0,0,,the operational infrastructure to\Nsupport it, and a military rationale
+Dialogue: 0,00:16:07.65,00:16:10.67,HIA,,0,0,0,,strong enough to outweigh the\Ncomplications of a nuclear-powered
+Dialogue: 0,00:16:10.69,00:16:14.63,HIA,,0,0,0,,cruise weapon. They made the next stage\Na decision that would require a new
+Dialogue: 0,00:16:14.65,00:16:18.27,HIA,,0,0,0,,military commitment. The Department\Nof Defense decided against the flight
+Dialogue: 0,00:16:18.29,00:16:22.63,HIA,,0,0,0,,test objective. With further funding\Nalready under pressure, that decision
+Dialogue: 0,00:16:22.65,00:16:24.81,HIA,,0,0,0,,ended the route toward a flying SLAM.
+Dialogue: 0,00:16:25.69,00:16:28.99,HIA,,0,0,0,,The comparison with the conventional\Nand ballistic missile systems of the
+Dialogue: 0,00:16:29.01,00:16:32.15,HIA,,0,0,0,,period helps us understand\Nthe broader strategic setting.
+Dialogue: 0,00:16:32.55,00:16:36.49,HIA,,0,0,0,,But footage of Minuteman production\Nor an Atlas launch illustrates those
+Dialogue: 0,00:16:36.51,00:16:40.77,HIA,,0,0,0,,alternatives, not the private reasoning\Nof the officials who decided Pluto's
+Dialogue: 0,00:16:40.79,00:16:44.57,HIA,,0,0,0,,fate. The record leaves room for\Ndiscussion about how the different costs
+Dialogue: 0,00:16:44.59,00:16:48.91,HIA,,0,0,0,,and risks were weighed. It leaves far\Nless room for doubt about the actual
+Dialogue: 0,00:16:48.93,00:16:51.29,HIA,,0,0,0,,result. The reactor was tested.
+Dialogue: 0,00:16:51.73,00:16:55.71,HIA,,0,0,0,,The missile never flew. And the\Nproject that had spent years proving an
+Dialogue: 0,00:16:55.73,00:16:59.41,HIA,,0,0,0,,engine could work was stopped before\Nit could prove the weapon was worth
+Dialogue: 0,00:16:59.43,00:16:59.85,HIA,,0,0,0,,building.
+Dialogue: 0,00:17:00.58,00:17:04.62,HIA,,0,0,0,,Today, much of Project Pluto survives\Nin a form that is far less spectacular
+Dialogue: 0,00:17:04.64,00:17:07.28,HIA,,0,0,0,,than the weapon its\Ndesigners once imagined.
+Dialogue: 0,00:17:07.52,00:17:11.02,HIA,,0,0,0,,There are engineering reports.\NHistorical photographs.
+Dialogue: 0,00:17:11.62,00:17:14.100,HIA,,0,0,0,,Drawings that show how people approached\Nan unusual combination of reactor
+Dialogue: 0,00:17:15.02,00:17:19.38,HIA,,0,0,0,,physics and high-speed propulsion. And\Nthere is the documented Nevada site
+Dialogue: 0,00:17:19.40,00:17:23.90,HIA,,0,0,0,,itself. The Historic American\NEngineering Record identifies real Pluto
+Dialogue: 0,00:17:23.92,00:17:28.42,HIA,,0,0,0,,facilities in Area twenty-six and\Nrecords spaces used for test operations
+Dialogue: 0,00:17:28.44,00:17:32.52,HIA,,0,0,0,,and post-test disassembly. Those\Nphotographs show the physical remains of
+Dialogue: 0,00:17:32.54,00:17:36.18,HIA,,0,0,0,,a massive technical effort. They were\Nmade after the program's main testing
+Dialogue: 0,00:17:36.20,00:17:39.94,HIA,,0,0,0,,period, and they belong to the story\Nas later evidence, not as invented
+Dialogue: 0,00:17:39.96,00:17:44.06,HIA,,0,0,0,,pictures of the moment of success.\NProject Pluto never produced a flying
+Dialogue: 0,00:17:44.08,00:17:48.60,HIA,,0,0,0,,nuclear-powered SLAM missile. What it\Nproduced was a demonstrated nuclear
+Dialogue: 0,00:17:48.62,00:17:53.32,HIA,,0,0,0,,ramjet reactor, a body of engineering\Nexperience, and a record of what an
+Dialogue: 0,00:17:53.34,00:17:57.22,HIA,,0,0,0,,industrial project can accomplish\Nwithout ever becoming a useful weapons
+Dialogue: 0,00:17:57.24,00:18:01.70,HIA,,0,0,0,,system. One slogan says the\Nmachine was too terrifying to use.
+Dialogue: 0,00:18:02.14,00:18:06.40,HIA,,0,0,0,,Another says the engineers built the\Nfuture and politicians threw it away.
+Dialogue: 0,00:18:06.92,00:18:09.44,HIA,,0,0,0,,Neither is an adequate\Nsubstitute for the evidence.
+Dialogue: 0,00:18:09.98,00:18:12.46,HIA,,0,0,0,,The people working on\NPluto solved real problems.
+Dialogue: 0,00:18:12.92,00:18:16.04,HIA,,0,0,0,,The Defense Department still\Nrefused the flight-test objective.
+Dialogue: 0,00:18:16.42,00:18:18.50,HIA,,0,0,0,,Both facts belong in the same story.
+Dialogue: 0,00:18:18.90,00:18:22.82,HIA,,0,0,0,,The most revealing image may be the\Nsimplest: a real nuclear engine on the
+Dialogue: 0,00:18:22.84,00:18:25.74,HIA,,0,0,0,,ground, surrounded by the\Nequipment built to test it.
+Dialogue: 0,00:18:25.76,00:18:28.92,HIA,,0,0,0,,That was where America's\Nnuclear ramjet succeeded.
+Dialogue: 0,00:18:29.06,00:18:31.70,HIA,,0,0,0,,And it was also as far\Nas the missile ever got.
+Dialogue: 0,00:18:32.30,00:18:35.96,HIA,,0,0,0,,Project Pluto is not the story\Nof a weapon that failed its test.
+Dialogue: 0,00:18:36.34,00:18:39.94,HIA,,0,0,0,,It is the story of an engine that\Npassed — and a weapon that never made it
+Dialogue: 0,00:18:39.96,00:18:41.56,HIA,,0,0,0,,beyond the decision to build one.
