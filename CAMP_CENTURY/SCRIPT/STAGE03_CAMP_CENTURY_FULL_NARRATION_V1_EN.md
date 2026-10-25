@@ -1,8 +1,8 @@
 # HIA VIDEO007 CAMP CENTURY — STAGE 03 FULL DOCUMENTARY NARRATION V1
 
 **Status:** Complete eight-chapter narrative draft; Stage03 initial evidence check only. **NOT SCRIPT LOCK, NOT TTS AUTHORIZED.**
-**Word count, chapter bodies only:** 2793 words.
-**Estimated voice runtime at 135–155 words/minute:** 18.0–20.7 minutes. No locked WAV/timecodes exist.
+**Word count, chapter bodies only:** 2949 words.
+**Estimated voice runtime at 135–155 words/minute:** 19.0–21.8 minutes. No locked WAV/timecodes exist.
 **Sources:** `RESEARCH/STAGE01_PUBLIC_SOURCE_AND_FILM_LEDGER_V1.csv`, Army 1965 CRREL TR174 `https://icedrill.org/sites/default/files/477706.pdf`, `https://tc.copernicus.org/articles/18/4029/2024/`, `https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL069688`, NASA November 2024.
 **Citation identifiers in comments are NOT read aloud.** Film visual references are provisional, no raw footage is downloaded/shot-locked. No subtitles in HIA canon.
 **ANGLE:** Actual Camp Century worked; maintenance of a changing material made further expansion far harder. Do not misrepresent public Camp Century as an operational Iceworm missile arsenal.
@@ -73,7 +73,7 @@ Those machines are not background scenery. They are the supply line for everythi
 
 Even the underground nuclear plant would ultimately depend on that aboveground road of tractors and sledges.
 
-Two short seasons to move the materials and create a working settlement in an environment that could erase the approach roads with fresh snowfall.
+Construction began in June nineteen fifty-nine and was substantially completed in October nineteen sixty. Two short seasons to build a working settlement where fresh snowfall could erase its approach routes.
 
 But the real trick was waiting at the site.
 
@@ -101,7 +101,7 @@ The Army used the Peter snow miller, a large machine designed to cut and remove 
 
 Some trenches were undercut so that the upper section formed an arch in the snow. Different roof arrangements were tested. Where necessary, metal forms and corrugated steel arches supported wider spaces.
 
-That reactor space was especially demanding.
+The reactor needed one of those extra-wide spaces.
 
 The standard snow passages were much too small for the entire plant and its associated machinery. One section required a trench roughly forty feet wide.
 
@@ -119,7 +119,7 @@ What makes the layout extraordinary is that it resembles a plan of an ordinary s
 
 There were sleeping quarters, a mess hall, a dispensary, work spaces, storage, and vehicle maintenance areas. There was even room for recreation and community facilities.
 
-A main passage acted like a road; smaller trenches led to the different sections.
+A main passage acted like a road; smaller trenches led to the different sections. The layout even included a theater and chapel, making the plan look almost ordinary until you remembered what surrounded it.
 
 The camp could accommodate as many as two hundred people. It was built to keep a working organization functioning for extended periods, through darkness, storms, and cold.
 
@@ -127,7 +127,7 @@ But a buried building still needs power, clean water, ventilation, waste handlin
 
 The tunnels solved the first problem: protection from the weather.
 
-They created a set of entirely new engineering problems underneath the snow.
+They created a set of entirely new engineering problems underneath the snow. And those problems had to be solved every winter, not only on the day construction was declared complete.
 
 And none of them mattered if the camp could not keep the lights and the heat on.
 
@@ -173,7 +173,7 @@ It was what happens when complicated machinery has to be maintained in an unforg
 
 The reactor operated until July ninth, nineteen sixty-three. The Army dismantled and removed the plant in nineteen sixty-four.
 
-The nuclear installation had proved that a remote power system could work on the ice sheet.
+The nuclear installation had proved that a remote power system could work on the ice sheet. The original Army account put the total historical construction cost of Camp Century at just under eight million dollars, including the major power-plant investment.
 
 It had also added major complexity to a settlement whose surrounding structure was changing every season.
 
@@ -199,9 +199,9 @@ Military planners considered whether a network of hidden passages beneath Greenl
 
 It was a network spread over an enormous area, using subsurface movement to complicate an adversary's attempts to locate weapons.
 
-A scientific history of the project describes a proposal covering roughly one hundred thirty thousand square kilometers and intended to support hundreds of missiles.
+A scientific history of the project describes a proposal covering roughly one hundred thirty thousand square kilometers and intended to support hundreds of missiles. Some accounts give a figure of six hundred.
 
-Some accounts give a figure of six hundred.
+To appreciate the difference in scale, picture the proven research camp as a single experiment, then imagine multiplying its logistics, drainage, maintenance, ventilation, and structural challenges across a network spanning thousands of kilometers. Building a small test installation could answer a feasibility question. It could not automatically validate an entire continental-scale system.
 
 An experimental subsurface railway helped researchers explore one element of the concept, but that small-scale experiment was not proof that thousands of kilometers of tunnels could be built and maintained.
 
@@ -229,7 +229,7 @@ The material holding this underground city together was moving.
 
 <!-- FACT SOURCES: ARMY65,SCI24; DOCUMENTS NOT READ AS NARRATION -->
 
-At Camp Century, that appearance was misleading.
+From above, a snowfield looks as solid as the ground beneath it. At Camp Century, that appearance was misleading.
 
 The camp was built in snow and firn — the compacted layer that sits between fresh snow and glacial ice. Under sustained pressure, this material changes shape.
 
@@ -337,7 +337,7 @@ As snow accumulates and is compressed into ice, it preserves evidence of earlier
 
 At Camp Century, drilling eventually went much farther than the surface tunnels.
 
-In nineteen sixty-six, researchers reached the base of the ice sheet and recovered frozen sediment from beneath it.
+In nineteen sixty-six, researchers reached the base of the ice sheet and recovered frozen sediment from beneath it. Drilling had passed through more than a thousand meters of ice before it reached the material left on the ancient ground below.
 
 It was an extraordinary scientific sample, but its story did not end in Greenland.
 
