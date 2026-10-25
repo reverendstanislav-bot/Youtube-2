@@ -1,3 +1,18 @@
+# VIDEO007 CAMP CENTURY — STAGE05 ARCHIVE RESEARCH R2 CURRENT (2026-10-25)
+
+**Script status unchanged:** LOCKED Stage04 V4 / 2931 spoken words / 8 chapters, producer-approved Script Lock ID in `SCRIPT/STAGE05_SCRIPT_LOCK_V4_2026-10-25.md`. **No voice/generation credit approval.**
+**NEW MAJOR ORIGINAL DISCOVERY:** U.S. Army Pictorial Center *Relocation of PM-2A Nuclear Power Plant* film (describes actual summer1964 dismantling, packing and transport; date cataloged 1965). Official DVIDS https://www.dvidshub.net/video/556111/relocation-pm-2a-nuclear-power-plant-mf5-5118-mcmlxv specifically says **PUBLIC DOMAIN**, 23:07. DVIDS original highest popup choice 720×480 ~842MB https://www.dvidshub.net/download/popup/556111 . **Separate from 1963 32:26 original construction film**; old Stage05 R1 claim no removal-source film is superseded. Potential critical CH07 original footage, not yet physically timecoded.
+**R2 LINKS / COPYRIGHT QA:** `ARCHIVE/STAGE05_VERIFIED_PUBLIC_ARCHIVE_LINKS_AND_RIGHTS_R2.md` (film, still, 1965 Army engineering report, 1961 169-page PM-2A report, 1969 59-page post-visit pictorial, authentic Commons US Army stills, NASA, outright exclusions UVM commercial and magazine photos).
+`ARCHIVE/STAGE05_ASSET_ORIGIN_RIGHTS_SOURCE_REGISTER_R2.csv` (**21 entries**: 5 government-film candidate records, 12 actual original government photo/report/NASA leads, 4 exclusions/conditions).
+`ARCHIVE/stage05_original_archive_probe_R2.sh` (discover actual Internet Archive filename via metadata; download, SHA, ffprobe and sheet generation).
+`ARCHIVE/STAGE05_CODEX_DOWNLOAD_AND_RIGHTS_QC_RUNBOOK_R2.md` (user rights, metadata, per-chapter scene QC, specific deliverables).
+`ARCHIVE/STAGE05_CODEX_TASK_TO_RUN_R2.md` (copy-ready Codex production task).
+
+**Licensing source classification:** Federal-origin original USACE & DVIDS movies and Army reports explicitly PD in official item/Commons description; NASA agency images generally reusable with credit and no endorsement. University of Vermont Camp Century science group **PHOTOS not for commercial use without permission**, modern videos restricted to *press coverage* as described; National Geographic / Getty / third-party photos not automatically cleared. Film source *page rights* verification PASS where explicit, but individual files still must be inspected for embedded material and original provenance.
+
+**PHYSICAL EDITORIAL BANK IS STILL HOLD:** no film bytes downloaded in this session, no ffprobe/de-dup or exact scene IN/OUT checked, no unique usable seconds claimed; source 32:26+23:07 = gross lengths, not montage coverage. Codex next downloads original binaries on network-enabled editing host, verifies native resolution, proper rights evidence, de-dups, exports 5-20sec meaningful genuine scenes, computes per-chapter actual coverage against V4 and reports PASS/HOLD. No paid TTS until actual archive PASS and separate spending authorization.
+
+---
 # HIA VIDEO007 — CAMP CENTURY | STAGE05 CURRENT STATUS (2026-10-25)
 
 **STAGE05 SCRIPT LOCK: PASS.** V4 now frozen by exact Git blob SHA, 8 chapters / 2931 words, 32 text-exact beats, independent Stage04 fact QC pass with qualifications. Producer requested Stage05. Lock file: `SCRIPT/STAGE05_SCRIPT_LOCK_V4_2026-10-25.md`. Older V1/V2/V3 superseded.
