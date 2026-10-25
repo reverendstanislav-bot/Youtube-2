@@ -2,7 +2,7 @@
 
 **Status:** NEW narrative from scratch, editorial V2, **NOT SCRIPT LOCK**; claim-level Stage04 independent QC required.
 **Why rewritten:** V1 was a sequential informational recap with no sufficiently strong opening contradiction. V2 uses a documented shrinking tunnel as the opening conflict, then reveals construction/supply ingenuity, reactor, the non-built Iceworm missile concept, physical failure mode, and independently documented aftermath. The structure is inspired by *general* audience-retention techniques observable in engineering documentary hits; **no third-party script text is copied**.
-**Spoken words:** 2899 across 8 chapters. **Provisional runtime:** 18.7–21.5 minutes at 135–155 WPM, excluding scene pauses.
+**Spoken words:** 2942 across 8 chapters. **Provisional runtime:** 19.0–21.8 minutes at 135–155 WPM, excluding scene pauses.
 **English US only. Headers, evidence notes and editorial metadata are NOT voice text.**
 **Archival imagery:** Historical U.S. Army Camp Century only for site imagery; 1965 ARMY report / genuine photos for unavailable shots, public domain status by item and actual physical clip QC remain HOLD.
 **No paid TTS/video generation authorized. HIA subtitles prohibited.**
@@ -251,7 +251,7 @@ But imagine what even a fraction of that change means to a vehicle that must pas
 
 A machine needs clearance on both sides. A support column cannot simply follow the wall inward. A door that used to open may meet the surrounding structure.
 
-Every lost inch becomes another maintenance task.
+Every lost inch becomes another maintenance task. The Army estimated that simply keeping the tunnels at their original size would mean removing around twenty thousand cubic yards of snow every year. Engineers even considered dedicated equipment for the task. A finished city would have to become a permanent excavation site.
 
 The snow outside the tunnels presented a second challenge. Winds buried entrances and access ramps. Keeping the main passages accessible required repeated clearing.
 
