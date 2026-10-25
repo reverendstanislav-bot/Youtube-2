@@ -67,8 +67,8 @@ These all came from 1954 Army report illustrating Site I/II, not Camp Century. S
 | 08 Scientific record | F01 science rooms where verified, possible genuine Army core shots | P11 Army true core handling, NASA 2024 official radar, NARA 1966 drill | Laboratory film from UVM press-only not cleared |
 
 ## Quantitative honesty
-- R2: 25 entries; R3: **53 records** = 18 film-source candidates/alternate access/precursor/restricted records, 4 other federal technical documents, 10 additional specific Army photo/diagram record leads and 5 additional exclusions/rights holds.
-- **NOT 18 unique films, NOT 53 independent archive collections, NOT 20 minutes verified footage**. Several rows are duplicate editions, prior bases or historically authentic copyrighted material.
+- R2: 25 entries; R3: **53 records** = 17 film-source records (8 previous + 9 newly identified), 26 image/report/NASA records (12 previous + 14 new), and 10 excluded/restricted records (5 previous + 5 new).
+- **NOT 17 unique films, NOT 53 independent archive collections, NOT 20 minutes verified footage**. Several rows are duplicate editions, prior bases or historically authentic copyrighted material.
 - Only two strongest source-film SUBJECTS positively separate in production narrative: **F01 original 1963 construction**, **F04 actual 1964 reactor relocation**. Other titles can add unique angles or genuine context after screening.
 - **0 downloaded/decoded files or confirmed unique seconds** in the assistant runtime; no runtime scene coverage PASS.
 - The correct pass gate is **video evidence per exact V4 narration beat**, not sheer count of URLs.
