@@ -2,7 +2,7 @@
 
 **Status:** NEW narrative from scratch, editorial V2, **NOT SCRIPT LOCK**; claim-level Stage04 independent QC required.
 **Why rewritten:** V1 was a sequential informational recap with no sufficiently strong opening contradiction. V2 uses a documented shrinking tunnel as the opening conflict, then reveals construction/supply ingenuity, reactor, the non-built Iceworm missile concept, physical failure mode, and independently documented aftermath. The structure is inspired by *general* audience-retention techniques observable in engineering documentary hits; **no third-party script text is copied**.
-**Spoken words:** 3077 across 8 chapters. **Provisional runtime:** 19.9–22.8 minutes at 135–155 WPM, excluding scene pauses.
+**Spoken words:** 2856 across 8 chapters. **Provisional runtime:** 18.4–21.2 minutes at 135–155 WPM, excluding scene pauses.
 **English US only. Headers, evidence notes and editorial metadata are NOT voice text.**
 **Archival imagery:** Historical U.S. Army Camp Century only for site imagery; 1965 ARMY report / genuine photos for unavailable shots, public domain status by item and actual physical clip QC remain HOLD.
 **No paid TTS/video generation authorized. HIA subtitles prohibited.**
@@ -15,9 +15,7 @@ The U.S. Army built a road beneath Greenland's ice. Then the road began to shrin
 
 Not because of an earthquake. Not because of an enemy attack. Because the material surrounding it was slowly changing shape.
 
-In an Army engineering report, one of the main passages at Camp Century was recorded losing roughly twelve percent of its cross-sectional area each year. Other parts deformed even faster.
-
-That is a remarkable problem for a place designed to hold buildings, machines, and people.
+In an Army engineering report, one of the main passages at Camp Century was recorded losing roughly twelve percent of its cross-sectional area each year. That is a remarkable problem for a place designed to hold buildings, machines, and people.
 
 Look at the original Army film. Giant cutters bite into the snow. Tractors drag equipment across a white horizon. Steel arches disappear beneath the surface. Inside, there are heated rooms, workshops, a hospital, and a main street wide enough for tracked vehicles.
 
@@ -26,8 +24,6 @@ The Army even installed a nuclear power plant.
 From the outside, it looked like a victory over the Arctic.
 
 But the walls were moving. The ceilings were settling. Keeping the city open was becoming a job without a finishing line.
-
-And there is another detail the original publicity did not fully explain.
 
 Camp Century was not just an experiment in keeping soldiers warm. It was connected to a much larger military proposal: a concealed network under the Greenland ice sheet that might one day support hundreds of nuclear missiles.
 
@@ -51,13 +47,9 @@ For engineers, the problem was more basic. There was no road to the site they ha
 
 Camp Century would be built in northwestern Greenland, deep inside an ice sheet. Greenland was part of the Danish realm, not American territory. The United States could operate facilities under defense arrangements, but geography made no concessions.
 
-Everything began near the ice-sheet edge at Camp Tuto.
-
 Equipment arriving from the outside world was assembled into loads. Tracked tractors then pulled sled trains across the ice toward the planned camp.
 
 The Army's nineteen sixty-five report records a route of about one hundred thirty-eight miles.
-
-That distance is hard enough with a modern truck on a highway. Now remove the highway.
 
 Snow buried the surface. Conditions changed. A broken machine was not a problem that could be solved by sending someone to a nearby parts store.
 
@@ -72,8 +64,6 @@ The numbers make the project real.
 In nineteen fifty-nine, the Army moved approximately one thousand short tons from Camp Tuto to Century. In nineteen sixty, another four thousand six hundred.
 
 About five thousand six hundred short tons over two construction seasons.
-
-Every load had to arrive before the builders could use it. Every gallon of fuel burned by the tractors was more fuel that had to travel across the same route.
 
 This is what the original film can show better than any graphic: small moving machines struggling across an enormous empty landscape, pulling the pieces of a future city.
 
@@ -103,8 +93,6 @@ The main instrument of construction was a remarkable machine.
 
 The Peter snow miller used rotating cutting equipment to remove enormous amounts of snow. In the Army footage, this is the kind of machinery that immediately tells you how ambitious the project was.
 
-The machine did not create finished rooms. It created space.
-
 Workers still had to shape the trenches, lower structural pieces, install the roofs, assemble the buildings, and protect everything from the weight above.
 
 In some sections they shaped the snow itself into an arch. In others they needed steel members and forms to hold larger openings.
@@ -118,8 +106,6 @@ A roof that spans twice the distance does not simply face twice the difficulty. 
 The Army learned some of that lesson immediately.
 
 According to the engineering report, temporary forms were removed from some snow arches before the surrounding snow had gained sufficient strength. Deformation followed. Other forms were left in place.
-
-That isn't a dramatic Hollywood disaster. It is a documented construction decision, and it tells us something important.
 
 Snow is not a passive material. It has a history. The way it has been compacted, its temperature, the pressure above it, and the passage of time all affect how it behaves.
 
@@ -149,10 +135,6 @@ The nuclear reactor at Camp Century was called PM-two-A.
 
 Its purpose was not to arm the camp with a nuclear weapon. It was to give a remote installation power without forcing the Army to haul all of its energy there as diesel fuel.
 
-That distinction matters.
-
-A conventional generator can be easier to understand and repair. But it must be fed, day after day. At Camp Century, the fuel bill included a one hundred thirty-eight mile trip on sleds.
-
 A compact nuclear power plant offered a radically different trade-off: far less conventional fuel to transport, in exchange for immense engineering complexity.
 
 The original Army report gives a figure that captures the ambition.
@@ -160,8 +142,6 @@ The original Army report gives a figure that captures the ambition.
 Camp Century's historical construction cost was about seven point nine two million dollars.
 
 Of that amount, approximately five point seven million went to the nuclear plant.
-
-Most of the cost of this extraordinary underground city was tied to its power source.
 
 The Army worked with ALCO Products to develop the installation. Its components traveled through the same Greenland supply chain as the buildings and machinery.
 
@@ -235,8 +215,6 @@ Historical research identifies a combination of technical, interservice, and pol
 
 By nineteen sixty-three, the project had been rejected.
 
-The public-facing research facility still existed. But its biggest proposed military future did not.
-
 And the reasons were not all contained in secret policy papers.
 
 Some of the most decisive evidence was right there, in the passages beneath the snow.
@@ -268,8 +246,6 @@ The original nineteen sixty-five engineering report contains drawings that make 
 One compares a main passage's cross section at different dates. It shows an arch losing the open space that made it useful.
 
 The report describes approximately twelve percent annual loss of cross-sectional area at one location. Another example was worse.
-
-Those measurements are specific, not the rate of shrinkage everywhere. That distinction is important.
 
 But imagine what even a fraction of that change means to a vehicle that must pass through the corridor.
 
@@ -319,15 +295,11 @@ By nineteen sixty-seven, Camp Century had been abandoned.
 
 No underground nuclear missile force ever emerged from it.
 
-It is tempting to tell this as one clean story: the snow destroyed the city and the military fled.
-
 The evidence is more complicated.
 
 The tunnels deformed, and keeping them usable was difficult. The big missile proposal faced technical obstacles and political opposition. Other weapons programs were becoming established. Maintaining a remote experimental base required a continuing reason to pay for it.
 
 The Army's own report did not dismiss every construction method as a failure. Engineers had learned how to create shelter, transport huge loads, support a remote workforce, and operate a reactor in a place few people had ever tried to inhabit.
-
-The lesson was not that nothing worked.
 
 It was that successful construction did not guarantee permanent military usefulness.
 
@@ -392,10 +364,6 @@ The tunnels, roofs, and structures have disappeared from view, but they have not
 And that brings us back to the Army film.
 
 Watch the snow miller cutting a trench. Watch the sled train carrying a load that has traveled more than a hundred miles. Watch the steel arch lowered into place.
-
-At the time, those images were evidence of a remarkable American engineering achievement.
-
-They still are.
 
 But we know something the promotional footage could not fully explain.
 
