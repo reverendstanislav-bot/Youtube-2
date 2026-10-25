@@ -110,3 +110,10 @@ Return in GitHub:
 5. `ARCHIVE/RIGHTS_RECEIPTS/` small URL/license evidence notes/screenshots only; no unauthorized proprietary uploads.
 6. Only meaningful verified 5–20sec scene files retained in editing storage `extracted_clips/`, not bloating Git with giant MPEGs.
 7. Script Lock V4 remains untouched. No TTS/VO credit spending, no generative video, no dialogue subtitles, no claims of COMPLETE before verified QC.
+
+## EXTRA FILM BANK — R2A expanded original Army studies
+The consolidated `STAGE05_VERIFIED_PUBLIC_ARCHIVE_LINKS_AND_RIGHTS_R2.md` now contains **F06–F08**:
+- **F06 `The Top of the World` TV-543 (1962)**: https://campcentury.omeka.net/items/show/151; specialist identifies genuine additional *Camp Century entrance and construction* footage from Greenland section starting ~16:20. Seek federal original by NARA ID **111-TV-543**; not unrelated Rollagon/DEW line scenes. Compare original shots to F01 color and F03 BW.
+- **F07 `U.S. Army and the Boy Scouts` TV-520**, NARA **111-TV-520 / ARC2569758**: https://campcentury.omeka.net/items/show/144; genuine Camp Century visit but significant Camp Tuto/polar science footage. Screen location scene by scene.
+- **F08 `Engineering for Tomorrow` TV-781 (1970)**: https://campcentury.omeka.net/items/show/161, Camp Century Greenland section **12:23–17:19** but **mostly REUSED original scenes**. Dedup heavily, only clearly distinct shots.
+Add all three to local `ORIGINAL_FILM_CANDIDATES`, separate `SOURCE_QC` acquisition status `NOT_DOWNLOADED`. Never treat those catalog clips' runtime as unique V4 timeline. Search NARA identifiers, choose authoritative federal-origin copies, and preserve original movie sound provenance. R2 list now **8 original film leads plus government photos and clear red exclusions**.
