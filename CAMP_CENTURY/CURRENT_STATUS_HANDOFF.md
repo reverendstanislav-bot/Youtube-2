@@ -1,3 +1,14 @@
+# HIA VIDEO007 — CAMP CENTURY | STAGE05 CURRENT STATUS (2026-10-25)
+
+**STAGE05 SCRIPT LOCK: PASS.** V4 now frozen by exact Git blob SHA, 8 chapters / 2931 words, 32 text-exact beats, independent Stage04 fact QC pass with qualifications. Producer requested Stage05. Lock file: `SCRIPT/STAGE05_SCRIPT_LOCK_V4_2026-10-25.md`. Older V1/V2/V3 superseded.
+**STAGE05 ORIGINAL FILM SHOT QA: HOLD / SOURCE MATERIAL NOT PHYSICALLY ACQUIRED.** Public US Army color master and B/W government film located, dated, attributed, government-origin rights statements checked; archival film catalogue establishes substantial overlapping shots. Attempts to download physical archive originals in this assistant runtime failed due to internet DNS/Archive redirect restrictions. **0 source film bytes downloaded, 0 distinct moving seconds verified, 0 source IN/OUT cut list.** Do not invent coverage/pass.
+- `ARCHIVE/STAGE05_PUBLIC_FILM_ORIGINAL_QC_REPORT_V1.md`: factual tests, source URLs, overlap and source-dependent visual gap analysis.
+- `ARCHIVE/STAGE05_ORIGINAL_FILM_SHOT_CANDIDATES_V1.csv`: 28 catalog-backed candidate motion roles, detailed evidence/provenance, blank actual seconds.
+- `ARCHIVE/STAGE05_EDITOR_ARCHIVE_QC_RUNBOOK.md`: ready-to-run original file downloads, ffprobe and contact-sheet steps for a machine with internet access and physical decoding.
+**Next actual work:** run archive QA on a machine with working network, preserve SHA/native specs, compare duplicates and extract relevant 5–20-second cuts with exact timecodes. Only afterwards allow producer to consider voice purchases.
+**PAID VOICE/IMAGE/VIDEO: NOT APPROVED; 0 credits spent.** No dialogue captions per channel rule. No final media rights assurance.
+
+---
 # CAMP CENTURY VIDEO007 — STAGE04 COMPLETED 2026-10-24 — AUTHORITATIVE TOP STATUS
 
 **STAGE04 FINAL SCRIPT FACT+EDITORIAL QC: PASS_WITH_QUALIFICATIONS** (not professional lawyer opinion).
