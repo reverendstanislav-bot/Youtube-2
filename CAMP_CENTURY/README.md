@@ -24,3 +24,6 @@ The camp is real: US Army built experimental construction/trench and nuclear-pow
 6. Only public material, no requests/orders to NARA/DOE or paid asset sourcing.
 7. No existing unrelated episode audio from Pluto, Lake Peigneur, WHAT IT COST or Youtube-1.
 8. Copyright/public-domain per actual item and third-party embedded clips must be validated. HIA voice and visuals should be 1920x1080/25fps at final export; do not claim old source film is native 1080p.
+
+## Stage 03 V1 completion, October 24 2026
+The complete 8-chapter narrative and source-checked English narration now physically exist in `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V1_EN.md` and `SCRIPT/STAGE03_CAMP_CENTURY_VOICE_TEXT_V1_EN.txt` (2949 words). `SCRIPT/STAGE03_CAMP_CENTURY_SEMANTIC_BEATS_V1.csv` has 30 narrative beats; `SCRIPT/STAGE03_CAMP_CENTURY_FACT_EDITORIAL_QC_V1.md` includes initial primary-report fact QC. Not Stage04 final independent QC/producer Script Lock; all paid generation and direct video media QC HOLD.
