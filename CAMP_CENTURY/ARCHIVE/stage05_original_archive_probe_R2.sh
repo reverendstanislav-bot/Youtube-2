@@ -71,7 +71,7 @@ download_archive_original 'gov.archives.arc.2569752' 'CAMP_BW_NARA'
 
 echo "MANUAL AUTHENTIC PRIMARY SOURCES (NOT AUTO-DOWNLOADED):"
 echo "  USACE COLOR ORIGINAL 32:26, item 35.mp4: https://usace.contentdm.oclc.org/digital/collection/p16021coll1/id/34"
-echo "  DVIDS distinct PM2A RELOCATION film 23:07, HIGH-res 720x480 842MB: https://www.dvidshub.net/download/popup/556111"
+echo "  DVIDS PM2A 23:07 PD film, exact file specs UNVERIFIED, login may be required: https://www.dvidshub.net/video/556111/relocation-pm-2a-nuclear-power-plant-mf5-5118-mcmlxv"
 echo "  Save as CAMP_USACE_COLOR_ORIGINAL.mp4 / CAMP_PM2A_RELOCATION_DVIDS.mp4 in $OUT/masters if available."
 echo "  Save screenshot of source rights statements to $OUT/rights_receipts."
 
