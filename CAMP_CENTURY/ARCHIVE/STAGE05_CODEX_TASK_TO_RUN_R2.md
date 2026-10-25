@@ -47,3 +47,9 @@ Photo/report PD originals and excluded media are documented exactly in R2 archiv
 At the end report **physically verified unique useful moving seconds**, per-chapter coverage, rights decisions, native video quality and exact shortfall, plus PASS/HOLD. If no downloads are accessible, log a reproducible blocker and DO NOT claim completion.
 
 **DO NOT edit script V4 or Script Lock, DO NOT generate paid voice, DO NOT run paid Higgsfield, DO NOT send rights outreach or orders, NO captions/SRT/VTT**, consistent with HIA owner lock.
+
+## Required additional film leads (R2A supplement)
+- Original US Army `Top of the World`, TV‑543 / NARA 111-TV-543: https://campcentury.omeka.net/items/show/151 — rare genuine Camp Century entrance and construction. Greenland from ~16:20, mixed other Arctic test activities, don't mislabel.
+- U.S. Army `US Army and Boy Scouts`, TV‑520 / NARA 111-TV-520: https://campcentury.omeka.net/items/show/144 — possible unique genuine winter-scene footage; distinguish Camp Tuto and Camp Century.
+- `Engineering for Tomorrow`, TV‑781 / NARA 111-TV-781: https://campcentury.omeka.net/items/show/161 — Greenland 12:23–17:19 but significant reused color original; only frame-verified unique footage.
+Source/rights research now identifies **F01–F08**, 8 original Army film leads. Screen only real original Camp Century scenes and dedup rather than treating the 8 films as 8 independent films.
