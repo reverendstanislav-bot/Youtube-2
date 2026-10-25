@@ -1,3 +1,17 @@
+# 2026-10-25 PRODUCER CHANGE: ONLY AUTHENTIC CAMP CENTURY MOVING FILM — R4
+
+Producer explicitly rejects historical photo/slideshow and unrelated Greenland bases as editorial footage. **R3 53-entry archive = RESEARCH ONLY, NOT import list**; real-film approved selection R4:
+1. `ARCHIVE/STAGE05_ACTUAL_SITE_MOVING_FOOTAGE_ONLY_R4.md` (site authenticity & legal gating)
+2. `ARCHIVE/STAGE05_ACTUAL_CAMP_CENTURY_FILM_ONLY_R4.csv` (**11 film / mirror / rights-hold references**, NOT 11 independent reels)
+3. `ARCHIVE/STAGE05_REAL_MOVING_SHOT_SEARCH_MAP_R4.csv` (**28 target real actions**, unviewed search tasks not clip PASS)
+4. `ARCHIVE/STAGE05_CODEX_TASK_REAL_CAMP_CENTURY_FILM_R4.md` (do source originals F01 USACE construction, F04 DVIDS PM2A removal, then de-duplicated NARA actual base films).
+
+Only `DIRECT_CAMP_CENTURY` film and authentic verified `SAME_PROJECT_SUPPLY_CHAIN` film can count as real motion. F02 color mirror duplicates F01; NARA Big Picture B/W overlaps. 1961 CBS (real site, protected) and Periscope commercial scan (real site not unequivocally verified, unlicensed) are NOT cleared. 2019 UVM footage press-only not cleared. Do NOT pass Camp Tuto/SiteI/SiteII/Thule/Blue Jay/Lead Dog as Camp Century.
+
+R4 source page / filming provenance reviewed but binary acquisition is STILL ZERO due to editing-container DNS failure; **no shot IN/OUT, SHA, unique seconds, per-chapter footage PASS**. CH05 deployed Iceworm impossible; CH06 creep time-lapse absent; CH08 genuine 1966 deep ice drill motion not identified. Report these as actual source gaps rather than invent.
+SCRIPT V4 LOCK PASS; 2931 English words / 8 chapters. VO/TTS paid authorization NONE.
+
+---
 # VIDEO007 CAMP CENTURY — STAGE05 EXPANDED ARCHIVE R3 (2026-10-25)
 
 **Owner feedback: 25 sources was insufficient.** Current replacement R3 SOURCE INVENTORY contains **53 records** at `ARCHIVE/STAGE05_ASSET_SOURCE_REGISTER_R3.csv`: **17 video-film and alternate-print/context leads, 26 photo/report/NASA data points, 10 rights-excluded or unlicensed examples**. **This is NOT 17 new independent film masters.** Several items are duplicates, pre-Camp Century footage, or intentionally disallowed licensed scans.
