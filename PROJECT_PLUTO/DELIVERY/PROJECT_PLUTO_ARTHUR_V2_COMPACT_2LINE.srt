@@ -1,0 +1,1433 @@
+1
+00:00:00,000 --> 00:00:04,055
+On May twentieth, nineteen sixty-four,
+according to the Atomic Energy
+
+2
+00:00:04,080 --> 00:00:08,295
+Commission's official annual account,
+engineers in the Nevada desert reached
+
+3
+00:00:08,320 --> 00:00:13,055
+a remarkable milestone. They brought
+a nuclear-powered ramjet called Tory
+
+4
+00:00:13,080 --> 00:00:17,375
+Two-C to full power. Air was driven
+through its reactor under conditions
+
+5
+00:00:17,400 --> 00:00:21,455
+intended to represent a missile
+traveling at Mach two point eight, near
+
+6
+00:00:21,480 --> 00:00:25,335
+sea level. And the official government
+account of the test did not call it a
+
+7
+00:00:25,360 --> 00:00:28,540
+disappointment. It called
+the May trials successful.
+
+8
+00:00:28,980 --> 00:00:33,155
+Now jump forward just forty-two days.
+On July first, the Defense Department
+
+9
+00:00:33,180 --> 00:00:37,215
+informed the Atomic Energy Commission
+that it would not pursue a flight-test
+
+10
+00:00:37,240 --> 00:00:41,780
+objective for Project Pluto. Further
+planned reactor tests were canceled.
+
+11
+00:00:42,240 --> 00:00:44,455
+The desert facility
+would be mothballed.
+
+12
+00:00:44,480 --> 00:00:47,860
+Yet the missile that was
+supposed to carry it never flew.
+
+13
+00:00:48,440 --> 00:00:53,015
+How can one of the most ambitious
+propulsion projects of the Cold War pass
+
+14
+00:00:53,040 --> 00:00:56,520
+its decisive reactor test
+and still be abandoned?
+
+15
+00:00:56,980 --> 00:01:00,755
+The answer begins with a distinction
+that is easy to miss in surviving
+
+16
+00:01:00,780 --> 00:01:03,880
+photographs. There was
+a tested reactor engine.
+
+17
+00:01:04,380 --> 00:01:07,840
+And there was an imagined weapon.
+Only one of them became real.
+
+18
+00:01:08,220 --> 00:01:12,615
+To understand why, we have to enter a
+period when the American military was
+
+19
+00:01:12,640 --> 00:01:16,455
+willing to consider an idea almost
+impossible to separate from the fears of
+
+20
+00:01:16,480 --> 00:01:20,575
+its time: a missile that did not need
+to carry conventional fuel for its
+
+21
+00:01:20,600 --> 00:01:23,580
+long cruise. That idea
+was Project Pluto.
+
+22
+00:01:24,160 --> 00:01:27,755
+And its most important achievement
+would also expose the distance between
+
+23
+00:01:27,780 --> 00:01:31,540
+proving a machine could function and
+proving that the world needed it.
+
+24
+00:01:32,150 --> 00:01:34,930
+Pluto proposed a radically
+different source of heat.
+
+25
+00:01:35,350 --> 00:01:39,910
+Inside its engine, a nuclear reactor
+would transfer energy to incoming air.
+
+26
+00:01:40,250 --> 00:01:44,005
+That heated air would expand and rush
+rearward, creating thrust without the
+
+27
+00:01:44,030 --> 00:01:47,270
+same onboard fuel supply a
+chemical-burning jet required.
+
+28
+00:01:47,830 --> 00:01:51,885
+It was a nuclear ramjet. And a ramjet
+has another important characteristic:
+
+29
+00:01:51,910 --> 00:01:56,730
+it works by using the speed of the
+vehicle itself to compress incoming air.
+
+30
+00:01:57,070 --> 00:02:00,685
+It is not an ordinary engine that can
+simply take off from a runway under
+
+31
+00:02:00,710 --> 00:02:03,590
+its own power. So imagine
+two separate machines.
+
+32
+00:02:04,290 --> 00:02:08,225
+One is the reactor and air passage:
+the power-producing heart of the
+
+33
+00:02:08,250 --> 00:02:12,685
+proposed engine. This is what Livermore
+eventually built and operated during
+
+34
+00:02:12,710 --> 00:02:17,565
+ground tests. The other is SLAM,
+the proposed Supersonic Low-Altitude
+
+35
+00:02:17,590 --> 00:02:21,690
+Missile. The reactor did not solve
+all of those requirements by itself.
+
+36
+00:02:22,110 --> 00:02:26,885
+The attraction was endurance. The Pluto
+concept moved the energy source into
+
+37
+00:02:26,910 --> 00:02:30,925
+a nuclear reactor. In principle,
+it offered an entirely different balance
+
+38
+00:02:30,950 --> 00:02:33,210
+between fuel carried and time aloft.
+
+39
+00:02:33,430 --> 00:02:36,550
+But theoretical endurance
+was not unlimited range.
+
+40
+00:02:36,770 --> 00:02:40,190
+A complete flying vehicle would
+still have faced engineering limits,
+
+41
+00:02:40,530 --> 00:02:43,250
+guidance requirements,
+and an operational mission.
+
+42
+00:02:43,550 --> 00:02:46,965
+You can see machines, test rigs,
+technicians, and equipment developed
+
+43
+00:02:46,990 --> 00:02:50,990
+around the proposed SLAM system.
+They are genuine period research,
+
+44
+00:02:51,070 --> 00:02:53,730
+but they are not footage of
+a completed missile flying.
+
+45
+00:02:54,310 --> 00:02:58,205
+That distinction matters. When a
+model survives a wind-tunnel test,
+
+46
+00:02:58,230 --> 00:03:00,970
+it tells engineers
+something about airflow.
+
+47
+00:03:01,230 --> 00:03:05,225
+It says nothing by itself about whether
+a nuclear reactor can survive the
+
+48
+00:03:05,250 --> 00:03:09,045
+same mission. When a reactor
+produces heat under simulated flight
+
+49
+00:03:09,070 --> 00:03:11,450
+conditions, it answers
+a different question.
+
+50
+00:03:11,670 --> 00:03:15,310
+It cannot prove that an entire
+autonomous weapon has been developed.
+
+51
+00:03:15,710 --> 00:03:18,310
+Project Pluto needed
+both sets of answers.
+
+52
+00:03:18,650 --> 00:03:20,885
+The engine would go much
+further than the missile.
+
+53
+00:03:20,910 --> 00:03:25,425
+And the reason engineers pursued such
+a difficult design had less to do with
+
+54
+00:03:25,450 --> 00:03:29,005
+a love of strange machinery than with
+the strategic problem Washington was
+
+55
+00:03:29,030 --> 00:03:29,850
+trying to solve.
+
+56
+00:03:30,570 --> 00:03:32,970
+Go back to the late nineteen-fifties.
+
+57
+00:03:33,330 --> 00:03:37,250
+The Cold War had turned military
+technology into a contest of distance,
+
+58
+00:03:37,710 --> 00:03:41,910
+speed, warning time, and the ability
+to survive an opponent's defenses.
+
+59
+00:03:42,590 --> 00:03:46,270
+Long-range bombers remained central
+to American nuclear strategy.
+
+60
+00:03:47,010 --> 00:03:50,725
+Ballistic missiles were developing
+rapidly, but the shape of the future
+
+61
+00:03:50,750 --> 00:03:55,345
+arsenal had not yet been settled. This
+was the world in which Project Pluto
+
+62
+00:03:55,370 --> 00:03:59,585
+began at Lawrence Radiation Laboratory
+in nineteen fifty-seven, working for
+
+63
+00:03:59,610 --> 00:04:02,930
+the Atomic Energy Commission
+and the United States Air Force.
+
+64
+00:04:03,310 --> 00:04:07,305
+Planners were exploring a machine that
+might cruise at supersonic speed and
+
+65
+00:04:07,330 --> 00:04:11,725
+low altitude, presenting an unusual
+challenge to defenses designed around
+
+66
+00:04:11,750 --> 00:04:14,890
+bombers and missiles
+following more familiar paths.
+
+67
+00:04:15,010 --> 00:04:19,205
+Low altitude was an ambition, not
+proof that such a weapon could travel
+
+68
+00:04:19,230 --> 00:04:24,210
+anywhere unseen. Terrain,
+navigation, structural loads,
+
+69
+00:04:24,290 --> 00:04:26,265
+and the realities of
+detection still mattered.
+
+70
+00:04:26,290 --> 00:04:30,325
+The potential attraction was that a
+nuclear heat source would not consume
+
+71
+00:04:30,350 --> 00:04:33,170
+conventional jet fuel in
+the way a bomber engine did.
+
+72
+00:04:33,670 --> 00:04:36,770
+But potential range was only
+one part of a weapons system.
+
+73
+00:04:37,430 --> 00:04:41,410
+The Air Force already had air-launched
+missiles such as the Hound Dog.
+
+74
+00:04:41,870 --> 00:04:46,185
+A B-fifty-two carrying one of those
+weapons represented an actual operating
+
+75
+00:04:46,210 --> 00:04:50,645
+approach to long-range attack. At the
+same time, programs such as Atlas and
+
+76
+00:04:50,670 --> 00:04:54,625
+Minuteman were demonstrating a
+different idea: sending a payload on a
+
+77
+00:04:54,650 --> 00:04:58,630
+ballistic trajectory instead of
+sustaining a powered cruise for hours.
+
+78
+00:04:59,150 --> 00:05:02,030
+None of those aircraft or
+rockets was Project Pluto.
+
+79
+00:05:02,190 --> 00:05:05,705
+Their historical footage belongs
+here only as a comparison between
+
+80
+00:05:05,730 --> 00:05:09,710
+technologies the United States was
+developing during the same era.
+
+81
+00:05:10,070 --> 00:05:14,465
+That comparison is crucial. In nineteen
+fifty-seven, the future of nuclear
+
+82
+00:05:14,490 --> 00:05:18,445
+delivery was not self-evident. By
+nineteen sixty-four, the comparison
+
+83
+00:05:18,470 --> 00:05:23,165
+would look different. Every advance in
+alternative systems changed the value
+
+84
+00:05:23,190 --> 00:05:25,730
+of making Pluto into
+a deployable missile.
+
+85
+00:05:26,070 --> 00:05:30,170
+At the same time, Pluto's own
+engineering demands remained enormous.
+
+86
+00:05:30,530 --> 00:05:34,165
+The scientists would spend the following
+years answering the reactor part of
+
+87
+00:05:34,190 --> 00:05:38,445
+that question. And to get an answer,
+they needed to build something in the
+
+88
+00:05:38,470 --> 00:05:42,585
+Nevada desert that looked less
+like an aircraft test stand than an
+
+89
+00:05:42,610 --> 00:05:43,770
+industrial complex.
+
+90
+00:05:44,510 --> 00:05:49,105
+At the Nevada Test Site, Project Pluto
+occupied an industrial world of its
+
+91
+00:05:49,130 --> 00:05:53,750
+own. The engine could not simply
+be bolted to a stand, switched on,
+
+92
+00:05:54,050 --> 00:05:58,645
+and treated like an ordinary motor. A
+ramjet normally receives high-pressure
+
+93
+00:05:58,670 --> 00:06:02,330
+airflow because it is moving at
+enormous speed through the atmosphere.
+
+94
+00:06:02,890 --> 00:06:07,045
+A reactor sitting on the ground has no
+such airflow unless the test facility
+
+95
+00:06:07,070 --> 00:06:11,585
+supplies it. That meant engineers had
+to create, on the ground, part of the
+
+96
+00:06:11,610 --> 00:06:14,830
+environment the engine was
+supposed to experience in flight.
+
+97
+00:06:15,330 --> 00:06:18,825
+The solution involved massive
+air-handling equipment, stored
+
+98
+00:06:18,850 --> 00:06:23,665
+compressed air, temperature control,
+instrumentation, remote operations,
+
+99
+00:06:23,690 --> 00:06:27,230
+and facilities for handling
+equipment after a nuclear run.
+
+100
+00:06:27,670 --> 00:06:30,210
+The test site did not
+merely hold the engine.
+
+101
+00:06:30,310 --> 00:06:33,390
+The test site temporarily stood
+in for the missing aircraft.
+
+102
+00:06:33,830 --> 00:06:38,225
+The original engineering records explain
+one basic limitation particularly
+
+103
+00:06:38,250 --> 00:06:40,930
+well. The air supply was finite.
+
+104
+00:06:41,390 --> 00:06:45,485
+Contemporary Livermore engineers
+explained that ground tests using stored
+
+105
+00:06:45,510 --> 00:06:49,665
+air could last only a few minutes.
+That limit was imposed by the test
+
+106
+00:06:49,690 --> 00:06:53,505
+facility. It was not a measurement
+of how long a nuclear-powered missile
+
+107
+00:06:53,530 --> 00:06:57,750
+could theoretically fly. And
+because these were nuclear reactors,
+
+108
+00:06:58,190 --> 00:07:01,625
+handling the machinery after operation
+raised questions that ordinary
+
+109
+00:07:01,650 --> 00:07:06,465
+aircraft testing rarely faced. The site
+incorporated arrangements for remote
+
+110
+00:07:06,490 --> 00:07:08,890
+work and post-test examination.
+
+111
+00:07:11,870 --> 00:07:13,865
+Contemporary engineers even used a
+remote-controlled railroad flatcar to
+
+112
+00:07:13,890 --> 00:07:17,510
+move the reactor between the test
+position and the disassembly building.
+
+113
+00:07:17,570 --> 00:07:21,670
+This was a real industrial railroad
+built around a radioactive machine,
+
+114
+00:07:22,170 --> 00:07:26,725
+not a missile launch system. The
+Historic American Engineering Record
+
+115
+00:07:26,750 --> 00:07:29,530
+documents the dedicated
+disassembly building.
+
+116
+00:07:29,950 --> 00:07:34,005
+Its purpose was to take apart tested
+reactors so their components could be
+
+117
+00:07:34,030 --> 00:07:38,745
+studied and improved. Photographs made
+for the federal historic survey show
+
+118
+00:07:38,770 --> 00:07:42,110
+the real buildings and spaces
+associated with the site.
+
+119
+00:07:42,230 --> 00:07:45,965
+But they were recorded later. They
+cannot honestly be presented as motion
+
+120
+00:07:45,990 --> 00:07:48,965
+pictures of the tests occurring in
+nineteen sixty-one or nineteen sixty
+
+121
+00:07:48,990 --> 00:07:53,450
+four. The first major
+experimental goal was Tory Two-A.
+
+122
+00:07:53,870 --> 00:07:57,705
+It was a feasibility reactor, designed
+to answer whether a nuclear ramjet
+
+123
+00:07:57,730 --> 00:08:01,865
+core could withstand the relevant
+heating and airflow while behaving in a
+
+124
+00:08:01,890 --> 00:08:06,585
+controllable way. On May fourteenth,
+nineteen sixty-one, Livermore recorded
+
+125
+00:08:06,610 --> 00:08:10,110
+a forty-five-second test
+of Tory Two-A at Nevada.
+
+126
+00:08:10,490 --> 00:08:14,850
+That forty-five-second result was not
+a nuclear-powered missile taking off.
+
+127
+00:08:15,290 --> 00:08:18,945
+It was a short, demanding demonstration
+that a new type of reactor could
+
+128
+00:08:18,970 --> 00:08:22,305
+operate under conditions chosen
+to resemble part of its intended
+
+129
+00:08:22,330 --> 00:08:25,750
+environment. It also exposed
+what had to come next.
+
+130
+00:08:26,190 --> 00:08:29,725
+A laboratory reactor arranged to
+prove a principle is not automatically
+
+131
+00:08:29,750 --> 00:08:34,090
+compact, durable, or controllable
+enough to serve as a flight engine.
+
+132
+00:08:34,630 --> 00:08:37,610
+The engineers had shown that
+their basic idea was possible.
+
+133
+00:08:37,990 --> 00:08:42,225
+Now they had to make the difficult part
+smaller, tougher, and closer to the
+
+134
+00:08:42,250 --> 00:08:43,490
+shape of an actual machine.
+
+135
+00:08:44,240 --> 00:08:47,940
+What made Project Pluto so
+difficult was not the word nuclear.
+
+136
+00:08:48,540 --> 00:08:52,075
+It was the combination of nuclear
+power with the physical demands of a
+
+137
+00:08:52,100 --> 00:08:56,220
+supersonic engine. Think about the
+journey the air was supposed to take.
+
+138
+00:08:56,540 --> 00:08:59,000
+It would enter the proposed
+vehicle at high speed.
+
+139
+00:08:59,460 --> 00:09:02,480
+It would be directed through the
+reactor's hot internal passages.
+
+140
+00:09:02,900 --> 00:09:05,620
+And it would leave with additional
+energy, producing thrust.
+
+141
+00:09:05,880 --> 00:09:09,695
+For that process to matter, the reactor
+had to transfer a tremendous amount
+
+142
+00:09:09,720 --> 00:09:11,940
+of heat to a moving stream of air.
+
+143
+00:09:12,100 --> 00:09:16,135
+But the hot surfaces could not be
+allowed to simply collapse, crumble, or
+
+144
+00:09:16,160 --> 00:09:18,340
+deform when that air rushed past them.
+
+145
+00:09:18,640 --> 00:09:21,900
+Inside Tory's core,
+ceramics played a central role.
+
+146
+00:09:22,180 --> 00:09:24,980
+This was not an abstract
+material-science demonstration.
+
+147
+00:09:25,160 --> 00:09:28,615
+Engineers needed fuel-bearing
+components with suitable nuclear
+
+148
+00:09:28,640 --> 00:09:32,595
+characteristics that could retain
+their structure in a harsh thermal
+
+149
+00:09:32,620 --> 00:09:36,980
+environment. Livermore's own history
+recalls the difficult combination:
+
+150
+00:09:37,380 --> 00:09:41,515
+structural strength, resistance to
+damaging conditions, and the ability to
+
+151
+00:09:41,540 --> 00:09:44,600
+manufacture very large quantities
+of consistent elements.
+
+152
+00:09:45,000 --> 00:09:49,275
+And a material that survives high
+temperature in one setting may fail when
+
+153
+00:09:49,300 --> 00:09:53,355
+combined with intense airflow,
+vibration, and the surrounding reactor
+
+154
+00:09:53,380 --> 00:09:57,655
+environment. That is why surviving
+Project Pluto reports are filled with
+
+155
+00:09:57,680 --> 00:10:02,595
+drawings, test methods, and material
+questions rather than dramatic pictures
+
+156
+00:10:02,620 --> 00:10:06,820
+of missiles. Tory Two-A was built
+to demonstrate the fundamentals.
+
+157
+00:10:07,440 --> 00:10:11,180
+Tory Two-C carried more of the burdens
+that a missile engine would face.
+
+158
+00:10:11,300 --> 00:10:15,235
+Contemporary studies describe it as
+intended to be adequate as an engine for
+
+159
+00:10:15,260 --> 00:10:19,315
+a ramjet vehicle, and identify
+control components within the reactor
+
+160
+00:10:19,340 --> 00:10:23,480
+environment as an especially difficult
+step beyond the earlier test.
+
+161
+00:10:23,840 --> 00:10:27,420
+The control equipment has to function
+when the environment around it is hot,
+
+162
+00:10:27,720 --> 00:10:30,880
+mechanically demanding, and
+affected by the reactor itself.
+
+163
+00:10:31,180 --> 00:10:35,495
+Electronics, actuators, measurement
+devices, and the systems that interpret
+
+164
+00:10:35,520 --> 00:10:39,495
+those readings therefore mattered
+as much to the test campaign as the
+
+165
+00:10:39,520 --> 00:10:44,155
+reactor core. The nineteen-sixty-three
+LASV-N1 film preserves
+
+166
+00:10:44,180 --> 00:10:47,780
+some of that supporting development
+world: technicians at apparatus,
+
+167
+00:10:48,220 --> 00:10:51,640
+instrument racks, model tests,
+and electronic research.
+
+168
+00:10:51,920 --> 00:10:54,780
+It is valuable evidence of
+the engineering program.
+
+169
+00:10:54,940 --> 00:10:57,955
+But a shot of a technician working
+with control equipment is not
+
+170
+00:10:57,980 --> 00:11:00,900
+automatically a photograph
+of Tory Two-C's core.
+
+171
+00:11:01,300 --> 00:11:04,695
+The reactor itself had moved
+onto an entirely different scale.
+
+172
+00:11:04,720 --> 00:11:08,955
+A later Livermore history describes
+Tory Two-C on the scale of five
+
+173
+00:11:08,980 --> 00:11:11,160
+hundred megawatts of reactor heat.
+
+174
+00:11:11,600 --> 00:11:14,420
+It is a rounded figure, not
+a precise test measurement.
+
+175
+00:11:14,660 --> 00:11:17,640
+And it measures thermal
+power, not engine thrust.
+
+176
+00:11:18,340 --> 00:11:21,540
+The team was not merely building
+a reactor that could turn on.
+
+177
+00:11:21,940 --> 00:11:25,315
+It was building a reactor intended
+to turn a moving air stream into
+
+178
+00:11:25,340 --> 00:11:29,295
+propulsion, within the size and
+reliability limits of a proposed high
+
+179
+00:11:29,320 --> 00:11:33,675
+speed missile. Before any such
+vehicle could fly, the team had to
+
+180
+00:11:33,700 --> 00:11:36,380
+demonstrate that the engine
+itself would survive.
+
+181
+00:11:36,760 --> 00:11:40,620
+In nineteen sixty-four, Tory
+Two-C was ready for that test.
+
+182
+00:11:41,040 --> 00:11:45,015
+And the official record of what happened
+next is much less ambiguous than
+
+183
+00:11:45,040 --> 00:11:47,540
+the explanations later
+offered for why it ended.
+
+184
+00:11:48,240 --> 00:11:52,775
+By January of nineteen sixty-four,
+workers had repaired the Nevada test
+
+185
+00:11:52,800 --> 00:11:56,640
+facility and resumed pre-nuclear
+testing of its air systems.
+
+186
+00:11:56,900 --> 00:12:00,695
+In mid-February, Tory Two-C was
+shipped from Livermore to Nevada.
+
+187
+00:12:00,720 --> 00:12:05,135
+On March twenty-fifth, the reactor first
+reached criticality while assembled
+
+188
+00:12:05,160 --> 00:12:08,375
+in its test vehicle. It was a
+milestone, but not yet the complete
+
+189
+00:12:08,400 --> 00:12:12,175
+performance test. The next decisive
+dates were May twelfth and May
+
+190
+00:12:12,200 --> 00:12:16,075
+twentieth. On May twelfth, the reactor
+operated at an intermediate power
+
+191
+00:12:16,100 --> 00:12:19,495
+level. The conditions were intended
+to simulate flight at Mach two point
+
+192
+00:12:19,520 --> 00:12:22,340
+eight and an altitude
+of ten thousand feet.
+
+193
+00:12:22,800 --> 00:12:25,780
+Eight days later came the
+initial full-power ground test.
+
+194
+00:12:25,820 --> 00:12:29,275
+The official account says that the
+test conditions represented nuclear
+
+195
+00:12:29,300 --> 00:12:34,035
+ramjet flight at the design speed
+of Mach two point eight and at sea
+
+196
+00:12:34,060 --> 00:12:38,795
+level conditions. The Atomic Energy
+Commission's report describes both May
+
+197
+00:12:38,820 --> 00:12:43,475
+tests as successful. Think about what
+that means, and also what it does
+
+198
+00:12:43,500 --> 00:12:48,555
+not mean. The engineers had operated
+a nuclear ramjet test reactor under
+
+199
+00:12:48,580 --> 00:12:52,955
+deliberately chosen conditions intended
+to reproduce significant demands of
+
+200
+00:12:52,980 --> 00:12:56,340
+flight. That was an extraordinary
+experimental achievement.
+
+201
+00:12:56,600 --> 00:12:59,360
+But the reactor had remained
+at the Nevada Test Site.
+
+202
+00:12:59,560 --> 00:13:03,975
+There was no flying SLAM vehicle. No
+complete weapon had navigated a long
+
+203
+00:13:04,000 --> 00:13:07,835
+route. No aircraft structure had
+demonstrated the full combination of
+
+204
+00:13:07,860 --> 00:13:11,695
+endurance, control, survivability,
+and mission performance.
+
+205
+00:13:11,720 --> 00:13:15,860
+They also did not prove that the
+proposed missile could now be deployed.
+
+206
+00:13:16,180 --> 00:13:19,820
+The achievement belonged to a specific,
+formidable engineering problem:
+
+207
+00:13:20,220 --> 00:13:23,640
+making a nuclear ramjet reactor
+work at the test conditions.
+
+208
+00:13:23,900 --> 00:13:27,495
+A nuclear rocket being tested for
+Project Rover is not footage of Tory Two
+
+209
+00:13:27,520 --> 00:13:31,920
+C. A missile launch from the
+era is not a SLAM flight.
+
+210
+00:13:32,240 --> 00:13:36,215
+And a dramatic cloud above Nevada cannot
+stand in for a reactor test merely
+
+211
+00:13:36,240 --> 00:13:40,335
+because it looks cinematic. The clearest
+surviving evidence of the May tests
+
+212
+00:13:40,360 --> 00:13:44,220
+is found in the original reports and
+photographs of the actual engine.
+
+213
+00:13:44,680 --> 00:13:46,880
+Those documents have a
+quieter kind of drama.
+
+214
+00:13:47,440 --> 00:13:51,455
+They record success. And that success
+was followed, almost immediately,
+
+215
+00:13:51,480 --> 00:13:55,560
+by a decision that the program would
+not reach the flight-test stage.
+
+216
+00:13:56,000 --> 00:13:59,795
+The engine had passed its examination.
+The proposed weapon was about to lose
+
+217
+00:13:59,820 --> 00:14:00,560
+its purpose.
+
+218
+00:14:01,330 --> 00:14:05,945
+On July first, nineteen sixty-four,
+the Department of Defense informed the
+
+219
+00:14:05,970 --> 00:14:10,445
+Atomic Energy Commission that it had
+decided not to pursue Project Pluto's
+
+220
+00:14:10,470 --> 00:14:12,790
+flight-test objective.
+The language matters.
+
+221
+00:14:13,290 --> 00:14:17,065
+The Atomic Energy Commission's account
+does not describe a catastrophic
+
+222
+00:14:17,090 --> 00:14:21,485
+reactor failure. Nor does it say that
+the nuclear ramjet concept had been
+
+223
+00:14:21,510 --> 00:14:25,285
+disproved. It says the Defense
+Department would not continue toward
+
+224
+00:14:25,310 --> 00:14:29,525
+flight testing. The AEC responded
+by canceling further planned reactor
+
+225
+00:14:29,550 --> 00:14:34,610
+tests. The program was phased out,
+and the Nevada facility was mothballed.
+
+226
+00:14:34,890 --> 00:14:38,425
+That decision ended the path from
+successful ground engine to an actual
+
+227
+00:14:38,450 --> 00:14:43,285
+flying SLAM. What caused it? The funding
+conflict was already visible before
+
+228
+00:14:43,310 --> 00:14:47,985
+the July decision. In April, Congress's
+Joint Committee on Atomic Energy cut
+
+229
+00:14:48,010 --> 00:14:51,750
+proposed funding while pressing
+for a definite flight-test plan.
+
+230
+00:14:52,210 --> 00:14:55,690
+On June eleventh, the House
+Appropriations Committee went further:
+
+231
+00:14:55,930 --> 00:15:00,005
+it proposed sharply reducing further
+Pluto spending, on the grounds that
+
+232
+00:15:00,030 --> 00:15:03,245
+there was still no approved military
+system or requirement for the
+
+233
+00:15:03,270 --> 00:15:07,625
+successful reactor. Those public
+records show a concrete dispute over the
+
+234
+00:15:07,650 --> 00:15:09,910
+next step, not a failed engine.
+
+235
+00:15:10,490 --> 00:15:14,245
+They do not, by themselves, reveal
+every private consideration behind the
+
+236
+00:15:14,270 --> 00:15:18,905
+Pentagon's July decision. Later accounts
+also discuss the rapid progress of
+
+237
+00:15:18,930 --> 00:15:22,885
+ballistic missiles and the unresolved
+operational, political, and
+
+238
+00:15:22,910 --> 00:15:26,145
+environmental complications
+of a flying nuclear ramjet.
+
+239
+00:15:26,170 --> 00:15:30,850
+Those are historical explanations to
+assess, not a proven single cause.
+
+240
+00:15:30,950 --> 00:15:35,245
+Imagine the question asked in nineteen
+fifty-seven: is it possible to create
+
+241
+00:15:35,270 --> 00:15:39,570
+a nuclear ramjet capable of supporting
+a long-range high-speed missile?
+
+242
+00:15:40,370 --> 00:15:44,485
+Now imagine the question being asked
+in nineteen sixty-four: do we still
+
+243
+00:15:44,510 --> 00:15:48,225
+need this particular missile badly
+enough to undertake everything required
+
+244
+00:15:48,250 --> 00:15:51,590
+to make it operational? They
+are not the same question.
+
+245
+00:15:52,010 --> 00:15:55,670
+Once the test reactor works, the
+remaining obligations become real.
+
+246
+00:15:56,070 --> 00:15:59,765
+A flight program would have needed
+a complete vehicle, its control and
+
+247
+00:15:59,790 --> 00:16:03,990
+guidance systems, a way to launch
+and recover useful test information,
+
+248
+00:16:04,190 --> 00:16:07,625
+the operational infrastructure to
+support it, and a military rationale
+
+249
+00:16:07,650 --> 00:16:10,665
+strong enough to outweigh the
+complications of a nuclear-powered
+
+250
+00:16:10,690 --> 00:16:14,625
+cruise weapon. They made the next stage
+a decision that would require a new
+
+251
+00:16:14,650 --> 00:16:18,265
+military commitment. The Department
+of Defense decided against the flight
+
+252
+00:16:18,290 --> 00:16:22,625
+test objective. With further funding
+already under pressure, that decision
+
+253
+00:16:22,650 --> 00:16:24,810
+ended the route toward a flying SLAM.
+
+254
+00:16:25,690 --> 00:16:28,985
+The comparison with the conventional
+and ballistic missile systems of the
+
+255
+00:16:29,010 --> 00:16:32,150
+period helps us understand
+the broader strategic setting.
+
+256
+00:16:32,550 --> 00:16:36,485
+But footage of Minuteman production
+or an Atlas launch illustrates those
+
+257
+00:16:36,510 --> 00:16:40,765
+alternatives, not the private reasoning
+of the officials who decided Pluto's
+
+258
+00:16:40,790 --> 00:16:44,565
+fate. The record leaves room for
+discussion about how the different costs
+
+259
+00:16:44,590 --> 00:16:48,905
+and risks were weighed. It leaves far
+less room for doubt about the actual
+
+260
+00:16:48,930 --> 00:16:51,290
+result. The reactor was tested.
+
+261
+00:16:51,730 --> 00:16:55,705
+The missile never flew. And the
+project that had spent years proving an
+
+262
+00:16:55,730 --> 00:16:59,405
+engine could work was stopped before
+it could prove the weapon was worth
+
+263
+00:16:59,430 --> 00:16:59,850
+building.
+
+264
+00:17:00,580 --> 00:17:04,615
+Today, much of Project Pluto survives
+in a form that is far less spectacular
+
+265
+00:17:04,640 --> 00:17:07,280
+than the weapon its
+designers once imagined.
+
+266
+00:17:07,520 --> 00:17:11,020
+There are engineering reports.
+Historical photographs.
+
+267
+00:17:11,620 --> 00:17:14,995
+Drawings that show how people approached
+an unusual combination of reactor
+
+268
+00:17:15,020 --> 00:17:19,375
+physics and high-speed propulsion. And
+there is the documented Nevada site
+
+269
+00:17:19,400 --> 00:17:23,895
+itself. The Historic American
+Engineering Record identifies real Pluto
+
+270
+00:17:23,920 --> 00:17:28,415
+facilities in Area twenty-six and
+records spaces used for test operations
+
+271
+00:17:28,440 --> 00:17:32,515
+and post-test disassembly. Those
+photographs show the physical remains of
+
+272
+00:17:32,540 --> 00:17:36,175
+a massive technical effort. They were
+made after the program's main testing
+
+273
+00:17:36,200 --> 00:17:39,935
+period, and they belong to the story
+as later evidence, not as invented
+
+274
+00:17:39,960 --> 00:17:44,055
+pictures of the moment of success.
+Project Pluto never produced a flying
+
+275
+00:17:44,080 --> 00:17:48,595
+nuclear-powered SLAM missile. What it
+produced was a demonstrated nuclear
+
+276
+00:17:48,620 --> 00:17:53,315
+ramjet reactor, a body of engineering
+experience, and a record of what an
+
+277
+00:17:53,340 --> 00:17:57,215
+industrial project can accomplish
+without ever becoming a useful weapons
+
+278
+00:17:57,240 --> 00:18:01,700
+system. One slogan says the
+machine was too terrifying to use.
+
+279
+00:18:02,140 --> 00:18:06,400
+Another says the engineers built the
+future and politicians threw it away.
+
+280
+00:18:06,920 --> 00:18:09,440
+Neither is an adequate
+substitute for the evidence.
+
+281
+00:18:09,980 --> 00:18:12,460
+The people working on
+Pluto solved real problems.
+
+282
+00:18:12,920 --> 00:18:16,040
+The Defense Department still
+refused the flight-test objective.
+
+283
+00:18:16,420 --> 00:18:18,500
+Both facts belong in the same story.
+
+284
+00:18:18,900 --> 00:18:22,815
+The most revealing image may be the
+simplest: a real nuclear engine on the
+
+285
+00:18:22,840 --> 00:18:25,735
+ground, surrounded by the
+equipment built to test it.
+
+286
+00:18:25,760 --> 00:18:28,920
+That was where America's
+nuclear ramjet succeeded.
+
+287
+00:18:29,060 --> 00:18:31,700
+And it was also as far
+as the missile ever got.
+
+288
+00:18:32,300 --> 00:18:35,960
+Project Pluto is not the story
+of a weapon that failed its test.
+
+289
+00:18:36,340 --> 00:18:39,935
+It is the story of an engine that
+passed — and a weapon that never made it
+
+290
+00:18:39,960 --> 00:18:41,560
+beyond the decision to build one.
+
