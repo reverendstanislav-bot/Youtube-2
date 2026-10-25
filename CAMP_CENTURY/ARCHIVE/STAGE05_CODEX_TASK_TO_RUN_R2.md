@@ -16,7 +16,7 @@ Download and visually verify **ORIGINAL U.S. GOVERNMENT** period media, **extrac
 **Critical NEW independent film:**
 https://www.dvidshub.net/video/556111/relocation-pm-2a-nuclear-power-plant-mf5-5118-mcmlxv
 https://www.dvidshub.net/download/popup/556111
-It is a 23:07 distinct public-domain Army film, best listed copy **720×480 ~842 MB**; physically depicts 1964 PM-2A reactor dismantling, packing and transport, potentially excellent for CH07. Earlier Stage05 R1 file incorrectly listed shutdown/removal motion as unavailable; **R2 research identified original removal film**. Don't mark actual unique minutes until downloaded and inspected.
+It is a 23:07 distinct public-domain Army film, download characteristics still unverified; check best quality after DVIDS authentication if needed; physically depicts 1964 PM-2A reactor dismantling, packing and transport, potentially excellent for CH07. Earlier Stage05 R1 file incorrectly listed shutdown/removal motion as unavailable; **R2 research identified original removal film**. Don't mark actual unique minutes until downloaded and inspected.
 
 Original color construction film:
 https://usace.contentdm.oclc.org/digital/collection/p16021coll1/id/34
