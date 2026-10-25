@@ -1,7 +1,7 @@
 # HIA VIDEO007 — CAMP CENTURY | STAGE04 FACT-CHECKED FULL SCRIPT V4 EN-US
 
 **Status:** STAGE04 editorial/factual revision based on V3. Fact QC PASS with specified qualifications; **not owner Script Lock, not professional legal opinion, not clearance of sourced footage or audio**.
-**Narration:** 3014 spoken words; eight complete chapters. Estimated duration 19.45–22.33 min at 155–135 WPM, excluding pauses and original-footage speech.
+**Narration:** 2943 spoken words; eight complete chapters. Estimated duration 18.99–21.80 min at 155–135 WPM, excluding pauses and original-footage speech.
 **Sources:** Army CRREL TR174 (1965), Nielsen et al (2014), Colgan et al (2016), GAO (2024), Bierman et al (2024), NASA Earth Observatory (2024). Specific claim-by-claim control in STAGE04_CAMP_CENTURY_CLAIM_LEDGER_V1.csv.
 **IMPORTANT:** Public research facility documented by original Army film vs **never-built** Project Iceworm missile proposal. Stage03 V3 preserved unchanged. Script corrections in V4 clarify temporal link between nuclear plant and missile proposal, site-specific deformation measurements, year-round occupancy date discrepancy, and NASA's new radar imagery vs older known surveys.
 **Production:** No TTS, audio timing, or paid generation. Actual source clip rights/shot audit still HOLD. The HIA no-dialogue-subtitles owner rule applies.
@@ -10,9 +10,7 @@
 
 <!-- evidence ARMY65_FIG28_FIG29_P41;AGU16;NIELSEN14 -->
 
-In nineteen sixty-three, the United States Army had a strange problem in Greenland.
-
-The space inside its newly built underground city was shrinking.
+In nineteen sixty-three, the United States Army was losing space inside a city it had built beneath Greenland's ice.
 
 Not to an enemy. Not to an avalanche. The ceiling itself was slowly coming down.
 
@@ -24,7 +22,7 @@ The Army documented one section of its main passage losing roughly twelve percen
 
 The Army's engineers estimated that keeping this one camp's tunnels at their original dimensions would require cutting and removing around twenty thousand cubic yards of snow every year.
 
-That is not the amount actually excavated in every year. It was the Army's estimate of what maintenance would demand.
+That was an estimate, not a record of snow actually removed.
 
 The Army's surviving film records the machines, trenches, and extraordinary construction effort. The published engineering report shows how the arches and rooms were assembled beneath the surface.
 
@@ -36,9 +34,9 @@ Now for the part the public movie did not tell in full.
 
 As the research program developed, military planners proposed a much larger system: buried railways and launching locations for hundreds of nuclear-armed missiles.
 
-The proposed arsenal was never built. The base was.
+The arsenal remained a proposal. The base was real.
 
-So the mystery isn't whether the Army knew how to build beneath the ice. The films prove that it did.
+The mystery isn't whether the Army could build beneath the ice. It clearly could.
 
 The question is why building one working city did not lead to the enormous underground military system being imagined.
 
@@ -52,7 +50,7 @@ And the first clue lies in a journey of one hundred thirty-eight miles, through 
 
 The year is nineteen fifty-nine.
 
-On the northwest Greenland ice sheet, there is no construction site as most people would recognize one. No trucks are arriving on pavement. No concrete mixers line up at a gate.
+On the northwest Greenland ice sheet, there is no construction site as most people would recognize one. No trucks are arriving on pavement. No paved roadway leads to a gate.
 
 The buildings do not exist yet. There is no paved road leading to the site.
 
@@ -68,7 +66,7 @@ It is the image that makes the construction story so tangible: a small line of h
 
 But the cargo tells you what is really happening.
 
-Steel, timber, heating equipment, prefabricated rooms, electrical gear, fuel, tools, and equipment heavy enough to require its own transport arrangements.
+Steel, timber, prefabricated rooms, fuel, and heavy electrical equipment.
 
 In the first season, roughly one thousand short tons of materials move from Camp Tuto toward the site.
 
@@ -82,9 +80,7 @@ This is the first hidden cost of building in the Arctic: before your machines ca
 
 Yet by October nineteen sixty, the Army has created a functioning camp.
 
-The achievement looks almost impossible.
-
-Until you see how they actually built it.
+What came next was even stranger.
 
 They did not blast their way through a mountain. They did not drill an enormous tunnel through solid glacial ice.
 
@@ -118,7 +114,7 @@ The engineers were trying to make the surrounding snow part of the structure, wi
 
 For the broad reactor building space, the Army needed a trench around forty feet wide.
 
-That is not just a larger version of a corridor. Spanning a much wider area meant taking on new loads, new forms, and new opportunities for something to go wrong.
+That width brought new structural loads and new risks.
 
 Some of the first failures were quietly revealing.
 
@@ -128,7 +124,7 @@ The openings began to deform.
 
 The solution was sometimes to leave the support forms where they were.
 
-Those are decisions a construction crew has to make in the moment, long before a promotional documentary can show a finished city.
+These compromises would matter long after the promotional film was finished.
 
 But the buildings were only the beginning.
 
@@ -140,7 +136,7 @@ From the outside, a blank field of snow. Inside, an operating settlement.
 
 There was one important compromise.
 
-Every square foot of roof above the camp was also a load pressing down on the empty space below.
+Every roof carried the weight of snow above it.
 
 And the camp would be adding something that made the surrounding environment even more complicated.
 
@@ -202,11 +198,9 @@ The reactor was a real technical achievement.
 
 But the more systems the Army put underground, the more there was to maintain.
 
-And there was a reason planners were willing to accept such enormous expense and complexity.
+But the reactor was planned before the Iceworm missile proposal. Its cost does not prove the hidden weapons scheme paid for the camp.
 
-They weren't thinking only about a research camp.
-
-They were imagining a weapon that might never have to stay in the same place twice.
+What the working research base did give planners was an extraordinary example: an underground infrastructure they could imagine expanding to support weapons that would not always stay at the same launch position.
 
 ---
 
@@ -236,7 +230,7 @@ Not six hundred missiles actually delivered to Greenland.
 
 Not two thousand completed underground silos.
 
-Those figures belong to a proposed military system.
+Those numbers describe a proposal.
 
 Historical research describes a proposed network across approximately one hundred thirty-five thousand square kilometers.
 
@@ -336,9 +330,7 @@ And now we reach the part of the story where the Army had to decide what the exp
 
 <!-- evidence ARMY65_PM2A_P51;AGU16;GAO24;SCI24 -->
 
-There was no final cinematic collapse.
-
-The camp did not disappear beneath an avalanche while soldiers ran for the exit.
+Camp Century did not end in a single cinematic collapse.
 
 Instead, its purpose began to fade.
 
@@ -346,7 +338,7 @@ The Iceworm proposal was rejected.
 
 The nuclear power plant was shut down in July nineteen sixty-three, then dismantled and removed the following year.
 
-A twenty twenty-four scientific history dates year-round occupation to the summer of nineteen sixty-three. Other accounts place the transition in nineteen sixty-four. Seasonal research continued until nineteen sixty-seven.
+One scientific history dates the end of year-round occupation to summer nineteen sixty-three, while another places it in nineteen sixty-four. Seasonal work continued into the later sixties; one study dates final abandonment to nineteen sixty-seven.
 
 Then Camp Century was abandoned.
 
@@ -420,7 +412,7 @@ NASA reported that the structural remains lay at least one hundred feet beneath 
 
 That is what makes this ending different from the one in the Army's original film.
 
-The movie shows the day people made a city appear beneath the snow.
+The Army film shows how people built a city beneath the snow.
 
 The radar shows what remains after the snow has continued moving for sixty years.
 
