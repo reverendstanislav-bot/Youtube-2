@@ -1,3 +1,20 @@
+# CAMP CENTURY VIDEO007 — STAGE04 COMPLETED 2026-10-24 — AUTHORITATIVE TOP STATUS
+
+**STAGE04 FINAL SCRIPT FACT+EDITORIAL QC: PASS_WITH_QUALIFICATIONS** (not professional lawyer opinion).
+V3 was source-checked and substantially corrected into **V4**, which now supersedes every previous narrative draft.
+- `SCRIPT/STAGE04_CAMP_CENTURY_FULL_NARRATION_V4_EN.md` — 8 chapters / **2931** English spoken words, projected 18.91–21.71 minutes @155–135wpm.
+- `SCRIPT/STAGE04_CAMP_CENTURY_VOICE_TEXT_V4_EN.txt` — exact clean V4 voice, not TTS authorized.
+- `SCRIPT/STAGE04_CAMP_CENTURY_BEATS_V4.csv` — **32 exact script beats**, audio fields blank because NO voice exists.
+- `SCRIPT/STAGE04_CAMP_CENTURY_HOOK_MAP_V4.csv` — **29** script-anchored evidence/attention moments, 145wpm provisional estimates (not verified retention / actual timings).
+- `SCRIPT/STAGE04_CAMP_CENTURY_CLAIM_LEDGER_V1.csv` — **73** factual claim records with sources, numerical caveats, exact reference locators.
+- `SCRIPT/STAGE04_FINAL_FACT_EDITORIAL_LEGAL_QC_2026-10-24.md` — detailed findings, corrected causality, historical timeline discrepancies, licensing risks, release gates.
+
+**Critical edits:** Nuclear plant $5.7m expense predates formal 1962 Iceworm proposal, and does NOT establish hidden missile motive for reactor spending. Military historical 12% and 17% area shrinkage are two LOCAL spots and 16/34in are separate clearance metrics. 20000 cu-yd yearly removal was a forecast of necessary maintenance, not proven yearly excavated volume. Sewage sump 4ft sag is local, not entire camp. End of year-round operations 1963/64 and final abandonment 1966/67 vary by scholarly source. NASA 2024 radar is a new-quality image, NOT first detection of abandoned complex. Reactor removed, residual contamination remains; no current radioactivity plume claimed.
+
+**SOURCE MEDIA LEGAL QC: HOLD.** USACE authentic Army film official PD classification but physical original footage not downloaded/deduplicated/screenshotted and no complete 18–22min footage coverage proved. Magazine photos & other producers' film remain NOT AUTHORIZED. YouTube Content ID/claims can occur even with PD historic footage. NO voice, NO paid credits, NO generation, NO audiovisual edits from this pass. HIA no dialog subtitles.
+**OWNER SCRIPT LOCK: OPEN** — next user approval. Recommended parallel step: physical USACE master acquisition and unique-scene source QC before spending voice credits.
+
+---
 ## 2026-10-24 — STAGE03 V3 STORY REBUILD IN RESPONSE TO OWNER RETENTION REJECTION
 
 Owner judged the V2 script **weak with inadequate hooks**. Script V2 has been fully superseded by V3, not merely retitled. Authoritative current draft:
