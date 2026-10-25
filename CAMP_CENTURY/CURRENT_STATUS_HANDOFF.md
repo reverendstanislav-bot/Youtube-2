@@ -1,3 +1,11 @@
+# CAMP CENTURY R2A 2026-10-25 — THREE ADDITIONAL FEDERAL ORIGINAL FILMS + COPYRIGHT EXCLUSION
+
+Further verified specialist history catalog added **F06 TV-543 Top of the World** (https://campcentury.omeka.net/items/show/151; starts Camp Century-related Greenland section ~16:20, authentic entrance and transports, mixed other Arctic programs); **F07 TV-520 U.S. Army and Boy Scouts** (https://campcentury.omeka.net/items/show/144, NARA 111-TV-520, Camp Century scenes mixed with Camp Tuto); and **F08 TV-781 Engineering for Tomorrow** (https://campcentury.omeka.net/items/show/161, relevant Greenland 12:23-17:19, reused original footage). All military-film-original, **NOT DOWNLOADED, original Federal license per-item check and shot dedup HOLD**. Red exclusion Lee Lockwood/Black Star/Boys' Life magazine photographs, e.g. https://campcentury.omeka.net/items/show/335 — NOT original Army photos.
+
+CURRENT R2 files (updated): `ARCHIVE/STAGE05_VERIFIED_PUBLIC_ARCHIVE_LINKS_AND_RIGHTS_R2.md`, `ARCHIVE/STAGE05_ASSET_ORIGIN_RIGHTS_SOURCE_REGISTER_R2.csv` (**25 entries: 8 film leads, 12 original photo/report/NASA, 5 excluded/restricted**), `ARCHIVE/STAGE05_CODEX_DOWNLOAD_AND_RIGHTS_QC_RUNBOOK_R2.md`, `ARCHIVE/STAGE05_CODEX_TASK_TO_RUN_R2.md`, `ARCHIVE/stage05_original_archive_probe_R2.sh`.
+V4 Script Lock remains PASS, VO NOT AUTHORIZED, no source binaries/actual source timecodes/unique motion seconds checked in assistant session.
+
+---
 # VIDEO007 CAMP CENTURY — STAGE05 ARCHIVE RESEARCH R2 CURRENT (2026-10-25)
 
 **Script status unchanged:** LOCKED Stage04 V4 / 2931 spoken words / 8 chapters, producer-approved Script Lock ID in `SCRIPT/STAGE05_SCRIPT_LOCK_V4_2026-10-25.md`. **No voice/generation credit approval.**
