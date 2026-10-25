@@ -1,3 +1,16 @@
+## 2026-10-24 — STAGE03 V3 STORY REBUILD IN RESPONSE TO OWNER RETENTION REJECTION
+
+Owner judged the V2 script **weak with inadequate hooks**. Script V2 has been fully superseded by V3, not merely retitled. Authoritative current draft:
+- `SCRIPT/STAGE03_CAMP_CENTURY_FULL_NARRATION_V3_EN.md` — **2898 spoken US-English words, 8 full chapters, projected 18.7–21.5 min @155–135 wpm**.
+- `SCRIPT/STAGE03_CAMP_CENTURY_VOICE_TEXT_V3_EN.txt` — EXACT unannotated narration, no headings or research notes.
+- `SCRIPT/STAGE03_CAMP_CENTURY_BEATS_V3.csv` — **35** complete voiced semantic beat entries, total 2898 words, no made-up actual audio timecode.
+- `SCRIPT/STAGE03_V3_RETENTION_HOOK_MAP.csv` — **23** anchors at approximate script positions using 145 wpm, NOT actual voice timings.
+- `SCRIPT/STAGE03_V3_EDITORIAL_HOOK_AND_PRIMARY_FACT_QC.md` — evidence and editorial audit, explicit correction of previous mistaken V2 fact QC.
+IMPORTANT numeric reversal: former rejection of 12%/yr tunnel cross-section shrinkage was erroneous; real US Army TR174 Figures28/29 p39 DO report localized 12% and 17%, separately TableII 16/34in yearly vertical closure, p41 estimate 20k cubic yards/year required excavation. V3 qualifies them accurately.
+
+Current V3 flow: losing a built underground city -> incredible 138-mi supply convoy / 5600 short tons -> Peter snow-miller and structural failure -> $5.7m nuclear plant in $7.92m city and sewage floor collapse locally -> unbuilt 600-missile secret Iceworm proposal -> quantified ongoing tunnel maintenance -> staged closure, waste science disputes -> recovered deep science cores and 2024 NASA radar payoff.
+**STAGE03 V3 drafted + initial writer research QC: PASS_WITH_QUALIFICATIONS; independent Stage04 fact/legal OPEN; owner Script Lock OPEN; paid TTS PROHIBITED without explicit approval; historic footage still only source leads, rights/physical QC HOLD; none downloaded or used.** No SRT/subtitles as HIA owner lock.
+
 ## TOP STATUS — 2026-10-24: STAGE03 V2 COMPLETE REWRITE (REPLACES V1)
 
 **HIA VIDEO007 Camp Century.** The producer explicitly rejected weak Stage03 V1 and requested a fully new high-retention documentary narration modeled on general storytelling methods of videos with >1M views, NOT copying competitor scripts. V2 is the authoritative current candidate:
