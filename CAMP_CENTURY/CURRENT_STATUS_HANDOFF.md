@@ -1,3 +1,24 @@
+# VIDEO007 CAMP CENTURY — STAGE05 EXPANDED ARCHIVE R3 (2026-10-25)
+
+**Owner feedback: 25 sources was insufficient.** Current replacement R3 SOURCE INVENTORY contains **53 records** at `ARCHIVE/STAGE05_ASSET_SOURCE_REGISTER_R3.csv`: **17 video-film and alternate-print/context leads, 26 photo/report/NASA data points, 10 rights-excluded or unlicensed examples**. **This is NOT 17 new independent film masters.** Several items are duplicates, pre-Camp Century footage, or intentionally disallowed licensed scans.
+
+Newest significant leads:
+- Additional Army archival `Operation Lead Dog` TV494 (1960), original NARA 111-TV-494 Army credited but NOT Camp Century footage.
+- `Research and Development in the Arctic` TV366 (1955), explicitly Site II material only.
+- NARA Original `Operation Blue Jay` TV227 (1952) https://archive.org/details/gov.archives.arc.2569497 ; proper CC0/MPEG2 original download present, THULE airfield, not Camp Century.
+- TV322 earlier 1953 Site I/II construction, TV273 1953 Greenland technology predecessor, `Icecap` TV664 later recycled film.
+- Raw 1959/1960 military Greenland survey movie described with detailed source timecodes https://16mmfilmography.org/film/1959-survey-construction-of-camp-century-arctic-research-base/ and stocked by Periscope Film. It could add real original motion but commercial scan license/underlying government provenance NOT CLEARED: do not import until a separately authenticated government original exists.
+- Original Army 1954 **243-page icecap engineering report**, 1959 **368-page Arctic transport report**, predecessor 1954 Project Dog Sled figures, separately listed genuine government Camp Century core-handling photo.
+- 5 additional explicit excluded third-party commercial photo/film sources.
+
+CURRENT CODEx:
+`ARCHIVE/STAGE05_ASSET_SOURCE_REGISTER_R3.csv`
+`ARCHIVE/STAGE05_R3_EXPANDED_VIDEO_PHOTO_RESEARCH_AND_GAPS.md`
+`ARCHIVE/STAGE05_CODEX_TASK_TO_RUN_R3.md`
+R2 source archive and original downloads remain useful for F01/F03/F04 but **R3 files are current for broader discovery and accurate chapter/site/rights classification**.
+
+**SCRIPT LOCK PASS / V4 unmodified, 8 chapters, 2931 words. PHYSICAL ARCHIVE QC HOLD — NO verified original downloaded, no actual footage unique seconds, no real IN/OUT and no evidence an 18–22min film is visually covered. NO paid voice or gen spend.** Never portray pre-1959 different military bases as actual Camp Century; no copyrighted reprints or commercial scans used without rights.
+---
 # CAMP CENTURY R2A 2026-10-25 — THREE ADDITIONAL FEDERAL ORIGINAL FILMS + COPYRIGHT EXCLUSION
 
 Further verified specialist history catalog added **F06 TV-543 Top of the World** (https://campcentury.omeka.net/items/show/151; starts Camp Century-related Greenland section ~16:20, authentic entrance and transports, mixed other Arctic programs); **F07 TV-520 U.S. Army and Boy Scouts** (https://campcentury.omeka.net/items/show/144, NARA 111-TV-520, Camp Century scenes mixed with Camp Tuto); and **F08 TV-781 Engineering for Tomorrow** (https://campcentury.omeka.net/items/show/161, relevant Greenland 12:23-17:19, reused original footage). All military-film-original, **NOT DOWNLOADED, original Federal license per-item check and shot dedup HOLD**. Red exclusion Lee Lockwood/Black Star/Boys' Life magazine photographs, e.g. https://campcentury.omeka.net/items/show/335 — NOT original Army photos.
