@@ -1,3 +1,19 @@
+# HIA VIDEO007 CAMP CENTURY — STAGE06 ACTUAL FOOTAGE PROCESSING ATTEMPT, 2026-10-25
+
+Owner ordered: retrieve distinct original NARA shots, cut real 5–20sec excerpts with source timecodes, verify rights/site/quality/duplicates and count authentic moving minutes in eight V4 chapters. Stage06 actual physical download was attempted NOW, not just research.
+
+**UNBLOCKED:** exact verifiable public original MPEG2 URL for NARA 111-TV-514 and DoD PIN26064; legal public original rights page, separate DVIDS PM2A movie. Full original real-video QC Python/FFmpeg pipeline was authored and technically TESTED ONLY on a temporary synthetic 16-second testsrc; sample clip produced and test files DELETED, no fake Camp Century scene.
+**BLOCKER:** `archive.org` DNS blocked in working model container; external download service failed; browser follows MPEG2 redirect to inaccessible `dn600304.us.archive.org`/`dn601204.us.archive.org`. DVIDS PM-2A official download may need registration/login. **Original Camp Century MP4/MPEG files obtained: ZERO**.
+**REAL CUT FILES exported: ZERO; genuine unique real motion seconds: UNKNOWN (none physically verified).** No source IN/OUT times were invented. Per chapter CH01–CH08 real moving footage QC remains HOLD; CH05 nonbuilt system has no genuine operational missile footage.
+**NEW ACTUAL EVIDENCE:**
+`ARCHIVE/STAGE06_ORIGINAL_MEDIA_PHYSICAL_ATTEMPT_LOG_2026-10-25.csv`,
+`ARCHIVE/STAGE06_PHYSICAL_FOOTAGE_QC_NO_BINARY_NETWORK_HOLD_2026-10-25.md`,
+`ARCHIVE/STAGE06_CODEX_EXTRACT_REAL_NARA_FOOTAGE_CURRENT_JOB.md`.
+A small ChatGPT conversation ZIP `CAMP_CENTURY_STAGE06_ORIGINAL_FOOTAGE_QC_TOOLKIT.zip` contains tested physical scanner, contact-sheet/extractor, dup suggestions and per-chapter coverage report; the ZIP is available as an attachment in this chat, NOT automatically committed to GitHub. GitHub R2 archive source runner remains available to Codex. On editor machine with network place originals and ACTUALLY run cutter; only after human clip review can source bank pass.
+
+**SCRIPT LOCK V4 remains PASS; all paid voice/generation forbiddens remain.**
+
+---
 # 2026-10-25 PRODUCER CHANGE: ONLY AUTHENTIC CAMP CENTURY MOVING FILM — R4
 
 Producer explicitly rejects historical photo/slideshow and unrelated Greenland bases as editorial footage. **R3 53-entry archive = RESEARCH ONLY, NOT import list**; real-film approved selection R4:
