@@ -1,0 +1,2116 @@
+[
+  {
+    "asset_id": "G01",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH01",
+    "beat_ids": [
+      "CC07-S4-CH01-B01"
+    ],
+    "title": "A working city in shallow firn",
+    "reference_ids": [
+      "R02_PLAN",
+      "R03_ARCH",
+      "R18_ROOM"
+    ],
+    "brief": "One clear oblique cutaway through a compacted-snow trench. Show prefabricated occupied rooms beneath a corrugated arch, with a surface ramp. Match the actual ordinary rooms and arch proportions in the references. Show shallow buried construction, not a rock cavern, giant subterranean metropolis or natural ice cave. Explain material around the rooms, without drawing a complete invented site plan.",
+    "exact_screen_text": [
+      "COMPACTED SNOW",
+      "PREFAB ROOMS"
+    ],
+    "claim_ids": [
+      "CC07-S4-002",
+      "CC07-S4-003"
+    ],
+    "historical_limit": "Qualitative cutaway, not measured geometry or a literal historic view. No1963 deformation rate in this opening illustration.",
+    "motion_after_approval": "4-6s gentle continuous reveal of surface then rooms, no shake; main evidence reveal later.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G01.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH01-B01",
+    "voice_cue_exact": "working settlement",
+    "voice_context_exact": "In nineteen sixty-three, the United States Army was losing space inside a city it had built beneath Greenland's ice.\r\n\r\nNot to an enemy. Not to an avalanche. The ceiling itself was slowly coming down.\r\n\r\nThis was Camp Century: a working settlement hidden beneath the surface of the Greenland ice sheet. There were sleeping quarters, workshops, medical facilities, heated corridors, and a nuclear power plant. Tracked vehicles could travel along an underground main street.\r\n\r\nBut the Army's own measurements told another story.\r\n\r\nThe Army documented one section of its main passage losing roughly twelve percent of its cross-sectional area per year. In a separate side passage, the figure was seventeen percent. Those were measured examples, not identical rates for every tunnel.",
+    "global_word_in_0based": 39,
+    "global_word_out_exclusive": 41
+  },
+  {
+    "asset_id": "G02",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B01",
+      "CC07-S4-CH03-B02"
+    ],
+    "title": "Cut-and-cover method",
+    "reference_ids": [
+      "R16_PETER",
+      "R03_ARCH"
+    ],
+    "brief": "A complete three-phase engineering illustration across one continuous snow section: excavated trench by a Peter miller, roof arch placed above a trench, the completed covered opening. Use consistent scale and camera across phases. The machines must look like the actual reference. No bedrock drilling, TBM, underground blast or tunnel-boring machine.",
+    "exact_screen_text": [
+      "CUT",
+      "COVER",
+      "BURY"
+    ],
+    "claim_ids": [
+      "CC07-S4-019",
+      "CC07-S4-020",
+      "CC07-S4-021"
+    ],
+    "historical_limit": "A method explanation, not three measured stages of a particular filmed trench.",
+    "motion_after_approval": "6-8s: reveal each phase in action order with0.4-0.7s eased line/wash masks; no card slides.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G02.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH03-B01",
+    "voice_cue_exact": "cuts a long trench",
+    "voice_context_exact": "The central construction machine at Camp Century was called the Peter snow miller.\r\n\r\nIn the Army's period images, this machine resembles an industrial cutter trying to eat its way through an endless white wall.\r\n\r\nIt cuts a long trench into compacted snow.\r\n\r\nThe next step is deceptively simple: build inside the trench, cover it with a roof, then put snow back on top.\r\n\r\nThis is cut-and-cover construction. But unlike an ordinary city, the material above and beside the buildings is not stable earth.\r\n\r\nIt's snow and firn, constantly responding to pressure and temperature.",
+    "global_word_in_0based": 664,
+    "global_word_out_exclusive": 668
+  },
+  {
+    "asset_id": "G03",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "Prefab room inside the arch",
+    "reference_ids": [
+      "R17_FLOOR",
+      "R18_ROOM",
+      "R03_ARCH"
+    ],
+    "brief": "One close technical cutaway showing timber floor framing supporting a plain prefabricated room within a snow trench. Preserve the visible materials and ordinary construction of the references. Distinguish room roof from the surrounding snow arch with clear drafting. No invented equipment or dimensions.",
+    "exact_screen_text": [
+      "SNOW ARCH",
+      "PREFAB ROOM"
+    ],
+    "claim_ids": [
+      "CC07-S4-024"
+    ],
+    "historical_limit": "Explains nesting of structures; does not assert measured clearances or prove a form-removal failure.",
+    "motion_after_approval": "5-7s controlled focus from floor framing to room and enclosing arch; single motivated move.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G03.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "buildings were only the beginning",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 852,
+    "global_word_out_exclusive": 857
+  },
+  {
+    "asset_id": "G04",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B04"
+    ],
+    "title": "Heat changes the surrounding material",
+    "reference_ids": [
+      "R03_ARCH",
+      "R11_DISTRESS"
+    ],
+    "brief": "A small heated room inside a snow arch in cross-section. Sparse muted warm wash around the room indicates local warming; charcoal snow contours remain clear. Show the material as snow/firn, not liquid oceans or melting blue caverns. No quantitative temperature scale, radiation glow or reactor cutaway.",
+    "exact_screen_text": [
+      "HEAT",
+      "SNOW AND FIRN"
+    ],
+    "claim_ids": [
+      "CC07-S4-026"
+    ],
+    "historical_limit": "Qualitative thermal influence only; no computed heat field or citywide collapse.",
+    "motion_after_approval": "4-6s slow growth of restrained warm wash, stable camera.",
+    "priority": "P1",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G04.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH03-B04",
+    "voice_cue_exact": "Heat.",
+    "voice_context_exact": "There was one important compromise.\r\n\r\nEvery roof carried the weight of snow above it.\r\n\r\nAnd the camp would be adding something that made the surrounding environment even more complicated.\r\n\r\nHeat.\r\n\r\nNot just from the people living there, but from a machine that cost more than most of the city around it.",
+    "global_word_in_0based": 943,
+    "global_word_out_exclusive": 944
+  },
+  {
+    "asset_id": "G05",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B03",
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "Water supply and wastewater are different systems",
+    "reference_ids": [
+      "R19_WATER",
+      "R10_SUMP",
+      "R02_PLAN"
+    ],
+    "brief": "Two clear separate subsurface systems within one finished cutaway: a meltwater well feeding a small water-supply building; a separate wastewater sump influencing nearby supporting snow locally. A thin physical separation makes the distinction obvious. The relative placement is conceptual, not a map. Do not connect drinking water to sewage or to a reactor coolant loop. Do not use the fan/air-well Fig32 as a drinking-water design. No plant internals, valves, operating parameters or radioactive visual symbols.",
+    "exact_screen_text": [
+      "WATER SUPPLY",
+      "WASTEWATER"
+    ],
+    "claim_ids": [
+      "CC07-S4-033",
+      "CC07-S4-034",
+      "CC07-S4-036"
+    ],
+    "historical_limit": "Not to scale; local sewage-related settlement, not reactor meltdown or all-camp failure.",
+    "motion_after_approval": "6-9s first follow clean-water branch, then reveal the separate sump influence; no racing arrows.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G05.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH04-B03",
+    "voice_cue_exact": "base required water",
+    "voice_context_exact": "At Camp Century, the heat itself was useful.\r\n\r\nThe base required water. Engineers developed systems to melt snow and ice and recover usable water from beneath the surface.\r\n\r\nBut this creates another problem.\r\n\r\nWhere do you put the water after people have used it?\r\n\r\nThe Army's engineers built underground disposal sumps. One was placed too near living quarters during a rush to finish before winter.\r\n\r\nThe odors reached the occupied buildings.\r\n\r\nAnd that wasn't the worst consequence.\r\n\r\nWarm liquid moving into the snow changed the ground nearby. The original report described the floor near the disposal area settling by roughly four feet, forcing the removal of two nearby buildings.",
+    "global_word_in_0based": 1163,
+    "global_word_out_exclusive": 1166
+  },
+  {
+    "asset_id": "G06",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B01",
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Why usable room disappears",
+    "reference_ids": [
+      "R06_PROFILES",
+      "R11_DISTRESS"
+    ],
+    "brief": "A qualitative side-by-side interior snow-arch section, showing a plain room under an initially taller opening and a later reduced opening. Use the measured profile reference only to understand the direction and irregularity of deformation. No fabricated exact graph, time series, numeric axis or copied rate labels; exact data will use the authentic figure and separate verified chart.",
+    "exact_screen_text": [
+      "INITIAL OPENING",
+      "REDUCED OPENING"
+    ],
+    "claim_ids": [
+      "CC07-S4-049",
+      "CC07-S4-050",
+      "CC07-S4-051"
+    ],
+    "historical_limit": "Qualitative geometry, not a reconstruction of exact survey epochs.",
+    "motion_after_approval": "6-8s stable dissolve/morph between approved endpoint contours; no elastic wobble or camera shake.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G06.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH06-B01",
+    "voice_cue_exact": "walls creep inward",
+    "voice_context_exact": "By the early nineteen sixties, Camp Century's engineers were measuring something their cameras couldn't make glamorous.\r\n\r\nThe shrinking of empty space.\r\n\r\nA snow trench can look perfectly solid. Then, month by month, the roof settles.\r\n\r\nThe walls creep inward because the snow and firn around them are deforming under pressure.\r\n\r\nThe Army knew about creep. This wasn't the discovery of a new physical law.\r\n\r\nThe problem was the scale of what maintaining a city inside that moving material actually required.\r\n\r\nLook at two diagrams in the Army's nineteen sixty-five report.",
+    "global_word_in_0based": 1778,
+    "global_word_out_exclusive": 1781
+  },
+  {
+    "asset_id": "G07",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B03",
+      "CC07-S4-CH06-B04"
+    ],
+    "title": "The repeated maintenance job",
+    "reference_ids": [
+      "R08_CHAINSAW",
+      "R16_PETER"
+    ],
+    "brief": "A readable three-action maintenance vignette: a worker trims encroaching snow beside a prefab eave with the small corded electric chain saw in the actual photograph; loose cut snow is gathered; a small load is removed. One continuous technical illustration, no boxed cards. Preserve ordinary period workwear and the tool silhouette. No chainsaw attacking steel beams, blast demolition or fictional disaster.",
+    "exact_screen_text": [
+      "TRIM",
+      "REMOVE",
+      "REPEAT"
+    ],
+    "claim_ids": [
+      "CC07-S4-054",
+      "CC07-S4-055"
+    ],
+    "historical_limit": "Illustrates recurring labour.20,000yd3 is an estimate, not footage of actual annual removal.",
+    "motion_after_approval": "6-8s follow work in physical order; document Fig33 precedes it; no quantitative animation.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G07.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH06-B03",
+    "voice_cue_exact": "trimming and removing",
+    "voice_context_exact": "A corridor must be tall enough for its occupants and equipment. When it loses height, someone has to create that space again.\r\n\r\nMaintaining the original openings throughout the camp, the Army estimated, would mean trimming and removing roughly twenty thousand cubic yards of snow per year.\r\n\r\nThis was a maintenance estimate, not a claim that twenty thousand cubic yards were actually hauled out every year.\r\n\r\nStill, picture the implication.\r\n\r\nYou build the city once.\r\n\r\nThen you assign machinery and crews to keep rebuilding its empty spaces.\r\n\r\nAnd the roof is not the only problem.",
+    "global_word_in_0based": 1967,
+    "global_word_out_exclusive": 1970
+  },
+  {
+    "asset_id": "G08",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01"
+    ],
+    "title": "Deep core versus the shallow base",
+    "reference_ids": [
+      "R15_DRILL_1966",
+      "R02_PLAN"
+    ],
+    "brief": "A vertical explanatory section through Greenland snow and ice, with a small shallow camp near the top and a deep scientific core reaching the ice-sediment boundary far below. Include a clear scale-break convention; it is not to scale. Show plain drilling equipment informed by the authentic1966 drilling-trench photo. The basal sediment belongs below the ice sheet, not inside a barracks tunnel.",
+    "exact_screen_text": [
+      "1966 CORE",
+      "BASAL SEDIMENT"
+    ],
+    "claim_ids": [
+      "CC07-S4-066",
+      "CC07-S4-067"
+    ],
+    "historical_limit": "Do not invent a precise drilling depth or use the2024 minimum burial depth as a1966 camp depth.",
+    "motion_after_approval": "6-9s track down the core path, pause at sediment; preserve the scale break.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G08.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH08-B01",
+    "voice_cue_exact": "reached the bottom",
+    "voice_context_exact": "In nineteen sixty-six, scientific drilling at Camp Century reached the bottom of the Greenland ice sheet.\r\n\r\nBelow more than a thousand meters of ice, researchers recovered frozen material from the ancient ground.\r\n\r\nAt the time, Camp Century was already losing its military future.\r\n\r\nBut the core samples had a future no one could have fully predicted.\r\n\r\nThe samples were stored and moved between institutions. Some of the deepest material was long believed lost.\r\n\r\nDuring a twenty nineteen inventory at the University of Copenhagen, a curator located the long-missing subglacial samples and their original records.",
+    "global_word_in_0based": 2524,
+    "global_word_out_exclusive": 2527
+  },
+  {
+    "asset_id": "G09",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B02"
+    ],
+    "title": "From frozen sample to scientific evidence",
+    "reference_ids": [
+      "R13_CORE_2021"
+    ],
+    "brief": "An informative editorial drawing of a frozen sediment-bearing core cut face, a carefully held small sediment sample and a simple optical examination station, arranged in a clear visual progression. Follow the actual brown-grey archived core material; no gemstones or fantasy fossils. No identifiable plant species, numerical age, fake micrograph, invented data trace or historic government label. Use restrained report-style ink and flat wash, not glossy product photography.",
+    "exact_screen_text": [
+      "CORE",
+      "SEDIMENT",
+      "ANALYSIS"
+    ],
+    "claim_ids": [
+      "CC07-S4-068",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Conceptual modern analysis; not a photo of a specific laboratory, fossil or dated specimen.",
+    "motion_after_approval": "5-7s one measured progression from core to sample; authentic sample photo remains the factual anchor.",
+    "priority": "P1",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G09.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH08-B02",
+    "voice_cue_exact": "ancient plants",
+    "voice_context_exact": "It was evidence from below the ice sheet itself.\r\n\r\nLater studies found traces of ancient plants and other material associated with environments very different from modern Greenland.\r\n\r\nThe camp that had been built for a Cold War engineering experiment had preserved a scientific record of a far older landscape.\r\n\r\nThen came a new way to see the same abandoned structures — this time from the air.\r\n\r\nIn April twenty twenty-four, a NASA aircraft was using radar to study Greenland's ice.\r\n\r\nThe instrument detected the buried structures of Camp Century in a new level of detail. Earlier radar surveys had also detected the base, but this instrument revealed more of its layout.",
+    "global_word_in_0based": 2624,
+    "global_word_out_exclusive": 2626
+  },
+  {
+    "asset_id": "G10",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B02",
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "What radar sees",
+    "reference_ids": [
+      "R14_RADAR_2024",
+      "R02_PLAN"
+    ],
+    "brief": "A wide modern explanatory cutaway: a small airborne survey platform above the ice, a restrained broad side-looking radar sampling wedge, and buried structural traces below the surface. Use the actual NASA composite only to understand the kind of observation; never imitate or alter it into invented measurement data. No illuminated working underground city, people, accessible rooms, missile complex, fake heatmap or new radar returns.",
+    "exact_screen_text": [
+      "AIRBORNE RADAR",
+      "BURIED STRUCTURES"
+    ],
+    "claim_ids": [
+      "CC07-S4-070",
+      "CC07-S4-071",
+      "CC07-S4-073"
+    ],
+    "historical_limit": "Method illustration only; original NASA radar is D08. Do not interpret a distant bed reflection plotted above the camp as physically above it.",
+    "motion_after_approval": "5-7s reveal survey geometry, then cut to the untouched actual radar composite.",
+    "priority": "P1",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G10.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH08-B02",
+    "voice_cue_exact": "using radar to study",
+    "voice_context_exact": "It was evidence from below the ice sheet itself.\r\n\r\nLater studies found traces of ancient plants and other material associated with environments very different from modern Greenland.\r\n\r\nThe camp that had been built for a Cold War engineering experiment had preserved a scientific record of a far older landscape.\r\n\r\nThen came a new way to see the same abandoned structures — this time from the air.\r\n\r\nIn April twenty twenty-four, a NASA aircraft was using radar to study Greenland's ice.\r\n\r\nThe instrument detected the buried structures of Camp Century in a new level of detail. Earlier radar surveys had also detected the base, but this instrument revealed more of its layout.",
+    "global_word_in_0based": 2684,
+    "global_word_out_exclusive": 2688
+  },
+  {
+    "asset_id": "D01",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH01",
+    "beat_ids": [
+      "CC07-S4-CH01-B02"
+    ],
+    "title": "Authentic report identity",
+    "reference_ids": [
+      "R01_COVER"
+    ],
+    "brief": "Use original cover. Brief readable hold, then source-led cut to the relevant page. Never generate report text.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-001"
+    ],
+    "historical_limit": "No fake stamp, altered date or decorative declassification overlay.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D01_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH01-B02",
+    "voice_cue_exact": "published engineering report",
+    "voice_context_exact": "The Army's engineers estimated that keeping this one camp's tunnels at their original dimensions would require cutting and removing around twenty thousand cubic yards of snow every year.\r\n\r\nThat was an estimate, not a record of snow actually removed.\r\n\r\nThe Army's surviving film records the machines, trenches, and extraordinary construction effort. The published engineering report shows how the arches and rooms were assembled beneath the surface.\r\n\r\nEverything looks finished.\r\n\r\nBut the biggest construction job might have been the one that never ended.\r\n\r\nNow for the part the public movie did not tell in full.",
+    "global_word_in_0based": 172,
+    "global_word_out_exclusive": 175
+  },
+  {
+    "asset_id": "D02",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "Actual constructed base layout",
+    "reference_ids": [
+      "R02_PLAN"
+    ],
+    "brief": "Use original Fig26. Focus on actual Main Street, living/service spaces and workshop; no all-page yellow box.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-024"
+    ],
+    "historical_limit": "Dense original labels remain in scan; do not invent rooms or redraw the entire plan through ImageGen.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D02_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "layout included a dining hall",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 873,
+    "global_word_out_exclusive": 878
+  },
+  {
+    "asset_id": "D03",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B01",
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "Actual cost accounting",
+    "reference_ids": [
+      "R04_BUDGET"
+    ],
+    "brief": "Show the original PM-2A5,700,000 line and7,920,000 total with their table labels and actual-total footnote.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-029",
+      "CC07-S4-030"
+    ],
+    "historical_limit": "Period dollars; no inflation-adjusted claim and no generated accounting sheet.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D03_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH04-B02",
+    "voice_cue_exact": "five point seven million",
+    "voice_context_exact": "The nuclear power plant alone accounted for about five point seven million.\r\n\r\nThose are period dollars. And they mean that the plant consumed the great majority of the initial project cost.\r\n\r\nThe reactor arrived as another set of heavy loads hauled across the ice. Engineers had to assemble it in the prepared underground plant space.\r\n\r\nIts reactor produced heat on the scale of ten megawatts, while the electrical output supplied to the camp was roughly one and a half megawatts.\r\n\r\nThose figures measure different things. Reactor heat is not the same as electricity delivered to the buildings.",
+    "global_word_in_0based": 1065,
+    "global_word_out_exclusive": 1069
+  },
+  {
+    "asset_id": "D04",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Actual measured profiles",
+    "reference_ids": [
+      "R06_PROFILES"
+    ],
+    "brief": "Keep Fig28/29 contours, dates, station names and scale bars. Reveal original profiles, then the two local-rate captions.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-050",
+      "CC07-S4-051"
+    ],
+    "historical_limit": "No yellow fill over the drawing, invented contour, extrapolation or whole-camp rate.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D04_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH06-B02",
+    "voice_cue_exact": "same tunnel sections at different dates",
+    "voice_context_exact": "They show the same tunnel sections at different dates.\r\n\r\nThe difference isn't subtle.\r\n\r\nIn the main passage, the report illustrates one section losing about twelve percent of its cross-sectional area a year. A side passage is documented at roughly seventeen percent.\r\n\r\nThe Army also reported average annual vertical closure of about sixteen inches in the main passage, and about thirty-four inches in side trenches. These are clearance losses, not additional percentages of floor area.\r\n\r\nNot every trench behaved identically. Heat, geometry, supports, and snow conditions all mattered.\r\n\r\nBut even the average figures turn a finished city into a continuing construction site.",
+    "global_word_in_0based": 1835,
+    "global_word_out_exclusive": 1841
+  },
+  {
+    "asset_id": "D05",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B03"
+    ],
+    "title": "Annual trimming estimate",
+    "reference_ids": [
+      "R07_ESTIMATE"
+    ],
+    "brief": "Focus precisely on estimated and20,000 cubic yards in the original paragraph; short translucent marker sweep behind text, not a line through it.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-054"
+    ],
+    "historical_limit": "Keep the estimate qualifier attached to the quantity.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D05_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH06-B03",
+    "voice_cue_exact": "twenty thousand",
+    "voice_context_exact": "A corridor must be tall enough for its occupants and equipment. When it loses height, someone has to create that space again.\r\n\r\nMaintaining the original openings throughout the camp, the Army estimated, would mean trimming and removing roughly twenty thousand cubic yards of snow per year.\r\n\r\nThis was a maintenance estimate, not a claim that twenty thousand cubic yards were actually hauled out every year.\r\n\r\nStill, picture the implication.\r\n\r\nYou build the city once.\r\n\r\nThen you assign machinery and crews to keep rebuilding its empty spaces.\r\n\r\nAnd the roof is not the only problem.",
+    "global_word_in_0based": 1971,
+    "global_word_out_exclusive": 1973
+  },
+  {
+    "asset_id": "D06",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B04"
+    ],
+    "title": "The actual electric-chain-saw photograph",
+    "reference_ids": [
+      "R08_CHAINSAW"
+    ],
+    "brief": "Use the original Fig33 photograph and explanatory caption. Gentle focus on tool and eave; magnifier only if needed for readability.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-055"
+    ],
+    "historical_limit": "A still photograph is not moving archive; do not generate a new worker and call it proof.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D06_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH06-B04",
+    "voice_cue_exact": "Figure thirty-three",
+    "voice_context_exact": "Blowing snow buried access ramps. Warm air affected parts of the surrounding structure. Some forms had been removed too early. Systems inside the camp produced heat, moisture, and maintenance demands of their own.\r\n\r\nFigure thirty-three of the report shows a soldier using an electric chain saw to cut snow away from the eave of a building inside a trench. It looks like an ordinary maintenance task, until you remember what is above the workers.\r\n\r\nMore snow, under pressure, settling every season.\r\n\r\nIt is one thing to accept that burden for a scientific test camp.",
+    "global_word_in_0based": 2060,
+    "global_word_out_exclusive": 2062
+  },
+  {
+    "asset_id": "D07",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B03"
+    ],
+    "title": "GAO assessment qualification",
+    "reference_ids": [],
+    "brief": "Original Highlights Greenland paragraph required; local PDF acquisition returned403. Do not fake a GAO page. Use the source facts in editorial notes until genuine document image is acquired.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-064",
+      "CC07-S4-065"
+    ],
+    "historical_limit": "DOCUMENT_BINARY_HOLD; web text verified, local source image missing.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "SOURCE_IMAGE_HOLD_DO_NOT_GENERATE",
+    "prompt_file": "prompts/D07_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH07-B03",
+    "voice_cue_exact": "Government Accountability Office",
+    "voice_context_exact": "But this was a scenario, not an observation of a radioactive river running into the sea.\r\n\r\nThe United States Government Accountability Office reported in twenty twenty-four that a twenty twenty-one study expected the buried contamination to remain largely immobile through the year twenty-one hundred.\r\n\r\nSo the scientific question is not resolved by a single dramatic headline.\r\n\r\nDenmark established permanent ice-sheet monitoring. Different projections depend on their assumptions about Greenland's future climate.\r\n\r\nAnd there is one last twist.\r\n\r\nThe Army went to Greenland to learn how to build inside ice that was moving.",
+    "global_word_in_0based": 2400,
+    "global_word_out_exclusive": 2403
+  },
+  {
+    "asset_id": "D08",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "Actual2024 radar composite",
+    "reference_ids": [
+      "R14_RADAR_2024"
+    ],
+    "brief": "Use untouched actual NASA composite; retain meaningful context, original radar data and credit.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-070",
+      "CC07-S4-071",
+      "CC07-S4-073"
+    ],
+    "historical_limit": "Published25Nov2024, acquiredApril2024; not first radar detection, not an interior photograph.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D08_PRODUCTION_BRIEF.md",
+    "provenance_class": "SCIENTIFIC_SOURCE",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH08-B03",
+    "voice_cue_exact": "published the images",
+    "voice_context_exact": "NASA published the images in November that year.\r\n\r\nNot an accessible city filled with working machinery. Not a secret missile complex still operating beneath the glacier.\r\n\r\nNASA reported that the structural remains lay at least one hundred feet beneath the surface when described in twenty twenty-four.\r\n\r\nThat is what makes this ending different from the one in the Army's original film.\r\n\r\nThe Army film shows how people built a city beneath the snow.\r\n\r\nThe radar shows what remains after the snow has continued moving for sixty years.\r\n\r\nAnd the scientific core reveals that the ice also holds records older than any nation that ever claimed a strategic interest in Greenland.",
+    "global_word_in_0based": 2722,
+    "global_word_out_exclusive": 2725
+  },
+  {
+    "asset_id": "D09",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01"
+    ],
+    "title": "Actual1966 drilling-trench photograph",
+    "reference_ids": [
+      "R15_DRILL_1966"
+    ],
+    "brief": "Use untouched NARA photograph from NASA as the historical drilling reference; identify1966 in context.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-066"
+    ],
+    "historical_limit": "Still image, not motion; do not attribute an exact drilling moment absent a more specific caption.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D09_PRODUCTION_BRIEF.md",
+    "provenance_class": "HISTORICAL_SOURCE",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH08-B01",
+    "voice_cue_exact": "nineteen sixty-six",
+    "voice_context_exact": "In nineteen sixty-six, scientific drilling at Camp Century reached the bottom of the Greenland ice sheet.\r\n\r\nBelow more than a thousand meters of ice, researchers recovered frozen material from the ancient ground.\r\n\r\nAt the time, Camp Century was already losing its military future.\r\n\r\nBut the core samples had a future no one could have fully predicted.\r\n\r\nThe samples were stored and moved between institutions. Some of the deepest material was long believed lost.\r\n\r\nDuring a twenty nineteen inventory at the University of Copenhagen, a curator located the long-missing subglacial samples and their original records.",
+    "global_word_in_0based": 2517,
+    "global_word_out_exclusive": 2519
+  },
+  {
+    "asset_id": "D10",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B02"
+    ],
+    "title": "Actual archived core interiors",
+    "reference_ids": [
+      "R13_CORE_2021"
+    ],
+    "brief": "Use only Fig2d cropped modern2021 photographs with retained specimen scale and CC BY credit.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-068",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Photographed2021, published2024. Not a1966 photo or an ancient-plant micrograph.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D10_PRODUCTION_BRIEF.md",
+    "provenance_class": "SCIENTIFIC_SOURCE",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH08-B02",
+    "voice_cue_exact": "Later studies found traces",
+    "voice_context_exact": "It was evidence from below the ice sheet itself.\r\n\r\nLater studies found traces of ancient plants and other material associated with environments very different from modern Greenland.\r\n\r\nThe camp that had been built for a Cold War engineering experiment had preserved a scientific record of a far older landscape.\r\n\r\nThen came a new way to see the same abandoned structures — this time from the air.\r\n\r\nIn April twenty twenty-four, a NASA aircraft was using radar to study Greenland's ice.\r\n\r\nThe instrument detected the buried structures of Camp Century in a new level of detail. Earlier radar surveys had also detected the base, but this instrument revealed more of its layout.",
+    "global_word_in_0based": 2619,
+    "global_word_out_exclusive": 2623
+  },
+  {
+    "asset_id": "C01",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B01",
+      "CC07-S4-CH02-B02"
+    ],
+    "title": "Supply distance",
+    "reference_ids": [
+      "R05_LOGISTICS"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "CAMP TUTO",
+      "138 MILES",
+      "CAMP CENTURY"
+    ],
+    "claim_ids": [
+      "CC07-S4-012"
+    ],
+    "historical_limit": "Two-node route-length diagram, NOT a geographic map. No invented coordinates, road, route shape or Thule distance.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C01_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH02-B02",
+    "voice_cue_exact": "one hundred thirty-eight miles",
+    "voice_context_exact": "The distance to Camp Century is approximately one hundred thirty-eight miles.\r\n\r\nTractors pull long sled trains across the snow, carrying the materials needed to create an underground settlement. Some loads are so awkward that the Army has to make special sleds for them.\r\n\r\nIt is the image that makes the construction story so tangible: a small line of heavy machines moving across an almost featureless white horizon.\r\n\r\nBut the cargo tells you what is really happening.\r\n\r\nSteel, timber, prefabricated rooms, fuel, and heavy electrical equipment.\r\n\r\nIn the first season, roughly one thousand short tons of materials move from Camp Tuto toward the site.",
+    "global_word_in_0based": 398,
+    "global_word_out_exclusive": 402
+  },
+  {
+    "asset_id": "C02",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B02",
+      "CC07-S4-CH02-B03"
+    ],
+    "title": "Construction cargo",
+    "reference_ids": [
+      "R05_LOGISTICS"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "1959",
+      "1960",
+      "US SHORT TONS"
+    ],
+    "claim_ids": [
+      "CC07-S4-015",
+      "CC07-S4-016",
+      "CC07-S4-017"
+    ],
+    "historical_limit": "Zero-baseline bars1000 and4600; sum5600 identified as derived total. No invented quarterly time series.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C02_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH02-B03",
+    "voice_cue_exact": "four thousand six hundred",
+    "voice_context_exact": "In nineteen sixty, the total is another four thousand six hundred.\r\n\r\nAbout five thousand six hundred short tons in two construction seasons.\r\n\r\nAnd every machine hauling that cargo needs fuel of its own. Spare parts have to follow the same route. When conditions change, a trip can become another test of the transport system.\r\n\r\nThis is the first hidden cost of building in the Arctic: before your machines can solve the problem, you must build a way to bring the machines there.\r\n\r\nYet by October nineteen sixty, the Army has created a functioning camp.",
+    "global_word_in_0based": 501,
+    "global_word_out_exclusive": 505
+  },
+  {
+    "asset_id": "C03",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "Power plant share of initial cost",
+    "reference_ids": [
+      "R04_BUDGET"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "PM-2A",
+      "OTHER INITIAL COSTS",
+      "PERIOD DOLLARS"
+    ],
+    "claim_ids": [
+      "CC07-S4-029",
+      "CC07-S4-030"
+    ],
+    "historical_limit": "Total7,920,000, PM-2A5,700,000, derived remainder2,220,000. Shared baseline/proportional lengths; no modern dollars.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C03_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH04-B02",
+    "voice_cue_exact": "five point seven million",
+    "voice_context_exact": "The nuclear power plant alone accounted for about five point seven million.\r\n\r\nThose are period dollars. And they mean that the plant consumed the great majority of the initial project cost.\r\n\r\nThe reactor arrived as another set of heavy loads hauled across the ice. Engineers had to assemble it in the prepared underground plant space.\r\n\r\nIts reactor produced heat on the scale of ten megawatts, while the electrical output supplied to the camp was roughly one and a half megawatts.\r\n\r\nThose figures measure different things. Reactor heat is not the same as electricity delivered to the buildings.",
+    "global_word_in_0based": 1065,
+    "global_word_out_exclusive": 1069
+  },
+  {
+    "asset_id": "C04",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Two different measured local rates",
+    "reference_ids": [
+      "R06_PROFILES"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "MAIN TRENCH 6+00",
+      "TRENCH20 2+60",
+      "ANNUAL CROSS-SECTION AREA LOSS"
+    ],
+    "claim_ids": [
+      "CC07-S4-050",
+      "CC07-S4-051"
+    ],
+    "historical_limit": "12% and17% annual area loss at two specified sections; not vertical inches, universal closure or a recorded annual series.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C04_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH06-B02",
+    "voice_cue_exact": "twelve percent",
+    "voice_context_exact": "They show the same tunnel sections at different dates.\r\n\r\nThe difference isn't subtle.\r\n\r\nIn the main passage, the report illustrates one section losing about twelve percent of its cross-sectional area a year. A side passage is documented at roughly seventeen percent.\r\n\r\nThe Army also reported average annual vertical closure of about sixteen inches in the main passage, and about thirty-four inches in side trenches. These are clearance losses, not additional percentages of floor area.\r\n\r\nNot every trench behaved identically. Heat, geometry, supports, and snow conditions all mattered.\r\n\r\nBut even the average figures turn a finished city into a continuing construction site.",
+    "global_word_in_0based": 1856,
+    "global_word_out_exclusive": 1858
+  },
+  {
+    "asset_id": "C05",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH05",
+    "beat_ids": [
+      "CC07-S4-CH05-B02"
+    ],
+    "title": "Proposal versus actual deployment",
+    "reference_ids": [
+      "R02_PLAN"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "PROPOSAL",
+      "600 MISSILES",
+      "2,100 POSSIBLE LAUNCH POSITIONS",
+      "NEVER DEPLOYED"
+    ],
+    "claim_ids": [
+      "CC07-S4-043",
+      "CC07-S4-044",
+      "CC07-S4-057"
+    ],
+    "historical_limit": "High-level historical totals only. Facts from Nielsen2014p445; no missile or operational-network imagery, technical layouts or copyrighted article-page image.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C05_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH05-B02",
+    "voice_cue_exact": "six hundred missiles",
+    "voice_context_exact": "Historical research describes plans for roughly six hundred missiles and more than two thousand possible launching positions.\r\n\r\nNot six hundred missiles actually delivered to Greenland.\r\n\r\nNot two thousand completed underground silos.\r\n\r\nThose numbers describe a proposal.\r\n\r\nHistorical research describes a proposed network across approximately one hundred thirty-five thousand square kilometers.\r\n\r\nAnd the Army had one experimental component that made the proposal sound less imaginary.\r\n\r\nThe Army had installed an experimental subsurface railway at Camp Century, but this was only a research-scale installation.\r\n\r\nThat was real.\r\n\r\nBut a short experimental track is not a functioning continent-sized missile transport network.",
+    "global_word_in_0based": 1483,
+    "global_word_out_exclusive": 1486
+  },
+  {
+    "asset_id": "C06",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B01",
+      "CC07-S4-CH08-B01",
+      "CC07-S4-CH08-B02",
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "Selected evidence chronology",
+    "reference_ids": [
+      "R12_SHUTDOWN",
+      "R15_DRILL_1966",
+      "R14_RADAR_2024"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "1963",
+      "1964",
+      "1966",
+      "2019",
+      "2024"
+    ],
+    "claim_ids": [
+      "CC07-S4-058",
+      "CC07-S4-059",
+      "CC07-S4-066",
+      "CC07-S4-068",
+      "CC07-S4-070"
+    ],
+    "historical_limit": "Show only the relevant2-3 dated events at each chapter transition. Do not invent a single uncontested end-of-occupation date; V4 discloses1966/1967 source differences. SOURCE_CONFLICT_HOLD for an exact rediscovery date: SCI24Fig3f labels2017 rediscovery and2019pilot analysis, while V4 narrates2019. Do not render an undisputed2019rediscovery event.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C06_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately",
+    "primary_cue_beat": "CC07-S4-CH07-B01",
+    "voice_cue_exact": "dismantled and removed",
+    "voice_context_exact": "Camp Century did not end in a single cinematic collapse.\r\n\r\nInstead, its purpose began to fade.\r\n\r\nThe Iceworm proposal was rejected.\r\n\r\nThe nuclear power plant was shut down in July nineteen sixty-three, then dismantled and removed the following year.\r\n\r\nOne scientific history dates the end of year-round occupation to summer nineteen sixty-three, while another places it in nineteen sixty-four. Seasonal work continued into the later sixties; one study dates final abandonment to nineteen sixty-seven.\r\n\r\nThen Camp Century was abandoned.\r\n\r\nThe Army had proved that an underground Arctic settlement could be constructed. But the larger weapons system had failed to justify a path from experiment to deployment.",
+    "global_word_in_0based": 2216,
+    "global_word_out_exclusive": 2219
+  },
+  {
+    "asset_id": "G11",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B04"
+    ],
+    "title": "The material they could cut",
+    "reference_ids": [
+      "R16_PETER",
+      "R25_PREMATURE_FORMS"
+    ],
+    "brief": "One informative close cross-section of compacted snow/firn under an ordinary snow surface, with a shallow open trench and the actual Peter cutter. Contrast compacted snow with a small schematic bedrock swatch clearly separated as a material comparison, never as a real local geological section. No cave, TBM, blast, glacier crevasse or flowing-water cavern.",
+    "exact_screen_text": [
+      "SNOW AND FIRN",
+      "NOT BEDROCK"
+    ],
+    "claim_ids": [
+      "CC07-S4-019",
+      "CC07-S4-020"
+    ],
+    "historical_limit": "Qualitative material comparison; not a claim of a measured bedrock depth at the camp.",
+    "motion_after_approval": "4-6s reveal surface texture then the open cut; one stable camera.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G11.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH02-B04",
+    "voice_cue_exact": "easier to cut than rock",
+    "voice_context_exact": "What came next was even stranger.\r\n\r\nThey did not blast their way through a mountain. They did not drill an enormous tunnel through solid glacial ice.\r\n\r\nThey took advantage of something easier to cut than rock.\r\n\r\nAnd much harder to trust.",
+    "global_word_in_0based": 619,
+    "global_word_out_exclusive": 624
+  },
+  {
+    "asset_id": "G12",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B02"
+    ],
+    "title": "Loads needed special sleds",
+    "reference_ids": [
+      "R20_SLED_LOAD",
+      "R21_HEAVY_SWING"
+    ],
+    "brief": "A complete period engineering illustration of a long awkward construction load carried by a tractor-drawn sled train. Preserve the runners, cargo supports, load scale and equipment silhouette visible in the references. Indicate why a long prefabricated load needs support along its length, without giving fabrication dimensions, new mechanical designs or an invented load capacity.",
+    "exact_screen_text": [
+      "OVERSIZED LOAD",
+      "SLED TRANSPORT"
+    ],
+    "claim_ids": [
+      "CC07-S4-013",
+      "CC07-S4-014"
+    ],
+    "historical_limit": "Camp Century supply chain, not footage inside the base; no invented measured sled blueprint.",
+    "motion_after_approval": "6-8s follow the load from front support to rear support; no exploded-view fantasy.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G12.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH02-B02",
+    "voice_cue_exact": "special sleds",
+    "voice_context_exact": "The distance to Camp Century is approximately one hundred thirty-eight miles.\r\n\r\nTractors pull long sled trains across the snow, carrying the materials needed to create an underground settlement. Some loads are so awkward that the Army has to make special sleds for them.\r\n\r\nIt is the image that makes the construction story so tangible: a small line of heavy machines moving across an almost featureless white horizon.\r\n\r\nBut the cargo tells you what is really happening.\r\n\r\nSteel, timber, prefabricated rooms, fuel, and heavy electrical equipment.\r\n\r\nIn the first season, roughly one thousand short tons of materials move from Camp Tuto toward the site.",
+    "global_word_in_0based": 430,
+    "global_word_out_exclusive": 432
+  },
+  {
+    "asset_id": "G13",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B03"
+    ],
+    "title": "The convoy had its own supply needs",
+    "reference_ids": [
+      "R21_HEAVY_SWING",
+      "R20_SLED_LOAD"
+    ],
+    "brief": "An editorial logistics illustration of one actual-style tractor convoy carrying construction material plus ordinary fuel and spare-part cargo. Make the physical support burden legible with two small cargo details, not interface panels. No precise consumption, number of trips, breakdown event, calendar or invented cargo quantities.",
+    "exact_screen_text": [
+      "FUEL",
+      "SPARES",
+      "CONSTRUCTION CARGO"
+    ],
+    "claim_ids": [
+      "CC07-S4-013",
+      "CC07-S4-015",
+      "CC07-S4-016"
+    ],
+    "historical_limit": "Qualitative recurring supply burden; no guessed fuel-economy calculation.",
+    "motion_after_approval": "5-7s move from tractor to support cargo, then back to the entire convoy.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G13.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH02-B03",
+    "voice_cue_exact": "Spare parts",
+    "voice_context_exact": "In nineteen sixty, the total is another four thousand six hundred.\r\n\r\nAbout five thousand six hundred short tons in two construction seasons.\r\n\r\nAnd every machine hauling that cargo needs fuel of its own. Spare parts have to follow the same route. When conditions change, a trip can become another test of the transport system.\r\n\r\nThis is the first hidden cost of building in the Arctic: before your machines can solve the problem, you must build a way to bring the machines there.\r\n\r\nYet by October nineteen sixty, the Army has created a functioning camp.",
+    "global_word_in_0based": 527,
+    "global_word_out_exclusive": 529
+  },
+  {
+    "asset_id": "G14",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B02",
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "Removing support too soon",
+    "reference_ids": [
+      "R25_PREMATURE_FORMS",
+      "R03_ARCH"
+    ],
+    "brief": "A restrained cutaway explaining the role of temporary snow-arch forms. Show a supported snow arch and a separate, modestly deformed opening after early form removal. The visual direction follows the authentic Fig25. No total collapse, casualties, precise elapsed time or asserted dimensions; do not make all roof types the same.",
+    "exact_screen_text": [
+      "SUPPORT FORM",
+      "DEFORMED OPENING"
+    ],
+    "claim_ids": [
+      "CC07-S4-021",
+      "CC07-S4-023"
+    ],
+    "historical_limit": "Mechanism illustration anchored in one documented form-removal problem, not a universal camp history.",
+    "motion_after_approval": "6-8s reveal the support, then the changed opening; stable silhouettes, no wobble.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G14.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "support forms",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 834,
+    "global_word_out_exclusive": 836
+  },
+  {
+    "asset_id": "G15",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03",
+      "CC07-S4-CH03-B04"
+    ],
+    "title": "Services also occupied the trench",
+    "reference_ids": [
+      "R26_UTILITY_LINES",
+      "R18_ROOM"
+    ],
+    "brief": "A clear period-report perspective into an ordinary communication trench showing a plain prefab room beside overhead utility lines, using the exact kinds of suspended lines visible in the reference. Separate the room envelope, walkway and services clearly; avoid dense fictional pipe networks, digital controls, wires through solid ice or invented electrical schematics.",
+    "exact_screen_text": [
+      "ROOM",
+      "PASSAGE",
+      "UTILITIES"
+    ],
+    "claim_ids": [
+      "CC07-S4-024",
+      "CC07-S4-026"
+    ],
+    "historical_limit": "Appearance/space explanation only; not an installation or electrical-wiring plan.",
+    "motion_after_approval": "5-7s focus once from room roof to overhead lines; keep geometry steady.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G15.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "network of smaller passages",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 868,
+    "global_word_out_exclusive": 872
+  },
+  {
+    "asset_id": "G16",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "A power station arrived in pieces",
+    "reference_ids": [
+      "R22_PM_MODULE",
+      "R20_SLED_LOAD"
+    ],
+    "brief": "A finished technical-report illustration of externally visible modular plant cargo moving on actual-style trailers and sleds. Use the large cylindrical enclosure and ordinary transport framing as appearance references. Explain modular transport without showing reactor internals, fuel, operating components or an invented assembly sequence. No exact package count unless separately verified.",
+    "exact_screen_text": [
+      "MODULAR LOAD",
+      "TRANSPORT"
+    ],
+    "claim_ids": [
+      "CC07-S4-028",
+      "CC07-S4-030"
+    ],
+    "historical_limit": "Transport concept, not an operating-reactor design or an actual transport photograph.",
+    "motion_after_approval": "5-7s follow an external module onto a loaded sled; no speculative exploded reactor.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G16.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B02",
+    "voice_cue_exact": "reactor arrived",
+    "voice_context_exact": "The nuclear power plant alone accounted for about five point seven million.\r\n\r\nThose are period dollars. And they mean that the plant consumed the great majority of the initial project cost.\r\n\r\nThe reactor arrived as another set of heavy loads hauled across the ice. Engineers had to assemble it in the prepared underground plant space.\r\n\r\nIts reactor produced heat on the scale of ten megawatts, while the electrical output supplied to the camp was roughly one and a half megawatts.\r\n\r\nThose figures measure different things. Reactor heat is not the same as electricity delivered to the buildings.",
+    "global_word_in_0based": 1089,
+    "global_word_out_exclusive": 1091
+  },
+  {
+    "asset_id": "G17",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B01",
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "One plant served many ordinary functions",
+    "reference_ids": [
+      "R02_PLAN",
+      "R22_PM_MODULE"
+    ],
+    "brief": "A high-level editorial view of a small camp plant building connected by two simple qualitative paths to ordinary lit/heated prefab rooms. The paths stand for electricity and heat; no reactor internals, component circuit, temperatures, power-flow measurements, radiation beam or weapons imagery. Room functions and building outlines come from the actual plan.",
+    "exact_screen_text": [
+      "ELECTRICITY",
+      "HEAT",
+      "CAMP SERVICES"
+    ],
+    "claim_ids": [
+      "CC07-S4-027",
+      "CC07-S4-028"
+    ],
+    "historical_limit": "Functional relationship only; no operating instructions, measured flow or claim that Iceworm financed it.",
+    "motion_after_approval": "5-7s reveal the plant and two service relationships with restrained line masks.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G17.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B01",
+    "voice_cue_exact": "electrical and heating system",
+    "voice_context_exact": "The Army had a supply problem it could not escape.\r\n\r\nKeep a remote settlement warm with diesel generators, and every season brings another long convoy carrying fuel.\r\n\r\nOr install a machine that can produce a large amount of power without the same continuous fuel deliveries.\r\n\r\nThat second idea became PM-two-A, Camp Century's portable nuclear power plant.\r\n\r\nIt wasn't a bomb. It was an electrical and heating system for the camp.\r\n\r\nThe price was extraordinary.\r\n\r\nA nineteen sixty-five Army report gives Camp Century's actual construction cost as seven point nine two million dollars.",
+    "global_word_in_0based": 1028,
+    "global_word_out_exclusive": 1032
+  },
+  {
+    "asset_id": "G18",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "The local foundation problem",
+    "reference_ids": [
+      "R28_SEWAGE_PROFILE",
+      "R10_SUMP",
+      "R02_PLAN"
+    ],
+    "brief": "One local, qualitative cross-section around the wastewater sump and two neighboring prefab buildings. Indicate warmed supporting snow and modest localized settlement while the more distant camp remains intact. Keep sewage separate from drinking water and reactor components. No explosion, deaths, campwide sinkhole, molten reactor or radioactive river.",
+    "exact_screen_text": [
+      "WASTEWATER",
+      "LOCAL SETTLEMENT"
+    ],
+    "claim_ids": [
+      "CC07-S4-034",
+      "CC07-S4-036",
+      "CC07-S4-037"
+    ],
+    "historical_limit": "Specific local sewage/heat problem, not a recreation of an entire camp collapse; not to scale.",
+    "motion_after_approval": "6-8s focus from sump influence to the two nearby supports; restrained change only.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G18.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B04",
+    "voice_cue_exact": "holding up part",
+    "voice_context_exact": "The camp had literally altered the material holding up part of its own infrastructure.\r\n\r\nMeanwhile, the nuclear plant's turbine-generator developed repeated mechanical troubles. Keeping the city supplied meant solving ordinary industrial failures in a profoundly unusual place.\r\n\r\nThe reactor was a real technical achievement.\r\n\r\nBut the more systems the Army put underground, the more there was to maintain.\r\n\r\nThe reactor had been planned before Project Iceworm was formally proposed. Its cost cannot be treated as proof that the later missile plan financed the camp.\r\n\r\nBut the working research camp made an extraordinary idea seem tangible: use buried infrastructure to conceal launching positions that would not always stay in the same place.",
+    "global_word_in_0based": 1270,
+    "global_word_out_exclusive": 1273
+  },
+  {
+    "asset_id": "G19",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B01",
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Lost clearance has a practical cost",
+    "reference_ids": [
+      "R23_CORRIDOR",
+      "R06_PROFILES"
+    ],
+    "brief": "A period technical illustration of a human and a small actual-style tracked vehicle inside an arched passage, showing why a reduced opening restricts usable headroom and passage. Keep people and machine proportions consistent with the corridor photograph. A thin comparison outline may indicate the former space, without dates, numerical scale or invented survey points.",
+    "exact_screen_text": [
+      "USABLE CLEARANCE"
+    ],
+    "claim_ids": [
+      "CC07-S4-049",
+      "CC07-S4-052",
+      "CC07-S4-053"
+    ],
+    "historical_limit": "Functional qualitative explanation, not a new measured profile or an accident.",
+    "motion_after_approval": "5-7s move attention from arch crown to the vehicle clearance; no camera shake.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G19.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH06-B01",
+    "voice_cue_exact": "shrinking of empty space",
+    "voice_context_exact": "By the early nineteen sixties, Camp Century's engineers were measuring something their cameras couldn't make glamorous.\r\n\r\nThe shrinking of empty space.\r\n\r\nA snow trench can look perfectly solid. Then, month by month, the roof settles.\r\n\r\nThe walls creep inward because the snow and firn around them are deforming under pressure.\r\n\r\nThe Army knew about creep. This wasn't the discovery of a new physical law.\r\n\r\nThe problem was the scale of what maintaining a city inside that moving material actually required.\r\n\r\nLook at two diagrams in the Army's nineteen sixty-five report.",
+    "global_word_in_0based": 1759,
+    "global_word_out_exclusive": 1763
+  },
+  {
+    "asset_id": "G20",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B04"
+    ],
+    "title": "Snow could bury the entrance",
+    "reference_ids": [
+      "R23_CORRIDOR",
+      "R21_HEAVY_SWING"
+    ],
+    "brief": "A surface access ramp entering a snow trench, with a restrained wind-blown accumulation building up at the ramp entrance. Use ordinary period tracks and the actual-style portal. Explain obstruction of access, not an avalanche, natural ice cave, sudden structural disaster, exact storm or measured snow depth.",
+    "exact_screen_text": [
+      "ACCESS RAMP",
+      "DRIFTING SNOW"
+    ],
+    "claim_ids": [
+      "CC07-S4-056"
+    ],
+    "historical_limit": "Qualitative documented access problem; weather field is illustrative, not a reconstruction of a dated event.",
+    "motion_after_approval": "5-7s reveal shallow accumulation at the entrance with a stable view.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G20.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH06-B04",
+    "voice_cue_exact": "Blowing snow",
+    "voice_context_exact": "Blowing snow buried access ramps. Warm air affected parts of the surrounding structure. Some forms had been removed too early. Systems inside the camp produced heat, moisture, and maintenance demands of their own.\r\n\r\nFigure thirty-three of the report shows a soldier using an electric chain saw to cut snow away from the eave of a building inside a trench. It looks like an ordinary maintenance task, until you remember what is above the workers.\r\n\r\nMore snow, under pressure, settling every season.\r\n\r\nIt is one thing to accept that burden for a scientific test camp.",
+    "global_word_in_0based": 2027,
+    "global_word_out_exclusive": 2029
+  },
+  {
+    "asset_id": "G21",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B02"
+    ],
+    "title": "Removed plant, remaining infrastructure",
+    "reference_ids": [
+      "R37_REMOVAL",
+      "R02_PLAN"
+    ],
+    "brief": "A clear high-level historical comparison: an external plant module being taken away above ground, while a simple cutaway retains ordinary buried building structures and waste areas. Follow the actual lift silhouette. Show no buried reactor core, nuclear warheads, leaking glowing barrels, detailed disposal layout or invented contaminated area.",
+    "exact_screen_text": [
+      "PLANT REMOVED",
+      "STRUCTURES REMAINED"
+    ],
+    "claim_ids": [
+      "CC07-S4-059",
+      "CC07-S4-062"
+    ],
+    "historical_limit": "Explains the distinction in the narration; does not certify that every item of hardware or waste had the same fate.",
+    "motion_after_approval": "6-8s follow the actual-shaped lifted module, then reveal only remaining non-operational infrastructure.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G21.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH07-B02",
+    "voice_cue_exact": "reactor hardware was taken out",
+    "voice_context_exact": "And shutting down a place under snow is not the same as making it vanish.\r\n\r\nThe reactor hardware was taken out.\r\n\r\nThe entire buried infrastructure was not.\r\n\r\nMaterials, structures, and wastes remained in the ice sheet.\r\n\r\nFor a long time, the assumption was that snowfall would continue to seal the abandoned site away.\r\n\r\nDecades later, scientists began asking whether that assumption would remain reliable as Greenland's climate changed.\r\n\r\nOne study in twenty sixteen modeled the possibility that surface loss of ice could eventually expose or remobilize buried material under a high-emissions scenario.",
+    "global_word_in_0based": 2305,
+    "global_word_out_exclusive": 2310
+  },
+  {
+    "asset_id": "G22",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B02",
+      "CC07-S4-CH07-B03"
+    ],
+    "title": "Burial is not disappearance",
+    "reference_ids": [
+      "R14_RADAR_2024",
+      "R15_DRILL_1966"
+    ],
+    "brief": "A quiet snow/firn section showing abandoned structural remnants beneath accumulated snow. Add a simple unobtrusive comparison surface to explain continued burial qualitatively. No precise yearly depth curve, present-day liquid plume, exposed contaminated river or forecast catastrophe. No working rooms, lights or people under the modern surface.",
+    "exact_screen_text": [
+      "BURIED REMAINS"
+    ],
+    "claim_ids": [
+      "CC07-S4-062",
+      "CC07-S4-063",
+      "CC07-S4-064"
+    ],
+    "historical_limit": "Historical concept; not an observed present spill or a prediction of an exact exposure year.",
+    "motion_after_approval": "5-7s reveal the surface and buried structures; no invented accelerated melt animation.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G22.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH07-B02",
+    "voice_cue_exact": "wastes remained in the ice sheet",
+    "voice_context_exact": "And shutting down a place under snow is not the same as making it vanish.\r\n\r\nThe reactor hardware was taken out.\r\n\r\nThe entire buried infrastructure was not.\r\n\r\nMaterials, structures, and wastes remained in the ice sheet.\r\n\r\nFor a long time, the assumption was that snowfall would continue to seal the abandoned site away.\r\n\r\nDecades later, scientists began asking whether that assumption would remain reliable as Greenland's climate changed.\r\n\r\nOne study in twenty sixteen modeled the possibility that surface loss of ice could eventually expose or remobilize buried material under a high-emissions scenario.",
+    "global_word_in_0based": 2319,
+    "global_word_out_exclusive": 2325
+  },
+  {
+    "asset_id": "G23",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01"
+    ],
+    "title": "A sample survived in an archive",
+    "reference_ids": [
+      "R24_FROZEN_ARCHIVE",
+      "R13_CORE_2021"
+    ],
+    "brief": "An informative modern editorial illustration of frozen sediment-bearing samples preserved in plain labelled containers and storage boxes. Use the authentic archive photograph for material, container shape and the modest scientific setting. Labels must be limited to the single permitted phrase; no invented accession number, government seal, discovery year, researcher identity or exact laboratory architecture.",
+    "exact_screen_text": [
+      "ARCHIVED SAMPLE"
+    ],
+    "claim_ids": [
+      "CC07-S4-068",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Archive preservation concept; exact rediscovery date is source-conflicted and must not appear.",
+    "motion_after_approval": "5-7s move from stored container to sample texture; do not fabricate a rediscovery reenactment.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G23.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH08-B01",
+    "voice_cue_exact": "samples were stored",
+    "voice_context_exact": "In nineteen sixty-six, scientific drilling at Camp Century reached the bottom of the Greenland ice sheet.\r\n\r\nBelow more than a thousand meters of ice, researchers recovered frozen material from the ancient ground.\r\n\r\nAt the time, Camp Century was already losing its military future.\r\n\r\nBut the core samples had a future no one could have fully predicted.\r\n\r\nThe samples were stored and moved between institutions. Some of the deepest material was long believed lost.\r\n\r\nDuring a twenty nineteen inventory at the University of Copenhagen, a curator located the long-missing subglacial samples and their original records.",
+    "global_word_in_0based": 2573,
+    "global_word_out_exclusive": 2576
+  },
+  {
+    "asset_id": "G24",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01",
+      "CC07-S4-CH08-B02"
+    ],
+    "title": "The sample came from below the ice",
+    "reference_ids": [
+      "R13_CORE_2021",
+      "R15_DRILL_1966"
+    ],
+    "brief": "A large, clear conceptual close-section of ice transitioning to frozen basal sediment at the ground interface. Grounded brown-grey granular material follows the actual core interior. Avoid recognizable plant species, invented fossil forms, numerical ages or a claim that the sample came from a camp room or meltwater.",
+    "exact_screen_text": [
+      "ICE",
+      "BASAL SEDIMENT"
+    ],
+    "claim_ids": [
+      "CC07-S4-066",
+      "CC07-S4-067",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Conceptual material origin; not a fabricated scientific specimen photograph or microscopy image.",
+    "motion_after_approval": "5-7s reveal the interface and the sediment-bearing part of the sample.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G24.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH08-B01",
+    "voice_cue_exact": "ancient ground",
+    "voice_context_exact": "In nineteen sixty-six, scientific drilling at Camp Century reached the bottom of the Greenland ice sheet.\r\n\r\nBelow more than a thousand meters of ice, researchers recovered frozen material from the ancient ground.\r\n\r\nAt the time, Camp Century was already losing its military future.\r\n\r\nBut the core samples had a future no one could have fully predicted.\r\n\r\nThe samples were stored and moved between institutions. Some of the deepest material was long believed lost.\r\n\r\nDuring a twenty nineteen inventory at the University of Copenhagen, a curator located the long-missing subglacial samples and their original records.",
+    "global_word_in_0based": 2546,
+    "global_word_out_exclusive": 2548
+  },
+  {
+    "asset_id": "D11",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "What the design called for",
+    "reference_ids": [
+      "R35_DESIGN_CRITERIA"
+    ],
+    "brief": "Original design-criteria list. Show two or three relevant intended functions, with the DESIGN CRITERIA context intact. Do not present planned criteria as a verified as-built room inventory.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-024",
+      "CC07-S4-025"
+    ],
+    "historical_limit": "Authentic requirements, not generated meeting notes. The criteria page mentions a100-person year-round design criterion, not the later200-person capacity in V4. Crop/show the functional-facility list only; never use that100-person line as evidence for the200-person narration.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D11_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "a medical facility, workshops",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 879,
+    "global_word_out_exclusive": 883
+  },
+  {
+    "asset_id": "D12",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "The photographed early-form problem",
+    "reference_ids": [
+      "R25_PREMATURE_FORMS"
+    ],
+    "brief": "Use actual Fig25 and its full caption. No synthetic collapse effect. Let the photograph explain the documented deformation after early form removal.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-023"
+    ],
+    "historical_limit": "One documented problem; no universal failure or casualties.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D12_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "openings began to deform",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 823,
+    "global_word_out_exclusive": 827
+  },
+  {
+    "asset_id": "D13",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Actual vertical-clearance measurements",
+    "reference_ids": [
+      "R29_MAIN_HEIGHT_TABLE",
+      "R30_SIDE_HEIGHT_TABLE"
+    ],
+    "brief": "Show the actual TableII headings, height measurement definition and average rows. Distinguish vertical closure from the area-profile percentages. Use a readable crop and sequential row focus.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-052",
+      "CC07-S4-053"
+    ],
+    "historical_limit": "Inches of height per year; not percentages of floor area or identical values for every trench.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D13_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH06-B02",
+    "voice_cue_exact": "sixteen inches",
+    "voice_context_exact": "They show the same tunnel sections at different dates.\r\n\r\nThe difference isn't subtle.\r\n\r\nIn the main passage, the report illustrates one section losing about twelve percent of its cross-sectional area a year. A side passage is documented at roughly seventeen percent.\r\n\r\nThe Army also reported average annual vertical closure of about sixteen inches in the main passage, and about thirty-four inches in side trenches. These are clearance losses, not additional percentages of floor area.\r\n\r\nNot every trench behaved identically. Heat, geometry, supports, and snow conditions all mattered.\r\n\r\nBut even the average figures turn a finished city into a continuing construction site.",
+    "global_word_in_0based": 1883,
+    "global_word_out_exclusive": 1885
+  },
+  {
+    "asset_id": "D14",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "Utilities in the actual passage",
+    "reference_ids": [
+      "R26_UTILITY_LINES"
+    ],
+    "brief": "Use the actual Fig36 overhead-line photograph with original caption. Focus on the services taking up space; do not generate wires over it.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-024",
+      "CC07-S4-026"
+    ],
+    "historical_limit": "A still, not newly recovered moving footage or a wiring diagram.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D14_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH03-B03",
+    "voice_cue_exact": "network of smaller passages",
+    "voice_context_exact": "The openings began to deform.\r\n\r\nThe solution was sometimes to leave the support forms where they were.\r\n\r\nThese compromises would matter long after the promotional film was finished.\r\n\r\nBut the buildings were only the beginning.\r\n\r\nUnder the snow, Camp Century developed a main street and a network of smaller passages. The layout included a dining hall, barracks, a medical facility, workshops, storage, recreational rooms, even a chapel and theater.\r\n\r\nThe camp was designed for as many as two hundred people.\r\n\r\nFrom the outside, a blank field of snow. Inside, an operating settlement.",
+    "global_word_in_0based": 868,
+    "global_word_out_exclusive": 872
+  },
+  {
+    "asset_id": "D15",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B03"
+    ],
+    "title": "The real water well",
+    "reference_ids": [
+      "R27_WATER_WELL"
+    ],
+    "brief": "Use actual Fig35 looking down the water well; retain the caption and contrast with the separate wastewater discussion. Fig32 air well is not a drinking-water source.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-033"
+    ],
+    "historical_limit": "Water supply picture, not an image of sewage or reactor fuel.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D15_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B03",
+    "voice_cue_exact": "base required water",
+    "voice_context_exact": "At Camp Century, the heat itself was useful.\r\n\r\nThe base required water. Engineers developed systems to melt snow and ice and recover usable water from beneath the surface.\r\n\r\nBut this creates another problem.\r\n\r\nWhere do you put the water after people have used it?\r\n\r\nThe Army's engineers built underground disposal sumps. One was placed too near living quarters during a rush to finish before winter.\r\n\r\nThe odors reached the occupied buildings.\r\n\r\nAnd that wasn't the worst consequence.\r\n\r\nWarm liquid moving into the snow changed the ground nearby. The original report described the floor near the disposal area settling by roughly four feet, forcing the removal of two nearby buildings.",
+    "global_word_in_0based": 1163,
+    "global_word_out_exclusive": 1166
+  },
+  {
+    "asset_id": "D16",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B03",
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "A measured local sewage profile",
+    "reference_ids": [
+      "R28_SEWAGE_PROFILE"
+    ],
+    "brief": "Use the authentic Fig34 sketch and its sewage-contaminated-snow caption. No full yellow diagram fill; a small focus on the original local profile only.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-034",
+      "CC07-S4-036",
+      "CC07-S4-037"
+    ],
+    "historical_limit": "Sewage-contaminated snow; not a diagram of radioactive fallout or a reactor meltdown.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D16_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B03",
+    "voice_cue_exact": "two nearby buildings",
+    "voice_context_exact": "At Camp Century, the heat itself was useful.\r\n\r\nThe base required water. Engineers developed systems to melt snow and ice and recover usable water from beneath the surface.\r\n\r\nBut this creates another problem.\r\n\r\nWhere do you put the water after people have used it?\r\n\r\nThe Army's engineers built underground disposal sumps. One was placed too near living quarters during a rush to finish before winter.\r\n\r\nThe odors reached the occupied buildings.\r\n\r\nAnd that wasn't the worst consequence.\r\n\r\nWarm liquid moving into the snow changed the ground nearby. The original report described the floor near the disposal area settling by roughly four feet, forcing the removal of two nearby buildings.",
+    "global_word_in_0based": 1260,
+    "global_word_out_exclusive": 1263
+  },
+  {
+    "asset_id": "D17",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "The primary machinery-performance record",
+    "reference_ids": [
+      "R34_TURBINE_RECORD"
+    ],
+    "brief": "Read the relevant turbine-generator service paragraph and retain its original documentary context. No invented repair log, explosion or plant-failure reenactment.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-038"
+    ],
+    "historical_limit": "Mechanical service trouble, not a documented nuclear accident.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D17_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B04",
+    "voice_cue_exact": "repeated mechanical troubles",
+    "voice_context_exact": "The camp had literally altered the material holding up part of its own infrastructure.\r\n\r\nMeanwhile, the nuclear plant's turbine-generator developed repeated mechanical troubles. Keeping the city supplied meant solving ordinary industrial failures in a profoundly unusual place.\r\n\r\nThe reactor was a real technical achievement.\r\n\r\nBut the more systems the Army put underground, the more there was to maintain.\r\n\r\nThe reactor had been planned before Project Iceworm was formally proposed. Its cost cannot be treated as proof that the later missile plan financed the camp.\r\n\r\nBut the working research camp made an extraordinary idea seem tangible: use buried infrastructure to conceal launching positions that would not always stay in the same place.",
+    "global_word_in_0based": 1283,
+    "global_word_out_exclusive": 1286
+  },
+  {
+    "asset_id": "D18",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "Planning came before the missile proposal",
+    "reference_ids": [
+      "R31_PLANT_PLANNING"
+    ],
+    "brief": "Use the primary October1958 ALCO design-study planning paragraph. This supports the sequence in V4; do not imply the later Iceworm proposal financed the original plant.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-039"
+    ],
+    "historical_limit": "Actual plant planning record; no fake Iceworm authorization page.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D18_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B04",
+    "voice_cue_exact": "planned before Project Iceworm",
+    "voice_context_exact": "The camp had literally altered the material holding up part of its own infrastructure.\r\n\r\nMeanwhile, the nuclear plant's turbine-generator developed repeated mechanical troubles. Keeping the city supplied meant solving ordinary industrial failures in a profoundly unusual place.\r\n\r\nThe reactor was a real technical achievement.\r\n\r\nBut the more systems the Army put underground, the more there was to maintain.\r\n\r\nThe reactor had been planned before Project Iceworm was formally proposed. Its cost cannot be treated as proof that the later missile plan financed the camp.\r\n\r\nBut the working research camp made an extraordinary idea seem tangible: use buried infrastructure to conceal launching positions that would not always stay in the same place.",
+    "global_word_in_0based": 1325,
+    "global_word_out_exclusive": 1329
+  },
+  {
+    "asset_id": "D19",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B03"
+    ],
+    "title": "The actual2021 model result",
+    "reference_ids": [
+      "R33_FIRN_FORECAST"
+    ],
+    "brief": "Use untouched published Fig10 with its modeled/scenario qualifiers, author credit and different vertical scales. Do not treat model curves as observations or compare the two panels as if they share a scale.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-064"
+    ],
+    "historical_limit": "2021 modeled result under assumptions, not proof of zero future risk.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D19_PRODUCTION_BRIEF.md",
+    "provenance_class": "SCIENTIFIC_SOURCE",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH07-B03",
+    "voice_cue_exact": "twenty-one study",
+    "voice_context_exact": "But this was a scenario, not an observation of a radioactive river running into the sea.\r\n\r\nThe United States Government Accountability Office reported in twenty twenty-four that a twenty twenty-one study expected the buried contamination to remain largely immobile through the year twenty-one hundred.\r\n\r\nSo the scientific question is not resolved by a single dramatic headline.\r\n\r\nDenmark established permanent ice-sheet monitoring. Different projections depend on their assumptions about Greenland's future climate.\r\n\r\nAnd there is one last twist.\r\n\r\nThe Army went to Greenland to learn how to build inside ice that was moving.",
+    "global_word_in_0based": 2410,
+    "global_word_out_exclusive": 2412
+  },
+  {
+    "asset_id": "D20",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01"
+    ],
+    "title": "Actual modern archive photograph",
+    "reference_ids": [
+      "R24_FROZEN_ARCHIVE"
+    ],
+    "brief": "Use the modern Copenhagen sample-storage photograph, author credit and publication context. Do not label the photo1966 or attach an exact rediscovery date.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-068",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Storage history in the caption is not the photo capture date.",
+    "motion_after_approval": "6-10s readable original-source view; one motivated crop/focus; small text-span marker only when verified, no full-diagram fill.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D20_PRODUCTION_BRIEF.md",
+    "provenance_class": "SCIENTIFIC_SOURCE",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH08-B01",
+    "voice_cue_exact": "moved between institutions",
+    "voice_context_exact": "In nineteen sixty-six, scientific drilling at Camp Century reached the bottom of the Greenland ice sheet.\r\n\r\nBelow more than a thousand meters of ice, researchers recovered frozen material from the ancient ground.\r\n\r\nAt the time, Camp Century was already losing its military future.\r\n\r\nBut the core samples had a future no one could have fully predicted.\r\n\r\nThe samples were stored and moved between institutions. Some of the deepest material was long believed lost.\r\n\r\nDuring a twenty nineteen inventory at the University of Copenhagen, a curator located the long-missing subglacial samples and their original records.",
+    "global_word_in_0based": 2577,
+    "global_word_out_exclusive": 2580
+  },
+  {
+    "asset_id": "C07",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Height loss, separately from area loss",
+    "reference_ids": [
+      "R29_MAIN_HEIGHT_TABLE",
+      "R30_SIDE_HEIGHT_TABLE"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "MAIN PASSAGE",
+      "SIDE TRENCHES",
+      "INCHES PER YEAR"
+    ],
+    "claim_ids": [
+      "CC07-S4-052",
+      "CC07-S4-053"
+    ],
+    "historical_limit": "Zero-baseline bars16 and34; explicitly average vertical closure, not area percentages.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C07_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH06-B02",
+    "voice_cue_exact": "thirty-four inches",
+    "voice_context_exact": "They show the same tunnel sections at different dates.\r\n\r\nThe difference isn't subtle.\r\n\r\nIn the main passage, the report illustrates one section losing about twelve percent of its cross-sectional area a year. A side passage is documented at roughly seventeen percent.\r\n\r\nThe Army also reported average annual vertical closure of about sixteen inches in the main passage, and about thirty-four inches in side trenches. These are clearance losses, not additional percentages of floor area.\r\n\r\nNot every trench behaved identically. Heat, geometry, supports, and snow conditions all mattered.\r\n\r\nBut even the average figures turn a finished city into a continuing construction site.",
+    "global_word_in_0based": 1891,
+    "global_word_out_exclusive": 1893
+  },
+  {
+    "asset_id": "C08",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "Do not reverse the causal sequence",
+    "reference_ids": [
+      "R31_PLANT_PLANNING"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "PLANT PLANNING",
+      "LATER MISSILE PROPOSAL"
+    ],
+    "claim_ids": [
+      "CC07-S4-039"
+    ],
+    "historical_limit": "Sequence diagram, not an asserted financial link or a fabricated funding approval. Use no exact proposal year without separate evidence.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C08_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B04",
+    "voice_cue_exact": "planned before Project Iceworm",
+    "voice_context_exact": "The camp had literally altered the material holding up part of its own infrastructure.\r\n\r\nMeanwhile, the nuclear plant's turbine-generator developed repeated mechanical troubles. Keeping the city supplied meant solving ordinary industrial failures in a profoundly unusual place.\r\n\r\nThe reactor was a real technical achievement.\r\n\r\nBut the more systems the Army put underground, the more there was to maintain.\r\n\r\nThe reactor had been planned before Project Iceworm was formally proposed. Its cost cannot be treated as proof that the later missile plan financed the camp.\r\n\r\nBut the working research camp made an extraordinary idea seem tangible: use buried infrastructure to conceal launching positions that would not always stay in the same place.",
+    "global_word_in_0based": 1325,
+    "global_word_out_exclusive": 1329
+  },
+  {
+    "asset_id": "C09",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH05",
+    "beat_ids": [
+      "CC07-S4-CH05-B03"
+    ],
+    "title": "A larger system meant more support",
+    "reference_ids": [
+      "R02_PLAN",
+      "R26_UTILITY_LINES"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "MAINTENANCE",
+      "POWER",
+      "COMMUNICATIONS",
+      "CREWS"
+    ],
+    "claim_ids": [
+      "CC07-S4-041",
+      "CC07-S4-047"
+    ],
+    "historical_limit": "Qualitative support demands from V4; not a literal deployment map, engineered missile network or multiplied cost calculation.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C09_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH05-B03",
+    "voice_cue_exact": "Every passage would have to remain open",
+    "voice_context_exact": "Every passage would have to remain open. Every point would require maintenance. Trains, machinery, power, communications, and crews would all need support.\r\n\r\nAnd those demands would be multiplied thousands of times over.\r\n\r\nThere was another obstacle.\r\n\r\nThe United States was building on Greenland, within the Kingdom of Denmark. An American research installation did not automatically provide political consent for an enormous hidden nuclear weapons complex.\r\n\r\nWithin the U.S. military, the Air Force and Navy were also developing other strategic missile systems.\r\n\r\nThe Army proposal faced rival technologies, questions about its military purpose, and problems no engineering demonstration could resolve.",
+    "global_word_in_0based": 1575,
+    "global_word_out_exclusive": 1582
+  },
+  {
+    "asset_id": "C10",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH05",
+    "beat_ids": [
+      "CC07-S4-CH05-B03"
+    ],
+    "title": "A research base was not political consent",
+    "reference_ids": [
+      "R32_GREENLAND_ONLY"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "GREENLAND",
+      "KINGDOM OF DENMARK",
+      "RESEARCH BASE"
+    ],
+    "claim_ids": [
+      "CC07-S4-011",
+      "CC07-S4-047"
+    ],
+    "historical_limit": "Geographic/sovereignty context. No missile routes, targeting geometry, invented agreement or assertion that engineering demonstration granted weapons consent.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C10_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH05-B03",
+    "voice_cue_exact": "within the Kingdom of Denmark",
+    "voice_context_exact": "Every passage would have to remain open. Every point would require maintenance. Trains, machinery, power, communications, and crews would all need support.\r\n\r\nAnd those demands would be multiplied thousands of times over.\r\n\r\nThere was another obstacle.\r\n\r\nThe United States was building on Greenland, within the Kingdom of Denmark. An American research installation did not automatically provide political consent for an enormous hidden nuclear weapons complex.\r\n\r\nWithin the U.S. military, the Air Force and Navy were also developing other strategic missile systems.\r\n\r\nThe Army proposal faced rival technologies, questions about its military purpose, and problems no engineering demonstration could resolve.",
+    "global_word_in_0based": 1618,
+    "global_word_out_exclusive": 1623
+  },
+  {
+    "asset_id": "C11",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH05",
+    "beat_ids": [
+      "CC07-S4-CH05-B04"
+    ],
+    "title": "The proposal ended without deployment",
+    "reference_ids": [
+      "R02_PLAN"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "PROPOSED",
+      "NEVER DEPLOYED"
+    ],
+    "claim_ids": [
+      "CC07-S4-048",
+      "CC07-S4-057"
+    ],
+    "historical_limit": "Attribute1963 rejection to the later cited study; no fake cancellation memo or imagery of installed missiles.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C11_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH05-B04",
+    "voice_cue_exact": "rejected in nineteen sixty-three",
+    "voice_context_exact": "According to a later scientific study, the proposal was rejected in nineteen sixty-three.\r\n\r\nThe missile network was never completed, and the weapons were never deployed.\r\n\r\nBut even if a government had decided to finance the entire scheme, the base had already produced a warning.\r\n\r\nCutting the tunnels would have been only the beginning. Keeping a vast network usable would be another challenge, alongside the military and political objections.",
+    "global_word_in_0based": 1683,
+    "global_word_out_exclusive": 1687
+  },
+  {
+    "asset_id": "C12",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B02"
+    ],
+    "title": "What was removed and what remained",
+    "reference_ids": [
+      "R37_REMOVAL",
+      "R02_PLAN"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "PLANT HARDWARE REMOVED",
+      "STRUCTURES AND WASTES REMAINED"
+    ],
+    "claim_ids": [
+      "CC07-S4-059",
+      "CC07-S4-062"
+    ],
+    "historical_limit": "Categorical contrast only; no waste quantity estimate, buried operating reactor or complete item inventory.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C12_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH07-B02",
+    "voice_cue_exact": "reactor hardware was taken out",
+    "voice_context_exact": "And shutting down a place under snow is not the same as making it vanish.\r\n\r\nThe reactor hardware was taken out.\r\n\r\nThe entire buried infrastructure was not.\r\n\r\nMaterials, structures, and wastes remained in the ice sheet.\r\n\r\nFor a long time, the assumption was that snowfall would continue to seal the abandoned site away.\r\n\r\nDecades later, scientists began asking whether that assumption would remain reliable as Greenland's climate changed.\r\n\r\nOne study in twenty sixteen modeled the possibility that surface loss of ice could eventually expose or remobilize buried material under a high-emissions scenario.",
+    "global_word_in_0based": 2305,
+    "global_word_out_exclusive": 2310
+  },
+  {
+    "asset_id": "C13",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B02",
+      "CC07-S4-CH07-B03"
+    ],
+    "title": "A scenario is not an observed spill",
+    "reference_ids": [
+      "R33_FIRN_FORECAST"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "MODELED SCENARIO",
+      "OBSERVATION"
+    ],
+    "claim_ids": [
+      "CC07-S4-063",
+      "CC07-S4-064"
+    ],
+    "historical_limit": "Do not invent a common numeric axis, present-day spill, zero-risk guarantee or exact exposure year. Preserve assumptions and model/observation distinction.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C13_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH07-B03",
+    "voice_cue_exact": "scenario, not an observation",
+    "voice_context_exact": "But this was a scenario, not an observation of a radioactive river running into the sea.\r\n\r\nThe United States Government Accountability Office reported in twenty twenty-four that a twenty twenty-one study expected the buried contamination to remain largely immobile through the year twenty-one hundred.\r\n\r\nSo the scientific question is not resolved by a single dramatic headline.\r\n\r\nDenmark established permanent ice-sheet monitoring. Different projections depend on their assumptions about Greenland's future climate.\r\n\r\nAnd there is one last twist.\r\n\r\nThe Army went to Greenland to learn how to build inside ice that was moving.",
+    "global_word_in_0based": 2385,
+    "global_word_out_exclusive": 2389
+  },
+  {
+    "asset_id": "C14",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01",
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "Two very different depth statements",
+    "reference_ids": [
+      "R14_RADAR_2024",
+      "R15_DRILL_1966"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "2024: AT LEAST30m",
+      "1966 CORE: MORE THAN1000m"
+    ],
+    "claim_ids": [
+      "CC07-S4-067",
+      "CC07-S4-073"
+    ],
+    "historical_limit": "Different dates and different objects. Use inequality callouts with source context, NOT finite bars implying exact depths or a single measured simultaneous profile.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C14_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH08-B03",
+    "voice_cue_exact": "at least one hundred feet",
+    "voice_context_exact": "NASA published the images in November that year.\r\n\r\nNot an accessible city filled with working machinery. Not a secret missile complex still operating beneath the glacier.\r\n\r\nNASA reported that the structural remains lay at least one hundred feet beneath the surface when described in twenty twenty-four.\r\n\r\nThat is what makes this ending different from the one in the Army's original film.\r\n\r\nThe Army film shows how people built a city beneath the snow.\r\n\r\nThe radar shows what remains after the snow has continued moving for sixty years.\r\n\r\nAnd the scientific core reveals that the ice also holds records older than any nation that ever claimed a strategic interest in Greenland.",
+    "global_word_in_0based": 2754,
+    "global_word_out_exclusive": 2759
+  },
+  {
+    "asset_id": "C15",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "Reactor heat is not delivered electricity",
+    "reference_ids": [
+      "R38_POWER_RATINGS"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "THERMAL POWER",
+      "NET ELECTRICAL RATING"
+    ],
+    "claim_ids": [
+      "CC07-S4-031",
+      "CC07-S4-032"
+    ],
+    "historical_limit": "10MW thermal versus1.56MW net electrical rating (V4 narrates roughly1.5MW). Separate clearly identified quantities, not stacked parts, not net measured output, not an inferred efficiency or reactor-design diagram.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C15_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B02",
+    "voice_cue_exact": "figures measure different things",
+    "voice_context_exact": "The nuclear power plant alone accounted for about five point seven million.\r\n\r\nThose are period dollars. And they mean that the plant consumed the great majority of the initial project cost.\r\n\r\nThe reactor arrived as another set of heavy loads hauled across the ice. Engineers had to assemble it in the prepared underground plant space.\r\n\r\nIts reactor produced heat on the scale of ten megawatts, while the electrical output supplied to the camp was roughly one and a half megawatts.\r\n\r\nThose figures measure different things. Reactor heat is not the same as electricity delivered to the buildings.",
+    "global_word_in_0based": 1138,
+    "global_word_out_exclusive": 1142
+  },
+  {
+    "asset_id": "C16",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B01",
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "Two kinds of power-supply burden",
+    "reference_ids": [
+      "R21_HEAVY_SWING",
+      "R04_BUDGET"
+    ],
+    "brief": "Build an editable restrained diagram from the exact narration categories or supplied data. Keep labels short, readable and geometrically stable; use physical/geographic context instead of dashboard cards.",
+    "exact_screen_text": [
+      "FUEL DELIVERY",
+      "PLANT INVESTMENT",
+      "MAINTENANCE"
+    ],
+    "claim_ids": [
+      "CC07-S4-027",
+      "CC07-S4-029",
+      "CC07-S4-030",
+      "CC07-S4-038"
+    ],
+    "historical_limit": "Qualitative engineering trade-off, not a life-cycle-cost model, fuel saving estimate, ROI or proof of a single motive.",
+    "motion_after_approval": "4-7s ordered semantic reveal; no bouncing counters, decorative HUD, false intermediate values or automatic slide transitions.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "Exact V4 phrase anchors; duration window is a design budget, not a voice timecode",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C16_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; production/source-control notes stay in metadata",
+    "primary_cue_beat": "CC07-S4-CH04-B01",
+    "voice_cue_exact": "diesel generators",
+    "voice_context_exact": "The Army had a supply problem it could not escape.\r\n\r\nKeep a remote settlement warm with diesel generators, and every season brings another long convoy carrying fuel.\r\n\r\nOr install a machine that can produce a large amount of power without the same continuous fuel deliveries.\r\n\r\nThat second idea became PM-two-A, Camp Century's portable nuclear power plant.\r\n\r\nIt wasn't a bomb. It was an electrical and heating system for the camp.\r\n\r\nThe price was extraordinary.\r\n\r\nA nineteen sixty-five Army report gives Camp Century's actual construction cost as seven point nine two million dollars.",
+    "global_word_in_0based": 981,
+    "global_word_out_exclusive": 983
+  }
+]

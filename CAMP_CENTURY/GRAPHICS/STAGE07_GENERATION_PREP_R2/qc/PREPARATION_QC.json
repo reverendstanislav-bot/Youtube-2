@@ -1,0 +1,34 @@
+{
+  "phase": "EXPANDED_PREPARATION_ONLY",
+  "asset_briefs": 60,
+  "imagegen_jobs_prepared": 24,
+  "document_photo_briefs": 20,
+  "data_and_logic_chart_briefs": 16,
+  "physical_reference_files": 37,
+  "narration_beats": 32,
+  "paragraph_visual_units": 190,
+  "generation_outputs": 0,
+  "paid_credits_spent": 0,
+  "audio_timing": "HOLD",
+  "new_reference_review": "CODEX_VISUALLY_REVIEWED_ALL_NEW_REFERENCE_SHEETS_AND_CORRECTED_CROPS",
+  "source_image_holds": [
+    "D07"
+  ],
+  "source_date_conflict": "C06 exact rediscovery year on hold; V4 unchanged; SCI24Fig3f says2017 vs2019pilot analyses",
+  "literal_cue_bindings_verified": 60,
+  "spoken_words_unchanged": 2931,
+  "owner_style_approval": "NOT_CLAIMED",
+  "readiness": "24REFERENCED_IMAGEGEN_JOBS_PREPARED_NOT_GENERATED;D07SOURCE_HOLD;C06EXACT_DATE_HOLD",
+  "reference_quality_upgrade": "R33 rendered from actual author PDF Fig10 with full caption and different-scales note",
+  "comparison_to_R1": {
+    "imagegen_jobs": "+14 (10 to24)",
+    "document_photo_treatments": "+10 (10 to20)",
+    "data_logic_diagrams": "+10 (6 to16)",
+    "total_asset_briefs": "+34 (26 to60)"
+  },
+  "preparation_integrity": "PASS_WITH_DECLARED_SOURCE_HOLDS_NOT_VISUAL_OUTPUT_PASS",
+  "literal_cues_pass": 60,
+  "word_text_integrity": "2931unchanged across190paragraph units",
+  "source_v4_blobs_unchanged": true,
+  "graph_reference_quality": "Actual original PDF Fig10 cropped with full caption; native vector/text source retained locally"
+}
