@@ -1,3 +1,5 @@
+> **SUPERSEDED FOR VIDEO008 — 2026-10-26:** Producer rejected NASA Crawler and selected PROJECT_NIKE/ as VIDEO008. Preserve this folder as rejected early research proposal only. Do not use this as VIDEO008 authoritative status.
+
 # HIA VIDEO 008 — NASA CRAWLER-TRANSPORTER
 
 Created 2026-10-26. Stage 01 producer candidate / research initiation. Topic is NOT owner locked.

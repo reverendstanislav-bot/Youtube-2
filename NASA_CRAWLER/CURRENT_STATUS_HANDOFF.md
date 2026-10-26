@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-10-26:** VIDEO008 active topic is PROJECT_NIKE. This historical NASA Crawler candidate was rejected by producer. See PROJECT_NIKE/CURRENT_STATUS_HANDOFF.md.
+
 # HIA VIDEO008 — CURRENT STATUS — 2026-10-26
 
 TOPIC: NASA Crawler-Transporter 2 / historical pair built 1965. Selected as a **research-first candidate** on starting episode 008; **owner angle/title not yet approved**.
