@@ -1,0 +1,788 @@
+[
+  {
+    "asset_id": "G01",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH01",
+    "beat_ids": [
+      "CC07-S4-CH01-B01"
+    ],
+    "title": "A working city in shallow firn",
+    "reference_ids": [
+      "R02_PLAN",
+      "R03_ARCH",
+      "R18_ROOM"
+    ],
+    "brief": "One clear oblique cutaway through a compacted-snow trench. Show prefabricated occupied rooms beneath a corrugated arch, with a surface ramp. Match the actual ordinary rooms and arch proportions in the references. Show shallow buried construction, not a rock cavern, giant subterranean metropolis or natural ice cave. Explain material around the rooms, without drawing a complete invented site plan.",
+    "exact_screen_text": [
+      "COMPACTED SNOW",
+      "PREFAB ROOMS"
+    ],
+    "claim_ids": [
+      "CC07-S4-002",
+      "CC07-S4-003"
+    ],
+    "historical_limit": "Qualitative cutaway, not measured geometry or a literal historic view. No1963 deformation rate in this opening illustration.",
+    "motion_after_approval": "4-6s gentle continuous reveal of surface then rooms, no shake; main evidence reveal later.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G01.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G02",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B01",
+      "CC07-S4-CH03-B02"
+    ],
+    "title": "Cut-and-cover method",
+    "reference_ids": [
+      "R16_PETER",
+      "R03_ARCH"
+    ],
+    "brief": "A complete three-phase engineering illustration across one continuous snow section: excavated trench by a Peter miller, roof arch placed above a trench, the completed covered opening. Use consistent scale and camera across phases. The machines must look like the actual reference. No bedrock drilling, TBM, underground blast or tunnel-boring machine.",
+    "exact_screen_text": [
+      "CUT",
+      "COVER",
+      "BURY"
+    ],
+    "claim_ids": [
+      "CC07-S4-019",
+      "CC07-S4-020",
+      "CC07-S4-021"
+    ],
+    "historical_limit": "A method explanation, not three measured stages of a particular filmed trench.",
+    "motion_after_approval": "6-8s: reveal each phase in action order with0.4-0.7s eased line/wash masks; no card slides.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G02.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G03",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "Prefab room inside the arch",
+    "reference_ids": [
+      "R17_FLOOR",
+      "R18_ROOM",
+      "R03_ARCH"
+    ],
+    "brief": "One close technical cutaway showing timber floor framing supporting a plain prefabricated room within a snow trench. Preserve the visible materials and ordinary construction of the references. Distinguish room roof from the surrounding snow arch with clear drafting. No invented equipment or dimensions.",
+    "exact_screen_text": [
+      "SNOW ARCH",
+      "PREFAB ROOM"
+    ],
+    "claim_ids": [
+      "CC07-S4-024"
+    ],
+    "historical_limit": "Explains nesting of structures; does not assert measured clearances or prove a form-removal failure.",
+    "motion_after_approval": "5-7s controlled focus from floor framing to room and enclosing arch; single motivated move.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G03.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G04",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B04"
+    ],
+    "title": "Heat changes the surrounding material",
+    "reference_ids": [
+      "R03_ARCH",
+      "R11_DISTRESS"
+    ],
+    "brief": "A small heated room inside a snow arch in cross-section. Sparse muted warm wash around the room indicates local warming; charcoal snow contours remain clear. Show the material as snow/firn, not liquid oceans or melting blue caverns. No quantitative temperature scale, radiation glow or reactor cutaway.",
+    "exact_screen_text": [
+      "HEAT",
+      "SNOW AND FIRN"
+    ],
+    "claim_ids": [
+      "CC07-S4-026"
+    ],
+    "historical_limit": "Qualitative thermal influence only; no computed heat field or citywide collapse.",
+    "motion_after_approval": "4-6s slow growth of restrained warm wash, stable camera.",
+    "priority": "P1",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G04.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G05",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B03",
+      "CC07-S4-CH04-B04"
+    ],
+    "title": "Water supply and wastewater are different systems",
+    "reference_ids": [
+      "R19_WATER",
+      "R10_SUMP",
+      "R02_PLAN"
+    ],
+    "brief": "Two clear separate subsurface systems within one finished cutaway: a meltwater well feeding a small water-supply building; a separate wastewater sump influencing nearby supporting snow locally. A thin physical separation makes the distinction obvious. The relative placement is conceptual, not a map. Do not connect drinking water to sewage or to a reactor coolant loop. Do not use the fan/air-well Fig32 as a drinking-water design. No plant internals, valves, operating parameters or radioactive visual symbols.",
+    "exact_screen_text": [
+      "WATER SUPPLY",
+      "WASTEWATER"
+    ],
+    "claim_ids": [
+      "CC07-S4-033",
+      "CC07-S4-034",
+      "CC07-S4-036"
+    ],
+    "historical_limit": "Not to scale; local sewage-related settlement, not reactor meltdown or all-camp failure.",
+    "motion_after_approval": "6-9s first follow clean-water branch, then reveal the separate sump influence; no racing arrows.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G05.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G06",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B01",
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Why usable room disappears",
+    "reference_ids": [
+      "R06_PROFILES",
+      "R11_DISTRESS"
+    ],
+    "brief": "A qualitative side-by-side interior snow-arch section, showing a plain room under an initially taller opening and a later reduced opening. Use the measured profile reference only to understand the direction and irregularity of deformation. No fabricated exact graph, time series, numeric axis or copied rate labels; exact data will use the authentic figure and separate verified chart.",
+    "exact_screen_text": [
+      "INITIAL OPENING",
+      "REDUCED OPENING"
+    ],
+    "claim_ids": [
+      "CC07-S4-049",
+      "CC07-S4-050",
+      "CC07-S4-051"
+    ],
+    "historical_limit": "Qualitative geometry, not a reconstruction of exact survey epochs.",
+    "motion_after_approval": "6-8s stable dissolve/morph between approved endpoint contours; no elastic wobble or camera shake.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G06.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G07",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B03",
+      "CC07-S4-CH06-B04"
+    ],
+    "title": "The repeated maintenance job",
+    "reference_ids": [
+      "R08_CHAINSAW",
+      "R16_PETER"
+    ],
+    "brief": "A readable three-action maintenance vignette: a worker trims encroaching snow beside a prefab eave with the small corded electric chain saw in the actual photograph; loose cut snow is gathered; a small load is removed. One continuous technical illustration, no boxed cards. Preserve ordinary period workwear and the tool silhouette. No chainsaw attacking steel beams, blast demolition or fictional disaster.",
+    "exact_screen_text": [
+      "TRIM",
+      "REMOVE",
+      "REPEAT"
+    ],
+    "claim_ids": [
+      "CC07-S4-054",
+      "CC07-S4-055"
+    ],
+    "historical_limit": "Illustrates recurring labour.20,000yd3 is an estimate, not footage of actual annual removal.",
+    "motion_after_approval": "6-8s follow work in physical order; document Fig33 precedes it; no quantitative animation.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G07.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G08",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01"
+    ],
+    "title": "Deep core versus the shallow base",
+    "reference_ids": [
+      "R15_DRILL_1966",
+      "R02_PLAN"
+    ],
+    "brief": "A vertical explanatory section through Greenland snow and ice, with a small shallow camp near the top and a deep scientific core reaching the ice-sediment boundary far below. Include a clear scale-break convention; it is not to scale. Show plain drilling equipment informed by the authentic1966 drilling-trench photo. The basal sediment belongs below the ice sheet, not inside a barracks tunnel.",
+    "exact_screen_text": [
+      "1966 CORE",
+      "BASAL SEDIMENT"
+    ],
+    "claim_ids": [
+      "CC07-S4-066",
+      "CC07-S4-067"
+    ],
+    "historical_limit": "Do not invent a precise drilling depth or use the2024 minimum burial depth as a1966 camp depth.",
+    "motion_after_approval": "6-9s track down the core path, pause at sediment; preserve the scale break.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G08.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G09",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B02"
+    ],
+    "title": "From frozen sample to scientific evidence",
+    "reference_ids": [
+      "R13_CORE_2021"
+    ],
+    "brief": "An informative editorial drawing of a frozen sediment-bearing core cut face, a carefully held small sediment sample and a simple optical examination station, arranged in a clear visual progression. Follow the actual brown-grey archived core material; no gemstones or fantasy fossils. No identifiable plant species, numerical age, fake micrograph, invented data trace or historic government label. Use restrained report-style ink and flat wash, not glossy product photography.",
+    "exact_screen_text": [
+      "CORE",
+      "SEDIMENT",
+      "ANALYSIS"
+    ],
+    "claim_ids": [
+      "CC07-S4-068",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Conceptual modern analysis; not a photo of a specific laboratory, fossil or dated specimen.",
+    "motion_after_approval": "5-7s one measured progression from core to sample; authentic sample photo remains the factual anchor.",
+    "priority": "P1",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G09.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "G10",
+    "production_route": "IMAGEGEN_REFERENCED_ILLUSTRATION",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "What radar sees",
+    "reference_ids": [
+      "R14_RADAR_2024",
+      "R02_PLAN"
+    ],
+    "brief": "A wide modern explanatory cutaway: a small airborne survey platform above the ice, a restrained broad side-looking radar sampling wedge, and buried structural traces below the surface. Use the actual NASA composite only to understand the kind of observation; never imitate or alter it into invented measurement data. No illuminated working underground city, people, accessible rooms, missile complex, fake heatmap or new radar returns.",
+    "exact_screen_text": [
+      "AIRBORNE RADAR",
+      "BURIED STRUCTURES"
+    ],
+    "claim_ids": [
+      "CC07-S4-070",
+      "CC07-S4-071",
+      "CC07-S4-073"
+    ],
+    "historical_limit": "Method illustration only; original NASA radar is D08. Do not interpret a distant bed reflection plotted above the camp as physically above it.",
+    "motion_after_approval": "5-7s reveal survey geometry, then cut to the untouched actual radar composite.",
+    "priority": "P1",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/G10.txt",
+    "provenance_class": "CONCEPT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D01",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH01",
+    "beat_ids": [
+      "CC07-S4-CH01-B02"
+    ],
+    "title": "Authentic report identity",
+    "reference_ids": [
+      "R01_COVER"
+    ],
+    "brief": "Use original cover. Brief readable hold, then source-led cut to the relevant page. Never generate report text.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-001"
+    ],
+    "historical_limit": "No fake stamp, altered date or decorative declassification overlay.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D01_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D02",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH03",
+    "beat_ids": [
+      "CC07-S4-CH03-B03"
+    ],
+    "title": "Actual constructed base layout",
+    "reference_ids": [
+      "R02_PLAN"
+    ],
+    "brief": "Use original Fig26. Focus on actual Main Street, living/service spaces and workshop; no all-page yellow box.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-024"
+    ],
+    "historical_limit": "Dense original labels remain in scan; do not invent rooms or redraw the entire plan through ImageGen.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D02_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D03",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B01",
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "Actual cost accounting",
+    "reference_ids": [
+      "R04_BUDGET"
+    ],
+    "brief": "Show the original PM-2A5,700,000 line and7,920,000 total with their table labels and actual-total footnote.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-029",
+      "CC07-S4-030"
+    ],
+    "historical_limit": "Period dollars; no inflation-adjusted claim and no generated accounting sheet.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D03_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D04",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Actual measured profiles",
+    "reference_ids": [
+      "R06_PROFILES"
+    ],
+    "brief": "Keep Fig28/29 contours, dates, station names and scale bars. Reveal original profiles, then the two local-rate captions.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-050",
+      "CC07-S4-051"
+    ],
+    "historical_limit": "No yellow fill over the drawing, invented contour, extrapolation or whole-camp rate.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D04_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D05",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B03"
+    ],
+    "title": "Annual trimming estimate",
+    "reference_ids": [
+      "R07_ESTIMATE"
+    ],
+    "brief": "Focus precisely on estimated and20,000 cubic yards in the original paragraph; short translucent marker sweep behind text, not a line through it.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-054"
+    ],
+    "historical_limit": "Keep the estimate qualifier attached to the quantity.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D05_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D06",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B04"
+    ],
+    "title": "The actual electric-chain-saw photograph",
+    "reference_ids": [
+      "R08_CHAINSAW"
+    ],
+    "brief": "Use the original Fig33 photograph and explanatory caption. Gentle focus on tool and eave; magnifier only if needed for readability.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-055"
+    ],
+    "historical_limit": "A still photograph is not moving archive; do not generate a new worker and call it proof.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D06_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D07",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B03"
+    ],
+    "title": "GAO assessment qualification",
+    "reference_ids": [],
+    "brief": "Original Highlights Greenland paragraph required; local PDF acquisition returned403. Do not fake a GAO page. Use the source facts in editorial notes until genuine document image is acquired.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-064",
+      "CC07-S4-065"
+    ],
+    "historical_limit": "DOCUMENT_BINARY_HOLD; web text verified, local source image missing.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "DOCUMENT_BINARY_HOLD_HTTP403",
+    "prompt_file": "prompts/D07_PRODUCTION_BRIEF.md",
+    "provenance_class": "DOCUMENT",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D08",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "Actual2024 radar composite",
+    "reference_ids": [
+      "R14_RADAR_2024"
+    ],
+    "brief": "Use untouched actual NASA composite; retain meaningful context, original radar data and credit.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-070",
+      "CC07-S4-071",
+      "CC07-S4-073"
+    ],
+    "historical_limit": "Published25Nov2024, acquiredApril2024; not first radar detection, not an interior photograph.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D08_PRODUCTION_BRIEF.md",
+    "provenance_class": "SCIENTIFIC_SOURCE",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D09",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B01"
+    ],
+    "title": "Actual1966 drilling-trench photograph",
+    "reference_ids": [
+      "R15_DRILL_1966"
+    ],
+    "brief": "Use untouched NARA photograph from NASA as the historical drilling reference; identify1966 in context.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-066"
+    ],
+    "historical_limit": "Still image, not motion; do not attribute an exact drilling moment absent a more specific caption.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D09_PRODUCTION_BRIEF.md",
+    "provenance_class": "HISTORICAL_SOURCE",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "D10",
+    "production_route": "AUTHENTIC_SOURCE_NO_IMAGEGEN",
+    "chapter": "CH08",
+    "beat_ids": [
+      "CC07-S4-CH08-B02"
+    ],
+    "title": "Actual archived core interiors",
+    "reference_ids": [
+      "R13_CORE_2021"
+    ],
+    "brief": "Use only Fig2d cropped modern2021 photographs with retained specimen scale and CC BY credit.",
+    "exact_screen_text": [],
+    "claim_ids": [
+      "CC07-S4-068",
+      "CC07-S4-069"
+    ],
+    "historical_limit": "Photographed2021, published2024. Not a1966 photo or an ancient-plant micrograph.",
+    "motion_after_approval": "6-10s source-led view; ease any zoom; marker sweep0.5-0.8s only behind a short verified text span; no shake or dashboard overlays.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/D10_PRODUCTION_BRIEF.md",
+    "provenance_class": "SCIENTIFIC_SOURCE",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "C01",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B01",
+      "CC07-S4-CH02-B02"
+    ],
+    "title": "Supply distance",
+    "reference_ids": [
+      "R05_LOGISTICS"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "CAMP TUTO",
+      "138 MILES",
+      "CAMP CENTURY"
+    ],
+    "claim_ids": [
+      "CC07-S4-012"
+    ],
+    "historical_limit": "Two-node route-length diagram, NOT a geographic map. No invented coordinates, road, route shape or Thule distance.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C01_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "C02",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH02",
+    "beat_ids": [
+      "CC07-S4-CH02-B02",
+      "CC07-S4-CH02-B03"
+    ],
+    "title": "Construction cargo",
+    "reference_ids": [
+      "R05_LOGISTICS"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "1959",
+      "1960",
+      "US SHORT TONS"
+    ],
+    "claim_ids": [
+      "CC07-S4-015",
+      "CC07-S4-016",
+      "CC07-S4-017"
+    ],
+    "historical_limit": "Zero-baseline bars1000 and4600; sum5600 identified as derived total. No invented quarterly time series.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C02_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "C03",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH04",
+    "beat_ids": [
+      "CC07-S4-CH04-B02"
+    ],
+    "title": "Power plant share of initial cost",
+    "reference_ids": [
+      "R04_BUDGET"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "PM-2A",
+      "OTHER INITIAL COSTS",
+      "PERIOD DOLLARS"
+    ],
+    "claim_ids": [
+      "CC07-S4-029",
+      "CC07-S4-030"
+    ],
+    "historical_limit": "Total7,920,000, PM-2A5,700,000, derived remainder2,220,000. Shared baseline/proportional lengths; no modern dollars.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C03_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "C04",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH06",
+    "beat_ids": [
+      "CC07-S4-CH06-B02"
+    ],
+    "title": "Two different measured local rates",
+    "reference_ids": [
+      "R06_PROFILES"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "MAIN TRENCH 6+00",
+      "TRENCH20 2+60",
+      "ANNUAL CROSS-SECTION AREA LOSS"
+    ],
+    "claim_ids": [
+      "CC07-S4-050",
+      "CC07-S4-051"
+    ],
+    "historical_limit": "12% and17% annual area loss at two specified sections; not vertical inches, universal closure or a recorded annual series.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C04_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "C05",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH05",
+    "beat_ids": [
+      "CC07-S4-CH05-B02"
+    ],
+    "title": "Proposal versus actual deployment",
+    "reference_ids": [
+      "R02_PLAN"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "PROPOSAL",
+      "600 MISSILES",
+      "2,100 POSSIBLE LAUNCH POSITIONS",
+      "NEVER DEPLOYED"
+    ],
+    "claim_ids": [
+      "CC07-S4-043",
+      "CC07-S4-044",
+      "CC07-S4-057"
+    ],
+    "historical_limit": "High-level historical totals only. Facts from Nielsen2014p445; no missile or operational-network imagery, technical layouts or copyrighted article-page image.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C05_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  },
+  {
+    "asset_id": "C06",
+    "production_route": "DATA_LOCKED_CHART_NO_IMAGEGEN",
+    "chapter": "CH07",
+    "beat_ids": [
+      "CC07-S4-CH07-B01",
+      "CC07-S4-CH08-B01",
+      "CC07-S4-CH08-B02",
+      "CC07-S4-CH08-B03"
+    ],
+    "title": "Selected evidence chronology",
+    "reference_ids": [
+      "R12_SHUTDOWN",
+      "R15_DRILL_1966",
+      "R14_RADAR_2024"
+    ],
+    "brief": "Reconstruct in editable SVG/Fusion from the accompanying exact CSV, with thin axes, generous label margins and one restrained emphasis. Dense facts stay deterministic.",
+    "exact_screen_text": [
+      "1963",
+      "1964",
+      "1966",
+      "2019",
+      "2024"
+    ],
+    "claim_ids": [
+      "CC07-S4-058",
+      "CC07-S4-059",
+      "CC07-S4-066",
+      "CC07-S4-068",
+      "CC07-S4-070"
+    ],
+    "historical_limit": "Show only the relevant2-3 dated events at each chapter transition. Do not invent a single uncontested end-of-occupation date; V4 discloses1966/1967 source differences.",
+    "motion_after_approval": "4-7s eased data reveal; axes/labels fixed; no bouncing numbers, abrupt wipes or fabricated intermediate observations.",
+    "priority": "P0",
+    "audio_status": "AUDIO_TIMING_HOLD",
+    "timing": "V4 word/beat cues only; no invented seconds",
+    "status": "PREPARATION_READY_REFERENCES_REVIEWED_OUTPUT_NOT_GENERATED",
+    "prompt_file": "prompts/C06_PRODUCTION_BRIEF.md",
+    "provenance_class": "EDITORIAL_GRAPHIC_FROM_CITED_DATA",
+    "rendered_metadata_text": "NONE; keep job IDs/production notes/provenance-control metadata out of the frame; historical qualifiers are specified separately"
+  }
+]

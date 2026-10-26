@@ -1,0 +1,114 @@
+[
+  {
+    "asset_id": "D05",
+    "source_pdf": "ARMY65_TR174.pdf",
+    "pdf_page_1based": 49,
+    "exact_search_text": "20,000",
+    "normalized_original_page_word_boxes": [
+      [
+        0.647845,
+        0.618703,
+        0.709979,
+        0.634305
+      ]
+    ],
+    "mode": "HIGHLIGHT_WORD_BOX",
+    "status": "WORD_POSITION_FOUND_VERIFY_AFTER_FINAL_DOCUMENT_CROP",
+    "animation": "0.5-0.8s left-to-right mask across full word-height translucent yellow multiply band; black letters remain visible; no underline/strike-through",
+    "coordinate_scope": "Original full PDF page, not cropped JPEG. Transform using reference normalized crop before animation. Pixel alignment must be checked on final document render."
+  },
+  {
+    "asset_id": "D05",
+    "source_pdf": "ARMY65_TR174.pdf",
+    "pdf_page_1based": 49,
+    "exact_search_text": "estimated",
+    "normalized_original_page_word_boxes": [
+      [
+        0.345671,
+        0.618703,
+        0.438104,
+        0.634305
+      ]
+    ],
+    "mode": "HIGHLIGHT_WORD_BOX",
+    "status": "WORD_POSITION_FOUND_VERIFY_AFTER_FINAL_DOCUMENT_CROP",
+    "animation": "0.5-0.8s left-to-right mask across full word-height translucent yellow multiply band; black letters remain visible; no underline/strike-through",
+    "coordinate_scope": "Original full PDF page, not cropped JPEG. Transform using reference normalized crop before animation. Pixel alignment must be checked on final document render."
+  },
+  {
+    "asset_id": "D04",
+    "source_pdf": "ARMY65_TR174.pdf",
+    "pdf_page_1based": 47,
+    "exact_search_text": "12%",
+    "normalized_original_page_word_boxes": [],
+    "mode": "CAPTION_WORD_ONLY_NEVER_FILL_DRAWING",
+    "status": "OCR_TARGET_HOLD_DO_NOT_GUESS",
+    "animation": "0.5-0.8s left-to-right mask across full word-height translucent yellow multiply band; black letters remain visible; no underline/strike-through",
+    "coordinate_scope": "Original full PDF page, not cropped JPEG. Transform using reference normalized crop before animation. Pixel alignment must be checked on final document render."
+  },
+  {
+    "asset_id": "D04",
+    "source_pdf": "ARMY65_TR174.pdf",
+    "pdf_page_1based": 47,
+    "exact_search_text": "17%",
+    "normalized_original_page_word_boxes": [],
+    "mode": "CAPTION_WORD_ONLY_NEVER_FILL_DRAWING",
+    "status": "OCR_TARGET_HOLD_DO_NOT_GUESS",
+    "animation": "0.5-0.8s left-to-right mask across full word-height translucent yellow multiply band; black letters remain visible; no underline/strike-through",
+    "coordinate_scope": "Original full PDF page, not cropped JPEG. Transform using reference normalized crop before animation. Pixel alignment must be checked on final document render."
+  },
+  {
+    "asset_id": "D03",
+    "source_pdf": "ARMY65_TR174.pdf",
+    "pdf_page_1based": 39,
+    "exact_search_text": "PM-2A",
+    "normalized_original_page_word_boxes": [
+      [
+        0.1917,
+        0.163942,
+        0.258867,
+        0.179666
+      ],
+      [
+        0.291718,
+        0.458791,
+        0.356852,
+        0.474514
+      ],
+      [
+        0.785656,
+        0.512333,
+        0.852823,
+        0.528057
+      ]
+    ],
+    "mode": "ROW_FOCUS",
+    "status": "WORD_POSITION_FOUND_VERIFY_AFTER_FINAL_DOCUMENT_CROP",
+    "animation": "0.5-0.8s left-to-right mask across full word-height translucent yellow multiply band; black letters remain visible; no underline/strike-through",
+    "coordinate_scope": "Original full PDF page, not cropped JPEG. Transform using reference normalized crop before animation. Pixel alignment must be checked on final document render."
+  },
+  {
+    "asset_id": "C06",
+    "source_pdf": "ARMY65_TR174.pdf",
+    "pdf_page_1based": 55,
+    "exact_search_text": "9 July 1963",
+    "normalized_original_page_word_boxes": [
+      [
+        0.394089,
+        0.604472,
+        0.405838,
+        0.620037
+      ],
+      [
+        0.410412,
+        0.604472,
+        0.495062,
+        0.620037
+      ]
+    ],
+    "mode": "DATE_FOCUS",
+    "status": "WORD_POSITION_FOUND_VERIFY_AFTER_FINAL_DOCUMENT_CROP",
+    "animation": "0.5-0.8s left-to-right mask across full word-height translucent yellow multiply band; black letters remain visible; no underline/strike-through",
+    "coordinate_scope": "Original full PDF page, not cropped JPEG. Transform using reference normalized crop before animation. Pixel alignment must be checked on final document render."
+  }
+]

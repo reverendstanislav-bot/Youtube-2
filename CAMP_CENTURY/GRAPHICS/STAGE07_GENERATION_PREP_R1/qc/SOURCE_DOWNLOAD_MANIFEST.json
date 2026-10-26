@@ -1,0 +1,96 @@
+[
+  {
+    "source_id": "ARMY65",
+    "url": "https://icedrill.org/sites/default/files/477706.pdf",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\ARMY65_TR174.pdf",
+    "bytes": 6737453,
+    "sha256": "656a38eb144f6fe314dc4a941c233e24016c760dcdea6c8916bfbbcfd17c80e8",
+    "rights_note": "US federal Army report; inspect per-figure credits; not every photograph in report is Camp Century",
+    "status": "DOWNLOADED",
+    "pages": 70
+  },
+  {
+    "source_id": "SCI24_PAGE",
+    "url": "https://tc.copernicus.org/articles/18/4029/2024/",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\SCI24_PAGE.html",
+    "bytes": 317164,
+    "sha256": "9900faf74738a5bc5d77321347f375ebf6fecd58e718c13d60396d156b8bc8fb",
+    "rights_note": "CC BY4 article; per-image credit inspection required",
+    "status": "DOWNLOADED"
+  },
+  {
+    "source_id": "NASA24_PAGE",
+    "url": "https://science.nasa.gov/earth/earth-observatory/new-view-of-the-city-under-the-ice-153616/",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\NASA24_PAGE.html",
+    "bytes": 316391,
+    "sha256": "cf852329a8402942152260c0109da391fd830e8675d99727ccb81906e1b90369",
+    "rights_note": "NASA named-credit federal media; no endorsement; inspect historical photograph credit",
+    "status": "DOWNLOADED"
+  },
+  {
+    "source_id": "GAO24_PAGE",
+    "url": "https://www.gao.gov/products/gao-24-104082",
+    "status": "SOURCE_HOLD",
+    "error": "403 Client Error: Forbidden for url: https://www.gao.gov/products/gao-24-104082",
+    "rights_note": "US federal report; no unrelated Marshall Islands or Spain images"
+  },
+  {
+    "source_id": "NIELSEN14_RESEARCH_ONLY",
+    "url": "https://pure.au.dk/ws/files/81615219/City_under_the_Ice_2014.pdf",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\NIELSEN14_RESEARCH_ONLY.pdf",
+    "bytes": 946800,
+    "sha256": "336853f8579e9c913fd46e2aa8ce9aae60e86ec1b36a90eedd00f1585f9f552f",
+    "rights_note": "Copyright publisher: private research only; NOT a picture-generation input and NOT a public image asset",
+    "status": "DOWNLOADED",
+    "pages": 23
+  },
+  {
+    "source_id": "NASA_POLICY",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\NASA_MEDIA_POLICY.html",
+    "bytes": 311711,
+    "sha256": "17142d373245bc473a5d0d6bc817ce89d43e3044dbf60685a0543e539a59d322",
+    "rights_note": "NASA media guidelines",
+    "status": "DOWNLOADED"
+  },
+  {
+    "source_id": "SCI24",
+    "url": "https://tc.copernicus.org/articles/18/4029/2024/tc-18-4029-2024.pdf",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\SCI24.pdf",
+    "bytes": 13748109,
+    "sha256": "35c1a4f806281aa85df6c1cc20ed77625ffdc13501ada9afac4748720b2b8a40",
+    "rights_note": "CC BY4 with per-figure credits",
+    "status": "DOWNLOADED",
+    "pages": 24
+  },
+  {
+    "source_id": "NASA_RADAR",
+    "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/153000/153616/campcentury_aerial_radar_lrg.jpg",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\NASA_RADAR.jpg",
+    "bytes": 153722,
+    "sha256": "d2271c2bc11219036a0870bd00d31f51dce3c7576c78dd4b2970674ee8560b29",
+    "rights_note": "NASA credited radar composite",
+    "status": "DOWNLOADED"
+  },
+  {
+    "source_id": "NASA_1966",
+    "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/153000/153616/campcentury_pho_1966_lrg.jpg",
+    "path": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GRAPHICS_PREP_R1\\sources\\NASA_1966.jpg",
+    "bytes": 188225,
+    "sha256": "0c72db6423eccfc171f3566047f7801234d2f925a72a04a4698e274f29e78736",
+    "rights_note": "Historical NARA photo404791598 courtesy National Archives; actual1966 Camp Century, not modern radar",
+    "status": "DOWNLOADED"
+  },
+  {
+    "source_id": "GAO24_HIGHLIGHTS",
+    "url": "https://www.gao.gov/assets/gao-24-104082-highlights.pdf",
+    "status": "HOLD",
+    "error": "HTTPSConnectionPool(host='www.gao.gov', port=443): Max retries exceeded with url: /assets/gao-24-104082-highlights.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.gao.gov', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+  },
+  {
+    "source_id": "GAO24_HIGHLIGHTS",
+    "url": "https://www.gao.gov/assets/gao-24-104082-highlights.pdf",
+    "status": "HOLD",
+    "error": "403 Client Error: Forbidden for url: https://www.gao.gov/assets/gao-24-104082-highlights.pdf"
+  }
+]

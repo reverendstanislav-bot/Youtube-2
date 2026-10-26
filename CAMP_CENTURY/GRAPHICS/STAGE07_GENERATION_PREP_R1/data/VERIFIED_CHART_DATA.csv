@@ -1,0 +1,19 @@
+﻿dataset,item,value,unit,kind,source,locator
+C01,Camp Tuto to Camp Century,138,miles,reported approximate distance,https://icedrill.org/sites/default/files/477706.pdf,printed32 / PDF40
+C02,1959,1000,US short tons,approximately reported seasonal freight,https://icedrill.org/sites/default/files/477706.pdf,printed32 / PDF40
+C02,1960,4600,US short tons,approximately reported seasonal freight,https://icedrill.org/sites/default/files/477706.pdf,printed32 / PDF40
+C02,combined,5600,US short tons,derived sum1000+4600; NOT third independent bar,https://icedrill.org/sites/default/files/477706.pdf,printed32 / PDF40
+C03,total initial cost,7920000,period USD,reported total; footnote actual held to this figure,https://icedrill.org/sites/default/files/477706.pdf,printed31 / PDF39
+C03,PM-2A,5700000,period USD,reported allocation,https://icedrill.org/sites/default/files/477706.pdf,printed31 / PDF39
+C03,other initial costs,2220000,period USD,derived remainder7920000-5700000,https://icedrill.org/sites/default/files/477706.pdf,printed31 / PDF39
+C04,Main Trench station6+00,12,percent cross-section area loss per year,"reported local example, not all trenches",https://icedrill.org/sites/default/files/477706.pdf,Fig28 printed39 / PDF47
+C04,Trench20 station2+60,17,percent cross-section area loss per year,reported different local example,https://icedrill.org/sites/default/files/477706.pdf,Fig29 printed39 / PDF47
+C05,missiles,600,proposed count,never deployed; historical proposal total only,https://pure.au.dk/ws/files/81615219/City_under_the_Ice_2014.pdf,"printed445 / PDF4; article is research-only, not visual input"
+C05,possible launching positions,2100,proposed count,never built/deployed; not completed silos,https://pure.au.dk/ws/files/81615219/City_under_the_Ice_2014.pdf,printed445 / PDF4
+D05,annual snow trimming,20000,cubic yards per year,engineering estimate needed to preserve original openings; not recorded removals,https://icedrill.org/sites/default/files/477706.pdf,printed41 / PDF49
+C06,PM-2A shut down,1963-07-09,historical date,separate acquisition/publication events,https://icedrill.org/sites/default/files/477706.pdf,printed47 / PDF55
+C06,PM-2A removed,1964,historical date,separate acquisition/publication events,https://www.dvidshub.net/video/556111/relocation-pm-2a-nuclear-power-plant-mf5-5118-mcmlxv,"Actual removal film; released1965, events1964"
+C06,Basal material recovered,1966,historical date,separate acquisition/publication events,https://tc.copernicus.org/articles/18/4029/2024/,section2; avoid conflicting exact day/depth
+C06,Archived material rediscovered,2019,historical date,separate acquisition/publication events,https://tc.copernicus.org/articles/18/4029/2024/,section2
+C06,NASA UAVSAR acquisition,2024-04,historical date,separate acquisition/publication events,https://science.nasa.gov/earth/earth-observatory/new-view-of-the-city-under-the-ice-153616/,April2024 flight
+C06,NASA imagery published,2024-11-25,historical date,separate acquisition/publication events,https://science.nasa.gov/earth/earth-observatory/new-view-of-the-city-under-the-ice-153616/,article date

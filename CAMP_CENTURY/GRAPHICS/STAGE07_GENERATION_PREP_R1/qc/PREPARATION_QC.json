@@ -1,0 +1,23 @@
+{
+  "phase": "PREPARATION_ONLY_NOT_GENERATED",
+  "asset_briefs": 26,
+  "imagegen_jobs_prepared": 10,
+  "document_photo_briefs": 10,
+  "exact_chart_briefs": 6,
+  "physical_curated_reference_files": 19,
+  "script_v4_beats_mapped": 32,
+  "paid_credits_spent": 0,
+  "generated_outputs": 0,
+  "resolve_changes": 0,
+  "hold_assets": [
+    "D07"
+  ],
+  "reference_visual_review": "CODEX_REVIEWED_CURATED_SHEETS_PLUS_CORRECTED_SOURCE_CROPS",
+  "owner_style_approval": "NOT_CLAIMED",
+  "audio_timing": "HOLD",
+  "imagegen_referenced_payloads_validated": 10,
+  "script_v4_hashes_unchanged": true,
+  "readiness": "10_IMAGEGEN_JOBS_READY_FOR_FIRST_PROOF_NOT_GENERATED;D07_DOCUMENT_HOLD;CHARTS_DATA_LOCKED",
+  "document_word_targets_found": 4,
+  "document_word_target_count": 6
+}
