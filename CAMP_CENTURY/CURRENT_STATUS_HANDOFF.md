@@ -1,3 +1,18 @@
+# CAMP CENTURY VIDEO007 — CODEX STAGE06 MASTER HANDOFF R5 (2026-10-26) — CURRENT
+
+**Owner instruction:** prepare EVERYTHING to transfer to Codex for physical original-film acquisition, 5–20sec real Camp Century scene extraction, source rights, dedup and 8-chapter moving-minute QA.
+**COMPLETE READY-TO-HANDOFF PACKAGE:** ChatGPT conversation attachment **`HIA_CAMP_CENTURY_STAGE06_CODEX_HANDOFF_R5.zip`**, 45KB, archive SHA256 `d14b278e631c05fa4618fd63d30a062002fae712136158acf3367ae59cac4fbe`. It is a real ZIP containing tested Python FFmpeg source decoder/clip cutter/duplicate suggestion/per-chapter report; Python IA original downloader; source rights register, 32 beat/2931-word precise coverage manifest, blank approval and rights evidence forms, terminal job instructions. **It is an attachment in this chat, not itself committed as binary into GitHub**; producer needs to download/attach/extract on Codex workstation. 
+**GitHub authoritative handoff:**
+- `ARCHIVE/STAGE06_CODEX_MASTER_HANDOFF_R5.md` (all in one prompt + exact sources + commands)
+- `ARCHIVE/STAGE06_SOURCE_FILMS_AND_RIGHTS_R5.csv` (7 source/print records, no false media acquisition)
+- `ARCHIVE/STAGE06_V4_ALL_32_BEATS_REAL_FOOTAGE_COVERAGE_R5.csv` (exact 32 voice beats, 2931 words, all media not acquired)
+- `ARCHIVE/STAGE06_CODEX_ENTRYPOINT_R5.sh` (executable bootstrap, requires attached ZIP Python toolkit)
+- `ARCHIVE/STAGE05_ACTUAL_SITE_MOVING_FOOTAGE_ONLY_R4.md` (strict production location/rights gate)
+- `ARCHIVE/STAGE06_PHYSICAL_FOOTAGE_QC_NO_BINARY_NETWORK_HOLD_2026-10-25.md` (history of actual failed original MPEG attempts).
+**Actual source / movie coverage:** ZERO bytes verified in this assistant runtime; 0 physically approved real film clips, 0 verified direct site seconds, no manual duplicate exclusion. The originals weren't downloaded because of Internet Archive/CDN DNS restrictions; DVIDS may require authenticated login. The ZIP's cutter has successfully decoded/extracted/reported a **temporary synthetic test video**, deleted afterward, NOT real Camp Century.
+**V4 Script Lock:** PASS, immutable 2931 words/8 chapters, no paid VO authorization. **Stage06 original media bank:** HOLD until Codex obtains genuine original files on a networked workstation and proves actual footage, license receipts, source SHA, duplicate resolution and per-chapter true moving seconds. No new AI/video/paid generation or speech subtitles. Never claim existing 18–22min visual coverage based on film catalogue runtime.
+
+---
 # HIA VIDEO007 CAMP CENTURY — STAGE06 ACTUAL FOOTAGE PROCESSING ATTEMPT, 2026-10-25
 
 Owner ordered: retrieve distinct original NARA shots, cut real 5–20sec excerpts with source timecodes, verify rights/site/quality/duplicates and count authentic moving minutes in eight V4 chapters. Stage06 actual physical download was attempted NOW, not just research.
