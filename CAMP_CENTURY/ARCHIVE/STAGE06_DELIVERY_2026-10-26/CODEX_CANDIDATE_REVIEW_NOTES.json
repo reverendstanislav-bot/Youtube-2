@@ -1,0 +1,144 @@
+{
+  "reviewer": "Codex visual sequence review, 2026-10-26; not owner approval or a claim of human 1x playback",
+  "reviewed_candidate_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "reject": {
+    "CC07-C002": "Weak crane establishing sequence; overlaps the visual function of the stronger loaded-tractor scene without a clear complete lift.",
+    "CC07-C005": "Includes a dog/crew detour before the intended machinery action; reject rather than pad the convoy bank.",
+    "CC07-C056": "Proposed research description is wrong: the interval mixes study, a store passage and food crates; it does not cover the core/research beat.",
+    "CC07-C076": "Very little discernible action in the selected machinery close-up; stronger removal actions retained.",
+    "CC07-C079": "Long largely static transport-load view; reject rather than increase runtime.",
+    "CC07-C087": "Interval mixes bakery, food insert and a brief corridor view; no meaningful 5-second corridor action.",
+    "CC07-C009": "Additional short tractor pass duplicates the visual function of stronger complete convoy actions; no need to pad logistics coverage."
+  },
+  "updates": {
+    "CC07-C001": {
+      "start_sec": 228.0,
+      "actual_shot_description": "Loaded tractor-trailer drives through the Camp Century supply staging area"
+    },
+    "CC07-C004": {
+      "actual_shot_description": "Loaded cargo sleds and convoy crew at the Camp Century heavy-swing staging stop"
+    },
+    "CC07-C006": {
+      "actual_shot_description": "Crawler tracks and a loaded tractor convoy advancing across the ice cap"
+    },
+    "CC07-C009": {
+      "end_sec": 1125.49,
+      "actual_shot_description": "Large construction fuel load moves along the Camp Century supply route"
+    },
+    "CC07-C011": {
+      "actual_shot_description": "Peter snow-miller operator dismounts beside the deep snow-trench edge"
+    },
+    "CC07-C012": {
+      "start_sec": 565.0,
+      "actual_shot_description": "Workers carry boards along the shoulders of the freshly excavated trench"
+    },
+    "CC07-C014": {
+      "actual_shot_description": "Peter miller works along the trench, with machine-side and wider excavation views"
+    },
+    "CC07-C015": {
+      "start_sec": 614.0,
+      "end_sec": 620.0,
+      "actual_shot_description": "Army construction sequence: steel trench arches and crew placing snow blocks beside the covered trench"
+    },
+    "CC07-C018": {
+      "start_sec": 681.0,
+      "actual_shot_description": "Crew carries and positions a long floor beam inside the snow trench"
+    },
+    "CC07-C019": {
+      "actual_shot_description": "Carpenters check a floor beam with a spirit level in the unfinished camp building"
+    },
+    "CC07-C021": {
+      "actual_shot_description": "Long prefabricated room under assembly inside the trench, with workers at the far end"
+    },
+    "CC07-C027": {
+      "start_sec": 1144.0,
+      "actual_shot_description": "Construction supplies beside the camp workshop, followed by a tracked vehicle driving through the garage arch"
+    },
+    "CC07-C030": {
+      "start_sec": 1176.0,
+      "actual_shot_description": "Ship-side handling of the Camp Century PM-2A consignment at Thule harbour"
+    },
+    "CC07-C032": {
+      "actual_shot_description": "Tractor-trailer transports a boxed PM-2A assembly from Thule toward snow-line staging"
+    },
+    "CC07-C034": {
+      "actual_shot_description": "Round PM-2A vapor-container section is repositioned at the snow-line staging point"
+    },
+    "CC07-C041": {
+      "actual_shot_description": "Plant personnel inspect enclosed machinery and piping inside the reactor building"
+    },
+    "CC07-C043": {
+      "actual_shot_description": "Crew handles electrical equipment and hoisting above an auxiliary diesel generator",
+      "beat": "CC07-S4-CH04-B01",
+      "editorial_warning": "Conventional auxiliary generator installation, not the water-production rig or a PM-2A turbine failure. Use for the conventional-power alternative only."
+    },
+    "CC07-C044": {
+      "chapter": "CH05",
+      "beat": "CC07-S4-CH05-B01",
+      "actual_shot_description": "Worker opens food boxes and inspects canned provisions inside Camp Century"
+    },
+    "CC07-C046": {
+      "actual_shot_description": "Soldier uses the camp washbasin and shower-room facilities"
+    },
+    "CC07-C047": {
+      "start_sec": 1783.5,
+      "end_sec": 1790.2,
+      "actual_shot_description": "Camp meal sequence: food serving, a loaded tray and personnel eating in the dining hall"
+    },
+    "CC07-C050": {
+      "beat": "CC07-S4-CH06-B04",
+      "actual_shot_description": "Mechanic works at a lathe in the Camp Century workshop",
+      "editorial_warning": "Actual camp workshop support/maintenance. Not a snow miller, not a record of annual snow re-trimming and not a filmed tunnel-closure measurement."
+    },
+    "CC07-C054": {
+      "actual_shot_description": "Survey vehicles arrive at the proposed Camp Century site during the 1959 site-selection work"
+    },
+    "CC07-C057": {
+      "site_class": "SAME_PROJECT_SUPPLY_CHAIN",
+      "actual_shot_description": "1964 reopening/removal-team convoy travels from Camp Tuto toward Camp Century",
+      "editorial_warning": "March-April 1964 inbound removal-team journey, not the 1959 construction delivery and not footage within Camp Century. Severe magenta source-print fade."
+    },
+    "CC07-C060": {
+      "actual_shot_description": "Crew removes a plant radiator cover and works on connected pipework"
+    },
+    "CC07-C062": {
+      "actual_shot_description": "Workers operate lifting and support equipment around the plant machinery"
+    },
+    "CC07-C077": {
+      "actual_shot_description": "Interior view into the opened circular PM-2A vessel housing during dismantling",
+      "editorial_warning": "Inside the plant, not a component emerging onto the surface; severely magenta public print. Not fuel-handling instruction."
+    },
+    "CC07-C082": {
+      "actual_shot_description": "Close view of the loaded tractor-sled followed by the departing 1964 removal convoy",
+      "site_class": "SAME_PROJECT_SUPPLY_CHAIN",
+      "editorial_warning": "1964 outgoing transport route; this interval is not the Camp Tuto loading ramp. Severely magenta print."
+    },
+    "CC07-C086": {
+      "actual_shot_description": "Army officer explains a PM-2A display to visiting scientific aides at Camp Century",
+      "editorial_warning": "Actual scientific-aide visit; not Iceworm disclosure or an operational missile installation. Original end dissolve retained."
+    }
+  }
+}

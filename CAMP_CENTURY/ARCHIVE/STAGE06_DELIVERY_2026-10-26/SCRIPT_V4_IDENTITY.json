@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "CAMP_CENTURY/SCRIPT/STAGE04_CAMP_CENTURY_FULL_NARRATION_V4_EN.md",
+      "git_blob_sha": "0006d5345bae22b77f3556dcb8090ce167f34292",
+      "sha256": "569ca8102bd4bd06bac51ba089da8d37e6a947ce4157509106fa88fcd67868fe",
+      "status": "MATCH_LOCKED_V4"
+    },
+    {
+      "path": "CAMP_CENTURY/SCRIPT/STAGE04_CAMP_CENTURY_VOICE_TEXT_V4_EN.txt",
+      "git_blob_sha": "46fafe9914c1a061e9f219c344698f9857019973",
+      "sha256": "d4572b9a3c6e69eb78937313f1032270d95db94432524331cab82e0bceb10cc6",
+      "status": "MATCH_LOCKED_V4"
+    },
+    {
+      "path": "CAMP_CENTURY/SCRIPT/STAGE04_CAMP_CENTURY_BEATS_V4.csv",
+      "git_blob_sha": "aea8122f66765b049effd61d6bc0eb4780250407",
+      "sha256": "0404c6581cc986fc218f82926b5e989f144af53d5cf78c37a782ad9aa46f7112",
+      "status": "MATCH_LOCKED_V4"
+    }
+  ],
+  "words": 2931,
+  "beats": 32,
+  "chapters": 8
+}

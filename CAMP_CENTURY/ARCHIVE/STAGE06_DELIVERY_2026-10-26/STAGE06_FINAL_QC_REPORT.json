@@ -1,0 +1,110 @@
+{
+  "status": "VISUAL_COVERAGE_HOLD",
+  "clip_count": 78,
+  "unique_selected_seconds": 798.6979,
+  "direct_camp_seconds": 602.802199,
+  "own_supply_seconds": 195.89569999999998,
+  "acquired_source_files": 7,
+  "acquired_bytes": 7734425971,
+  "source_video_full_decode_pass": 7,
+  "full_clip_decode_pass": 78,
+  "source_first_middle_last_frame_match_pass": 78,
+  "minimum_reference_frame_ncc": 0.9991768216288315,
+  "black_events": 0,
+  "freeze_events": 0,
+  "independent_human_1x_screening": "NOT_PERFORMED_HOLD",
+  "owner_approval": "NOT_CLAIMED",
+  "audio_timing": "HOLD",
+  "paid_credits_spent": 0,
+  "script_changed": false,
+  "coverage": [
+    {
+      "chapter": "CH01",
+      "clips": 5,
+      "DIRECT_CAMP_CENTURY_SEC": 48.615233,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 0,
+      "unique_minutes": 0.8103,
+      "estimated_speech_seconds_145wpm": 122.8966,
+      "bank_to_estimated_speech_percent": 39.56,
+      "status": "HOLD",
+      "gap": "1963 measured creep and the20,000yd3 annual estimate are not filmed here. Selected earlier camp views are context only; no operational Iceworm footage exists."
+    },
+    {
+      "chapter": "CH02",
+      "clips": 8,
+      "DIRECT_CAMP_CENTURY_SEC": 29.896533,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 68.635233,
+      "unique_minutes": 1.6422,
+      "estimated_speech_seconds_145wpm": 137.3793,
+      "bank_to_estimated_speech_percent": 71.72,
+      "status": "HOLD",
+      "gap": "Actual construction supply actions available. Film tonnage/timing must not replace V4 figures. Route and Thule/Tuto remain separate from the base."
+    },
+    {
+      "chapter": "CH03",
+      "clips": 14,
+      "DIRECT_CAMP_CENTURY_SEC": 121.6215,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 0,
+      "unique_minutes": 2.027,
+      "estimated_speech_seconds_145wpm": 139.0345,
+      "bank_to_estimated_speech_percent": 87.48,
+      "status": "HOLD",
+      "gap": "Actual excavation/arches/floor framing available. Footage does not itself prove measured deformation, annual upkeep or premature form removal."
+    },
+    {
+      "chapter": "CH04",
+      "clips": 14,
+      "DIRECT_CAMP_CENTURY_SEC": 94.928167,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 48.8488,
+      "unique_minutes": 2.3963,
+      "estimated_speech_seconds_145wpm": 169.2414,
+      "bank_to_estimated_speech_percent": 84.95,
+      "status": "HOLD",
+      "gap": "Actual PM-2A transport/install/plant and water-system views available. No identified footage proves the quoted cost, wastewater destabilization or repeated turbine failures."
+    },
+    {
+      "chapter": "CH05",
+      "clips": 7,
+      "DIRECT_CAMP_CENTURY_SEC": 60.827433,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 0,
+      "unique_minutes": 1.0138,
+      "estimated_speech_seconds_145wpm": 152.2759,
+      "bank_to_estimated_speech_percent": 39.95,
+      "status": "HOLD",
+      "gap": "Only public-film camp life/research context. No actual Iceworm deployment: missiles and launching positions were proposals. Proposal/diplomacy/rejection beats need documentary evidence, not invented motion."
+    },
+    {
+      "chapter": "CH06",
+      "clips": 4,
+      "DIRECT_CAMP_CENTURY_SEC": 33.700333,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 0,
+      "unique_minutes": 0.5617,
+      "estimated_speech_seconds_145wpm": 182.4828,
+      "bank_to_estimated_speech_percent": 18.47,
+      "status": "HOLD",
+      "gap": "Only contextual construction/workshop actions, not verified annual re-trimming, cross-section closure measurements or Figure33 electric-chainsaw work. Those central beats remain uncovered by motion."
+    },
+    {
+      "chapter": "CH07",
+      "clips": 26,
+      "DIRECT_CAMP_CENTURY_SEC": 213.213,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 78.411667,
+      "unique_minutes": 4.8604,
+      "estimated_speech_seconds_145wpm": 137.7931,
+      "bank_to_estimated_speech_percent": 211.64,
+      "status": "HOLD",
+      "gap": "Real1964 dismantling and outward transport available, in severely magenta640x480 public print. No selected motion proves later contamination/climate projections. Higher-quality official720x480 requires legitimate access."
+    },
+    {
+      "chapter": "CH08",
+      "clips": 0,
+      "DIRECT_CAMP_CENTURY_SEC": 0,
+      "OWN_PROJECT_SUPPLY_CHAIN_SEC": 0,
+      "unique_minutes": 0.0,
+      "estimated_speech_seconds_145wpm": 171.7241,
+      "bank_to_estimated_speech_percent": 0.0,
+      "status": "HOLD",
+      "gap": "ZERO matching1966 deep-core drilling, ancient-plant analysis,2024 NASA radar flight or underground radar-city footage identified. Earlier1959 surveying and the scientific-aide visit are not relabelled as these events."
+    }
+  ]
+}

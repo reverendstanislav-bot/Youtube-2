@@ -1,0 +1,1484 @@
+[
+  {
+    "scene_id": "CC07-C001",
+    "source_reference_frames": [
+      6834,
+      7042,
+      7251
+    ],
+    "output_reference_frames": [
+      0,
+      208,
+      417
+    ],
+    "first_middle_last_ncc": [
+      0.9998813617868435,
+      0.9999176836189922,
+      0.9999121251239725
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C003",
+    "source_reference_frames": [
+      8152,
+      8297,
+      8442
+    ],
+    "output_reference_frames": [
+      0,
+      145,
+      290
+    ],
+    "first_middle_last_ncc": [
+      0.9999646604922628,
+      0.9996374260979013,
+      0.9999525547070313
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C004",
+    "source_reference_frames": [
+      8581,
+      8830,
+      9079
+    ],
+    "output_reference_frames": [
+      0,
+      249,
+      498
+    ],
+    "first_middle_last_ncc": [
+      0.9999523201442018,
+      0.9999116541647395,
+      0.999956230270005
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C006",
+    "source_reference_frames": [
+      10045,
+      10161,
+      10278
+    ],
+    "output_reference_frames": [
+      0,
+      116,
+      233
+    ],
+    "first_middle_last_ncc": [
+      0.9999446986590006,
+      0.9998927226869948,
+      0.9998870578099514
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C007",
+    "source_reference_frames": [
+      10370,
+      10579,
+      10788
+    ],
+    "output_reference_frames": [
+      0,
+      209,
+      418
+    ],
+    "first_middle_last_ncc": [
+      0.9999706615310966,
+      0.9999286502208464,
+      0.9999360463159391
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C008",
+    "source_reference_frames": [
+      12591,
+      12688,
+      12786
+    ],
+    "output_reference_frames": [
+      0,
+      97,
+      195
+    ],
+    "first_middle_last_ncc": [
+      0.999942333746725,
+      0.999949656960863,
+      0.9999695206891406
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C010",
+    "source_reference_frames": [
+      15855,
+      15995,
+      16136
+    ],
+    "output_reference_frames": [
+      0,
+      140,
+      281
+    ],
+    "first_middle_last_ncc": [
+      0.999930942190906,
+      0.9999501501699242,
+      0.999937221577553
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C011",
+    "source_reference_frames": [
+      16304,
+      16498,
+      16692
+    ],
+    "output_reference_frames": [
+      0,
+      194,
+      388
+    ],
+    "first_middle_last_ncc": [
+      0.9999530121638548,
+      0.9999376894699361,
+      0.9999446516869622
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C012",
+    "source_reference_frames": [
+      16934,
+      17032,
+      17131
+    ],
+    "output_reference_frames": [
+      0,
+      98,
+      197
+    ],
+    "first_middle_last_ncc": [
+      0.9999692325415719,
+      0.9999532118694275,
+      0.9999531477761203
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C013",
+    "source_reference_frames": [
+      17203,
+      17290,
+      17377
+    ],
+    "output_reference_frames": [
+      0,
+      87,
+      174
+    ],
+    "first_middle_last_ncc": [
+      0.9999568749502239,
+      0.9999641328383178,
+      0.9999643744402184
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C014",
+    "source_reference_frames": [
+      17758,
+      17839,
+      17921
+    ],
+    "output_reference_frames": [
+      0,
+      81,
+      163
+    ],
+    "first_middle_last_ncc": [
+      0.9999074389185082,
+      0.9998380101298691,
+      0.9998781461349039
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C015",
+    "source_reference_frames": [
+      18402,
+      18491,
+      18580
+    ],
+    "output_reference_frames": [
+      0,
+      89,
+      178
+    ],
+    "first_middle_last_ncc": [
+      0.9999195569703725,
+      0.9998425846413747,
+      0.9998396987303807
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C016",
+    "source_reference_frames": [
+      18612,
+      18806,
+      19001
+    ],
+    "output_reference_frames": [
+      0,
+      194,
+      389
+    ],
+    "first_middle_last_ncc": [
+      0.9999630416113364,
+      0.999970260280082,
+      0.9999496962773018
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C017",
+    "source_reference_frames": [
+      19740,
+      19909,
+      20078
+    ],
+    "output_reference_frames": [
+      0,
+      169,
+      338
+    ],
+    "first_middle_last_ncc": [
+      0.99986154172137,
+      0.9998253754716158,
+      0.9998144908916088
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C018",
+    "source_reference_frames": [
+      20410,
+      20559,
+      20708
+    ],
+    "output_reference_frames": [
+      0,
+      149,
+      298
+    ],
+    "first_middle_last_ncc": [
+      0.9998763752604872,
+      0.9999014759534411,
+      0.9999079385954512
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C019",
+    "source_reference_frames": [
+      21091,
+      21184,
+      21277
+    ],
+    "output_reference_frames": [
+      0,
+      93,
+      186
+    ],
+    "first_middle_last_ncc": [
+      0.9997403059516672,
+      0.9997186034729489,
+      0.9999131764143803
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C020",
+    "source_reference_frames": [
+      21506,
+      21601,
+      21697
+    ],
+    "output_reference_frames": [
+      0,
+      95,
+      191
+    ],
+    "first_middle_last_ncc": [
+      0.9998562929342611,
+      0.9997730122875044,
+      0.9998667095847422
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C021",
+    "source_reference_frames": [
+      22161,
+      22253,
+      22346
+    ],
+    "output_reference_frames": [
+      0,
+      92,
+      185
+    ],
+    "first_middle_last_ncc": [
+      0.9998841324775196,
+      0.9998493859793908,
+      0.9998443402509838
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C022",
+    "source_reference_frames": [
+      22487,
+      22580,
+      22673
+    ],
+    "output_reference_frames": [
+      0,
+      93,
+      186
+    ],
+    "first_middle_last_ncc": [
+      0.9999602641583547,
+      0.9999545873478375,
+      0.9999668808211292
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C024",
+    "source_reference_frames": [
+      23647,
+      23885,
+      24124
+    ],
+    "output_reference_frames": [
+      0,
+      238,
+      477
+    ],
+    "first_middle_last_ncc": [
+      0.9998762147160292,
+      0.9999755486765582,
+      0.9999442802349685
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C025",
+    "source_reference_frames": [
+      27635,
+      27726,
+      27818
+    ],
+    "output_reference_frames": [
+      0,
+      91,
+      183
+    ],
+    "first_middle_last_ncc": [
+      0.9999403989800013,
+      0.9999324009678701,
+      0.9998549320233059
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C026",
+    "source_reference_frames": [
+      31526,
+      31698,
+      31871
+    ],
+    "output_reference_frames": [
+      0,
+      172,
+      345
+    ],
+    "first_middle_last_ncc": [
+      0.9999199410968177,
+      0.9999222414433505,
+      0.999927332658184
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C027",
+    "source_reference_frames": [
+      34286,
+      34398,
+      34511
+    ],
+    "output_reference_frames": [
+      0,
+      112,
+      225
+    ],
+    "first_middle_last_ncc": [
+      0.99990744894388,
+      0.9999179186534808,
+      0.9998650994522396
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C028",
+    "source_reference_frames": [
+      54936,
+      55114,
+      55293
+    ],
+    "output_reference_frames": [
+      0,
+      178,
+      357
+    ],
+    "first_middle_last_ncc": [
+      0.9999007297231504,
+      0.9997971091897608,
+      0.9998305196582308
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C029",
+    "source_reference_frames": [
+      55355,
+      55526,
+      55697
+    ],
+    "output_reference_frames": [
+      0,
+      171,
+      342
+    ],
+    "first_middle_last_ncc": [
+      0.9998945804247603,
+      0.9998404004348057,
+      0.9998662338965234
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C030",
+    "source_reference_frames": [
+      35245,
+      35364,
+      35483
+    ],
+    "output_reference_frames": [
+      0,
+      119,
+      238
+    ],
+    "first_middle_last_ncc": [
+      0.9999263379551007,
+      0.9999583041868082,
+      0.999839582916015
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C031",
+    "source_reference_frames": [
+      35775,
+      35869,
+      35963
+    ],
+    "output_reference_frames": [
+      0,
+      94,
+      188
+    ],
+    "first_middle_last_ncc": [
+      0.9999274400711643,
+      0.9999004964339931,
+      0.9998347490403163
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C032",
+    "source_reference_frames": [
+      36204,
+      36356,
+      36509
+    ],
+    "output_reference_frames": [
+      0,
+      152,
+      305
+    ],
+    "first_middle_last_ncc": [
+      0.9998679541523853,
+      0.9998057841142088,
+      0.9998732775245981
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C033",
+    "source_reference_frames": [
+      36875,
+      37003,
+      37131
+    ],
+    "output_reference_frames": [
+      0,
+      128,
+      256
+    ],
+    "first_middle_last_ncc": [
+      0.9999363698559403,
+      0.9999166232689747,
+      0.9998797395587391
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C034",
+    "source_reference_frames": [
+      37163,
+      37286,
+      37409
+    ],
+    "output_reference_frames": [
+      0,
+      123,
+      246
+    ],
+    "first_middle_last_ncc": [
+      0.9999533215329077,
+      0.9998824868886564,
+      0.9998842711600818
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C035",
+    "source_reference_frames": [
+      38045,
+      38157,
+      38270
+    ],
+    "output_reference_frames": [
+      0,
+      112,
+      225
+    ],
+    "first_middle_last_ncc": [
+      0.9999211788854059,
+      0.9997791870026658,
+      0.9997551355276798
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C036",
+    "source_reference_frames": [
+      40401,
+      40504,
+      40608
+    ],
+    "output_reference_frames": [
+      0,
+      103,
+      207
+    ],
+    "first_middle_last_ncc": [
+      0.9998629561946764,
+      0.999920677309096,
+      0.9999381771466267
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C037",
+    "source_reference_frames": [
+      40737,
+      40899,
+      41062
+    ],
+    "output_reference_frames": [
+      0,
+      162,
+      325
+    ],
+    "first_middle_last_ncc": [
+      0.9999565796870435,
+      0.9999382697423322,
+      0.9999002154613346
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C038",
+    "source_reference_frames": [
+      41419,
+      41673,
+      41927
+    ],
+    "output_reference_frames": [
+      0,
+      254,
+      508
+    ],
+    "first_middle_last_ncc": [
+      0.9999533501246175,
+      0.9998975607653678,
+      0.9998995196169146
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C039",
+    "source_reference_frames": [
+      41963,
+      42169,
+      42376
+    ],
+    "output_reference_frames": [
+      0,
+      206,
+      413
+    ],
+    "first_middle_last_ncc": [
+      0.9998942207955182,
+      0.9998972247425484,
+      0.9999048245434164
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C040",
+    "source_reference_frames": [
+      42408,
+      42627,
+      42846
+    ],
+    "output_reference_frames": [
+      0,
+      219,
+      438
+    ],
+    "first_middle_last_ncc": [
+      0.9999383864047017,
+      0.999914680988622,
+      0.9999039066411743
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C041",
+    "source_reference_frames": [
+      44320,
+      44457,
+      44594
+    ],
+    "output_reference_frames": [
+      0,
+      137,
+      274
+    ],
+    "first_middle_last_ncc": [
+      0.9999387816644979,
+      0.9998400280899855,
+      0.9998744694557495
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C042",
+    "source_reference_frames": [
+      29920,
+      30076,
+      30232
+    ],
+    "output_reference_frames": [
+      0,
+      156,
+      312
+    ],
+    "first_middle_last_ncc": [
+      0.9999282153170366,
+      0.9999114260477546,
+      0.9998376793998491
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C043",
+    "source_reference_frames": [
+      30521,
+      30701,
+      30881
+    ],
+    "output_reference_frames": [
+      0,
+      180,
+      360
+    ],
+    "first_middle_last_ncc": [
+      0.9999418417826124,
+      0.9999340946240285,
+      0.9999113357368772
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C044",
+    "source_reference_frames": [
+      52688,
+      52782,
+      52877
+    ],
+    "output_reference_frames": [
+      0,
+      94,
+      189
+    ],
+    "first_middle_last_ncc": [
+      0.9999156862053155,
+      0.9999209905705685,
+      0.9999148733724319
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C046",
+    "source_reference_frames": [
+      51339,
+      51510,
+      51682
+    ],
+    "output_reference_frames": [
+      0,
+      171,
+      343
+    ],
+    "first_middle_last_ncc": [
+      0.9999242928142963,
+      0.9998827770931489,
+      0.99988390714459
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C047",
+    "source_reference_frames": [
+      53452,
+      53551,
+      53651
+    ],
+    "output_reference_frames": [
+      0,
+      99,
+      199
+    ],
+    "first_middle_last_ncc": [
+      0.999673499031486,
+      0.999907306576864,
+      0.9999095088305366
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C048",
+    "source_reference_frames": [
+      53947,
+      54110,
+      54274
+    ],
+    "output_reference_frames": [
+      0,
+      163,
+      327
+    ],
+    "first_middle_last_ncc": [
+      0.9999523935657989,
+      0.9999300188196099,
+      0.9999172138969968
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C049",
+    "source_reference_frames": [
+      54341,
+      54517,
+      54694
+    ],
+    "output_reference_frames": [
+      0,
+      176,
+      353
+    ],
+    "first_middle_last_ncc": [
+      0.9999642036847861,
+      0.9997875993238227,
+      0.9998567845193466
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C050",
+    "source_reference_frames": [
+      24936,
+      25046,
+      25157
+    ],
+    "output_reference_frames": [
+      0,
+      110,
+      221
+    ],
+    "first_middle_last_ncc": [
+      0.9999008382672215,
+      0.9999135657848115,
+      0.9998609811861269
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C051",
+    "source_reference_frames": [
+      25656,
+      25759,
+      25863
+    ],
+    "output_reference_frames": [
+      0,
+      103,
+      207
+    ],
+    "first_middle_last_ncc": [
+      0.9997754986060686,
+      0.999870834305934,
+      0.999912710560042
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C052",
+    "source_reference_frames": [
+      26036,
+      26164,
+      26293
+    ],
+    "output_reference_frames": [
+      0,
+      128,
+      257
+    ],
+    "first_middle_last_ncc": [
+      0.9999437121473883,
+      0.9999440083628622,
+      0.9999297863723885
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C053",
+    "source_reference_frames": [
+      26800,
+      26960,
+      27121
+    ],
+    "output_reference_frames": [
+      0,
+      160,
+      321
+    ],
+    "first_middle_last_ncc": [
+      0.9999560980044174,
+      0.9999389094357292,
+      0.999886985808223
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C054",
+    "source_reference_frames": [
+      3837,
+      4060,
+      4284
+    ],
+    "output_reference_frames": [
+      0,
+      223,
+      447
+    ],
+    "first_middle_last_ncc": [
+      0.9999522405414377,
+      0.9999091520384199,
+      0.9999202769349773
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C055",
+    "source_reference_frames": [
+      4616,
+      4839,
+      5063
+    ],
+    "output_reference_frames": [
+      0,
+      223,
+      447
+    ],
+    "first_middle_last_ncc": [
+      0.9999374131180185,
+      0.9999545257503714,
+      0.9998236480852826
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C057",
+    "source_reference_frames": [
+      16184,
+      16438,
+      16692
+    ],
+    "output_reference_frames": [
+      0,
+      254,
+      508
+    ],
+    "first_middle_last_ncc": [
+      0.9999650976224438,
+      0.9998473276354582,
+      0.9998155175752008
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C059",
+    "source_reference_frames": [
+      18319,
+      18413,
+      18508
+    ],
+    "output_reference_frames": [
+      0,
+      94,
+      189
+    ],
+    "first_middle_last_ncc": [
+      0.9999728869867065,
+      0.999962486799547,
+      0.9999383126855272
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C060",
+    "source_reference_frames": [
+      19032,
+      19186,
+      19341
+    ],
+    "output_reference_frames": [
+      0,
+      154,
+      309
+    ],
+    "first_middle_last_ncc": [
+      0.9999758739309248,
+      0.9999442455646972,
+      0.9998430648839295
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C061",
+    "source_reference_frames": [
+      19601,
+      19728,
+      19856
+    ],
+    "output_reference_frames": [
+      0,
+      127,
+      255
+    ],
+    "first_middle_last_ncc": [
+      0.9999483980810182,
+      0.9999102752824333,
+      0.9999286445072086
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C062",
+    "source_reference_frames": [
+      20307,
+      20431,
+      20556
+    ],
+    "output_reference_frames": [
+      0,
+      124,
+      249
+    ],
+    "first_middle_last_ncc": [
+      0.999967841388265,
+      0.9999406042724863,
+      0.9999209085151446
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C063",
+    "source_reference_frames": [
+      20830,
+      20944,
+      21058
+    ],
+    "output_reference_frames": [
+      0,
+      114,
+      228
+    ],
+    "first_middle_last_ncc": [
+      0.9999514060094421,
+      0.9999304888633609,
+      0.9999041245580759
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C064",
+    "source_reference_frames": [
+      21531,
+      21764,
+      21997
+    ],
+    "output_reference_frames": [
+      0,
+      233,
+      466
+    ],
+    "first_middle_last_ncc": [
+      0.999894129531867,
+      0.9999459666325238,
+      0.9991768216288315
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C065",
+    "source_reference_frames": [
+      22460,
+      22558,
+      22656
+    ],
+    "output_reference_frames": [
+      0,
+      98,
+      196
+    ],
+    "first_middle_last_ncc": [
+      0.9999698805161635,
+      0.9999541770556735,
+      0.9999329560978627
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C066",
+    "source_reference_frames": [
+      22928,
+      23084,
+      23241
+    ],
+    "output_reference_frames": [
+      0,
+      156,
+      313
+    ],
+    "first_middle_last_ncc": [
+      0.9999732693932843,
+      0.9999318849145382,
+      0.9999317550770529
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C067",
+    "source_reference_frames": [
+      24426,
+      24650,
+      24874
+    ],
+    "output_reference_frames": [
+      0,
+      224,
+      448
+    ],
+    "first_middle_last_ncc": [
+      0.999844063971456,
+      0.9998406270305397,
+      0.9998700868624935
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C068",
+    "source_reference_frames": [
+      25037,
+      25255,
+      25473
+    ],
+    "output_reference_frames": [
+      0,
+      218,
+      436
+    ],
+    "first_middle_last_ncc": [
+      0.999930426189851,
+      0.9999548381832603,
+      0.9999639898340782
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C069",
+    "source_reference_frames": [
+      25724,
+      25820,
+      25917
+    ],
+    "output_reference_frames": [
+      0,
+      96,
+      193
+    ],
+    "first_middle_last_ncc": [
+      0.9999749366527307,
+      0.9999612374128838,
+      0.9999477629109829
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C070",
+    "source_reference_frames": [
+      27063,
+      27302,
+      27541
+    ],
+    "output_reference_frames": [
+      0,
+      239,
+      478
+    ],
+    "first_middle_last_ncc": [
+      0.9999441668594009,
+      0.9999521346106895,
+      0.9999197012348816
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C071",
+    "source_reference_frames": [
+      28352,
+      28621,
+      28890
+    ],
+    "output_reference_frames": [
+      0,
+      269,
+      538
+    ],
+    "first_middle_last_ncc": [
+      0.9999624133607937,
+      0.999945598211638,
+      0.999844376138999
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C072",
+    "source_reference_frames": [
+      28922,
+      29141,
+      29360
+    ],
+    "output_reference_frames": [
+      0,
+      219,
+      438
+    ],
+    "first_middle_last_ncc": [
+      0.9999059572418586,
+      0.9998359488404589,
+      0.9999299759393839
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C073",
+    "source_reference_frames": [
+      29914,
+      30037,
+      30161
+    ],
+    "output_reference_frames": [
+      0,
+      123,
+      247
+    ],
+    "first_middle_last_ncc": [
+      0.9999632930211059,
+      0.9999083328829547,
+      0.9999376899016729
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C074",
+    "source_reference_frames": [
+      30510,
+      30743,
+      30976
+    ],
+    "output_reference_frames": [
+      0,
+      233,
+      466
+    ],
+    "first_middle_last_ncc": [
+      0.9998725309049008,
+      0.9999398605223755,
+      0.9999545360595848
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C075",
+    "source_reference_frames": [
+      31199,
+      31284,
+      31369
+    ],
+    "output_reference_frames": [
+      0,
+      85,
+      170
+    ],
+    "first_middle_last_ncc": [
+      0.9999503359886968,
+      0.9999565722501104,
+      0.9999502401293625
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C077",
+    "source_reference_frames": [
+      33687,
+      33797,
+      33907
+    ],
+    "output_reference_frames": [
+      0,
+      110,
+      220
+    ],
+    "first_middle_last_ncc": [
+      0.9999692680907206,
+      0.9998834875918277,
+      0.999870407933694
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C078",
+    "source_reference_frames": [
+      34376,
+      34502,
+      34629
+    ],
+    "output_reference_frames": [
+      0,
+      126,
+      253
+    ],
+    "first_middle_last_ncc": [
+      0.9999097962902285,
+      0.9996854391806637,
+      0.9997162832422174
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C080",
+    "source_reference_frames": [
+      35515,
+      35654,
+      35793
+    ],
+    "output_reference_frames": [
+      0,
+      139,
+      278
+    ],
+    "first_middle_last_ncc": [
+      0.9999309142263453,
+      0.9998966210973221,
+      0.9998878844456046
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C081",
+    "source_reference_frames": [
+      36594,
+      36847,
+      37101
+    ],
+    "output_reference_frames": [
+      0,
+      253,
+      507
+    ],
+    "first_middle_last_ncc": [
+      0.9999173324854096,
+      0.9999061347998955,
+      0.9999294288481632
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C082",
+    "source_reference_frames": [
+      37163,
+      37289,
+      37416
+    ],
+    "output_reference_frames": [
+      0,
+      126,
+      253
+    ],
+    "first_middle_last_ncc": [
+      0.9999496590118981,
+      0.9999208823145819,
+      0.9999135116696762
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C083",
+    "source_reference_frames": [
+      37853,
+      38106,
+      38360
+    ],
+    "output_reference_frames": [
+      0,
+      253,
+      507
+    ],
+    "first_middle_last_ncc": [
+      0.9999611994544476,
+      0.999918973265951,
+      0.999907612070125
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C084",
+    "source_reference_frames": [
+      38722,
+      38908,
+      39094
+    ],
+    "output_reference_frames": [
+      0,
+      186,
+      372
+    ],
+    "first_middle_last_ncc": [
+      0.999934316992021,
+      0.9998806238446356,
+      0.9998583562194397
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C085",
+    "source_reference_frames": [
+      40051,
+      40149,
+      40248
+    ],
+    "output_reference_frames": [
+      0,
+      98,
+      197
+    ],
+    "first_middle_last_ncc": [
+      0.9999516479559113,
+      0.9999320452413857,
+      0.9998881142864964
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C086",
+    "source_reference_frames": [
+      2439,
+      2522,
+      2606
+    ],
+    "output_reference_frames": [
+      0,
+      83,
+      167
+    ],
+    "first_middle_last_ncc": [
+      0.9999883444238935,
+      0.9999801342380396,
+      0.9999792068168606
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  },
+  {
+    "scene_id": "CC07-C088",
+    "source_reference_frames": [
+      4166,
+      4285,
+      4404
+    ],
+    "output_reference_frames": [
+      0,
+      119,
+      238
+    ],
+    "first_middle_last_ncc": [
+      0.9999861851763069,
+      0.9999667434861145,
+      0.9999484508370844
+    ],
+    "status": "SOURCE_FRAME_MATCH_PASS"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.dvidshub.net/download/videofile/4604847",
+  "checked_utc": "2026-10-26T19:54:19.309425+00:00",
+  "method": "anonymous GET, stream=True; no login bypass, no credentials, response body not downloaded",
+  "http_status": 403,
+  "final_url": "https://www.dvidshub.net/download/videofile/4604847",
+  "content_type": "text/html; charset=UTF-8",
+  "status": "OFFICIAL_ORIGINAL_ACCESS_HOLD"
+}
