@@ -1,0 +1,212 @@
+{
+  "actual_clips": 8,
+  "actual_combined_seconds": 64,
+  "full_combined_decode": "PASS",
+  "decode_stderr": "",
+  "frame_rate_scope": "25 fps DEMO ONLY; production fps unverified",
+  "audio": "SILENT_TREATMENT_PREVIEW_NOT_VOICE_SYNCED",
+  "visual_review": "Four sampled states per scene and representative full-size geometry checked. Full continuous human playback and owner motion approval pending.",
+  "style_status": "Original illustration style accepted by owner; motion treatment pending owner review",
+  "resolve_modified": false,
+  "production_audio_timing": "AUDIO_TIMING_HOLD",
+  "files": [
+    {
+      "file": "preview/CAMP_CENTURY_8_MOTION_TESTS_64S.mp4",
+      "sha256": "e1f5721f525240f9bf36c2f96e01ae8d595241eea0bb1f86853786c9cfcb2afa",
+      "bytes": 11075749,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "1600"
+          }
+        ],
+        "format": {
+          "duration": "64.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M01_MOTION_DEMO.mp4",
+      "sha256": "626b0895071fc68e857842a0704b29b4e4de76b5c8a447090a7c4c23423e0276",
+      "bytes": 6401826,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M02_MOTION_DEMO.mp4",
+      "sha256": "9699750e4657e49ac4b893679342523aa4871f6f8012e70cd11d2142f1ffa3f7",
+      "bytes": 570970,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M03_MOTION_DEMO.mp4",
+      "sha256": "09f9c4dd873a09138167ec9e4537563eb8794441603ac8ef67ef83859db48977",
+      "bytes": 630342,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M04_MOTION_DEMO.mp4",
+      "sha256": "8cdea141fa58fdccbcb4cf65d146b17824c250177a839a71fcc4b2086e96b733",
+      "bytes": 559631,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M05_MOTION_DEMO.mp4",
+      "sha256": "d3592fb4bf2a7bd5da0e2ef00a10a01995af439f8c3546a4b1de3f6640e45416",
+      "bytes": 566546,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M06_MOTION_DEMO.mp4",
+      "sha256": "170bf8917029117b8126ece7101baa2df876869b50a7af1629da9afb8f090c5b",
+      "bytes": 1048680,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M07_MOTION_DEMO.mp4",
+      "sha256": "b6fcb9263bd6f4dbf4e41353989b959f99d099b096e30ab34dd1eafcc7bab480",
+      "bytes": 654940,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    },
+    {
+      "file": "preview/M08_MOTION_DEMO.mp4",
+      "sha256": "bf2b5cec75ad6a7b26716cd5918df5bc81ea94472969a2d94e5f8df6b7279e10",
+      "bytes": 648443,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1672,
+            "height": 940,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    }
+  ]
+}

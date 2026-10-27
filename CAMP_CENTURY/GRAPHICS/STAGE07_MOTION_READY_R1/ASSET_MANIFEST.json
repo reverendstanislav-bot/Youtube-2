@@ -1,0 +1,98 @@
+[
+  {
+    "file": "assets/M01_BASE.png",
+    "sha256": "f43db6bdb8da452445ea31877f4e555931e3d8401492b113858e88bf23b3f710",
+    "bytes": 2797310,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M02_BASE.png",
+    "sha256": "611bd106d23db63b9b17465a9519f33539f76982aae1ead66e8490cec100987c",
+    "bytes": 2766164,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M03_BASE.png",
+    "sha256": "2879f8daf456f9dbb8ad5a7365241ee0f40d212453fb94feee1f703f14ffec1c",
+    "bytes": 2921091,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M04_BASE.png",
+    "sha256": "8e1678e44b5fe8e571e562e89ebe815b302dfc9f4b5f713886a928520263e721",
+    "bytes": 2485772,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M05_BASE.png",
+    "sha256": "2f1841283c5e360abb0b066ab29f09e30ce21cd5e3aaa6cee1a8806623c5e4c5",
+    "bytes": 2716398,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M06_AIRCRAFT.png",
+    "sha256": "12df8e0c6ed27fef0fb1b25ae7298f86fc1b00a90901b96253591a3bbd96ebb9",
+    "bytes": 904824,
+    "width": 2181,
+    "height": 721,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "assets/M06_BASE.png",
+    "sha256": "12a83f0d4ec856a73a6d625441d874811434fb81d4d574f31edf16dc30e67b0b",
+    "bytes": 2710121,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M07_BASE.png",
+    "sha256": "e9347eb0b72bef433697ed459bdc8e9a0f6603561cf49e4eeffce49d3a847c16",
+    "bytes": 3196429,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M08_BASE.png",
+    "sha256": "805a46b3e71f663185b86609dbba5fbce7ab6b6e0f1098156298cd3853a8fcaa",
+    "bytes": 2853521,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  {
+    "file": "assets/M08_MODULE.png",
+    "sha256": "a450a80c8940528d395b3410612321eed2fbd359d32b5c9952dc7109fbd15831",
+    "bytes": 1097642,
+    "width": 1306,
+    "height": 1205,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  }
+]

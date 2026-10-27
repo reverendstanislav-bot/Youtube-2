@@ -1,0 +1,9 @@
+﻿id,source_asset,base,chapter,voice_cue_exact,global_word_in_0based,global_word_out_exclusive,purpose,demo_duration_seconds,audio_status,production_seconds
+M01,G01,assets/M01_BASE.png,CH01,working settlement,39,41,"Reveal occupied rooms, then distinguish arch from snow",8,AUDIO_TIMING_HOLD,
+M02,G02,assets/M02_BASE.png,CH03,cuts a long trench,664,668,Explain cut-cover-bury in order,8,AUDIO_TIMING_HOLD,
+M03,G06,assets/M03_BASE.png,CH06,walls creep inward,1778,1781,Compare two passage states without fictitious rates or simulated deformation,8,AUDIO_TIMING_HOLD,
+M04,G05,assets/M04_BASE.png,CH04,base required water,1163,1166,Distinguish disconnected water and sewage systems,8,AUDIO_TIMING_HOLD,
+M05,G08,assets/M05_BASE.png,CH08,reached the bottom,2524,2527,"Follow deep borehole to basal sediment, preserving depth-break symbol",8,AUDIO_TIMING_HOLD,
+M06,G10,assets/M06_BASE.png,CH08,using radar to study,2684,2688,Separate moving survey aircraft from background and sensing wedge,8,AUDIO_TIMING_HOLD,
+M07,G07,assets/M07_BASE.png,CH06,trimming and removing,1967,1970,Show recurring snow trimming/removal maintenance,8,AUDIO_TIMING_HOLD,
+M08,G21,assets/M08_BASE.png,CH07,reactor hardware was taken out,2305,2310,Contrast generic plant transport removal with structures left behind,8,AUDIO_TIMING_HOLD,

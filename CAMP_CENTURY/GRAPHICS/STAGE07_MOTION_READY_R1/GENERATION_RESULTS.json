@@ -1,0 +1,65 @@
+[
+  {
+    "id": "M03_BASE",
+    "source": "G06",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G06_DRAFT_R1.png",
+    "alpha": false,
+    "prompt": "Precise edit for motion compositing. Preserve the approved two side-by-side Camp Century passage cross-sections EXACTLY: left initial opening, right deformed opening, ordinary rooms, matching floor baseline, pencil lines and icy watercolor. Remove ONLY the two bottom text labels and restore paper texture. No text or new annotations. Do not move, warp, rescale or change tunnel outlines or furniture. This is a complete clean plate for precise independently drawn contour tracing, not measured engineering geometry.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-b6a0540e-6a1f-430b-a849-64e44dc76960.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M03_BASE.png"
+  },
+  {
+    "id": "M01_BASE",
+    "source": "G01",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G01_DRAFT_R1.png",
+    "alpha": false,
+    "prompt": "Precise edit for motion compositing. This approved Camp Century ink-and-watercolor cutaway is the edit target. Keep EXACTLY the same geometry, framing, ordinary prefab rooms, arch roof, snow, lighting, detail and watercolor style. Remove both text labels COMPACTED SNOW and PREFAB ROOMS and every associated leader line/dot. Seamlessly restore underlying snow and illustration. No text, leaders, highlights, boxes, UI, arrows, added machinery or new architecture. Full-frame finished clean plate, not a redesign. The clean plate will receive independently animated focus masks in post.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-912ab50c-ed96-45bf-9cd4-266e4748aa89.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M01_BASE.png"
+  },
+  {
+    "id": "M05_BASE",
+    "source": "G08",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G08_DRAFT_R1.png",
+    "alpha": false,
+    "prompt": "Precise clean-plate edit for documentary motion graphics. Preserve this Camp Century deep ice-core conceptual cross section, surface rig, blue ice layers, basal sediment and vertical borehole exactly, no framing or geometry changes. Remove labels 1966 CORE and BASAL SEDIMENT and their leaders. PRESERVE the white diagonal compressed-depth break symbol across the borehole: the section must not imply a true depth scale. No new numbers, dimensions or technical details. No highlights or motion streaks. Fully finished background for a separately animated descending borehole highlight.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-df7ba2b7-77e7-4448-b6cc-09306ab58c5b.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M05_BASE.png"
+  },
+  {
+    "id": "M06_BASE",
+    "source": "G10",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G10_REVISED_R2.png",
+    "alpha": false,
+    "prompt": "Edit this approved conceptual radar cross-section into a reusable motion background. Keep complete widescreen framing, watercolor paper, icy layered surface and SINGLE SHALLOW HORIZONTAL band of buried structural traces exactly in place. Remove the entire aircraft, both text labels and leader lines, and the entire ochre radar wedge. Restore pale textured sky where aircraft was, natural snow/ice where beam was. No aircraft shadow, no beam, no text or graphic traces left. Do not change the remnants or add bedrock, shafts or rooms. Finished full background, ready for a separate plane alpha layer and animated explanatory radar wedge.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-74e1ab2d-581b-4e99-a69c-696f995df3f7.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M06_BASE.png"
+  },
+  {
+    "id": "M08_BASE",
+    "source": "G21",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G21_REVISED_R2.png",
+    "alpha": false,
+    "prompt": "Precise motion clean plate edit. Keep the approved Camp Century removal-versus-remnants conceptual illustration's framing, snow surface, modest ground crew, small sled and SINGLE SHALLOW layer of simple timber/corrugated arch remnants in exactly the same positions. Remove ONLY the suspended orange cylinder and all its attached hanging/diagonal hoist lines, plus both labels and leaders. Restore clean pale sky where removed. Keep crew positions and remain geometry otherwise unchanged. No new architecture, reactor, radiation symbols, operating lights or measurements. Full finished background with clear sky above the existing crew so a separately animated generic transport module can be lifted there.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-009ddcfd-b299-445d-a776-399e30278d9e.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M08_BASE.png"
+  },
+  {
+    "id": "M06_AIRCRAFT",
+    "source": "G10",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G10_REVISED_R2.png",
+    "alpha": true,
+    "prompt": "Create a genuinely transparent-background isolated cutout layer of ONLY the business jet from this approved Camp Century illustration. Preserve the exact jet side profile, nose pointing RIGHT, grey-blue pencil and watercolor technique and similar detail. Single modern Gulfstream-style twin rear-engine research/business jet, not propeller plane, not military bomber. Remove all sky, snow, beam, labels, leaders and scenery. No cast shadow or decorative effects. Fully visible whole plane, generously padded, consistent profile, alpha background. This is an independent compositing element, no text.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-b9df96d5-963f-4105-b936-0d414ad3f41c.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M06_AIRCRAFT.png"
+  },
+  {
+    "id": "M08_MODULE",
+    "source": "G21",
+    "path": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G21_REVISED_R2.png",
+    "alpha": true,
+    "prompt": "Create a transparent cutout compositing layer based on ONLY the suspended orange transport cylinder in this Camp Century concept illustration. Preserve its rusty ochre watercolor and ink appearance, vertical cylindrical shape and side viewpoint; include two simple sling legs above joining at a small lifting hook; no long cables extending off frame. This is a generic transport container, not a reactor design or cutaway. No text, labels, radiation symbols, background, crew, snow, shadows, or scenery. Entire object and short sling visible with padding, genuine alpha background.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-bfc913a3-6cf6-461d-9d85-b1a1e3630762.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M08_MODULE.png"
+  }
+]
