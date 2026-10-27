@@ -1,0 +1,44 @@
+{
+  "timeline": "HIA_VIDEO007_CAMP_CENTURY_VISUAL_R1_25FPS",
+  "project": "YT2 Vid7",
+  "duration_frames": 27368,
+  "frame_rate": 25,
+  "duration_seconds": 1094.72,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "shots": 132,
+  "fusion_compositions": 104,
+  "archive_shots": 28,
+  "audio_track_locked": true,
+  "subtitles": false,
+  "excluded": [
+    "G17",
+    "G18",
+    "C06 disputed rediscovery date",
+    "D07 unavailable GAO original",
+    "M10_MILLER"
+  ],
+  "alignment": {
+    "beat_boundaries": 32,
+    "subcue_fallback_shots": [
+      "S065",
+      "S089"
+    ],
+    "note": "Beat boundaries use approved locked narration timing. Two internal visual cues use within-beat fallback timing; these are not claimed word-exact."
+  },
+  "render_scope": "720p25 rough picture proxy, not final color/music/SFX",
+  "review": {
+    "representative_mask_stills": "Inspected actual DOC_MASK_CPU and CHART_MASK_CPU PNG outputs: local word fill and readable chart, no full-frame mask fill",
+    "additional_stills": "Inspected AIRCRAFT_CPU and REMOVAL_CPU; these sample a primary reference and buried-remains illustration, not the independently animated aircraft/module shots",
+    "full_real_time_av_review": "NOT_COMPLETED",
+    "owner_picture_approval": "PENDING",
+    "visual_coverage_pass": "NOT_CLAIMED"
+  },
+  "historical_limitations": [
+    "Generated illustrations must not be treated as original footage or measured technical evidence",
+    "Source-bank independent real-time screening remains a separate gate",
+    "Archive motion gaps are covered by primary references and explanatory stills; no full archive-only coverage claim"
+  ]
+}

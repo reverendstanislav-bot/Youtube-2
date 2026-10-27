@@ -1,0 +1,111 @@
+[
+  {
+    "asset_id": "M09_BASE",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_PEOPLE_R2/assets/M09_BASE.png",
+    "sha256": "6a72413b17792537387bdbd8158ede326d5e04c6b611c8e2dca2d7134811577f",
+    "bytes": 3147208,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "status": "USED_ILLUSTRATIVE_R1",
+    "restriction": "Generated explanatory illustration; not archival evidence or a measured reconstruction",
+    "timeline_shots": [
+      "S014",
+      "S017"
+    ],
+    "prompt_and_references": "GENERATION_RESULTS.json",
+    "audio_changed": false
+  },
+  {
+    "asset_id": "M10_BASE",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_PEOPLE_R2/assets/M10_BASE.png",
+    "sha256": "a86f1458b59a1faef097bb531abe0ec0d90c115140435518d07af251c2ec8370",
+    "bytes": 3099605,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "status": "USED_ILLUSTRATIVE_R1",
+    "restriction": "Generated explanatory illustration; not archival evidence or a measured reconstruction",
+    "timeline_shots": [
+      "S030"
+    ],
+    "prompt_and_references": "GENERATION_RESULTS.json",
+    "audio_changed": false
+  },
+  {
+    "asset_id": "M11_BASE",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_PEOPLE_R2/assets/M11_BASE.png",
+    "sha256": "2650b0388b31a61522d13da97bb559e562ce33e2a915c8603b282f52f2c2dad1",
+    "bytes": 3159810,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "status": "USED_ILLUSTRATIVE_R1",
+    "restriction": "Generated explanatory illustration; not archival evidence or a measured reconstruction",
+    "timeline_shots": [
+      "S034"
+    ],
+    "prompt_and_references": "GENERATION_RESULTS.json",
+    "audio_changed": false
+  },
+  {
+    "asset_id": "M12_BASE",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_PEOPLE_R2/assets/M12_BASE.png",
+    "sha256": "8e5f457cdeda6088fab2fed1e40cc63b074a3f1067e83fa5c430f03b33485911",
+    "bytes": 3006449,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "status": "USED_ILLUSTRATIVE_R1",
+    "restriction": "Generated explanatory illustration; not archival evidence or a measured reconstruction",
+    "timeline_shots": [
+      "S117",
+      "S118"
+    ],
+    "prompt_and_references": "GENERATION_RESULTS.json",
+    "audio_changed": false
+  },
+  {
+    "asset_id": "M09_CONVOY",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_PEOPLE_R2/assets/M09_CONVOY.png",
+    "sha256": "a3c4573a72e46ef9dafc2569b8c022c6f731747db75d181647b78717078dfb9b",
+    "bytes": 2324694,
+    "width": 2048,
+    "height": 768,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "status": "USED_ILLUSTRATIVE_R1",
+    "restriction": "Generated explanatory illustration; not archival evidence or a measured reconstruction",
+    "timeline_shots": [
+      "S014",
+      "S017"
+    ],
+    "prompt_and_references": "GENERATION_RESULTS.json",
+    "audio_changed": false
+  },
+  {
+    "asset_id": "M10_MILLER",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_PEOPLE_R2/assets/M10_MILLER.png",
+    "sha256": "f1a533c8ff6ef4d795247b677b1e029d1fd7ae0fd27fbfaf6b91b22c34c02d7b",
+    "bytes": 2151241,
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "status": "REJECT_NOT_USED",
+    "restriction": "Incorrect machine form; not an authentic Peter miller",
+    "timeline_shots": [],
+    "prompt_and_references": "GENERATION_RESULTS.json",
+    "audio_changed": false
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "DOC_MASK_CPU",
+    "job": "ce31c2f3-51e1-40aa-963a-4eacb31976e1",
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\DOC_MASK_CPU.mp4",
+    "frame": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\DOC_MASK_CPU.png",
+    "timeline_seconds": 53
+  },
+  {
+    "name": "CHART_MASK_CPU",
+    "job": "1ccdedcf-fb55-48a1-ab7c-bec08c9f2707",
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\CHART_MASK_CPU.mp4",
+    "frame": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\CHART_MASK_CPU.png",
+    "timeline_seconds": 91.6
+  },
+  {
+    "name": "AIRCRAFT_CPU",
+    "job": "2e20dd3d-7a32-4eb7-b5b2-a34faf5f452a",
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\AIRCRAFT_CPU.mp4",
+    "frame": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\AIRCRAFT_CPU.png",
+    "timeline_seconds": 1015
+  },
+  {
+    "name": "REMOVAL_CPU",
+    "job": "24f92911-c0fd-4d7c-91b3-5bd66c6f99c9",
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\REMOVAL_CPU.mp4",
+    "frame": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\PROOFS\\REMOVAL_CPU.png",
+    "timeline_seconds": 870
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "status": "ROUGH_PICTURE_REVIEW_PACKAGE_INSTALLED",
+  "destination": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27",
+  "files": [
+    {
+      "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R1\\HIA_VIDEO007_CAMP_CENTURY_R1_PROXY_720P25.mp4",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\HIA_VIDEO007_CAMP_CENTURY_R1_PROXY_720P25.mp4",
+      "bytes": 631693718,
+      "sha256": "dda57e7cfa13ad357e24059682e42c2555b74f511ed5032facd4406f26bb7e9c",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\HIA_VIDEO007_CAMP_CENTURY_VISUAL_R1_CPU_FIXED.drp",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\HIA_VIDEO007_CAMP_CENTURY_VISUAL_R1_CPU_FIXED.drp",
+      "bytes": 404023,
+      "sha256": "5b34b69cdbbb46862ad5e81aad1995ac8854ab858537ea2b58f38ae32578a8c7",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\SHOT_PLAN_R1.csv",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\SHOT_PLAN_R1.csv",
+      "bytes": 61392,
+      "sha256": "9e06c30dc9658be9ff0319f2034e31afddeecad07d5d5cff829f3b6191238745",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\BEATS_AUDIO_LOCKED.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\BEATS_AUDIO_LOCKED.json",
+      "bytes": 32229,
+      "sha256": "8865358208c27409ba64f54a735a0eb06771ce21992cf1407cc07bbe2808b3ca",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\EDIT_PROVENANCE_AND_HOLDS.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\EDIT_PROVENANCE_AND_HOLDS.json",
+      "bytes": 1682,
+      "sha256": "f709295e57cf47023e9f3be98bfa8d546dab7a8815babbdc0f29dfa9ed9aab58",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\NATIVE_FINAL_READBACK.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\NATIVE_FINAL_READBACK.json",
+      "bytes": 617,
+      "sha256": "a35901fdbb63f9ec6938d60e67011cf1800b9bd569872e86aab8a2de44677b12",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\README.md",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\README.md",
+      "bytes": 3732,
+      "sha256": "cab772677181edc817469f51d3f06a7752efd97f70fac5caa1e4ae140bd64cea",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\PROXY_QC.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\PROXY_QC.json",
+      "bytes": 4381,
+      "sha256": "68a0d5ad06acc81de22c590912a7b50409a4bd824d23c92ce5912363e52be710",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\ROUGH_CUT_QC_AND_DELIVERY_2026-10-27.md",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\ROUGH_CUT_QC_AND_DELIVERY_2026-10-27.md",
+      "bytes": 3488,
+      "sha256": "356e132f88066e1d8be8c8581bbfa15b8323c464ace98b9358779181bbc8afa0",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_01.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_01.jpg",
+      "bytes": 563419,
+      "sha256": "fad3ba58fd571c192d9752b5a2d1a13c150e052cd7bcde150ef20559f64b89a0",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_02.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_02.jpg",
+      "bytes": 513559,
+      "sha256": "bf592b5f5c98b5594b943ca1bf3fcec5fec67d0dd858c710f5d37f509a3d6501",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_03.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_03.jpg",
+      "bytes": 483933,
+      "sha256": "b074ae538cc20a1413f915446dc0925de19ee58a102794f51bf2121df4ecec2e",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_04.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_04.jpg",
+      "bytes": 393974,
+      "sha256": "59e386c63ae59b28dc9b6fa09f8ae60ff6686b467d8ecc57d19225bbcfb6936a",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_05.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_05.jpg",
+      "bytes": 505183,
+      "sha256": "499a7386706f398cbf50ad994916fa8592dacac8973014a70e231e8e1ba3d121",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_06.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_06.jpg",
+      "bytes": 560073,
+      "sha256": "f753c52e3b8c851bdd7c795cf83ac8098880984c5c0347e0642d219d28dd746f",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\QC\\RENDERED_CONTACT_07.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R1_2026-10-27\\RENDERED_CONTACT_07.jpg",
+      "bytes": 307702,
+      "sha256": "b72bfcfeed864c93530a4c9f3d73ea45fc2ffa9310c2f4518e12065b2ea7abc7",
+      "copy_hash_verified": true
+    }
+  ],
+  "technical_checks_pass": true,
+  "full_continuous_av_review": "PENDING",
+  "owner_approval": "PENDING",
+  "publication_approved": false
+}

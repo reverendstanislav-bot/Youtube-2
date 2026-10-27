@@ -1,0 +1,11 @@
+{
+Tools = ordered() {
+Base = Loader { Clips = { Clip { ID="Clip1", Filename="C:/Users/KK/Youtube-2-CAMP-CENTURY-VIDEO007/CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_READY_R1/assets/M06_BASE.png", FormatID="PNGFormat", StartFrame=0, Length=1, Loop=1 } }, Inputs = { GlobalIn=Input { Value = 0 }, GlobalOut=Input { Value = 198 }, ["Clip1.ExtendFirst"]=Input { Value = 0 }, ["Clip1.ExtendLast"]=Input { Value = 199 }, ["Clip1.Loop"]=Input { Value = 1 } } },
+BaseHD = BetterResize { Inputs = { Width=Input { Value = 1920 }, Height=Input { Value = 1080 }, KeepAspect=Input { Value = 0 }, Input=Input { SourceOp = "Base", Source = "Output" } } },
+Plane = Loader { Clips = { Clip { ID="Clip1", Filename="C:/Users/KK/Youtube-2-CAMP-CENTURY-VIDEO007/CAMP_CENTURY/GRAPHICS/STAGE07_MOTION_READY_R1/assets/M06_AIRCRAFT.png", FormatID="PNGFormat", StartFrame=0, Length=1, Loop=1 } }, Inputs = { GlobalIn=Input { Value = 0 }, GlobalOut=Input { Value = 198 }, ["Clip1.ExtendFirst"]=Input { Value = 0 }, ["Clip1.ExtendLast"]=Input { Value = 199 }, ["Clip1.Loop"]=Input { Value = 1 } } },
+PlaneSmall = BetterResize { Inputs = { Width=Input { Value = 450 }, Height=Input { Value = 149 }, KeepAspect=Input { Value = 0 }, Input=Input { SourceOp = "Plane", Source = "Output" } } },
+PlaneMerge = Merge { Inputs = { Background=Input { SourceOp="BaseHD", Source="Output" }, Foreground=Input { SourceOp="PlaneSmall", Source="Output" }, Center=Input { Value={0.4,0.84}, Expression="Point(0.22+0.50*min(1,max(0,time/198)),0.84)" } } },
+MediaOut1 = MediaOut { Inputs = { Input=Input { SourceOp="PlaneMerge",Source="Output" } } }
+},
+GlobalRange = { 0, 198 }, RenderRange = { 0, 198 }, CurrentTime = 0
+}

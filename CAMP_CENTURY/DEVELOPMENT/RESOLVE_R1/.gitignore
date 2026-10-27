@@ -1,0 +1,8 @@
+CONFORMED_25FPS/
+PROJECT_DB_CHECKPOINT/
+*.drp
+!HIA_VIDEO007_CAMP_CENTURY_VISUAL_R1_CPU_FIXED.drp
+QC/frames/
+patch_native_inputs.py
+__pycache__/
+QC/motion/S*.jpg

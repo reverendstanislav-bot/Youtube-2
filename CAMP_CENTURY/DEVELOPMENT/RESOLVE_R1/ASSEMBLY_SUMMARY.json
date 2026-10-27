@@ -1,0 +1,16 @@
+{
+  "shots": 132,
+  "beats": 32,
+  "duration": 1094.72,
+  "frame_rate": 25,
+  "archive_seconds": 219.08,
+  "native_graphics_seconds": 181.44,
+  "fallback_alignments": 2,
+  "no_visual_gaps": true,
+  "excluded": [
+    "G17",
+    "G18",
+    "C06 disputed rediscovery date",
+    "D07 unavailable GAO PDF"
+  ]
+}

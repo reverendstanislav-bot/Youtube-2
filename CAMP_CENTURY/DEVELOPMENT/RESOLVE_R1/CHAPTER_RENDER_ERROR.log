@@ -1,0 +1,15 @@
+Ignoring CUDA error 700: 'an illegal memory access was encountered', C:\jenkins\workspace\resolve\Resolve\Cyclone\IP\GPUManager\CudaBoardManager.cpp:161.
+Printing Stack Info
+00007FF7E2624A2C
+00000069D80FFAE0
+0000022A09866670
+Ignoring CUDA error 700: 'an illegal memory access was encountered', C:\jenkins\workspace\resolve\Resolve\Cyclone\IP\GPUManager\CudaBoardManager.cpp:161.
+Printing Stack Info
+00007FF7E2624A2C
+00000069D80FFAE0
+0000022A09866670
+CUDA error 700: 'an illegal memory access was encountered', C:\jenkins\workspace\resolve\Resolve\Cyclone\IP\GPUManager\CudaBoardManager.cpp:109.
+Printing Stack Info
+00007FF7E2624A2C
+[0x00006850] | GPU.SingleBoardMgr   | ERROR | 2026-10-27 13:56:11,750 | Unhandled board manager exception "NVIDIA GeForce RTX 3050 6GB Laptop GPU" (gpu:b3cde1c7.5150080d): an illegal memory access was encountered
+[0x00006850] | DVIP                 | ERROR | 2026-10-27 13:56:11,751 | DeviceMemoryCUDA.cpp:33: CUDA error cudaErrorIllegalAddress (700)

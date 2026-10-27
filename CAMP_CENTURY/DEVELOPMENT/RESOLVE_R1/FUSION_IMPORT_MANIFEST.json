@@ -1,0 +1,1149 @@
+[
+  {
+    "shot_id": "S001",
+    "asset_id": "M03",
+    "item_index": 0,
+    "start_frame": 0,
+    "end_frame": 340,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S001_M03.comp",
+    "features": [
+      "native animated write-on mask over local transparent accents"
+    ]
+  },
+  {
+    "shot_id": "S003",
+    "asset_id": "M01",
+    "item_index": 2,
+    "start_frame": 502,
+    "end_frame": 664,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S003_M01.comp",
+    "features": [
+      "native animated write-on mask over local transparent accents"
+    ]
+  },
+  {
+    "shot_id": "S005",
+    "asset_id": "C04",
+    "item_index": 4,
+    "start_frame": 935,
+    "end_frame": 1228,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S005_C04.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S006",
+    "asset_id": "R07_ESTIMATE",
+    "item_index": 5,
+    "start_frame": 1228,
+    "end_frame": 1556,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S006_R07_ESTIMATE.comp",
+    "features": [
+      "precise yellow full-height sweep: 20,000",
+      "precise yellow full-height sweep: estimated"
+    ]
+  },
+  {
+    "shot_id": "S007",
+    "asset_id": "M07",
+    "item_index": 6,
+    "start_frame": 1556,
+    "end_frame": 1656,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S007_M07.comp",
+    "features": [
+      "native animated write-on mask over local transparent accents"
+    ]
+  },
+  {
+    "shot_id": "S009",
+    "asset_id": "R01_COVER",
+    "item_index": 8,
+    "start_frame": 1796,
+    "end_frame": 1933,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S009_R01_COVER.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S011",
+    "asset_id": "C05",
+    "item_index": 10,
+    "start_frame": 2147,
+    "end_frame": 2433,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S011_C05.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S012",
+    "asset_id": "R02_PLAN",
+    "item_index": 11,
+    "start_frame": 2433,
+    "end_frame": 2572,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S012_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S013",
+    "asset_id": "G01",
+    "item_index": 12,
+    "start_frame": 2572,
+    "end_frame": 2772,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S013_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S014",
+    "asset_id": "M09",
+    "item_index": 13,
+    "start_frame": 2772,
+    "end_frame": 2918,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S014_M09.comp",
+    "features": [
+      "native independently moving transparent object"
+    ]
+  },
+  {
+    "shot_id": "S015",
+    "asset_id": "G01",
+    "item_index": 14,
+    "start_frame": 2918,
+    "end_frame": 3350,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S015_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S016",
+    "asset_id": "R32_GREENLAND_ONLY",
+    "item_index": 15,
+    "start_frame": 3350,
+    "end_frame": 3592,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S016_R32_GREENLAND_ONLY.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S017",
+    "asset_id": "M09",
+    "item_index": 16,
+    "start_frame": 3592,
+    "end_frame": 3744,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S017_M09.comp",
+    "features": [
+      "native independently moving transparent object"
+    ]
+  },
+  {
+    "shot_id": "S018",
+    "asset_id": "C01",
+    "item_index": 17,
+    "start_frame": 3744,
+    "end_frame": 3854,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S018_C01.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S020",
+    "asset_id": "G12",
+    "item_index": 19,
+    "start_frame": 4089,
+    "end_frame": 4319,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S020_G12.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S021",
+    "asset_id": "G01",
+    "item_index": 20,
+    "start_frame": 4319,
+    "end_frame": 4566,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S021_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S022",
+    "asset_id": "C02A",
+    "item_index": 21,
+    "start_frame": 4566,
+    "end_frame": 4716,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S022_C02A.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S023",
+    "asset_id": "C02B",
+    "item_index": 22,
+    "start_frame": 4716,
+    "end_frame": 5040,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S023_C02B.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S024",
+    "asset_id": "G13",
+    "item_index": 23,
+    "start_frame": 5040,
+    "end_frame": 5225,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S024_G13.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S026",
+    "asset_id": "R02_PLAN",
+    "item_index": 25,
+    "start_frame": 5388,
+    "end_frame": 5522,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S026_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S027",
+    "asset_id": "G11",
+    "item_index": 26,
+    "start_frame": 5522,
+    "end_frame": 5768,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S027_G11.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S030",
+    "asset_id": "M10",
+    "item_index": 29,
+    "start_frame": 6182,
+    "end_frame": 6458,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S030_M10.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S032",
+    "asset_id": "R02_PLAN",
+    "item_index": 31,
+    "start_frame": 6623,
+    "end_frame": 6749,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S032_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S033",
+    "asset_id": "R03_ARCH",
+    "item_index": 32,
+    "start_frame": 6749,
+    "end_frame": 6972,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S033_R03_ARCH.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S034",
+    "asset_id": "M11",
+    "item_index": 33,
+    "start_frame": 6972,
+    "end_frame": 7291,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S034_M11.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S036",
+    "asset_id": "R25_PREMATURE_FORMS",
+    "item_index": 35,
+    "start_frame": 7547,
+    "end_frame": 7667,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S036_R25_PREMATURE_FORMS.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S037",
+    "asset_id": "R25_PREMATURE_FORMS",
+    "item_index": 36,
+    "start_frame": 7667,
+    "end_frame": 7758,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S037_R25_PREMATURE_FORMS.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S038",
+    "asset_id": "G14",
+    "item_index": 37,
+    "start_frame": 7758,
+    "end_frame": 7912,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S038_G14.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S040",
+    "asset_id": "R26_UTILITY_LINES",
+    "item_index": 39,
+    "start_frame": 8054,
+    "end_frame": 8510,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S040_R26_UTILITY_LINES.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S041",
+    "asset_id": "G01",
+    "item_index": 40,
+    "start_frame": 8510,
+    "end_frame": 8736,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S041_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S042",
+    "asset_id": "G04",
+    "item_index": 41,
+    "start_frame": 8736,
+    "end_frame": 8910,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S042_G04.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S044",
+    "asset_id": "C16",
+    "item_index": 43,
+    "start_frame": 9036,
+    "end_frame": 9322,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S044_C16.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S045",
+    "asset_id": "G16",
+    "item_index": 44,
+    "start_frame": 9322,
+    "end_frame": 9494,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S045_G16.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S047",
+    "asset_id": "C03",
+    "item_index": 46,
+    "start_frame": 9780,
+    "end_frame": 10042,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S047_C03.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S050",
+    "asset_id": "R02_PLAN",
+    "item_index": 49,
+    "start_frame": 10353,
+    "end_frame": 10480,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S050_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S051",
+    "asset_id": "C15",
+    "item_index": 50,
+    "start_frame": 10480,
+    "end_frame": 10626,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S051_C15.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S053",
+    "asset_id": "R27_WATER_WELL",
+    "item_index": 52,
+    "start_frame": 10832,
+    "end_frame": 11078,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S053_R27_WATER_WELL.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S054",
+    "asset_id": "R28_SEWAGE_PROFILE",
+    "item_index": 53,
+    "start_frame": 11078,
+    "end_frame": 11552,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S054_R28_SEWAGE_PROFILE.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S055",
+    "asset_id": "R10_SUMP",
+    "item_index": 54,
+    "start_frame": 11552,
+    "end_frame": 11634,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S055_R10_SUMP.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S056",
+    "asset_id": "R10_SUMP",
+    "item_index": 55,
+    "start_frame": 11634,
+    "end_frame": 11814,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S056_R10_SUMP.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S058",
+    "asset_id": "R02_PLAN",
+    "item_index": 57,
+    "start_frame": 12043,
+    "end_frame": 12182,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S058_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S059",
+    "asset_id": "G15",
+    "item_index": 58,
+    "start_frame": 12182,
+    "end_frame": 12524,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S059_G15.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S060",
+    "asset_id": "C08",
+    "item_index": 59,
+    "start_frame": 12524,
+    "end_frame": 12751,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S060_C08.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S062",
+    "asset_id": "R02_PLAN",
+    "item_index": 61,
+    "start_frame": 12909,
+    "end_frame": 13076,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S062_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S064",
+    "asset_id": "G01",
+    "item_index": 63,
+    "start_frame": 13204,
+    "end_frame": 13532,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S064_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S065",
+    "asset_id": "C05",
+    "item_index": 64,
+    "start_frame": 13532,
+    "end_frame": 13751,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S065_C05.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S066",
+    "asset_id": "C05",
+    "item_index": 65,
+    "start_frame": 13751,
+    "end_frame": 14087,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S066_C05.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S067",
+    "asset_id": "C05_QUALIFIER",
+    "item_index": 66,
+    "start_frame": 14087,
+    "end_frame": 14236,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S067_C05_QUALIFIER.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S068",
+    "asset_id": "C05_AREA",
+    "item_index": 67,
+    "start_frame": 14236,
+    "end_frame": 14474,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S068_C05_AREA.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S069",
+    "asset_id": "R02_PLAN",
+    "item_index": 68,
+    "start_frame": 14474,
+    "end_frame": 14661,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S069_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S070",
+    "asset_id": "C09",
+    "item_index": 69,
+    "start_frame": 14661,
+    "end_frame": 14780,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S070_C09.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S071",
+    "asset_id": "R26_UTILITY_LINES",
+    "item_index": 70,
+    "start_frame": 14780,
+    "end_frame": 14965,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S071_R26_UTILITY_LINES.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S073",
+    "asset_id": "R02_PLAN",
+    "item_index": 72,
+    "start_frame": 15125,
+    "end_frame": 15222,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S073_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S074",
+    "asset_id": "R32_GREENLAND_ONLY",
+    "item_index": 73,
+    "start_frame": 15222,
+    "end_frame": 15343,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S074_R32_GREENLAND_ONLY.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S075",
+    "asset_id": "C10",
+    "item_index": 74,
+    "start_frame": 15343,
+    "end_frame": 15645,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S075_C10.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S076",
+    "asset_id": "C11",
+    "item_index": 75,
+    "start_frame": 15645,
+    "end_frame": 15814,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S076_C11.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S077",
+    "asset_id": "C11",
+    "item_index": 76,
+    "start_frame": 15814,
+    "end_frame": 15975,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S077_C11.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S078",
+    "asset_id": "R02_PLAN",
+    "item_index": 77,
+    "start_frame": 15975,
+    "end_frame": 16259,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S078_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S079",
+    "asset_id": "G19",
+    "item_index": 78,
+    "start_frame": 16259,
+    "end_frame": 16408,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S079_G19.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S080",
+    "asset_id": "G19",
+    "item_index": 79,
+    "start_frame": 16408,
+    "end_frame": 16742,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S080_G19.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S081",
+    "asset_id": "M03",
+    "item_index": 80,
+    "start_frame": 16742,
+    "end_frame": 17036,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S081_M03.comp",
+    "features": [
+      "native animated write-on mask over local transparent accents"
+    ]
+  },
+  {
+    "shot_id": "S082",
+    "asset_id": "R11_DISTRESS",
+    "item_index": 81,
+    "start_frame": 17036,
+    "end_frame": 17168,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S082_R11_DISTRESS.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S083",
+    "asset_id": "R06_PROFILES",
+    "item_index": 82,
+    "start_frame": 17168,
+    "end_frame": 17258,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S083_R06_PROFILES.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S084",
+    "asset_id": "R06_PROFILES",
+    "item_index": 83,
+    "start_frame": 17258,
+    "end_frame": 17462,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S084_R06_PROFILES.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S085",
+    "asset_id": "C04",
+    "item_index": 84,
+    "start_frame": 17462,
+    "end_frame": 17656,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S085_C04.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S086",
+    "asset_id": "R29_MAIN_HEIGHT_TABLE",
+    "item_index": 85,
+    "start_frame": 17656,
+    "end_frame": 17772,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S086_R29_MAIN_HEIGHT_TABLE.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S087",
+    "asset_id": "R30_SIDE_HEIGHT_TABLE",
+    "item_index": 86,
+    "start_frame": 17772,
+    "end_frame": 18196,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S087_R30_SIDE_HEIGHT_TABLE.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S088",
+    "asset_id": "G19",
+    "item_index": 87,
+    "start_frame": 18196,
+    "end_frame": 18371,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S088_G19.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S089",
+    "asset_id": "R07_ESTIMATE",
+    "item_index": 88,
+    "start_frame": 18371,
+    "end_frame": 18638,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S089_R07_ESTIMATE.comp",
+    "features": [
+      "precise yellow full-height sweep: 20,000",
+      "precise yellow full-height sweep: estimated"
+    ]
+  },
+  {
+    "shot_id": "S090",
+    "asset_id": "M07",
+    "item_index": 89,
+    "start_frame": 18638,
+    "end_frame": 18872,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S090_M07.comp",
+    "features": [
+      "native animated write-on mask over local transparent accents"
+    ]
+  },
+  {
+    "shot_id": "S091",
+    "asset_id": "G01",
+    "item_index": 90,
+    "start_frame": 18872,
+    "end_frame": 19071,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S091_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S092",
+    "asset_id": "G20",
+    "item_index": 91,
+    "start_frame": 19071,
+    "end_frame": 19158,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S092_G20.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S094",
+    "asset_id": "R02_PLAN",
+    "item_index": 93,
+    "start_frame": 19373,
+    "end_frame": 19450,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S094_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S095",
+    "asset_id": "R08_CHAINSAW",
+    "item_index": 94,
+    "start_frame": 19450,
+    "end_frame": 19656,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S095_R08_CHAINSAW.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S097",
+    "asset_id": "R02_PLAN",
+    "item_index": 96,
+    "start_frame": 19841,
+    "end_frame": 19930,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S097_R02_PLAN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S098",
+    "asset_id": "G06",
+    "item_index": 97,
+    "start_frame": 19930,
+    "end_frame": 20174,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S098_G06.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S099",
+    "asset_id": "R06_PROFILES",
+    "item_index": 98,
+    "start_frame": 20174,
+    "end_frame": 20393,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S099_R06_PROFILES.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S100",
+    "asset_id": "R12_SHUTDOWN",
+    "item_index": 99,
+    "start_frame": 20393,
+    "end_frame": 20767,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S100_R12_SHUTDOWN.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S103",
+    "asset_id": "G22",
+    "item_index": 102,
+    "start_frame": 21180,
+    "end_frame": 21452,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S103_G22.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S105",
+    "asset_id": "G22",
+    "item_index": 104,
+    "start_frame": 21701,
+    "end_frame": 21824,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S105_G22.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S107",
+    "asset_id": "R33_FIRN_FORECAST",
+    "item_index": 106,
+    "start_frame": 22097,
+    "end_frame": 22350,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S107_R33_FIRN_FORECAST.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S108",
+    "asset_id": "C13",
+    "item_index": 107,
+    "start_frame": 22350,
+    "end_frame": 22597,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S108_C13.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S109",
+    "asset_id": "R33_FIRN_FORECAST",
+    "item_index": 108,
+    "start_frame": 22597,
+    "end_frame": 22924,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S109_R33_FIRN_FORECAST.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S110",
+    "asset_id": "R32_GREENLAND_ONLY",
+    "item_index": 109,
+    "start_frame": 22924,
+    "end_frame": 23135,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S110_R32_GREENLAND_ONLY.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S111",
+    "asset_id": "G24",
+    "item_index": 110,
+    "start_frame": 23135,
+    "end_frame": 23288,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S111_G24.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S112",
+    "asset_id": "R15_DRILL_1966",
+    "item_index": 111,
+    "start_frame": 23288,
+    "end_frame": 23444,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S112_R15_DRILL_1966.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S113",
+    "asset_id": "G08",
+    "item_index": 112,
+    "start_frame": 23444,
+    "end_frame": 23654,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S113_G08.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S114",
+    "asset_id": "R15_DRILL_1966",
+    "item_index": 113,
+    "start_frame": 23654,
+    "end_frame": 23809,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S114_R15_DRILL_1966.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S115",
+    "asset_id": "M05",
+    "item_index": 114,
+    "start_frame": 23809,
+    "end_frame": 24151,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S115_M05.comp",
+    "features": [
+      "native animated write-on mask over local transparent accents"
+    ]
+  },
+  {
+    "shot_id": "S116",
+    "asset_id": "R24_FROZEN_ARCHIVE",
+    "item_index": 115,
+    "start_frame": 24151,
+    "end_frame": 24391,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S116_R24_FROZEN_ARCHIVE.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S117",
+    "asset_id": "M12",
+    "item_index": 116,
+    "start_frame": 24391,
+    "end_frame": 24565,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S117_M12.comp",
+    "features": [
+      "native local magnifying lens on small sample fragments"
+    ]
+  },
+  {
+    "shot_id": "S118",
+    "asset_id": "M12",
+    "item_index": 117,
+    "start_frame": 24565,
+    "end_frame": 24674,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S118_M12.comp",
+    "features": [
+      "native local magnifying lens on small sample fragments"
+    ]
+  },
+  {
+    "shot_id": "S119",
+    "asset_id": "G09",
+    "item_index": 118,
+    "start_frame": 24674,
+    "end_frame": 24954,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S119_G09.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S120",
+    "asset_id": "R13_CORE_2021",
+    "item_index": 119,
+    "start_frame": 24954,
+    "end_frame": 25178,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S120_R13_CORE_2021.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S121",
+    "asset_id": "M06",
+    "item_index": 120,
+    "start_frame": 25178,
+    "end_frame": 25304,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S121_M06.comp",
+    "features": [
+      "native independently moving transparent object",
+      "sensor ray tied to aircraft position"
+    ]
+  },
+  {
+    "shot_id": "S122",
+    "asset_id": "R14_RADAR_2024",
+    "item_index": 121,
+    "start_frame": 25304,
+    "end_frame": 25604,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S122_R14_RADAR_2024.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S123",
+    "asset_id": "R14_RADAR_2024",
+    "item_index": 122,
+    "start_frame": 25604,
+    "end_frame": 25934,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S123_R14_RADAR_2024.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S124",
+    "asset_id": "C14",
+    "item_index": 123,
+    "start_frame": 25934,
+    "end_frame": 26144,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S124_C14.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S126",
+    "asset_id": "G24",
+    "item_index": 125,
+    "start_frame": 26367,
+    "end_frame": 26558,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S126_G24.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  },
+  {
+    "shot_id": "S128",
+    "asset_id": "R15_DRILL_1966",
+    "item_index": 127,
+    "start_frame": 26711,
+    "end_frame": 26790,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S128_R15_DRILL_1966.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S129",
+    "asset_id": "C11",
+    "item_index": 128,
+    "start_frame": 26790,
+    "end_frame": 26898,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S129_C11.comp",
+    "features": [
+      "native Text+ qualifiers and progressive accent"
+    ]
+  },
+  {
+    "shot_id": "S130",
+    "asset_id": "R08_CHAINSAW",
+    "item_index": 129,
+    "start_frame": 26898,
+    "end_frame": 27027,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S130_R08_CHAINSAW.comp",
+    "features": [
+      "Source-led stable document or photo; no arbitrary motion"
+    ]
+  },
+  {
+    "shot_id": "S131",
+    "asset_id": "M08",
+    "item_index": 130,
+    "start_frame": 27027,
+    "end_frame": 27262,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S131_M08.comp",
+    "features": [
+      "native independently moving transparent object"
+    ]
+  },
+  {
+    "shot_id": "S132",
+    "asset_id": "G01",
+    "item_index": 131,
+    "start_frame": 27262,
+    "end_frame": 27368,
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\COMPS\\S132_G01.comp",
+    "features": [
+      "restrained continuous 2.5 percent subject push"
+    ]
+  }
+]
