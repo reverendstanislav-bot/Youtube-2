@@ -1,0 +1,107 @@
+[
+  {
+    "asset_id": "G05",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-a4969363-e68d-435a-a4e5-2d209e35a536.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G05_REVISED_R2.png",
+    "edit_prompt": "Edit image1 retaining the two separate water/waste systems, composition, two labels and ink/wash style. Correct ONLY the RIGHT wastewater sump: remove the rectangular wooden/timber tank, its lining and structural posts. Show an irregular UNLINED excavated/melted cavity directly in snow/firn, with wastewater touching the cavity walls and a restrained local warm wash in adjacent snow, as explained by source image2. The wastewater inflow pipe may terminate into this unlined cavity. Keep it disconnected from the left water supply. No engineered containment tank, radioactive symbols, glow, new text or new data. Left water-system appearance stays unchanged.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G02",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-2e381bfe-9464-4317-ac14-6d9c5b92d53b.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G02_REVISED_R2.png",
+    "edit_prompt": "Edit image1, retaining its three-stage composition, CUT/COVER/BURY labels and all middle/right architecture and ink/wash style. Correct ONLY the machine placement in the left CUT stage: the Peter snow miller must sit firmly on a continuous solid snow floor at the bottom of its open excavation, not bridge, float over, balance on or straddle an empty trench. Show both tracks supported on that solid floor, enough open trench width for the machine, snow thrown upward out of the cut. Use image2 for actual machine appearance. No new text or dimensions. Keep the same full landscape frame.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G07",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-b259b104-fe61-4538-af0a-8f4fde8a7850.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G07_REVISED_R2.png",
+    "edit_prompt": "Correct image1 into an informative modern documentary engineering illustration in the same ink/wash style. The snow trimming takes place INSIDE a covered snow/firn trench beside a prefab building eave, matching source image2, rather than along an open-air exterior wall. Show three clear actions arranged left to right within one continuous trench interior: worker using a small corded electric chain saw to trim encroaching snow beside the eave; loose snow gathered by shovel; a small removed load carried away. Use source image3 for the simple covered passage character. REMOVE the outdoor Peter miller and blue outdoor sky. Only three modest labels in exact left-to-right order: TRIM, REMOVE, REPEAT. No repeat label under the middle action, no oversized words, no extra text, fake measurements, dashboards or disaster.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G10",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-7ee3289d-fb27-42d6-ab62-b6c6ffc5e67e.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G10_REVISED_R2.png",
+    "edit_prompt": "Edit image1, maintaining the technical ink/wash style and only AIRBORNE RADAR / BURIED STRUCTURES labels. Correct the two main misleading elements: replace the propeller transport plane with a small modern twin-engine business-jet silhouette appropriate to the2024 NASA survey context; and replace the VERTICAL printed base floor plan embedded deep in the ice with a few flattened structural traces in a SHALLOW HORIZONTAL layer just below the surface. Render that layer in clear oblique cutaway perspective. No vertically stacked base plan, no deep bunker, no bedrock in this frame, no apparent working rooms. Keep a restrained side-looking radar wedge, but show no invented radar-return measurements or fake heatmap. Source image2 establishes actual observation context only; do not trace it as fictional data. No new numbers or dates.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G15",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-3aafe2a1-e5d1-4cc7-ab0b-9f4a376797e6.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G15_REVISED_R2.png",
+    "edit_prompt": "Edit image1 ONLY by removing the oddly posed worker and diagonal loose panel in the foreground doorway. Replace them with a plain empty prefab-room interior and a physically ordinary open doorway; keep the visible room wall, overhead utility lines, passage, all three labels and drawing style unchanged. No floating person, no human emerging through a wall or ceiling. No other modifications.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G17",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-81db647b-878e-497d-8857-42993430e53a.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G17_REVISED_R2.png",
+    "edit_prompt": "Edit image1 only to make the two qualitative service-flow directions consistent: all yellow electricity arrows and all orange heat arrows point AWAY FROM the central plant TOWARD the served rooms. Remove any inward-facing or double-headed arrows on a branch that also points outward. Keep the buildings, labels, illustration style and layout. These are qualitative relationships, not an operating circuit or a measured flow. Do not add numbers, additional equipment or data.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G11",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-46a2dd33-6cb2-4860-ad67-e409623303b5.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G11_REVISED_R2.png",
+    "edit_prompt": "Edit only ONE text label in image1: replace the words NOT BEDROCK beneath the separate rock material swatch with BEDROCK. That rock sample is the bedrock comparison; the actual trench is cut into SNOW AND FIRN. Preserve all other imagery, the SNOW AND FIRN label, style, composition and geometry exactly. No other changes.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G21",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-15761eac-a6da-4dc9-b63a-e7d0007d1679.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G21_REVISED_R2.png",
+    "edit_prompt": "Correct image1 for the actual Camp Century type of construction. Keep the external removal-lift vignette above the surface, the two permitted labels PLANT REMOVED / STRUCTURES REMAINED and the ink/wash style. Replace the invented multi-storey concrete bunker below with a SIMPLE SINGLE SHALLOW HORIZONTAL LAYER of a few ordinary prefab-room remnants and corridor traces under snow arches, informed by source image2. Absolutely no stacked floors, deep vertical shafts, concrete fortress, working lights, intact furnished rooms, visible operating reactor or weapons. This is a conceptual contrast between removed plant hardware and remaining infrastructure, not an invented detailed inventory or architectural survey. Keep the full landscape frame; no new text or numbers.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G22",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-00fa4bc1-8bde-4ae9-afc8-72d4dbe37119.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G22_REVISED_R2.png",
+    "edit_prompt": "Edit image1 to remove misleading surviving equipment and accessible rooms. Remove the aircraft wing from the sky entirely. Replace the large open underground caverns, drilling tower and intact equipment with a few shallow, low, compressed/fragmented structural traces of former prefab rooms and arch material embedded in continuous snow/firn. Do not show a large accessible air-filled hall, preserved drilling machinery, working lights or people. Preserve the BURIED REMAINS label, restrained ink/wash palette, landscape framing and layered snow explanation. This is a qualitative illustration of burial, not a claim that specific intact equipment survives underground.",
+    "status": "REVISED_PENDING_FINAL_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G10",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-cb7082b0-3c16-4665-aa83-c2b572158cfb.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G10_REVISED_R2.png",
+    "edit_prompt": "Edit image1, a documentary explanatory illustration of airborne radar at Camp Century; image2 is real NASA context reference only. Keep the restrained watercolor and engraved-pencil visual language, icy white blue palette and complete widescreen composition. Correct two factual diagram errors: replace the propeller plane with a small modern twin-engine rear-mounted-engine business jet, appropriate to NASA Gulfstream III context; replace the camp floor plan wrongly drawn vertically through the ice with a SINGLE SHALLOW HORIZONTAL LAYER of dark fragmentary structural traces, parallel to the snow surface. This is a conceptual side section, not a map or radar data plot. Remove rock/bedrock bottom entirely: the frame ends within ice. No deep shafts, no vertically stacked corridors, no invented radar measurements or echograms. Show a subtle translucent ochre sensing wedge reaching the shallow traces. Only two small legible labels AIRBORNE RADAR and BURIED STRUCTURES, with short accurate leaders. All frame finished, no UI panels, no branding or fake historical text.",
+    "status": "REVISED_PENDING_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G21",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-e660ffc4-80b6-4662-912e-e8c747e7f867.png",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G21_REVISED_R2.png",
+    "edit_prompt": "Correct image1 substantially while preserving its muted blue snow, pencil/ink and watercolor documentary illustration style, panoramic framing, and conceptual comparison PLANT REMOVED versus STRUCTURES REMAINED. Image2 is authentic Camp Century PLAN VIEW, not a cross-section: it proves long horizontal trenches at ONE LEVEL. The huge multiple-storey concrete underground bunker in image1 is completely wrong. REMOVE all stacked floors, deep concrete rooms, furnishings, operating lights and reactor machinery. Replace the entire below-surface structure with ONE shallow horizontal row of simple wooden prefab wall and floor remnants inside a few low corrugated metal snow-covered arch roofs. No deep vertical shafts. The cutaway is schematic, not exact surveyed geometry. Show modest damaged unoccupied remains, no working plant. Keep removal concept above ground as a modest suspended transport container with small ground crew, not a technical reactor design; remove radiation icons. Keep only small labels PLANT REMOVED and STRUCTURES REMAINED with accurate short leaders; no panels, numbers, invented measurements or fake records. Fill the complete frame.",
+    "status": "REVISED_PENDING_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G11",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G11_REVISED_R2.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-780e76de-b82c-4ba8-9ff4-004a4871c5e9.png",
+    "edit_prompt": "Edit only the rock comparison label at lower right: replace NOT BEDROCK with BEDROCK. Keep all other image content, snow and firn label, illustration technique, framing and layout unchanged. This is a separated comparison swatch of bedrock, not a layer directly below the trench.",
+    "status": "REVISED_PENDING_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G15",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G15_REVISED_R2.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-2e8463d0-b827-4a7c-89f3-16a27d87cab8.png",
+    "edit_prompt": "Correct only the doorway at left in this documentary illustration: remove the oddly positioned worker and diagonal obstructing panel. Show an ordinary clear rectangular doorway into a simple empty prefab room, normal plumb jambs and level ceiling. Keep the corridor, utilities, three existing labels, watercolor ink style and full widescreen frame unchanged. Do not add any new text or overlays.",
+    "status": "REVISED_PENDING_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G22",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G22_REVISED_R2.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-006e5bc0-e0a8-4ee8-9fc9-e09cee5a95dd.png",
+    "edit_prompt": "Edit this full-frame Camp Century conceptual buried-remains illustration. Preserve the restrained ink and watercolor style, white snow and pale blue ice, small BURIED REMAINS label. Remove the aircraft wing completely. Replace ALL open accessible rooms, intact drill tower and drilling machinery with a single shallow horizontal zone of sparse compressed, fragmented timber and corrugated metal structural traces embedded solidly in compacted snow and ice. No intact equipment, people, open cavern, accessible hall, deep shaft, bedrock, or operating lights. The traces are qualitative and their depth and spacing are not a measured survey. Make an attractive legible oblique side-section with subtle snow stratigraphy filling the complete widescreen frame. Small label leader directly to fragments; no extra text or UI.",
+    "status": "REVISED_PENDING_VISUAL_CHECK"
+  },
+  {
+    "asset_id": "G17",
+    "saved": "C:\\Users\\KK\\CAMP_CENTURY_VIDEO007_ARCHIVE\\GENERATED_R1\\G17_REVISED_R2.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-7ad455cc-350c-462d-9709-a73e492e99d3.png",
+    "edit_prompt": "Edit this conceptual Camp Century services illustration. Correct only arrow direction: EVERY yellow electricity and orange heat arrow must point AWAY from the central plant toward the surrounding occupied rooms. Remove all arrowheads pointing back toward the plant including the orange arrowhead on the upper-right horizontal branch and on the lower-right vertical diagonal trunk. No double-headed arrows. Keep all other geometry, colors, wording, layout and ink-watercolor illustration technique unchanged. It is qualitative electricity and heat supply, not an actual engineering circuit or measured plant design.",
+    "status": "REVISED_PENDING_VISUAL_CHECK"
+  }
+]
