@@ -1,0 +1,29 @@
+{
+  "project": "YT2 Vid7",
+  "timeline": "HIA_VIDEO007_CAMP_CENTURY_VISUAL_R3_25FPS",
+  "shots": 124,
+  "frames": 27818,
+  "seconds": 1112.72,
+  "original_locked_audio_seconds": 1094.72,
+  "endscreen_seconds": 18,
+  "new_image_generation": 0,
+  "new_video_generation": 0,
+  "voice_generation": 0,
+  "archive_downloads": 0,
+  "real_archive_clips": 31,
+  "real_archive_seconds": 233.48,
+  "distinct_restored_motion_types": 8,
+  "motion_placements": 10,
+  "original_audio_unchanged": true,
+  "subtitle_tracks": 0,
+  "owner_picture_approval": "PENDING",
+  "full_continuous_av_review": "NOT_COMPLETED",
+  "final_color_music_sfx": "NOT_STARTED",
+  "publication_approved": false,
+  "notes": [
+    "Existing eight motion clips reused as native media; do not claim all their internal graphics are editable Fusion strokes",
+    "Reference holds preserve 25fps cadence without loops",
+    "Some still illustrations recur or remain held for reading; not all repetition is removed",
+    "Legacy within-beat subcue fallbacks S065/S089 remain in carried-over R2 material"
+  ]
+}

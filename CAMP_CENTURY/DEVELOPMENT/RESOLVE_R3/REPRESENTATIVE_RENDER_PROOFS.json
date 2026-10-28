@@ -1,0 +1,61 @@
+[
+  {
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R3\\PROOFS\\R3_REBUILT_OPENING_60S.mp4",
+    "timeline_start_frame": 0,
+    "frames": 1500,
+    "native_render_status": {
+      "CompletionPercentage": 100,
+      "JobStatus": "\u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u043e",
+      "TimeTakenToRenderInMs": 20247
+    },
+    "full_decode": "PASS",
+    "sample_times": [
+      1,
+      5,
+      10.8,
+      17.5,
+      24.8,
+      28.5,
+      38.1,
+      44.1,
+      52,
+      59.5
+    ],
+    "contact": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\R3_REBUILT_OPENING_60S_RENDERED_SEQUENCE.jpg"
+  },
+  {
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R3\\PROOFS\\R3_RESTORED_AIRCRAFT_8S.mp4",
+    "timeline_start_frame": 25178,
+    "frames": 200,
+    "native_render_status": {
+      "CompletionPercentage": 100,
+      "JobStatus": "\u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u043e",
+      "TimeTakenToRenderInMs": 1753
+    },
+    "full_decode": "PASS",
+    "sample_times": [
+      0.16,
+      2,
+      4,
+      6.8
+    ],
+    "contact": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\R3_RESTORED_AIRCRAFT_8S_RENDERED_SEQUENCE.jpg"
+  },
+  {
+    "file": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R3\\PROOFS\\R3_PREVIOUS_VIDEO_ENDSCREEN.mp4",
+    "timeline_start_frame": 27368,
+    "frames": 100,
+    "native_render_status": {
+      "CompletionPercentage": 100,
+      "JobStatus": "\u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u043e",
+      "TimeTakenToRenderInMs": 2242
+    },
+    "full_decode": "PASS",
+    "sample_times": [
+      0.2,
+      2,
+      3.8
+    ],
+    "contact": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\R3_PREVIOUS_VIDEO_ENDSCREEN_RENDERED_SEQUENCE.jpg"
+  }
+]

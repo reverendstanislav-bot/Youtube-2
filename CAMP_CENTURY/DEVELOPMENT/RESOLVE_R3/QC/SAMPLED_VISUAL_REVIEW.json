@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "version": "R3",
+  "all_124_midpoint_samples_reviewed": true,
+  "contact_sheets_reviewed": 7,
+  "actual_full_render_four_point_motion_sequences_reviewed": 10,
+  "distinct_original_motion_types_restored": 8,
+  "native_opening_60s_proof_reviewed_by_samples": true,
+  "native_aircraft_8s_proof_reviewed_by_samples": true,
+  "clean_native_endscreen_proof_reviewed_by_samples": true,
+  "findings": [
+    "M01-M08 are existing animated reference video clips, with progressive source accents and original playback cadence.",
+    "The actual rendered M06 aircraft moves across the sky; a broad conceptual sensing sector follows it.",
+    "The first minute has new real camp/vehicle and snow-cutting footage, reference motion scenes and stable local numerical explanations.",
+    "Generic camera transforms in carried-over Fusion comps are set to unit size and centred framing. The reference M01 retains its intended prefab-room push.",
+    "Native document markers survive; generated document bases were not regenerated or baked with new yellow marks.",
+    "M08's module rises independently, as in the original motion test.",
+    "The final 18 seconds show the previous HIA endscreen plate. The baked Pluto intro dissolve was removed before the final render.",
+    "No missing image, dialogue subtitles or R1 generic text card appeared in the midpoint samples."
+  ],
+  "limitations": [
+    "These inspections use sampled rendered frames and sequences. Full continuous real-time audiovisual screening was not completed.",
+    "Some still illustrations recur and remain held for explanatory reading; not every repeated illustration has been eliminated.",
+    "The eight reused reference video clips do not expose every internal graphic stroke as editable Fusion nodes.",
+    "Original archive retains softness, film colour casts and pillarboxing. Final colour, music and SFX are not completed.",
+    "Owner picture approval remains pending."
+  ],
+  "full_continuous_av_review": "NOT_COMPLETED",
+  "owner_approval": "PENDING",
+  "publication_approved": false
+}

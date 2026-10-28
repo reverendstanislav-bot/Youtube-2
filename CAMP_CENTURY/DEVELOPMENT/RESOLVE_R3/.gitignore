@@ -1,0 +1,5 @@
+ASSETS/*.mp4
+__pycache__/
+QC/frames/
+*.drp
+!HIA_VIDEO007_CAMP_CENTURY_VISUAL_R3.drp

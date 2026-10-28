@@ -1,0 +1,112 @@
+[
+  {
+    "shot": "R3-002",
+    "motion": "M03",
+    "timeline_in": 7.52,
+    "timeline_out": 15.52,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4",
+    "sha256": "09f9c4dd873a09138167ec9e4537563eb8794441603ac8ef67ef83859db48977",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-003",
+    "motion": "M01",
+    "timeline_in": 15.52,
+    "timeline_out": 23.52,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M01_MOTION_DEMO.mp4",
+    "sha256": "626b0895071fc68e857842a0704b29b4e4de76b5c8a447090a7c4c23423e0276",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-009",
+    "motion": "M07",
+    "timeline_in": 62.24,
+    "timeline_out": 66.24,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4",
+    "sha256": "b6fcb9263bd6f4dbf4e41353989b959f99d099b096e30ab34dd1eafcc7bab480",
+    "source_in_frame": 0,
+    "source_out_exclusive": 100,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-033",
+    "motion": "M02",
+    "timeline_in": 264.92,
+    "timeline_out": 272.92,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M02_MOTION_DEMO.mp4",
+    "sha256": "9699750e4657e49ac4b893679342523aa4871f6f8012e70cd11d2142f1ffa3f7",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-052",
+    "motion": "M04",
+    "timeline_in": 433.28,
+    "timeline_out": 441.28,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M04_MOTION_DEMO.mp4",
+    "sha256": "8cdea141fa58fdccbcb4cf65d146b17824c250177a839a71fcc4b2086e96b733",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-076",
+    "motion": "M03",
+    "timeline_in": 669.68,
+    "timeline_out": 677.68,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4",
+    "sha256": "09f9c4dd873a09138167ec9e4537563eb8794441603ac8ef67ef83859db48977",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-083",
+    "motion": "M07",
+    "timeline_in": 745.52,
+    "timeline_out": 753.52,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4",
+    "sha256": "b6fcb9263bd6f4dbf4e41353989b959f99d099b096e30ab34dd1eafcc7bab480",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-105",
+    "motion": "M05",
+    "timeline_in": 952.36,
+    "timeline_out": 960.36,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M05_MOTION_DEMO.mp4",
+    "sha256": "d3592fb4bf2a7bd5da0e2ef00a10a01995af439f8c3546a4b1de3f6640e45416",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-111",
+    "motion": "M06",
+    "timeline_in": 1007.12,
+    "timeline_out": 1015.12,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M06_MOTION_DEMO.mp4",
+    "sha256": "170bf8917029117b8126ece7101baa2df876869b50a7af1629da9afb8f090c5b",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  },
+  {
+    "shot": "R3-121",
+    "motion": "M08",
+    "timeline_in": 1081.08,
+    "timeline_out": 1089.08,
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M08_MOTION_DEMO.mp4",
+    "sha256": "bf2b5cec75ad6a7b26716cd5918df5bc81ea94472969a2d94e5f8df6b7279e10",
+    "source_in_frame": 0,
+    "source_out_exclusive": 200,
+    "cadence": "Original 25fps, no retime or loop"
+  }
+]

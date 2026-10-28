@@ -1,0 +1,18 @@
+{
+  "project": "YT2 Vid7",
+  "timeline": "HIA_VIDEO007_CAMP_CENTURY_VISUAL_R3_25FPS",
+  "fps": 25.0,
+  "width": "1920",
+  "height": "1080",
+  "video_items": 124,
+  "audio_items": 1,
+  "timeline_start": 90000,
+  "timeline_end_exclusive": 117818,
+  "audio_start": 90000,
+  "audio_end_exclusive": 117368,
+  "audio_locked": true,
+  "subtitle_tracks": 0,
+  "render_active": false,
+  "project_saved": true,
+  "drp_sha256": "67a98bb1bbda97dd679e71375bac6936dbd8999c83615c2ea909bc02c6bfbffb"
+}

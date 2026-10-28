@@ -1,0 +1,132 @@
+[
+  {
+    "shot": "R3-002",
+    "motion": "M03",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4",
+    "rendered_times": [
+      7.68,
+      9.52,
+      11.52,
+      14.32
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-002_M03_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-003",
+    "motion": "M01",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M01_MOTION_DEMO.mp4",
+    "rendered_times": [
+      15.68,
+      17.52,
+      19.52,
+      22.32
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-003_M01_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-009",
+    "motion": "M07",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4",
+    "rendered_times": [
+      62.32,
+      63.24,
+      64.24,
+      65.64
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-009_M07_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-033",
+    "motion": "M02",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M02_MOTION_DEMO.mp4",
+    "rendered_times": [
+      265.08,
+      266.92,
+      268.92,
+      271.72
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-033_M02_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-052",
+    "motion": "M04",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M04_MOTION_DEMO.mp4",
+    "rendered_times": [
+      433.44,
+      435.28,
+      437.28,
+      440.08
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-052_M04_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-076",
+    "motion": "M03",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4",
+    "rendered_times": [
+      669.84,
+      671.68,
+      673.68,
+      676.48
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-076_M03_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-083",
+    "motion": "M07",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4",
+    "rendered_times": [
+      745.68,
+      747.52,
+      749.52,
+      752.32
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-083_M07_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-105",
+    "motion": "M05",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M05_MOTION_DEMO.mp4",
+    "rendered_times": [
+      952.52,
+      954.36,
+      956.36,
+      959.16
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-105_M05_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-111",
+    "motion": "M06",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M06_MOTION_DEMO.mp4",
+    "rendered_times": [
+      1007.28,
+      1009.12,
+      1011.12,
+      1013.92
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-111_M06_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  },
+  {
+    "shot": "R3-121",
+    "motion": "M08",
+    "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M08_MOTION_DEMO.mp4",
+    "rendered_times": [
+      1081.24,
+      1083.08,
+      1085.08,
+      1087.88
+    ],
+    "sequence": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\QC\\motion\\R3-121_M08_RENDERED_SEQUENCE.jpg",
+    "scope": "Four-point samples from actual full Resolve render, not continuous real-time AV review"
+  }
+]

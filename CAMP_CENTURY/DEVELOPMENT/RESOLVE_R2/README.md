@@ -1,5 +1,7 @@
 # Camp Century visual R2 — owner review
 
+**OWNER REJECTED.** The owner rejected the opening, static aircraft, camera moves, repetition and missing endscreen. Retained for recovery/audit. Current corrections are in `../RESOLVE_R3/README.md` and its native timeline. Technical PASS did not establish creative approval.
+
 Project `YT2 Vid7`; timeline `HIA_VIDEO007_CAMP_CENTURY_VISUAL_R2_25FPS`.
 1920 × 1080, 25 FPS, 27,368 frames / 18:14.720. The narration is the accepted Arthur master, unchanged on locked A1. No dialogue subtitle track. V4 is unchanged.
 

@@ -1,0 +1,1257 @@
+{
+  "project": "YT2 Vid7",
+  "timeline": "HIA_VIDEO007_CAMP_CENTURY_VISUAL_R3_25FPS",
+  "fps": 25.0,
+  "width": "1920",
+  "height": "1080",
+  "timeline_start": 90000,
+  "timeline_end_exclusive": 117818,
+  "locked_audio_start": 90000,
+  "locked_audio_end_exclusive": 117368,
+  "audio_locked": true,
+  "subtitle_tracks": 0,
+  "items": [
+    {
+      "shot": "R3-001",
+      "asset": "CC07-C027",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 90000,
+      "end_exclusive": 90188,
+      "frames": 188,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\ASSETS\\CC07-C027_25FPS.mp4"
+    },
+    {
+      "shot": "R3-002",
+      "asset": "M03",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 90188,
+      "end_exclusive": 90388,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-003",
+      "asset": "M01",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 90388,
+      "end_exclusive": 90588,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M01_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-004",
+      "asset": "Q06",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 90588,
+      "end_exclusive": 90664,
+      "frames": 76,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-005",
+      "asset": "CC07-C028",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 90664,
+      "end_exclusive": 90836,
+      "frames": 172,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C028_25FPS.mp4"
+    },
+    {
+      "shot": "R3-006",
+      "asset": "Q02",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 90836,
+      "end_exclusive": 91228,
+      "frames": 392,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-007",
+      "asset": "CC07-C017",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 91228,
+      "end_exclusive": 91405,
+      "frames": 177,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\ASSETS\\CC07-C017_25FPS.mp4"
+    },
+    {
+      "shot": "R3-008",
+      "asset": "Q01",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 91405,
+      "end_exclusive": 91556,
+      "frames": 151,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-009",
+      "asset": "M07",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 91556,
+      "end_exclusive": 91656,
+      "frames": 100,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-010",
+      "asset": "CC07-C010",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 91656,
+      "end_exclusive": 91796,
+      "frames": 140,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C010_25FPS.mp4"
+    },
+    {
+      "shot": "R3-011",
+      "asset": "Q04",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 91796,
+      "end_exclusive": 91933,
+      "frames": 137,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-012",
+      "asset": "CC07-C029",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 91933,
+      "end_exclusive": 92147,
+      "frames": 214,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C029_25FPS.mp4"
+    },
+    {
+      "shot": "R3-013",
+      "asset": "Q09",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 92147,
+      "end_exclusive": 92433,
+      "frames": 286,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-014",
+      "asset": "Q08",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 92433,
+      "end_exclusive": 92572,
+      "frames": 139,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-015",
+      "asset": "G03",
+      "kind": "GENERATED_CONCEPT",
+      "start": 92572,
+      "end_exclusive": 92772,
+      "frames": 200,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-016",
+      "asset": "Q16",
+      "kind": "GENERATED_CONCEPT",
+      "start": 92772,
+      "end_exclusive": 92918,
+      "frames": 146,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-017",
+      "asset": "G11",
+      "kind": "GENERATED_CONCEPT",
+      "start": 92918,
+      "end_exclusive": 93350,
+      "frames": 432,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-018",
+      "asset": "Q05",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 93350,
+      "end_exclusive": 93592,
+      "frames": 242,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-019",
+      "asset": "Q16",
+      "kind": "GENERATED_CONCEPT",
+      "start": 93592,
+      "end_exclusive": 93744,
+      "frames": 152,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-020",
+      "asset": "Q05",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 93744,
+      "end_exclusive": 93854,
+      "frames": 110,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-021",
+      "asset": "CC07-C004",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 93854,
+      "end_exclusive": 94089,
+      "frames": 235,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C004_25FPS.mp4"
+    },
+    {
+      "shot": "R3-022",
+      "asset": "G12",
+      "kind": "GENERATED_CONCEPT",
+      "start": 94089,
+      "end_exclusive": 94319,
+      "frames": 230,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-023",
+      "asset": "Q08",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 94319,
+      "end_exclusive": 94566,
+      "frames": 247,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-024",
+      "asset": "Q03",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 94566,
+      "end_exclusive": 95040,
+      "frames": 474,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-025",
+      "asset": "G13",
+      "kind": "GENERATED_CONCEPT",
+      "start": 95040,
+      "end_exclusive": 95225,
+      "frames": 185,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-026",
+      "asset": "CC07-C008",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 95225,
+      "end_exclusive": 95388,
+      "frames": 163,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C008_25FPS.mp4"
+    },
+    {
+      "shot": "R3-027",
+      "asset": "G03",
+      "kind": "GENERATED_CONCEPT",
+      "start": 95388,
+      "end_exclusive": 95522,
+      "frames": 134,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-028",
+      "asset": "G11",
+      "kind": "GENERATED_CONCEPT",
+      "start": 95522,
+      "end_exclusive": 95768,
+      "frames": 246,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-029",
+      "asset": "CC07-C014",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 95768,
+      "end_exclusive": 95865,
+      "frames": 97,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C014_25FPS.mp4"
+    },
+    {
+      "shot": "R3-030",
+      "asset": "CC07-C011",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 95865,
+      "end_exclusive": 96182,
+      "frames": 317,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C011_25FPS.mp4"
+    },
+    {
+      "shot": "R3-031",
+      "asset": "M10",
+      "kind": "GENERATED_CONCEPT",
+      "start": 96182,
+      "end_exclusive": 96458,
+      "frames": 276,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-032",
+      "asset": "CC07-C012",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 96458,
+      "end_exclusive": 96623,
+      "frames": 165,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C012_25FPS.mp4"
+    },
+    {
+      "shot": "R3-033",
+      "asset": "M02",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 96623,
+      "end_exclusive": 96823,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M02_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-034",
+      "asset": "Q04",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 96823,
+      "end_exclusive": 96972,
+      "frames": 149,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-035",
+      "asset": "M11",
+      "kind": "GENERATED_CONCEPT",
+      "start": 96972,
+      "end_exclusive": 97291,
+      "frames": 319,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-036",
+      "asset": "CC07-C016",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 97291,
+      "end_exclusive": 97547,
+      "frames": 256,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C016_25FPS.mp4"
+    },
+    {
+      "shot": "R3-037",
+      "asset": "G14",
+      "kind": "GENERATED_CONCEPT",
+      "start": 97547,
+      "end_exclusive": 97912,
+      "frames": 365,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-038",
+      "asset": "CC07-C018",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 97912,
+      "end_exclusive": 98054,
+      "frames": 142,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C018_25FPS.mp4"
+    },
+    {
+      "shot": "R3-039",
+      "asset": "G15",
+      "kind": "GENERATED_CONCEPT",
+      "start": 98054,
+      "end_exclusive": 98510,
+      "frames": 456,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-040",
+      "asset": "G03",
+      "kind": "GENERATED_CONCEPT",
+      "start": 98510,
+      "end_exclusive": 98736,
+      "frames": 226,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-041",
+      "asset": "G04",
+      "kind": "GENERATED_CONCEPT",
+      "start": 98736,
+      "end_exclusive": 98910,
+      "frames": 174,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-042",
+      "asset": "CC07-C043",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 98910,
+      "end_exclusive": 99036,
+      "frames": 126,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C043_25FPS.mp4"
+    },
+    {
+      "shot": "R3-043",
+      "asset": "G13",
+      "kind": "GENERATED_CONCEPT",
+      "start": 99036,
+      "end_exclusive": 99322,
+      "frames": 286,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-044",
+      "asset": "G16",
+      "kind": "GENERATED_CONCEPT",
+      "start": 99322,
+      "end_exclusive": 99494,
+      "frames": 172,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-045",
+      "asset": "CC07-C039",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 99494,
+      "end_exclusive": 99780,
+      "frames": 286,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C039_25FPS.mp4"
+    },
+    {
+      "shot": "R3-046",
+      "asset": "Q07",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 99780,
+      "end_exclusive": 100042,
+      "frames": 262,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-047",
+      "asset": "CC07-C031",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 100042,
+      "end_exclusive": 100180,
+      "frames": 138,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C031_25FPS.mp4"
+    },
+    {
+      "shot": "R3-048",
+      "asset": "CC07-C036",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 100180,
+      "end_exclusive": 100353,
+      "frames": 173,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C036_25FPS.mp4"
+    },
+    {
+      "shot": "R3-049",
+      "asset": "CC07-C038",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 100353,
+      "end_exclusive": 100480,
+      "frames": 127,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\CONFORMED_25FPS\\CC07-C038_25FPS.mp4"
+    },
+    {
+      "shot": "R3-050",
+      "asset": "Q06",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 100480,
+      "end_exclusive": 100626,
+      "frames": 146,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-051",
+      "asset": "CC07-C042",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 100626,
+      "end_exclusive": 100832,
+      "frames": 206,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C042_25FPS.mp4"
+    },
+    {
+      "shot": "R3-052",
+      "asset": "M04",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 100832,
+      "end_exclusive": 101032,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M04_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-053",
+      "asset": "M04",
+      "kind": "REFERENCE_READING_HOLD",
+      "start": 101032,
+      "end_exclusive": 101078,
+      "frames": 46,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-054",
+      "asset": "G05",
+      "kind": "GENERATED_CONCEPT",
+      "start": 101078,
+      "end_exclusive": 101552,
+      "frames": 474,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-055",
+      "asset": "Q17",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 101552,
+      "end_exclusive": 101814,
+      "frames": 262,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-056",
+      "asset": "CC07-C041",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 101814,
+      "end_exclusive": 102043,
+      "frames": 229,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C041_25FPS.mp4"
+    },
+    {
+      "shot": "R3-057",
+      "asset": "G05",
+      "kind": "GENERATED_CONCEPT",
+      "start": 102043,
+      "end_exclusive": 102182,
+      "frames": 139,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-058",
+      "asset": "G15",
+      "kind": "GENERATED_CONCEPT",
+      "start": 102182,
+      "end_exclusive": 102524,
+      "frames": 342,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-059",
+      "asset": "Q07",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 102524,
+      "end_exclusive": 102751,
+      "frames": 227,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-060",
+      "asset": "CC07-C044",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 102751,
+      "end_exclusive": 102909,
+      "frames": 158,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C044_25FPS.mp4"
+    },
+    {
+      "shot": "R3-061",
+      "asset": "G03",
+      "kind": "GENERATED_CONCEPT",
+      "start": 102909,
+      "end_exclusive": 103076,
+      "frames": 167,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-062",
+      "asset": "CC07-C088",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 103076,
+      "end_exclusive": 103204,
+      "frames": 128,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C088_25FPS.mp4"
+    },
+    {
+      "shot": "R3-063",
+      "asset": "Q04",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 103204,
+      "end_exclusive": 103532,
+      "frames": 328,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-064",
+      "asset": "Q09",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 103532,
+      "end_exclusive": 103751,
+      "frames": 219,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-065",
+      "asset": "Q08",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 103751,
+      "end_exclusive": 104087,
+      "frames": 336,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-066",
+      "asset": "Q09",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 104087,
+      "end_exclusive": 104236,
+      "frames": 149,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-067",
+      "asset": "Q18",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 104236,
+      "end_exclusive": 104474,
+      "frames": 238,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-068",
+      "asset": "Q08",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 104474,
+      "end_exclusive": 104661,
+      "frames": 187,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-069",
+      "asset": "G15",
+      "kind": "GENERATED_CONCEPT",
+      "start": 104661,
+      "end_exclusive": 104965,
+      "frames": 304,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-070",
+      "asset": "CC07-C020",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 104965,
+      "end_exclusive": 105125,
+      "frames": 160,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C020_25FPS.mp4"
+    },
+    {
+      "shot": "R3-071",
+      "asset": "Q05",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 105125,
+      "end_exclusive": 105645,
+      "frames": 520,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-072",
+      "asset": "Q10",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 105645,
+      "end_exclusive": 105814,
+      "frames": 169,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-073",
+      "asset": "Q08",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 105814,
+      "end_exclusive": 105975,
+      "frames": 161,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-074",
+      "asset": "G20",
+      "kind": "GENERATED_CONCEPT",
+      "start": 105975,
+      "end_exclusive": 106259,
+      "frames": 284,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-075",
+      "asset": "G19",
+      "kind": "GENERATED_CONCEPT",
+      "start": 106259,
+      "end_exclusive": 106742,
+      "frames": 483,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-076",
+      "asset": "M03",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 106742,
+      "end_exclusive": 106942,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-077",
+      "asset": "M03",
+      "kind": "REFERENCE_READING_HOLD",
+      "start": 106942,
+      "end_exclusive": 107036,
+      "frames": 94,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-078",
+      "asset": "Q19",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 107036,
+      "end_exclusive": 107168,
+      "frames": 132,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-079",
+      "asset": "Q02",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 107168,
+      "end_exclusive": 107656,
+      "frames": 488,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-080",
+      "asset": "Q11",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 107656,
+      "end_exclusive": 108196,
+      "frames": 540,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-081",
+      "asset": "G19",
+      "kind": "GENERATED_CONCEPT",
+      "start": 108196,
+      "end_exclusive": 108371,
+      "frames": 175,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-082",
+      "asset": "Q01",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 108371,
+      "end_exclusive": 108638,
+      "frames": 267,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-083",
+      "asset": "M07",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 108638,
+      "end_exclusive": 108838,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-084",
+      "asset": "M07",
+      "kind": "REFERENCE_READING_HOLD",
+      "start": 108838,
+      "end_exclusive": 108872,
+      "frames": 34,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-085",
+      "asset": "G02",
+      "kind": "GENERATED_CONCEPT",
+      "start": 108872,
+      "end_exclusive": 109071,
+      "frames": 199,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-086",
+      "asset": "G20",
+      "kind": "GENERATED_CONCEPT",
+      "start": 109071,
+      "end_exclusive": 109158,
+      "frames": 87,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-087",
+      "asset": "CC07-C052",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 109158,
+      "end_exclusive": 109373,
+      "frames": 215,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C052_25FPS.mp4"
+    },
+    {
+      "shot": "R3-088",
+      "asset": "G14",
+      "kind": "GENERATED_CONCEPT",
+      "start": 109373,
+      "end_exclusive": 109450,
+      "frames": 77,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-089",
+      "asset": "Q01",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 109450,
+      "end_exclusive": 109656,
+      "frames": 206,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-090",
+      "asset": "CC07-C050",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 109656,
+      "end_exclusive": 109841,
+      "frames": 185,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C050_25FPS.mp4"
+    },
+    {
+      "shot": "R3-091",
+      "asset": "G15",
+      "kind": "GENERATED_CONCEPT",
+      "start": 109841,
+      "end_exclusive": 109930,
+      "frames": 89,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-092",
+      "asset": "G06",
+      "kind": "GENERATED_CONCEPT",
+      "start": 109930,
+      "end_exclusive": 110174,
+      "frames": 244,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-093",
+      "asset": "Q02",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 110174,
+      "end_exclusive": 110393,
+      "frames": 219,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-094",
+      "asset": "Q12",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 110393,
+      "end_exclusive": 110767,
+      "frames": 374,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-095",
+      "asset": "CC07-C057",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 110767,
+      "end_exclusive": 111025,
+      "frames": 258,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C057_25FPS.mp4"
+    },
+    {
+      "shot": "R3-096",
+      "asset": "CC07-C059",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 111025,
+      "end_exclusive": 111180,
+      "frames": 155,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C059_25FPS.mp4"
+    },
+    {
+      "shot": "R3-097",
+      "asset": "G22",
+      "kind": "GENERATED_CONCEPT",
+      "start": 111180,
+      "end_exclusive": 111452,
+      "frames": 272,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-098",
+      "asset": "CC07-C067",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 111452,
+      "end_exclusive": 111701,
+      "frames": 249,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C067_25FPS.mp4"
+    },
+    {
+      "shot": "R3-099",
+      "asset": "G22",
+      "kind": "GENERATED_CONCEPT",
+      "start": 111701,
+      "end_exclusive": 111824,
+      "frames": 123,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-100",
+      "asset": "CC07-C081",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 111824,
+      "end_exclusive": 112097,
+      "frames": 273,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C081_25FPS.mp4"
+    },
+    {
+      "shot": "R3-101",
+      "asset": "Q13",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 112097,
+      "end_exclusive": 113135,
+      "frames": 1038,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-102",
+      "asset": "G24",
+      "kind": "GENERATED_CONCEPT",
+      "start": 113135,
+      "end_exclusive": 113288,
+      "frames": 153,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-103",
+      "asset": "G08",
+      "kind": "GENERATED_CONCEPT",
+      "start": 113288,
+      "end_exclusive": 113654,
+      "frames": 366,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-104",
+      "asset": "Q14",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 113654,
+      "end_exclusive": 113809,
+      "frames": 155,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-105",
+      "asset": "M05",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 113809,
+      "end_exclusive": 114009,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M05_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-106",
+      "asset": "M05",
+      "kind": "REFERENCE_READING_HOLD",
+      "start": 114009,
+      "end_exclusive": 114151,
+      "frames": 142,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-107",
+      "asset": "Q14",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 114151,
+      "end_exclusive": 114391,
+      "frames": 240,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-108",
+      "asset": "M12",
+      "kind": "GENERATED_CONCEPT",
+      "start": 114391,
+      "end_exclusive": 114674,
+      "frames": 283,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-109",
+      "asset": "G09",
+      "kind": "GENERATED_CONCEPT",
+      "start": 114674,
+      "end_exclusive": 114954,
+      "frames": 280,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-110",
+      "asset": "Q14",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 114954,
+      "end_exclusive": 115178,
+      "frames": 224,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-111",
+      "asset": "M06",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 115178,
+      "end_exclusive": 115378,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M06_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-112",
+      "asset": "Q15",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 115378,
+      "end_exclusive": 115604,
+      "frames": 226,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-113",
+      "asset": "G22",
+      "kind": "GENERATED_CONCEPT",
+      "start": 115604,
+      "end_exclusive": 115934,
+      "frames": 330,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-114",
+      "asset": "Q15",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 115934,
+      "end_exclusive": 116144,
+      "frames": 210,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-115",
+      "asset": "CC07-C024",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 116144,
+      "end_exclusive": 116367,
+      "frames": 223,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C024_25FPS.mp4"
+    },
+    {
+      "shot": "R3-116",
+      "asset": "G24",
+      "kind": "GENERATED_CONCEPT",
+      "start": 116367,
+      "end_exclusive": 116558,
+      "frames": 191,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-117",
+      "asset": "CC07-C025",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 116558,
+      "end_exclusive": 116711,
+      "frames": 153,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\CONFORMED_25FPS\\CC07-C025_25FPS.mp4"
+    },
+    {
+      "shot": "R3-118",
+      "asset": "G08",
+      "kind": "GENERATED_CONCEPT",
+      "start": 116711,
+      "end_exclusive": 116790,
+      "frames": 79,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-119",
+      "asset": "Q10",
+      "kind": "GENERATED_DOCUMENT",
+      "start": 116790,
+      "end_exclusive": 116898,
+      "frames": 108,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-120",
+      "asset": "CC07-C053",
+      "kind": "REAL_ARCHIVE_MOTION",
+      "start": 116898,
+      "end_exclusive": 117027,
+      "frames": 129,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\CONFORMED_25FPS\\CC07-C053_25FPS.mp4"
+    },
+    {
+      "shot": "R3-121",
+      "asset": "M08",
+      "kind": "EXISTING_REFERENCE_MOTION",
+      "start": 117027,
+      "end_exclusive": 117227,
+      "frames": 200,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M08_MOTION_DEMO.mp4"
+    },
+    {
+      "shot": "R3-122",
+      "asset": "M08",
+      "kind": "REFERENCE_READING_HOLD",
+      "start": 117227,
+      "end_exclusive": 117262,
+      "frames": 35,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-123",
+      "asset": "G03",
+      "kind": "GENERATED_CONCEPT",
+      "start": 117262,
+      "end_exclusive": 117368,
+      "frames": 106,
+      "native_comp_count": 1,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R1\\FUSION_CARRIER_60S_25FPS.mp4"
+    },
+    {
+      "shot": "R3-124",
+      "asset": "HIA_PREVIOUS_ENDSCREEN",
+      "kind": "CHANNEL_ENDSCREEN",
+      "start": 117368,
+      "end_exclusive": 117818,
+      "frames": 450,
+      "native_comp_count": 0,
+      "actual_source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R3\\ASSETS\\HIA_PREVIOUS_VIDEO_ENDSCREEN_18S.mp4"
+    }
+  ],
+  "project_saved": true,
+  "checkpoint_sha256": "99171303d1bf905d6f4b1ffddcd70edf7a9ea24514f2a684f9889e28fd42d36f"
+}
