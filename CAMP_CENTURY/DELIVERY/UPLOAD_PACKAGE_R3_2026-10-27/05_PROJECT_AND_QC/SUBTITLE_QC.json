@@ -1,0 +1,35 @@
+{
+  "status": "FILE_AND_TEXT_QC_PASS_TIMING_SPOTCHECK_PENDING",
+  "cues": 331,
+  "script_words_whitespace": 2931,
+  "caption_words_whitespace": 2931,
+  "exact_locked_v4_text_preserved": true,
+  "script_git_blob": "46fafe9914c1a061e9f219c344698f9857019973",
+  "max_lines": 2,
+  "max_line_chars": 42,
+  "monotonic_nonoverlap": true,
+  "last_caption_end_seconds": 1094.5099999999998,
+  "endscreen_start_seconds": 1094.72,
+  "endscreen_captions": 0,
+  "timing_basis": "Accepted-master small.en ASR plus a local cached medium.en word-timing repair for Project Iceworm. The idea was to use; aligned within 32 locked beats; remaining ASR substitution spans interpolated, not claimed word-exact",
+  "alignment_counts": {
+    "ASR_MATCH": 2814,
+    "ASR_SUBSTITUTION_INTERVAL": 113,
+    "ASR_MATCH+ASR_SUBSTITUTION_INTERVAL": 2,
+    "INTERPOLATED_MISSING_ASR": 1,
+    "PUNCTUATION": 1
+  },
+  "manual_timing_spotchecks": [
+    {
+      "cue": 238,
+      "start": 785.545,
+      "end": 787.0699999999999,
+      "cps": 24.26,
+      "text": "It looks like an ordinary maintenance"
+    }
+  ],
+  "full_human_subtitle_review": "PENDING",
+  "authorization": "Owner explicitly requested uploadable subtitle file on 2026-10-27; external captions only, supersedes older Stage05 prohibition on SRT/VTT export",
+  "video_modified": false,
+  "audio_modified": false
+}

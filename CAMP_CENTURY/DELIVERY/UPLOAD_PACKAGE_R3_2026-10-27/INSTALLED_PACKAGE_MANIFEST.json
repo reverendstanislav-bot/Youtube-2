@@ -1,0 +1,314 @@
+{
+  "project": "HIA VIDEO007 CAMP CENTURY",
+  "revision": "R3",
+  "date": "2026-10-27",
+  "destination": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7",
+  "video_duration_seconds": 1112.72,
+  "subtitle_cues": 331,
+  "script_words": 2931,
+  "chapters": 8,
+  "files": [
+    {
+      "path": "01_LONG/HIA_VIDEO007_CAMP_CENTURY_R3_1080P25.mp4",
+      "bytes": 1344185950,
+      "sha256": "7a2313ae9476034861c2b60ba896b81fade01ac39352a769a4f39fcb0ddd0ff7",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "02_SUBTITLES/CAMP_CENTURY_EN.srt",
+      "bytes": 31372,
+      "sha256": "6cd7de0e913d12d65fb227a9b8eae4988d062cff9460010656e8a75333b0c782",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "02_SUBTITLES/CAMP_CENTURY_EN.vtt",
+      "bytes": 29835,
+      "sha256": "2ec00517773536c8cff241cc0f8c8fa176db40ec9f2f3c8d019c1cc8a8865302",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "02_SUBTITLES/CAMP_CENTURY_TRANSCRIPT_EN.txt",
+      "bytes": 18896,
+      "sha256": "b42ff843669108a498a285f7137b9576941927bb92b58b1f696e34f722e707b0",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/CHAPTERS_EN.txt",
+      "bytes": 357,
+      "sha256": "7d217a1e7163f63a94672d31c3481ceb326dbc95516815f20ad05ac58a192866",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/DESCRIPTION_EN.txt",
+      "bytes": 2101,
+      "sha256": "761c115ee55238d3fcc8caf52d04a4fbeb5364c103354f94559334fa83830762",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/RESEARCH_SOURCE_LINKS.txt",
+      "bytes": 880,
+      "sha256": "36b89a70b825b9d09a5d5c56289088f4de9096a8bdf2838d00a990206b50d786",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/TAGS_EN.txt",
+      "bytes": 280,
+      "sha256": "5786c10dd8f7a7094a4160504ba81c58b6070959c68bedff261151f92a835814",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/TITLE_ALTERNATIVES_EN.txt",
+      "bytes": 121,
+      "sha256": "f54c2748747695e52b888044a5bbc320b72060ac9c74f3cd129fc30da3d6ee8d",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/TITLE_EN.txt",
+      "bytes": 76,
+      "sha256": "21cd710325e4523c4db5933e26c3457881274c5da804988c39b462c0489c9727",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/UPLOAD_INSTRUCTIONS_RU.txt",
+      "bytes": 3676,
+      "sha256": "7d6faf300fc7111849a86c9e6a57aefcaf4b4acdf1cb204a4f85cd53494156ca",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/UPLOAD_METADATA.json",
+      "bytes": 469,
+      "sha256": "2b78a1aa4a6f002519c573b6a89ade0d7ce9156426e4ba97f017d98c2bf0d18e",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "04_THUMBNAIL_CANDIDATES/01_CITY_UNDER_ICE.jpg",
+      "bytes": 565317,
+      "sha256": "fde4b03ab17a8ef8bd9d8e8657a83be484493a8f3c67e56c419be1715f547c89",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "04_THUMBNAIL_CANDIDATES/02_WORKERS_IN_TUNNEL.jpg",
+      "bytes": 617178,
+      "sha256": "303c9abb8e7d717d4c15d1257e45228dca0e331b0e28da228594109b728232fd",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "04_THUMBNAIL_CANDIDATES/03_AIRCRAFT_AND_BURIED_CAMP.jpg",
+      "bytes": 510336,
+      "sha256": "64109374b1e48d2c375eba2655d65e814674e73929ff85aad70545c0fd67b6ba",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "04_THUMBNAIL_CANDIDATES/04_PEOPLE_AND_REMAINS.jpg",
+      "bytes": 519658,
+      "sha256": "8953cbd117b8c05cc0f4139637c2541a29277feea1036d572ca04d3b33fab865",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "04_THUMBNAIL_CANDIDATES/README_RU.txt",
+      "bytes": 340,
+      "sha256": "67389aed8cd18024a4734a1e815d415cd88e1c0f43082a866f2ceac00f66ab4b",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "04_THUMBNAIL_CANDIDATES/SOURCE_MANIFEST.json",
+      "bytes": 1579,
+      "sha256": "6685f65a96bd8596814eb225fd082a671a3c0bbe0ff80ffef1beac7c8340b193",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/MEDIUM_EN_525_545_WORD_TIMING.json",
+      "bytes": 7089,
+      "sha256": "fb4d4991a7968bba1a65d30d7757b65556ca388b58b60314abe2316cbba738aa",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/PACKAGE_STATUS_RU.txt",
+      "bytes": 715,
+      "sha256": "0609431dd8cf57055d94ff1896cfe6d6456aadcc60d34c5a596033ef32346264",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SUBTITLE_ALIGNMENT_AUDIT.json",
+      "bytes": 549030,
+      "sha256": "ca2170d24cfae3380cac78ac2c5c51e14dd879da13fc482cc2592626d40aa06e",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SUBTITLE_QC.json",
+      "bytes": 1377,
+      "sha256": "ab2f85963684bfadfcc9514208255823a3cc843c6d9b818358e5fb14c87e54f6",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/HIA_VIDEO007_CAMP_CENTURY_VISUAL_R3.drp",
+      "bytes": 1259188,
+      "sha256": "67a98bb1bbda97dd679e71375bac6936dbd8999c83615c2ea909bc02c6bfbffb",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SHOT_PLAN_R3.csv",
+      "bytes": 63167,
+      "sha256": "66212769567fd6756a26e90427422adb5eb03c5511768e3b101b24fc9418eae7",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/NATIVE_FINAL_READBACK.json",
+      "bytes": 502,
+      "sha256": "0123c894bb4baca11d12a33539dce7fd37b18e80e193657652561d0644999fbe",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/BEATS_AUDIO_LOCKED.json",
+      "bytes": 32229,
+      "sha256": "8865358208c27409ba64f54a735a0eb06771ce21992cf1407cc07bbe2808b3ca",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SCRIPT_CHAPTER_BOUNDARIES.json",
+      "bytes": 1299,
+      "sha256": "1f73b49613044549dd4b9699fcc39fe6afbd8d755ea7b6f7b984d7d009f86590",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/RESTORED_REFERENCE_MOTION.json",
+      "bytes": 4530,
+      "sha256": "2ebb80391009004ca5ea21d6b3da52403cb87fb9bb9d58341063ef2070a679c1",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/REFERENCE_SOURCE.json",
+      "bytes": 454,
+      "sha256": "40aa155734c62ef8a2a54c61959e0bd3be54f517225966cb8db7cb6e1cb46e0f",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/EDIT_PROVENANCE_AND_HOLDS.json",
+      "bytes": 1090,
+      "sha256": "2f8280d2fa1706dfd9cef1dcbd69cf7dbbb663f7411dd6c7e02365e50c02ffbf",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/ENDSCREEN_CLEANUP_READBACK.json",
+      "bytes": 477,
+      "sha256": "ee5ea9697d99229cb05fee0e914a75913bf3d6b9aae5ec6ea7f471ea2618d301",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/ROUGH_CUT_QC_AND_DELIVERY_2026-10-27.md",
+      "bytes": 2419,
+      "sha256": "a82994ee282c34e268a98c2a9e0bcc2059ae59d938f1089573a68c24a1701844",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/VIDEO_QC/MOTION_SAMPLE_INDEX.json",
+      "bytes": 5467,
+      "sha256": "131d2d962b6402d0a83a77a3bcba77eaab881547a8b8535464f24e9986b11b76",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/VIDEO_QC/PROXY_QC.json",
+      "bytes": 4514,
+      "sha256": "56a0ff882d53f4be59c155d7f71b9077879c98d8d89f6b01e05c62e0698b6bdc",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/VIDEO_QC/SAMPLED_VISUAL_REVIEW.json",
+      "bytes": 2079,
+      "sha256": "9c2f83738cd678e3828ee47380f5fc4753c4e33f7757efc6f37d0c38b6d23ddd",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SOURCE_PROVENANCE/SOURCE_AND_RIGHTS_REGISTER.csv",
+      "bytes": 71223,
+      "sha256": "58fb91e7979d932a1964664aa56e0eb1111eeaf4044b746bee318a38919ef60a",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SOURCE_PROVENANCE/RIGHTS_RECEIPTS/F01B_RIGHTS.md",
+      "bytes": 1218,
+      "sha256": "1e37c5f86ece744f7418d8f90876666429cb5c40b93c0a3b2f34c5177f1e5e54",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SOURCE_PROVENANCE/RIGHTS_RECEIPTS/F03_RIGHTS.md",
+      "bytes": 1118,
+      "sha256": "82698958db9314f93f6133c5324a9a62190b16cfd121a7884a91d55b0805a915",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SOURCE_PROVENANCE/RIGHTS_RECEIPTS/F05_RIGHTS.md",
+      "bytes": 1081,
+      "sha256": "bece08ab5a48e9e48735c8a188f5459c6707cf9f8e56fd46b0017a1f1136469d",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SCRIPT_LOCK/STAGE04_CAMP_CENTURY_FULL_NARRATION_V4_EN.md",
+      "bytes": 21040,
+      "sha256": "915199447d597c91e3d36f6f4c55a397b7f51e8055e96fa2f2583b99a1c599c1",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SCRIPT_LOCK/STAGE04_CAMP_CENTURY_VOICE_TEXT_V4_EN.txt",
+      "bytes": 18896,
+      "sha256": "b42ff843669108a498a285f7137b9576941927bb92b58b1f696e34f722e707b0",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SCRIPT_LOCK/STAGE04_CAMP_CENTURY_CLAIM_LEDGER_V1.csv",
+      "bytes": 14015,
+      "sha256": "9e5fa751025b0f332228da89b9a644823d809bb19005fd12be68a87b30f39a62",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SCRIPT_LOCK/STAGE04_FINAL_FACT_EDITORIAL_LEGAL_QC_2026-10-24.md",
+      "bytes": 12629,
+      "sha256": "d8b2d1892c585eacc224a4b92f330541049ddcbae09ad1e9ac479bdbeafafc26",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "05_PROJECT_AND_QC/SCRIPT_LOCK/STAGE05_SCRIPT_LOCK_V4_2026-10-25.md",
+      "bytes": 3330,
+      "sha256": "785566cd51f8d875c019b0585189c3b58707f5f2412d65de0105cb3b15346c80",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "06_AUDIO/AUDIO_LOCK_2026-10-27.md",
+      "bytes": 1196,
+      "sha256": "8377538c55d6a0a468003e7c047eef91e559eab9bba3103a8d9e35d704da2f7c",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "06_AUDIO/HIA_VIDEO007_CAMP_CENTURY_ARTHUR_MASTER_48K_MONO_S24.wav",
+      "bytes": 157639782,
+      "sha256": "c6a5df8cff089418f4f2300551fd4ba6cb057dcd3012b84fa8143e02976d0480",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/ENDSCREEN_18S_PREVIEW.mp4",
+      "bytes": 1548285,
+      "sha256": "f045773bb5e420b6d3dd9594ca23e9a548184b6e562636513985e25ef08a13a5",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "03_UPLOAD/ENDSCREEN_REFERENCE.jpg",
+      "bytes": 360434,
+      "sha256": "c12b8aa9d329a0f1f082c0445ea63ed12176aaf6b6e3ac132e2800b35e6ebed8",
+      "copy_hash_verified": true
+    },
+    {
+      "path": "00_\u041d\u0410\u0427\u041d\u0418_\u0417\u0414\u0415\u0421\u042c.txt",
+      "bytes": 1969,
+      "sha256": "fb51ce3c1f00704759c6a10b5e7d50e957b955371a68ec8bac6767c23a6d3596",
+      "copy_hash_verified": true
+    }
+  ],
+  "all_copy_hashes_verified": true,
+  "video_reencoded": false,
+  "audio_lock_unchanged": true,
+  "uploaded_to_youtube": false,
+  "full_continuous_av_review": "PENDING",
+  "subtitle_timing_review": "PENDING",
+  "thumbnail_owner_selection": "PENDING",
+  "final_color_music_sfx": "NOT_STARTED"
+}

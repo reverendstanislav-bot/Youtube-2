@@ -1,0 +1,339 @@
+{
+  "model": "cached faster-whisper-medium.en CPU int8",
+  "source_start": 525,
+  "source_end": 545,
+  "words": [
+    {
+      "text": "The",
+      "start": 525.0,
+      "end": 525.06,
+      "probability": 0.8646948337554932
+    },
+    {
+      "text": "challenges",
+      "start": 525.06,
+      "end": 525.46,
+      "probability": 0.988322913646698
+    },
+    {
+      "text": "of",
+      "start": 525.46,
+      "end": 525.72,
+      "probability": 0.9973506927490234
+    },
+    {
+      "text": "living",
+      "start": 525.72,
+      "end": 525.96,
+      "probability": 0.9827170372009277
+    },
+    {
+      "text": "beneath",
+      "start": 525.96,
+      "end": 526.26,
+      "probability": 0.9951924085617065
+    },
+    {
+      "text": "the",
+      "start": 526.26,
+      "end": 526.48,
+      "probability": 0.9864934086799622
+    },
+    {
+      "text": "ice",
+      "start": 526.48,
+      "end": 526.7,
+      "probability": 0.9978844523429871
+    },
+    {
+      "text": "were",
+      "start": 526.7,
+      "end": 526.92,
+      "probability": 0.9935293793678284
+    },
+    {
+      "text": "real",
+      "start": 526.92,
+      "end": 527.34,
+      "probability": 0.9979928731918335
+    },
+    {
+      "text": "but",
+      "start": 527.34,
+      "end": 527.86,
+      "probability": 0.4506767690181732
+    },
+    {
+      "text": "military",
+      "start": 527.86,
+      "end": 528.28,
+      "probability": 0.9932646751403809
+    },
+    {
+      "text": "research",
+      "start": 528.28,
+      "end": 528.84,
+      "probability": 0.9987310767173767
+    },
+    {
+      "text": "connected",
+      "start": 528.84,
+      "end": 529.24,
+      "probability": 0.9937413334846497
+    },
+    {
+      "text": "it",
+      "start": 529.24,
+      "end": 529.44,
+      "probability": 0.9907295107841492
+    },
+    {
+      "text": "to",
+      "start": 529.44,
+      "end": 529.58,
+      "probability": 0.9955886602401733
+    },
+    {
+      "text": "another",
+      "start": 529.58,
+      "end": 529.9,
+      "probability": 0.9963955283164978
+    },
+    {
+      "text": "proposal",
+      "start": 529.9,
+      "end": 530.48,
+      "probability": 0.9958155751228333
+    },
+    {
+      "text": "that",
+      "start": 530.48,
+      "end": 531.02,
+      "probability": 0.9677976965904236
+    },
+    {
+      "text": "the",
+      "start": 531.02,
+      "end": 531.18,
+      "probability": 0.9924182891845703
+    },
+    {
+      "text": "public",
+      "start": 531.18,
+      "end": 531.48,
+      "probability": 0.9765458703041077
+    },
+    {
+      "text": "film",
+      "start": 531.48,
+      "end": 531.88,
+      "probability": 0.994114100933075
+    },
+    {
+      "text": "did",
+      "start": 531.88,
+      "end": 532.1,
+      "probability": 0.9960378408432007
+    },
+    {
+      "text": "not",
+      "start": 532.1,
+      "end": 532.34,
+      "probability": 0.9991162419319153
+    },
+    {
+      "text": "fully",
+      "start": 532.34,
+      "end": 532.62,
+      "probability": 0.9978175163269043
+    },
+    {
+      "text": "explain,",
+      "start": 532.62,
+      "end": 533.3,
+      "probability": 0.9951569437980652
+    },
+    {
+      "text": "Project",
+      "start": 533.88,
+      "end": 534.2,
+      "probability": 0.7278138995170593
+    },
+    {
+      "text": "Iceworm.",
+      "start": 534.2,
+      "end": 534.84,
+      "probability": 0.8626251518726349
+    },
+    {
+      "text": "The",
+      "start": 535.56,
+      "end": 535.66,
+      "probability": 0.9735038876533508
+    },
+    {
+      "text": "idea",
+      "start": 535.66,
+      "end": 536.02,
+      "probability": 0.9985312223434448
+    },
+    {
+      "text": "was",
+      "start": 536.02,
+      "end": 536.28,
+      "probability": 0.9985424280166626
+    },
+    {
+      "text": "to",
+      "start": 536.28,
+      "end": 536.46,
+      "probability": 0.996085524559021
+    },
+    {
+      "text": "use",
+      "start": 536.46,
+      "end": 536.68,
+      "probability": 0.9976204037666321
+    },
+    {
+      "text": "Greenland's",
+      "start": 536.68,
+      "end": 537.38,
+      "probability": 0.9924192130565643
+    },
+    {
+      "text": "ice",
+      "start": 537.38,
+      "end": 537.5,
+      "probability": 0.9214406609535217
+    },
+    {
+      "text": "sheet",
+      "start": 537.5,
+      "end": 537.8,
+      "probability": 0.9868893623352051
+    },
+    {
+      "text": "to",
+      "start": 537.8,
+      "end": 537.98,
+      "probability": 0.995818555355072
+    },
+    {
+      "text": "conceal",
+      "start": 537.98,
+      "end": 538.4,
+      "probability": 0.996138870716095
+    },
+    {
+      "text": "a",
+      "start": 538.4,
+      "end": 538.62,
+      "probability": 0.9919068813323975
+    },
+    {
+      "text": "vast",
+      "start": 538.62,
+      "end": 538.92,
+      "probability": 0.9991519451141357
+    },
+    {
+      "text": "network",
+      "start": 538.92,
+      "end": 539.34,
+      "probability": 0.9988721013069153
+    },
+    {
+      "text": "of",
+      "start": 539.34,
+      "end": 539.68,
+      "probability": 0.9979788661003113
+    },
+    {
+      "text": "mobile",
+      "start": 539.68,
+      "end": 540.06,
+      "probability": 0.9886777997016907
+    },
+    {
+      "text": "ballistic",
+      "start": 540.06,
+      "end": 540.54,
+      "probability": 0.9972420930862427
+    },
+    {
+      "text": "missile",
+      "start": 540.54,
+      "end": 540.94,
+      "probability": 0.9864023327827454
+    },
+    {
+      "text": "positions.",
+      "start": 540.94,
+      "end": 541.6,
+      "probability": 0.9981491565704346
+    },
+    {
+      "text": "A",
+      "start": 541.6,
+      "end": 542.14,
+      "probability": 0.5761473178863525
+    },
+    {
+      "text": "fixed",
+      "start": 542.14,
+      "end": 542.46,
+      "probability": 0.9984931945800781
+    },
+    {
+      "text": "missile",
+      "start": 542.46,
+      "end": 542.88,
+      "probability": 0.9829878807067871
+    },
+    {
+      "text": "base",
+      "start": 542.88,
+      "end": 543.24,
+      "probability": 0.9915367364883423
+    },
+    {
+      "text": "can",
+      "start": 543.24,
+      "end": 543.44,
+      "probability": 0.9971779584884644
+    },
+    {
+      "text": "be",
+      "start": 543.44,
+      "end": 543.56,
+      "probability": 0.9986296892166138
+    },
+    {
+      "text": "mapped,",
+      "start": 543.56,
+      "end": 543.98,
+      "probability": 0.9971542358398438
+    },
+    {
+      "text": "a",
+      "start": 544.32,
+      "end": 544.38,
+      "probability": 0.9774477481842041
+    },
+    {
+      "text": "missile",
+      "start": 544.38,
+      "end": 544.78,
+      "probability": 0.9945894479751587
+    },
+    {
+      "text": "moves\u2026",
+      "start": 544.78,
+      "end": 544.98,
+      "probability": 0.2627730779349804
+    }
+  ],
+  "new_paid_jobs": 0,
+  "source_wav_modified": false
+}
