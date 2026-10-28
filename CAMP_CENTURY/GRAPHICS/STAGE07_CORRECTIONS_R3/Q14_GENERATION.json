@@ -1,0 +1,12 @@
+{
+  "id": "Q14",
+  "title": "Frozen core archive document",
+  "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An illustrated scientific specimen notebook spread, generous full-frame. Left a detailed modest sediment-bearing core fragment in a white foam groove, right enlarged naturally drawn coarse sand, brown sediment and plant fragments on a white laboratory tray, with a simple hand-drawn 1966 drilling silhouette integrated at upper left. Do not invent identified species, micrographs, experimental data, names or accession labels. Exact text only: CAMP CENTURY CORE; 1966; Ice; Basal sediment; Archived material / later re-examined. This illustrates the sample history, not a photograph of a specific scientist or evidence that its current state was seen in 1966. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-16b4a089-e9fb-47a4-9f42-12d28607b0ad.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

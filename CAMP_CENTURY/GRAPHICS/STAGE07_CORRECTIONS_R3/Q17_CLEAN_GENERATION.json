@@ -1,0 +1,12 @@
+{
+  "id": "Q17_CLEAN",
+  "title": "Water/wastewater plate without leaked authoring instruction",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17_CLEAN.png",
+  "prompt": "Remove ONLY the tiny bottom-right sentence 'Conceptual section, no false dimensions.' completely and restore the matching unmarked off-white paper behind it. It is an authoring instruction and must never appear in the film. Keep WATER SUPPLY, WASTEWATER, Separate systems, and Local heat could weaken surrounding snow exactly as they are. Keep the two separate systems and worker drawing unchanged. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-ba6bcb23-c750-4f2a-ac2c-805b4e8d3e42.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

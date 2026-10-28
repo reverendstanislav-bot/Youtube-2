@@ -1,0 +1,2287 @@
+[
+  {
+    "shot_id": "S001",
+    "item_index": 0,
+    "asset_id": "M03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S001_M03.comp",
+    "features": [
+      "Separate transparent explanatory annotations; complete labels fade in without clipping individual letters",
+      "Opening approach to initial section, then motivated pan toward reduced opening at the spoken ceiling cue",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "2879f8daf456f9dbb8ad5a7365241ee0f40d212453fb94feee1f703f14ffec1c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S003",
+    "item_index": 2,
+    "asset_id": "M01",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S003_M01.comp",
+    "features": [
+      "Separate transparent explanatory annotations; complete labels fade in without clipping individual letters",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "f43db6bdb8da452445ea31877f4e555931e3d8401492b113858e88bf23b3f710",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S005",
+    "item_index": 4,
+    "asset_id": "Q02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S005_Q02.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: ABOUT 12% PER YEAR",
+      "Native 0.68-second full-height marker sweep: ABOUT 17% PER YEAR",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S006",
+    "item_index": 5,
+    "asset_id": "Q01",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S006_Q01.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: 20,000 cubic yards",
+      "Native 0.68-second full-height marker sweep: Estimated work",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "3d76e5ecf81de4c96f1c4a581b07206ca5cae49ac434ff783290cfed09fe8c89",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S007",
+    "item_index": 6,
+    "asset_id": "M07",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S007_M07.comp",
+    "features": [
+      "Separate transparent explanatory annotations; complete labels fade in without clipping individual letters",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "e9347eb0b72bef433697ed459bdc8e9a0f6603561cf49e4eeffce49d3a847c16",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S009",
+    "item_index": 8,
+    "asset_id": "Q04",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S009_Q04.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a4b3ed1de183d3f25c51bc1f8f71321e7a7721c9bed500d3c88e2a8138261059",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S011",
+    "item_index": 10,
+    "asset_id": "Q09",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S011_Q09.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "ab5ce403bb333af69e15aba63b527e1507aa507ce0bb4a78f4a2f59788dcbbca",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S012",
+    "item_index": 11,
+    "asset_id": "Q08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S012_Q08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S013",
+    "item_index": 12,
+    "asset_id": "G03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S013_G03.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "650730890f20821d8103e7674632e54b28175a0e4e48516d311e2b77a355ab22",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S014",
+    "item_index": 13,
+    "asset_id": "Q16",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S014_Q16.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Vehicle and snow route are one coherent scene; independent tractor translation removed"
+    ],
+    "source_sha256": "c923d48944bb6438a2d75e80858c622a5254eea57d2969a17b166c60d0494a47",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S015",
+    "item_index": 14,
+    "asset_id": "G11",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S015_G11.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "5b5e46fa7a399b089a4cd2a6394586b287b32e0a4d7723c221442f522d8067b0",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S016",
+    "item_index": 15,
+    "asset_id": "Q05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S016_Q05.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S017",
+    "item_index": 16,
+    "asset_id": "Q16",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S017_Q16.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Vehicle and snow route are one coherent scene; independent tractor translation removed"
+    ],
+    "source_sha256": "c923d48944bb6438a2d75e80858c622a5254eea57d2969a17b166c60d0494a47",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S018",
+    "item_index": 17,
+    "asset_id": "Q05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S018_Q05.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S020",
+    "item_index": 19,
+    "asset_id": "G12",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S020_G12.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "1a4e5706df80d662eb64c5ce6dd7265a93e4c223294dc67ba9ea8e66f5287cb3",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S021",
+    "item_index": 20,
+    "asset_id": "Q08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S021_Q08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S022",
+    "item_index": 21,
+    "asset_id": "Q03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S022_Q03.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: About 1,000 short tons",
+      "Native 0.68-second full-height marker sweep: About 4,600 short tons",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "3f09cea4e7193b79e5b106004add72422b35eb4cbb9b6eb6ef9a72c18879a513",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S023",
+    "item_index": 22,
+    "asset_id": "Q03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S023_Q03.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: About 1,000 short tons",
+      "Native 0.68-second full-height marker sweep: About 4,600 short tons",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "3f09cea4e7193b79e5b106004add72422b35eb4cbb9b6eb6ef9a72c18879a513",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S024",
+    "item_index": 23,
+    "asset_id": "G13",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S024_G13.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "7080c267b359515dce4cd7a0a4b4c8f9e9fbf4592fea2f6b1c24187ed3bc960a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S026",
+    "item_index": 25,
+    "asset_id": "G03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S026_G03.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "650730890f20821d8103e7674632e54b28175a0e4e48516d311e2b77a355ab22",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S027",
+    "item_index": 26,
+    "asset_id": "G11",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S027_G11.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "5b5e46fa7a399b089a4cd2a6394586b287b32e0a4d7723c221442f522d8067b0",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S030",
+    "item_index": 29,
+    "asset_id": "M10",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S030_M10.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a86f1458b59a1faef097bb531abe0ec0d90c115140435518d07af251c2ec8370",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S032",
+    "item_index": 31,
+    "asset_id": "G02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S032_G02.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "611bd106d23db63b9b17465a9519f33539f76982aae1ead66e8490cec100987c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S033",
+    "item_index": 32,
+    "asset_id": "Q04",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S033_Q04.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a4b3ed1de183d3f25c51bc1f8f71321e7a7721c9bed500d3c88e2a8138261059",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S034",
+    "item_index": 33,
+    "asset_id": "M11",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S034_M11.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "2650b0388b31a61522d13da97bb559e562ce33e2a915c8603b282f52f2c2dad1",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S036",
+    "item_index": 35,
+    "asset_id": "G14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S036_G14.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "b1536625449f1e630b6f5707f3cb273e8f2ab12ec743785445753323f6de9419",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S037",
+    "item_index": 36,
+    "asset_id": "G14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S037_G14.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "b1536625449f1e630b6f5707f3cb273e8f2ab12ec743785445753323f6de9419",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S038",
+    "item_index": 37,
+    "asset_id": "G14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S038_G14.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "b1536625449f1e630b6f5707f3cb273e8f2ab12ec743785445753323f6de9419",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S040",
+    "item_index": 39,
+    "asset_id": "G15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S040_G15.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "57e23e66d16353d8a22a9bcc7a189db9265ce9543ed0a1fbae2de9a56a2d1d65",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S041",
+    "item_index": 40,
+    "asset_id": "G03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S041_G03.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "650730890f20821d8103e7674632e54b28175a0e4e48516d311e2b77a355ab22",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S042",
+    "item_index": 41,
+    "asset_id": "G04",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S042_G04.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "cf7fe6b25f39095b3808c25769bd70744e4a1ad8b141202875968ed666716bf2",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S044",
+    "item_index": 43,
+    "asset_id": "G13",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S044_G13.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "7080c267b359515dce4cd7a0a4b4c8f9e9fbf4592fea2f6b1c24187ed3bc960a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S045",
+    "item_index": 44,
+    "asset_id": "G16",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S045_G16.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "3c8f5313e49bb180086f6324b394ad610ee11d77fe0ea70cda400c6ca20af186",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S047",
+    "item_index": 46,
+    "asset_id": "Q07",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S047_Q07.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: .70 million",
+      "Native exact cost-allocation ratio 5.70 / 7.92; generated approximate bar removed",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "0c297f7e0dc5c8e294adb5bec0d708223ea85453261ef0563c296a7fd5b245ba",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S051",
+    "item_index": 50,
+    "asset_id": "Q06",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S051_Q06.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "d6e60623f49e711d9cc8df9331cd053a6f493590d033485f351559ac0a47e80a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S053",
+    "item_index": 52,
+    "asset_id": "G05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S053_G05.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "8e1678e44b5fe8e571e562e89ebe815b302dfc9f4b5f713886a928520263e721",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S054",
+    "item_index": 53,
+    "asset_id": "G05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S054_G05.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "8e1678e44b5fe8e571e562e89ebe815b302dfc9f4b5f713886a928520263e721",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S055",
+    "item_index": 54,
+    "asset_id": "Q17",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S055_Q17.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "c222a5e39198f20b5e33f2e7affbd98f07fc75c00ba253f0eed354b050fa12ae",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S056",
+    "item_index": 55,
+    "asset_id": "Q17",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S056_Q17.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "c222a5e39198f20b5e33f2e7affbd98f07fc75c00ba253f0eed354b050fa12ae",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S058",
+    "item_index": 57,
+    "asset_id": "G05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S058_G05.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "8e1678e44b5fe8e571e562e89ebe815b302dfc9f4b5f713886a928520263e721",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S059",
+    "item_index": 58,
+    "asset_id": "G15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S059_G15.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "57e23e66d16353d8a22a9bcc7a189db9265ce9543ed0a1fbae2de9a56a2d1d65",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S060",
+    "item_index": 59,
+    "asset_id": "Q07",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S060_Q07.comp",
+    "features": [
+      "Native exact cost-allocation ratio 5.70 / 7.92; generated approximate bar removed",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "0c297f7e0dc5c8e294adb5bec0d708223ea85453261ef0563c296a7fd5b245ba",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S062",
+    "item_index": 61,
+    "asset_id": "G03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S062_G03.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "650730890f20821d8103e7674632e54b28175a0e4e48516d311e2b77a355ab22",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S064",
+    "item_index": 63,
+    "asset_id": "Q04",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S064_Q04.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a4b3ed1de183d3f25c51bc1f8f71321e7a7721c9bed500d3c88e2a8138261059",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S065",
+    "item_index": 64,
+    "asset_id": "Q09",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S065_Q09.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "ab5ce403bb333af69e15aba63b527e1507aa507ce0bb4a78f4a2f59788dcbbca",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S066",
+    "item_index": 65,
+    "asset_id": "Q08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S066_Q08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S067",
+    "item_index": 66,
+    "asset_id": "Q09",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S067_Q09.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "ab5ce403bb333af69e15aba63b527e1507aa507ce0bb4a78f4a2f59788dcbbca",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S068",
+    "item_index": 67,
+    "asset_id": "Q18",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S068_Q18.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: 135,000 km2",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "5bf4b975e5e18d4623c2636f52183488a5e16a13a96c658d2a086c6ef795b91d",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S069",
+    "item_index": 68,
+    "asset_id": "Q08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S069_Q08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S070",
+    "item_index": 69,
+    "asset_id": "G15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S070_G15.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "57e23e66d16353d8a22a9bcc7a189db9265ce9543ed0a1fbae2de9a56a2d1d65",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S071",
+    "item_index": 70,
+    "asset_id": "G15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S071_G15.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "57e23e66d16353d8a22a9bcc7a189db9265ce9543ed0a1fbae2de9a56a2d1d65",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S073",
+    "item_index": 72,
+    "asset_id": "Q05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S073_Q05.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S074",
+    "item_index": 73,
+    "asset_id": "Q05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S074_Q05.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S075",
+    "item_index": 74,
+    "asset_id": "Q05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S075_Q05.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S076",
+    "item_index": 75,
+    "asset_id": "Q10",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S076_Q10.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "294fe7c1ebb9fd99cb0db5aa4262846fd826a3e12dec1c2c4b042a8c17c75e2a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S077",
+    "item_index": 76,
+    "asset_id": "Q08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S077_Q08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S078",
+    "item_index": 77,
+    "asset_id": "G20",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S078_G20.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "aa974a1732405ce920b9b74ec39af450ef91533154b9db147443b784d58494ce",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S079",
+    "item_index": 78,
+    "asset_id": "G19",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S079_G19.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "727e398d4573edf47fd9e3c718db817d8a3ec433d7e9c39d9f3f6050acc6faef",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S080",
+    "item_index": 79,
+    "asset_id": "G19",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S080_G19.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "727e398d4573edf47fd9e3c718db817d8a3ec433d7e9c39d9f3f6050acc6faef",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S081",
+    "item_index": 80,
+    "asset_id": "M03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S081_M03.comp",
+    "features": [
+      "Separate transparent explanatory annotations; complete labels fade in without clipping individual letters",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "2879f8daf456f9dbb8ad5a7365241ee0f40d212453fb94feee1f703f14ffec1c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S082",
+    "item_index": 81,
+    "asset_id": "Q19",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S082_Q19.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "fbbc5caf3af051ef0d245f903dec5ddd2b297dc917a44df3577a45caaf2ec9f7",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S083",
+    "item_index": 82,
+    "asset_id": "Q02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S083_Q02.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: ABOUT 12% PER YEAR",
+      "Native 0.68-second full-height marker sweep: ABOUT 17% PER YEAR",
+      "Two native local contour inspections; full document stays in frame and captions remain intact",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S084",
+    "item_index": 83,
+    "asset_id": "Q02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S084_Q02.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: ABOUT 12% PER YEAR",
+      "Native 0.68-second full-height marker sweep: ABOUT 17% PER YEAR",
+      "Two native local contour inspections; full document stays in frame and captions remain intact",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S085",
+    "item_index": 84,
+    "asset_id": "Q02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S085_Q02.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: ABOUT 12% PER YEAR",
+      "Native 0.68-second full-height marker sweep: ABOUT 17% PER YEAR",
+      "Two native local contour inspections; full document stays in frame and captions remain intact",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S086",
+    "item_index": 85,
+    "asset_id": "Q11",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S086_Q11.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: about 16 inches",
+      "Native 0.68-second full-height marker sweep: about 34 inches",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "354c5e16734b4c45cf6a0fcaf6cc2e856fe6049447431e81acfa25a4997ff1f2",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S087",
+    "item_index": 86,
+    "asset_id": "Q11",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S087_Q11.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: about 16 inches",
+      "Native 0.68-second full-height marker sweep: about 34 inches",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "354c5e16734b4c45cf6a0fcaf6cc2e856fe6049447431e81acfa25a4997ff1f2",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S088",
+    "item_index": 87,
+    "asset_id": "G19",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S088_G19.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "727e398d4573edf47fd9e3c718db817d8a3ec433d7e9c39d9f3f6050acc6faef",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S089",
+    "item_index": 88,
+    "asset_id": "Q01",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S089_Q01.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: 20,000 cubic yards",
+      "Native 0.68-second full-height marker sweep: Estimated work",
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "3d76e5ecf81de4c96f1c4a581b07206ca5cae49ac434ff783290cfed09fe8c89",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S090",
+    "item_index": 89,
+    "asset_id": "M07",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S090_M07.comp",
+    "features": [
+      "Separate transparent explanatory annotations; complete labels fade in without clipping individual letters",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "e9347eb0b72bef433697ed459bdc8e9a0f6603561cf49e4eeffce49d3a847c16",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S091",
+    "item_index": 90,
+    "asset_id": "G02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S091_G02.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "611bd106d23db63b9b17465a9519f33539f76982aae1ead66e8490cec100987c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S092",
+    "item_index": 91,
+    "asset_id": "G20",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S092_G20.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "aa974a1732405ce920b9b74ec39af450ef91533154b9db147443b784d58494ce",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S094",
+    "item_index": 93,
+    "asset_id": "G14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S094_G14.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "b1536625449f1e630b6f5707f3cb273e8f2ab12ec743785445753323f6de9419",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S095",
+    "item_index": 94,
+    "asset_id": "Q01",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S095_Q01.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "3d76e5ecf81de4c96f1c4a581b07206ca5cae49ac434ff783290cfed09fe8c89",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S097",
+    "item_index": 96,
+    "asset_id": "G15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S097_G15.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "57e23e66d16353d8a22a9bcc7a189db9265ce9543ed0a1fbae2de9a56a2d1d65",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S098",
+    "item_index": 97,
+    "asset_id": "G06",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S098_G06.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "4c911036598bfd175e203c4c8c138f1232994195c5e903c330972d145420b26c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S099",
+    "item_index": 98,
+    "asset_id": "Q02",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S099_Q02.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S100",
+    "item_index": 99,
+    "asset_id": "Q12",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S100_Q12.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: JULY 1963",
+      "Stable complete illustration; no automatic camera drift",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "71496a6a52a23a2edb0439fdabfe671956d3601a6b3c524d64b89795d11f3cc0",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S103",
+    "item_index": 102,
+    "asset_id": "G22",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S103_G22.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "2bf77bb123f50776494453122267c6b06da73d66b198bc47b79c1abdc78b6fa0",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S105",
+    "item_index": 104,
+    "asset_id": "G22",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S105_G22.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "2bf77bb123f50776494453122267c6b06da73d66b198bc47b79c1abdc78b6fa0",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S107",
+    "item_index": 106,
+    "asset_id": "Q13",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S107_Q13.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: A scenario is not an observed spill",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "683fa8a4249e39064d51dea25d1cb4754808474dee3727c63dedcd4f30838df5",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S108",
+    "item_index": 107,
+    "asset_id": "Q13",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S108_Q13.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: A scenario is not an observed spill",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "683fa8a4249e39064d51dea25d1cb4754808474dee3727c63dedcd4f30838df5",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S109",
+    "item_index": 108,
+    "asset_id": "Q13",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S109_Q13.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: A scenario is not an observed spill",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "683fa8a4249e39064d51dea25d1cb4754808474dee3727c63dedcd4f30838df5",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S110",
+    "item_index": 109,
+    "asset_id": "Q13",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S110_Q13.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: A scenario is not an observed spill",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "683fa8a4249e39064d51dea25d1cb4754808474dee3727c63dedcd4f30838df5",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S111",
+    "item_index": 110,
+    "asset_id": "G24",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S111_G24.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "cdeed6f1e4b7659b4fed26c0974e915f969fa0d9f370958ee2868dac8cdf52b3",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S112",
+    "item_index": 111,
+    "asset_id": "G08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S112_G08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "83ca665c692d2aa759975d41c7bed9fb602d05553fe1b21bfa10dd08e64cb9ee",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S113",
+    "item_index": 112,
+    "asset_id": "G08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S113_G08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "83ca665c692d2aa759975d41c7bed9fb602d05553fe1b21bfa10dd08e64cb9ee",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S114",
+    "item_index": 113,
+    "asset_id": "Q14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S114_Q14.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "8dcdfc7f589576c11b9b8fe53f0005012377048e30d78592ca0942fd7928cd5c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S115",
+    "item_index": 114,
+    "asset_id": "M05",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S115_M05.comp",
+    "features": [
+      "Separate transparent explanatory annotations; complete labels fade in without clipping individual letters",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "2f1841283c5e360abb0b066ab29f09e30ce21cd5e3aaa6cee1a8806623c5e4c5",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S116",
+    "item_index": 115,
+    "asset_id": "Q14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S116_Q14.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "8dcdfc7f589576c11b9b8fe53f0005012377048e30d78592ca0942fd7928cd5c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S117",
+    "item_index": 116,
+    "asset_id": "M12",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S117_M12.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "8e5f457cdeda6088fab2fed1e40cc63b074a3f1067e83fa5c430f03b33485911",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S118",
+    "item_index": 117,
+    "asset_id": "M12",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S118_M12.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "8e5f457cdeda6088fab2fed1e40cc63b074a3f1067e83fa5c430f03b33485911",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S119",
+    "item_index": 118,
+    "asset_id": "G09",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S119_G09.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "bdd8586111c7d1f58c9e2080b01f329e73aa6d0b10df4d6b00aba0130a10caaf",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S120",
+    "item_index": 119,
+    "asset_id": "Q14",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S120_Q14.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "8dcdfc7f589576c11b9b8fe53f0005012377048e30d78592ca0942fd7928cd5c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S121",
+    "item_index": 120,
+    "asset_id": "G10",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S121_G10.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Owner-approved original aircraft and wide sensing wedge restored; no replacement aircraft or thin ray",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "b4f1815daa02757b24710b28f68c821942eba9aa384cf04412d6a0071c6af00c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S122",
+    "item_index": 121,
+    "asset_id": "Q15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S122_Q15.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "61c6435b1d1478f34d8cacd60b18740c4e4ae149ae0a3b85f93b7ac07bde0806",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S123",
+    "item_index": 122,
+    "asset_id": "G10",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S123_G10.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Owner-approved original aircraft and wide sensing wedge restored; no replacement aircraft or thin ray"
+    ],
+    "source_sha256": "b4f1815daa02757b24710b28f68c821942eba9aa384cf04412d6a0071c6af00c",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S124",
+    "item_index": 123,
+    "asset_id": "Q15",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S124_Q15.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: At least 100 feet",
+      "Native 0.68-second full-height marker sweep: below the surface",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "61c6435b1d1478f34d8cacd60b18740c4e4ae149ae0a3b85f93b7ac07bde0806",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S126",
+    "item_index": 125,
+    "asset_id": "G24",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S126_G24.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "cdeed6f1e4b7659b4fed26c0974e915f969fa0d9f370958ee2868dac8cdf52b3",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S128",
+    "item_index": 127,
+    "asset_id": "G08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S128_G08.comp",
+    "features": [
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "83ca665c692d2aa759975d41c7bed9fb602d05553fe1b21bfa10dd08e64cb9ee",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S129",
+    "item_index": 128,
+    "asset_id": "Q10",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S129_Q10.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "294fe7c1ebb9fd99cb0db5aa4262846fd826a3e12dec1c2c4b042a8c17c75e2a",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S131",
+    "item_index": 130,
+    "asset_id": "M08",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S131_M08.comp",
+    "features": [
+      "Retained approved independent module hoist with attached cable; no vehicle sliding",
+      "Stable complete illustration; no automatic camera drift"
+    ],
+    "source_sha256": "805a46b3e71f663185b86609dbba5fbce7ab6b6e0f1098156298cd3853a8fcaa",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "shot_id": "S132",
+    "item_index": 131,
+    "asset_id": "G03",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S132_G03.comp",
+    "features": [
+      "Coherent eased camera focus on named subject; same transform for artwork and native highlights",
+      "Native 10-frame dissolve from exact previous generated-frame treatment for a report/location/time change"
+    ],
+    "source_sha256": "650730890f20821d8103e7674632e54b28175a0e4e48516d311e2b77a355ab22",
+    "native_comp_count": 1,
+    "use_gpu": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]

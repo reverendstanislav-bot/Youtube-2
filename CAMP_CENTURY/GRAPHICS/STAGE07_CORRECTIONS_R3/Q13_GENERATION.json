@@ -1,0 +1,12 @@
+{
+  "id": "Q13",
+  "title": "Climate scenario explanation",
+  "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An illustrated scientific notebook page with two large conceptual snow/ice sections rather than a fabricated graph: left increasing snowfall adds layers above small dark structural remnants, right a simple melting/percolation illustration shows water entering upper snow. Draw no flowing radioactive river, no numerical depth axis, no invented projections or graph curves. Exact text only: BURIAL; MELTWATER; Different processes; Projections depend on assumptions; A scenario is not an observed spill. Clear ink/blue watercolor explains the distinction visually, not a generic text slide. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q13.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-bc2c885e-359a-45f5-8d8e-b08f88580a64.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q13.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

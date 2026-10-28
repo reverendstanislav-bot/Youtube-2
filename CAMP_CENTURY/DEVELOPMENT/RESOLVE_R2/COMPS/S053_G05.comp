@@ -1,0 +1,11 @@
+{
+Tools = ordered() {
+Paper = Background { Inputs = { UseGPU = Input { Value = 0 }, Width=Input { Value = 1920 },Height=Input { Value = 1080 },TopLeftRed=Input { Value = 0.972 },TopLeftGreen=Input { Value = 0.969 },TopLeftBlue=Input { Value = 0.948 },TopLeftAlpha=Input { Value = 1 } } },
+ApprovedArtwork = Loader { Clips = { Clip { ID="Clip1", Filename="C:/Users/KK/Youtube-2-CAMP-CENTURY-VIDEO007/CAMP_CENTURY/GRAPHICS/STAGE07_GENERATED_R1/images/G05_REVISED_R2.png", FormatID="PNGFormat", StartFrame=0, Length=1, Loop=1 } }, Inputs = { UseGPU = Input { Value = 0 }, GlobalIn=Input { Value = 0 }, GlobalOut=Input { Value = 245 }, ["Clip1.ExtendFirst"]=Input { Value = 0 }, ["Clip1.ExtendLast"]=Input { Value = 246 }, ["Clip1.Loop"]=Input { Value = 1 } } },
+ArtworkFit = BetterResize { Inputs = { UseGPU = Input { Value = 0 }, Width=Input { Value = 1919 }, Height=Input { Value = 1080 }, KeepAspect=Input { Value = 0 }, Input=Input { SourceOp = "ApprovedArtwork", Source = "Output" } } },
+ArtworkOnPaper = Merge { Inputs = { UseGPU = Input { Value = 0 }, Background=Input { SourceOp = "Paper", Source = "Output" },Foreground=Input { SourceOp = "ArtworkFit", Source = "Output" },Blend=Input { Expression = "1" } } },
+MotivatedFocus = Transform { Inputs = { UseGPU = Input { Value = 0 }, Input=Input { SourceOp = "ArtworkOnPaper", Source = "Output" },Size=Input { Expression = "(1+0*(min(1,max(0,(time-(57.6))/(590.4)))*min(1,max(0,(time-(57.6))/(590.4)))*(3-2*min(1,max(0,(time-(57.6))/(590.4))))))" },Center=Input { Expression = "Point(.5+0.0*((1+0*(min(1,max(0,(time-(57.6))/(590.4)))*min(1,max(0,(time-(57.6))/(590.4)))*(3-2*min(1,max(0,(time-(57.6))/(590.4))))))-1),.5+0.0*((1+0*(min(1,max(0,(time-(57.6))/(590.4)))*min(1,max(0,(time-(57.6))/(590.4)))*(3-2*min(1,max(0,(time-(57.6))/(590.4))))))-1))" } } },
+MediaOut1 = MediaOut { Inputs = { UseGPU = Input { Value = 0 }, Input=Input { SourceOp = "MotivatedFocus", Source = "Output" } } }
+},
+GlobalRange = { 0, 245 }, RenderRange = { 0, 245 }, CurrentTime = 0
+}

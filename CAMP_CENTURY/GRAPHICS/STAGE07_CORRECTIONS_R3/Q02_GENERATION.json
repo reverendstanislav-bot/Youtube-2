@@ -1,0 +1,14 @@
+{
+  "id": "Q02",
+  "title": "Local section losses",
+  "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Images1 and2 establish the OWNER-APPROVED style: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Match those images, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A richly drawn measurement plate on neutral paper: two large snow tunnel cross-sections side by side, each showing earlier outer contour and a later smaller inner opening, based on the extra source image3. Charcoal outlines and muted pale blue snow distinguish solid snow from usable empty interior. Small period surveyor silhouettes establish human scale without adding measurements. Clear integrated labels exactly: MAIN PASSAGE; ABOUT 12% PER YEAR; SIDE PASSAGE; ABOUT 17% PER YEAR; Cross-sectional area loss; Two measured local examples. Percentages refer to annual area reduction, not height and not all tunnels. Do not draw a 12% height reduction as if it were measured. No numerical axes. The reference contours cover different multiyear periods, so do not label contour difference one year. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G10_REVISED_R2.png",
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATION_PREP_R2\\references\\R06_PROFILES.jpg"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-aaed34db-c12c-4c70-b290-f303349536ba.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

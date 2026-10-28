@@ -1,0 +1,13 @@
+{
+  "id": "Q05",
+  "title": "Greenland supply geography",
+  "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A careful illustrated geographical plate of northwest Greenland, NOT a tactical map. Image3 supplies Greenland outline and Camp Century location. A large broad ice-sheet coastline map occupies most of the frame; mark Camp Tuto near the Thule coast and Camp Century inland to its northeast. A simple light dotted illustrative supply connection, not a surveyed precise route, joins the two named locations. Lower corner has an integrated small drawing of a loaded period snow sled. Exact text only: GREENLAND; Camp Tuto; Camp Century; Approx. 138 miles; Danish realm. Preserve plausible northwest Greenland geography, no fictional cities, roads or missile routes. The connection is schematic, not to geographic scale. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATION_PREP_R2\\references\\R32_GREENLAND_ONLY.jpg"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q05.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-eb8819b4-410a-444f-bd21-052f55da8239.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q05.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

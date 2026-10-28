@@ -1,0 +1,29 @@
+{
+  "project": "YT2 Vid7",
+  "timeline": "HIA_VIDEO007_CAMP_CENTURY_VISUAL_R2_25FPS",
+  "duration_frames": 27368,
+  "duration_seconds": 1094.72,
+  "fps": 25,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "shots": 132,
+  "native_fusion_comps": 102,
+  "selected_clean_new_assets": 19,
+  "generic_text_cards": 0,
+  "direct_source_scans": 0,
+  "archive_clips": 30,
+  "archive_timeline_seconds": 229.32,
+  "audio": "Original locked WAV unchanged",
+  "subtitle_tracks": 0,
+  "rejected_r1": true,
+  "full_continuous_av_review": "NOT_COMPLETED",
+  "owner_picture_approval": "PENDING",
+  "final_color_music_sfx": "NOT_STARTED",
+  "visual_coverage_pass": "NOT_CLAIMED",
+  "subcue_fallback_shots": [
+    "S065",
+    "S089"
+  ]
+}

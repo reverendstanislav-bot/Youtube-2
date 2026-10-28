@@ -1,0 +1,18 @@
+{
+  "project": "YT2 Vid7",
+  "timeline": "HIA_VIDEO007_CAMP_CENTURY_VISUAL_R2_25FPS",
+  "timeline_start": 90000,
+  "timeline_end_exclusive": 117368,
+  "fps": 25.0,
+  "width": "1920",
+  "height": "1080",
+  "video_items": 132,
+  "audio_items": 1,
+  "audio_locked": true,
+  "subtitle_tracks": 0,
+  "project_saved": true,
+  "drp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\HIA_VIDEO007_CAMP_CENTURY_VISUAL_R2.drp",
+  "drp_bytes": 1060175,
+  "drp_sha256": "bc4187e28e763101ab7a8071bd0e95b77368415bd83341770f88264672afbab7",
+  "render_active": false
+}

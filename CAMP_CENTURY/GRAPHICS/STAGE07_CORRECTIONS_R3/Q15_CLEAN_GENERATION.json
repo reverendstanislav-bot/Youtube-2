@@ -1,0 +1,12 @@
+{
+  "id": "Q15_CLEAN",
+  "title": "2024 buried remains without invented surface camp",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15_CLEAN.png",
+  "prompt": "Remove ALL people, huts, structures and poles from the TOP SURFACE of this 2024 explanatory ice-section illustration. Restore uninterrupted natural flat snow/ice terrain and sky in their places. The old camp is buried and is not an occupied surface settlement in 2024. Keep the single shallow horizontal layer of dark fragmentary structural remains inside ice, exact readable 2024/depth labels, depth leader, lower cross-section and all other composition unchanged. No people, active buildings or aircraft anywhere. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-c0d67c0d-1500-42dc-bc1a-de49b0f2a4b6.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

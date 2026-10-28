@@ -1,0 +1,36 @@
+[
+  {
+    "shot_id": "S006",
+    "item_index": 5,
+    "asset_id": "Q01",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S006_Q01.comp",
+    "features": [
+      "Native 0.68-second full-height marker sweep: 20,000 cubic yards",
+      "Native 0.68-second full-height marker sweep: Estimated work",
+      "Coherent eased camera focus on subject; same transform for artwork and native highlights"
+    ],
+    "source_sha256": "3d76e5ecf81de4c96f1c4a581b07206ca5cae49ac434ff783290cfed09fe8c89"
+  },
+  {
+    "shot_id": "S014",
+    "item_index": 13,
+    "asset_id": "Q16",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S014_Q16.comp",
+    "features": [
+      "Coherent eased camera focus on subject; same transform for artwork and native highlights",
+      "Vehicle and snow route are one coherent scene; independent tractor translation removed"
+    ],
+    "source_sha256": "c923d48944bb6438a2d75e80858c622a5254eea57d2969a17b166c60d0494a47"
+  },
+  {
+    "shot_id": "S121",
+    "item_index": 120,
+    "asset_id": "G10",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\COMPS\\S121_G10.comp",
+    "features": [
+      "Coherent eased camera focus on subject; same transform for artwork and native highlights",
+      "Owner-approved original aircraft and wide sensing wedge restored; no replacement aircraft or thin ray"
+    ],
+    "source_sha256": "b4f1815daa02757b24710b28f68c821942eba9aa384cf04412d6a0071c6af00c"
+  }
+]

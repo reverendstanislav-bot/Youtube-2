@@ -1,0 +1,273 @@
+{
+  "Q01": [
+    {
+      "text": "20,000 cubic yards",
+      "box": [
+        0.14294,
+        0.81403,
+        0.39533,
+        0.86397
+      ],
+      "start_seconds": 1.2,
+      "cue_phrases": [
+        "20 000 cubic yards",
+        "20000 cubic yards",
+        "twenty thousand cubic yards"
+      ]
+    },
+    {
+      "text": "Estimated work",
+      "box": [
+        0.05502,
+        0.86504,
+        0.26615,
+        0.915
+      ],
+      "start_seconds": 2.2,
+      "cue_phrases": [
+        "estimated",
+        "estimate"
+      ]
+    }
+  ],
+  "Q02": [
+    {
+      "text": "ABOUT 12% PER YEAR",
+      "box": [
+        0.195,
+        0.844,
+        0.404,
+        0.876
+      ],
+      "start_seconds": 1.0,
+      "cue_phrases": [
+        "12 percent",
+        "twelve percent",
+        "12"
+      ]
+    },
+    {
+      "text": "ABOUT 17% PER YEAR",
+      "box": [
+        0.661,
+        0.844,
+        0.876,
+        0.876
+      ],
+      "start_seconds": 2.0,
+      "cue_phrases": [
+        "17 percent",
+        "seventeen percent",
+        "17"
+      ]
+    }
+  ],
+  "Q03": [
+    {
+      "text": "About 1,000 short tons",
+      "box": [
+        0.045,
+        0.248,
+        0.286,
+        0.291
+      ],
+      "start_seconds": 1.1,
+      "cue_phrases": [
+        "1 000",
+        "1000",
+        "a thousand",
+        "one thousand"
+      ]
+    },
+    {
+      "text": "About 4,600 short tons",
+      "box": [
+        0.449,
+        0.248,
+        0.702,
+        0.291
+      ],
+      "start_seconds": 3.1,
+      "cue_phrases": [
+        "4 600",
+        "4600",
+        "four thousand six hundred"
+      ]
+    }
+  ],
+  "Q06": [
+    {
+      "text": "Approx. 10 MW thermal",
+      "box": [
+        0.046,
+        0.136,
+        0.228,
+        0.171
+      ],
+      "cue_phrases": [
+        "10 megawatts",
+        "ten megawatts"
+      ]
+    },
+    {
+      "text": "Approx. 1.5 MW electric",
+      "box": [
+        0.807,
+        0.551,
+        0.971,
+        0.587
+      ],
+      "cue_phrases": [
+        "1.5 megawatts",
+        "one point five megawatts"
+      ]
+    }
+  ],
+  "Q07": [
+    {
+      "text": ".92 million",
+      "box": [
+        0.786,
+        0.3,
+        0.975,
+        0.359
+      ],
+      "cue_phrases": [
+        "7.92 million",
+        "7 92 million",
+        "seven point nine two million"
+      ]
+    },
+    {
+      "text": ".70 million",
+      "box": [
+        0.786,
+        0.422,
+        0.975,
+        0.484
+      ],
+      "cue_phrases": [
+        "5.7 million",
+        "5 7 million",
+        "five point seven million"
+      ]
+    }
+  ],
+  "Q11": [
+    {
+      "text": "about 16 inches",
+      "box": [
+        0.044,
+        0.888,
+        0.277,
+        0.944
+      ],
+      "cue_phrases": [
+        "16 inches",
+        "sixteen inches"
+      ]
+    },
+    {
+      "text": "about 34 inches",
+      "box": [
+        0.392,
+        0.888,
+        0.625,
+        0.944
+      ],
+      "cue_phrases": [
+        "34 inches",
+        "thirty four inches"
+      ]
+    }
+  ],
+  "Q12": [
+    {
+      "text": "JULY 1963",
+      "box": [
+        0.07,
+        0.751,
+        0.246,
+        0.816
+      ],
+      "cue_phrases": [
+        "July 1963",
+        "July nineteen sixty three"
+      ]
+    }
+  ],
+  "Q13": [
+    {
+      "text": "A scenario is not an observed spill",
+      "box": [
+        0.324,
+        0.905,
+        0.845,
+        0.95
+      ],
+      "cue_phrases": [
+        "scenario",
+        "not an observation"
+      ]
+    }
+  ],
+  "Q15": [
+    {
+      "text": "At least 100 feet",
+      "box": [
+        0.466,
+        0.405,
+        0.578,
+        0.435
+      ],
+      "cue_phrases": [
+        "100 feet",
+        "one hundred feet"
+      ]
+    },
+    {
+      "text": "below the surface",
+      "box": [
+        0.466,
+        0.438,
+        0.583,
+        0.465
+      ],
+      "cue_phrases": [
+        "below the surface",
+        "beneath the surface"
+      ]
+    }
+  ],
+  "Q17": [
+    {
+      "text": "Local heat",
+      "box": [
+        0.54,
+        0.852,
+        0.631,
+        0.885
+      ],
+      "cue_phrases": [
+        "heat",
+        "warm sewage"
+      ]
+    }
+  ],
+  "Q18": [
+    {
+      "text": "135,000 km2",
+      "box": [
+        0.135,
+        0.817,
+        0.255,
+        0.863
+      ],
+      "cue_phrases": [
+        "135000",
+        "135 000",
+        "hundred thirty five thousand"
+      ]
+    }
+  ]
+}

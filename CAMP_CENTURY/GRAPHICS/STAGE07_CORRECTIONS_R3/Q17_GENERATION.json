@@ -1,0 +1,12 @@
+{
+  "id": "Q17",
+  "title": "Water and wastewater notebook",
+  "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An informative generated engineering field-book spread. Left large drawing shows an isolated water-supply well in snow with a simple pipe to a timber building; right large conceptual section shows a separate sewage sump warming nearby snow, a visible sagging timber support and a worker inspecting it. No reactor or radioactive imagery, no environmental plume. Exact text: WATER SUPPLY; WASTEWATER; Separate systems; Local heat could weaken surrounding snow. Conceptual section, no false dimensions or fabricated measurements. No underground pool connecting drinking water to sewage. No aircraft. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-b0e519fc-0725-4772-8d6d-18819f825e4e.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

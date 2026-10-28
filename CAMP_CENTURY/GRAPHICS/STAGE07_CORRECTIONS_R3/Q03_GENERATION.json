@@ -1,0 +1,12 @@
+{
+  "id": "Q03",
+  "title": "Seasonal freight",
+  "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An illustrated logistics field-book spread filling the frame: two substantial original watercolor-and-ink views of period orange cargo sled trains amid compacted snow, left smaller grouping under 1959, right larger grouping under 1960. The number of crates is pictorial, not a counted data series. Thin ink ledger lines integrate the factual labels with the drawings. Exact text: CONSTRUCTION FREIGHT; 1959; About 1,000 short tons; 1960; About 4,600 short tons; Two seasons: about 5,600 short tons. Complete trucks/sleds and grounding, no isolated numbers on blank paper. No unlabeled bar heights or invented weights. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q03.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-61a4072a-b7a9-4df7-97cc-f782e33e7b54.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q03.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

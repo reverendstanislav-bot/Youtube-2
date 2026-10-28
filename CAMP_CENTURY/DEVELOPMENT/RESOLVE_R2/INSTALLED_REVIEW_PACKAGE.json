@@ -1,0 +1,410 @@
+{
+  "status": "FULL_R2_PICTURE_REVIEW_INSTALLED",
+  "destination": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27",
+  "files": [
+    {
+      "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO007_R2\\HIA_VIDEO007_CAMP_CENTURY_R2_PROXY_1080P25.mp4",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\HIA_VIDEO007_CAMP_CENTURY_R2_PROXY_1080P25.mp4",
+      "bytes": 1719629102,
+      "sha256": "6e4580439680e810560ed7300039af0967f2acde2fdff92224d798ffb0c6b590",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\HIA_VIDEO007_CAMP_CENTURY_VISUAL_R2.drp",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\HIA_VIDEO007_CAMP_CENTURY_VISUAL_R2.drp",
+      "bytes": 1060175,
+      "sha256": "bc4187e28e763101ab7a8071bd0e95b77368415bd83341770f88264672afbab7",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\SHOT_PLAN_R2.csv",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SHOT_PLAN_R2.csv",
+      "bytes": 73062,
+      "sha256": "2f63128218fd4f5a7b3e61145e9b890757fc09c9ab53674d455b39f3536342fd",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\SOURCE_AND_RIGHTS_REGISTER.csv",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SOURCE_AND_RIGHTS_REGISTER.csv",
+      "bytes": 73062,
+      "sha256": "2f63128218fd4f5a7b3e61145e9b890757fc09c9ab53674d455b39f3536342fd",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\BEATS_AUDIO_LOCKED.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\BEATS_AUDIO_LOCKED.json",
+      "bytes": 32229,
+      "sha256": "8865358208c27409ba64f54a735a0eb06771ce21992cf1407cc07bbe2808b3ca",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\EDIT_PROVENANCE_AND_HOLDS.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\EDIT_PROVENANCE_AND_HOLDS.json",
+      "bytes": 743,
+      "sha256": "34bd800538c0251f063a70cf5099f38032d96b4effffc387f6bf4282668bd8ef",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\NATIVE_FINAL_READBACK.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\NATIVE_FINAL_READBACK.json",
+      "bytes": 608,
+      "sha256": "0c84b4e69b20f6edb1193f32f166e2ada71a8bfac95cdf9070be36a02640566b",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\README.md",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\README.md",
+      "bytes": 3166,
+      "sha256": "b7821f0fc91bb9225241dc024e2cb2edb235e3172a8db2fa38dda02c40a0b74f",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\ROUGH_CUT_QC_AND_DELIVERY_2026-10-27.md",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\ROUGH_CUT_QC_AND_DELIVERY_2026-10-27.md",
+      "bytes": 4005,
+      "sha256": "f087a37fb3e0518255b8c46db45caad556afe49d0725a1d4d2d1dfbd413d3fd4",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\NATIVE_HIGHLIGHT_AUDIO_ALIGNMENT.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\NATIVE_HIGHLIGHT_AUDIO_ALIGNMENT.json",
+      "bytes": 7606,
+      "sha256": "ff1203cc0e6344fa1e3cf928560773b84c7cdbfc49656407caf04cc4504328bd",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\ADDITIONAL_ARCHIVE_PLACEMENTS.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\ADDITIONAL_ARCHIVE_PLACEMENTS.json",
+      "bytes": 5982,
+      "sha256": "121a03506414378659f543f6388b14c6238ffe29154a71362f6aa50745a806d4",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\MOTION_SAMPLE_INDEX.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\MOTION_SAMPLE_INDEX.json",
+      "bytes": 5014,
+      "sha256": "7886484d80700e525266fdc0c5d817f4b093dfa6872bbf3f35b02d04a029d95a",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\PROXY_QC.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\PROXY_QC.json",
+      "bytes": 4386,
+      "sha256": "175672b8e202697b39a96e3b5cab307c67e9ab00aec782fd9322654ec6bd17bc",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\SAMPLED_VISUAL_REVIEW.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\SAMPLED_VISUAL_REVIEW.json",
+      "bytes": 2210,
+      "sha256": "da59dcc1870918cef95435ef5850a9cb70416ee1c8474dd09091c0b791258a29",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_01.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_01.jpg",
+      "bytes": 817980,
+      "sha256": "8ea55ccca61ee8d6817f4bb46ca8db5b964972566e9f1840d3140104ea3c8bc3",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_02.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_02.jpg",
+      "bytes": 717757,
+      "sha256": "c5ca3d88a42b8eaf7f55e8bdb3a35e5e0eb88c40eacc476bcb274a37c06295f2",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_03.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_03.jpg",
+      "bytes": 694592,
+      "sha256": "b2462c3f8c4ff68584600d849fd9de66b3b80ea7ba7a3dca6d6b500a9a1bd3b2",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_04.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_04.jpg",
+      "bytes": 869149,
+      "sha256": "369f05bec29dfd330303866ae416b4712c56088fc65306b5d36abc77af18355b",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_05.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_05.jpg",
+      "bytes": 814579,
+      "sha256": "8196019a93327fc2730a9faf9883ec21b8474923edce89a91c5f90abb89aed76",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_06.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_06.jpg",
+      "bytes": 790675,
+      "sha256": "4c1054777b58bf34af1e77de9d6159ad9e6d57162f74725fefe6d8946acfb26b",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\RENDERED_CONTACT_07.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\RENDERED_CONTACT_07.jpg",
+      "bytes": 439056,
+      "sha256": "3bd3ccf203663ff0af47bd4d9c0363b71c6e941602165db552df7c735ddcf480",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\G10_S123_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\G10_S123_RENDERED_SEQUENCE.jpg",
+      "bytes": 141005,
+      "sha256": "401b0d1e7dfeb8d34a52c6bb3753114bdb5c3c66afd86d2720b64fe1c2b39d7e",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M03_S001_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\M03_S001_RENDERED_SEQUENCE.jpg",
+      "bytes": 146658,
+      "sha256": "569d09c1d914117f31d183f86264db567f6a118a5a6427048e43808b6807ca7a",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M08_S131_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\M08_S131_RENDERED_SEQUENCE.jpg",
+      "bytes": 161504,
+      "sha256": "5a42e46391cf6e3b6480b7033ad0183087668ad13c5df3f7f0faf7b181cb11e3",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M11_S034_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\M11_S034_RENDERED_SEQUENCE.jpg",
+      "bytes": 187324,
+      "sha256": "7b3b13cb7fb7921951c393c576b2498742e68e50fa6df624a5b852556d2bb8a3",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M12_S117_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\M12_S117_RENDERED_SEQUENCE.jpg",
+      "bytes": 197867,
+      "sha256": "83092cd3a183ebdb8a228ea45ffa9531828fbe87d5d6cd167c44cd015cf5b7ce",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q01_S006_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q01_S006_RENDERED_SEQUENCE.jpg",
+      "bytes": 223328,
+      "sha256": "5760ae6596e53e803451337adfc7bb718bb50679d0b3d7f942f68ef1d15bdd63",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q02_S005_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q02_S005_RENDERED_SEQUENCE.jpg",
+      "bytes": 168296,
+      "sha256": "887ed26610965301135eaa2ece922a7cbef98e773be5bda5759d7377a06a880e",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q02_S083_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q02_S083_RENDERED_SEQUENCE.jpg",
+      "bytes": 167764,
+      "sha256": "f33525653c5e258fa806727af20e5a55968e4d79d14a753fdc1f0450e8fb9870",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q02_S084_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q02_S084_RENDERED_SEQUENCE.jpg",
+      "bytes": 167500,
+      "sha256": "54d79813e95516a3fabd4f2292276ff0105ecdce8a3dbddb97692171a647f81b",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q03_S023_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q03_S023_RENDERED_SEQUENCE.jpg",
+      "bytes": 211504,
+      "sha256": "2ddd453d6563d7f03f0474136c31dc98da70f4aa1701266aca6704feb0c94b7c",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q07_S047_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q07_S047_RENDERED_SEQUENCE.jpg",
+      "bytes": 161286,
+      "sha256": "e7dc2d24a5636de14bd2484d7084cfa012908160cfb008726e1d347ca6b28357",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q11_S087_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q11_S087_RENDERED_SEQUENCE.jpg",
+      "bytes": 213670,
+      "sha256": "52b85f3c563628731ff37faf3b32fe33235cd56bbc7e8d96d106b20900ca51a0",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q16_S017_RENDERED_SEQUENCE.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\QC\\motion\\Q16_S017_RENDERED_SEQUENCE.jpg",
+      "bytes": 214916,
+      "sha256": "06dffb790cb7990a88d5dbebfc7addcd74c6eeda82fe36e4e980ce7444d25b89",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q01.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q01.png",
+      "bytes": 2967476,
+      "sha256": "3d76e5ecf81de4c96f1c4a581b07206ca5cae49ac434ff783290cfed09fe8c89",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q02_CLEAN.png",
+      "bytes": 2644408,
+      "sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q03.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q03.png",
+      "bytes": 3178233,
+      "sha256": "3f09cea4e7193b79e5b106004add72422b35eb4cbb9b6eb6ef9a72c18879a513",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q04.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q04.png",
+      "bytes": 3451592,
+      "sha256": "a4b3ed1de183d3f25c51bc1f8f71321e7a7721c9bed500d3c88e2a8138261059",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q05.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q05.png",
+      "bytes": 3796521,
+      "sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q06_CLEAN.png",
+      "bytes": 3108726,
+      "sha256": "d6e60623f49e711d9cc8df9331cd053a6f493590d033485f351559ac0a47e80a",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q07_CLEAN.png",
+      "bytes": 2744144,
+      "sha256": "0c297f7e0dc5c8e294adb5bec0d708223ea85453261ef0563c296a7fd5b245ba",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q08.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q08.png",
+      "bytes": 3644418,
+      "sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q09_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q09_CLEAN.png",
+      "bytes": 3282466,
+      "sha256": "ab5ce403bb333af69e15aba63b527e1507aa507ce0bb4a78f4a2f59788dcbbca",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q10.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q10.png",
+      "bytes": 3415154,
+      "sha256": "294fe7c1ebb9fd99cb0db5aa4262846fd826a3e12dec1c2c4b042a8c17c75e2a",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q11.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q11.png",
+      "bytes": 3234990,
+      "sha256": "354c5e16734b4c45cf6a0fcaf6cc2e856fe6049447431e81acfa25a4997ff1f2",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q12.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q12.png",
+      "bytes": 3146249,
+      "sha256": "71496a6a52a23a2edb0439fdabfe671956d3601a6b3c524d64b89795d11f3cc0",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q13.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q13.png",
+      "bytes": 3321519,
+      "sha256": "683fa8a4249e39064d51dea25d1cb4754808474dee3727c63dedcd4f30838df5",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q14_CLEAN.png",
+      "bytes": 3453738,
+      "sha256": "8dcdfc7f589576c11b9b8fe53f0005012377048e30d78592ca0942fd7928cd5c",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q15_CLEAN.png",
+      "bytes": 3018478,
+      "sha256": "61c6435b1d1478f34d8cacd60b18740c4e4ae149ae0a3b85f93b7ac07bde0806",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q16.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q16.png",
+      "bytes": 3285826,
+      "sha256": "c923d48944bb6438a2d75e80858c622a5254eea57d2969a17b166c60d0494a47",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q17_CLEAN.png",
+      "bytes": 2908761,
+      "sha256": "c222a5e39198f20b5e33f2e7affbd98f07fc75c00ba253f0eed354b050fa12ae",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18_CLEAN.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q18_CLEAN.png",
+      "bytes": 2625268,
+      "sha256": "5bf4b975e5e18d4623c2636f52183488a5e16a13a96c658d2a086c6ef795b91d",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q19.png",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\Q19.png",
+      "bytes": 3491169,
+      "sha256": "fbbc5caf3af051ef0d245f903dec5ddd2b297dc917a44df3577a45caaf2ec9f7",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\SELECTED_GENERATION_RECORDS.json",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\SELECTED_GENERATION_RECORDS.json",
+      "bytes": 48392,
+      "sha256": "b48d7178ef77d21149df88e8471d77e314c03676ae9f0dfc6481d782b9675fa3",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\ASSET_MANIFEST.csv",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\ASSET_MANIFEST.csv",
+      "bytes": 4988,
+      "sha256": "ed3c7cffc78a9fdb1d45b90b7eb4492dfb9dc399fbb1e3f930e0684a53b518ab",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\OWNER_STYLE_LOCK_R3.md",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\OWNER_STYLE_LOCK_R3.md",
+      "bytes": 3031,
+      "sha256": "336c33531d61de2a4731496f960fedb43a00ee2f571805d45b90ac2853930329",
+      "copy_hash_verified": true
+    },
+    {
+      "source": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\SELECTED_BASES_CONTACT_SHEET.jpg",
+      "installed": "C:\\YOUTUBE\\Youtube 2\\VIDEO 7\\EDIT\\R2_2026-10-27\\SELECTED_CLEAN_ARTWORK\\SELECTED_BASES_CONTACT_SHEET.jpg",
+      "bytes": 1014884,
+      "sha256": "425d09da9c414b852963a69f0b0af123c5b6ed44c2734b92cf6af83ada31a664",
+      "copy_hash_verified": true
+    }
+  ],
+  "technical_checks_pass": true,
+  "all_copy_hashes_verified": true,
+  "owner_approval": "PENDING",
+  "full_continuous_av_review": "NOT_COMPLETED",
+  "publication_approved": false
+}

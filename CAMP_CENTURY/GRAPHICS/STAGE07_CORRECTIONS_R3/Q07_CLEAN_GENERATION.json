@@ -1,0 +1,12 @@
+{
+  "id": "Q07_CLEAN",
+  "title": "Cost ledger clean base for exact native chart",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07_CLEAN.png",
+  "prompt": "Remove ONLY the blue/grey rectangular proportion bar from the lower part of the cost ledger, restoring the same continuous off-white paper texture within that strip. Preserve the table/grid, ALL exact figures ($7.92 million, $5.70 million, $2.22 million), footer, illustration and their pixel positions. The exact proportion bar will be drawn later as a native editable chart in DaVinci Resolve, not generated into the bitmap. Keep all other typography, linework, palette and composition unchanged. No yellow highlighting, underline, marker, selection circle, loupe or glow. Such accents are made only as separate animated layers in DaVinci Resolve.",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-a4767caf-62ab-439f-be95-8fc668cf7b24.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

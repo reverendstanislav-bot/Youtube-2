@@ -1,0 +1,12 @@
+{
+  "id": "Q18_CLEAN",
+  "title": "Proposed area landscape with integral ink annotation, no opaque card",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18_CLEAN.png",
+  "prompt": "Remove ONLY the beige rectangular background panel behind the small bottom-left annotation. Restore continuous naturally drawn snow/paper texture exactly matching its surroundings, while preserving the three existing black text lines in the SAME size and position: PROPOSED AREA; Approx. 135,000 km2; Never built. The small labels should now be integrated ink directly on the scene, with NO box, card, rectangle, border or shadow behind them. Preserve the whole vast snow landscape, small civil research hatch and sled unchanged. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-c529e620-ed53-493e-b1a2-83965c37c247.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

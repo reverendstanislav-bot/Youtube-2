@@ -1,0 +1,24 @@
+[
+  {
+    "shot": "S050",
+    "clip": "CC07-C038",
+    "start_frame": 100353,
+    "end_frame_exclusive": 100480,
+    "frames": 127,
+    "source_file": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\CONFORMED_25FPS\\CC07-C038_25FPS.mp4",
+    "source_in_frame": 41419,
+    "source_out_frame_exclusive": 41571,
+    "source_fps": "30000/1001"
+  },
+  {
+    "shot": "S130",
+    "clip": "CC07-C053",
+    "start_frame": 116898,
+    "end_frame_exclusive": 117027,
+    "frames": 129,
+    "source_file": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\CONFORMED_25FPS\\CC07-C053_25FPS.mp4",
+    "source_in_frame": 26800,
+    "source_out_frame_exclusive": 26955,
+    "source_fps": "30000/1001"
+  }
+]

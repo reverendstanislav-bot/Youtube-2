@@ -1,0 +1,13 @@
+{
+  "id": "Q14_CLEAN",
+  "title": "Core notebook: covered 1966 drilling and unidentifiable organic fragments",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14.png",
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATION_PREP_R2\\references\\R15_DRILL_1966.jpg"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14_CLEAN.png",
+  "prompt": "Edit image1's two factual details. At TOP, replace the outdoor drilling men/rig and huts with a modest small illustration of the actual COVERED DRILLING TRENCH shown in image2: arched metal roof, vertical drilling frame and ordinary equipment inside the snow trench. Keep this clearly an illustrated historical inset. At RIGHT, remove the large recognizable wheat/barley-like stalks and replace them with only tiny unidentifiable brown organic fibres among coarse sediment grains; do not identify species or invent a whole plant. Preserve the large core/sediment illustration and every existing exact text line, including 1966. No outdoor drilling claimed for this photograph's situation. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-48c5fd07-620e-438a-9742-5281cbf7a715.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

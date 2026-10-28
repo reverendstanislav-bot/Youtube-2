@@ -1,0 +1,12 @@
+{
+  "id": "Q01",
+  "title": "Snow trimming clean editorial document",
+  "prompt": "Edit only the yellow marker wash behind the words Estimated work: remove the yellow and restore the same clean off-white paper beneath the intact black letters. Preserve ALL drawing, exact text, type, composition, people and paper texture unchanged. Do not add any highlighting, underline, circle, accent, glow or loupe anywhere. All emphasis is added later as separate animated layers in DaVinci Resolve. Keep the complete 16:9 artwork.",
+  "refs": [
+    "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-7fdbc13a-d94f-4fc4-9bf8-4907b1e4ea35.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q01.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-baf2e059-ba70-4bae-8e18-597533714998.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q01.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "asset": "Q02",
+    "file": "assets/Q02.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "unrelated aircraft in tunnel diagram"
+  },
+  {
+    "asset": "Q06",
+    "file": "assets/Q06.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "thermal reactor rating visually associated with room heating"
+  },
+  {
+    "asset": "Q07",
+    "file": "assets/Q07.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "approximate generated proportion bar removed for exact native chart"
+  },
+  {
+    "asset": "Q09",
+    "file": "assets/Q09.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "invented stacked base; subsequent edit blocked by image generator; replaced with a different civil research notebook"
+  },
+  {
+    "asset": "Q14",
+    "file": "assets/Q14.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "outdoor drilling and identifiable cereal-like material corrected using covered-trench source"
+  },
+  {
+    "asset": "Q15",
+    "file": "assets/Q15.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "invented occupied surface scene in 2024 removed"
+  },
+  {
+    "asset": "Q17",
+    "file": "assets/Q17.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "leaked authoring footer removed"
+  },
+  {
+    "asset": "Q18",
+    "file": "assets/Q18.png",
+    "status": "REJECTED_NOT_USED",
+    "reason": "opaque beige annotation card removed"
+  }
+]

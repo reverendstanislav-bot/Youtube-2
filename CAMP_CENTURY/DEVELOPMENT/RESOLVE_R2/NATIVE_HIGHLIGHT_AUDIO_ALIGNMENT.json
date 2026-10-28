@@ -1,0 +1,312 @@
+[
+  {
+    "shot": "S005",
+    "asset": "Q02",
+    "text": "ABOUT 12% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 37.4,
+    "matched_phrase": "12 percent"
+  },
+  {
+    "shot": "S005",
+    "asset": "Q02",
+    "text": "ABOUT 17% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 43.3,
+    "matched_phrase": "17 percent"
+  },
+  {
+    "shot": "S006",
+    "asset": "Q01",
+    "text": "20,000 cubic yards",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 58.22,
+    "matched_phrase": "20 000 cubic yards"
+  },
+  {
+    "shot": "S006",
+    "asset": "Q01",
+    "text": "Estimated work",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 50.22,
+    "matched_phrase": "estimated"
+  },
+  {
+    "shot": "S022",
+    "asset": "Q03",
+    "text": "About 1,000 short tons",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 184.04,
+    "matched_phrase": "1 000"
+  },
+  {
+    "shot": "S022",
+    "asset": "Q03",
+    "text": "About 4,600 short tons",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 190.95999999999998,
+    "matched_phrase": "4 600"
+  },
+  {
+    "shot": "S023",
+    "asset": "Q03",
+    "text": "About 1,000 short tons",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 184.04,
+    "matched_phrase": "1 000"
+  },
+  {
+    "shot": "S023",
+    "asset": "Q03",
+    "text": "About 4,600 short tons",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 190.95999999999998,
+    "matched_phrase": "4 600"
+  },
+  {
+    "shot": "S047",
+    "asset": "Q07",
+    "text": ".92 million",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S047",
+    "asset": "Q07",
+    "text": ".70 million",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 393.78,
+    "matched_phrase": "5.7 million"
+  },
+  {
+    "shot": "S051",
+    "asset": "Q06",
+    "text": "Approx. 10 MW thermal",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S051",
+    "asset": "Q06",
+    "text": "Approx. 1.5 MW electric",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S055",
+    "asset": "Q17",
+    "text": "Local heat",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S056",
+    "asset": "Q17",
+    "text": "Local heat",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S060",
+    "asset": "Q07",
+    "text": ".92 million",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S060",
+    "asset": "Q07",
+    "text": ".70 million",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S068",
+    "asset": "Q18",
+    "text": "135,000 km2",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 569.43,
+    "matched_phrase": "135 000"
+  },
+  {
+    "shot": "S083",
+    "asset": "Q02",
+    "text": "ABOUT 12% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 698.4799999999999,
+    "matched_phrase": "12"
+  },
+  {
+    "shot": "S083",
+    "asset": "Q02",
+    "text": "ABOUT 17% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 703.3,
+    "matched_phrase": "17"
+  },
+  {
+    "shot": "S084",
+    "asset": "Q02",
+    "text": "ABOUT 12% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 698.4799999999999,
+    "matched_phrase": "12"
+  },
+  {
+    "shot": "S084",
+    "asset": "Q02",
+    "text": "ABOUT 17% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 703.3,
+    "matched_phrase": "17"
+  },
+  {
+    "shot": "S085",
+    "asset": "Q02",
+    "text": "ABOUT 12% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 698.4799999999999,
+    "matched_phrase": "12"
+  },
+  {
+    "shot": "S085",
+    "asset": "Q02",
+    "text": "ABOUT 17% PER YEAR",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 703.3,
+    "matched_phrase": "17"
+  },
+  {
+    "shot": "S086",
+    "asset": "Q11",
+    "text": "about 16 inches",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 708.4,
+    "matched_phrase": "16 inches"
+  },
+  {
+    "shot": "S086",
+    "asset": "Q11",
+    "text": "about 34 inches",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 710.8799999999999,
+    "matched_phrase": "34 inches"
+  },
+  {
+    "shot": "S087",
+    "asset": "Q11",
+    "text": "about 16 inches",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 708.4,
+    "matched_phrase": "16 inches"
+  },
+  {
+    "shot": "S087",
+    "asset": "Q11",
+    "text": "about 34 inches",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 710.8799999999999,
+    "matched_phrase": "34 inches"
+  },
+  {
+    "shot": "S089",
+    "asset": "Q01",
+    "text": "20,000 cubic yards",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 742.42,
+    "matched_phrase": "20 000 cubic yards"
+  },
+  {
+    "shot": "S089",
+    "asset": "Q01",
+    "text": "Estimated work",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 739.3599999999999,
+    "matched_phrase": "estimated"
+  },
+  {
+    "shot": "S095",
+    "asset": "Q01",
+    "text": "20,000 cubic yards",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S095",
+    "asset": "Q01",
+    "text": "Estimated work",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S099",
+    "asset": "Q02",
+    "text": "ABOUT 12% PER YEAR",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S099",
+    "asset": "Q02",
+    "text": "ABOUT 17% PER YEAR",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S100",
+    "asset": "Q12",
+    "text": "JULY 1963",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 827.4899999999999,
+    "matched_phrase": "July 1963"
+  },
+  {
+    "shot": "S107",
+    "asset": "Q13",
+    "text": "A scenario is not an observed spill",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 892.7199999999999,
+    "matched_phrase": "scenario"
+  },
+  {
+    "shot": "S108",
+    "asset": "Q13",
+    "text": "A scenario is not an observed spill",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 892.7199999999999,
+    "matched_phrase": "scenario"
+  },
+  {
+    "shot": "S109",
+    "asset": "Q13",
+    "text": "A scenario is not an observed spill",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 892.7199999999999,
+    "matched_phrase": "scenario"
+  },
+  {
+    "shot": "S110",
+    "asset": "Q13",
+    "text": "A scenario is not an observed spill",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 892.7199999999999,
+    "matched_phrase": "scenario"
+  },
+  {
+    "shot": "S122",
+    "asset": "Q15",
+    "text": "At least 100 feet",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S122",
+    "asset": "Q15",
+    "text": "below the surface",
+    "status": "OMITTED_NO_EXACT_WITHIN_SCENE_ASR_CUE"
+  },
+  {
+    "shot": "S124",
+    "asset": "Q15",
+    "text": "At least 100 feet",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 1037.35,
+    "matched_phrase": "100 feet"
+  },
+  {
+    "shot": "S124",
+    "asset": "Q15",
+    "text": "below the surface",
+    "status": "ASR_EXACT_PHRASE",
+    "audio_start_seconds": 1038.1899999999998,
+    "matched_phrase": "beneath the surface"
+  }
+]

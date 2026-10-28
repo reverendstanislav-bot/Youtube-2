@@ -1,0 +1,12 @@
+{
+  "id": "Q02_CLEAN",
+  "title": "Cross-sections without unrelated aircraft",
+  "prompt": "Edit this image only to remove the ENTIRE aircraft and ALL orange radar wedge from the upper sky and snow. Restore continuous blue-white sky and flat undisturbed snow in their place. Preserve the two tunnel sections, all people, contour lines, exact English text, geometry and paper composition. No aircraft or sensing beam belongs in a tunnel-deformation diagram. Also remove the two decorative short horizontal rules beside Cross-sectional area loss; keep all text intact. Do not add yellow highlighting, underline, marker, loupe, circle or glow anywhere. All accents are added separately in Resolve.",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02_CLEAN.png",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-fca44b4b-9882-4d50-b0f6-366c58b1171a.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

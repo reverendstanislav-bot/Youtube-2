@@ -1,5 +1,7 @@
 # VIDEO007 Camp Century: native Resolve visual R1
 
+**OWNER REJECTED — retained only for recovery and audit.** This revision is not an approved delivery. Use `../RESOLVE_R2/README.md` and the R2 timeline for the current correction. The technical checks below do not override the owner's rejection of the picture treatment.
+
 Project: `YT2 Vid7`. Timeline: `HIA_VIDEO007_CAMP_CENTURY_VISUAL_R1_25FPS`.
 
 The complete rough cut is 1920 x 1080, 25 fps, 27,368 frames (18:14.720), beginning at 01:00:00:00. It contains 132 picture shots, including 28 unique archive clips and 104 native Fusion compositions. The single original narration WAV is on locked A1 from sample zero; there are no dialogue subtitle tracks. The V4 narration was not rewritten.

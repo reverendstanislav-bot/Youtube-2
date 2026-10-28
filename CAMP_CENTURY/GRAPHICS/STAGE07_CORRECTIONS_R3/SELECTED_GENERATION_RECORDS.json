@@ -1,0 +1,494 @@
+[
+  {
+    "id": "Q01",
+    "title": "Snow trimming clean editorial document",
+    "prompt": "Edit only the yellow marker wash behind the words Estimated work: remove the yellow and restore the same clean off-white paper beneath the intact black letters. Preserve ALL drawing, exact text, type, composition, people and paper texture unchanged. Do not add any highlighting, underline, circle, accent, glow or loupe anywhere. All emphasis is added later as separate animated layers in DaVinci Resolve. Keep the complete 16:9 artwork.",
+    "refs": [
+      "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-7fdbc13a-d94f-4fc4-9bf8-4907b1e4ea35.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q01.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-baf2e059-ba70-4bae-8e18-597533714998.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q01.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q01",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q01.png",
+    "sha256": "3d76e5ecf81de4c96f1c4a581b07206ca5cae49ac434ff783290cfed09fe8c89",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2967476,
+    "used_in_shots": [
+      "S006",
+      "S089",
+      "S095"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q02_CLEAN",
+    "title": "Cross-sections without unrelated aircraft",
+    "prompt": "Edit this image only to remove the ENTIRE aircraft and ALL orange radar wedge from the upper sky and snow. Restore continuous blue-white sky and flat undisturbed snow in their place. Preserve the two tunnel sections, all people, contour lines, exact English text, geometry and paper composition. No aircraft or sensing beam belongs in a tunnel-deformation diagram. Also remove the two decorative short horizontal rules beside Cross-sectional area loss; keep all text intact. Do not add yellow highlighting, underline, marker, loupe, circle or glow anywhere. All accents are added separately in Resolve.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02_CLEAN.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-fca44b4b-9882-4d50-b0f6-366c58b1171a.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q02_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q02",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q02_CLEAN.png",
+    "sha256": "356987ef7d0db9e2f47d2011b4c1ad9a85a348940826bdca0a7e59944c1fd240",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2644408,
+    "used_in_shots": [
+      "S005",
+      "S083",
+      "S084",
+      "S085",
+      "S099"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q03",
+    "title": "Seasonal freight",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An illustrated logistics field-book spread filling the frame: two substantial original watercolor-and-ink views of period orange cargo sled trains amid compacted snow, left smaller grouping under 1959, right larger grouping under 1960. The number of crates is pictorial, not a counted data series. Thin ink ledger lines integrate the factual labels with the drawings. Exact text: CONSTRUCTION FREIGHT; 1959; About 1,000 short tons; 1960; About 4,600 short tons; Two seasons: about 5,600 short tons. Complete trucks/sleds and grounding, no isolated numbers on blank paper. No unlabeled bar heights or invented weights. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q03.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-61a4072a-b7a9-4df7-97cc-f782e33e7b54.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q03.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q03",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q03.png",
+    "sha256": "3f09cea4e7193b79e5b106004add72422b35eb4cbb9b6eb6ef9a72c18879a513",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3178233,
+    "used_in_shots": [
+      "S022",
+      "S023"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q04",
+    "title": "Engineering report journal",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A complete editorial engineering notebook page with a large pen-and-watercolor cutaway of a Camp Century corrugated snow arch, timber supports and ordinary prefab room, surrounded by three small, clear material sketches: corrugated metal, timber support, compacted snow. No measured construction dimensions. The subject is the published construction study. Exact readable text only: CAMP CENTURY; Construction and performance; October 1965; Snow / Timber / Corrugated metal. Integrate text naturally in document layout, no imitation official report cover or invented report identifier. Drawing occupies 80 percent. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q04.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-a24bbe8b-ec04-4e32-95c6-695c49d87f55.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q04.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q04",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q04.png",
+    "sha256": "a4b3ed1de183d3f25c51bc1f8f71321e7a7721c9bed500d3c88e2a8138261059",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3451592,
+    "used_in_shots": [
+      "S009",
+      "S033",
+      "S064"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q05",
+    "title": "Greenland supply geography",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A careful illustrated geographical plate of northwest Greenland, NOT a tactical map. Image3 supplies Greenland outline and Camp Century location. A large broad ice-sheet coastline map occupies most of the frame; mark Camp Tuto near the Thule coast and Camp Century inland to its northeast. A simple light dotted illustrative supply connection, not a surveyed precise route, joins the two named locations. Lower corner has an integrated small drawing of a loaded period snow sled. Exact text only: GREENLAND; Camp Tuto; Camp Century; Approx. 138 miles; Danish realm. Preserve plausible northwest Greenland geography, no fictional cities, roads or missile routes. The connection is schematic, not to geographic scale. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATION_PREP_R2\\references\\R32_GREENLAND_ONLY.jpg"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q05.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-eb8819b4-410a-444f-bd21-052f55da8239.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q05.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q05",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q05.png",
+    "sha256": "ce4383db56688a996cfab79c37abb6dc61dd1de57fdf1845223c03c46974d44a",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3796521,
+    "used_in_shots": [
+      "S016",
+      "S018",
+      "S073",
+      "S074",
+      "S075"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q06_CLEAN",
+    "title": "Thermal rating associated with reactor, not room heat",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06_CLEAN.png",
+    "prompt": "Edit only the explanatory labeling of this generated power-station illustration. Move the EXACT label 'Approx. 10 MW thermal' away from the bedroom: place it immediately beneath the PM-2A heading at upper left, clearly associated with the power station/reactor as its thermal rating. Where that label was under the bedroom, write only 'SPACE HEATING'. Preserve the separate label 'Approx. 1.5 MW electric' by the generator. Replace the bottom sentence with EXACTLY 'Reactor heat and delivered electricity differ.' The 10 MW rating must not be presented as 10 MW delivered to room heating. Keep the equipment as a generic concept drawing, not an engineering design. Keep all other typography, linework, palette and composition unchanged. No yellow highlighting, underline, marker, selection circle, loupe or glow. Such accents are made only as separate animated layers in DaVinci Resolve.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-bcb16326-9282-4266-a608-f4ca362e6646.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q06",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q06_CLEAN.png",
+    "sha256": "d6e60623f49e711d9cc8df9331cd053a6f493590d033485f351559ac0a47e80a",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3108726,
+    "used_in_shots": [
+      "S051"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q07_CLEAN",
+    "title": "Cost ledger clean base for exact native chart",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07_CLEAN.png",
+    "prompt": "Remove ONLY the blue/grey rectangular proportion bar from the lower part of the cost ledger, restoring the same continuous off-white paper texture within that strip. Preserve the table/grid, ALL exact figures ($7.92 million, $5.70 million, $2.22 million), footer, illustration and their pixel positions. The exact proportion bar will be drawn later as a native editable chart in DaVinci Resolve, not generated into the bitmap. Keep all other typography, linework, palette and composition unchanged. No yellow highlighting, underline, marker, selection circle, loupe or glow. Such accents are made only as separate animated layers in DaVinci Resolve.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-a4767caf-62ab-439f-be95-8fc668cf7b24.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q07_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q07",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q07_CLEAN.png",
+    "sha256": "0c297f7e0dc5c8e294adb5bec0d708223ea85453261ef0563c296a7fd5b245ba",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2744144,
+    "used_in_shots": [
+      "S047",
+      "S060"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q08",
+    "title": "Camp field drawing",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An authored field notebook drawing of the REAL Camp Century settlement, based on the additional source reference high-level arrangement, not a weapons installation. Large oblique cutaway of a main snow corridor and several side corridors housing timber rooms, with the surface ramp in foreground. Carefully drawn corrugated arches, snow surrounding the rooms, small workers giving scale. Four integrated labels only: MAIN PASSAGE; ROOMS; UTILITIES; SURFACE RAMP. This is a conceptual three-dimensional view, not a surveyed plan, so no invented street numbers, dimensions or scale bar. Complete drawing fills 90 percent. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATION_PREP_R2\\references\\R02_PLAN.jpg"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q08.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-02049496-e8d3-4f15-8c45-48eb6bc31f10.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q08.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q08",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q08.png",
+    "sha256": "a56d30109c4f4b7ba27577d5b86a983722f6333af0c3e9fa80261f258bfe98f7",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3644418,
+    "used_in_shots": [
+      "S012",
+      "S021",
+      "S066",
+      "S069",
+      "S077"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q09_CLEAN",
+    "title": "Built research settlement contrasted with an unrealized larger proposal",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G01_DRAFT_R1.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q09_CLEAN.png",
+    "prompt": "Generate a new complete 16:9 illustrated documentary notebook spread about the CIVIL RESEARCH SETTLEMENT Camp Century. Image1 is the approved pen/charcoal and watercolor DRAWING STYLE ONLY. Image2 gives the correct shallow single-level civil camp architecture. Large coherent detailed drawing fills about 80 percent of the page: ONE shallow snow arch encloses ordinary timber prefab sleeping rooms, a small worker carries an ordinary crate, and visible utilities follow the corridor roof. All rooms are SIDE BY SIDE at ONE LEVEL. No vertically stacked rooms, village above ground or deep shafts. Four short editorial notebook captions only, verbatim: 'CAMP CENTURY'; 'RESEARCH SETTLEMENT'; 'Built beneath the ice'; 'The larger scheme remained a proposal.' This is a new explanatory notebook, not an official archival page. No military hardware, sealed or classified records, signatures, stamps, schematic network, numerical charts or invented measurements. Complete off-white paper/blue snow/olive clothing/soft warm room light, matching approved illustration style, no floating UI or generic text card. NO yellow highlighting, NO underline, NO marker, NO circle, NO loupe or glow; all accents are added later in DaVinci Resolve. No blank placeholders or empty panels.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-69be0f6b-0ac6-4e3d-8e0d-d681f79e6583.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q09_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q09",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q09_CLEAN.png",
+    "sha256": "ab5ce403bb333af69e15aba63b527e1507aa507ce0bb4a78f4a2f59788dcbbca",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3282466,
+    "used_in_shots": [
+      "S011",
+      "S065",
+      "S067"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q10",
+    "title": "1963 decision document",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A large thoughtful historical editorial notebook spread, not a fake cancellation order. Left two-thirds show detailed watercolor-and-ink Greenland snow swallowing the low abandoned entrance to a research settlement; right third shows a closed plain planning folder and an integral short dated annotation. Only text: PROJECT ICEWORM; 1963; Proposal rejected; Missile network never completed. No seals, names, signatures, classified stamps or weapon diagrams. Keep the dominant human-scale snow environment, not an empty title card. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q10.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-d3583416-69a6-4284-aaed-bb4573915987.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q10.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q10",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q10.png",
+    "sha256": "294fe7c1ebb9fd99cb0db5aa4262846fd826a3e12dec1c2c4b042a8c17c75e2a",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3415154,
+    "used_in_shots": [
+      "S076",
+      "S129"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q11",
+    "title": "Height loss field notes",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. Generate an illustrated measurement field-book page with a large tunnel section, a small warmly dressed surveyor holding an ordinary staff beside the tunnel wall, and two large hand-ruled note rows on the lower quarter. This is a conceptual editorial drawing, not a fake precise surveyed section. Exact text: ANNUAL VERTICAL CLOSURE; Main passage: about 16 inches; Side trenches: about 34 inches; Average height loss, not area loss. Do not confuse inches with percent or depict a measured absolute tunnel height. Readable black ink on clean paper, blue watercolor snow, no invented ruler numbers. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q11.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-2433ae73-5aab-4716-9dc5-f890883000d9.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q11.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q11",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q11.png",
+    "sha256": "354c5e16734b4c45cf6a0fcaf6cc2e856fe6049447431e81acfa25a4997ff1f2",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3234990,
+    "used_in_shots": [
+      "S086",
+      "S087"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q12",
+    "title": "Plant shutdown chronology",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A full illustrated historical chronology document on natural paper, with three connected charcoal-and-watercolor scenes across the page: a quiet plant doorway, generic machinery being lifted onto a sled, and a snow-covered abandoned surface entrance. The plant is an ordinary period installation, no technical internals. Integrate three clear headings and short explanatory lines: JULY 1963 / Plant shut down; 1964 / Plant hardware removed; LATER 1960s / Seasonal work ended. Do not invent a single exact last-occupation date, explosion, collapse or contaminated plume. Drawing fills the frame, readable captions embedded beneath their own scene. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q12.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-0fbe78c4-afc0-4c9b-a181-2b0510cece5f.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q12.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q12",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q12.png",
+    "sha256": "71496a6a52a23a2edb0439fdabfe671956d3601a6b3c524d64b89795d11f3cc0",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3146249,
+    "used_in_shots": [
+      "S100"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q13",
+    "title": "Climate scenario explanation",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. An illustrated scientific notebook page with two large conceptual snow/ice sections rather than a fabricated graph: left increasing snowfall adds layers above small dark structural remnants, right a simple melting/percolation illustration shows water entering upper snow. Draw no flowing radioactive river, no numerical depth axis, no invented projections or graph curves. Exact text only: BURIAL; MELTWATER; Different processes; Projections depend on assumptions; A scenario is not an observed spill. Clear ink/blue watercolor explains the distinction visually, not a generic text slide. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q13.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-bc2c885e-359a-45f5-8d8e-b08f88580a64.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q13.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q13",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q13.png",
+    "sha256": "683fa8a4249e39064d51dea25d1cb4754808474dee3727c63dedcd4f30838df5",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3321519,
+    "used_in_shots": [
+      "S107",
+      "S108",
+      "S109",
+      "S110"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q14_CLEAN",
+    "title": "Core notebook: covered 1966 drilling and unidentifiable organic fragments",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14.png",
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATION_PREP_R2\\references\\R15_DRILL_1966.jpg"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14_CLEAN.png",
+    "prompt": "Edit image1's two factual details. At TOP, replace the outdoor drilling men/rig and huts with a modest small illustration of the actual COVERED DRILLING TRENCH shown in image2: arched metal roof, vertical drilling frame and ordinary equipment inside the snow trench. Keep this clearly an illustrated historical inset. At RIGHT, remove the large recognizable wheat/barley-like stalks and replace them with only tiny unidentifiable brown organic fibres among coarse sediment grains; do not identify species or invent a whole plant. Preserve the large core/sediment illustration and every existing exact text line, including 1966. No outdoor drilling claimed for this photograph's situation. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-48c5fd07-620e-438a-9742-5281cbf7a715.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q14_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q14",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q14_CLEAN.png",
+    "sha256": "8dcdfc7f589576c11b9b8fe53f0005012377048e30d78592ca0942fd7928cd5c",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3453738,
+    "used_in_shots": [
+      "S114",
+      "S116",
+      "S120"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q15_CLEAN",
+    "title": "2024 buried remains without invented surface camp",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15_CLEAN.png",
+    "prompt": "Remove ALL people, huts, structures and poles from the TOP SURFACE of this 2024 explanatory ice-section illustration. Restore uninterrupted natural flat snow/ice terrain and sky in their places. The old camp is buried and is not an occupied surface settlement in 2024. Keep the single shallow horizontal layer of dark fragmentary structural remains inside ice, exact readable 2024/depth labels, depth leader, lower cross-section and all other composition unchanged. No people, active buildings or aircraft anywhere. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-c0d67c0d-1500-42dc-bc1a-de49b0f2a4b6.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q15_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q15",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q15_CLEAN.png",
+    "sha256": "61c6435b1d1478f34d8cacd60b18740c4e4ae149ae0a3b85f93b7ac07bde0806",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3018478,
+    "used_in_shots": [
+      "S122",
+      "S124"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q16",
+    "title": "Supply convoy grounded on route",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Images1 and2 establish the OWNER-APPROVED style: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Match those images, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. Create a fresh full-frame, human-centered supply scene matching the approved period tracked tractor and orange sled in source image3. The complete tractor and one connected cargo sled are INTEGRATED into the same scene and physically sit on one clearly compacted, continuous snow route. Vehicle faces diagonally toward the LEFT foreground and sled follows BEHIND it to the RIGHT midground; taut short towbar joins tractor rear and sled front. Both tracks and both sled runners follow the SAME parallel travel direction and contact the packed road. Road runs coherently from LEFT foreground toward RIGHT distance, with matching track grooves, long low snow berms, no deep ruts across its path. Two winter-clad Army workers stand safely on the far shoulder, not in the vehicle path. Low oblique camera, no mountains or ocean. Full natural drawn environment, period olive-grey tractor and rusty orange sled, correct grounding/shadows, no floating composited cutouts. NO text. This will be animated by a small coherent camera approach, not by sliding an object across the snow. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G10_REVISED_R2.png",
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G12_DRAFT_R1.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q16.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-3dade80f-94ad-40eb-a247-59f4987627d9.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q16.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q16",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q16.png",
+    "sha256": "c923d48944bb6438a2d75e80858c622a5254eea57d2969a17b166c60d0494a47",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3285826,
+    "used_in_shots": [
+      "S014",
+      "S017"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q17_CLEAN",
+    "title": "Water/wastewater plate without leaked authoring instruction",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17_CLEAN.png",
+    "prompt": "Remove ONLY the tiny bottom-right sentence 'Conceptual section, no false dimensions.' completely and restore the matching unmarked off-white paper behind it. It is an authoring instruction and must never appear in the film. Keep WATER SUPPLY, WASTEWATER, Separate systems, and Local heat could weaken surrounding snow exactly as they are. Keep the two separate systems and worker drawing unchanged. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-ba6bcb23-c750-4f2a-ac2c-805b4e8d3e42.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q17_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q17",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q17_CLEAN.png",
+    "sha256": "c222a5e39198f20b5e33f2e7affbd98f07fc75c00ba253f0eed354b050fa12ae",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2908761,
+    "used_in_shots": [
+      "S055",
+      "S056"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q18_CLEAN",
+    "title": "Proposed area landscape with integral ink annotation, no opaque card",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18_CLEAN.png",
+    "prompt": "Remove ONLY the beige rectangular background panel behind the small bottom-left annotation. Restore continuous naturally drawn snow/paper texture exactly matching its surroundings, while preserving the three existing black text lines in the SAME size and position: PROPOSED AREA; Approx. 135,000 km2; Never built. The small labels should now be integrated ink directly on the scene, with NO box, card, rectangle, border or shadow behind them. Preserve the whole vast snow landscape, small civil research hatch and sled unchanged. Preserve all other lettering, drawing, layout and palette. No yellow highlighting, underline, marker, circle, loupe, glow or other emphasis baked into the image. No new text or production instructions.",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-c529e620-ed53-493e-b1a2-83965c37c247.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q18_CLEAN.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q18",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q18_CLEAN.png",
+    "sha256": "5bf4b975e5e18d4623c2636f52183488a5e16a13a96c658d2a086c6ef795b91d",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2625268,
+    "used_in_shots": [
+      "S068"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  },
+  {
+    "id": "Q19",
+    "title": "Arch deformation notebook",
+    "prompt": "Create one complete 16:9 documentary image for CAMP CENTURY. Image1 establishes the OWNER-APPROVED DRAWING STYLE ONLY: confident detailed ink and charcoal linework, restrained watercolor, paper tooth, blue-white snow, olive winter clothes, sparse rusty ochre objects. Do not copy its composition or subjects unless requested. Any additional image is FACT reference only. Match the drawing style, not a new design system. Full finished composition, large explanatory drawing, legible short English labels integrated into the scene/paper. A full-frame generated engineering sketchbook plate: close oblique view down a snow corridor with a visibly buckled corrugated steel roof arch and snow pressing against its outer edge, a small worker inspecting the distorted form. Draw detailed steel ribs, timber side room and snow texture. One small inset contour sketch explains distorted versus original arch shape without numbers. Exact text only: ARCH DEFORMATION; Snow pressure; Original shape; Distorted arch. This is a source-informed conceptual illustration, not a facsimile of a numbered original figure, and must not claim a new measurement. No aircraft. All base artwork must be CLEAN: NO yellow highlighting, NO underlines, NO marker strokes, NO selection circles, NO loupes, NO glow or animated accents baked into the image; those are added later in DaVinci Resolve. No generic three-line title card, UI, HUD, floating boxes, fake official seals/signatures/stamps, tiny filler text, placeholders, empty panels, decorative noise or burnt parchment. Use 6 percent safe margins. This is authored explanatory artwork, not an original archival record. No invented quantities, dimensions or measurement curves. No other projects or bases. Text only as explicitly specified.",
+    "refs": [
+      "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png"
+    ],
+    "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q19.png",
+    "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-102bed86-dc97-4dde-8160-6d925161e48b.png",
+    "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q19.png",
+    "status": "BASE_ARTWORK_VISUALLY_REVIEWED_FOR_R2",
+    "logical_asset_id": "Q19",
+    "file": "CAMP_CENTURY/GRAPHICS/STAGE07_CORRECTIONS_R3/assets/Q19.png",
+    "sha256": "fbbc5caf3af051ef0d245f903dec5ddd2b297dc917a44df3577a45caaf2ec9f7",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3491169,
+    "used_in_shots": [
+      "S082"
+    ],
+    "owner_approval": "PENDING",
+    "provenance_class": "GENERATED_EDITORIAL_ILLUSTRATION_NOT_ORIGINAL_RECORD",
+    "baked_text_highlighting": false
+  }
+]

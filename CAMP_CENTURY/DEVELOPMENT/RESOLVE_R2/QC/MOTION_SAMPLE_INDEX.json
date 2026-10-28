@@ -1,0 +1,145 @@
+[
+  {
+    "shot": "S006",
+    "asset": "Q01",
+    "sample_seconds": [
+      50.1696,
+      55.68,
+      61.1904
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q01_S006_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S005",
+    "asset": "Q02",
+    "sample_seconds": [
+      38.3376,
+      43.26,
+      48.1824
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q02_S005_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S023",
+    "asset": "Q03",
+    "sample_seconds": [
+      189.67680000000001,
+      195.12,
+      200.5632
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q03_S023_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S047",
+    "asset": "Q07",
+    "sample_seconds": [
+      392.03839999999997,
+      396.44,
+      400.8416
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q07_S047_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S087",
+    "asset": "Q11",
+    "sample_seconds": [
+      712.2367999999999,
+      719.36,
+      726.4832000000001
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q11_S087_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S123",
+    "asset": "G10",
+    "sample_seconds": [
+      1025.2160000000001,
+      1030.76,
+      1036.3039999999999
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\G10_S123_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S017",
+    "asset": "Q16",
+    "sample_seconds": [
+      144.16639999999998,
+      146.72,
+      149.27360000000002
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q16_S017_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S131",
+    "asset": "M08",
+    "sample_seconds": [
+      1081.8319999999999,
+      1085.78,
+      1089.728
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M08_S131_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S034",
+    "asset": "M11",
+    "sample_seconds": [
+      279.9008,
+      285.26,
+      290.6192
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M11_S034_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S117",
+    "asset": "M12",
+    "sample_seconds": [
+      976.1967999999999,
+      979.12,
+      982.0432000000001
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M12_S117_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S001",
+    "asset": "M03",
+    "sample_seconds": [
+      1.088,
+      6.8,
+      12.512
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\M03_S001_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S083",
+    "asset": "Q02",
+    "sample_seconds": [
+      687.008,
+      688.52,
+      690.0319999999999
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q02_S083_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  },
+  {
+    "shot": "S084",
+    "asset": "Q02",
+    "sample_seconds": [
+      690.9728,
+      694.4,
+      697.8272000000001
+    ],
+    "strip": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\DEVELOPMENT\\RESOLVE_R2\\QC\\motion\\Q02_S084_RENDERED_SEQUENCE.jpg",
+    "review_scope": "Three-point rendered sequence, not a claim of continuous playback review"
+  }
+]

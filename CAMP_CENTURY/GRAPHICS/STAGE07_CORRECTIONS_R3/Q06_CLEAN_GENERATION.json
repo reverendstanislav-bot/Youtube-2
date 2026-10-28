@@ -1,0 +1,12 @@
+{
+  "id": "Q06_CLEAN",
+  "title": "Thermal rating associated with reactor, not room heat",
+  "refs": [
+    "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06.png"
+  ],
+  "out": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06_CLEAN.png",
+  "prompt": "Edit only the explanatory labeling of this generated power-station illustration. Move the EXACT label 'Approx. 10 MW thermal' away from the bedroom: place it immediately beneath the PM-2A heading at upper left, clearly associated with the power station/reactor as its thermal rating. Where that label was under the bedroom, write only 'SPACE HEATING'. Preserve the separate label 'Approx. 1.5 MW electric' by the generator. Replace the bottom sentence with EXACTLY 'Reactor heat and delivered electricity differ.' The 10 MW rating must not be presented as 10 MW delivered to room heating. Keep the equipment as a generic concept drawing, not an engineering design. Keep all other typography, linework, palette and composition unchanged. No yellow highlighting, underline, marker, selection circle, loupe or glow. Such accents are made only as separate animated layers in DaVinci Resolve.",
+  "original": "C:\\Users\\KK\\.codex\\generated_images\\01a12632-ad0b-71b3-b2ee-75be9adcc1a5\\exec-bcb16326-9282-4266-a608-f4ca362e6646.png",
+  "saved": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_CORRECTIONS_R3\\assets\\Q06_CLEAN.png",
+  "status": "GENERATED_NEEDS_VISUAL_REVIEW"
+}

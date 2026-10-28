@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "version": "R2",
+  "reviewer": "Codex visual inspection",
+  "all_132_midpoint_samples_reviewed": true,
+  "contact_sheets_reviewed": ["RENDERED_CONTACT_01.jpg", "RENDERED_CONTACT_02.jpg", "RENDERED_CONTACT_03.jpg", "RENDERED_CONTACT_04.jpg", "RENDERED_CONTACT_05.jpg", "RENDERED_CONTACT_06.jpg", "RENDERED_CONTACT_07.jpg"],
+  "three_point_full_render_sequences_reviewed": 13,
+  "selected_clean_png_bases_reviewed": 19,
+  "findings": [
+    "Selected new PNG bases contain no baked yellow word marking, underline or magnifier.",
+    "R2 native marker fills register behind full-height words, with a progressive sweep; they are not strike-through lines.",
+    "The original approved G10 aircraft, broad sensing sector and buried-structure composition are restored.",
+    "Q16 tractor, sled and road remain one coherent scene; independent sideways vehicle motion is absent.",
+    "S083/S084 local lenses are circular and show the intended contour details while preserving page captions.",
+    "The Q07 allocation bar is separate native graphics, grows in the ledger space and represents 5.70 / 7.92.",
+    "Opening comparison no longer carries the rejected bottom legend/underline overlay.",
+    "The M08 hoisted module and cable move upward coherently in the sampled rendered sequence.",
+    "No missing image or generic R1 three-row text card was seen in the 132 midpoint samples."
+  ],
+  "limitations": [
+    "Midpoint sheets and three-point sequences do not establish continuous playback smoothness or verify every intervening frame.",
+    "Full continuous real-time audiovisual review was not completed.",
+    "Some illustrated documents remain static or recur across consecutive explanatory subcues; no claim of continuous object animation is made.",
+    "Original archive has visible film colour casts, softness and pillarboxing; final colour and restoration are not completed.",
+    "The new generated illustrations are editorial reconstructions, not primary historical documents or photographs.",
+    "Owner approval of the corrected picture remains pending."
+  ],
+  "full_continuous_av_review": "NOT_COMPLETED",
+  "owner_approval": "PENDING",
+  "publication_approved": false
+}
