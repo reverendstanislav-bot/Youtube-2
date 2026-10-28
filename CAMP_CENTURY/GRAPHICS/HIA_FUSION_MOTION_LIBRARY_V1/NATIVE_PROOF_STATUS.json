@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-27",
+  "status": "NOT_RUN_BRIDGE_UNAVAILABLE",
+  "actual_error": "BridgeUnavailable / ConnectionRefusedError / WinError 10061",
+  "connection_failed_before_project_access": true,
+  "production_timeline_modified": false,
+  "new_image_generations": 0,
+  "new_video_generations": 0,
+  "voice_jobs": 0,
+  "next_step": "Enable the existing Resolve bridge, then run prove_native_rigs.py on its isolated 16-second test timeline; review motion before production use"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "M01",
+    "purpose": "Occupied prefab room: local accent and one intentional push",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M01_MOTION_DEMO.mp4",
+    "reference_sha256": "626b0895071fc68e857842a0704b29b4e4de76b5c8a447090a7c4c23423e0276",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": null,
+    "native_template_state": "NOT_PORTED_TO_EDITABLE_NATIVE_RIG",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M02",
+    "purpose": "Cut / cover / bury: sequential emphasis",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M02_MOTION_DEMO.mp4",
+    "reference_sha256": "9699750e4657e49ac4b893679342523aa4871f6f8012e70cd11d2142f1ffa3f7",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": null,
+    "native_template_state": "NOT_PORTED_TO_EDITABLE_NATIVE_RIG",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M03",
+    "purpose": "Opening comparison: local intrusion accents, no invented deformation simulation",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M03_MOTION_DEMO.mp4",
+    "reference_sha256": "09f9c4dd873a09138167ec9e4537563eb8794441603ac8ef67ef83859db48977",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": null,
+    "native_template_state": "NOT_PORTED_TO_EDITABLE_NATIVE_RIG",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M04",
+    "purpose": "Separate water and waste systems: disconnected local traces",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M04_MOTION_DEMO.mp4",
+    "reference_sha256": "8cdea141fa58fdccbcb4cf65d146b17824c250177a839a71fcc4b2086e96b733",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": null,
+    "native_template_state": "NOT_PORTED_TO_EDITABLE_NATIVE_RIG",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M05",
+    "purpose": "Core borehole to basal sediment: two trace segments around depth break",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M05_MOTION_DEMO.mp4",
+    "reference_sha256": "d3592fb4bf2a7bd5da0e2ef00a10a01995af439f8c3546a4b1de3f6640e45416",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": null,
+    "native_template_state": "NOT_PORTED_TO_EDITABLE_NATIVE_RIG",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M06",
+    "purpose": "Independent aircraft pass with a following conceptual sensor sector",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M06_MOTION_DEMO.mp4",
+    "reference_sha256": "170bf8917029117b8126ece7101baa2df876869b50a7af1629da9afb8f090c5b",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": "comps/AIRCRAFT_PASS.comp",
+    "native_template_state": "BUILT_NOT_NATIVE_VERIFIED",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M07",
+    "purpose": "Snow maintenance: tool/contact accents and sequential words",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M07_MOTION_DEMO.mp4",
+    "reference_sha256": "b6fcb9263bd6f4dbf4e41353989b959f99d099b096e30ab34dd1eafcc7bab480",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": null,
+    "native_template_state": "NOT_PORTED_TO_EDITABLE_NATIVE_RIG",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  },
+  {
+    "id": "M08",
+    "purpose": "Independent hoisted module, attached cable and retained structures",
+    "reference_movie": "CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\preview\\M08_MOTION_DEMO.mp4",
+    "reference_sha256": "bf2b5cec75ad6a7b26716cd5918df5bc81ea94472969a2d94e5f8df6b7279e10",
+    "reference_seconds": 8,
+    "reference_fps": 25,
+    "reference_state": "EXISTING_RENDERED_MOTION_USED_IN_R3",
+    "native_template": "comps/MODULE_HOIST.comp",
+    "native_template_state": "BUILT_NOT_NATIVE_VERIFIED",
+    "reminder": "Never replace the moving reference with its static end-state PNG; match timing to the current narration"
+  }
+]

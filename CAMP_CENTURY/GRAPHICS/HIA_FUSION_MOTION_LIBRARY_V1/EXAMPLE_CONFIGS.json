@@ -1,0 +1,4 @@
+[
+  {"id":"AIRCRAFT_PASS","fps":25,"seconds":8,"move_start_seconds":0.7,"move_end_seconds":6.5,"start_xy_top":[0.2571770335,0.0659574468],"end_xy_top":[0.6758373206,0.0659574468],"object_width_px":425,"background":"M06_BASE.png","object":"M06_AIRCRAFT.png"},
+  {"id":"MODULE_HOIST","fps":25,"seconds":8,"move_start_seconds":1,"move_end_seconds":4.5,"start_xy_top":[0.4964114833,0.1276595745],"end_xy_top":[0.4964114833,-0.0053191489],"object_width_px":149,"background":"M08_BASE.png","object":"M08_MODULE.png"}
+]

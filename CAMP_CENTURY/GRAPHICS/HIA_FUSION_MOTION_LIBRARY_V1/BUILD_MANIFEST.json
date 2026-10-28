@@ -1,0 +1,58 @@
+[
+  {
+    "id": "AIRCRAFT_PASS",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\HIA_FUSION_MOTION_LIBRARY_V1\\comps\\AIRCRAFT_PASS.comp",
+    "frames": 200,
+    "fps": 25,
+    "background": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M06_BASE.png",
+    "original_object": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M06_AIRCRAFT.png",
+    "alpha_bbox": [
+      0,
+      37,
+      2181,
+      721
+    ],
+    "cropped_object": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\HIA_FUSION_MOTION_LIBRARY_V1\\assets\\AIRCRAFT_PASS_ALPHA_CROPPED.png",
+    "native_controls": [
+      18,
+      162,
+      0.2571770335,
+      0.6758373206,
+      0.0659574468,
+      0.0659574468,
+      425,
+      1
+    ],
+    "source_object_sha256": "12df8e0c6ed27fef0fb1b25ae7298f86fc1b00a90901b96253591a3bbd96ebb9",
+    "comp_sha256": "83d02a7a162bbd9f81e625313c5587a029671660128b7d26e5f079cebdd6f684",
+    "state": "BUILT_NATIVE_PROOF_REQUIRED"
+  },
+  {
+    "id": "MODULE_HOIST",
+    "comp": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\HIA_FUSION_MOTION_LIBRARY_V1\\comps\\MODULE_HOIST.comp",
+    "frames": 200,
+    "fps": 25,
+    "background": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M08_BASE.png",
+    "original_object": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\STAGE07_MOTION_READY_R1\\assets\\M08_MODULE.png",
+    "alpha_bbox": [
+      65,
+      0,
+      1286,
+      1188
+    ],
+    "cropped_object": "C:\\Users\\KK\\Youtube-2-CAMP-CENTURY-VIDEO007\\CAMP_CENTURY\\GRAPHICS\\HIA_FUSION_MOTION_LIBRARY_V1\\assets\\MODULE_HOIST_ALPHA_CROPPED.png",
+    "native_controls": [
+      25,
+      112,
+      0.4964114833,
+      0.4964114833,
+      0.1276595745,
+      -0.0053191489,
+      149,
+      1
+    ],
+    "source_object_sha256": "a450a80c8940528d395b3410612321eed2fbd359d32b5c9952dc7109fbd15831",
+    "comp_sha256": "02a27bd7fd345ddd0ce429153c75d9b0441ddb7ce0b60fe3644cd8e3d610acb0",
+    "state": "BUILT_NATIVE_PROOF_REQUIRED"
+  }
+]
