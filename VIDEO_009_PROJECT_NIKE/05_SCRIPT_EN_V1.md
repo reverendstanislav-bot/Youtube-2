@@ -1,7 +1,7 @@
 # VIDEO 009 — PROJECT NIKE
-## Stage 05 — English narrative script V1 (research-backed draft)
+## Stage 05 — English narrative script V2 (expanded) (research-backed draft)
 Voice: US English, serious investigative documentary. No adlibs. Not voice locked.
-Est. spoken duration: 15–18 minutes at 125–140 wpm; final timing after TTS.
+Estimated duration depends on speaking rate; final timing after TTS.
 Research references at end. Voice paragraph labels are not spoken.
 
 ### ACT 1 — THE ELEVATOR (00:00–01:20)
@@ -21,6 +21,8 @@ Research references at end. Voice paragraph labels are not spoken.
 [007] That gap became the mission of Nike. It was a new kind of defensive machine: a radar-directed missile network that linked detection, tracking, human decisions and a weapon waiting on a launch rail. And it would transform ordinary pieces of American land into installations built for a war nobody wanted to see.
 
 ### ACT 3 — A NEW RING AROUND THE CITY (02:40–04:15)
+[008a] The first Nike position at Fort Meade, Maryland, became operational in 1954. It was a radical shift from an era when a city's last line of air defense might be anti-aircraft guns in open emplacements. Nike's builders did not simply deliver a new weapon. They had to build a new environment for it. Missile platforms, radar facilities, electrical systems, personnel buildings, and connecting infrastructure had to be fitted onto land that might already be close to farms, roads and growing suburbs. For the Army, the battle against an aircraft began long before anyone saw it in the sky: it began with surveying land and pouring foundations.
+
 [008] In 1954, the Army deployed the Nike Ajax, the first operational American guided surface-to-air missile system. Sites appeared near metropolitan areas and strategic facilities. The New York defense included nineteen Nike sites. Around San Francisco Bay, the Army constructed twelve permanent launch positions, plus their associated control and support areas.
 
 [009] The architecture could be strangely unobtrusive. A road led to a fence. Beyond it were barracks, utility buildings and a missile launch area. At many installations, the missiles were not displayed in rows aboveground. They were stored in underground magazines and raised by elevators. Elsewhere, local conditions required different arrangements. There was no single identical Nike base stamped across the country.
@@ -39,6 +41,8 @@ Research references at end. Voice paragraph labels are not spoken.
 ### ACT 5 — NUCLEAR DEFENSE (05:45–07:30)
 [015] Nike Hercules began entering service in 1958. It was intended to reach farther than Ajax and better confront a concentrated attack by high-performance aircraft. Unlike the conventionally armed Ajax, Hercules was nuclear-capable. That single fact changes the story.
 
+[016a] Nuclear defense also created a problem of language. A missile intended to shield a city could itself carry a nuclear weapon. To a distant strategic planner, this meant a broader lethal zone against an incoming formation. To someone looking up from the communities below, the words “defensive nuclear detonation” could hardly sound reassuring. The technical argument and the human feeling were not the same thing. And no polished diagram of intercepted bombers could erase that tension. It is one of the reasons Nike Hercules is such an unsettling chapter of industrial history: the engineering was impressive, but it was built around choices nobody would have wanted to confront in reality.
+
 [016] Consider the problem the Army thought it was solving. A group of hostile aircraft could arrive at high speed, with limited time for defenders to respond. A nuclear weapon could threaten a wider volume of air than a conventional explosion, potentially defeating more than one aircraft in a formation. It was a terrifying expression of Cold War logic: use a nuclear blast to help prevent another nuclear blast.
 
 [017] That did not mean every Hercules missile carried a nuclear warhead, or that every Nike installation held nuclear weapons. The precise configuration varied, and claims about individual sites must be supported by individual records. But the capability was real. The Army's defensive shield could now involve a nuclear detonation.
@@ -55,6 +59,8 @@ Research references at end. Voice paragraph labels are not spoken.
 [022] From the outside, these places could resemble restricted industrial facilities. From the inside, they were instruments of national survival, wired into the fear that a bomber formation could turn an American morning into catastrophe.
 
 ### ACT 7 — 262 FIRE UNITS (09:15–10:50)
+[023a] The system was also larger than the military units directly handling missiles. The construction was a partnership between the federal government and a vast industrial supply chain. Engineers designed sites. Manufacturers built missiles and components. Contractors moved earth and laid concrete. Electricians fitted power systems, and specialists installed radars and communications equipment. A Nike battery was an industrial project planted beside a population center. Multiply that work by a national network, and the scale of the Cold War becomes visible not just in weapons statistics, but in machinery, labor and altered landscapes. The sites were costly even when nothing happened—and their entire purpose was to be ready when something did.
+
 [023] By the end of 1960, Army Air Defense Command controlled 262 Nike fire units inside the continental defense system: 88 Hercules units and 174 Ajax units. The number matters not because bigger is automatically better, but because it reveals the extraordinary scale of the undertaking.
 
 [024] Think of the terrain and infrastructure behind those numbers. Land had to be acquired. Launch installations built. Control areas equipped. Barracks staffed. Equipment inspected. Roads and electrical supplies maintained. And all of those separate sites formed a defensive geography wrapped around metropolitan and industrial America.
@@ -73,6 +79,8 @@ Research references at end. Voice paragraph labels are not spoken.
 [030] The sites were still there. The crews still reported for duty. Yet in strategy rooms far away, the reason for maintaining such an enormous network was being reconsidered.
 
 ### ACT 9 — DISAPPEARING BASES (12:35–14:15)
+[031a] The end also exposes a trap in how we remember technology. We tend to imagine that a machine either works or fails, and history hands it a final verdict. Defense systems are different. A weapon can function as intended and still become the wrong answer to a changing question. Nike batteries were built to address particular patterns of aerial attack. As the military balance shifted toward ballistic missiles and new strategic doctrines, the value of the older network could not be measured only by whether its elevators still rose, its radars still rotated, or its missiles still launched. The country had invested in an extraordinary answer, then found that the question had changed.
+
 [031] Through the 1960s and early 1970s, American Nike defenses were reduced. Ajax disappeared from service first. The remaining Hercules system endured longer, but the broad domestic network was dismantled as military priorities, technology and arms-control conditions changed.
 
 [032] These closings did not all happen in one night, and it would be wrong to say every Nike site vanished from the map. Some were reused. Some fell into decay. Some became places where later generations could see the equipment up close and try to imagine the routines of the crews who worked there.
