@@ -1,0 +1,17 @@
+asset_id,type,title,voice_blocks,reference_url,output_status,qc_status
+G01,EDITOR_GFX,"Underground Launcher Cutaway","001,009",https://www.nps.gov/goga/nike-missile-site.htm,NOT_GENERATED,HOLD
+G02,EDITOR_GFX,"Two-Site System","007,010,020",https://home.nps.gov/gate/learn/historyculture/nike-missile.htm,NOT_GENERATED,HOLD
+G03,EDITOR_GFX,"Ajax vs Hercules","003,015,017",https://history.redstone.army.mil/miss-nikeajax.html,NOT_GENERATED,HOLD
+G04,EDITOR_GFX,"Nike Timeline","008,015,023,031",https://history.redstone.army.mil/miss-nikeherc.html,NOT_GENERATED,HOLD
+G05,EDITOR_GFX,"262 Fire Units","023,024",https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/H%20Pdf/BMDV2.pdf,NOT_GENERATED,HOLD
+G06,EDITOR_GFX,"Metropolitan Defense Map","008,025",https://www.nps.gov/goga/nike-missile-site.htm,NOT_GENERATED,HOLD
+G07,EDITOR_GFX,"Bomber vs Ballistic Threat","027,028,029",https://www.nps.gov/goga/nike-missile-site.htm,NOT_GENERATED,HOLD
+G08,EDITOR_GFX,"Crew System","019,020,021",https://home.nps.gov/gate/learn/historyculture/nike-missile.htm,NOT_GENERATED,HOLD
+G09,EDITOR_GFX,"Industrial Buildout","008a,023a,024",https://history.redstone.army.mil/miss-nikeajax.html,NOT_GENERATED,HOLD
+G10,EDITOR_GFX,"Nuclear Defense Paradox","003,016a,016,017",https://history.redstone.army.mil/miss-nikeherc.html,NOT_GENERATED,HOLD
+G11,EDITOR_GFX,"SF-88 Then and Now","033,034,039",https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/H%20Pdf/BMDV2.pdf,NOT_GENERATED,HOLD
+G12,EDITOR_GFX,"What Remains","032,035,038",https://www.nps.gov/goga/nike-missile-site.htm,NOT_GENERATED,HOLD
+D01,EDITORIAL_FACT_CARD,"Fort Meade 1954 Fact Sheet","008a",https://www.nps.gov/goga/nike-missile-site.htm,NOT_GENERATED,HOLD
+D02,EDITORIAL_FACT_CARD,"ARADCOM 1960 Data Evidence","023",https://home.nps.gov/gate/learn/historyculture/nike-missile.htm,NOT_GENERATED,HOLD
+D03,EDITORIAL_FACT_CARD,"Why Network Shrank","027,031a,031",https://history.redstone.army.mil/miss-nikeajax.html,NOT_GENERATED,HOLD
+D04,EDITORIAL_FACT_CARD,"Project Nike Legacy","035,040,041",https://history.redstone.army.mil/miss-nikeherc.html,NOT_GENERATED,HOLD
