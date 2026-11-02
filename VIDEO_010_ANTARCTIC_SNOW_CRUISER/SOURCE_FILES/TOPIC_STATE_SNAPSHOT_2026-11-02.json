@@ -1,0 +1,61 @@
+{
+  "channel": "Hidden Industrial America",
+  "episode": "VIDEO 010",
+  "topic": "Antarctic Snow Cruiser",
+  "owner_selected_date": "2026-11-01",
+  "owner_reference": "https://www.youtube.com/watch?v=n98cpmJfjuY",
+  "status": "SOURCE_CURATION_R2_COMPLETE_FULL_EPISODE_COVERAGE_HOLD",
+  "working_angle": "The ambitious American Antarctic vehicle: design promises, expedition reality, engineering limitations, later rediscovery and unresolved final location.",
+  "reference_use": "Topic and packaging reference only. Develop an independent script from historical sources; do not copy the linked video's script or shot sequence.",
+  "script_lock": false,
+  "voice_generation_started": false,
+  "image_generation_started": false,
+  "render_started": false,
+  "archive_status": "EXPANDED_REAL_FILES_COLLECTED_QC_AND_RIGHTS_REGISTERED",
+  "fact_checks_pending": [
+    "Loaded mass versus empty mass; metric tonnes versus US tons",
+    "Actual travel and traction performance, including reverse travel; avoid absolute never moved claims",
+    "Powertrain, wheel design, intended mission and actual expedition use",
+    "Rediscovery dates and distinction between documented sightings and speculative final location",
+    "Budget/cost and any inflation conversion"
+  ],
+  "sources": [
+    {
+      "url": "https://findingaids.library.iit.edu/repositories/2/resources/565",
+      "role": "Current finding aid verified, six prints cataloged; no source image files obtained."
+    },
+    {
+      "url": "https://repository.iit.edu/islandora/object/islandora%3A1010269",
+      "role": "IIT photograph of the cruiser during its road journey; source lead"
+    },
+    {
+      "url": "https://www.archives.gov/files/research/cartographic/pi-90-antarctic.pdf",
+      "role": "63-page guide downloaded and relevant pages checked; actual diary not acquired."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Antarctic_Snow_Cruiser",
+      "role": "Downloaded and reviewed 13 expedition photographs and one specification chart; chart HOLD. Details in source audit."
+    },
+    {
+      "url": "https://repository.si.edu/bitstream/handle/10088/36110/ASC_NL_25_2018.pdf",
+      "role": "Smithsonian Arctic Studies Center Newsletter 25 (2018), historical account; secondary source to cross-check"
+    }
+  ],
+  "next_gate": "Free-only sourcing; retain explicit rights/quality and 1958 coverage holds. No paid orders.",
+  "source_audit_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\01_SOURCE_AUDIT\\REPORT_RU.md",
+  "collection_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\SOURCE_CATALOG\\COLLECTION_REPORT_RU.md",
+  "collection_state": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\QC\\COLLECTION_STATE.json",
+  "active_curated_package": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\CURATED_EDIT_R2",
+  "curated_manifest_assets": 19,
+  "approved_unique_moving_vehicle_seconds": 0,
+  "free_only": true,
+  "purchase_budget_usd": 0,
+  "active_sourcing_supplement": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\FREE_ONLY_R1",
+  "owner_editorial_lock": "../HIA_EDITORIAL_OWNER_LOCK_2026-11-02.md",
+  "mandatory_competitor_brief": "02_COMPETITOR_ANALYSIS/COMPETITOR_COMPARISON_AND_VIDEO010_BRIEF_RU.md",
+  "scene_application": "02_COMPETITOR_ANALYSIS/VIDEO010_SCENE_APPLICATION.csv",
+  "shorts_enabled": false,
+  "production_plan": "PRODUCTION_PLAN.md",
+  "current_handoff": "CURRENT_STATUS_HANDOFF.md",
+  "next_writing_output": "Independent source-grounded full script, then fact/editorial review; no paid production."
+}

@@ -4,3 +4,5 @@ No Shorts. Owner selected Snow Cruiser; Church Hill in the preliminary report is
 Use the failed transport mission as the central question. Apply the existing first-90s plan and mechanism scenes; numbers do not replace story.
 Read 00_RESEARCH/TOPIC_STATE.json, QC/COLLECTION_STATE.json and CURATED_EDIT_R2 for source status. Preserve existing holds.
 Script Lock remains OPEN. This record authorizes no new paid generation or timeline changes.
+
+VIDEO010 OWNER BUDGET: USD0; free sources only, no paid archives/services. Read PRODUCTION_PLAN.md, CURRENT_STATUS_HANDOFF.md and FREE_ONLY_R1 source policy before next work.

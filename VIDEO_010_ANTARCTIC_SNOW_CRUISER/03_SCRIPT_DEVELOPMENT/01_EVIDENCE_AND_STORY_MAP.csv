@@ -1,0 +1,10 @@
+﻿claim_id,subject,source_locator,status,permitted_scope,limit,story_beat
+C01,Primary 1947 observation,"War Department 1947, printed347/PDF359",SOURCE_REVIEW_RECORDED,Siple reports unofficial opening and damage to the cruiser,Do not equate damage with operational condition; do not date this 1958,B08
+C02,Snow accumulation in 1947,"War Department 1947, printed396/PDF408",SOURCE_REVIEW_RECORDED,Report places flat roof at snow-surface level,Do not infer present burial depth or current location,B08
+C03,Ready to drive after tire inflation,Competitor/secondary retelling vs primary1947 report,UNSUPPORTED_DO_NOT_NARRATE_AS_FACT,No approved statement of ready-to-drive condition,Primary1947 pages do not establish this claim,B08
+C04,1958 observation and condition,Scambos2005 D04 PDF8; original1958 record not acquired,SECONDARY_LEAD_PRIMARY_HOLD,Attribute any secondary account; exact condition unresolved,No invented1958 photo or direct inspection quotation,B08
+C05,Construction and intended layout,Automotive Industries1939 D03 PDF20-21,RESEARCH_SOURCE_FOUND_MEDIA_SCOPE_SEPARATE,Explain intended functions using the original design,Design drawing is not proof of successful expedition operation,B02-B03
+C06,Wheel/snow mechanism and adaptations,PH04; USACE1955 D02 PDF34/54; additional specific sources pending,CLAIM_CHECK_REQUIRED,Separate observed servicing from inferred traction explanation,No blanket never moved; verify chains/reverse distance independently,B05-B06
+C07,"Mass, power and performance",TOPIC_STATE.fact_checks_pending; original1939 report,FACT_CHECK_OPEN,Resolve empty vs loaded mass and ton units before narration,Do not copy37-ton headline as settled measurement,B03
+C08,Actual archival unloading,C02-C04 source cues; FREE_ONLY research sample,MEDIA_RIGHTS_QUALITY_HOLD,Candidate action for arrival; separate from a specific failure claim,24.024s sample is not new unique scene or approved publication footage,B01-B05
+C09,Later physical fate,Scambos2005 maps/inference; no recovered object,KNOWN_UNKNOWN_BOUNDARY,Separate documented visits and scientific inference from present unknowns,No assertion that a recovered wreck exists today,B08

@@ -1,0 +1,14 @@
+{
+  "episode": "HIA VIDEO010",
+  "owner_instruction": "только бесплатные",
+  "effective_date": "2026-11-02",
+  "free_only": true,
+  "purchase_budget_usd": 0,
+  "paid_archives_allowed": false,
+  "paid_services_allowed": false,
+  "watermarked_reference_is_publication_media": false,
+  "free_download_is_copyright_permission": false,
+  "external_messages_sent": 0,
+  "paid_research_status": "INACTIVE_EXCLUDED_BY_OWNER_FREE_ONLY",
+  "next_gate": "Continue only freely accessible sources with recorded reuse basis and actual quality checks."
+}

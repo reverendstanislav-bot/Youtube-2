@@ -1,0 +1,22 @@
+{
+  "status": "FREE_ONLY_ENFORCED_SOURCE_SUPPLEMENT_VERIFIED_FULL_EPISODE_HOLD",
+  "date": "2026-11-02",
+  "budget_usd": 0,
+  "paid_services_used": false,
+  "new_primary_pdf_files": 1,
+  "new_document_page_assets": 2,
+  "new_independent_document_sources": 1,
+  "new_unique_archival_video_scenes": 0,
+  "new_research_video_samples": 1,
+  "approved_new_archival_moving_vehicle_seconds": 0,
+  "free_only": true,
+  "full_episode_ready": false,
+  "remaining_gaps": [
+    "Construction/road images with clear reusable rights",
+    "Quality moving vehicle master with resolved component rights",
+    "1958 primary evidence/media acquired and cleared"
+  ],
+  "emails_sent": 0,
+  "github_modified": false,
+  "resolve_modified": false
+}
