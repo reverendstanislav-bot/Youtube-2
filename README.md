@@ -1,5 +1,8 @@
 # Youtube-2
 
+> CURRENT OWNER DECISIONS 2026-11-02: read [mandatory editorial lock](CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md). No Shorts. Video 10 is Antarctic Snow Cruiser. Conflicting earlier text below is historical.
+
+
 Production repository for **Hidden Industrial America**.
 
 ## Canonical release status

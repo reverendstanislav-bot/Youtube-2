@@ -1,0 +1,74 @@
+[
+  {
+    "requested": 3,
+    "actual": 3,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 12,
+    "actual": 12,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 20,
+    "actual": 20,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 30,
+    "actual": 30,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 45,
+    "actual": 45,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 60,
+    "actual": 60,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 120,
+    "actual": 120,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  },
+  {
+    "requested": 450,
+    "actual": 450,
+    "duration": 952.081,
+    "ad": false,
+    "videoId": "n98cpmJfjuY",
+    "ready": 4,
+    "status": "VALIDATED"
+  }
+]

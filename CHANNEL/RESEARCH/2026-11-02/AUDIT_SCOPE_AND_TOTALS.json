@@ -1,0 +1,48 @@
+{
+  "channel": "Hidden Industrial America",
+  "channel_id": "UC7kKfamqqQMPaw2vPgZnsDQ",
+  "audit_date_client": "2026-11-02",
+  "fixed_period": [
+    "2026-10-05",
+    "2026-11-01"
+  ],
+  "views": 945,
+  "watch_hours": 38.4,
+  "net_subscribers": 1,
+  "monthly_audience": 336,
+  "impressions_all_content": 5411,
+  "ctr_all_content_percent": 3.7,
+  "long_views": 834,
+  "short_views": 111,
+  "short_engaged_views": 26,
+  "short_stayed_to_watch_percent": 25,
+  "long_traffic_percent": {
+    "browse": 56.4,
+    "suggested": 24.9,
+    "search": 15.9
+  },
+  "device_watch_time_percent": {
+    "TV": 61.9,
+    "computer": 17.4,
+    "mobile": 14.7,
+    "tablet": 4.0,
+    "other": 2.0
+  },
+  "US_views_percent": 38.7,
+  "sample_limitations": [
+    "No continuous full-film audiovisual review",
+    "Opening scripts and 8 frames each sampled for Camp Century, NB36H, Nike",
+    "Audience retention unavailable for Pluto, Camp Century, NB36H",
+    "Nike only about 3 hours old at capture; excluded from performance ranking",
+    "Video metrics card and retention card refresh at different times",
+    "Nexlev private analytics unavailable on FREE; competitor transcripts unavailable due weekly tool limit",
+    "Comments could not be retrieved; no inference about comment ownership",
+    "No channel/video/metadata changes made during audit"
+  ],
+  "sources": {
+    "studio": "https://studio.youtube.com/channel/UC7kKfamqqQMPaw2vPgZnsDQ/analytics",
+    "counting_method": "https://support.google.com/youtube/answer/12220281?hl=en",
+    "ctr": "https://support.google.com/youtube/answer/7628154?hl=en",
+    "recommendations": "https://support.google.com/youtube/answer/141805?hl=en"
+  }
+}
