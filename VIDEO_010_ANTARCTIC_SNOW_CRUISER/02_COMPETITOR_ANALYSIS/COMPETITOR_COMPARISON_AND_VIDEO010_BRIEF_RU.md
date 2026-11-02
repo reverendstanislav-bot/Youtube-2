@@ -119,3 +119,6 @@
 Реальные материалы нового фильма: SOURCE_CATALOG/ASSET_REGISTER.csv; EDIT_PREP/ARCHIVE_SHOT_CUES.csv; EDIT_PREP/COVERAGE_AND_MISSING_MATERIALS.csv в папке VIDEO 10. Их статусы не изменены этим документом.
 
 Старый REPORT_RU.md от исследования темы предлагает Church Hill и устарел относительно TOPIC_STATE/RESEARCH.json с OWNER_SELECTED_ANTARCTIC_SNOW_CRUISER. Этот разбор применён к выбранному Snow Cruiser. В обновлённом origin/main на момент проверки папки Video 10 ещё нет; рабочий пакет находится локально. GitHub не изменён, существующие сценарии и статусы не переписаны.
+
+## Research update2026-11-02 after full-script development
+USACE1955 is not only generic snow physics: PDF34/printed26 explicitly compares Snow Cruiser and Gulf Marsh Buggy tire molds and approximately fivefold wheel loads; PDF54/printed46 gives17500lb per wheel and excessive loading for Antarctic operation. This source-specific finding supersedes the earlier provisional limit in visual sceneB above. It remains a later engineering assessment, not a1940 expedition test log. See script claim ledger S05-S07 and R1 review.

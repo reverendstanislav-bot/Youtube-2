@@ -4,7 +4,7 @@
   "topic": "Antarctic Snow Cruiser",
   "owner_selected_date": "2026-11-01",
   "owner_reference": "https://www.youtube.com/watch?v=n98cpmJfjuY",
-  "status": "SOURCE_CURATION_R2_COMPLETE_FULL_EPISODE_COVERAGE_HOLD",
+  "status": "FULL_SCRIPT_R1_EN_RU_COMPLETE_OWNER_REVIEW_PENDING",
   "working_angle": "The ambitious American Antarctic vehicle: design promises, expedition reality, engineering limitations, later rediscovery and unresolved final location.",
   "reference_use": "Topic and packaging reference only. Develop an independent script from historical sources; do not copy the linked video's script or shot sequence.",
   "script_lock": false,
@@ -13,11 +13,10 @@
   "render_started": false,
   "archive_status": "EXPANDED_REAL_FILES_COLLECTED_QC_AND_RIGHTS_REGISTERED",
   "fact_checks_pending": [
-    "Loaded mass versus empty mass; metric tonnes versus US tons",
-    "Actual travel and traction performance, including reverse travel; avoid absolute never moved claims",
-    "Powertrain, wheel design, intended mission and actual expedition use",
-    "Rediscovery dates and distinction between documented sightings and speculative final location",
-    "Budget/cost and any inflation conversion"
+    "Unused claims excluded: total empty/loaded mass; cost; horsepower; actual/reverse travel distance",
+    "Original1958 account not acquired; R1 uses attributed2005 study",
+    "Archive reuse rights and motion quality remain HOLD",
+    "Per-wheel loading inR1 is attributed to1955 USACE, not a1940 test log"
   ],
   "sources": [
     {
@@ -41,7 +40,7 @@
       "role": "Smithsonian Arctic Studies Center Newsletter 25 (2018), historical account; secondary source to cross-check"
     }
   ],
-  "next_gate": "Free-only sourcing; retain explicit rights/quality and 1958 coverage holds. No paid orders.",
+  "next_gate": "Owner script review -> agreed revisions -> Final Script Lock -> final narration. Existing source/rights/quality holds remain.",
   "source_audit_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\01_SOURCE_AUDIT\\REPORT_RU.md",
   "collection_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\SOURCE_CATALOG\\COLLECTION_REPORT_RU.md",
   "collection_state": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\QC\\COLLECTION_STATE.json",
@@ -57,5 +56,16 @@
   "shorts_enabled": false,
   "production_plan": "PRODUCTION_PLAN.md",
   "current_handoff": "CURRENT_STATUS_HANDOFF.md",
-  "next_writing_output": "Independent source-grounded full script, then fact/editorial review; no paid production."
+  "next_writing_output": "Revise this full draft from owner review; do not restart topic selection or generate voice.",
+  "script_draft": {
+    "revision": "R1",
+    "date": "2026-11-02",
+    "english_file": "03_SCRIPT_DEVELOPMENT/02_FULL_SCRIPT_EN_R1.md",
+    "russian_file": "03_SCRIPT_DEVELOPMENT/03_FULL_SCRIPT_RU_R1.md",
+    "claim_ledger": "03_SCRIPT_DEVELOPMENT/04_CLAIM_SOURCE_LEDGER_R1.csv",
+    "review": "03_SCRIPT_DEVELOPMENT/05_EDITORIAL_AND_FACT_REVIEW_R1.md",
+    "english_narration_words": 1764,
+    "owner_approved": false,
+    "runtime": "Not timed; no narration audio exists"
+  }
 }

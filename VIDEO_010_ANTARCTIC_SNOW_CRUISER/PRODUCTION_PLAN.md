@@ -3,7 +3,7 @@ Updated 2026-11-02. Source of order: CHANNEL/README.md, Core production chain; o
 There is no pre-existing numbered Stage map for VIDEO010 in main. Do not borrow Stage numbers from Youtube-3 or older episodes.
 
 ## Current state
-Topic: Antarctic Snow Cruiser. Competitor comparison and provisional story/first-90s plan exist. Script Lock OPEN. Full narration not written/approved. No voice, generated images, Resolve edit or final render started.
+Topic: Antarctic Snow Cruiser. Competitor comparison and provisional story/first-90s plan exist. Script Lock OPEN. Full English script R1 and Russian owner-review translation written; owner approval pending. Final narration not locked. No voice, generated images, Resolve edit or final render started.
 Budget: USD 0; free sources only; no paid archives or services. Shorts excluded.
 Active local sources: CURATED_EDIT_R2 plus FREE_ONLY_R1/MEDIA/DOCUMENTS (two pages from one 1947 report).
 The 24.024s research movie sample remains HOLD, outside approved MEDIA. Approved new unique moving-vehicle seconds: 0. Construction/road, reusable film and 1958 coverage remain open.
@@ -11,8 +11,8 @@ The 24.024s research movie sample remains HOLD, outside approved MEDIA. Approved
 ## Repository sequence and concrete outputs
 1. Research/evidence/source ledger: reconcile current free-only manifest and claim scopes. Do not pretend every archival shot is cleared. Evidence map now in 03_SCRIPT_DEVELOPMENT/01_EVIDENCE_AND_STORY_MAP.csv.
 2. Audience angle/packaging/hooks/architecture/retention outline: carry forward the saved competitor brief and 8-beat scene plan. Apply the 1947 correction; no claim that the machine only needed tire inflation to drive again. Do not restart topic selection.
-3. Full script: NEXT WRITING DELIVERABLE. Write an independent English long-form script and Russian owner-review version, with claim IDs/source locators and existing-asset coverage. Mark unresolved claims rather than inventing events or extending scenes without evidence. Keep a clear answer to why the transport mission failed; later fate is a bounded final section.
-4. Fact check and editorial review: check each technical claim, physical explanation, chronology and known/unknown boundary. Reconcile empty/loaded mass and units, actual travel/reverse travel, planned versus demonstrated features, 1947 versus 1958, and evidence about final location. Compare opening and scene purpose against the saved competitor findings.
+3. Full script: R1 EN/RU DELIVERED FOR OWNER REVIEW in 03_SCRIPT_DEVELOPMENT, with claim ledger and text review. Draft requirements: Write an independent English long-form script and Russian owner-review version, with claim IDs/source locators and existing-asset coverage. Mark unresolved claims rather than inventing events or extending scenes without evidence. Keep a clear answer to why the transport mission failed; later fate is a bounded final section.
+4. Fact check and editorial review: R1 textual source/scope review recorded in 05_EDITORIAL_AND_FACT_REVIEW_R1.md; owner acceptance remains open. Check each technical claim, physical explanation, chronology and known/unknown boundary. Reconcile empty/loaded mass and units, actual travel/reverse travel, planned versus demonstrated features, 1947 versus 1958, and evidence about final location. Compare opening and scene purpose against the saved competitor findings.
 5. Final narration / Voice Script: only after actual script acceptance/lock. This plan does not mark the script accepted or authorize paid voice generation.
 6. Voice / word-level transcript / exact timing / final visual beat map: use only a free owner-accepted route under the USD0 restriction. Do not assign exact narration timecodes before audio exists.
 7. Archive/source plan and missing-visual analysis: resolve shot-level holds or rewrite unsupported coverage honestly. Generation is not an automatic substitute and has no preassigned count. No paid generation.
