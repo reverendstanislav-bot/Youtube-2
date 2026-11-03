@@ -1,0 +1,289 @@
+[
+  {
+    "paragraph_id": "A01-P01",
+    "asset_id": "PH10",
+    "start": 0,
+    "end": 138,
+    "source_limit": "Do not portray aftermath photo as impact footage."
+  },
+  {
+    "paragraph_id": "A01-P01",
+    "asset_id": "PH14",
+    "start": 138,
+    "end": 276,
+    "source_limit": "Do not portray aftermath photo as impact footage."
+  },
+  {
+    "paragraph_id": "A01-P02",
+    "asset_id": "PH09",
+    "start": 276,
+    "end": 555,
+    "source_limit": "Movement is a still source;moving coverage rights/quality HOLD."
+  },
+  {
+    "paragraph_id": "A01-P03",
+    "asset_id": "PH07",
+    "start": 555,
+    "end": 870,
+    "source_limit": "Do not invent an interior cutaway from a crew portrait."
+  },
+  {
+    "paragraph_id": "A01-P04",
+    "asset_id": "PH04",
+    "start": 870,
+    "end": 1014,
+    "source_limit": "Graphic only when mechanism needs explanation;no defaultzoom."
+  },
+  {
+    "paragraph_id": "A01-P05",
+    "asset_id": "PH03",
+    "start": 1014,
+    "end": 1231,
+    "source_limit": "Do not recap later repairs."
+  },
+  {
+    "paragraph_id": "A01-P06",
+    "asset_id": "LOC_BYRD",
+    "start": 1231,
+    "end": 1553,
+    "source_limit": "Portrait is context,not a photograph of the rescue."
+  },
+  {
+    "paragraph_id": "A02-P01",
+    "asset_id": "LOC_BYRD",
+    "start": 1553,
+    "end": 1874,
+    "source_limit": "No1940Cruiserfilm pretending to be1934."
+  },
+  {
+    "paragraph_id": "A02-P02",
+    "asset_id": "PH07",
+    "start": 2300,
+    "end": 2636,
+    "source_limit": "Avoid another identical cut to same crew image."
+  },
+  {
+    "paragraph_id": "A02-P04",
+    "asset_id": "PH02",
+    "start": 3014,
+    "end": 3283,
+    "source_limit": "Dogs haul a sparetyre,not the Cruiser."
+  },
+  {
+    "paragraph_id": "A04-P07",
+    "asset_id": "PH06",
+    "start": 8118,
+    "end": 8371,
+    "source_limit": "PH06is laterresupplycontext,not first departure;prefer cleared ship context."
+  },
+  {
+    "paragraph_id": "A05-P08",
+    "asset_id": "PH07",
+    "start": 8371,
+    "end": 8834,
+    "source_limit": "Crew photois Antarctica1940context,not actual voyagework."
+  },
+  {
+    "paragraph_id": "A05-P09",
+    "asset_id": "PH10",
+    "start": 8834,
+    "end": 9297,
+    "source_limit": "Preserve seaice/iceshelf distinction."
+  },
+  {
+    "paragraph_id": "A05-P01",
+    "asset_id": "PH14",
+    "start": 9297,
+    "end": 9533,
+    "source_limit": "Do not repeat opening as second fullclimax."
+  },
+  {
+    "paragraph_id": "A05-P03",
+    "asset_id": "PH09",
+    "start": 9533,
+    "end": 9850,
+    "source_limit": "Do not invent damage from ramp causing snowproblem."
+  },
+  {
+    "paragraph_id": "A05-P10",
+    "asset_id": "PH04",
+    "start": 9850,
+    "end": 10159,
+    "source_limit": "Torchphotoillustrates maintenance,not that exact rest stop."
+  },
+  {
+    "paragraph_id": "A05-P05",
+    "asset_id": "PH09",
+    "start": 10668,
+    "end": 10898,
+    "source_limit": "Avoid identical still fakecuts;coveragegap if source already exhausted."
+  },
+  {
+    "paragraph_id": "A05-P07",
+    "asset_id": "PH07",
+    "start": 10898,
+    "end": 11038,
+    "source_limit": "Use human consequence;no second mechanismrecap."
+  },
+  {
+    "paragraph_id": "A06-P01",
+    "asset_id": "PH04",
+    "start": 11038,
+    "end": 11276,
+    "source_limit": "Never derive measured contactpressurefrom tyre diameter."
+  },
+  {
+    "paragraph_id": "A06-P07",
+    "asset_id": "PH04",
+    "start": 12276,
+    "end": 12518,
+    "source_limit": "Maintenance context,not a specific instrumentreading."
+  },
+  {
+    "paragraph_id": "A06-P08",
+    "asset_id": "PH02",
+    "start": 12518,
+    "end": 12647,
+    "source_limit": "Dogs haul tyreonly."
+  },
+  {
+    "paragraph_id": "A07-P03",
+    "asset_id": "PH09",
+    "start": 13405,
+    "end": 13605,
+    "source_limit": "Not92mile reversejourney."
+  },
+  {
+    "paragraph_id": "A07-P04",
+    "asset_id": "PH08",
+    "start": 13605,
+    "end": 13859,
+    "source_limit": "No exactdeparturedate or inventedprivateemotion."
+  },
+  {
+    "paragraph_id": "A07-P05",
+    "asset_id": "PH11",
+    "start": 13859,
+    "end": 14408,
+    "source_limit": "PH11contextonly,not proof ofthat exactspringtrial."
+  },
+  {
+    "paragraph_id": "A07-P06",
+    "asset_id": "PH04",
+    "start": 14408,
+    "end": 14700,
+    "source_limit": "No fabricatedalarm,injury or final-ever-movementclaim."
+  },
+  {
+    "paragraph_id": "A07-P06",
+    "asset_id": "PH08",
+    "start": 14700,
+    "end": 14993,
+    "source_limit": "No fabricatedalarm,injury or final-ever-movementclaim."
+  },
+  {
+    "paragraph_id": "A07-P07",
+    "asset_id": "PH03",
+    "start": 14993,
+    "end": 15258,
+    "source_limit": "Let consequence land;no promotionalCTA."
+  },
+  {
+    "paragraph_id": "A08-P02",
+    "asset_id": "PH04",
+    "start": 15258,
+    "end": 15393,
+    "source_limit": "Photos have distinct roles;avoid repeating earlier framing just to filltime."
+  },
+  {
+    "paragraph_id": "A08-P02",
+    "asset_id": "PH03",
+    "start": 15393,
+    "end": 15528,
+    "source_limit": "Photos have distinct roles;avoid repeating earlier framing just to filltime."
+  },
+  {
+    "paragraph_id": "A08-P02",
+    "asset_id": "PH02",
+    "start": 15528,
+    "end": 15663,
+    "source_limit": "Photos have distinct roles;avoid repeating earlier framing just to filltime."
+  },
+  {
+    "paragraph_id": "A08-P03",
+    "asset_id": "PH07",
+    "start": 15663,
+    "end": 15967,
+    "source_limit": "Like+8sec for3sec;WarnerNOTidentified inPH07portrait."
+  },
+  {
+    "paragraph_id": "A08-P06",
+    "asset_id": "PH08",
+    "start": 16262,
+    "end": 16452,
+    "source_limit": "NoPearlHarborcausation afterevacuation."
+  },
+  {
+    "paragraph_id": "A09-P01",
+    "asset_id": "DOC_HIGHJUMP_P347",
+    "start": 16660,
+    "end": 16942,
+    "source_limit": "Onegovernmentreport;textpageonly."
+  },
+  {
+    "paragraph_id": "A09-P02",
+    "asset_id": "DOC_HIGHJUMP_P396",
+    "start": 16942,
+    "end": 17236,
+    "source_limit": "No modernburialdepth extrapolation."
+  },
+  {
+    "paragraph_id": "A09-P03",
+    "asset_id": "DOC_HIGHJUMP_P347",
+    "start": 17236,
+    "end": 17311,
+    "source_limit": "No ready-to-drivelegend."
+  },
+  {
+    "paragraph_id": "A09-P03",
+    "asset_id": "DOC_HIGHJUMP_P396",
+    "start": 17311,
+    "end": 17386,
+    "source_limit": "No ready-to-drivelegend."
+  },
+  {
+    "paragraph_id": "A09-P05",
+    "asset_id": "MAP_CIA_1956",
+    "start": 17702,
+    "end": 17917,
+    "source_limit": "1956basemapcontextonly;not precise1958iceedge."
+  },
+  {
+    "paragraph_id": "A10-P02",
+    "asset_id": "ST04_ICE_FLOES",
+    "start": 18547,
+    "end": 18787,
+    "source_limit": "ModernLarsenC2016contextlabel;notRoss1960footage."
+  },
+  {
+    "paragraph_id": "A10-P04",
+    "asset_id": "PH04",
+    "start": 19605,
+    "end": 19757,
+    "source_limit": "Use only purposefulreturn,not randommontagerepeat."
+  },
+  {
+    "paragraph_id": "A10-P04",
+    "asset_id": "PH03",
+    "start": 19757,
+    "end": 19908,
+    "source_limit": "Use only purposefulreturn,not randommontagerepeat."
+  },
+  {
+    "paragraph_id": "A10-P08",
+    "asset_id": "PH07",
+    "start": 20306,
+    "end": 20652,
+    "source_limit": "FinishhistoricalemotionbeforeCampbridge."
+  }
+]

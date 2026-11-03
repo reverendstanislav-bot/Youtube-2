@@ -15,3 +15,7 @@
 | 12 Assets | EXISTING PACKAGE VERIFIED / COVERAGE HOLD |21 материал:20 медиафайлов и один GeoJSON в монтажной копии;2 CC0-звука-кандидата;5 заданий нативной поясняющей графики. Не закрыты права основной хроники и часть визуального покрытия. |
 
 Полного монтажного PASS сейчас нет. Архив действительно собран на компьютере; наличие файла не закрывает ограничение его публикации. Озвучка поставлена в рабочую постоянную очередь, её завершения агент не ожидает. Автоматического запуска монтажа/Resolve/публикации после окончания очереди нет.
+
+
+## Owner-authorized assembly / 2026-11-03
+Owner requested assembly and enabled the Resolve bridge. Current project Yt2 Vid 10, timeline VIDEO010_R5_1_ASSEMBLY_R2_COVERAGE_HOLD. 42 video items, one 69-paragraph audio master candidate, 24 fps, 21310 frames including 480 voice-free endscreen frames. Actual master 867.920 seconds; 69-paragraph ASR complete with unresolved prefix/pronunciation flags. First60 canary rendered and black-gap correction verified; one native Fusion visual Like rendered and inspected. Full listening, 35 coverage gaps (447.875 s), five graphics, sound mix, creative QC and final-film render remain HOLD. See13_ASSEMBLY_R2_QC.md and13_ASSEMBLY_STATE.json. Raw audio and locked script unchanged. No Shorts, subtitles, paid generation or publication.

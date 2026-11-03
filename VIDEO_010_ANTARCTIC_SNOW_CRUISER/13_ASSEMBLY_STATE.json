@@ -1,0 +1,68 @@
+{
+  "project": "Yt2 Vid 10",
+  "timeline": "VIDEO010_R5_1_ASSEMBLY_R2_COVERAGE_HOLD",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "video_items": 42,
+  "audio_items": 1,
+  "voice_seconds": 867.92,
+  "timeline_frames": 21310,
+  "timeline_seconds": 887.9166666666666,
+  "endscreen": {
+    "start_frame": 20830,
+    "end_frame_exclusive": 21310,
+    "voice": false,
+    "native_elements": [
+      "Subscribe",
+      "Specific Video: Camp Century sP67aPtpwKg"
+    ],
+    "studio_installed": false
+  },
+  "asr": {
+    "paragraphs": 69,
+    "exact_raw_token_matches": 38,
+    "flagged": 31,
+    "prefix_second_model_checked": 22,
+    "full_listening": false,
+    "status": "HOLD_PREFIX_AND_PRONUNCIATION_REVIEW"
+  },
+  "visual_coverage": {
+    "gap_count": 35,
+    "gap_seconds": 447.875,
+    "graphics_built": 0,
+    "rights_holds_preserved": true
+  },
+  "like": {
+    "paragraph_id": "A08-P03",
+    "start_seconds": 660.64,
+    "end_seconds": 663.64,
+    "bbox": [
+      1360,
+      96,
+      400,
+      64
+    ],
+    "status": "NATIVE_FUSION_INSTALLED_RENDERED_ON_FRAME_INSPECTED",
+    "comp": "VIDEO010_LIKE_A08_P03.comp",
+    "render_test": "VIDEO010_LIKE_CTA_QC_SAMPLE.mp4"
+  },
+  "full_film_render": false,
+  "first60_render": {
+    "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ASSEMBLY_R2\\VIDEO010_FIRST60_R2_REVIEW.mp4",
+    "native_source_codec": "APV",
+    "review_codec": "H264",
+    "frames": 1440,
+    "blackdetect": "NO_FULL_BLACK_INTERVAL_GE_0_1S",
+    "visual_review": "05S_FRAME_INSPECTED_NOT_FULL_AV"
+  },
+  "status": "PARTIAL_ASSEMBLY_SAVED_NOT_FINAL_FILM",
+  "backup_contains_like": true,
+  "xml_contains_like": false,
+  "xml_scope": "Timing/media interchange only; import supplied Fusion comp on A08-P03 for full native graph",
+  "last_saved_project": "Yt2 Vid 10",
+  "timeline_actual_items": {
+    "video": 42,
+    "audio": 1
+  }
+}
