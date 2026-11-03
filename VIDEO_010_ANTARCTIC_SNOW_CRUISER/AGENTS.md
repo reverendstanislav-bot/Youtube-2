@@ -6,3 +6,6 @@ Read 00_RESEARCH/TOPIC_STATE.json, QC/COLLECTION_STATE.json and CURATED_EDIT_R2 
 Script Lock remains OPEN. This record authorizes no new paid generation or timeline changes.
 
 VIDEO010 OWNER BUDGET: USD0; free sources only, no paid archives/services. Read PRODUCTION_PLAN.md, CURRENT_STATUS_HANDOFF.md and FREE_ONLY_R1 source policy before next work.
+
+## Current owner instruction: Stage05R (2026-11-02)
+Owner task SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md supersedes earlier episode defaults in this scope. R1 REJECTED and preserved; active R2:05_SCRIPT_R2_EN.md plus full05_SCRIPT_R2_RU.md. STAGE05R COMPLETE / SCRIPT LOCK HOLD. LATEST OWNER CORRECTION: NO SHORTS, including text concepts. The earlier four-concept request is revoked;05R_SHORTS_4.md removed before Git delivery. Stage05R is long-form only. Owner selects Harrison and requests18-20min subject to evidence and actual pace; no measured/approved Harrison pace exists for this episode yet. BudgetUSD0. No TTS, image/video generation, Resolve or automatic downstream stage. Read05R_EDITORIAL_QC.md,05R_CLAIM_SOURCE_LEDGER.csv and05R_VISUAL_REQUIREMENTS.md before further work.

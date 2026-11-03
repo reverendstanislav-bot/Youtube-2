@@ -1,0 +1,66 @@
+{
+  "status": "TEXT_PACKAGE_VERIFIED_SCRIPT_LOCK_HOLD",
+  "scope": "LONG_FORM_ONLY_NO_SHORTS",
+  "date": "2026-11-02",
+  "base_origin_main": "cf80d82207ff8358729f31cd8650826fb945d0cd",
+  "words": {
+    "EN": 2520,
+    "RU": 2116
+  },
+  "acts_per_language": 10,
+  "paragraph_ids_matched": 70,
+  "claim_rows": 64,
+  "included_claim_groups": 56,
+  "excluded_or_original_access_hold_groups": 8,
+  "all_paragraphs_audited": true,
+  "retention_beats": 20,
+  "all_paragraphs_in_retention_map_once": true,
+  "max_planning_beat_seconds_at135wpm": 89.31,
+  "runtime_nominal_sec_140wpm_plus55": 1135,
+  "actual_Harrison_rate": "HOLD_NOT_MEASURED",
+  "r1_sha256_unchanged": true,
+  "source_binary_hash_checks": true,
+  "files": [
+    {
+      "path": "05_SCRIPT_R2_EN.md",
+      "bytes": 17072,
+      "sha256": "b1a2d31a40174fa5699fd975d54c717b1b16410d79301a648ead0914c22d4f8c"
+    },
+    {
+      "path": "05_SCRIPT_R2_RU.md",
+      "bytes": 30133,
+      "sha256": "410c0135006b58499ceef254d019743f25364732a36c027af59e65db99975b21"
+    },
+    {
+      "path": "05R_HOOK_AB_TEST.md",
+      "bytes": 5533,
+      "sha256": "287183bed321ca828c1d29925ffcc52264c7a1bb134d297e724b8be4c6236ea4"
+    },
+    {
+      "path": "05R_RETENTION_MAP.csv",
+      "bytes": 7589,
+      "sha256": "5acef1ddf7ef31e583bb58c1454d32bc21efc835a0dcbdb229456737177982ec"
+    },
+    {
+      "path": "05R_CLAIM_SOURCE_LEDGER.csv",
+      "bytes": 16177,
+      "sha256": "90d17d321f19197fe496e781eb960f9f8088e23a81c93f5aa005fcab1ec67e60"
+    },
+    {
+      "path": "05R_EDITORIAL_QC.md",
+      "bytes": 16523,
+      "sha256": "02033e443fa71cc2b7f66619436a3ff19f8cbb37cddbf75135e8a0aea833edb4"
+    },
+    {
+      "path": "05R_VISUAL_REQUIREMENTS.md",
+      "bytes": 16821,
+      "sha256": "80949c4707466a3eb4ba1462978764ffa5e5d85d31fd7daa8273bb2d678102f2"
+    }
+  ],
+  "shorts_present": false,
+  "paid_operations": false,
+  "generation": false,
+  "resolve_modified": false,
+  "owner_approved": false,
+  "archive_unique_motion_approved_seconds": 0
+}

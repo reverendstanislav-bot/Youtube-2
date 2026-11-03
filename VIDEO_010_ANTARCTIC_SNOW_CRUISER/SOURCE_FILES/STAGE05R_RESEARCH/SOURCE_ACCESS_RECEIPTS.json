@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "paid": false,
+  "receipts": [
+    {
+      "id": "OSU_HISTORY_CORNER",
+      "url": "https://byrd.osu.edu/featured/history-corner/antarctic-snow-cruiser-gomer-ohio",
+      "path": "C:\\Users\\KK\\VIDEO010_STAGE05R_RESEARCH_CACHE\\OSU_HISTORY_CORNER.html",
+      "bytes": 117615,
+      "sha256": "5e9b00ec03222891dcb9b682ca0d310d90df5f41d836c560e6bb3482e134d8e1",
+      "status": 200
+    },
+    {
+      "id": "PULLMAN_HISTORY",
+      "url": "https://www.pullman-museum.org/theCompany/arcticExplorer.html",
+      "path": "C:\\Users\\KK\\VIDEO010_STAGE05R_RESEARCH_CACHE\\PULLMAN_HISTORY.html",
+      "bytes": 30348,
+      "sha256": "9409e901fbaf28f30fe75a1a0e45d23c24781a671194e10cf0b1ce6be130627c",
+      "status": 200
+    },
+    {
+      "id": "TIME_SAFE_19400129",
+      "url": "https://time.com/archive/6892991/science-safe/",
+      "status": "WEB_TOOL_READ_LOCAL_FETCH_FAILED",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issue"
+    },
+    {
+      "id": "CAMBRIDGE_FREITAG_1986_ABSTRACT",
+      "url": "https://www.cambridge.org/core/journals/polar-record/article/abs/dr-poulters-antarctic-snow-cruiser/05D77DE331C78D61E88DEFE8A31A977F",
+      "path": "C:\\Users\\KK\\VIDEO010_STAGE05R_RESEARCH_CACHE\\CAMBRIDGE_FREITAG_1986_ABSTRACT.html",
+      "bytes": 745753,
+      "sha256": "bea08fc0e1aa1462f6b7196ba56a7e8ba6f4e95ff641260fb9b63440875a0ef5",
+      "status": 200
+    },
+    {
+      "id": "POULTER_OBITUARY",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/22176065E28597F89E131F982E4A8117/S0032247400002576a.pdf/obituary.pdf",
+      "path": "C:\\Users\\KK\\VIDEO010_STAGE05R_RESEARCH_CACHE\\POULTER_OBITUARY.pdf",
+      "bytes": 155498,
+      "sha256": "c44283ba02fb6f9198067f75b59422908afc3d01e83daeb552dbfe54c02c444f",
+      "status": 200
+    },
+    {
+      "id": "GLACIOLOGY_1947",
+      "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/professor-f-alton-wades-antarctic-glaciological-researches/B46E8B4173A87BFA092CA3425B4192E0",
+      "path": "C:\\Users\\KK\\VIDEO010_STAGE05R_RESEARCH_CACHE\\GLACIOLOGY_1947.html",
+      "bytes": 802180,
+      "sha256": "76c63214e9425c03386bd26c79ff67f2e0d36fd20cb3cd82349d4a033fed6a7d",
+      "status": 200
+    },
+    {
+      "id": "FREITAG_1986_PUBLIC_MIRROR",
+      "url": "https://www.joeld.net/snowcruiser/polar_record_23.html",
+      "path": "C:\\Users\\KK\\VIDEO010_STAGE05R_RESEARCH_CACHE\\JOELD_POLAR_RECORD.html",
+      "bytes": 45520,
+      "sha256": "465d56be62eb4d2dbc9e704d1cc5af16e3fb09eb74260d9c2c319ca3b098e8c8",
+      "status": "READ_VIA_URlLIB; WEB_TOOL_INACCESSIBLE; PUBLIC_MIRROR_NOT_PUBLISHER_SCAN"
+    }
+  ]
+}

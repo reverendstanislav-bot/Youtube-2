@@ -4,7 +4,7 @@
   "topic": "Antarctic Snow Cruiser",
   "owner_selected_date": "2026-11-01",
   "owner_reference": "https://www.youtube.com/watch?v=n98cpmJfjuY",
-  "status": "FULL_SCRIPT_R1_EN_RU_COMPLETE_OWNER_REVIEW_PENDING",
+  "status": "STAGE_05R_COMPLETE_SCRIPT_LOCK_HOLD",
   "working_angle": "The ambitious American Antarctic vehicle: design promises, expedition reality, engineering limitations, later rediscovery and unresolved final location.",
   "reference_use": "Topic and packaging reference only. Develop an independent script from historical sources; do not copy the linked video's script or shot sequence.",
   "script_lock": false,
@@ -13,10 +13,11 @@
   "render_started": false,
   "archive_status": "EXPANDED_REAL_FILES_COLLECTED_QC_AND_RIGHTS_REGISTERED",
   "fact_checks_pending": [
-    "Unused claims excluded: total empty/loaded mass; cost; horsepower; actual/reverse travel distance",
-    "Original1958 account not acquired; R1 uses attributed2005 study",
-    "Archive reuse rights and motion quality remain HOLD",
-    "Per-wheel loading inR1 is attributed to1955 USACE, not a1940 test log"
+    "Original Wade daily log and Poulter1977 typescript not acquired; qualified attributed account only",
+    "Original Goldthwait1958 and1958 image not acquired; SC05 attribution only",
+    "92mile reverse journey/total mileage, total mass, exact crowd counts/end dates excluded",
+    "Archive reuse rights/quality and unique motion coverage remain HOLD",
+    "Harrison actual speaking rate/continuous listening not measured"
   ],
   "sources": [
     {
@@ -40,7 +41,7 @@
       "role": "Smithsonian Arctic Studies Center Newsletter 25 (2018), historical account; secondary source to cross-check"
     }
   ],
-  "next_gate": "Owner script review -> agreed revisions -> Final Script Lock -> final narration. Existing source/rights/quality holds remain.",
+  "next_gate": "Owner R2 review with qualified factual sources and archive holds; do not start Script Lock/TTS/generation/editing automatically.",
   "source_audit_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\01_SOURCE_AUDIT\\REPORT_RU.md",
   "collection_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\SOURCE_CATALOG\\COLLECTION_REPORT_RU.md",
   "collection_state": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\QC\\COLLECTION_STATE.json",
@@ -56,16 +57,34 @@
   "shorts_enabled": false,
   "production_plan": "PRODUCTION_PLAN.md",
   "current_handoff": "CURRENT_STATUS_HANDOFF.md",
-  "next_writing_output": "Revise this full draft from owner review; do not restart topic selection or generate voice.",
+  "next_writing_output": "Only owner-requested revisions to R2; all Stage05R text outputs delivered.",
   "script_draft": {
-    "revision": "R1",
-    "date": "2026-11-02",
-    "english_file": "03_SCRIPT_DEVELOPMENT/02_FULL_SCRIPT_EN_R1.md",
-    "russian_file": "03_SCRIPT_DEVELOPMENT/03_FULL_SCRIPT_RU_R1.md",
-    "claim_ledger": "03_SCRIPT_DEVELOPMENT/04_CLAIM_SOURCE_LEDGER_R1.csv",
-    "review": "03_SCRIPT_DEVELOPMENT/05_EDITORIAL_AND_FACT_REVIEW_R1.md",
-    "english_narration_words": 1764,
+    "revision": "R2",
     "owner_approved": false,
-    "runtime": "Not timed; no narration audio exists"
-  }
+    "english_file": "05_SCRIPT_R2_EN.md",
+    "russian_file": "05_SCRIPT_R2_RU.md",
+    "english_narration_words": 2520,
+    "russian_review_words": 2116,
+    "acts": 10,
+    "paragraphs_per_language": 70,
+    "retention_map": "05R_RETENTION_MAP.csv",
+    "claim_ledger": "05R_CLAIM_SOURCE_LEDGER.csv",
+    "review": "05R_EDITORIAL_QC.md",
+    "planning_runtime_seconds_at140wpm_plus55sec": 1135,
+    "runtime_actual": null
+  },
+  "script_lock_status": "HOLD_OWNER_REVIEW_AND_SOURCE_QUALIFICATIONS",
+  "r1_status": "REJECTED_PRESERVED_SHA256_VERIFIED",
+  "active_script_revision": "R2",
+  "owner_stage": "05R",
+  "duration_target_minutes": [
+    18,
+    20
+  ],
+  "voice_selected_by_owner": "Harrison",
+  "voice_pace_status": "HOLD_NO_APPROVED_EPISODE_MEASUREMENT",
+  "shorts_concepts_authorized": 0,
+  "shorts_production_authorized": false,
+  "owner_stage_task": "SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md",
+  "latest_owner_correction": "2026-11-02: no Shorts; all Shorts concepts and production excluded from Stage05R"
 }

@@ -1,26 +1,24 @@
-# VIDEO 010 - next work according to the repository
-Updated 2026-11-02. Source of order: CHANNEL/README.md, Core production chain; owner override: CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md.
-There is no pre-existing numbered Stage map for VIDEO010 in main. Do not borrow Stage numbers from Youtube-3 or older episodes.
+# VIDEO010 production plan ? current Stage05R delivery
+Updated2026-11-02. Canonical sequence:CHANNEL/README.md; latest episode override:SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md. Stage05R name is explicitly assigned by this new owner task, not borrowed from another channel.
 
 ## Current state
-Topic: Antarctic Snow Cruiser. Competitor comparison and provisional story/first-90s plan exist. Script Lock OPEN. Full English script R1 and Russian owner-review translation written; owner approval pending. Final narration not locked. No voice, generated images, Resolve edit or final render started.
-Budget: USD 0; free sources only; no paid archives or services. Shorts excluded.
-Active local sources: CURATED_EDIT_R2 plus FREE_ONLY_R1/MEDIA/DOCUMENTS (two pages from one 1947 report).
-The 24.024s research movie sample remains HOLD, outside approved MEDIA. Approved new unique moving-vehicle seconds: 0. Construction/road, reusable film and 1958 coverage remain open.
+Antarctic Snow Cruiser. R1 REJECTED/preserved. STAGE05R COMPLETE / SCRIPT LOCK HOLD. Active R2 fullEN/RU with10acts,3hooks,20retention beats,64claim/source rows including8excluded/original-access holds,visual requirements. The latest owner correction excludes ALL Shorts including concepts.
+BudgetUSD0. No voice/image/video generation, Resolve edit or render started. No paid archive/service used.
+Owner duration target18-20min is conditional:2520EN words give nominal18:55 at140wpm+55sec; actual Harrison rate remains HOLD. No fixed upload schedule inferred.
 
-## Repository sequence and concrete outputs
-1. Research/evidence/source ledger: reconcile current free-only manifest and claim scopes. Do not pretend every archival shot is cleared. Evidence map now in 03_SCRIPT_DEVELOPMENT/01_EVIDENCE_AND_STORY_MAP.csv.
-2. Audience angle/packaging/hooks/architecture/retention outline: carry forward the saved competitor brief and 8-beat scene plan. Apply the 1947 correction; no claim that the machine only needed tire inflation to drive again. Do not restart topic selection.
-3. Full script: R1 EN/RU DELIVERED FOR OWNER REVIEW in 03_SCRIPT_DEVELOPMENT, with claim ledger and text review. Draft requirements: Write an independent English long-form script and Russian owner-review version, with claim IDs/source locators and existing-asset coverage. Mark unresolved claims rather than inventing events or extending scenes without evidence. Keep a clear answer to why the transport mission failed; later fate is a bounded final section.
-4. Fact check and editorial review: R1 textual source/scope review recorded in 05_EDITORIAL_AND_FACT_REVIEW_R1.md; owner acceptance remains open. Check each technical claim, physical explanation, chronology and known/unknown boundary. Reconcile empty/loaded mass and units, actual travel/reverse travel, planned versus demonstrated features, 1947 versus 1958, and evidence about final location. Compare opening and scene purpose against the saved competitor findings.
-5. Final narration / Voice Script: only after actual script acceptance/lock. This plan does not mark the script accepted or authorize paid voice generation.
-6. Voice / word-level transcript / exact timing / final visual beat map: use only a free owner-accepted route under the USD0 restriction. Do not assign exact narration timecodes before audio exists.
-7. Archive/source plan and missing-visual analysis: resolve shot-level holds or rewrite unsupported coverage honestly. Generation is not an automatic substitute and has no preassigned count. No paid generation.
-8. Graphics/maps/charts and sound plan: exact text and accents editable; semantic explanation, no full-frame zoom/shake. Source scope and provenance remain explicit.
-9. Long-form edit -> review -> critic audit -> release candidate -> full QC -> native upload master: only when the preceding real outputs exist. Keep the canonical end-screen requirement. No Shorts stage. Upload/publication requires its own actual authorization.
+## Completed text/research steps
+1. Read current origin/main, owner locks, previous locks, R1/current source ledgers; preflight contradictions recorded before R2 writing.
+2. Research15requested historical subjects using existing primary PDFs/photos and new free public sources. Scope/provenance/original-access limits recorded.
+3. Rebuild full narrative into10acts; translate all70paragraphs. Move load explanation toACT06, restore meaningful action rather than add repetitions.
+4. Compare3hooks; select broken-ramp opening. Map20turns with conditional timing.
+5. Textual fact/editorial QC; R1 hash preservation; output and EN/RU consistency checks. This is not audio/A-V or owner approval.
 
-## Parallel work allowed now
-Continue a bounded free-only search for construction and 1958 evidence while writing the source-grounded architecture/script. Source HOLD is not a reason to search forever, nor permission to publish held assets. Story research and scene reuse approval are separate gates.
+## Remaining gates in order
+6. Owner review and requested corrections toR2. Assess qualified diary/typewritten and1958 claims; original-access holds remain.
+7. Explicit final-script acceptance/lock; final voice text only after that actual decision. Do not generate anything automatically.
+8. Voice route/actual pace/ASR/timing under owner authorization and budgetUSD0. Current task selected Harrison but did not authorize TTS or establish a measured rate.
+9. Script-specific archive clearance and motion coverage.0approved unique moving-vehicle seconds remain; do not use stock/pseudoarchive or a repeated unloading sequence as substitute.
+10. Missing-visual classification and explanatory diagrams/maps; editable accents in Resolve/Fusion; exact text from verified records; no generic full-frame zoom/shake or opaque cards.
+11. Sound/edit/review/critic audit/full A-V QC/native upload master only after real prior outputs and authorization. Preserve20sec voice-free endscreen for Subscribe+one video inside runtime reserve. No auto-upload/publication.
 
-## Unchanged limits
-No source/rights HOLD becomes PASS by being copied into Git. No generated archive or fictitious contemporary discovery. No copied competitor wording, model or footage. Existing script/asset locks remain intact.
+NO SHORTS. The latest owner correction revokes the earlier four-concept request. The prepared concept file was removed before delivery; no Shorts voice, montage or publication exists.
