@@ -1,0 +1,1 @@
+CURRENT OWNER SCOPE: audio assembly + image prompts/references + built-in ImageGen generation only. No new Resolve edits, montage, voice generation, video generation or final rendering in this task. All25 image tasks generated; selected25 in IMAGES; owner approval pending. Previous scope note superseded.

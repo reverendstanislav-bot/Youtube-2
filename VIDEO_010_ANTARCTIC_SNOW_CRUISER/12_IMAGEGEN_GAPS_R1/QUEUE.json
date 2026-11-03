@@ -1,0 +1,939 @@
+[
+  {
+    "id": "SCG01",
+    "paragraph_ids": [
+      "A02-P07"
+    ],
+    "title": "1934 rescue searchlight",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Night Antarctic rescue party beside a small period tracked tractor. Improvised metal searchlight housing being adjusted, its practical beam picking out a short trail of return lamps in winter darkness. Figures in bulky 1930s polar clothes; no identifiable invented faces. Do not copy a 1950s Sno-Cat, modern floodlights, LED equipment or Camp Century tunnels. The exact tractor model and lamp spacing are unspecified: keep them schematic, not a technical replica.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/LOC_BYRD_PORTRAIT_19692u.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG01.png",
+    "sha256": "9106775fcf3bc9b36bbebfbebc673a22a91aa528faf005d0fcad2d1d7369c6ba",
+    "claim_ids": [],
+    "source_requirements": [
+      "NEED_1934_RESCUE_SOURCE"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG02",
+    "paragraph_ids": [
+      "A02-P03",
+      "A03-P01"
+    ],
+    "title": "Mobile base interior",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: One coherent longitudinal editorial cutaway of the intended Snow Cruiser mobile base. Front cab and workshop/engines at the right, compact galley and living quarters in the middle, storage and two large spare tyres at the tapered rear left; follow the 1939 published functional arrangement. Four main wheels total at correct stations, two near-side and two partly visible far-side, huge smooth balloon tyres. Small roof-carried propeller aircraft represents planned equipment. Keep people small and compartments plausible; no extra storeys or invented exact gauges. Do not substitute fuel barrels for the rear spare tyres.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D03_AUTO_PDF_PAGE_021_300DPI.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH09_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG02.png",
+    "sha256": "09fa0965032d377196718566c709a34e5cb4f959075b540ecc35d953a4944f30",
+    "claim_ids": [
+      "C003",
+      "C007",
+      "C011",
+      "C012"
+    ],
+    "source_requirements": [
+      "D03",
+      "G01"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG03",
+    "paragraph_ids": [
+      "A02-P05",
+      "A02-P06",
+      "A03-P01"
+    ],
+    "title": "1939 construction",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: 1939 American industrial workshop, workers welding the long low steel Snow Cruiser body on grounded supports. Unfinished broad wheel arches, human scale and recognisable long tapered body; one worker checks a plain drawing with no readable text. Cropped industrial setting rather than invented factory signage or precise facility architecture. No completed vehicle duplicated in background, no sparks covering everything, no modern robotic welder.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D03_AUTO_PDF_PAGE_021_300DPI.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH07_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG03.png",
+    "sha256": "ee11d22ec1a4b922ee9891bcc36d2a9242f77d4bbc554ac6fe7c899db448a098",
+    "claim_ids": [
+      "C008",
+      "C009",
+      "C010",
+      "C011",
+      "C012"
+    ],
+    "source_requirements": [
+      "D03",
+      "G01",
+      "NEED_FREE_CONSTRUCTION_PHOTO"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG04",
+    "paragraph_ids": [
+      "A03-P03"
+    ],
+    "title": "Electric drive and hydraulics",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Informative original mechanical cutaway of one huge smooth Snow Cruiser wheel, its electric motor/hub and hydraulic lifting linkage under the vehicle body. A restrained ghosted view suggests the body and diesel-generator equipment, without pretending to reproduce an exact wiring schematic. Clearly separate the electric drive from hydraulic wheel positioning; do not invent chains driving the main wheels, battery packs or modern disc brakes. No arrows or labels.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "FUNCTIONAL PRINCIPLE ONLY",
+        "file": "REFERENCES/D03_AUTO_PDF_PAGE_021_300DPI.png"
+      },
+      {
+        "role": "WHEEL-HUB OBJECT APPEARANCE ONLY; IGNORE DUAL AXLE AND ANTARCTIC SETTING",
+        "file": "REFERENCES/PH04_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG04.png",
+    "sha256": "e44ed816329ee504665d1381140a88a5dfdba1c73d0c9ee600719bcd9c89f6c8",
+    "claim_ids": [
+      "C014",
+      "C015"
+    ],
+    "source_requirements": [
+      "ENG40",
+      "G02"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG05",
+    "paragraph_ids": [
+      "A03-P04"
+    ],
+    "title": "Proposed crevasse crossing front phase",
+    "prompt": "STRICT MECHANICAL GEOMETRY: exactly four MAIN wheels total, a single front axle pair and a single rear axle pair, ONLY TWO MAIN WHEEL POSITIONS on the visible side; no tandem axles. Preserve the long low body proportions, ignore printed plane and interior. One intact exterior vehicle only, no internal room cutaway. Depict a conceptual proposed sequence, not a successful historical event. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Schematic side-view drawing of Snow Cruiser proposed body-as-bridge crossing, not a reenactment of a successful expedition crossing. Front faces right, long front overhang reaches the opposite snow lip while front wheels retract and body rests on the lips; rear wheels remain on departure side. One vehicle only. A narrow conceptual fissure, no surveyed glacier or dimension marks. Show physical contact and load transfer clearly; no floating tyres or impossible suspension.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D03_AUTO_PDF_PAGE_021_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG05.png",
+    "sha256": "44e83052b4f40938064c052bd78c24d4d62a9516cb1440ebac1e58dc4fdedf83",
+    "claim_ids": [
+      "C016"
+    ],
+    "source_requirements": [
+      "G02"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG06",
+    "paragraph_ids": [
+      "A03-P05"
+    ],
+    "title": "Proposed crossing rear phase",
+    "prompt": "STRICT MECHANICAL GEOMETRY: exactly four MAIN wheels total, a single front axle pair and a single rear axle pair, ONLY TWO MAIN WHEEL POSITIONS on the visible side; no tandem axles. Preserve the long low body proportions, ignore printed plane and interior. One intact exterior vehicle only, no internal room cutaway. Depict a conceptual proposed sequence, not a successful historical event. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Same conceptual side-view crossing family, front faces right. Snow Cruiser front wheels have reached firm snow on the far side, rear wheels retract so the belly can bridge the remaining gap and the front wheels pull forward. One coherent vehicle, four wheel positions with retracted pair partly hidden. This is the proposed design sequence only, never proof it occurred. No completed heroic Antarctic crossing, no dimension digits.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D03_AUTO_PDF_PAGE_021_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG06.png",
+    "claim_ids": [
+      "C017"
+    ],
+    "source_requirements": [
+      "G02"
+    ],
+    "sha256": "ec049dae1247ef4630fb499603914445c80e62eb7e7ce8722a6c4e6c4685dd6c",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG07",
+    "paragraph_ids": [
+      "A03-P07",
+      "A04-P10"
+    ],
+    "title": "Chicago control trial",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: 1939 Snow Cruiser cab seen obliquely through its broad windows: driver coordinating separate period mechanical controls while a colleague watches wheel response outside on a Chicago street. Vehicle stationary during an adjustment, enormous smooth tyre visible at edge. Human concentration and cramped control work, not a glamorous cockpit. No invented brand plates, modern steering console, exact street address or recognisable fabricated portrait.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL06_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/OSU_UPPER_SANDUSKY_1939.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG07.png",
+    "sha256": "295ff78fe93628e0f61690ef986f193f06fb45948db56b30882474996fcdbf43",
+    "claim_ids": [
+      "C015"
+    ],
+    "source_requirements": [
+      "NEED_ROAD_ARCHIVE"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG08",
+    "paragraph_ids": [
+      "A04-P08"
+    ],
+    "title": "Grant Park demonstration",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Wide 1939 Chicago public park demonstration reconstruction. One Snow Cruiser on open level ground, broadside three-quarter view so the giant wheels and raised body are readable; modest spectators in period coats at a safe distance. Convey testing of wheel positioning through visible mechanical clearance, not ghost duplicates, arrows or tyre smoke. No modern skyline landmarks, no claim to reproduce an exact historical photograph.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL06_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/OSU_UPPER_SANDUSKY_1939.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG08.png",
+    "sha256": "f40ee593bcac1a658062d21f7842376bd3cffca57c1cc98648ddfd214ac5726a",
+    "claim_ids": [],
+    "source_requirements": [
+      "NEED_GRANT_PARK_ARCHIVE"
+    ],
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG09",
+    "paragraph_ids": [
+      "A04-P01"
+    ],
+    "title": "Sand dune trial",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: 1939 Snow Cruiser cautiously traversing a modest uneven sandy dune near Chicago. Huge smooth tyres press into loose sand; slightly uneven chassis attitude illustrates wheel and frame testing. Workers stand on firm sand watching. No Antarctic snow, no giant desert cliffs, no successful endurance-test implication, no wheels airborne.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL06_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/OSU_UPPER_SANDUSKY_1939.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG09.png",
+    "claim_ids": [
+      "C018"
+    ],
+    "source_requirements": [
+      "NEED_DUNE_ARCHIVE"
+    ],
+    "sha256": "5039a139e1727252ad7954a0430f32f5d402454eba6eccbed6f0e282836a7f8b",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG10",
+    "paragraph_ids": [
+      "A04-P03",
+      "A04-P04"
+    ],
+    "title": "Public road journey",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Snow Cruiser travelling slowly along a narrow late-1930s American road, dwarfing a few period cars. Small roadside crowd, one police escort in period uniform. Wide composition with coherent road width and vehicle scale. No modern traffic markings, SUVs, town signs, invented newspaper headlines, dramatic collision or identifiable fake location.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL03_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/OSU_UPPER_SANDUSKY_1939.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG10.png",
+    "claim_ids": [
+      "C019",
+      "C020",
+      "C021"
+    ],
+    "source_requirements": [
+      "BPL03",
+      "NEED_OHIO_CRASH_SOURCE",
+      "OSU_P01"
+    ],
+    "sha256": "b20363f9c112382986babd87b82747eeab765bcc29c8bb49d401d8117032f5e1",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG11",
+    "paragraph_ids": [
+      "A04-P04"
+    ],
+    "title": "Ohio creek accident",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Restrained reconstruction of Snow Cruiser after leaving a narrow rural bridge near Gomer, Ohio: its forward end down toward shallow Pike Run Creek, rear portion on the approach. Convey awkward grounded weight and restricted space rather than a flying vehicle or catastrophic wreck. No casualties, fire, destroyed village, invented date signage or claimed exact bridge architecture. Period work clothes and autumn rural landscape.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL06_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/OSU_UPPER_SANDUSKY_1939.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG11.png",
+    "claim_ids": [
+      "C020",
+      "C021"
+    ],
+    "source_requirements": [
+      "NEED_OHIO_CRASH_SOURCE"
+    ],
+    "sha256": "de3748a653b27f56dea12c686ec2a22f91faae9de6849f66cdce5561c9a6d71b",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG12",
+    "paragraph_ids": [
+      "A04-P05"
+    ],
+    "title": "Hydraulic recovery",
+    "prompt": "RECOVERY MECHANISM: lifting/levelling is through the vehicle wheel hydraulic mechanisms. Do not invent vertical RV stabilizer legs or freestanding body-mounted landing jacks. Crew repairs near wheel linkage, with body brought toward level. PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Same Ohio creek-recovery setting, grounded Snow Cruiser brought closer to level by its own jacking system. Crew works beside a wheel linkage and supports on the bank; clear distinction between lifting/levelling and final reversing. No crane lifting the entire machine, no invented huge rescue equipment, no claim this depicts an exact photograph. Leave vehicle undamaged except ordinary mud and recovery difficulty.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL06_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/D03_AUTO_PDF_PAGE_021_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG12.png",
+    "claim_ids": [
+      "C022"
+    ],
+    "source_requirements": [
+      "NEED_OHIO_RECOVERY_SOURCE"
+    ],
+    "sha256": "a43dc2574e3f48d147c1b7ce60005a0a33973c5da5aa1ecb9eb0709c0d7bc354",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG13",
+    "paragraph_ids": [
+      "A04-P09"
+    ],
+    "title": "Road motor repairs",
+    "prompt": "Create one16:9 original editorial reconstruction in the approved G07 ink/charcoal/watercolor style: tight close view of 1939 Snow Cruiser wheel-motor repair. One open hub and two period mechanics with a removed cylindrical electric motor on wood blocks; only fragments of the vehicle body, all other axles outside the composition. Smooth balloon rubber, no dual-wheel cue, no snow, aircraft or modern clothing. No exact proprietary motor blueprint implied. Quiet lower margin where feasible. No words, fake markings, logos, dates, arrows, numbers, boxes, accents, plates or stamps. Reference PH04 is only for general wheel-hub appearance, not the Antarctic modification or exact repair event. Preserve visible authored illustration rather than fake archival photography.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "HUB APPEARANCE ONLY; IGNORE OTHER AXLE/MODIFICATION",
+        "file": "REFERENCES/PH04_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG13.png",
+    "claim_ids": [],
+    "source_requirements": [
+      "NEED_ROAD_REPAIR_SOURCE"
+    ],
+    "sha256": "6bccda6cf0b11f05170f8acd0cc3f38947ed484d8eb38c459ef27baa56115ac4",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG14",
+    "paragraph_ids": [
+      "A04-P06"
+    ],
+    "title": "Tail removed for loading",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: 1939 Boston dock reconstruction: recognisable Snow Cruiser beside an expedition cargo ship, the removable rear cargo section separated on low blocks close to the main body, making the shortened body legible. Keep cab/front at right and detached tail aligned behind left. Workmen provide scale. No severed passenger cabin, no container terminal, no fabricated ship name or port signage.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL02_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL04_FULL_RESEARCH_ONLY.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG14.png",
+    "claim_ids": [
+      "C023"
+    ],
+    "source_requirements": [
+      "BPL02",
+      "C01"
+    ],
+    "sha256": "d457f7cd0f2270abdac8b2826735ba711bc425f8a16496070617b1fbba436cab",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG15",
+    "paragraph_ids": [
+      "A04-P11"
+    ],
+    "title": "Tide permits boarding",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. IMPORTANT HISTORICAL CONTEXT: mainland United States, autumn 1939. No Antarctic environment, no snow or ice on ground or vehicle. Roof has NO AIRCRAFT: do not transfer the planned airplane from published layout reference into a road-trial or dock scene. No polar clothing. Follow the vehicle photograph silhouette, do not copy its snowy setting. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: 1939 dock and cargo-ship deck at nearly matching heights, Snow Cruiser cautiously boarding across a short broad solid connection. Cropped ship architecture, workers guiding from sides; body kept grounded and wheel placement credible. Tail travels separately, do not restore it on the vehicle. No Antarctic ramp collapse here, no huge airborne crane lift, no modern harbour equipment.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL02_FULL_RESEARCH_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/BPL04_FULL_RESEARCH_ONLY.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG15.png",
+    "claim_ids": [],
+    "source_requirements": [
+      "C01"
+    ],
+    "sha256": "cd8f287bc86392d470a8880471b2585bc9431c77936a6afe88c3337e2fbb43ef",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG16",
+    "paragraph_ids": [
+      "A05-P04"
+    ],
+    "title": "Planks on soft snow",
+    "prompt": "PERIOD CONFIGURATION LOCK: four main smooth balloon tyres only, one front pair and one rear pair. No dual tyres; the Antarctic spare-tyre modification has not happened yet. No deep agricultural/chevron tread. Reference photographs describe the object, not the exact event or scene framing. Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Antarctic Snow Cruiser moving very slowly onto a modest snow incline, crew laying short wooden planks across soft snow directly under the wheel paths. Foreground tyre bears on planks, next few planks being positioned by bundled crew. Show a limited assisted stretch, not an endless road or railway. No numerical length label, no miraculous escape, no tractor towing it, no bright modern parkas.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/PH09_1920px.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/PH10_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG16.png",
+    "claim_ids": [
+      "C028"
+    ],
+    "source_requirements": [
+      "NEED_PLANK_SOURCE"
+    ],
+    "sha256": "4279a1a650e9ebcabbeb5d404029902b88645f03a27177c9b1fd4acf05db1061",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG17",
+    "paragraph_ids": [
+      "A06-P06"
+    ],
+    "title": "Snow support versus tyre strength",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Close low-angle educational scene of one huge smooth Snow Cruiser balloon tyre sinking into compressible snow under a heavy body. Visible compressed snow and shallow rut explain support; intact tyre is carrying the machine. Original ink-and-watercolor conceptual ground section local to the contact patch, no exact stress field or pressure measurement. No arrows, fabricated failure cracks, numbers, graph or exploding tyre.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH04_1920px.jpg"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D02_USACE_PDF_PAGE_034_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG17.png",
+    "claim_ids": [
+      "C029"
+    ],
+    "source_requirements": [
+      "G03"
+    ],
+    "sha256": "63fc43a8d52a053159954f46b5f2142f8fbb6eb556382915b3195cf858560fd5",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG18",
+    "paragraph_ids": [
+      "A06-P03",
+      "A06-P05"
+    ],
+    "title": "Shared tyre mold different wheel loads",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Original illustrated engineering study, two comparable large balloon tyres as objects in one coherent plain workshop-space composition. Same outer tyre shape/mold family but different supported vehicle burdens indicated by a light marsh-vehicle chassis fragment and a much heavier Snow Cruiser chassis fragment; avoid invented marsh vehicle full geometry. Rich material and contact detail, ample calm space for later exact native labels. No generated bars, weights, numbers, handwritten report text or forged report page. It explains a retrospective comparison, not a contemporary side-by-side experiment.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D02_USACE_PDF_PAGE_034_300DPI.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D02_USACE_PDF_PAGE_054_300DPI.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH04_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG18.png",
+    "claim_ids": [
+      "C030",
+      "C031",
+      "C032",
+      "C033"
+    ],
+    "source_requirements": [
+      "D02",
+      "ENG40",
+      "G03"
+    ],
+    "sha256": "eba772150f9ae9bae435dbf0c8d71d02728959898ef4e8e4a6638db50318f0bf",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG19",
+    "paragraph_ids": [
+      "A07-P01"
+    ],
+    "title": "Dual front tyres rear chains",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Snow Cruiser in Antarctica, front faces right, near broadside three-quarter angle. Show spare tyres mounted alongside the front pair, with chains on rear tyres. Follow the real modification photograph for which axle is doubled; do not duplicate rear wheels or add tracks. Crew inspects modification, no vigorous successful travel. Keep the whole front/rear relationship legible in a single scene.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/FR86_FIG05_REFERENCE_ONLY.jpg"
+      },
+      {
+        "role": "CONTENT: OBJECT GEOMETRY/CONTEXT ONLY; NOT EXACT EVENT OR PUBLICATION CLEARANCE",
+        "file": "REFERENCES/PH04_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG19.png",
+    "claim_ids": [
+      "C035",
+      "C036"
+    ],
+    "source_requirements": [
+      "FR86FIG5",
+      "G04"
+    ],
+    "sha256": "4019b24ab9975b3ced476ea138a6cdadb545ce83311e7d02aaa9726639a8b04b",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG20",
+    "paragraph_ids": [
+      "A07-P02"
+    ],
+    "title": "Pressure and drive experiments",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Close reconstruction of crew beside a Snow Cruiser tyre with wrinkled sidewall and a period air-line fitting while another man studies the mechanical drive controls near the open access hatch. Depict experimentation and uncertainty, not a calibrated cure. No readable pressure gauge, PSI/kPa value, modern compressor, recipe or diagram arrows. Tyre remains attached and realistically supports load.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH04_1920px.jpg"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH03.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG20.png",
+    "claim_ids": [
+      "C034",
+      "C037"
+    ],
+    "source_requirements": [
+      "G04"
+    ],
+    "sha256": "62a749fc91de8a7ad208debd6b0bb162b80d7a79d5a19e5d30ff5fc718927e89",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG21",
+    "paragraph_ids": [
+      "A08-P04"
+    ],
+    "title": "Science in ice laboratory",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Antarctic scientists in a separate modest ice laboratory cutting and weighing layered snow samples through an opening in its floor. A period balance, simple sample containers and a cut snow wall explain practical work; notebooks have indistinct blank surfaces, no invented results or legible records. Clearly NOT inside the Snow Cruiser: no vehicle walls, wheels or engine. Restrained human activity rather than a futuristic laboratory.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH07_1920px.jpg"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG21.png",
+    "claim_ids": [
+      "C044",
+      "C045"
+    ],
+    "source_requirements": [
+      "GL47",
+      "NEED_SCIENCE_SOURCE"
+    ],
+    "sha256": "de28eba92ad27192b665b0ccfa7255b90c6bc27ac12aa8220039399ea8c5b54c",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG22",
+    "paragraph_ids": [
+      "A08-P07",
+      "A09-P04",
+      "A10-P07"
+    ],
+    "title": "1958 excavation",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Visibly drawn interpretive reconstruction of visitors excavating a pit down to the buried Snow Cruiser in 1958. Show only a limited exposed upper body/hatch and snow steps, with the enormous vehicle mostly hidden beneath snow. Period cold-weather clothes, shovels, no recognisable fictional portraits. No full pristine vehicle displayed in a giant theatrical cavern, no visible ocean or invented exact burial depth, no claim of a discovered wreck. Wider quiet snow surrounds the small work area.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/PH11_1920px.jpg"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D04_SCAMBOS_PDF_PAGE_008_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG22.png",
+    "claim_ids": [
+      "C046",
+      "C047",
+      "C051",
+      "C053",
+      "C054"
+    ],
+    "source_requirements": [
+      "G05",
+      "SC05"
+    ],
+    "sha256": "3ba156581a7cf71a7676f1a9c08ff173a9baf79e4ba02e1714d8d688fdd1cec2",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG23",
+    "paragraph_ids": [
+      "A09-P06",
+      "A09-P07",
+      "A10-P01"
+    ],
+    "title": "Changing ice shelf conceptual geography",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Oblique conceptual view of a flat Antarctic ice shelf meeting a dark sea, with a large broad shelf-front block separating naturally along a fracture. Calm accurate shelf geometry, no mountainous glacier or erupting cliff. This is non-surveyed explanatory geography: do not copy the research paper map, draw a surveyed coastline, invent coordinates, label dates, or place a visible Snow Cruiser on a specific berg. Space for later native dated-location overlays remains clear.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D04_SCAMBOS_PDF_PAGE_008_300DPI.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D04_SCAMBOS_PDF_PAGE_014_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG23.png",
+    "claim_ids": [
+      "C047",
+      "C052",
+      "C053"
+    ],
+    "source_requirements": [
+      "G05",
+      "SC05"
+    ],
+    "sha256": "c67472e43f500069fb2d4526cfa4c777bf0f8e407adaa462ae75cc9754aee7d5",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG24",
+    "paragraph_ids": [
+      "A10-P09"
+    ],
+    "title": "1963 iceberg clue",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Wide conceptual illustration of an Antarctic tabular iceberg carrying a few small weathered fragments of old station timber near its upper surface, based only on the historical mention of Little America station remnants. No Snow Cruiser or vehicle shape anywhere. Nothing suggests this particular berg carried the Cruiser. Sparse dark sea, subdued watercolor, no fabricated expedition photograph, coordinate, route arrow or title.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D04_SCAMBOS_PDF_PAGE_014_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG24.png",
+    "claim_ids": [],
+    "source_requirements": [
+      "G05"
+    ],
+    "sha256": "16b9395b4e788cc18ddf0575e73ab0347d997554738a7a0a8ad06e7153ceabf9",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "SCG25",
+    "paragraph_ids": [
+      "A10-P03"
+    ],
+    "title": "Unknown final resting place",
+    "prompt": "Create ONE 16:9 landscape documentary illustration for VIDEO010 Antarctic Snow Cruiser. Style reference G07 is STYLE ONLY: approved Camp Century hand-drawn ink contours, charcoal texture, restrained watercolor on warm off-white, human-scale engineering details; do not copy its tunnels or words. Other references are CONTENT ONLY: use facts and subject proportions, not photographic framing or protected printed page artwork. This is a visibly drawn editorial reconstruction or conceptual explanation, never archival evidence. A single coherent informative composition, not a poster, dossier, blank card, collage or grid. Keep important action in upper/middle 80 percent and lower 20 percent visually quiet. No text, numbers, labels, UI, watermark, job ID, illustration caption, fake signatures/stamps, red/yellow emphasis, arrows, boxes, selection rings, highlights or graph overlays. Editorial wording and emphasis will be added later as separate Fusion layers. No photorealistic render, generic 3D CGI, modern equipment or invented precision. Scene: Quiet conceptual Antarctic seascape with a broad ice-shelf edge above dark water; a restrained translucent water cutaway shows an EMPTY indistinct seabed below. No recovered vehicle, no vehicle silhouette under ice, no treasure marker, no sonar trace or invented depth. Emphasize that the final location is unknown through empty uncertain space rather than depicting an alleged wreck. Visibly authored ink/charcoal/watercolor drawing, not satellite evidence.",
+    "references": [
+      {
+        "role": "STYLE ONLY",
+        "file": "REFERENCES/G07_REVISED_R2.png"
+      },
+      {
+        "role": "CONTENT REFERENCE ONLY",
+        "file": "REFERENCES/D04_SCAMBOS_PDF_PAGE_014_300DPI.png"
+      }
+    ],
+    "status": "GENERATED",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "output": "IMAGES/SCG25.png",
+    "claim_ids": [
+      "C055"
+    ],
+    "source_requirements": [
+      "G05"
+    ],
+    "sha256": "91507cb1b9bc12adadcf3a0e1d161f32306180bf45753dae0ef3ed294c243c64",
+    "factual_scope": "Interpretive reconstruction or conceptual explanation, not archival proof or exact manufacturing geometry",
+    "text_accents": "NONE_BAKED",
+    "subtitle_safe": "Final crop registration pending; no subtitles added",
+    "width": 1672,
+    "height": 941
+  }
+]

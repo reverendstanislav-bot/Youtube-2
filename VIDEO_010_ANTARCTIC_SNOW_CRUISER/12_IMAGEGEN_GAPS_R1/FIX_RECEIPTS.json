@@ -1,0 +1,90 @@
+[
+  {
+    "id": "SCG05",
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-88e247c4-3f5e-406a-a2a0-c5f4b0182f55.png",
+    "prompt": "Create the complementary EARLIER phase of this same proposed Snow Cruiser crossing concept, retaining its exterior body, cab at right, side view, restrained ink/charcoal/watercolor style and 16:9 composition. One vehicle, exactly FOUR main wheels total, only TWO wheel positions visible in this strict side view; far-side wheels occluded. The vehicle is moving toward the right. Shift the conceptual gap so it lies beneath the front/right overhang. The front/right wheel is retracted UP into its wheel housing at the near lip, while the long forward body overhang rests on the far/right snow lip. Rear/left wheel is extended on firm snow on the departure bank, providing the push. Belly touches the lips, vehicle cannot float. No interior-room cutaway, no extra axles or extra wheel at the cab. All tyres must be broad smooth balloon tyres with NO chevron or agricultural tread. This is an explanatory drawing of a PROPOSED method, not evidence it was performed; do not add any wording, dimension, arrows, boxes or highlighting. Use published description only for the mechanical principle, do not copy the printed page.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG06.png",
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\REFERENCES\\D03_AUTO_PDF_PAGE_021_300DPI.png"
+    ],
+    "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG05_v2.png",
+    "sha256": "44e83052b4f40938064c052bd78c24d4d62a9516cb1440ebac1e58dc4fdedf83",
+    "provider": "builtin_image_gen",
+    "time_utc": "2026-11-03T13:47:16.667866+00:00"
+  },
+  {
+    "id": "SCG06",
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-e3c33696-10aa-47b7-8897-7f391311d2cb.png",
+    "prompt": "Precise small edit ONLY: remove every chevron, block or agricultural tread lug from the tyres of this drawn Snow Cruiser. Replace with smooth balloon tyre rubber. Preserve the cab, body, correct two visible axle stations, retracted rear wheel, extended front wheel, snow-bank contact, gap, composition and ink-watercolor treatment exactly. Four main wheels total with two far-side occluded. Do not add wheels, change phase, add text, labels, marks, arrows or plates. Preserve 16:9.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG06.png"
+    ],
+    "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG06_v2.png",
+    "sha256": "ec049dae1247ef4630fb499603914445c80e62eb7e7ce8722a6c4e6c4685dd6c",
+    "provider": "builtin_image_gen",
+    "time_utc": "2026-11-03T13:48:06.868550+00:00"
+  },
+  {
+    "id": "SCG11",
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-56e41537-95de-49df-b415-20fd667227bc.png",
+    "prompt": "Precise edit ONLY to this existing Ohio creek accident reconstruction: replace the visibly deep chevron tractor tyre treads with smooth broad balloon tyres as on historical vehicle reference2. Preserve all other composition, period people, rural creek, bridge, damaged-road posture, body and cab, autumn ground and ink/charcoal/watercolor treatment. Four main wheels, no dual tyres. No plane or snow. Do not copy the reference photo framing, caption or paint colour; preserve the existing limited watercolor study palette. No words, labels, numbers, arrows, outlines or stamps.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG11.png",
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\REFERENCES\\OSU_UPPER_SANDUSKY_1939.jpg"
+    ],
+    "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG11_v2.png",
+    "sha256": "de3748a653b27f56dea12c686ec2a22f91faae9de6849f66cdce5561c9a6d71b",
+    "provider": "builtin_image_gen",
+    "time_utc": "2026-11-03T13:49:04.875827+00:00"
+  },
+  {
+    "id": "SCG12",
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-4669d1d5-b8e4-4cf9-8eb5-1508e96839c5.png",
+    "prompt": "Correct only the engineering/configuration defects in this 1939 recovery illustration. Reference2 is vehicle/configuration research ONLY, not a composition to copy. Before Antarctica the Snow Cruiser has FOUR smooth balloon tyres total, one pair per axle: remove the EXTRA outer near-front tyre currently at the right, leaving a single front tyre on that side; preserve the ordinary rear tyre. REMOVE the invented vertical RV stabilizer legs/jacks dropping from the body onto ground blocks. Its hydraulic lifting works through the wheel positioning linkages INSIDE the wheel arches; show those mechanical arms, not invented support legs. Keep crew repairing the hydraulic wheel linkage beside the creek and machine brought toward level on the bank; preserve coherent grounded weight. Do not show a new crane, separate lifting machine, dual wheel conversion or tread lugs. Preserve existing artwork style, setting and people. No text, arrows, callout boxes, plates, highlights or stamps. 16:9.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG12.png",
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\REFERENCES\\BPL06_FULL_RESEARCH_ONLY.jpg"
+    ],
+    "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG12_v2.png",
+    "sha256": "a43dc2574e3f48d147c1b7ce60005a0a33973c5da5aa1ecb9eb0709c0d7bc354",
+    "provider": "builtin_image_gen",
+    "time_utc": "2026-11-03T13:50:13.946802+00:00"
+  },
+  {
+    "id": "SCG13",
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-149d8b06-ae8e-42f3-a56d-4dee472b151c.png",
+    "prompt": "Precise edit: this is a 1939 road wheel-motor repair BEFORE Antarctic experiments. Remove the extra outer tyre from the doubled FRONT wheel arrangement at image right. It must have one smooth tyre per wheel position, FOUR main tyres total, no dual conversion. Preserve the open near wheel-motor/hub illustration, mechanics, tools, grounded supports, autumn setting and consistent ink/charcoal/watercolor style. Reference2 is historical wheel-hub object research only; do not reproduce the photo, its person or framing. No added words, dimensions, arrows, highlights, plates or watermarks. Preserve 16:9.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG13.png",
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\REFERENCES\\BPL01_FULL_RESEARCH_ONLY.jpg"
+    ],
+    "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG13_v2.png",
+    "sha256": "b14520aae2ccd765ca4bc26d06de477c58f639afc20cefabf498be8d76fff206",
+    "provider": "builtin_image_gen",
+    "time_utc": "2026-11-03T13:51:21.472930+00:00"
+  },
+  {
+    "id": "SCG18",
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-f00fc6d5-4397-4b55-a228-7adc392efe9d.png",
+    "prompt": "Correct the educational comparison in this ink-and-watercolor workshop illustration. The two tyres come from the SAME MOLD FAMILY and must visibly have the SAME OUTSIDE DIAMETER, same broad balloon shape, same apparent size and same ground plane. Recompose into a readable near-orthographic side-by-side object study so perspective cannot make the light-vehicle tyre smaller. The supported chassis fragments may differ in burden, but do not invent a precise marsh vehicle design or a historical side-by-side test. No snow or ice in this conceptual workshop. Keep one small period mechanic for scale if needed, quiet cream/charcoal watercolor surroundings and bottom20percent calm. Absolutely no generated numbers, weights, bars, labels, reports, fake documents, arrows, highlights, boxes, job IDs or text. Reference2 provides the factual comparison only, not artwork to reproduce. Future separate Fusion layers will supply the exact quantitative values. 16:9.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG18.png",
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\REFERENCES\\D02_USACE_PDF_PAGE_034_300DPI.png"
+    ],
+    "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\IMAGES\\SCG18_v2.png",
+    "sha256": "eba772150f9ae9bae435dbf0c8d71d02728959898ef4e8e4a6638db50318f0bf",
+    "provider": "builtin_image_gen",
+    "time_utc": "2026-11-03T13:52:03.445742+00:00"
+  },
+  {
+    "id": "SCG13",
+    "prompt": "Recompose this drawn 1939 Snow Cruiser motor-repair scene into a TIGHT CLOSE SHOT of ONLY the nearest open wheel hub, two mechanics and the removed electric motor resting on wooden blocks in the foreground. The entire FRONT AXLE AND ALL OTHER WHEELS MUST BE OUTSIDE THE FRAME. Exactly ONE smooth balloon-tyre wheel is visible, its lower rubber can be partially cropped. Keep the open hub as an interpretive mechanical illustration, not an exact engineering blueprint. Preserve the period mechanics, tools and beautiful restrained ink/charcoal/watercolor study palette, autumn roadside context only as a small indistinct background. No snow, aircraft, extra axle, second tyre, dual tyres, readable GE lettering, text, dimensions, boxes, arrows, labels, watermarks or highlights. One coherent landscape16:9 close composition. This change must remove the inappropriate early dual-wheel cue completely through deliberate close framing; do not leave the doubled front wheels visible at the right edge.",
+    "refs": [
+      "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_GAPS_R1\\VARIANTS\\SCG13_v2.png"
+    ],
+    "src": "C:\\Users\\KK\\.codex\\generated_images\\01a10828-c285-7d81-b905-61f557e077f0\\exec-e447437c-adca-4cb6-9570-03c79af8347c.png",
+    "output": "IMAGES/SCG13.png",
+    "qc": "PASS_VISUAL_EDITORIAL_ILLUSTRATION_OWNER_REVIEW_PENDING",
+    "sha256": "6bccda6cf0b11f05170f8acd0cc3f38947ed484d8eb38c459ef27baa56115ac4"
+  }
+]
