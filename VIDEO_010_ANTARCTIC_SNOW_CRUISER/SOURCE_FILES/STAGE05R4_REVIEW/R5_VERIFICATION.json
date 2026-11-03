@@ -1,0 +1,17 @@
+{
+  "status": "STRUCTURAL_PASS_EDITORIAL_OWNER_REVIEW_PENDING",
+  "english_words": 2531,
+  "russian_words": 2127,
+  "paired_ids": 72,
+  "acts": 10,
+  "source_crosswalk_rows": 72,
+  "earlier_scripts_hash_verified": true,
+  "spoken_ctas": 2,
+  "visual_like_seconds": 3,
+  "endscreen_seconds": 20,
+  "voice_pace_measured": false,
+  "script_lock": false,
+  "no_new_historical_event": true,
+  "media_holds_preserved": true,
+  "no_production_started": true
+}

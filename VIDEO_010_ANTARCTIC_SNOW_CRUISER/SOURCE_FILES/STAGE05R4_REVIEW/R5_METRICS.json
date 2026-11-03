@@ -1,0 +1,34 @@
+{
+  "english_words": 2531,
+  "russian_words": 2127,
+  "paragraphs": 72,
+  "acts": 10,
+  "r4_words": 2592,
+  "english_delta": -61,
+  "word_rule": "Bracketed paragraph bodies only;internal hyphens/apostrophes count as part of word.",
+  "explicit_nonvoice_seconds": 20,
+  "actual_harrison_pace": null,
+  "actual_runtime": null,
+  "runtime_scenarios": [
+    {
+      "wpm": 125,
+      "seconds": 1234.88
+    },
+    {
+      "wpm": 135,
+      "seconds": 1144.889
+    },
+    {
+      "wpm": 140,
+      "seconds": 1104.714
+    },
+    {
+      "wpm": 145,
+      "seconds": 1067.31
+    },
+    {
+      "wpm": 150,
+      "seconds": 1032.4
+    }
+  ]
+}
