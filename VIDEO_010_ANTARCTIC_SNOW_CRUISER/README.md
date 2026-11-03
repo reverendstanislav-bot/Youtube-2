@@ -1,8 +1,25 @@
+# VIDEO010 - current R3 review package
+
+**R3 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. NO SHORTS.** Latest task:Stage05R.2. PriorR2 preserved at7131d28.
+
+- [EnglishR3](05_SCRIPT_R3_EN.md)
+- [Full RussianR3](05_SCRIPT_R3_RU.md)
+- [Retention audit and limitations](05R2_RETENTION_AUDIT.md)
+- [CTA strategy](05R2_CTA_STRATEGY.md)
+- [CTA placement](05R2_CTA_PLACEMENT.csv)
+- [Prepared pinned comment; NOT posted](05R2_PINNED_COMMENT.md)
+- [End-screen transition](05R2_END_SCREEN_TRANSITION.md)
+- [Minute-by-minute QC](05R2_MINUTE_BY_MINUTE_QC.csv)
+
+1915EN/1621RU words. Two voiced CTAs. Conditional14:35.7 at140wpm+55sec; previous18-20min target not met. Actual Harrison/source/media/owner gates remain. No TTS,generation,render or posting.
+
+## Historical records below
+
 # VIDEO010 - Antarctic Snow Cruiser
 
-> CURRENT: STAGE05R COMPLETE / SCRIPT LOCK HOLD. R1 REJECTED. Read latest owner task in SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md. No automatic production. LATEST OWNER CORRECTION: NO SHORTS, including concepts.
+> Historical Stage05R record: COMPLETE / SCRIPT LOCK HOLD. R1 REJECTED. Read latest owner task in SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md. No automatic production. LATEST OWNER CORRECTION: NO SHORTS, including concepts.
 
-## Active R2 deliverables
+## Preserved R2 deliverables
 
 - [Full English script](05_SCRIPT_R2_EN.md)
 - [Full Russian translation](05_SCRIPT_R2_RU.md)

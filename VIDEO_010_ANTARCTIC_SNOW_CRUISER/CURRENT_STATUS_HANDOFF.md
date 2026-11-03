@@ -1,18 +1,14 @@
-# VIDEO010 current handoff - Stage05R
-Updated2026-11-02. Source baseline: origin/main cf80d82207ff8358729f31cd8650826fb945d0cd. Working branch:codex/video010-stage05r.
+# VIDEO010 current handoff - Stage05R.2 R3
+Updated2026-11-02. Latest R2 baseline fetched from origin/codex/video010-stage05r:7131d28c3aa0486ff7b8753f1c08fb1c1bec507c. origin/main still containsR1 atcf80d82. Work branch:codex/video010-stage05r2.
 
-STAGE05R COMPLETE / SCRIPT LOCK HOLD. Owner rejected R1; its files and hashes are preserved. Active full script:05_SCRIPT_R2_EN.md; full translation:05_SCRIPT_R2_RU.md.2520EN/2116RU words;10acts;70matched paragraph IDs.
+R3 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. Active:05_SCRIPT_R3_EN.md and05_SCRIPT_R3_RU.md. R1/R2 unchanged. NO SHORTS. BudgetUSD0. No TTS,generation,Resolve/render,Studio edits or pinned-comment posting.
 
-Read AGENTS.md, CHANNEL owner lock and SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md. The owner subsequently revoked ALL Shorts, including concepts. The episode is LONG-FORM ONLY. The Stage05R task selects Harrison for VIDEO010. No Shorts production, TTS, images/video, editing or render authorized by this stage. BudgetUSD0/free only.
+1915EN/1621RU words;61matched paragraphIDs;10acts. Eight outputs:two scripts,05R2_RETENTION_AUDIT.md,05R2_CTA_STRATEGY.md,05R2_CTA_PLACEMENT.csv,05R2_PINNED_COMMENT.md,05R2_END_SCREEN_TRANSITION.md,05R2_MINUTE_BY_MINUTE_QC.csv. Source/baseline/timing/crosswalk/verification files in SOURCE_FILES/STAGE05R2_REVIEW.
 
-Deliverables:05R_HOOK_AB_TEST.md;05R_RETENTION_MAP.csv;05R_CLAIM_SOURCE_LEDGER.csv;05R_EDITORIAL_QC.md;05R_VISUAL_REQUIREMENTS.md; EN/RU scripts above. Source index/access receipts and15-topic research findings in SOURCE_FILES/STAGE05R_RESEARCH.
+Two spoken CTA paragraphs:A04-CTA01 after road recovery (~05:11) andA10-CTA01 after emotional conclusion (~14:09). Like is3sec visual only; discussion question is prepared outside the film. Endscreen20sec voice-free:Subscribe+Specific Video sP67aPtpwKg (HIA Camp Century). Metadata/title/author currently confirmed by official oEmbed; published snapshot and repo script support identity/content. Direct full playback was bot-gated, so recheck at upload.
 
-R2 opens with unloading/ramp event; full load diagnosis is delayed toACT06. New events:1934 rescue; brief tests; road incidents/recovery; rear cargo-section removal; planks; dual fronts/chains; qualified spring comeback; concrete West Base research.
+R3 cuts605words fromR2, chiefly technical repetition and final recap. Conditional runtime at140wpm+55sec:14:35.7; range135-145wpm+45-65sec:13:57-15:16. Previous18-20min goal NOT met; do not invent padding. Harrison actual pace not measured.
 
-Historical holds:92mile reverse story/total mileage excluded; original Wade log/Poulter1977 account/Goldthwait1958 not acquired. R2 clearly attributes derivative accounts. Source agreement does not imply independent original witnesses.
+R2 canonical claim ledger unchanged; R3 paragraph crosswalk covers all61IDs. Original Wade/Poulter1977 and Goldthwait1958 access still HOLD.92mile reverse story excluded.0approved unique motion seconds; prior archive rights/quality holds unchanged.
 
-Archive holds unchanged:0approved unique moving-vehicle seconds. C01-C06/BPL and research sample still rights/quality HOLD. Newly downloaded research PDF/HTML/600x350Figure5 go in DOCUMENTS/STAGE05R_RESEARCH locally, not approved MEDIA. No full coverage or legal clearance claim.
-
-Runtime conditional:18:07.8-19:45 at135-145wpm with45-65sec non-speech including20sec future endscreen; nominal18:55 at140wpm+55sec. No measured/approved Harrison pace found. Runtime_actual=null.
-
-Next action: owner review R2 with factual/visual qualifications. No automatic Script Lock, voice, generation or montage.
+Next:owner review R3 with explicit length/source/visual qualifications. No automatic Script Lock,voice,generation,edit or publication.

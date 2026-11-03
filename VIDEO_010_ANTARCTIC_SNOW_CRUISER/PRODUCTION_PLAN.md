@@ -1,24 +1,21 @@
-# VIDEO010 production plan ? current Stage05R delivery
-Updated2026-11-02. Canonical sequence:CHANNEL/README.md; latest episode override:SOURCE_FILES/STAGE05R_RESEARCH/OWNER_TASK_STAGE05R.md. Stage05R name is explicitly assigned by this new owner task, not borrowed from another channel.
+# VIDEO010 current plan - Stage05R.2 R3
+Latest task:SOURCE_FILES/STAGE05R2_REVIEW/OWNER_TASK_STAGE05R2.md. Read episode AGENTS.md and HIA owner lock. NO SHORTS. BudgetUSD0.
 
-## Current state
-Antarctic Snow Cruiser. R1 REJECTED/preserved. STAGE05R COMPLETE / SCRIPT LOCK HOLD. Active R2 fullEN/RU with10acts,3hooks,20retention beats,64claim/source rows including8excluded/original-access holds,visual requirements. The latest owner correction excludes ALL Shorts including concepts.
-BudgetUSD0. No voice/image/video generation, Resolve edit or render started. No paid archive/service used.
-Owner duration target18-20min is conditional:2520EN words give nominal18:55 at140wpm+55sec; actual Harrison rate remains HOLD. No fixed upload schedule inferred.
+## Completed scope
+Current R2 fetched/checked from remote branch7131d28; origin/main remains olderR1cf80d82. R1/R2 preserved. All10acts audited and R3 rebuilt. Eight requested text deliverables complete:EN/RU,full retention audit,CTA strategy/placement,pinned-comment draft,end-screen transition,minute QC.
+R3:1915EN words,1621RU words,61matching paragraph IDs,2spoken CTAs. No extra voiced Like or Comment. Concrete previous-story target verified through current official metadata and repo content; playback bot gate retained as a limitation.
 
-## Completed text/research steps
-1. Read current origin/main, owner locks, previous locks, R1/current source ledgers; preflight contradictions recorded before R2 writing.
-2. Research15requested historical subjects using existing primary PDFs/photos and new free public sources. Scope/provenance/original-access limits recorded.
-3. Rebuild full narrative into10acts; translate all70paragraphs. Move load explanation toACT06, restore meaningful action rather than add repetitions.
-4. Compare3hooks; select broken-ramp opening. Map20turns with conditional timing.
-5. Textual fact/editorial QC; R1 hash preservation; output and EN/RU consistency checks. This is not audio/A-V or owner approval.
+## Current gate
+R3 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. Prior18-20min target is NOT met after removal of weak material. Nominal14:35.7 at provisional140wpm+55sec; actual Harrison pace unknown. Do not add empty scenes or repetitive narration.
 
-## Remaining gates in order
-6. Owner review and requested corrections toR2. Assess qualified diary/typewritten and1958 claims; original-access holds remain.
-7. Explicit final-script acceptance/lock; final voice text only after that actual decision. Do not generate anything automatically.
-8. Voice route/actual pace/ASR/timing under owner authorization and budgetUSD0. Current task selected Harrison but did not authorize TTS or establish a measured rate.
-9. Script-specific archive clearance and motion coverage.0approved unique moving-vehicle seconds remain; do not use stock/pseudoarchive or a repeated unloading sequence as substitute.
-10. Missing-visual classification and explanatory diagrams/maps; editable accents in Resolve/Fusion; exact text from verified records; no generic full-frame zoom/shake or opaque cards.
-11. Sound/edit/review/critic audit/full A-V QC/native upload master only after real prior outputs and authorization. Preserve20sec voice-free endscreen for Subscribe+one video inside runtime reserve. No auto-upload/publication.
+## Remaining work after actual owner direction
+1.Review R3 words,shorter duration,qualified historical sources and actual visual feasibility.
+2.Agreed revisions and explicit script acceptance/lock; no automatic approval.
+3.Final voice text/authorized voice route only after those gates. Current task prohibits TTS.
+4.Measure actual audio and recalculate paragraph/CTA/end-screen timing. Current planned times are not an audio lock.
+5.Resolve archive rights/quality and diverse motion coverage before montage readiness.0approved unique moving-vehicle seconds remain.
+6.Explanatory overlays/maps only where they clarify; original source text/editable accents; no generic zoom/shake or opaque cards.
+7.Native edit and real A/V review only when authorized and preceding outputs exist. Preserve20sec voice-free Subscribe+one actual previous-story video; recheck target in Studio before upload.
+8.Render/release/upload/comment posting require actual authorization; none performed here.
 
-NO SHORTS. The latest owner correction revokes the earlier four-concept request. The prepared concept file was removed before delivery; no Shorts voice, montage or publication exists.
+No Shorts concepts or production. R2 and its evidence are historical source files, not material to overwrite.

@@ -1,0 +1,73 @@
+{
+  "status": "R3_READY_FOR_OWNER_REVIEW_SCRIPT_LOCK_HOLD",
+  "words": {
+    "EN": 1915,
+    "RU": 1621
+  },
+  "r2_words": 2520,
+  "net_words_removed": 605,
+  "paragraphs_matched": 61,
+  "acts": 10,
+  "spoken_ctas": 2,
+  "spoken_cta_words": 31,
+  "minute_rows": 15,
+  "minute_map_covers_full_plan": true,
+  "cta_text_matches_both_scripts": true,
+  "voice_ends_before_native_end_screen": true,
+  "end_screen_voice_free_seconds": 20,
+  "planning_runtime_seconds": 875.714,
+  "rate_basis": "PROVISIONAL140WPM_NOT_MEASURED_HARRISON",
+  "prior_18_20_min_target": "NOT_MET_HOLD",
+  "source_claim_crosswalk_covers_all_paragraphs": true,
+  "R1_and_R2_preserved": true,
+  "shorts": false,
+  "TTS_or_generation_or_render": false,
+  "Resolve_or_Studio_modified": false,
+  "pinned_comment_posted": false,
+  "paid_operations": false,
+  "actual_Harrison_listening": false,
+  "full_A_V_review": false,
+  "owner_approved": false,
+  "files": [
+    {
+      "path": "05_SCRIPT_R3_EN.md",
+      "bytes": 13275,
+      "sha256": "47373900a80527b9899906924bf56cc07174df0c08b2658c35e73b65f1622dbf"
+    },
+    {
+      "path": "05_SCRIPT_R3_RU.md",
+      "bytes": 22544,
+      "sha256": "4a214751c1340b243049c815ce72a6436a38409332f901a0221e3366a622a8f7"
+    },
+    {
+      "path": "05R2_RETENTION_AUDIT.md",
+      "bytes": 21106,
+      "sha256": "bde2112e6ac6c45dd4ec5a03a84e8e343deb9034b9ca4b1a7be73c3c02b8d021"
+    },
+    {
+      "path": "05R2_CTA_STRATEGY.md",
+      "bytes": 9179,
+      "sha256": "89620cfe12a6c89052108fff9b5ea676de92f987fe90ba2bed6fd354cf63476e"
+    },
+    {
+      "path": "05R2_CTA_PLACEMENT.csv",
+      "bytes": 5240,
+      "sha256": "79bbe261467b72a510309c916fa5bc3c3c9f481151ae08410f0aa7889b393729"
+    },
+    {
+      "path": "05R2_PINNED_COMMENT.md",
+      "bytes": 1210,
+      "sha256": "c2f6416112850e0cb6cca921d4505416e08688b130c529b9363e4b4e04bfebf8"
+    },
+    {
+      "path": "05R2_END_SCREEN_TRANSITION.md",
+      "bytes": 5920,
+      "sha256": "f147a8829cdc50192fbf351292b3be89ce06f2e09f934b489cdc0d389a2630ca"
+    },
+    {
+      "path": "05R2_MINUTE_BY_MINUTE_QC.csv",
+      "bytes": 11467,
+      "sha256": "04dda3cd28592aa6d42f836c80188c04b3dff226ff66db408d2e9f8876b64839"
+    }
+  ]
+}

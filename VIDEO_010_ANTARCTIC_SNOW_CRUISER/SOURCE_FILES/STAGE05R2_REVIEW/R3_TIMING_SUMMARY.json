@@ -1,0 +1,29 @@
+{
+  "words": {
+    "EN": 1915,
+    "RU": 1621
+  },
+  "paragraphs_per_language": 61,
+  "spoken_ctas": 2,
+  "spoken_cta_words": 31,
+  "scene_pause_seconds": 35,
+  "end_screen_seconds": 20,
+  "runtime_seconds": 875.714,
+  "screen_start_seconds": 855.714,
+  "last_voice_end_seconds": 854.714,
+  "provisional_wpm": 140,
+  "Harrison_measured": false,
+  "cta_rows": 6,
+  "spoken_cta_timings": [
+    {
+      "id": "SUBSCRIBE_MAIN",
+      "start_tc": "05:11",
+      "seconds": 7.715
+    },
+    {
+      "id": "PREVIOUS_STORY_BRIDGE",
+      "start_tc": "14:09",
+      "seconds": 5.571
+    }
+  ]
+}
