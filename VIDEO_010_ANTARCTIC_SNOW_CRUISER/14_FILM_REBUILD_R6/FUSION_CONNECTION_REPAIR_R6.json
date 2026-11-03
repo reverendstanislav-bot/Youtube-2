@@ -1,0 +1,27 @@
+[
+  {
+    "shot": "S044",
+    "connected": "Merge1",
+    "background": "HIA_S044_REVEAL_2"
+  },
+  {
+    "shot": "S045",
+    "connected": "Merge1",
+    "background": "HIA_S045_REVEAL_2"
+  },
+  {
+    "shot": "S118",
+    "connected": "Merge1",
+    "background": "HIA_S118_REVEAL_2"
+  },
+  {
+    "shot": "S120",
+    "connected": "Merge1",
+    "background": "HIA_S120_REVEAL_1"
+  },
+  {
+    "shot": "S133",
+    "connected": "Merge1",
+    "background": "HIA_S133_REVEAL_1"
+  }
+]

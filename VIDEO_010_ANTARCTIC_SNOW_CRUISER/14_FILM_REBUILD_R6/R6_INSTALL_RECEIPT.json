@@ -1,0 +1,20 @@
+{
+  "timeline": "VIDEO010_R6_1_FULL_RESEARCH_RIGHTS_HOLD",
+  "video_items": 194,
+  "narrative_shots": 193,
+  "research_archive_shots": 23,
+  "research_archive_seconds": 104.0,
+  "all_narrative_moving_shots": 28,
+  "audio_tracks": 4,
+  "voice_source_unchanged": true,
+  "end_screen_seconds": 20,
+  "rights": "HOLD_PRESERVED_NOT_A_RELEASE_MASTER",
+  "listening": "HOLD",
+  "picture_qc_fixes": [
+    "S011",
+    "S132",
+    "S134",
+    "S186",
+    "S190"
+  ]
+}

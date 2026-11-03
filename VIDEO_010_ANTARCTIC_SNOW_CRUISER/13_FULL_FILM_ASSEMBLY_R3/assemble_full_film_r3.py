@@ -11,6 +11,7 @@ def run(cmd):
 def native_layers(tl,manifest):
  items=tl.GetItemListInTrack('video',1);assert len(items)==194,len(items)
  rows=manifest['shots'];receipt=[];compdir=W/'FUSION';compdir.mkdir(exist_ok=True)
+ reframes=json.loads((WORK/'REFRAME_PLAN_R3.json').read_text());crop_receipts=[]
  # These are local readable annotations, not opaque replacement cards.
  plan={
  'S001':[('ANTARCTICA / 1940',.19,.91,.030,0)],
@@ -37,15 +38,23 @@ def native_layers(tl,manifest):
  'S192':[('PREVIOUS STORY / CAMP CENTURY',.34,.92,.028,0)]}
  # Keep the full three-second Like inside one shot: previous +8s would straddle a cut.
  plan['S146']=[('Like this story',.80,.90,.027,8)]
+ plan['S165']=[('1956 MAP / REGIONAL CONTEXT',.35,.92,.027,0)]
+ plan['S176']=[('1963 / STATION REMAINS',.29,.92,.029,0),('NO VERIFIED CRUISER SIGHTING',.34,.86,.024,10)]
  for sid in ('S154','S157','S160'):plan.pop(sid,None) # Never cover the original document prose.
  for i,row in enumerate(rows):
-  sid=row['shot_id'];specs=plan.get(sid)
+  sid=row['shot_id'];specs=plan.get(sid);item=items[i];crop=reframes.get(sid) or reframes.get(row['asset_id'])
+  if crop:
+   cx,cy=crop['center'];scale=crop['size'];z=1/scale;props={'ZoomX':z,'ZoomY':z,'Pan':(.5-cx)*1920*z,'Tilt':(cy-.5)*1080*z}
+   for key,value in props.items():assert item.SetProperty(key,value),(sid,key)
+   crop_receipts.append({'shot_id':sid,'asset_id':row['asset_id'],**crop,'properties':props})
   if not specs:continue
-  item=items[i];duration=int(item.GetDuration());assert duration==row['e']-row['s'],sid
+  duration=int(item.GetDuration());assert duration==row['e']-row['s'],sid
   assert item.GetFusionCompCount()==0,'Do not duplicate native comps: '+sid
   c=item.AddFusionComp();assert c,sid;nodes=c.GetToolList(False);nodes=list(nodes.values()) if isinstance(nodes,dict) else nodes
-  base=next(n for n in nodes if n.GetAttrs().get('TOOLS_RegID')=='MediaIn');out=next(n for n in nodes if n.GetAttrs().get('TOOLS_RegID')=='MediaOut')
+  base=next(n for n in nodes if (n.GetAttrs().get('TOOLS_RegID')=='MediaIn' or n.GetAttrs().get('TOOLS_Name','').startswith('MediaIn')));out=next(n for n in nodes if (n.GetAttrs().get('TOOLS_RegID')=='MediaOut' or n.GetAttrs().get('TOOLS_Name','').startswith('MediaOut')))
   for j,(text,x,y,size,delay) in enumerate(specs):
+   if crop:
+    x=cx+(x-.5)*scale;y=1-cy+(y-.5)*scale;size*=scale
    sample=Image.open(row['path']).convert('RGB');ww,hh=sample.size;box=(int(max(0,x-.15)*ww),int(max(0,1-y-.04)*hh),int(min(1,x+.15)*ww),int(min(1,1-y+.04)*hh));luma=sum(ImageStat.Stat(sample.crop(box)).mean)/3;ink=(.94,.92,.86) if luma<110 else (.11,.15,.18)
    txt=c.AddTool('TextPlus',j*2+1,2);txt.SetAttrs({'TOOLS_Name':'HIA_'+sid+'_LABEL_'+str(j+1)})
    for key,val in {'StyledText':text,'Font':'Consolas','Style':'Regular','Size':size,'Center':[x,y],'Red1':ink[0],'Green1':ink[1],'Blue1':ink[2],'Alpha1':1,'UseFrameFormatSettings':1}.items():txt.SetInput(key,val)
@@ -63,17 +72,17 @@ def native_layers(tl,manifest):
     bg.ConnectInput('EffectMask',mask);merge=c.AddTool('Merge',10+j,1);merge.ConnectInput('Background',base);merge.ConnectInput('Foreground',bg);base=merge
   out.ConnectInput('Input',base);path=compdir/(sid+'.comp');assert item.ExportFusionComp(str(path),1),sid
   receipt.append({'shot_id':sid,'paragraph_id':row['paragraph_id'],'start_frame':row['s'],'duration':duration,'labels':specs,'comp':str(path),'status':'NATIVE_CREATED_RENDER_REVIEW_PENDING'})
- (W/'NATIVE_LAYER_RECEIPTS.json').write_text(json.dumps(receipt,indent=2));return receipt
+ (W/'REFRAME_RECEIPTS.json').write_text(json.dumps(crop_receipts,indent=2));(W/'NATIVE_LAYER_RECEIPTS.json').write_text(json.dumps(receipt,indent=2));return receipt
 
 try:
- while True:
-  q=json.loads((Q/'GENERATION_QUEUE_ASSEMBLY_R4.json').read_text());n=sum(x['status']=='GENERATED' for x in q)
-  state('WAITING_IMAGEGEN',generated=n,required=len(q),scope='ENTIRE_FILM_NOT_FIRST_MINUTE')
-  if n==len(q):break
-  time.sleep(30)
- # Check every image against the persisted generation receipt before importing.
- for x in q:
-  p=Q/x['output'];assert hashlib.sha256(p.read_bytes()).hexdigest()==x['sha256'],x['asset_id']
+ q=json.loads((Q/'GENERATION_QUEUE_ASSEMBLY_R4.json').read_text());lookup={x['asset_id']:x for x in q};overrides=json.loads((WORK/'ASSEMBLY_ASSET_OVERRIDES_R4.json').read_text());import csv
+ needed={x['asset_id'] for x in csv.DictReader((Q/'SHOT_PLAN_193.csv').open(encoding='utf-8-sig')) if x['asset_type']=='NEW_IMAGE' and x['asset_id'] not in overrides}
+ missing=[a for a in needed if lookup[a]['status']!='GENERATED'];assert not missing,missing
+ for a in needed:
+  x=lookup[a];src=Q/x['output'];assert hashlib.sha256(src.read_bytes()).hexdigest()==x['sha256'],a
+ for x in overrides.values():assert Path(x['path']).is_file(),x
+ n=sum(x['status']=='GENERATED' for x in q)
+ state('READY_FROM_AVAILABLE_ASSETS',generated=n,selected_new_assets=len(needed),reuse_overrides=len(overrides),owner_instruction='Stop extra generation; assemble whole film now')
  state('BUILDING_FULL_XML',generated=n)
  result=json.loads(run([sys.executable,str(WORK/'build_film_xml_r3.py')]))
  sys.path.insert(0,r'C:\Users\KK\.codex\mcp\davinci-resolve');os.environ['DAVINCI_RESOLVE_BRIDGE_CONFIG']=r'C:\Users\KK\.codex\mcp\davinci-resolve\bridge-config.json'

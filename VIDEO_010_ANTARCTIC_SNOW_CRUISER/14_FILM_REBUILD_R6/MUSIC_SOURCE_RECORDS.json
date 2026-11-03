@@ -1,0 +1,32 @@
+[
+  {
+    "id": 610070,
+    "source": "https://freesound.org/people/szegvari/sounds/610070/",
+    "download": "https://cdn.freesound.org/previews/610/610070_2282212-hq.mp3",
+    "license": "CC0 1.0",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\MUSIC\\610070_PUBLIC_HQ.mp3",
+    "duration": 82.0,
+    "sha256": "6d6a96e65a33f5b8c1c674a06d12511adc4b6cb3c9fe463b96fada91b41291cb",
+    "type": "public HQ MP3 preview, not original WAV"
+  },
+  {
+    "id": 595385,
+    "source": "https://freesound.org/people/szegvari/sounds/595385/",
+    "download": "https://cdn.freesound.org/previews/595/595385_2282212-hq.mp3",
+    "license": "CC0 1.0",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\MUSIC\\595385_PUBLIC_HQ.mp3",
+    "duration": 67.2,
+    "sha256": "653c114e874dd9f3b6c0d244d134e3c12d606007de43174e377c533bed43c90e",
+    "type": "public HQ MP3 preview, not original WAV"
+  },
+  {
+    "id": 609657,
+    "source": "https://freesound.org/people/szegvari/sounds/609657/",
+    "download": "https://cdn.freesound.org/previews/609/609657_2282212-hq.mp3",
+    "license": "CC0 1.0",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\MUSIC\\609657_PUBLIC_HQ.mp3",
+    "duration": 82.0,
+    "sha256": "9b7db373c5be210a67c547e8458d442701a4d687b0a65b18604db43f7fe2cef8",
+    "type": "public HQ MP3 preview, not original WAV"
+  }
+]

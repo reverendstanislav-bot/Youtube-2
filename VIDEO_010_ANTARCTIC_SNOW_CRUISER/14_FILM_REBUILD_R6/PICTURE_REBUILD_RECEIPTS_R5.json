@@ -1,0 +1,92 @@
+[
+  {
+    "shot_id": "S001",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN001.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH10_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S002",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN002.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH09_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S011",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN008.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH07_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S043",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN036.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\S043_VIDEO_R5.mp4",
+    "reason": "Physical ice context; not Ross Shelf or expedition footage"
+  },
+  {
+    "shot_id": "S088",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN069.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH14_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S093",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN073.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH05_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S102",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN081.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH07_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S117",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN094.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH02_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S132",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN106.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH11_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S134",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN108.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH04_1920px.jpg",
+    "reason": "Genuine expedition photograph replaces reconstruction"
+  },
+  {
+    "shot_id": "S155",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN121.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\S155_VIDEO_R5.mp4",
+    "reason": "Expedition context only; not a record of Cruiser entry or vandalism"
+  },
+  {
+    "shot_id": "S156",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN122.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\S156_VIDEO_R5.mp4",
+    "reason": "Expedition logistics context; not footage of the Snow Cruiser"
+  },
+  {
+    "shot_id": "S166",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN131.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\S166_VIDEO_R5.mp4",
+    "reason": "Physical ice context; not Ross Shelf or expedition footage"
+  },
+  {
+    "shot_id": "S174",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN135.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\S174_VIDEO_R5.mp4",
+    "reason": "Physical ice context; not Ross Shelf or expedition footage"
+  },
+  {
+    "shot_id": "S188",
+    "old": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN147.png",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\S188_VIDEO_R5.mp4",
+    "reason": "Physical ice context; not Ross Shelf or expedition footage"
+  }
+]

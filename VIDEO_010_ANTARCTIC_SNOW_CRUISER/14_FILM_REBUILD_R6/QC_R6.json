@@ -1,0 +1,23 @@
+{
+  "status": "RESEARCH_REVIEW_TECHNICAL_PASS_RIGHTS_LISTENING_OWNER_HOLD",
+  "timeline": "VIDEO010_R6_1_FULL_RESEARCH_RIGHTS_HOLD",
+  "duration_seconds": 887.936,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio_tracks_in_project": 4,
+  "music_cues": 14,
+  "designed_ambience_cues": 17,
+  "new_images_generated": 0,
+  "voice_retimed_or_regenerated": false,
+  "script_changed": false,
+  "source_rights": "HOLD_PRIVATE_ARCHIVAL_COMPONENTS_NOT_CLEARED",
+  "publication": "BLOCKED",
+  "full_real_time_av_review": "HOLD",
+  "human_listening": "HOLD",
+  "owner_acceptance": "HOLD",
+  "sha256": "11564eef06f84fc4540f491ddbed2fb7d41a7e0c5262fe0c7c7231c807accc44",
+  "technical_decode": "PASS"
+}

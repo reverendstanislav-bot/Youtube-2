@@ -1,0 +1,17 @@
+{
+  "run": false,
+  "target": "FULL_ASSEMBLY_FROM_AVAILABLE_ASSETS",
+  "no_preview_delivery": true,
+  "owner_instruction": "Stop new generation; enough material; assemble full film from available assets",
+  "completed_new_images": 147,
+  "total_new_images": 150,
+  "reason": "Increase independent batch size; preserve current in-flight results",
+  "batch_size": 10,
+  "generation_authorized": false,
+  "owner_stop": true,
+  "not_required_ids": [
+    "SCN148",
+    "SCN149",
+    "SCN150"
+  ]
+}

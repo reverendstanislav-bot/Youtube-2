@@ -1,0 +1,142 @@
+[
+  {
+    "source_id": 610070,
+    "start_seconds": 0,
+    "end_seconds": 59,
+    "reason": "Opening: unloading danger and central question",
+    "target_cue_rms_dbfs": -31,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 609657,
+    "start_seconds": 70,
+    "end_seconds": 118,
+    "reason": "1934 rescue; human stakes",
+    "target_cue_rms_dbfs": -34,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 595385,
+    "start_seconds": 123,
+    "end_seconds": 211,
+    "reason": "Mobile base ambition and design explanation",
+    "target_cue_rms_dbfs": -34,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 610070,
+    "start_seconds": 226,
+    "end_seconds": 291,
+    "reason": "Public trials and road accident",
+    "target_cue_rms_dbfs": -32,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 610070,
+    "start_seconds": 299,
+    "end_seconds": 342,
+    "reason": "Recovery, loading, departure",
+    "target_cue_rms_dbfs": -34,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 610070,
+    "start_seconds": 352,
+    "end_seconds": 437,
+    "reason": "Arrival, failed traction, ramp to shelf",
+    "target_cue_rms_dbfs": -32,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 595385,
+    "start_seconds": 464,
+    "end_seconds": 512,
+    "reason": "Tire support comparison, restrained analytical bed",
+    "target_cue_rms_dbfs": -36,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 610070,
+    "start_seconds": 530,
+    "end_seconds": 577,
+    "reason": "Chain and tire experiments",
+    "target_cue_rms_dbfs": -34,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 610070,
+    "start_seconds": 586,
+    "end_seconds": 622,
+    "reason": "Final winter excavation and failed retry",
+    "target_cue_rms_dbfs": -31,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 609657,
+    "start_seconds": 639,
+    "end_seconds": 657,
+    "reason": "Change of purpose; people at work",
+    "target_cue_rms_dbfs": -35,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 609657,
+    "start_seconds": 679,
+    "end_seconds": 751,
+    "reason": "Abandonment and later discoveries",
+    "target_cue_rms_dbfs": -34,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 595385,
+    "start_seconds": 762,
+    "end_seconds": 811,
+    "reason": "Changing coast and unresolved fate",
+    "target_cue_rms_dbfs": -35,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 609657,
+    "start_seconds": 818,
+    "end_seconds": 846,
+    "reason": "Crew callback and separation",
+    "target_cue_rms_dbfs": -34,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  },
+  {
+    "source_id": 595385,
+    "start_seconds": 860,
+    "end_seconds": 887.9166667,
+    "reason": "Camp Century handoff and 20-second end screen",
+    "target_cue_rms_dbfs": -32,
+    "voice_ducking": "up to -4.15dB",
+    "fade_in_seconds": 3.0,
+    "fade_out_seconds": 4.0
+  }
+]

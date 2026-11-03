@@ -1,0 +1,92 @@
+[
+  {
+    "act": 1,
+    "start_frame": 0,
+    "end_frame": 1553,
+    "purpose": "Failed task before specs",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 2,
+    "start_frame": 1553,
+    "end_frame": 3805,
+    "purpose": "Rescue motivates mobile base",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 3,
+    "start_frame": 3805,
+    "end_frame": 5313,
+    "purpose": "One mechanism per explanation",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 4,
+    "start_frame": 5313,
+    "end_frame": 8371,
+    "purpose": "Trials / public failures / recovery",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 5,
+    "start_frame": 8371,
+    "end_frame": 11038,
+    "purpose": "Arrival and escalating ground obstacles",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 6,
+    "start_frame": 11038,
+    "end_frame": 12647,
+    "purpose": "Separate load capacity from snow bearing",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 7,
+    "start_frame": 12647,
+    "end_frame": 15258,
+    "purpose": "Repairs restore motion but not mission",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 8,
+    "start_frame": 15258,
+    "end_frame": 16660,
+    "purpose": "People continue after transport fails",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 9,
+    "start_frame": 16660,
+    "end_frame": 18227,
+    "purpose": "Dated rediscovery, not restart",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  },
+  {
+    "act": 10,
+    "start_frame": 18227,
+    "end_frame": 20830,
+    "purpose": "Map evidence, inference, unresolved fate",
+    "treatment": "Stable real source + selective local mechanism reveal; archive only after source gate",
+    "music": "See SCORE_CUE_MAP.json",
+    "archive_rights_gate": "preserve existing HOLD, never silently clear"
+  }
+]

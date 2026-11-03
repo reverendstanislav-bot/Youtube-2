@@ -10,11 +10,14 @@ def cp(src):
  if not dest.exists():shutil.copy2(src,dest)
  assert hashlib.sha256(dest.read_bytes()).digest()==hashlib.sha256(src.read_bytes()).digest()
  return dest
+overrides=json.loads((Path(__file__).parent/"ASSEMBLY_ASSET_OVERRIDES_R4.json").read_text())
 shots=[]
 for row in plan:
  s=int(row["start_frame"]);e=min(int(row["end_frame_exclusive"]),limit)
  if s>=limit:break
- if row["asset_type"]=="NEW_IMAGE":
+ if row["asset_id"] in overrides:
+  original=row["asset_id"];o=overrides[original];row.update(planned_asset_id=original,asset_id=o["source_asset_id"],asset_type=o["source_type"],visual_action=o["action"]);src=Path(o["path"])
+ elif row["asset_type"]=="NEW_IMAGE":
   q=queue[row["asset_id"]];assert q["status"]=="GENERATED",row["asset_id"];src=R/q["output"]
  else:src=Path(row["existing_path"])
  if row["asset_id"] in ("DOC_HIGHJUMP_P347","DOC_HIGHJUMP_P396"):

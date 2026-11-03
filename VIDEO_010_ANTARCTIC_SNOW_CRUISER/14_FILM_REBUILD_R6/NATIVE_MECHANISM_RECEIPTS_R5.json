@@ -1,0 +1,156 @@
+[
+  {
+    "shot_id": "S041",
+    "status": "NATIVE_ALREADY_APPLIED_RENDER_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S044",
+    "label": null,
+    "local_lines": [
+      [
+        0.8,
+        0.94,
+        0.47
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S044_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S045",
+    "label": null,
+    "local_lines": [
+      [
+        0.17,
+        0.34,
+        0.46
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S045_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S104",
+    "label": "SUPPORT AT THE CONTACT PATCH",
+    "local_lines": [
+      [
+        0.12,
+        0.35,
+        0.27
+      ],
+      [
+        0.6,
+        0.83,
+        0.27
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S104_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S113",
+    "label": "TIRE STRENGTH  /  SNOW SUPPORT",
+    "local_lines": [
+      [
+        0.31,
+        0.56,
+        0.26
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S113_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S118",
+    "label": null,
+    "local_lines": [
+      [
+        0.09,
+        0.23,
+        0.46
+      ],
+      [
+        0.66,
+        0.84,
+        0.36
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S118_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S120",
+    "label": null,
+    "local_lines": [
+      [
+        0.36,
+        0.57,
+        0.29
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S120_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S133",
+    "label": null,
+    "local_lines": [
+      [
+        0.46,
+        0.63,
+        0.46
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S133_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S154",
+    "label": null,
+    "local_lines": [
+      [
+        0.1,
+        0.64,
+        0.34
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S154_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S157",
+    "label": null,
+    "local_lines": [
+      [
+        0.1,
+        0.79,
+        0.58
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S157_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  },
+  {
+    "shot_id": "S160",
+    "label": null,
+    "local_lines": [
+      [
+        0.1,
+        0.64,
+        0.34
+      ]
+    ],
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\S160_NATIVE_R5.comp",
+    "source_clock": 0,
+    "status": "RENDER_VISUAL_REVIEW_PENDING"
+  }
+]

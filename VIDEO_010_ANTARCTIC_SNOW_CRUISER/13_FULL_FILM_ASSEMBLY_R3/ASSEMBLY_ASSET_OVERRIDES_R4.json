@@ -1,0 +1,44 @@
+{
+  "SCN123": {
+    "source_asset_id": "SCN124",
+    "source_type": "EXISTING_GENERATED_REUSE",
+    "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_FULL_FILM_R2\\IMAGES\\SCN124.png",
+    "action": "Visitors approach a snow-level roof; exclude invented underground corridor"
+  },
+  "SCN128": {
+    "source_asset_id": "SCN131",
+    "source_type": "EXISTING_GENERATED_REUSE",
+    "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_FULL_FILM_R2\\IMAGES\\SCN131.png",
+    "action": "Illustrative shelf-edge context; exclude unsupported warehouse setting"
+  },
+  "SCN148": {
+    "source_asset_id": "SCN122",
+    "source_type": "EXISTING_GENERATED_REUSE",
+    "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_FULL_FILM_R2\\IMAGES\\SCN122.png",
+    "action": "Empty living compartment as a deliberate final callback"
+  },
+  "SCN149": {
+    "source_asset_id": "SCN119",
+    "source_type": "EXISTING_GENERATED_REUSE",
+    "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_FULL_FILM_R2\\IMAGES\\SCN119.png",
+    "action": "Unattended stationary vehicle; no further generation needed"
+  },
+  "SCN150": {
+    "source_asset_id": "SCN147",
+    "source_type": "EXISTING_GENERATED_REUSE",
+    "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\IMAGEGEN_FULL_FILM_R2\\IMAGES\\SCN147.png",
+    "action": "Unresolved ice-and-water final image; no imagined wreck"
+  },
+  "SCN141": {
+    "source_asset_id": "PH04",
+    "source_type": "EXISTING_ARCHIVE_REUSE",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_ASSEMBLY_R1\\MEDIA\\PH04_1920px.jpg",
+    "action": "Actual Ferranto wheel-hub work; final human callback, not a new reconstructed face"
+  },
+  "SCN142": {
+    "source_asset_id": "PH03",
+    "source_type": "EXISTING_ARCHIVE_REUSE",
+    "path": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_ASSEMBLY_R1\\MEDIA\\PH03.jpg",
+    "action": "Actual Wade at hatch; final human callback"
+  }
+}

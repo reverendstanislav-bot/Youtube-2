@@ -1,0 +1,138 @@
+[
+  {
+    "source_id": 128160,
+    "start": 0,
+    "end": 8.1,
+    "target_rms_dbfs": -31,
+    "purpose": "Unloading motor, designed reconstruction sound",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 8,
+    "end": 23,
+    "target_rms_dbfs": -40,
+    "purpose": "Antarctic exterior transition",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 66,
+    "end": 101,
+    "target_rms_dbfs": -42,
+    "purpose": "Winter rescue exterior illustration",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 222,
+    "end": 231,
+    "target_rms_dbfs": -37,
+    "purpose": "First city drive",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 267,
+    "end": 276,
+    "target_rms_dbfs": -36,
+    "purpose": "Public road convoy",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 319,
+    "end": 333,
+    "target_rms_dbfs": -37,
+    "purpose": "Loading machine",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 349,
+    "end": 365,
+    "target_rms_dbfs": -42,
+    "purpose": "Voyage to Antarctic exterior",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 390,
+    "end": 402,
+    "target_rms_dbfs": -34,
+    "purpose": "Unloading reprise",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 407,
+    "end": 455,
+    "target_rms_dbfs": -43,
+    "purpose": "Stopped machine and ground conditions",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 548,
+    "end": 566,
+    "target_rms_dbfs": -37,
+    "purpose": "Limited movement with modified tires",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 568,
+    "end": 582,
+    "target_rms_dbfs": -42,
+    "purpose": "Winter exterior",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 594,
+    "end": 600,
+    "target_rms_dbfs": -36,
+    "purpose": "Prepared engines and first renewed movement",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 128160,
+    "start": 610,
+    "end": 614,
+    "target_rms_dbfs": -36,
+    "purpose": "Retry then engine bed drops out",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 615,
+    "end": 635,
+    "target_rms_dbfs": -42,
+    "purpose": "Failed travel, return to shelter",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 680,
+    "end": 694,
+    "target_rms_dbfs": -43,
+    "purpose": "Abandoned base",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 760,
+    "end": 811,
+    "target_rms_dbfs": -44,
+    "purpose": "Changing ice, uncertain fate",
+    "not_original_location_sound": true
+  },
+  {
+    "source_id": 555062,
+    "start": 846,
+    "end": 860,
+    "target_rms_dbfs": -43,
+    "purpose": "Quiet emotional resolution",
+    "not_original_location_sound": true
+  }
+]

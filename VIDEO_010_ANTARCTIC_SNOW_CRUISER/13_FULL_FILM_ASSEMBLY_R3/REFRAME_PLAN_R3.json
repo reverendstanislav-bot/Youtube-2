@@ -1,0 +1,245 @@
+{
+  "SCN018": {
+    "center": [
+      0.5,
+      0.48
+    ],
+    "size": 0.65,
+    "target": "Living-compartment detail",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN021": {
+    "center": [
+      0.4,
+      0.5
+    ],
+    "size": 0.7,
+    "target": "Scientific instruments and researchers",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN023": {
+    "center": [
+      0.37,
+      0.62
+    ],
+    "size": 0.65,
+    "target": "Wheel-hub repair hands",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN024": {
+    "center": [
+      0.6,
+      0.29
+    ],
+    "size": 0.55,
+    "target": "Roof aircraft and mounting",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN026": {
+    "center": [
+      0.61,
+      0.4
+    ],
+    "size": 0.65,
+    "target": "Roof-work action and aircraft",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN031": {
+    "center": [
+      0.63,
+      0.6
+    ],
+    "size": 0.65,
+    "target": "Welding hands and frame connection",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN033": {
+    "center": [
+      0.45,
+      0.48
+    ],
+    "size": 0.65,
+    "target": "Workshop tools and operator",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN034": {
+    "center": [
+      0.5,
+      0.47
+    ],
+    "size": 0.75,
+    "target": "Twin diesel generator sets",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN037": {
+    "center": [
+      0.66,
+      0.53
+    ],
+    "size": 0.65,
+    "target": "Proposed overhang and support",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN038": {
+    "center": [
+      0.56,
+      0.62
+    ],
+    "size": 0.65,
+    "target": "Proposed belly support at gap",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN039": {
+    "center": [
+      0.5,
+      0.7
+    ],
+    "size": 0.6,
+    "target": "Body and two gap edges",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN043": {
+    "center": [
+      0.37,
+      0.62
+    ],
+    "size": 0.65,
+    "target": "Pressure-check hands and wheel",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN051": {
+    "center": [
+      0.36,
+      0.55
+    ],
+    "size": 0.7,
+    "target": "Hydraulic repair task",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN052": {
+    "center": [
+      0.43,
+      0.6
+    ],
+    "size": 0.55,
+    "target": "Wheel-drive station",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN056": {
+    "center": [
+      0.43,
+      0.66
+    ],
+    "size": 0.65,
+    "target": "Wheel meeting boarding planks",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN061": {
+    "center": [
+      0.57,
+      0.56
+    ],
+    "size": 0.6,
+    "target": "Engine-compartment work",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN062": {
+    "center": [
+      0.33,
+      0.55
+    ],
+    "size": 0.6,
+    "target": "Interior pipework; exclude duplicate vehicle through window",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN063": {
+    "center": [
+      0.58,
+      0.63
+    ],
+    "size": 0.6,
+    "target": "Spare tyres and fitting preparation",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN066": {
+    "center": [
+      0.45,
+      0.65
+    ],
+    "size": 0.7,
+    "target": "Cargo access obstructed by vehicle",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN069": {
+    "center": [
+      0.3,
+      0.65
+    ],
+    "size": 0.6,
+    "target": "Front tyre and broken timber; exclude generic cargo-opening backdrop",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN102": {
+    "center": [
+      0.4,
+      0.25
+    ],
+    "size": 0.5,
+    "target": "Frosted cab while stationary through winter",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN089": {
+    "center": [
+      0.36,
+      0.61
+    ],
+    "size": 0.6,
+    "target": "Tyre construction and supporting workshop equipment",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN099": {
+    "center": [
+      0.4,
+      0.28
+    ],
+    "size": 0.55,
+    "target": "Driver and upper cab during the local retry",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN101": {
+    "center": [
+      0.75,
+      0.55
+    ],
+    "size": 0.5,
+    "target": "Stationary rear body and support-base context",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "SCN106": {
+    "center": [
+      0.65,
+      0.7
+    ],
+    "size": 0.6,
+    "target": "Paired front tyres meeting the excavated snow ramp; exclude generic shed backdrop",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "S158": {
+    "center": [
+      0.7,
+      0.56
+    ],
+    "size": 0.6,
+    "target": "Snow-level roof and approaching visitors; remove corridor image",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  },
+  "S191": {
+    "center": [
+      0.55,
+      0.7
+    ],
+    "size": 0.6,
+    "target": "Empty sea beneath the ice edge; unresolved ending",
+    "treatment": "STATIC_NAMED_SUBJECT_CROP_NO_ANIMATED_ZOOM"
+  }
+}
