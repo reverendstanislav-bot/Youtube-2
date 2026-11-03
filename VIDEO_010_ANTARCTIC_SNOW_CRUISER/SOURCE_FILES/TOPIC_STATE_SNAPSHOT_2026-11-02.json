@@ -4,11 +4,11 @@
   "topic": "Antarctic Snow Cruiser",
   "owner_selected_date": "2026-11-01",
   "owner_reference": "https://www.youtube.com/watch?v=n98cpmJfjuY",
-  "status": "R5_1_READY_FOR_OWNER_REVIEW_SCRIPT_LOCK_HOLD",
+  "status": "VOICE_QUEUE_LAUNCHED_EDIT_PREP_WITH_COVERAGE_HOLDS",
   "working_angle": "The ambitious American Antarctic vehicle: design promises, expedition reality, engineering limitations, later rediscovery and unresolved final location.",
   "reference_use": "Topic and packaging reference only. Develop an independent script from historical sources; do not copy the linked video's script or shot sequence.",
-  "script_lock": false,
-  "voice_generation_started": false,
+  "script_lock": true,
+  "voice_generation_started": null,
   "image_generation_started": false,
   "render_started": false,
   "archive_status": "EXPANDED_REAL_FILES_COLLECTED_QC_AND_RIGHTS_REGISTERED",
@@ -41,7 +41,7 @@
       "role": "Smithsonian Arctic Studies Center Newsletter 25 (2018), historical account; secondary source to cross-check"
     }
   ],
-  "next_gate": "Owner reviewR5.1,including no mid-film spokenSubscribe,qualified source scopes and shorter conditional timing. No automatic ScriptLock or production.",
+  "next_gate": "Owner will remind to check existing voice queue;then audioQC/ASR/listening and actual timing. Continue coverage/graphics work withinUSD0;held archives not cleared.",
   "source_audit_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\01_SOURCE_AUDIT\\REPORT_RU.md",
   "collection_report": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\SOURCE_CATALOG\\COLLECTION_REPORT_RU.md",
   "collection_state": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\QC\\COLLECTION_STATE.json",
@@ -57,10 +57,10 @@
   "shorts_enabled": false,
   "production_plan": "PRODUCTION_PLAN.md",
   "current_handoff": "CURRENT_STATUS_HANDOFF.md",
-  "next_writing_output": "Only owner-requested revisions after finalQC. Do not pad to18-20min.",
+  "next_writing_output": "Current production inputs frozen in07_SCRIPT_LOCK_R5_1.json;no unauthorized narration changes.",
   "script_draft": {
     "revision": "R5.1",
-    "owner_approved": false,
+    "owner_approved": true,
     "english_file": "05_SCRIPT_R5_1_EN.md",
     "russian_file": "05_SCRIPT_R5_1_RU.md",
     "english_narration_words": 2406,
@@ -82,12 +82,14 @@
     "r5_1_claim_crosswalk": "SOURCE_FILES/FINAL_SCRIPT_QC/R5_1_SOURCE_CROSSWALK.csv",
     "timing_report": "05_FINAL_TIMING_REPORT.md",
     "fact_legal_review": "05_FINAL_FACT_LEGAL_QC.md",
-    "lock_readiness": "05_SCRIPT_LOCK_READINESS_REPORT.md"
+    "lock_readiness": "05_SCRIPT_LOCK_READINESS_REPORT.md",
+    "approval_basis": "Proceed-with-voice instruction recorded verbatim;no fabricated literalPASS",
+    "lock_record": "07_SCRIPT_LOCK_R5_1.json"
   },
-  "script_lock_status": "HOLD_UNTIL_OWNER_APPROVAL",
+  "script_lock_status": "LOCKED_FOR_VOICE_BY_OWNER_PROCEED_INSTRUCTION",
   "r1_status": "REJECTED_PRESERVED_SHA256_VERIFIED",
   "active_script_revision": "R5.1",
-  "owner_stage": "FINAL_SCRIPT_QC",
+  "owner_stage": "07_12_PRODUCTION_PREPARATION",
   "duration_target_minutes": [
     18,
     20
@@ -96,10 +98,10 @@
   "voice_pace_status": "HOLD_NO_APPROVED_EPISODE_MEASUREMENT",
   "shorts_concepts_authorized": 0,
   "shorts_production_authorized": false,
-  "owner_stage_task": "SOURCE_FILES/FINAL_SCRIPT_QC/OWNER_TASK.md",
-  "latest_owner_correction": "FinalScriptQC:targetedR5.1 only,preserveR5;no voice,generation,montage;ScriptLockHOLDuntilownerapproval.",
+  "owner_stage_task": "SOURCE_FILES/PRODUCTION_PREP/OWNER_PROCEED_INSTRUCTION.md",
+  "latest_owner_correction": "Proceed afterFinalQC;queuevoice withscript;do not wait;prepare existingarchive/editpackage.",
   "r2_status": "SUPERSEDED_FOR_REVIEW_PRESERVED_UNCHANGED",
-  "duration_target_status": "NOT_GUARANTEED_17_31_AT_PROVISIONAL140_ACTUAL_HARRISON_UNKNOWN",
+  "duration_target_status": "ACTUAL_AUDIO_PENDING_NO_PADDING",
   "previous_story": {
     "video_id": "sP67aPtpwKg",
     "episode": "Camp Century",
@@ -116,5 +118,18 @@
   "studio_modified": false,
   "r3_status": "SUPERSEDED_FOR_REVIEW_PRESERVED_UNCHANGED",
   "r4_status": "SUPERSEDED_FOR_REVIEW_PRESERVED_UNCHANGED",
-  "r5_status": "PRESERVED_UNCHANGED_FINAL_QC_BASE"
+  "r5_status": "PRESERVED_UNCHANGED_FINAL_QC_BASE",
+  "voice_queue_started": true,
+  "voice_generation_status": "READ_LOCAL_QUEUE_STATE_FOR_LIVE_STATUS",
+  "voice_queue_state": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\R5_1_HARRISON_QUEUE\\QUEUE_STATE.json",
+  "edit_prep_package": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\EDIT_PREP\\R5_1",
+  "stage_status": {
+    "06": "EXISTING_FINAL_QC_COMPLETE_QUALIFIED",
+    "07": "FROZEN_FOR_AUTHORIZED_PRODUCTION",
+    "08": "CLEAN_TEXT_AND69JOBS_VERIFIED",
+    "09": "DURABLE_LOCAL_QUEUE_LAUNCHED_NOT_COMPLETION_PASS",
+    "10": "PENDING_AUDIO_QC_OWNER_REMINDER",
+    "11": "SCRIPT_MAPPED_DIRECTOR_PREP_AUDIO_SYNC_HOLD",
+    "12": "21EXISTING_MEDIA_VERIFIED_5GRAPHICS_BRIEFS_AND_ARCHIVE_COVERAGE_HOLD"
+  }
 }

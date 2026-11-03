@@ -1,0 +1,22 @@
+{
+  "status": "PRE_EDIT_PACKAGE_VERIFIED_WITH_DEPENDENCY_HOLDS",
+  "frozen_voice_words": 2406,
+  "voice_jobs": 69,
+  "clean_voice_exact": true,
+  "worker_was_verified_running": true,
+  "queue_completion_polled": false,
+  "ready_source_assets": 21,
+  "direct_media_import_files": 20,
+  "source_assets_hash_verified": true,
+  "semantic_beat_rows": 69,
+  "actual_audio_sync": false,
+  "graphics_briefs": 5,
+  "graphics_completed": 0,
+  "source_coverage_hold_rows": 34,
+  "sfx_cc0_candidates": 2,
+  "endscreen_technical_candidate_seconds": 20,
+  "source_script_and_ledger_unchanged": true,
+  "actual_montage_started": false,
+  "all_stages_pass": false,
+  "paid_spend_usd": 0
+}

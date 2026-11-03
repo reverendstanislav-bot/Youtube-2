@@ -1,0 +1,1328 @@
+{
+  "queue_id": "HIA_VIDEO010_R5_1_HARRISON_20261102",
+  "source_commit": "503749c970b557c8a0a5a90fc2c40263c2fcc8fb",
+  "source_script": "05_SCRIPT_R5_1_EN.md",
+  "source_script_sha256_lf": "a1a9a7f78e71a42f4a6177b5b697d9311506dca8f672d838769a4b004ee81b75",
+  "clean_text_sha256": "a345392c88e3f9da64f29d1845221cc454c9a4c5b9177637a3a1bbaf37e8be54",
+  "profile": {
+    "id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+    "name": "Harrison",
+    "engine": "qwen",
+    "model_size": "1.7B",
+    "local": true,
+    "cost_usd": 0
+  },
+  "jobs": [
+    {
+      "sequence": 1,
+      "paragraph_id": "A01-P01",
+      "text_sha256": "ef08ef516c9f549b323d9e986fc82a5446aee66a62ca5fa89a0c097a855eda1b",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "A wheel breaks through the unloading ramp. Thomas Poulter is driving the Snow Cruiser off its ship. He applies power and gets clear. The machine has survived its first Antarctic obstacle.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101001,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 2,
+      "paragraph_id": "A01-P02",
+      "text_sha256": "20000b33d34f97025ea6de0e9d967311bb717d2751d75d78c71d9a1828f2eae6",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Then the tires begin sinking into the snow. The vehicle that has just escaped a broken ramp struggles to keep going. The ship has brought it to Antarctica. Getting farther is a different problem.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101002,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 3,
+      "paragraph_id": "A01-P03",
+      "text_sha256": "d94c86373df879ed78c6bee41fa7954bd423df92dd0e46e0520b2526b9c2870e",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "This is supposed to be a moving research base: a laboratory, living quarters, a workshop, even an airplane carried on the roof. All of it depends on four enormous tires carrying the crew across the surface.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101003,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 4,
+      "paragraph_id": "A01-P04",
+      "text_sha256": "63aefdeabb6441a864b8fa7a0c54d24fda53155040da585dbb616b167ef2e8d3",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The crew can repair damaged machinery. But what can they change when the ground will not support it?",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101004,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 5,
+      "paragraph_id": "A01-P05",
+      "text_sha256": "01a2e8888f3e3e6c41309502fdf3ccaadc270b8edbcc6a2d1fcfbbacb21cfb50",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Getting off the ship is only the beginning. The crew needs to take people, instruments, and supplies away from support—and trust the same machine to bring them back.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101005,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 6,
+      "paragraph_id": "A01-P06",
+      "text_sha256": "40345c5d5d305e353eb56fddb376c65300d369ee9e365691cde6352ff1a247e3",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "For Poulter, reliable transport is no abstract problem. Years earlier, he helped rescue Richard Byrd in the Antarctic winter. To understand why he brought an entire base on wheels, we have to begin with that rescue.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101006,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 7,
+      "paragraph_id": "A02-P01",
+      "text_sha256": "22954d858688b0876b6a4d780848c8c0defe000c95534433342085ce87215fc8",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "In the Antarctic winter of 1934, Byrd was alone at an advance weather station when fumes left him seriously ill. Poulter led the party that reached him. The journey was made through winter darkness, using a tractor.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101007,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 8,
+      "paragraph_id": "A02-P07",
+      "text_sha256": "3ed10366b6e0dff7210a68a9965cbac9fe029e41b0f23cd0eb118178036a04ad",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The rescue had required improvisation as well as an engine. Freitag and Dibbern describe a searchlight assembled from scrap metal and the camp's movie projector, with trail lights marking the return through the darkness. Transport meant reaching the man, finding the way back, and keeping the equipment working throughout.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101008,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 9,
+      "paragraph_id": "A02-P02",
+      "text_sha256": "fe00bdbbc164f873dd2134bb2af63d78bf71dc50905a1858a6ac6cbdadc6aad6",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "That experience lay behind the Snow Cruiser's purpose. A research party needed shelter, supplies, instruments, repairs, and a way home. Put all of that inside the transport, and the support could travel with the scientists.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101009,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 10,
+      "paragraph_id": "A02-P03",
+      "text_sha256": "6ea347fdaac2ef0bf0e7b6fa2b29b88f16903d8d5e6d38cade0af2aba60da26e",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Poulter's proposed answer was a base that traveled. The laboratory would go with the instruments. The crew would sleep inside. A workshop would let them repair equipment without returning to a distant station. A roof-carried airplane would scout and map beyond their ground route.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101010,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 11,
+      "paragraph_id": "A02-P04",
+      "text_sha256": "a7aab8441546ebaa6b6863c78d3e38c5249e6665df4bf744423a8382c0761dab",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "A dog team could haul supplies. An airplane could survey a large area. Poulter wanted the crew to have a place to live and work along the ground route, with the aircraft extending their reach.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101011,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 12,
+      "paragraph_id": "A02-P05",
+      "text_sha256": "368b42685445b4e5269383b3790afb1a7c57750b99bf8c25b537e524f503537a",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "By 1939, Poulter was directing the project at the Armour Research Foundation. Construction began at Pullman-Standard in August. The expedition's ships were due to sail that fall.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101012,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 13,
+      "paragraph_id": "A02-P06",
+      "text_sha256": "adc73e1965cdd156d8677886ade8299a5564f99dd1e086cc5ccd09956a9109a5",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The idea had to become a working vehicle, reach Boston, and be loaded aboard before the departure. There was little room in that sequence for a long cycle of testing and rebuilding.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101013,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 14,
+      "paragraph_id": "A03-P01",
+      "text_sha256": "322f40a42e564238855fadfa1d3f4f5fd87e72bdcc3d0c5830452b8a22778843",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "At Pullman-Standard, the builders welded a steel body around living quarters, scientific space, a galley, and a workshop. An onboard welding generator would allow field repairs and fabrication. The crew would take some of the workshop with them.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101014,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 15,
+      "paragraph_id": "A03-P03",
+      "text_sha256": "9252e86079f6e69388ce893d470b46d57fa8a27903df5c63e3cb34990dfdf532",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Two diesel engines drove generators, supplying a motor at each wheel. Hydraulic controls steered and raised or lowered the wheels. That movement was central to the most unusual part of the design.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101015,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 16,
+      "paragraph_id": "A03-P04",
+      "text_sha256": "d1e472106b760879f6da7ccdaad54c22cf79adc5107d4862f75e35580a4c3b1d",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The long forward overhang was intended to reach across a crevasse before the front wheels could cross. The crew could lower the body onto the edges, use the rear wheels to push it forward, then transfer the load and pull the rear across.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101016,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 17,
+      "paragraph_id": "A03-P05",
+      "text_sha256": "1a947e0d2b259e9f2417c76492fe35ef119c9e4725cd403faf703db51302ea12",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The published design described a gap fifteen feet wide. This was a proposed crossing method, not an Antarctic maneuver the expedition had demonstrated. The body itself was part of the bridge.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101017,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 18,
+      "paragraph_id": "A03-P07",
+      "text_sha256": "b3845888bc57bc85060a022ba31b4d39a8e7cdca38a4988be392f2225793bbd5",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Making that sequence work meant controlling the body, steering, and drive together. First, the crew had to get the whole machine from Chicago to a ship in Boston.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101018,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 19,
+      "paragraph_id": "A04-P10",
+      "text_sha256": "dc92a1f60d8a59c329568854070d66358a822cfd92f276d7433f5cacdb4d730a",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The first drive through Chicago exposed a problem before the snow could: controlling the machine itself. Poulter had to coordinate the wheels, drive, and brakes while watching the road. The team returned to make adjustments the following morning.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101019,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 20,
+      "paragraph_id": "A04-P08",
+      "text_sha256": "99dea728f6709759d83410bf99def99fbf7a6153fc50e6375f0b14cd61f30949",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Then came the public demonstration in Grant Park. The Cruiser moved sideways, pivoted, and raised and lowered its body. The controls were producing the movements Poulter wanted. Next came a brief trial on a different surface.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101020,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 21,
+      "paragraph_id": "A04-P01",
+      "text_sha256": "e353e97c86d8f5832303ce26534accd1826e4cc611ef4078e14d10d4f5a6799a",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "In dunes near Chicago, he drove wheels onto loose sand and across uneven slopes to check the frame and wheel system. Those trials showed the machine working. They could not establish how it would perform through an Antarctic expedition.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101021,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 22,
+      "paragraph_id": "A04-P03",
+      "text_sha256": "2786e8383435b229dbd1240d8c6a8d9bf8e8d7c81a3742a600fd075994c38c1d",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Then it went east on public roads, accompanied by police, reporters, and crowds gathering along the route.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101022,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 23,
+      "paragraph_id": "A04-P04",
+      "text_sha256": "8f2187845b1e47236144a6e0eb15a016982782866a69b150fca775be4bd43426",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The failures happened in public, too. In Indiana, the Cruiser struck a truck. Near Gomer, Ohio, it went off a narrow bridge and into Pike Run Creek. A machine meant to cross polar crevasses had its nose in an American stream.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101023,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 24,
+      "paragraph_id": "A04-P05",
+      "text_sha256": "9efb602995256a218cea807f41eab81352e3c18a43f36873e74e85864de4ec85",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Getting it out required more than a tow. In Freitag and Dibbern's account, the crew repaired the hydraulic system and used the Cruiser's own jacks to bring it level. Then they reversed it back onto the road.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101024,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 25,
+      "paragraph_id": "A04-P09",
+      "text_sha256": "2f733f90be2c71e93864d654c1cc7f835ea95d9f4283ac4a8351f59aedb19ab4",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "General Electric replaced wheel motors before the journey continued. Yet on long climbs, the remaining motors overheated and a truck had to tow it uphill. The crew had recovered the machine. They had not removed its dependence on help along the road.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101025,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 26,
+      "paragraph_id": "A04-P06",
+      "text_sha256": "13cdcb7c898d852ca24f61c3f5c070b70b42ce19f289ddbb6ad70c5bd80695d0",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "In Boston, even boarding the ship required a change. The rear cargo section came off so the Cruiser could fit aboard North Star. It would be attached again in Antarctica. First, the crew needed the deck and dock to meet.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101026,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 27,
+      "paragraph_id": "A04-P11",
+      "text_sha256": "28358afb9dc6d2c185339889334c0685fac0378f4c6c518d9dd2a913677de549",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The tide brought the deck level with the dock. They drove the Cruiser aboard, raised its wheels, and secured the body. The tail traveled separately. The machine had reached the ship; testing and repair had filled the road to it.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101027,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 28,
+      "paragraph_id": "A04-P07",
+      "text_sha256": "0adf9d0f735061f105684934a0d1df9726bc0516052c820d4f0a27feb67bd704",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "North Star sailed in November. Along the road, help had come from workshops and a towing truck. The next attempts to make the Cruiser travel would take place on Antarctic snow.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101028,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 29,
+      "paragraph_id": "A05-P08",
+      "text_sha256": "20beb053ddf9df4ffabe4b19693fc09107ff9a5577950eeeedd0fe355f67feaa",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Work continued during the voyage. The same historical study describes changes to the hydraulics, electrical work, and preparations for mounting two tires together. Rough seas and cold made the work harder. Some jobs were still unfinished when North Star reached the Bay of Whales. Departure had not meant that development was complete.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101029,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 30,
+      "paragraph_id": "A05-P09",
+      "text_sha256": "c19ec2100ba9c9bc6f63f59f20df48a9bd05b1ab8530510ea33c179eafd56170",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The ship could not simply deliver it onto the high shelf. Sea ice separated the unloading point from that destination. The Cruiser also occupied a hatch needed for the cargo beneath it, so it had to come off before that unloading could continue. A temporary ramp became the first connection between ship and surface.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101030,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 31,
+      "paragraph_id": "A05-P01",
+      "text_sha256": "a210e660d60d0c9a877a5d114727261a7413e4f03e69a718b7a79717601642ba",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "At the Bay of Whales, the Cruiser came down from North Star onto sea ice. The unloading ramp broke, as we saw at the beginning. Poulter got the vehicle clear.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101031,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 32,
+      "paragraph_id": "A05-P03",
+      "text_sha256": "cf20ded4b6bdb0ea3b8c25bdab6546806edb211c7ba3dbd223ba919024c48ea0",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "In an account later reproduced by researchers, Poulter described feeling as though something was dragging after the ramp incident. An inspection found no dragging wheel or drive mechanism. The tires were sinking into the surface.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101032,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 33,
+      "paragraph_id": "A05-P10",
+      "text_sha256": "6ce79a52bcf7655daf4117eb4ec400d2be641e7841985cae68494c341bb09a16",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "They continued until the wheel motors were hot, then stopped to rest. The next stage could not be treated as an ordinary continuation of the unloading. It meant getting the vehicle from the sea-ice approach up onto the shelf itself.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101033,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 34,
+      "paragraph_id": "A05-P04",
+      "text_sha256": "29aa8d879c2ae2e0a321dd574a9a72d59bb515e0110d28aec073a1a0dbe802d7",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The next obstacle was an incline toward the shelf. Poulter's later recollection describes stalling, backing away, and trying other places. Finally, the crew laid short planks across the soft snow beneath the tires. For roughly a hundred feet, they gave the wheels an artificial surface. Beyond that stretch, the vehicle could creep on without them.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101034,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 35,
+      "paragraph_id": "A05-P05",
+      "text_sha256": "d466e8e2e07b31510b9a2b0f3f8209de8fc97c97c06bff07336c93449f641b8a",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Those planks made one stretch passable. A mobile survey needed more: a route the crew could use repeatedly, with people and equipment aboard.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101035,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 36,
+      "paragraph_id": "A05-P07",
+      "text_sha256": "848a7c8ffa3299f86bff9244bb59a27c4ced80f92ff59bb138e95bbdf14dff4b",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The question had changed from whether the machine would arrive to whether the expedition could rely on it.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101036,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 37,
+      "paragraph_id": "A06-P01",
+      "text_sha256": "b512835abbe347a1ecbbae9ba5037a6713c6ab179dc9dd53e46417d67b4c8491",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Look at the tire meeting the snow. It needs grip, but it also needs support. If it sinks, the wheel has more snow to deform and displace as it turns.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101037,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 38,
+      "paragraph_id": "A06-P03",
+      "text_sha256": "2ac8c1a495f18520da030836c6483fd63ec51f8bbffe82e93dc6840624440ec0",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "A 1955 Army Corps of Engineers report, published fifteen years after the landing, makes the crucial comparison. The Cruiser used tires made in the same molds as the Gulf Marsh Buggy's. Yet the load on each wheel differed by about five times. The report put the Cruiser at roughly seventeen thousand five hundred pounds per wheel, excessive for those tires in Antarctic operation.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101038,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 39,
+      "paragraph_id": "A06-P05",
+      "text_sha256": "ccd7e4343119f163a0664aa4ee59c1e0819c9f181c484f08d1150a07951b248d",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "A contemporary engineering article explains why that tire mold was available. It had been made for a large marsh vehicle. A new mold would take months. Stronger tire construction offered a way to carry the Cruiser within the available schedule.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101039,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 40,
+      "paragraph_id": "A06-P06",
+      "text_sha256": "24f5c467e5f9a8e0b5aefbd9422953936de30d35ee362a46454a3076a8b4407a",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The stronger tire could carry the machine. The snow still had to carry the tire.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101040,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 41,
+      "paragraph_id": "A06-P07",
+      "text_sha256": "6a03a4dbabd001989d7fa8c3d742e2d82216f5755b9593a2ffb352033d9bec76",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Meanwhile, accounts describe the wheel motors getting hot during slow progress. More effort at the controls was not producing the dependable travel the expedition needed.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101041,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 42,
+      "paragraph_id": "A06-P08",
+      "text_sha256": "d01055e20b97ec4513cc813c300ac80206aa0801b90f73fc71dd6502b2b09b5d",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The crew had two spare tires. Could those change how the vehicle met the snow?",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101042,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 43,
+      "paragraph_id": "A07-P01",
+      "text_sha256": "53a1dbe865231f5630daad7a721209cf214e551b6ba7c69f9f19f163e9e1a39e",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "They fitted the spares alongside the front tires and put chains on the rear pair. The changed arrangement appears in expedition photographs: more tire surface ahead, with chains intended to help grip behind.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101043,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 44,
+      "paragraph_id": "A07-P02",
+      "text_sha256": "016c5bb667fe22382615843b87e27e780cc6a11bb0f805116fa5430605604be3",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "They reduced the air pressure until the sidewalls wrinkled, and tried different drive connections and settings. Freitag and Dibbern report that Wade later acknowledged uncertainty about the actual pressures. There is no dependable pressure figure here to turn into a recipe. The record describes experiments, not a tested cure.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101044,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 45,
+      "paragraph_id": "A07-P03",
+      "text_sha256": "f9aa1744898c590646e00df2b0cb8882929adf4478d3bdec63d49a80aae0a9ea",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Moving out of one patch gave them another chance to continue. It did not yet give them a vehicle they could confidently send far from support.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101045,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 46,
+      "paragraph_id": "A07-P04",
+      "text_sha256": "e2d75a634adb79724f402f6b447415e153fe04c281f7fac36ede6439d5dc1b58",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Poulter left Antarctica in January. He left another possibility behind: try again when the snow was colder. The remaining crew returned to the machine after winter.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101046,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 47,
+      "paragraph_id": "A07-P05",
+      "text_sha256": "c88c68c04a7e2f2674b66484424a148b41ddbe92babb8e897ffa27dc77c6db67",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The history drawn from Wade's log describes the preparation: hydraulic lines cleaned and repaired, fuses replaced, engines run. Outside, the crew dug a long ramp through the winter drifts. The Cruiser pulled itself up. Once out, it rolled across the surface without sinking as deeply as before. After all that work, the colder snow appeared to offer a way forward.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101047,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 48,
+      "paragraph_id": "A07-P06",
+      "text_sha256": "7f4b9a3e59006c34e894aefc0cd4de2b3b0d179fb33777ef60c1e070ae1d41ff",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Then the next attempt stopped: the hydraulic lines were clogged. The crew cleared them and tried again. This time, the wheels sank deeply into the snow. Wade described a thin crust over loose powder beneath it. The blockage had been cleared. The surface still could not carry the Cruiser reliably. Excavating the machine and repairing it had brought back movement. They had not brought back the expedition's route.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101048,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 49,
+      "paragraph_id": "A07-P07",
+      "text_sha256": "046f1bcd1eafe7d0ba17f8edb25824967b3c85b4a053761cac2b29e6daf7962d",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The crew still had shelter inside. What they did not have was a dependable way to take that shelter into the interior. The Cruiser could serve the expedition by staying where it was.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101049,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 50,
+      "paragraph_id": "A08-P02",
+      "text_sha256": "81daebcadee0912f1c9822f461716fe1a48dfcb047f808b0e24225abd8e42c4e",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "One photograph shows Ferranto, the radio operator, working with a torch at a wheel hub. Another shows Wade emerging through a hatch surrounded by snow. A dog team hauls a spare tire. These are practical jobs around a machine that has failed its transport mission.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101050,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 51,
+      "paragraph_id": "A08-P03",
+      "text_sha256": "3dc84066d208e8d9216d39429c8fcd4d805b4c8b2929f8659a8ad27036640c34",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "During that winter, Wade and Laurence Warner were researching the shelf ice at West Base. A scientific account published in 1947 records how the Cruiser's failure restricted the planned winter work to that location.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101051,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 52,
+      "paragraph_id": "A08-P04",
+      "text_sha256": "77d1e3cfc0a403f7eea7921bcb00a64338c126e40fb1eae6765f4b9bfa09ff69",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "At West Base, they dug through the floor of the ice laboratory—not the Cruiser's—and cut and weighed snow samples from different layers. The vehicle had not taken them into the interior. They worked where they were.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101052,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 53,
+      "paragraph_id": "A08-P06",
+      "text_sha256": "da28ede0c7d0dd0f4821d09f6e206adfbb9313770518c930a74c4c15ab0d5095",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The war brought an early end to the expedition. The crew left the Cruiser at the old base, its overland program unfinished.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101053,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 54,
+      "paragraph_id": "A08-P07",
+      "text_sha256": "69d7a682d762f9409f53b7d5367bfc65d81ad362ab7d109e3794ee98eed6cff8",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Years later, visitors would return to the abandoned machine. Their observations would put it back in the record, while the landscape around it was changing.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101054,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 55,
+      "paragraph_id": "A09-P01",
+      "text_sha256": "01464f05cd50479c859eef393764428511aaee0cb27fdfad80b9d9f48514d6c8",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "In 1947, a War Department report recorded people opening the Cruiser without authorization. It described serious vandalism. The machine had survived long enough to be entered again.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101055,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 56,
+      "paragraph_id": "A09-P02",
+      "text_sha256": "330210fc08b95978eb5ae972c1952357fffe778aad8c17c00ec93bf1bb96759c",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Another observation in the same report placed its flat roof level with the snow surface. The huge wheels and high body no longer made it a towering object. People were reaching it from above.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101056,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 57,
+      "paragraph_id": "A09-P03",
+      "text_sha256": "e47e1c9bc29bd84ee0c3cc40aafede671acf7793cf7d7f1fb64317fdb16a5da4",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Those pages record damage and snow accumulation. They do not establish a successful restart.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101057,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 58,
+      "paragraph_id": "A09-P04",
+      "text_sha256": "a6d8bcc80ab4af290098d21f1958a8f7f0d9af6dbaa329b47f6bdf5fbb5127e5",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "There was another visit in January 1958. Researchers Ted Scambos and Clarence Novak describe a pit dug to the vehicle, drawing on an account from that time. Their later study characterizes it as well preserved.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101058,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 59,
+      "paragraph_id": "A09-P05",
+      "text_sha256": "ab6c84c48b4bfce50b16285664038c73ea17d3c583971d0b7811c66386a4fcf1",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "That places it on the eastern side of the Bay of Whales at that time. The transport had stopped, but it was resting on shelf ice that could move and break away.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101059,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 60,
+      "paragraph_id": "A09-P06",
+      "text_sha256": "094e5b7e8eb28d2e9397133eeaef47aaa921617abc3ba308e5e1efcecc87103b",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The visitors had found the machine. Later researchers would have to find the place where it had stood by comparing that record with a coastline that no longer looked the same.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101060,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 61,
+      "paragraph_id": "A09-P07",
+      "text_sha256": "540032ba694f0f9bbfb571668809b97d2aec5a2fa70367ec0558e49d9ba0d85c",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Could the Cruiser leave that coast without ever driving again?",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101061,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 62,
+      "paragraph_id": "A10-P01",
+      "text_sha256": "a10059c9946fb03854349783a8a72753fc42ac44dbfd49508c514f511d1a5ff1",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "Scambos and Novak compared historical maps with later mapping and imagery. Their reconstruction indicates that the relevant area calved away between 1957 and 1962, probably toward the later part of that interval.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101062,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 63,
+      "paragraph_id": "A10-P02",
+      "text_sha256": "2da796f4c7241013e3a93759c8369fb5b9d9b5d3be15f0a5fe4fd19851104012",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "That gives the abandoned machine a possible final journey: carried away with the ice beneath it. It is an inference from the changing coast, not a witnessed departure.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101063,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 64,
+      "paragraph_id": "A10-P09",
+      "text_sha256": "32c88c879a982d58337dbf094238e7f3f9acb34da8a4daf8b9d15b4d511361cc",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "There is one more tempting clue. Their paper discusses an iceberg seen in February 1963 carrying remains of Little America Three. But its reconstructed orientation led the authors to conclude that the Cruiser probably was not aboard that particular iceberg. A floating piece of the base is not automatically a sighting of the vehicle.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101064,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 65,
+      "paragraph_id": "A10-P03",
+      "text_sha256": "0b79e2ab067793750ab803c4da1988b0c0cd02e0ab946e86af600d2cddee5eb4",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The study proposes that artifacts, potentially including the Cruiser, could lie on the seabed near the former ice front. It identifies no recovered vehicle and no exact resting place. The trail leads to a search area, not a final photograph.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101065,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 66,
+      "paragraph_id": "A10-P04",
+      "text_sha256": "bf9ea916c3848163ec9d8d5ac606d4c8a7eac963935c49a28e18b26085e3738c",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The expedition photographs leave us with people still at work: Ferranto at a wheel hub, Wade coming through the hatch. Their machine could not carry out the traveling program. They carried on with the expedition anyway.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101066,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 67,
+      "paragraph_id": "A10-P07",
+      "text_sha256": "e0be1aa8fd995e3cedc46e158fa45b26f79a15d00e3c54befdb37e74e97dc141",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "That is where the two stories separate. The research could leave Antarctica with the expedition. The Cruiser stayed behind. In 1958, people dug down to reach it. After that, the changing ice carries the trail beyond the last documented visit described here.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101067,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 68,
+      "paragraph_id": "A10-P08",
+      "text_sha256": "19d62def1f1fe1bd59692a2d8299e3705d3423c0d9098f7489e00d6bb7186a2d",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "It was built to take a small party into the interior and bring them home. Instead, the people left without it. The records let us follow their work. For the machine's final resting place, we still have only the reconstruction—and the unanswered question.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101068,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    },
+    {
+      "sequence": 69,
+      "paragraph_id": "A10-CTA01",
+      "text_sha256": "df185594f2a6f2b4638d0d2ed3fa1e1b2c025bf601f229be86e239d1b5e56d2b",
+      "payload": {
+        "profile_id": "228d3d8a-096f-461b-bf11-4f9415e2dafc",
+        "text": "The next story takes us inside the ice: Camp Century, the American base built beneath Greenland's surface.",
+        "language": "en",
+        "engine": "qwen",
+        "model_size": "1.7B",
+        "seed": 99101069,
+        "instruct": "Measured, curious, factual American industrial-history documentary narration. Clear technical terms, restrained emphasis, natural medium cadence. No trailer voice, melodrama, improvisation or added words.",
+        "personality": false,
+        "max_chunk_chars": 800,
+        "crossfade_ms": 50,
+        "normalize": true,
+        "effects_chain": []
+      }
+    }
+  ]
+}

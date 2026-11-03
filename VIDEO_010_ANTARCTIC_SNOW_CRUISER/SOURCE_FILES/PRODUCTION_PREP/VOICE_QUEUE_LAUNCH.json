@@ -1,0 +1,18 @@
+{
+  "queue_id": "HIA_VIDEO010_R5_1_HARRISON_20261102",
+  "worker_pid": 39180,
+  "verified_status": "WAIT_EXISTING_VOICEBOX_JOBS",
+  "counts_at_launch": {
+    "LOCAL_QUEUED": 69
+  },
+  "existing_voicebox_jobs": 1,
+  "job_count": 69,
+  "queue_path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\R5_1_HARRISON_QUEUE",
+  "model": "Harrison/localQwen1.7B",
+  "cost_usd": 0,
+  "api_generation_ids_at_launch": [],
+  "submission_strategy": "Durable local serial queue;wait for existing GPU job;no cancellation,no simultaneous69job submission.",
+  "history_endpoint_note": "Voicebox /history?limit1000 returns500;bounded recent50 metadata request verified200. No backend settings or unrelated jobs altered.",
+  "assistant_waits_for_completion": false,
+  "recorded_utc": "2026-11-03T03:59:11.916302+00:00"
+}

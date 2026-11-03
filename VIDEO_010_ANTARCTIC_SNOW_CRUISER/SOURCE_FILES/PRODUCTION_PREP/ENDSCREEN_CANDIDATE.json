@@ -1,0 +1,31 @@
+{
+  "file": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\EDIT_PREP\\R5_1\\ENDSCREEN_CANDIDATE\\VIDEO010_TEXTLESS_20S_1080P25_CANDIDATE.mp4",
+  "sha256": "dd3bff50963e1b2516465dbb98222cc7c4dba540a2cef9c2ecb9c5ec6b975e4e",
+  "source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\CURATED_EDIT_R2\\MEDIA\\STOCK_MODERN_CONTEXT\\ST04_ICE_FLOES.mp4",
+  "source_asset": "ST04_ICE_FLOES",
+  "source_context": "ModernLarsenC2016;designbackgroundonly,not historicalSnowCruiserfootage",
+  "credit": "NASA/GSFC;JeffersonBeck",
+  "duration": 20,
+  "fps": 25,
+  "width": 1920,
+  "height": 1080,
+  "audio_streams": 0,
+  "treatment": "Fixed16:9crop excludes source timestamp for END SCREEN DESIGN ONLY;uniformscale3.45percent,not animatedzoom;10.01secsource thenfinalframeholdto20sec;noaudio,text,slots orbuttons",
+  "native_youtube_elements": [
+    "Subscribe",
+    "Specific Video:sP67aPtpwKg"
+  ],
+  "status": "TECHNICAL_CANDIDATE_OWNER_VISUAL_REVIEW_PENDING",
+  "decode_pass": true,
+  "source_license_scope": "Same documented NASAeditorialuse;no endorsement;source evidence in package",
+  "rejected_reference": "ExistingVideo009platehasbakedtextandframes;not copiedintoR5.1textlessendscreen",
+  "fixed_source_crop": {
+    "x": 32,
+    "y": 36,
+    "width": 1856,
+    "height": 1044
+  },
+  "source_timestamp_cropped_for_design": true,
+  "source_original_unchanged": true,
+  "visual_review": "Single renderedframeat2secviewed:timestampexcluded,nobakedtext/slots;notfullrealtimeA/Vorownerapproval."
+}

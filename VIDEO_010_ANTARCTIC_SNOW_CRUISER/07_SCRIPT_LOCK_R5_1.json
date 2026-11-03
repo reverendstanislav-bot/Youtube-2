@@ -1,0 +1,19 @@
+{
+  "status": "LOCKED_FOR_AUTHORIZED_VOICE_PRODUCTION",
+  "revision": "R5.1",
+  "source_commit": "503749c970b557c8a0a5a90fc2c40263c2fcc8fb",
+  "script_sha256_lf": "a1a9a7f78e71a42f4a6177b5b697d9311506dca8f672d838769a4b004ee81b75",
+  "clean_voice_text_sha256": "a345392c88e3f9da64f29d1845221cc454c9a4c5b9177637a3a1bbaf37e8be54",
+  "words": 2406,
+  "paragraphs": 69,
+  "authorization_basis": "Current owner instruction to proceed after FinalQC,launch Git stages and queue voice without waiting;interpreted as production approval of unchangedR5.1,not a fabricated literalPASS message.",
+  "literal_script_lock_phrase_given": false,
+  "owner_proceed_authorization": true,
+  "voice_authorized": true,
+  "edit_preparation_authorized": true,
+  "paid_operations_authorized": false,
+  "publishing_authorized": false,
+  "original_source_and_media_holds_preserved": true,
+  "recorded_utc": "2026-11-03T04:19:33.361795+00:00",
+  "owner_instruction_verbatim": "после этого запускай все стадии по гит , а так же озвучку ставь скриптом в очередь , не жди ее завершения , я тебе сам о ней напомню \nПакет архива вроде мы уже собрали на компе \nПодготавливай все к монтажу"
+}
