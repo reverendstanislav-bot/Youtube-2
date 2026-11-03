@@ -37,3 +37,7 @@ Owner clarified: audio-track assembly, missing-image prompts/references and buil
 
 ## Latest owner visual-density instruction /2026-11-03
 Owner requires3-6seconds per narrative shot; video where story needs it; do not build wholefilm from archive.25gap images are not completefilm coverage. Full-film R2 plan:193shots at3-6s,25existing generated images,16archive plans,2existingCampCentury transition images,150additional image tasks.8video candidates within the193,not8approved paid jobs. See12_FULL_FILM_DENSITY_R2. Extra150prompts ready,notgenerated; no new Resolve edits.20second native endscreen separate. Audio and script locks unchanged; ASR/listening hold preserved. No universal archive percentage inferred.
+
+
+## Latest owner instruction: assemble entire film /2026-11-03
+Owner explicitly requested full-film assembly, superseding prior no-montage scope. Follow193shot density plan, generate missing150using built-in ImageGen, preserve existing25and raw narration, keep archive rights HOLDs. Assemble a new version in Resolve, include native explanatory layers, selective source-credited sound and20svoice-free endscreen. Budget remainsUSD0; no paid video jobs inferred. Full A/V/listening and owner acceptance cannot be claimed from a render command. No Shorts/subtitles/publication.

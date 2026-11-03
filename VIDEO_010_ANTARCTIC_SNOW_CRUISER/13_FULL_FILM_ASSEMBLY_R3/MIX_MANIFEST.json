@@ -1,0 +1,39 @@
+{
+  "voice_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\R5_1_MASTER_QC\\VIDEO010_R5_1_HARRISON_MASTER_CANDIDATE_48K_S24.wav",
+  "derived_voice": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\FILM_MIX_R3\\VIDEO010_HARRISON_GAIN_ONLY_48K_S24.wav",
+  "fixed_gain_db": -0.36,
+  "measured_input_lufs": "-19.88",
+  "measured_input_truepeak": "-1.64",
+  "retiming": false,
+  "source_unchanged": true,
+  "listening_pass": false,
+  "sfx": [
+    {
+      "name": "WOOD",
+      "source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\FILM_SFX_R3\\873248.mp3",
+      "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\FILM_MIX_R3\\WOOD_QUIET.wav",
+      "duration": 1.4,
+      "target_peak_dbfs": -25,
+      "source_offset_seconds": 0.58,
+      "role": "editorial foley, not archival audio"
+    },
+    {
+      "name": "SNOW",
+      "source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\FILM_SFX_R3\\684587.mp3",
+      "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\FILM_MIX_R3\\SNOW_QUIET.wav",
+      "duration": 2.5,
+      "target_peak_dbfs": -32,
+      "source_offset_seconds": 0.98,
+      "role": "editorial foley, not archival audio"
+    },
+    {
+      "name": "METAL_SWITCH",
+      "source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\EDIT_PREP\\R5_1\\SFX_CANDIDATES\\613918.mp3",
+      "path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\AUDIO\\FILM_MIX_R3\\METAL_SWITCH_QUIET.wav",
+      "duration": 0.65,
+      "target_peak_dbfs": -29,
+      "source_offset_seconds": 0.16,
+      "role": "editorial foley, not archival audio"
+    }
+  ]
+}

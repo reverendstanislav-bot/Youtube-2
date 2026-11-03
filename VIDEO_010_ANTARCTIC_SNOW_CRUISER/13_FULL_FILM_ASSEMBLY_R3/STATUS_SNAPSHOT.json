@@ -1,0 +1,18 @@
+{
+  "status": "IN_PROGRESS_NOT_RENDERED",
+  "scope": "Owner requests entire film; no separate first-minute delivery",
+  "generated_new_images": 54,
+  "required_new_images": 150,
+  "narrative_shots": 193,
+  "timeline_fps": 24,
+  "duration_frames_including_endscreen": 21310,
+  "endscreen_frames": 480,
+  "script": "R5.1 unchanged",
+  "gates": [
+    "Full visual QC pending",
+    "Full audiovisual listening pending",
+    "ASR prefix artifacts unresolved",
+    "Owner acceptance pending"
+  ],
+  "updated": "2026-11-03T09:26:28.232683"
+}
