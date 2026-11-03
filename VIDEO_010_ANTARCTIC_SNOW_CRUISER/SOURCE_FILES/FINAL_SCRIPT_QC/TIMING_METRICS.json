@@ -1,0 +1,54 @@
+{
+  "english_words": 2406,
+  "russian_review_words": 2003,
+  "r5_words": 2531,
+  "english_delta": -125,
+  "paired_paragraphs": 69,
+  "unchanged_paragraphs_from_r5": 65,
+  "rewritten_paragraphs": 4,
+  "removed_paragraph_ids": [
+    "A04-CTA01",
+    "A08-P08",
+    "A08-P09"
+  ],
+  "acts": 10,
+  "spoken_bridge_count": 1,
+  "spoken_subscribe_count": 0,
+  "spoken_engagement_question_count": 0,
+  "end_screen_seconds": 20,
+  "measured_harrison_wpm": null,
+  "actual_runtime_seconds": null,
+  "rate_status": "HOLD_NO_EXISTING_EPISODE_AUDIO_OR_APPROVED_MEASUREMENT",
+  "word_rule": "Bracketed bodies only,including final bridge. Unicode words with internal apostrophes/hyphens as one;headings,IDs and metadata excluded.",
+  "runtime_scenarios": [
+    {
+      "wpm": 125,
+      "narration_seconds": 1154.88,
+      "including_20s_end": 1174.88
+    },
+    {
+      "wpm": 135,
+      "narration_seconds": 1069.333,
+      "including_20s_end": 1089.333
+    },
+    {
+      "wpm": 140,
+      "narration_seconds": 1031.143,
+      "including_20s_end": 1051.143
+    },
+    {
+      "wpm": 145,
+      "narration_seconds": 995.586,
+      "including_20s_end": 1015.586
+    },
+    {
+      "wpm": 150,
+      "narration_seconds": 962.4,
+      "including_20s_end": 982.4
+    }
+  ],
+  "rate_interval_for_18_to_20_minutes": [
+    122.339,
+    136.189
+  ]
+}

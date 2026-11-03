@@ -1,0 +1,32 @@
+--- 05_SCRIPT_R5_EN.md
++++ 05_SCRIPT_R5_1_EN.md
+@@ -1 +1 @@
+-# VIDEO010 - STAGE05R.4 - SCRIPT R5 EN
++# VIDEO010 - FINAL SCRIPT QC - SCRIPT R5.1 EN
+@@ -3 +3 @@
+-R5 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. NO SHORTS.
++R5.1 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. NO SHORTS.
+@@ -5,2 +5,2 @@
+-R1/R2/R3/R4 preserved. Two spoken CTA paragraphs only. Like is visual only; comment is separate. Final 20 seconds: voice-free Subscribe+Previous Story.
+-Sources: 05R_CLAIM_SOURCE_LEDGER.csv; inherited R3 crosswalk; additions and qualifications in 05R3_FACT_CHANGES.csv. See 05R4_FINAL_POLISH_QC.md and SOURCE_FILES/STAGE05R4_REVIEW for current timing and source crosswalk. Source access/rights and actual Harrison pace holds remain.
++R1/R2/R3/R4/R5 preserved. One spoken bridge only; no mid-film spoken Subscribe. Like is visual only; comment is separate. Final 20 seconds: voice-free Subscribe+Previous Story.
++Sources: 05R_CLAIM_SOURCE_LEDGER.csv; inherited R3 crosswalk; additions and qualifications in 05R3_FACT_CHANGES.csv. See 05_FINAL_EDITORIAL_QC.md, 05_FINAL_TIMING_REPORT.md and SOURCE_FILES/FINAL_SCRIPT_QC for current timing and source crosswalk. Source access/rights and actual Harrison pace holds remain.
+@@ -18 +18 @@
+-[A01-P05] They will add tires, fit chains, change pressures, and try again in colder weather. One attempt will get the Cruiser moving better—before another failure stops it. Can they turn that improvement into a journey?
++[A01-P05] Getting off the ship is only the beginning. The crew needs to take people, instruments, and supplies away from support—and trust the same machine to bring them back.
+@@ -65,2 +64,0 @@
+-
+-[A04-CTA01] The jacks worked. The mission was still ahead. Subscribe to Hidden Industrial America for the engineering decisions behind stories like this.
+@@ -118 +116 @@
+-[A07-P06] But on the next attempt, clogged hydraulic lines stopped it. The crew cleared them. They tried again. This time, the wheels sank deeply into the snow. Wade described a thin crust over loose powder: the surface could look firm while the material beneath it gave way. Repairing the hydraulics had removed one obstacle. It had not made the snow carry the vehicle. Further pump, valve, and electrical failures meant more work just to attempt another run.
++[A07-P06] Then the next attempt stopped: the hydraulic lines were clogged. The crew cleared them and tried again. This time, the wheels sank deeply into the snow. Wade described a thin crust over loose powder beneath it. The blockage had been cleared. The surface still could not carry the Cruiser reliably. Excavating the machine and repairing it had brought back movement. They had not brought back the expedition's route.
+@@ -120 +118 @@
+-[A07-P07] They had excavated the vehicle, repaired it, and seen it move better. That was real progress. It still had not become transport they could rely on far from base. The rooms inside remained useful, even as the traveling program failed.
++[A07-P07] The crew still had shelter inside. What they did not have was a dependable way to take that shelter into the interior. The Cruiser could serve the expedition by staying where it was.
+@@ -128,5 +126 @@
+-[A08-P04] At West Base, they dug seven meters down through the ice laboratory's floor—not the Cruiser's. They cut blocks from the upper layers. Deeper down, cutting became so difficult that they used blasting. The expedition had lost mobility, but the fieldwork continued under their feet.
+-
+-[A08-P08] They weighed snow samples and compared layers at different depths. The work turned the surface that had defeated the transport into something they could measure and study. It did not rescue the journey. It did produce research.
+-
+-[A08-P09] They also tracked the rising snow surface near the base. These were local measurements, not a rate for all Antarctica. Later visitors would meet the practical consequence: to reach the abandoned Cruiser, they would have to approach from above.
++[A08-P04] At West Base, they dug through the floor of the ice laboratory—not the Cruiser's—and cut and weighed snow samples from different layers. The vehicle had not taken them into the interior. They worked where they were.

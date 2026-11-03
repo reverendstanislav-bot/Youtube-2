@@ -1,0 +1,50 @@
+{
+  "recorded_utc": "2026-11-03T03:37:14.028959+00:00",
+  "sources": [
+    {
+      "url": "https://www.archives.gov/research/motion-pictures/permissions",
+      "result": "READ",
+      "scope": "Federal work vs third-party components;no blanket license."
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "result": "READ",
+      "scope": "Factual editorial use;source acknowledgment;third-party and endorsement limitations."
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "result": "READ",
+      "scope": "Public-domain base map data."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Antarctic_Snow_Cruiser_and_its_crew.jpg",
+      "result": "READ",
+      "scope": "Specific image metadata/PD-USGov-USAP;not whole archive clearance."
+    },
+    {
+      "url": "https://www.usap.gov/videoclipsandmaps/photolibrary/",
+      "result": "INACCESSIBLE",
+      "scope": "No fresh primary-website license claim."
+    },
+    {
+      "url": "https://www.digitalcommonwealth.org/search/commonwealth:5h73vr50d",
+      "result": "INACCESSIBLE",
+      "scope": "Existing BPLrightsHOLD not upgraded."
+    },
+    {
+      "url": "https://www.loc.gov/item/2016860751/",
+      "result": "403",
+      "scope": "Saved individual item JSON reviewed;not fresh live confirmation."
+    },
+    {
+      "url": "https://www.loc.gov/item/2016883582/",
+      "result": "INACCESSIBLE",
+      "scope": "Saved individual item JSON reviewed."
+    },
+    {
+      "url": "https://www.loc.gov/item/79692772/",
+      "result": "403",
+      "scope": "Saved item JSON reviewed;1956date preserved."
+    }
+  ]
+}

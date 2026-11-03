@@ -1,0 +1,19 @@
+{
+  "status": "PACKAGE_STRUCTURE_AND_TRACEABILITY_VERIFIED_OWNER_APPROVAL_HOLD",
+  "english_words": 2406,
+  "russian_words": 2003,
+  "paired_ids": 69,
+  "unchanged_r5_paragraphs": 65,
+  "rewritten_paragraphs": 4,
+  "deleted_paragraphs": 3,
+  "full_diff_verified": true,
+  "translation_matrix_matches_texts": true,
+  "canonical_ledger_unchanged": true,
+  "eight_exclusions_retained": true,
+  "archive_audit_rows": 72,
+  "actual_harrison_rate_verified": false,
+  "full_film_AV_review": false,
+  "owner_approved": false,
+  "script_lock": false,
+  "production_started": false
+}

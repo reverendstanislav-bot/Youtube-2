@@ -1,0 +1,17 @@
+{
+  "audio_search_root": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10",
+  "audio_extensions": [
+    "wav",
+    "mp3",
+    "flac",
+    "m4a",
+    "ogg"
+  ],
+  "existing_episode_audio": [],
+  "approved_measurement_found": false,
+  "evidence": "Current episode docs consistently mark140wpm provisional. VIDEO009contract forbids importingWHATITCOSTHarrison by default;135wpm planning there is not a measuredHarrison rate.",
+  "actual_harrison_wpm": null,
+  "generation_or_transcription_run": false,
+  "remote_r5_head": "f0b9b7fb5ca6288dca5edfeda7a2d9b48f602d06",
+  "tracked_episode_audio_files_at_remote_head": []
+}

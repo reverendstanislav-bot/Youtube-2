@@ -18,3 +18,9 @@ Active:05_SCRIPT_R4_EN.md and05_SCRIPT_R4_RU.md. R4 READY FOR OWNER REVIEW / SCR
 
 ## Latest owner stage05R.4 - R5 (2026-11-02; supersedes earlier active status)
 Active:05_SCRIPT_R5_EN.md and05_SCRIPT_R5_RU.md. R5 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. Read05R4_FINAL_POLISH_QC.md,05R4_CTA_MAP.csv,05R4_RETENTION_MAP.csv andSOURCE_FILES/STAGE05R4_REVIEW.2531EN/2127RU;72paired IDs;10acts. Conditional18:25 at140wpm+20sec;145wpm gives17:47,not18-20. Actual Harrison pace HOLD. R1-R4 unchanged. Exactly2spoken CTAs;Like visual3sec;Comment outside film.20sec voice-free Subscribe+CampCentury SpecificVideo sP67aPtpwKg. Source/media HOLDs unchanged. USD0;NO SHORTS;no TTS,generation,Resolve/render,paid operations,Studio changes or posting. Next owner review only.
+
+## Latest owner FINAL SCRIPT QC - R5.1 (supersedes all earlier active statuses)
+Active05_SCRIPT_R5_1_EN.md /05_SCRIPT_R5_1_RU.md. R5preserved. R5.1 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD UNTIL OWNER APPROVAL.
+Read05_FINAL_EDITORIAL_QC.md,05_FINAL_FACT_LEGAL_QC.md,05_FINAL_TIMING_REPORT.md,05_SCRIPT_LOCK_READINESS_REPORT.md andSOURCE_FILES/FINAL_SCRIPT_QC.
+2406EN/2003RU;69paired IDs;65R5paragraphs unchanged;4rewritten;3deleted. A04-CTA01removed as owner-review proposal:no spokenSubscribe. One visualLikeA08-P03+8sec/3sec;Commentonlypinned. A10-CTA01bridge then20sec nativeSubscribe+SpecificVideoCampCentury sP67aPtpwKg. Publicmetadata/playerOK rechecked;notfullA/V.
+ActualHarrisonpace HOLD:no existingepisodeaudio;140is provisional;17:31incl20sec at140,not18-20guaranteed. Alloriginal-access/mediaHOLDs retained;ledgerunchanged;no blanket copyright clearance. USD0,NO SHORTS,noTTS,generation,montage/Resolve,paidoperations,Studioedits,pinning orpublication. Only owner may approveScriptLock.

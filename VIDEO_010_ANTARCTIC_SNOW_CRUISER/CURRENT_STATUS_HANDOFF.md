@@ -1,18 +1,24 @@
-# VIDEO010 - Stage05R.4 current R5 review
+# VIDEO010 - Final Script QC / R5.1
 
-R5 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. NO SHORTS. USD0.
+**R5.1 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD UNTIL OWNER APPROVAL.**
+NO SHORTS.USD0.No voice,generation,montage,paid operations or publication.
 
-- [EnglishR5](05_SCRIPT_R5_EN.md)
-- [FullRussianR5](05_SCRIPT_R5_RU.md)
-- [Five focused changes,QC and timing](05R4_FINAL_POLISH_QC.md)
-- [CurrentCTAmap](05R4_CTA_MAP.csv)
-- [Currentretentionmap](05R4_RETENTION_MAP.csv)
-- [Sourcecrosswalk and metrics](SOURCE_FILES/STAGE05R4_REVIEW)
+- [EnglishR5.1](05_SCRIPT_R5_1_EN.md)
+- [FullRussianR5.1](05_SCRIPT_R5_1_RU.md)
+- [FinalEditorialQC](05_FINAL_EDITORIAL_QC.md)
+- [Fact&LegalQC](05_FINAL_FACT_LEGAL_QC.md)
+- [RetentionMap](05_FINAL_RETENTION_MAP.csv)
+- [CTAPlacementMap](05_FINAL_CTA_PLACEMENT_MAP.csv)
+- [TimingReport](05_FINAL_TIMING_REPORT.md)
+- [ScriptLockReadiness](05_SCRIPT_LOCK_READINESS_REPORT.md)
+- [PinnedcommentEN/RU;notposted](05_FINAL_PINNED_COMMENT_EN_RU.md)
+- [FullEN/RUdiffs,69-rowtranslationaudit,source/rightschecks](SOURCE_FILES/FINAL_SCRIPT_QC)
 
-2531EN/2127RU;72paired IDs.18:25 conditional at140wpm+20sec;not a measured Harrison duration. Previous versions preserved. No production started.
+2406EN/2003RU words;69paired IDs;10acts.65R5paragraphs unchanged,four rewritten,three deleted. Conditional17:31 at140wpm+20sec;actual Harrison pace unmeasured/no episode audio. No padding to18-20min.
 
-R5 base:a3e4acdce1760a4b1704a5700d68fef881a92e7a. Workingbranch:codex/video010-stage05r4. Latestorigin/main checked cf80d82207ff8358729f31cd8650826fb945d0cd;R4branch checked before work.
-
-ACT01 immediate sinkage conflict;ACT04 three linked phases and shorter repair inventory;ACT07 brief improvement then hydraulic/snow failures;ACT08 fewer scientific details;CTA and human/machine ending polished. All facts inherited and mapped;R4 unchanged.
-
-Remaining:owner approval,actualHarrison pace,original-source access and media rights/quality holds. At135:19:05;140:18:25;145:17:47. No padding. Camp Century target verification inherited from05R.3,not a new playback check. Like A08-P03+8sec;SubscribeafterA04-P09;20sec endscreen Subscribe+PreviousStory. Comment05R3_PINNED_COMMENT.md unchanged/unposted.
+Base:currentremoteR5 f0b9b7fb5ca6288dca5edfeda7a2d9b48f602d06 afterfetch. origin/main cf80d82207ff8358729f31cd8650826fb945d0cd checked;older thanR5. Workingbranch:codex/video010-final-script-qc.
+R5preserved;canonicalledgerunchanged. NewR5.1:remove future repair previewA01-P05;strengthen real hydraulic-clearance/sinkage climax;consolidateA08science;removeA04-CTA01 spokenSubscribe andA08-P08/P09 repetitions.
+No additional voiced Comment. One visualLike A08-P03+8sec for3sec;upper-right,lower20percentclear;realized geometry not rendered. Endscreen20sec:Subscribe+SpecificVideo CampCentury sP67aPtpwKg. Live metadata/playerOK rechecked this stage;not fullA/V.
+No measuredHarrisonrate exists in episode files;0WAV/MP3/FLAC/M4A/OGG. Conditional16:56-18:09 at145-135wpm incl20sec.17:31at140. Do not claim18-20guaranteed or slow/pad to meet it.
+Factoriginals:H005/H006remain;Poulter/Wade/1958accounts attributed to existing checked studies. All8exclusions retained.46source-register rows+19curated+2officialpages+1sample+4researchitems audited with overlap,not72independent sources. Curated19and2pages hashverified.0approved unique moving-vehicle seconds unchanged;rights/quality sourceHOLDs preserved.
+Next:owner reviewsR5.1,shorter timing and no spokenSubscribe. Script Lock remains HOLDuntil owner's explicit approval. No automatic TTS/Resolve/generation/render/Studio/comment posting.

@@ -1,0 +1,29 @@
+{
+  "source_register_rows": 46,
+  "curated_rows": 19,
+  "curated_files_and_evidence_all_present_and_hash_matched": true,
+  "free_official_text_pages": 2,
+  "research_motion_samples": 1,
+  "research_supplement_rows": 4,
+  "audit_rows": 72,
+  "missing_files": [],
+  "source_rights_counts": {
+    "SOURCE_MARKED_PD_PROVENANCE_HOLD": 1,
+    "SOURCE_MARKED_PUBLIC_DOMAIN_USAP": 13,
+    "ALL_RIGHTS_RESERVED_LESLE_JONES": 14,
+    "HOLD_SOURCE_REUSE_NOT_ESTABLISHED": 1,
+    "SOURCE_DECLARED_PUBLIC_DOMAIN": 1,
+    "HOLD_PERSONAL_FILM_COMPONENTS": 3,
+    "RESEARCH_REFERENCE": 1,
+    "NASA_EDITORIAL_WITH_CREDIT": 5,
+    "HOLD_PERISCOPE_LICENSE": 1,
+    "OFFICIAL_GOVERNMENT_SOURCE": 2,
+    "HOLD_PAGE_REPRODUCTION_RIGHTS_RESEARCH_ALLOWED": 1,
+    "ALL_RIGHTS_RESERVED_RESEARCH_REFERENCE": 1,
+    "HOLD_MIXED_SECONDARY_COMPILATION": 1,
+    "PUBLIC_DOMAIN_NATURAL_EARTH": 1
+  },
+  "approved_unique_moving_vehicle_seconds": 0,
+  "all_media_cleared": false,
+  "source_access_holds_preserved": true
+}
