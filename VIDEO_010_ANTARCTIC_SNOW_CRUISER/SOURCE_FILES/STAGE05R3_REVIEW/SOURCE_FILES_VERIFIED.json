@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "FR86",
+    "local_path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\STAGE05R_RESEARCH\\JOELD_POLAR_RECORD.html",
+    "url": "https://www.joeld.net/snowcruiser/polar_record_23.html",
+    "sha256": "465d56be62eb4d2dbc9e704d1cc5af16e3fb09eb74260d9c2c319ca3b098e8c8",
+    "bytes": 45520,
+    "scope": "Full free HTML copy of1986historical study;DOI10.1017/S0032247400028321;publisher record checked.Original1977typescript and1940log not acquired.",
+    "rights_upgraded": false
+  },
+  {
+    "source_id": "GL47",
+    "local_path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\STAGE05R_RESEARCH\\GLACIOLOGY_1947.html",
+    "url": "https://doi.org/10.3189/S0022143000001106",
+    "sha256": "76c63214e9425c03386bd26c79ff67f2e0d36fd20cb3cd82349d4a033fed6a7d",
+    "bytes": 802180,
+    "scope": "Fleming1947scientific summary,sections1and4;not a Wade original notebook.",
+    "rights_upgraded": false
+  },
+  {
+    "source_id": "SC05",
+    "local_path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\VISUAL_SOURCE_REFERENCES\\DOCUMENT_PAGES\\D04_SCAMBOS_PDF_PAGE_014_300DPI.png",
+    "url": "https://www.antarctican.org/s/Scambos_article_snow_cruiser.pdf",
+    "sha256": "0b849b0883db4ccd962059efe31ed94232d12e78dd61653630f0d9f3e9ec77e5",
+    "bytes": 1866212,
+    "scope": "Printed250/PDF14 visually checked;geographic inference,not recovered wreck.",
+    "rights_upgraded": false
+  },
+  {
+    "source_id": "ENG40",
+    "local_path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\STAGE05R_RESEARCH\\ENGINEER_1940_05_03.pdf",
+    "url": "https://graces-guide-s3-live.s3.amazonaws.com/gracesguide/2/2b/Er19400503.pdf",
+    "sha256": "9430c673630fd5ccd5b48ba7dc01ed15a5f424fe8e157272e34ca13d575f088c",
+    "bytes": 13654397,
+    "scope": "Design account,not Antarctic performance validation.",
+    "rights_upgraded": false
+  },
+  {
+    "source_id": "GOV55",
+    "local_path": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\USACE_1955_TRAFFICABILITY_OF_SNOW_REPORT_1.pdf",
+    "url": "https://usace.contentdm.oclc.org/digital/collection/p266001coll1/id/2405",
+    "sha256": "8575c532a9bf9a5918c619214b50171cc1c03ef00124c6ccdaa449a355534f74",
+    "bytes": 10387979,
+    "scope": "Retrospective1955assessment;PDF34/54,printed26/46.",
+    "rights_upgraded": false
+  }
+]

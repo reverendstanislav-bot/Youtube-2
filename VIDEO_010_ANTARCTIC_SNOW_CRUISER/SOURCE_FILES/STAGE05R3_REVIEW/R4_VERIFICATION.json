@@ -1,0 +1,21 @@
+{
+  "status": "STRUCTURAL_AND_TRACEABILITY_PASS_OWNER_REVIEW_PENDING",
+  "english_words": 2592,
+  "russian_words": 2186,
+  "paired_ids": 73,
+  "acts": 10,
+  "new_fact_groups": 22,
+  "baseline_files_unchanged": 6,
+  "prior_script_diff": false,
+  "spoken_ctas": 2,
+  "visual_like_count": 1,
+  "endscreen_seconds": 20,
+  "public_previous_story_metadata_verified": true,
+  "actual_audio_duration_verified": false,
+  "full_AV_review": false,
+  "montage_geometry_rendered": false,
+  "source_original_access_holds_preserved": true,
+  "media_rights_holds_preserved": true,
+  "script_lock": false,
+  "budget_usd": 0
+}

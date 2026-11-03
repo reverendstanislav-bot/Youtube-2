@@ -1,3 +1,20 @@
+# VIDEO010 - current R4 review package
+
+**R4 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. NO SHORTS.** Stage05R.3.
+
+- [English R4](05_SCRIPT_R4_EN.md)
+- [Full Russian R4](05_SCRIPT_R4_RU.md)
+- [Final editorial QC,3Subscribe variants,timing and limitations](05R3_FINAL_EDITORIAL_QC.md)
+- [CTA map](05R3_CTA_MAP.csv)
+- [All10acts retention map](05R3_RETENTION_MAP.csv)
+- [Sourced fact changes](05R3_FACT_CHANGES.csv)
+- [Prepared pinned comment EN/RU;not posted](05R3_PINNED_COMMENT.md)
+- [Metrics and evidence](SOURCE_FILES/STAGE05R3_REVIEW)
+
+2592EN/2186RU words;73matched IDs. Conditional18:51 at140wpm including20sec endscreen;18:13-19:32 at145-135wpm. Actual Harrison pace unmeasured. R1/R2/R3 preserved. No production or paid operations.
+
+## Historical R3 and earlier records (superseded active status)
+
 # VIDEO010 - current R3 review package
 
 **R3 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. NO SHORTS.** Latest task:Stage05R.2. PriorR2 preserved at7131d28.

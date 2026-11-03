@@ -1,21 +1,17 @@
-# VIDEO010 current plan - Stage05R.2 R3
-Latest task:SOURCE_FILES/STAGE05R2_REVIEW/OWNER_TASK_STAGE05R2.md. Read episode AGENTS.md and HIA owner lock. NO SHORTS. BudgetUSD0.
+# VIDEO010 current plan - Stage05R.3 R4
+Read AGENTS.md,CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md and SOURCE_FILES/STAGE05R3_REVIEW/OWNER_TASK_STAGE05R3.md. NO SHORTS. BudgetUSD0.
 
-## Completed scope
-Current R2 fetched/checked from remote branch7131d28; origin/main remains olderR1cf80d82. R1/R2 preserved. All10acts audited and R3 rebuilt. Eight requested text deliverables complete:EN/RU,full retention audit,CTA strategy/placement,pinned-comment draft,end-screen transition,minute QC.
-R3:1915EN words,1621RU words,61matching paragraph IDs,2spoken CTAs. No extra voiced Like or Comment. Concrete previous-story target verified through current official metadata and repo content; playback bot gate retained as a limitation.
+Completed:full paired EN/RU R4;all10acts retention QC;22groups of sourced new/expanded claims;73paragraph source crosswalk;three Subscribe variants with chosenA;one visual Like;separate pinned question;verified real public Camp Century;20sec Subscribe+Previous Story endscreen specification. Seven requested deliverables saved. R1/R2/R3 unchanged.
 
-## Current gate
-R3 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD. Prior18-20min target is NOT met after removal of weak material. Nominal14:35.7 at provisional140wpm+55sec; actual Harrison pace unknown. Do not add empty scenes or repetitive narration.
+R4 READY FOR OWNER REVIEW / SCRIPT LOCK HOLD.2592EN/2186RU words. Conditional18:51 at140wpm+20sec;18:13-19:32 at145-135wpm. Harrison actual pace unknown;no generated/measured voice. No artificial timing padding.
 
-## Remaining work after actual owner direction
-1.Review R3 words,shorter duration,qualified historical sources and actual visual feasibility.
-2.Agreed revisions and explicit script acceptance/lock; no automatic approval.
-3.Final voice text/authorized voice route only after those gates. Current task prohibits TTS.
-4.Measure actual audio and recalculate paragraph/CTA/end-screen timing. Current planned times are not an audio lock.
-5.Resolve archive rights/quality and diverse motion coverage before montage readiness.0approved unique moving-vehicle seconds remain.
-6.Explanatory overlays/maps only where they clarify; original source text/editable accents; no generic zoom/shake or opaque cards.
-7.Native edit and real A/V review only when authorized and preceding outputs exist. Preserve20sec voice-free Subscribe+one actual previous-story video; recheck target in Studio before upload.
-8.Render/release/upload/comment posting require actual authorization; none performed here.
+Next gates:
+1.Owner reviews R4 and chooses whether to approve it with the source qualifications; no automatic Script Lock.
+2.Resolve original-source access requirements if owner requires primary-level support for every scene. Current road/field details remain attributed to checked studies.
+3.Only after separate authorization,final voice preparation/generation and actual pace/ASR/listening;recalculate timings using audio. None authorized by this stage.
+4.Archive rights/quality and motion coverage before montage readiness;0approved unique motion seconds unchanged.
+5.Future authorized montage:archive-first,editable accurate explanations,separate Fusion accents,no generic zoom/shake/opaque cards. Like is visual only;subtitle-safe geometry does not enable dialogue captions.
+6.Native endscreen exactlySubscribe+Camp CenturySpecificVideo,last20sec voice-free;check actual layout and current target again.
+7.A/V review,render,release,Studio edits,pinning and publication are separate gates. None performed here.
 
-No Shorts concepts or production. R2 and its evidence are historical source files, not material to overwrite.
+Historical R2/R3 plans are preserved in Git and prior review artifacts;active review text is R4.
