@@ -1,0 +1,20 @@
+{
+  "narration_seconds": 867.92,
+  "fps": 24,
+  "narrative_shots": 193,
+  "minimum_shot_seconds": 3.0,
+  "maximum_shot_seconds": 6.0,
+  "mean_shot_seconds": 4.497,
+  "existing_generated_shots": 25,
+  "existing_archive_shots": 16,
+  "existing_previous_story_shots": 2,
+  "new_image_tasks": 150,
+  "video_candidates": 8,
+  "video_generation_started": false,
+  "additional_image_generation_started": false,
+  "endscreen_seconds": 20,
+  "endscreen_exception": "Separate voice-free native interaction section, excluded from3-6s narrative rule",
+  "audio_caveat": "Current untrimmed candidate; no new retiming, ASR prefix/listening HOLD remains",
+  "resolve_changed": false,
+  "status": "DENSITY_PLAN_R2_PREPARED_NOT_GENERATED_OR_EDITED"
+}

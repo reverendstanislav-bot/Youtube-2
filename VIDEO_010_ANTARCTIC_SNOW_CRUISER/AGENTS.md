@@ -33,3 +33,7 @@ Editprep:C:/YOUTUBE/Youtube 2/VIDEO 10/EDIT_PREP/R5_1;21verifiedmediafiles,2CC0S
 
 ## Latest owner scope correction /2026-11-03
 Owner clarified: audio-track assembly, missing-image prompts/references and built-in ImageGen generation only. Do not resume montage, Resolve editing or final-film rendering from the prior assembly handoff. ImageGen gap package: IMAGEGEN_GAPS_R1 locally /12_IMAGEGEN_GAPS_R1 in repository.25selected generated editorial images,19active references, exact paragraph mapping and SHA256; owner image approval and final crop/motion remain pending. Raw audio and script unchanged; ASR/listening HOLD preserved. No Shorts or subtitles.
+
+
+## Latest owner visual-density instruction /2026-11-03
+Owner requires3-6seconds per narrative shot; video where story needs it; do not build wholefilm from archive.25gap images are not completefilm coverage. Full-film R2 plan:193shots at3-6s,25existing generated images,16archive plans,2existingCampCentury transition images,150additional image tasks.8video candidates within the193,not8approved paid jobs. See12_FULL_FILM_DENSITY_R2. Extra150prompts ready,notgenerated; no new Resolve edits.20second native endscreen separate. Audio and script locks unchanged; ASR/listening hold preserved. No universal archive percentage inferred.
