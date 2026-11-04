@@ -1,0 +1,13 @@
+{
+  "raw_resolve_render_preserved": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\RENDERS\\VIDEO010_R7_RESOLVE_BEFORE_FINAL_FIXES.mp4",
+  "final": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\RENDERS\\VIDEO010_R7_DIRECTORS_REVIEW.mp4",
+  "native_resolve_patch_scenes": [
+    "S021",
+    "S171"
+  ],
+  "source_flicker_repaired": true,
+  "neutral_crew_caption": "EXPEDITION CREW / ARCHIVE",
+  "audio_bitstream_copied": true,
+  "frames": 21310,
+  "source_voice_retimed": false
+}

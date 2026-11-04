@@ -1,0 +1,213 @@
+[
+  {
+    "shot_id": "S014",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S014_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\111_ADC_7207_RESEARCH_HOLD.mp4",
+    "source_in_seconds": 277,
+    "frames": 99,
+    "purpose": "Byrd in the historical isolation reenactment",
+    "caption": "CONTEMPORARY RE-ENACTMENT",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "b2197b91cc610ce8d4c3c9e7852bb294e69a8cc0f3e3516b3beea23786c88277"
+  },
+  {
+    "shot_id": "S017",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S017_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\111_ADC_7207_RESEARCH_HOLD.mp4",
+    "source_in_seconds": 365,
+    "frames": 116,
+    "purpose": "Historical reenactment of isolation; not a filmed medical incident",
+    "caption": "CONTEMPORARY RE-ENACTMENT",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "a507e6defa3217cf04872927e703328c12ddb06e420e1a85ed4beca6b1fe132f"
+  },
+  {
+    "shot_id": "S021",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S021_ARCHIVE_R7_DEFLICKER_V2.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\111_ADC_7207_RESEARCH_HOLD.mp4",
+    "source_in_seconds": 480,
+    "frames": 103,
+    "purpose": "Original expedition crew context; no claimed time of day or filmed rescue",
+    "caption": "EXPEDITION CREW / ARCHIVE",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "9447585df84dfb28bbdd1c4bef7374f5c5fa47cc407f9c3652445aaf58e387af",
+    "before_flicker_repair": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S021_ARCHIVE_R7_HOLD.mp4",
+    "flicker_repair": "16 black exposure frames filled from adjacent valid exposure; same 103 frames and narration timing"
+  },
+  {
+    "shot_id": "S022",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S022_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\111_ADC_7212_RESEARCH_HOLD.mp4",
+    "source_in_seconds": 145,
+    "frames": 134,
+    "purpose": "Original expedition equipment operations; generic equipment context",
+    "caption": "FIELD EQUIPMENT / ARCHIVE",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "54fd4bf88a99b1c3a178f95fdd8b50c8851f87cfe1029c5fa8f57b7de221303b"
+  },
+  {
+    "shot_id": "S025",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S025_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R5\\111_ADC_7214_RESEARCH_RIGHTS_HOLD.mp4",
+    "source_in_seconds": 610,
+    "frames": 118,
+    "purpose": "Actual local Cruiser movement; not an inland survey",
+    "caption": "SNOW CRUISER / ARCHIVE",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "bb1a5beb7143652f347676a6f290262cabd9c82fe7bb70f41973fe6f33b1f375"
+  },
+  {
+    "shot_id": "S029",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S029_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_2_1_540x360.mp4",
+    "source_in_seconds": 289.5,
+    "frames": 98,
+    "purpose": "Cruiser and rooftop airplane, actual unloading context",
+    "caption": "",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "b865b64731e3f44079c57ad0b211bb20d4626c77b5509d3bddf7a32cc0304b23"
+  },
+  {
+    "shot_id": "S030",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S030_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_2_1_540x360.mp4",
+    "source_in_seconds": 234,
+    "frames": 134,
+    "purpose": "Actual expedition dog team; not hauling the whole Cruiser",
+    "caption": "",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "d82dbae6482fc60f40d12fde058c77170e876e780d9d0fe4d187fce8e741227f"
+  },
+  {
+    "shot_id": "S031",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S031_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_2_1_540x360.mp4",
+    "source_in_seconds": 1041,
+    "frames": 135,
+    "purpose": "Actual expedition aviation; not the rooftop Beechcraft in flight",
+    "caption": "EXPEDITION AVIATION",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "266b6fd025e33f3e248c9311d961cea33318f9ff2aae8414858f8765d7995b67"
+  },
+  {
+    "shot_id": "S078",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S078_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_1_1_1080x720.mp4",
+    "source_in_seconds": 229,
+    "frames": 125,
+    "purpose": "Real expedition crew at sea; no towing truck fiction",
+    "caption": "EXPEDITION AT SEA",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "065c759423a37e7ae193829d7b74bee29eb47ac52dbe97ab95b69b9498536ba4"
+  },
+  {
+    "shot_id": "S093",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S093_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_2_1_540x360.mp4",
+    "source_in_seconds": 219,
+    "frames": 102,
+    "purpose": "Crew work on ice; not identified as the motor rest stop",
+    "caption": "EXPEDITION WORK",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "e41f6d81067430492c11f51c8337dbc7d98485980f5d5b47cf1745bf10299ebb"
+  },
+  {
+    "shot_id": "S114",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S114_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_2_1_540x360.mp4",
+    "source_in_seconds": 304,
+    "frames": 117,
+    "purpose": "Actual wheel maintenance before unloading; generic wheel context",
+    "caption": "ARCHIVAL WHEEL DETAIL",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "8bfd23f4f28e65b58459ff8a7c5c18181650ea82ec673424081ec8bc7227f5d4"
+  },
+  {
+    "shot_id": "S122",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S122_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_2_1_540x360.mp4",
+    "source_in_seconds": 299,
+    "frames": 113,
+    "purpose": "Original body identification and detail, not a forged journal",
+    "caption": "",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "080069e198e96f390af863001b37556cc922bc338b3171d861752c03f44d218a"
+  },
+  {
+    "shot_id": "S127",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S127_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_3_720x480.mp4",
+    "source_in_seconds": 261,
+    "frames": 139,
+    "purpose": "Actual winter conditions around expedition equipment",
+    "caption": "EXPEDITION WINTER",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "eed6a255184965f2e47421fd270ecc824b242f30b42de3c79a5abfedf2ca15c0"
+  },
+  {
+    "shot_id": "S129",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S129_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_3_720x480.mp4",
+    "source_in_seconds": 61,
+    "frames": 117,
+    "purpose": "Period field machining; not claimed to show the named hydraulic repair",
+    "caption": "FIELD WORKSHOP / ARCHIVE",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "ba59bccc5b7de436c36bd13aea76cd19452d1a5288a1fef6afe14deab0ec1106"
+  },
+  {
+    "shot_id": "S130",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S130_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\111_ADC_7212_RESEARCH_HOLD.mp4",
+    "source_in_seconds": 183,
+    "frames": 131,
+    "purpose": "Period equipment service; no claim of the particular replacement fuse",
+    "caption": "FIELD EQUIPMENT / ARCHIVE",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "ce58c85f91c6bf4046dee1442bfc0257fe3ecdaa0c50059ffcbd1fe5038a6226"
+  },
+  {
+    "shot_id": "S131",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S131_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\111_ADC_7212_RESEARCH_HOLD.mp4",
+    "source_in_seconds": 64,
+    "frames": 108,
+    "purpose": "Actual snow excavation at an expedition camp; not proof of the Cruiser ramp",
+    "caption": "EXPEDITION SNOW WORK",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "287e623f2d23f11af1c53a40d568821aabcb6a6689f86b079e17bf2b7c69db23"
+  },
+  {
+    "shot_id": "S144",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S144_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_3_720x480.mp4",
+    "source_in_seconds": 118,
+    "frames": 103,
+    "purpose": "Actual preparation of field gear; not identified as Wade or Warner",
+    "caption": "EXPEDITION FIELD WORK",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "6405b8fe97cde5bd4192206982a7017014b6198bc88c07728f98f40a9041a212"
+  },
+  {
+    "shot_id": "S146",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S146_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_3_720x480.mp4",
+    "source_in_seconds": 86,
+    "frames": 95,
+    "purpose": "Hands working on equipment; no identification as a specific experiment",
+    "caption": "EXPEDITION EQUIPMENT",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "021f738ee6efc53b761a951ab80a5a6a9cad439bb51c2c9214cc50e0a7b4d0c7"
+  },
+  {
+    "shot_id": "S150",
+    "path": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S150_ARCHIVE_R7_HOLD.mp4",
+    "original_source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\REFERENCE_ONLY\\USASE_VARIANTS\\USASE_3_720x480.mp4",
+    "source_in_seconds": 309,
+    "frames": 93,
+    "purpose": "Original expedition exterior, no invented departure event",
+    "caption": "EXPEDITION CONTEXT",
+    "rights": "HOLD_RESEARCH_ONLY",
+    "sha256": "0faf567772390afa318edd4c8cb4a080971e6c79120ac8334f72e2eed0097273"
+  }
+]

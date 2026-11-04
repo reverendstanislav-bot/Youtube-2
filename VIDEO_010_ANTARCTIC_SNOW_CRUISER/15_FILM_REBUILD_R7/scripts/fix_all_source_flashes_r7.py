@@ -1,0 +1,5 @@
+﻿from pathlib import Path
+import subprocess,re,json
+D=Path(r'C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7');src=D/'VIDEO/S021_ARCHIVE_R7_HOLD.mp4';out=D/'VIDEO/S021_ARCHIVE_R7_DEFLICKER_V2.mp4'
+p=subprocess.run(['ffmpeg','-hide_banner','-i',str(src),'-vf','blackframe=amount=97:threshold=32','-an','-f','null','-'],capture_output=True,text=True);bad=[int(x) for x in re.findall(r'frame:\s*(\d+)\s+pblack:',p.stderr)];assert bad;expr='not('+ '+'.join(f'eq(n,{n})' for n in bad)+')';args=['ffmpeg','-v','error','-i',str(src),'-vf',"select='"+expr+"',fps=24,tpad=stop_mode=clone:stop_duration=1",'-frames:v','103','-an','-c:v','libx264','-preset','fast','-crf','17','-pix_fmt','yuv420p','-y',str(out)];subprocess.run(args,check=True);check=subprocess.run(['ffmpeg','-hide_banner','-i',str(out),'-vf','blackdetect=d=0.015:pix_th=0.02','-an','-f','null','-'],capture_output=True,text=True);assert 'black_start:' not in check.stderr;print('SOURCE_REPAIRED',bad,flush=True);(D/'SOURCE_DEFLICKER_V2.json').write_text(json.dumps({'source':str(src),'corrected':str(out),'black_frames_replaced':bad,'output_frames':103,'black_after_repair':False},indent=2))
+

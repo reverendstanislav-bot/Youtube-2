@@ -1,0 +1,44 @@
+{
+  "voice_source_sha256": "16bb53766fdc85da1abb71aaf4c91a755ee3ac59900d2719eedd85ebc5e4cce4",
+  "voice_source_unchanged": true,
+  "words_duration_pitch_unchanged": true,
+  "film_mix_processed": "Master mix loudness/true-peak processing; not a regenerated or overwritten voice master",
+  "first_pass": {
+    "input_i": "-19.94",
+    "input_tp": "-4.65",
+    "input_lra": "2.30",
+    "input_thresh": "-30.55",
+    "output_i": "-16.03",
+    "output_tp": "-1.50",
+    "output_lra": "2.40",
+    "output_thresh": "-26.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.03"
+  },
+  "second_pass": {
+    "input_i": "-19.94",
+    "input_tp": "-4.65",
+    "input_lra": "2.30",
+    "input_thresh": "-30.55",
+    "output_i": "-16.01",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-26.57",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "rejected_soundtracks_removed": true,
+  "synthetic_wind_removed": true,
+  "idle_engine_removed": true,
+  "random_switches_removed": true,
+  "foley_events": [
+    {
+      "time_seconds": 2.05,
+      "kind": "wood ramp crack",
+      "source": "Freesound873248",
+      "license": "CC0",
+      "not_original_expedition_audio": true
+    }
+  ],
+  "human_listening": "HOLD"
+}

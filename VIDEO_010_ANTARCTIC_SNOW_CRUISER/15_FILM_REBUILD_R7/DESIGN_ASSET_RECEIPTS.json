@@ -1,0 +1,193 @@
+[
+  {
+    "asset": "ORIGINAL_1939_SIDE",
+    "crop": [
+      0.07,
+      0.4,
+      0.91,
+      0.65
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_SIDE.png",
+    "sha256": "df0ff7dc7206294c49f949cd0ada2a52337a9a4fade87b387cd7fc4f132bdef1",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 21,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\AUTOMOTIVE_INDUSTRIES_1939_09_15.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\LAYOUT_P021.jpg",
+    "preview_selection_only": "LAYOUT_P021.jpg"
+  },
+  {
+    "asset": "ORIGINAL_1939_PLAN",
+    "crop": [
+      0.07,
+      0.66,
+      0.91,
+      0.89
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_PLAN.png",
+    "sha256": "9e3c990f9274e4af7cb9d9825881d693a53cb0a3baf8353338992a5ee0411927",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 21,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\AUTOMOTIVE_INDUSTRIES_1939_09_15.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\LAYOUT_P021.jpg",
+    "preview_selection_only": "LAYOUT_P021.jpg"
+  },
+  {
+    "asset": "USACE_1955_FIVEFOLD",
+    "crop": [
+      0.105,
+      0.425,
+      0.93,
+      0.565
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\USACE_1955_FIVEFOLD.png",
+    "sha256": "6235744be513a6ac84a1e2abc6e1d7d0891ccd2b67b66f74dfadf6132573aaf6",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 34,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\USACE_1955_TRAFFICABILITY_OF_SNOW_REPORT_1.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\LOAD_P034.jpg",
+    "preview_selection_only": "LOAD_P034.jpg"
+  },
+  {
+    "asset": "USACE_1955_WHEEL_LOAD",
+    "crop": [
+      0.105,
+      0.402,
+      0.93,
+      0.452
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\USACE_1955_WHEEL_LOAD.png",
+    "sha256": "7b5c28747206140feeee6b73699e13007411a2447215bcf5c5a0a3a6d64bac5b",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 54,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\USACE_1955_TRAFFICABILITY_OF_SNOW_REPORT_1.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\LOAD_P054.jpg",
+    "preview_selection_only": "LOAD_P054.jpg"
+  },
+  {
+    "asset": "SCAMBOS_FIG5_COASTLINES",
+    "crop": [
+      0.025,
+      0.045,
+      0.96,
+      0.465
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "sha256": "393e1d1f52949ffb16a17f9ebdf63483cf3f801569660db65b907c3e69634f82",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 9,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\SCAMBOS_2005.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\FATE_P009.jpg",
+    "preview_selection_only": "FATE_P009.jpg"
+  },
+  {
+    "asset": "SCAMBOS_FIG6_1963_ICEBERG",
+    "crop": [
+      0.057,
+      0.18,
+      0.915,
+      0.421
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG6_1963_ICEBERG.png",
+    "sha256": "1c42fc0f5fe329780ee877115e8c8723ff9dedafd8d54827f71fdeb02d83c4d5",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 11,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\SCAMBOS_2005.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\FATE_P011.jpg",
+    "preview_selection_only": "FATE_P011.jpg"
+  },
+  {
+    "asset": "SCAMBOS_FIG6_B_REMAINS",
+    "crop": [
+      0.054,
+      0.431,
+      0.496,
+      0.623
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG6_B_REMAINS.png",
+    "sha256": "d7f174b606185df10f736be3d351b88ba61f54bc27398bf9fbc7ef1d4ca3339f",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 11,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\SCAMBOS_2005.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\FATE_P011.jpg",
+    "preview_selection_only": "FATE_P011.jpg"
+  },
+  {
+    "asset": "SCAMBOS_FIG6_C_POLE",
+    "crop": [
+      0.513,
+      0.431,
+      0.913,
+      0.623
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG6_C_POLE.png",
+    "sha256": "533c5b82a422e1075f038b3fb926fb068202745dc8afb6d460fc33e3cc91958a",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 11,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\SCAMBOS_2005.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\FATE_P011.jpg",
+    "preview_selection_only": "FATE_P011.jpg"
+  },
+  {
+    "asset": "SCAMBOS_CONCLUSION",
+    "crop": [
+      0.025,
+      0.255,
+      0.95,
+      0.315
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_CONCLUSION.png",
+    "sha256": "b323b262c242bebcc70e3eeaa1010ad464e11883b515954486ce59dff1cdc2f1",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 14,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\SCAMBOS_2005.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\FATE_P014.jpg",
+    "preview_selection_only": "FATE_P014.jpg"
+  },
+  {
+    "asset": "SCAMBOS_FIG8_SEARCH_CONTEXT",
+    "crop": [
+      0.07,
+      0.055,
+      0.96,
+      0.29
+    ],
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG8_SEARCH_CONTEXT.png",
+    "sha256": "943997dad4a287c3e0405489f211ec7029c787e32a60d87f3fdc40f9d0cc9324",
+    "rendered_from_original_pdf": true,
+    "render_scale": 4,
+    "source_pdf_page_1_based": 13,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DOCUMENTS\\SOURCES\\SCAMBOS_2005.pdf",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\FATE_P013.jpg",
+    "preview_selection_only": "FATE_P013.jpg"
+  },
+  {
+    "asset": "PH12_TRUE_ARCHIVE",
+    "source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\SOURCES\\PHOTOS_SOURCE_MARKED_PD\\PH12_1920px.jpg",
+    "crop": null,
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\PH12_TRUE_ARCHIVE.png",
+    "sha256": "a31209ec9c61e9666bb06b6ab6a3b03bd2347ec9da9e506877bceea3d5ae3180"
+  },
+  {
+    "asset": "PH13_TRUE_ARCHIVE",
+    "source": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\ARCHIVE\\SOURCES\\PHOTOS_SOURCE_MARKED_PD\\PH13_1920px.jpg",
+    "crop": null,
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\PH13_TRUE_ARCHIVE.png",
+    "sha256": "5e7b4dbc77de04334fd9f6ccdd04acd60611247b7daa00e36d94bb96effc81b9"
+  },
+  {
+    "asset": "ENDSCREEN",
+    "source": "Owner-approved VIDEO009_ENDSCREEN_CANON_20S.mp4",
+    "output": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\VIDEO010_ENDSCREEN_CANON_20S_24FPS.mp4",
+    "frames": 480,
+    "sha256": "41175b96b8d67e40168035b5babac499e66858aade22801f928a8067ba60c9a5"
+  }
+]

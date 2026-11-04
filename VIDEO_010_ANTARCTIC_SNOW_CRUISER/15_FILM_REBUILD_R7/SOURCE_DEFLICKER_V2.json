@@ -1,0 +1,24 @@
+{
+  "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S021_ARCHIVE_R7_HOLD.mp4",
+  "corrected": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\VIDEO\\S021_ARCHIVE_R7_DEFLICKER_V2.mp4",
+  "black_frames_replaced": [
+    58,
+    59,
+    60,
+    61,
+    70,
+    71,
+    72,
+    78,
+    79,
+    80,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
+  ],
+  "output_frames": 103,
+  "black_after_repair": false
+}

@@ -1,0 +1,16 @@
+{
+  "narrative_shots": 193,
+  "all_narrative_shots_3_to_6_seconds": true,
+  "picture_continuity": "PASS_MANIFEST_AND_IMPORT",
+  "voice_sha256": "16bb53766fdc85da1abb71aaf4c91a755ee3ac59900d2719eedd85ebc5e4cce4",
+  "nasa_removed_from_active_picture": true,
+  "end_screen_seconds": 20,
+  "clickable_elements": "STUDIO_REQUIRED_SUBSCRIBE_AND_SPECIFIC_PREVIOUS_STORY",
+  "previous_story": "sP67aPtpwKg",
+  "archive_clearance": "HOLD",
+  "full_human_listening": "HOLD",
+  "owner_approval": "HOLD",
+  "paid_operations": 0,
+  "shorts": 0,
+  "subtitles_burned_in": false
+}

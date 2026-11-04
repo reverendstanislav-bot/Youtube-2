@@ -1,0 +1,927 @@
+[
+  {
+    "shot_id": "S007",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_SIDE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S007_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S007_FINAL.comp",
+    "frames": 99,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "A BASE THAT COULD TRAVEL"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S020",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG01.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S020_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S020_FINAL.comp",
+    "frames": 95,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "IMPROVISED SEARCHLIGHT"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S023",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_PLAN.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S023_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S023_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "LIVING QUARTERS"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S024",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN019.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S024_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S024_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "REPAIRS WITHOUT RETURNING TO BASE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S026",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN021.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S026_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S026_FINAL.comp",
+    "frames": 79,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "SCIENCE ON THE GROUND ROUTE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S027",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_PLAN.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S027_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S027_FINAL.comp",
+    "frames": 100,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "SLEEP INSIDE THE TRANSPORT"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S028",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_SIDE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S028_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S028_FINAL.comp",
+    "frames": 101,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "ONBOARD WELDING GENERATOR"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S031",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_SIDE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S031_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S031_FINAL.comp",
+    "frames": 135,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S033",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_SIDE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S033_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S033_FINAL.comp",
+    "frames": 102,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S035",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ORIGINAL_1939_PLAN.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S035_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S035_FINAL.comp",
+    "frames": 142,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S040",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN034.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S040_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S040_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "local source-targeted write-on path",
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "DIESEL \u2192 GENERATOR"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S041",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG04.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S041_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S041_FINAL.comp",
+    "frames": 86,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "GENERATOR \u2192 WHEEL MOTOR"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S042",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN035.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S042_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S042_FINAL.comp",
+    "frames": 97,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "HYDRAULIC WHEEL POSITIONING"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S044",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG05.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S044_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S044_FINAL.comp",
+    "frames": 107,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "FRONT WHEELS RETRACT",
+      "PROPOSED CROSSING METHOD"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S045",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG06.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S045_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S045_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "REAR WHEELS RETRACT",
+      "PROPOSED CROSSING METHOD"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S047",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG05.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S047_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S047_FINAL.comp",
+    "frames": 102,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "15 FT / PROPOSED GAP"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S052",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN040.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S052_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S052_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "STEER",
+      "DRIVE",
+      "BRAKE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S055",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN044.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S055_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S055_FINAL.comp",
+    "frames": 106,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "STEERING AT THE WHEELS"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S056",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN045.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S056_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S056_FINAL.comp",
+    "frames": 106,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "BODY HEIGHT CONTROL"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S060",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\ROAD_GEOGRAPHY.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S060_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S060_FINAL.comp",
+    "frames": 82,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "CHICAGO \u2192 BOSTON",
+      "SCHEMATIC ROUTE",
+      "CHICAGO",
+      "GOMER, OHIO",
+      "BOSTON"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S064",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG11.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S064_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S064_FINAL.comp",
+    "frames": 112,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "GOMER, OHIO / 1939"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S066",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG12.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S066_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S066_FINAL.comp",
+    "frames": 92,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "REPAIR",
+      "LEVEL",
+      "REVERSE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S070",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN054.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S070_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S070_FINAL.comp",
+    "frames": 128,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "TOWED UP THE CLIMBS"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S072",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG14.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S072_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S072_FINAL.comp",
+    "frames": 113,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "REAR CARGO SECTION REMOVED"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S081",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN063.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S081_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S081_FINAL.comp",
+    "frames": 111,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "PREPARING THE SPARE TIRES"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S097",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG16.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S097_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S097_FINAL.comp",
+    "frames": 113,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "A TEMPORARY SURFACE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S098",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN077.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S098_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S098_FINAL.comp",
+    "frames": 96,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "PLANKS SUPPORT THIS STRETCH"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S103",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN082.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S103_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S103_FINAL.comp",
+    "frames": 126,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "GRIP"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S104",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN083.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S104_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S104_FINAL.comp",
+    "frames": 112,
+    "features": [
+      "local source-targeted write-on path",
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "SUPPORT"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S105",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\USACE_1955_FIVEFOLD.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S105_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S105_FINAL.comp",
+    "frames": 107,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "U.S. ARMY CORPS OF ENGINEERS / 1955"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S107",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG18.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S107_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S107_FINAL.comp",
+    "frames": 110,
+    "features": [
+      "native load bars on a shared exact1:5 scale",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "GULF MARSH BUGGY",
+      "3,500 LB / WHEEL",
+      "SNOW CRUISER",
+      "17,500 LB / WHEEL"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S108",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\USACE_1955_WHEEL_LOAD.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S108_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S108_FINAL.comp",
+    "frames": 112,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "FIVE TIMES THE LOAD PER WHEEL"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S109",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN087.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S109_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S109_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "local source-targeted write-on path",
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "THE SNOW MUST CARRY THE TIRE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S112",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN090.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S112_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S112_FINAL.comp",
+    "frames": 115,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "STRONGER TIRE CONSTRUCTION"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S113",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG17.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S113_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S113_FINAL.comp",
+    "frames": 115,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "TIRE STRENGTH \u2260 SNOW SUPPORT"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S118",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG19.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S118_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S118_FINAL.comp",
+    "frames": 99,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "EXTRA TIRES + CHAINS"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S120",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG20.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S120_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S120_FINAL.comp",
+    "frames": 142,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "LOWER PRESSURE",
+      "NO VERIFIED PRESSURE FIGURE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S133",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN107.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S133_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S133_FINAL.comp",
+    "frames": 103,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "BLOCKED HYDRAULIC LINE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S134",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN108.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S134_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S134_FINAL.comp",
+    "frames": 130,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "CLEAR THE BLOCKAGE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S136",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN110.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S136_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S136_FINAL.comp",
+    "frames": 116,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "THIN CRUST",
+      "LOOSE POWDER BELOW"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S147",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN116.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S147_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S147_FINAL.comp",
+    "frames": 89,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "THE ICE LAB / NOT THE CRUISER"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S148",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCG21.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S148_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S148_FINAL.comp",
+    "frames": 97,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "CUT \u2192 WEIGH \u2192 COMPARE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S152",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\PH12_TRUE_ARCHIVE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S152_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S152_FINAL.comp",
+    "frames": 92,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S154",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\HIGHJUMP_1947_P347_FOCUS_R3.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S154_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S154_FINAL.comp",
+    "frames": 100,
+    "features": [
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "WAR DEPARTMENT REPORT / 1947"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S157",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\HIGHJUMP_1947_P396_FOCUS_R3.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S157_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S157_FINAL.comp",
+    "frames": 97,
+    "features": [
+      "local source-targeted write-on path",
+      "local source-targeted write-on path",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "ROOF LEVEL WITH THE SNOW"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S160",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\PH13_TRUE_ARCHIVE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S160_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S160_FINAL.comp",
+    "frames": 75,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S162",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\SCN126.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S162_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S162_FINAL.comp",
+    "frames": 102,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "JANUARY 1958"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S165",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S165_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S165_FINAL.comp",
+    "frames": 95,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "RECONSTRUCTING THE COAST"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S166",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S166_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S166_FINAL.comp",
+    "frames": 120,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S167",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S167_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S167_FINAL.comp",
+    "frames": 108,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "HISTORICAL MAPS + LATER IMAGERY"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S168",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S168_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S168_FINAL.comp",
+    "frames": 109,
+    "features": [
+      "native local source lens on Bay of Whales; no full-frame zoom",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "BAY OF WHALES"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S170",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S170_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S170_FINAL.comp",
+    "frames": 112,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "SCAMBOS & NOVAK / 2005"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S171",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S171_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S171_FINAL.comp",
+    "frames": 100,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "1957\u20131962",
+      "INFERRED CALVING INTERVAL"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S172",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S172_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S172_FINAL.comp",
+    "frames": 108,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "POSSIBLE FINAL JOURNEY"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S174",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG5_COASTLINES.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S174_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S174_FINAL.comp",
+    "frames": 122,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S175",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG6_1963_ICEBERG.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S175_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S175_FINAL.comp",
+    "frames": 108,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "1963 / STATION REMAINS"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S176",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG6_B_REMAINS.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S176_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S176_FINAL.comp",
+    "frames": 102,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "NOT A VERIFIED CRUISER SIGHTING"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S177",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG6_C_POLE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S177_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S177_FINAL.comp",
+    "frames": 127,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S178",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_CONCLUSION.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S178_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S178_FINAL.comp",
+    "frames": 130,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "PROBABLY NOT ABOARD"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S179",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG8_SEARCH_CONTEXT.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S179_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S179_FINAL.comp",
+    "frames": 117,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline",
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "POSSIBLE SEARCH AREA",
+      "NO RECOVERED VEHICLE"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S186",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\PH12_TRUE_ARCHIVE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S186_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S186_FINAL.comp",
+    "frames": 95,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S188",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\PH13_TRUE_ARCHIVE.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S188_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S188_FINAL.comp",
+    "frames": 106,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S189",
+    "source": "C:\\Users\\KK\\Movies\\HIA_VIDEO010_FULL_FILM_R3\\MEDIA\\PH07_1920px.jpg",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S189_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S189_FINAL.comp",
+    "frames": 104,
+    "features": [],
+    "labels": [],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  },
+  {
+    "shot_id": "S191",
+    "source": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\SCAMBOS_FIG8_SEARCH_CONTEXT.png",
+    "base": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\ASSETS\\S191_BASE_HD_FINAL.png",
+    "comp": "C:\\Users\\KK\\VIDEO010_ASSEMBLY_WORK\\REBUILD_R7\\COMPS\\S191_FINAL.comp",
+    "frames": 133,
+    "features": [
+      "large high-contrast native Text+ with opposite-tone outline"
+    ],
+    "labels": [
+      "EXACT LOCATION UNKNOWN"
+    ],
+    "status": "NATIVE_RENDER_PROOF_REQUIRED"
+  }
+]

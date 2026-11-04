@@ -1,0 +1,31 @@
+{
+  "status": "TECHNICAL_PASS_194_FRAME_VISUAL_REVIEW_OWNER_LISTENING_RIGHTS_HOLD",
+  "output": "C:\\YOUTUBE\\Youtube 2\\VIDEO 10\\DELIVERY\\R7_DIRECTORS_REVIEW\\VIDEO010_R7_DIRECTORS_REVIEW.mp4",
+  "sha256": "739b304246fea2e2e2bea6ccbe5a191e2d013049a3550aa5301ab0b9e2b9b428",
+  "duration_seconds": 887.916667,
+  "frames": 21310,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "integrated_lufs": -16.0,
+  "true_peak_dbfs": -1.5,
+  "decode": "PASS",
+  "black_events": [],
+  "sampled_frames": 194,
+  "full_real_time_av_review": "HOLD",
+  "human_listening": "HOLD",
+  "archive_rights": "HOLD_RESEARCH_ONLY",
+  "owner_acceptance": "HOLD",
+  "publication": "BLOCKED",
+  "source_voice_retimed_or_regenerated": false,
+  "new_generation": 0,
+  "paid_operations_usd": 0,
+  "shorts": false,
+  "subtitles": false,
+  "sampled_visual_review": "194 chronological frames reviewed; corrected native map and crew scene rechecked",
+  "not_continuous_av_review": true
+}

@@ -1,25 +1,11 @@
-# VIDEO010 - production preparation after FinalQC
+# VIDEO010 — current production handoff: R7
 
-R5.1frozenforauthorizedvoiceproduction. NO SHORTS. USD0. Owner asked to queuevoicewithoutwaiting and preparemontage.
+Owner rejected R6.1 for wrong endscreen, archive scarcity, weak/illegible motion, and unsuitable soundtrack. R6.1 is preserved as rejected.
 
-- [Stage06-12status](06_12_STAGE_STATUS_R5_1.md)
-- [Scriptlock and ownerauthorizationbasis](07_SCRIPT_LOCK_R5_1.json)
-- [CleanEnglishvoice](08_VOICE_SCRIPT_CLEAN_EN_R5_1.txt)
-- [69frozenVoiceboxjobs](08_VOICE_JOBS_R5_1.json)
-- [Asyncqueue details](09_ASYNC_VOICE_QUEUE_R5_1.md)
-- [AudioQC handoff;pending](10_AUDIO_QC_HANDOFF_R5_1.md)
-- [Editpreparation](11_EDIT_PREP_R5_1_README.md)
-- [69visualbeats](11_VISUAL_BEATS_R5_1.csv)
-- [21accepted-sourcefiles](12_MEDIA_READY_INDEX_R5_1.csv)
-- [5graphicsbuildbriefs;notbuilt](12_GRAPHICS_BUILD_BRIEFS_R5_1.csv)
+Current Resolve timeline: VIDEO010_R7_DIRECTORS_FINAL_REVIEW in Yt2 Vid 10. 194 picture clips including 20s proper HIA end card, 21310 frames at24fps. 43 archival video selects/196.83s;63 source/native scenes plus16 archive context captions. Original R5.1 script and raw Harrison unchanged. No Shorts/subtitles/paid jobs/new image generation/TTS/publication.
 
-Localvoicequeue:C:/YOUTUBE/Youtube 2/VIDEO 10/AUDIO/R5_1_HARRISON_QUEUE.
-Localeditpackage:C:/YOUTUBE/Youtube 2/VIDEO 10/EDIT_PREP/R5_1.
+See [R7 report](15_FILM_REBUILD_R7/README_RU.md), [actual final QC](15_FILM_REBUILD_R7/FINAL_QC.json), [timeline verification](15_FILM_REBUILD_R7/FINAL_PROJECT_VERIFICATION.json), [scene manifest](15_FILM_REBUILD_R7/FILM_MANIFEST_R7.json).
 
-Generationcompletion is not awaited. AudioQC/actualtiming remainpending;archivecoverage/rightsHOLDs unchanged. No finalfilm edit,Resolve,ASR,publishing orpaidgeneration started.
+Final local MP4: C:\YOUTUBE\Youtube 2\VIDEO 10\DELIVERY\R7_DIRECTORS_REVIEW\VIDEO010_R7_DIRECTORS_REVIEW.mp4
 
-Workingbranch:codex/video010-production-prep;base503749c970b557c8a0a5a90fc2c40263c2fcc8fb. WorkerPID39180atverifiedlaunch;69LOCAL_QUEUEDwaitingforexistingVoiceboxjob;no completionmonitoring byagent. ReadactualQUEUE_STATEonlyonownerreminder. Stage09is localdurablequeue,not69APIreceipts.
-
-21copiedsourceassets+2CC0soundcandidates;69semanticvisualrows;34withoutacceptedprimaryvisualand5unbuiltnativegraphicsbriefs. Thesearecoverageholds,not34mandatorygenerations. Sourcearchivesstayoutsideimportlistwhenheld. Textless20secmotionbackgroundcandidatepreparedfromexistingmodernNASAclip,correctfixedcropforburnedtimestamp;notownerlocked.
-
-ScriptR5.1andfactualledgerunchanged. Originalaccess/mediaHOLDs stay. Pronunciation,joins,fullASR/listening andframeaccuratesyncawaitaudio. No scriptrewrite,forcedlength,Shorts,paidoperation orpublication.
+Technical decode, strict black-frame detection and measured audio pass. 194 chronological sample frames reviewed. Full uninterrupted A/V listening, unresolved archive component rights and owner acceptance remain HOLD. This is not publication clearance. Free Scott Buckley CC BY4.0 music requires credits; Freesound effect CC0. Old synthetic wind/idle engine/random switches removed. Final20s Subscribe + specific Previous Story Camp Century sP67aPtpwKg; clickable Studio elements not set here.

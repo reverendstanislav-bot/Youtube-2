@@ -1,0 +1,194 @@
+﻿shot_id,paragraph_id,in_seconds,out_seconds,asset_type,path,explanation
+S001,A01-P01,0.0,4.0,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S001_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S002,A01-P01,4.0,8.083,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S002_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S003,A01-P01,8.083,11.5,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH14_1920px.jpg,Preserved accepted source; no automatic zoom
+S004,A01-P02,11.5,14.5,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN003.png,Preserved accepted source; no automatic zoom
+S005,A01-P02,14.5,18.5,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN004.png,Preserved accepted source; no automatic zoom
+S006,A01-P02,18.5,23.125,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN005.png,Preserved accepted source; no automatic zoom
+S007,A01-P03,23.125,27.25,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S007_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S008,A01-P03,27.25,31.417,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN006.png,Preserved accepted source; no automatic zoom
+S009,A01-P03,31.417,36.25,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH07_1920px.jpg,Preserved accepted source; no automatic zoom
+S010,A01-P04,36.25,42.25,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN007.png,Preserved accepted source; no automatic zoom
+S011,A01-P05,42.25,46.75,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN008.png,Preserved accepted source; no automatic zoom
+S012,A01-P05,46.75,51.292,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN009.png,Preserved accepted source; no automatic zoom
+S013,A01-P06,51.292,55.292,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN010.png,Preserved accepted source; no automatic zoom
+S014,A01-P06,55.292,59.417,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S014_ARCHIVE_R7_HOLD.mp4,Byrd in the historical isolation reenactment
+S015,A01-P06,59.417,64.708,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN011.png,Preserved accepted source; no automatic zoom
+S016,A02-P01,64.708,69.75,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN012.png,Preserved accepted source; no automatic zoom
+S017,A02-P01,69.75,74.583,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S017_ARCHIVE_R7_HOLD.mp4,Historical reenactment of isolation; not a filmed medical incident
+S018,A02-P01,74.583,78.083,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN014.png,Preserved accepted source; no automatic zoom
+S019,A02-P07,78.083,82.0,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN015.png,Preserved accepted source; no automatic zoom
+S020,A02-P07,82.0,85.958,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S020_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S021,A02-P07,85.958,90.25,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S021_ARCHIVE_R7_HOLD.mp4,Actual night expedition work; not claimed to be the rescue
+S022,A02-P07,90.25,95.833,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S022_ARCHIVE_R7_HOLD.mp4,Original expedition equipment operations; generic equipment context
+S023,A02-P02,95.833,100.375,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S023_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S024,A02-P02,100.375,104.917,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S024_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S025,A02-P02,104.917,109.833,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S025_ARCHIVE_R7_HOLD.mp4,Actual local Cruiser movement; not an inland survey
+S026,A02-P03,109.833,113.125,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S026_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S027,A02-P03,113.125,117.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S027_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S028,A02-P03,117.292,121.5,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S028_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S029,A02-P03,121.5,125.583,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S029_ARCHIVE_R7_HOLD.mp4,"Cruiser and rooftop airplane, actual unloading context"
+S030,A02-P04,125.583,131.167,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S030_ARCHIVE_R7_HOLD.mp4,Actual expedition dog team; not hauling the whole Cruiser
+S031,A02-P04,131.167,136.792,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S031_ARCHIVE_R7_HOLD.mp4,Actual expedition aviation; not the rooftop Beechcraft in flight
+S032,A02-P05,136.792,140.917,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN027.png,Preserved accepted source; no automatic zoom
+S033,A02-P05,140.917,145.167,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S033_BASE_HD_FINAL.png,
+S034,A02-P05,145.167,148.25,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S034_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S035,A02-P06,148.25,154.167,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S035_BASE_HD_FINAL.png,
+S036,A02-P06,154.167,158.542,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S036_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S037,A03-P01,158.542,163.125,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN031.png,Preserved accepted source; no automatic zoom
+S038,A03-P01,163.125,167.875,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN032.png,Preserved accepted source; no automatic zoom
+S039,A03-P01,167.875,173.042,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN033.png,Preserved accepted source; no automatic zoom
+S040,A03-P03,173.042,177.583,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S040_BASE_HD_FINAL.png,local source-targeted write-on path; local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S041,A03-P03,177.583,181.167,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S041_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S042,A03-P03,181.167,185.208,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S042_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S043,A03-P04,185.208,189.875,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S043_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S044,A03-P04,189.875,194.333,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S044_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S045,A03-P04,194.333,198.875,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S045_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S046,A03-P05,198.875,202.708,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN037.png,Preserved accepted source; no automatic zoom
+S047,A03-P05,202.708,206.958,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S047_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S048,A03-P05,206.958,210.958,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN039.png,Preserved accepted source; no automatic zoom
+S049,A03-P07,210.958,216.167,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN040.png,Preserved accepted source; no automatic zoom
+S050,A03-P07,216.167,221.375,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN041.png,Preserved accepted source; no automatic zoom
+S051,A04-P10,221.375,225.875,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN042.png,Preserved accepted source; no automatic zoom
+S052,A04-P10,225.875,230.417,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S052_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S053,A04-P10,230.417,235.125,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN043.png,Preserved accepted source; no automatic zoom
+S054,A04-P08,235.125,239.875,EXISTING_GENERATED,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCG08.png,Preserved accepted source; no automatic zoom
+S055,A04-P08,239.875,244.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S055_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S056,A04-P08,244.292,248.708,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S056_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S057,A04-P01,248.708,253.708,EXISTING_GENERATED,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCG09.png,Preserved accepted source; no automatic zoom
+S058,A04-P01,253.708,258.708,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN046.png,Preserved accepted source; no automatic zoom
+S059,A04-P01,258.708,262.792,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN047.png,Preserved accepted source; no automatic zoom
+S060,A04-P03,262.792,266.208,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S060_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S061,A04-P03,266.208,269.208,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN048.png,Preserved accepted source; no automatic zoom
+S062,A04-P04,269.208,274.833,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN049.png,Preserved accepted source; no automatic zoom
+S063,A04-P04,274.833,279.167,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN050.png,Preserved accepted source; no automatic zoom
+S064,A04-P04,279.167,283.833,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S064_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S065,A04-P05,283.833,287.958,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN051.png,Preserved accepted source; no automatic zoom
+S066,A04-P05,287.958,291.792,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S066_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S067,A04-P05,291.792,296.0,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN052.png,Preserved accepted source; no automatic zoom
+S068,A04-P09,296.0,300.333,EXISTING_GENERATED,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCG13.png,Preserved accepted source; no automatic zoom
+S069,A04-P09,300.333,305.458,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN053.png,Preserved accepted source; no automatic zoom
+S070,A04-P09,305.458,310.792,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S070_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S071,A04-P06,310.792,314.458,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S071_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S072,A04-P06,314.458,319.167,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S072_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S073,A04-P06,319.167,324.792,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S073_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S074,A04-P11,324.792,329.5,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S074_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S075,A04-P11,329.5,333.833,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S075_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S076,A04-P11,333.833,338.25,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S076_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S077,A04-P07,338.25,343.583,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S077_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S078,A04-P07,343.583,348.792,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S078_ARCHIVE_R7_HOLD.mp4,Real expedition crew at sea; no towing truck fiction
+S079,A05-P08,348.792,353.583,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN061.png,Preserved accepted source; no automatic zoom
+S080,A05-P08,353.583,358.75,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN062.png,Preserved accepted source; no automatic zoom
+S081,A05-P08,358.75,363.375,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S081_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S082,A05-P08,363.375,368.083,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN064.png,Preserved accepted source; no automatic zoom
+S083,A05-P09,368.083,372.875,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S083_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S084,A05-P09,372.875,377.708,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S084_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S085,A05-P09,377.708,382.667,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S085_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S086,A05-P09,382.667,387.375,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S086_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S087,A05-P01,387.375,391.958,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S087_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S088,A05-P01,391.958,397.208,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S088_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S089,A05-P03,397.208,401.667,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN070.png,Preserved accepted source; no automatic zoom
+S090,A05-P03,401.667,406.0,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN071.png,Preserved accepted source; no automatic zoom
+S091,A05-P03,406.0,410.417,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S091_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S092,A05-P10,410.417,414.667,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN072.png,Preserved accepted source; no automatic zoom
+S093,A05-P10,414.667,418.917,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S093_ARCHIVE_R7_HOLD.mp4,Crew work on ice; not identified as the motor rest stop
+S094,A05-P10,418.917,423.292,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN074.png,Preserved accepted source; no automatic zoom
+S095,A05-P04,423.292,427.833,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN075.png,Preserved accepted source; no automatic zoom
+S096,A05-P04,427.833,432.042,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN076.png,Preserved accepted source; no automatic zoom
+S097,A05-P04,432.042,436.75,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S097_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S098,A05-P04,436.75,440.75,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S098_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S099,A05-P04,440.75,444.5,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN078.png,Preserved accepted source; no automatic zoom
+S100,A05-P05,444.5,449.583,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN079.png,Preserved accepted source; no automatic zoom
+S101,A05-P05,449.583,454.083,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN080.png,Preserved accepted source; no automatic zoom
+S102,A05-P07,454.083,459.917,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH07_1920px.jpg,Preserved accepted source; no automatic zoom
+S103,A06-P01,459.917,465.167,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S103_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S104,A06-P01,465.167,469.833,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S104_BASE_HD_FINAL.png,local source-targeted write-on path; local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S105,A06-P03,469.833,474.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S105_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S106,A06-P03,474.292,478.708,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN085.png,Preserved accepted source; no automatic zoom
+S107,A06-P03,478.708,483.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S107_BASE_HD_FINAL.png,native load bars on a shared exact1:5 scale; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S108,A06-P03,483.292,487.958,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S108_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S109,A06-P03,487.958,492.5,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S109_BASE_HD_FINAL.png,local source-targeted write-on path; local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S110,A06-P05,492.5,497.542,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN088.png,Preserved accepted source; no automatic zoom
+S111,A06-P05,497.542,501.917,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN089.png,Preserved accepted source; no automatic zoom
+S112,A06-P05,501.917,506.708,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S112_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S113,A06-P06,506.708,511.5,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S113_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S114,A06-P07,511.5,516.375,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S114_ARCHIVE_R7_HOLD.mp4,Actual wheel maintenance before unloading; generic wheel context
+S115,A06-P07,516.375,521.583,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN092.png,Preserved accepted source; no automatic zoom
+S116,A06-P08,521.583,526.958,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN093.png,Preserved accepted source; no automatic zoom
+S117,A07-P01,526.958,531.083,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH02_1920px.jpg,Preserved accepted source; no automatic zoom
+S118,A07-P01,531.083,535.208,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S118_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S119,A07-P01,535.208,539.833,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S119_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S120,A07-P02,539.833,545.75,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S120_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S121,A07-P02,545.75,550.208,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN096.png,Preserved accepted source; no automatic zoom
+S122,A07-P02,550.208,554.917,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S122_ARCHIVE_R7_HOLD.mp4,"Original body identification and detail, not a forged journal"
+S123,A07-P02,554.917,558.542,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S123_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S124,A07-P03,558.542,562.125,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S124_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S125,A07-P03,562.125,566.875,ARCHIVE_RESEARCH_RIGHTS_HOLD,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S125_ARCHIVE_RESEARCH_HOLD.mp4,Preserved accepted source; no automatic zoom
+S126,A07-P04,566.875,571.667,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN101.png,Preserved accepted source; no automatic zoom
+S127,A07-P04,571.667,577.458,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S127_ARCHIVE_R7_HOLD.mp4,Actual winter conditions around expedition equipment
+S128,A07-P05,577.458,581.167,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH08_1920px.jpg,Preserved accepted source; no automatic zoom
+S129,A07-P05,581.167,586.042,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S129_ARCHIVE_R7_HOLD.mp4,Period field machining; not claimed to show the named hydraulic repair
+S130,A07-P05,586.042,591.5,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S130_ARCHIVE_R7_HOLD.mp4,Period equipment service; no claim of the particular replacement fuse
+S131,A07-P05,591.5,596.0,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S131_ARCHIVE_R7_HOLD.mp4,Actual snow excavation at an expedition camp; not proof of the Cruiser ramp
+S132,A07-P05,596.0,600.333,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN106.png,Preserved accepted source; no automatic zoom
+S133,A07-P06,600.333,604.625,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S133_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S134,A07-P06,604.625,610.042,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S134_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S135,A07-P06,610.042,615.125,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN109.png,Preserved accepted source; no automatic zoom
+S136,A07-P06,615.125,619.958,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S136_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S137,A07-P06,619.958,624.708,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN111.png,Preserved accepted source; no automatic zoom
+S138,A07-P07,624.708,630.125,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH11_1920px.jpg,Preserved accepted source; no automatic zoom
+S139,A07-P07,630.125,635.75,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN112.png,Preserved accepted source; no automatic zoom
+S140,A08-P02,635.75,639.958,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH04_1920px.jpg,Preserved accepted source; no automatic zoom
+S141,A08-P02,639.958,644.0,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH03.jpg,Preserved accepted source; no automatic zoom
+S142,A08-P02,644.0,648.25,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH02_1920px.jpg,Preserved accepted source; no automatic zoom
+S143,A08-P02,648.25,652.625,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH06_1920px.jpg,Preserved accepted source; no automatic zoom
+S144,A08-P03,652.625,656.917,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S144_ARCHIVE_R7_HOLD.mp4,Actual preparation of field gear; not identified as Wade or Warner
+S145,A08-P03,656.917,661.333,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN114.png,Preserved accepted source; no automatic zoom
+S146,A08-P03,661.333,665.292,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S146_ARCHIVE_R7_HOLD.mp4,Hands working on equipment; no identification as a specific experiment
+S147,A08-P04,665.292,669.0,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S147_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S148,A08-P04,669.0,673.042,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S148_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S149,A08-P04,673.042,677.583,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN117.png,Preserved accepted source; no automatic zoom
+S150,A08-P06,677.583,681.458,ACTUAL_ARCHIVE_RESEARCH_HOLD,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\VIDEO\S150_ARCHIVE_R7_HOLD.mp4,"Original expedition exterior, no invented departure event"
+S151,A08-P06,681.458,685.5,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN118.png,Preserved accepted source; no automatic zoom
+S152,A08-P07,685.5,689.333,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S152_BASE_HD_FINAL.png,
+S153,A08-P07,689.333,694.167,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN120.png,Preserved accepted source; no automatic zoom
+S154,A09-P01,694.167,698.333,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S154_BASE_HD_FINAL.png,local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S155,A09-P01,698.333,702.625,ACTUAL_1947_NAVY_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S155_VIDEO_R5.mp4,Preserved accepted source; no automatic zoom
+S156,A09-P01,702.625,705.917,ACTUAL_1947_NAVY_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\S156_VIDEO_R5.mp4,Preserved accepted source; no automatic zoom
+S157,A09-P02,705.917,709.958,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S157_BASE_HD_FINAL.png,local source-targeted write-on path; local source-targeted write-on path; large high-contrast native Text+ with opposite-tone outline
+S158,A09-P02,709.958,713.875,EXISTING_GENERATED_REUSE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN124.png,Preserved accepted source; no automatic zoom
+S159,A09-P02,713.875,718.167,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN124.png,Preserved accepted source; no automatic zoom
+S160,A09-P03,718.167,721.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S160_BASE_HD_FINAL.png,
+S161,A09-P03,721.292,724.417,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN125.png,Preserved accepted source; no automatic zoom
+S162,A09-P04,724.417,728.667,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S162_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S163,A09-P04,728.667,733.125,EXISTING_GENERATED,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCG22.png,Preserved accepted source; no automatic zoom
+S164,A09-P04,733.125,737.583,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN127.png,Preserved accepted source; no automatic zoom
+S165,A09-P05,737.583,741.542,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S165_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S166,A09-P05,741.542,746.542,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S166_BASE_HD_FINAL.png,
+S167,A09-P06,746.542,751.042,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S167_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S168,A09-P06,751.042,755.583,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S168_BASE_HD_FINAL.png,native local source lens on Bay of Whales; no full-frame zoom; large high-contrast native Text+ with opposite-tone outline
+S169,A09-P07,755.583,759.458,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN131.png,Preserved accepted source; no automatic zoom
+S170,A10-P01,759.458,764.125,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S170_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S171,A10-P01,764.125,768.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S171_BASE_HD_FINAL.png,sequential emphasis of pixels from published1957/1962 map traces; no invented coast geometry; large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S172,A10-P01,768.292,772.792,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S172_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S173,A10-P02,772.792,777.875,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN134.png,Preserved accepted source; no automatic zoom
+S174,A10-P02,777.875,782.958,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S174_BASE_HD_FINAL.png,
+S175,A10-P09,782.958,787.458,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S175_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S176,A10-P09,787.458,791.708,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S176_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S177,A10-P09,791.708,797.0,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S177_BASE_HD_FINAL.png,
+S178,A10-P09,797.0,802.417,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S178_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S179,A10-P03,802.417,807.292,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S179_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline; large high-contrast native Text+ with opposite-tone outline
+S180,A10-P03,807.292,812.167,EXISTING_GENERATED,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCG25.png,Preserved accepted source; no automatic zoom
+S181,A10-P03,812.167,816.875,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN140.png,Preserved accepted source; no automatic zoom
+S182,A10-P04,816.875,820.5,EXISTING_ARCHIVE_REUSE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH04_1920px.jpg,Preserved accepted source; no automatic zoom
+S183,A10-P04,820.5,825.083,EXISTING_ARCHIVE_REUSE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH03.jpg,Preserved accepted source; no automatic zoom
+S184,A10-P04,825.083,829.5,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN143.png,Preserved accepted source; no automatic zoom
+S185,A10-P07,829.5,833.292,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN144.png,Preserved accepted source; no automatic zoom
+S186,A10-P07,833.292,837.25,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S186_BASE_HD_FINAL.png,
+S187,A10-P07,837.25,841.667,NEW_IMAGE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\SCN146.png,Preserved accepted source; no automatic zoom
+S188,A10-P07,841.667,846.083,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S188_BASE_HD_FINAL.png,
+S189,A10-P08,846.083,850.417,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S189_BASE_HD_FINAL.png,
+S190,A10-P08,850.417,854.958,EXISTING_ARCHIVE,C:\Users\KK\Movies\HIA_VIDEO010_FULL_FILM_R3\MEDIA\PH08_1920px.jpg,Preserved accepted source; no automatic zoom
+S191,A10-P08,854.958,860.5,SOURCE_DRIVEN_NATIVE_SCENE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\S191_BASE_HD_FINAL.png,large high-contrast native Text+ with opposite-tone outline
+S192,A10-CTA01,860.5,864.167,APPROVED_CAMP_MOVING_REFERENCE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\CAMP_PREVIOUS_STORY_MOVING_R7.mp4,Preserved accepted source; no automatic zoom
+S193,A10-CTA01,864.167,867.917,APPROVED_CAMP_MOVING_REFERENCE,C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7\ASSETS\CAMP_PREVIOUS_STORY_MOVING_R7.mp4,Preserved accepted source; no automatic zoom

@@ -1,0 +1,90 @@
+[
+  {
+    "track": "Hiraeth",
+    "start": 2.5,
+    "end": 55,
+    "source_in": 0,
+    "rms_dbfs": -34,
+    "purpose": "Opening: real ramp action, then central question"
+  },
+  {
+    "track": "Hiraeth",
+    "start": 65,
+    "end": 100,
+    "source_in": 54,
+    "rms_dbfs": -36,
+    "purpose": "Rescue stakes, restrained continuation"
+  },
+  {
+    "track": "Meanwhile",
+    "start": 100,
+    "end": 221,
+    "source_in": 0,
+    "rms_dbfs": -36,
+    "purpose": "Design ambition, clear space for explanations"
+  },
+  {
+    "track": "Meanwhile",
+    "start": 221,
+    "end": 347,
+    "source_in": 121,
+    "rms_dbfs": -35,
+    "purpose": "Road pressure and delivery, one continuous musical arc"
+  },
+  {
+    "track": "Hiraeth",
+    "start": 350,
+    "end": 457,
+    "source_in": 90,
+    "rms_dbfs": -35,
+    "purpose": "Antarctic conditions undermine the plan"
+  },
+  {
+    "track": "Meanwhile",
+    "start": 489,
+    "end": 525,
+    "source_in": 270,
+    "rms_dbfs": -39,
+    "purpose": "Engineering comparison; first30s of ACT06 deliberately dry"
+  },
+  {
+    "track": "Hiraeth",
+    "start": 529,
+    "end": 633,
+    "source_in": 200,
+    "rms_dbfs": -35,
+    "purpose": "Retry followed by failure; no theatrical percussion"
+  },
+  {
+    "track": "Meanwhile",
+    "start": 639,
+    "end": 692,
+    "source_in": 30,
+    "rms_dbfs": -36,
+    "purpose": "Human work and scientific second purpose"
+  },
+  {
+    "track": "Hiraeth",
+    "start": 696,
+    "end": 757,
+    "source_in": 109,
+    "rms_dbfs": -37,
+    "purpose": "Rediscovery theme reprise, not a repeated short loop"
+  },
+  {
+    "track": "Meanwhile",
+    "start": 762,
+    "end": 855,
+    "source_in": 190,
+    "rms_dbfs": -37,
+    "purpose": "Changing coast and unresolved ending"
+  },
+  {
+    "track": "Hiraeth",
+    "start": 860,
+    "end": 887.9166667,
+    "source_in": 312,
+    "rms_dbfs": -34,
+    "purpose": "Clean Camp Century handoff and proper channel end card"
+  }
+]

@@ -1,0 +1,14 @@
+﻿import sys,os,json,xml.etree.ElementTree as E
+from pathlib import Path
+D=Path(r'C:\Users\KK\VIDEO010_ASSEMBLY_WORK\REBUILD_R7');R=Path((D/'REPORT_REPO_PATH.txt').read_text());sys.path.insert(0,r'C:\Users\KK\.codex\mcp\davinci-resolve');os.environ['DAVINCI_RESOLVE_BRIDGE_CONFIG']=r'C:\Users\KK\.codex\mcp\davinci-resolve\bridge-config.json';from src.utils.resolve_bridge_client import connect
+r=connect(require_enabled=False,timeout=25);p=r.GetProjectManager().GetCurrentProject();t=p.GetCurrentTimeline();assert t.GetName()=='VIDEO010_R7_DIRECTORS_FINAL_REVIEW';assert not p.IsRenderingInProgress();items=sorted(t.GetItemListInTrack('video',1),key=lambda i:i.GetStart());assert len(items)==194;assert int(t.GetEndFrame())-int(t.GetStartFrame())==21310;assert all(int(a.GetEnd())==int(b.GetStart()) for a,b in zip(items,items[1:]));assert [t.GetIsTrackEnabled('audio',i) for i in range(1,5)]==[False,False,False,True]
+assert p.SetRenderSettings({'SelectAllFrames':True,'ExportVideo':True,'ExportAudio':True});t.SetCurrentTimecode('01:14:37:00');r.OpenPage('edit');assert r.GetProjectManager().SaveProject();assert r.GetProjectManager().ExportProject(p.GetName(),str(D/'VIDEO010_R7_DIRECTORS_FINAL_REVIEW.drp'),False)
+actual=items[20].GetMediaPoolItem().GetClipProperty('File Path');assert 'DEFLICKER' in actual,actual
+receipt={'timeline':t.GetName(),'picture_clips':194,'native_comp_counts':{str(i+1):x.GetFusionCompCount() for i,x in enumerate(items) if x.GetFusionCompCount()},'frames':21310,'audio_enabled':[False,False,False,True],'corrected_source':actual,'render_range_restored_to_all_frames':True,'current_page':'edit','project_saved':True};(D/'FINAL_PROJECT_VERIFICATION.json').write_text(json.dumps(receipt,indent=2));(R/'FINAL_PROJECT_VERIFICATION.json').write_text(json.dumps(receipt,indent=2))
+p=D/'NEW_ARCHIVE_SELECTS_R7.json';rows=json.loads(p.read_text())
+for q in rows:
+ if q['shot_id']=='S021':q['caption']='EXPEDITION CREW / ARCHIVE';q['purpose']='Original expedition crew context; no claimed time of day or filmed rescue'
+p.write_text(json.dumps(rows,indent=2));(R/p.name).write_text(json.dumps(rows,indent=2))
+p=D/'FILM_MANIFEST_R7.json';m=json.loads(p.read_text());m['shots'][20]['archive_record']=next(x for x in rows if x['shot_id']=='S021');p.write_text(json.dumps(m,indent=2));(R/p.name).write_text(json.dumps(m,indent=2))
+p=D/'VIDEO010_R7_FULL.xml';tree=E.parse(p);c=tree.getroot().find('sequence').findall('./media/video/track/clipitem')[20];c.find('name').text=Path(actual).name;c.find('file/name').text=Path(actual).name;c.find('file/pathurl').text=Path(actual).as_uri();tree.write(p,encoding='utf-8',xml_declaration=True)
+print(json.dumps({'saved':True,'timeline':t.GetName(),'clips':len(items),'frames':21310,'audio_routing':'MASTER_ONLY','native_scenes':len(receipt['native_comp_counts'])}))
