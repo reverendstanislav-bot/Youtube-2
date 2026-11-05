@@ -1,0 +1,26 @@
+{
+  "status": "MASTER_TECHNICAL_PASS_ASR_REVIEW_HOLD",
+  "source_clips": 50,
+  "decode_pass": 50,
+  "order": "QUEUE.json indices, including A03-CTA01",
+  "native_format": [
+    1,
+    2,
+    24000
+  ],
+  "samples": 19607040,
+  "duration_seconds": 816.96,
+  "duration_mmss": "13:36",
+  "source_pcm_concat_exact": true,
+  "inserted_silence_seconds": 0,
+  "source_gain_changes": false,
+  "time_stretch": false,
+  "native_master_sha256": "9bb070e42078540d9de757ce92f3152e4ad682b48ceca8e100846bf49953f25e",
+  "delivery_master_sha256": "0f7c9430fab3efa2cbf4cf0478be68abbf5721c341ad681f9ad07087a2b45a47",
+  "delivery_format": "48000Hz 24-bit PCM; resampled from24kHz original, not new captured detail",
+  "peak_dbfs": -2.757,
+  "listening": "NOT_PERFORMED",
+  "asr": "ASR_COMPLETE_TARGETED_REVIEW_HOLD",
+  "integrated_loudness_lufs": -20.4,
+  "true_peak_dbfs": -2.8
+}

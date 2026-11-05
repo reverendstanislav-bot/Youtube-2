@@ -1,0 +1,268 @@
+[
+  {
+    "paragraph_id": "A01-P01",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A01-P02",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A01-P03",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A01-P04",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A02-P01",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A02-P02",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A02-P03",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A02-P04",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A02-P05",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A02-P06",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A03-P01",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A03-P02",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A03-P03",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A03-P04",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A03-P05",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A03-CTA01",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A03-P06",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A04-P01",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A04-P02",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A04-P03",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A04-P04",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A04-P05",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A04-P06",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A04-P07",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A04-P08",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A05-P01",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A05-P02",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A05-P03",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A05-P04",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A05-P05",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A05-P06",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A06-P01",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A06-P02",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "chazhma",
+        "recognized": "chajma",
+        "expected_index": 6,
+        "recognized_index": 6
+      }
+    ],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A06-P03",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A06-P04",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A06-P05",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A06-P06",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A06-P07",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A07-P01",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A07-P03",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A07-P04",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A07-P05",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A07-P06",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A08-P01",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  },
+  {
+    "paragraph_id": "A08-P02",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A08-P03",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "television",
+        "recognized": "tv",
+        "expected_index": 6,
+        "recognized_index": 6
+      }
+    ],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A08-P04",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A08-P06",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A08-P07",
+    "differences": [],
+    "model": "faster-whisper-medium.en CPU int8 VAD"
+  },
+  {
+    "paragraph_id": "A08-P08",
+    "differences": [],
+    "model": "faster-whisper-base.en CPU int8"
+  }
+]

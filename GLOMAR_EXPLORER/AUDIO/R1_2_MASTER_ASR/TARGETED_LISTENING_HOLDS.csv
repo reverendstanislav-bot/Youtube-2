@@ -1,0 +1,3 @@
+paragraph_id,start_seconds,end_seconds,source_wav,issue_ru,status
+A06-P02,507.04,529.52,C:\YOUTUBE\Youtube 2\Glomar Explorer\AUDIO\R1_2_VOICEBOX_QUEUE\A06-P02.wav,Chazhma распознано как Chajma: проверить произношение названия; ASR не устанавливает фонетическую правильность.,TARGETED_LISTENING_HOLD_NOT_CONFIRMED_TTS_ERROR
+A08-P03,735.36,753.6,C:\YOUTUBE\Youtube 2\Glomar Explorer\AUDIO\R1_2_VOICEBOX_QUEUE\A08-P03.wav,"television распознано как TV в обоих проходах: проверить реальную словоформу; смысл совпадает, точный текст не подтверждён.",TARGETED_LISTENING_HOLD_NOT_CONFIRMED_TTS_ERROR

@@ -1,0 +1,42 @@
+{
+  "status": "ASR_COMPLETE_TARGETED_REVIEW_HOLD",
+  "paragraphs_checked": 50,
+  "base_asr_passes": 50,
+  "medium_rechecks": 20,
+  "normalized_matches": 48,
+  "unresolved_paragraphs": [
+    {
+      "paragraph_id": "A06-P02",
+      "differences": [
+        {
+          "type": "replace",
+          "expected": "chazhma",
+          "recognized": "chajma",
+          "expected_index": 6,
+          "recognized_index": 6
+        }
+      ],
+      "model": "faster-whisper-medium.en CPU int8 VAD"
+    },
+    {
+      "paragraph_id": "A08-P03",
+      "differences": [
+        {
+          "type": "replace",
+          "expected": "television",
+          "recognized": "tv",
+          "expected_index": 6,
+          "recognized_index": 6
+        }
+      ],
+      "model": "faster-whisper-medium.en CPU int8 VAD"
+    }
+  ],
+  "text_prompt_used": false,
+  "models": "cached faster-whisper-base.en and medium.en; CPU int8; English; independent text recognition without source prompt",
+  "normalization": "Case/punctuation, numeric notation and hull ID spacing, common contractions, center/centre, under cover/undercover, Transocean spacing, gimbaled/gimballed. Raw transcripts retained. No phonetic name aliases or dropped words are excused.",
+  "scope": "Recognized word sequence only; not proof of correct pronunciation, prosody or absence of clicks.",
+  "source_pcm_matches_master": true,
+  "full_listening": "NOT_PERFORMED",
+  "regeneration": false
+}

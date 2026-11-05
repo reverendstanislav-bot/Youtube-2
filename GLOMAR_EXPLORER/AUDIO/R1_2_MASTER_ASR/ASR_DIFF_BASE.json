@@ -1,0 +1,390 @@
+[
+  {
+    "paragraph_id": "A01-P01",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A01-P02",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "wants",
+        "recognized": "once",
+        "expected_index": 2,
+        "recognized_index": 2
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A01-P03",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A01-P04",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A02-P01",
+    "differences": [
+      {
+        "type": "delete",
+        "expected": "one hundred twenty nine",
+        "recognized": "",
+        "expected_index": 9,
+        "recognized_index": 9
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A02-P02",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A02-P03",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A02-P04",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "center",
+        "recognized": "centre",
+        "expected_index": 16,
+        "recognized_index": 16
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A02-P05",
+    "differences": [
+      {
+        "type": "insert",
+        "expected": "",
+        "recognized": "dr",
+        "expected_index": 49,
+        "recognized_index": 49
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A02-P06",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A03-CTA01",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A03-P01",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "glomar",
+        "recognized": "gloemar",
+        "expected_index": 8,
+        "recognized_index": 8
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A03-P02",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A03-P03",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "gimbaled",
+        "recognized": "gimbulled",
+        "expected_index": 31,
+        "recognized_index": 31
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A03-P04",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A03-P05",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "derrick",
+        "recognized": "derek",
+        "expected_index": 15,
+        "recognized_index": 15
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A03-P06",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A04-P01",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A04-P02",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A04-P03",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A04-P04",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A04-P05",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "dry",
+        "recognized": "dried",
+        "expected_index": 17,
+        "recognized_index": 17
+      },
+      {
+        "type": "replace",
+        "expected": "repair",
+        "recognized": "thank you for watching and i'll see you in the next video",
+        "expected_index": 54,
+        "recognized_index": 54
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A04-P06",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A04-P07",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "waived",
+        "recognized": "waved",
+        "expected_index": 2,
+        "recognized_index": 2
+      },
+      {
+        "type": "delete",
+        "expected": "twelve thousand",
+        "recognized": "",
+        "expected_index": 7,
+        "recognized_index": 7
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A04-P08",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A05-P01",
+    "differences": [
+      {
+        "type": "insert",
+        "expected": "",
+        "recognized": "and",
+        "expected_index": 34,
+        "recognized_index": 34
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A05-P02",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "under cover",
+        "recognized": "undercover",
+        "expected_index": 18,
+        "recognized_index": 18
+      },
+      {
+        "type": "delete",
+        "expected": "one",
+        "recognized": "",
+        "expected_index": 28,
+        "recognized_index": 27
+      },
+      {
+        "type": "insert",
+        "expected": "",
+        "recognized": "training",
+        "expected_index": 45,
+        "recognized_index": 43
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A05-P03",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A05-P04",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A05-P05",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "require",
+        "recognized": "required",
+        "expected_index": 34,
+        "recognized_index": 34
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A05-P06",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A06-P01",
+    "differences": [
+      {
+        "type": "insert",
+        "expected": "",
+        "recognized": "construction",
+        "expected_index": 39,
+        "recognized_index": 39
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A06-P02",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "chazhma",
+        "recognized": "chajma",
+        "expected_index": 6,
+        "recognized_index": 6
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A06-P03",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A06-P04",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A06-P05",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A06-P06",
+    "differences": [
+      {
+        "type": "delete",
+        "expected": "wreck",
+        "recognized": "",
+        "expected_index": 32,
+        "recognized_index": 32
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A06-P07",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A07-P01",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A07-P03",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A07-P04",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A07-P05",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A07-P06",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A08-P01",
+    "differences": []
+  },
+  {
+    "paragraph_id": "A08-P02",
+    "differences": [
+      {
+        "type": "insert",
+        "expected": "",
+        "recognized": "we'll see you in a minute",
+        "expected_index": 60,
+        "recognized_index": 60
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A08-P03",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "television",
+        "recognized": "tv",
+        "expected_index": 6,
+        "recognized_index": 6
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A08-P04",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "ford approved",
+        "recognized": "for to prove",
+        "expected_index": 39,
+        "recognized_index": 39
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A08-P06",
+    "differences": [
+      {
+        "type": "replace",
+        "expected": "transocean",
+        "recognized": "trans ocean",
+        "expected_index": 20,
+        "recognized_index": 20
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A08-P07",
+    "differences": [
+      {
+        "type": "insert",
+        "expected": "",
+        "recognized": "love",
+        "expected_index": 49,
+        "recognized_index": 49
+      }
+    ]
+  },
+  {
+    "paragraph_id": "A08-P08",
+    "differences": []
+  }
+]

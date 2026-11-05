@@ -3,7 +3,7 @@
   "owner_selected": "2026-11-04",
   "base_origin_main": "cf80d82207ff8358729f31cd8650826fb945d0cd",
   "episode_number": null,
-  "status": "R1_2_NARRATION_QUEUED_OWNER_AUTHORIZED",
+  "status": "MASTER_ASSEMBLED_ASR_COMPLETE_TWO_TARGETED_LISTENING_HOLDS",
   "script_lock": "HOLD_OWNER_REVIEW",
   "archive_bank": "VIDEO_ARCHIVE_R2_TECHNICAL_PASS_RIGHTS_HOLD",
   "competitor_review": "LIMITED_SECONDARY_TEXT_ONLY",
@@ -41,7 +41,17 @@
   "voice_generation_authorized": true,
   "voice_authorization": "2026-11-05 owner: queue narration of R1.2",
   "voice_queue": "AUDIO/R1_2_VOICEBOX_QUEUE/SUBMISSION_RECEIPT.json",
-  "voice_status": "RUNNING_AT_SUBMISSION_CHECK",
+  "voice_status": "GENERATED_50_OF_50",
   "voice_profile": "HIA Arthur Multi-Source / 49119911-6b96-4db0-87fe-8a976ccc6b91",
-  "voice_qc": "PENDING_ASR_LISTENING_MASTER"
+  "voice_qc": "TECHNICAL_PASS_ASR_48_MATCH_2_TARGETED_HOLDS_LISTENING_PENDING",
+  "audio_master_report": "AUDIO/R1_2_MASTER_ASR/README_RU.md",
+  "audio_master_local": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\AUDIO\\R1_2_MASTER_ASR\\GLOMAR_R1_2_ARTHUR_MASTER_48K_PCM24.wav",
+  "audio_master_seconds": 816.96,
+  "audio_source_clips": 50,
+  "asr_checked_paragraphs": 50,
+  "asr_normalized_matches": 48,
+  "asr_targeted_holds": [
+    "A06-P02",
+    "A08-P03"
+  ]
 }

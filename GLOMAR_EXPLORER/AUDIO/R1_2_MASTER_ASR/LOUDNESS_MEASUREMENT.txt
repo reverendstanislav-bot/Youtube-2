@@ -1,0 +1,29 @@
+.4 LUFS       LRA:   2.6 LU  FTPK:  -6.8 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 815.799979 TARGET:-23 LUFS    M: -19.8 S: -20.0     I: -20.4 LUFS       LRA:   2.6 LU  FTPK:  -6.4 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 815.899979 TARGET:-23 LUFS    M: -21.4 S: -20.3     I: -20.4 LUFS       LRA:   2.6 LU  FTPK:  -7.6 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 815.999979 TARGET:-23 LUFS    M: -20.4 S: -20.2     I: -20.4 LUFS       LRA:   2.6 LU  FTPK:  -7.7 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.099979 TARGET:-23 LUFS    M: -20.8 S: -20.2     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -17.5 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.199979 TARGET:-23 LUFS    M: -21.7 S: -20.0     I: -20.4 LUFS       LRA:   2.6 LU  FTPK:  -7.1 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.299979 TARGET:-23 LUFS    M: -22.0 S: -20.0     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -18.6 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.399979 TARGET:-23 LUFS    M: -22.5 S: -19.9     I: -20.4 LUFS       LRA:   2.6 LU  FTPK:  -7.8 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.499979 TARGET:-23 LUFS    M: -22.7 S: -19.9     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -14.2 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.599979 TARGET:-23 LUFS    M: -25.6 S: -19.9     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -14.3 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.699979 TARGET:-23 LUFS    M: -24.9 S: -19.8     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -15.4 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.799979 TARGET:-23 LUFS    M: -27.2 S: -19.8     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -21.3 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] t: 816.899979 TARGET:-23 LUFS    M: -28.3 S: -19.8     I: -20.4 LUFS       LRA:   2.6 LU  FTPK: -24.9 dBFS  TPK:  -2.8 dBFS
+[Parsed_ebur128_0 @ 000001e1f61e4d80] Summary:
+
+  Integrated loudness:
+    I:         -20.4 LUFS
+    Threshold: -30.8 LUFS
+
+  Loudness range:
+    LRA:         2.6 LU
+    Threshold: -40.8 LUFS
+    LRA low:   -22.1 LUFS
+    LRA high:  -19.5 LUFS
+
+  True peak:
+    Peak:       -2.8 dBFS
+[out#0/null @ 000001e1f43944c0] video:0KiB audio:76590KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:13:36.96 bitrate=N/A speed= 479x elapsed=0:00:01.70    
