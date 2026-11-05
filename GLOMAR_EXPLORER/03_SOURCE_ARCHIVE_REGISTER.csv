@@ -1,0 +1,11 @@
+﻿source_id,source,purpose_ru,research_status,technical_status,rights_status,url
+S01,CIA museum exhibit,"История, изображения судна и схема оборудования",SOURCE_PAGE_CHECKED,MEDIA_NOT_DOWNLOADED,PER_ASSET_HOLD,https://www.cia.gov/legacy/museum/exhibit/project-azorian/
+S02,State FRUS editorial note,"Даты, решения и ссылки на документы",TEXT_CHECKED,TEXT_ONLY,MEDIA_NOT_ASSESSED,https://history.state.gov/historicaldocuments/frus1969-76v35/d183
+S03,FRUS contemporary memorandum,"Обломки, цели повторной миссии, редактированные сведения",TEXT_CHECKED,TEXT_ONLY,MEDIA_NOT_ASSESSED,https://history.state.gov/historicaldocuments/frus1969-76v35/d191
+S04,CIA exposure history,Цепочка разглашения,SOURCE_PAGE_CHECKED,MEDIA_NOT_DOWNLOADED,PER_ASSET_HOLD,https://www.cia.gov/stories/story/the-exposing-of-project-azorian/
+S05,CIA flag / Debrief,"Видео с рассказом и архивными вставками: найти исходники, отделить современную реконструкцию",PAGE_AND_TRANSCRIPT_CHECKED,NATIVE_FILE_AND_RESOLUTION_HOLD,COMPONENT_RIGHTS_HOLD,https://www.cia.gov/legacy/museum/artifact/flag-that-flew-above-the-glomar-explorer/
+S06,CIA manganese artifact,Настоящий образец конкреции для объяснения легенды,SOURCE_PAGE_CHECKED,IMAGE_NOT_DOWNLOADED,PER_ASSET_HOLD,https://www.cia.gov/legacy/museum/artifact/manganese-nodule-encased-in-lucite/
+S07,CIA bunk card,"Карточка, детали обычной жизни и поддержания легенды",SOURCE_PAGE_CHECKED,IMAGE_NOT_DOWNLOADED,PER_ASSET_HOLD,https://www.cia.gov/legacy/museum/artifact/glomar-explorer-bunk-card/
+S08,Transocean SEC filing,Проверка поздней судьбы судна,TEXT_CHECKED,TEXT_ONLY,MEDIA_NOT_ASSESSED,https://www.sec.gov/Archives/edgar/data/1451505/000145150515000116/form10_q2q2015.htm
+S09,CIA participant retrospective,Свидетельство инженера; отдельно искать настоящие фото строительства,SOURCE_PAGE_CHECKED,MEDIA_NOT_DOWNLOADED,THIRD_PARTY_ART_NOT_AUTOMATICALLY_FREE,https://www.cia.gov/stories/story/honoring-the-mission-of-project-azorian/
+S10,CIA CSI film/book review,Библиография и направление поиска документов,SOURCE_PAGE_CHECKED,COMMERCIAL_FILM_NOT_ACQUIRED,COMMERCIAL_FOOTAGE_NOT_CLEARED,https://www.cia.gov/resources/csi/static/The-Glomar-Explorer.pdf
