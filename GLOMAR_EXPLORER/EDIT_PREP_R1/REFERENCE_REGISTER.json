@@ -1,0 +1,155 @@
+{
+  "STYLE_PEOPLE": {
+    "path": "REFERENCES\\STYLE_PEOPLE.png",
+    "origin": "C:\\Users\\KK\\HIA_GLOMAR_RESEARCH_20261104\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G07_REVISED_R2.png",
+    "role": "Approved Camp Century style only; never transfer camp/tractor/snow geometry to Glomar",
+    "sha256": "e9347eb0b72bef433697ed459bdc8e9a0f6603561cf49e4eeffce49d3a847c16"
+  },
+  "STYLE_CUTAWAY": {
+    "path": "REFERENCES\\STYLE_CUTAWAY.png",
+    "origin": "C:\\Users\\KK\\HIA_GLOMAR_RESEARCH_20261104\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G01_DRAFT_R1.png",
+    "role": "Approved Camp Century style only; never transfer camp/tractor/snow geometry to Glomar",
+    "sha256": "abd8c467e97ccce3da75701e9152ca3660c33bb64d57610a166915707bc3d4d3"
+  },
+  "STYLE_SCALE": {
+    "path": "REFERENCES\\STYLE_SCALE.png",
+    "origin": "C:\\Users\\KK\\HIA_GLOMAR_RESEARCH_20261104\\CAMP_CENTURY\\GRAPHICS\\STAGE07_GENERATED_R1\\images\\G12_DRAFT_R1.png",
+    "role": "Approved Camp Century style only; never transfer camp/tractor/snow geometry to Glomar",
+    "sha256": "1a4e5706df80d662eb64c5ce6dd7265a93e4c223294dc67ba9ea8e66f5287cb3"
+  },
+  "SHIP_GEOMETRY": {
+    "path": "REFERENCES\\SHIP_GEOMETRY.jpg",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\C04.jpg",
+    "role": "Historical/technical shape reference; reuse rights remain asset-specific. Do not copy modern details/date.",
+    "sha256": "d0c3da566a1458c781864a322853d7b9d6454a9125587efb965f92d821f4877f"
+  },
+  "CAPTURE_GEOMETRY": {
+    "path": "REFERENCES\\CAPTURE_GEOMETRY.jpg",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\CIA_EXHIBIT_05.jpg",
+    "role": "Historical/technical shape reference; reuse rights remain asset-specific. Do not copy modern details/date.",
+    "sha256": "80d69c1407d5a02cf27e87dde256072012bf53dab01c12f7a1eefb06ff3b4904"
+  },
+  "WELL_GEOMETRY": {
+    "path": "REFERENCES\\WELL_GEOMETRY.jpg",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\CIA_EXHIBIT_02_SOURCE.jpg",
+    "role": "Historical/technical shape reference; reuse rights remain asset-specific. Do not copy modern details/date.",
+    "sha256": "f1e77b0338eebafb453cff8dc904cb4839ff7ba9b0a3d2e272b2caf8543d5bea"
+  },
+  "BARGE_GEOMETRY": {
+    "path": "REFERENCES\\BARGE_GEOMETRY.jpg",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\M05.jpg",
+    "role": "Historical/technical shape reference; reuse rights remain asset-specific. Do not copy modern details/date.",
+    "sha256": "fb0e4d85a51c7254e81f8e3f546aba2bbf7d8b2c275ee6868287be29dc67d34f"
+  },
+  "D07_P19": {
+    "path": "REFERENCES\\D07_PDF_P19.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 19,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "7a61a1b267a8e8f802083cf820b7ce16bbcaa443d6db90f7864762efc70e3abd"
+  },
+  "D07_P20": {
+    "path": "REFERENCES\\D07_PDF_P20.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 20,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "2754166c46b1eb769bd38206db1dc0e86c228770374f8e73f50e62552dc639be"
+  },
+  "D07_P21": {
+    "path": "REFERENCES\\D07_PDF_P21.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 21,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "f90965ef0a9366b6669361a3734c034b34d031047a9d39bf521eb3e4eeeef1eb"
+  },
+  "D07_P28": {
+    "path": "REFERENCES\\D07_PDF_P28.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 28,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "b69fbddf54f8dd4caa9f95790f75497cb7895374fc6fa294ef18ec48aae0e23f"
+  },
+  "D07_P30": {
+    "path": "REFERENCES\\D07_PDF_P30.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 30,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "9088a65aaadcf2e1dfb2c445dee125ac6dbbc05609d2754fc6c8c57534df90f5"
+  },
+  "D07_P33": {
+    "path": "REFERENCES\\D07_PDF_P33.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 33,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "f40643083261bbb48f617ad1dd9eb4a70ac0f94167b88eed381cc98db0a5eeff"
+  },
+  "D07_P35": {
+    "path": "REFERENCES\\D07_PDF_P35.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 35,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "9981b068aa4077472725f52fb34dad76606828dabe6050f584bbe4989af36e7b"
+  },
+  "D07_P38": {
+    "path": "REFERENCES\\D07_PDF_P38.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 38,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "d80fb4a3164687a45bfa64855778f9016264919e4f1540c73cdaec0ea114dc92"
+  },
+  "D07_P39": {
+    "path": "REFERENCES\\D07_PDF_P39.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 39,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "cba39efb5b39c3a8b9955d854f0e577b226ceda74f2d5d9d9418b1510991e793"
+  },
+  "D07_P40": {
+    "path": "REFERENCES\\D07_PDF_P40.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "page_1_based": 40,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "9e5a13041fc6d18b372c2c5ca8795e7ba904003dfea9db9bf190a331a573ea78"
+  },
+  "ASME_P06": {
+    "path": "REFERENCES\\ASME_PDF_P06.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\D03.pdf",
+    "page_1_based": 6,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "7ff58d7fda610279b936a27969bc8b3e006eb3061e9360d992b6d2970230cdf5"
+  },
+  "ASME_P07": {
+    "path": "REFERENCES\\ASME_PDF_P07.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\D03.pdf",
+    "page_1_based": 7,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "98efaf1db6681ee529dd78a175ce1f5d183ad5cf74685be99293d88b5492bde4"
+  },
+  "ASME_P08": {
+    "path": "REFERENCES\\ASME_PDF_P08.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\D03.pdf",
+    "page_1_based": 8,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "295d14387033a4734fde81bb4136d80c83335d78cb14249414544c6ae14f08cb"
+  },
+  "ASME_P10": {
+    "path": "REFERENCES\\ASME_PDF_P10.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\D03.pdf",
+    "page_1_based": 10,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "a8ffa03c8d17d4ae10e6322ae212136ac130e56a408192d4a3e180b6e165db1f"
+  },
+  "ASME_P11": {
+    "path": "REFERENCES\\ASME_PDF_P11.png",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\D03.pdf",
+    "page_1_based": 11,
+    "role": "Factual/geometry reference, not authorization to republish third-party ASME images",
+    "sha256": "b2ae02d26e4a6e510d7f3f65307082a389c9587d9c82377a52c691cd15ec62b2"
+  },
+  "SUN_PLATFORM": {
+    "path": "REFERENCES\\SUN_PLATFORM_REFERENCE.jpeg",
+    "origin": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_DECISIONS_R4\\REFERENCE_ONLY\\VERIFIED_PAGES\\706_7305_p1.jpeg",
+    "role": "REFERENCE ONLY permission HOLD; action/geometry, no photo tracing/republishing",
+    "sha256": "72719071cea6a828243baddaa4da337d0226056ebe8fe2ba2af2f3170d2ab5a7"
+  }
+}

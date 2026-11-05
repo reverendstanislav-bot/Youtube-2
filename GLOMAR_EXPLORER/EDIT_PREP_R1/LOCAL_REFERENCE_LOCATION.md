@@ -1,0 +1,1 @@
+Reference images and sampled contacts remain at C:/YOUTUBE/Youtube 2/Glomar Explorer/EDIT_PREP_R1/REFERENCES and QC_CONTACTS. REFERENCE_REGISTER.json and SHA256.csv identify actual files; they are not embedded media in Git. No generated image is claimed.

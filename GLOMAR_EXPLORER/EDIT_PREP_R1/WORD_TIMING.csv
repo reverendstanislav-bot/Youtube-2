@@ -1,0 +1,2193 @@
+paragraph_id,word,start_seconds,end_seconds,asr_probability,model
+A01-P01, A,0.0,0.08,0.5150248408317566,faster-whisper-base.en CPU int8
+A01-P01, Soviet,0.08,0.44,0.983085572719574,faster-whisper-base.en CPU int8
+A01-P01, helicopter,0.44,0.94,0.9856408834457397,faster-whisper-base.en CPU int8
+A01-P01, circles,0.94,1.48,0.9900804162025452,faster-whisper-base.en CPU int8
+A01-P01, an,1.48,2.0,0.9729970097541809,faster-whisper-base.en CPU int8
+A01-P01, American,2.0,2.22,0.9930335283279419,faster-whisper-base.en CPU int8
+A01-P01, ship,2.22,2.72,0.9943976402282715,faster-whisper-base.en CPU int8
+A01-P01, taking,2.72,3.26,0.8357922434806824,faster-whisper-base.en CPU int8
+A01-P01, photographs.,3.26,3.76,0.9964110255241394,faster-whisper-base.en CPU int8
+A01-P01, On,4.68,4.7,0.9938501119613647,faster-whisper-base.en CPU int8
+A01-P01, the,4.7,4.8,0.9911341071128845,faster-whisper-base.en CPU int8
+A01-P01, ship's,4.8,5.14,0.9160693883895874,faster-whisper-base.en CPU int8
+A01-P01, helicopter,5.14,5.42,0.9950469732284546,faster-whisper-base.en CPU int8
+A01-P01," deck,",5.42,5.94,0.9980949759483337,faster-whisper-base.en CPU int8
+A01-P01, canvas,6.58,6.6,0.7931808233261108,faster-whisper-base.en CPU int8
+A01-P01,-covered,6.6,7.16,0.7328734248876572,faster-whisper-base.en CPU int8
+A01-P01, crates,7.16,7.46,0.9899224638938904,faster-whisper-base.en CPU int8
+A01-P01, block,7.46,7.92,0.9895992279052734,faster-whisper-base.en CPU int8
+A01-P01, the,7.92,8.18,0.9975903034210205,faster-whisper-base.en CPU int8
+A01-P01, landing,8.18,8.42,0.9985166192054749,faster-whisper-base.en CPU int8
+A01-P01, space.,8.42,8.8,0.9844285249710083,faster-whisper-base.en CPU int8
+A01-P01, The,9.56,9.6,0.995919406414032,faster-whisper-base.en CPU int8
+A01-P01, vessel,9.6,9.8,0.999099850654602,faster-whisper-base.en CPU int8
+A01-P01, is,9.8,10.1,0.9990683197975159,faster-whisper-base.en CPU int8
+A01-P01, supposed,10.1,10.36,0.9931305050849915,faster-whisper-base.en CPU int8
+A01-P01, to,10.36,10.64,0.9988792538642883,faster-whisper-base.en CPU int8
+A01-P01, be,10.64,10.72,0.996068000793457,faster-whisper-base.en CPU int8
+A01-P01, mining,10.72,11.04,0.9809544086456299,faster-whisper-base.en CPU int8
+A01-P01, the,11.04,11.36,0.9987257122993469,faster-whisper-base.en CPU int8
+A01-P01, ocean,11.36,11.54,0.9913312196731567,faster-whisper-base.en CPU int8
+A01-P01, floor.,11.54,12.0,0.9945263266563416,faster-whisper-base.en CPU int8
+A01-P01, Beneath,12.78,13.06,0.9933424890041351,faster-whisper-base.en CPU int8
+A01-P01, it,13.06,13.14,0.9632018804550171,faster-whisper-base.en CPU int8
+A01-P01, lies,13.14,13.38,0.9931643605232239,faster-whisper-base.en CPU int8
+A01-P01, the,13.38,13.76,0.646602988243103,faster-whisper-base.en CPU int8
+A01-P01, real,13.76,13.96,0.9841322898864746,faster-whisper-base.en CPU int8
+A01-P01, reason,13.96,14.42,0.9986668825149536,faster-whisper-base.en CPU int8
+A01-P01, it,14.42,14.6,0.9905630350112915,faster-whisper-base.en CPU int8
+A01-P01, was,14.6,14.76,0.9980599284172058,faster-whisper-base.en CPU int8
+A01-P01," built,",14.76,15.04,0.9975094795227051,faster-whisper-base.en CPU int8
+A01-P01, a,15.62,15.62,0.9853298664093018,faster-whisper-base.en CPU int8
+A01-P01, sunken,15.62,16.12,0.9926237165927887,faster-whisper-base.en CPU int8
+A01-P01, Soviet,16.12,16.66,0.9509851932525635,faster-whisper-base.en CPU int8
+A01-P01, submarine.,16.66,17.06,0.9967895150184631,faster-whisper-base.en CPU int8
+A01-P02, The,17.52,17.7,0.9568679928779602,faster-whisper-medium.en CPU int8 VAD
+A01-P02, CIA,17.7,18.099999999999998,0.9625459313392639,faster-whisper-medium.en CPU int8 VAD
+A01-P02, wants,18.099999999999998,18.38,0.9887250065803528,faster-whisper-medium.en CPU int8 VAD
+A01-P02, part,18.38,18.66,0.9938995838165283,faster-whisper-medium.en CPU int8 VAD
+A01-P02, of,18.66,18.84,0.9993032217025757,faster-whisper-medium.en CPU int8 VAD
+A01-P02, that,18.84,19.0,0.9887152314186096,faster-whisper-medium.en CPU int8 VAD
+A01-P02, wreck,19.0,19.32,0.9947826266288757,faster-whisper-medium.en CPU int8 VAD
+A01-P02, brought,19.32,19.8,0.8811547160148621,faster-whisper-medium.en CPU int8 VAD
+A01-P02, up,19.8,20.04,0.9949299693107605,faster-whisper-medium.en CPU int8 VAD
+A01-P02, from,20.04,20.22,0.9919878244400024,faster-whisper-medium.en CPU int8 VAD
+A01-P02, more,20.22,20.4,0.9951238036155701,faster-whisper-medium.en CPU int8 VAD
+A01-P02, than,20.4,20.62,0.9984673857688904,faster-whisper-medium.en CPU int8 VAD
+A01-P02, three,20.62,20.82,0.744910717010498,faster-whisper-medium.en CPU int8 VAD
+A01-P02, miles,20.82,21.2,0.9975796341896057,faster-whisper-medium.en CPU int8 VAD
+A01-P02," down,",21.2,21.7,0.9984320998191833,faster-whisper-medium.en CPU int8 VAD
+A01-P02, but,21.8,22.22,0.9911824464797974,faster-whisper-medium.en CPU int8 VAD
+A01-P02, the,22.22,22.36,0.997992992401123,faster-whisper-medium.en CPU int8 VAD
+A01-P02, ship,22.36,22.52,0.9956803321838379,faster-whisper-medium.en CPU int8 VAD
+A01-P02, cannot,22.52,22.8,0.9954699277877808,faster-whisper-medium.en CPU int8 VAD
+A01-P02, simply,22.8,23.18,0.9989325404167175,faster-whisper-medium.en CPU int8 VAD
+A01-P02, lift,23.18,23.5,0.995552122592926,faster-whisper-medium.en CPU int8 VAD
+A01-P02, recognizable,23.5,24.24,0.7961141467094421,faster-whisper-medium.en CPU int8 VAD
+A01-P02, submarine,24.24,24.82,0.9905560612678528,faster-whisper-medium.en CPU int8 VAD
+A01-P02, wreckage,24.82,25.18,0.9976170659065247,faster-whisper-medium.en CPU int8 VAD
+A01-P02, over,25.18,25.46,0.9986910223960876,faster-whisper-medium.en CPU int8 VAD
+A01-P02, the,25.46,25.66,0.9984853863716125,faster-whisper-medium.en CPU int8 VAD
+A01-P02, side.,25.66,26.02,0.9981443881988525,faster-whisper-medium.en CPU int8 VAD
+A01-P02, It,26.58,26.68,0.9953565001487732,faster-whisper-medium.en CPU int8 VAD
+A01-P02, has,26.68,26.84,0.999396800994873,faster-whisper-medium.en CPU int8 VAD
+A01-P02, to,26.84,27.02,0.9992875456809998,faster-whisper-medium.en CPU int8 VAD
+A01-P02, bring,27.02,27.14,0.99950110912323,faster-whisper-medium.en CPU int8 VAD
+A01-P02, its,27.14,27.299999999999997,0.9928406476974487,faster-whisper-medium.en CPU int8 VAD
+A01-P02, cargo,27.299999999999997,27.68,0.9984222650527954,faster-whisper-medium.en CPU int8 VAD
+A01-P02, aboard,27.68,28.1,0.9782167673110962,faster-whisper-medium.en CPU int8 VAD
+A01-P02, without,28.1,28.42,0.9851588606834412,faster-whisper-medium.en CPU int8 VAD
+A01-P02, showing,28.42,28.78,0.9981561303138733,faster-whisper-medium.en CPU int8 VAD
+A01-P02, the,28.78,28.96,0.9962472319602966,faster-whisper-medium.en CPU int8 VAD
+A01-P02, observers,28.96,29.34,0.9631991982460022,faster-whisper-medium.en CPU int8 VAD
+A01-P02, what,29.34,29.6,0.9975632429122925,faster-whisper-medium.en CPU int8 VAD
+A01-P02, it,29.6,29.72,0.9964845180511475,faster-whisper-medium.en CPU int8 VAD
+A01-P02, has,29.72,29.86,0.996299684047699,faster-whisper-medium.en CPU int8 VAD
+A01-P02, found.,29.86,30.2,0.999761164188385,faster-whisper-medium.en CPU int8 VAD
+A01-P03, How,30.56,30.7,0.917773962020874,faster-whisper-base.en CPU int8
+A01-P03, do,30.7,30.82,0.9959086179733276,faster-whisper-base.en CPU int8
+A01-P03, you,30.82,30.9,0.9973651766777039,faster-whisper-base.en CPU int8
+A01-P03, hide,30.9,31.139999999999997,0.9981064796447754,faster-whisper-base.en CPU int8
+A01-P03, a,31.139999999999997,31.279999999999998,0.9966279864311218,faster-whisper-base.en CPU int8
+A01-P03, submarine,31.279999999999998,31.619999999999997,0.9972968697547913,faster-whisper-base.en CPU int8
+A01-P03, recovery,31.619999999999997,32.12,0.9924502372741699,faster-whisper-base.en CPU int8
+A01-P03, inside,32.12,32.56,0.9983512163162231,faster-whisper-base.en CPU int8
+A01-P03, a,32.56,32.82,0.9941056966781616,faster-whisper-base.en CPU int8
+A01-P03, ship,32.82,33.0,0.9994314312934875,faster-whisper-base.en CPU int8
+A01-P03, that,33.0,33.199999999999996,0.9862475991249084,faster-whisper-base.en CPU int8
+A01-P03, everyone,33.199999999999996,33.5,0.988966166973114,faster-whisper-base.en CPU int8
+A01-P03, can,33.5,33.8,0.9956667423248291,faster-whisper-base.en CPU int8
+A01-P03, see?,33.8,34.04,0.9977322816848755,faster-whisper-base.en CPU int8
+A01-P04, The,34.24,34.38,0.9172782897949219,faster-whisper-base.en CPU int8
+A01-P04, answer,34.38,34.56,0.9984595775604248,faster-whisper-base.en CPU int8
+A01-P04, required,34.56,35.04,0.9966386556625366,faster-whisper-base.en CPU int8
+A01-P04, more,35.04,35.440000000000005,0.9985774755477905,faster-whisper-base.en CPU int8
+A01-P04, than,35.440000000000005,35.660000000000004,0.9951932430267334,faster-whisper-base.en CPU int8
+A01-P04, a,35.660000000000004,35.760000000000005,0.9965793490409851,faster-whisper-base.en CPU int8
+A01-P04, convincing,35.760000000000005,36.14,0.9988458156585693,faster-whisper-base.en CPU int8
+A01-P04, story,36.14,36.900000000000006,0.9990652203559875,faster-whisper-base.en CPU int8
+A01-P04, about,36.900000000000006,37.5,0.9925305247306824,faster-whisper-base.en CPU int8
+A01-P04, Howard,37.5,37.84,0.5123424530029297,faster-whisper-base.en CPU int8
+A01-P04, Hughes.,37.84,38.300000000000004,0.9911777377128601,faster-whisper-base.en CPU int8
+A01-P04, It,39.28,39.38,0.993294894695282,faster-whisper-base.en CPU int8
+A01-P04, had,39.38,39.6,0.9974315762519836,faster-whisper-base.en CPU int8
+A01-P04, to,39.6,39.800000000000004,0.9979787468910217,faster-whisper-base.en CPU int8
+A01-P04, be,39.800000000000004,39.900000000000006,0.9985179305076599,faster-whisper-base.en CPU int8
+A01-P04, built,39.900000000000006,40.18,0.9970627427101135,faster-whisper-base.en CPU int8
+A01-P04, into,40.18,40.38,0.9950211048126221,faster-whisper-base.en CPU int8
+A01-P04, the,40.38,40.6,0.9928269982337952,faster-whisper-base.en CPU int8
+A01-P04, ship.,40.6,40.82,0.994559109210968,faster-whisper-base.en CPU int8
+A02-P01, In,41.04,41.3,0.963075578212738,faster-whisper-medium.en CPU int8 VAD
+A02-P01, March,41.3,41.6,0.9752285480499268,faster-whisper-medium.en CPU int8 VAD
+A02-P01," 1968,",41.6,42.56,0.9558686017990112,faster-whisper-medium.en CPU int8 VAD
+A02-P01, the,43.22,43.379999999999995,0.9857507944107056,faster-whisper-medium.en CPU int8 VAD
+A02-P01, Soviet,43.379999999999995,43.74,0.9587599635124207,faster-whisper-medium.en CPU int8 VAD
+A02-P01, submarine,43.74,44.3,0.9900396466255188,faster-whisper-medium.en CPU int8 VAD
+A02-P01, K,44.3,44.7,0.8526445031166077,faster-whisper-medium.en CPU int8 VAD
+A02-P01,-129,44.7,45.46,0.8091543614864349,faster-whisper-medium.en CPU int8 VAD
+A02-P01, disappeared,45.46,46.14,0.985114574432373,faster-whisper-medium.en CPU int8 VAD
+A02-P01, in,46.14,46.44,0.9975946545600891,faster-whisper-medium.en CPU int8 VAD
+A02-P01, the,46.44,46.56,0.9985195994377136,faster-whisper-medium.en CPU int8 VAD
+A02-P01, Pacific.,46.56,46.98,0.9827090501785278,faster-whisper-medium.en CPU int8 VAD
+A02-P01, Soviet,47.58,47.94,0.9904593229293823,faster-whisper-medium.en CPU int8 VAD
+A02-P01, search,47.94,48.3,0.9960616230964661,faster-whisper-medium.en CPU int8 VAD
+A02-P01, efforts,48.3,48.72,0.9964280724525452,faster-whisper-medium.en CPU int8 VAD
+A02-P01, failed,48.72,49.04,0.9927843809127808,faster-whisper-medium.en CPU int8 VAD
+A02-P01, to,49.04,49.26,0.9997040629386902,faster-whisper-medium.en CPU int8 VAD
+A02-P01, locate,49.26,49.58,0.9983490705490112,faster-whisper-medium.en CPU int8 VAD
+A02-P01, it.,49.58,49.86,0.9985272884368896,faster-whisper-medium.en CPU int8 VAD
+A02-P01, The,50.28,50.379999999999995,0.9929051995277405,faster-whisper-medium.en CPU int8 VAD
+A02-P01, United,50.379999999999995,50.66,0.9869855046272278,faster-whisper-medium.en CPU int8 VAD
+A02-P01, States,50.66,51.16,0.9976372718811035,faster-whisper-medium.en CPU int8 VAD
+A02-P01, subsequently,51.16,51.7,0.9967536330223083,faster-whisper-medium.en CPU int8 VAD
+A02-P01, found,51.7,52.14,0.9988518953323364,faster-whisper-medium.en CPU int8 VAD
+A02-P01, the,52.14,52.3,0.9867444634437561,faster-whisper-medium.en CPU int8 VAD
+A02-P01, wreck,52.3,52.56,0.9919684529304504,faster-whisper-medium.en CPU int8 VAD
+A02-P01, that,52.56,53.08,0.7949320077896118,faster-whisper-medium.en CPU int8 VAD
+A02-P01, gave,53.08,53.34,0.9983526468276978,faster-whisper-medium.en CPU int8 VAD
+A02-P01, American,53.34,53.8,0.9925837516784668,faster-whisper-medium.en CPU int8 VAD
+A02-P01, intelligence,53.8,54.36,0.9426559805870056,faster-whisper-medium.en CPU int8 VAD
+A02-P01, something,54.36,54.86,0.9865802526473999,faster-whisper-medium.en CPU int8 VAD
+A02-P01, far,54.86,55.26,0.9942764639854431,faster-whisper-medium.en CPU int8 VAD
+A02-P01, more,55.26,55.54,0.9993304014205933,faster-whisper-medium.en CPU int8 VAD
+A02-P01, valuable,55.54,55.94,0.9992584586143494,faster-whisper-medium.en CPU int8 VAD
+A02-P01, than,55.94,56.16,0.994411289691925,faster-whisper-medium.en CPU int8 VAD
+A02-P01, a,56.16,56.34,0.998719334602356,faster-whisper-medium.en CPU int8 VAD
+A02-P01," photograph,",56.34,56.8,0.9991834759712219,faster-whisper-medium.en CPU int8 VAD
+A02-P01, a,57.239999999999995,57.36,0.9941861629486084,faster-whisper-medium.en CPU int8 VAD
+A02-P01, location,57.36,57.84,0.9995740056037903,faster-whisper-medium.en CPU int8 VAD
+A02-P01, where,57.84,58.099999999999994,0.995704710483551,faster-whisper-medium.en CPU int8 VAD
+A02-P01, Soviet,58.099999999999994,58.54,0.9920205473899841,faster-whisper-medium.en CPU int8 VAD
+A02-P01, military,58.54,59.0,0.9981889128684998,faster-whisper-medium.en CPU int8 VAD
+A02-P01, equipment,59.0,59.4,0.9990084767341614,faster-whisper-medium.en CPU int8 VAD
+A02-P01, might,59.4,59.72,0.997400164604187,faster-whisper-medium.en CPU int8 VAD
+A02-P01, be,59.72,59.980000000000004,0.9988536834716797,faster-whisper-medium.en CPU int8 VAD
+A02-P01, physically,59.980000000000004,60.32,0.9991083741188049,faster-whisper-medium.en CPU int8 VAD
+A02-P01, recovered.,60.32,60.76,0.999007523059845,faster-whisper-medium.en CPU int8 VAD
+A02-P02, American,60.96,61.36,0.9358059763908386,faster-whisper-base.en CPU int8
+A02-P02, intelligence,61.36,61.74,0.9141800999641418,faster-whisper-base.en CPU int8
+A02-P02, wanted,61.74,62.26,0.9965207576751709,faster-whisper-base.en CPU int8
+A02-P02, access,62.26,62.82,0.9967374205589294,faster-whisper-base.en CPU int8
+A02-P02, to,62.82,63.120000000000005,0.999314546585083,faster-whisper-base.en CPU int8
+A02-P02, Soviet,63.120000000000005,63.480000000000004,0.941447913646698,faster-whisper-base.en CPU int8
+A02-P02," weapons,",63.480000000000004,63.9,0.9950315952301025,faster-whisper-base.en CPU int8
+A02-P02, communications,64.9,65.02,0.8322069644927979,faster-whisper-base.en CPU int8
+A02-P02, security,65.02,65.9,0.5902540683746338,faster-whisper-base.en CPU int8
+A02-P02, and,65.9,66.58,0.6821415424346924,faster-whisper-base.en CPU int8
+A02-P02, naval,66.58,66.84,0.9974467754364014,faster-whisper-base.en CPU int8
+A02-P02, systems.,66.84,67.4,0.998422384262085,faster-whisper-base.en CPU int8
+A02-P02, Whether,68.34,68.36,0.973473846912384,faster-whisper-base.en CPU int8
+A02-P02, any,68.36,68.62,0.9985849857330322,faster-whisper-base.en CPU int8
+A02-P02, particular,68.62,69.0,0.9990480542182922,faster-whisper-base.en CPU int8
+A02-P02, item,69.0,69.52,0.9977701902389526,faster-whisper-base.en CPU int8
+A02-P02, could,69.52,69.76,0.9962922930717468,faster-whisper-base.en CPU int8
+A02-P02, be,69.76,69.92,0.9995668530464172,faster-whisper-base.en CPU int8
+A02-P02, recovered,69.92,70.22,0.9987583160400391,faster-whisper-base.en CPU int8
+A02-P02, was,70.22,70.88,0.9625694751739502,faster-whisper-base.en CPU int8
+A02-P02, another,70.88,71.16,0.9963449835777283,faster-whisper-base.en CPU int8
+A02-P02, matter.,71.16,71.6,0.9990859031677246,faster-whisper-base.en CPU int8
+A02-P02, The,72.32,72.36,0.9969508647918701,faster-whisper-base.en CPU int8
+A02-P02, first,72.36,72.64,0.995198667049408,faster-whisper-base.en CPU int8
+A02-P02, obstacle,72.64,72.88,0.9988034963607788,faster-whisper-base.en CPU int8
+A02-P02, was,72.88,73.38,0.9993288516998291,faster-whisper-base.en CPU int8
+A02-P02," physical,",73.38,73.62,0.9935575127601624,faster-whisper-base.en CPU int8
+A02-P02, the,74.44,74.5,0.9914532899856567,faster-whisper-base.en CPU int8
+A02-P02, wreck,74.5,74.68,0.8949542045593262,faster-whisper-base.en CPU int8
+A02-P02, lay,74.68,75.06,0.9778894782066345,faster-whisper-base.en CPU int8
+A02-P02, beyond,75.06,75.48,0.9959380626678467,faster-whisper-base.en CPU int8
+A02-P02, the,75.48,75.68,0.998782217502594,faster-whisper-base.en CPU int8
+A02-P02, reach,75.68,75.88,0.9941694736480713,faster-whisper-base.en CPU int8
+A02-P02, of,75.88,76.16,0.9983305335044861,faster-whisper-base.en CPU int8
+A02-P02, ordinary,76.16,76.48,0.8944656848907471,faster-whisper-base.en CPU int8
+A02-P02, salvage.,76.48,76.86,0.943463146686554,faster-whisper-base.en CPU int8
+A02-P03, By,77.28,77.36,0.9127650856971741,faster-whisper-base.en CPU int8
+A02-P03," 1970,",77.36,77.78,0.9968414306640625,faster-whisper-base.en CPU int8
+A02-P03, the,78.72,78.92,0.9965395927429199,faster-whisper-base.en CPU int8
+A02-P03, CIA,78.92,79.22,0.9953031539916992,faster-whisper-base.en CPU int8
+A02-P03, and,79.22,79.78,0.9831268787384033,faster-whisper-base.en CPU int8
+A02-P03, its,79.78,79.92,0.9933257102966309,faster-whisper-base.en CPU int8
+A02-P03, contractors,79.92,80.34,0.9991957545280457,faster-whisper-base.en CPU int8
+A02-P03, had,80.34,81.02,0.9913462996482849,faster-whisper-base.en CPU int8
+A02-P03, settled,81.02,81.32000000000001,0.9964964985847473,faster-whisper-base.en CPU int8
+A02-P03, on,81.32000000000001,81.58,0.9991130232810974,faster-whisper-base.en CPU int8
+A02-P03, a,81.58,81.68,0.9988168478012085,faster-whisper-base.en CPU int8
+A02-P03, recovery,81.68,81.86,0.9917701482772827,faster-whisper-base.en CPU int8
+A02-P03," approach,",81.86,82.68,0.9992830157279968,faster-whisper-base.en CPU int8
+A02-P03, lower,83.04,83.42,0.9825479388237,faster-whisper-base.en CPU int8
+A02-P03, a,83.42,83.64,0.9986377358436584,faster-whisper-base.en CPU int8
+A02-P03, huge,83.64,83.92,0.9986340403556824,faster-whisper-base.en CPU int8
+A02-P03, mechanical,83.92,84.38,0.9734587073326111,faster-whisper-base.en CPU int8
+A02-P03, capture,84.38,84.76,0.9585117101669312,faster-whisper-base.en CPU int8
+A02-P03, vehicle,84.76,85.18,0.9996984004974365,faster-whisper-base.en CPU int8
+A02-P03, from,85.18,85.52,0.9900496006011963,faster-whisper-base.en CPU int8
+A02-P03, a,85.52,85.6,0.9500091075897217,faster-whisper-base.en CPU int8
+A02-P03, specially,85.6,85.86,0.9930073022842407,faster-whisper-base.en CPU int8
+A02-P03, equipped,85.86,86.26,0.8713865280151367,faster-whisper-base.en CPU int8
+A02-P03," ship,",86.26,86.66,0.9958657026290894,faster-whisper-base.en CPU int8
+A02-P03, grip,87.44,87.44,0.9669145941734314,faster-whisper-base.en CPU int8
+A02-P03, the,87.44,87.68,0.9977651834487915,faster-whisper-base.en CPU int8
+A02-P03, target,87.68,87.92,0.9943215847015381,faster-whisper-base.en CPU int8
+A02-P03, section,87.92,88.24000000000001,0.9913040399551392,faster-whisper-base.en CPU int8
+A02-P03, and,88.24000000000001,88.84,0.7116279006004333,faster-whisper-base.en CPU int8
+A02-P03, lift,88.84,89.06,0.9946091175079346,faster-whisper-base.en CPU int8
+A02-P03, it.,89.06,89.3,0.9987357258796692,faster-whisper-base.en CPU int8
+A02-P03, But,89.82,89.96000000000001,0.9914252758026123,faster-whisper-base.en CPU int8
+A02-P03, a,89.96000000000001,90.04,0.9946847558021545,faster-whisper-base.en CPU int8
+A02-P03, vessel,90.04,90.28,0.9994503855705261,faster-whisper-base.en CPU int8
+A02-P03, capable,90.28,90.66,0.9985380172729492,faster-whisper-base.en CPU int8
+A02-P03, of,90.66,90.98,0.998579740524292,faster-whisper-base.en CPU int8
+A02-P03, that,90.98,91.1,0.9968519806861877,faster-whisper-base.en CPU int8
+A02-P03, operation,91.1,91.5,0.9991205334663391,faster-whisper-base.en CPU int8
+A02-P03, would,91.5,92.16,0.9894876480102539,faster-whisper-base.en CPU int8
+A02-P03, advertise,92.16,92.52,0.9936935305595398,faster-whisper-base.en CPU int8
+A02-P03, its,92.52,92.92,0.9540563225746155,faster-whisper-base.en CPU int8
+A02-P03, unusual,92.92,93.32,0.9961583018302917,faster-whisper-base.en CPU int8
+A02-P03, purpose,93.32,93.92,0.9980365633964539,faster-whisper-base.en CPU int8
+A02-P03, through,93.92,94.36,0.9386639595031738,faster-whisper-base.en CPU int8
+A02-P03, almost,94.36,94.7,0.9958051443099976,faster-whisper-base.en CPU int8
+A02-P03, everything,94.7,95.26,0.9980276226997375,faster-whisper-base.en CPU int8
+A02-P03, built,95.26,95.5,0.9947541952133179,faster-whisper-base.en CPU int8
+A02-P03, onto,95.5,95.78,0.8275513052940369,faster-whisper-base.en CPU int8
+A02-P03, it.,95.78,96.04,0.9983589053153992,faster-whisper-base.en CPU int8
+A02-P04, A,96.24,96.38,0.4827665090560913,faster-whisper-medium.en CPU int8 VAD
+A02-P04, tower,96.38,96.75999999999999,0.994424045085907,faster-whisper-medium.en CPU int8 VAD
+A02-P04, for,96.75999999999999,97.22,0.9777992367744446,faster-whisper-medium.en CPU int8 VAD
+A02-P04, handling,97.22,97.6,0.9914774298667908,faster-whisper-medium.en CPU int8 VAD
+A02-P04, a,97.6,97.83999999999999,0.9972583055496216,faster-whisper-medium.en CPU int8 VAD
+A02-P04, long,97.83999999999999,98.03999999999999,0.9961439371109009,faster-whisper-medium.en CPU int8 VAD
+A02-P04, string,98.03999999999999,98.42,0.9936347007751465,faster-whisper-medium.en CPU int8 VAD
+A02-P04, of,98.42,98.61999999999999,0.9991583824157715,faster-whisper-medium.en CPU int8 VAD
+A02-P04," pipe,",98.61999999999999,99.02,0.9978899359703064,faster-whisper-medium.en CPU int8 VAD
+A02-P04, heavy,99.61999999999999,99.8,0.9948012828826904,faster-whisper-medium.en CPU int8 VAD
+A02-P04, lifting,99.8,100.19999999999999,0.9495292901992798,faster-whisper-medium.en CPU int8 VAD
+A02-P04," machinery,",100.19999999999999,100.75999999999999,0.9981751441955566,faster-whisper-medium.en CPU int8 VAD
+A02-P04, an,101.25999999999999,101.33999999999999,0.9652388691902161,faster-whisper-medium.en CPU int8 VAD
+A02-P04, opening,101.33999999999999,101.72,0.9994112253189087,faster-whisper-medium.en CPU int8 VAD
+A02-P04, through,101.72,102.0,0.9957438111305237,faster-whisper-medium.en CPU int8 VAD
+A02-P04, the,102.0,102.22,0.9985983967781067,faster-whisper-medium.en CPU int8 VAD
+A02-P04, centre,102.22,102.46,0.8545653223991394,faster-whisper-medium.en CPU int8 VAD
+A02-P04, of,102.46,102.66,0.9988515377044678,faster-whisper-medium.en CPU int8 VAD
+A02-P04, the,102.66,102.75999999999999,0.9982975125312805,faster-whisper-medium.en CPU int8 VAD
+A02-P04, hull.,102.75999999999999,103.08,0.9949179887771606,faster-whisper-medium.en CPU int8 VAD
+A02-P04, None,103.56,103.69999999999999,0.9948523640632629,faster-whisper-medium.en CPU int8 VAD
+A02-P04, of,103.69999999999999,103.82,0.9984329342842102,faster-whisper-medium.en CPU int8 VAD
+A02-P04, it,103.82,103.97999999999999,0.9983437061309814,faster-whisper-medium.en CPU int8 VAD
+A02-P04, could,103.97999999999999,104.14,0.996990442276001,faster-whisper-medium.en CPU int8 VAD
+A02-P04, be,104.14,104.3,0.9981663823127747,faster-whisper-medium.en CPU int8 VAD
+A02-P04, explained,104.3,104.82,0.9982151985168457,faster-whisper-medium.en CPU int8 VAD
+A02-P04, as,104.82,105.03999999999999,0.9981354475021362,faster-whisper-medium.en CPU int8 VAD
+A02-P04, an,105.03999999999999,105.22,0.9952654838562012,faster-whisper-medium.en CPU int8 VAD
+A02-P04, ordinary,105.22,105.66,0.9915130734443665,faster-whisper-medium.en CPU int8 VAD
+A02-P04, cargo,105.66,106.03999999999999,0.9987053871154785,faster-whisper-medium.en CPU int8 VAD
+A02-P04, ship.,106.03999999999999,106.46,0.9901448488235474,faster-whisper-medium.en CPU int8 VAD
+A02-P04, The,106.91999999999999,107.06,0.9961940050125122,faster-whisper-medium.en CPU int8 VAD
+A02-P04, cover,107.06,107.28,0.9779480695724487,faster-whisper-medium.en CPU int8 VAD
+A02-P04, had,107.28,107.5,0.9978843331336975,faster-whisper-medium.en CPU int8 VAD
+A02-P04, to,107.5,107.67999999999999,0.9988774657249451,faster-whisper-medium.en CPU int8 VAD
+A02-P04, account,107.67999999999999,107.97999999999999,0.9989994168281555,faster-whisper-medium.en CPU int8 VAD
+A02-P04, for,107.97999999999999,108.25999999999999,0.9992766976356506,faster-whisper-medium.en CPU int8 VAD
+A02-P04, equipment,108.25999999999999,108.64,0.9977371692657471,faster-whisper-medium.en CPU int8 VAD
+A02-P04, that,108.64,108.88,0.9948756098747253,faster-whisper-medium.en CPU int8 VAD
+A02-P04, would,108.88,109.0,0.9952824711799622,faster-whisper-medium.en CPU int8 VAD
+A02-P04, actually,109.0,109.36,0.9896435737609863,faster-whisper-medium.en CPU int8 VAD
+A02-P04, be,109.36,109.61999999999999,0.9984368681907654,faster-whisper-medium.en CPU int8 VAD
+A02-P04, there,109.61999999999999,109.97999999999999,0.998406708240509,faster-whisper-medium.en CPU int8 VAD
+A02-P04, doing,109.97999999999999,110.33999999999999,0.5742764472961426,faster-whisper-medium.en CPU int8 VAD
+A02-P04, real,110.33999999999999,110.67999999999999,0.9934180974960327,faster-whisper-medium.en CPU int8 VAD
+A02-P04, work,110.67999999999999,111.0,0.999277651309967,faster-whisper-medium.en CPU int8 VAD
+A02-P04, at,111.0,111.17999999999999,0.9988986253738403,faster-whisper-medium.en CPU int8 VAD
+A02-P04, sea.,111.17999999999999,111.47999999999999,0.9996832609176636,faster-whisper-medium.en CPU int8 VAD
+A02-P05, Deep,111.6,111.86,0.9763625264167786,faster-whisper-medium.en CPU int8 VAD
+A02-P05, ocean,111.86,112.28,0.5431966781616211,faster-whisper-medium.en CPU int8 VAD
+A02-P05, mining,112.28,112.67999999999999,0.99626225233078,faster-whisper-medium.en CPU int8 VAD
+A02-P05, supplied,112.67999999999999,113.22,0.9883334636688232,faster-whisper-medium.en CPU int8 VAD
+A02-P05, that,113.22,113.46,0.9975772500038147,faster-whisper-medium.en CPU int8 VAD
+A02-P05, explanation.,113.46,114.19999999999999,0.9960301518440247,faster-whisper-medium.en CPU int8 VAD
+A02-P05, Manganese,114.83999999999999,115.25999999999999,0.9830724994341532,faster-whisper-medium.en CPU int8 VAD
+A02-P05, nodules,115.25999999999999,115.78,0.9909492135047913,faster-whisper-medium.en CPU int8 VAD
+A02-P05, really,115.78,116.11999999999999,0.9953622221946716,faster-whisper-medium.en CPU int8 VAD
+A02-P05, existed,116.11999999999999,116.64,0.9970918893814087,faster-whisper-medium.en CPU int8 VAD
+A02-P05, on,116.64,116.88,0.9980719089508057,faster-whisper-medium.en CPU int8 VAD
+A02-P05, the,116.88,117.03999999999999,0.9979913234710693,faster-whisper-medium.en CPU int8 VAD
+A02-P05," seabed,",117.03999999999999,117.55999999999999,0.9183479348818461,faster-whisper-medium.en CPU int8 VAD
+A02-P05, and,118.05999999999999,118.16,0.9929306507110596,faster-whisper-medium.en CPU int8 VAD
+A02-P05, commercial,118.16,118.6,0.9977957010269165,faster-whisper-medium.en CPU int8 VAD
+A02-P05, interest,118.6,119.0,0.999127209186554,faster-whisper-medium.en CPU int8 VAD
+A02-P05, in,119.0,119.24,0.9985822439193726,faster-whisper-medium.en CPU int8 VAD
+A02-P05, recovering,119.24,119.63999999999999,0.9974105954170227,faster-whisper-medium.en CPU int8 VAD
+A02-P05, them,119.63999999999999,119.96,0.998815655708313,faster-whisper-medium.en CPU int8 VAD
+A02-P05, was,119.96,120.3,0.9945603013038635,faster-whisper-medium.en CPU int8 VAD
+A02-P05, real.,120.3,120.72,0.9979033470153809,faster-whisper-medium.en CPU int8 VAD
+A02-P05, Hughes,121.46,121.63999999999999,0.9863285422325134,faster-whisper-medium.en CPU int8 VAD
+A02-P05, agreed,121.63999999999999,121.96,0.9902697801589966,faster-whisper-medium.en CPU int8 VAD
+A02-P05, to,121.96,122.25999999999999,0.9991652965545654,faster-whisper-medium.en CPU int8 VAD
+A02-P05, provide,122.25999999999999,122.58,0.9988324046134949,faster-whisper-medium.en CPU int8 VAD
+A02-P05, the,122.58,122.75999999999999,0.9969058632850647,faster-whisper-medium.en CPU int8 VAD
+A02-P05, cover,122.75999999999999,123.0,0.9963093400001526,faster-whisper-medium.en CPU int8 VAD
+A02-P05, for,123.0,123.25999999999999,0.9974049925804138,faster-whisper-medium.en CPU int8 VAD
+A02-P05, this,123.25999999999999,123.44,0.9978838562965393,faster-whisper-medium.en CPU int8 VAD
+A02-P05, particular,123.44,123.91999999999999,0.9995044469833374,faster-whisper-medium.en CPU int8 VAD
+A02-P05, venture.,123.91999999999999,124.36,0.9973516464233398,faster-whisper-medium.en CPU int8 VAD
+A02-P05, A,124.94,125.1,0.985615611076355,faster-whisper-medium.en CPU int8 VAD
+A02-P05, large,125.1,125.52,0.9984155893325806,faster-whisper-medium.en CPU int8 VAD
+A02-P05, experimental,125.52,126.39999999999999,0.46789485216140747,faster-whisper-medium.en CPU int8 VAD
+A02-P05, mining,126.39999999999999,126.78,0.9980636239051819,faster-whisper-medium.en CPU int8 VAD
+A02-P05, ship,126.78,127.19999999999999,0.997865617275238,faster-whisper-medium.en CPU int8 VAD
+A02-P05, could,127.19999999999999,127.63999999999999,0.9934247732162476,faster-whisper-medium.en CPU int8 VAD
+A02-P05, plausibly,127.63999999999999,128.24,0.9993131756782532,faster-whisper-medium.en CPU int8 VAD
+A02-P05, need,128.24,128.57999999999998,0.997848391532898,faster-whisper-medium.en CPU int8 VAD
+A02-P05, unusual,128.57999999999998,129.26,0.9973140358924866,faster-whisper-medium.en CPU int8 VAD
+A02-P05, machinery,129.26,129.84,0.9974846839904785,faster-whisper-medium.en CPU int8 VAD
+A02-P05, and,129.84,130.35999999999999,0.872998058795929,faster-whisper-medium.en CPU int8 VAD
+A02-P05, spend,130.35999999999999,130.66,0.9898541569709778,faster-whisper-medium.en CPU int8 VAD
+A02-P05, long,130.66,130.94,0.996584415435791,faster-whisper-medium.en CPU int8 VAD
+A02-P05, periods,130.94,131.4,0.997126042842865,faster-whisper-medium.en CPU int8 VAD
+A02-P05, working,131.4,131.82,0.9973562955856323,faster-whisper-medium.en CPU int8 VAD
+A02-P05, over,131.82,132.1,0.9976327419281006,faster-whisper-medium.en CPU int8 VAD
+A02-P05, deep,132.1,132.34,0.9973443150520325,faster-whisper-medium.en CPU int8 VAD
+A02-P05, water.,132.34,132.72,0.9775461554527283,faster-whisper-medium.en CPU int8 VAD
+A02-P06, The,132.88,133.0,0.9239023923873901,faster-whisper-base.en CPU int8
+A02-P06, machinery,133.0,133.24,0.9952113032341003,faster-whisper-base.en CPU int8
+A02-P06, no,133.24,133.74,0.9956800937652588,faster-whisper-base.en CPU int8
+A02-P06, longer,133.74,134.1,0.9956704378128052,faster-whisper-base.en CPU int8
+A02-P06, contradicted,134.1,134.51999999999998,0.9968647360801697,faster-whisper-base.en CPU int8
+A02-P06, the,134.51999999999998,134.92,0.9978197813034058,faster-whisper-base.en CPU int8
+A02-P06, cover,134.92,135.1,0.982779860496521,faster-whisper-base.en CPU int8
+A02-P06, story.,135.1,135.4,0.9556060433387756,faster-whisper-base.en CPU int8
+A02-P06, It,136.26,136.29999999999998,0.9900830984115601,faster-whisper-base.en CPU int8
+A02-P06, supported,136.29999999999998,136.57999999999998,0.9913867115974426,faster-whisper-base.en CPU int8
+A02-P06, it.,136.57999999999998,137.01999999999998,0.9977999329566956,faster-whisper-base.en CPU int8
+A02-P06, The,137.57999999999998,137.6,0.9945991039276123,faster-whisper-base.en CPU int8
+A02-P06," tower,",137.6,137.85999999999999,0.9789949059486389,faster-whisper-base.en CPU int8
+A02-P06, the,138.28,138.5,0.993989109992981,faster-whisper-base.en CPU int8
+A02-P06, long,138.5,138.66,0.9771460294723511,faster-whisper-base.en CPU int8
+A02-P06, stays,138.66,139.04,0.950531542301178,faster-whisper-base.en CPU int8
+A02-P06, over,139.04,139.38,0.9947362542152405,faster-whisper-base.en CPU int8
+A02-P06, deep,139.38,139.57999999999998,0.9817153215408325,faster-whisper-base.en CPU int8
+A02-P06," water,",139.57999999999998,139.9,0.8642717599868774,faster-whisper-base.en CPU int8
+A02-P06, the,140.42,140.51999999999998,0.9883373379707336,faster-whisper-base.en CPU int8
+A02-P06, lifting,140.51999999999998,140.82,0.9983792304992676,faster-whisper-base.en CPU int8
+A02-P06, equipment,140.82,141.22,0.9991760849952698,faster-whisper-base.en CPU int8
+A02-P06, all,141.22,142.06,0.4393877387046814,faster-whisper-base.en CPU int8
+A02-P06, could,142.06,142.29999999999998,0.9753028154373169,faster-whisper-base.en CPU int8
+A02-P06, belong,142.29999999999998,142.6,0.9913203120231628,faster-whisper-base.en CPU int8
+A02-P06, to,142.6,142.84,0.9984560012817383,faster-whisper-base.en CPU int8
+A02-P06, a,142.84,142.92,0.991054117679596,faster-whisper-base.en CPU int8
+A02-P06, mining,142.92,143.14,0.9995653033256531,faster-whisper-base.en CPU int8
+A02-P06, operation.,143.14,143.6,0.999029278755188,faster-whisper-base.en CPU int8
+A02-P06, But,144.5,144.51999999999998,0.9680464863777161,faster-whisper-base.en CPU int8
+A02-P06, the,144.51999999999998,144.66,0.9819825887680054,faster-whisper-base.en CPU int8
+A02-P06, moment,144.66,144.98,0.9991784691810608,faster-whisper-base.en CPU int8
+A02-P06, a,144.98,145.16,0.9938253164291382,faster-whisper-base.en CPU int8
+A02-P06, piece,145.16,145.4,0.9963271021842957,faster-whisper-base.en CPU int8
+A02-P06, of,145.4,145.54,0.998945415019989,faster-whisper-base.en CPU int8
+A02-P06, submarine,145.54,145.92,0.9956145286560059,faster-whisper-base.en CPU int8
+A02-P06, appeared,145.92,146.44,0.9982070922851562,faster-whisper-base.en CPU int8
+A02-P06, above,146.44,146.82,0.9970735311508179,faster-whisper-base.en CPU int8
+A02-P06, the,146.82,147.0,0.9988458156585693,faster-whisper-base.en CPU int8
+A02-P06," rail,",147.0,147.2,0.9928739070892334,faster-whisper-base.en CPU int8
+A02-P06, that,147.72,147.79999999999998,0.9970535039901733,faster-whisper-base.en CPU int8
+A02-P06, explanation,147.79999999999998,148.24,0.9975651502609253,faster-whisper-base.en CPU int8
+A02-P06, would,148.24,148.7,0.9948091506958008,faster-whisper-base.en CPU int8
+A02-P06, stop,148.7,148.98,0.9972888231277466,faster-whisper-base.en CPU int8
+A02-P06, working.,148.98,149.28,0.9997515082359314,faster-whisper-base.en CPU int8
+A03-P01, Sun,149.6,149.88,0.8886541128158569,faster-whisper-medium.en CPU int8 VAD
+A03-P01, Shipbuilding,149.88,150.46,0.9530376195907593,faster-whisper-medium.en CPU int8 VAD
+A03-P01, in,150.46,150.64,0.963729739189148,faster-whisper-medium.en CPU int8 VAD
+A03-P01," Chester,",150.64,151.06,0.993377149105072,faster-whisper-medium.en CPU int8 VAD
+A03-P01," Pennsylvania,",151.2,151.82,0.9805410504341125,faster-whisper-medium.en CPU int8 VAD
+A03-P01, built,152.14,152.4,0.9911251664161682,faster-whisper-medium.en CPU int8 VAD
+A03-P01, the,152.4,152.66,0.9445523619651794,faster-whisper-medium.en CPU int8 VAD
+A03-P01, Hughes,152.66,152.98,0.9843233227729797,faster-whisper-medium.en CPU int8 VAD
+A03-P01, Glomar,152.98,153.54,0.8192129532496134,faster-whisper-medium.en CPU int8 VAD
+A03-P01, Explorer.,153.54,154.07999999999998,0.9765022993087769,faster-whisper-medium.en CPU int8 VAD
+A03-P01, Its,154.46,154.51999999999998,0.9587245583534241,faster-whisper-medium.en CPU int8 VAD
+A03-P01, construction,154.51999999999998,155.01999999999998,0.9984803795814514,faster-whisper-medium.en CPU int8 VAD
+A03-P01, was,155.01999999999998,155.22,0.9991243481636047,faster-whisper-medium.en CPU int8 VAD
+A03-P01, not,155.22,155.38,0.9994913339614868,faster-whisper-medium.en CPU int8 VAD
+A03-P01, hidden,155.38,155.66,0.9996241331100464,faster-whisper-medium.en CPU int8 VAD
+A03-P01, inside,155.66,156.06,0.9979836940765381,faster-whisper-medium.en CPU int8 VAD
+A03-P01, a,156.06,156.23999999999998,0.995292067527771,faster-whisper-medium.en CPU int8 VAD
+A03-P01, remote,156.23999999999998,156.54,0.9923095703125,faster-whisper-medium.en CPU int8 VAD
+A03-P01, military,156.54,156.92,0.9979851245880127,faster-whisper-medium.en CPU int8 VAD
+A03-P01, base.,156.92,157.34,0.9989877343177795,faster-whisper-medium.en CPU int8 VAD
+A03-P01, The,157.56,157.64,0.9946093559265137,faster-whisper-medium.en CPU int8 VAD
+A03-P01, shipyard,157.64,158.14,0.98490771651268,faster-whisper-medium.en CPU int8 VAD
+A03-P01, even,158.14,158.48,0.9943909049034119,faster-whisper-medium.en CPU int8 VAD
+A03-P01, advertised,158.48,159.1,0.9973700046539307,faster-whisper-medium.en CPU int8 VAD
+A03-P01, a,159.1,159.34,0.9975812435150146,faster-whisper-medium.en CPU int8 VAD
+A03-P01, family,159.34,159.64,0.9449135661125183,faster-whisper-medium.en CPU int8 VAD
+A03-P01, day,159.64,159.9,0.997523844242096,faster-whisper-medium.en CPU int8 VAD
+A03-P01, around,159.9,160.22,0.9968611001968384,faster-whisper-medium.en CPU int8 VAD
+A03-P01, its,160.22,160.45999999999998,0.9894821643829346,faster-whisper-medium.en CPU int8 VAD
+A03-P01, launch,160.45999999999998,160.76,0.9978965520858765,faster-whisper-medium.en CPU int8 VAD
+A03-P01, in,160.76,160.98,0.9861946105957031,faster-whisper-medium.en CPU int8 VAD
+A03-P01, November,160.98,161.34,0.9965932965278625,faster-whisper-medium.en CPU int8 VAD
+A03-P01, 1972.,161.34,162.28,0.8766002058982849,faster-whisper-medium.en CPU int8 VAD
+A03-P01, The,162.82,162.92,0.9940297603607178,faster-whisper-medium.en CPU int8 VAD
+A03-P01, existence,162.92,163.35999999999999,0.99775630235672,faster-whisper-medium.en CPU int8 VAD
+A03-P01, of,163.35999999999999,163.62,0.999550998210907,faster-whisper-medium.en CPU int8 VAD
+A03-P01, the,163.62,163.74,0.9988447427749634,faster-whisper-medium.en CPU int8 VAD
+A03-P01, vessel,163.74,164.06,0.9936331510543823,faster-whisper-medium.en CPU int8 VAD
+A03-P01, could,164.06,164.32,0.9984135627746582,faster-whisper-medium.en CPU int8 VAD
+A03-P01, be,164.32,164.48,0.9996744394302368,faster-whisper-medium.en CPU int8 VAD
+A03-P01, public.,164.48,164.88,0.9981650710105896,faster-whisper-medium.en CPU int8 VAD
+A03-P01, Its,165.16,165.28,0.9616050720214844,faster-whisper-medium.en CPU int8 VAD
+A03-P01, connection,165.28,165.7,0.9969758987426758,faster-whisper-medium.en CPU int8 VAD
+A03-P01, to,165.7,165.95999999999998,0.999433696269989,faster-whisper-medium.en CPU int8 VAD
+A03-P01, the,165.95999999999998,166.1,0.9981300234794617,faster-whisper-medium.en CPU int8 VAD
+A03-P01, submarine,166.1,166.48,0.9950211048126221,faster-whisper-medium.en CPU int8 VAD
+A03-P01, could,166.48,166.79999999999998,0.9983305335044861,faster-whisper-medium.en CPU int8 VAD
+A03-P01, not.,166.79999999999998,167.04,0.9995518326759338,faster-whisper-medium.en CPU int8 VAD
+A03-P02, Inside,167.2,167.5,0.9824885129928589,faster-whisper-base.en CPU int8
+A03-P02, that,167.5,167.85999999999999,0.9907944798469543,faster-whisper-base.en CPU int8
+A03-P02, visible,167.85999999999999,168.16,0.9951218962669373,faster-whisper-base.en CPU int8
+A03-P02, hull,168.16,168.61999999999998,0.9961286783218384,faster-whisper-base.en CPU int8
+A03-P02, was,168.61999999999998,169.14,0.9717864990234375,faster-whisper-base.en CPU int8
+A03-P02, a,169.14,169.23999999999998,0.9949016571044922,faster-whisper-base.en CPU int8
+A03-P02, much,169.23999999999998,169.38,0.9988865256309509,faster-whisper-base.en CPU int8
+A03-P02, less,169.38,169.7,0.9891996383666992,faster-whisper-base.en CPU int8
+A03-P02, ordinary,169.7,169.98,0.9921422004699707,faster-whisper-base.en CPU int8
+A03-P02, arrangement.,169.98,170.56,0.9985030889511108,faster-whisper-base.en CPU int8
+A03-P02, A,171.38,171.39999999999998,0.9978249073028564,faster-whisper-base.en CPU int8
+A03-P02, large,171.39999999999998,171.64,0.9991307854652405,faster-whisper-base.en CPU int8
+A03-P02, central,171.64,172.22,0.7931904792785645,faster-whisper-base.en CPU int8
+A03-P02, well,172.22,172.5,0.9923895001411438,faster-whisper-base.en CPU int8
+A03-P02,-opened,172.5,172.89999999999998,0.5875489115715027,faster-whisper-base.en CPU int8
+A03-P02, through,172.89999999999998,173.17999999999998,0.9248724579811096,faster-whisper-base.en CPU int8
+A03-P02, the,173.17999999999998,173.32,0.9967083930969238,faster-whisper-base.en CPU int8
+A03-P02, bottom,173.32,173.57999999999998,0.998537540435791,faster-whisper-base.en CPU int8
+A03-P02, of,173.57999999999998,173.72,0.9988659620285034,faster-whisper-base.en CPU int8
+A03-P02, the,173.72,173.83999999999997,0.9964550733566284,faster-whisper-base.en CPU int8
+A03-P02," ship,",173.83999999999997,174.1,0.9991452693939209,faster-whisper-base.en CPU int8
+A03-P02, Gates,174.7,174.72,0.33498433232307434,faster-whisper-base.en CPU int8
+A03-P02, could,174.72,175.04,0.9979378581047058,faster-whisper-base.en CPU int8
+A03-P02, close,175.04,175.28,0.997527539730072,faster-whisper-base.en CPU int8
+A03-P02, beneath,175.28,175.56,0.9995120763778687,faster-whisper-base.en CPU int8
+A03-P02, it.,175.56,175.95999999999998,0.9991531372070312,faster-whisper-base.en CPU int8
+A03-P02, The,176.45999999999998,176.57999999999998,0.9970961809158325,faster-whisper-base.en CPU int8
+A03-P02, recovered,176.57999999999998,176.79999999999998,0.9938117265701294,faster-whisper-base.en CPU int8
+A03-P02, section,176.79999999999998,177.23999999999998,0.9974154233932495,faster-whisper-base.en CPU int8
+A03-P02, would,177.23999999999998,177.5,0.9980657696723938,faster-whisper-base.en CPU int8
+A03-P02, enter,177.5,177.78,0.9991942048072815,faster-whisper-base.en CPU int8
+A03-P02, this,177.78,178.01999999999998,0.985547661781311,faster-whisper-base.en CPU int8
+A03-P02, sheltered,178.01999999999998,178.22,0.9963905215263367,faster-whisper-base.en CPU int8
+A03-P02, space,178.22,178.64,0.9989041090011597,faster-whisper-base.en CPU int8
+A03-P02, from,178.64,178.92,0.996554970741272,faster-whisper-base.en CPU int8
+A03-P02, below,178.92,179.16,0.9990383386611938,faster-whisper-base.en CPU int8
+A03-P02, rather,179.16,179.72,0.7540921568870544,faster-whisper-base.en CPU int8
+A03-P02, than,179.72,179.95999999999998,0.9964578747749329,faster-whisper-base.en CPU int8
+A03-P02, swing,179.95999999999998,180.16,0.9882185459136963,faster-whisper-base.en CPU int8
+A03-P02, over,180.16,180.54,0.995206892490387,faster-whisper-base.en CPU int8
+A03-P02, a,180.54,180.66,0.9959088563919067,faster-whisper-base.en CPU int8
+A03-P02, rail,180.66,180.88,0.9954140186309814,faster-whisper-base.en CPU int8
+A03-P02, for,180.88,181.11999999999998,0.9956011772155762,faster-whisper-base.en CPU int8
+A03-P02, everyone,181.11999999999998,181.44,0.9943033456802368,faster-whisper-base.en CPU int8
+A03-P02, to,181.44,181.66,0.9989928603172302,faster-whisper-base.en CPU int8
+A03-P02, see.,181.66,181.88,0.9986822009086609,faster-whisper-base.en CPU int8
+A03-P03, Now,182.16,182.52,0.887516975402832,faster-whisper-medium.en CPU int8 VAD
+A03-P03, put,182.52,182.79999999999998,0.9284912943840027,faster-whisper-medium.en CPU int8 VAD
+A03-P03, that,182.79999999999998,183.04,0.9858751893043518,faster-whisper-medium.en CPU int8 VAD
+A03-P03, ship,183.04,183.28,0.9951518774032593,faster-whisper-medium.en CPU int8 VAD
+A03-P03, in,183.28,183.48,0.9932342171669006,faster-whisper-medium.en CPU int8 VAD
+A03-P03, a,183.48,183.64,0.9971856474876404,faster-whisper-medium.en CPU int8 VAD
+A03-P03, moving,183.64,183.9,0.9961789846420288,faster-whisper-medium.en CPU int8 VAD
+A03-P03, sea.,183.9,184.44,0.9942223429679871,faster-whisper-medium.en CPU int8 VAD
+A03-P03, The,185.06,185.14,0.9938222169876099,faster-whisper-medium.en CPU int8 VAD
+A03-P03, hull,185.14,185.4,0.9995743632316589,faster-whisper-medium.en CPU int8 VAD
+A03-P03, rises,185.4,185.85999999999999,0.9987599849700928,faster-whisper-medium.en CPU int8 VAD
+A03-P03, and,185.85999999999999,186.07999999999998,0.9973303079605103,faster-whisper-medium.en CPU int8 VAD
+A03-P03, rolls,186.07999999999998,186.44,0.9965537786483765,faster-whisper-medium.en CPU int8 VAD
+A03-P03, while,186.44,186.66,0.9229277968406677,faster-whisper-medium.en CPU int8 VAD
+A03-P03, the,186.66,186.85999999999999,0.9978629946708679,faster-whisper-medium.en CPU int8 VAD
+A03-P03, load,186.85999999999999,187.06,0.996624231338501,faster-whisper-medium.en CPU int8 VAD
+A03-P03, hangs,187.06,187.5,0.9988289475440979,faster-whisper-medium.en CPU int8 VAD
+A03-P03, far,187.5,187.74,0.9976415634155273,faster-whisper-medium.en CPU int8 VAD
+A03-P03, below.,187.74,188.2,0.9991195797920227,faster-whisper-medium.en CPU int8 VAD
+A03-P03, Those,188.9,189.1,0.9893569350242615,faster-whisper-medium.en CPU int8 VAD
+A03-P03, movements,189.1,189.48,0.9949819445610046,faster-whisper-medium.en CPU int8 VAD
+A03-P03, must,189.48,189.7,0.9990248680114746,faster-whisper-medium.en CPU int8 VAD
+A03-P03, not,189.7,189.9,0.9987911581993103,faster-whisper-medium.en CPU int8 VAD
+A03-P03, simply,189.9,190.22,0.998729407787323,faster-whisper-medium.en CPU int8 VAD
+A03-P03, pass,190.22,190.48,0.9917060136795044,faster-whisper-medium.en CPU int8 VAD
+A03-P03, straight,190.48,190.8,0.9986960291862488,faster-whisper-medium.en CPU int8 VAD
+A03-P03, into,190.8,191.04,0.9957697987556458,faster-whisper-medium.en CPU int8 VAD
+A03-P03, the,191.04,191.2,0.998794674873352,faster-whisper-medium.en CPU int8 VAD
+A03-P03, lifting,191.2,191.44,0.9968792200088501,faster-whisper-medium.en CPU int8 VAD
+A03-P03, system.,191.44,191.9,0.9986989498138428,faster-whisper-medium.en CPU int8 VAD
+A03-P03, A,192.6,192.72,0.9887373447418213,faster-whisper-medium.en CPU int8 VAD
+A03-P03, gimballed,192.72,193.22,0.8168919831514359,faster-whisper-medium.en CPU int8 VAD
+A03-P03, platform,193.22,193.62,0.9980717301368713,faster-whisper-medium.en CPU int8 VAD
+A03-P03, and,193.62,193.85999999999999,0.9946845173835754,faster-whisper-medium.en CPU int8 VAD
+A03-P03, heave,193.85999999999999,194.14,0.9809361398220062,faster-whisper-medium.en CPU int8 VAD
+A03-P03, compensation,194.14,194.78,0.99100261926651,faster-whisper-medium.en CPU int8 VAD
+A03-P03, limited,194.78,195.22,0.994855523109436,faster-whisper-medium.en CPU int8 VAD
+A03-P03, the,195.22,195.42,0.9987934827804565,faster-whisper-medium.en CPU int8 VAD
+A03-P03, motion,195.42,195.68,0.9985104203224182,faster-whisper-medium.en CPU int8 VAD
+A03-P03, reaching,195.68,196.0,0.9898996949195862,faster-whisper-medium.en CPU int8 VAD
+A03-P03, the,196.0,196.2,0.99852055311203,faster-whisper-medium.en CPU int8 VAD
+A03-P03, machinery.,196.2,196.62,0.9972755312919617,faster-whisper-medium.en CPU int8 VAD
+A03-P03, The,197.48,197.57999999999998,0.996191143989563,faster-whisper-medium.en CPU int8 VAD
+A03-P03, crew,197.57999999999998,197.78,0.9964752793312073,faster-whisper-medium.en CPU int8 VAD
+A03-P03, needed,197.78,198.12,0.9977926015853882,faster-whisper-medium.en CPU int8 VAD
+A03-P03, to,198.12,198.35999999999999,0.998055100440979,faster-whisper-medium.en CPU int8 VAD
+A03-P03, control,198.35999999999999,198.7,0.9985925555229187,faster-whisper-medium.en CPU int8 VAD
+A03-P03, the,198.7,198.94,0.999115526676178,faster-whisper-medium.en CPU int8 VAD
+A03-P03," load,",198.94,199.18,0.9994516968727112,faster-whisper-medium.en CPU int8 VAD
+A03-P03, not,199.5,199.66,0.9982210993766785,faster-whisper-medium.en CPU int8 VAD
+A03-P03, just,199.66,199.98,0.9985315799713135,faster-whisper-medium.en CPU int8 VAD
+A03-P03, pull,199.98,200.35999999999999,0.9860548377037048,faster-whisper-medium.en CPU int8 VAD
+A03-P03, harder.,200.35999999999999,200.9,0.9947880506515503,faster-whisper-medium.en CPU int8 VAD
+A03-P04, Installing,201.12,201.52,0.9778966307640076,faster-whisper-base.en CPU int8
+A03-P04, the,201.52,201.78,0.99518221616745,faster-whisper-base.en CPU int8
+A03-P04, heavy,201.78,201.98000000000002,0.9845094084739685,faster-whisper-base.en CPU int8
+A03-P04, assemblies,201.98000000000002,202.58,0.9959983825683594,faster-whisper-base.en CPU int8
+A03-P04, required,202.58,202.94,0.9963992834091187,faster-whisper-base.en CPU int8
+A03-P04, a,202.94,203.20000000000002,0.9735996127128601,faster-whisper-base.en CPU int8
+A03-P04, floating,203.20000000000002,203.4,0.992997407913208,faster-whisper-base.en CPU int8
+A03-P04," crane,",203.4,203.84,0.9953018426895142,faster-whisper-base.en CPU int8
+A03-P04, the,204.64000000000001,204.68,0.9893304705619812,faster-whisper-base.en CPU int8
+A03-P04, Sun,204.68,204.88,0.6777103543281555,faster-whisper-base.en CPU int8
+A03-P04," 800,",204.88,205.28,0.893722414970398,faster-whisper-base.en CPU int8
+A03-P04, contemporary,206.22,206.58,0.8711351156234741,faster-whisper-base.en CPU int8
+A03-P04, shipyard,206.58,207.3,0.9486003220081329,faster-whisper-base.en CPU int8
+A03-P04, photographs,207.3,207.70000000000002,0.981656014919281,faster-whisper-base.en CPU int8
+A03-P04, show,207.70000000000002,208.14000000000001,0.9904458522796631,faster-whisper-base.en CPU int8
+A03-P04, the,208.14000000000001,208.3,0.9985992312431335,faster-whisper-base.en CPU int8
+A03-P04, platform,208.3,208.62,0.9957579970359802,faster-whisper-base.en CPU int8
+A03-P04, hanging,208.62,209.04,0.996584415435791,faster-whisper-base.en CPU int8
+A03-P04, over,209.04,209.48000000000002,0.9987167119979858,faster-whisper-base.en CPU int8
+A03-P04, the,209.48000000000002,209.58,0.9990066885948181,faster-whisper-base.en CPU int8
+A03-P04, unfinished,209.58,209.9,0.9859294295310974,faster-whisper-base.en CPU int8
+A03-P04, vessel.,209.9,210.34,0.9977728724479675,faster-whisper-base.en CPU int8
+A03-P04, The,211.28,211.38,0.9953189492225647,faster-whisper-base.en CPU int8
+A03-P04, same,211.38,211.54,0.9994770884513855,faster-whisper-base.en CPU int8
+A03-P04, crane,211.54,211.86,0.9990999698638916,faster-whisper-base.en CPU int8
+A03-P04, helped,211.86,212.24,0.995875895023346,faster-whisper-base.en CPU int8
+A03-P04, place,212.24,212.58,0.9981623291969299,faster-whisper-base.en CPU int8
+A03-P04, other,212.58,212.88,0.9951838850975037,faster-whisper-base.en CPU int8
+A03-P04, large,212.88,213.12,0.9879677295684814,faster-whisper-base.en CPU int8
+A03-P04, structures.,213.12,213.70000000000002,0.998465895652771,faster-whisper-base.en CPU int8
+A03-P04, The,214.56,214.6,0.9908581376075745,faster-whisper-base.en CPU int8
+A03-P04, apparently,214.6,214.92000000000002,0.9957976341247559,faster-whisper-base.en CPU int8
+A03-P04, excessive,214.92000000000002,215.42000000000002,0.9669843912124634,faster-whisper-base.en CPU int8
+A03-P04, industrial,215.42000000000002,215.92000000000002,0.994952917098999,faster-whisper-base.en CPU int8
+A03-P04, equipment,215.92000000000002,216.42000000000002,0.9992011189460754,faster-whisper-base.en CPU int8
+A03-P04, was,216.42000000000002,216.74,0.9977076053619385,faster-whisper-base.en CPU int8
+A03-P04, needed,216.74,216.98000000000002,0.9994964599609375,faster-whisper-base.en CPU int8
+A03-P04, to,216.98000000000002,217.24,0.9993133544921875,faster-whisper-base.en CPU int8
+A03-P04, assemble,217.24,217.52,0.9990015625953674,faster-whisper-base.en CPU int8
+A03-P04, the,217.52,217.78,0.9963843822479248,faster-whisper-base.en CPU int8
+A03-P04, ship,217.78,218.0,0.9984649419784546,faster-whisper-base.en CPU int8
+A03-P04, before,218.0,218.54000000000002,0.9392932057380676,faster-whisper-base.en CPU int8
+A03-P04, it,218.54000000000002,218.76,0.9983254075050354,faster-whisper-base.en CPU int8
+A03-P04, could,218.76,218.9,0.9980840682983398,faster-whisper-base.en CPU int8
+A03-P04, perform,218.9,219.3,0.990025520324707,faster-whisper-base.en CPU int8
+A03-P04, its,219.3,219.48000000000002,0.9766684174537659,faster-whisper-base.en CPU int8
+A03-P04, secret,219.48000000000002,219.8,0.9980449676513672,faster-whisper-base.en CPU int8
+A03-P04, task.,219.8,220.06,0.9924747347831726,faster-whisper-base.en CPU int8
+A03-P05, Even,220.4,220.78,0.6211572289466858,faster-whisper-medium.en CPU int8 VAD
+A03-P05, leaving,220.78,221.08,0.9985033273696899,faster-whisper-medium.en CPU int8 VAD
+A03-P05, the,221.08,221.28,0.9983559250831604,faster-whisper-medium.en CPU int8 VAD
+A03-P05, shipyard,221.28,221.72,0.9922108352184296,faster-whisper-medium.en CPU int8 VAD
+A03-P05, required,221.72,222.16,0.9986864924430847,faster-whisper-medium.en CPU int8 VAD
+A03-P05, an,222.16,222.38,0.9956948757171631,faster-whisper-medium.en CPU int8 VAD
+A03-P05, adjustment.,222.38,222.92000000000002,0.9990973472595215,faster-whisper-medium.en CPU int8 VAD
+A03-P05, In,223.74,223.84,0.9933392405509949,faster-whisper-medium.en CPU int8 VAD
+A03-P05, July,223.84,224.14000000000001,0.9968942403793335,faster-whisper-medium.en CPU int8 VAD
+A03-P05," 1973,",224.14000000000001,225.18,0.9272569417953491,faster-whisper-medium.en CPU int8 VAD
+A03-P05, part,225.92000000000002,226.06,0.9930055737495422,faster-whisper-medium.en CPU int8 VAD
+A03-P05, of,226.06,226.26000000000002,0.9995368719100952,faster-whisper-medium.en CPU int8 VAD
+A03-P05, the,226.26000000000002,226.4,0.9919030070304871,faster-whisper-medium.en CPU int8 VAD
+A03-P05, derrick,226.4,226.64000000000001,0.9842040538787842,faster-whisper-medium.en CPU int8 VAD
+A03-P05, had,226.64000000000001,226.82,0.9983357787132263,faster-whisper-medium.en CPU int8 VAD
+A03-P05, to,226.82,226.98000000000002,0.9990904331207275,faster-whisper-medium.en CPU int8 VAD
+A03-P05, be,226.98000000000002,227.12,0.9987151622772217,faster-whisper-medium.en CPU int8 VAD
+A03-P05, removed,227.12,227.6,0.9987530708312988,faster-whisper-medium.en CPU int8 VAD
+A03-P05, so,227.6,227.9,0.9149162173271179,faster-whisper-medium.en CPU int8 VAD
+A03-P05, the,227.9,228.08,0.9780253171920776,faster-whisper-medium.en CPU int8 VAD
+A03-P05, explorer,228.08,228.54000000000002,0.648298978805542,faster-whisper-medium.en CPU int8 VAD
+A03-P05, could,228.54000000000002,228.74,0.9970341920852661,faster-whisper-medium.en CPU int8 VAD
+A03-P05, pass,228.74,229.04000000000002,0.997462272644043,faster-whisper-medium.en CPU int8 VAD
+A03-P05, beneath,229.04000000000002,229.3,0.9973243474960327,faster-whisper-medium.en CPU int8 VAD
+A03-P05, a,229.3,229.54000000000002,0.9449273943901062,faster-whisper-medium.en CPU int8 VAD
+A03-P05, bridge,229.54000000000002,229.76,0.999297022819519,faster-whisper-medium.en CPU int8 VAD
+A03-P05, on,229.76,229.96,0.9966089725494385,faster-whisper-medium.en CPU int8 VAD
+A03-P05, the,229.96,230.1,0.9974103569984436,faster-whisper-medium.en CPU int8 VAD
+A03-P05, Delaware,230.1,230.46,0.9985507130622864,faster-whisper-medium.en CPU int8 VAD
+A03-P05, River.,230.46,230.84,0.8942532539367676,faster-whisper-medium.en CPU int8 VAD
+A03-P05, Once,231.64000000000001,231.82,0.9990472197532654,faster-whisper-medium.en CPU int8 VAD
+A03-P05," clear,",231.82,232.24,0.9994940757751465,faster-whisper-medium.en CPU int8 VAD
+A03-P05, a,232.70000000000002,232.8,0.9986636638641357,faster-whisper-medium.en CPU int8 VAD
+A03-P05, floating,232.8,233.16,0.9991961121559143,faster-whisper-medium.en CPU int8 VAD
+A03-P05, crane,233.16,233.56,0.9994136095046997,faster-whisper-medium.en CPU int8 VAD
+A03-P05, put,233.56,233.86,0.9973217844963074,faster-whisper-medium.en CPU int8 VAD
+A03-P05, the,233.86,234.06,0.9981720447540283,faster-whisper-medium.en CPU int8 VAD
+A03-P05, section,234.06,234.36,0.9986732006072998,faster-whisper-medium.en CPU int8 VAD
+A03-P05, back.,234.36,234.78,0.9994460940361023,faster-whisper-medium.en CPU int8 VAD
+A03-P05, Before,235.44,235.68,0.9990708827972412,faster-whisper-medium.en CPU int8 VAD
+A03-P05, this,235.68,235.94,0.9975500702857971,faster-whisper-medium.en CPU int8 VAD
+A03-P05, machine,235.94,236.32,0.9972035884857178,faster-whisper-medium.en CPU int8 VAD
+A03-P05, could,236.32,236.58,0.9982170462608337,faster-whisper-medium.en CPU int8 VAD
+A03-P05, reach,236.58,236.76,0.9996885061264038,faster-whisper-medium.en CPU int8 VAD
+A03-P05, a,236.76,237.0,0.9939054846763611,faster-whisper-medium.en CPU int8 VAD
+A03-P05, Soviet,237.0,237.3,0.9607105255126953,faster-whisper-medium.en CPU int8 VAD
+A03-P05," wreck,",237.3,237.66,0.9879683256149292,faster-whisper-medium.en CPU int8 VAD
+A03-P05, it,238.06,238.14000000000001,0.992341160774231,faster-whisper-medium.en CPU int8 VAD
+A03-P05, had,238.14000000000001,238.3,0.9991644620895386,faster-whisper-medium.en CPU int8 VAD
+A03-P05, to,238.3,238.44,0.9990973472595215,faster-whisper-medium.en CPU int8 VAD
+A03-P05, fit,238.44,238.66,0.9977546334266663,faster-whisper-medium.en CPU int8 VAD
+A03-P05, through,238.66,238.88,0.9954677820205688,faster-whisper-medium.en CPU int8 VAD
+A03-P05, the,238.88,239.08,0.9903958439826965,faster-whisper-medium.en CPU int8 VAD
+A03-P05, American,239.08,239.48000000000002,0.9979579448699951,faster-whisper-medium.en CPU int8 VAD
+A03-P05, infrastructure,239.48000000000002,240.08,0.9968907237052917,faster-whisper-medium.en CPU int8 VAD
+A03-P05, in,240.08,240.32,0.9969943761825562,faster-whisper-medium.en CPU int8 VAD
+A03-P05, its,240.32,240.46,0.9956925511360168,faster-whisper-medium.en CPU int8 VAD
+A03-P05, way.,240.46,240.8,0.9990001320838928,faster-whisper-medium.en CPU int8 VAD
+A03-CTA01, Subscribe,240.96,241.32000000000002,0.8049083948135376,faster-whisper-base.en CPU int8
+A03-CTA01, to,241.32000000000002,241.78,0.9969911575317383,faster-whisper-base.en CPU int8
+A03-CTA01, Hidden,241.78,242.0,0.9638325572013855,faster-whisper-base.en CPU int8
+A03-CTA01, Industrial,242.0,242.4,0.9792147874832153,faster-whisper-base.en CPU int8
+A03-CTA01, America,242.4,242.94,0.9972094893455505,faster-whisper-base.en CPU int8
+A03-CTA01, for,242.94,243.4,0.9928160905838013,faster-whisper-base.en CPU int8
+A03-CTA01, the,243.4,243.52,0.9930791258811951,faster-whisper-base.en CPU int8
+A03-CTA01, real,243.52,243.68,0.9949061870574951,faster-whisper-base.en CPU int8
+A03-CTA01, purpose,243.68,244.28,0.981664776802063,faster-whisper-base.en CPU int8
+A03-CTA01, behind,244.28,244.68,0.9954351782798767,faster-whisper-base.en CPU int8
+A03-CTA01, America's,244.68,245.36,0.9961958229541779,faster-whisper-base.en CPU int8
+A03-CTA01, strangest,245.36,246.14000000000001,0.9476383924484253,faster-whisper-base.en CPU int8
+A03-CTA01, machines,246.14000000000001,246.56,0.9932969212532043,faster-whisper-base.en CPU int8
+A03-CTA01, and,246.56,247.36,0.7913670539855957,faster-whisper-base.en CPU int8
+A03-CTA01, the,247.36,247.5,0.9946889877319336,faster-whisper-base.en CPU int8
+A03-CTA01, engineering,247.5,247.94,0.994347870349884,faster-whisper-base.en CPU int8
+A03-CTA01, that,247.94,248.36,0.9989452958106995,faster-whisper-base.en CPU int8
+A03-CTA01, made,248.36,248.6,0.9963536262512207,faster-whisper-base.en CPU int8
+A03-CTA01, them,248.6,248.76000000000002,0.998606264591217,faster-whisper-base.en CPU int8
+A03-CTA01, work.,248.76000000000002,249.04000000000002,0.9992303848266602,faster-whisper-base.en CPU int8
+A03-P06, The,249.28,249.38,0.9365053176879883,faster-whisper-base.en CPU int8
+A03-P06, ship,249.38,249.6,0.998943030834198,faster-whisper-base.en CPU int8
+A03-P06, had,249.6,249.8,0.9967080354690552,faster-whisper-base.en CPU int8
+A03-P06, cleared,249.8,250.06,0.998981773853302,faster-whisper-base.en CPU int8
+A03-P06, the,250.06,250.34,0.9985295534133911,faster-whisper-base.en CPU int8
+A03-P06, bridge.,250.34,250.66,0.9979884624481201,faster-whisper-base.en CPU int8
+A03-P06, Could,251.62,251.68,0.9969812035560608,faster-whisper-base.en CPU int8
+A03-P06, its,251.68,251.82,0.9147658944129944,faster-whisper-base.en CPU int8
+A03-P06, hidden,251.82,252.06,0.9892338514328003,faster-whisper-base.en CPU int8
+A03-P06, opening,252.06,252.52,0.9843646883964539,faster-whisper-base.en CPU int8
+A03-P06, survive,252.52,252.9,0.992890477180481,faster-whisper-base.en CPU int8
+A03-P06, the,252.9,253.3,0.9980035424232483,faster-whisper-base.en CPU int8
+A03-P06, sea?,253.3,253.52,0.9873707294464111,faster-whisper-base.en CPU int8
+A03-P06, During,254.58,254.58,0.9961861968040466,faster-whisper-base.en CPU int8
+A03-P06," trials,",254.58,254.86,0.9839916825294495,faster-whisper-base.en CPU int8
+A03-P06, the,255.3,255.32,0.9988138675689697,faster-whisper-base.en CPU int8
+A03-P06, crew,255.32,255.52,0.9990831613540649,faster-whisper-base.en CPU int8
+A03-P06, would,255.52,255.8,0.9979450106620789,faster-whisper-base.en CPU int8
+A03-P06, have,255.8,255.94,0.9986037611961365,faster-whisper-base.en CPU int8
+A03-P06, to,255.94,256.1,0.9985235333442688,faster-whisper-base.en CPU int8
+A03-P06, flood,256.1,256.28,0.9958544969558716,faster-whisper-base.en CPU int8
+A03-P06, the,256.28,256.5,0.9962987303733826,faster-whisper-base.en CPU int8
+A03-P06, well,256.5,256.72,0.9797524213790894,faster-whisper-base.en CPU int8
+A03-P06, and,256.72,257.02,0.9730294942855835,faster-whisper-base.en CPU int8
+A03-P06, open,257.02,257.28,0.9900861382484436,faster-whisper-base.en CPU int8
+A03-P06, the,257.28,257.48,0.9975396394729614,faster-whisper-base.en CPU int8
+A03-P06, gates,257.48,257.7,0.9780257344245911,faster-whisper-base.en CPU int8
+A03-P06, beneath,257.7,258.06,0.9995831847190857,faster-whisper-base.en CPU int8
+A03-P06, it.,258.06,258.34,0.9993249177932739,faster-whisper-base.en CPU int8
+A03-P06, A,258.64,258.7,0.9963512420654297,faster-whisper-base.en CPU int8
+A03-P06, failure,258.7,259.04,0.9991771578788757,faster-whisper-base.en CPU int8
+A03-P06, there,259.04,259.3,0.9985535740852356,faster-whisper-base.en CPU int8
+A03-P06, could,259.3,259.52,0.9986019730567932,faster-whisper-base.en CPU int8
+A03-P06, stop,259.52,259.78,0.9990403056144714,faster-whisper-base.en CPU int8
+A03-P06, the,259.78,259.98,0.9958208799362183,faster-whisper-base.en CPU int8
+A03-P06, operation,259.98,260.3,0.9957427382469177,faster-whisper-base.en CPU int8
+A03-P06, before,260.3,260.84,0.9882063269615173,faster-whisper-base.en CPU int8
+A03-P06, the,260.84,261.06,0.9976027607917786,faster-whisper-base.en CPU int8
+A03-P06, capture,261.06,261.24,0.9205977320671082,faster-whisper-base.en CPU int8
+A03-P06, vehicle,261.24,261.7,0.9997648596763611,faster-whisper-base.en CPU int8
+A03-P06, ever,261.7,262.0,0.9758530855178833,faster-whisper-base.en CPU int8
+A03-P06, reached,262.0,262.28,0.9916777610778809,faster-whisper-base.en CPU int8
+A03-P06, the,262.28,262.56,0.9974936246871948,faster-whisper-base.en CPU int8
+A03-P06, wreck.,262.56,262.74,0.9618653059005737,faster-whisper-base.en CPU int8
+A04-P01, A,263.12,263.24,0.9209467172622681,faster-whisper-base.en CPU int8
+A04-P01, successful,263.24,263.7,0.9958603978157043,faster-whisper-base.en CPU int8
+A04-P01, sailing,263.7,264.26,0.9581144452095032,faster-whisper-base.en CPU int8
+A04-P01, trial,264.26,264.84000000000003,0.8863343596458435,faster-whisper-base.en CPU int8
+A04-P01, could,264.84000000000003,265.14,0.992399275302887,faster-whisper-base.en CPU int8
+A04-P01, not,265.14,265.38,0.998157799243927,faster-whisper-base.en CPU int8
+A04-P01, answer,265.38,265.8,0.9982970356941223,faster-whisper-base.en CPU int8
+A04-P01, that,265.8,265.98,0.9929719567298889,faster-whisper-base.en CPU int8
+A04-P01, question.,265.98,266.4,0.999305248260498,faster-whisper-base.en CPU int8
+A04-P01, The,267.3,267.3,0.9947810769081116,faster-whisper-base.en CPU int8
+A04-P01, recovery,267.3,267.52,0.9542226791381836,faster-whisper-base.en CPU int8
+A04-P01, system,267.52,268.22,0.9987643957138062,faster-whisper-base.en CPU int8
+A04-P01, needed,268.22,268.5,0.9970619082450867,faster-whisper-base.en CPU int8
+A04-P01, its,268.5,268.94,0.9591442942619324,faster-whisper-base.en CPU int8
+A04-P01, own,268.94,269.18,0.9973602890968323,faster-whisper-base.en CPU int8
+A04-P01," trials,",269.18,269.56,0.9787735342979431,faster-whisper-base.en CPU int8
+A04-P01, open,270.16,270.38,0.9247243404388428,faster-whisper-base.en CPU int8
+A04-P01, the,270.38,270.56,0.998187243938446,faster-whisper-base.en CPU int8
+A04-P01," well,",270.56,270.74,0.9801472425460815,faster-whisper-base.en CPU int8
+A04-P01, handle,271.3,271.56,0.9922751784324646,faster-whisper-base.en CPU int8
+A04-P01, the,271.56,271.74,0.9984431862831116,faster-whisper-base.en CPU int8
+A04-P01, pipe,271.74,271.88,0.7948575019836426,faster-whisper-base.en CPU int8
+A04-P01, string,271.88,272.26,0.8986146450042725,faster-whisper-base.en CPU int8
+A04-P01, and,272.26,272.88,0.7425107359886169,faster-whisper-base.en CPU int8
+A04-P01, operate,272.88,273.18,0.9981270432472229,faster-whisper-base.en CPU int8
+A04-P01, the,273.18,273.5,0.9973676800727844,faster-whisper-base.en CPU int8
+A04-P01, heavy,273.5,273.7,0.9964708089828491,faster-whisper-base.en CPU int8
+A04-P01, lifting,273.7,273.94,0.9734558463096619,faster-whisper-base.en CPU int8
+A04-P01, machinery,273.94,274.58,0.9893968105316162,faster-whisper-base.en CPU int8
+A04-P01, while,274.58,274.88,0.9670625329017639,faster-whisper-base.en CPU int8
+A04-P01, the,274.88,275.04,0.995389461517334,faster-whisper-base.en CPU int8
+A04-P01, ship,275.04,275.28000000000003,0.9973352551460266,faster-whisper-base.en CPU int8
+A04-P01, moved,275.28000000000003,275.6,0.9948362112045288,faster-whisper-base.en CPU int8
+A04-P01, around,275.6,275.96,0.9963233470916748,faster-whisper-base.en CPU int8
+A04-P01, it.,275.96,276.2,0.9956373572349548,faster-whisper-base.en CPU int8
+A04-P02, By,276.4,276.5,0.9559674859046936,faster-whisper-base.en CPU int8
+A04-P02, January,276.5,276.79999999999995,0.9955561757087708,faster-whisper-base.en CPU int8
+A04-P02," 1974,",276.79999999999995,277.67999999999995,0.9726182818412781,faster-whisper-base.en CPU int8
+A04-P02, the,277.84,278.4,0.9985533356666565,faster-whisper-base.en CPU int8
+A04-P02, program,278.4,278.76,0.610577404499054,faster-whisper-base.en CPU int8
+A04-P02, was,278.76,279.03999999999996,0.9994114637374878,faster-whisper-base.en CPU int8
+A04-P02, running,279.03999999999996,279.34,0.998793363571167,faster-whisper-base.en CPU int8
+A04-P02, against,279.34,279.71999999999997,0.9987213015556335,faster-whisper-base.en CPU int8
+A04-P02, a,279.71999999999997,279.9,0.9906456470489502,faster-whisper-base.en CPU int8
+A04-P02, deadline,279.9,280.26,0.990168571472168,faster-whisper-base.en CPU int8
+A04-P02, imposed,280.26,280.84,0.9946147799491882,faster-whisper-base.en CPU int8
+A04-P02, by,280.84,281.23999999999995,0.998174786567688,faster-whisper-base.en CPU int8
+A04-P02, the,281.23999999999995,281.38,0.9965410828590393,faster-whisper-base.en CPU int8
+A04-P02, Pacific.,281.38,281.76,0.9720249176025391,faster-whisper-base.en CPU int8
+A04-P02, Planners,282.53999999999996,282.96,0.7095480263233185,faster-whisper-base.en CPU int8
+A04-P02, wanted,282.96,283.2,0.9961652755737305,faster-whisper-base.en CPU int8
+A04-P02, the,283.2,283.47999999999996,0.9958821535110474,faster-whisper-base.en CPU int8
+A04-P02, recovery,283.47999999999996,283.71999999999997,0.9943248629570007,faster-whisper-base.en CPU int8
+A04-P02, ship,283.71999999999997,284.23999999999995,0.9968181848526001,faster-whisper-base.en CPU int8
+A04-P02, on,284.23999999999995,284.41999999999996,0.9924759268760681,faster-whisper-base.en CPU int8
+A04-P02, station,284.41999999999996,284.71999999999997,0.9266818761825562,faster-whisper-base.en CPU int8
+A04-P02, during,284.71999999999997,285.29999999999995,0.9941723942756653,faster-whisper-base.en CPU int8
+A04-P02, the,285.29999999999995,285.44,0.994506299495697,faster-whisper-base.en CPU int8
+A04-P02, summer,285.44,285.65999999999997,0.9673994779586792,faster-whisper-base.en CPU int8
+A04-P02, weather,285.65999999999997,285.96,0.9987114667892456,faster-whisper-base.en CPU int8
+A04-P02, window.,285.96,286.4,0.9970019459724426,faster-whisper-base.en CPU int8
+A04-P02, Miss,287.14,287.34,0.8713884353637695,faster-whisper-base.en CPU int8
+A04-P02," it,",287.34,287.56,0.981272280216217,faster-whisper-base.en CPU int8
+A04-P02, and,287.94,288.14,0.9969937801361084,faster-whisper-base.en CPU int8
+A04-P02, the,288.14,288.23999999999995,0.9976982474327087,faster-whisper-base.en CPU int8
+A04-P02, attempt,288.23999999999995,288.47999999999996,0.9932505488395691,faster-whisper-base.en CPU int8
+A04-P02, could,288.47999999999996,288.82,0.9969233870506287,faster-whisper-base.en CPU int8
+A04-P02, have,288.82,289.02,0.9937899708747864,faster-whisper-base.en CPU int8
+A04-P02, to,289.02,289.15999999999997,0.9991669654846191,faster-whisper-base.en CPU int8
+A04-P02, wait,289.15999999999997,289.34,0.9990180730819702,faster-whisper-base.en CPU int8
+A04-P02, another,289.34,289.52,0.9992973804473877,faster-whisper-base.en CPU int8
+A04-P02, year.,289.52,290.0,0.9993957281112671,faster-whisper-base.en CPU int8
+A04-P02, More,290.96,291.03999999999996,0.9962887763977051,faster-whisper-base.en CPU int8
+A04-P02, testing,291.03999999999996,291.56,0.9991182684898376,faster-whisper-base.en CPU int8
+A04-P02, offered,291.56,291.9,0.998630702495575,faster-whisper-base.en CPU int8
+A04-P02," information,",291.9,292.47999999999996,0.9987938404083252,faster-whisper-base.en CPU int8
+A04-P02, but,293.2,293.32,0.9995018243789673,faster-whisper-base.en CPU int8
+A04-P02, also,293.32,293.47999999999996,0.9977030158042908,faster-whisper-base.en CPU int8
+A04-P02, consumed,293.47999999999996,294.03999999999996,0.9828974604606628,faster-whisper-base.en CPU int8
+A04-P02, the,294.03999999999996,294.32,0.9953693747520447,faster-whisper-base.en CPU int8
+A04-P02, time,294.32,294.64,0.9996678829193115,faster-whisper-base.en CPU int8
+A04-P02, needed,294.64,294.96,0.9994620680809021,faster-whisper-base.en CPU int8
+A04-P02, to,294.96,295.21999999999997,0.9992805123329163,faster-whisper-base.en CPU int8
+A04-P02, use,295.21999999999997,295.46,0.9989907145500183,faster-whisper-base.en CPU int8
+A04-P02, it.,295.46,295.67999999999995,0.9993302822113037,faster-whisper-base.en CPU int8
+A04-P03, On,295.92,296.06,0.9673712253570557,faster-whisper-base.en CPU int8
+A04-P03, January,296.06,296.28000000000003,0.9826943278312683,faster-whisper-base.en CPU int8
+A04-P03," 23,",296.28000000000003,296.78000000000003,0.9931190013885498,faster-whisper-base.en CPU int8
+A04-P03, the,297.32,297.5,0.9951881170272827,faster-whisper-base.en CPU int8
+A04-P03, crew,297.5,297.72,0.9975709319114685,faster-whisper-base.en CPU int8
+A04-P03, flooded,297.72,298.2,0.985821545124054,faster-whisper-base.en CPU int8
+A04-P03, the,298.2,298.48,0.9988208413124084,faster-whisper-base.en CPU int8
+A04-P03, central,298.48,298.8,0.9209955334663391,faster-whisper-base.en CPU int8
+A04-P03, well,298.8,299.1,0.9870808720588684,faster-whisper-base.en CPU int8
+A04-P03, and,299.1,299.40000000000003,0.9686256647109985,faster-whisper-base.en CPU int8
+A04-P03, began,299.40000000000003,299.58000000000004,0.9929110407829285,faster-whisper-base.en CPU int8
+A04-P03, opening,299.58000000000004,300.04,0.999207079410553,faster-whisper-base.en CPU int8
+A04-P03, its,300.04,300.34000000000003,0.9817931056022644,faster-whisper-base.en CPU int8
+A04-P03, gates,300.34000000000003,300.52000000000004,0.9937455654144287,faster-whisper-base.en CPU int8
+A04-P03, during,300.52000000000004,301.02000000000004,0.9947945475578308,faster-whisper-base.en CPU int8
+A04-P03, sea,301.02000000000004,301.26,0.8707588911056519,faster-whisper-base.en CPU int8
+A04-P03, trials.,301.26,301.7,0.9596441984176636,faster-whisper-base.en CPU int8
+A04-P03, Heavy,302.56,302.56,0.9923183917999268,faster-whisper-base.en CPU int8
+A04-P03, surges,302.56,302.82,0.9762064218521118,faster-whisper-base.en CPU int8
+A04-P03, moved,302.82,303.34000000000003,0.9937839508056641,faster-whisper-base.en CPU int8
+A04-P03, through,303.34000000000003,303.68,0.9968717694282532,faster-whisper-base.en CPU int8
+A04-P03, the,303.68,303.84000000000003,0.9960922598838806,faster-whisper-base.en CPU int8
+A04-P03, well.,303.84000000000003,304.04,0.9933503270149231,faster-whisper-base.en CPU int8
+A04-P03, The,304.64000000000004,304.7,0.9936848282814026,faster-whisper-base.en CPU int8
+A04-P03, machinery,304.7,304.96000000000004,0.9976031184196472,faster-whisper-base.en CPU int8
+A04-P03, operating,304.96000000000004,305.46000000000004,0.9852280616760254,faster-whisper-base.en CPU int8
+A04-P03, the,305.46000000000004,305.88,0.9896077513694763,faster-whisper-base.en CPU int8
+A04-P03, aft,305.88,306.08000000000004,0.9874405860900879,faster-whisper-base.en CPU int8
+A04-P03, gate,306.08000000000004,306.36,0.9442111849784851,faster-whisper-base.en CPU int8
+A04-P03, was,306.36,306.68,0.9979877471923828,faster-whisper-base.en CPU int8
+A04-P03, damaged.,306.68,307.02000000000004,0.9992283582687378,faster-whisper-base.en CPU int8
+A04-P03, Inspectors,307.88,308.14000000000004,0.9615294337272644,faster-whisper-base.en CPU int8
+A04-P03, found,308.14000000000004,308.36,0.9997801184654236,faster-whisper-base.en CPU int8
+A04-P03, damage,308.36,308.76,0.912102222442627,faster-whisper-base.en CPU int8
+A04-P03, to,308.76,309.02000000000004,0.9976166486740112,faster-whisper-base.en CPU int8
+A04-P03, the,309.02000000000004,309.12,0.9909642934799194,faster-whisper-base.en CPU int8
+A04-P03," seal,",309.12,309.38,0.9794517755508423,faster-whisper-base.en CPU int8
+A04-P03, gear,309.94,310.0,0.9350460171699524,faster-whisper-base.en CPU int8
+A04-P03, teeth,310.0,310.28000000000003,0.8377730250358582,faster-whisper-base.en CPU int8
+A04-P03, and,310.28000000000003,310.86,0.726534903049469,faster-whisper-base.en CPU int8
+A04-P03, the,310.86,310.98,0.9499839544296265,faster-whisper-base.en CPU int8
+A04-P03, support,310.98,311.28000000000003,0.9991027116775513,faster-whisper-base.en CPU int8
+A04-P03, for,311.28000000000003,311.58000000000004,0.9931314587593079,faster-whisper-base.en CPU int8
+A04-P03, the,311.58000000000004,311.7,0.9959243535995483,faster-whisper-base.en CPU int8
+A04-P03, drive,311.7,311.92,0.8132678866386414,faster-whisper-base.en CPU int8
+A04-P03, shaft.,311.92,312.24,0.9978153705596924,faster-whisper-base.en CPU int8
+A04-P04, To,312.64,312.74,0.9698106646537781,faster-whisper-base.en CPU int8
+A04-P04, close,312.74,312.96,0.9990672469139099,faster-whisper-base.en CPU int8
+A04-P04, the,312.96,313.24,0.9991586208343506,faster-whisper-base.en CPU int8
+A04-P04, damaged,313.24,313.47999999999996,0.9933075308799744,faster-whisper-base.en CPU int8
+A04-P04," gate,",313.47999999999996,313.82,0.9891911745071411,faster-whisper-base.en CPU int8
+A04-P04, the,314.38,314.41999999999996,0.9976240992546082,faster-whisper-base.en CPU int8
+A04-P04, crew,314.41999999999996,314.59999999999997,0.9978396892547607,faster-whisper-base.en CPU int8
+A04-P04, had,314.59999999999997,314.82,0.9973613619804382,faster-whisper-base.en CPU int8
+A04-P04, to,314.82,314.96,0.9982731342315674,faster-whisper-base.en CPU int8
+A04-P04, rig,314.96,315.14,0.9788302779197693,faster-whisper-base.en CPU int8
+A04-P04, cables,315.14,315.59999999999997,0.9953592419624329,faster-whisper-base.en CPU int8
+A04-P04, and,315.59999999999997,315.96,0.992774248123169,faster-whisper-base.en CPU int8
+A04-P04, use,315.96,316.21999999999997,0.9924678206443787,faster-whisper-base.en CPU int8
+A04-P04, winches.,316.21999999999997,316.64,0.88802370429039,faster-whisper-base.en CPU int8
+A04-P04, The,317.62,317.71999999999997,0.996418833732605,faster-whisper-base.en CPU int8
+A04-P04, trials,317.71999999999997,317.91999999999996,0.8350255489349365,faster-whisper-base.en CPU int8
+A04-P04, stopped.,317.91999999999996,318.32,0.9984379410743713,faster-whisper-base.en CPU int8
+A04-P04, The,319.15999999999997,319.21999999999997,0.9964807629585266,faster-whisper-base.en CPU int8
+A04-P04, next,319.21999999999997,319.34,0.9993407130241394,faster-whisper-base.en CPU int8
+A04-P04, day,319.34,319.64,0.999695897102356,faster-whisper-base.en CPU int8
+A04-P04, the,319.64,319.8,0.7543925046920776,faster-whisper-base.en CPU int8
+A04-P04, ship,319.8,320.0,0.9986369013786316,faster-whisper-base.en CPU int8
+A04-P04, was,320.0,320.2,0.9991733431816101,faster-whisper-base.en CPU int8
+A04-P04, back,320.2,320.41999999999996,0.9991520643234253,faster-whisper-base.en CPU int8
+A04-P04, at,320.41999999999996,320.59999999999997,0.9968501925468445,faster-whisper-base.en CPU int8
+A04-P04, Long,320.59999999999997,320.74,0.9910287261009216,faster-whisper-base.en CPU int8
+A04-P04, Beach.,320.74,321.0,0.9594910740852356,faster-whisper-base.en CPU int8
+A04-P04, The,321.88,321.96,0.9968050718307495,faster-whisper-base.en CPU int8
+A04-P04, opening,321.96,322.21999999999997,0.9981339573860168,faster-whisper-base.en CPU int8
+A04-P04, intended,322.21999999999997,322.68,0.9567058086395264,faster-whisper-base.en CPU int8
+A04-P04, to,322.68,322.91999999999996,0.9993539452552795,faster-whisper-base.en CPU int8
+A04-P04, conceal,322.91999999999996,323.18,0.9912818670272827,faster-whisper-base.en CPU int8
+A04-P04, the,323.18,323.47999999999996,0.9990946054458618,faster-whisper-base.en CPU int8
+A04-P04, recovered,323.47999999999996,323.74,0.9908825755119324,faster-whisper-base.en CPU int8
+A04-P04, submarine,323.74,324.32,0.9959800243377686,faster-whisper-base.en CPU int8
+A04-P04, had,324.32,324.68,0.9887079000473022,faster-whisper-base.en CPU int8
+A04-P04, become,324.68,324.91999999999996,0.9980397820472717,faster-whisper-base.en CPU int8
+A04-P04, a,324.91999999999996,325.08,0.9971439242362976,faster-whisper-base.en CPU int8
+A04-P04, reason,325.08,325.38,0.999529242515564,faster-whisper-base.en CPU int8
+A04-P04, the,325.38,325.58,0.9908301830291748,faster-whisper-base.en CPU int8
+A04-P04, recovery,325.58,325.78,0.9879980087280273,faster-whisper-base.en CPU int8
+A04-P04, ship,325.78,326.24,0.9965948462486267,faster-whisper-base.en CPU int8
+A04-P04, could,326.24,326.46,0.9969333410263062,faster-whisper-base.en CPU int8
+A04-P04, not,326.46,326.62,0.998431384563446,faster-whisper-base.en CPU int8
+A04-P04, continue,326.62,327.06,0.9889600276947021,faster-whisper-base.en CPU int8
+A04-P04, its,327.06,327.3,0.9824355244636536,faster-whisper-base.en CPU int8
+A04-P04, tests.,327.3,327.58,0.980082094669342,faster-whisper-base.en CPU int8
+A04-P05, Repairs,328.08,328.8,0.9615042507648468,faster-whisper-medium.en CPU int8 VAD
+A04-P05, brought,328.8,329.14,0.9920544624328613,faster-whisper-medium.en CPU int8 VAD
+A04-P05, their,329.14,329.38,0.9991118311882019,faster-whisper-medium.en CPU int8 VAD
+A04-P05, own,329.38,329.59999999999997,0.9994114637374878,faster-whisper-medium.en CPU int8 VAD
+A04-P05, compromise.,329.59999999999997,330.24,0.9988106489181519,faster-whisper-medium.en CPU int8 VAD
+A04-P05, There,331.03999999999996,331.12,0.9939910769462585,faster-whisper-medium.en CPU int8 VAD
+A04-P05, was,331.12,331.26,0.9990560412406921,faster-whisper-medium.en CPU int8 VAD
+A04-P05, not,331.26,331.41999999999996,0.9987706542015076,faster-whisper-medium.en CPU int8 VAD
+A04-P05, enough,331.41999999999996,331.68,0.9986592531204224,faster-whisper-medium.en CPU int8 VAD
+A04-P05, time,331.68,332.0,0.998856782913208,faster-whisper-medium.en CPU int8 VAD
+A04-P05, to,332.0,332.24,0.9982115030288696,faster-whisper-medium.en CPU int8 VAD
+A04-P05, move,332.24,332.44,0.999165415763855,faster-whisper-medium.en CPU int8 VAD
+A04-P05, the,332.44,332.62,0.99863201379776,faster-whisper-medium.en CPU int8 VAD
+A04-P05, vessel,332.62,332.91999999999996,0.9841411709785461,faster-whisper-medium.en CPU int8 VAD
+A04-P05, into,332.91999999999996,333.18,0.9927413463592529,faster-whisper-medium.en CPU int8 VAD
+A04-P05, a,333.18,333.35999999999996,0.9985268115997314,faster-whisper-medium.en CPU int8 VAD
+A04-P05, suitable,333.35999999999996,333.68,0.9990513920783997,faster-whisper-medium.en CPU int8 VAD
+A04-P05, dry,333.68,334.06,0.9777831435203552,faster-whisper-medium.en CPU int8 VAD
+A04-P05, dock.,334.06,334.46,0.9853456020355225,faster-whisper-medium.en CPU int8 VAD
+A04-P05, Divers,335.26,335.58,0.9966559708118439,faster-whisper-medium.en CPU int8 VAD
+A04-P05, performed,335.58,336.02,0.99516761302948,faster-whisper-medium.en CPU int8 VAD
+A04-P05, inspections,336.02,336.64,0.9951958060264587,faster-whisper-medium.en CPU int8 VAD
+A04-P05, and,336.64,337.02,0.9703561663627625,faster-whisper-medium.en CPU int8 VAD
+A04-P05, some,337.02,337.2,0.9950657486915588,faster-whisper-medium.en CPU int8 VAD
+A04-P05, seal,337.2,337.46,0.9974724650382996,faster-whisper-medium.en CPU int8 VAD
+A04-P05, repairs,337.46,337.82,0.9847068190574646,faster-whisper-medium.en CPU int8 VAD
+A04-P05, in,337.82,338.08,0.9984922409057617,faster-whisper-medium.en CPU int8 VAD
+A04-P05, the,338.08,338.2,0.998641312122345,faster-whisper-medium.en CPU int8 VAD
+A04-P05, water.,338.2,338.5,0.9994377493858337,faster-whisper-medium.en CPU int8 VAD
+A04-P05, One,339.06,339.24,0.9960103034973145,faster-whisper-medium.en CPU int8 VAD
+A04-P05, persistent,339.24,339.8,0.9921634197235107,faster-whisper-medium.en CPU int8 VAD
+A04-P05, small,339.8,340.21999999999997,0.9770094752311707,faster-whisper-medium.en CPU int8 VAD
+A04-P05, leak,340.21999999999997,340.44,0.9990359544754028,faster-whisper-medium.en CPU int8 VAD
+A04-P05, was,340.44,340.64,0.9992927312850952,faster-whisper-medium.en CPU int8 VAD
+A04-P05, accepted.,340.64,341.15999999999997,0.9969409108161926,faster-whisper-medium.en CPU int8 VAD
+A04-P05, The,341.76,341.88,0.9969612956047058,faster-whisper-medium.en CPU int8 VAD
+A04-P05, ship,341.88,342.06,0.9942213892936707,faster-whisper-medium.en CPU int8 VAD
+A04-P05, would,342.06,342.28,0.9978134632110596,faster-whisper-medium.en CPU int8 VAD
+A04-P05, go,342.28,342.46,0.9989989399909973,faster-whisper-medium.en CPU int8 VAD
+A04-P05, on,342.46,342.68,0.9975430965423584,faster-whisper-medium.en CPU int8 VAD
+A04-P05, with,342.68,342.84,0.9983598589897156,faster-whisper-medium.en CPU int8 VAD
+A04-P05, a,342.84,342.94,0.989251434803009,faster-whisper-medium.en CPU int8 VAD
+A04-P05, puddle,342.94,343.28,0.9982859492301941,faster-whisper-medium.en CPU int8 VAD
+A04-P05, in,343.28,343.5,0.9951174259185791,faster-whisper-medium.en CPU int8 VAD
+A04-P05, part,343.5,343.74,0.9871517419815063,faster-whisper-medium.en CPU int8 VAD
+A04-P05, of,343.74,343.91999999999996,0.9985278844833374,faster-whisper-medium.en CPU int8 VAD
+A04-P05, the,343.91999999999996,344.06,0.99832683801651,faster-whisper-medium.en CPU int8 VAD
+A04-P05, well,344.06,344.34,0.9814287424087524,faster-whisper-medium.en CPU int8 VAD
+A04-P05, rather,344.34,344.86,0.8488775491714478,faster-whisper-medium.en CPU int8 VAD
+A04-P05, than,344.86,345.09999999999997,0.9978095889091492,faster-whisper-medium.en CPU int8 VAD
+A04-P05, wait,345.09999999999997,345.24,0.9920708537101746,faster-whisper-medium.en CPU int8 VAD
+A04-P05, for,345.24,345.46,0.9992474317550659,faster-whisper-medium.en CPU int8 VAD
+A04-P05, a,345.46,345.59999999999997,0.997199535369873,faster-whisper-medium.en CPU int8 VAD
+A04-P05, perfect,345.59999999999997,345.9,0.9981706142425537,faster-whisper-medium.en CPU int8 VAD
+A04-P05, repair.,345.9,346.29999999999995,0.9995580315589905,faster-whisper-medium.en CPU int8 VAD
+A04-P06, February,346.48,346.78000000000003,0.9435854554176331,faster-whisper-base.en CPU int8
+A04-P06, brought,346.78000000000003,347.14000000000004,0.9922940731048584,faster-whisper-base.en CPU int8
+A04-P06, repairs,347.14000000000004,347.42,0.9981226325035095,faster-whisper-base.en CPU int8
+A04-P06, and,347.42,348.14000000000004,0.9318030476570129,faster-whisper-base.en CPU int8
+A04-P06, better,348.14000000000004,348.34000000000003,0.9982327222824097,faster-whisper-base.en CPU int8
+A04-P06, results.,348.34000000000003,348.78000000000003,0.9997079968452454,faster-whisper-base.en CPU int8
+A04-P06, The,349.72,349.74,0.996782660484314,faster-whisper-base.en CPU int8
+A04-P06, pipe,349.74,349.86,0.887572169303894,faster-whisper-base.en CPU int8
+A04-P06, handling,349.86,350.22,0.9948925971984863,faster-whisper-base.en CPU int8
+A04-P06, system,350.22,350.70000000000005,0.9988991022109985,faster-whisper-base.en CPU int8
+A04-P06, worked,350.70000000000005,351.04,0.991731584072113,faster-whisper-base.en CPU int8
+A04-P06," satisfactorily,",351.04,352.16,0.9871207078297933,faster-whisper-base.en CPU int8
+A04-P06, but,352.70000000000005,352.72,0.9989737272262573,faster-whisper-base.en CPU int8
+A04-P06, integrated,352.72,353.16,0.9965463280677795,faster-whisper-base.en CPU int8
+A04-P06, tests,353.16,353.72,0.9944756627082825,faster-whisper-base.en CPU int8
+A04-P06, exposed,353.72,354.08000000000004,0.9958446621894836,faster-whisper-base.en CPU int8
+A04-P06, more,354.08000000000004,354.72,0.9984741806983948,faster-whisper-base.en CPU int8
+A04-P06, faults.,354.72,355.04,0.9954901337623596,faster-whisper-base.en CPU int8
+A04-P06, Repairing,355.88,356.24,0.8600049614906311,faster-whisper-base.en CPU int8
+A04-P06, one,356.24,356.36,0.9969035983085632,faster-whisper-base.en CPU int8
+A04-P06, component,356.36,356.78000000000003,0.9980401396751404,faster-whisper-base.en CPU int8
+A04-P06, was,356.78000000000003,357.14000000000004,0.9968247413635254,faster-whisper-base.en CPU int8
+A04-P06, not,357.14000000000004,357.36,0.9993025064468384,faster-whisper-base.en CPU int8
+A04-P06," enough,",357.36,357.70000000000005,0.9997528195381165,faster-whisper-base.en CPU int8
+A04-P06, the,358.20000000000005,358.3,0.9935941100120544,faster-whisper-base.en CPU int8
+A04-P06, equipment,358.3,358.6,0.9991986155509949,faster-whisper-base.en CPU int8
+A04-P06, had,358.6,358.88,0.9975417852401733,faster-whisper-base.en CPU int8
+A04-P06, to,358.88,359.04,0.9988476037979126,faster-whisper-base.en CPU int8
+A04-P06, work,359.04,359.24,0.9995088577270508,faster-whisper-base.en CPU int8
+A04-P06," together,",359.24,359.58000000000004,0.9992990493774414,faster-whisper-base.en CPU int8
+A04-P06, and,360.12,360.16,0.9987200498580933,faster-whisper-base.en CPU int8
+A04-P06, each,360.16,360.52000000000004,0.9993485808372498,faster-whisper-base.en CPU int8
+A04-P06, new,360.52000000000004,360.74,0.9955849647521973,faster-whisper-base.en CPU int8
+A04-P06, round,360.74,361.08000000000004,0.9979705214500427,faster-whisper-base.en CPU int8
+A04-P06, of,361.08000000000004,361.3,0.9974516034126282,faster-whisper-base.en CPU int8
+A04-P06, testing,361.3,361.66,0.9991833567619324,faster-whisper-base.en CPU int8
+A04-P06, used,361.66,361.94,0.9918317198753357,faster-whisper-base.en CPU int8
+A04-P06, more,361.94,362.26,0.9994681477546692,faster-whisper-base.en CPU int8
+A04-P06, of,362.26,362.46000000000004,0.993863582611084,faster-whisper-base.en CPU int8
+A04-P06, the,362.46000000000004,362.56,0.9989499449729919,faster-whisper-base.en CPU int8
+A04-P06, remaining,362.56,362.88,0.9996509552001953,faster-whisper-base.en CPU int8
+A04-P06, season.,362.88,363.32,0.9901652932167053,faster-whisper-base.en CPU int8
+A04-P07, Officials,363.68,364.22,0.9496396780014038,faster-whisper-medium.en CPU int8 VAD
+A04-P07, eventually,364.22,364.78000000000003,0.9841563105583191,faster-whisper-medium.en CPU int8 VAD
+A04-P07, waived,364.78000000000003,365.16,0.9185569286346436,faster-whisper-medium.en CPU int8 VAD
+A04-P07, a,365.16,365.32,0.9961850047111511,faster-whisper-medium.en CPU int8 VAD
+A04-P07, planned,365.32,365.66,0.994484007358551,faster-whisper-medium.en CPU int8 VAD
+A04-P07, test,365.66,366.1,0.994202196598053,faster-whisper-medium.en CPU int8 VAD
+A04-P07, to,366.1,366.40000000000003,0.9882431626319885,faster-whisper-medium.en CPU int8 VAD
+A04-P07, 12,366.40000000000003,366.74,0.9122879505157471,faster-whisper-medium.en CPU int8 VAD
+A04-P07,",000",366.74,367.2,0.9540270864963531,faster-whisper-medium.en CPU int8 VAD
+A04-P07," feet,",367.2,367.54,0.9497514963150024,faster-whisper-medium.en CPU int8 VAD
+A04-P07, accepting,367.84000000000003,368.32,0.926480770111084,faster-whisper-medium.en CPU int8 VAD
+A04-P07, a,368.32,368.56,0.998508870601654,faster-whisper-medium.en CPU int8 VAD
+A04-P07, demonstration,368.56,369.08,0.9988418221473694,faster-whisper-medium.en CPU int8 VAD
+A04-P07, at,369.08,369.38,0.9907665252685547,faster-whisper-medium.en CPU int8 VAD
+A04-P07, a,369.38,369.52,0.995479941368103,faster-whisper-medium.en CPU int8 VAD
+A04-P07, few,369.52,369.66,0.9992021918296814,faster-whisper-medium.en CPU int8 VAD
+A04-P07, thousand,369.66,370.04,0.9911092519760132,faster-whisper-medium.en CPU int8 VAD
+A04-P07, instead.,370.04,370.62,0.9873676896095276,faster-whisper-medium.en CPU int8 VAD
+A04-P07, They,371.28000000000003,371.36,0.9959269165992737,faster-whisper-medium.en CPU int8 VAD
+A04-P07, trusted,371.36,371.72,0.9986187219619751,faster-whisper-medium.en CPU int8 VAD
+A04-P07, the,371.72,371.98,0.9987159967422485,faster-whisper-medium.en CPU int8 VAD
+A04-P07, crew's,371.98,372.32,0.927514910697937,faster-whisper-medium.en CPU int8 VAD
+A04-P07, ability,372.32,372.64,0.9989487528800964,faster-whisper-medium.en CPU int8 VAD
+A04-P07, to,372.64,372.94,0.9996084570884705,faster-whisper-medium.en CPU int8 VAD
+A04-P07, work,372.94,373.14,0.9970418810844421,faster-whisper-medium.en CPU int8 VAD
+A04-P07, around,373.14,373.5,0.9984217882156372,faster-whisper-medium.en CPU int8 VAD
+A04-P07, faults.,373.5,374.04,0.9962014555931091,faster-whisper-medium.en CPU int8 VAD
+A04-P07, Repeated,374.62,374.96,0.9827130138874054,faster-whisper-medium.en CPU int8 VAD
+A04-P07, tests,374.96,375.36,0.9981918931007385,faster-whisper-medium.en CPU int8 VAD
+A04-P07, would,375.36,375.56,0.9946649074554443,faster-whisper-medium.en CPU int8 VAD
+A04-P07, also,375.56,375.90000000000003,0.9979960918426514,faster-whisper-medium.en CPU int8 VAD
+A04-P07, wear,375.90000000000003,376.16,0.9655554890632629,faster-whisper-medium.en CPU int8 VAD
+A04-P07, the,376.16,376.38,0.9961166381835938,faster-whisper-medium.en CPU int8 VAD
+A04-P07, specialized,376.38,376.84000000000003,0.6753137707710266,faster-whisper-medium.en CPU int8 VAD
+A04-P07, system.,376.84000000000003,377.5,0.998174786567688,faster-whisper-medium.en CPU int8 VAD
+A04-P07, They,378.0,378.12,0.9961189031600952,faster-whisper-medium.en CPU int8 VAD
+A04-P07, were,378.12,378.28000000000003,0.998943030834198,faster-whisper-medium.en CPU int8 VAD
+A04-P07, accepting,378.28000000000003,378.72,0.995266318321228,faster-whisper-medium.en CPU int8 VAD
+A04-P07, uncertainty,378.72,379.32,0.9961973428726196,faster-whisper-medium.en CPU int8 VAD
+A04-P07, to,379.32,379.68,0.9955755472183228,faster-whisper-medium.en CPU int8 VAD
+A04-P07, keep,379.68,379.9,0.999640941619873,faster-whisper-medium.en CPU int8 VAD
+A04-P07, the,379.9,380.1,0.999262273311615,faster-whisper-medium.en CPU int8 VAD
+A04-P07, mission,380.1,380.32,0.995402455329895,faster-whisper-medium.en CPU int8 VAD
+A04-P07, moving.,380.32,380.78000000000003,0.9996587038040161,faster-whisper-medium.en CPU int8 VAD
+A04-P07, That,381.58,381.76,0.9965013265609741,faster-whisper-medium.en CPU int8 VAD
+A04-P07, does,381.76,381.94,0.9983422756195068,faster-whisper-medium.en CPU int8 VAD
+A04-P07, not,381.94,382.16,0.9993185997009277,faster-whisper-medium.en CPU int8 VAD
+A04-P07, establish,382.16,382.68,0.9989699125289917,faster-whisper-medium.en CPU int8 VAD
+A04-P07, why,382.68,383.04,0.9974722266197205,faster-whisper-medium.en CPU int8 VAD
+A04-P07, the,383.04,383.26,0.9969141483306885,faster-whisper-medium.en CPU int8 VAD
+A04-P07, wreck,383.26,383.44,0.9947184324264526,faster-whisper-medium.en CPU int8 VAD
+A04-P07, later,383.44,383.82,0.99811851978302,faster-whisper-medium.en CPU int8 VAD
+A04-P07, broke,383.82,384.08,0.9990110397338867,faster-whisper-medium.en CPU int8 VAD
+A04-P07, apart.,384.08,384.58,0.9979605674743652,faster-whisper-medium.en CPU int8 VAD
+A04-P08, And,384.72,384.90000000000003,0.4885946810245514,faster-whisper-base.en CPU int8
+A04-P08, one,384.90000000000003,385.04,0.9817485213279724,faster-whisper-base.en CPU int8
+A04-P08, uncertainty,385.04,385.54,0.998536229133606,faster-whisper-base.en CPU int8
+A04-P08, could,385.54,386.06,0.9945085644721985,faster-whisper-base.en CPU int8
+A04-P08, not,386.06,386.26000000000005,0.9974997639656067,faster-whisper-base.en CPU int8
+A04-P08, be,386.26000000000005,386.46000000000004,0.9989534616470337,faster-whisper-base.en CPU int8
+A04-P08, rehearsed,386.46000000000004,387.0,0.9864098429679871,faster-whisper-base.en CPU int8
+A04-P08," away,",387.0,387.12,0.9950291514396667,faster-whisper-base.en CPU int8
+A04-P08, the,387.86,388.0,0.9917746782302856,faster-whisper-base.en CPU int8
+A04-P08, wreck,388.0,388.16,0.8477219343185425,faster-whisper-base.en CPU int8
+A04-P08, itself.,388.16,388.54,0.9988054037094116,faster-whisper-base.en CPU int8
+A04-P08, Nobody,389.54,389.76000000000005,0.9923146367073059,faster-whisper-base.en CPU int8
+A04-P08, could,389.76000000000005,390.12,0.997962236404419,faster-whisper-base.en CPU int8
+A04-P08, reproduce,390.12,390.40000000000003,0.997413694858551,faster-whisper-base.en CPU int8
+A04-P08, its,390.40000000000003,390.92,0.9741200804710388,faster-whisper-base.en CPU int8
+A04-P08, damaged,390.92,391.32000000000005,0.9953300952911377,faster-whisper-base.en CPU int8
+A04-P08, structure,391.32000000000005,392.02000000000004,0.9980942606925964,faster-whisper-base.en CPU int8
+A04-P08, in,392.02000000000004,392.28000000000003,0.9972487092018127,faster-whisper-base.en CPU int8
+A04-P08, a,392.28000000000003,392.36,0.9960718154907227,faster-whisper-base.en CPU int8
+A04-P08, trial.,392.36,392.62,0.9864375591278076,faster-whisper-base.en CPU int8
+A04-P08, A,393.48,393.5,0.997008740901947,faster-whisper-base.en CPU int8
+A04-P08, working,393.5,393.78000000000003,0.9978494644165039,faster-whisper-base.en CPU int8
+A04-P08, lifting,393.78000000000003,394.08000000000004,0.9434653520584106,faster-whisper-base.en CPU int8
+A04-P08, system,394.08000000000004,394.70000000000005,0.9968752861022949,faster-whisper-base.en CPU int8
+A04-P08, would,394.70000000000005,394.90000000000003,0.9960253238677979,faster-whisper-base.en CPU int8
+A04-P08, still,394.90000000000003,395.18,0.9953296184539795,faster-whisper-base.en CPU int8
+A04-P08, have,395.18,395.44000000000005,0.998362123966217,faster-whisper-base.en CPU int8
+A04-P08, to,395.44000000000005,395.58000000000004,0.9973806738853455,faster-whisper-base.en CPU int8
+A04-P08, trust,395.58000000000004,395.88000000000005,0.9923863410949707,faster-whisper-base.en CPU int8
+A04-P08, that,395.88000000000005,396.16,0.995064914226532,faster-whisper-base.en CPU int8
+A04-P08, structure,396.16,396.70000000000005,0.9971790313720703,faster-whisper-base.en CPU int8
+A04-P08, with,396.70000000000005,396.98,0.991509199142456,faster-whisper-base.en CPU int8
+A04-P08, the,396.98,397.12,0.9955776929855347,faster-whisper-base.en CPU int8
+A04-P08, journey,397.12,397.5,0.9653244018554688,faster-whisper-base.en CPU int8
+A04-P08, upward.,397.5,397.74,0.9865221381187439,faster-whisper-base.en CPU int8
+A05-P01, Before,398.16,398.54,0.9876318573951721,faster-whisper-medium.en CPU int8 VAD
+A05-P01, that,398.54,398.8,0.9961203932762146,faster-whisper-medium.en CPU int8 VAD
+A05-P01," lift,",398.8,399.18,0.9911012649536133,faster-whisper-medium.en CPU int8 VAD
+A05-P01, there,399.56,399.66,0.9975681900978088,faster-whisper-medium.en CPU int8 VAD
+A05-P01, was,399.66,399.78000000000003,0.9995284080505371,faster-whisper-medium.en CPU int8 VAD
+A05-P01, a,399.78000000000003,399.96000000000004,0.9974149465560913,faster-whisper-medium.en CPU int8 VAD
+A05-P01, smaller,399.96000000000004,400.34000000000003,0.997526228427887,faster-whisper-medium.en CPU int8 VAD
+A05-P01, journey,400.34000000000003,400.84000000000003,0.9975395202636719,faster-whisper-medium.en CPU int8 VAD
+A05-P01, the,400.84000000000003,401.28000000000003,0.8990497589111328,faster-whisper-medium.en CPU int8 VAD
+A05-P01, CIA,401.28000000000003,401.78000000000003,0.9683681130409241,faster-whisper-medium.en CPU int8 VAD
+A05-P01, also,401.78000000000003,402.22,0.9939464926719666,faster-whisper-medium.en CPU int8 VAD
+A05-P01, had,402.22,402.44,0.999264657497406,faster-whisper-medium.en CPU int8 VAD
+A05-P01, to,402.44,402.62,0.9997274279594421,faster-whisper-medium.en CPU int8 VAD
+A05-P01," conceal,",402.62,403.12,0.9974708557128906,faster-whisper-medium.en CPU int8 VAD
+A05-P01, getting,403.5,403.72,0.990352213382721,faster-whisper-medium.en CPU int8 VAD
+A05-P01, the,403.72,403.98,0.9987518787384033,faster-whisper-medium.en CPU int8 VAD
+A05-P01, capture,403.98,404.28000000000003,0.9630177617073059,faster-whisper-medium.en CPU int8 VAD
+A05-P01, vehicle,404.28000000000003,404.66,0.9982547163963318,faster-whisper-medium.en CPU int8 VAD
+A05-P01, aboard.,404.66,405.12,0.9859532117843628,faster-whisper-medium.en CPU int8 VAD
+A05-P01, The,405.8,405.94,0.9963033199310303,faster-whisper-medium.en CPU int8 VAD
+A05-P01, well,405.94,406.16,0.983196496963501,faster-whisper-medium.en CPU int8 VAD
+A05-P01, could,406.16,406.44,0.998820960521698,faster-whisper-medium.en CPU int8 VAD
+A05-P01, hide,406.44,406.74,0.996034562587738,faster-whisper-medium.en CPU int8 VAD
+A05-P01, a,406.74,406.90000000000003,0.9963729381561279,faster-whisper-medium.en CPU int8 VAD
+A05-P01, recovered,406.90000000000003,407.24,0.9996986389160156,faster-whisper-medium.en CPU int8 VAD
+A05-P01, submarine.,407.24,407.82000000000005,0.9966174960136414,faster-whisper-medium.en CPU int8 VAD
+A05-P01, It,408.42,408.52000000000004,0.9954698085784912,faster-whisper-medium.en CPU int8 VAD
+A05-P01, would,408.52000000000004,408.64000000000004,0.9980631470680237,faster-whisper-medium.en CPU int8 VAD
+A05-P01, be,408.64000000000004,408.78000000000003,0.9989226460456848,faster-whisper-medium.en CPU int8 VAD
+A05-P01, little,408.78000000000003,409.04,0.988791823387146,faster-whisper-medium.en CPU int8 VAD
+A05-P01, use,409.04,409.42,0.9962270259857178,faster-whisper-medium.en CPU int8 VAD
+A05-P01, if,409.42,409.64000000000004,0.9719370603561401,faster-whisper-medium.en CPU int8 VAD
+A05-P01, the,409.64000000000004,409.78000000000003,0.9952725768089294,faster-whisper-medium.en CPU int8 VAD
+A05-P01, equipment,409.78000000000003,410.14000000000004,0.9992328882217407,faster-whisper-medium.en CPU int8 VAD
+A05-P01, going,410.14000000000004,410.46000000000004,0.998691976070404,faster-whisper-medium.en CPU int8 VAD
+A05-P01, into,410.46000000000004,410.74,0.9952647686004639,faster-whisper-medium.en CPU int8 VAD
+A05-P01, it,410.74,410.92,0.997428834438324,faster-whisper-medium.en CPU int8 VAD
+A05-P01, had,410.92,411.1,0.9893276691436768,faster-whisper-medium.en CPU int8 VAD
+A05-P01, already,411.1,411.44,0.9990848302841187,faster-whisper-medium.en CPU int8 VAD
+A05-P01, revealed,411.44,411.86,0.9989206790924072,faster-whisper-medium.en CPU int8 VAD
+A05-P01, the,411.86,412.04,0.9985150694847107,faster-whisper-medium.en CPU int8 VAD
+A05-P01, mission.,412.04,412.28000000000003,0.9988195300102234,faster-whisper-medium.en CPU int8 VAD
+A05-P02, Loading,412.48,412.84000000000003,0.7857023477554321,faster-whisper-medium.en CPU int8 VAD
+A05-P02, it,412.84000000000003,413.02000000000004,0.9980574250221252,faster-whisper-medium.en CPU int8 VAD
+A05-P02, over,413.02000000000004,413.24,0.9988346695899963,faster-whisper-medium.en CPU int8 VAD
+A05-P02, the,413.24,413.44,0.9971447587013245,faster-whisper-medium.en CPU int8 VAD
+A05-P02, side,413.44,413.84000000000003,0.9947683811187744,faster-whisper-medium.en CPU int8 VAD
+A05-P02, would,413.84000000000003,414.08000000000004,0.9847687482833862,faster-whisper-medium.en CPU int8 VAD
+A05-P02, expose,414.08000000000004,414.56,0.9984820485115051,faster-whisper-medium.en CPU int8 VAD
+A05-P02, its,414.56,414.8,0.9831657409667969,faster-whisper-medium.en CPU int8 VAD
+A05-P02, shape,414.8,415.20000000000005,0.9964388608932495,faster-whisper-medium.en CPU int8 VAD
+A05-P02, during,415.20000000000005,415.58000000000004,0.9980350136756897,faster-whisper-medium.en CPU int8 VAD
+A05-P02, the,415.58000000000004,415.8,0.9943817257881165,faster-whisper-medium.en CPU int8 VAD
+A05-P02, transfer.,415.8,416.3,0.9987623691558838,faster-whisper-medium.en CPU int8 VAD
+A05-P02," Instead,",416.94,417.3,0.9926687479019165,faster-whisper-medium.en CPU int8 VAD
+A05-P02, the,417.78000000000003,417.88,0.9975255131721497,faster-whisper-medium.en CPU int8 VAD
+A05-P02, capture,417.88,418.14000000000004,0.954538106918335,faster-whisper-medium.en CPU int8 VAD
+A05-P02, vehicle,418.14000000000004,418.52000000000004,0.9952172040939331,faster-whisper-medium.en CPU int8 VAD
+A05-P02, was,418.52000000000004,418.8,0.9993738532066345,faster-whisper-medium.en CPU int8 VAD
+A05-P02, built,418.8,419.06,0.9985780715942383,faster-whisper-medium.en CPU int8 VAD
+A05-P02, under,419.06,419.3,0.8245415687561035,faster-whisper-medium.en CPU int8 VAD
+A05-P02, cover,419.3,419.70000000000005,0.9960567951202393,faster-whisper-medium.en CPU int8 VAD
+A05-P02, and,419.70000000000005,420.26,0.8741561770439148,faster-whisper-medium.en CPU int8 VAD
+A05-P02, carried,420.26,420.64000000000004,0.998371422290802,faster-whisper-medium.en CPU int8 VAD
+A05-P02, in,420.64000000000004,420.86,0.9979792237281799,faster-whisper-medium.en CPU int8 VAD
+A05-P02, a,420.86,421.04,0.9908242225646973,faster-whisper-medium.en CPU int8 VAD
+A05-P02, specially,421.04,421.36,0.998370349407196,faster-whisper-medium.en CPU int8 VAD
+A05-P02, designed,421.36,421.96000000000004,0.8455881476402283,faster-whisper-medium.en CPU int8 VAD
+A05-P02," barge,",421.96000000000004,422.58000000000004,0.9781638979911804,faster-whisper-medium.en CPU int8 VAD
+A05-P02, HMB1.,423.20000000000005,424.06,0.6949419379234314,faster-whisper-medium.en CPU int8 VAD
+A05-P02, The,424.68,424.82,0.9954562187194824,faster-whisper-medium.en CPU int8 VAD
+A05-P02, barge,424.82,425.16,0.9931235015392303,faster-whisper-medium.en CPU int8 VAD
+A05-P02, had,425.16,425.38,0.9968364238739014,faster-whisper-medium.en CPU int8 VAD
+A05-P02, a,425.38,425.5,0.9993094205856323,faster-whisper-medium.en CPU int8 VAD
+A05-P02, retractable,425.5,426.18,0.9969969689846039,faster-whisper-medium.en CPU int8 VAD
+A05-P02, roof.,426.18,426.54,0.9993131160736084,faster-whisper-medium.en CPU int8 VAD
+A05-P02, What,427.04,427.16,0.9938410520553589,faster-whisper-medium.en CPU int8 VAD
+A05-P02, looked,427.16,427.42,0.9964021444320679,faster-whisper-medium.en CPU int8 VAD
+A05-P02, from,427.42,427.6,0.9864527583122253,faster-whisper-medium.en CPU int8 VAD
+A05-P02," outside,",427.6,428.26,0.9933053851127625,faster-whisper-medium.en CPU int8 VAD
+A05-P02, like,428.62,428.8,0.9990455508232117,faster-whisper-medium.en CPU int8 VAD
+A05-P02, another,428.8,429.14000000000004,0.9971455931663513,faster-whisper-medium.en CPU int8 VAD
+A05-P02, part,429.14000000000004,429.42,0.9994397759437561,faster-whisper-medium.en CPU int8 VAD
+A05-P02, of,429.42,429.58000000000004,0.9985209107398987,faster-whisper-medium.en CPU int8 VAD
+A05-P02, a,429.58000000000004,429.76,0.9952412843704224,faster-whisper-medium.en CPU int8 VAD
+A05-P02, mining,429.76,430.02000000000004,0.9966861605644226,faster-whisper-medium.en CPU int8 VAD
+A05-P02," enterprise,",430.02000000000004,430.70000000000005,0.9888641834259033,faster-whisper-medium.en CPU int8 VAD
+A05-P02, concealed,431.02000000000004,431.40000000000003,0.9989320635795593,faster-whisper-medium.en CPU int8 VAD
+A05-P02, the,431.40000000000003,431.66,0.9990202188491821,faster-whisper-medium.en CPU int8 VAD
+A05-P02, equipment,431.66,432.04,0.9996680021286011,faster-whisper-medium.en CPU int8 VAD
+A05-P02, inside.,432.04,432.6,0.9992042183876038,faster-whisper-medium.en CPU int8 VAD
+A05-P03, The,432.72,432.86,0.9076222777366638,faster-whisper-base.en CPU int8
+A05-P03, transfer,432.86,433.26000000000005,0.9705560207366943,faster-whisper-base.en CPU int8
+A05-P03, used,433.26000000000005,433.6,0.9615787267684937,faster-whisper-base.en CPU int8
+A05-P03, the,433.6,433.90000000000003,0.9928995370864868,faster-whisper-base.en CPU int8
+A05-P03, water,433.90000000000003,434.1,0.9973779916763306,faster-whisper-base.en CPU int8
+A05-P03, itself,434.1,434.56,0.9909658432006836,faster-whisper-base.en CPU int8
+A05-P03, as,434.56,434.84000000000003,0.9722827672958374,faster-whisper-base.en CPU int8
+A05-P03, concealment.,434.84000000000003,435.52000000000004,0.9931856691837311,faster-whisper-base.en CPU int8
+A05-P03, The,436.34000000000003,436.42,0.9925274848937988,faster-whisper-base.en CPU int8
+A05-P03, barge,436.42,436.8,0.921755313873291,faster-whisper-base.en CPU int8
+A05-P03, submerged,436.8,437.14000000000004,0.9756270051002502,faster-whisper-base.en CPU int8
+A05-P03, in,437.14000000000004,437.82000000000005,0.9981599450111389,faster-whisper-base.en CPU int8
+A05-P03, shallow,437.82000000000005,438.04,0.9962766766548157,faster-whisper-base.en CPU int8
+A05-P03, water.,438.04,438.54,0.9994180202484131,faster-whisper-base.en CPU int8
+A05-P03, The,439.26000000000005,439.3,0.9965835809707642,faster-whisper-base.en CPU int8
+A05-P03, explorer,439.3,439.72,0.8863120675086975,faster-whisper-base.en CPU int8
+A05-P03, positioned,439.72,440.34000000000003,0.9846408367156982,faster-whisper-base.en CPU int8
+A05-P03, itself,440.34000000000003,440.90000000000003,0.991397500038147,faster-whisper-base.en CPU int8
+A05-P03, above,440.90000000000003,441.20000000000005,0.999056875705719,faster-whisper-base.en CPU int8
+A05-P03, it.,441.20000000000005,441.56,0.9990932941436768,faster-whisper-base.en CPU int8
+A05-P03, The,442.16,442.24,0.9972274899482727,faster-whisper-base.en CPU int8
+A05-P03, capture,442.24,442.46000000000004,0.9540703296661377,faster-whisper-base.en CPU int8
+A05-P03, vehicle,442.46000000000004,442.98,0.9994634985923767,faster-whisper-base.en CPU int8
+A05-P03, could,442.98,443.32000000000005,0.9939184188842773,faster-whisper-base.en CPU int8
+A05-P03, then,443.32000000000005,443.54,0.9951527118682861,faster-whisper-base.en CPU int8
+A05-P03, be,443.54,443.74,0.9982378482818604,faster-whisper-base.en CPU int8
+A05-P03, lifted,443.74,444.04,0.9978914856910706,faster-whisper-base.en CPU int8
+A05-P03, into,444.04,444.38000000000005,0.9886482357978821,faster-whisper-base.en CPU int8
+A05-P03, the,444.38000000000005,444.54,0.9966877102851868,faster-whisper-base.en CPU int8
+A05-P03, central,444.54,444.88000000000005,0.9956114888191223,faster-whisper-base.en CPU int8
+A05-P03, well,444.88000000000005,445.16,0.9885237812995911,faster-whisper-base.en CPU int8
+A05-P03, from,445.16,445.46000000000004,0.9936472773551941,faster-whisper-base.en CPU int8
+A05-P03, underneath,445.46000000000004,445.88000000000005,0.9976142644882202,faster-whisper-base.en CPU int8
+A05-P03, instead,445.88000000000005,446.68,0.3924640119075775,faster-whisper-base.en CPU int8
+A05-P03, of,446.68,446.90000000000003,0.999138355255127,faster-whisper-base.en CPU int8
+A05-P03, being,446.90000000000003,447.06,0.9951475262641907,faster-whisper-base.en CPU int8
+A05-P03, suspended,447.06,447.46000000000004,0.9991472959518433,faster-whisper-base.en CPU int8
+A05-P03, in,447.46000000000004,447.88000000000005,0.9974114298820496,faster-whisper-base.en CPU int8
+A05-P03, the,447.88000000000005,447.98,0.9960630536079407,faster-whisper-base.en CPU int8
+A05-P03, open,447.98,448.24,0.9983099699020386,faster-whisper-base.en CPU int8
+A05-P03, air,448.24,448.54,0.988470196723938,faster-whisper-base.en CPU int8
+A05-P03, between,448.54,448.88000000000005,0.997334897518158,faster-whisper-base.en CPU int8
+A05-P03, the,448.88000000000005,449.12,0.9979655742645264,faster-whisper-base.en CPU int8
+A05-P03, two,449.12,449.32000000000005,0.9937161803245544,faster-whisper-base.en CPU int8
+A05-P03, vessels.,449.32000000000005,449.56,0.994895875453949,faster-whisper-base.en CPU int8
+A05-P04, The,450.08,450.18,0.9259817004203796,faster-whisper-base.en CPU int8
+A05-P04, ship,450.18,450.34,0.999049961566925,faster-whisper-base.en CPU int8
+A05-P04, did,450.34,450.52,0.9965130686759949,faster-whisper-base.en CPU int8
+A05-P04, not,450.52,450.71999999999997,0.9991443157196045,faster-whisper-base.en CPU int8
+A05-P04, need,450.71999999999997,450.96,0.9988413453102112,faster-whisper-base.en CPU int8
+A05-P04, to,450.96,451.09999999999997,0.9979252815246582,faster-whisper-base.en CPU int8
+A05-P04, hide,451.09999999999997,451.38,0.9907302260398865,faster-whisper-base.en CPU int8
+A05-P04, a,451.38,451.47999999999996,0.9901044964790344,faster-whisper-base.en CPU int8
+A05-P04," crane,",451.47999999999996,451.91999999999996,0.9985270500183105,faster-whisper-base.en CPU int8
+A05-P04, swinging,452.34,452.64,0.9958551526069641,faster-whisper-base.en CPU int8
+A05-P04, its,452.64,453.0,0.9776251316070557,faster-whisper-base.en CPU int8
+A05-P04, secret,453.0,453.3,0.993699312210083,faster-whisper-base.en CPU int8
+A05-P04, cargo,453.3,453.64,0.9960814118385315,faster-whisper-base.en CPU int8
+A05-P04, overhead.,453.64,454.21999999999997,0.9840333461761475,faster-whisper-base.en CPU int8
+A05-P04, It,455.06,455.12,0.9958066940307617,faster-whisper-base.en CPU int8
+A05-P04, took,455.12,455.28,0.9991970658302307,faster-whisper-base.en CPU int8
+A05-P04, delivery,455.28,455.62,0.9812533259391785,faster-whisper-base.en CPU int8
+A05-P04, through,455.62,456.03999999999996,0.994171679019928,faster-whisper-base.en CPU int8
+A05-P04, the,456.03999999999996,456.15999999999997,0.9945869445800781,faster-whisper-base.en CPU int8
+A05-P04, bottom.,456.15999999999997,456.44,0.9982902407646179,faster-whisper-base.en CPU int8
+A05-P04," Later,",456.9,457.06,0.9940541386604309,faster-whisper-base.en CPU int8
+A05-P04, the,457.5,457.7,0.9979948997497559,faster-whisper-base.en CPU int8
+A05-P04, wreck,457.7,457.88,0.9752035140991211,faster-whisper-base.en CPU int8
+A05-P04, would,457.88,458.09999999999997,0.9959665536880493,faster-whisper-base.en CPU int8
+A05-P04, have,458.09999999999997,458.24,0.9958494901657104,faster-whisper-base.en CPU int8
+A05-P04, to,458.24,458.4,0.9982043504714966,faster-whisper-base.en CPU int8
+A05-P04, enter,458.4,458.56,0.9979580640792847,faster-whisper-base.en CPU int8
+A05-P04, through,458.56,458.88,0.9872044324874878,faster-whisper-base.en CPU int8
+A05-P04, that,458.88,459.02,0.9865543842315674,faster-whisper-base.en CPU int8
+A05-P04, same,459.02,459.32,0.9969850182533264,faster-whisper-base.en CPU int8
+A05-P04, concealed,459.32,459.64,0.9937858581542969,faster-whisper-base.en CPU int8
+A05-P04, opening.,459.64,460.26,0.9946380257606506,faster-whisper-base.en CPU int8
+A05-P05, The,460.64,460.8,0.8987232446670532,faster-whisper-medium.en CPU int8 VAD
+A05-P05, visible,460.8,461.18,0.9917033314704895,faster-whisper-medium.en CPU int8 VAD
+A05-P05, ship,461.18,461.56,0.9978318810462952,faster-whisper-medium.en CPU int8 VAD
+A05-P05, was,461.56,461.9,0.9981891512870789,faster-whisper-medium.en CPU int8 VAD
+A05-P05, only,461.9,462.15999999999997,0.999183714389801,faster-whisper-medium.en CPU int8 VAD
+A05-P05, part,462.15999999999997,462.47999999999996,0.9895636439323425,faster-whisper-medium.en CPU int8 VAD
+A05-P05, of,462.47999999999996,462.7,0.9996504783630371,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,462.7,462.8,0.9975402355194092,faster-whisper-medium.en CPU int8 VAD
+A05-P05, operation.,462.8,463.4,0.9960799813270569,faster-whisper-medium.en CPU int8 VAD
+A05-P05, To,463.88,463.96,0.9959041476249695,faster-whisper-medium.en CPU int8 VAD
+A05-P05, understand,463.96,464.41999999999996,0.9991903901100159,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,464.41999999999996,464.64,0.9986420273780823,faster-whisper-medium.en CPU int8 VAD
+A05-P05," transfer,",464.64,465.14,0.9976109266281128,faster-whisper-medium.en CPU int8 VAD
+A05-P05, follow,465.65999999999997,465.86,0.9980103373527527,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,465.86,466.12,0.9992284774780273,faster-whisper-medium.en CPU int8 VAD
+A05-P05, capture,466.12,466.4,0.9890809059143066,faster-whisper-medium.en CPU int8 VAD
+A05-P05, vehicle.,466.4,466.88,0.996056079864502,faster-whisper-medium.en CPU int8 VAD
+A05-P05, Out,467.44,467.62,0.9726459383964539,faster-whisper-medium.en CPU int8 VAD
+A05-P05, of,467.62,467.8,0.9913039207458496,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,467.8,467.94,0.9967696666717529,faster-whisper-medium.en CPU int8 VAD
+A05-P05, covered,467.94,468.21999999999997,0.9980379939079285,faster-whisper-medium.en CPU int8 VAD
+A05-P05," barge,",468.21999999999997,468.76,0.9987419247627258,faster-whisper-medium.en CPU int8 VAD
+A05-P05, through,468.97999999999996,469.18,0.9827626943588257,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,469.18,469.4,0.9968761205673218,faster-whisper-medium.en CPU int8 VAD
+A05-P05," water,",469.4,469.8,0.9982014894485474,faster-whisper-medium.en CPU int8 VAD
+A05-P05, into,470.2,470.41999999999996,0.9956026077270508,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,470.41999999999996,470.65999999999997,0.9987357258796692,faster-whisper-medium.en CPU int8 VAD
+A05-P05, well.,470.65999999999997,470.94,0.9842581748962402,faster-whisper-medium.en CPU int8 VAD
+A05-P05, At,471.34,471.46,0.9969364404678345,faster-whisper-medium.en CPU int8 VAD
+A05-P05, no,471.46,471.64,0.9992324113845825,faster-whisper-medium.en CPU int8 VAD
+A05-P05, point,471.64,471.96,0.9996261596679688,faster-whisper-medium.en CPU int8 VAD
+A05-P05, did,471.96,472.15999999999997,0.9909666776657104,faster-whisper-medium.en CPU int8 VAD
+A05-P05, that,472.15999999999997,472.38,0.9903631806373596,faster-whisper-medium.en CPU int8 VAD
+A05-P05, route,472.38,472.71999999999997,0.998191773891449,faster-whisper-medium.en CPU int8 VAD
+A05-P05, require,472.71999999999997,473.3,0.9845593571662903,faster-whisper-medium.en CPU int8 VAD
+A05-P05, displaying,473.3,473.8,0.9970945119857788,faster-whisper-medium.en CPU int8 VAD
+A05-P05, it,473.8,474.02,0.9979941844940186,faster-whisper-medium.en CPU int8 VAD
+A05-P05, over,474.02,474.26,0.9991648197174072,faster-whisper-medium.en CPU int8 VAD
+A05-P05, the,474.26,474.4,0.9975520968437195,faster-whisper-medium.en CPU int8 VAD
+A05-P05, rail.,474.4,474.7,0.9957818984985352,faster-whisper-medium.en CPU int8 VAD
+A05-P06, but,474.8,474.92,0.355233758687973,faster-whisper-base.en CPU int8
+A05-P06, the,474.92,475.04,0.9970555305480957,faster-whisper-base.en CPU int8
+A05-P06, system,475.04,475.36,0.9763192534446716,faster-whisper-base.en CPU int8
+A05-P06, still,475.36,475.76,0.9943450689315796,faster-whisper-base.en CPU int8
+A05-P06, depended,475.76,476.12,0.9947772026062012,faster-whisper-base.en CPU int8
+A05-P06, on,476.12,476.44,0.9973973035812378,faster-whisper-base.en CPU int8
+A05-P06, operating,476.44,476.82,0.9972858428955078,faster-whisper-base.en CPU int8
+A05-P06, a,476.82,477.16,0.996758759021759,faster-whisper-base.en CPU int8
+A05-P06, conspicuous,477.16,477.42,0.9921758770942688,faster-whisper-base.en CPU int8
+A05-P06, ship,477.42,478.1,0.99693763256073,faster-whisper-base.en CPU int8
+A05-P06, in,478.1,478.32,0.9981050491333008,faster-whisper-base.en CPU int8
+A05-P06, one,478.32,478.46000000000004,0.9967415928840637,faster-whisper-base.en CPU int8
+A05-P06, place,478.46000000000004,478.88,0.9990173578262329,faster-whisper-base.en CPU int8
+A05-P06, while,478.88,479.54,0.6820633411407471,faster-whisper-base.en CPU int8
+A05-P06, keeping,479.54,479.90000000000003,0.9935761094093323,faster-whisper-base.en CPU int8
+A05-P06, the,479.90000000000003,480.22,0.9969261288642883,faster-whisper-base.en CPU int8
+A05-P06, object,480.22,480.42,0.9987687468528748,faster-whisper-base.en CPU int8
+A05-P06, below,480.42,480.88,0.9872958064079285,faster-whisper-base.en CPU int8
+A05-P06, it,480.88,481.16,0.9980852603912354,faster-whisper-base.en CPU int8
+A05-P06, out,481.16,481.28000000000003,0.9749978184700012,faster-whisper-base.en CPU int8
+A05-P06, of,481.28000000000003,481.46000000000004,0.9856790900230408,faster-whisper-base.en CPU int8
+A05-P06, view.,481.46000000000004,481.7,0.999472439289093,faster-whisper-base.en CPU int8
+A05-P06, The,482.68,482.76,0.9902799725532532,faster-whisper-base.en CPU int8
+A05-P06, cover,482.76,482.94,0.9897448420524597,faster-whisper-base.en CPU int8
+A05-P06, explained,482.94,483.5,0.9972459077835083,faster-whisper-base.en CPU int8
+A05-P06, what,483.5,483.94,0.9949466586112976,faster-whisper-base.en CPU int8
+A05-P06, an,483.94,484.1,0.9978062510490417,faster-whisper-base.en CPU int8
+A05-P06, observer,484.1,484.44,0.9788661599159241,faster-whisper-base.en CPU int8
+A05-P06, could,484.44,484.82,0.9988662004470825,faster-whisper-base.en CPU int8
+A05-P06, see.,484.82,485.12,0.9987344145774841,faster-whisper-base.en CPU int8
+A05-P06, It,485.94,486.08,0.9928526282310486,faster-whisper-base.en CPU int8
+A05-P06, could,486.08,486.26,0.9968354105949402,faster-whisper-base.en CPU int8
+A05-P06, not,486.26,486.46000000000004,0.9993519186973572,faster-whisper-base.en CPU int8
+A05-P06, make,486.46000000000004,486.7,0.9981098175048828,faster-whisper-base.en CPU int8
+A05-P06, the,486.7,486.90000000000003,0.9979335069656372,faster-whisper-base.en CPU int8
+A05-P06, observer,486.90000000000003,487.12,0.9960963129997253,faster-whisper-base.en CPU int8
+A05-P06, leave.,487.12,487.64,0.9879119992256165,faster-whisper-base.en CPU int8
+A06-P01, President,487.92,488.36,0.9522069692611694,faster-whisper-medium.en CPU int8 VAD
+A06-P01, Nixon,488.36,488.8,0.9902281761169434,faster-whisper-medium.en CPU int8 VAD
+A06-P01, authorized,488.8,489.52000000000004,0.6653795838356018,faster-whisper-medium.en CPU int8 VAD
+A06-P01, the,489.52000000000004,489.8,0.9968355298042297,faster-whisper-medium.en CPU int8 VAD
+A06-P01, recovery,489.8,490.2,0.9800047278404236,faster-whisper-medium.en CPU int8 VAD
+A06-P01, plan,490.2,490.62,0.9984377026557922,faster-whisper-medium.en CPU int8 VAD
+A06-P01, on,490.62,490.88,0.9967053532600403,faster-whisper-medium.en CPU int8 VAD
+A06-P01, June,490.88,491.1,0.9747126698493958,faster-whisper-medium.en CPU int8 VAD
+A06-P01," 7th,",491.1,491.94,0.8386778831481934,faster-whisper-medium.en CPU int8 VAD
+A06-P01, 1974.,491.94,492.84000000000003,0.9974616765975952,faster-whisper-medium.en CPU int8 VAD
+A06-P01, The,493.76,493.86,0.9963633418083191,faster-whisper-medium.en CPU int8 VAD
+A06-P01, mission,493.86,494.1,0.9939981698989868,faster-whisper-medium.en CPU int8 VAD
+A06-P01, began,494.1,494.48,0.9978259205818176,faster-whisper-medium.en CPU int8 VAD
+A06-P01, that,494.48,494.68,0.9952031373977661,faster-whisper-medium.en CPU int8 VAD
+A06-P01, June,494.68,495.12,0.9988722205162048,faster-whisper-medium.en CPU int8 VAD
+A06-P01, and,495.12,495.62,0.6610369682312012,faster-whisper-medium.en CPU int8 VAD
+A06-P01, the,495.62,495.78000000000003,0.9933526515960693,faster-whisper-medium.en CPU int8 VAD
+A06-P01, explorer,495.78000000000003,496.28000000000003,0.7145928144454956,faster-whisper-medium.en CPU int8 VAD
+A06-P01, arrived,496.28000000000003,496.86,0.9992271661758423,faster-whisper-medium.en CPU int8 VAD
+A06-P01, over,496.86,497.12,0.9972392320632935,faster-whisper-medium.en CPU int8 VAD
+A06-P01, the,497.12,497.28000000000003,0.9983206391334534,faster-whisper-medium.en CPU int8 VAD
+A06-P01, recovery,497.28000000000003,497.64000000000004,0.995507001876831,faster-whisper-medium.en CPU int8 VAD
+A06-P01, site,497.64000000000004,498.0,0.9981316924095154,faster-whisper-medium.en CPU int8 VAD
+A06-P01, on,498.0,498.2,0.9979008436203003,faster-whisper-medium.en CPU int8 VAD
+A06-P01, July,498.2,498.44,0.9980771541595459,faster-whisper-medium.en CPU int8 VAD
+A06-P01, 4.,498.44,498.84000000000003,0.9915336966514587,faster-whisper-medium.en CPU int8 VAD
+A06-P01, The,499.44,499.6,0.9959831237792969,faster-whisper-medium.en CPU int8 VAD
+A06-P01, ship,499.6,499.8,0.9980946183204651,faster-whisper-medium.en CPU int8 VAD
+A06-P01, had,499.8,500.0,0.9965981841087341,faster-whisper-medium.en CPU int8 VAD
+A06-P01, reached,500.0,500.24,0.9969479441642761,faster-whisper-medium.en CPU int8 VAD
+A06-P01, the,500.24,500.46000000000004,0.9661399722099304,faster-whisper-medium.en CPU int8 VAD
+A06-P01, place,500.46000000000004,500.72,0.9991973042488098,faster-whisper-medium.en CPU int8 VAD
+A06-P01, that,500.72,500.98,0.9953685998916626,faster-whisper-medium.en CPU int8 VAD
+A06-P01, justified,500.98,501.44,0.9974990487098694,faster-whisper-medium.en CPU int8 VAD
+A06-P01, years,501.44,501.82,0.998565137386322,faster-whisper-medium.en CPU int8 VAD
+A06-P01, of,501.82,502.04,0.9994555115699768,faster-whisper-medium.en CPU int8 VAD
+A06-P01, construction.,502.04,502.6,0.9993140697479248,faster-whisper-medium.en CPU int8 VAD
+A06-P01, Now,503.32,503.52000000000004,0.9971031546592712,faster-whisper-medium.en CPU int8 VAD
+A06-P01, the,503.52000000000004,503.74,0.8794364929199219,faster-whisper-medium.en CPU int8 VAD
+A06-P01, crew,503.74,503.94,0.9981043338775635,faster-whisper-medium.en CPU int8 VAD
+A06-P01, had,503.94,504.16,0.9984937906265259,faster-whisper-medium.en CPU int8 VAD
+A06-P01, to,504.16,504.36,0.9989355206489563,faster-whisper-medium.en CPU int8 VAD
+A06-P01, turn,504.36,504.54,0.9994184970855713,faster-whisper-medium.en CPU int8 VAD
+A06-P01, the,504.54,504.72,0.9981366395950317,faster-whisper-medium.en CPU int8 VAD
+A06-P01, equipment,504.72,505.1,0.9994305968284607,faster-whisper-medium.en CPU int8 VAD
+A06-P01, into,505.1,505.42,0.9979161620140076,faster-whisper-medium.en CPU int8 VAD
+A06-P01, a,505.42,505.64,0.9982715845108032,faster-whisper-medium.en CPU int8 VAD
+A06-P01, working,505.64,505.92,0.9965787529945374,faster-whisper-medium.en CPU int8 VAD
+A06-P01, recovery,505.92,506.44,0.9980781078338623,faster-whisper-medium.en CPU int8 VAD
+A06-P01, system.,506.44,506.86,0.9993889331817627,faster-whisper-medium.en CPU int8 VAD
+A06-P02, On,507.04,507.28000000000003,0.9802220463752747,faster-whisper-medium.en CPU int8 VAD
+A06-P02, July,507.28000000000003,507.58000000000004,0.8593267798423767,faster-whisper-medium.en CPU int8 VAD
+A06-P02," 18th,",507.58000000000004,508.56,0.9263145923614502,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,508.68,508.8,0.9928777813911438,faster-whisper-medium.en CPU int8 VAD
+A06-P02, Soviet,508.8,509.18,0.9521307349205017,faster-whisper-medium.en CPU int8 VAD
+A06-P02, ship,509.18,509.54,0.9664929509162903,faster-whisper-medium.en CPU int8 VAD
+A06-P02, Chajma,509.54,510.16,0.67636705438296,faster-whisper-medium.en CPU int8 VAD
+A06-P02, approached,510.16,510.88,0.9970380067825317,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,510.88,511.14000000000004,0.996796190738678,faster-whisper-medium.en CPU int8 VAD
+A06-P02, Explorer.,511.14000000000004,511.68,0.7402652502059937,faster-whisper-medium.en CPU int8 VAD
+A06-P02, Its,512.5,512.7,0.9639506340026855,faster-whisper-medium.en CPU int8 VAD
+A06-P02, helicopter,512.7,513.14,0.9961392283439636,faster-whisper-medium.en CPU int8 VAD
+A06-P02, made,513.14,513.5,0.9988142251968384,faster-whisper-medium.en CPU int8 VAD
+A06-P02, repeated,513.5,513.98,0.9978297352790833,faster-whisper-medium.en CPU int8 VAD
+A06-P02, photographic,513.98,514.64,0.9973363280296326,faster-whisper-medium.en CPU int8 VAD
+A06-P02, passes.,514.64,515.26,0.9996708631515503,faster-whisper-medium.en CPU int8 VAD
+A06-P02, Before,516.14,516.36,0.997358500957489,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,516.36,516.5600000000001,0.9988824725151062,faster-whisper-medium.en CPU int8 VAD
+A06-P02, ship,516.5600000000001,516.6800000000001,0.9974097609519958,faster-whisper-medium.en CPU int8 VAD
+A06-P02," arrived,",516.6800000000001,517.24,0.9978812336921692,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,517.64,517.7,0.9919551014900208,faster-whisper-medium.en CPU int8 VAD
+A06-P02, mission,517.7,517.9200000000001,0.7925244569778442,faster-whisper-medium.en CPU int8 VAD
+A06-P02, director,517.9200000000001,518.32,0.9892093539237976,faster-whisper-medium.en CPU int8 VAD
+A06-P02, had,518.32,518.58,0.994831383228302,faster-whisper-medium.en CPU int8 VAD
+A06-P02, ordered,518.58,518.96,0.9994852542877197,faster-whisper-medium.en CPU int8 VAD
+A06-P02, canvas,518.96,519.48,0.9831560850143433,faster-whisper-medium.en CPU int8 VAD
+A06-P02,-covered,519.48,519.78,0.8477557897567749,faster-whisper-medium.en CPU int8 VAD
+A06-P02, crates,519.78,520.2,0.9916049242019653,faster-whisper-medium.en CPU int8 VAD
+A06-P02, stacked,520.2,520.64,0.9827674627304077,faster-whisper-medium.en CPU int8 VAD
+A06-P02, on,520.64,520.88,0.9985687732696533,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,520.88,521.0600000000001,0.9984394907951355,faster-whisper-medium.en CPU int8 VAD
+A06-P02, Explorer's,521.0600000000001,521.6,0.9277021586894989,faster-whisper-medium.en CPU int8 VAD
+A06-P02, helicopter,521.6,522.02,0.9791440367698669,faster-whisper-medium.en CPU int8 VAD
+A06-P02, deck,522.02,522.36,0.9978371262550354,faster-whisper-medium.en CPU int8 VAD
+A06-P02, to,522.36,522.74,0.9191333055496216,faster-whisper-medium.en CPU int8 VAD
+A06-P02, prevent,522.74,523.02,0.9993901252746582,faster-whisper-medium.en CPU int8 VAD
+A06-P02, a,523.02,523.24,0.9975094795227051,faster-whisper-medium.en CPU int8 VAD
+A06-P02, landing.,523.24,523.6,0.9998257756233215,faster-whisper-medium.en CPU int8 VAD
+A06-P02, The,524.4,524.52,0.9900500774383545,faster-whisper-medium.en CPU int8 VAD
+A06-P02, crates,524.52,524.82,0.9950475692749023,faster-whisper-medium.en CPU int8 VAD
+A06-P02, could,524.82,525.0600000000001,0.9983260035514832,faster-whisper-medium.en CPU int8 VAD
+A06-P02, block,525.0600000000001,525.38,0.997891366481781,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,525.38,525.58,0.998324453830719,faster-whisper-medium.en CPU int8 VAD
+A06-P02, landing,525.58,525.86,0.9994385838508606,faster-whisper-medium.en CPU int8 VAD
+A06-P02," space,",525.86,526.32,0.9838735461235046,faster-whisper-medium.en CPU int8 VAD
+A06-P02, they,526.76,526.88,0.9769759774208069,faster-whisper-medium.en CPU int8 VAD
+A06-P02, could,526.88,527.04,0.9979560375213623,faster-whisper-medium.en CPU int8 VAD
+A06-P02, not,527.04,527.24,0.9988846182823181,faster-whisper-medium.en CPU int8 VAD
+A06-P02, stop,527.24,527.5600000000001,0.9990077614784241,faster-whisper-medium.en CPU int8 VAD
+A06-P02, the,527.5600000000001,527.8000000000001,0.9976699948310852,faster-whisper-medium.en CPU int8 VAD
+A06-P02, cameras,527.8000000000001,528.0600000000001,0.9763863682746887,faster-whisper-medium.en CPU int8 VAD
+A06-P02, looking,528.0600000000001,528.4,0.992236316204071,faster-whisper-medium.en CPU int8 VAD
+A06-P02, down,528.4,528.74,0.999322772026062,faster-whisper-medium.en CPU int8 VAD
+A06-P02, from,528.74,528.98,0.9991928935050964,faster-whisper-medium.en CPU int8 VAD
+A06-P02, above.,528.98,529.38,0.999314546585083,faster-whisper-medium.en CPU int8 VAD
+A06-P03, The,529.52,530.22,0.9416182637214661,faster-whisper-base.en CPU int8
+A06-P03, heavy,530.22,530.38,0.981770932674408,faster-whisper-base.en CPU int8
+A06-P03, load,530.38,530.6999999999999,0.9198222756385803,faster-whisper-base.en CPU int8
+A06-P03, did,530.6999999999999,530.96,0.9936564564704895,faster-whisper-base.en CPU int8
+A06-P03, not,530.96,531.12,0.9993997812271118,faster-whisper-base.en CPU int8
+A06-P03, hang,531.12,531.48,0.9949575066566467,faster-whisper-base.en CPU int8
+A06-P03, from,531.48,531.8,0.9946137070655823,faster-whisper-base.en CPU int8
+A06-P03, a,531.8,531.9,0.9896687865257263,faster-whisper-base.en CPU int8
+A06-P03, single,531.9,532.18,0.9988775849342346,faster-whisper-base.en CPU int8
+A06-P03, ordinary,532.18,532.56,0.9828638434410095,faster-whisper-base.en CPU int8
+A06-P03, crane,532.56,533.02,0.9932293891906738,faster-whisper-base.en CPU int8
+A06-P03, cable.,533.02,533.4,0.9940001964569092,faster-whisper-base.en CPU int8
+A06-P03, The,534.36,534.36,0.9957377910614014,faster-whisper-base.en CPU int8
+A06-P03, crew,534.36,534.5799999999999,0.9913585186004639,faster-whisper-base.en CPU int8
+A06-P03, built,534.5799999999999,535.0,0.9973713159561157,faster-whisper-base.en CPU int8
+A06-P03, a,535.0,535.14,0.9982606768608093,faster-whisper-base.en CPU int8
+A06-P03, supporting,535.14,535.4399999999999,0.9980154037475586,faster-whisper-base.en CPU int8
+A06-P03, string,535.4399999999999,535.9,0.982898473739624,faster-whisper-base.en CPU int8
+A06-P03, of,535.9,536.0799999999999,0.9804478883743286,faster-whisper-base.en CPU int8
+A06-P03, steel,536.0799999999999,536.34,0.9975851774215698,faster-whisper-base.en CPU int8
+A06-P03," pipe,",536.34,536.68,0.9950586557388306,faster-whisper-base.en CPU int8
+A06-P03, adding,537.22,537.56,0.998788058757782,faster-whisper-base.en CPU int8
+A06-P03, sections,537.56,537.9399999999999,0.9977847933769226,faster-whisper-base.en CPU int8
+A06-P03, as,537.9399999999999,538.34,0.9902366995811462,faster-whisper-base.en CPU int8
+A06-P03, the,538.34,538.48,0.9984538555145264,faster-whisper-base.en CPU int8
+A06-P03, capture,538.48,538.6999999999999,0.9609388709068298,faster-whisper-base.en CPU int8
+A06-P03, vehicle,538.6999999999999,539.04,0.9996200799942017,faster-whisper-base.en CPU int8
+A06-P03, descended.,539.04,539.5,0.9931837916374207,faster-whisper-base.en CPU int8
+A06-P03, The,540.36,540.4,0.98987877368927,faster-whisper-base.en CPU int8
+A06-P03, ship's,540.4,540.76,0.8770282864570618,faster-whisper-base.en CPU int8
+A06-P03, lifting,540.76,540.9399999999999,0.986599862575531,faster-whisper-base.en CPU int8
+A06-P03, machinery,540.9399999999999,541.36,0.9912109375,faster-whisper-base.en CPU int8
+A06-P03, handled,541.36,541.96,0.9970520734786987,faster-whisper-base.en CPU int8
+A06-P03, the,541.96,542.24,0.998649537563324,faster-whisper-base.en CPU int8
+A06-P03, string,542.24,542.5,0.9899507164955139,faster-whisper-base.en CPU int8
+A06-P03, at,542.5,542.66,0.9979089498519897,faster-whisper-base.en CPU int8
+A06-P03, the,542.66,542.78,0.9968371391296387,faster-whisper-base.en CPU int8
+A06-P03, surface.,542.78,543.12,0.9988083839416504,faster-whisper-base.en CPU int8
+A06-P03, Far,543.96,544.0799999999999,0.9898585677146912,faster-whisper-base.en CPU int8
+A06-P03, below,544.0799999999999,544.36,0.9977495074272156,faster-whisper-base.en CPU int8
+A06-P03, the,544.36,544.66,0.6494981050491333,faster-whisper-base.en CPU int8
+A06-P03, capture,544.66,544.88,0.9977078437805176,faster-whisper-base.en CPU int8
+A06-P03, vehicle,544.88,545.38,0.999090313911438,faster-whisper-base.en CPU int8
+A06-P03, had,545.38,545.6,0.9961161613464355,faster-whisper-base.en CPU int8
+A06-P03, to,545.6,545.76,0.9984353184700012,faster-whisper-base.en CPU int8
+A06-P03, reach,545.76,545.96,0.998448371887207,faster-whisper-base.en CPU int8
+A06-P03, and,545.96,546.1999999999999,0.9937136769294739,faster-whisper-base.en CPU int8
+A06-P03, engage,546.1999999999999,546.5,0.9968898892402649,faster-whisper-base.en CPU int8
+A06-P03, the,546.5,546.84,0.9977381229400635,faster-whisper-base.en CPU int8
+A06-P03, target,546.84,547.16,0.9941547513008118,faster-whisper-base.en CPU int8
+A06-P03, section.,547.16,547.42,0.9661532044410706,faster-whisper-base.en CPU int8
+A06-P04, The,547.76,547.84,0.9299049973487854,faster-whisper-base.en CPU int8
+A06-P04, ship,547.84,548.02,0.9140860438346863,faster-whisper-base.en CPU int8
+A06-P04, had,548.02,548.3,0.9976121187210083,faster-whisper-base.en CPU int8
+A06-P04, to,548.3,548.4399999999999,0.9987157583236694,faster-whisper-base.en CPU int8
+A06-P04, hold,548.4399999999999,548.64,0.9994756579399109,faster-whisper-base.en CPU int8
+A06-P04, its,548.64,548.84,0.9620916843414307,faster-whisper-base.en CPU int8
+A06-P04, position,548.84,549.16,0.9988251328468323,faster-whisper-base.en CPU int8
+A06-P04, while,549.16,549.56,0.9948535561561584,faster-whisper-base.en CPU int8
+A06-P04, managing,549.56,549.9399999999999,0.999293327331543,faster-whisper-base.en CPU int8
+A06-P04, that,549.9399999999999,550.26,0.9941645264625549,faster-whisper-base.en CPU int8
+A06-P04, suspended,550.26,550.62,0.9987154006958008,faster-whisper-base.en CPU int8
+A06-P04, system.,550.62,551.3,0.9991624355316162,faster-whisper-base.en CPU int8
+A06-P04, Equipment,552.18,552.18,0.9847736358642578,faster-whisper-base.en CPU int8
+A06-P04, faults,552.18,552.5,0.9950231313705444,faster-whisper-base.en CPU int8
+A06-P04, kept,552.5,552.9,0.997882068157196,faster-whisper-base.en CPU int8
+A06-P04, interrupting,552.9,553.58,0.9985355734825134,faster-whisper-base.en CPU int8
+A06-P04, the,553.58,553.68,0.9978978633880615,faster-whisper-base.en CPU int8
+A06-P04, work.,553.68,553.9,0.9991025924682617,faster-whisper-base.en CPU int8
+A06-P04, On,554.72,554.76,0.9964337348937988,faster-whisper-base.en CPU int8
+A06-P04, July,554.76,554.9,0.9863139390945435,faster-whisper-base.en CPU int8
+A06-P04," 25th,",554.9,555.96,0.7422847151756287,faster-whisper-base.en CPU int8
+A06-P04, a,556.0,556.1,0.9973605275154114,faster-whisper-base.en CPU int8
+A06-P04, report,556.1,556.34,0.998764157295227,faster-whisper-base.en CPU int8
+A06-P04, described,556.34,556.66,0.9868935346603394,faster-whisper-base.en CPU int8
+A06-P04, frequent,556.66,557.3,0.9981897473335266,faster-whisper-base.en CPU int8
+A06-P04," shutdowns,",557.3,558.18,0.9734717309474945,faster-whisper-base.en CPU int8
+A06-P04, mostly,558.4399999999999,558.74,0.9958891272544861,faster-whisper-base.en CPU int8
+A06-P04, involving,558.74,559.2,0.9982396364212036,faster-whisper-base.en CPU int8
+A06-P04, the,559.2,559.52,0.9823926687240601,faster-whisper-base.en CPU int8
+A06-P04, heavy,559.52,559.74,0.9975345134735107,faster-whisper-base.en CPU int8
+A06-P04, lift,559.74,559.92,0.939822793006897,faster-whisper-base.en CPU int8
+A06-P04, sensors,559.92,560.3199999999999,0.9789267182350159,faster-whisper-base.en CPU int8
+A06-P04, and,560.3199999999999,560.66,0.9973092079162598,faster-whisper-base.en CPU int8
+A06-P04, controls.,560.66,560.98,0.9949036836624146,faster-whisper-base.en CPU int8
+A06-P04, The,561.9399999999999,562.02,0.9981021285057068,faster-whisper-base.en CPU int8
+A06-P04, problem,562.02,562.26,0.9995040893554688,faster-whisper-base.en CPU int8
+A06-P04, was,562.26,562.46,0.9991018772125244,faster-whisper-base.en CPU int8
+A06-P04, no,562.46,562.64,0.99873286485672,faster-whisper-base.en CPU int8
+A06-P04, longer,562.64,562.96,0.9993378520011902,faster-whisper-base.en CPU int8
+A06-P04, whether,562.96,563.12,0.9928066730499268,faster-whisper-base.en CPU int8
+A06-P04, the,563.12,563.38,0.9976959824562073,faster-whisper-base.en CPU int8
+A06-P04, machinery,563.38,563.66,0.9990200996398926,faster-whisper-base.en CPU int8
+A06-P04, could,563.66,564.06,0.9982689619064331,faster-whisper-base.en CPU int8
+A06-P04, work,564.06,564.38,0.998969554901123,faster-whisper-base.en CPU int8
+A06-P04, in,564.38,564.62,0.9959895014762878,faster-whisper-base.en CPU int8
+A06-P04, a,564.62,564.68,0.9980670809745789,faster-whisper-base.en CPU int8
+A06-P04, demonstration.,564.68,565.08,0.9993268251419067,faster-whisper-base.en CPU int8
+A06-P04, It,566.16,566.28,0.9979079961776733,faster-whisper-base.en CPU int8
+A06-P04, had,566.28,566.4,0.9994786381721497,faster-whisper-base.en CPU int8
+A06-P04, to,566.4,566.56,0.9994056224822998,faster-whisper-base.en CPU int8
+A06-P04, keep,566.56,566.72,0.9988735318183899,faster-whisper-base.en CPU int8
+A06-P04, working,566.72,566.98,0.9975327253341675,faster-whisper-base.en CPU int8
+A06-P04, through,566.98,567.34,0.9945244789123535,faster-whisper-base.en CPU int8
+A06-P04, an,567.34,567.46,0.9883165955543518,faster-whisper-base.en CPU int8
+A06-P04, actual,567.46,567.78,0.9976589679718018,faster-whisper-base.en CPU int8
+A06-P04, recovery.,567.78,568.1,0.9961878657341003,faster-whisper-base.en CPU int8
+A06-P05, At,568.56,568.64,0.972804844379425,faster-whisper-base.en CPU int8
+A06-P05, the,568.64,568.7399999999999,0.9993165731430054,faster-whisper-base.en CPU int8
+A06-P05," bottom,",568.7399999999999,569.06,0.9977739453315735,faster-whisper-base.en CPU int8
+A06-P05, the,569.3599999999999,569.5,0.9982250332832336,faster-whisper-base.en CPU int8
+A06-P05, capture,569.5,569.66,0.9730789661407471,faster-whisper-base.en CPU int8
+A06-P05, vehicle,569.66,570.2399999999999,0.9996609687805176,faster-whisper-base.en CPU int8
+A06-P05, had,570.2399999999999,570.4799999999999,0.9972110390663147,faster-whisper-base.en CPU int8
+A06-P05, to,570.4799999999999,570.64,0.9996529817581177,faster-whisper-base.en CPU int8
+A06-P05, straddle,570.64,571.0999999999999,0.981313943862915,faster-whisper-base.en CPU int8
+A06-P05, the,571.0999999999999,571.2199999999999,0.9981497526168823,faster-whisper-base.en CPU int8
+A06-P05, target,571.2199999999999,571.52,0.9960461258888245,faster-whisper-base.en CPU int8
+A06-P05, and,571.9,572.14,0.9334014654159546,faster-whisper-base.en CPU int8
+A06-P05, close,572.14,572.42,0.995166540145874,faster-whisper-base.en CPU int8
+A06-P05, its,572.42,572.68,0.9768734574317932,faster-whisper-base.en CPU int8
+A06-P05, gripping,572.68,572.9,0.9870703816413879,faster-whisper-base.en CPU int8
+A06-P05, structure,572.9,573.4599999999999,0.997688889503479,faster-whisper-base.en CPU int8
+A06-P05, around,573.4599999999999,573.8199999999999,0.9979256391525269,faster-whisper-base.en CPU int8
+A06-P05, it.,573.8199999999999,574.06,0.9973570704460144,faster-whisper-base.en CPU int8
+A06-P05, The,574.5799999999999,574.64,0.9961047172546387,faster-whisper-base.en CPU int8
+A06-P05, machinery,574.64,574.88,0.9964320659637451,faster-whisper-base.en CPU int8
+A06-P05, could,574.88,575.28,0.9974290728569031,faster-whisper-base.en CPU int8
+A06-P05, reach,575.28,575.4599999999999,0.9991536140441895,faster-whisper-base.en CPU int8
+A06-P05, the,575.4599999999999,575.6999999999999,0.9990054965019226,faster-whisper-base.en CPU int8
+A06-P05, wreck.,575.6999999999999,575.88,0.8223862051963806,faster-whisper-base.en CPU int8
+A06-P05, The,576.5999999999999,576.6199999999999,0.9941924214363098,faster-whisper-base.en CPU int8
+A06-P05, next,576.6199999999999,576.7399999999999,0.9992745518684387,faster-whisper-base.en CPU int8
+A06-P05, test,576.7399999999999,577.0999999999999,0.9990328550338745,faster-whisper-base.en CPU int8
+A06-P05, was,577.0999999999999,577.3599999999999,0.9973970651626587,faster-whisper-base.en CPU int8
+A06-P05, whether,577.3599999999999,577.5999999999999,0.9899759888648987,faster-whisper-base.en CPU int8
+A06-P05, the,577.5999999999999,577.8,0.9985988736152649,faster-whisper-base.en CPU int8
+A06-P05, wreck,577.8,578.0,0.9911760091781616,faster-whisper-base.en CPU int8
+A06-P05, could,578.0,578.2199999999999,0.9894008040428162,faster-whisper-base.en CPU int8
+A06-P05, bear,578.2199999999999,578.4799999999999,0.9466588497161865,faster-whisper-base.en CPU int8
+A06-P05, being,578.4799999999999,578.78,0.9951738715171814,faster-whisper-base.en CPU int8
+A06-P05, lifted.,578.78,579.04,0.9993295669555664,faster-whisper-base.en CPU int8
+A06-P06, Upward,579.47,580.17,0.9488407075405121,faster-whisper-medium.en CPU int8 VAD
+A06-P06, meant,580.17,580.35,0.9946067929267883,faster-whisper-medium.en CPU int8 VAD
+A06-P06, reversing,580.35,580.89,0.9979986548423767,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,580.89,581.13,0.9954485297203064,faster-whisper-medium.en CPU int8 VAD
+A06-P06, pipe,581.13,581.41,0.9935263395309448,faster-whisper-medium.en CPU int8 VAD
+A06-P06,-handling,581.41,581.75,0.796083927154541,faster-whisper-medium.en CPU int8 VAD
+A06-P06, operation.,581.75,582.33,0.9966226816177368,faster-whisper-medium.en CPU int8 VAD
+A06-P06, The,583.27,583.33,0.99637371301651,faster-whisper-medium.en CPU int8 VAD
+A06-P06, crew,583.33,583.53,0.9971923232078552,faster-whisper-medium.en CPU int8 VAD
+A06-P06, raised,583.53,583.91,0.9955397248268127,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,583.91,584.11,0.9989598989486694,faster-whisper-medium.en CPU int8 VAD
+A06-P06, string,584.11,584.4300000000001,0.994503378868103,faster-whisper-medium.en CPU int8 VAD
+A06-P06, and,584.4300000000001,584.87,0.9388387799263,faster-whisper-medium.en CPU int8 VAD
+A06-P06, removed,584.87,585.23,0.9977371692657471,faster-whisper-medium.en CPU int8 VAD
+A06-P06, sections,585.23,585.69,0.9953888654708862,faster-whisper-medium.en CPU int8 VAD
+A06-P06, at,585.69,585.9300000000001,0.9976438879966736,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,585.9300000000001,586.07,0.9977574944496155,faster-whisper-medium.en CPU int8 VAD
+A06-P06, top,586.07,586.27,0.9991968274116516,faster-whisper-medium.en CPU int8 VAD
+A06-P06, as,586.27,586.47,0.9901159405708313,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,586.47,586.65,0.9946459531784058,faster-whisper-medium.en CPU int8 VAD
+A06-P06, load,586.65,586.89,0.9973987340927124,faster-whisper-medium.en CPU int8 VAD
+A06-P06, climbed,586.89,587.29,0.9965625405311584,faster-whisper-medium.en CPU int8 VAD
+A06-P06, below.,587.29,587.73,0.9991500377655029,faster-whisper-medium.en CPU int8 VAD
+A06-P06, The,588.59,588.75,0.997437596321106,faster-whisper-medium.en CPU int8 VAD
+A06-P06, finish,588.75,588.97,0.9942329525947571,faster-whisper-medium.en CPU int8 VAD
+A06-P06, line,588.97,589.25,0.9794923067092896,faster-whisper-medium.en CPU int8 VAD
+A06-P06, was,589.25,589.4300000000001,0.999510645866394,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,589.4300000000001,589.65,0.9969863295555115,faster-whisper-medium.en CPU int8 VAD
+A06-P06, central,589.65,589.95,0.996692419052124,faster-whisper-medium.en CPU int8 VAD
+A06-P06, well.,589.95,590.3100000000001,0.997817873954773,faster-whisper-medium.en CPU int8 VAD
+A06-P06, Get,590.87,591.03,0.9965327978134155,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,591.03,591.23,0.9976620674133301,faster-whisper-medium.en CPU int8 VAD
+A06-P06, wreck,591.23,591.37,0.990555465221405,faster-whisper-medium.en CPU int8 VAD
+A06-P06," inside,",591.37,591.91,0.9958670139312744,faster-whisper-medium.en CPU int8 VAD
+A06-P06, close,592.3100000000001,592.49,0.9992176294326782,faster-whisper-medium.en CPU int8 VAD
+A06-P06, the,592.49,592.69,0.998957633972168,faster-whisper-medium.en CPU int8 VAD
+A06-P06, gates,592.69,592.97,0.9967972636222839,faster-whisper-medium.en CPU int8 VAD
+A06-P06, and,592.97,593.39,0.691810667514801,faster-whisper-medium.en CPU int8 VAD
+A06-P06, examine,593.39,593.77,0.9976319074630737,faster-whisper-medium.en CPU int8 VAD
+A06-P06, it,593.77,593.95,0.9982227683067322,faster-whisper-medium.en CPU int8 VAD
+A06-P06, out,593.95,594.09,0.9968854784965515,faster-whisper-medium.en CPU int8 VAD
+A06-P06, of,594.09,594.29,0.9794348478317261,faster-whisper-medium.en CPU int8 VAD
+A06-P06, sight.,594.29,594.51,0.9968017339706421,faster-whisper-medium.en CPU int8 VAD
+A06-P07, The,594.72,594.84,0.9568457007408142,faster-whisper-base.en CPU int8
+A06-P07, intended,594.84,595.02,0.9451646208763123,faster-whisper-base.en CPU int8
+A06-P07, load,595.02,595.5,0.9943069815635681,faster-whisper-base.en CPU int8
+A06-P07, was,595.5,595.8000000000001,0.998933732509613,faster-whisper-base.en CPU int8
+A06-P07, a,595.8000000000001,595.9200000000001,0.9900062680244446,faster-whisper-base.en CPU int8
+A06-P07, section,595.9200000000001,596.2,0.9941955208778381,faster-whisper-base.en CPU int8
+A06-P07, about,596.2,596.52,0.9837254881858826,faster-whisper-base.en CPU int8
+A06-P07, 132,596.52,597.14,0.9798822999000549,faster-whisper-base.en CPU int8
+A06-P07, feet,597.14,597.9,0.8207094073295593,faster-whisper-base.en CPU int8
+A06-P07," long,",597.9,598.1800000000001,0.9917942881584167,faster-whisper-base.en CPU int8
+A06-P07, not,598.9,598.98,0.9978638291358948,faster-whisper-base.en CPU int8
+A06-P07, the,598.98,599.1600000000001,0.9985924363136292,faster-whisper-base.en CPU int8
+A06-P07, entire,599.1600000000001,599.4200000000001,0.9766414761543274,faster-whisper-base.en CPU int8
+A06-P07, submarine.,599.4200000000001,599.98,0.9899189472198486,faster-whisper-base.en CPU int8
+A06-P07, Gripping,600.98,601.26,0.8030655980110168,faster-whisper-base.en CPU int8
+A06-P07, it,601.26,601.38,0.9954164028167725,faster-whisper-base.en CPU int8
+A06-P07, was,601.38,601.62,0.9868350625038147,faster-whisper-base.en CPU int8
+A06-P07, only,601.62,601.9,0.9968646168708801,faster-whisper-base.en CPU int8
+A06-P07, the,601.9,602.0400000000001,0.9977624416351318,faster-whisper-base.en CPU int8
+A06-P07, beginning.,602.0400000000001,602.28,0.9987491369247437,faster-whisper-base.en CPU int8
+A06-P07, It,603.0,603.0600000000001,0.9967162609100342,faster-whisper-base.en CPU int8
+A06-P07, had,603.0600000000001,603.2,0.9991570711135864,faster-whisper-base.en CPU int8
+A06-P07, to,603.2,603.36,0.9991989731788635,faster-whisper-base.en CPU int8
+A06-P07, survive,603.36,603.64,0.9953291416168213,faster-whisper-base.en CPU int8
+A06-P07, the,603.64,604.0400000000001,0.9975205063819885,faster-whisper-base.en CPU int8
+A06-P07, ascent,604.0400000000001,604.26,0.993925154209137,faster-whisper-base.en CPU int8
+A06-P07, as,604.26,604.6,0.9624708294868469,faster-whisper-base.en CPU int8
+A06-P07, a,604.6,604.72,0.9943082928657532,faster-whisper-base.en CPU int8
+A06-P07, load,604.72,604.9200000000001,0.9976765513420105,faster-whisper-base.en CPU int8
+A06-P07, the,604.9200000000001,605.1600000000001,0.9240521192550659,faster-whisper-base.en CPU int8
+A06-P07, capture,605.1600000000001,605.4,0.9700634479522705,faster-whisper-base.en CPU int8
+A06-P07, vehicle,605.4,605.84,0.9993371367454529,faster-whisper-base.en CPU int8
+A06-P07, could,605.84,606.26,0.9963059425354004,faster-whisper-base.en CPU int8
+A06-P07, keep,606.26,606.5400000000001,0.9977770447731018,faster-whisper-base.en CPU int8
+A06-P07, holding.,606.5400000000001,606.9200000000001,0.9989203214645386,faster-whisper-base.en CPU int8
+A07-P01, The,607.2,607.5,0.9327424168586731,faster-whisper-base.en CPU int8
+A07-P01, load,607.5,607.72,0.9820241332054138,faster-whisper-base.en CPU int8
+A07-P01, began,607.72,608.1,0.9968200922012329,faster-whisper-base.en CPU int8
+A07-P01, to,608.1,608.36,0.998960018157959,faster-whisper-base.en CPU int8
+A07-P01, rise.,608.36,608.74,0.9980504512786865,faster-whisper-base.en CPU int8
+A07-P01, The,609.58,609.6,0.9950968623161316,faster-whisper-base.en CPU int8
+A07-P01, crew,609.6,609.7800000000001,0.9980962872505188,faster-whisper-base.en CPU int8
+A07-P01, was,609.7800000000001,610.0200000000001,0.9926895499229431,faster-whisper-base.en CPU int8
+A07-P01, bringing,610.0200000000001,610.2800000000001,0.9972100853919983,faster-whisper-base.en CPU int8
+A07-P01, a,610.2800000000001,610.48,0.9972689747810364,faster-whisper-base.en CPU int8
+A07-P01, Soviet,610.48,610.82,0.9212656021118164,faster-whisper-base.en CPU int8
+A07-P01, submarine,610.82,611.2800000000001,0.9833260774612427,faster-whisper-base.en CPU int8
+A07-P01, section,611.2800000000001,611.86,0.9784522652626038,faster-whisper-base.en CPU int8
+A07-P01, toward,611.86,612.36,0.8779234886169434,faster-whisper-base.en CPU int8
+A07-P01, a,612.36,612.5200000000001,0.9967764019966125,faster-whisper-base.en CPU int8
+A07-P01, ship,612.5200000000001,612.76,0.9994843006134033,faster-whisper-base.en CPU int8
+A07-P01, built,612.76,613.1400000000001,0.9306870102882385,faster-whisper-base.en CPU int8
+A07-P01, to,613.1400000000001,613.38,0.9991554021835327,faster-whisper-base.en CPU int8
+A07-P01, swallow,613.38,613.6400000000001,0.9947671890258789,faster-whisper-base.en CPU int8
+A07-P01, it,613.6400000000001,613.9000000000001,0.9886771440505981,faster-whisper-base.en CPU int8
+A07-P01, unseen.,613.9000000000001,614.08,0.9939663410186768,faster-whisper-base.en CPU int8
+A07-P01, But,615.2,615.22,0.9867760539054871,faster-whisper-base.en CPU int8
+A07-P01, during,615.22,615.48,0.9837958812713623,faster-whisper-base.en CPU int8
+A07-P01, the,615.48,615.72,0.997633695602417,faster-whisper-base.en CPU int8
+A07-P01," lift,",615.72,615.96,0.9882232546806335,faster-whisper-base.en CPU int8
+A07-P01, the,616.48,616.58,0.9984524250030518,faster-whisper-base.en CPU int8
+A07-P01, section,616.58,616.88,0.9971344470977783,faster-whisper-base.en CPU int8
+A07-P01, broke,616.88,617.24,0.9993970394134521,faster-whisper-base.en CPU int8
+A07-P01, apart.,617.24,617.5600000000001,0.9980173110961914,faster-whisper-base.en CPU int8
+A07-P01, Part,618.36,618.5,0.9192373752593994,faster-whisper-base.en CPU int8
+A07-P01, fell,618.5,618.86,0.9973416924476624,faster-whisper-base.en CPU int8
+A07-P01, back,618.86,619.24,0.996660590171814,faster-whisper-base.en CPU int8
+A07-P01, to,619.24,619.48,0.996659517288208,faster-whisper-base.en CPU int8
+A07-P01, the,619.48,619.58,0.9941821694374084,faster-whisper-base.en CPU int8
+A07-P01, seabed.,619.58,620.0200000000001,0.9138824939727783,faster-whisper-base.en CPU int8
+A07-P01, The,620.7,620.76,0.9966753721237183,faster-whisper-base.en CPU int8
+A07-P01, equipment,620.76,621.0400000000001,0.9995840191841125,faster-whisper-base.en CPU int8
+A07-P01, could,621.0400000000001,621.5200000000001,0.998210072517395,faster-whisper-base.en CPU int8
+A07-P01, continue,621.5200000000001,622.0200000000001,0.9960746765136719,faster-whisper-base.en CPU int8
+A07-P01, upward,622.0200000000001,622.38,0.9956295490264893,faster-whisper-base.en CPU int8
+A07-P01, with,622.38,622.74,0.9931091070175171,faster-whisper-base.en CPU int8
+A07-P01, what,622.74,622.94,0.9968975782394409,faster-whisper-base.en CPU int8
+A07-P01, it,622.94,623.1,0.9572693705558777,faster-whisper-base.en CPU int8
+A07-P01, still,623.1,623.34,0.9249714016914368,faster-whisper-base.en CPU int8
+A07-P01, held.,623.34,623.6800000000001,0.9980827569961548,faster-whisper-base.en CPU int8
+A07-P01, It,624.44,624.5400000000001,0.9980809688568115,faster-whisper-base.en CPU int8
+A07-P01, could,624.5400000000001,624.6800000000001,0.9984983205795288,faster-whisper-base.en CPU int8
+A07-P01, not,624.6800000000001,624.86,0.9990478157997131,faster-whisper-base.en CPU int8
+A07-P01, bring,624.86,625.1,0.9981275200843811,faster-whisper-base.en CPU int8
+A07-P01, back,625.1,625.34,0.9988401532173157,faster-whisper-base.en CPU int8
+A07-P01, the,625.34,625.5400000000001,0.9975868463516235,faster-whisper-base.en CPU int8
+A07-P01, load,625.5400000000001,625.82,0.9988269209861755,faster-whisper-base.en CPU int8
+A07-P01, that,625.82,626.1,0.996173083782196,faster-whisper-base.en CPU int8
+A07-P01, had,626.1,626.22,0.9979561567306519,faster-whisper-base.en CPU int8
+A07-P01, just,626.22,626.46,0.9915105104446411,faster-whisper-base.en CPU int8
+A07-P01, been,626.46,626.6800000000001,0.9982503056526184,faster-whisper-base.en CPU int8
+A07-P01, lost.,626.6800000000001,626.94,0.9986773133277893,faster-whisper-base.en CPU int8
+A07-P03, The,627.2,627.3000000000001,0.9062511920928955,faster-whisper-base.en CPU int8
+A07-P03, remaining,627.3000000000001,627.5200000000001,0.9941807389259338,faster-whisper-base.en CPU int8
+A07-P03, portion,627.5200000000001,627.94,0.9873673915863037,faster-whisper-base.en CPU int8
+A07-P03, was,627.94,628.36,0.9963136315345764,faster-whisper-base.en CPU int8
+A07-P03, brought,628.36,628.6,0.9955551028251648,faster-whisper-base.en CPU int8
+A07-P03, aboard.,628.6,628.82,0.9961398243904114,faster-whisper-base.en CPU int8
+A07-P03, Among,630.0400000000001,630.0400000000001,0.9976664781570435,faster-whisper-base.en CPU int8
+A07-P03, its,630.0400000000001,630.24,0.9829067587852478,faster-whisper-base.en CPU int8
+A07-P03, contents,630.24,630.6600000000001,0.9950777292251587,faster-whisper-base.en CPU int8
+A07-P03, were,630.6600000000001,631.0400000000001,0.9906402826309204,faster-whisper-base.en CPU int8
+A07-P03, the,631.0400000000001,631.1400000000001,0.9969526529312134,faster-whisper-base.en CPU int8
+A07-P03, bodies,631.1400000000001,631.5200000000001,0.9951743483543396,faster-whisper-base.en CPU int8
+A07-P03, of,631.5200000000001,631.72,0.9980303645133972,faster-whisper-base.en CPU int8
+A07-P03, six,631.72,632.0,0.9481073021888733,faster-whisper-base.en CPU int8
+A07-P03, Soviet,632.0,632.5400000000001,0.9744296669960022,faster-whisper-base.en CPU int8
+A07-P03, Submariners.,632.5400000000001,633.36,0.7659382224082947,faster-whisper-base.en CPU int8
+A07-P03, They,634.4000000000001,634.5,0.9935981035232544,faster-whisper-base.en CPU int8
+A07-P03, were,634.5,634.62,0.99937504529953,faster-whisper-base.en CPU int8
+A07-P03, given,634.62,634.8000000000001,0.9992541670799255,faster-whisper-base.en CPU int8
+A07-P03, a,634.8000000000001,635.0,0.9987621307373047,faster-whisper-base.en CPU int8
+A07-P03, formal,635.0,635.24,0.9926169514656067,faster-whisper-base.en CPU int8
+A07-P03, burial,635.24,635.6600000000001,0.9941738247871399,faster-whisper-base.en CPU int8
+A07-P03, at,635.6600000000001,636.0600000000001,0.998127281665802,faster-whisper-base.en CPU int8
+A07-P03, sea.,636.0600000000001,636.2800000000001,0.9896203279495239,faster-whisper-base.en CPU int8
+A07-P03, The,637.22,637.24,0.9970942735671997,faster-whisper-base.en CPU int8
+A07-P03, recording,637.24,637.5400000000001,0.9971334934234619,faster-whisper-base.en CPU int8
+A07-P03, of,637.5400000000001,637.86,0.9989591836929321,faster-whisper-base.en CPU int8
+A07-P03, that,637.86,638.0200000000001,0.9904255270957947,faster-whisper-base.en CPU int8
+A07-P03, ceremony,638.0200000000001,638.44,0.9985938668251038,faster-whisper-base.en CPU int8
+A07-P03, would,638.44,638.86,0.9957714676856995,faster-whisper-base.en CPU int8
+A07-P03, later,638.86,639.1400000000001,0.9603818655014038,faster-whisper-base.en CPU int8
+A07-P03, be,639.1400000000001,639.38,0.999001681804657,faster-whisper-base.en CPU int8
+A07-P03, handed,639.38,639.6800000000001,0.9965887069702148,faster-whisper-base.en CPU int8
+A07-P03, to,639.6800000000001,639.94,0.999406099319458,faster-whisper-base.en CPU int8
+A07-P03, Russian,639.94,640.1400000000001,0.9954296350479126,faster-whisper-base.en CPU int8
+A07-P03, President,640.1400000000001,640.86,0.9107816815376282,faster-whisper-base.en CPU int8
+A07-P03, Boris,640.86,641.1800000000001,0.9764151573181152,faster-whisper-base.en CPU int8
+A07-P03, Yeltsin,641.1800000000001,641.82,0.9787789384524027,faster-whisper-base.en CPU int8
+A07-P03, by,641.82,642.36,0.9676523208618164,faster-whisper-base.en CPU int8
+A07-P03, CIA,642.36,642.6400000000001,0.9978259205818176,faster-whisper-base.en CPU int8
+A07-P03, Director,642.6400000000001,643.38,0.6765056848526001,faster-whisper-base.en CPU int8
+A07-P03, Robert,643.38,643.74,0.9446810483932495,faster-whisper-base.en CPU int8
+A07-P03, Gates,643.74,644.0200000000001,0.9700548052787781,faster-whisper-base.en CPU int8
+A07-P03, in,644.0200000000001,644.4000000000001,0.9910224676132202,faster-whisper-base.en CPU int8
+A07-P03, 1992.,644.4000000000001,645.08,0.9988747239112854,faster-whisper-base.en CPU int8
+A07-P04, Exactly,645.68,646.06,0.7815902233123779,faster-whisper-base.en CPU int8
+A07-P04, what,646.06,646.4,0.9971791505813599,faster-whisper-base.en CPU int8
+A07-P04, intelligence,646.4,646.5799999999999,0.86281418800354,faster-whisper-base.en CPU int8
+A07-P04, came,646.5799999999999,647.18,0.9971023201942444,faster-whisper-base.en CPU int8
+A07-P04, back,647.18,647.54,0.9979962706565857,faster-whisper-base.en CPU int8
+A07-P04, remains,647.54,647.9,0.9946278929710388,faster-whisper-base.en CPU int8
+A07-P04, only,647.9,648.38,0.9948678016662598,faster-whisper-base.en CPU int8
+A07-P04, partly,648.38,648.64,0.9480080008506775,faster-whisper-base.en CPU int8
+A07-P04, public.,648.64,649.18,0.9967330694198608,faster-whisper-base.en CPU int8
+A07-P04, What,649.9,649.9599999999999,0.9944807291030884,faster-whisper-base.en CPU int8
+A07-P04, is,649.9599999999999,650.12,0.9959431290626526,faster-whisper-base.en CPU int8
+A07-P04, confirmed,650.12,650.52,0.9966557025909424,faster-whisper-base.en CPU int8
+A07-P04, includes,650.52,651.14,0.9100532531738281,faster-whisper-base.en CPU int8
+A07-P04, a,651.14,651.42,0.9896217584609985,faster-whisper-base.en CPU int8
+A07-P04, recovered,651.42,651.78,0.9608232975006104,faster-whisper-base.en CPU int8
+A07-P04, section,651.78,652.1999999999999,0.9851281046867371,faster-whisper-base.en CPU int8
+A07-P04, and,652.1999999999999,652.64,0.9482492208480835,faster-whisper-base.en CPU int8
+A07-P04, the,652.64,652.76,0.9779688715934753,faster-whisper-base.en CPU int8
+A07-P04, six,652.76,652.9599999999999,0.7016502618789673,faster-whisper-base.en CPU int8
+A07-P04, sailors.,652.9599999999999,653.3,0.9716468453407288,faster-whisper-base.en CPU int8
+A07-P04, The,654.1999999999999,654.26,0.9921929240226746,faster-whisper-base.en CPU int8
+A07-P04, papers,654.26,654.54,0.8122457265853882,faster-whisper-base.en CPU int8
+A07-P04, describing,654.54,654.9799999999999,0.9878062605857849,faster-whisper-base.en CPU int8
+A07-P04," weapons,",654.9799999999999,655.62,0.9851271510124207,faster-whisper-base.en CPU int8
+A07-P04, cryptographic,656.3599999999999,656.3599999999999,0.6855054497718811,faster-whisper-base.en CPU int8
+A07-P04, systems,656.3599999999999,657.14,0.9972643852233887,faster-whisper-base.en CPU int8
+A07-P04, and,657.14,657.4799999999999,0.8307729959487915,faster-whisper-base.en CPU int8
+A07-P04, documents,657.4799999999999,657.8,0.9990108013153076,faster-whisper-base.en CPU int8
+A07-P04, explain,657.8,658.5799999999999,0.936421275138855,faster-whisper-base.en CPU int8
+A07-P04, the,658.5799999999999,658.9,0.9959914088249207,faster-whisper-base.en CPU int8
+A07-P04, mission's,658.9,659.28,0.895156979560852,faster-whisper-base.en CPU int8
+A07-P04, objectives.,659.28,659.56,0.9952570796012878,faster-whisper-base.en CPU int8
+A07-P04, They,660.3599999999999,660.38,0.9936720132827759,faster-whisper-base.en CPU int8
+A07-P04, do,660.38,660.52,0.9951164722442627,faster-whisper-base.en CPU int8
+A07-P04, not,660.52,660.66,0.9992902278900146,faster-whisper-base.en CPU int8
+A07-P04, give,660.66,660.9,0.9980491399765015,faster-whisper-base.en CPU int8
+A07-P04, us,660.9,661.06,0.9846237301826477,faster-whisper-base.en CPU int8
+A07-P04, a,661.06,661.18,0.9964669942855835,faster-whisper-base.en CPU int8
+A07-P04, complete,661.18,661.54,0.99750155210495,faster-whisper-base.en CPU int8
+A07-P04, account,661.54,661.8599999999999,0.9870731830596924,faster-whisper-base.en CPU int8
+A07-P04, of,661.8599999999999,662.16,0.9968997240066528,faster-whisper-base.en CPU int8
+A07-P04, its,662.16,662.28,0.9791350960731506,faster-whisper-base.en CPU int8
+A07-P04, results.,662.28,662.62,0.9944989085197449,faster-whisper-base.en CPU int8
+A07-P05, A,663.04,663.18,0.8914081454277039,faster-whisper-base.en CPU int8
+A07-P05, November,663.18,663.4399999999999,0.9820970892906189,faster-whisper-base.en CPU int8
+A07-P05, 1974,663.4399999999999,664.4,0.9782882928848267,faster-whisper-base.en CPU int8
+A07-P05, intelligence,664.4,665.06,0.7867103815078735,faster-whisper-base.en CPU int8
+A07-P05, review,665.06,665.98,0.9920992851257324,faster-whisper-base.en CPU int8
+A07-P05, describes,665.98,666.54,0.9903565049171448,faster-whisper-base.en CPU int8
+A07-P05, the,666.54,666.92,0.9966115355491638,faster-whisper-base.en CPU int8
+A07-P05, target,666.92,667.1999999999999,0.9837623238563538,faster-whisper-base.en CPU int8
+A07-P05, as,667.1999999999999,667.4399999999999,0.9749239087104797,faster-whisper-base.en CPU int8
+A07-P05," broken,",667.4399999999999,667.76,0.52103191614151,faster-whisper-base.en CPU int8
+A07-P05, with,668.3399999999999,668.4599999999999,0.9944114089012146,faster-whisper-base.en CPU int8
+A07-P05, equipment,668.4599999999999,668.8199999999999,0.9882583618164062,faster-whisper-base.en CPU int8
+A07-P05, and,668.8199999999999,669.16,0.9982206225395203,faster-whisper-base.en CPU int8
+A07-P05, documents,669.16,669.54,0.9994990825653076,faster-whisper-base.en CPU int8
+A07-P05, apparently,669.54,670.14,0.9958930015563965,faster-whisper-base.en CPU int8
+A07-P05, scattered,670.14,670.62,0.996221661567688,faster-whisper-base.en CPU int8
+A07-P05, in,670.62,670.98,0.9985613226890564,faster-whisper-base.en CPU int8
+A07-P05, a,670.98,671.0999999999999,0.9958920478820801,faster-whisper-base.en CPU int8
+A07-P05, new,671.0999999999999,671.26,0.9970631003379822,faster-whisper-base.en CPU int8
+A07-P05, debris,671.26,671.54,0.9871851801872253,faster-whisper-base.en CPU int8
+A07-P05, field.,671.54,672.0999999999999,0.9916554689407349,faster-whisper-base.en CPU int8
+A07-P05, None,672.5999999999999,672.62,0.9955881834030151,faster-whisper-base.en CPU int8
+A07-P05, of,672.62,672.8199999999999,0.9997403025627136,faster-whisper-base.en CPU int8
+A07-P05, those,672.8199999999999,673.0,0.9876736998558044,faster-whisper-base.en CPU int8
+A07-P05, scattered,673.0,673.36,0.9850339293479919,faster-whisper-base.en CPU int8
+A07-P05, items,673.36,673.92,0.9991200566291809,faster-whisper-base.en CPU int8
+A07-P05, was,673.92,674.18,0.6844133734703064,faster-whisper-base.en CPU int8
+A07-P05, specifically,674.18,674.68,0.9942852854728699,faster-whisper-base.en CPU int8
+A07-P05, identifiable,674.68,675.1999999999999,0.9997807145118713,faster-whisper-base.en CPU int8
+A07-P05, at,675.1999999999999,675.8399999999999,0.994765043258667,faster-whisper-base.en CPU int8
+A07-P05, that,675.8399999999999,675.9599999999999,0.9909844398498535,faster-whisper-base.en CPU int8
+A07-P05, time.,675.9599999999999,676.3199999999999,0.9998441934585571,faster-whisper-base.en CPU int8
+A07-P05, Officials,677.0799999999999,677.0999999999999,0.965531051158905,faster-whisper-base.en CPU int8
+A07-P05, still,677.0999999999999,677.52,0.9990230798721313,faster-whisper-base.en CPU int8
+A07-P05, believed,677.52,677.9,0.984994113445282,faster-whisper-base.en CPU int8
+A07-P05, valuable,677.9,678.28,0.9923834204673767,faster-whisper-base.en CPU int8
+A07-P05, material,678.28,679.0,0.9956226944923401,faster-whisper-base.en CPU int8
+A07-P05, could,679.0,679.4,0.9970489144325256,faster-whisper-base.en CPU int8
+A07-P05, be,679.4,679.5799999999999,0.9996142387390137,faster-whisper-base.en CPU int8
+A07-P05, recovered.,679.5799999999999,679.86,0.9984258413314819,faster-whisper-base.en CPU int8
+A07-P05, The,680.64,680.66,0.9938583970069885,faster-whisper-base.en CPU int8
+A07-P05, failure,680.66,680.92,0.9971097111701965,faster-whisper-base.en CPU int8
+A07-P05, had,680.92,681.18,0.9903731346130371,faster-whisper-base.en CPU int8
+A07-P05, changed,681.18,681.4,0.9979844093322754,faster-whisper-base.en CPU int8
+A07-P05, the,681.4,681.6999999999999,0.9977978467941284,faster-whisper-base.en CPU int8
+A07-P05," target,",681.6999999999999,682.04,0.9987121820449829,faster-whisper-base.en CPU int8
+A07-P05, not,682.56,682.64,0.9866377115249634,faster-whisper-base.en CPU int8
+A07-P05, eliminated,682.64,682.92,0.9972706437110901,faster-whisper-base.en CPU int8
+A07-P05, the,682.92,683.4399999999999,0.9974205493927002,faster-whisper-base.en CPU int8
+A07-P05, reason,683.4399999999999,683.68,0.9986391663551331,faster-whisper-base.en CPU int8
+A07-P05, to,683.68,683.9599999999999,0.9983592629432678,faster-whisper-base.en CPU int8
+A07-P05, return.,683.9599999999999,684.14,0.9993020296096802,faster-whisper-base.en CPU int8
+A07-P06, There,684.48,684.7,0.9213820695877075,faster-whisper-base.en CPU int8
+A07-P06, was,684.7,684.82,0.9688116908073425,faster-whisper-base.en CPU int8
+A07-P06, still,684.82,685.1800000000001,0.9931601285934448,faster-whisper-base.en CPU int8
+A07-P06, a,685.1800000000001,685.34,0.9969401359558105,faster-whisper-base.en CPU int8
+A07-P06, target,685.34,685.74,0.9620097875595093,faster-whisper-base.en CPU int8
+A07-P06, worth,685.74,685.98,0.9930754899978638,faster-whisper-base.en CPU int8
+A07-P06, returning,685.98,686.46,0.9988327622413635,faster-whisper-base.en CPU int8
+A07-P06, for,686.46,686.86,0.994786262512207,faster-whisper-base.en CPU int8
+A07-P06, and,686.86,687.6,0.6115651726722717,faster-whisper-base.en CPU int8
+A07-P06, a,687.6,687.7,0.9970045685768127,faster-whisper-base.en CPU int8
+A07-P06, ship,687.7,687.9200000000001,0.9991263747215271,faster-whisper-base.en CPU int8
+A07-P06, that,687.9200000000001,688.16,0.9978179931640625,faster-whisper-base.en CPU int8
+A07-P06, had,688.16,688.32,0.9775003790855408,faster-whisper-base.en CPU int8
+A07-P06, brought,688.32,688.52,0.9949933886528015,faster-whisper-base.en CPU int8
+A07-P06, part,688.52,688.86,0.9916169047355652,faster-whisper-base.en CPU int8
+A07-P06, of,688.86,689.0600000000001,0.9973906874656677,faster-whisper-base.en CPU int8
+A07-P06, it,689.0600000000001,689.1800000000001,0.9972334504127502,faster-whisper-base.en CPU int8
+A07-P06," up,",689.1800000000001,689.36,0.9984887838363647,faster-whisper-base.en CPU int8
+A07-P06, but,689.9200000000001,690.1,0.9926291704177856,faster-whisper-base.en CPU int8
+A07-P06, a,690.1,690.2,0.9948410391807556,faster-whisper-base.en CPU int8
+A07-P06, second,690.2,690.46,0.9952389001846313,faster-whisper-base.en CPU int8
+A07-P06, attempt,690.46,690.9,0.9988424181938171,faster-whisper-base.en CPU int8
+A07-P06, needed,690.9,691.16,0.9993581175804138,faster-whisper-base.en CPU int8
+A07-P06, something,691.16,691.5,0.9986567497253418,faster-whisper-base.en CPU int8
+A07-P06, no,691.5,691.84,0.99058598279953,faster-whisper-base.en CPU int8
+A07-P06, workshop,691.84,692.12,0.9908682107925415,faster-whisper-base.en CPU int8
+A07-P06, could,692.12,692.54,0.9964123368263245,faster-whisper-base.en CPU int8
+A07-P06," supply,",692.54,692.88,0.9923171997070312,faster-whisper-base.en CPU int8
+A07-P06, more,693.44,693.6800000000001,0.9979283809661865,faster-whisper-base.en CPU int8
+A07-P06, time,693.6800000000001,694.0,0.9989431500434875,faster-whisper-base.en CPU int8
+A07-P06, under,694.0,694.34,0.9905954599380493,faster-whisper-base.en CPU int8
+A07-P06, the,694.34,694.5,0.9972025156021118,faster-whisper-base.en CPU int8
+A07-P06, same,694.5,694.72,0.9978894591331482,faster-whisper-base.en CPU int8
+A07-P06, cover,694.72,695.0,0.9929208159446716,faster-whisper-base.en CPU int8
+A07-P06, story.,695.0,695.54,0.9825962781906128,faster-whisper-base.en CPU int8
+A08-P01, On,695.76,695.92,0.9476682543754578,faster-whisper-base.en CPU int8
+A08-P01, February,695.92,696.16,0.9674158692359924,faster-whisper-base.en CPU int8
+A08-P01," 6,",696.16,696.72,0.9830874800682068,faster-whisper-base.en CPU int8
+A08-P01," 1975,",697.12,698.14,0.9970661997795105,faster-whisper-base.en CPU int8
+A08-P01, President,698.76,699.22,0.9684346318244934,faster-whisper-base.en CPU int8
+A08-P01, Ford,699.22,699.54,0.9923668503761292,faster-whisper-base.en CPU int8
+A08-P01, approved,699.54,700.22,0.9950313568115234,faster-whisper-base.en CPU int8
+A08-P01, another,700.22,700.54,0.998426079750061,faster-whisper-base.en CPU int8
+A08-P01, recovery,700.54,700.88,0.9962478280067444,faster-whisper-base.en CPU int8
+A08-P01, attempt.,700.88,701.4,0.9994996786117554,faster-whisper-base.en CPU int8
+A08-P01, One,702.24,702.42,0.9986566305160522,faster-whisper-base.en CPU int8
+A08-P01, day,702.42,702.62,0.999556839466095,faster-whisper-base.en CPU int8
+A08-P01," later,",702.62,703.02,0.997116208076477,faster-whisper-base.en CPU int8
+A08-P01, the,703.4,703.48,0.8216156363487244,faster-whisper-base.en CPU int8
+A08-P01, Los,703.48,703.62,0.9974156618118286,faster-whisper-base.en CPU int8
+A08-P01, Angeles,703.62,704.0,0.9969459176063538,faster-whisper-base.en CPU int8
+A08-P01, Times,704.0,704.36,0.9979538917541504,faster-whisper-base.en CPU int8
+A08-P01, published,704.36,704.92,0.9969725608825684,faster-whisper-base.en CPU int8
+A08-P01, an,704.92,705.16,0.9871389269828796,faster-whisper-base.en CPU int8
+A08-P01, account,705.16,705.38,0.9972690939903259,faster-whisper-base.en CPU int8
+A08-P01, linking,705.38,705.86,0.9965687990188599,faster-whisper-base.en CPU int8
+A08-P01," Hughes,",705.86,706.36,0.7058163285255432,faster-whisper-base.en CPU int8
+A08-P01, the,706.96,706.98,0.9906681180000305,faster-whisper-base.en CPU int8
+A08-P01, CIA,706.98,707.3199999999999,0.9948822259902954,faster-whisper-base.en CPU int8
+A08-P01, and,707.3199999999999,707.8199999999999,0.4758540391921997,faster-whisper-base.en CPU int8
+A08-P01, the,707.8199999999999,707.9399999999999,0.994468092918396,faster-whisper-base.en CPU int8
+A08-P01, submarine,707.9399999999999,708.24,0.6986265778541565,faster-whisper-base.en CPU int8
+A08-P01, operation.,708.24,708.8,0.9767069816589355,faster-whisper-base.en CPU int8
+A08-P01, The,709.7,709.78,0.9971115589141846,faster-whisper-base.en CPU int8
+A08-P01, authorization,709.78,710.1,0.9221411347389221,faster-whisper-base.en CPU int8
+A08-P01, to,710.1,710.7,0.998554527759552,faster-whisper-base.en CPU int8
+A08-P01, return,710.7,711.02,0.9983929991722107,faster-whisper-base.en CPU int8
+A08-P01, and,711.02,711.48,0.9490614533424377,faster-whisper-base.en CPU int8
+A08-P01, the,711.48,711.6,0.9956405162811279,faster-whisper-base.en CPU int8
+A08-P01, public,711.6,711.9,0.9968001842498779,faster-whisper-base.en CPU int8
+A08-P01, unraveling,711.9,712.64,0.9146267175674438,faster-whisper-base.en CPU int8
+A08-P01, of,712.64,712.72,0.9986439347267151,faster-whisper-base.en CPU int8
+A08-P01, the,712.72,712.8199999999999,0.9988491535186768,faster-whisper-base.en CPU int8
+A08-P01, cover,712.8199999999999,713.08,0.9901478886604309,faster-whisper-base.en CPU int8
+A08-P01, arrived,713.08,713.5,0.9948757290840149,faster-whisper-base.en CPU int8
+A08-P01, almost,713.5,714.04,0.995646059513092,faster-whisper-base.en CPU int8
+A08-P01, together.,714.04,714.36,0.9993693232536316,faster-whisper-base.en CPU int8
+A08-P02, The,714.64,714.86,0.9489423036575317,faster-whisper-medium.en CPU int8 VAD
+A08-P02, trail,714.86,715.16,0.9874476790428162,faster-whisper-medium.en CPU int8 VAD
+A08-P02, toward,715.16,715.52,0.9553974866867065,faster-whisper-medium.en CPU int8 VAD
+A08-P02, exposure,715.52,716.12,0.990879237651825,faster-whisper-medium.en CPU int8 VAD
+A08-P02, had,716.12,716.42,0.9846802353858948,faster-whisper-medium.en CPU int8 VAD
+A08-P02, passed,716.42,716.78,0.995473325252533,faster-whisper-medium.en CPU int8 VAD
+A08-P02, through,716.78,716.96,0.9971434473991394,faster-whisper-medium.en CPU int8 VAD
+A08-P02, a,716.96,717.18,0.9978273510932922,faster-whisper-medium.en CPU int8 VAD
+A08-P02, break,717.18,717.36,0.9962419271469116,faster-whisper-medium.en CPU int8 VAD
+A08-P02,-in,717.36,717.6,0.9305300414562225,faster-whisper-medium.en CPU int8 VAD
+A08-P02, at,717.6,717.84,0.9894030094146729,faster-whisper-medium.en CPU int8 VAD
+A08-P02, Hughes,717.84,718.08,0.8593024611473083,faster-whisper-medium.en CPU int8 VAD
+A08-P02, corporate,718.08,718.54,0.7132315039634705,faster-whisper-medium.en CPU int8 VAD
+A08-P02, offices,718.54,719.0,0.9986683130264282,faster-whisper-medium.en CPU int8 VAD
+A08-P02, in,719.0,719.28,0.9876453280448914,faster-whisper-medium.en CPU int8 VAD
+A08-P02, June,719.28,719.5,0.9974742531776428,faster-whisper-medium.en CPU int8 VAD
+A08-P02, 1974.,719.5,720.48,0.8763365149497986,faster-whisper-medium.en CPU int8 VAD
+A08-P02, Investigators,721.02,721.4399999999999,0.9861361980438232,faster-whisper-medium.en CPU int8 VAD
+A08-P02, and,721.4399999999999,721.8199999999999,0.9977471232414246,faster-whisper-medium.en CPU int8 VAD
+A08-P02, reporters,721.8199999999999,722.28,0.9952086806297302,faster-whisper-medium.en CPU int8 VAD
+A08-P02, were,722.28,722.5,0.9983636736869812,faster-whisper-medium.en CPU int8 VAD
+A08-P02, drawn,722.5,722.78,0.9992380142211914,faster-whisper-medium.en CPU int8 VAD
+A08-P02, toward,722.78,723.14,0.9601976275444031,faster-whisper-medium.en CPU int8 VAD
+A08-P02, the,723.14,723.34,0.9988278746604919,faster-whisper-medium.en CPU int8 VAD
+A08-P02, connections,723.34,723.74,0.9937412142753601,faster-whisper-medium.en CPU int8 VAD
+A08-P02, behind,723.74,724.1999999999999,0.9952097535133362,faster-whisper-medium.en CPU int8 VAD
+A08-P02, the,724.1999999999999,724.42,0.9980078339576721,faster-whisper-medium.en CPU int8 VAD
+A08-P02, mining,724.42,724.68,0.9952489733695984,faster-whisper-medium.en CPU int8 VAD
+A08-P02, venture,724.68,725.16,0.9981839060783386,faster-whisper-medium.en CPU int8 VAD
+A08-P02, CIA,725.16,725.96,0.5072780251502991,faster-whisper-medium.en CPU int8 VAD
+A08-P02, director,725.96,726.4399999999999,0.47203999757766724,faster-whisper-medium.en CPU int8 VAD
+A08-P02, William,726.4399999999999,726.8199999999999,0.8303319811820984,faster-whisper-medium.en CPU int8 VAD
+A08-P02, Colby,726.8199999999999,727.3,0.9729538261890411,faster-whisper-medium.en CPU int8 VAD
+A08-P02, had,727.3,727.66,0.9739556312561035,faster-whisper-medium.en CPU int8 VAD
+A08-P02, appealed,727.66,728.0,0.992048442363739,faster-whisper-medium.en CPU int8 VAD
+A08-P02, to,728.0,728.26,0.9988196492195129,faster-whisper-medium.en CPU int8 VAD
+A08-P02, journalists,728.26,728.64,0.9902612566947937,faster-whisper-medium.en CPU int8 VAD
+A08-P02, to,728.64,728.92,0.997022807598114,faster-whisper-medium.en CPU int8 VAD
+A08-P02, hold,728.92,729.12,0.9990267753601074,faster-whisper-medium.en CPU int8 VAD
+A08-P02, back,729.12,729.34,0.9955195188522339,faster-whisper-medium.en CPU int8 VAD
+A08-P02, the,729.34,729.58,0.9983847141265869,faster-whisper-medium.en CPU int8 VAD
+A08-P02, story.,729.58,729.98,0.9991482496261597,faster-whisper-medium.en CPU int8 VAD
+A08-P02, For,730.46,730.58,0.9971747398376465,faster-whisper-medium.en CPU int8 VAD
+A08-P02, a,730.58,730.74,0.9980408549308777,faster-whisper-medium.en CPU int8 VAD
+A08-P02," time,",730.74,730.98,0.999776303768158,faster-whisper-medium.en CPU int8 VAD
+A08-P02, some,731.24,731.36,0.9993417859077454,faster-whisper-medium.en CPU int8 VAD
+A08-P02," did,",731.36,731.68,0.9993031024932861,faster-whisper-medium.en CPU int8 VAD
+A08-P02, keeping,732.04,732.24,0.9971964359283447,faster-whisper-medium.en CPU int8 VAD
+A08-P02, the,732.24,732.46,0.9972844123840332,faster-whisper-medium.en CPU int8 VAD
+A08-P02, secret,732.46,732.74,0.9982743263244629,faster-whisper-medium.en CPU int8 VAD
+A08-P02, now,732.74,733.06,0.9928887486457825,faster-whisper-medium.en CPU int8 VAD
+A08-P02, depended,733.06,733.5,0.8021617531776428,faster-whisper-medium.en CPU int8 VAD
+A08-P02, on,733.5,733.74,0.9975277781486511,faster-whisper-medium.en CPU int8 VAD
+A08-P02, decisions,733.74,734.1999999999999,0.9970425963401794,faster-whisper-medium.en CPU int8 VAD
+A08-P02, far,734.1999999999999,734.52,0.9959375858306885,faster-whisper-medium.en CPU int8 VAD
+A08-P02, beyond,734.52,734.86,0.9993807077407837,faster-whisper-medium.en CPU int8 VAD
+A08-P02, the,734.86,735.06,0.9993801116943359,faster-whisper-medium.en CPU int8 VAD
+A08-P02, ship.,735.06,735.28,0.9980510473251343,faster-whisper-medium.en CPU int8 VAD
+A08-P03, On,735.36,735.6,0.9586248993873596,faster-whisper-medium.en CPU int8 VAD
+A08-P03, March,735.6,735.86,0.9704354405403137,faster-whisper-medium.en CPU int8 VAD
+A08-P03," 18th,",735.86,736.76,0.8592208325862885,faster-whisper-medium.en CPU int8 VAD
+A08-P03, Jack,736.8000000000001,736.94,0.9549710750579834,faster-whisper-medium.en CPU int8 VAD
+A08-P03, Anderson's,736.94,737.58,0.9738763570785522,faster-whisper-medium.en CPU int8 VAD
+A08-P03, syndicated,737.58,738.14,0.9892928898334503,faster-whisper-medium.en CPU int8 VAD
+A08-P03, TV,738.14,738.46,0.990443766117096,faster-whisper-medium.en CPU int8 VAD
+A08-P03, report,738.46,739.0,0.9846585988998413,faster-whisper-medium.en CPU int8 VAD
+A08-P03, broadcast,739.0,739.74,0.9325453042984009,faster-whisper-medium.en CPU int8 VAD
+A08-P03, the,739.74,740.1,0.9935383200645447,faster-whisper-medium.en CPU int8 VAD
+A08-P03, story,740.1,740.38,0.9991788268089294,faster-whisper-medium.en CPU int8 VAD
+A08-P03, nationally.,740.38,740.88,0.9947829842567444,faster-whisper-medium.en CPU int8 VAD
+A08-P03, The,741.6,741.6800000000001,0.9390841722488403,faster-whisper-medium.en CPU int8 VAD
+A08-P03, New,741.6800000000001,741.82,0.9602169394493103,faster-whisper-medium.en CPU int8 VAD
+A08-P03, York,741.82,742.04,0.9987070560455322,faster-whisper-medium.en CPU int8 VAD
+A08-P03, Times,742.04,742.36,0.9863406419754028,faster-whisper-medium.en CPU int8 VAD
+A08-P03, followed,742.36,742.76,0.997490644454956,faster-whisper-medium.en CPU int8 VAD
+A08-P03, with,742.76,743.0,0.9816480875015259,faster-whisper-medium.en CPU int8 VAD
+A08-P03, a,743.0,743.16,0.9862512350082397,faster-whisper-medium.en CPU int8 VAD
+A08-P03, detailed,743.16,743.5600000000001,0.9989845156669617,faster-whisper-medium.en CPU int8 VAD
+A08-P03, account,743.5600000000001,743.92,0.9984744191169739,faster-whisper-medium.en CPU int8 VAD
+A08-P03, on,743.92,744.24,0.9939737915992737,faster-whisper-medium.en CPU int8 VAD
+A08-P03, March,744.24,744.52,0.9896724224090576,faster-whisper-medium.en CPU int8 VAD
+A08-P03, 19th.,744.52,745.38,0.9967294633388519,faster-whisper-medium.en CPU int8 VAD
+A08-P03, An,745.74,745.88,0.8598739504814148,faster-whisper-medium.en CPU int8 VAD
+A08-P03, observer,745.88,746.28,0.9883997440338135,faster-whisper-medium.en CPU int8 VAD
+A08-P03, no,746.28,746.54,0.9934365749359131,faster-whisper-medium.en CPU int8 VAD
+A08-P03, longer,746.54,746.82,0.9994220733642578,faster-whisper-medium.en CPU int8 VAD
+A08-P03, had,746.82,747.02,0.9983721375465393,faster-whisper-medium.en CPU int8 VAD
+A08-P03, to,747.02,747.1800000000001,0.9996378421783447,faster-whisper-medium.en CPU int8 VAD
+A08-P03, infer,747.1800000000001,747.48,0.9976097345352173,faster-whisper-medium.en CPU int8 VAD
+A08-P03, a,747.48,747.66,0.9908868074417114,faster-whisper-medium.en CPU int8 VAD
+A08-P03, hidden,747.66,747.86,0.9996867179870605,faster-whisper-medium.en CPU int8 VAD
+A08-P03, purpose,747.86,748.26,0.9988980293273926,faster-whisper-medium.en CPU int8 VAD
+A08-P03, from,748.26,748.52,0.9973490238189697,faster-whisper-medium.en CPU int8 VAD
+A08-P03, strange,748.52,748.96,0.9891080856323242,faster-whisper-medium.en CPU int8 VAD
+A08-P03, machinery.,748.96,749.5,0.999336302280426,faster-whisper-medium.en CPU int8 VAD
+A08-P03, The,750.1,750.22,0.9970294237136841,faster-whisper-medium.en CPU int8 VAD
+A08-P03, connection,750.22,750.58,0.9992853999137878,faster-whisper-medium.en CPU int8 VAD
+A08-P03, between,750.58,750.94,0.9995394945144653,faster-whisper-medium.en CPU int8 VAD
+A08-P03, the,750.94,751.12,0.9983052015304565,faster-whisper-medium.en CPU int8 VAD
+A08-P03, ship,751.12,751.3000000000001,0.9970104694366455,faster-whisper-medium.en CPU int8 VAD
+A08-P03, and,751.3000000000001,751.48,0.9952712655067444,faster-whisper-medium.en CPU int8 VAD
+A08-P03, the,751.48,751.66,0.9804993271827698,faster-whisper-medium.en CPU int8 VAD
+A08-P03, Soviet,751.66,751.96,0.9690895676612854,faster-whisper-medium.en CPU int8 VAD
+A08-P03, submarine,751.96,752.44,0.9927679300308228,faster-whisper-medium.en CPU int8 VAD
+A08-P03, had,752.44,752.72,0.9961671233177185,faster-whisper-medium.en CPU int8 VAD
+A08-P03, been,752.72,752.88,0.999627947807312,faster-whisper-medium.en CPU int8 VAD
+A08-P03, published.,752.88,753.32,0.999135434627533,faster-whisper-medium.en CPU int8 VAD
+A08-P04, Once,753.6,753.98,0.970702052116394,faster-whisper-medium.en CPU int8 VAD
+A08-P04, the,753.98,754.2,0.9979604482650757,faster-whisper-medium.en CPU int8 VAD
+A08-P04, purpose,754.2,754.5,0.9972288012504578,faster-whisper-medium.en CPU int8 VAD
+A08-P04, was,754.5,754.72,0.9994833469390869,faster-whisper-medium.en CPU int8 VAD
+A08-P04," public,",754.72,755.24,0.9959679841995239,faster-whisper-medium.en CPU int8 VAD
+A08-P04, another,755.6800000000001,756.0,0.9966447353363037,faster-whisper-medium.en CPU int8 VAD
+A08-P04, attempt,756.0,756.4200000000001,0.998659610748291,faster-whisper-medium.en CPU int8 VAD
+A08-P04, would,756.4200000000001,756.62,0.9982354640960693,faster-whisper-medium.en CPU int8 VAD
+A08-P04, have,756.62,756.76,0.9990622401237488,faster-whisper-medium.en CPU int8 VAD
+A08-P04, to,756.76,756.98,0.9993399977684021,faster-whisper-medium.en CPU int8 VAD
+A08-P04, proceed,756.98,757.34,0.997712254524231,faster-whisper-medium.en CPU int8 VAD
+A08-P04, without,757.34,757.7,0.9926173090934753,faster-whisper-medium.en CPU int8 VAD
+A08-P04, the,757.7,757.96,0.9984567165374756,faster-whisper-medium.en CPU int8 VAD
+A08-P04, mining,757.96,758.26,0.9911593794822693,faster-whisper-medium.en CPU int8 VAD
+A08-P04, cover,758.26,758.62,0.9984367489814758,faster-whisper-medium.en CPU int8 VAD
+A08-P04, that,758.62,758.86,0.9945626854896545,faster-whisper-medium.en CPU int8 VAD
+A08-P04, had,758.86,758.98,0.992926299571991,faster-whisper-medium.en CPU int8 VAD
+A08-P04, protected,758.98,759.46,0.9987230896949768,faster-whisper-medium.en CPU int8 VAD
+A08-P04, the,759.46,759.7,0.9990578293800354,faster-whisper-medium.en CPU int8 VAD
+A08-P04, first,759.7,759.96,0.9928379654884338,faster-whisper-medium.en CPU int8 VAD
+A08-P04, mission.,759.96,760.38,0.9956191182136536,faster-whisper-medium.en CPU int8 VAD
+A08-P04, On,760.82,760.94,0.9942739605903625,faster-whisper-medium.en CPU int8 VAD
+A08-P04, March,760.94,761.1800000000001,0.9607776403427124,faster-whisper-medium.en CPU int8 VAD
+A08-P04," 28th,",761.1800000000001,762.26,0.9606345593929291,faster-whisper-medium.en CPU int8 VAD
+A08-P04, Colby,762.3000000000001,762.5400000000001,0.9637239873409271,faster-whisper-medium.en CPU int8 VAD
+A08-P04, argued,762.5400000000001,762.98,0.9985200762748718,faster-whisper-medium.en CPU int8 VAD
+A08-P04, that,762.98,763.1800000000001,0.994679868221283,faster-whisper-medium.en CPU int8 VAD
+A08-P04, a,763.1800000000001,763.3000000000001,0.9919064044952393,faster-whisper-medium.en CPU int8 VAD
+A08-P04, second,763.3000000000001,763.64,0.9946258664131165,faster-whisper-medium.en CPU int8 VAD
+A08-P04, mission,763.64,764.0,0.9985394477844238,faster-whisper-medium.en CPU int8 VAD
+A08-P04, was,764.0,764.28,0.9981333613395691,faster-whisper-medium.en CPU int8 VAD
+A08-P04, inadvisable,764.28,765.0600000000001,0.9831243604421616,faster-whisper-medium.en CPU int8 VAD
+A08-P04, because,765.0600000000001,765.36,0.9707399010658264,faster-whisper-medium.en CPU int8 VAD
+A08-P04, the,765.36,765.6,0.9964202642440796,faster-whisper-medium.en CPU int8 VAD
+A08-P04, operation,765.6,766.08,0.9930071830749512,faster-whisper-medium.en CPU int8 VAD
+A08-P04, had,766.08,766.3000000000001,0.9970396161079407,faster-whisper-medium.en CPU int8 VAD
+A08-P04, been,766.3000000000001,766.48,0.9995868802070618,faster-whisper-medium.en CPU int8 VAD
+A08-P04, exposed.,766.48,767.16,0.9962809681892395,faster-whisper-medium.en CPU int8 VAD
+A08-P04, Ford,767.84,767.96,0.9842529892921448,faster-whisper-medium.en CPU int8 VAD
+A08-P04, approved,767.96,768.38,0.9969077706336975,faster-whisper-medium.en CPU int8 VAD
+A08-P04, termination,768.38,768.98,0.9972871541976929,faster-whisper-medium.en CPU int8 VAD
+A08-P04, of,768.98,769.26,0.9990436434745789,faster-whisper-medium.en CPU int8 VAD
+A08-P04, the,769.26,769.44,0.999265730381012,faster-whisper-medium.en CPU int8 VAD
+A08-P04, program,769.44,769.82,0.17260347306728363,faster-whisper-medium.en CPU int8 VAD
+A08-P04, on,769.82,770.0400000000001,0.9754133224487305,faster-whisper-medium.en CPU int8 VAD
+A08-P04, June,770.0400000000001,770.24,0.9333112239837646,faster-whisper-medium.en CPU int8 VAD
+A08-P04, 16th.,770.24,771.02,0.8879802525043488,faster-whisper-medium.en CPU int8 VAD
+A08-P06, The,771.04,771.24,0.9816255569458008,faster-whisper-medium.en CPU int8 VAD
+A08-P06, Explorer,771.24,771.6999999999999,0.757183849811554,faster-whisper-medium.en CPU int8 VAD
+A08-P06, was,771.6999999999999,771.9399999999999,0.9986699819564819,faster-whisper-medium.en CPU int8 VAD
+A08-P06, mothballed,771.9399999999999,772.5799999999999,0.9938900470733643,faster-whisper-medium.en CPU int8 VAD
+A08-P06, in,772.5799999999999,772.7199999999999,0.997417688369751,faster-whisper-medium.en CPU int8 VAD
+A08-P06, August,772.7199999999999,773.06,0.983816385269165,faster-whisper-medium.en CPU int8 VAD
+A08-P06, 1976.,773.06,774.0,0.930730938911438,faster-whisper-medium.en CPU int8 VAD
+A08-P06, It,774.6999999999999,774.8,0.9915366172790527,faster-whisper-medium.en CPU int8 VAD
+A08-P06, later,774.8,775.0799999999999,0.9992849230766296,faster-whisper-medium.en CPU int8 VAD
+A08-P06, entered,775.0799999999999,775.4599999999999,0.9990742206573486,faster-whisper-medium.en CPU int8 VAD
+A08-P06, commercial,775.4599999999999,775.98,0.9789551496505737,faster-whisper-medium.en CPU int8 VAD
+A08-P06, drilling,775.98,776.3199999999999,0.9974575638771057,faster-whisper-medium.en CPU int8 VAD
+A08-P06, service.,776.3199999999999,776.86,0.9977498650550842,faster-whisper-medium.en CPU int8 VAD
+A08-P06, In,777.3,777.4,0.9933890104293823,faster-whisper-medium.en CPU int8 VAD
+A08-P06," 2015,",777.4,778.3399999999999,0.9984478950500488,faster-whisper-medium.en CPU int8 VAD
+A08-P06, a,778.86,778.98,0.9942207336425781,faster-whisper-medium.en CPU int8 VAD
+A08-P06, Transocean,778.98,779.5799999999999,0.981932004292806,faster-whisper-medium.en CPU int8 VAD
+A08-P06, filing,779.5799999999999,779.98,0.986068844795227,faster-whisper-medium.en CPU int8 VAD
+A08-P06, recorded,779.98,780.5,0.9932612776756287,faster-whisper-medium.en CPU int8 VAD
+A08-P06, a,780.5,780.7199999999999,0.9985948204994202,faster-whisper-medium.en CPU int8 VAD
+A08-P06, completed,780.7199999999999,781.0999999999999,0.9965015649795532,faster-whisper-medium.en CPU int8 VAD
+A08-P06, sale,781.0999999999999,781.5799999999999,0.9967184662818909,faster-whisper-medium.en CPU int8 VAD
+A08-P06, after,781.5799999999999,781.9599999999999,0.9845630526542664,faster-whisper-medium.en CPU int8 VAD
+A08-P06, the,781.9599999999999,782.18,0.9973625540733337,faster-whisper-medium.en CPU int8 VAD
+A08-P06, decision,782.18,782.5,0.999427080154419,faster-whisper-medium.en CPU int8 VAD
+A08-P06, to,782.5,782.7199999999999,0.9994661211967468,faster-whisper-medium.en CPU int8 VAD
+A08-P06, sell,782.7199999999999,782.9,0.9991752505302429,faster-whisper-medium.en CPU int8 VAD
+A08-P06, it,782.9,783.06,0.9991990923881531,faster-whisper-medium.en CPU int8 VAD
+A08-P06, for,783.06,783.1999999999999,0.9987047910690308,faster-whisper-medium.en CPU int8 VAD
+A08-P06, scrap.,783.1999999999999,783.5,0.9992368221282959,faster-whisper-medium.en CPU int8 VAD
+A08-P07, The,783.68,783.88,0.9426395893096924,faster-whisper-medium.en CPU int8 VAD
+A08-P07, engineering,783.88,784.4,0.8399094939231873,faster-whisper-medium.en CPU int8 VAD
+A08-P07, had,784.4,784.68,0.9980271458625793,faster-whisper-medium.en CPU int8 VAD
+A08-P07, answered,784.68,785.06,0.99835604429245,faster-whisper-medium.en CPU int8 VAD
+A08-P07, the,785.06,785.3,0.9989259839057922,faster-whisper-medium.en CPU int8 VAD
+A08-P07, opening,785.3,785.5999999999999,0.9965257048606873,faster-whisper-medium.en CPU int8 VAD
+A08-P07, question.,785.5999999999999,786.14,0.9989802241325378,faster-whisper-medium.en CPU int8 VAD
+A08-P07, A,786.8399999999999,786.9399999999999,0.9848971366882324,faster-whisper-medium.en CPU int8 VAD
+A08-P07, mining,786.9399999999999,787.2399999999999,0.9979027509689331,faster-whisper-medium.en CPU int8 VAD
+A08-P07, project,787.2399999999999,787.7399999999999,0.9989210367202759,faster-whisper-medium.en CPU int8 VAD
+A08-P07, explained,787.7399999999999,788.28,0.9962639212608337,faster-whisper-medium.en CPU int8 VAD
+A08-P07, the,788.28,788.5,0.9990518689155579,faster-whisper-medium.en CPU int8 VAD
+A08-P07, ship.,788.5,788.8,0.9977514147758484,faster-whisper-medium.en CPU int8 VAD
+A08-P07, A,789.3399999999999,789.4399999999999,0.9920377731323242,faster-whisper-medium.en CPU int8 VAD
+A08-P07, submerged,789.4399999999999,789.92,0.9850934743881226,faster-whisper-medium.en CPU int8 VAD
+A08-P07, transfer,789.92,790.54,0.9966496825218201,faster-whisper-medium.en CPU int8 VAD
+A08-P07, hid,790.54,790.8399999999999,0.997161865234375,faster-whisper-medium.en CPU int8 VAD
+A08-P07, its,790.8399999999999,791.0999999999999,0.9782213568687439,faster-whisper-medium.en CPU int8 VAD
+A08-P07, equipment.,791.0999999999999,791.5,0.9976016879081726,faster-whisper-medium.en CPU int8 VAD
+A08-P07, The,792.06,792.18,0.9963822364807129,faster-whisper-medium.en CPU int8 VAD
+A08-P07, central,792.18,792.52,0.974609375,faster-whisper-medium.en CPU int8 VAD
+A08-P07, well,792.52,792.78,0.997470498085022,faster-whisper-medium.en CPU int8 VAD
+A08-P07, concealed,792.78,793.3599999999999,0.9986314177513123,faster-whisper-medium.en CPU int8 VAD
+A08-P07, what,793.3599999999999,793.64,0.9979932308197021,faster-whisper-medium.en CPU int8 VAD
+A08-P07, came,793.64,793.88,0.9994491934776306,faster-whisper-medium.en CPU int8 VAD
+A08-P07, back.,793.88,794.28,0.9996722936630249,faster-whisper-medium.en CPU int8 VAD
+A08-P07, The,794.8,794.92,0.9974555373191833,faster-whisper-medium.en CPU int8 VAD
+A08-P07, secret,794.92,795.1999999999999,0.9942881464958191,faster-whisper-medium.en CPU int8 VAD
+A08-P07, was,795.1999999999999,795.4399999999999,0.9994908571243286,faster-whisper-medium.en CPU int8 VAD
+A08-P07, built,795.4399999999999,795.7399999999999,0.9981525540351868,faster-whisper-medium.en CPU int8 VAD
+A08-P07, into,795.7399999999999,796.0,0.9924873113632202,faster-whisper-medium.en CPU int8 VAD
+A08-P07, the,796.0,796.1999999999999,0.9987370371818542,faster-whisper-medium.en CPU int8 VAD
+A08-P07, route,796.1999999999999,796.3399999999999,0.993077278137207,faster-whisper-medium.en CPU int8 VAD
+A08-P07, the,796.3399999999999,796.5799999999999,0.9888062477111816,faster-whisper-medium.en CPU int8 VAD
+A08-P07, cargo,796.5799999999999,796.9,0.9969948530197144,faster-whisper-medium.en CPU int8 VAD
+A08-P07, took.,796.9,797.3199999999999,0.9994552731513977,faster-whisper-medium.en CPU int8 VAD
+A08-P07, Once,797.92,798.12,0.9979187846183777,faster-whisper-medium.en CPU int8 VAD
+A08-P07, that,798.12,798.3399999999999,0.9871845841407776,faster-whisper-medium.en CPU int8 VAD
+A08-P07, route's,798.3399999999999,798.7199999999999,0.9730679094791412,faster-whisper-medium.en CPU int8 VAD
+A08-P07, purpose,798.7199999999999,798.9399999999999,0.9996131062507629,faster-whisper-medium.en CPU int8 VAD
+A08-P07, was,798.9399999999999,799.2199999999999,0.9994848966598511,faster-whisper-medium.en CPU int8 VAD
+A08-P07," public,",799.2199999999999,799.64,0.9978535771369934,faster-whisper-medium.en CPU int8 VAD
+A08-P07, hiding,800.0,800.26,0.9953082203865051,faster-whisper-medium.en CPU int8 VAD
+A08-P07, the,800.26,800.5,0.9983225464820862,faster-whisper-medium.en CPU int8 VAD
+A08-P07, cargo,800.5,800.8599999999999,0.9996187686920166,faster-whisper-medium.en CPU int8 VAD
+A08-P07, was,800.8599999999999,801.14,0.9978958368301392,faster-whisper-medium.en CPU int8 VAD
+A08-P07, no,801.14,801.3399999999999,0.9980852603912354,faster-whisper-medium.en CPU int8 VAD
+A08-P07, longer,801.3399999999999,801.66,0.9998099207878113,faster-whisper-medium.en CPU int8 VAD
+A08-P07, enough.,801.66,802.0799999999999,0.9998937845230103,faster-whisper-medium.en CPU int8 VAD
+A08-P08, The,802.24,802.34,0.954375147819519,faster-whisper-base.en CPU int8
+A08-P08, first,802.34,802.58,0.9955654740333557,faster-whisper-base.en CPU int8
+A08-P08, attempt,802.58,802.86,0.9987269043922424,faster-whisper-base.en CPU int8
+A08-P08, ended,802.86,803.52,0.9969293475151062,faster-whisper-base.en CPU int8
+A08-P08, with,803.52,803.82,0.9379977583885193,faster-whisper-base.en CPU int8
+A08-P08, part,803.82,804.0600000000001,0.9836845397949219,faster-whisper-base.en CPU int8
+A08-P08, of,804.0600000000001,804.28,0.9986526966094971,faster-whisper-base.en CPU int8
+A08-P08, the,804.28,804.4,0.9985309839248657,faster-whisper-base.en CPU int8
+A08-P08, target,804.4,804.76,0.9416681528091431,faster-whisper-base.en CPU int8
+A08-P08, back,804.76,805.0600000000001,0.995564341545105,faster-whisper-base.en CPU int8
+A08-P08, on,805.0600000000001,805.3,0.9923601746559143,faster-whisper-base.en CPU int8
+A08-P08, the,805.3,805.42,0.9993409514427185,faster-whisper-base.en CPU int8
+A08-P08, ocean,805.42,805.62,0.9927963614463806,faster-whisper-base.en CPU int8
+A08-P08, floor.,805.62,806.04,0.9989998936653137,faster-whisper-base.en CPU int8
+A08-P08, The,807.2,807.28,0.9967615008354187,faster-whisper-base.en CPU int8
+A08-P08, second,807.28,807.5600000000001,0.9962221384048462,faster-whisper-base.en CPU int8
+A08-P08, never,807.5600000000001,807.9,0.991596519947052,faster-whisper-base.en CPU int8
+A08-P08, sailed.,807.9,808.3,0.9961219429969788,faster-whisper-base.en CPU int8
+A08-P08, The,809.32,809.4,0.9969660639762878,faster-whisper-base.en CPU int8
+A08-P08, explorer,809.4,809.8,0.5823711156845093,faster-whisper-base.en CPU int8
+A08-P08, had,809.8,810.1,0.9968909621238708,faster-whisper-base.en CPU int8
+A08-P08, found,810.1,810.34,0.998589813709259,faster-whisper-base.en CPU int8
+A08-P08, a,810.34,810.46,0.9990987777709961,faster-whisper-base.en CPU int8
+A08-P08, way,810.46,810.62,0.9998468160629272,faster-whisper-base.en CPU int8
+A08-P08, to,810.62,810.78,0.9972993731498718,faster-whisper-base.en CPU int8
+A08-P08, bring,810.78,811.0,0.9982563853263855,faster-whisper-base.en CPU int8
+A08-P08, Soviet,811.0,811.28,0.9216794371604919,faster-whisper-base.en CPU int8
+A08-P08, wreckage,811.28,811.76,0.8812006115913391,faster-whisper-base.en CPU int8
+A08-P08, aboard,811.76,812.24,0.998633086681366,faster-whisper-base.en CPU int8
+A08-P08, unseen.,812.24,812.78,0.689034104347229,faster-whisper-base.en CPU int8
+A08-P08, It,813.9,814.02,0.9970596432685852,faster-whisper-base.en CPU int8
+A08-P08, had,814.02,814.14,0.9964872598648071,faster-whisper-base.en CPU int8
+A08-P08, no,814.14,814.38,0.9930336475372314,faster-whisper-base.en CPU int8
+A08-P08, way,814.38,814.58,0.9990516304969788,faster-whisper-base.en CPU int8
+A08-P08, to,814.58,814.74,0.9981896281242371,faster-whisper-base.en CPU int8
+A08-P08, make,814.74,814.9,0.9982237219810486,faster-whisper-base.en CPU int8
+A08-P08, its,814.9,815.04,0.9661924839019775,faster-whisper-base.en CPU int8
+A08-P08, published,815.04,815.38,0.9884552955627441,faster-whisper-base.en CPU int8
+A08-P08, purpose,815.38,815.88,0.9501382112503052,faster-whisper-base.en CPU int8
+A08-P08, secret,815.88,816.2,0.9976632595062256,faster-whisper-base.en CPU int8
+A08-P08, again.,816.2,816.62,0.9968358874320984,faster-whisper-base.en CPU int8

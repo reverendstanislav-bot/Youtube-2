@@ -1,0 +1,11 @@
+{
+  "event": "OWNER_LISTENING_ACCEPTANCE",
+  "evidence_user_message": "Послушал , все норм дальше что",
+  "scope": "Glomar R1.2 complete narration master, including A06-P02 and A08-P03",
+  "delivery_master_sha256": "0f7c9430fab3efa2cbf4cf0478be68abbf5721c341ad681f9ad07087a2b45a47",
+  "native_master_sha256": "9bb070e42078540d9de757ce92f3152e4ad682b48ceca8e100846bf49953f25e",
+  "asr_history_preserved": true,
+  "remaining_targeted_listening_holds": [],
+  "regeneration_allowed_by_this_record": false,
+  "scope_limit": "Does not imply rights, final film AV or publication acceptance"
+}

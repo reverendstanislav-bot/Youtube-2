@@ -1,0 +1,176 @@
+GLOMAR EXPLORER — 7 MISSING STILL PROMPTS / ПОДГОТОВКА, НЕ ГЕНЕРАЦИЯ
+
+Все задания отдельные. Стиль задают реальные PASS Camp Century, историческую форму — отдельные предметные референсы. Ни один исходный документ не отдаёт права на републикацию автоматически. Никаких ImageGen-видео.
+
+
+================================================================
+IG01 — Ящики перекрывают посадку
+Сценарий: A01-P01;A06-P02
+Монтаж: SH002, SH081
+Файл результата: GLOMAR_IG01.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_PEOPLE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\SHIP_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 3: REFERENCES\D07_PDF_P38.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 4: REFERENCES\D07_PDF_P39.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Действие подтверждено D07pp38–39. Точная раскладка ящиков и их размеры не установлены; не выдавать рисунок за снимок события.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+3–6с в начале и короткий осмысленный возврат при объяснении наблюдения; не два разных похожих кадра подряд.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+An oblique waist-height view across a small part of the open helicopter deck of Hughes Glomar Explorer in 1974. Canvas-covered cargo crates occupy the usable landing space. The boxes and tied canvas are the subject: rough wood at a corner, heavy folded cloth, believable deck fittings and a low rail. Keep the rest of the vessel outside the crop rather than inventing an exact helipad location from an uncertain view. Open Pacific beyond the rail. No helicopter, no landing, no soldiers, no weapons, no scene of confrontation. The crates are already positioned; do not depict an invented order being given. The reference ship establishes period and industrial vocabulary only; the document establishes the deck obstruction. Place the crates across the middle and upper-middle with calm open decking at the bottom.
+
+
+================================================================
+IG02 — Монтаж карданной платформы
+Сценарий: A03-P04
+Монтаж: SH032
+Файл результата: GLOMAR_IG02.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_SCALE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\STYLE_PEOPLE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 3: REFERENCES\SUN_PLATFORM_REFERENCE.jpeg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 4: REFERENCES\SHIP_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Sun photo permission HOLD: only factual geometry reference; новое изображение не является разрешённой архивной фотографией. Масса630/755не используется.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+Один широкий план работы вместо псевдоархивного фотореализма. Не анимировать независимое качание груза без принятой механики.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+A wide industrial scene during assembly of Hughes Glomar Explorer at Sun Shipbuilding in the early 1970s. A floating heavy-lift crane holds the gimbaled platform above an unfinished opening in the vessel. Use the genuine platform-installation photograph solely to understand which assembly is being lifted and the relative positions of crane and ship; create a different, clear side-oblique explanatory composition rather than tracing that photograph. Small anonymous riggers at a safe distance provide human scale. The large suspended platform, cables, unfinished structure and ship opening form one coherent physical action. The load is a gimbal assembly, not the submarine capture vehicle. Do not depict a submarine, coffins or a wreck. Do not add a numerical lifting mass, inspection markings, fictitious flags or readable signage. Lower foreground remains quiet water/ship plating, no decorative paper border.
+
+
+================================================================
+IG03 — Верхняя часть вышки перед проходом
+Сценарий: A03-P05
+Монтаж: SH036
+Файл результата: GLOMAR_IG03.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_SCALE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\SHIP_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 3: REFERENCES\D07_PDF_P20.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Подтверждён факт снятия/возврата, не вид каждого троса. Точный мост и высоты не генерируются.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+База для локального смыслового выделения снятой секции. Движение компонента объяснять отдельной собственной схемойG09, не deform image.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+A medium-wide explanatory industrial illustration of the upper derrick section of Hughes Glomar Explorer temporarily removed for the 1973 Delaware River bridge passage. Show the detached upper steel lattice section supported by lifting gear beside the remaining derrick, with a few small period shipyard workers attending the lift from a safe platform. The genuine ship photograph controls derrick vocabulary and silhouette; the historical page supports removal and replacement, but does not supply a surveyed rigging plan. Keep the arrangement visibly explanatory and mechanically plausible. Do not invent the exact bridge profile, roadway clearance dimension, crane model, precise sling geometry or a dramatic near-collision. Exclude the bridge from the scene: the later editable schematic will explain the clearance problem. No calendar, arrows or labels. Composition emphasizes the separation between the upper section and remaining steelwork.
+
+
+================================================================
+IG04 — Закрытие ворот тросами и лебёдкой
+Сценарий: A04-P04
+Монтаж: SH049
+Файл результата: GLOMAR_IG04.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_PEOPLE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\WELL_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 3: REFERENCES\D07_PDF_P30.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Действие известно; точный облик лебёдки не установлен. Саму механику повреждения объясняет G02, не этот рисунок.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+Локальный акцент на тросе только нативным слоем; звук — короткая недокументальная Foley-вставка, не якобы оригинальная запись.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+An intimate industrial working scene aboard a 1970s recovery vessel during the documented gate-recovery operation: a crew member in plain workwear monitors a tensioned cable at a mechanical winch, another worker attends the mechanism at a safe offset. Focus on hands, cable drum, steel fittings and effort, not a generic control room. The central well is only partly visible in the background, with water contained below. The historical source says cables and winches were used to close a damaged gate; it does not prove the exact cable routing, so do not draw a technical cutaway or a precise gate-drive diagram. No spraying sparks, flooding disaster, snapped cable, explosion or injured person. Anonymous workers, no invented protagonist. Keep figures and winch in upper/middle area; bottom strip is uncluttered deck plating.
+
+
+================================================================
+IG05 — Ремонт уплотнения водолазом
+Сценарий: A04-P05
+Монтаж: SH053
+Файл результата: GLOMAR_IG05.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_PEOPLE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\STYLE_CUTAWAY.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 3: REFERENCES\WELL_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 4: REFERENCES\D07_PDF_P30.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Водолаз работал у корабля в воде; не переносить его на глубину затонувшей лодки. Тип снаряжения и форма дефекта не установлены.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+Неподвижный рисунок с возможным отдельным акцентом на участке осмотра; без имитации плавания персонажа и параллакса через корпус.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+A close oblique underwater illustration of a diver inspecting a seal along the underside gate area of a recovery vessel in shallow harbor water in 1974. Show a small portion of dark steel hull, a gate edge and one anonymous diver working near it, with the water surface softly suggested above. The physical action is inspection/repair at the ship, not deep-ocean work on the Soviet wreck. Do not show a submarine, seabed salvage claws, military assault, modern electronic displays or a precisely identified diving system. Keep period diving equipment unobtrusive and partially occluded where details are not documented. No exact defect shape or dramatic gushing leak is asserted. Gentle blue-gray water, strong dark contour of the gate edge, controlled visibility. The factual reference supplies the setting; the scene is an editorial reconstruction rather than a photograph.
+
+
+================================================================
+IG06 — Закрытая сборка захвата
+Сценарий: A05-P01
+Монтаж: SH063
+Файл результата: GLOMAR_IG06.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_PEOPLE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\STYLE_SCALE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 3: REFERENCES\CAPTURE_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 4: REFERENCES\ASME_PDF_P11.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Известна закрытая подготовка; точный интерьер не доказан. Схему ASME не републиковать как готовое изображение.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+Один физический эпизод; следующую передачу показывать ясной G03, не продолжать слайдшоу случайных складов.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+A wide interior industrial scene: the elongated steel submarine capture vehicle under cover in an early-1970s covered assembly area, with a few anonymous workers providing scale. Use the museum capture-device image and technical page to understand the skeletal frame and gripping assemblies; do not copy the page's typography, caption or illustrated background. Show a coherent frame with structurally connected members, not a generic crane hook, a submarine or an aircraft fuselage. The covering structure screens the large device from outside view. Use diffuse daylight entering from a partial side opening, subdued steel and a restrained ochre workwear accent. No readable plans, fabricated official records, CIA logo, secrecy stamp or posed agents. This image establishes the need to keep the shape out of open view; do not attempt to depict the later submerged transfer in this same composition.
+
+
+================================================================
+IG07 — Экипаж и колонна труб
+Сценарий: A04-P06;A06-P03;A06-P06
+Монтаж: SH056, SH084, SH091
+Файл результата: GLOMAR_IG07.png
+
+КАКИЕ РЕФЕРЕНСЫ ГРУЗИТЬ, ПО ПОРЯДКУ:
+Upload 1: REFERENCES\STYLE_PEOPLE.png — STYLE ONLY: linework/material, do not copy depicted objects
+Upload 2: REFERENCES\WELL_GEOMETRY.jpg — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 3: REFERENCES\ASME_PDF_P06.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+Upload 4: REFERENCES\ASME_PDF_P08.png — FACT/GEOMETRY ONLY: not a style reference; retain source limitations
+
+ГРАНИЦЫ ДОСТОВЕРНОСТИ:
+Принцип трубы подтверждён; точная смена/расстановка людей — реконструкция. Нельзя обозначать как видео испытаний определённого дня.
+
+МОНТАЖНАЯ АДАПТАЦИЯ:
+Три применения только с разной смысловой функцией: проверка, добавление трубы, снятие трубы. Не выдавать разные кропы одной базы за три реальных архивных события.
+
+COPY PROMPT EN:
+Create one individual 16:9 landscape illustration, 1920x1080 composition, in the owner-approved Camp Century visual language: confident black ink and charcoal linework, restrained watercolor washes, matte warm off-white paper, cool desaturated blue-gray steel/water and small natural ochre accents. Informative inhabited engineering scene, not a photorealistic recreation, not a text slide, not a cinematic orange-and-black poster. Preserve coherent people/objects and plausible scale. Keep the bottom 20 percent composition calm and free of critical detail for later layout; no dialogue subtitles. No text, titles, labels, numbers, letters, symbols, arrows, circles, colored rectangles, marker streaks, UI, watermarks, borders or the word ILLUSTRATION. No fabricated historical documents. All precise text and emphases will be editable layers outside the image. Use style references only for material/linework/composition; never transfer snow, tractors, camp buildings or aircraft into this maritime scene. Do not paste the references into a collage. Do not add decorative blank cards.
+
+SCENE:
+A medium working illustration of anonymous crew handling one vertical steel pipe section at the heavy lifting/pipe-handling area of a 1970s deep-ocean recovery ship. The pipe descends through the machinery toward the well; an adjacent segment waits in a support rack. Show the relation of pipe, guides, operators and protected work positions in one legible scene. Workers must stand clear of the suspended load and pinch points. Use technical references for the supporting pipe-string principle and real interior image for steelwork vocabulary, not as a claim of an exact observed shift. No modern touchscreens, glowing radar, rescue cable spool substituting for the pipe string, invented pressure values or submarine visible at the surface. Cool-gray ink linework, small human gestures, warm restrained workwear, open breathing room at the lower edge.

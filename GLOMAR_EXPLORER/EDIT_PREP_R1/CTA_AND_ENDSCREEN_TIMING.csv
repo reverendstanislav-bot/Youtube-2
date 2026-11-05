@@ -1,0 +1,5 @@
+cta,start_seconds,end_seconds,anchor,execution,status
+SPOKEN_SUBSCRIBE,240.96,249.28,A03-CTA01,"Already present in acceptedA1; do not duplicate narration. One small editable channel name/subscribe in clear uppercorner if needed; no full-frame card, no audio reset.",AUDIO_ACCEPTED_VISUAL_LAYOUT_PENDING
+VISUAL_LIKE,450.08,451.58,After A05-P03,"One1.5s silent outlinedLIKE, upper-right only if no mechanism occupied;5%frame margin and bottom20%clear. No speech or notification.",PLANNED_NOT_PRODUCED
+COMMENT,,,Pinned comment only,Use accepted SCRIPT_R1_2/PINNED_COMMENT_R1_2.md EN/RU. No new spoken question over historical end.,TEXT_READY_NOT_POSTED
+SUBSCRIBE_PREVIOUS_STORY,816.96,836.96,After complete last paragraph,"20s quiettail, realSubscribe slot + verifiedpublishedPreviousStory. No extra slots, voice, ice stock or motion drift.",SLOT_LAYOUT_DRAFT_PUBLISHED_VIDEO_TARGET_HOLD

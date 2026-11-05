@@ -1,0 +1,22 @@
+{
+  "shot_rows": 128,
+  "paragraphs": 50,
+  "narration_seconds": 816.96,
+  "end_screen_seconds": 20,
+  "planned_total_seconds": 836.96,
+  "timeline_gaps": 0,
+  "new_generated_stills": 7,
+  "native_graphics": 10,
+  "type_seconds": {
+    "DOCUMENT": 160.1,
+    "GENERATED_STILL": 59.05,
+    "PHOTO": 114.31999999999998,
+    "NATIVE_GRAPHIC": 422.21,
+    "PHOTO_DOCUMENT": 21.56,
+    "VIDEO": 39.72,
+    "END_SCREEN": 20.0
+  },
+  "fps": "25 proposed to match Camp Century reference; Glomar timeline not yet created/locked",
+  "actual_picture_assets_generated": 0,
+  "resolve_touched": false
+}
