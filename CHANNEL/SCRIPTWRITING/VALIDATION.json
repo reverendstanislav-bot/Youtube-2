@@ -14,5 +14,9 @@
   "script_lock_granted": false,
   "production_started": false,
   "new_dependencies": false,
-  "documentation_push_triggers_production": false
+  "documentation_push_triggers_production": false,
+  "policy_version": "V1.1_LATEST_OWNER_NO_SHORTS",
+  "policy_checked": "2026-11-05",
+  "qc19": "SHORTS_EXCLUSION",
+  "current_episode_validation": "../../GLOMAR_EXPLORER/SCRIPT_R1/VALIDATION_R1.json"
 }

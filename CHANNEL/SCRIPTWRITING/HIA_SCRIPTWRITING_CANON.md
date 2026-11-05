@@ -6,7 +6,7 @@ Authority: owner task received 2026-11-04. Scope: future unlocked Hidden Industr
 
 Read current owner instructions, this canon and [change log](HIA_CANON_CHANGELOG.md), [editorial lock](../EDITORIAL_OWNER_LOCK_2026-11-02.md), episode state/handoff, factual ledger, rights register and existing competitor-to-scene comparison. Preserve [provenance/editing](../PROVENANCE_AND_EDITING_CANON.md), [no-subtitles lock](../NO_SUBTITLES_OWNER_LOCK_2026-10-10.md), artwork/audio locks and publishing requirements. Latest specific owner instructions win. Read current remote HEAD after a context reset; remembered branch state is insufficient.
 
-The new explicit task requires four independent Shorts drafts per future long-form writing package, maximum 30–35 seconds including any tail. This supersedes the 2026-11-02 NO SHORTS planning rule and older extraction-only writing rule. It does not authorize producing Shorts, changing locked batches or imposing a posting schedule. See [Shorts framework](HIA_SHORTS_FRAMEWORK.md).
+LATEST OWNER OVERRIDE — follow-up 2026-11-04: NO SHORTS. Exclude Shorts from this episode and future HIA writing/production unless explicitly reauthorized. This supersedes the earlier same-day four-draft requirement. Do not write, plan, generate or publish them. See [disabled Shorts policy](HIA_SHORTS_FRAMEWORK.md).
 
 ## One investigation
 

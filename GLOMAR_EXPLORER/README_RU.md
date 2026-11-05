@@ -25,3 +25,5 @@ PROJECT_STATE.json — текущее состояние.
 Актуальная карта из 24 эпизодов и проверка прав: [ARCHIVE_STORY_R3](ARCHIVE_STORY_R3/README_RU.md). Строительная кинохроника не закрыта; V03/V04 RIGHTS HOLD.
 
 Актуально R4: [окончательный выбор по 24 эпизодам](ARCHIVE_DECISIONS_R4/FINAL_STORYBOARD_RU.md). Полный V03 не найден; цифровой Sun Ship найден, права HOLD; 630/755 tons не разрешено.
+
+Текущий этап: [полный сценарий R1 EN/RU](SCRIPT_R1/README_RU.md), OWNER REVIEW / SCRIPT LOCK HOLD. Shorts исключены последним указанием.

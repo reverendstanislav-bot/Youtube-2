@@ -1,5 +1,7 @@
 # HIA canon change log / conflict decisions
 
+## V1.0 — historical implementation; Shorts clauses superseded below
+
 ## V1.0 — 2026-11-04
 
 Authority: attached owner task HIA UNIVERSAL SCRIPTWRITING CANON V1.0. Starting default branch main: cf80d82207ff8358729f31cd8650826fb945d0cd. No existing channel-wide scriptwriting equivalent found. CHANNEL/SCRIPTWRITING is the single new home. Root STATE.md absent: episode handoffs/release registry remain state authorities, no competing global episode STATE created.
@@ -24,3 +26,7 @@ Authority: attached owner task HIA UNIVERSAL SCRIPTWRITING CANON V1.0. Starting 
 Seven framework documents, two reports, a JSON review template and dependency-free gate-integrity validator are added. Root AGENTS/README, CHANNEL README, dated editorial-lock amendment and old Shorts-canon banner route future sessions here. Historical rules are preserved below explicit scoped amendments.
 
 No new episode scripts, TTS, images, footage, paid requests or publications. Memory files are not edited; persistence is in Git.
+
+## V1.1 — later owner follow-up 2026-11-04
+
+Owner requested the current Glomar script and explicitly excluded Shorts. Restore channel-wide NO SHORTS for future work until reauthorized. Canon, template, QC19, Shorts policy and entry-point banners now agree. The earlier same-day four-draft decision is historical, not active. Twenty QC IDs remain stable; QC19 checks exclusion. Previously recorded V1.0 implementation validation is historical; current episode records state the applied V1.1 override. No old locked script/media modified.

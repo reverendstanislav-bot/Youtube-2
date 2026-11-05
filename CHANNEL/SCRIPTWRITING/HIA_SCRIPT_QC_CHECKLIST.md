@@ -24,7 +24,7 @@ PASS: criterion demonstrated by specific evidence. HOLD: missing/unverified evid
 | QC16 | Native en-US / translation | Spoken clarity; equivalent EN/RU IDs if required | yes |
 | QC17 | Realistic duration | Spoken EN count, measured approved pace or honest timing HOLD | yes |
 | QC18 | Feasible visual production | Specific files/pages/ranges, rights/quality gates and fallback | yes |
-| QC19 | Four viable Shorts drafts | Independent hook/discovery/payoff,30–35s maximum including tail | no |
+| QC19 | Shorts excluded | No Shorts scripts, extraction maps, generation or production planned under latest owner override | no |
 | QC20 | HIA compatibility | Voice evidence, no subtitles/AI video, safe zones, locks and approval gates | yes |
 
 A justified alternative is tested under its criterion, not penalized for lacking eight literal headings. No row silently disappears as N/A: document an applicable alternative. CTA omissions require rationale and review. VOICE/TIMING HOLD does not authorize generation of a sample. Critical failures cannot be averaged away.
@@ -39,4 +39,4 @@ Checks:20 unique IDs, allowed statuses, evidence for PASS, actions for HOLD/REJE
 
 ## Final package
 
-Script path/hash/version, editorial QC, fact/legal QC, retention map, CTA map, timing report, four Shorts drafts/QC, outstanding issues and owner decision. Preserve previous versions and full diff for changes. Finishing a checklist never launches TTS/images/editing.
+Script path/hash/version, editorial QC, fact/legal QC, retention map, CTA map, timing report, explicit Shorts exclusion, outstanding issues and owner decision. Preserve previous versions and full diff for changes. Finishing a checklist never launches TTS/images/editing.

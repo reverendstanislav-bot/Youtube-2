@@ -2,7 +2,7 @@
 Scope: Hidden Industrial America / reverendstanislav-bot/Youtube-2. Not Youtube-3.
 
 ## Mandatory decisions
-- Historical NO SHORTS planning rule is superseded for future writing by the explicit owner task 2026-11-04: four independent Shorts drafts required. No production, locked-batch rewrite or schedule authorized. Read [current framework](SCRIPTWRITING/HIA_SHORTS_FRAMEWORK.md).
+- NO SHORTS. Reaffirmed by latest owner follow-up 2026-11-04; this supersedes the earlier same-day four-draft task. No Shorts writing/production until explicitly reauthorized.
 - Analyze successful original competitor videos on comparable topics, compare concrete scenes against HIA, and apply findings to the next film. Generic hooks/CTR/frequency advice is insufficient.
 - At session start or after context loss, read this lock, the episode brief and current state before production decisions.
 
@@ -39,4 +39,4 @@ Channel evidence: CHANNEL/RESEARCH/2026-11-02/. Local raw evidence: C:/Users/KK/
 
 ## Scoped owner amendment — 2026-11-04
 
-[Universal writing canon](SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md) governs new unlocked writing. Its change log resolves flexible acts/timing, verified narrator identity and four Shorts drafts while preserving no-subtitles, provenance, audio/visual locks and approval gates. Other decisions here remain unchanged.
+[Universal writing canon](SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md) governs new unlocked writing. Its change log resolves flexible acts/timing, verified narrator identity and Shorts exclusion while preserving no-subtitles, provenance, audio/visual locks and approval gates. Other decisions here remain unchanged.

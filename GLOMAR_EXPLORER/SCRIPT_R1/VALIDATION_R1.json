@@ -1,0 +1,17 @@
+{
+  "completed": "2026-11-05",
+  "status": "PASS_PACKAGE_INTEGRITY_OWNER_REVIEW_PENDING",
+  "en_ru_ids_and_order_match": true,
+  "paragraphs": 52,
+  "arabic_numerals_match_by_paragraph": true,
+  "every_paragraph_has_specific_source_location": true,
+  "archive_references_exist": true,
+  "markdown_links_checked": 33,
+  "shorts_excluded": true,
+  "existing_locked_episode_trees_unchanged": true,
+  "script_lock": "HOLD_OWNER_REVIEW",
+  "actual_audio_timing": "NOT_MEASURED",
+  "rights": "EXISTING_HOLDS_UNCHANGED",
+  "production_started": false,
+  "budget_usd": 0
+}

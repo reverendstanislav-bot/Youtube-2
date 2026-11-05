@@ -1,0 +1,193 @@
+{
+  "schema": "HIA_SCRIPT_REVIEW_V1",
+  "script_path": "GLOMAR_EXPLORER/SCRIPT_R1/05_SCRIPT_R1_EN.md",
+  "script_sha256": "dc40ae6aa3677b7e38a36d1b317cebd6e31426bfc56148c218f1f0285e3796a6",
+  "reviewer": "Codex final-text review; no separate-agent/AV claim",
+  "review_date": "2026-11-04",
+  "owner_approval": {
+    "approved": false,
+    "evidence": ""
+  },
+  "items": [
+    {
+      "id": "QC01",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC02",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC03",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC04",
+      "status": "PASS",
+      "critical": false,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC05",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC06",
+      "status": "PASS",
+      "critical": false,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC07",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC08",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC09",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC10",
+      "status": "PASS",
+      "critical": false,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC11",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC12",
+      "status": "PASS",
+      "critical": false,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC13",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC14",
+      "status": "PASS",
+      "critical": false,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC15",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": "Owner review pinned-question alternative and verify actual Previous Story."
+    },
+    {
+      "id": "QC16",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC17",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": "Establish approved HIA voice and actual measured pace; no TTS authorized."
+    },
+    {
+      "id": "QC18",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": "Resolve asset permissions or approve concrete R4 fallbacks and verify final visual plan."
+    },
+    {
+      "id": "QC19",
+      "status": "PASS",
+      "critical": false,
+      "evidence": [
+        "Latest owner follow-up explicitly excludes Shorts; none created/planned."
+      ],
+      "action": ""
+    },
+    {
+      "id": "QC20",
+      "status": "PASS",
+      "critical": true,
+      "evidence": [
+        "FACT_AND_EDITORIAL_QC_R1.md; CLAIM_SOURCE_MAP_R1.csv; final EN/RU paragraph IDs"
+      ],
+      "action": ""
+    }
+  ]
+}

@@ -13,7 +13,7 @@ Copy into the existing episode SCRIPT/development folder, retaining established 
 - Factual HOLDs / rights and quality HOLDs / feasible fallbacks:
 - Approved HIA narrator evidence, otherwise VOICE HOLD:
 - Duration justified by actual material:
-- Four Shorts drafts required; no production started:
+- Shorts excluded by latest owner instruction: confirm none planned/created:
 - Initial status: DRAFT / SCRIPT LOCK HOLD:
 
 ## Architecture decision
@@ -100,6 +100,6 @@ Review meaningful progression around 45–75s without fake synchronized timing.
 - Actual master duration after production, unavailable at writing stage:
 - Without verified pace: TIMING HOLD; no invented approved WPM:
 
-## Shorts and final review
+## Final review — no Shorts
 
-Four independent drafts using [Shorts framework](HIA_SHORTS_FRAMEWORK.md), outside long-form narration. Verify claims and audio budget separately. Complete all 20 rows of [QC](HIA_SCRIPT_QC_CHECKLIST.md), preserve prior versions/diff and record owner decision. Copy [review JSON](templates/SCRIPT_REVIEW_TEMPLATE.json) for mechanical gate validation. No automatic production follows.
+Shorts are excluded. Complete all20 rows of [QC](HIA_SCRIPT_QC_CHECKLIST.md); QC19 verifies exclusion, not four drafts. Preserve previous versions/diff and record owner decision. Copy [review JSON](templates/SCRIPT_REVIEW_TEMPLATE.json) for mechanical gate validation. No automatic production follows.
