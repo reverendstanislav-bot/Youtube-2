@@ -1,6 +1,6 @@
 # Hidden Industrial America — channel system
 
-> CURRENT OWNER DECISIONS 2026-11-02: read [mandatory editorial lock](EDITORIAL_OWNER_LOCK_2026-11-02.md). No Shorts. Video 10 is Antarctic Snow Cruiser. Conflicting earlier text below is historical.
+> CURRENT OWNER DECISIONS 2026-11-02: read [mandatory editorial lock](EDITORIAL_OWNER_LOCK_2026-11-02.md). Shorts writing amended by owner 2026-11-04; see universal canon below. Video 10 is Antarctic Snow Cruiser. Conflicting earlier text below is historical.
 
 
 **Format:** English-language, USA-focused, faceless, long-form documentary channel.
@@ -17,7 +17,7 @@ The channel is designed to scale across American industry, infrastructure, engin
 
 ## Core production chain
 
-Research / evidence / source ledger → audience angle → packaging hypothesis → hooks → documentary architecture → retention outline → full script → fact check → final narration → VO → word-level transcript → exact timing → visual beat map → archive/source plan → download/licensing → missing-visual analysis → generation plan → complete prompt pack → generation-budget approval → assets → graphics/maps/charts → music/SFX plan → long-form edit → Shorts excluded by owner (2026-11-02) → caption-free proof → review → critic audit → RC → exhaustive QC → native upload master.
+Research / evidence / source ledger → audience angle → packaging hypothesis → hooks → documentary architecture → retention outline → full script → fact check → final narration → VO → word-level transcript → exact timing → visual beat map → archive/source plan → download/licensing → missing-visual analysis → generation plan → complete prompt pack → generation-budget approval → assets → graphics/maps/charts → music/SFX plan → long-form edit → four Shorts drafts under V1.0; production separately authorized → caption-free proof → review → critic audit → RC → exhaustive QC → native upload master.
 
 ## Channel-level rules
 
@@ -30,7 +30,7 @@ Research / evidence / source ledger → audience angle → packaging hypothesis 
 - Store episode state in a canonical handoff/status file, not only in chat history.
 - Do not use video generation unless the user explicitly lifts the channel-wide ban.
 - Do not spend image-generation credits before the script, beat map, archive/download/generate/GFX classification, full prompt pack, exact generation count, and budget are reviewed.
-- Shorts are excluded until the owner explicitly changes this decision.
+- Future writing packages require four independent Shorts drafts under the explicit 2026-11-04 task. No production or schedule is inferred.
 
 ## Canonical provenance/editing rule
 
@@ -51,3 +51,7 @@ For new production, unless a later explicit approval changes it:
 - no blue dialogue words, opaque caption slabs, duplicated subtitles, or caption renderer in the YouTube end-screen zone.
 
 The active R13/R14 builds and the channel provenance/editing canon are the current precedent; stale V5–V13 review notes do not override them.
+
+## Universal scriptwriting standard — 2026-11-04
+
+Read [canon](SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md), [template](SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md), [20-item QC](SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md), [conflict decisions](SCRIPTWRITING/HIA_CANON_CHANGELOG.md) and [implementation/regression report](SCRIPTWRITING/IMPLEMENTATION_REPORT.md) before new writing. Existing locks and production/publication gates remain unchanged.

@@ -1,6 +1,6 @@
 # Youtube-2
 
-> CURRENT OWNER DECISIONS 2026-11-02: read [mandatory editorial lock](CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md). No Shorts. Video 10 is Antarctic Snow Cruiser. Conflicting earlier text below is historical.
+> CURRENT OWNER DECISIONS 2026-11-02: read [mandatory editorial lock](CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md). Shorts writing amended by owner 2026-11-04; see universal canon below. Video 10 is Antarctic Snow Cruiser. Conflicting earlier text below is historical.
 
 
 Production repository for **Hidden Industrial America**.
@@ -45,3 +45,7 @@ Current release status is determined by:
 Historical QC files remain preserved for audit history only.
 
 Large media belongs in GitHub Releases/Actions rather than the Git tree. The Git tree keeps production code, recovery dependencies, manifests, source/QC records, locks and canonical status.
+
+## Universal scriptwriting standard — 2026-11-04
+
+Read [canon](CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md), [template](CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md), [20-item QC](CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md), [conflict decisions](CHANNEL/SCRIPTWRITING/HIA_CANON_CHANGELOG.md) and [implementation/regression report](CHANNEL/SCRIPTWRITING/IMPLEMENTATION_REPORT.md) before new writing. Existing locks and production/publication gates remain unchanged.
