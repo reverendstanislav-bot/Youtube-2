@@ -1,0 +1,15 @@
+﻿paragraph_id,change,reason,source
+A01-P01,REVISE,Make the opening cargo/purpose distinction idiomatic; no new event.,Existing R1 source map; qualification/editorial precision
+A04-P08,REVISE,Replace abstract risk repetition with the actual target uncertainty; D07 PDF p35; no claim that waived test caused failure.,Existing R1 source map; qualification/editorial precision
+A05-P01,REVISE,Clarify preparation context rather than imply loading followed all completed tests; source does not give a precise unredacted date here.,Existing R1 source map; qualification/editorial precision
+A05-P04,REVISE,Remove unnecessary inference about whether/where barge accompanied ship; retain verified function.,Existing R1 source map; qualification/editorial precision
+A06-P02,REVISE,Replace generic observation with documented action; D07 PDF pp38–39. No claim of Soviet boarding/attack or guessed intent.,D07 PDF pp38–39
+A06-P04,REVISE,Replace abstract mechanical recap with actual stoppages; D07 PDF p40. Do not identify these as established cause of breakup.,D07 PDF p40
+A07-P04,REVISE,Compress methodological detour after burial while retaining objectives/results distinction.,Existing R1 source map; qualification/editorial precision
+A08-P04,REVISE,Use documented political decision; avoid unsupported assertion about immediate mechanical readiness after first mission.,Existing R1 source map; qualification/editorial precision
+A08-P06,REVISE,"Condense verified later fate; entered commercial drilling, not an unsupported return to a former commercial drilling career.",Existing R1 source map; qualification/editorial precision
+A08-P07,REVISE,Resolve central question once without repeating the full construction chapter.,Existing R1 source map; qualification/editorial precision
+A08-P08,REVISE,Concrete unfinished recovery/canceled second mission; no implication that exact wreck coordinates were publicly disclosed.,Existing R1 source map; qualification/editorial precision
+A07-P02,CUT_REPETITION,Repeats partial-loss consequence already established by A07-P01.,No new claim
+A08-P05,CUT_REPETITION,Repeats secrecy/cancellation thesis covered by A08-P04 and A08-P07.,No new claim
+A04-CTA01,REMOVE_SPOKEN_CTA,Unresolved test/repair arc should not be interrupted by an advertisement; choose documented silent visual alternative.,Editorial choice; canon allows reviewed visual alternative.

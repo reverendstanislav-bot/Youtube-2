@@ -27,3 +27,7 @@ PROJECT_STATE.json — текущее состояние.
 Актуально R4: [окончательный выбор по 24 эпизодам](ARCHIVE_DECISIONS_R4/FINAL_STORYBOARD_RU.md). Полный V03 не найден; цифровой Sun Ship найден, права HOLD; 630/755 tons не разрешено.
 
 Текущий этап: [полный сценарий R1 EN/RU](SCRIPT_R1/README_RU.md), OWNER REVIEW / SCRIPT LOCK HOLD. Shorts исключены последним указанием.
+
+После повторной проверки: [сценарий R1.1](SCRIPT_R1_1/README_RU.md). R1 сохранён; OWNER REVIEW / SCRIPT LOCK HOLD.
+
+После повторной проверки: [сценарий R1.1](SCRIPT_R1_1/README_RU.md). R1 сохранён; OWNER REVIEW / SCRIPT LOCK HOLD.

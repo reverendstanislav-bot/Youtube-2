@@ -1,0 +1,102 @@
+--- SCRIPT_R1/05_SCRIPT_R1_EN.md
++++ SCRIPT_R1_1/05_SCRIPT_R1_1_EN.md
+@@ -1,11 +1,11 @@
+-# Glomar Explorer — R1 EN
++# Glomar Explorer — R1.1 EN
+ 
+ Status: OWNER REVIEW / SCRIPT LOCK HOLD. Spoken text only beneath paragraph IDs. Shorts excluded. Source and editorial notes are in separate files.
+ 
+ ## ACT 01 — A public launch, a hidden cargo
+ 
+ ### A01-P01
+-A champagne bottle breaks against the bow. Families have been invited to watch. At a Pennsylvania shipyard, a new vessel enters the water under Howard Hughes's name. Its advertised job is mining the ocean floor. Its real job must never appear above the surface.
++A champagne bottle breaks against the bow. Families have been invited to watch. At a Pennsylvania shipyard, a new vessel enters the water under Howard Hughes's name. Its advertised job is mining the ocean floor. The cargo it was really built to lift was supposed to stay out of sight.
+ 
+ ### A01-P02
+ The CIA wants this ship to retrieve part of a Soviet submarine from more than three miles down. Getting hold of the wreck is only half the problem. Bringing recognizable submarine wreckage into public view could expose the operation.
+@@ -74,8 +74,6 @@
+ Repairs brought their own compromise. There was not enough time to move the vessel into a suitable dry dock. Divers performed inspections and some seal repairs in the water. One persistent small leak was accepted. The ship would go on with a puddle in part of the well rather than wait for a perfect repair.
+ 
+ 
+-### A04-CTA01
+-At Hidden Industrial America, we follow hidden history into the machinery that made it possible. Subscribe for the next investigation.
+ 
+ ### A04-P06
+ Further trials in February showed improvement. The pipe-handling system operated satisfactorily, and lifting-system faults were repaired. But the integrated tests that followed brought more equipment problems and changes to the schedule. The project could not keep treating every setback as though unlimited development time remained.
+@@ -84,12 +82,12 @@
+ Senior officials accepted a demonstration at a few thousand feet and waived a planned test down to twelve thousand feet. The internal history records their confidence in the crew and the practical workarounds it could devise. It also notes that repeated testing would put wear on a system designed around a particular recovery operation.
+ 
+ ### A04-P08
+-There was one condition no rehearsal could fully reproduce: the actual wreck. Its structural strength, stability and behavior when lifted were unknowns. The program was approaching a decision to sail with risks still attached, rather than a point at which every risk had disappeared.
++No rehearsal could establish how the real wreck would hold together. Its structural integrity and stability remained unknown. The equipment had to be judged ready without being able to reproduce the condition that might decide the result: how the damaged target behaved when lifted.
+ 
+ ## ACT 05 — Load it from underneath
+ 
+ ### A05-P01
+-Before any of that machinery could reach the wreck, the project had to solve the question hidden inside the mining cover: how do you put the capture vehicle aboard without letting outsiders see what it is designed to capture?
++The recovery system also had a concealed loading problem. During preparation, the capture vehicle had to pass from its covered construction area into the ship without being displayed in the open. Its transfer required an operation of its own.
+ 
+ ### A05-P02
+ Loading it over the side would expose its shape during the transfer. Instead, the capture vehicle was built under cover and carried in a specially designed barge, HMB-1. The barge had a retractable roof. What looked from outside like another part of a mining enterprise concealed the equipment inside.
+@@ -98,7 +96,7 @@
+ The transfer used the water itself as concealment. The barge submerged in shallow water. The Explorer positioned itself above it. The capture vehicle could then be lifted into the central well from underneath, instead of being suspended in the open air between the two vessels.
+ 
+ ### A05-P04
+-The barge did not have to accompany the ship into the deep ocean to hide the recovery. It had solved the loading problem. Once the equipment was inside, the Explorer's own hull and well would provide the sheltered route through which the target could return.
++The barge concealed the equipment during loading. Once the capture vehicle was inside, the Explorer's hull and central well provided the sheltered route through which the recovered target could return. The loading system and the recovery system solved different parts of the same secrecy problem.
+ 
+ ### A05-P05
+ This is why the ship's unusual features belonged together. The covered barge hid the transfer. The central well hid the load at the surface. The lifting system connected that concealed working space to the bottom of the ocean. Secrecy was a requirement shaping the machinery, not something added after construction.
+@@ -112,13 +110,13 @@
+ President Nixon authorized the recovery plan on June 7, 1974. The mission began that June, and the Explorer arrived over the recovery site on July 4. The ship had reached the place that justified years of construction. Now the crew had to turn the equipment into a working recovery system.
+ 
+ ### A06-P02
+-Nearby Soviet ships monitored the operation during parts of the mission. The Americans were not working beyond all observation. They were working under an explanation that concealed what was happening beneath them. That made the distinction between an unusual mining vessel and a submarine-recovery ship the central fact of life on station.
++On July 18, the Soviet ship Chazhma approached the Explorer. Its helicopter made repeated photographic passes. Before the ship arrived, the mission director had ordered canvas-covered crates stacked on the Explorer's helicopter deck to prevent a landing. The crates could block the landing space. They could not stop the cameras looking down from above.
+ 
+ ### A06-P03
+ The heavy load did not hang from a single ordinary crane cable. The crew built a supporting string of steel pipe, adding sections as the capture vehicle descended. The ship's lifting machinery handled the string at the surface. Far below, the capture vehicle had to reach and engage the target section.
+ 
+ ### A06-P04
+-Every additional section extended the connection downward. It also made the equipment above responsible for a longer suspended system. Keeping the ship positioned over the work, controlling its motion and managing the pipe were parts of the same problem. A moving vessel was trying to maintain a useful relationship with a wreck on the bottom.
++The ship had to hold its position while managing that suspended system. Equipment faults kept interrupting the work. On July 25, a report described frequent shutdowns, mostly involving the heavy-lift sensors and controls. The problem was no longer whether the machinery could work in a demonstration. It had to keep working through an actual recovery.
+ 
+ ### A06-P05
+ The capture vehicle had to straddle the target and close its gripping structure around it. Photographs alone could not establish how every damaged part would behave under load. Reaching the wreck meant the equipment had arrived. Lifting it would be the test of whether the entire arrangement could bring its intended load back.
+@@ -134,14 +132,12 @@
+ ### A07-P01
+ The wreck was rising. It still had to hold together until it reached the sheltered well. During the lift, the submarine section broke apart. Part of it fell back to the seabed. The crew could still recover what remained in the capture vehicle, but the intended target was no longer coming up as one load.
+ 
+-### A07-P02
+-That failure changed the operation before the ship could finish it. Years of development had produced a way to reach, grip and raise material from extreme depth. They had not secured the whole target section for the return. The problem was now divided between the material inside the capture vehicle and what had fallen beyond it.
+ 
+ ### A07-P03
+ The remaining portion was brought aboard. Among its contents were the bodies of six Soviet submariners. They were given a formal burial at sea. The recording of that ceremony would later be handed to Russian President Boris Yeltsin by CIA Director Robert Gates in 1992.
+ 
+ ### A07-P04
+-The released official material does not give us a complete inventory of the intelligence recovered. A document describing what officials hoped to acquire is not evidence that they acquired it. The six sailors and the partial recovery are confirmed. Claims that the Americans raised the whole submarine or obtained every desired secret are not.
++Exactly what intelligence came back remains only partly public. What is confirmed includes a recovered section and the six sailors. The papers describing weapons, cryptographic systems and documents explain the mission's objectives; they do not give us a complete account of its results.
+ 
+ ### A07-P05
+ A November 1974 intelligence review describes the target as broken, with equipment and documents apparently scattered in a new debris field. None of those scattered items was specifically identifiable at that time. Officials still believed valuable material could be recovered. The failure had changed the target, not eliminated the reason to return.
+@@ -161,16 +157,14 @@
+ On March 18, Jack Anderson's syndicated television report broadcast the story nationally. The New York Times followed with a detailed account on March 19. An observer no longer had to infer a hidden purpose from strange machinery. The connection between the ship and the Soviet submarine had been published.
+ 
+ ### A08-P04
+-That did not remove the wreck from the ocean floor or make the Explorer physically incapable of lifting. It changed the conditions under which the next lift would have to take place. By March 28, Colby was arguing that another mission was inadvisable because the operation had been exposed. Ford approved termination of the program on June 16.
++Once the purpose was public, another attempt would have to proceed without the mining cover that had protected the first mission. On March 28, Colby argued that a second mission was inadvisable because the operation had been exposed. Ford approved termination of the program on June 16.
+ 
+-### A08-P05
+-The machinery could be repaired, inspected and tested. A published purpose could not be folded back inside the hull. The first attempt had left valuable work unfinished. The loss of cover helped prevent the second attempt from trying to finish it.
+ 
+ ### A08-P06
+-The Explorer was mothballed in August 1976. It later had a genuine commercial drilling career. By 2015, a filing from its then-owner, Transocean, recorded a completed sale after the decision to sell it for scrap. The ship built around a secret eventually became an aging industrial asset with a different job and a commercial end.
++The Explorer was mothballed in August 1976. It later entered commercial drilling service. In 2015, a Transocean filing recorded a completed sale after the decision to sell it for scrap.
+ 
+ ### A08-P07
+-How had it hidden its assignment in plain sight? By making the visible machinery consistent with a mining venture, then keeping its most revealing transfers below the waterline. The barge, the well and the lifting system were parts of one explanation. The ship could be seen because the thing it was built to recover was not supposed to be.
++The concealment worked as a chain: a plausible mining project, a covered transfer, and a well through the ship's hull. Together, they could keep the recovered cargo out of view. They could not preserve the mission's cover once its purpose had been published.
+ 
+ ### A08-P08
+-The project demonstrated an extraordinary recovery capability, but capability was not the same as a complete result. The intended section did not come back intact. The remaining target became the reason for a return that never happened. The Explorer had been built to bring a secret up from the ocean. It could not restore that secret once the world knew where to look.
++The Explorer had reached the wreck and brought part of the target back. Officials still saw a reason to return for what remained. But before the ship could try again, its secret became public. The second mission was canceled. The recovery ended with the job unfinished.

@@ -1,0 +1,30 @@
+{
+  "status": "TECHNICAL_TEXT_VALIDATION_PASS_OWNER_REVIEW_PENDING",
+  "paragraphs_en": 49,
+  "paragraphs_ru": 49,
+  "paragraph_order_match": true,
+  "numeric_tokens_match_per_paragraph": true,
+  "claim_map_exact_match": true,
+  "modified_ids": [
+    "A01-P01",
+    "A04-P08",
+    "A05-P01",
+    "A05-P04",
+    "A06-P02",
+    "A06-P04",
+    "A07-P04",
+    "A08-P04",
+    "A08-P06",
+    "A08-P07",
+    "A08-P08"
+  ],
+  "removed_ids": [
+    "A04-CTA01",
+    "A07-P02",
+    "A08-P05"
+  ],
+  "unchanged_paragraphs": 38,
+  "original_R1_unchanged": true,
+  "script_lock": "HOLD_OWNER_REVIEW",
+  "note": "Text integrity checks do not establish owner approval, actual voice pace or archival rights."
+}

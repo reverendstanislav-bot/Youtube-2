@@ -1,0 +1,8 @@
+{
+  "valid": true,
+  "errors": [],
+  "readiness": "HOLD",
+  "owner_approval_recorded": false,
+  "script_lock_granted": false,
+  "semantic_verification": "NOT_PERFORMED_BY_THIS_TOOL"
+}
