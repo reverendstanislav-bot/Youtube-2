@@ -1,0 +1,23 @@
+{
+  "status": "VIDEO_ARCHIVE_R2_TECHNICAL_PASS_RIGHTS_HOLD",
+  "budget_usd": 0,
+  "new_independent_video_sources": 2,
+  "archival_video_sources": 3,
+  "raw_archival_seconds": 1746.6627000000003,
+  "full_scene_files": 25,
+  "full_scene_seconds": 332.79913899999997,
+  "short_selection_files": 19,
+  "short_selection_seconds": 100.100006,
+  "variants_overlap_do_not_add_durations": true,
+  "received_source_range": [
+    140.6405,
+    844.510333
+  ],
+  "working_video_seconds": 703.902,
+  "source_native_encoding": true,
+  "screen_recording_used": false,
+  "rights_hold": true,
+  "construction_film_found": false,
+  "full_realtime_av_review": false,
+  "resolve_touched": false
+}

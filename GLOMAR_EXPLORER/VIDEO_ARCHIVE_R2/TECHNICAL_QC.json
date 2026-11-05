@@ -1,0 +1,18 @@
+[
+  {
+    "file": "V04_GLOMAR_RESERVE_1987.mp4",
+    "width": 626,
+    "height": 475,
+    "duration": 199.6997,
+    "sha256": "19d7d92c53cb753a9b07688cf608414d2d955b1725151f782dbd179de648ea61",
+    "full_decode": "PASS"
+  },
+  {
+    "file": "V03_AZORIAN_RECOVERY_720P_WORKING.mkv",
+    "width": 1280,
+    "height": 720,
+    "duration": 703.902,
+    "sha256": "8361bde17352090014463e02766fb34b6e3180b101f6deb45131f6ddeeea423a",
+    "full_decode": "PASS"
+  }
+]

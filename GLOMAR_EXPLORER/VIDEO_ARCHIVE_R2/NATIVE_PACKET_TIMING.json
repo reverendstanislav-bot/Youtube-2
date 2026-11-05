@@ -1,0 +1,10 @@
+{
+  "packets": 21095,
+  "first_pts": 0.033,
+  "last_pts": 703.869,
+  "max_presentation_step": 0.0340000000001055,
+  "presentation_gaps_above_0_1s": 0,
+  "duplicate_pts": 0,
+  "nonmonotonic_dts": 0,
+  "note": "Presentation timestamps sorted before continuity check; B-frame packet order is not presentation order."
+}
