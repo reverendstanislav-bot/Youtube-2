@@ -1,0 +1,21 @@
+{
+  "episode_count": 24,
+  "unique_ids": true,
+  "all_preferred_and_fallback_paths_exist": true,
+  "all_video_bounds_pass": true,
+  "source_files_unchanged": "HASH_VERIFIED_BELOW",
+  "preferred_video_episodes": 12,
+  "fallback_optional_omissions": 4,
+  "sun_pdf_downloaded": 6,
+  "sun_pdf_selected": 5,
+  "sun_pdf_pages_selected": 19,
+  "sun_standalone_images_selected": 6,
+  "native_page_images_selected": 4,
+  "new_cleared_video_sources": 0,
+  "full_V03_found": false,
+  "V03_reuse": "HOLD",
+  "SUN_reuse": "PERMISSION_REQUIRED_HOLD",
+  "gimbal_mass": "630_VS_755_COMPONENT_SCOPE_HOLD",
+  "graphics": "NOT_STARTED",
+  "cost_usd": 0
+}

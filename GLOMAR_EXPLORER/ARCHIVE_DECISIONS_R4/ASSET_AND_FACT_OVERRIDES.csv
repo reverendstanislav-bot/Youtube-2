@@ -1,0 +1,4 @@
+﻿id,previous,current,reason,evidence
+CIA_CRANE_11,CIA site policy treated as sufficient absent contrary credit,PROVENANCE_CONFLICT_HOLD,Sun Ship variant and explicit permission notice discovered; no assumption of automatic government authorship,EVIDENCE/SUN800_HTTP.html; EVIDENCE/SUNPICS.html
+F20,CONFIRMED_OFFICIAL_CAPTION_630_TON,CAPTION_CONFIRMED_ACTUAL_COMPONENT_MASS_HOLD,CIA caption 630; contemporary Sun Log describes inner and outer gimbal around755. Scope difference unproven. Do not narrate number.,REFERENCE_ONLY/VERIFIED_PAGES/706_7305_p1.jpeg; R3 CIA_CRANE.html
+V03,RIGHTS_HOLD,RIGHTS_HOLD_FULL_MASTER_NOT_LOCATED,"Primary description and current channel list confirm edited v1 and channel-specific copy access claim, no HIA licence",EVIDENCE/V03_DESCRIPTION_PRIMARY.json; EVIDENCE/CHANNEL_CURRENT.json
