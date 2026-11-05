@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 import json,time,urllib.request,urllib.parse,hashlib,os,sys
 ROOT=Path(__file__).resolve().parent;FILE=ROOT/'QUEUE.json';BASE='http://127.0.0.1:17493';LOCK=ROOT/'worker.lock'
 def api(path,payload=None,timeout=30):
@@ -15,7 +15,7 @@ q=json.loads(FILE.read_text(encoding='utf-8'))
 try:
  assert hashlib.sha256((ROOT/'05_SCRIPT_R1_2_EN.md').read_bytes()).hexdigest()==q['source_sha256']
  profile=api('/profiles/'+q['profile_id']);assert profile['name']==q['profile_name'] and profile['default_engine']=='qwen'
- q['worker_pid']=os.getpid();q['status']='RUNNING';save(q);log('Started durable sequential queue; no text rewriting; local engine only.')
+ q.pop('error',None);q['worker_pid']=os.getpid();q['status']='RUNNING';save(q);log('Started durable sequential queue; no text rewriting; local engine only.')
  for job in q['jobs']:
   if job['status']=='COMPLETED':continue
   assert hashlib.sha256(job['payload']['text'].encode()).hexdigest()==job['text_sha256']
@@ -36,7 +36,7 @@ try:
     job['generation_id']=gid;job['submission_response']=response
    job['status']='SUBMITTED';save(q);log(job['id']+' accepted '+job['generation_id'])
   while True:
-   status=api('/generate/'+job['generation_id']+'/status');job['last_status']=status;save(q)
+   status=api('/history/'+job['generation_id']);job['last_status']=status;save(q)
    phase=str(status.get('status','')).lower()
    if phase in ['completed','complete','done','success','succeeded']:break
    if phase in ['failed','error','cancelled','canceled']:job['status']='FAILED';save(q);raise RuntimeError(job['id']+' '+str(status))

@@ -1,0 +1,12 @@
+{
+  "cause": "Status endpoint returns text/event-stream, not JSON. Original worker used JSON parser.",
+  "fix": "Poll JSON /history/{generation_id}. Reuse persisted first generation ID; no resubmission.",
+  "observed_status": "RUNNING",
+  "counts_at_check": {
+    "COMPLETED": 1,
+    "SUBMITTED": 1,
+    "PENDING": 48
+  },
+  "first_generation_id": "49b7dbdc-c718-4154-ad2c-9023bc2f1b9d",
+  "listening_asr_master": "NOT_PERFORMED"
+}
