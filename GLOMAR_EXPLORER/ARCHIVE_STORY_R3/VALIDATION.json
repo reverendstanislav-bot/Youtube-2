@@ -1,0 +1,16 @@
+{
+  "episode_rows": 24,
+  "story_blocks": 6,
+  "graphics_briefs": 6,
+  "all_referenced_asset_paths_exist": true,
+  "all_video_intervals_within_source": true,
+  "fact_ids_resolve": true,
+  "new_cleared_construction_videos": 0,
+  "new_independent_documents": 1,
+  "alternative_history_copy": 1,
+  "rights_V03": "HOLD",
+  "rights_V04": "HOLD",
+  "visual_review": "SAMPLED_DOCUMENT_PAGES_ONLY_THIS_PASS",
+  "production_started": false,
+  "cost_usd": 0
+}
