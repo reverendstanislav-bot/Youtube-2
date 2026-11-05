@@ -3,12 +3,15 @@
   "owner_selected": "2026-11-04",
   "base_origin_main": "cf80d82207ff8358729f31cd8650826fb945d0cd",
   "episode_number": null,
-  "status": "TOPIC_APPROVED_RESEARCH_INITIALIZED",
+  "status": "ARCHIVE_COLLECTION_R1_PARTIAL_HOLD",
   "script_lock": "NOT_STARTED",
-  "archive_bank": "HOLD_NOT_COLLECTED",
+  "archive_bank": "RESEARCH_ARCHIVE_PARTIAL_HOLD",
   "competitor_review": "LIMITED_SECONDARY_TEXT_ONLY",
   "paid_operations": 0,
   "budget_usd": 0,
   "shorts": false,
-  "production_authorized": false
+  "production_authorized": false,
+  "archive_report": "ARCHIVE_R1/README_RU.md",
+  "archive_local_root": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1",
+  "archive_downloaded_files": 39
 }

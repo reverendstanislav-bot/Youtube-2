@@ -1,0 +1,7 @@
+﻿lead_id,url,description,status,next_action
+L01,https://www.youtube.com/watch?v=89PKO0JJx7U,"Project AZORIAN Recovery Operation Video (v1), канал AZORIANLectures-1974",DOWNLOAD_HOLD_AUTH_REQUIRED_RIGHTS_UNRESOLVED,"Получить открытую оригинальную копию/доступный файл и документы происхождения. Пока не просмотрен, качество и право использования не подтверждены."
+L02,https://findingaids.library.upenn.edu/records/legacy/ISM_8476,"Sun Ship records: contract 661, Drawer 1 Folder 114; негатив, материалы спуска 1972",FINDING_AID_ONLY_NO_DIGITAL_ORIGINAL,Проверить наличие бесплатных цифровых копий. Заказ сканов и обращение к архиву не выполнялись; ничего не покупать.
+L03,https://archive.org/details/21054sciencescreenreportvwr,"Science Screen Report: реальные поздние испытания добычи, не подъём 1974",REJECT_NC_ND_LICENSE,Не скачивать/не использовать в коммерческом монтаже; поиск независимого бесплатного первоисточника.
+L04,https://archive.org/details/22324OceanographyMiningMineralsInTheOceanVwr,Другой отпечаток того же Science Screen Report,REJECT_COMMERCIAL_STOCK_NOT_FREE_CLEARANCE,Не считать вторым независимым источником или бесплатной лицензией.
+L05,https://archive.org/details/yt_tiTK5M1Lw-Y,That Very Special Ship,REJECT_WRONG_SHIP_GLOMAR_CHALLENGER,Не использовать как кадры Glomar Explorer.
+L06,https://www.navsea.navy.mil/Portals/103/Documents/TeamShips/SEA21/InactiveShips/Historic/2011/HMB-1_DOE_Final_7-5-11.pdf,HMB-1 historical evaluation,DOWNLOAD_HOLD_HTTP403,Найти официальную доступную копию; пока только открытые каталожные сведения.

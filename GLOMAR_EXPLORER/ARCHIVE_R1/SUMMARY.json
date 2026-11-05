@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-04",
+  "status": "RESEARCH_ARCHIVE_PARTIAL_HOLD",
+  "budget_usd": 0,
+  "downloaded_files": 39,
+  "photos": 33,
+  "documents": 4,
+  "valid_reference_documents": 3,
+  "wrong_document_rejected": 1,
+  "videos": 2,
+  "original_bytes": 91182258,
+  "editorial_counts": {
+    "HOLD": 23,
+    "PASS": 11,
+    "REJECT": 5
+  },
+  "full_video_decode_pass": 2,
+  "realtime_av_review": false,
+  "construction_video_closed": false,
+  "underwater_operation_file_closed": false,
+  "montage_authorized": false,
+  "generation_started": false
+}
