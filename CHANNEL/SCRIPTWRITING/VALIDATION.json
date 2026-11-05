@@ -1,0 +1,18 @@
+{
+  "status": "PASS_DOCUMENTATION_AND_COMPATIBILITY",
+  "starting_main_sha": "cf80d82207ff8358729f31cd8650826fb945d0cd",
+  "framework_files": 7,
+  "qc_criteria": 20,
+  "validator_cases_passed": 13,
+  "local_links_checked": 35,
+  "locked_episode_trees_unchanged": true,
+  "diff_scope_allowed": true,
+  "git_diff_check": "PASS",
+  "regression_chicago": "PASS_FRAMEWORK_FIT_WITH_SOURCE_LIMITATIONS",
+  "regression_tc497": "PASS_FRAMEWORK_FIT_WITH_SOURCE_LIMITATIONS",
+  "source_reference": "OWNER_SUPPLIED_FRAMEWORK_ONLY",
+  "script_lock_granted": false,
+  "production_started": false,
+  "new_dependencies": false,
+  "documentation_push_triggers_production": false
+}

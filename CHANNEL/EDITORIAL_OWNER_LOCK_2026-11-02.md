@@ -2,7 +2,7 @@
 Scope: Hidden Industrial America / reverendstanislav-bot/Youtube-2. Not Youtube-3.
 
 ## Mandatory decisions
-- NO SHORTS. Excluded from current and future HIA plans until the owner explicitly changes this decision. Do not propose them again.
+- Historical NO SHORTS planning rule is superseded for future writing by the explicit owner task 2026-11-04: four independent Shorts drafts required. No production, locked-batch rewrite or schedule authorized. Read [current framework](SCRIPTWRITING/HIA_SHORTS_FRAMEWORK.md).
 - Analyze successful original competitor videos on comparable topics, compare concrete scenes against HIA, and apply findings to the next film. Generic hooks/CTR/frequency advice is insufficient.
 - At session start or after context loss, read this lock, the episode brief and current state before production decisions.
 
@@ -36,3 +36,7 @@ Script Lock remains OPEN. This documentation does not start voice, image generat
 HIA TC497 front-loads specifications for about 32s; Pluto central question around 00:48; Camp Century dense figures/qualifications at 00:33-01:05; Nike nuclear promise around 00:58. Chicago has a comparatively strong available 76% at 00:30; do not impose a template on a working opening.
 Competitor Nov2 snapshots: Triston about 206k views, 15:52, host-led; Grit about 47.5k, 38:40; Mustard about 14.2M, 12:00, older established-channel video. These are not forecasts.
 Channel evidence: CHANNEL/RESEARCH/2026-11-02/. Local raw evidence: C:/Users/KK/HIA_AUDIT_2026-11-02 and C:/Users/KK/HIA_COMPETITOR_COMPARISON_2026-11-02.
+
+## Scoped owner amendment — 2026-11-04
+
+[Universal writing canon](SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md) governs new unlocked writing. Its change log resolves flexible acts/timing, verified narrator identity and four Shorts drafts while preserving no-subtitles, provenance, audio/visual locks and approval gates. Other decisions here remain unchanged.

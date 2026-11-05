@@ -1,0 +1,153 @@
+{
+  "schema": "HIA_SCRIPT_REVIEW_V1",
+  "script_path": "REPLACE_WITH_EPISODE_SCRIPT_PATH",
+  "script_sha256": "",
+  "reviewer": "",
+  "review_date": "",
+  "owner_approval": {
+    "approved": false,
+    "evidence": ""
+  },
+  "items": [
+    {
+      "id": "QC01",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC02",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC03",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC04",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC05",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC06",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC07",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC08",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC09",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC10",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC11",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC12",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC13",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC14",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC15",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC16",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC17",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC18",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC19",
+      "status": "HOLD",
+      "critical": false,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    },
+    {
+      "id": "QC20",
+      "status": "HOLD",
+      "critical": true,
+      "evidence": [],
+      "action": "Complete evidence-backed review."
+    }
+  ]
+}

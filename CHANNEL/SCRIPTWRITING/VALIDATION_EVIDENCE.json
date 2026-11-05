@@ -1,0 +1,266 @@
+{
+  "validator_cases": [
+    {
+      "case": "untouched template remains HOLD",
+      "pass": true,
+      "valid": true,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "missing criterion rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "duplicate criterion rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "critical gate cannot be downgraded",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "PASS without evidence rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "HOLD without action rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "owner approval cannot bypass HOLD",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "all evidenced rows ready only for owner review",
+      "pass": true,
+      "valid": true,
+      "readiness": "READY_FOR_OWNER_REVIEW"
+    },
+    {
+      "case": "critical factual HOLD blocks readiness",
+      "pass": true,
+      "valid": true,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "fabrication rejects review",
+      "pass": true,
+      "valid": true,
+      "readiness": "REJECT"
+    },
+    {
+      "case": "empty approval evidence rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "malformed top level rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    },
+    {
+      "case": "unknown status rejected",
+      "pass": true,
+      "valid": false,
+      "readiness": "HOLD"
+    }
+  ],
+  "local_links": [
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_FACT_CHECK_PROTOCOL.md",
+      "target": "HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_RETENTION_QC.md",
+      "target": "HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_RETENTION_QC.md",
+      "target": "HIA_SCRIPT_TEMPLATE.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "HIA_CANON_CHANGELOG.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "../EDITORIAL_OWNER_LOCK_2026-11-02.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "../PROVENANCE_AND_EDITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "../NO_SUBTITLES_OWNER_LOCK_2026-10-10.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "HIA_SHORTS_FRAMEWORK.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "HIA_RETENTION_QC.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "HIA_FACT_CHECK_PROTOCOL.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "../../VIDEO_009_PROJECT_NIKE/09_10_CODEX_AUDIO_EXECUTION_CONTRACT.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "HIA_SCRIPT_TEMPLATE.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+      "target": "HIA_SCRIPT_QC_CHECKLIST.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md",
+      "target": "HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md",
+      "target": "HIA_RETENTION_QC.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md",
+      "target": "HIA_FACT_CHECK_PROTOCOL.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md",
+      "target": "templates/SCRIPT_REVIEW_TEMPLATE.json"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md",
+      "target": "HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md",
+      "target": "HIA_SHORTS_FRAMEWORK.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md",
+      "target": "HIA_SCRIPT_QC_CHECKLIST.md"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md",
+      "target": "templates/SCRIPT_REVIEW_TEMPLATE.json"
+    },
+    {
+      "file": "CHANNEL/SCRIPTWRITING/IMPLEMENTATION_REPORT.md",
+      "target": "REGRESSION_CHICAGO_TC497.md"
+    },
+    {
+      "file": "README.md",
+      "target": "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "README.md",
+      "target": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md"
+    },
+    {
+      "file": "README.md",
+      "target": "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md"
+    },
+    {
+      "file": "README.md",
+      "target": "CHANNEL/SCRIPTWRITING/HIA_CANON_CHANGELOG.md"
+    },
+    {
+      "file": "README.md",
+      "target": "CHANNEL/SCRIPTWRITING/IMPLEMENTATION_REPORT.md"
+    },
+    {
+      "file": "CHANNEL/README.md",
+      "target": "SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/README.md",
+      "target": "SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md"
+    },
+    {
+      "file": "CHANNEL/README.md",
+      "target": "SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md"
+    },
+    {
+      "file": "CHANNEL/README.md",
+      "target": "SCRIPTWRITING/HIA_CANON_CHANGELOG.md"
+    },
+    {
+      "file": "CHANNEL/README.md",
+      "target": "SCRIPTWRITING/IMPLEMENTATION_REPORT.md"
+    },
+    {
+      "file": "CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md",
+      "target": "SCRIPTWRITING/HIA_SHORTS_FRAMEWORK.md"
+    },
+    {
+      "file": "CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md",
+      "target": "SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md"
+    },
+    {
+      "file": "CHANNEL/SHORTS_PRODUCTION_CANON.md",
+      "target": "SCRIPTWRITING/HIA_SHORTS_FRAMEWORK.md"
+    }
+  ],
+  "source_sha256": {
+    "CHICAGO/PUBLISHING/YOUTUBE_ENGLISH_CC_POSITIONED.vtt": "c47316aab44914bdd71812b9c0d31068914a0bd766ef21095725ba06d9d0b3e2",
+    "TC497/PUBLISHING/TC497_ENGLISH_CC.srt": "a15a346036baed98393e0d8bbda0c4c76e806e6d102bce27705d3e95b517c56b"
+  },
+  "protected_paths": [
+    "CHICAGO",
+    "TC497",
+    "BIG_MUSKIE",
+    "SATSOP",
+    "LAKE_PEIGNEUR",
+    "CAMP_CENTURY",
+    "PROJECT_PLUTO",
+    "VIDEO_009_PROJECT_NIKE",
+    "VIDEO_010_ANTARCTIC_SNOW_CRUISER",
+    "CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md",
+    "CHANNEL/FINAL_RELEASE_REGISTRY_001_005_2026-10-01.md"
+  ],
+  "tracked_changes": [
+    "AGENTS.md",
+    "CHANNEL/EDITORIAL_OWNER_LOCK_2026-11-02.md",
+    "CHANNEL/README.md",
+    "CHANNEL/SHORTS_PRODUCTION_CANON.md",
+    "README.md"
+  ],
+  "untracked_new_files": [
+    "CHANNEL/SCRIPTWRITING/HIA_CANON_CHANGELOG.md",
+    "CHANNEL/SCRIPTWRITING/HIA_FACT_CHECK_PROTOCOL.md",
+    "CHANNEL/SCRIPTWRITING/HIA_RETENTION_QC.md",
+    "CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md",
+    "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_QC_CHECKLIST.md",
+    "CHANNEL/SCRIPTWRITING/HIA_SCRIPT_TEMPLATE.md",
+    "CHANNEL/SCRIPTWRITING/HIA_SHORTS_FRAMEWORK.md",
+    "CHANNEL/SCRIPTWRITING/IMPLEMENTATION_REPORT.md",
+    "CHANNEL/SCRIPTWRITING/REGRESSION_CHICAGO_TC497.md",
+    "CHANNEL/SCRIPTWRITING/templates/SCRIPT_REVIEW_TEMPLATE.json",
+    "CHANNEL/SCRIPTWRITING/tools/validate_script_review.py"
+  ],
+  "push_trigger_check": {
+    "workflows_checked": 94,
+    "matching_production_workflows": [],
+    "unfiltered_push_workflows": []
+  }
+}

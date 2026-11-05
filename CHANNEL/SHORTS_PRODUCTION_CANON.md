@@ -1,3 +1,5 @@
+> CURRENT WRITING OVERRIDE 2026-11-04: [HIA Shorts framework](SCRIPTWRITING/HIA_SHORTS_FRAMEWORK.md) requires four independent draft scripts for new long-form writing packages. It supersedes NO SHORTS planning and extraction-only writing rules. No production authorized; locked batches untouched. Conflicting extraction-only/continuous-cut writing rules below are historical for new drafts. Retain compatible no-subtitles, native vertical and provenance requirements. Never revive the rejected blur-fill wrapper.
+
 > **MANDATORY OVERRIDE 2026-10-10: NO SUBTITLES IN ANY HIA SHORTS OR LONG-FORM.** All historical advice about preserving burned captions, rebuilding word-level captions, or orange/white words below is REVOKED. Use clean subtitle-free long masters only. See `CHANNEL/NO_SUBTITLES_OWNER_LOCK_2026-10-10.md`.
 
 # HIA — SHORTS PRODUCTION CANON
