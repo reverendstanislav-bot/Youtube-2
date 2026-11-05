@@ -3,7 +3,7 @@
   "owner_selected": "2026-11-04",
   "base_origin_main": "cf80d82207ff8358729f31cd8650826fb945d0cd",
   "episode_number": null,
-  "status": "SCRIPT_R1_2_RETENTION_CTA_REVISED_OWNER_REVIEW_PENDING",
+  "status": "R1_2_NARRATION_QUEUED_OWNER_AUTHORIZED",
   "script_lock": "HOLD_OWNER_REVIEW",
   "archive_bank": "VIDEO_ARCHIVE_R2_TECHNICAL_PASS_RIGHTS_HOLD",
   "competitor_review": "LIMITED_SECONDARY_TEXT_ONLY",
@@ -37,5 +37,11 @@
   "shorts_policy": "OWNER_EXPLICIT_EXCLUSION_LATEST_FOLLOWUP",
   "script_timing": "UNCONFIRMED_VOICE_PACE_SCENARIOS_ONLY",
   "script_recheck": "SCRIPT_R1_2/EDITORIAL_RETENTION_QC_RU.md",
-  "previous_script": "SCRIPT_R1_1"
+  "previous_script": "SCRIPT_R1_1",
+  "voice_generation_authorized": true,
+  "voice_authorization": "2026-11-05 owner: queue narration of R1.2",
+  "voice_queue": "AUDIO/R1_2_VOICEBOX_QUEUE/SUBMISSION_RECEIPT.json",
+  "voice_status": "RUNNING_AT_SUBMISSION_CHECK",
+  "voice_profile": "HIA Arthur Multi-Source / 49119911-6b96-4db0-87fe-8a976ccc6b91",
+  "voice_qc": "PENDING_ASR_LISTENING_MASTER"
 }

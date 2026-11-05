@@ -1,0 +1,19 @@
+{
+  "project": "HIA Glomar Explorer / AZORIAN",
+  "script_version": "R1.2",
+  "owner_authorization": "2026-11-05: Ок - ставь скриптом - очередь на озвучку этого сценария",
+  "scope": "Exact R1.2 narration generation only. No montage/images/Shorts/publication. Listening and ASR QC pending.",
+  "source_sha256": "570be2008b2a9956a244f290da9ff5a5f5c6d38a16529c5a774f03d51dfde3f6",
+  "profile_id": "49119911-6b96-4db0-87fe-8a976ccc6b91",
+  "profile_name": "HIA Arthur Multi-Source",
+  "profile_evidence": "PROJECT_PLUTO/SCRIPT/tools/prepare_stage04_voicebox_jobs.py + existing completed Arthur generation manifest; live profile and samples verified",
+  "cost_usd": 0,
+  "worker_pid": 51388,
+  "status": "RUNNING_AT_SUBMISSION_CHECK",
+  "local_queue": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\AUDIO\\R1_2_VOICEBOX_QUEUE\\QUEUE.json",
+  "jobs": 50,
+  "first_generation_id": "49b7dbdc-c718-4154-ad2c-9023bc2f1b9d",
+  "first_paragraph": "A01-P01",
+  "checked_utc": "2026-11-05T17:58:59.985619+00:00",
+  "note": "Live state is local QUEUE.json. No completion, ASR, listening or final master claimed. Initial history-query500 resolved by using a bounded search; no generation was submitted in the failed initial worker."
+}
