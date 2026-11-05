@@ -3,7 +3,7 @@
   "owner_selected": "2026-11-04",
   "base_origin_main": "cf80d82207ff8358729f31cd8650826fb945d0cd",
   "episode_number": null,
-  "status": "SCRIPT_R1_1_RECHECKED_OWNER_REVIEW_PENDING",
+  "status": "SCRIPT_R1_2_RETENTION_CTA_REVISED_OWNER_REVIEW_PENDING",
   "script_lock": "HOLD_OWNER_REVIEW",
   "archive_bank": "VIDEO_ARCHIVE_R2_TECHNICAL_PASS_RIGHTS_HOLD",
   "competitor_review": "LIMITED_SECONDARY_TEXT_ONLY",
@@ -29,13 +29,13 @@
   "SUN_SHIP": "DIGITAL_FOUND_PERMISSION_REQUIRED",
   "gimbal_mass": "COMPONENT_SCOPE_HOLD_630_VS_755",
   "current_asset_and_fact_overrides": "ARCHIVE_DECISIONS_R4/ASSET_AND_FACT_OVERRIDES.csv",
-  "script_en": "SCRIPT_R1_1/05_SCRIPT_R1_1_EN.md",
-  "script_ru": "SCRIPT_R1_1/05_SCRIPT_R1_1_RU.md",
-  "script_words_en": 2277,
-  "script_paragraphs": 49,
+  "script_en": "SCRIPT_R1_2/05_SCRIPT_R1_2_EN.md",
+  "script_ru": "SCRIPT_R1_2/05_SCRIPT_R1_2_RU.md",
+  "script_words_en": 2184,
+  "script_paragraphs": 50,
   "scriptwriting_authorized": true,
   "shorts_policy": "OWNER_EXPLICIT_EXCLUSION_LATEST_FOLLOWUP",
   "script_timing": "UNCONFIRMED_VOICE_PACE_SCENARIOS_ONLY",
-  "script_recheck": "SCRIPT_R1_1/RECHECK_REPORT_RU.md",
-  "previous_script": "SCRIPT_R1"
+  "script_recheck": "SCRIPT_R1_2/EDITORIAL_RETENTION_QC_RU.md",
+  "previous_script": "SCRIPT_R1_1"
 }

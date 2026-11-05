@@ -1,0 +1,18 @@
+{
+  "status": "TEXT_STRUCTURE_PASS_OWNER_REVIEW_PENDING",
+  "paragraphs": 50,
+  "spoken_words_en": 2184,
+  "opening_words": 118,
+  "changed_narrative_paragraphs": 23,
+  "added_cta": 1,
+  "en_ru_ids_and_numeric_tokens": "MATCH",
+  "claim_rows_match_final_en": true,
+  "script_en_sha256": "570be2008b2a9956a244f290da9ff5a5f5c6d38a16529c5a774f03d51dfde3f6",
+  "script_ru_sha256": "82a983072c50346871a4abe0c597d2efe761aeb920743e3e5ebb96aaf1ee3e2c",
+  "new_historical_events": 0,
+  "actual_voice_pace": "HOLD",
+  "actual_retention": "NOT_MEASURED",
+  "script_lock": "HOLD_OWNER_REVIEW",
+  "previous_story_target": "HOLD",
+  "shorts": false
+}

@@ -1,0 +1,161 @@
+--- R1.1_EN
++++ R1.2_EN
+@@ -1,20 +1,20 @@
+-# Glomar Explorer — R1.1 EN
++# Glomar Explorer — R1.2 EN
+ 
+ Status: OWNER REVIEW / SCRIPT LOCK HOLD. Spoken text only beneath paragraph IDs. Shorts excluded. Source and editorial notes are in separate files.
+ 
+-## ACT 01 — A public launch, a hidden cargo
++## ACT 01 — A ship under observation
+ 
+ ### A01-P01
+-A champagne bottle breaks against the bow. Families have been invited to watch. At a Pennsylvania shipyard, a new vessel enters the water under Howard Hughes's name. Its advertised job is mining the ocean floor. The cargo it was really built to lift was supposed to stay out of sight.
++A Soviet helicopter circles an American ship, taking photographs. On the ship's helicopter deck, canvas-covered crates block the landing space. The vessel is supposed to be mining the ocean floor. Beneath it lies the real reason it was built: a sunken Soviet submarine.
+ 
+ ### A01-P02
+-The CIA wants this ship to retrieve part of a Soviet submarine from more than three miles down. Getting hold of the wreck is only half the problem. Bringing recognizable submarine wreckage into public view could expose the operation.
++The CIA wants part of that wreck brought up from more than three miles down. But the ship cannot simply lift recognizable submarine wreckage over the side. It has to bring its cargo aboard without showing the observers what it has found.
+ 
+ ### A01-P03
+-So how do you build an enormous recovery machine in plain sight, load its most revealing equipment without displaying it, and bring the result inside the ship unseen?
++How do you hide a submarine recovery inside a ship that everyone can see?
+ 
+ ### A01-P04
+-The answer begins with a mining story. It ends with a problem that no crane could solve.
++The answer required more than a convincing story about Howard Hughes. It had to be built into the ship.
+ 
+ ## ACT 02 — The lie that explained the machinery
+ 
+@@ -22,7 +22,7 @@
+ In March 1968, the Soviet submarine K-129 disappeared in the Pacific. Soviet search efforts failed to locate it. The United States subsequently found the wreck. That gave American intelligence something far more valuable than a photograph: a location where Soviet military equipment might be physically recovered.
+ 
+ ### A02-P02
+-The hoped-for intelligence included communications security, weapons technology, navigation and other naval systems. Those were objectives, not a list of prizes eventually brought home. First, someone had to reach a wreck resting at a depth where ordinary salvage methods offered no ready solution.
++American intelligence wanted access to Soviet weapons, communications security and naval systems. Whether any particular item could be recovered was another matter. The first obstacle was physical: the wreck lay beyond the reach of ordinary salvage.
+ 
+ ### A02-P03
+ By 1970, the CIA and its contractors had settled on a recovery approach: lower a huge mechanical capture vehicle from a specially equipped ship, grip the target section, and lift it. But a vessel capable of that operation would advertise its unusual purpose through almost everything built onto it.
+@@ -34,7 +34,7 @@
+ Deep-ocean mining supplied that explanation. Manganese nodules really existed on the seabed, and commercial interest in recovering them was real. Hughes agreed to provide the cover for this particular venture. A large, experimental mining ship could plausibly need unusual machinery and spend long periods working over deep water.
+ 
+ ### A02-P06
+-That made the deception stronger than a false name painted on the hull. The public story and the real mission required similar visible behavior. Both involved reaching the bottom and lifting something back. The critical difference was what the machine would bring up.
++The machinery no longer contradicted the cover story. It supported it. The tower, the long stays over deep water, the lifting equipment: all could belong to a mining operation. But the moment a piece of submarine appeared above the rail, that explanation would stop working.
+ 
+ ## ACT 03 — Build the secret into the ship
+ 
+@@ -45,7 +45,7 @@
+ Inside that visible hull was a much less ordinary arrangement. A large central well opened through the bottom of the ship. Gates could close beneath it. The recovered section would enter this sheltered space from below rather than swing over a rail for everyone to see.
+ 
+ ### A03-P03
+-The lifting system created another problem. A ship rolls, pitches and rises with the sea. A suspended load resists being dragged along with every movement. The gimbaled platform and heave compensation were built to limit how those motions reached the lifting equipment. Here, controlling movement mattered as much as generating lifting force.
++Now put that ship in a moving sea. The hull rises and rolls while the load hangs far below. Those movements must not simply pass straight into the lifting system. A gimbaled platform and heave compensation limited the motion reaching the machinery. The crew needed to control the load, not just pull harder.
+ 
+ ### A03-P04
+ Installing the heavy assemblies required a floating crane, the Sun 800. Contemporary shipyard photographs show the platform hanging over the unfinished vessel. The same crane helped place other large structures. The apparently excessive industrial equipment was needed to assemble the ship before it could perform its secret task.
+@@ -53,13 +53,16 @@
+ ### A03-P05
+ Even leaving the shipyard required an adjustment. In July 1973, part of the derrick had to be removed so the Explorer could pass beneath a bridge on the Delaware River. Once clear, a floating crane put the section back. Before this machine could reach a Soviet wreck, it had to fit through the American infrastructure in its way.
+ 
++### A03-CTA01
++Subscribe to Hidden Industrial America for the real purpose behind America's strangest machines—and the engineering that made them work.
++
+ ### A03-P06
+-The hull, machinery and public explanation were coming together. Yet being seaworthy was not the same as being ready to recover a submarine. The ship could sail successfully while the most important parts of its mission remained unproven.
++The ship had cleared the bridge. Could its hidden opening survive the sea? During trials, the crew would have to flood the well and open the gates beneath it. A failure there could stop the operation before the capture vehicle ever reached the wreck.
+ 
+ ## ACT 04 — The ship fails before the mission
+ 
+ ### A04-P01
+-The distinction appeared in the testing program. Builder's trials checked the vessel at sea. Later trials had to exercise the specialized recovery systems: pipe handling, lifting equipment, docking legs and the machinery that compensated for ship motion. Passing one stage did not settle the next.
++A successful sailing trial could not answer that question. The recovery system needed its own trials: open the well, handle the pipe string, and operate the heavy lifting machinery while the ship moved around it.
+ 
+ ### A04-P02
+ By January 1974, the program was running against a deadline imposed by the Pacific. Planners wanted the recovery ship on station during the summer weather window. Miss it, and the attempt could have to wait another year. More testing offered information, but also consumed the time needed to use it.
+@@ -76,18 +79,18 @@
+ 
+ 
+ ### A04-P06
+-Further trials in February showed improvement. The pipe-handling system operated satisfactorily, and lifting-system faults were repaired. But the integrated tests that followed brought more equipment problems and changes to the schedule. The project could not keep treating every setback as though unlimited development time remained.
++February brought repairs and better results. The pipe-handling system worked satisfactorily. But integrated tests exposed more faults. Repairing one component was not enough; the equipment had to work together, and each new round of testing used more of the remaining season.
+ 
+ ### A04-P07
+-Senior officials accepted a demonstration at a few thousand feet and waived a planned test down to twelve thousand feet. The internal history records their confidence in the crew and the practical workarounds it could devise. It also notes that repeated testing would put wear on a system designed around a particular recovery operation.
++Officials eventually waived a planned test to twelve thousand feet, accepting a demonstration at a few thousand instead. They trusted the crew's ability to work around faults; repeated tests would also wear the specialized system. They were accepting uncertainty to keep the mission moving. That does not establish why the wreck later broke apart.
+ 
+ ### A04-P08
+-No rehearsal could establish how the real wreck would hold together. Its structural integrity and stability remained unknown. The equipment had to be judged ready without being able to reproduce the condition that might decide the result: how the damaged target behaved when lifted.
++And one uncertainty could not be rehearsed away: the wreck itself. Nobody could reproduce its damaged structure in a trial. A working lifting system would still have to trust that structure with the journey upward.
+ 
+ ## ACT 05 — Load it from underneath
+ 
+ ### A05-P01
+-The recovery system also had a concealed loading problem. During preparation, the capture vehicle had to pass from its covered construction area into the ship without being displayed in the open. Its transfer required an operation of its own.
++Before that lift, there was a smaller journey the CIA also had to conceal: getting the capture vehicle aboard. The well could hide a recovered submarine. It would be little use if the equipment going into it had already revealed the mission.
+ 
+ ### A05-P02
+ Loading it over the side would expose its shape during the transfer. Instead, the capture vehicle was built under cover and carried in a specially designed barge, HMB-1. The barge had a retractable roof. What looked from outside like another part of a mining enterprise concealed the equipment inside.
+@@ -96,10 +99,10 @@
+ The transfer used the water itself as concealment. The barge submerged in shallow water. The Explorer positioned itself above it. The capture vehicle could then be lifted into the central well from underneath, instead of being suspended in the open air between the two vessels.
+ 
+ ### A05-P04
+-The barge concealed the equipment during loading. Once the capture vehicle was inside, the Explorer's hull and central well provided the sheltered route through which the recovered target could return. The loading system and the recovery system solved different parts of the same secrecy problem.
++The ship did not need to hide a crane swinging its secret cargo overhead. It took delivery through the bottom. Later, the wreck would have to enter through that same concealed opening.
+ 
+ ### A05-P05
+-This is why the ship's unusual features belonged together. The covered barge hid the transfer. The central well hid the load at the surface. The lifting system connected that concealed working space to the bottom of the ocean. Secrecy was a requirement shaping the machinery, not something added after construction.
++The visible ship was only part of the operation. To understand the transfer, follow the capture vehicle: out of the covered barge, through the water, into the well. At no point did that route require displaying it over the rail.
+ 
+ ### A05-P06
+ But the system still depended on operating a conspicuous ship in one place while keeping the object below it out of view. The cover explained what an observer could see. It could not make the observer leave.
+@@ -119,19 +122,18 @@
+ The ship had to hold its position while managing that suspended system. Equipment faults kept interrupting the work. On July 25, a report described frequent shutdowns, mostly involving the heavy-lift sensors and controls. The problem was no longer whether the machinery could work in a demonstration. It had to keep working through an actual recovery.
+ 
+ ### A06-P05
+-The capture vehicle had to straddle the target and close its gripping structure around it. Photographs alone could not establish how every damaged part would behave under load. Reaching the wreck meant the equipment had arrived. Lifting it would be the test of whether the entire arrangement could bring its intended load back.
++At the bottom, the capture vehicle had to straddle the target and close its gripping structure around it. The machinery could reach the wreck. The next test was whether the wreck could bear being lifted.
+ 
+ ### A06-P06
+-For the return, the sequence reversed. The machinery raised the pipe string; sections came out at the top as the captured load rose below. The objective was to bring the target all the way into the central well, close the gates and examine it inside the vessel, screened from outside observation.
++Upward meant reversing the pipe-handling operation. The crew raised the string and removed sections at the top as the load climbed below. The finish line was the central well: get the wreck inside, close the gates, and examine it out of sight.
+ 
+ ### A06-P07
+-The target was a section of the submarine, not the entire boat. The CIA's museum account describes a portion roughly 132 feet long. Even that limited objective meant entrusting a large damaged structure to the capture system for the whole journey upward. The wreck had to remain a recoverable load after the gripping machinery reached it.
++The intended load was a section about 132 feet long, not the entire submarine. Gripping it was only the beginning. It had to survive the ascent as a load the capture vehicle could keep holding.
+ 
+ ## ACT 07 — What came back
+ 
+ ### A07-P01
+-The wreck was rising. It still had to hold together until it reached the sheltered well. During the lift, the submarine section broke apart. Part of it fell back to the seabed. The crew could still recover what remained in the capture vehicle, but the intended target was no longer coming up as one load.
+-
++The load began to rise. The crew was bringing a Soviet submarine section toward a ship built to swallow it unseen. But during the lift, the section broke apart. Part fell back to the seabed. The equipment could continue upward with what it still held. It could not bring back the load that had just been lost.
+ 
+ ### A07-P03
+ The remaining portion was brought aboard. Among its contents were the bodies of six Soviet submariners. They were given a formal burial at sea. The recording of that ceremony would later be handed to Russian President Boris Yeltsin by CIA Director Robert Gates in 1992.
+@@ -143,12 +145,12 @@
+ A November 1974 intelligence review describes the target as broken, with equipment and documents apparently scattered in a new debris field. None of those scattered items was specifically identifiable at that time. Officials still believed valuable material could be recovered. The failure had changed the target, not eliminated the reason to return.
+ 
+ ### A07-P06
+-So the next question was no longer how to build the ship. It was whether the same ship, already proven capable of a partial recovery, could make another attempt before anyone outside the operation understood its real assignment.
++There was still a target worth returning for, and a ship that had brought part of it up. But a second attempt needed something no workshop could supply: more time under the same cover story.
+ 
+ ## ACT 08 — The deadline nobody could repair
+ 
+ ### A08-P01
+-A second mission was proposed. On February 6, 1975, President Ford approved another recovery attempt. Then, the following day, the Los Angeles Times published an account connecting Hughes, the CIA and the submarine operation. The plan to return had reached presidential approval just as its cover began failing in public.
++On February 6, 1975, President Ford approved another recovery attempt. One day later, the Los Angeles Times published an account linking Hughes, the CIA and the submarine operation. The authorization to return and the public unraveling of the cover arrived almost together.
+ 
+ ### A08-P02
+ The trail toward exposure had passed through a break-in at Hughes corporate offices in June 1974. Investigators and reporters were drawn toward the connections behind the mining venture. CIA Director William Colby had appealed to journalists to hold back the story. For a time, some did. Keeping the secret now depended on decisions far beyond the ship.
+@@ -164,7 +166,8 @@
+ The Explorer was mothballed in August 1976. It later entered commercial drilling service. In 2015, a Transocean filing recorded a completed sale after the decision to sell it for scrap.
+ 
+ ### A08-P07
+-The concealment worked as a chain: a plausible mining project, a covered transfer, and a well through the ship's hull. Together, they could keep the recovered cargo out of view. They could not preserve the mission's cover once its purpose had been published.
++The engineering had answered the opening question. A mining project explained the ship; a submerged transfer hid its equipment; the central well concealed what came back. The secret was built into the route the cargo took. Once that route's purpose was public, hiding the cargo was no longer enough.
+ 
+ ### A08-P08
+-The Explorer had reached the wreck and brought part of the target back. Officials still saw a reason to return for what remained. But before the ship could try again, its secret became public. The second mission was canceled. The recovery ended with the job unfinished.
++The first attempt ended with part of the target back on the ocean floor. The second never sailed. The Explorer had found a way to bring Soviet wreckage aboard unseen. It had no way to make its published purpose secret again.
++

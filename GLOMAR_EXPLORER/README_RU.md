@@ -30,4 +30,5 @@ PROJECT_STATE.json — текущее состояние.
 
 После повторной проверки: [сценарий R1.1](SCRIPT_R1_1/README_RU.md). R1 сохранён; OWNER REVIEW / SCRIPT LOCK HOLD.
 
-После повторной проверки: [сценарий R1.1](SCRIPT_R1_1/README_RU.md). R1 сохранён; OWNER REVIEW / SCRIPT LOCK HOLD.
+
+После усиления удержания и CTA: [актуальный сценарий R1.2](SCRIPT_R1_2/README_RU.md). Предыдущие версии сохранены; SCRIPT LOCK HOLD.
