@@ -40,3 +40,7 @@ Checks:20 unique IDs, allowed statuses, evidence for PASS, actions for HOLD/REJE
 ## Final package
 
 Script path/hash/version, editorial QC, fact/legal QC, retention map, CTA map, timing report, explicit Shorts exclusion, outstanding issues and owner decision. Preserve previous versions and full diff for changes. Finishing a checklist never launches TTS/images/editing.
+
+## Additional mandatory owner gate: SK01–SK12 (2026-11-05)
+
+The existing 20-item QC remains unchanged, including stable JSON IDs and QC19's no-Shorts requirement. **In addition**, every NEW/UNLOCKED HIA script review must contain the complete 12-skill matrix in [HIA_12_MANDATORY_SCRIPT_SKILLS.md](HIA_12_MANDATORY_SCRIPT_SKILLS.md) with concrete paragraph/source/visual evidence and PASS or a justified owner-reviewable alternative for each skill. HOLD/REJECT or missing rows block Script Lock. An automated 20-row validator PASS alone is insufficient; manual 12-skill audit is compulsory. SK10 requires evaluating silence, not forcing a silent opening; SK03/SK07 cannot force artificial retention stunts. Preserve all existing approvals and episode locks.
