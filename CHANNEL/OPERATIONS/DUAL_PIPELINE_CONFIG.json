@@ -1,0 +1,22 @@
+{
+  "schema": "HIA_DUAL_PIPELINE_CONFIG_V1",
+  "scope": "Youtube-2/Hidden Industrial America",
+  "default_engine": "episode_current_lock",
+  "available_routes": [
+    "resolve",
+    "remotion"
+  ],
+  "parallel_jobs": "authorized_isolated_projects_only",
+  "auto_render": false,
+  "auto_generate": false,
+  "auto_tts": false,
+  "auto_download": false,
+  "publish": false,
+  "shorts": false,
+  "subtitles": false,
+  "generated_video": false,
+  "source_of_truth": "episode_current_status_and_approved_assets",
+  "skills_registry": "CHANNEL/OPERATIONS/SKILL_REGISTRY.json",
+  "quality_gate": "episode_factual_rights_edit_av_owner_gates",
+  "runtime_check": "local_skills_and_binaries_unverified"
+}
