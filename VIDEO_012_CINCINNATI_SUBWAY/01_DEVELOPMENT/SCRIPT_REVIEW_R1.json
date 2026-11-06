@@ -1,0 +1,33 @@
+{
+  "schema": "HIA_SCRIPT_REVIEW_V1",
+  "script_path": "VIDEO_012_CINCINNATI_SUBWAY/01_DEVELOPMENT/SCRIPT_DRAFT_EN_R1.md",
+  "script_sha256": "02A2A8243E6ADD5501ECCC0659CC5BF6C622279140F469298F40CFE1C30A5CA9",
+  "reviewer": "Codex editorial development review",
+  "review_date": "2026-11-05",
+  "owner_approval": {
+    "approved": false,
+    "evidence": ""
+  },
+  "items": [
+    {"id":"QC01","status":"PASS","critical":true,"evidence":["A01-P01: verified 1957 water-main installation opens on physical action and anomaly."],"action":"Preserve after archive verification."},
+    {"id":"QC02","status":"PASS","critical":true,"evidence":["A01-P01–A01-P03 establish action, stakes, paradox and central question."],"action":"Retest after owner revision."},
+    {"id":"QC03","status":"PASS","critical":true,"evidence":["A01-P03 asks how completed tunnel structure never became an operating subway and why reuse persists."],"action":"Retain one investigation."},
+    {"id":"QC04","status":"PASS","critical":false,"evidence":["A02 explains the canal right-of-way only because it makes the route and later failure legible."],"action":"Keep compressed."},
+    {"id":"QC05","status":"PASS","critical":true,"evidence":["Turns: completed shell without systems; water-main second life; 2025 feasibility study."],"action":"Do not add forced catastrophe."},
+    {"id":"QC06","status":"PASS","critical":false,"evidence":["A03–A07 progress from missing systems and funding to adaptation constraints and current costs."],"action":"Confirm in timed read."},
+    {"id":"QC07","status":"PASS","critical":true,"evidence":["A03-P02–P03 distinguish civil shell from rails, power, control, vehicles and connections; A06 explains corridor reuse."],"action":"Support with accurate diagrams."},
+    {"id":"QC08","status":"HOLD","critical":true,"evidence":["CLAIM_LEDGER_R1.csv traces 24 claims; F18 Batman remains secondary-source HOLD."],"action":"Obtain primary Batman evidence or delete A05-P04; complete source pinpoints."},
+    {"id":"QC09","status":"PASS","critical":true,"evidence":["DARPA, secret program, unsupported superlative, provider traffic and security claims were removed."],"action":"Maintain factual boundary."},
+    {"id":"QC10","status":"PASS","critical":false,"evidence":["Each act advances cause or consequence; reference repetitions were compressed."],"action":"Final compression after fact lock."},
+    {"id":"QC11","status":"PASS","critical":true,"evidence":["Canal corridor → delayed bond → incomplete system → funding/politics → reuse → water main → current study."],"action":"Preserve causal transitions."},
+    {"id":"QC12","status":"HOLD","critical":false,"evidence":["No mid-video CTA inserted in R1."],"action":"Owner/editorial review decides whether an earned 8–12 second CTA is required or omission is justified."},
+    {"id":"QC13","status":"PASS","critical":true,"evidence":["A08 resolves the opening by distinguishing a durable object from a complete operating system."],"action":"Retest after revisions."},
+    {"id":"QC14","status":"PASS","critical":false,"evidence":["A08 states both reuse value and inherited cost without calling the tunnel simple waste."],"action":"Preserve known/unknown boundary."},
+    {"id":"QC15","status":"HOLD","critical":false,"evidence":["A08-P04 contains a relevant question and channel invitation."],"action":"Verify owner-approved end screen and Previous Story target during production planning."},
+    {"id":"QC16","status":"PASS","critical":true,"evidence":["R1 is original en-US narration, not a literal translation of the Russian reference."],"action":"Owner language review required."},
+    {"id":"QC17","status":"HOLD","critical":true,"evidence":["Mechanical spoken-word estimate is 1,447; approved narrator pace is unavailable."],"action":"Measure accepted HIA narrator sample; do not infer duration from generic WPM."},
+    {"id":"QC18","status":"HOLD","critical":true,"evidence":["VISUAL_FEASIBILITY_R1.csv identifies real official/archive candidates and fallbacks."],"action":"Perform item-level rights, download, resolution and visual QC before editor-ready claim."},
+    {"id":"QC19","status":"PASS","critical":false,"evidence":["PROJECT_STATE.json and AGENTS.md explicitly prohibit Shorts; none created or planned."],"action":"Maintain owner lock."},
+    {"id":"QC20","status":"HOLD","critical":true,"evidence":["No subtitles or AI video are planned; no production started."],"action":"Verify approved HIA voice evidence, visual safe zones, end screen and owner Script Lock separately."}
+  ]
+}

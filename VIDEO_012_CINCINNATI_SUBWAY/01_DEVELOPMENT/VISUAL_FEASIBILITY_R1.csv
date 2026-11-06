@@ -1,0 +1,11 @@
+scene_id,paragraphs,required_visual,source_candidate,rights_status,quality_status,fallback,decision
+V01,A01-P01,"1957 pipe installation moving footage","GCWW historical film",HOLD,HOLD,"City plan plus verified stills",HOLD
+V02,A01-P02-A01-P03,"Current tunnel and station","City/UC collections",HOLD,HOLD,"Official engineering photos",HOLD
+V03,A02-P01-A02-P03,"Canal corridor and planned loop","Cincinnati Library/UC maps",HOLD,HOLD,"Source-grounded map graphic",HOLD
+V04,A03-P01,"1920-23 construction moving/still archive","UC subway construction collection",HOLD,HOLD,"High-resolution construction still sequence",HOLD
+V05,A03-P02-A03-P04,"Plans showing tunnel versus missing systems","City engineering records",HOLD,HOLD,"Accurate layered route/system diagram",HOLD
+V06,A04-P01-A04-P04,"Board reports, cost records, Central Parkway opening","City/Library documents",HOLD,HOLD,"Legible document reveals",HOLD
+V07,A05-P01-A05-P03,"Reuse proposals and fallout equipment","City records",HOLD,HOLD,"Minimal sourced cards; no fake archive",HOLD
+V08,A06-P01-A06-P03,"Water main installation and current inspection/budget","GCWW film and city budget",HOLD,HOLD,"Pipe-section diagram and exact budget page",HOLD
+V09,A07-P01-A07-P03,"2025 study and Brighton bridge interface","City procurement and DOTE project photos",HOLD,HOLD,"Official pages plus engineering section",HOLD
+V10,A08-P01-A08-P04,"Present Central Parkway matched to tunnel alignment","Current licensed aerial/ground footage",HOLD,HOLD,"Owner-authorized local capture",HOLD
