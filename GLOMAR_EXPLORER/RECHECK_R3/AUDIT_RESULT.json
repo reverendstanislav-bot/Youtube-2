@@ -1,0 +1,19 @@
+{
+  "base_commit_reviewed": "1699c4bcf4ecb7ec0c87edef12c120deb7c3eabf",
+  "scope": "All132R2rows,47usedassetIDs,27video placements with81exact source samples, accepted narration byte/timing integrity, CTA/sound/end-screen status",
+  "technical_integrity": "PASS_WITH_SEC_CAPTURE_MISSING_AND_UNBUILT_ART",
+  "editorial_readiness": "REJECT_R2_AS_READY_FOR_ASSEMBLY",
+  "asset_rejection_scope": "No source asset deleted or globally rejected; specific placements corrected/held",
+  "rights": "HOLD_PRESERVED_NO_NEW_LICENSE",
+  "full_realtime_AV_review": "NOT_PERFORMED_NO_FILM_EXISTS",
+  "accepted_narration": "PRESERVED_AND_HASH_MATCHED",
+  "new_generation_jobs_submitted": 0,
+  "budget_spent": 0,
+  "new_moving_sources_acquired": 0,
+  "current_corrected_map": "RECHECK_R3/CORRECTED_TIMELINE_NOT_EDIT_READY.csv",
+  "remaining_main_issue": "Need scene-specific moving archive and constructed mechanism sequences; no more arbitrary document/patch filler or source relabelling",
+  "selected_video_full_decode_pass": 27,
+  "exact_source_frame_samples": 81,
+  "source_WAV_hash_and_duration_matches": 50,
+  "package_hash_manifest_entries_matching": 597
+}

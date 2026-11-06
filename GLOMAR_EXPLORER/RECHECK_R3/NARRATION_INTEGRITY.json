@@ -1,0 +1,13 @@
+{
+  "accepted_master_sha256": "0f7c9430fab3efa2cbf4cf0478be68abbf5721c341ad681f9ad07087a2b45a47",
+  "accepted_master_seconds": 816.96,
+  "paragraph_ids_en_ru_audio_match": true,
+  "paragraph_count": 50,
+  "word_count_en_whitespace": 2183,
+  "word_count_en_regex": 2184,
+  "audio_sample_format": "PCM 24-bit / 48kHz / mono, FFprobe rechecked",
+  "owner_listening_acceptance_preserved": true,
+  "new_ASR_or_listening_performed": false,
+  "EN_RU_semantic_retranslation_performed": false,
+  "current_scope": "Preserved accepted wording and checked ID/byte/timing integrity; no rewrite or generation"
+}

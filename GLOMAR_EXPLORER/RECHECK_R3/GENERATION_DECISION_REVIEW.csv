@@ -1,0 +1,8 @@
+job_id,scene,current_evidence,gap_status,decision,submitted
+IG01,Blocked helicopter deck,"D07 pp38-39 text only; no accepted event photograph",REAL_VISUAL_GAP,"Potential single scene-specific base after archive search; exact helicopter model or personnel not invented. No job authorized by this audit.",false
+IG02,Platform installation,"Real Sun Ship photograph exists; permission HOLD",ARCHIVE_PERMISSION_GAP,"Use original photo if cleared; do not generate merely because the permission is pending.",false
+IG03,Derrick and bridge,"D07 p20; no free-cleared moving event footage",NATIVE_EXPLANATION_NEEDED,"A specific bridge-clearance explanation can solve this without a new physical reconstruction still.",false
+IG04,Cables and winches,"D07 p30 verifies action; no actual repair image",ACTION_NOT_VISUALLY_CLOSED,"Build repair state within the gate explanation or use verified contextual machinery. Document substitution alone did not resolve the scene.",false
+IG05,Diver repair,"D07 p30 confirms divers and seal work; no actual diver image",ACTION_NOT_VISUALLY_CLOSED,"Review a short source-based repair explanation or rare appropriate context stock before considering a generated physical base.",false
+IG06,Hidden capture assembly,"Original capture/transfer diagrams; no direct assembly film",NATIVE_TRANSFER_NEEDED,"Build the concealed path first. A generic workshop still would not explain it.",false
+IG07,Pipe-string handling,"Actual external equipment photo and recovery recording; no verified deck pipe handling clip",MOTION_GAP,"Find the full recording/trials and build a short pipe sequence. A still of workers does not establish the mechanism.",false

@@ -25,6 +25,8 @@ Scope: Hidden Industrial America / reverendstanislav-bot/Youtube-2. Not Youtube-
 
 Owner clarification 2026-11-05, Glomar Explorer: archive is the main visual material, stock is rare, generated material is minimal. The owner rejected a map with only about40 seconds of moving archive and over7 minutes of standalone explanatory graphics. This is not permission to pad with repeated clips or reclassify drawings as moving footage. Reconcile existing sources first, select specific new source intervals, and separately report moving archive, photographs, original drawings, documents, stock and generation. No fixed generation quota follows from an earlier prompt pack. Current Glomar correction: GLOMAR_EXPLORER/EDIT_PREP_R2; archive gaps and rights HOLDs remain explicit.
 
+Subsequent owner-requested recheck: GLOMAR_EXPLORER/RECHECK_R3 is current; R2 failed editorial readiness. An arithmetic share including repeated documents, drawings and museum photography does not demonstrate a dynamic archive-led film. Count video placements, continuous shots, underlying sources, unbuilt overlay intervals and real visual gaps separately. Do not declare zero required generation merely by replacing scenes with documents. Preserve useful originals and the accepted voice while correcting their placement.
+
 ## VIDEO 010 application
 Owner-selected Antarctic Snow Cruiser, not Church Hill from the superseded preliminary report.
 References: Triston Smith n98cpmJfjuY; Grit History RLT0_LJmEp0; Mustard pW0eZRoQ86g.

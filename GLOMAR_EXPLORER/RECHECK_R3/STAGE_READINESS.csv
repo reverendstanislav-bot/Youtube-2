@@ -1,0 +1,12 @@
+stage,status,evidence,next_required
+Accepted script and narration,KEEP_ACCEPTED,"50 EN/RU/audio paragraph IDs; all50 WAV hash/duration matches; accepted master hash matches",No new voice generation or rewriting from this audit
+Existing source binary integrity,PASS,"597 manifest entries checked across5 packages;47 used asset IDs;27 selected video intervals decode",Preserve original files and source restrictions
+R2 moving archive expansion,NOT_ACHIEVED,"0 new video sources;156.97s obtained from old bank;24 continuous insertions",Acquire suitable new moving material for identified acts
+R2 editorial readiness,REJECT,"Repetition; incorrect phase associations; placeholder explanations; patch filler",Use shot audit and corrected map; resolve gaps before assembly
+Footage reuse basis,HOLD,"V03/V04/SunShip restrictions remain unchanged",Document the applicable reuse basis for each selected source
+Graphics and overlays,NOT_BUILT,"4 standalone composition families and52 overlay cue rows; no finished render",Construct and review actual mechanism/readability treatments
+Generation count,NOT_DETERMINED,"0 submitted confirmed;0 necessary was not proved",Review7 reserve jobs by scene; minimum only
+Music and SFX,NOT_SELECTED_OR_AUDITIONED,"Music map has no source files;3 SFX candidates not downloaded/listened",Select specific free suitable files and verify licensing then audition
+End-screen target,IDENTIFIED_WITH_LIMITS,"Published channel catalogue and current Camp Century oEmbed; live public listing and Studio eligibility not checked",Recheck during upload
+End-screen artwork,NOT_CREATED,"SVG is layout review only;20s tail planned",Create the final frame/scene and check slot proportions
+Full film and master render,NOT_CREATED,"No assembled audiovisual film to review",Build only after visual coverage corrections then perform full AV and export QC

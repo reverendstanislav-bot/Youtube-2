@@ -1,0 +1,27 @@
+{
+  "R2_video_seconds": 156.97,
+  "R2_video_percent_narration": 19.214,
+  "R2_video_rows": 27,
+  "R2_continuous_video_insertions": 24,
+  "R2_video_clip_files": 17,
+  "R2_actual_underlying_historical_video_sources": 3,
+  "new_motion_video_sources_added_last_turn": 0,
+  "R2_doc_and_drawing_seconds": 389.66,
+  "R2_doc_and_drawing_percent": 47.696,
+  "R2_fullframe_graphics_seconds": 68.74,
+  "R2_overlay_assigned_over_primary_sources_seconds": 352.05,
+  "R2_fullframe_or_overlay_assigned_seconds": 420.79,
+  "overlay_caveat": "A planned overlay interval is not proof of fullframe graphics or of a built/readable effect; actual screen occupancy has not been rendered.",
+  "R2_museum_nodule_and_patch_photo_seconds": 36.36,
+  "R2_source_repeat_max": {
+    "asset_id": "D07_NATIVE_21",
+    "seconds": 92.14,
+    "rows": 13,
+    "source_file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_EXPANSION_R5\\ORIGINALS\\D07_P21_NATIVE.png"
+  },
+  "corrected_video_seconds": 145.09,
+  "corrected_unfilled_visual_seconds": 16.2,
+  "R2_91_59_percent_caveat": "Bookkeeping sum includes original documents, repeated drawings, modern museum photography and conditional sources. It is not archive-motion coverage, final visual quality, or rights clearance.",
+  "generation_count": "NOT_ESTABLISHED; zero submissions is confirmed, zero necessary images was not proved",
+  "gap_duration_caveat": "16.20 seconds denotes newly explicit empty visual slots only. It does not mean the rest is production-ready."
+}

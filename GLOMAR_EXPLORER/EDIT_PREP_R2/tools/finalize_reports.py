@@ -53,7 +53,10 @@ validation['all_27_video_trim_bounds_probed']='PASS'
 
 state=json.loads((PROJECT/'PROJECT_STATE.json').read_text(encoding='utf-8'))
 state.update({'status':'ARCHIVE_FIRST_R2_REVISED_FOOTAGE_AND_RIGHTS_HOLD','edit_prep':'EDIT_PREP_R2/README_RU.md','previous_edit_prep':'EDIT_PREP_R1/README_RU.md','archive_report':'ARCHIVE_EXPANSION_R5/README_RU.md','visual_timeline_rows':len(rows),'mandatory_image_generation_jobs':0,'deferred_image_jobs':7,'missing_image_prompts':0,'new_archival_motion_sources_acquired':0,'selected_moving_archive_plan_seconds':summary['planned_moving_archive_seconds'],'standalone_graphic_plan_seconds':summary['primary_visual_seconds']['NATIVE_GRAPHIC'],'owner_visual_rule':'Archive primary; stock rare; generation only unavoidable scene-specific gaps. Prior 40-second/graphics-majority plan rejected by owner on 2026-11-05.','end_screen_previous_story':'sP67aPtpwKg','end_screen_target_check':'PUBLISHED_CATALOG_AND_CURRENT_OEMBED_HIA_MATCH; STUDIO_CHECK_PENDING','picture_production_started':False})
-(PROJECT/'PROJECT_STATE.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
+if (PROJECT/'RECHECK_R3/AUDIT_RESULT.json').exists():
+    print('R2 is a historical package; current R3 audit/project state preserved.')
+else:
+    (PROJECT/'PROJECT_STATE.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
 for folder in [OUT,EXP]:
     hashes=[]
     for p in sorted(folder.rglob('*')):

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "SEC2015_ORIGINAL.html",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1451505/000145150515000116/form10_q2q2015.htm",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "D07_OCR_COORDINATES.xml",
+    "source_url": "https://archive.org/download/cia-readingroom-document-0005301269/0005301269_djvu.xml",
+    "http_status": 200,
+    "bytes": 1376402,
+    "sha256": "074b4678595d98f08b3c2147d607a5044ee44607877976f5f32baeae7677f838",
+    "status": "DOWNLOADED"
+  }
+]

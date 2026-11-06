@@ -1,0 +1,27 @@
+[
+  {
+    "package": "ARCHIVE_R1",
+    "checked": 94,
+    "issues": []
+  },
+  {
+    "package": "VIDEO_ARCHIVE_R2",
+    "checked": 365,
+    "issues": []
+  },
+  {
+    "package": "ARCHIVE_EXPANSION_R5",
+    "checked": 56,
+    "issues": []
+  },
+  {
+    "package": "EDIT_PREP_R1",
+    "checked": 53,
+    "issues": []
+  },
+  {
+    "package": "EDIT_PREP_R2",
+    "checked": 29,
+    "issues": []
+  }
+]

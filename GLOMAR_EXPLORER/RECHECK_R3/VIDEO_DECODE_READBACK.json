@@ -1,0 +1,164 @@
+[
+  {
+    "shot_id": "SH003",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH007",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH015a",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH028",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH029a",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH029b",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH040a",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH061a",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH079",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH085",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH087",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH088",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH089",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH090",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH091",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH094",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH095",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH096",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH098",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH099",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH100",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH103",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH104",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH106",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH107",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH120",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  },
+  {
+    "shot_id": "SH123b",
+    "returncode": 0,
+    "diagnostic": "",
+    "gate": "DECODE_ONLY_NOT_CREATIVE_OR_AV_PASS"
+  }
+]

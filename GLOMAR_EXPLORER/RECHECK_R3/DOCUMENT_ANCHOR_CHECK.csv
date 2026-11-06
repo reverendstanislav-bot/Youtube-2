@@ -1,0 +1,16 @@
+﻿asset_id,pdf_page_1based,anchor,ocr_word,coords_as_recorded,ocr_page_width,ocr_page_height,coordinate_status
+DOC30,30,cables,cables,"867,1070,970,1038",2550,3301,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC30,30,winches,winches.,"1176,1071,1319,1039",2550,3301,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC30,30,divers,divers.,"1190,1857,1298,1824",2550,3301,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC30,30,puddle,puddle,"1224,1961,1343,1925",2550,3301,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC35,35,"12,000","12,000","838,2241,951,2206",2652,3432,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC38,38,crates,crates,"677,2795,775,2769",2550,3301,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"755,816,929,779",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"1272,917,1441,880",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"1745,968,1917,932",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"1858,1019,2028,982",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,"helicopter,","736,1171,918,1132",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"1433,2069,1604,2032",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"1438,2318,1609,2282",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC39,39,helicopter,helicopter,"861,2419,1035,2383",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
+DOC40,40,shutdowns,shutdowns,"1782,2105,1961,2073",2576,3333,PRIMARY_OCR_COORDS_RECORDED; map normalization to native scan before crop render
