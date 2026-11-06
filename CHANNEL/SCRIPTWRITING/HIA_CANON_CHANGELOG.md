@@ -30,3 +30,7 @@ No new episode scripts, TTS, images, footage, paid requests or publications. Mem
 ## V1.1 — later owner follow-up 2026-11-04
 
 Owner requested the current Glomar script and explicitly excluded Shorts. Restore channel-wide NO SHORTS for future work until reauthorized. Canon, template, QC19, Shorts policy and entry-point banners now agree. The earlier same-day four-draft decision is historical, not active. Twenty QC IDs remain stable; QC19 checks exclusion. Previously recorded V1.0 implementation validation is historical; current episode records state the applied V1.1 override. No old locked script/media modified.
+
+## V1.2 — 2026-11-05 mandatory storytelling skills
+
+Owner required twelve named methods as obligatory skills in writing new HIA scripts. Added HIA_12_MANDATORY_SCRIPT_SKILLS.md with definitions, evidence expectations, workflow and a 12-row review gate, and routed AGENTS/canon/template/QC here. Previous 20 QC IDs, owner approvals, no-Shorts, no-subtitles, evidence/rights, voice and production locks remain unchanged. SK10 is compulsory evaluation of a silent opening, not compulsory silence; no forced time-based resets or fabricated cliffhangers. No locked script modified and no media production authorized.
