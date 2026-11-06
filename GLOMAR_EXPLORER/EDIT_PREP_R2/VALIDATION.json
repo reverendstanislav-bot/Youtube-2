@@ -1,0 +1,16 @@
+{
+  "continuity": "PASS",
+  "unique_source_intervals": "PASS",
+  "same_accepted_narration": "PASS_UNCHANGED_TIMINGS_AND_FILES",
+  "generated_assets_submitted": 0,
+  "stock_substitutions": 0,
+  "removed_flash_seconds": 0.18,
+  "timeline_created": false,
+  "rights": "HOLD_UNCHANGED_UNTIL_EVIDENCE",
+  "picture_qc": "SAMPLED_SOURCE_ONLY_FULL_SEQUENCE_PENDING",
+  "end_screen_target": "CAMP_CENTURY_CATALOG_PUBLICATION_AND_CURRENT_OEMBED_CONFIRMED; STUDIO_ELIGIBILITY_PENDING",
+  "same_script_en_bytes": true,
+  "same_script_ru_bytes": true,
+  "same_paragraph_timing_bytes": true,
+  "all_27_video_trim_bounds_probed": "PASS"
+}

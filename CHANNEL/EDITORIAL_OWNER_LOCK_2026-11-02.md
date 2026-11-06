@@ -23,6 +23,8 @@ Scope: Hidden Industrial America / reverendstanislav-bot/Youtube-2. Not Youtube-
 14. Sampled visual review is not full real-time audiovisual review. Never invent transcripts, sound review, cut statistics, competitor CTR or retention.
 15. Existing Script Locks, accepted assets, published films and source HOLDs are not automatically reopened. Do authorized work without invented approval gates.
 
+Owner clarification 2026-11-05, Glomar Explorer: archive is the main visual material, stock is rare, generated material is minimal. The owner rejected a map with only about40 seconds of moving archive and over7 minutes of standalone explanatory graphics. This is not permission to pad with repeated clips or reclassify drawings as moving footage. Reconcile existing sources first, select specific new source intervals, and separately report moving archive, photographs, original drawings, documents, stock and generation. No fixed generation quota follows from an earlier prompt pack. Current Glomar correction: GLOMAR_EXPLORER/EDIT_PREP_R2; archive gaps and rights HOLDs remain explicit.
+
 ## VIDEO 010 application
 Owner-selected Antarctic Snow Cruiser, not Church Hill from the superseded preliminary report.
 References: Triston Smith n98cpmJfjuY; Grit History RLT0_LJmEp0; Mustard pW0eZRoQ86g.

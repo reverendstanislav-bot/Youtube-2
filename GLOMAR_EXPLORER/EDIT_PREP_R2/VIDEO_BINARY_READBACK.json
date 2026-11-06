@@ -1,0 +1,227 @@
+{
+  "S02": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S02_AZORIAN_OPERATION_720P.mp4",
+    "duration": 17.484133,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "449d553ae608c77012c23a43656ad6410f8c395188f7a6bcf51c8143fbcd7aa4"
+  },
+  "S04": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S04_AZORIAN_OPERATION_720P.mp4",
+    "duration": 9.009,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "343f6a2cdd78b3cd9ab47d5a77d46bd97d6988b6265810f8d7958281dda3159c"
+  },
+  "S03": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S03_AZORIAN_OPERATION_720P.mp4",
+    "duration": 8.008,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "953985ecbddc17f1d626b9f5284b88ba0a5f43e47c8bd469916344d431fbb3f4"
+  },
+  "S01": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S01_AZORIAN_OPERATION_720P.mp4",
+    "duration": 7.007,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "196a0beeff9614236640ae03d44906c23c5fbcaa8a5ec6c6f617f3da4a760b2f"
+  },
+  "S09": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S09_AZORIAN_OPERATION_720P.mp4",
+    "duration": 40.473767,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "0f24644be095545daf9bee676116770713295771613d1e0fcb62217d6e7ec258"
+  },
+  "S06": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S06_AZORIAN_OPERATION_720P.mp4",
+    "duration": 11.5115,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "a73d5404334353308a94586010c487b6841b798d46cd13d1abf0651b8ef55022"
+  },
+  "S08": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S08_AZORIAN_OPERATION_720P.mp4",
+    "duration": 11.011,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "a200f1491860a4bba31389273df40be6872deb3594757c24b65f1f9471514360"
+  },
+  "S14": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S14_AZORIAN_OPERATION_720P.mp4",
+    "duration": 6.473133,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "243cc15a845e74bb43322c4dd9e4fb7e87f8e66cac460e52df0935d39a2fea46"
+  },
+  "S15": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S15_AZORIAN_OPERATION_720P.mp4",
+    "duration": 27.027,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "1efe0c36bb05d4d61ba9efcdc6ffc057612cf855968f29fe6ebfd67fd019db67"
+  },
+  "S16": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S16_AZORIAN_OPERATION_720P.mp4",
+    "duration": 15.982633,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "1c72b53ba102592971f45f6441e9d165a892345cf1be81b3f54acf454d4f4507"
+  },
+  "S21": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S21_AZORIAN_OPERATION_720P.mp4",
+    "duration": 18.5185,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "0dd75c3b77452e993e4eac630c93f659525fbe8b8c5dd1489e287f8908afa640"
+  },
+  "V01": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_R1\\ORIGINALS\\V01_CIA_BURIAL.mkv",
+    "duration": 843.061,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 480,
+        "r_frame_rate": "30000/1001"
+      },
+      {
+        "codec_name": "opus",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "sha256": "be753845f5b1750fdd784f4d66862c569e68cea9a84a05a1cac6d96b4171143f"
+  },
+  "S20": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S20_AZORIAN_OPERATION_720P.mp4",
+    "duration": 13.980633,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "9ae4c9bf5eeff149ec59f69a4f8ea5d274ea24e3d7052a49a20981d9835cdd47"
+  },
+  "S23": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S23_AZORIAN_OPERATION_720P.mp4",
+    "duration": 8.975633,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "b619ea76751bab6ec09809affb94f7be9ac3e7df120a6ae4a84c95ad997dedf7"
+  },
+  "S24": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S24_AZORIAN_OPERATION_720P.mp4",
+    "duration": 60.026633,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "13da7c79f0653240ec6a65f48e8f8fa7c79594707ac76dc14001a16386c35241"
+  },
+  "S26": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S26_GLOMAR_DERRICK_1987.mp4",
+    "duration": 5.238572,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 626,
+        "height": 476,
+        "r_frame_rate": "2997/100"
+      }
+    ],
+    "sha256": "7b3f6b4f27310eb508c2d40063e4b80b4380061a3f8741083e88b51c92f2592a"
+  },
+  "S18": {
+    "file": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\VIDEO_ARCHIVE_R2\\FULL_SCENES_RIGHTS_HOLD\\S18_AZORIAN_OPERATION_720P.mp4",
+    "duration": 5.972633,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30000/1001"
+      }
+    ],
+    "sha256": "57126cca0656646eca9764f5c098303fc87ec0917a0e33058235ed756c783bbf"
+  }
+}

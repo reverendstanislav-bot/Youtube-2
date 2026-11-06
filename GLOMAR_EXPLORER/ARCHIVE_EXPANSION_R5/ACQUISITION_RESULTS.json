@@ -1,0 +1,90 @@
+[
+  {
+    "asset_id": "C06",
+    "status": "ERROR",
+    "error": "HTTP Error 429: Too many requests (f061ab2)"
+  },
+  {
+    "asset_id": "C12",
+    "title": "File:K129 HGE recoverysite.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:K129_HGE_recoverysite.png",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/K129_HGE_recoverysite.png",
+    "local_file": "ORIGINALS\\C12.png",
+    "bytes": 54221,
+    "width": 657,
+    "height": 646,
+    "sha256": "bfcc0629dce672f229658400d455ea987ffe3675f23195a5f7996fd124b10b85",
+    "license": "Public domain",
+    "license_url": null,
+    "artist_html": "Enemenemu",
+    "date_html": "2010-02-17",
+    "source_html": "Own work, based on FOIA release specifying distance of recovery site to Long Beach, CA, and Hawaii, respectively.",
+    "description_html": "Map depicting the location of K-129 (Soviet Golf II class strategic ballistic missile submarine), which was (partially?) recovered by the USNS Hughes Glomar Explorer",
+    "status": "DOWNLOADED_ITEM_EVIDENCE_SAVED",
+    "editorial_status": "EXCLUDE_DISPUTED_PRECISE_LOCATION_NOT_HISTORICAL_ARCHIVE"
+  },
+  {
+    "asset_id": "C07",
+    "title": "File:Hughes Glomar Explorer - Port of Long Beach-01.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hughes_Glomar_Explorer_-_Port_of_Long_Beach-01.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hughes_Glomar_Explorer_-_Port_of_Long_Beach-01.jpg",
+    "local_file": "ORIGINALS\\C07.jpg",
+    "bytes": 1805293,
+    "width": 1800,
+    "height": 1181,
+    "sha256": "5a30b6dd5ab7dc205c093fc8fed24a479ce1d77645ae46166c6a6c49d27d9944",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tequask\" title=\"User:Tequask\">Tequask</a>",
+    "date_html": "1976-07-25",
+    "source_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "description_html": "Boarding party alongside. (Scanned from 35mm Kodachrome 64 slide)",
+    "status": "DOWNLOADED_ITEM_EVIDENCE_SAVED"
+  },
+  {
+    "asset_id": "C10",
+    "title": "File:Glomar Patch.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Glomar_Patch.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Glomar_Patch.jpg",
+    "local_file": "ORIGINALS\\C10.jpg",
+    "bytes": 26721,
+    "width": 800,
+    "height": 533,
+    "sha256": "158ba7900ededfca6b9746e82ec1de5d34ef1a3b99147918bf4611562b63aeee",
+    "license": "Public domain",
+    "license_url": null,
+    "artist_html": "Central Intelligence Agency",
+    "date_html": "2022-07-29",
+    "source_html": "CIA.gov",
+    "description_html": "Crew members aboard the Glomar Explorer wore this patch, with the Summa Corporation cover provider clearly identified, on their uniforms.",
+    "status": "DOWNLOADED_ITEM_EVIDENCE_SAVED"
+  },
+  {
+    "asset_id": "C08",
+    "title": "File:Hughes Glomar Explorer - Port of Long Beach.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hughes_Glomar_Explorer_-_Port_of_Long_Beach.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Hughes_Glomar_Explorer_-_Port_of_Long_Beach.jpg",
+    "local_file": "ORIGINALS\\C08.jpg",
+    "bytes": 2285209,
+    "width": 1383,
+    "height": 1800,
+    "sha256": "412a592fa2002955ce1a84586a013b2a7e73ee83a9d2a04fe26869c11249ceef",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TedQuackenbush&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TedQuackenbush (page does not exist)\">TedQuackenbush</a>",
+    "date_html": "1976-06-13",
+    "source_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "description_html": "The Hughes Glomar Explorer sitting at its dock in Long Beach, California. In 1974 the ship had tried to recover a Soviet submarine that had sank in the Pacicic Ocean in 1968.",
+    "status": "DOWNLOADED_ITEM_EVIDENCE_SAVED"
+  },
+  {
+    "asset_id": "C05",
+    "status": "ERROR",
+    "error": "HTTP Error 429: Too many requests (f061ab2)"
+  },
+  {
+    "asset_id": "C11",
+    "status": "ERROR",
+    "error": "HTTP Error 429: Too many requests (f061ab2)"
+  }
+]

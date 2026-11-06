@@ -1,0 +1,102 @@
+[
+  {
+    "page_1based": 19,
+    "file": "ORIGINALS\\D07_P19_NATIVE.png",
+    "width": 2544,
+    "height": 3300,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "bbed919381cb58fb11072b6c62158edb61c0ab98e2090fc1eb06ccc9cdd93152",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 20,
+    "file": "ORIGINALS\\D07_P20_NATIVE.png",
+    "width": 2601,
+    "height": 3344,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "9612b5ad12365583cdaa5813c0129d88cda209611e2b69cde8ada6434909281c",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 21,
+    "file": "ORIGINALS\\D07_P21_NATIVE.png",
+    "width": 2544,
+    "height": 3300,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "c4ffff709a5da8df56c1f3496a956df4ffe3cd2c4dc09cac0ad84e0b944356c3",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 28,
+    "file": "ORIGINALS\\D07_P28_NATIVE.png",
+    "width": 2544,
+    "height": 3300,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "64a19270f4d7321da79d68458b2af6e01f84ee4f9619ff165898e1c970bc7246",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 30,
+    "file": "ORIGINALS\\D07_P30_NATIVE.png",
+    "width": 2544,
+    "height": 3298,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "c42cbb97937681271242d5a1a733057937c04cb707aece66133e6c2bbcefdd04",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 33,
+    "file": "ORIGINALS\\D07_P33_NATIVE.png",
+    "width": 2588,
+    "height": 3334,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "b5e6c29cd5792cbe3e3bcfca4f70b1500510bb8d0fc536cd22f42f83b2c21508",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 35,
+    "file": "ORIGINALS\\D07_P35_NATIVE.png",
+    "width": 2653,
+    "height": 3382,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "95dee3e620ea059863fe9a223f46770f9fd121ed387326b9c0b25c606407015c",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 38,
+    "file": "ORIGINALS\\D07_P38_NATIVE.png",
+    "width": 2544,
+    "height": 3300,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "b723eac1ec834ba3b25b83e5c7d9cf36e0d4bbf2aec4d606d2c98558cd511c7d",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 39,
+    "file": "ORIGINALS\\D07_P39_NATIVE.png",
+    "width": 2580,
+    "height": 3328,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "6e56a63db2f829ffb68edb6157e3dba2297cb9db8b0a9e05b7780b96348db980",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  },
+  {
+    "page_1based": 40,
+    "file": "ORIGINALS\\D07_P40_NATIVE.png",
+    "width": 2577,
+    "height": 3325,
+    "source_pdf": "C:\\YOUTUBE\\Youtube 2\\Glomar Explorer\\ARCHIVE_STORY_R3\\DOCUMENTS\\D07_CIA_HISTORY_IA_COPY.pdf",
+    "source_pdf_sha256": "70ad7fc5707905a0ac6e4c886689913fb082c98a11454421444d4241a4d491bd",
+    "sha256": "bfd03d74a13b0a949852cace507dddd4bfac1958657d323748efa99936a25b01",
+    "method": "Exact embedded scan extraction; no upscaling or new content"
+  }
+]

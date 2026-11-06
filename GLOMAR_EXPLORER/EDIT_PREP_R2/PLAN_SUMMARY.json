@@ -1,0 +1,33 @@
+{
+  "base_commit": "49fb7e6f6630fb6a5ea4f9838283c9cdd0116c0a",
+  "owner_instruction_date": "2026-11-05",
+  "status": "ARCHIVE_FIRST_PLAN_REVISED_NOT_FINAL_FILM",
+  "shot_rows": 132,
+  "narration_seconds": 816.96,
+  "end_screen_seconds": 20,
+  "total_seconds": 836.96,
+  "primary_visual_seconds": {
+    "PHOTO": 174.92999999999998,
+    "DOCUMENT": 250.29999999999995,
+    "VIDEO": 156.97,
+    "ARCHIVAL_DRAWING": 139.35999999999996,
+    "PHOTO_DOCUMENT": 26.66,
+    "NATIVE_GRAPHIC": 68.74,
+    "END_SCREEN": 20.0
+  },
+  "planned_moving_archive_seconds": 156.97,
+  "archival_primary_visual_seconds": 748.22,
+  "archival_primary_visual_percent": 91.59,
+  "mandatory_generated_stills": 0,
+  "generated_video": 0,
+  "stock_selected": 0,
+  "motion_source_windows_unique": true,
+  "overlays_are_counted_separately_from_primary_sources": true,
+  "rights_holds_preserved": true,
+  "moving_archive_rights_hold_seconds": 149.79,
+  "full_av_review": false,
+  "new_cleared_construction_or_trials_footage_found": false,
+  "not_a_claim_of_video_dominance": true,
+  "narration_unchanged": true,
+  "fps": "25 proposed only; no timeline or frame rate lock created"
+}

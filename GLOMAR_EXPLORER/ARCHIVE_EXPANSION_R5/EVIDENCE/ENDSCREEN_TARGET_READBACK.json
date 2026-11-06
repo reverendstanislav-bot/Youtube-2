@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-11-06T00:24:39.463637+00:00",
+  "video_id": "sP67aPtpwKg",
+  "source_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsP67aPtpwKg&format=json",
+  "catalog_evidence": "CHANNEL/RESEARCH/2026-11-02/VIDEO_METRICS.csv: published 2026-10-28",
+  "public_listing_currently_verified": false,
+  "http_status": 200,
+  "oembed": {
+    "title": "The Secret U.S. Military Project Hidden Under Greenland’s Ice",
+    "author_name": "Hidden Industrial America",
+    "author_url": "https://www.youtube.com/@HiddenIndustrialAmericaDocs",
+    "type": "video",
+    "height": 113,
+    "width": 200,
+    "version": "1.0",
+    "provider_name": "YouTube",
+    "provider_url": "https://www.youtube.com/",
+    "thumbnail_height": 360,
+    "thumbnail_width": 480,
+    "thumbnail_url": "https://i.ytimg.com/vi/sP67aPtpwKg/hqdefault.jpg",
+    "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/sP67aPtpwKg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The Secret U.S. Military Project Hidden Under Greenland’s Ice\"></iframe>"
+  },
+  "embed_available_now": true
+}
