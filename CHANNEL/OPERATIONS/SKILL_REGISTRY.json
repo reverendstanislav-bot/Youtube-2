@@ -1,0 +1,47 @@
+{
+  "schema": "HIA_DUAL_PIPELINE_SKILLS_V1",
+  "owner_reported_total": 22,
+  "explicitly_named_count": 20,
+  "explicitly_named_skills": [
+    "cinematic-documentary-editor",
+    "hyperframes",
+    "hyperframes-registry",
+    "media-use",
+    "remotion-to-hyperframes",
+    "reverse-any-video",
+    "hyperframes-core",
+    "hyperframes-animation",
+    "hyperframes-creative",
+    "hyperframes-media",
+    "hyperframes-cli",
+    "motion-graphics",
+    "remotion-best-practices",
+    "visual-style",
+    "adspower-browser",
+    "documentary-dual-pipeline",
+    "osint-investigation-board",
+    "geo-documentary-maps",
+    "voicebox-beat-sync",
+    "website-to-video"
+  ],
+  "unnamed_claimed_skills_count": 2,
+  "source_of_claim": "Owner supplied local installation/sync report, not remotely verified",
+  "local_paths": {
+    "codex": ".codex/skills",
+    "antigravity": "C:\\Users\\KK\\.gemini\\config\\skills\\"
+  },
+  "verification": {
+    "codex_local": "NOT_VERIFIED_FROM_GITHUB",
+    "antigravity_local": "NOT_VERIFIED_FROM_GITHUB",
+    "hyperframes_upstream": "NOT_VERIFIED",
+    "versions": "NOT_VERIFIED",
+    "capabilities": "OWNER_REPORTED_NOT_TESTED"
+  },
+  "required_before_use": [
+    "Confirm local SKILL.md exists in both environments",
+    "Check hashes/versions, required packages and commands",
+    "Check permissions, license and network access for specific assets",
+    "Run scene-level proof before production"
+  ],
+  "policy": "Do not claim 22 working integrations merely from owner report; do not copy private local paths into repository artifacts; never vendor upstream code blindly."
+}
