@@ -25,3 +25,6 @@ Updated 2026-11-05. This is the SHORT entry point, not a replacement for source-
 Do not choose a workflow from `.github/workflows/` by name similarity. Those are episode/version-specific historical automation. Read its exact source and the episode's CURRENT status before invoking any workflow. Read `CHANNEL/OPERATIONS/ACTIVE_ROUTE.md` for stage routing and stop conditions.
 
 **Preflight policy:** regular audit exits successfully on honest HOLD (so defects are reported, not hidden); `--gate edit-ready` is deliberately fail-closed. GitHub Actions runs read-only regression checks; neither check grants rights or owner acceptance.
+
+## Dual-engine integration (2026-11-05)
+For authorized editing choose one engine based on owner instruction or episode's accepted engine; read [DUAL_PIPELINE.md](DUAL_PIPELINE.md). A reported local skill list is capability discovery, never permission to run tools or override source/rights/owner locks. Validate with `python CHANNEL/tools/validate_dual_pipeline.py`. Do not load 20 named skills for every task; inspect only the needed local SKILL.md after local presence is established.
