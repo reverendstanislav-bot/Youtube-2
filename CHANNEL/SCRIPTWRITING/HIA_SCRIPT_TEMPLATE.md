@@ -103,3 +103,7 @@ Review meaningful progression around 45–75s without fake synchronized timing.
 ## Final review — no Shorts
 
 Shorts are excluded. Complete all20 rows of [QC](HIA_SCRIPT_QC_CHECKLIST.md); QC19 verifies exclusion, not four drafts. Preserve previous versions/diff and record owner decision. Copy [review JSON](templates/SCRIPT_REVIEW_TEMPLATE.json) for mechanical gate validation. No automatic production follows.
+
+## Mandatory SK01–SK12 owner review (2026-11-05)
+
+Copy the [12-skill audit matrix](HIA_12_MANDATORY_SCRIPT_SKILLS.md#twelve-skill-audit-matrix--copy-into-each-new-script-review) into this episode's script review, fill evidence-linked paragraph IDs and PASS/HOLD/REJECT or a justified evidence-based alternative for each skill. Record opening *silent vs voiced* decision (SK10), title/thumbnail → first-shot promise (SK06), act question/answer/next question (SK02/SK05), specific authentic asset/source/rights (SK04/SK08/SK12), and compression change log (SK11). All missing items are HOLD. The existing 20-item QC remains required; no owner Script Lock is inferred.
