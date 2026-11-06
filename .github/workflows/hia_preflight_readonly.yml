@@ -1,0 +1,41 @@
+name: HIA preflight (read-only)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'AGENTS.md'
+      - 'CHANNEL/OPERATIONS/**'
+      - 'CHANNEL/tools/hia_preflight.py'
+      - 'CHANNEL/tools/test_hia_preflight.py'
+      - 'GLOMAR_EXPLORER/PROJECT_STATE.json'
+      - 'GLOMAR_EXPLORER/RECHECK_R3/AUDIT_RESULT.json'
+      - 'GLOMAR_EXPLORER/RECHECK_R3/STAGE_READINESS.csv'
+      - 'GLOMAR_EXPLORER/RECHECK_R3/CORRECTED_TIMELINE_NOT_EDIT_READY.csv'
+  pull_request:
+    paths:
+      - 'AGENTS.md'
+      - 'CHANNEL/OPERATIONS/**'
+      - 'CHANNEL/tools/**'
+      - 'GLOMAR_EXPLORER/PROJECT_STATE.json'
+      - 'GLOMAR_EXPLORER/RECHECK_R3/**'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unit tests for HOLD and fail-closed semantics
+        run: python -m unittest discover -s CHANNEL/tools -p 'test_hia_preflight.py' -v
+      - name: Glomar structural audit (HOLD allowed, corruption fails)
+        run: python CHANNEL/tools/hia_preflight.py --repo . --gate audit --output /tmp/hia_preflight.json
+      - name: Upload read-only audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hia-preflight-report
+          path: /tmp/hia_preflight.json
+          if-no-files-found: ignore
