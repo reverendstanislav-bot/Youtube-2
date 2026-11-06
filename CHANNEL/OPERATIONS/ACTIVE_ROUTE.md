@@ -23,3 +23,5 @@ Updated 2026-11-05. This is the SHORT entry point, not a replacement for source-
 
 ## Workflow safety
 Do not choose a workflow from `.github/workflows/` by name similarity. Those are episode/version-specific historical automation. Read its exact source and the episode's CURRENT status before invoking any workflow. Read `CHANNEL/OPERATIONS/ACTIVE_ROUTE.md` for stage routing and stop conditions.
+
+**Preflight policy:** regular audit exits successfully on honest HOLD (so defects are reported, not hidden); `--gate edit-ready` is deliberately fail-closed. GitHub Actions runs read-only regression checks; neither check grants rights or owner acceptance.
