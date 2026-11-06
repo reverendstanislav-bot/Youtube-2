@@ -19,3 +19,6 @@ Read [universal script canon](CHANNEL/SCRIPTWRITING/HIA_SCRIPTWRITING_CANON.md),
 
 ## Exit gate
 Run relevant stage validators and report real `PASS/HOLD/REJECT` with source evidence, specific deliverable and commit SHA. For Glomar: `python CHANNEL/tools/hia_preflight.py --repo . --gate audit`; never claim edit-ready while `python CHANNEL/tools/hia_preflight.py --repo . --gate edit-ready` fails. No fabricated full-AV reviews, rights clearance or owner approvals.
+
+## Dual editing engines (owner configuration 2026-11-05)
+Read [DUAL_PIPELINE.md](CHANNEL/OPERATIONS/DUAL_PIPELINE.md) and [SKILL_REGISTRY.json](CHANNEL/OPERATIONS/SKILL_REGISTRY.json) only when task concerns montage, asset transfer, graphics or engine choice. Resolve / Remotion+Hyperframes+FFmpeg are two possible routes, not automatic authorization to render, generate or migrate. Follow the existing episode engine unless owner explicitly selects a route; local Codex/Antigravity skill installations are not verifiable from GitHub. Validate configuration with `python CHANNEL/tools/validate_dual_pipeline.py`.
