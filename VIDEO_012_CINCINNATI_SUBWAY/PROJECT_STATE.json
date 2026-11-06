@@ -29,7 +29,7 @@
   "gates": {
     "topic_owner_selected": "PASS",
     "reference_fact_audit": "PASS_WITH_HOLDS",
-    "script_draft": "R1_REJECTED_TOO_DRY; RU_R2_SUPERSEDED; RU_R3_ENERGY_PASS_CREATED_FROM_OWNER_REFERENCE",
+    "script_draft": "R1_REJECTED_TOO_DRY; RU_R2_SUPERSEDED; RU_R3_REJECTED_AS_WORSE_THAN_OWNER_REFERENCE; RU_R4_PRESERVES_OWNER_STRUCTURE_WITH_SURGICAL_FACT_CORRECTIONS",
     "fact_lock": "HOLD",
     "archive_rights_qc": "HOLD_NOT_STARTED",
     "visual_feasibility": "HOLD",
