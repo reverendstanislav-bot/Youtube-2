@@ -2,7 +2,7 @@
 
 ## Outcome
 
-Cincinnati Subway is now the owner-selected VIDEO 012 topic. A fact-corrected English R1 script and development package were created from the supplied Russian style reference. The reference supplied rhythm and narrative shape only; unsupported claims were not carried into the script.
+Cincinnati Subway is the owner-selected VIDEO 012 topic. English R1 was rejected by the owner as too dry, especially its opening. It remains preserved as history. A complete Russian R2 was written with a faster, more concrete narrative while retaining the corrected factual boundaries.
 
 ## Current gate
 
@@ -16,4 +16,4 @@ The hook is not a fictional Pentagon offer. The real paradox is stronger: Cincin
 
 ## Required next action
 
-Owner reviews `01_DEVELOPMENT/SCRIPT_DRAFT_EN_R1.md` and either requests revisions or authorizes the separate source/archive-rights stage. Script Lock remains HOLD.
+Owner reviews `01_DEVELOPMENT/SCRIPT_DRAFT_RU_R2_FOR_OWNER_REVIEW.md`. After approval, R2 must be adapted into natural en-US and pass a new claim/QC review. Script Lock remains HOLD.
