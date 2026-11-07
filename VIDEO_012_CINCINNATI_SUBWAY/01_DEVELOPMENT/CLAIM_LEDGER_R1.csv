@@ -1,0 +1,25 @@
+claim_id,paragraph_ids,claim,source,status,visual_rights
+F01,A01-P01,"1957 installation of 48-inch reinforced-concrete transmission main in rapid-transit tunnel","GCWW historical videos",PASS,HOLD
+F02,A01-P02,"More than two miles of unused tunnel beneath Cincinnati","City DOTE subway history",PASS,HOLD
+F03,A02-P01,"Route followed former Miami and Erie Canal corridor","City DOTE subway history",PASS,HOLD
+F04,A02-P02,"Selected program reduced to $6 million","City DOTE subway history",PASS,HOLD
+F05,A02-P02,"1916 vote 39,726 for and 6,652 against","City DOTE subway history",PASS,HOLD
+F06,A02-P03,"World War I delayed financing/construction and postwar costs rose","City DOTE; UC Libraries post",PASS,HOLD
+F07,A03-P01,"First contracts awarded 1919; major construction in 1920","City DOTE subway history",PASS,HOLD
+F08,A03-P01,"Principal tunnel work finished early 1923; surface work continued","City DOTE subway history",PASS,HOLD
+F09,A03-P02,"No tracks or operating equipment; crucial links missing","City DOTE; Cincinnati Public Library",PASS,HOLD
+F10,A03-P04,"Funds exhausted 1927; completion estimates varied by scope","City DOTE; 1928-29 city directory",PASS,HOLD
+F11,A01-P01;A06-P01,"Pipe installation occurred in west tube and used roughly two miles","GCWW historical videos",PASS,HOLD
+F12,A04-P01,"Failure had financial, right-of-way, political and transport-market causes","City DOTE synthesis",PASS,HOLD
+F13,A04-P02,"Rapid Transit Board eliminated under reform government","City DOTE subway history",PASS,HOLD
+F14,A04-P03,"Central Parkway opened in 1928 over subway corridor","City DOTE; Cincinnati Parks",PASS,HOLD
+F15,A04-P04,"Bond paid off 1966; total with taxes and interest $13,019,982.45","City DOTE subway history",PASS,HOLD
+F16,A05-P01,"Streetcar, automobile and freight reuse proposals failed on fit/cost","City DOTE subway history",PASS,HOLD
+F17,A05-P03,"A station was equipped for fallout/disaster government use in early 1960s","City DOTE subway history",PASS,HOLD
+F18,A05-P04,"Batman Forever considered/scouted tunnel","Secondary reports only",HOLD,HOLD
+F19,A06-P01,"GCWW main was 48-inch reinforced concrete installed in 1957","GCWW historical videos",PASS,HOLD
+F20,A06-P03,"2022 inspection found sections needing replacement or repair","City FY2023 budget update",PASS,HOLD
+F21,A06-P03,"Beekman project intended to allow abandonment of aging tunnel mains","City FY2024-25 approved budget p285",PASS,HOLD
+F22,A07-P02,"Subway Tunnel Feasibility Study procurement awarded in 2025","City Business Opportunities 265X901113",PASS,HOLD
+F23,A07-P02,"Study is not an approved construction project","Inference from procurement status",PASS,HOLD
+F24,A07-P03,"Brighton bridge replacement seeks to eliminate support on abandoned tunnel","City DOTE Brighton Approach Bridge",PASS,HOLD

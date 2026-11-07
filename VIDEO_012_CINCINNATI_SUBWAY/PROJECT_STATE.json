@@ -1,0 +1,39 @@
+{
+  "schema": "HIA_EPISODE_STATE_V1",
+  "episode": "VIDEO_012",
+  "topic": "Cincinnati Subway",
+  "owner_selected_date": "2026-11-05",
+  "base_origin_main": "48095d4c5c3ea69665e3c55b22cd7e03c55c766f",
+  "branch": "codex/video012-cincinnati-subway-r1",
+  "stage": "EDITORIAL_DEVELOPMENT",
+  "status": "DRAFT_SCRIPT_LOCK_HOLD",
+  "reference": {
+    "path": "C:/Users/KK/.codex/attachments/a652beac-09a3-4e40-a64f-11f75fc7ceac/Pasted text.txt",
+    "role": "STYLE_REFERENCE_ONLY",
+    "factual_authority": false
+  },
+  "locks": {
+    "shorts": "FORBIDDEN_UNTIL_EXPLICIT_OWNER_OVERRIDE",
+    "dialogue_subtitles": "FORBIDDEN",
+    "ai_video": "FORBIDDEN",
+    "voice_generation": "NOT_AUTHORIZED",
+    "visual_generation": "NOT_AUTHORIZED",
+    "editing": "NOT_AUTHORIZED",
+    "publishing": "NOT_AUTHORIZED"
+  },
+  "superseded_local_candidate": {
+    "topic": "Cheyenne Mountain",
+    "disposition": "PRESERVED_AS_HISTORICAL_FUTURE_CANDIDATE",
+    "deleted": false
+  },
+  "gates": {
+    "topic_owner_selected": "PASS",
+    "reference_fact_audit": "PASS_WITH_HOLDS",
+    "script_draft": "R1_REJECTED_TOO_DRY; RU_R2_SUPERSEDED; RU_R3_REJECTED_AS_WORSE_THAN_OWNER_REFERENCE; RU_R4_PRESERVES_OWNER_STRUCTURE_WITH_SURGICAL_FACT_CORRECTIONS",
+    "fact_lock": "HOLD",
+    "archive_rights_qc": "HOLD_NOT_STARTED",
+    "visual_feasibility": "HOLD",
+    "voice_timing": "HOLD",
+    "owner_script_lock": "HOLD"
+  }
+}
